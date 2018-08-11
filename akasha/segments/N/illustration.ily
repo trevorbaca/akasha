@@ -462,8 +462,10 @@ N_ViolinIMusicVoice = {                                                        %
 
 
 N_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \N_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -525,6 +527,7 @@ N_ViolinIIMusicVoice = {                                                       %
 
     % [N ViolinIIMusicVoice measure 378 / measure 10]                          %! _comment_measure_numbers
     r4                                                                         %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
@@ -544,6 +547,7 @@ N_ViolinIIMusicVoice = {                                                       %
         ]                                                                      %! sparse_getato_rhythm
 
         r16                                                                    %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     r2                                                                         %! sparse_getato_rhythm
@@ -578,6 +582,7 @@ N_ViolinIIMusicVoice = {                                                       %
 
     % [N ViolinIIMusicVoice measure 387 / measure 19]                          %! _comment_measure_numbers
     r4                                                                         %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
@@ -588,7 +593,9 @@ N_ViolinIIMusicVoice = {                                                       %
         - \staccato                                                            %! IndicatorCommand
 
         r16.                                                                   %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         % [N ViolinIIMusicVoice measure 388 / measure 20]                      %! _comment_measure_numbers
@@ -604,6 +611,7 @@ N_ViolinIIMusicVoice = {                                                       %
         fs'''!32                                                               %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     r8                                                                         %! sparse_getato_rhythm
@@ -631,8 +639,10 @@ N_ViolinIIMusicVoice = {                                                       %
 
 
 N_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \N_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -762,8 +772,10 @@ N_ViolaMusicVoice = {                                                          %
 
 
 N_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \N_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -934,6 +946,8 @@ N_CelloMusicVoice = {                                                          %
 
 
 N_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \N_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

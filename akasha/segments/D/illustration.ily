@@ -988,8 +988,10 @@ D_ViolinIMusicVoice = {                                                        %
 
 
 D_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \D_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1266,8 +1268,10 @@ D_ViolinIIMusicVoice = {                                                       %
 
 
 D_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \D_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1466,6 +1470,7 @@ D_ViolaMusicVoice = {                                                          %
     % [D ViolaMusicVoice measure 96 / measure 35]                              %! _comment_measure_numbers
     ds!2                                                                       %! untied_notes
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! glissando_rhythm
 
         % [D ViolaMusicVoice measure 97 / measure 36]                          %! _comment_measure_numbers
@@ -1475,6 +1480,7 @@ D_ViolaMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         bs,!16                                                                 %! glissando_rhythm
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! glissando_rhythm
 
     % [D ViolaMusicVoice measure 98 / measure 37]                              %! _comment_measure_numbers
@@ -1553,8 +1559,10 @@ D_ViolaMusicVoice = {                                                          %
 
 
 D_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \D_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -1838,6 +1846,7 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 110 / measure 49]                             %! _comment_measure_numbers
     c,2..                                                                      %! untied_notes
     \glissando                                                                 %! SpannerCommand
+
     \times 8/9 {                                                               %! glissando_rhythm
 
         % [D CelloMusicVoice measure 111 / measure 50]                         %! _comment_measure_numbers
@@ -1847,6 +1856,7 @@ D_CelloMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         a,,16..                                                                %! glissando_rhythm
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! glissando_rhythm
 
     % [D CelloMusicVoice measure 112 / measure 51]                             %! _comment_measure_numbers
@@ -1856,6 +1866,8 @@ D_CelloMusicVoice = {                                                          %
 
 
 D_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \D_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

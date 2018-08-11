@@ -631,6 +631,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     % [E ViolinIMusicVoice measure 116 / measure 4]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/4 {                                                               %! scratch_rhythm
 
@@ -651,10 +652,12 @@ E_ViolinIMusicVoice = {                                                        %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
 
     % [E ViolinIMusicVoice measure 118 / measure 6]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 5/3 {                                                               %! scratch_rhythm
 
@@ -664,10 +667,12 @@ E_ViolinIMusicVoice = {                                                        %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
 
     % [E ViolinIMusicVoice measure 120 / measure 8]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/4 {                                                               %! scratch_rhythm
 
@@ -679,7 +684,9 @@ E_ViolinIMusicVoice = {                                                        %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/4 {                                                               %! scratch_rhythm
 
@@ -691,7 +698,9 @@ E_ViolinIMusicVoice = {                                                        %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
+
     \times 8/9 {                                                               %! scratch_rhythm
 
         % [E ViolinIMusicVoice measure 123 / measure 11]                       %! _comment_measure_numbers
@@ -712,7 +721,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         e'8                                                                    %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
+
     \times 8/9 {                                                               %! scratch_rhythm
 
         % [E ViolinIMusicVoice measure 124 / measure 12]                       %! _comment_measure_numbers
@@ -733,7 +744,9 @@ E_ViolinIMusicVoice = {                                                        %
         fs'!8                                                                  %! scratch_rhythm
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 10/11 {                                                             %! scratch_rhythm
 
@@ -759,7 +772,9 @@ E_ViolinIMusicVoice = {                                                        %
         fs'!8                                                                  %! scratch_rhythm
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/7 {                                                               %! scratch_rhythm
 
@@ -777,7 +792,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         g'8                                                                    %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/7 {                                                               %! scratch_rhythm
 
@@ -798,7 +815,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/13 {                                                             %! scratch_rhythm
 
@@ -828,7 +847,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \times 8/9 {                                                               %! scratch_rhythm
 
         % [E ViolinIMusicVoice measure 129 / measure 17]                       %! _comment_measure_numbers
@@ -849,7 +870,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         bf'!8                                                                  %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/13 {                                                             %! scratch_rhythm
 
@@ -879,7 +902,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/13 {                                                             %! scratch_rhythm
 
@@ -909,7 +934,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/13 {                                                             %! scratch_rhythm
 
@@ -939,7 +966,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \times 8/9 {                                                               %! scratch_rhythm
 
         % [E ViolinIMusicVoice measure 133 / measure 21]                       %! _comment_measure_numbers
@@ -960,7 +989,9 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         af'!8                                                                  %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/7 {                                                               %! scratch_rhythm
 
@@ -978,6 +1009,7 @@ E_ViolinIMusicVoice = {                                                        %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
 
     % [E ViolinIMusicVoice measure 135 / measure 23]                           %! _comment_measure_numbers
@@ -1011,6 +1043,7 @@ E_ViolinIMusicVoice = {                                                        %
     r4                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1028,7 +1061,9 @@ E_ViolinIMusicVoice = {                                                        %
         b'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1052,6 +1087,7 @@ E_ViolinIMusicVoice = {                                                        %
         g'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     % [E ViolinIMusicVoice measure 137 / measure 25]                           %! _comment_measure_numbers
@@ -1069,6 +1105,7 @@ E_ViolinIMusicVoice = {                                                        %
     ]                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1086,7 +1123,9 @@ E_ViolinIMusicVoice = {                                                        %
         bf'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIMusicVoice measure 138 / measure 26]                       %! _comment_measure_numbers
@@ -1111,6 +1150,7 @@ E_ViolinIMusicVoice = {                                                        %
         d''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1127,6 +1167,7 @@ E_ViolinIMusicVoice = {                                                        %
     ]                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIMusicVoice measure 139 / measure 27]                       %! _comment_measure_numbers
@@ -1145,7 +1186,9 @@ E_ViolinIMusicVoice = {                                                        %
         bf'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1169,6 +1212,7 @@ E_ViolinIMusicVoice = {                                                        %
         d''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1183,6 +1227,7 @@ E_ViolinIMusicVoice = {                                                        %
     b'16                                                                       %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIMusicVoice measure 140 / measure 28]                       %! _comment_measure_numbers
@@ -1204,7 +1249,9 @@ E_ViolinIMusicVoice = {                                                        %
         e''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1222,7 +1269,9 @@ E_ViolinIMusicVoice = {                                                        %
         cs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1246,6 +1295,7 @@ E_ViolinIMusicVoice = {                                                        %
         c''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1263,6 +1313,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     % [E ViolinIMusicVoice measure 141 / measure 29]                           %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1280,7 +1331,9 @@ E_ViolinIMusicVoice = {                                                        %
         ef''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1304,6 +1357,7 @@ E_ViolinIMusicVoice = {                                                        %
         f''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1318,6 +1372,7 @@ E_ViolinIMusicVoice = {                                                        %
     e''16                                                                      %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1338,7 +1393,9 @@ E_ViolinIMusicVoice = {                                                        %
         d''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIMusicVoice measure 142 / measure 30]                       %! _comment_measure_numbers
@@ -1357,7 +1414,9 @@ E_ViolinIMusicVoice = {                                                        %
         f''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1381,6 +1440,7 @@ E_ViolinIMusicVoice = {                                                        %
         fs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1395,6 +1455,7 @@ E_ViolinIMusicVoice = {                                                        %
     g''16                                                                      %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1415,7 +1476,9 @@ E_ViolinIMusicVoice = {                                                        %
         e''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
@@ -1441,7 +1504,9 @@ E_ViolinIMusicVoice = {                                                        %
         af''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1471,6 +1536,7 @@ E_ViolinIMusicVoice = {                                                        %
         bf''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1491,6 +1557,7 @@ E_ViolinIMusicVoice = {                                                        %
     af''!16                                                                    %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/8 {                                                               %! dense_getato_rhythm
 
@@ -1518,7 +1585,9 @@ E_ViolinIMusicVoice = {                                                        %
         af''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
@@ -1544,7 +1613,9 @@ E_ViolinIMusicVoice = {                                                        %
         bf''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1574,6 +1645,7 @@ E_ViolinIMusicVoice = {                                                        %
         bf''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1594,6 +1666,7 @@ E_ViolinIMusicVoice = {                                                        %
     af''!16                                                                    %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/8 {                                                               %! dense_getato_rhythm
 
@@ -1623,7 +1696,9 @@ E_ViolinIMusicVoice = {                                                        %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
@@ -1649,7 +1724,9 @@ E_ViolinIMusicVoice = {                                                        %
         cs'''!16                                                               %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1679,6 +1756,7 @@ E_ViolinIMusicVoice = {                                                        %
         bf''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1699,6 +1777,7 @@ E_ViolinIMusicVoice = {                                                        %
     c'''16                                                                     %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/8 {                                                               %! dense_getato_rhythm
 
@@ -1726,7 +1805,9 @@ E_ViolinIMusicVoice = {                                                        %
         f'''16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIMusicVoice measure 146 / measure 34]                       %! _comment_measure_numbers
@@ -1745,7 +1826,9 @@ E_ViolinIMusicVoice = {                                                        %
         d'''16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1769,6 +1852,7 @@ E_ViolinIMusicVoice = {                                                        %
         cs'''!16                                                               %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1783,6 +1867,7 @@ E_ViolinIMusicVoice = {                                                        %
     ef'''!16                                                                   %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1803,7 +1888,9 @@ E_ViolinIMusicVoice = {                                                        %
         f'''16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
@@ -1829,7 +1916,9 @@ E_ViolinIMusicVoice = {                                                        %
         ef'''!16                                                               %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1859,6 +1948,7 @@ E_ViolinIMusicVoice = {                                                        %
         e'''16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1879,6 +1969,7 @@ E_ViolinIMusicVoice = {                                                        %
     f'''16                                                                     %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/8 {                                                               %! dense_getato_rhythm
 
@@ -1906,7 +1997,9 @@ E_ViolinIMusicVoice = {                                                        %
         af'''!16                                                               %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIMusicVoice measure 148 / measure 36]                       %! _comment_measure_numbers
@@ -1925,7 +2018,9 @@ E_ViolinIMusicVoice = {                                                        %
         e'''16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1949,6 +2044,7 @@ E_ViolinIMusicVoice = {                                                        %
         af'''!16                                                               %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -1963,6 +2059,7 @@ E_ViolinIMusicVoice = {                                                        %
     f'''16                                                                     %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -1983,6 +2080,7 @@ E_ViolinIMusicVoice = {                                                        %
         bf'''!16                                                               %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
@@ -2008,8 +2106,10 @@ E_ViolinIMusicVoice = {                                                        %
 
 
 E_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \E_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -2047,6 +2147,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     % [E ViolinIIMusicVoice measure 114 / measure 2]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/4 {                                                               %! scratch_rhythm
 
@@ -2067,10 +2168,12 @@ E_ViolinIIMusicVoice = {                                                       %
                     "terminate each not abruptly"                              %! baca_markup:IndicatorCommand
                 }                                                              %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
+
     }                                                                          %! scratch_rhythm
 
     % [E ViolinIIMusicVoice measure 116 / measure 4]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
@@ -2084,10 +2187,12 @@ E_ViolinIIMusicVoice = {                                                       %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
 
     % [E ViolinIIMusicVoice measure 118 / measure 6]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 5/6 {                                                               %! scratch_rhythm
 
@@ -2103,10 +2208,12 @@ E_ViolinIIMusicVoice = {                                                       %
         r4
 
         a4                                                                     %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
 
     % [E ViolinIIMusicVoice measure 120 / measure 8]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/3 {                                                               %! scratch_rhythm
 
@@ -2116,7 +2223,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r4
 
         af!4                                                                   %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/3 {                                                               %! scratch_rhythm
 
@@ -2126,7 +2235,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r4
 
         g4                                                                     %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 8/7 {                                                               %! scratch_rhythm
 
@@ -2147,7 +2258,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 8/7 {                                                               %! scratch_rhythm
 
@@ -2165,7 +2278,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r8
 
         bf!8                                                                   %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 10/9 {                                                              %! scratch_rhythm
 
@@ -2187,7 +2302,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r8
 
         b8                                                                     %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
@@ -2201,7 +2318,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
@@ -2215,7 +2334,9 @@ E_ViolinIIMusicVoice = {                                                       %
         a8                                                                     %! scratch_rhythm
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/11 {                                                             %! scratch_rhythm
 
@@ -2241,7 +2362,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 8/7 {                                                               %! scratch_rhythm
 
@@ -2259,7 +2382,9 @@ E_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! scratch_rhythm
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/11 {                                                             %! scratch_rhythm
 
@@ -2285,7 +2410,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/11 {                                                             %! scratch_rhythm
 
@@ -2316,7 +2443,9 @@ E_ViolinIIMusicVoice = {                                                       %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/11 {                                                             %! scratch_rhythm
 
@@ -2345,10 +2474,12 @@ E_ViolinIIMusicVoice = {                                                       %
         - \staccato                                                            %! IndicatorCommand
 
         r8
+
     }                                                                          %! scratch_rhythm
 
     % [E ViolinIIMusicVoice measure 133 / measure 21]                          %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2367,6 +2498,7 @@ E_ViolinIIMusicVoice = {                                                       %
         bf!16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
@@ -2397,6 +2529,7 @@ E_ViolinIIMusicVoice = {                                                       %
     d'16                                                                       %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2417,7 +2550,9 @@ E_ViolinIIMusicVoice = {                                                       %
         d'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2435,6 +2570,7 @@ E_ViolinIIMusicVoice = {                                                       %
         f'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
@@ -2452,6 +2588,7 @@ E_ViolinIIMusicVoice = {                                                       %
     cs'!16                                                                     %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2472,7 +2609,9 @@ E_ViolinIIMusicVoice = {                                                       %
         cs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2490,6 +2629,7 @@ E_ViolinIIMusicVoice = {                                                       %
         e'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
@@ -2506,6 +2646,7 @@ E_ViolinIIMusicVoice = {                                                       %
     cs'!16                                                                     %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 137 / measure 25]                      %! _comment_measure_numbers
@@ -2527,7 +2668,9 @@ E_ViolinIIMusicVoice = {                                                       %
         fs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2545,7 +2688,9 @@ E_ViolinIIMusicVoice = {                                                       %
         ef'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2569,6 +2714,7 @@ E_ViolinIIMusicVoice = {                                                       %
         d'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     % [E ViolinIIMusicVoice measure 138 / measure 26]                          %! _comment_measure_numbers
@@ -2584,6 +2730,7 @@ E_ViolinIIMusicVoice = {                                                       %
     fs'!16                                                                     %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2604,7 +2751,9 @@ E_ViolinIIMusicVoice = {                                                       %
         fs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2622,6 +2771,7 @@ E_ViolinIIMusicVoice = {                                                       %
         a'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     % [E ViolinIIMusicVoice measure 139 / measure 27]                          %! _comment_measure_numbers
@@ -2639,6 +2789,7 @@ E_ViolinIIMusicVoice = {                                                       %
     f'16                                                                       %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2659,7 +2810,9 @@ E_ViolinIIMusicVoice = {                                                       %
         f'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 140 / measure 28]                      %! _comment_measure_numbers
@@ -2678,7 +2831,9 @@ E_ViolinIIMusicVoice = {                                                       %
         af'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2702,6 +2857,7 @@ E_ViolinIIMusicVoice = {                                                       %
         a'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -2716,6 +2872,7 @@ E_ViolinIIMusicVoice = {                                                       %
     b'16                                                                       %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2736,7 +2893,9 @@ E_ViolinIIMusicVoice = {                                                       %
         g'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 141 / measure 29]                      %! _comment_measure_numbers
@@ -2755,7 +2914,9 @@ E_ViolinIIMusicVoice = {                                                       %
         fs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2779,6 +2940,7 @@ E_ViolinIIMusicVoice = {                                                       %
         g'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -2793,6 +2955,7 @@ E_ViolinIIMusicVoice = {                                                       %
     b'16                                                                       %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2813,7 +2976,9 @@ E_ViolinIIMusicVoice = {                                                       %
         c''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2831,7 +2996,9 @@ E_ViolinIIMusicVoice = {                                                       %
         af'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 142 / measure 30]                      %! _comment_measure_numbers
@@ -2856,6 +3023,7 @@ E_ViolinIIMusicVoice = {                                                       %
         c''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -2870,6 +3038,7 @@ E_ViolinIIMusicVoice = {                                                       %
     a'16                                                                       %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2890,7 +3059,9 @@ E_ViolinIIMusicVoice = {                                                       %
         d''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -2908,7 +3079,9 @@ E_ViolinIIMusicVoice = {                                                       %
         b'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 143 / measure 31]                      %! _comment_measure_numbers
@@ -2939,6 +3112,7 @@ E_ViolinIIMusicVoice = {                                                       %
         c''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -2959,6 +3133,7 @@ E_ViolinIIMusicVoice = {                                                       %
     cs''!16                                                                    %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/8 {                                                               %! dense_getato_rhythm
 
@@ -2986,7 +3161,9 @@ E_ViolinIIMusicVoice = {                                                       %
         e''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
@@ -3011,7 +3188,9 @@ E_ViolinIIMusicVoice = {                                                       %
         cs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 144 / measure 32]                      %! _comment_measure_numbers
@@ -3042,6 +3221,7 @@ E_ViolinIIMusicVoice = {                                                       %
         ef''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -3062,6 +3242,7 @@ E_ViolinIIMusicVoice = {                                                       %
     g''16                                                                      %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/8 {                                                               %! dense_getato_rhythm
 
@@ -3089,7 +3270,9 @@ E_ViolinIIMusicVoice = {                                                       %
         cs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
@@ -3116,6 +3299,7 @@ E_ViolinIIMusicVoice = {                                                       %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     % [E ViolinIIMusicVoice measure 145 / measure 33]                          %! _comment_measure_numbers
@@ -3137,6 +3321,7 @@ E_ViolinIIMusicVoice = {                                                       %
     g''16                                                                      %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 12/15 {                                                             %! dense_getato_rhythm
 
         r16
@@ -3184,7 +3369,9 @@ E_ViolinIIMusicVoice = {                                                       %
         fs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/11 {                                                              %! dense_getato_rhythm
 
@@ -3221,7 +3408,9 @@ E_ViolinIIMusicVoice = {                                                       %
         b''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/12 {                                                              %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 146 / measure 34]                      %! _comment_measure_numbers
@@ -3261,7 +3450,9 @@ E_ViolinIIMusicVoice = {                                                       %
         af''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/14 {                                                              %! dense_getato_rhythm
 
         r16
@@ -3306,7 +3497,9 @@ E_ViolinIIMusicVoice = {                                                       %
         a''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 147 / measure 35]                      %! _comment_measure_numbers
@@ -3337,7 +3530,9 @@ E_ViolinIIMusicVoice = {                                                       %
         bf''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 12/17 {                                                             %! dense_getato_rhythm
 
@@ -3392,7 +3587,9 @@ E_ViolinIIMusicVoice = {                                                       %
         bf''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/10 {                                                              %! dense_getato_rhythm
 
@@ -3426,7 +3623,9 @@ E_ViolinIIMusicVoice = {                                                       %
         b''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/14 {                                                              %! dense_getato_rhythm
 
         % [E ViolinIIMusicVoice measure 148 / measure 36]                      %! _comment_measure_numbers
@@ -3472,7 +3671,9 @@ E_ViolinIIMusicVoice = {                                                       %
         b''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/11 {                                                              %! dense_getato_rhythm
 
         r16
@@ -3508,6 +3709,7 @@ E_ViolinIIMusicVoice = {                                                       %
         e'''16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
@@ -3529,8 +3731,10 @@ E_ViolinIIMusicVoice = {                                                       %
 
 
 E_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \E_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -4061,8 +4265,10 @@ E_ViolaMusicVoice = {                                                          %
 
 
 E_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \E_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -4096,6 +4302,7 @@ E_CelloMusicVoice = {                                                          %
 
     % [E CelloMusicVoice measure 114 / measure 2]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
@@ -4118,6 +4325,7 @@ E_CelloMusicVoice = {                                                          %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
 
     % [E CelloMusicVoice measure 116 / measure 4]                              %! _comment_measure_numbers
@@ -4128,6 +4336,7 @@ E_CelloMusicVoice = {                                                          %
 
     % [E CelloMusicVoice measure 118 / measure 6]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 5/4 {                                                               %! scratch_rhythm
 
@@ -4139,10 +4348,12 @@ E_CelloMusicVoice = {                                                          %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
 
     % [E CelloMusicVoice measure 120 / measure 8]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/5 {                                                               %! scratch_rhythm
 
@@ -4159,7 +4370,9 @@ E_CelloMusicVoice = {                                                          %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/5 {                                                               %! scratch_rhythm
 
@@ -4173,7 +4386,9 @@ E_CelloMusicVoice = {                                                          %
         bf,!4                                                                  %! scratch_rhythm
 
         r4
+
     }                                                                          %! scratch_rhythm
+
     \times 8/10 {                                                              %! scratch_rhythm
 
         % [E CelloMusicVoice measure 123 / measure 11]                         %! _comment_measure_numbers
@@ -4196,7 +4411,9 @@ E_CelloMusicVoice = {                                                          %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \times 8/10 {                                                              %! scratch_rhythm
 
         % [E CelloMusicVoice measure 124 / measure 12]                         %! _comment_measure_numbers
@@ -4219,7 +4436,9 @@ E_CelloMusicVoice = {                                                          %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 10/12 {                                                             %! scratch_rhythm
 
@@ -4247,7 +4466,9 @@ E_CelloMusicVoice = {                                                          %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/8 {                                                               %! scratch_rhythm
 
@@ -4267,7 +4488,9 @@ E_CelloMusicVoice = {                                                          %
         b,8                                                                    %! scratch_rhythm
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/8 {                                                               %! scratch_rhythm
 
@@ -4292,7 +4515,9 @@ E_CelloMusicVoice = {                                                          %
 
         d8                                                                     %! scratch_rhythm
         - \staccato                                                            %! IndicatorCommand
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/14 {                                                             %! scratch_rhythm
 
@@ -4327,7 +4552,9 @@ E_CelloMusicVoice = {                                                          %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \times 8/10 {                                                              %! scratch_rhythm
 
         % [E CelloMusicVoice measure 129 / measure 17]                         %! _comment_measure_numbers
@@ -4352,7 +4579,9 @@ E_CelloMusicVoice = {                                                          %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/14 {                                                             %! scratch_rhythm
 
@@ -4387,6 +4616,7 @@ E_CelloMusicVoice = {                                                          %
         r8
 
         r8
+
     }                                                                          %! scratch_rhythm
 
     % [E CelloMusicVoice measure 131 / measure 19]                             %! _comment_measure_numbers
@@ -4422,6 +4652,7 @@ E_CelloMusicVoice = {                                                          %
     r4.                                                                        %! dense_getato_rhythm
 
     r4.                                                                        %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
@@ -4446,7 +4677,9 @@ E_CelloMusicVoice = {                                                          %
         cs!16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 133 / measure 21]                         %! _comment_measure_numbers
@@ -4471,6 +4704,7 @@ E_CelloMusicVoice = {                                                          %
         g16                                                                    %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -4487,6 +4721,7 @@ E_CelloMusicVoice = {                                                          %
     ]                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4504,7 +4739,9 @@ E_CelloMusicVoice = {                                                          %
         cs!16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 134 / measure 22]                         %! _comment_measure_numbers
@@ -4529,6 +4766,7 @@ E_CelloMusicVoice = {                                                          %
         f16                                                                    %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -4545,6 +4783,7 @@ E_CelloMusicVoice = {                                                          %
     ]                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 135 / measure 23]                         %! _comment_measure_numbers
@@ -4567,7 +4806,9 @@ E_CelloMusicVoice = {                                                          %
         af!16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4591,6 +4832,7 @@ E_CelloMusicVoice = {                                                          %
         f16                                                                    %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -4605,6 +4847,7 @@ E_CelloMusicVoice = {                                                          %
     f16                                                                        %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4625,7 +4868,9 @@ E_CelloMusicVoice = {                                                          %
         g16                                                                    %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 136 / measure 24]                         %! _comment_measure_numbers
@@ -4644,7 +4889,9 @@ E_CelloMusicVoice = {                                                          %
         af!16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4668,6 +4915,7 @@ E_CelloMusicVoice = {                                                          %
         bf!16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -4684,6 +4932,7 @@ E_CelloMusicVoice = {                                                          %
     ]                                                                          %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4701,7 +4950,9 @@ E_CelloMusicVoice = {                                                          %
         fs!16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 137 / measure 25]                         %! _comment_measure_numbers
@@ -4726,6 +4977,7 @@ E_CelloMusicVoice = {                                                          %
         g16                                                                    %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -4740,6 +4992,7 @@ E_CelloMusicVoice = {                                                          %
     b16                                                                        %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4760,7 +5013,9 @@ E_CelloMusicVoice = {                                                          %
         c'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 138 / measure 26]                         %! _comment_measure_numbers
@@ -4779,7 +5034,9 @@ E_CelloMusicVoice = {                                                          %
         af!16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4803,6 +5060,7 @@ E_CelloMusicVoice = {                                                          %
         c'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
@@ -4836,6 +5094,7 @@ E_CelloMusicVoice = {                                                          %
     cs'!16                                                                     %! dense_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
+
     \times 8/9 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4865,7 +5124,9 @@ E_CelloMusicVoice = {                                                          %
         b16                                                                    %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 140 / measure 28]                         %! _comment_measure_numbers
@@ -4890,7 +5151,9 @@ E_CelloMusicVoice = {                                                          %
         c'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/10 {                                                              %! dense_getato_rhythm
 
         r16
@@ -4923,7 +5186,9 @@ E_CelloMusicVoice = {                                                          %
         e'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/12 {                                                              %! dense_getato_rhythm
 
         r16
@@ -4963,7 +5228,9 @@ E_CelloMusicVoice = {                                                          %
         cs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/5 {                                                               %! dense_getato_rhythm
 
         r16
@@ -4981,7 +5248,9 @@ E_CelloMusicVoice = {                                                          %
         d'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/11 {                                                              %! dense_getato_rhythm
 
         r16
@@ -5017,7 +5286,9 @@ E_CelloMusicVoice = {                                                          %
         ef'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -5038,7 +5309,9 @@ E_CelloMusicVoice = {                                                          %
         ef'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/12 {                                                              %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 142 / measure 30]                         %! _comment_measure_numbers
@@ -5078,7 +5351,9 @@ E_CelloMusicVoice = {                                                          %
         fs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/9 {                                                               %! dense_getato_rhythm
 
         r16
@@ -5108,7 +5383,9 @@ E_CelloMusicVoice = {                                                          %
         e'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 143 / measure 31]                         %! _comment_measure_numbers
@@ -5139,7 +5416,9 @@ E_CelloMusicVoice = {                                                          %
         fs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 12/14 {                                                             %! dense_getato_rhythm
 
@@ -5185,7 +5464,9 @@ E_CelloMusicVoice = {                                                          %
         fs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/10 {                                                              %! dense_getato_rhythm
 
@@ -5219,7 +5500,9 @@ E_CelloMusicVoice = {                                                          %
         g'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 12/13 {                                                             %! dense_getato_rhythm
 
@@ -5263,7 +5546,9 @@ E_CelloMusicVoice = {                                                          %
         af'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 12/15 {                                                             %! dense_getato_rhythm
 
         r16
@@ -5313,7 +5598,9 @@ E_CelloMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 12/18 {                                                             %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 145 / measure 33]                         %! _comment_measure_numbers
@@ -5371,7 +5658,9 @@ E_CelloMusicVoice = {                                                          %
         cs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 6/9 {                                                               %! dense_getato_rhythm
 
         r16
@@ -5401,7 +5690,9 @@ E_CelloMusicVoice = {                                                          %
         cs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 10/15 {                                                             %! dense_getato_rhythm
 
         r16
@@ -5450,7 +5741,9 @@ E_CelloMusicVoice = {                                                          %
         e''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/12 {                                                              %! dense_getato_rhythm
 
         r16
@@ -5489,7 +5782,9 @@ E_CelloMusicVoice = {                                                          %
         cs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         r16
@@ -5510,7 +5805,9 @@ E_CelloMusicVoice = {                                                          %
         fs''!16                                                                %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 12/15 {                                                             %! dense_getato_rhythm
 
         % [E CelloMusicVoice measure 147 / measure 35]                         %! _comment_measure_numbers
@@ -5559,7 +5856,9 @@ E_CelloMusicVoice = {                                                          %
         f''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/11 {                                                              %! dense_getato_rhythm
 
@@ -5596,7 +5895,9 @@ E_CelloMusicVoice = {                                                          %
         f''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 10/14 {                                                             %! dense_getato_rhythm
 
@@ -5642,7 +5943,9 @@ E_CelloMusicVoice = {                                                          %
         f''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/14 {                                                              %! dense_getato_rhythm
 
         r16
@@ -5687,7 +5990,9 @@ E_CelloMusicVoice = {                                                          %
         c'''16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/7 {                                                               %! dense_getato_rhythm
 
         r16
@@ -5711,6 +6016,7 @@ E_CelloMusicVoice = {                                                          %
         a''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r2                                                                         %! dense_getato_rhythm
@@ -5728,6 +6034,8 @@ E_CelloMusicVoice = {                                                          %
 
 
 E_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \E_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

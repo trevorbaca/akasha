@@ -511,6 +511,7 @@ K_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup ((29))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [K.29]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[14'54'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+
     \repeat volta 2
     {
 
@@ -619,6 +620,7 @@ K_GlobalSkips = {                                                              %
     %@% ^ \baca-dark-cyan-markup ((39))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
     %@% ^ \baca-dark-cyan-markup [K.39]                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
     %@% ^ \baca-dark-cyan-markup "[15'30'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
+
     }
 
     % [K GlobalSkips measure 304 / measure 40]                                 %! _comment_measure_numbers
@@ -801,6 +803,7 @@ K_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup ((55))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [K.55]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[16'30'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+
     \repeat volta 2
     {
 
@@ -872,6 +875,7 @@ K_GlobalSkips = {                                                              %
     %@% ^ \baca-dark-cyan-markup [K.60]                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
     %@% ^ \baca-dark-cyan-markup "[16'51'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
         \revert TextScript.extra-offset                                        %! baca_text_script_extra_offset:OverrideCommand(2)
+
     }
 
     % [K GlobalSkips measure 325 / measure 61]                                 %! _comment_measure_numbers
@@ -1486,8 +1490,10 @@ K_ViolinIMusicVoice = {                                                        %
 
 
 K_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \K_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -2009,8 +2015,10 @@ K_ViolinIIMusicVoice = {                                                       %
 
 
 K_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \K_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2531,8 +2539,10 @@ K_ViolaMusicVoice = {                                                          %
 
 
 K_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \K_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -3052,6 +3062,8 @@ K_CelloMusicVoice = {                                                          %
 
 
 K_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \K_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

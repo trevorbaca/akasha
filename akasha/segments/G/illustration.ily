@@ -278,6 +278,7 @@ G_GlobalSkips = {                                                              %
 
 
 G_ViolinIMusicVoice = {                                                        %! extern
+
     \times 8/14 {                                                              %! dense_getato_rhythm
 
         % [G ViolinIMusicVoice measure 200 / measure 1]                        %! _comment_measure_numbers
@@ -343,7 +344,9 @@ G_ViolinIMusicVoice = {                                                        %
 
         g'''16                                                                 %! dense_getato_rhythm
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/10 {                                                              %! dense_getato_rhythm
 
@@ -368,7 +371,9 @@ G_ViolinIMusicVoice = {                                                        %
 
         a'''16                                                                 %! dense_getato_rhythm
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 4/6 {                                                               %! dense_getato_rhythm
 
         % [G ViolinIMusicVoice measure 201 / measure 2]                        %! _comment_measure_numbers
@@ -385,7 +390,9 @@ G_ViolinIMusicVoice = {                                                        %
 
         a'''16                                                                 %! dense_getato_rhythm
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 8/11 {                                                              %! dense_getato_rhythm
 
         r16
@@ -411,11 +418,13 @@ G_ViolinIMusicVoice = {                                                        %
 
         cs''''!16                                                              %! dense_getato_rhythm
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     r16
 
     c''''16                                                                    %! dense_getato_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/10 {                                                              %! dense_getato_rhythm
 
@@ -441,7 +450,9 @@ G_ViolinIMusicVoice = {                                                        %
 
         a'''16                                                                 %! dense_getato_rhythm
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
+
     \times 12/18 {                                                             %! dense_getato_rhythm
 
         % [G ViolinIMusicVoice measure 203 / measure 4]                        %! _comment_measure_numbers
@@ -484,6 +495,7 @@ G_ViolinIMusicVoice = {                                                        %
         cs''''!16                                                              %! dense_getato_rhythm
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! dense_getato_rhythm
+
     }                                                                          %! dense_getato_rhythm
 
     % [G ViolinIMusicVoice measure 204 / measure 5]                            %! _comment_measure_numbers
@@ -592,8 +604,10 @@ G_ViolinIMusicVoice = {                                                        %
 
 
 G_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \G_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -758,8 +772,10 @@ G_ViolinIIMusicVoice = {                                                       %
 
 
 G_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \G_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -933,8 +949,10 @@ G_ViolaMusicVoice = {                                                          %
 
 
 G_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \G_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -1097,6 +1115,8 @@ G_CelloMusicVoice = {                                                          %
 
 
 G_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \G_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

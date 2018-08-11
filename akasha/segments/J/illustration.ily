@@ -102,6 +102,7 @@ J_ViolinIMusicVoice = {                                                        %
             "Vn. I"                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/4 {                                                               %! scratch_rhythm
 
@@ -122,7 +123,9 @@ J_ViolinIMusicVoice = {                                                        %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/4 {                                                               %! scratch_rhythm
 
@@ -134,6 +137,7 @@ J_ViolinIMusicVoice = {                                                        %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
 
     % [J ViolinIMusicVoice measure 264 / measure 4]                            %! _comment_measure_numbers
@@ -143,12 +147,15 @@ J_ViolinIMusicVoice = {                                                        %
 
 
 J_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \J_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
 J_ViolinIIMusicVoice = {                                                       %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 4/4 {                                                               %! scratch_rhythm
 
@@ -196,7 +203,9 @@ J_ViolinIIMusicVoice = {                                                       %
                     "terminate each note abruptly"                             %! baca_markup:IndicatorCommand
                 }                                                              %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
@@ -210,7 +219,9 @@ J_ViolinIIMusicVoice = {                                                       %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/7 {                                                               %! scratch_rhythm
 
@@ -228,6 +239,7 @@ J_ViolinIIMusicVoice = {                                                       %
         r4
 
         a4                                                                     %! scratch_rhythm
+
     }                                                                          %! scratch_rhythm
 
     % [J ViolinIIMusicVoice measure 264 / measure 4]                           %! _comment_measure_numbers
@@ -237,8 +249,10 @@ J_ViolinIIMusicVoice = {                                                       %
 
 
 J_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \J_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -287,12 +301,15 @@ J_ViolaMusicVoice = {                                                          %
 
 
 J_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \J_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
 J_CelloMusicVoice = {                                                          %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 4/3 {                                                               %! scratch_rhythm
 
@@ -334,10 +351,12 @@ J_CelloMusicVoice = {                                                          %
             }                                                                  %! baca_markup:IndicatorCommand
 
         r4
+
     }                                                                          %! scratch_rhythm
 
     % [J CelloMusicVoice measure 262 / measure 2]                              %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
@@ -351,6 +370,7 @@ J_CelloMusicVoice = {                                                          %
         r4
 
         r4
+
     }                                                                          %! scratch_rhythm
 
     % [J CelloMusicVoice measure 264 / measure 4]                              %! _comment_measure_numbers
@@ -360,6 +380,8 @@ J_CelloMusicVoice = {                                                          %
 
 
 J_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \J_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

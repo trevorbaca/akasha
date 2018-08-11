@@ -29,6 +29,7 @@ H_GlobalRests = {                                                              %
 
 
 H_GlobalSkips = {                                                              %! extern
+
     \repeat volta 2
     {
 
@@ -129,10 +130,12 @@ H_GlobalSkips = {                                                              %
         \bar "|"                                                               %! _attach_final_bar_line
 
     }
+
 }                                                                              %! extern
 
 
 H_ViolinIMusicVoice = {                                                        %! extern
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -215,8 +218,10 @@ H_ViolinIMusicVoice = {                                                        %
         \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
         e'16 * 59/32                                                           %! accelerando_rhythm
         ]                                                                      %! accelerando_rhythm
+
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -277,6 +282,7 @@ H_ViolinIMusicVoice = {                                                        %
         \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
         e'16 * 409/64                                                          %! accelerando_rhythm
         ]                                                                      %! accelerando_rhythm
+
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
@@ -301,12 +307,15 @@ H_ViolinIMusicVoice = {                                                        %
 
 
 H_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \H_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
 H_ViolinIIMusicVoice = {                                                       %! extern
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -391,8 +400,10 @@ H_ViolinIIMusicVoice = {                                                       %
         \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
         cs'!16 * 191/32                                                        %! ritardando_rhythm
         ]                                                                      %! ritardando_rhythm
+
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -451,6 +462,7 @@ H_ViolinIIMusicVoice = {                                                       %
         \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
         ds'!16 * 15/8                                                          %! ritardando_rhythm
         ]                                                                      %! ritardando_rhythm
+
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
@@ -475,8 +487,10 @@ H_ViolinIIMusicVoice = {                                                       %
 
 
 H_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \H_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -525,6 +539,7 @@ H_ViolaMusicVoice = {                                                          %
 
     % [H ViolaMusicVoice measure 220 / measure 4]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 8/9 {                                                               %! glissando_rhythm
 
         % [H ViolaMusicVoice measure 221 / measure 5]                          %! _comment_measure_numbers
@@ -543,6 +558,7 @@ H_ViolaMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         cqs!8..                                                                %! glissando_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! glissando_rhythm
 
     % [H ViolaMusicVoice measure 223 / measure 7]                              %! _comment_measure_numbers
@@ -552,12 +568,15 @@ H_ViolaMusicVoice = {                                                          %
 
 
 H_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \H_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
 H_CelloMusicVoice = {                                                          %! extern
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -650,6 +669,7 @@ H_CelloMusicVoice = {                                                          %
         \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
         d'16 * 461/64                                                          %! ritardando_rhythm
         ]                                                                      %! ritardando_rhythm
+
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
@@ -660,6 +680,7 @@ H_CelloMusicVoice = {                                                          %
 
     % [H CelloMusicVoice measure 220 / measure 4]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 8/9 {                                                               %! glissando_rhythm
 
         % [H CelloMusicVoice measure 221 / measure 5]                          %! _comment_measure_numbers
@@ -674,6 +695,7 @@ H_CelloMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         bf,,!8..                                                               %! glissando_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! glissando_rhythm
 
     % [H CelloMusicVoice measure 223 / measure 7]                              %! _comment_measure_numbers
@@ -683,6 +705,8 @@ H_CelloMusicVoice = {                                                          %
 
 
 H_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \H_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
