@@ -329,13 +329,13 @@ maker(
     (['v1', 'v2'], (8, 9)),
     baca.dynamic('pp_ancora'),
     baca.markup('tasto + XFB'),
-    baca.scope(
-        0,
+    baca.new(
         baca.pitches('Eb5 F5'),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.pitches('B4 C#5'),
+        match=1,
         ),
     )
 

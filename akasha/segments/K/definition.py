@@ -74,21 +74,21 @@ maker(
     (['v1', 'v2', 'va', 'vc'], (1, 28)),
     baca.dynamic('"ff"'),
     baca.markup('tasto + 1 click/3-4 sec.'),
-    baca.scope(
-        0,
+    baca.new(
         baca.pitch('A5'),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.pitch('G#+4'),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         baca.pitch('A+2'),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         baca.pitch('A1'),
+        match=3,
         ),
     )
 
@@ -153,21 +153,21 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], (30, 39)),
-    baca.scope(
-        0,
+    baca.new(
         baca.pitch('A5'),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.pitches('A4 G#+4'),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         baca.pitches('A2 A+2'),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         baca.pitch('A1'),
+        match=3,
         ),
     )
 
@@ -322,13 +322,13 @@ maker(
 
 maker(
     (['v1', 'v2'], (56, 69)),
-    baca.scope(
-        0,
+    baca.new(
         baca.ottava_bracket_staff_padding(12),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.ottava_bracket_staff_padding(10),
+        match=1,
         ),
     baca.ottava(),
     )
@@ -360,20 +360,20 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], (56, -1)),
-    baca.scope(
-        0,
+    baca.new(
         baca.text_spanner_staff_padding(9.5),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.text_spanner_staff_padding(7.5),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         baca.text_spanner_staff_padding(7),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         baca.text_spanner_staff_padding(5),
+        match=3,
         ),
     )
