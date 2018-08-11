@@ -374,6 +374,7 @@ A_ViolinIMusicVoice = {                                                        %
 
     % [A ViolinIMusicVoice measure 12 / measure 9]                             %! _comment_measure_numbers
     r1                                                                         %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -391,7 +392,9 @@ A_ViolinIMusicVoice = {                                                        %
         ]                                                                      %! sparse_getato_rhythm
 
         r8.                                                                    %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r16.                                                                   %! sparse_getato_rhythm
@@ -405,6 +408,7 @@ A_ViolinIMusicVoice = {                                                        %
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     % [A ViolinIMusicVoice measure 13 / measure 10]                            %! _comment_measure_numbers
@@ -412,6 +416,7 @@ A_ViolinIMusicVoice = {                                                        %
 
     % [A ViolinIMusicVoice measure 14 / measure 11]                            %! _comment_measure_numbers
     r1.                                                                        %! accelerando_rhythm
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -485,11 +490,13 @@ A_ViolinIMusicVoice = {                                                        %
         \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
         d''16 * 117/16                                                         %! accelerando_rhythm
         ]                                                                      %! accelerando_rhythm
+
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
     % [A ViolinIMusicVoice measure 17 / measure 14]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -548,11 +555,13 @@ A_ViolinIMusicVoice = {                                                        %
         \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
         d''16 * 61/32                                                          %! accelerando_rhythm
         ]                                                                      %! accelerando_rhythm
+
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
     % [A ViolinIMusicVoice measure 19 / measure 16]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -613,6 +622,7 @@ A_ViolinIMusicVoice = {                                                        %
         \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
         e''16 * 409/64                                                         %! ritardando_rhythm
         ]                                                                      %! ritardando_rhythm
+
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
@@ -629,8 +639,10 @@ A_ViolinIMusicVoice = {                                                        %
 
 
 A_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \A_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -665,6 +677,7 @@ A_ViolinIIMusicVoice = {                                                       %
 
     % [A ViolinIIMusicVoice measure 6 / measure 3]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         % [A ViolinIIMusicVoice measure 7 / measure 4]                         %! _comment_measure_numbers
@@ -683,7 +696,9 @@ A_ViolinIIMusicVoice = {                                                       %
         ]                                                                      %! sparse_getato_rhythm
 
         r8.                                                                    %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r16.                                                                   %! sparse_getato_rhythm
@@ -697,6 +712,7 @@ A_ViolinIIMusicVoice = {                                                       %
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     r2                                                                         %! sparse_getato_rhythm
@@ -737,6 +753,7 @@ A_ViolinIIMusicVoice = {                                                       %
 
     % [A ViolinIIMusicVoice measure 14 / measure 11]                           %! _comment_measure_numbers
     r1.                                                                        %! ritardando_rhythm
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -808,11 +825,13 @@ A_ViolinIIMusicVoice = {                                                       %
         \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
         bf'!16 * 31/16                                                         %! ritardando_rhythm
         ]                                                                      %! ritardando_rhythm
+
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
     % [A ViolinIIMusicVoice measure 17 / measure 14]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -873,11 +892,13 @@ A_ViolinIIMusicVoice = {                                                       %
         \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
         bf'!16 * 429/64                                                        %! ritardando_rhythm
         ]                                                                      %! ritardando_rhythm
+
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
     % [A ViolinIIMusicVoice measure 19 / measure 16]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -936,11 +957,13 @@ A_ViolinIIMusicVoice = {                                                       %
         \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
         c''16 * 15/8                                                           %! accelerando_rhythm
         ]                                                                      %! accelerando_rhythm
+
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
     % [A ViolinIIMusicVoice measure 21 / measure 18]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -995,6 +1018,7 @@ A_ViolinIIMusicVoice = {                                                       %
         \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
         bf'!16 * 343/64                                                        %! ritardando_rhythm
         ]                                                                      %! ritardando_rhythm
+
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
@@ -1005,8 +1029,10 @@ A_ViolinIIMusicVoice = {                                                       %
 
 
 A_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \A_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1050,6 +1076,7 @@ A_ViolaMusicVoice = {                                                          %
 
     % [A ViolaMusicVoice measure 7 / measure 4]                                %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
@@ -1069,6 +1096,7 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r16                                                                    %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     % [A ViolaMusicVoice measure 8 / measure 5]                                %! _comment_measure_numbers
@@ -1167,8 +1195,10 @@ A_ViolaMusicVoice = {                                                          %
 
 
 A_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \A_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -1301,6 +1331,7 @@ A_CelloMusicVoice = {                                                          %
 
     % [A CelloMusicVoice measure 22 / measure 19]                              %! _comment_measure_numbers
     r4                                                                         %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r16.                                                                   %! sparse_getato_rhythm
@@ -1317,6 +1348,7 @@ A_CelloMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     r4                                                                         %! sparse_getato_rhythm
@@ -1328,6 +1360,8 @@ A_CelloMusicVoice = {                                                          %
 
 
 A_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \A_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

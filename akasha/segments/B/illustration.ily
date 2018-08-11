@@ -165,6 +165,7 @@ B_GlobalSkips = {                                                              %
 
 
 B_ViolinIMusicVoice = {                                                        %! extern
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -244,6 +245,7 @@ B_ViolinIMusicVoice = {                                                        %
         \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
         e''16 * 131/64                                                         %! accelerando_rhythm
         ]                                                                      %! accelerando_rhythm
+
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
@@ -283,8 +285,10 @@ B_ViolinIMusicVoice = {                                                        %
 
 
 B_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \B_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -350,6 +354,7 @@ B_ViolinIIMusicVoice = {                                                       %
 
     % [B ViolinIIMusicVoice measure 32 / measure 9]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -416,12 +421,15 @@ B_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
+
 }                                                                              %! extern
 
 
 B_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \B_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -510,8 +518,10 @@ B_ViolaMusicVoice = {                                                          %
 
 
 B_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \B_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -546,6 +556,7 @@ B_CelloMusicVoice = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     r4.                                                                        %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         % [B CelloMusicVoice measure 25 / measure 2]                           %! _comment_measure_numbers
@@ -566,6 +577,7 @@ B_CelloMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r16                                                                    %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     r2..                                                                       %! sparse_getato_rhythm
@@ -580,6 +592,7 @@ B_CelloMusicVoice = {                                                          %
     bf!32                                                                      %! sparse_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! sparse_getato_rhythm
+
     \times 4/5 {                                                               %! sparse_getato_rhythm
 
         b32                                                                    %! sparse_getato_rhythm
@@ -603,7 +616,9 @@ B_CelloMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         % [B CelloMusicVoice measure 27 / measure 4]                           %! _comment_measure_numbers
@@ -624,7 +639,9 @@ B_CelloMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r32                                                                    %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r16.                                                                   %! sparse_getato_rhythm
@@ -648,6 +665,7 @@ B_CelloMusicVoice = {                                                          %
         g32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     fs!32                                                                      %! sparse_getato_rhythm
@@ -669,6 +687,7 @@ B_CelloMusicVoice = {                                                          %
     a32                                                                        %! sparse_getato_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! sparse_getato_rhythm
+
     \times 4/5 {                                                               %! sparse_getato_rhythm
 
         g32                                                                    %! sparse_getato_rhythm
@@ -692,10 +711,12 @@ B_CelloMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     % [B CelloMusicVoice measure 28 / measure 5]                               %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         % [B CelloMusicVoice measure 29 / measure 6]                           %! _comment_measure_numbers
@@ -717,7 +738,9 @@ B_CelloMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
+
     \times 4/5 {                                                               %! sparse_getato_rhythm
 
         e32                                                                    %! sparse_getato_rhythm
@@ -735,10 +758,12 @@ B_CelloMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r32                                                                    %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     % [B CelloMusicVoice measure 30 / measure 7]                               %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         % [B CelloMusicVoice measure 31 / measure 8]                           %! _comment_measure_numbers
@@ -760,7 +785,9 @@ B_CelloMusicVoice = {                                                          %
         f32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r4                                                                     %! sparse_getato_rhythm
@@ -769,6 +796,7 @@ B_CelloMusicVoice = {                                                          %
         - \staccato                                                            %! IndicatorCommand
         \revert Beam.positions                                                 %! baca_beam_positions:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+
     }                                                                          %! sparse_getato_rhythm
 
     % [B CelloMusicVoice measure 32 / measure 9]                               %! _comment_measure_numbers
@@ -787,6 +815,8 @@ B_CelloMusicVoice = {                                                          %
 
 
 B_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \B_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

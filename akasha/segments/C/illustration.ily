@@ -520,8 +520,10 @@ C_ViolinIMusicVoice = {                                                        %
 
 
 C_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \C_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -665,12 +667,15 @@ C_ViolinIIMusicVoice = {                                                       %
 
 
 C_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \C_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
 C_ViolaMusicVoice = {                                                          %! extern
+
     \times 2/3 {                                                               %! glissando_rhythm
 
         % [C ViolaMusicVoice measure 35 / measure 1]                           %! _comment_measure_numbers
@@ -705,10 +710,12 @@ C_ViolaMusicVoice = {                                                          %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         cqs!4                                                                  %! glissando_rhythm
+
     }                                                                          %! glissando_rhythm
 
     % [C ViolaMusicVoice measure 36 / measure 2]                               %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 8/9 {                                                               %! glissando_rhythm
 
         % [C ViolaMusicVoice measure 37 / measure 3]                           %! _comment_measure_numbers
@@ -716,10 +723,12 @@ C_ViolaMusicVoice = {                                                          %
         \glissando                                                             %! SpannerCommand
 
         cqs!8                                                                  %! glissando_rhythm
+
     }                                                                          %! glissando_rhythm
 
     % [C ViolaMusicVoice measure 38 / measure 4]                               %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 2/3 {                                                               %! glissando_rhythm
 
         % [C ViolaMusicVoice measure 39 / measure 5]                           %! _comment_measure_numbers
@@ -727,10 +736,12 @@ C_ViolaMusicVoice = {                                                          %
         \glissando                                                             %! SpannerCommand
 
         cqs!4                                                                  %! glissando_rhythm
+
     }                                                                          %! glissando_rhythm
 
     % [C ViolaMusicVoice measure 40 / measure 6]                               %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 2/3 {                                                               %! glissando_rhythm
 
         % [C ViolaMusicVoice measure 41 / measure 7]                           %! _comment_measure_numbers
@@ -738,6 +749,7 @@ C_ViolaMusicVoice = {                                                          %
         \glissando                                                             %! SpannerCommand
 
         cqs!4                                                                  %! glissando_rhythm
+
     }                                                                          %! glissando_rhythm
 
     % [C ViolaMusicVoice measure 42 / measure 8]                               %! _comment_measure_numbers
@@ -818,6 +830,7 @@ C_ViolaMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! glissando_rhythm
 
         % [C ViolaMusicVoice measure 60 / measure 26]                          %! _comment_measure_numbers
@@ -827,6 +840,7 @@ C_ViolaMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         cqs!4                                                                  %! glissando_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! glissando_rhythm
 
     % [C ViolaMusicVoice measure 61 / measure 27]                              %! _comment_measure_numbers
@@ -836,8 +850,10 @@ C_ViolaMusicVoice = {                                                          %
 
 
 C_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \C_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -916,6 +932,7 @@ C_CelloMusicVoice = {                                                          %
 
     % [C CelloMusicVoice measure 48 / measure 14]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         % [C CelloMusicVoice measure 49 / measure 15]                          %! _comment_measure_numbers
@@ -931,7 +948,9 @@ C_CelloMusicVoice = {                                                          %
         ]                                                                      %! sparse_getato_rhythm
 
         r8..                                                                   %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
+
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
         r32                                                                    %! sparse_getato_rhythm
@@ -961,6 +980,7 @@ C_CelloMusicVoice = {                                                          %
         bf,!32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
+
     }                                                                          %! sparse_getato_rhythm
 
     r4
@@ -1016,6 +1036,8 @@ C_CelloMusicVoice = {                                                          %
 
 
 C_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \C_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
