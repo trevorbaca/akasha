@@ -989,7 +989,7 @@ F_ViolinIMusicVoice = {                                                        %
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
         ef''!16 * 227/32                                                       %! accelerando_rhythm
-        \baca_pp_ancora                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-pp-ancora                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                            %! baca_markup:IndicatorCommand
         [                                                                      %! accelerando_rhythm
 
@@ -2586,7 +2586,7 @@ F_ViolinIIMusicVoice = {                                                       %
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
         b'16 * 13/8                                                            %! ritardando_rhythm
-        \baca_pp_ancora                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-pp-ancora                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                            %! baca_markup:IndicatorCommand
         [                                                                      %! ritardando_rhythm
 
@@ -3766,7 +3766,7 @@ F_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     R1 * 3/4                                                                   %! _make_measure_silences
-    \baca_effort_mf                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+    \baca-effort-mf                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -4490,7 +4490,7 @@ F_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b'1.                                                                       %! baca_make_repeat_tied_notes
-    \baca_effort_mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \downbow                                                                 %! IndicatorCommand
     ^ \markup { "OB + termiante abruptly" }                                    %! baca_markup:IndicatorCommand
 
@@ -4620,7 +4620,7 @@ F_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b'1.                                                                       %! baca_make_repeat_tied_notes
-    \baca_effort_mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \downbow                                                                 %! IndicatorCommand
     ^ \markup { "OB + terminate abruptly" }                                    %! baca_markup:IndicatorCommand
 

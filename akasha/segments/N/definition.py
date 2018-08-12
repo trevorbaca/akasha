@@ -82,7 +82,7 @@ maker(
 maker(
     ('v2', (9, 24)),
     akasha.getato_pitches(29, direction=abjad.Down),
-    baca.dynamic('pp_ancora'),
+    baca.dynamic('pp-ancora'),
     baca.markup('leggieriss.'),
     baca.staccato(selector=baca.pheads()),
     )

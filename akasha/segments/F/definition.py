@@ -327,7 +327,7 @@ maker(
 
 maker(
     (['v1', 'v2'], (8, 9)),
-    baca.dynamic('pp_ancora'),
+    baca.dynamic('pp-ancora'),
     baca.markup('tasto + XFB'),
     baca.new(
         baca.pitches('Eb5 F5'),
