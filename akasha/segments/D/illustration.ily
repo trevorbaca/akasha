@@ -1490,7 +1490,7 @@ D_ViolaMusicVoice = {                                                          %
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     af!2.                                                                      %! untied_notes
-    \baca_ppp_ancora                                                           %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-ppp-ancora                                                           %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \downbow                                                                 %! IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                      %! baca_markup:IndicatorCommand
     \glissando                                                                 %! SpannerCommand
@@ -1785,7 +1785,7 @@ D_CelloMusicVoice = {                                                          %
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     e,2.                                                                       %! untied_notes
-    \baca_ppp_ancora                                                           %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-ppp-ancora                                                           %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \downbow                                                                 %! IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                      %! baca_markup:IndicatorCommand
     \glissando                                                                 %! SpannerCommand
