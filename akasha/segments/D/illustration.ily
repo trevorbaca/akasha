@@ -1489,8 +1489,8 @@ D_ViolaMusicVoice = {                                                          %
     % [D ViolaMusicVoice measure 99 / measure 38]                              %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     af!2.                                                                      %! untied_notes
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-ppp-ancora                                                           %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-ppp-ancora                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                      %! baca_markup:IndicatorCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
@@ -1784,8 +1784,8 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 99 / measure 38]                              %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     e,2.                                                                       %! untied_notes
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-ppp-ancora                                                           %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-ppp-ancora                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                      %! baca_markup:IndicatorCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
