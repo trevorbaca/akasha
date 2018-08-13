@@ -4,33 +4,33 @@ C_GlobalRests = {                                                              %
     R1 * 3/2                                                                   %! _make_global_rests
 
     % [C GlobalRests measure 36 / measure 2]                                   %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 37 / measure 3]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
     % [C GlobalRests measure 38 / measure 4]                                   %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 39 / measure 5]                                   %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests
 
     % [C GlobalRests measure 40 / measure 6]                                   %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 41 / measure 7]                                   %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests
 
     % [C GlobalRests measure 42 / measure 8]                                   %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 43 / measure 9]                                   %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests
@@ -48,9 +48,9 @@ C_GlobalRests = {                                                              %
     R1 * 5/4                                                                   %! _make_global_rests
 
     % [C GlobalRests measure 48 / measure 14]                                  %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 49 / measure 15]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
@@ -62,33 +62,33 @@ C_GlobalRests = {                                                              %
     R1 * 3/4                                                                   %! _make_global_rests
 
     % [C GlobalRests measure 52 / measure 18]                                  %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 53 / measure 19]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
     % [C GlobalRests measure 54 / measure 20]                                  %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 55 / measure 21]                                  %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests
 
     % [C GlobalRests measure 56 / measure 22]                                  %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 57 / measure 23]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
     % [C GlobalRests measure 58 / measure 24]                                  %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [C GlobalRests measure 59 / measure 25]                                  %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests
@@ -97,9 +97,9 @@ C_GlobalRests = {                                                              %
     R1 * 3/2                                                                   %! _make_global_rests
 
     % [C GlobalRests measure 61 / measure 27]                                  %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-long-fermata-markup                                                %! GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
 
 }                                                                              %! extern
 
@@ -440,8 +440,8 @@ C_ViolinIMusicVoice = {                                                        %
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! baca_bar_extent:OverrideCommand(1)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b'1.                                                                       %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { OB }                                                           %! baca_markup:IndicatorCommand
     \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! baca_bar_extent_zero:OverrideCommand(1)
 
@@ -582,8 +582,8 @@ C_ViolinIIMusicVoice = {                                                       %
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b'1.                                                                       %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { OB }                                                           %! baca_markup:IndicatorCommand
 
     % [C ViolinIIMusicVoice measure 44 / measure 10]                           %! _comment_measure_numbers
@@ -652,16 +652,16 @@ C_ViolinIIMusicVoice = {                                                       %
     r1.                                                                        %! baca_make_repeat_tied_notes
 
     % [C ViolinIIMusicVoice measure 60 / measure 26]                           %! _comment_measure_numbers
-    \pitchedTrill                                                              %! SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
     g''1.                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
     \startTrillSpan a''
 
     % [C ViolinIIMusicVoice measure 61 / measure 27]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    \stopTrillSpan                                                             %! SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
 
 }                                                                              %! extern
 
@@ -699,7 +699,7 @@ C_ViolaMusicVoice = {                                                          %
         \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Va.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -720,7 +720,7 @@ C_ViolaMusicVoice = {                                                          %
 
         % [C ViolaMusicVoice measure 37 / measure 3]                           %! _comment_measure_numbers
         ds!1                                                                   %! glissando_rhythm
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         cqs!8                                                                  %! glissando_rhythm
 
@@ -733,7 +733,7 @@ C_ViolaMusicVoice = {                                                          %
 
         % [C ViolaMusicVoice measure 39 / measure 5]                           %! _comment_measure_numbers
         ds!\breve                                                              %! glissando_rhythm
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         cqs!4                                                                  %! glissando_rhythm
 
@@ -746,7 +746,7 @@ C_ViolaMusicVoice = {                                                          %
 
         % [C ViolaMusicVoice measure 41 / measure 7]                           %! _comment_measure_numbers
         ds!\breve                                                              %! glissando_rhythm
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         cqs!4                                                                  %! glissando_rhythm
 
@@ -757,24 +757,24 @@ C_ViolaMusicVoice = {                                                          %
 
     % [C ViolaMusicVoice measure 43 / measure 9]                               %! _comment_measure_numbers
     ef!1.                                                                      %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [C ViolaMusicVoice measure 44 / measure 10]                              %! _comment_measure_numbers
     d1                                                                         %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [C ViolaMusicVoice measure 45 / measure 11]                              %! _comment_measure_numbers
     cs!2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [C ViolaMusicVoice measure 46 / measure 12]                              %! _comment_measure_numbers
     bs,!1                                                                      %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [C ViolaMusicVoice measure 47 / measure 13]                              %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
@@ -787,8 +787,8 @@ C_ViolaMusicVoice = {                                                          %
 
     % [C ViolaMusicVoice measure 50 / measure 16]                              %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "tasto + scratch moltiss." }                                   %! baca_markup:IndicatorCommand
 
     % [C ViolaMusicVoice measure 51 / measure 17]                              %! _comment_measure_numbers
@@ -811,8 +811,8 @@ C_ViolaMusicVoice = {                                                          %
 
     % [C ViolaMusicVoice measure 57 / measure 23]                              %! _comment_measure_numbers
     ds'!4                                                                      %! polyphony_rhythm
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand
 
     dtqs'!4.                                                                   %! polyphony_rhythm
@@ -824,22 +824,22 @@ C_ViolaMusicVoice = {                                                          %
 
     % [C ViolaMusicVoice measure 59 / measure 25]                              %! _comment_measure_numbers
     e1.                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! glissando_rhythm
 
         % [C ViolaMusicVoice measure 60 / measure 26]                          %! _comment_measure_numbers
         ds!\breve                                                              %! glissando_rhythm
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         cqs!4                                                                  %! glissando_rhythm
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     }                                                                          %! glissando_rhythm
 
@@ -908,10 +908,10 @@ C_CelloMusicVoice = {                                                          %
 
     % [C CelloMusicVoice measure 43 / measure 9]                               %! _comment_measure_numbers
     cs,!1.                                                                     %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [C CelloMusicVoice measure 44 / measure 10]                              %! _comment_measure_numbers
     cs,!1                                                                      %! baca_make_repeat_tied_notes
@@ -923,8 +923,8 @@ C_CelloMusicVoice = {                                                          %
 
     % [C CelloMusicVoice measure 46 / measure 12]                              %! _comment_measure_numbers
     cs,!1                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [C CelloMusicVoice measure 47 / measure 13]                              %! _comment_measure_numbers
@@ -937,8 +937,8 @@ C_CelloMusicVoice = {                                                          %
 
         % [C CelloMusicVoice measure 49 / measure 15]                          %! _comment_measure_numbers
         cs!32                                                                  %! sparse_getato_rhythm
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
@@ -1008,8 +1008,8 @@ C_CelloMusicVoice = {                                                          %
 
     % [C CelloMusicVoice measure 57 / measure 23]                              %! _comment_measure_numbers
     c'1                                                                        %! polyphony_rhythm
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand
 
     % [C CelloMusicVoice measure 58 / measure 24]                              %! _comment_measure_numbers
@@ -1017,16 +1017,16 @@ C_CelloMusicVoice = {                                                          %
 
     % [C CelloMusicVoice measure 59 / measure 25]                              %! _comment_measure_numbers
     cs,!1.                                                                     %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [C CelloMusicVoice measure 60 / measure 26]                              %! _comment_measure_numbers
     cs,!1.                                                                     %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [C CelloMusicVoice measure 61 / measure 27]                              %! _comment_measure_numbers

@@ -13,25 +13,25 @@ B_GlobalRests = {                                                              %
     R1 * 1                                                                     %! _make_global_rests
 
     % [B GlobalRests measure 28 / measure 5]                                   %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-long-fermata-markup                                                %! GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [B GlobalRests measure 29 / measure 6]                                   %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests
 
     % [B GlobalRests measure 30 / measure 7]                                   %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-short-fermata-markup                                               %! GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [B GlobalRests measure 31 / measure 8]                                   %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
     % [B GlobalRests measure 32 / measure 9]                                   %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-short-fermata-markup                                               %! GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [B GlobalRests measure 33 / measure 10]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
@@ -307,8 +307,8 @@ B_ViolinIIMusicVoice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     ds'!4                                                                      %! polyphony_rhythm
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand
@@ -400,8 +400,8 @@ B_ViolinIIMusicVoice = {                                                       %
         \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
         c''16 * 487/64                                                         %! accelerando_rhythm
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                            %! baca_markup:IndicatorCommand
         [                                                                      %! accelerando_rhythm
 
@@ -807,8 +807,8 @@ B_CelloMusicVoice = {                                                          %
 
     % [B CelloMusicVoice measure 34 / measure 11]                              %! _comment_measure_numbers
     cs,!2..                                                                    %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
 
 }                                                                              %! extern

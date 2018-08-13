@@ -40,9 +40,9 @@ G_GlobalRests = {                                                              %
     R1 * 9/8                                                                   %! _make_global_rests
 
     % [G GlobalRests measure 213 / measure 14]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [G GlobalRests measure 214 / measure 15]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
@@ -312,12 +312,12 @@ G_ViolinIMusicVoice = {                                                        %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         g'''16                                                                 %! dense_getato_rhythm
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! dense_getato_rhythm
 
         af'''!16                                                               %! dense_getato_rhythm
@@ -492,8 +492,8 @@ G_ViolinIMusicVoice = {                                                        %
         e''''16                                                                %! dense_getato_rhythm
 
         cs''''!16                                                              %! dense_getato_rhythm
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         ]                                                                      %! dense_getato_rhythm
 
     }                                                                          %! dense_getato_rhythm
@@ -501,97 +501,97 @@ G_ViolinIMusicVoice = {                                                        %
     % [G ViolinIMusicVoice measure 204 / measure 5]                            %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f''2.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "tasto + 1/4 scratch"                       %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto + 1/4 scratch"                       %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     f''4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIMusicVoice measure 205 / measure 6]                            %! _comment_measure_numbers
     g''2.
 
     g''4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIMusicVoice measure 206 / measure 7]                            %! _comment_measure_numbers
     f''2                                                                       %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIMusicVoice measure 207 / measure 8]                            %! _comment_measure_numbers
     ef''!1                                                                     %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "FB"                                       %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "FB"                                       %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIMusicVoice measure 208 / measure 9]                            %! _comment_measure_numbers
     fs''!4.                                                                    %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIMusicVoice measure 209 / measure 10]                           %! _comment_measure_numbers
     e''2                                                                       %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIMusicVoice measure 210 / measure 11]                           %! _comment_measure_numbers
     fs''!1                                                                     %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XFB"                                      %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XFB"                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIMusicVoice measure 211 / measure 12]                           %! _comment_measure_numbers
     af''!2.
 
     af''!4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIMusicVoice measure 212 / measure 13]                           %! _comment_measure_numbers
     fs''!2.
 
     fs''!4.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [G ViolinIMusicVoice measure 213 / measure 14]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [G ViolinIMusicVoice measure 214 / measure 15]                           %! _comment_measure_numbers
     fs''!2                                                                     %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [G ViolinIMusicVoice measure 215 / measure 16]                           %! _comment_measure_numbers
     fs''!2                                                                     %! baca_make_repeat_tied_notes
@@ -630,19 +630,19 @@ G_ViolinIIMusicVoice = {                                                       %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     fs'!2..                                                                    %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "tasto + scratch moltiss."                  %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "tasto + 1/4 scratch"                      %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto + scratch moltiss."                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto + 1/4 scratch"                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -654,112 +654,112 @@ G_ViolinIIMusicVoice = {                                                       %
 
     % [G ViolinIIMusicVoice measure 201 / measure 2]                           %! _comment_measure_numbers
     ef'!2..                                                                    %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 202 / measure 3]                           %! _comment_measure_numbers
     f'4.                                                                       %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 203 / measure 4]                           %! _comment_measure_numbers
     ef'!2.                                                                     %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 204 / measure 5]                           %! _comment_measure_numbers
     cs'!2.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     cs'!4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 205 / measure 6]                           %! _comment_measure_numbers
     e'2.
 
     e'4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 206 / measure 7]                           %! _comment_measure_numbers
     g'2                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 207 / measure 8]                           %! _comment_measure_numbers
     e'1                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "FB"                                       %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "FB"                                       %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 208 / measure 9]                           %! _comment_measure_numbers
     fs'!4.                                                                     %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 209 / measure 10]                          %! _comment_measure_numbers
     e'2                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 210 / measure 11]                          %! _comment_measure_numbers
     d'1                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XFB"                                      %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XFB"                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 211 / measure 12]                          %! _comment_measure_numbers
     f'2.
 
     f'4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolinIIMusicVoice measure 212 / measure 13]                          %! _comment_measure_numbers
     af'!2.
 
     af'!4.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [G ViolinIIMusicVoice measure 213 / measure 14]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [G ViolinIIMusicVoice measure 214 / measure 15]                          %! _comment_measure_numbers
     af'!2                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [G ViolinIIMusicVoice measure 215 / measure 16]                          %! _comment_measure_numbers
     af'!2                                                                      %! baca_make_repeat_tied_notes
@@ -800,19 +800,19 @@ G_ViolaMusicVoice = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     ef'!2..                                                                    %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "tasto + scratch moltiss."                  %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "tasto + 1/4 scratch"                      %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto + scratch moltiss."                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto + 1/4 scratch"                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -824,104 +824,104 @@ G_ViolaMusicVoice = {                                                          %
 
     % [G ViolaMusicVoice measure 201 / measure 2]                              %! _comment_measure_numbers
     f'2..                                                                      %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 202 / measure 3]                              %! _comment_measure_numbers
     d'4.                                                                       %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 203 / measure 4]                              %! _comment_measure_numbers
     e'2.                                                                       %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 204 / measure 5]                              %! _comment_measure_numbers
     d'2.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     d'4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 205 / measure 6]                              %! _comment_measure_numbers
     c'2.
 
     c'4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 206 / measure 7]                              %! _comment_measure_numbers
     e'2                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 207 / measure 8]                              %! _comment_measure_numbers
     fs'!1                                                                      %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "FB"                                       %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "FB"                                       %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 208 / measure 9]                              %! _comment_measure_numbers
     ef'!4.                                                                     %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 209 / measure 10]                             %! _comment_measure_numbers
     f'2                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 210 / measure 11]                             %! _comment_measure_numbers
     ef'!1                                                                      %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XFB"                                      %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XFB"                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 211 / measure 12]                             %! _comment_measure_numbers
     cs'!2.
 
     cs'!4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G ViolaMusicVoice measure 212 / measure 13]                             %! _comment_measure_numbers
     f'2.
 
     f'4.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [G ViolaMusicVoice measure 213 / measure 14]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -932,8 +932,8 @@ G_ViolaMusicVoice = {                                                          %
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2                                                                        %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \downbow                                                                 %! IndicatorCommand
     ^ \markup { OB }                                                           %! baca_markup:IndicatorCommand
 
@@ -973,19 +973,19 @@ G_CelloMusicVoice = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     cs,!2..                                                                    %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "tasto + scratch moltiss."                  %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "tasto + 1/4 scratch"                      %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto + scratch moltiss."                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto + 1/4 scratch"                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -997,112 +997,112 @@ G_CelloMusicVoice = {                                                          %
 
     % [G CelloMusicVoice measure 201 / measure 2]                              %! _comment_measure_numbers
     ef,!2..                                                                    %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 202 / measure 3]                              %! _comment_measure_numbers
     f,4.                                                                       %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 203 / measure 4]                              %! _comment_measure_numbers
     d,2.                                                                       %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 204 / measure 5]                              %! _comment_measure_numbers
     e,2.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     e,4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 205 / measure 6]                              %! _comment_measure_numbers
     d,2.
 
     d,4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 206 / measure 7]                              %! _comment_measure_numbers
     c,2                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 207 / measure 8]                              %! _comment_measure_numbers
     d,1                                                                        %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "FB"                                       %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "FB"                                       %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 208 / measure 9]                              %! _comment_measure_numbers
     e,4.                                                                       %! baca_make_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 209 / measure 10]                             %! _comment_measure_numbers
     cs,!2                                                                      %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 210 / measure 11]                             %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XFB"                                      %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XFB"                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 211 / measure 12]                             %! _comment_measure_numbers
     cs,!2.
 
     cs,!4.
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [G CelloMusicVoice measure 212 / measure 13]                             %! _comment_measure_numbers
     b,,2.
 
     b,,4.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [G CelloMusicVoice measure 213 / measure 14]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [G CelloMusicVoice measure 214 / measure 15]                             %! _comment_measure_numbers
     cs,!2                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [G CelloMusicVoice measure 215 / measure 16]                             %! _comment_measure_numbers
     cs,!2                                                                      %! baca_make_repeat_tied_notes
