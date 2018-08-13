@@ -36,7 +36,7 @@ H_GlobalSkips = {                                                              %
         % [H GlobalSkips measure 217 / measure 1]                              %! _comment_measure_numbers
         \once \override GlobalContext.RehearsalMark.Y-offset = #5              %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
         \time 4/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-        \mark #8                                                               %! IndicatorCommand
+        \mark #8                                                               %! baca_rehearsal_mark:IndicatorCommand
         \bar ""                                                                %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 1                                                                 %! _make_global_skips(1)
@@ -543,9 +543,9 @@ H_ViolaMusicVoice = {                                                          %
     \times 8/9 {                                                               %! glissando_rhythm
 
         % [H ViolaMusicVoice measure 221 / measure 5]                          %! _comment_measure_numbers
-        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-        \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
+        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         ds!1..                                                                 %! glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

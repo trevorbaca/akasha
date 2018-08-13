@@ -83,7 +83,7 @@ A_GlobalSkips = {                                                              %
 
     % [A GlobalSkips measure 4 / measure 1]                                    %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \mark #1                                                                   %! IndicatorCommand
+    \mark #1                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -380,15 +380,15 @@ A_ViolinIMusicVoice = {                                                        %
         b32                                                                    %! sparse_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca_markup:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         cs'!32                                                                 %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         c'32                                                                   %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8.                                                                    %! sparse_getato_rhythm
@@ -400,11 +400,11 @@ A_ViolinIMusicVoice = {                                                        %
         r16.                                                                   %! sparse_getato_rhythm
 
         b32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         bf!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
@@ -684,15 +684,15 @@ A_ViolinIIMusicVoice = {                                                       %
         bf!32                                                                  %! sparse_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca_markup:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         b32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         bf!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8.                                                                    %! sparse_getato_rhythm
@@ -704,11 +704,11 @@ A_ViolinIIMusicVoice = {                                                       %
         r16.                                                                   %! sparse_getato_rhythm
 
         a32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         af!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
@@ -1045,9 +1045,9 @@ A_ViolaMusicVoice = {                                                          %
             #12                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Va.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1084,15 +1084,15 @@ A_ViolaMusicVoice = {                                                          %
         bf!32                                                                  %! sparse_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca_markup:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         a32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         bf!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r16                                                                    %! sparse_getato_rhythm
@@ -1339,12 +1339,12 @@ A_CelloMusicVoice = {                                                          %
         c'32                                                                   %! sparse_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca_markup:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         cs'!32                                                                 %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm

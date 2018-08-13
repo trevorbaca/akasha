@@ -108,7 +108,7 @@ C_GlobalSkips = {                                                              %
 
     % [C GlobalSkips measure 35 / measure 1]                                   %! _comment_measure_numbers
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \mark #3                                                                   %! IndicatorCommand
+    \mark #3                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
@@ -434,9 +434,9 @@ C_ViolinIMusicVoice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [C ViolinIMusicVoice measure 43 / measure 9]                             %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! baca_bar_extent:OverrideCommand(1)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b'1.                                                                       %! baca_make_repeat_tied_notes
@@ -577,9 +577,9 @@ C_ViolinIIMusicVoice = {                                                       %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [C ViolinIIMusicVoice measure 43 / measure 9]                            %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b'1.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -645,9 +645,9 @@ C_ViolinIIMusicVoice = {                                                       %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [C ViolinIIMusicVoice measure 59 / measure 25]                           %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     r1.                                                                        %! baca_make_repeat_tied_notes
 
@@ -939,12 +939,12 @@ C_CelloMusicVoice = {                                                          %
         cs!32                                                                  %! sparse_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         c32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8..                                                                   %! sparse_getato_rhythm
@@ -956,29 +956,29 @@ C_CelloMusicVoice = {                                                          %
         r32                                                                    %! sparse_getato_rhythm
 
         cs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         d32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         ef!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         cs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         d32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         cs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         c32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         bf,!32                                                                 %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
     }                                                                          %! sparse_getato_rhythm
