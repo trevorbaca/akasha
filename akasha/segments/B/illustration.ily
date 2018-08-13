@@ -46,7 +46,7 @@ B_GlobalSkips = {                                                              %
 
     % [B GlobalSkips measure 24 / measure 1]                                   %! _comment_measure_numbers
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \mark #2                                                                   %! IndicatorCommand
+    \mark #2                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
@@ -563,17 +563,17 @@ B_CelloMusicVoice = {                                                          %
         r16.                                                                   %! sparse_getato_rhythm
 
         bf!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         a32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         bf!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         b32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r16                                                                    %! sparse_getato_rhythm
@@ -586,33 +586,33 @@ B_CelloMusicVoice = {                                                          %
     r8.                                                                        %! sparse_getato_rhythm
 
     c'32                                                                       %! sparse_getato_rhythm
-    - \staccato                                                                %! IndicatorCommand
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
     [                                                                          %! sparse_getato_rhythm
 
     bf!32                                                                      %! sparse_getato_rhythm
-    - \staccato                                                                %! IndicatorCommand
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! sparse_getato_rhythm
 
     \times 4/5 {                                                               %! sparse_getato_rhythm
 
         b32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         bf!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         a32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         g32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         af!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         a32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
@@ -625,17 +625,17 @@ B_CelloMusicVoice = {                                                          %
         r8                                                                     %! sparse_getato_rhythm
 
         bf!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         af!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         g32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         fs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r32                                                                    %! sparse_getato_rhythm
@@ -647,33 +647,33 @@ B_CelloMusicVoice = {                                                          %
         r16.                                                                   %! sparse_getato_rhythm
 
         g32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         f32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         e32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         fs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         f32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         g32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
     }                                                                          %! sparse_getato_rhythm
 
     fs!32                                                                      %! sparse_getato_rhythm
-    - \staccato                                                                %! IndicatorCommand
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
     [                                                                          %! sparse_getato_rhythm
 
     g32                                                                        %! sparse_getato_rhythm
-    - \staccato                                                                %! IndicatorCommand
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! sparse_getato_rhythm
 
     r16
@@ -681,33 +681,33 @@ B_CelloMusicVoice = {                                                          %
     r16
 
     af!32                                                                      %! sparse_getato_rhythm
-    - \staccato                                                                %! IndicatorCommand
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
     [                                                                          %! sparse_getato_rhythm
 
     a32                                                                        %! sparse_getato_rhythm
-    - \staccato                                                                %! IndicatorCommand
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! sparse_getato_rhythm
 
     \times 4/5 {                                                               %! sparse_getato_rhythm
 
         g32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         af!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         g32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         fs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         e32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         f32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
@@ -721,20 +721,20 @@ B_CelloMusicVoice = {                                                          %
 
         % [B CelloMusicVoice measure 29 / measure 6]                           %! _comment_measure_numbers
         fs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         g32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         f32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         e32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         ef!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r8                                                                     %! sparse_getato_rhythm
@@ -744,17 +744,17 @@ B_CelloMusicVoice = {                                                          %
     \times 4/5 {                                                               %! sparse_getato_rhythm
 
         e32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         d32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         cs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         ef!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
         r32                                                                    %! sparse_getato_rhythm
@@ -768,22 +768,22 @@ B_CelloMusicVoice = {                                                          %
 
         % [B CelloMusicVoice measure 31 / measure 8]                           %! _comment_measure_numbers
         d32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         r8                                                                     %! sparse_getato_rhythm
 
         e32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
 
         ef!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         e32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         f32                                                                    %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
 
     }                                                                          %! sparse_getato_rhythm
@@ -793,7 +793,7 @@ B_CelloMusicVoice = {                                                          %
         r4                                                                     %! sparse_getato_rhythm
 
         fs!32                                                                  %! sparse_getato_rhythm
-        - \staccato                                                            %! IndicatorCommand
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
         \revert Beam.positions                                                 %! baca_beam_positions:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
