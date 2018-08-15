@@ -7,8 +7,8 @@
     \context {
         \name GlobalSkips
         \type Engraver_group
-        \consists Staff_symbol_engraver
         \consists Script_engraver
+        \consists Staff_symbol_engraver
         \consists Text_engraver
         \consists Text_spanner_engraver
 
@@ -52,21 +52,16 @@
         \consists Axis_group_engraver
         \consists Bar_number_engraver
         \consists Mark_engraver
-        \consists Metronome_mark_engraver
+        % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
+        \consists Staff_collecting_engraver
         \consists Time_signature_engraver
-        \accepts GlobalSkips
         \accepts GlobalRests
+        \accepts GlobalSkips
         \accepts PageLayout
 
         \override BarNumber.X-offset = -7
         \override BarNumber.Y-offset = -0.75
         \override BarNumber.font-size = 1
-
-        \override MetronomeMark.X-extent = #'(0 . 0)
-        \override MetronomeMark.Y-extent = #'(0 . 0)
-        \override MetronomeMark.break-align-symbols = #'(left-edge)
-        \override MetronomeMark.extra-offset = #'(0 . 4)
-        \override MetronomeMark.font-size = 3
 
         \override RehearsalMark.X-extent = #'(0 . 0)
         \override RehearsalMark.Y-extent = #'(0 . 0)
@@ -104,7 +99,6 @@
         \name StringQuartetStaffGroup
         \type Engraver_group
         \alias StaffGroup
-        %\override StaffGrouper.staff-staff-spacing.minimum-distance = 12
     }
 
     % MUSIC CONTEXT
