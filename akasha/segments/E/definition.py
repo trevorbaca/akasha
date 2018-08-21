@@ -348,7 +348,8 @@ maker(
     ('vc', (1, 8)),
     baca.dynamic('ff'),
     baca.markup(
-        baca.markups.lines(['scratch moltiss.', 'terminate each note abruptly']),
+        baca.markups.lines(
+            ['scratch moltiss.', 'terminate each note abruptly']),
         ),
     )
 
@@ -377,7 +378,6 @@ maker(
         'mf > pp',
         selector=baca.tleaves(),
         ),
-    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
