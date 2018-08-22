@@ -335,9 +335,9 @@ N_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-N_ViolinIMusicVoice = {                                                        %! extern
+N_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [N ViolinIMusicVoice measure 369 / measure 1]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 369 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -372,106 +372,106 @@ N_ViolinIMusicVoice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [N ViolinIMusicVoice measure 370 / measure 2]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 370 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! baca_make_notes
 
-    % [N ViolinIMusicVoice measure 371 / measure 3]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 371 / measure 3]                         %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolinIMusicVoice measure 372 / measure 4]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 372 / measure 4]                         %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
 
-    % [N ViolinIMusicVoice measure 373 / measure 5]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 373 / measure 5]                         %! _comment_measure_numbers
     c'4.                                                                       %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolinIMusicVoice measure 374 / measure 6]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 374 / measure 6]                         %! _comment_measure_numbers
     r2.                                                                        %! baca_make_notes
 
-    % [N ViolinIMusicVoice measure 375 / measure 7]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 375 / measure 7]                         %! _comment_measure_numbers
     c'2.
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
     c'4.
     \repeatTie
 
-    % [N ViolinIMusicVoice measure 376 / measure 8]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 376 / measure 8]                         %! _comment_measure_numbers
     r2.
 
     r4.
 
-    % [N ViolinIMusicVoice measure 377 / measure 9]                            %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 377 / measure 9]                         %! _comment_measure_numbers
     c'2                                                                        %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolinIMusicVoice measure 378 / measure 10]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 378 / measure 10]                        %! _comment_measure_numbers
     r1                                                                         %! baca_make_notes
 
-    % [N ViolinIMusicVoice measure 379 / measure 11]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 379 / measure 11]                        %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolinIMusicVoice measure 380 / measure 12]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 380 / measure 12]                        %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
 
-    % [N ViolinIMusicVoice measure 381 / measure 13]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 381 / measure 13]                        %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolinIMusicVoice measure 382 / measure 14]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 382 / measure 14]                        %! _comment_measure_numbers
     r4.                                                                        %! baca_make_notes
 
-    % [N ViolinIMusicVoice measure 383 / measure 15]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 383 / measure 15]                        %! _comment_measure_numbers
     c'1                                                                        %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolinIMusicVoice measure 384 / measure 16]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 384 / measure 16]                        %! _comment_measure_numbers
     r2.
 
     r4.
 
-    % [N ViolinIMusicVoice measure 385 / measure 17]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 385 / measure 17]                        %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIMusicVoice measure 386 / measure 18]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 386 / measure 18]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N ViolinIMusicVoice measure 387 / measure 19]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 387 / measure 19]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N ViolinIMusicVoice measure 388 / measure 20]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 388 / measure 20]                        %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIMusicVoice measure 389 / measure 21]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 389 / measure 21]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N ViolinIMusicVoice measure 390 / measure 22]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 390 / measure 22]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N ViolinIMusicVoice measure 391 / measure 23]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 391 / measure 23]                        %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIMusicVoice measure 392 / measure 24]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 392 / measure 24]                        %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIMusicVoice measure 393 / measure 25]                           %! _comment_measure_numbers
+    % [N Violin_I_Music_Voice measure 393 / measure 25]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-N_ViolinIMusicStaff = {                                                        %! extern
+N_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \N_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \N_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-N_ViolinIIMusicVoice = {                                                       %! extern
+N_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [N ViolinIIMusicVoice measure 369 / measure 1]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 369 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -501,31 +501,31 @@ N_ViolinIIMusicVoice = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [N ViolinIIMusicVoice measure 370 / measure 2]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 370 / measure 2]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N ViolinIIMusicVoice measure 371 / measure 3]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 371 / measure 3]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIIMusicVoice measure 372 / measure 4]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 372 / measure 4]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIIMusicVoice measure 373 / measure 5]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 373 / measure 5]                        %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIIMusicVoice measure 374 / measure 6]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 374 / measure 6]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [N ViolinIIMusicVoice measure 375 / measure 7]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 375 / measure 7]                        %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIIMusicVoice measure 376 / measure 8]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 376 / measure 8]                        %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N ViolinIIMusicVoice measure 377 / measure 9]                           %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 377 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 378 / measure 10]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 378 / measure 10]                       %! _comment_measure_numbers
     r4                                                                         %! sparse_getato_rhythm
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
@@ -552,35 +552,35 @@ N_ViolinIIMusicVoice = {                                                       %
 
     r2                                                                         %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 379 / measure 11]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 379 / measure 11]                       %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 380 / measure 12]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 380 / measure 12]                       %! _comment_measure_numbers
     r2..                                                                       %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 381 / measure 13]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 381 / measure 13]                       %! _comment_measure_numbers
     r2..                                                                       %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 382 / measure 14]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 382 / measure 14]                       %! _comment_measure_numbers
     r4.                                                                        %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 383 / measure 15]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 383 / measure 15]                       %! _comment_measure_numbers
     r1                                                                         %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 384 / measure 16]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 384 / measure 16]                       %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
 
     r4.                                                                        %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 385 / measure 17]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 385 / measure 17]                       %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
 
     r4.                                                                        %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 386 / measure 18]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 386 / measure 18]                       %! _comment_measure_numbers
     r2                                                                         %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 387 / measure 19]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 387 / measure 19]                       %! _comment_measure_numbers
     r4                                                                         %! sparse_getato_rhythm
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
@@ -598,7 +598,7 @@ N_ViolinIIMusicVoice = {                                                       %
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
-        % [N ViolinIIMusicVoice measure 388 / measure 20]                      %! _comment_measure_numbers
+        % [N Violin_II_Music_Voice measure 388 / measure 20]                   %! _comment_measure_numbers
         r8.                                                                    %! sparse_getato_rhythm
 
         g'''32                                                                 %! sparse_getato_rhythm
@@ -616,39 +616,39 @@ N_ViolinIIMusicVoice = {                                                       %
 
     r8                                                                         %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 389 / measure 21]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 389 / measure 21]                       %! _comment_measure_numbers
     r2                                                                         %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 390 / measure 22]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 390 / measure 22]                       %! _comment_measure_numbers
     r1                                                                         %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 391 / measure 23]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 391 / measure 23]                       %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
 
     r4.                                                                        %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 392 / measure 24]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 392 / measure 24]                       %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
 
     r4.                                                                        %! sparse_getato_rhythm
 
-    % [N ViolinIIMusicVoice measure 393 / measure 25]                          %! _comment_measure_numbers
+    % [N Violin_II_Music_Voice measure 393 / measure 25]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-N_ViolinIIMusicStaff = {                                                       %! extern
+N_Violin_II_Music_Staff = {                                                    %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \N_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \N_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-N_ViolaMusicVoice = {                                                          %! extern
+N_Viola_Music_Voice = {                                                        %! extern
 
-    % [N ViolaMusicVoice measure 369 / measure 1]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 369 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -682,106 +682,106 @@ N_ViolaMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [N ViolaMusicVoice measure 370 / measure 2]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 370 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! baca_make_notes
 
-    % [N ViolaMusicVoice measure 371 / measure 3]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 371 / measure 3]                            %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolaMusicVoice measure 372 / measure 4]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 372 / measure 4]                            %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
 
-    % [N ViolaMusicVoice measure 373 / measure 5]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 373 / measure 5]                            %! _comment_measure_numbers
     c'4.                                                                       %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolaMusicVoice measure 374 / measure 6]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 374 / measure 6]                            %! _comment_measure_numbers
     r2.                                                                        %! baca_make_notes
 
-    % [N ViolaMusicVoice measure 375 / measure 7]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 375 / measure 7]                            %! _comment_measure_numbers
     c'2.
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
     c'4.
     \repeatTie
 
-    % [N ViolaMusicVoice measure 376 / measure 8]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 376 / measure 8]                            %! _comment_measure_numbers
     r2.
 
     r4.
 
-    % [N ViolaMusicVoice measure 377 / measure 9]                              %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 377 / measure 9]                            %! _comment_measure_numbers
     c'2                                                                        %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolaMusicVoice measure 378 / measure 10]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 378 / measure 10]                           %! _comment_measure_numbers
     r1                                                                         %! baca_make_notes
 
-    % [N ViolaMusicVoice measure 379 / measure 11]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 379 / measure 11]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolaMusicVoice measure 380 / measure 12]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 380 / measure 12]                           %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
 
-    % [N ViolaMusicVoice measure 381 / measure 13]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 381 / measure 13]                           %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolaMusicVoice measure 382 / measure 14]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 382 / measure 14]                           %! _comment_measure_numbers
     r4.                                                                        %! baca_make_notes
 
-    % [N ViolaMusicVoice measure 383 / measure 15]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 383 / measure 15]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N ViolaMusicVoice measure 384 / measure 16]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 384 / measure 16]                           %! _comment_measure_numbers
     r2.
 
     r4.
 
-    % [N ViolaMusicVoice measure 385 / measure 17]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 385 / measure 17]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N ViolaMusicVoice measure 386 / measure 18]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 386 / measure 18]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N ViolaMusicVoice measure 387 / measure 19]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 387 / measure 19]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N ViolaMusicVoice measure 388 / measure 20]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 388 / measure 20]                           %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
 
-    % [N ViolaMusicVoice measure 389 / measure 21]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 389 / measure 21]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N ViolaMusicVoice measure 390 / measure 22]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 390 / measure 22]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N ViolaMusicVoice measure 391 / measure 23]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 391 / measure 23]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N ViolaMusicVoice measure 392 / measure 24]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 392 / measure 24]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N ViolaMusicVoice measure 393 / measure 25]                             %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 393 / measure 25]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-N_ViolaMusicStaff = {                                                          %! extern
+N_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \N_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \N_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-N_CelloMusicVoice = {                                                          %! extern
+N_Cello_Music_Voice = {                                                        %! extern
 
-    % [N CelloMusicVoice measure 369 / measure 1]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 369 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -816,90 +816,90 @@ N_CelloMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [N CelloMusicVoice measure 370 / measure 2]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 370 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! baca_make_notes
 
-    % [N CelloMusicVoice measure 371 / measure 3]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 371 / measure 3]                            %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N CelloMusicVoice measure 372 / measure 4]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 372 / measure 4]                            %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
 
-    % [N CelloMusicVoice measure 373 / measure 5]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 373 / measure 5]                            %! _comment_measure_numbers
     c'4.                                                                       %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N CelloMusicVoice measure 374 / measure 6]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 374 / measure 6]                            %! _comment_measure_numbers
     r2.                                                                        %! baca_make_notes
 
-    % [N CelloMusicVoice measure 375 / measure 7]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 375 / measure 7]                            %! _comment_measure_numbers
     c'2.
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
     c'4.
     \repeatTie
 
-    % [N CelloMusicVoice measure 376 / measure 8]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 376 / measure 8]                            %! _comment_measure_numbers
     r2.
 
     r4.
 
-    % [N CelloMusicVoice measure 377 / measure 9]                              %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 377 / measure 9]                            %! _comment_measure_numbers
     c'2                                                                        %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N CelloMusicVoice measure 378 / measure 10]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 378 / measure 10]                           %! _comment_measure_numbers
     r1                                                                         %! baca_make_notes
 
-    % [N CelloMusicVoice measure 379 / measure 11]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 379 / measure 11]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N CelloMusicVoice measure 380 / measure 12]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 380 / measure 12]                           %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
 
-    % [N CelloMusicVoice measure 381 / measure 13]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 381 / measure 13]                           %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N CelloMusicVoice measure 382 / measure 14]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 382 / measure 14]                           %! _comment_measure_numbers
     r4.                                                                        %! baca_make_notes
 
-    % [N CelloMusicVoice measure 383 / measure 15]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 383 / measure 15]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [N CelloMusicVoice measure 384 / measure 16]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 384 / measure 16]                           %! _comment_measure_numbers
     r2.
 
     r4.
 
-    % [N CelloMusicVoice measure 385 / measure 17]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 385 / measure 17]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N CelloMusicVoice measure 386 / measure 18]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 386 / measure 18]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N CelloMusicVoice measure 387 / measure 19]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 387 / measure 19]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N CelloMusicVoice measure 388 / measure 20]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 388 / measure 20]                           %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
 
-    % [N CelloMusicVoice measure 389 / measure 21]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 389 / measure 21]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [N CelloMusicVoice measure 390 / measure 22]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 390 / measure 22]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N CelloMusicVoice measure 391 / measure 23]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 391 / measure 23]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N CelloMusicVoice measure 392 / measure 24]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 392 / measure 24]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
 
-    % [N CelloMusicVoice measure 393 / measure 25]                             %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 393 / measure 25]                           %! _comment_measure_numbers
     \once \override MultiMeasureRestText.extra-offset = #'(-19 . -4)
     R1 * 1/4                                                                   %! _make_measure_silences
     _ \markup {                                                                %! SCORE_2
@@ -945,9 +945,9 @@ N_CelloMusicVoice = {                                                          %
 }                                                                              %! extern
 
 
-N_CelloMusicStaff = {                                                          %! extern
+N_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \N_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \N_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern

@@ -71,9 +71,9 @@ J_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-J_ViolinIMusicVoice = {                                                        %! extern
+J_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [J ViolinIMusicVoice measure 261 / measure 1]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 261 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -106,7 +106,7 @@ J_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/4 {                                                               %! scratch_rhythm
 
-        % [J ViolinIMusicVoice measure 262 / measure 2]                        %! _comment_measure_numbers
+        % [J Violin_I_Music_Voice measure 262 / measure 2]                     %! _comment_measure_numbers
         f'4                                                                    %! scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -129,7 +129,7 @@ J_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/4 {                                                               %! scratch_rhythm
 
-        % [J ViolinIMusicVoice measure 263 / measure 3]                        %! _comment_measure_numbers
+        % [J Violin_I_Music_Voice measure 263 / measure 3]                     %! _comment_measure_numbers
         fs'!4                                                                  %! scratch_rhythm
 
         r4
@@ -140,26 +140,26 @@ J_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! scratch_rhythm
 
-    % [J ViolinIMusicVoice measure 264 / measure 4]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 264 / measure 4]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-J_ViolinIMusicStaff = {                                                        %! extern
+J_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \J_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \J_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-J_ViolinIIMusicVoice = {                                                       %! extern
+J_Violin_II_Music_Voice = {                                                    %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 4/4 {                                                               %! scratch_rhythm
 
-        % [J ViolinIIMusicVoice measure 261 / measure 1]                       %! _comment_measure_numbers
+        % [J Violin_II_Music_Voice measure 261 / measure 1]                    %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \hcenter-in                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -209,7 +209,7 @@ J_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
-        % [J ViolinIIMusicVoice measure 262 / measure 2]                       %! _comment_measure_numbers
+        % [J Violin_II_Music_Voice measure 262 / measure 2]                    %! _comment_measure_numbers
         r4
 
         r4
@@ -225,7 +225,7 @@ J_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/7 {                                                               %! scratch_rhythm
 
-        % [J ViolinIIMusicVoice measure 263 / measure 3]                       %! _comment_measure_numbers
+        % [J Violin_II_Music_Voice measure 263 / measure 3]                    %! _comment_measure_numbers
         r4
 
         r4
@@ -242,23 +242,23 @@ J_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! scratch_rhythm
 
-    % [J ViolinIIMusicVoice measure 264 / measure 4]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 264 / measure 4]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-J_ViolinIIMusicStaff = {                                                       %! extern
+J_Violin_II_Music_Staff = {                                                    %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \J_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \J_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-J_ViolaMusicVoice = {                                                          %! extern
+J_Viola_Music_Voice = {                                                        %! extern
 
-    % [J ViolaMusicVoice measure 261 / measure 1]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 261 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -288,32 +288,32 @@ J_ViolaMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J ViolaMusicVoice measure 262 / measure 2]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 262 / measure 2]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [J ViolaMusicVoice measure 263 / measure 3]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 263 / measure 3]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [J ViolaMusicVoice measure 264 / measure 4]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 264 / measure 4]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-J_ViolaMusicStaff = {                                                          %! extern
+J_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \J_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \J_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-J_CelloMusicVoice = {                                                          %! extern
+J_Cello_Music_Voice = {                                                        %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 4/3 {                                                               %! scratch_rhythm
 
-        % [J CelloMusicVoice measure 261 / measure 1]                          %! _comment_measure_numbers
+        % [J Cello_Music_Voice measure 261 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \hcenter-in                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -354,13 +354,13 @@ J_CelloMusicVoice = {                                                          %
 
     }                                                                          %! scratch_rhythm
 
-    % [J CelloMusicVoice measure 262 / measure 2]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 262 / measure 2]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
-        % [J CelloMusicVoice measure 263 / measure 3]                          %! _comment_measure_numbers
+        % [J Cello_Music_Voice measure 263 / measure 3]                        %! _comment_measure_numbers
         r4
 
         c4                                                                     %! scratch_rhythm
@@ -373,15 +373,15 @@ J_CelloMusicVoice = {                                                          %
 
     }                                                                          %! scratch_rhythm
 
-    % [J CelloMusicVoice measure 264 / measure 4]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 264 / measure 4]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-J_CelloMusicStaff = {                                                          %! extern
+J_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \J_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \J_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern

@@ -312,9 +312,9 @@ A_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-A_ViolinIMusicVoice = {                                                        %! extern
+A_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [A ViolinIMusicVoice measure 4 / measure 1]                              %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 4 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -338,19 +338,19 @@ A_ViolinIMusicVoice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [A ViolinIMusicVoice measure 5 / measure 2]                              %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 5 / measure 2]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIMusicVoice measure 6 / measure 3]                              %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 6 / measure 3]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIMusicVoice measure 7 / measure 4]                              %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 7 / measure 4]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [A ViolinIMusicVoice measure 8 / measure 5]                              %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 8 / measure 5]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIMusicVoice measure 9 / measure 6]                              %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 9 / measure 6]                           %! _comment_measure_numbers
     e'4                                                                        %! polyphony_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -363,16 +363,16 @@ A_ViolinIMusicVoice = {                                                        %
 
     eqs'!8                                                                     %! polyphony_rhythm
 
-    % [A ViolinIMusicVoice measure 10 / measure 7]                             %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 10 / measure 7]                          %! _comment_measure_numbers
     eqs'!8                                                                     %! polyphony_rhythm
     \repeatTie
 
     r2..
 
-    % [A ViolinIMusicVoice measure 11 / measure 8]                             %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 11 / measure 8]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIMusicVoice measure 12 / measure 9]                             %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 12 / measure 9]                          %! _comment_measure_numbers
     r1                                                                         %! sparse_getato_rhythm
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
@@ -411,10 +411,10 @@ A_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! sparse_getato_rhythm
 
-    % [A ViolinIMusicVoice measure 13 / measure 10]                            %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 13 / measure 10]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIMusicVoice measure 14 / measure 11]                            %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 14 / measure 11]                         %! _comment_measure_numbers
     r1.                                                                        %! accelerando_rhythm
 
     \override TupletNumber.text = \markup {
@@ -460,7 +460,7 @@ A_ViolinIMusicVoice = {                                                        %
         }
     \times 1/1 {                                                               %! accelerando_rhythm
 
-        % [A ViolinIMusicVoice measure 15 / measure 12]                        %! _comment_measure_numbers
+        % [A Violin_I_Music_Voice measure 15 / measure 12]                     %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #left
         d''16 * 15/8                                                           %! accelerando_rhythm
@@ -494,7 +494,7 @@ A_ViolinIMusicVoice = {                                                        %
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
-    % [A ViolinIMusicVoice measure 17 / measure 14]                            %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 17 / measure 14]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \override TupletNumber.text = \markup {
@@ -538,7 +538,7 @@ A_ViolinIMusicVoice = {                                                        %
         }
     \times 1/1 {                                                               %! accelerando_rhythm
 
-        % [A ViolinIMusicVoice measure 18 / measure 15]                        %! _comment_measure_numbers
+        % [A Violin_I_Music_Voice measure 18 / measure 15]                     %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
         e''16 * 241/32                                                         %! accelerando_rhythm
@@ -559,7 +559,7 @@ A_ViolinIMusicVoice = {                                                        %
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
-    % [A ViolinIMusicVoice measure 19 / measure 16]                            %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 19 / measure 16]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \override TupletNumber.text = \markup {
@@ -605,7 +605,7 @@ A_ViolinIMusicVoice = {                                                        %
         }
     \times 1/1 {                                                               %! ritardando_rhythm
 
-        % [A ViolinIMusicVoice measure 20 / measure 17]                        %! _comment_measure_numbers
+        % [A Violin_I_Music_Voice measure 20 / measure 17]                     %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
         e''16 * 113/64                                                         %! ritardando_rhythm
@@ -626,29 +626,29 @@ A_ViolinIMusicVoice = {                                                        %
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
-    % [A ViolinIMusicVoice measure 21 / measure 18]                            %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 21 / measure 18]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIMusicVoice measure 22 / measure 19]                            %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 22 / measure 19]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIMusicVoice measure 23 / measure 20]                            %! _comment_measure_numbers
+    % [A Violin_I_Music_Voice measure 23 / measure 20]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-A_ViolinIMusicStaff = {                                                        %! extern
+A_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \A_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \A_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-A_ViolinIIMusicVoice = {                                                       %! extern
+A_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [A ViolinIIMusicVoice measure 4 / measure 1]                             %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 4 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -672,15 +672,15 @@ A_ViolinIIMusicVoice = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [A ViolinIIMusicVoice measure 5 / measure 2]                             %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 5 / measure 2]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIIMusicVoice measure 6 / measure 3]                             %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 6 / measure 3]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
-        % [A ViolinIIMusicVoice measure 7 / measure 4]                         %! _comment_measure_numbers
+        % [A Violin_II_Music_Voice measure 7 / measure 4]                      %! _comment_measure_numbers
         bf!32                                                                  %! sparse_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -717,10 +717,10 @@ A_ViolinIIMusicVoice = {                                                       %
 
     r2                                                                         %! sparse_getato_rhythm
 
-    % [A ViolinIIMusicVoice measure 8 / measure 5]                             %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 8 / measure 5]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIIMusicVoice measure 9 / measure 6]                             %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 9 / measure 6]                          %! _comment_measure_numbers
     r2.
 
     r4.
@@ -730,7 +730,7 @@ A_ViolinIIMusicVoice = {                                                       %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand
 
-    % [A ViolinIIMusicVoice measure 10 / measure 7]                            %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 10 / measure 7]                         %! _comment_measure_numbers
     d'8                                                                        %! polyphony_rhythm
     \repeatTie
 
@@ -738,20 +738,20 @@ A_ViolinIIMusicVoice = {                                                       %
 
     c'2                                                                        %! polyphony_rhythm
 
-    % [A ViolinIIMusicVoice measure 11 / measure 8]                            %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 11 / measure 8]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIIMusicVoice measure 12 / measure 9]                            %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 12 / measure 9]                         %! _comment_measure_numbers
     r4
 
     cs'!4.                                                                     %! polyphony_rhythm
 
     ctqs'!2..                                                                  %! polyphony_rhythm
 
-    % [A ViolinIIMusicVoice measure 13 / measure 10]                           %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 13 / measure 10]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolinIIMusicVoice measure 14 / measure 11]                           %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 14 / measure 11]                        %! _comment_measure_numbers
     r1.                                                                        %! ritardando_rhythm
 
     \override TupletNumber.text = \markup {
@@ -797,7 +797,7 @@ A_ViolinIIMusicVoice = {                                                       %
         }
     \times 1/1 {                                                               %! ritardando_rhythm
 
-        % [A ViolinIIMusicVoice measure 15 / measure 12]                       %! _comment_measure_numbers
+        % [A Violin_II_Music_Voice measure 15 / measure 12]                    %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #right
         bf'!16 * 247/32                                                        %! ritardando_rhythm
@@ -829,7 +829,7 @@ A_ViolinIIMusicVoice = {                                                       %
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
-    % [A ViolinIIMusicVoice measure 17 / measure 14]                           %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 17 / measure 14]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \override TupletNumber.text = \markup {
@@ -873,7 +873,7 @@ A_ViolinIIMusicVoice = {                                                       %
         }
     \times 1/1 {                                                               %! ritardando_rhythm
 
-        % [A ViolinIIMusicVoice measure 18 / measure 15]                       %! _comment_measure_numbers
+        % [A Violin_II_Music_Voice measure 18 / measure 15]                    %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
         c''16 * 115/64                                                         %! ritardando_rhythm
@@ -896,7 +896,7 @@ A_ViolinIIMusicVoice = {                                                       %
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
-    % [A ViolinIIMusicVoice measure 19 / measure 16]                           %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 19 / measure 16]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \override TupletNumber.text = \markup {
@@ -942,7 +942,7 @@ A_ViolinIIMusicVoice = {                                                       %
         }
     \times 1/1 {                                                               %! accelerando_rhythm
 
-        % [A ViolinIIMusicVoice measure 20 / measure 17]                       %! _comment_measure_numbers
+        % [A Violin_II_Music_Voice measure 20 / measure 17]                    %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
         c''16 * 477/64                                                         %! accelerando_rhythm
@@ -961,7 +961,7 @@ A_ViolinIIMusicVoice = {                                                       %
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
-    % [A ViolinIIMusicVoice measure 21 / measure 18]                           %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 21 / measure 18]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \override TupletNumber.text = \markup {
@@ -1005,7 +1005,7 @@ A_ViolinIIMusicVoice = {                                                       %
         }
     \times 1/1 {                                                               %! ritardando_rhythm
 
-        % [A ViolinIIMusicVoice measure 22 / measure 19]                       %! _comment_measure_numbers
+        % [A Violin_II_Music_Voice measure 22 / measure 19]                    %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
         bf'!16 * 13/8                                                          %! ritardando_rhythm
@@ -1022,23 +1022,23 @@ A_ViolinIIMusicVoice = {                                                       %
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
-    % [A ViolinIIMusicVoice measure 23 / measure 20]                           %! _comment_measure_numbers
+    % [A Violin_II_Music_Voice measure 23 / measure 20]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-A_ViolinIIMusicStaff = {                                                       %! extern
+A_Violin_II_Music_Staff = {                                                    %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \A_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \A_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-A_ViolaMusicVoice = {                                                          %! extern
+A_Viola_Music_Voice = {                                                        %! extern
 
-    % [A ViolaMusicVoice measure 4 / measure 1]                                %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 4 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1068,13 +1068,13 @@ A_ViolaMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [A ViolaMusicVoice measure 5 / measure 2]                                %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 5 / measure 2]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 6 / measure 3]                                %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 6 / measure 3]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 7 / measure 4]                                %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 7 / measure 4]                              %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
@@ -1099,10 +1099,10 @@ A_ViolaMusicVoice = {                                                          %
 
     }                                                                          %! sparse_getato_rhythm
 
-    % [A ViolaMusicVoice measure 8 / measure 5]                                %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 8 / measure 5]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 9 / measure 6]                                %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 9 / measure 6]                              %! _comment_measure_numbers
     r4
 
     ef'!2
@@ -1115,7 +1115,7 @@ A_ViolaMusicVoice = {                                                          %
 
     d'8                                                                        %! polyphony_rhythm
 
-    % [A ViolaMusicVoice measure 10 / measure 7]                               %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 10 / measure 7]                             %! _comment_measure_numbers
     d'8                                                                        %! polyphony_rhythm
     \repeatTie
 
@@ -1123,20 +1123,20 @@ A_ViolaMusicVoice = {                                                          %
 
     r2
 
-    % [A ViolaMusicVoice measure 11 / measure 8]                               %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 11 / measure 8]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 12 / measure 9]                               %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 12 / measure 9]                             %! _comment_measure_numbers
     r2
 
     r8
 
     c'2..                                                                      %! polyphony_rhythm
 
-    % [A ViolaMusicVoice measure 13 / measure 10]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 13 / measure 10]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 14 / measure 11]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 14 / measure 11]                            %! _comment_measure_numbers
     d'2.
 
     d'4.
@@ -1151,7 +1151,7 @@ A_ViolaMusicVoice = {                                                          %
     ds'!8                                                                      %! polyphony_rhythm
     ]                                                                          %! polyphony_rhythm
 
-    % [A ViolaMusicVoice measure 15 / measure 12]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 15 / measure 12]                            %! _comment_measure_numbers
     ds'!2.                                                                     %! polyphony_rhythm
     \repeatTie
 
@@ -1161,14 +1161,14 @@ A_ViolaMusicVoice = {                                                          %
 
     f'8                                                                        %! polyphony_rhythm
 
-    % [A ViolaMusicVoice measure 16 / measure 13]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 16 / measure 13]                            %! _comment_measure_numbers
     f'1                                                                        %! polyphony_rhythm
     \repeatTie
 
-    % [A ViolaMusicVoice measure 17 / measure 14]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 17 / measure 14]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 18 / measure 15]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 18 / measure 15]                            %! _comment_measure_numbers
     ef'!4.                                                                     %! polyphony_rhythm
 
     d'4.
@@ -1176,35 +1176,35 @@ A_ViolaMusicVoice = {                                                          %
     d'2.
     \repeatTie
 
-    % [A ViolaMusicVoice measure 19 / measure 16]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 19 / measure 16]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 20 / measure 17]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 20 / measure 17]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 21 / measure 18]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 21 / measure 18]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 22 / measure 19]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 22 / measure 19]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [A ViolaMusicVoice measure 23 / measure 20]                              %! _comment_measure_numbers
+    % [A Viola_Music_Voice measure 23 / measure 20]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-A_ViolaMusicStaff = {                                                          %! extern
+A_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \A_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \A_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-A_CelloMusicVoice = {                                                          %! extern
+A_Cello_Music_Voice = {                                                        %! extern
 
-    % [A CelloMusicVoice measure 4 / measure 1]                                %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 4 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1236,38 +1236,38 @@ A_CelloMusicVoice = {                                                          %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! cello_solo_rhythm
 
-    % [A CelloMusicVoice measure 5 / measure 2]                                %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 5 / measure 2]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 6 / measure 3]                                %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 6 / measure 3]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 7 / measure 4]                                %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 7 / measure 4]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 8 / measure 5]                                %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 8 / measure 5]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 9 / measure 6]                                %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 9 / measure 6]                              %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 10 / measure 7]                               %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 10 / measure 7]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 11 / measure 8]                               %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 11 / measure 8]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 12 / measure 9]                               %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 12 / measure 9]                             %! _comment_measure_numbers
     c'4                                                                        %! polyphony_rhythm
 
     cqf'!4.                                                                    %! polyphony_rhythm
 
     b2..                                                                       %! polyphony_rhythm
 
-    % [A CelloMusicVoice measure 13 / measure 10]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 13 / measure 10]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 14 / measure 11]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 14 / measure 11]                            %! _comment_measure_numbers
     bf!2..                                                                     %! polyphony_rhythm
 
     btqf!8
@@ -1279,7 +1279,7 @@ A_CelloMusicVoice = {                                                          %
 
     a4.                                                                        %! polyphony_rhythm
 
-    % [A CelloMusicVoice measure 15 / measure 12]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 15 / measure 12]                            %! _comment_measure_numbers
     af!2.
 
     af!4.
@@ -1294,16 +1294,16 @@ A_CelloMusicVoice = {                                                          %
     a8                                                                         %! polyphony_rhythm
     ]                                                                          %! polyphony_rhythm
 
-    % [A CelloMusicVoice measure 16 / measure 13]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 16 / measure 13]                            %! _comment_measure_numbers
     a2.                                                                        %! polyphony_rhythm
     \repeatTie
 
     r4
 
-    % [A CelloMusicVoice measure 17 / measure 14]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 17 / measure 14]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 18 / measure 15]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 18 / measure 15]                            %! _comment_measure_numbers
     a4                                                                         %! polyphony_rhythm
 
     as!2
@@ -1320,16 +1320,16 @@ A_CelloMusicVoice = {                                                          %
 
     r8
 
-    % [A CelloMusicVoice measure 19 / measure 16]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 19 / measure 16]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 20 / measure 17]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 20 / measure 17]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 21 / measure 18]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 21 / measure 18]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [A CelloMusicVoice measure 22 / measure 19]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 22 / measure 19]                            %! _comment_measure_numbers
     r4                                                                         %! sparse_getato_rhythm
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
@@ -1353,15 +1353,15 @@ A_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! sparse_getato_rhythm
 
-    % [A CelloMusicVoice measure 23 / measure 20]                              %! _comment_measure_numbers
+    % [A Cello_Music_Voice measure 23 / measure 20]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-A_CelloMusicStaff = {                                                          %! extern
+A_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \A_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \A_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
