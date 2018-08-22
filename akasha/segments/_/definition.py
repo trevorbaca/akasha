@@ -15,12 +15,12 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark('44'),
     )
 
 maker(
-    ('GlobalRests', -1),
+    ('Global_Rests', -1),
     baca.global_fermata('very_long'),
     )
 

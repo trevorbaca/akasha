@@ -41,7 +41,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.rehearsal_mark('D'),
     baca.rehearsal_mark_y_offset(7),
     baca.metronome_mark('126', selector=baca.leaf(0)),
@@ -52,7 +52,7 @@ maker(
     )
 
 maker(
-    'GlobalRests',
+    'Global_Rests',
     baca.global_fermata('short', selector=baca.leaf(8)),
     baca.global_fermata('short', selector=baca.leaf(17)),
     baca.global_fermata('short', selector=baca.leaf(22)),

@@ -31,14 +31,14 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark('89'),
     baca.rehearsal_mark('N'),
     baca.rehearsal_mark_y_offset(5),
     )
 
 maker(
-    'GlobalRests',
+    'Global_Rests',
     baca.global_fermata('very_long', selector=baca.leaf(-1)),
     )
 
