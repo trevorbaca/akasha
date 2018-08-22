@@ -591,9 +591,9 @@ E_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-E_ViolinIMusicVoice = {                                                        %! extern
+E_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [E ViolinIMusicVoice measure 113 / measure 1]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 113 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -623,19 +623,19 @@ E_ViolinIMusicVoice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [E ViolinIMusicVoice measure 114 / measure 2]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 114 / measure 2]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 115 / measure 3]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 115 / measure 3]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 116 / measure 4]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 116 / measure 4]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/4 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 117 / measure 5]                        %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 117 / measure 5]                     %! _comment_measure_numbers
         f'4                                                                    %! scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -655,13 +655,13 @@ E_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! scratch_rhythm
 
-    % [E ViolinIMusicVoice measure 118 / measure 6]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 118 / measure 6]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 5/3 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 119 / measure 7]                        %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 119 / measure 7]                     %! _comment_measure_numbers
         fs'!4                                                                  %! scratch_rhythm
 
         r4
@@ -670,13 +670,13 @@ E_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! scratch_rhythm
 
-    % [E ViolinIMusicVoice measure 120 / measure 8]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 120 / measure 8]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/4 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 121 / measure 9]                        %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 121 / measure 9]                     %! _comment_measure_numbers
         r4
 
         f'4                                                                    %! scratch_rhythm
@@ -690,7 +690,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/4 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 122 / measure 10]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 122 / measure 10]                    %! _comment_measure_numbers
         r4
 
         e'4                                                                    %! scratch_rhythm
@@ -703,7 +703,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 8/9 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 123 / measure 11]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 123 / measure 11]                    %! _comment_measure_numbers
         ef'!8                                                                  %! scratch_rhythm
 
         r8
@@ -726,7 +726,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 8/9 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 124 / measure 12]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 124 / measure 12]                    %! _comment_measure_numbers
         r8
 
         r8
@@ -750,7 +750,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 10/11 {                                                             %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 125 / measure 13]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 125 / measure 13]                    %! _comment_measure_numbers
         r8
 
         af'!8                                                                  %! scratch_rhythm
@@ -778,7 +778,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/7 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 126 / measure 14]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 126 / measure 14]                    %! _comment_measure_numbers
         r8
 
         r8
@@ -798,7 +798,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/7 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 127 / measure 15]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 127 / measure 15]                    %! _comment_measure_numbers
         r8
 
         r8
@@ -821,7 +821,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/13 {                                                             %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 128 / measure 16]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 128 / measure 16]                    %! _comment_measure_numbers
         a'8                                                                    %! scratch_rhythm
 
         r8
@@ -852,7 +852,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 8/9 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 129 / measure 17]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 129 / measure 17]                    %! _comment_measure_numbers
         b'8                                                                    %! scratch_rhythm
 
         r8
@@ -876,7 +876,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/13 {                                                             %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 130 / measure 18]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 130 / measure 18]                    %! _comment_measure_numbers
         r8
 
         r8
@@ -908,7 +908,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/13 {                                                             %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 131 / measure 19]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 131 / measure 19]                    %! _comment_measure_numbers
         r8
 
         r8
@@ -940,7 +940,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/13 {                                                             %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 132 / measure 20]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 132 / measure 20]                    %! _comment_measure_numbers
         fs'!8                                                                  %! scratch_rhythm
 
         r8
@@ -971,7 +971,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 8/9 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 133 / measure 21]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 133 / measure 21]                    %! _comment_measure_numbers
         bf'!8                                                                  %! scratch_rhythm
 
         r8
@@ -995,7 +995,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/7 {                                                               %! scratch_rhythm
 
-        % [E ViolinIMusicVoice measure 134 / measure 22]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 134 / measure 22]                    %! _comment_measure_numbers
         r8
 
         r8
@@ -1012,7 +1012,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! scratch_rhythm
 
-    % [E ViolinIMusicVoice measure 135 / measure 23]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 135 / measure 23]                        %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
 
     r16
@@ -1037,7 +1037,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIMusicVoice measure 136 / measure 24]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 136 / measure 24]                        %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
@@ -1090,7 +1090,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! dense_getato_rhythm
 
-    % [E ViolinIMusicVoice measure 137 / measure 25]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 137 / measure 25]                        %! _comment_measure_numbers
     r16
 
     a'16                                                                       %! dense_getato_rhythm
@@ -1128,7 +1128,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 4/7 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 138 / measure 26]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 138 / measure 26]                    %! _comment_measure_numbers
         r16
 
         a'16                                                                   %! dense_getato_rhythm
@@ -1170,7 +1170,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 139 / measure 27]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 139 / measure 27]                    %! _comment_measure_numbers
         r16
 
         b'16                                                                   %! dense_getato_rhythm
@@ -1230,7 +1230,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 4/6 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 140 / measure 28]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 140 / measure 28]                    %! _comment_measure_numbers
         r16
 
         cs''!16                                                                %! dense_getato_rhythm
@@ -1311,7 +1311,7 @@ E_ViolinIMusicVoice = {                                                        %
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
 
-    % [E ViolinIMusicVoice measure 141 / measure 29]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 141 / measure 29]                        %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
 
     \times 4/5 {                                                               %! dense_getato_rhythm
@@ -1398,7 +1398,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 142 / measure 30]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 142 / measure 30]                    %! _comment_measure_numbers
         r16
 
         ef''!16                                                                %! dense_getato_rhythm
@@ -1482,7 +1482,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 143 / measure 31]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 143 / measure 31]                    %! _comment_measure_numbers
         r16
 
         ef''!16                                                                %! dense_getato_rhythm
@@ -1591,7 +1591,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 144 / measure 32]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 144 / measure 32]                    %! _comment_measure_numbers
         r16
 
         bf''!16                                                                %! dense_getato_rhythm
@@ -1702,7 +1702,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 145 / measure 33]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 145 / measure 33]                    %! _comment_measure_numbers
         r16
 
         c'''16                                                                 %! dense_getato_rhythm
@@ -1810,7 +1810,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 146 / measure 34]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 146 / measure 34]                    %! _comment_measure_numbers
         r16
 
         ef'''!16                                                               %! dense_getato_rhythm
@@ -1894,7 +1894,7 @@ E_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 6/7 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 147 / measure 35]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 147 / measure 35]                    %! _comment_measure_numbers
         r16
 
         e'''16                                                                 %! dense_getato_rhythm
@@ -2002,7 +2002,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIMusicVoice measure 148 / measure 36]                       %! _comment_measure_numbers
+        % [E Violin_I_Music_Voice measure 148 / measure 36]                    %! _comment_measure_numbers
         r16
 
         f'''16                                                                 %! dense_getato_rhythm
@@ -2085,37 +2085,37 @@ E_ViolinIMusicVoice = {                                                        %
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIMusicVoice measure 149 / measure 37]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 149 / measure 37]                        %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIMusicVoice measure 150 / measure 38]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 150 / measure 38]                        %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIMusicVoice measure 151 / measure 39]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 151 / measure 39]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-E_ViolinIMusicStaff = {                                                        %! extern
+E_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \E_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \E_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-E_ViolinIIMusicVoice = {                                                       %! extern
+E_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [E ViolinIIMusicVoice measure 113 / measure 1]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 113 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2145,13 +2145,13 @@ E_ViolinIIMusicVoice = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [E ViolinIIMusicVoice measure 114 / measure 2]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 114 / measure 2]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/4 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 115 / measure 3]                       %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 115 / measure 3]                    %! _comment_measure_numbers
         r4
 
         r4
@@ -2171,13 +2171,13 @@ E_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! scratch_rhythm
 
-    % [E ViolinIIMusicVoice measure 116 / measure 4]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 116 / measure 4]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 117 / measure 5]                       %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 117 / measure 5]                    %! _comment_measure_numbers
         r4
 
         r4
@@ -2190,13 +2190,13 @@ E_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! scratch_rhythm
 
-    % [E ViolinIIMusicVoice measure 118 / measure 6]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 118 / measure 6]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 5/6 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 119 / measure 7]                       %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 119 / measure 7]                    %! _comment_measure_numbers
         r4
 
         r4
@@ -2211,13 +2211,13 @@ E_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! scratch_rhythm
 
-    % [E ViolinIIMusicVoice measure 120 / measure 8]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 120 / measure 8]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/3 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 121 / measure 9]                       %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 121 / measure 9]                    %! _comment_measure_numbers
         r4
 
         r4
@@ -2229,7 +2229,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/3 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 122 / measure 10]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 122 / measure 10]                   %! _comment_measure_numbers
         r4
 
         r4
@@ -2241,7 +2241,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 8/7 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 123 / measure 11]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 123 / measure 11]                   %! _comment_measure_numbers
         r8
 
         a8                                                                     %! scratch_rhythm
@@ -2264,7 +2264,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 8/7 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 124 / measure 12]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 124 / measure 12]                   %! _comment_measure_numbers
         r8
 
         r8
@@ -2284,7 +2284,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 10/9 {                                                              %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 125 / measure 13]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 125 / measure 13]                   %! _comment_measure_numbers
         r8
 
         r8
@@ -2308,7 +2308,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 126 / measure 14]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 126 / measure 14]                   %! _comment_measure_numbers
         r8
 
         r8
@@ -2324,7 +2324,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 127 / measure 15]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 127 / measure 15]                   %! _comment_measure_numbers
         bf!8                                                                   %! scratch_rhythm
 
         r8
@@ -2340,7 +2340,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/11 {                                                             %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 128 / measure 16]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 128 / measure 16]                   %! _comment_measure_numbers
         r8
 
         r8
@@ -2368,7 +2368,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 8/7 {                                                               %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 129 / measure 17]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 129 / measure 17]                   %! _comment_measure_numbers
         r8
 
         r8
@@ -2388,7 +2388,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/11 {                                                             %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 130 / measure 18]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 130 / measure 18]                   %! _comment_measure_numbers
         r8
 
         r8
@@ -2416,7 +2416,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/11 {                                                             %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 131 / measure 19]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 131 / measure 19]                   %! _comment_measure_numbers
         r8
 
         r8
@@ -2449,7 +2449,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/11 {                                                             %! scratch_rhythm
 
-        % [E ViolinIIMusicVoice measure 132 / measure 20]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 132 / measure 20]                   %! _comment_measure_numbers
         b8                                                                     %! scratch_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
@@ -2477,7 +2477,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! scratch_rhythm
 
-    % [E ViolinIIMusicVoice measure 133 / measure 21]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 133 / measure 21]                       %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
 
     \times 4/5 {                                                               %! dense_getato_rhythm
@@ -2505,14 +2505,14 @@ E_ViolinIIMusicVoice = {                                                       %
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 134 / measure 22]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 134 / measure 22]                       %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 135 / measure 23]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 135 / measure 23]                       %! _comment_measure_numbers
     r16
 
     b16                                                                        %! dense_getato_rhythm
@@ -2575,7 +2575,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 136 / measure 24]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 136 / measure 24]                       %! _comment_measure_numbers
     r16
 
     ef'!16                                                                     %! dense_getato_rhythm
@@ -2649,7 +2649,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 4/6 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 137 / measure 25]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 137 / measure 25]                   %! _comment_measure_numbers
         r16
 
         ef'!16                                                                 %! dense_getato_rhythm
@@ -2717,7 +2717,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 138 / measure 26]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 138 / measure 26]                       %! _comment_measure_numbers
     r16
 
     ef'!16                                                                     %! dense_getato_rhythm
@@ -2774,7 +2774,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 139 / measure 27]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 139 / measure 27]                       %! _comment_measure_numbers
     r4                                                                         %! dense_getato_rhythm
 
     r16
@@ -2815,7 +2815,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 140 / measure 28]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 140 / measure 28]                   %! _comment_measure_numbers
         r16
 
         e'16                                                                   %! dense_getato_rhythm
@@ -2898,7 +2898,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 141 / measure 29]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 141 / measure 29]                   %! _comment_measure_numbers
         r16
 
         fs'!16                                                                 %! dense_getato_rhythm
@@ -3001,7 +3001,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 4/7 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 142 / measure 30]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 142 / measure 30]                   %! _comment_measure_numbers
         r16
 
         g'16                                                                   %! dense_getato_rhythm
@@ -3084,7 +3084,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 6/9 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 143 / measure 31]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 143 / measure 31]                   %! _comment_measure_numbers
         r16
 
         c''16                                                                  %! dense_getato_rhythm
@@ -3193,7 +3193,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 6/9 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 144 / measure 32]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 144 / measure 32]                   %! _comment_measure_numbers
         r16
 
         c''16                                                                  %! dense_getato_rhythm
@@ -3302,7 +3302,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 145 / measure 33]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 145 / measure 33]                       %! _comment_measure_numbers
     r16
 
     e''16                                                                      %! dense_getato_rhythm
@@ -3413,7 +3413,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 8/12 {                                                              %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 146 / measure 34]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 146 / measure 34]                   %! _comment_measure_numbers
         r16
 
         a''16                                                                  %! dense_getato_rhythm
@@ -3502,7 +3502,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 6/9 {                                                               %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 147 / measure 35]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 147 / measure 35]                   %! _comment_measure_numbers
         r16
 
         bf''!16                                                                %! dense_getato_rhythm
@@ -3628,7 +3628,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \times 8/14 {                                                              %! dense_getato_rhythm
 
-        % [E ViolinIIMusicVoice measure 148 / measure 36]                      %! _comment_measure_numbers
+        % [E Violin_II_Music_Voice measure 148 / measure 36]                   %! _comment_measure_numbers
         r16
 
         cs'''!16                                                               %! dense_getato_rhythm
@@ -3714,33 +3714,33 @@ E_ViolinIIMusicVoice = {                                                       %
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 149 / measure 37]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 149 / measure 37]                       %! _comment_measure_numbers
     r2                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 150 / measure 38]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 150 / measure 38]                       %! _comment_measure_numbers
     r2                                                                         %! dense_getato_rhythm
 
     r4                                                                         %! dense_getato_rhythm
 
-    % [E ViolinIIMusicVoice measure 151 / measure 39]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 151 / measure 39]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-E_ViolinIIMusicStaff = {                                                       %! extern
+E_Violin_II_Music_Staff = {                                                    %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \E_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \E_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-E_ViolaMusicVoice = {                                                          %! extern
+E_Viola_Music_Voice = {                                                        %! extern
 
-    % [E ViolaMusicVoice measure 113 / measure 1]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 113 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3781,10 +3781,10 @@ E_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 114 / measure 2]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 114 / measure 2]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 115 / measure 3]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 115 / measure 3]                            %! _comment_measure_numbers
     r4.                                                                        %! viola_ob_rhythm
 
     c'4                                                                        %! viola_ob_rhythm
@@ -3798,10 +3798,10 @@ E_ViolaMusicVoice = {                                                          %
 
     r4                                                                         %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 116 / measure 4]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 116 / measure 4]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 117 / measure 5]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 117 / measure 5]                            %! _comment_measure_numbers
     r4.                                                                        %! viola_ob_rhythm
 
     c'4                                                                        %! viola_ob_rhythm
@@ -3815,10 +3815,10 @@ E_ViolaMusicVoice = {                                                          %
 
     r4                                                                         %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 118 / measure 6]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 118 / measure 6]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 119 / measure 7]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 119 / measure 7]                            %! _comment_measure_numbers
     r4                                                                         %! viola_ob_rhythm
 
     c'4.                                                                       %! viola_ob_rhythm
@@ -3829,10 +3829,10 @@ E_ViolaMusicVoice = {                                                          %
 
     r4.                                                                        %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 120 / measure 8]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 120 / measure 8]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 121 / measure 9]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 121 / measure 9]                            %! _comment_measure_numbers
     r4                                                                         %! viola_ob_rhythm
 
     c'4.                                                                       %! viola_ob_rhythm
@@ -3843,7 +3843,7 @@ E_ViolaMusicVoice = {                                                          %
     ~
     [                                                                          %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 122 / measure 10]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 122 / measure 10]                           %! _comment_measure_numbers
     c'8
     ]                                                                          %! viola_ob_rhythm
 
@@ -3853,7 +3853,7 @@ E_ViolaMusicVoice = {                                                          %
     c'4.                                                                       %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [E ViolaMusicVoice measure 123 / measure 11]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 123 / measure 11]                           %! _comment_measure_numbers
     c'4                                                                        %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
@@ -3868,7 +3868,7 @@ E_ViolaMusicVoice = {                                                          %
     ~
     [                                                                          %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 124 / measure 12]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 124 / measure 12]                           %! _comment_measure_numbers
     c'8
     ]                                                                          %! viola_ob_rhythm
 
@@ -3882,7 +3882,7 @@ E_ViolaMusicVoice = {                                                          %
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ~
 
-    % [E ViolaMusicVoice measure 125 / measure 13]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 125 / measure 13]                           %! _comment_measure_numbers
     c'8
 
     c'4                                                                        %! viola_ob_rhythm
@@ -3897,7 +3897,7 @@ E_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [E ViolaMusicVoice measure 126 / measure 14]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 126 / measure 14]                           %! _comment_measure_numbers
     c'4.                                                                       %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
@@ -3909,7 +3909,7 @@ E_ViolaMusicVoice = {                                                          %
     ~
     [                                                                          %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 127 / measure 15]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 127 / measure 15]                           %! _comment_measure_numbers
     c'8
     ]                                                                          %! viola_ob_rhythm
 
@@ -3919,7 +3919,7 @@ E_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [E ViolaMusicVoice measure 128 / measure 16]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 128 / measure 16]                           %! _comment_measure_numbers
     c'4.                                                                       %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
@@ -3935,45 +3935,7 @@ E_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [E ViolaMusicVoice measure 129 / measure 17]                             %! _comment_measure_numbers
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-
-    % [E ViolaMusicVoice measure 130 / measure 18]                             %! _comment_measure_numbers
-    c'4
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-
-    % [E ViolaMusicVoice measure 131 / measure 19]                             %! _comment_measure_numbers
-    c'4
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
+    % [E Viola_Music_Voice measure 129 / measure 17]                           %! _comment_measure_numbers
     c'4.                                                                       %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
@@ -3987,7 +3949,7 @@ E_ViolaMusicVoice = {                                                          %
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ~
 
-    % [E ViolaMusicVoice measure 132 / measure 20]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 130 / measure 18]                           %! _comment_measure_numbers
     c'4
 
     c'4                                                                        %! viola_ob_rhythm
@@ -4006,204 +3968,7 @@ E_ViolaMusicVoice = {                                                          %
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     ~
 
-    % [E ViolaMusicVoice measure 133 / measure 21]                             %! _comment_measure_numbers
-    c'4
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-    [                                                                          %! viola_ob_rhythm
-
-    % [E ViolaMusicVoice measure 134 / measure 22]                             %! _comment_measure_numbers
-    c'8
-    ]                                                                          %! viola_ob_rhythm
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    % [E ViolaMusicVoice measure 135 / measure 23]                             %! _comment_measure_numbers
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-    [                                                                          %! viola_ob_rhythm
-
-    % [E ViolaMusicVoice measure 136 / measure 24]                             %! _comment_measure_numbers
-    c'8
-    ]                                                                          %! viola_ob_rhythm
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-    [                                                                          %! viola_ob_rhythm
-
-    % [E ViolaMusicVoice measure 137 / measure 25]                             %! _comment_measure_numbers
-    c'8
-    ]                                                                          %! viola_ob_rhythm
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    % [E ViolaMusicVoice measure 138 / measure 26]                             %! _comment_measure_numbers
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-    [                                                                          %! viola_ob_rhythm
-
-    % [E ViolaMusicVoice measure 139 / measure 27]                             %! _comment_measure_numbers
-    c'8
-    ]                                                                          %! viola_ob_rhythm
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    % [E ViolaMusicVoice measure 140 / measure 28]                             %! _comment_measure_numbers
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-    [                                                                          %! viola_ob_rhythm
-
-    % [E ViolaMusicVoice measure 141 / measure 29]                             %! _comment_measure_numbers
-    c'8
-    ]                                                                          %! viola_ob_rhythm
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-    [                                                                          %! viola_ob_rhythm
-
-    % [E ViolaMusicVoice measure 142 / measure 30]                             %! _comment_measure_numbers
-    c'8
-    ]                                                                          %! viola_ob_rhythm
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    % [E ViolaMusicVoice measure 143 / measure 31]                             %! _comment_measure_numbers
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    % [E ViolaMusicVoice measure 144 / measure 32]                             %! _comment_measure_numbers
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    % [E ViolaMusicVoice measure 145 / measure 33]                             %! _comment_measure_numbers
-    c'4.                                                                       %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    % [E ViolaMusicVoice measure 146 / measure 34]                             %! _comment_measure_numbers
-    c'4.                                                                       %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'4                                                                        %! viola_ob_rhythm
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-
-    c'8
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    ~
-
-    % [E ViolaMusicVoice measure 147 / measure 35]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 131 / measure 19]                           %! _comment_measure_numbers
     c'4
 
     c'4                                                                        %! viola_ob_rhythm
@@ -4222,7 +3987,242 @@ E_ViolaMusicVoice = {                                                          %
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ~
 
-    % [E ViolaMusicVoice measure 148 / measure 36]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 132 / measure 20]                           %! _comment_measure_numbers
+    c'4
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+
+    % [E Viola_Music_Voice measure 133 / measure 21]                           %! _comment_measure_numbers
+    c'4
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+    [                                                                          %! viola_ob_rhythm
+
+    % [E Viola_Music_Voice measure 134 / measure 22]                           %! _comment_measure_numbers
+    c'8
+    ]                                                                          %! viola_ob_rhythm
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    % [E Viola_Music_Voice measure 135 / measure 23]                           %! _comment_measure_numbers
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+    [                                                                          %! viola_ob_rhythm
+
+    % [E Viola_Music_Voice measure 136 / measure 24]                           %! _comment_measure_numbers
+    c'8
+    ]                                                                          %! viola_ob_rhythm
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+    [                                                                          %! viola_ob_rhythm
+
+    % [E Viola_Music_Voice measure 137 / measure 25]                           %! _comment_measure_numbers
+    c'8
+    ]                                                                          %! viola_ob_rhythm
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    % [E Viola_Music_Voice measure 138 / measure 26]                           %! _comment_measure_numbers
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+    [                                                                          %! viola_ob_rhythm
+
+    % [E Viola_Music_Voice measure 139 / measure 27]                           %! _comment_measure_numbers
+    c'8
+    ]                                                                          %! viola_ob_rhythm
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    % [E Viola_Music_Voice measure 140 / measure 28]                           %! _comment_measure_numbers
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+    [                                                                          %! viola_ob_rhythm
+
+    % [E Viola_Music_Voice measure 141 / measure 29]                           %! _comment_measure_numbers
+    c'8
+    ]                                                                          %! viola_ob_rhythm
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+    [                                                                          %! viola_ob_rhythm
+
+    % [E Viola_Music_Voice measure 142 / measure 30]                           %! _comment_measure_numbers
+    c'8
+    ]                                                                          %! viola_ob_rhythm
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    % [E Viola_Music_Voice measure 143 / measure 31]                           %! _comment_measure_numbers
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    % [E Viola_Music_Voice measure 144 / measure 32]                           %! _comment_measure_numbers
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    % [E Viola_Music_Voice measure 145 / measure 33]                           %! _comment_measure_numbers
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    % [E Viola_Music_Voice measure 146 / measure 34]                           %! _comment_measure_numbers
+    c'4.                                                                       %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+
+    % [E Viola_Music_Voice measure 147 / measure 35]                           %! _comment_measure_numbers
+    c'4
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4.                                                                       %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'4                                                                        %! viola_ob_rhythm
+    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+
+    c'8
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    ~
+
+    % [E Viola_Music_Voice measure 148 / measure 36]                           %! _comment_measure_numbers
     c'4
 
     c'4                                                                        %! viola_ob_rhythm
@@ -4239,7 +4239,7 @@ E_ViolaMusicVoice = {                                                          %
     ~
     [                                                                          %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 149 / measure 37]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 149 / measure 37]                           %! _comment_measure_numbers
     c'8
     ]                                                                          %! viola_ob_rhythm
 
@@ -4249,7 +4249,7 @@ E_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [E ViolaMusicVoice measure 150 / measure 38]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 150 / measure 38]                           %! _comment_measure_numbers
     c'4.                                                                       %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
@@ -4258,23 +4258,23 @@ E_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! viola_ob_rhythm
 
-    % [E ViolaMusicVoice measure 151 / measure 39]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 151 / measure 39]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-E_ViolaMusicStaff = {                                                          %! extern
+E_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \E_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \E_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-E_CelloMusicVoice = {                                                          %! extern
+E_Cello_Music_Voice = {                                                        %! extern
 
-    % [E CelloMusicVoice measure 113 / measure 1]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 113 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4300,13 +4300,13 @@ E_CelloMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [E CelloMusicVoice measure 114 / measure 2]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 114 / measure 2]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/5 {                                                               %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 115 / measure 3]                          %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 115 / measure 3]                        %! _comment_measure_numbers
         r4
 
         b,4                                                                    %! scratch_rhythm
@@ -4328,19 +4328,19 @@ E_CelloMusicVoice = {                                                          %
 
     }                                                                          %! scratch_rhythm
 
-    % [E CelloMusicVoice measure 116 / measure 4]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 116 / measure 4]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 117 / measure 5]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 117 / measure 5]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 118 / measure 6]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 118 / measure 6]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 5/4 {                                                               %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 119 / measure 7]                          %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 119 / measure 7]                        %! _comment_measure_numbers
         r4
 
         c4                                                                     %! scratch_rhythm
@@ -4351,13 +4351,13 @@ E_CelloMusicVoice = {                                                          %
 
     }                                                                          %! scratch_rhythm
 
-    % [E CelloMusicVoice measure 120 / measure 8]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 120 / measure 8]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/5 {                                                               %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 121 / measure 9]                          %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 121 / measure 9]                        %! _comment_measure_numbers
         r4
 
         r4
@@ -4376,7 +4376,7 @@ E_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 3/5 {                                                               %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 122 / measure 10]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 122 / measure 10]                       %! _comment_measure_numbers
         r4
 
         r4
@@ -4391,7 +4391,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 8/10 {                                                              %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 123 / measure 11]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 123 / measure 11]                       %! _comment_measure_numbers
         r8
 
         r8
@@ -4416,7 +4416,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 8/10 {                                                              %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 124 / measure 12]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 124 / measure 12]                       %! _comment_measure_numbers
         r8
 
         bf,!8                                                                  %! scratch_rhythm
@@ -4442,7 +4442,7 @@ E_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 10/12 {                                                             %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 125 / measure 13]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 125 / measure 13]                       %! _comment_measure_numbers
         c8                                                                     %! scratch_rhythm
 
         r8
@@ -4472,7 +4472,7 @@ E_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/8 {                                                               %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 126 / measure 14]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 126 / measure 14]                       %! _comment_measure_numbers
         c8                                                                     %! scratch_rhythm
 
         r8
@@ -4494,7 +4494,7 @@ E_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 6/8 {                                                               %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 127 / measure 15]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 127 / measure 15]                       %! _comment_measure_numbers
         r8
 
         cs!8                                                                   %! scratch_rhythm
@@ -4521,7 +4521,7 @@ E_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/14 {                                                             %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 128 / measure 16]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 128 / measure 16]                       %! _comment_measure_numbers
         r8
 
         r8
@@ -4557,7 +4557,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 8/10 {                                                              %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 129 / measure 17]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 129 / measure 17]                       %! _comment_measure_numbers
         r8
 
         r8
@@ -4585,7 +4585,7 @@ E_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! scratch_rhythm
     \times 12/14 {                                                             %! scratch_rhythm
 
-        % [E CelloMusicVoice measure 130 / measure 18]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 130 / measure 18]                       %! _comment_measure_numbers
         r8
 
         r8
@@ -4619,7 +4619,7 @@ E_CelloMusicVoice = {                                                          %
 
     }                                                                          %! scratch_rhythm
 
-    % [E CelloMusicVoice measure 131 / measure 19]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 131 / measure 19]                           %! _comment_measure_numbers
     r4.                                                                        %! dense_getato_rhythm
 
     r16
@@ -4646,7 +4646,7 @@ E_CelloMusicVoice = {                                                          %
 
     r4.                                                                        %! dense_getato_rhythm
 
-    % [E CelloMusicVoice measure 132 / measure 20]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 132 / measure 20]                           %! _comment_measure_numbers
     r4.                                                                        %! dense_getato_rhythm
 
     r4.                                                                        %! dense_getato_rhythm
@@ -4682,7 +4682,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 4/7 {                                                               %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 133 / measure 21]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 133 / measure 21]                       %! _comment_measure_numbers
         r16
 
         ef!16                                                                  %! dense_getato_rhythm
@@ -4744,7 +4744,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 4/7 {                                                               %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 134 / measure 22]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 134 / measure 22]                       %! _comment_measure_numbers
         r16
 
         ef!16                                                                  %! dense_getato_rhythm
@@ -4786,7 +4786,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 135 / measure 23]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 135 / measure 23]                       %! _comment_measure_numbers
         r16
 
         fs!16                                                                  %! dense_getato_rhythm
@@ -4873,7 +4873,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 136 / measure 24]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 136 / measure 24]                       %! _comment_measure_numbers
         r16
 
         fs!16                                                                  %! dense_getato_rhythm
@@ -4955,7 +4955,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 4/7 {                                                               %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 137 / measure 25]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 137 / measure 25]                       %! _comment_measure_numbers
         r16
 
         g16                                                                    %! dense_getato_rhythm
@@ -5018,7 +5018,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 4/5 {                                                               %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 138 / measure 26]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 138 / measure 26]                       %! _comment_measure_numbers
         r16
 
         a16                                                                    %! dense_getato_rhythm
@@ -5076,7 +5076,7 @@ E_CelloMusicVoice = {                                                          %
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! dense_getato_rhythm
 
-    % [E CelloMusicVoice measure 139 / measure 27]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 139 / measure 27]                           %! _comment_measure_numbers
     \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -5129,7 +5129,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 4/7 {                                                               %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 140 / measure 28]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 140 / measure 28]                       %! _comment_measure_numbers
         r16
 
         bf!16                                                                  %! dense_getato_rhythm
@@ -5209,7 +5209,7 @@ E_CelloMusicVoice = {                                                          %
         d'16                                                                   %! dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        % [E CelloMusicVoice measure 141 / measure 29]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 141 / measure 29]                       %! _comment_measure_numbers
         cs'!16                                                                 %! dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
@@ -5314,7 +5314,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 8/12 {                                                              %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 142 / measure 30]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 142 / measure 30]                       %! _comment_measure_numbers
         r16
 
         d'16                                                                   %! dense_getato_rhythm
@@ -5388,7 +5388,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 6/9 {                                                               %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 143 / measure 31]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 143 / measure 31]                       %! _comment_measure_numbers
         r16
 
         ef'!16                                                                 %! dense_getato_rhythm
@@ -5506,7 +5506,7 @@ E_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
     \times 12/13 {                                                             %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 144 / measure 32]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 144 / measure 32]                       %! _comment_measure_numbers
         r16
 
         a'16                                                                   %! dense_getato_rhythm
@@ -5603,7 +5603,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 12/18 {                                                             %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 145 / measure 33]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 145 / measure 33]                       %! _comment_measure_numbers
         r16
 
         ef''!16                                                                %! dense_getato_rhythm
@@ -5722,7 +5722,7 @@ E_CelloMusicVoice = {                                                          %
         d''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        % [E CelloMusicVoice measure 146 / measure 34]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 146 / measure 34]                       %! _comment_measure_numbers
         e''16                                                                  %! dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
@@ -5810,7 +5810,7 @@ E_CelloMusicVoice = {                                                          %
 
     \times 12/15 {                                                             %! dense_getato_rhythm
 
-        % [E CelloMusicVoice measure 147 / measure 35]                         %! _comment_measure_numbers
+        % [E Cello_Music_Voice measure 147 / measure 35]                       %! _comment_measure_numbers
         r16
 
         f''16                                                                  %! dense_getato_rhythm
@@ -6027,15 +6027,15 @@ E_CelloMusicVoice = {                                                          %
 
     r2                                                                         %! dense_getato_rhythm
 
-    % [E CelloMusicVoice measure 151 / measure 39]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 151 / measure 39]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-E_CelloMusicStaff = {                                                          %! extern
+E_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \E_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \E_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern

@@ -101,9 +101,9 @@ L_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-L_ViolinIMusicVoice = {                                                        %! extern
+L_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [L ViolinIMusicVoice measure 334 / measure 1]                            %! _comment_measure_numbers
+    % [L Violin_I_Music_Voice measure 334 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -133,35 +133,35 @@ L_ViolinIMusicVoice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [L ViolinIMusicVoice measure 335 / measure 2]                            %! _comment_measure_numbers
+    % [L Violin_I_Music_Voice measure 335 / measure 2]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [L ViolinIMusicVoice measure 336 / measure 3]                            %! _comment_measure_numbers
+    % [L Violin_I_Music_Voice measure 336 / measure 3]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [L ViolinIMusicVoice measure 337 / measure 4]                            %! _comment_measure_numbers
+    % [L Violin_I_Music_Voice measure 337 / measure 4]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [L ViolinIMusicVoice measure 338 / measure 5]                            %! _comment_measure_numbers
+    % [L Violin_I_Music_Voice measure 338 / measure 5]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [L ViolinIMusicVoice measure 339 / measure 6]                            %! _comment_measure_numbers
+    % [L Violin_I_Music_Voice measure 339 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-L_ViolinIMusicStaff = {                                                        %! extern
+L_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \L_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \L_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-L_ViolinIIMusicVoice = {                                                       %! extern
+L_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [L ViolinIIMusicVoice measure 334 / measure 1]                           %! _comment_measure_numbers
+    % [L Violin_II_Music_Voice measure 334 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -191,35 +191,35 @@ L_ViolinIIMusicVoice = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [L ViolinIIMusicVoice measure 335 / measure 2]                           %! _comment_measure_numbers
+    % [L Violin_II_Music_Voice measure 335 / measure 2]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [L ViolinIIMusicVoice measure 336 / measure 3]                           %! _comment_measure_numbers
+    % [L Violin_II_Music_Voice measure 336 / measure 3]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [L ViolinIIMusicVoice measure 337 / measure 4]                           %! _comment_measure_numbers
+    % [L Violin_II_Music_Voice measure 337 / measure 4]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [L ViolinIIMusicVoice measure 338 / measure 5]                           %! _comment_measure_numbers
+    % [L Violin_II_Music_Voice measure 338 / measure 5]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [L ViolinIIMusicVoice measure 339 / measure 6]                           %! _comment_measure_numbers
+    % [L Violin_II_Music_Voice measure 339 / measure 6]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-L_ViolinIIMusicStaff = {                                                       %! extern
+L_Violin_II_Music_Staff = {                                                    %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \L_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \L_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-L_ViolaMusicVoice = {                                                          %! extern
+L_Viola_Music_Voice = {                                                        %! extern
 
-    % [L ViolaMusicVoice measure 334 / measure 1]                              %! _comment_measure_numbers
+    % [L Viola_Music_Voice measure 334 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -253,36 +253,36 @@ L_ViolaMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [L ViolaMusicVoice measure 335 / measure 2]                              %! _comment_measure_numbers
+    % [L Viola_Music_Voice measure 335 / measure 2]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [L ViolaMusicVoice measure 336 / measure 3]                              %! _comment_measure_numbers
+    % [L Viola_Music_Voice measure 336 / measure 3]                            %! _comment_measure_numbers
     c'1.                                                                       %! baca_make_repeat_tied_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [L ViolaMusicVoice measure 337 / measure 4]                              %! _comment_measure_numbers
+    % [L Viola_Music_Voice measure 337 / measure 4]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [L ViolaMusicVoice measure 338 / measure 5]                              %! _comment_measure_numbers
+    % [L Viola_Music_Voice measure 338 / measure 5]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
 
-    % [L ViolaMusicVoice measure 339 / measure 6]                              %! _comment_measure_numbers
+    % [L Viola_Music_Voice measure 339 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-L_ViolaMusicStaff = {                                                          %! extern
+L_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \L_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \L_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-L_CelloMusicVoice = {                                                          %! extern
+L_Cello_Music_Voice = {                                                        %! extern
 
-    % [L CelloMusicVoice measure 334 / measure 1]                              %! _comment_measure_numbers
+    % [L Cello_Music_Voice measure 334 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -308,16 +308,16 @@ L_CelloMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [L CelloMusicVoice measure 335 / measure 2]                              %! _comment_measure_numbers
+    % [L Cello_Music_Voice measure 335 / measure 2]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [L CelloMusicVoice measure 336 / measure 3]                              %! _comment_measure_numbers
+    % [L Cello_Music_Voice measure 336 / measure 3]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
 
-    % [L CelloMusicVoice measure 337 / measure 4]                              %! _comment_measure_numbers
+    % [L Cello_Music_Voice measure 337 / measure 4]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [L CelloMusicVoice measure 338 / measure 5]                              %! _comment_measure_numbers
+    % [L Cello_Music_Voice measure 338 / measure 5]                            %! _comment_measure_numbers
     \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_338:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_338:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
@@ -330,16 +330,16 @@ L_CelloMusicVoice = {                                                          %
     ^ \markup { "pos. ord. + vib. poco" }                                      %! baca_markup:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [L CelloMusicVoice measure 339 / measure 6]                              %! _comment_measure_numbers
+    % [L Cello_Music_Voice measure 339 / measure 6]                            %! _comment_measure_numbers
     bf,,!2.                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-L_CelloMusicStaff = {                                                          %! extern
+L_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \L_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \L_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern

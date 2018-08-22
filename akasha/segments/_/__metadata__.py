@@ -11,15 +11,15 @@ metadata = abjad.OrderedDict(
                 'GlobalRests',
                 'GlobalSkips',
                 'MusicContext',
-                'StringQuartetStaffGroup',
-                'ViolinIMusicStaff',
-                'ViolinIMusicVoice',
-                'ViolinIIMusicStaff',
-                'ViolinIIMusicVoice',
-                'ViolaMusicStaff',
-                'ViolaMusicVoice',
-                'CelloMusicStaff',
-                'CelloMusicVoice',
+                'String_Quartet_Staff_Group',
+                'Violin_I_Music_Staff',
+                'Violin_I_Music_Voice',
+                'Violin_II_Music_Staff',
+                'Violin_II_Music_Voice',
+                'Viola_Music_Staff',
+                'Viola_Music_Voice',
+                'Cello_Music_Staff',
+                'Cello_Music_Voice',
                 ],
             ),
         (
@@ -39,21 +39,21 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'CelloMusicStaff',
+                        'Cello_Music_Staff',
                         [
                             abjad.Momento(
-                                context='CelloMusicVoice',
+                                context='Cello_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vc.',
                                 ),
                             abjad.Momento(
-                                context='CelloMusicVoice',
+                                context='Cello_Music_Voice',
                                 manifest='instruments',
                                 value='Cello',
                                 ),
                             abjad.Momento(
-                                context='CelloMusicVoice',
+                                context='Cello_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
@@ -75,78 +75,78 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'ViolaMusicStaff',
+                        'Viola_Music_Staff',
                         [
                             abjad.Momento(
-                                context='ViolaMusicVoice',
+                                context='Viola_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Va.',
                                 ),
                             abjad.Momento(
-                                context='ViolaMusicVoice',
+                                context='Viola_Music_Voice',
                                 manifest='instruments',
                                 value='Viola',
                                 ),
                             abjad.Momento(
-                                context='ViolaMusicVoice',
+                                context='Viola_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='alto',
                                 ),
                             abjad.Momento(
-                                context='ViolaMusicVoice',
+                                context='Viola_Music_Voice',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
                             ],
                         ),
                     (
-                        'ViolaMusicVoice',
+                        'Viola_Music_Voice',
                         [
                             abjad.Momento(
-                                context='ViolaMusicVoice',
+                                context='Viola_Music_Voice',
                                 prototype='abjad.Dynamic',
                                 value='\\baca-effort-mf',
                                 ),
                             ],
                         ),
                     (
-                        'ViolinIIMusicStaff',
+                        'Violin_II_Music_Staff',
                         [
                             abjad.Momento(
-                                context='ViolinIIMusicVoice',
+                                context='Violin_II_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vn. II',
                                 ),
                             abjad.Momento(
-                                context='ViolinIIMusicVoice',
+                                context='Violin_II_Music_Voice',
                                 manifest='instruments',
                                 value='ViolinI',
                                 ),
                             abjad.Momento(
-                                context='ViolinIIMusicVoice',
+                                context='Violin_II_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'ViolinIMusicStaff',
+                        'Violin_I_Music_Staff',
                         [
                             abjad.Momento(
-                                context='ViolinIMusicVoice',
+                                context='Violin_I_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vn. I',
                                 ),
                             abjad.Momento(
-                                context='ViolinIMusicVoice',
+                                context='Violin_I_Music_Voice',
                                 manifest='instruments',
                                 value='ViolinI',
                                 ),
                             abjad.Momento(
-                                context='ViolinIMusicVoice',
+                                context='Violin_I_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
@@ -161,10 +161,10 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('CelloMusicVoice', False),
-                    ('ViolaMusicVoice', True),
-                    ('ViolinIIMusicVoice', False),
-                    ('ViolinIMusicVoice', False),
+                    ('Cello_Music_Voice', False),
+                    ('Viola_Music_Voice', True),
+                    ('Violin_II_Music_Voice', False),
+                    ('Violin_I_Music_Voice', False),
                     ]
                 ),
             ),
