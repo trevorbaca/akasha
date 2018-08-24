@@ -115,7 +115,10 @@ maker(
     baca.dynamic('mp'),
     baca.markup('5°/A4(II) + vib. mod.'),
     baca.note_head_style_harmonic(),
-    baca.pitch('C#7'),
+    baca.pitch(
+        'C#7',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -162,7 +165,7 @@ maker(
     baca.dynamic('ppp'),
     baca.new(
         baca.glissando(),
-        map=baca.runs(),
+        map=baca.runs(exclude='HIDDEN'),
         ),
     baca.markup('XP + senza vib. + full bow strokes'),
     baca.note_head_style_harmonic(),
@@ -193,7 +196,7 @@ maker(
     baca.dynamic('ppp'),
     baca.new(
         baca.glissando(),
-        map=baca.runs(),
+        map=baca.runs(exclude=baca.enums.HIDDEN),
         ),
     baca.markup('XP + full bow strokes'),
     baca.note_head_style_harmonic(),
@@ -204,16 +207,22 @@ maker(
     baca.dynamic('p'),
     baca.new(
         baca.trill_spanner(string='M2'),
-        map=baca.qruns(),
+        map=baca.qruns(exclude=baca.enums.HIDDEN),
         ),
     baca.markup('tasto'),
-    baca.pitch('G5'),
+    baca.pitch(
+        'G5',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     ('va', (1, 31)),
     baca.note_head_style_harmonic(),
-    baca.pitch('G~5'),
+    baca.pitch(
+        'Gqf5',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -240,7 +249,7 @@ maker(
     baca.dynamic('ppp-ancora'),
     baca.new(
         baca.glissando(),
-        map=baca.runs(),
+        map=baca.runs(exclude=baca.enums.HIDDEN),
         ),
     baca.markup('XP + full bow strokes'),
     baca.note_head_style_harmonic(),
@@ -249,7 +258,10 @@ maker(
 maker(
     ('vc', (1, 22)),
     baca.note_head_style_harmonic(),
-    baca.pitch('D5'),
+    baca.pitch(
+        'D5',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(

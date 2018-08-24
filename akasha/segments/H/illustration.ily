@@ -34,7 +34,7 @@ H_Global_Skips = {                                                             %
     {
 
         % [H Global_Skips measure 217 / measure 1]                             %! _comment_measure_numbers
-        \once \override Global_Context.RehearsalMark.Y-offset = #5             %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
+        \once \override GlobalContext.RehearsalMark.Y-offset = #5              %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
         \time 4/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \mark #8                                                               %! baca_rehearsal_mark:IndicatorCommand
         \bar ""                                                                %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -291,8 +291,26 @@ H_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
-    % [H Violin_I_Music_Voice measure 220 / measure 4]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Violin_I_Music_Voice measure 220 / measure 4]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Violin_I_Rest_Voice measure 220 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Violin_I_Music_Voice measure 221 / measure 5]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -471,8 +489,26 @@ H_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
-    % [H Violin_II_Music_Voice measure 220 / measure 4]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Violin_II_Music_Voice measure 220 / measure 4]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Violin_II_Rest_Voice measure 220 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Violin_II_Music_Voice measure 221 / measure 5]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -537,8 +573,26 @@ H_Viola_Music_Voice = {                                                        %
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [H Viola_Music_Voice measure 220 / measure 4]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Viola_Music_Voice measure 220 / measure 4]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Viola_Rest_Voice measure 220 / measure 4]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \times 8/9 {                                                               %! glissando_rhythm
 
@@ -561,8 +615,26 @@ H_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! glissando_rhythm
 
-    % [H Viola_Music_Voice measure 223 / measure 7]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Viola_Music_Voice measure 223 / measure 7]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Viola_Rest_Voice measure 223 / measure 7]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -678,8 +750,26 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
-    % [H Cello_Music_Voice measure 220 / measure 4]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Cello_Music_Voice measure 220 / measure 4]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Cello_Rest_Voice measure 220 / measure 4]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \times 8/9 {                                                               %! glissando_rhythm
 
@@ -698,8 +788,26 @@ H_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! glissando_rhythm
 
-    % [H Cello_Music_Voice measure 223 / measure 7]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Cello_Music_Voice measure 223 / measure 7]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Cello_Rest_Voice measure 223 / measure 7]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 

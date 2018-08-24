@@ -17,4 +17,8 @@ def getato_pitches(
     if direction == abjad.Down:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
-    return baca.loop(pitch_numbers, intervals)
+    return baca.loop(
+        pitch_numbers,
+        intervals,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        )

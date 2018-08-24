@@ -173,7 +173,7 @@ D_Global_Rests = {                                                             %
 D_Global_Skips = {                                                             %! extern
 
     % [D Global_Skips measure 62 / measure 1]                                  %! _comment_measure_numbers
-    \once \override Global_Context.RehearsalMark.Y-offset = #7                 %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
+    \once \override GlobalContext.RehearsalMark.Y-offset = #7                  %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #4                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -768,8 +768,26 @@ D_Violin_I_Music_Voice = {                                                     %
     \repeatTie
     \ottava #0                                                                 %! baca_ottava:SpannerCommand
 
-    % [D Violin_I_Music_Voice measure 70 / measure 9]                          %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Music_Voice measure 70 / measure 9]                  %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Rest_Voice measure 70 / measure 9]                   %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 71 / measure 10]                         %! _comment_measure_numbers
     \ottava #1                                                                 %! baca_ottava:SpannerCommand
@@ -814,8 +832,26 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     \ottava #0                                                                 %! baca_ottava:SpannerCommand
 
-    % [D Violin_I_Music_Voice measure 79 / measure 18]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Music_Voice measure 79 / measure 18]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Rest_Voice measure 79 / measure 18]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 80 / measure 19]                         %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
@@ -844,8 +880,26 @@ D_Violin_I_Music_Voice = {                                                     %
     ef'!4.                                                                     %! untied_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [D Violin_I_Music_Voice measure 84 / measure 23]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Music_Voice measure 84 / measure 23]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Rest_Voice measure 84 / measure 23]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 85 / measure 24]                         %! _comment_measure_numbers
     fs'!2.
@@ -894,8 +948,26 @@ D_Violin_I_Music_Voice = {                                                     %
     a''2..                                                                     %! untied_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [D Violin_I_Music_Voice measure 93 / measure 32]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Music_Voice measure 93 / measure 32]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Rest_Voice measure 93 / measure 32]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 94 / measure 33]                         %! _comment_measure_numbers
     a'4.                                                                       %! untied_notes
@@ -916,8 +988,26 @@ D_Violin_I_Music_Voice = {                                                     %
     a''4.                                                                      %! untied_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [D Violin_I_Music_Voice measure 98 / measure 37]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Music_Voice measure 98 / measure 37]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Rest_Voice measure 98 / measure 37]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 99 / measure 38]                         %! _comment_measure_numbers
     ef'''!2.                                                                   %! untied_notes
@@ -938,8 +1028,26 @@ D_Violin_I_Music_Voice = {                                                     %
     a'4.                                                                       %! untied_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [D Violin_I_Music_Voice measure 103 / measure 42]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Music_Voice measure 103 / measure 42]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Rest_Voice measure 103 / measure 42]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 104 / measure 43]                        %! _comment_measure_numbers
     fs'!1                                                                      %! untied_notes
@@ -969,8 +1077,26 @@ D_Violin_I_Music_Voice = {                                                     %
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    % [D Violin_I_Music_Voice measure 108 / measure 47]                        %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Music_Voice measure 108 / measure 47]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/8                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_I_Rest_Voice measure 108 / measure 47]                 %! _comment_measure_numbers
+            R1 * 3/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 109 / measure 48]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -997,35 +1123,53 @@ D_Violin_I_Music_Staff = {                                                     %
 
 D_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [D Violin_II_Music_Voice measure 62 / measure 1]                         %! _comment_measure_numbers
-    \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            #12                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            "Vn. II"                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 3/8                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            #12                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            "Vn. II"                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Music_Voice measure 62 / measure 1]                 %! _comment_measure_numbers
+            \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                    #12                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                    "Vn. II"                                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.line-count = 5                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+            c'1 * 3/8                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \pp                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+            ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                    #12                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                    "Vn. II"                                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Rest_Voice measure 62 / measure 1]                  %! _comment_measure_numbers
+            R1 * 3/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 63 / measure 2]                         %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
@@ -1106,8 +1250,26 @@ D_Violin_II_Music_Voice = {                                                    %
     ef''!2                                                                     %! untied_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [D Violin_II_Music_Voice measure 79 / measure 18]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Music_Voice measure 79 / measure 18]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Rest_Voice measure 79 / measure 18]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 80 / measure 19]                        %! _comment_measure_numbers
     fs'!1                                                                      %! untied_notes
@@ -1132,8 +1294,26 @@ D_Violin_II_Music_Voice = {                                                    %
     ef''!4.                                                                    %! untied_notes
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [D Violin_II_Music_Voice measure 84 / measure 23]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Music_Voice measure 84 / measure 23]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Rest_Voice measure 84 / measure 23]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 85 / measure 24]                        %! _comment_measure_numbers
     a'2.
@@ -1182,8 +1362,26 @@ D_Violin_II_Music_Voice = {                                                    %
     a'2..                                                                      %! untied_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [D Violin_II_Music_Voice measure 93 / measure 32]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Music_Voice measure 93 / measure 32]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Rest_Voice measure 93 / measure 32]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 94 / measure 33]                        %! _comment_measure_numbers
     ef'''!4.                                                                   %! untied_notes
@@ -1205,8 +1403,26 @@ D_Violin_II_Music_Voice = {                                                    %
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    % [D Violin_II_Music_Voice measure 98 / measure 37]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Music_Voice measure 98 / measure 37]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Rest_Voice measure 98 / measure 37]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 99 / measure 38]                        %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
@@ -1220,9 +1436,27 @@ D_Violin_II_Music_Voice = {                                                    %
     g''2..                                                                     %! fill_first_half
     \repeatTie
 
-    % [D Violin_II_Music_Voice measure 101 / measure 40]                       %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Music_Voice measure 101 / measure 40]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 7/8                                                          %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Rest_Voice measure 101 / measure 40]                %! _comment_measure_numbers
+            R1 * 7/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 102 / measure 41]                       %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
@@ -1242,9 +1476,27 @@ D_Violin_II_Music_Voice = {                                                    %
     g''4.
     \repeatTie
 
-    % [D Violin_II_Music_Voice measure 106 / measure 45]                       %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_measure_silences
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Music_Voice measure 106 / measure 45]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 9/8                                                          %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Violin_II_Rest_Voice measure 106 / measure 45]                %! _comment_measure_numbers
+            R1 * 9/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 107 / measure 46]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
@@ -1339,8 +1591,26 @@ D_Viola_Music_Voice = {                                                        %
     gqf''!1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D Viola_Music_Voice measure 70 / measure 9]                             %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Music_Voice measure 70 / measure 9]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Rest_Voice measure 70 / measure 9]                      %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 71 / measure 10]                            %! _comment_measure_numbers
     gqf''!2.
@@ -1382,8 +1652,26 @@ D_Viola_Music_Voice = {                                                        %
     gqf''!2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D Viola_Music_Voice measure 79 / measure 18]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Music_Voice measure 79 / measure 18]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Rest_Voice measure 79 / measure 18]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 80 / measure 19]                            %! _comment_measure_numbers
     gqf''!1                                                                    %! baca_make_repeat_tied_notes
@@ -1403,8 +1691,26 @@ D_Viola_Music_Voice = {                                                        %
     gqf''!4.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D Viola_Music_Voice measure 84 / measure 23]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Music_Voice measure 84 / measure 23]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Rest_Voice measure 84 / measure 23]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 85 / measure 24]                            %! _comment_measure_numbers
     gqf''!2.
@@ -1444,8 +1750,26 @@ D_Viola_Music_Voice = {                                                        %
     \repeatTie
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    % [D Viola_Music_Voice measure 93 / measure 32]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Music_Voice measure 93 / measure 32]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Rest_Voice measure 93 / measure 32]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 94 / measure 33]                            %! _comment_measure_numbers
     \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_94:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
@@ -1483,8 +1807,26 @@ D_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! glissando_rhythm
 
-    % [D Viola_Music_Voice measure 98 / measure 37]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Music_Voice measure 98 / measure 37]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Rest_Voice measure 98 / measure 37]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 99 / measure 38]                            %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
@@ -1509,8 +1851,26 @@ D_Viola_Music_Voice = {                                                        %
     f4.                                                                        %! untied_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
 
-    % [D Viola_Music_Voice measure 103 / measure 42]                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Music_Voice measure 103 / measure 42]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Rest_Voice measure 103 / measure 42]                    %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 104 / measure 43]                           %! _comment_measure_numbers
     f1                                                                         %! untied_notes
@@ -1540,8 +1900,26 @@ D_Viola_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    % [D Viola_Music_Voice measure 108 / measure 47]                           %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Music_Voice measure 108 / measure 47]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/8                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Viola_Rest_Voice measure 108 / measure 47]                    %! _comment_measure_numbers
+            R1 * 3/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 109 / measure 48]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -1626,8 +2004,26 @@ D_Cello_Music_Voice = {                                                        %
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D Cello_Music_Voice measure 70 / measure 9]                             %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Music_Voice measure 70 / measure 9]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Rest_Voice measure 70 / measure 9]                      %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 71 / measure 10]                            %! _comment_measure_numbers
     d''2.
@@ -1669,8 +2065,26 @@ D_Cello_Music_Voice = {                                                        %
     d''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D Cello_Music_Voice measure 79 / measure 18]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Music_Voice measure 79 / measure 18]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Rest_Voice measure 79 / measure 18]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 80 / measure 19]                            %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
@@ -1691,8 +2105,26 @@ D_Cello_Music_Voice = {                                                        %
     \repeatTie
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    % [D Cello_Music_Voice measure 84 / measure 23]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Music_Voice measure 84 / measure 23]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Rest_Voice measure 84 / measure 23]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 85 / measure 24]                            %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
@@ -1753,8 +2185,26 @@ D_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    % [D Cello_Music_Voice measure 93 / measure 32]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Music_Voice measure 93 / measure 32]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Rest_Voice measure 93 / measure 32]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 94 / measure 33]                            %! _comment_measure_numbers
     cs,!4.                                                                     %! baca_make_repeat_tied_notes
@@ -1778,8 +2228,26 @@ D_Cello_Music_Voice = {                                                        %
     cs,!4.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D Cello_Music_Voice measure 98 / measure 37]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Music_Voice measure 98 / measure 37]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Rest_Voice measure 98 / measure 37]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 99 / measure 38]                            %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
@@ -1805,8 +2273,26 @@ D_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    % [D Cello_Music_Voice measure 103 / measure 42]                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Music_Voice measure 103 / measure 42]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Rest_Voice measure 103 / measure 42]                    %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 104 / measure 43]                           %! _comment_measure_numbers
     df!1                                                                       %! untied_notes
@@ -1859,8 +2345,26 @@ D_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! glissando_rhythm
 
-    % [D Cello_Music_Voice measure 112 / measure 51]                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Music_Voice measure 112 / measure 51]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [D Cello_Rest_Voice measure 112 / measure 51]                    %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 

@@ -257,8 +257,26 @@ B_Violin_I_Music_Voice = {                                                     %
     % [B Violin_I_Music_Voice measure 26 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! accelerando_rhythm
 
-    % [B Violin_I_Music_Voice measure 27 / measure 4]                          %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Violin_I_Music_Voice measure 27 / measure 4]                  %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Violin_I_Rest_Voice measure 27 / measure 4]                   %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_I_Music_Voice measure 28 / measure 5]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -337,8 +355,26 @@ B_Violin_II_Music_Voice = {                                                    %
     e'2                                                                        %! polyphony_rhythm
     \repeatTie
 
-    % [B Violin_II_Music_Voice measure 27 / measure 4]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Violin_II_Music_Voice measure 27 / measure 4]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Violin_II_Rest_Voice measure 27 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_II_Music_Voice measure 28 / measure 5]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -489,8 +525,26 @@ B_Viola_Music_Voice = {                                                        %
     c'2                                                                        %! polyphony_rhythm
     \repeatTie
 
-    % [B Viola_Music_Voice measure 27 / measure 4]                             %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Viola_Music_Voice measure 27 / measure 4]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Viola_Rest_Voice measure 27 / measure 4]                      %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Viola_Music_Voice measure 28 / measure 5]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -714,8 +768,26 @@ B_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! sparse_getato_rhythm
 
-    % [B Cello_Music_Voice measure 28 / measure 5]                             %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Cello_Music_Voice measure 28 / measure 5]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Cello_Rest_Voice measure 28 / measure 5]                      %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
@@ -761,8 +833,26 @@ B_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! sparse_getato_rhythm
 
-    % [B Cello_Music_Voice measure 30 / measure 7]                             %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Cello_Music_Voice measure 30 / measure 7]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Cello_Rest_Voice measure 30 / measure 7]                      %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \times 8/9 {                                                               %! sparse_getato_rhythm
 
@@ -799,8 +889,26 @@ B_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! sparse_getato_rhythm
 
-    % [B Cello_Music_Voice measure 32 / measure 9]                             %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Cello_Music_Voice measure 32 / measure 9]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Cello_Rest_Voice measure 32 / measure 9]                      %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Cello_Music_Voice measure 33 / measure 10]                            %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences

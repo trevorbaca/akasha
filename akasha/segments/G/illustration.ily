@@ -59,7 +59,7 @@ G_Global_Rests = {                                                             %
 G_Global_Skips = {                                                             %! extern
 
     % [G Global_Skips measure 200 / measure 1]                                 %! _comment_measure_numbers
-    \once \override Global_Context.RehearsalMark.Y-offset = #5                 %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
+    \once \override GlobalContext.RehearsalMark.Y-offset = #5                  %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #7                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -585,8 +585,26 @@ G_Violin_I_Music_Voice = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [G Violin_I_Music_Voice measure 213 / measure 14]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Violin_I_Music_Voice measure 213 / measure 14]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Violin_I_Rest_Voice measure 213 / measure 14]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [G Violin_I_Music_Voice measure 214 / measure 15]                        %! _comment_measure_numbers
     fs''!2                                                                     %! baca_make_repeat_tied_notes
@@ -597,8 +615,26 @@ G_Violin_I_Music_Voice = {                                                     %
     fs''!2                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [G Violin_I_Music_Voice measure 216 / measure 17]                        %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Violin_I_Music_Voice measure 216 / measure 17]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/8                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Violin_I_Rest_Voice measure 216 / measure 17]                 %! _comment_measure_numbers
+            R1 * 3/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -753,8 +789,26 @@ G_Violin_II_Music_Voice = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [G Violin_II_Music_Voice measure 213 / measure 14]                       %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Violin_II_Music_Voice measure 213 / measure 14]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Violin_II_Rest_Voice measure 213 / measure 14]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [G Violin_II_Music_Voice measure 214 / measure 15]                       %! _comment_measure_numbers
     af'!2                                                                      %! baca_make_repeat_tied_notes
@@ -765,8 +819,26 @@ G_Violin_II_Music_Voice = {                                                    %
     af'!2                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [G Violin_II_Music_Voice measure 216 / measure 17]                       %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Violin_II_Music_Voice measure 216 / measure 17]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/8                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Violin_II_Rest_Voice measure 216 / measure 17]                %! _comment_measure_numbers
+            R1 * 3/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -923,8 +995,26 @@ G_Viola_Music_Voice = {                                                        %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [G Viola_Music_Voice measure 213 / measure 14]                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Viola_Music_Voice measure 213 / measure 14]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Viola_Rest_Voice measure 213 / measure 14]                    %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [G Viola_Music_Voice measure 214 / measure 15]                           %! _comment_measure_numbers
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -1096,8 +1186,26 @@ G_Cello_Music_Voice = {                                                        %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [G Cello_Music_Voice measure 213 / measure 14]                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Cello_Music_Voice measure 213 / measure 14]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Cello_Rest_Voice measure 213 / measure 14]                    %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [G Cello_Music_Voice measure 214 / measure 15]                           %! _comment_measure_numbers
     cs,!2                                                                      %! baca_make_repeat_tied_notes
@@ -1108,8 +1216,26 @@ G_Cello_Music_Voice = {                                                        %
     cs,!2                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [G Cello_Music_Voice measure 216 / measure 17]                           %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Cello_Music_Voice measure 216 / measure 17]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/8                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Cello_Rest_Voice measure 216 / measure 17]                    %! _comment_measure_numbers
+            R1 * 3/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 

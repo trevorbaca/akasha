@@ -200,7 +200,10 @@ maker(
     ('va', (4, 27)),
     baca.dynamic('ppp'),
     baca.markup('OB'),
-    baca.pitch('B2'),
+    baca.pitch(
+        'B2',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -227,7 +230,10 @@ maker(
     ('v1', (8, 27)),
     baca.dynamic('ppp'),
     baca.markup('OB'),
-    baca.pitch('B4'),
+    baca.pitch(
+        'B4',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -260,7 +266,10 @@ maker(
     ('v2', (13, 27)),
     baca.dynamic('ppp'),
     baca.markup('OB'),
-    baca.pitch('B3'),
+    baca.pitch(
+        'B3',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -294,7 +303,10 @@ maker(
 
 maker(
     ('vc', (17, 27)),
-    baca.pitch('B1'),
+    baca.pitch(
+        'B1',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -350,7 +362,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'],  (31, 37)),
+    (['v1', 'v2', 'va', 'vc'],  (31, 36)),
     baca.new(
         baca.pitch('B4'),
         match=0,

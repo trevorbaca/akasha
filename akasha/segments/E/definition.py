@@ -3,6 +3,7 @@ import akasha
 import baca
 import os
 from abjadext import rmakers
+from baca import enums
 
 
 ###############################################################################
@@ -262,10 +263,13 @@ maker(
 
 maker(
     ('v1', (1, 14)),
-    baca.dynamic('ff'),
-    baca.markup(
-        baca.markups.lines(
-            ['scratch moltiss.:', 'terminate each note abruptly']),
+    baca.new(
+        baca.dynamic('ff'),
+        baca.markup(
+            baca.markups.lines(
+                ['scratch moltiss.:', 'terminate each note abruptly']),
+            ),
+        selector=baca.phead(0, exclude=baca.enums.HIDDEN),
         ),
     )
 
@@ -277,7 +281,9 @@ maker(
 
 maker(
     ('v1', (23, 39)),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(
+        selector=baca.pheads(exclude=enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -296,10 +302,13 @@ maker(
 
 maker(
     ('v2', (1, 10)),
-    baca.dynamic('ff'),
-    baca.markup(
-        baca.markups.lines(
-            ['scratch molitss:', 'terminate each not abruptly']),
+    baca.new(
+        baca.dynamic('ff'),
+        baca.markup(
+            baca.markups.lines(
+                ['scratch moltiss:', 'terminate each not abruptly']),
+            ),
+        selector=baca.phead(0, exclude=baca.enums.HIDDEN),
         ),
     )
 
@@ -312,14 +321,18 @@ maker(
 maker(
     ('v2', (19, 20)),
     baca.dynamic('mf'),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(
+        selector=baca.pheads(exclude=enums.HIDDEN),
+        ),
     baca.markup('senza scratch'),
     )
 
 maker(
     ('v2', (21, 39)),
     baca.markup('leggieriss.'),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(
+        selector=baca.pheads(exclude=enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -332,7 +345,9 @@ maker(
 
 maker(
     'va',
-    baca.alternate_bow_strokes(),
+    baca.alternate_bow_strokes(
+        selector=baca.pheads(exclude=enums.HIDDEN),
+        ),
     baca.dynamic('"mf"'),
     baca.markup('OB'),
     baca.staff_lines(1),
@@ -346,10 +361,13 @@ maker(
 
 maker(
     ('vc', (1, 8)),
-    baca.dynamic('ff'),
-    baca.markup(
-        baca.markups.lines(
-            ['scratch moltiss.', 'terminate each note abruptly']),
+    baca.new(
+        baca.dynamic('ff'),
+        baca.markup(
+            baca.markups.lines(
+                ['scratch moltiss.:', 'terminate each note abruptly']),
+            ),
+        selector=baca.phead(0, exclude=baca.enums.HIDDEN),
         ),
     )
 
@@ -363,12 +381,16 @@ maker(
     ('vc', (15, 18)),
     baca.dynamic('mf'),
     baca.markup('senza scratch'),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(
+        selector=baca.pheads(exclude=enums.HIDDEN),
+        ),
     )
 
 maker(
     ('vc', (19, 39)),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(
+        selector=baca.pheads(exclude=enums.HIDDEN),
+        ),
     baca.markup('leggieriss.'),
     )
 

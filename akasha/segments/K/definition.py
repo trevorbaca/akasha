@@ -201,47 +201,70 @@ maker(
 
 maker(
     ('v1', (41, 52)),
-    baca.pitch('A5'),
+    baca.pitch(
+        'A5',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     ('v1', (53, 68)),
-    baca.note_head_style_harmonic(),
-    baca.pitch('B7'),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        baca.pitch('B7'),
+        selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+        )
     )
 
 maker(
     ('v2', (41, 50)),
-    baca.pitch('A4'),
+    baca.pitch(
+        'A4',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     ('v2', (51, 68)),
-    baca.note_head_style_harmonic(),
-    baca.pitch('C#7'),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        baca.pitch('C#7'),
+        selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+        )
     )
 
 maker(
     ('va', (41, 48)),
-    baca.pitch('A2'),
+    baca.pitch(
+        'A2',
+        selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     ('va', (49, 68)),
-    baca.note_head_style_harmonic(),
-    baca.pitch('G~5'),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        baca.pitch('G~5'),
+        selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     ('vc', (41, 45)),
-    baca.pitch('A1'),
+    baca.new(
+        baca.pitch('A1'),
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
-    # HERE
     ('vc', (47, 68)),
-    baca.note_head_style_harmonic(),
-    baca.pitch('D5'),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        baca.pitch('D5'),
+        selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -321,7 +344,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2'], (56, 69)),
+    (['v1', 'v2'], (56, 68)),
     baca.new(
         baca.ottava_bracket_staff_padding(12),
         match=0,
