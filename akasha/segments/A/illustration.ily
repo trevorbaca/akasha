@@ -314,29 +314,47 @@ A_Global_Skips = {                                                             %
 
 A_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [A Violin_I_Music_Voice measure 4 / measure 1]                           %! _comment_measure_numbers
-    \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            #12                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            "Vn. I"                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 3/4                                                                   %! _make_measure_silences
-    ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            #12                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            "Vn. I"                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Music_Voice measure 4 / measure 1]                   %! _comment_measure_numbers
+            \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                    #12                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                    "Vn. I"                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                    #12                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                    "Vn. I"                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Rest_Voice measure 4 / measure 1]                    %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_I_Music_Voice measure 5 / measure 2]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -369,8 +387,26 @@ A_Violin_I_Music_Voice = {                                                     %
 
     r2..
 
-    % [A Violin_I_Music_Voice measure 11 / measure 8]                          %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Music_Voice measure 11 / measure 8]                  %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Rest_Voice measure 11 / measure 8]                   %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_I_Music_Voice measure 12 / measure 9]                          %! _comment_measure_numbers
     r1                                                                         %! sparse_getato_rhythm
@@ -411,8 +447,26 @@ A_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! sparse_getato_rhythm
 
-    % [A Violin_I_Music_Voice measure 13 / measure 10]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Music_Voice measure 13 / measure 10]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Rest_Voice measure 13 / measure 10]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_I_Music_Voice measure 14 / measure 11]                         %! _comment_measure_numbers
     r1.                                                                        %! accelerando_rhythm
@@ -494,8 +548,26 @@ A_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
-    % [A Violin_I_Music_Voice measure 17 / measure 14]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Music_Voice measure 17 / measure 14]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Rest_Voice measure 17 / measure 14]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \override TupletNumber.text = \markup {
         \scale
@@ -559,8 +631,26 @@ A_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
-    % [A Violin_I_Music_Voice measure 19 / measure 16]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Music_Voice measure 19 / measure 16]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Rest_Voice measure 19 / measure 16]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \override TupletNumber.text = \markup {
         \scale
@@ -626,8 +716,26 @@ A_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
-    % [A Violin_I_Music_Voice measure 21 / measure 18]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Music_Voice measure 21 / measure 18]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Rest_Voice measure 21 / measure 18]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_I_Music_Voice measure 22 / measure 19]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -648,29 +756,47 @@ A_Violin_I_Music_Staff = {                                                     %
 
 A_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [A Violin_II_Music_Voice measure 4 / measure 1]                          %! _comment_measure_numbers
-    \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            #12                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            "Vn. II"                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 3/4                                                                   %! _make_measure_silences
-    ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            #12                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            "Vn. II"                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 4 / measure 1]                  %! _comment_measure_numbers
+            \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                    #12                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                    "Vn. II"                                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                    #12                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                    "Vn. II"                                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 4 / measure 1]                   %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 5 / measure 2]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -717,8 +843,26 @@ A_Violin_II_Music_Voice = {                                                    %
 
     r2                                                                         %! sparse_getato_rhythm
 
-    % [A Violin_II_Music_Voice measure 8 / measure 5]                          %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 8 / measure 5]                  %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 8 / measure 5]                   %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 9 / measure 6]                          %! _comment_measure_numbers
     r2.
@@ -738,8 +882,26 @@ A_Violin_II_Music_Voice = {                                                    %
 
     c'2                                                                        %! polyphony_rhythm
 
-    % [A Violin_II_Music_Voice measure 11 / measure 8]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 11 / measure 8]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 11 / measure 8]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 12 / measure 9]                         %! _comment_measure_numbers
     r4
@@ -748,8 +910,26 @@ A_Violin_II_Music_Voice = {                                                    %
 
     ctqs'!2..                                                                  %! polyphony_rhythm
 
-    % [A Violin_II_Music_Voice measure 13 / measure 10]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 13 / measure 10]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 13 / measure 10]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 14 / measure 11]                        %! _comment_measure_numbers
     r1.                                                                        %! ritardando_rhythm
@@ -829,8 +1009,26 @@ A_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
-    % [A Violin_II_Music_Voice measure 17 / measure 14]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 17 / measure 14]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 17 / measure 14]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \override TupletNumber.text = \markup {
         \scale
@@ -896,8 +1094,26 @@ A_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
-    % [A Violin_II_Music_Voice measure 19 / measure 16]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 19 / measure 16]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 19 / measure 16]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \override TupletNumber.text = \markup {
         \scale
@@ -961,8 +1177,26 @@ A_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! accelerando_rhythm
     \revert TupletNumber.text
 
-    % [A Violin_II_Music_Voice measure 21 / measure 18]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 21 / measure 18]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 21 / measure 18]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1022,8 +1256,26 @@ A_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! ritardando_rhythm
     \revert TupletNumber.text
 
-    % [A Violin_II_Music_Voice measure 23 / measure 20]                        %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 23 / measure 20]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 23 / measure 20]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1038,35 +1290,53 @@ A_Violin_II_Music_Staff = {                                                    %
 
 A_Viola_Music_Voice = {                                                        %! extern
 
-    % [A Viola_Music_Voice measure 4 / measure 1]                              %! _comment_measure_numbers
-    \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            #12                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            Va.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-effort-mf                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            #12                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            Va.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Music_Voice measure 4 / measure 1]                      %! _comment_measure_numbers
+            \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                    #12                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                    Va.                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \clef "alto"                                                       %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \baca-effort-mf                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+            ^ \baca-reapplied-indicator-markup "[“Va.”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“Viola”)"                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                    #12                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                    Va.                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+                }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Rest_Voice measure 4 / measure 1]                       %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 5 / measure 2]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -1099,8 +1369,26 @@ A_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! sparse_getato_rhythm
 
-    % [A Viola_Music_Voice measure 8 / measure 5]                              %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Music_Voice measure 8 / measure 5]                      %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Rest_Voice measure 8 / measure 5]                       %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 9 / measure 6]                              %! _comment_measure_numbers
     r4
@@ -1123,8 +1411,26 @@ A_Viola_Music_Voice = {                                                        %
 
     r2
 
-    % [A Viola_Music_Voice measure 11 / measure 8]                             %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Music_Voice measure 11 / measure 8]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Rest_Voice measure 11 / measure 8]                      %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 12 / measure 9]                             %! _comment_measure_numbers
     r2
@@ -1133,8 +1439,26 @@ A_Viola_Music_Voice = {                                                        %
 
     c'2..                                                                      %! polyphony_rhythm
 
-    % [A Viola_Music_Voice measure 13 / measure 10]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Music_Voice measure 13 / measure 10]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Rest_Voice measure 13 / measure 10]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 14 / measure 11]                            %! _comment_measure_numbers
     d'2.
@@ -1165,8 +1489,26 @@ A_Viola_Music_Voice = {                                                        %
     f'1                                                                        %! polyphony_rhythm
     \repeatTie
 
-    % [A Viola_Music_Voice measure 17 / measure 14]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Music_Voice measure 17 / measure 14]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Rest_Voice measure 17 / measure 14]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 18 / measure 15]                            %! _comment_measure_numbers
     ef'!4.                                                                     %! polyphony_rhythm
@@ -1176,8 +1518,26 @@ A_Viola_Music_Voice = {                                                        %
     d'2.
     \repeatTie
 
-    % [A Viola_Music_Voice measure 19 / measure 16]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Music_Voice measure 19 / measure 16]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Rest_Voice measure 19 / measure 16]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 20 / measure 17]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
@@ -1236,8 +1596,26 @@ A_Cello_Music_Voice = {                                                        %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! cello_solo_rhythm
 
-    % [A Cello_Music_Voice measure 5 / measure 2]                              %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Music_Voice measure 5 / measure 2]                      %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Rest_Voice measure 5 / measure 2]                       %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 6 / measure 3]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -1264,8 +1642,26 @@ A_Cello_Music_Voice = {                                                        %
 
     b2..                                                                       %! polyphony_rhythm
 
-    % [A Cello_Music_Voice measure 13 / measure 10]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Music_Voice measure 13 / measure 10]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Rest_Voice measure 13 / measure 10]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 14 / measure 11]                            %! _comment_measure_numbers
     bf!2..                                                                     %! polyphony_rhythm
@@ -1300,8 +1696,26 @@ A_Cello_Music_Voice = {                                                        %
 
     r4
 
-    % [A Cello_Music_Voice measure 17 / measure 14]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Music_Voice measure 17 / measure 14]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Rest_Voice measure 17 / measure 14]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 18 / measure 15]                            %! _comment_measure_numbers
     a4                                                                         %! polyphony_rhythm
@@ -1320,8 +1734,26 @@ A_Cello_Music_Voice = {                                                        %
 
     r8
 
-    % [A Cello_Music_Voice measure 19 / measure 16]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Music_Voice measure 19 / measure 16]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Rest_Voice measure 19 / measure 16]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 20 / measure 17]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
@@ -1353,8 +1785,26 @@ A_Cello_Music_Voice = {                                                        %
 
     r4                                                                         %! sparse_getato_rhythm
 
-    % [A Cello_Music_Voice measure 23 / measure 20]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Music_Voice measure 23 / measure 20]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Rest_Voice measure 23 / measure 20]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 

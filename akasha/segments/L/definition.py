@@ -43,7 +43,9 @@ maker(
 
 maker(
     ('va', (1, 3)),
-    baca.alternate_bow_strokes(),
+    baca.alternate_bow_strokes(
+        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        ),
     baca.clef('alto'),
     baca.dynamic('"mf"'),
     baca.markup('OB + terminate each note abruptly'),

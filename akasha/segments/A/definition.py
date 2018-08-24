@@ -196,7 +196,10 @@ maker(
 
 maker(
     ('v1', (11, 19)),
-    baca.pitches('D5 E5'),
+    baca.pitches(
+        'D5 E5',
+        selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -215,7 +218,10 @@ maker(
 
 maker(
     ('v2', (11, 19)),
-    baca.pitches('Bb4 C5'),
+    baca.pitches(
+        'Bb4 C5',
+        selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(

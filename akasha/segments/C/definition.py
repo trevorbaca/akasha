@@ -154,7 +154,10 @@ maker(
 
 maker(
     ('vc', (1, 12)),
-    baca.pitch('C#2'),
+    baca.pitch(
+        'C#2',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
@@ -170,7 +173,10 @@ maker(
         match=0,
         ),
     baca.staff_lines(1),
-    baca.staff_position(0),
+    baca.staff_position(
+        0,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
