@@ -42,7 +42,7 @@ maker(
     )
 
 maker(
-    ('vc', 1),
+    ('vc', (1, 2)),
     akasha.cello_solo_pitches(),
     akasha.cello_solo_rhythm(rotation=0),
     baca.dynamic('mp'),

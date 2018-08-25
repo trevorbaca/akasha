@@ -1596,29 +1596,34 @@ A_Cello_Music_Voice = {                                                        %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! cello_solo_rhythm
 
+    % [A Cello_Music_Voice measure 5 / measure 2]                              %! _comment_measure_numbers
+    fqs!4.                                                                     %! cello_solo_rhythm
+    \repeatTie
+
+    fs!8                                                                       %! cello_solo_rhythm
+
+    c4                                                                         %! cello_solo_rhythm
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [A Cello_Music_Voice measure 5 / measure 2]                      %! _comment_measure_numbers
+            % [A Cello_Music_Voice measure 6 / measure 3]                      %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [A Cello_Rest_Voice measure 5 / measure 2]                       %! _comment_measure_numbers
-            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+            % [A Cello_Rest_Voice measure 6 / measure 3]                       %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [A Cello_Music_Voice measure 6 / measure 3]                              %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A Cello_Music_Voice measure 7 / measure 4]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
