@@ -315,17 +315,11 @@ B_Violin_I_Music_Voice = {                                                     %
     \revert TupletNumber.text
 
     % [B Violin_I_Music_Voice measure 25 / measure 2]                          %! _comment_measure_numbers
-    \override Staff.Stem.stemlet-length = 0.75                                 %! accelerando_rhythm
     r1                                                                         %! accelerando_rhythm
-    [                                                                          %! accelerando_rhythm
 
-    \revert Staff.Stem.stemlet-length                                          %! accelerando_rhythm
     r8                                                                         %! accelerando_rhythm
-    ]                                                                          %! accelerando_rhythm
 
     % [B Violin_I_Music_Voice measure 26 / measure 3]                          %! _comment_measure_numbers
-    \override Staff.Stem.stemlet-length = 0.75                                 %! accelerando_rhythm
-    \revert Staff.Stem.stemlet-length                                          %! accelerando_rhythm
     r2                                                                         %! accelerando_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
