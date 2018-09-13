@@ -4336,11 +4336,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 122 / measure 10]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4                                                                        %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4361,11 +4359,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 124 / measure 12]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4.                                                                       %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4402,11 +4398,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 127 / measure 15]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4.                                                                       %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4513,11 +4507,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 134 / measure 22]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4                                                                        %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4538,11 +4530,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 136 / measure 24]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4.                                                                       %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4556,11 +4546,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 137 / measure 25]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4                                                                        %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4578,11 +4566,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 139 / measure 27]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4                                                                        %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4603,11 +4589,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 141 / measure 29]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4.                                                                       %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4621,11 +4605,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 142 / measure 30]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4                                                                        %! viola_ob_rhythm
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
@@ -4732,11 +4714,9 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ~
-    [                                                                          %! viola_ob_rhythm
 
     % [E Viola_Music_Voice measure 149 / measure 37]                           %! _comment_measure_numbers
     c'8
-    ]                                                                          %! viola_ob_rhythm
 
     c'4.                                                                       %! viola_ob_rhythm
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand

@@ -1336,8 +1336,8 @@ F_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [F Violin_I_Music_Voice measure 159 / measure 8]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         ef''!16 * 227/32                                                       %! accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-pp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1395,8 +1395,8 @@ F_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [F Violin_I_Music_Voice measure 160 / measure 9]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         ef''!16 * 109/64                                                       %! accelerando_rhythm
         [                                                                      %! accelerando_rhythm
 
@@ -1597,8 +1597,8 @@ F_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! growth
 
         % [F Violin_I_Music_Voice measure 164 / measure 13]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         f''16 * 241/32                                                         %! growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1791,8 +1791,8 @@ F_Violin_I_Music_Voice = {                                                     %
         }
     \times 1/1 {                                                               %! growth
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         e''16 * 31/4                                                           %! growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1951,8 +1951,8 @@ F_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! growth
 
         % [F Violin_I_Music_Voice measure 171 / measure 20]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         g''16 * 31/4                                                           %! growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -3041,8 +3041,8 @@ F_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [F Violin_II_Music_Voice measure 159 / measure 8]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         b'16 * 13/8                                                            %! ritardando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-pp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -3102,8 +3102,8 @@ F_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [F Violin_II_Music_Voice measure 160 / measure 9]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         cs''!16 * 117/16                                                       %! ritardando_rhythm
         [                                                                      %! ritardando_rhythm
 
@@ -3217,8 +3217,8 @@ F_Violin_II_Music_Voice = {                                                    %
         }
     \times 1/1 {                                                               %! growth
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         cs''!16 * 241/32                                                       %! growth
         [                                                                      %! growth
 
@@ -3357,8 +3357,8 @@ F_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! growth
 
         % [F Violin_II_Music_Voice measure 167 / measure 16]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         b'16 * 497/64                                                          %! growth
         [                                                                      %! growth
 
@@ -3483,8 +3483,8 @@ F_Violin_II_Music_Voice = {                                                    %
         }
     \times 1/1 {                                                               %! growth
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! growth
         c''16 * 497/64                                                         %! growth
         [                                                                      %! growth
 
@@ -4389,10 +4389,10 @@ F_Viola_Music_Voice = {                                                        %
 
     gs!8.                                                                      %! manifest
     \repeatTie
-    [                                                                          %! manifest
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a16                                                                        %! manifest
-    ]                                                                          %! manifest
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     a2                                                                         %! manifest
@@ -4401,10 +4401,10 @@ F_Viola_Music_Voice = {                                                        %
     % [F Viola_Music_Voice measure 163 / measure 12]                           %! _comment_measure_numbers
     a8                                                                         %! manifest
     \repeatTie
-    [                                                                          %! manifest
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     b8                                                                         %! manifest
-    ]                                                                          %! manifest
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     b2                                                                         %! manifest
     \repeatTie
@@ -4465,10 +4465,10 @@ F_Viola_Music_Voice = {                                                        %
 
     cqs'!8.                                                                    %! manifest
     \repeatTie
-    [                                                                          %! manifest
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     d'16                                                                       %! manifest
-    ]                                                                          %! manifest
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d'2                                                                        %! manifest
@@ -5599,10 +5599,10 @@ F_Cello_Music_Voice = {                                                        %
     % [F Cello_Music_Voice measure 165 / measure 14]                           %! _comment_measure_numbers
     f,8.                                                                       %! manifest
     \repeatTie
-    [                                                                          %! manifest
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     fqs,!16                                                                    %! manifest
-    ]                                                                          %! manifest
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs,!2.                                                                    %! manifest

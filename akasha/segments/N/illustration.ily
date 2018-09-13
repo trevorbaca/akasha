@@ -736,14 +736,14 @@ N_Violin_II_Music_Voice = {                                                    %
         \baca-pp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'''32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         f'''32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r16                                                                    %! sparse_getato_rhythm
 
