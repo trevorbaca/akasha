@@ -1604,11 +1604,11 @@ C_Cello_Music_Voice = {                                                        %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         c32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8..                                                                   %! sparse_getato_rhythm
 
@@ -1620,7 +1620,7 @@ C_Cello_Music_Voice = {                                                        %
 
         cs!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         d32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -1642,7 +1642,7 @@ C_Cello_Music_Voice = {                                                        %
 
         bf,!32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! sparse_getato_rhythm
 

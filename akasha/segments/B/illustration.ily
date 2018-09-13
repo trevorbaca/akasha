@@ -281,9 +281,9 @@ B_Violin_I_Music_Voice = {                                                     %
                 #12                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 "Vn. I"                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -498,8 +498,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [B Violin_II_Music_Voice measure 33 / measure 10]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         c''16 * 487/64                                                         %! accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -578,11 +578,9 @@ B_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     dtqf'!8
-    [                                                                          %! polyphony_rhythm
 
     dtqf'!8
     \repeatTie
-    ]                                                                          %! polyphony_rhythm
 
     c'4                                                                        %! polyphony_rhythm
 
@@ -706,17 +704,15 @@ B_Cello_Music_Voice = {                                                        %
 
     c'32                                                                       %! sparse_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! sparse_getato_rhythm
 
     bf!32                                                                      %! sparse_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! sparse_getato_rhythm
 
     \times 4/5 {                                                               %! sparse_getato_rhythm
 
         b32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         bf!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -729,6 +725,7 @@ B_Cello_Music_Voice = {                                                        %
 
         af!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         a32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -745,7 +742,7 @@ B_Cello_Music_Voice = {                                                        %
 
         bf!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         af!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -755,7 +752,7 @@ B_Cello_Music_Voice = {                                                        %
 
         fs!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r32                                                                    %! sparse_getato_rhythm
 
@@ -767,7 +764,7 @@ B_Cello_Music_Voice = {                                                        %
 
         g32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -783,17 +780,17 @@ B_Cello_Music_Voice = {                                                        %
 
         g32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! sparse_getato_rhythm
 
     fs!32                                                                      %! sparse_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! sparse_getato_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g32                                                                        %! sparse_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! sparse_getato_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16
 
@@ -801,17 +798,17 @@ B_Cello_Music_Voice = {                                                        %
 
     af!32                                                                      %! sparse_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! sparse_getato_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a32                                                                        %! sparse_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! sparse_getato_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 4/5 {                                                               %! sparse_getato_rhythm
 
         g32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         af!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -827,7 +824,7 @@ B_Cello_Music_Voice = {                                                        %
 
         f32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8                                                                     %! sparse_getato_rhythm
 
@@ -882,7 +879,7 @@ B_Cello_Music_Voice = {                                                        %
 
         e32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         d32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -892,7 +889,7 @@ B_Cello_Music_Voice = {                                                        %
 
         ef!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r32                                                                    %! sparse_getato_rhythm
 

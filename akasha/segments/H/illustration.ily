@@ -224,9 +224,9 @@ H_Violin_I_Music_Voice = {                                                     %
         \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.line-count = 5                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -303,8 +303,8 @@ H_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [H Violin_I_Music_Voice measure 218 / measure 2]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         d'16 * 113/64                                                          %! accelerando_rhythm
         [                                                                      %! accelerando_rhythm
 
@@ -422,9 +422,9 @@ H_Violin_II_Music_Voice = {                                                    %
         \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.line-count = 5                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -503,8 +503,8 @@ H_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [H Violin_II_Music_Voice measure 218 / measure 2]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         ds'!16 * 477/64                                                        %! ritardando_rhythm
         [                                                                      %! ritardando_rhythm
 
@@ -736,9 +736,9 @@ H_Cello_Music_Voice = {                                                        %
                 #12                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 Vc.                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
         \clef "bass"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)

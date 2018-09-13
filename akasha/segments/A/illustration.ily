@@ -625,8 +625,8 @@ A_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [A Violin_I_Music_Voice measure 15 / measure 12]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         d''16 * 15/8                                                           %! accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -721,8 +721,8 @@ A_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [A Violin_I_Music_Voice measure 18 / measure 15]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         e''16 * 241/32                                                         %! accelerando_rhythm
         [                                                                      %! accelerando_rhythm
 
@@ -806,8 +806,8 @@ A_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [A Violin_I_Music_Voice measure 20 / measure 17]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         e''16 * 113/64                                                         %! ritardando_rhythm
         [                                                                      %! ritardando_rhythm
 
@@ -922,14 +922,14 @@ A_Violin_II_Music_Voice = {                                                    %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca_markup:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         b32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         bf!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8.                                                                    %! sparse_getato_rhythm
 
@@ -941,11 +941,11 @@ A_Violin_II_Music_Voice = {                                                    %
 
         a32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         af!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8                                                                     %! sparse_getato_rhythm
 
@@ -1088,8 +1088,8 @@ A_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [A Violin_II_Music_Voice measure 15 / measure 12]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         bf'!16 * 247/32                                                        %! ritardando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1182,8 +1182,8 @@ A_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [A Violin_II_Music_Voice measure 18 / measure 15]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         c''16 * 115/64                                                         %! ritardando_rhythm
         [                                                                      %! ritardando_rhythm
 
@@ -1269,8 +1269,8 @@ A_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [A Violin_II_Music_Voice measure 20 / measure 17]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         c''16 * 477/64                                                         %! accelerando_rhythm
         [                                                                      %! accelerando_rhythm
 
@@ -1350,8 +1350,8 @@ A_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [A Violin_II_Music_Voice measure 22 / measure 19]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         bf'!16 * 13/8                                                          %! ritardando_rhythm
         [                                                                      %! ritardando_rhythm
 
@@ -1466,14 +1466,14 @@ A_Viola_Music_Voice = {                                                        %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca_markup:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         a32                                                                    %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         bf!32                                                                  %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r16                                                                    %! sparse_getato_rhythm
 
@@ -1577,13 +1577,13 @@ A_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     dqs'!8
-    [                                                                          %! polyphony_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     dqs'!8
     \repeatTie
 
     ds'!8                                                                      %! polyphony_rhythm
-    ]                                                                          %! polyphony_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Viola_Music_Voice measure 15 / measure 12]                            %! _comment_measure_numbers
     ds'!2.                                                                     %! polyphony_rhythm
@@ -1782,11 +1782,9 @@ A_Cello_Music_Voice = {                                                        %
     bf!2..                                                                     %! polyphony_rhythm
 
     btqf!8
-    [                                                                          %! polyphony_rhythm
 
     btqf!8
     \repeatTie
-    ]                                                                          %! polyphony_rhythm
 
     a4.                                                                        %! polyphony_rhythm
 
@@ -1797,13 +1795,13 @@ A_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     g8
-    [                                                                          %! polyphony_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g8
     \repeatTie
 
     a8                                                                         %! polyphony_rhythm
-    ]                                                                          %! polyphony_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Cello_Music_Voice measure 16 / measure 13]                            %! _comment_measure_numbers
     a2.                                                                        %! polyphony_rhythm
@@ -1841,11 +1839,11 @@ A_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     b8
-    [                                                                          %! polyphony_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     b8
     \repeatTie
-    ]                                                                          %! polyphony_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8
 
@@ -1888,11 +1886,11 @@ A_Cello_Music_Voice = {                                                        %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca_markup:IndicatorCommand
-        [                                                                      %! sparse_getato_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         cs'!32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! sparse_getato_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8                                                                     %! sparse_getato_rhythm
 

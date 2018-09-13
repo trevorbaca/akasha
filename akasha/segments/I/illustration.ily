@@ -1438,8 +1438,8 @@ I_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [I Violin_I_Music_Voice measure 251 / measure 28]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         ds'!16 * 227/32                                                        %! accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1496,8 +1496,8 @@ I_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [I Violin_I_Music_Voice measure 252 / measure 29]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         es'!16 * 109/64                                                        %! accelerando_rhythm
         [                                                                      %! accelerando_rhythm
 
@@ -2042,8 +2042,8 @@ I_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [I Violin_II_Music_Voice measure 251 / measure 28]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         d'16 * 13/8                                                            %! ritardando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -2102,8 +2102,8 @@ I_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [I Violin_II_Music_Voice measure 252 / measure 29]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         d'16 * 117/16                                                          %! ritardando_rhythm
         [                                                                      %! ritardando_rhythm
 
@@ -2694,8 +2694,8 @@ I_Viola_Music_Voice = {                                                        %
     \times 1/1 {                                                               %! accelerando_rhythm
 
         % [I Viola_Music_Voice measure 251 / measure 28]                       %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
         cs'!16 * 487/64                                                        %! accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -3229,8 +3229,8 @@ I_Cello_Music_Voice = {                                                        %
     \times 1/1 {                                                               %! ritardando_rhythm
 
         % [I Cello_Music_Voice measure 251 / measure 28]                       %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
         c'16 * 117/64                                                          %! ritardando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
