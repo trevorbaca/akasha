@@ -621,21 +621,21 @@ G_Violin_I_Music_Voice = {                                                     %
 
     f''4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_I_Music_Voice measure 205 / measure 6]                         %! _comment_measure_numbers
     g''2.
 
     g''4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_I_Music_Voice measure 206 / measure 7]                         %! _comment_measure_numbers
     f''2                                                                       %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_I_Music_Voice measure 207 / measure 8]                         %! _comment_measure_numbers
     ef''!1                                                                     %! baca_make_notes
@@ -649,18 +649,18 @@ G_Violin_I_Music_Voice = {                                                     %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_I_Music_Voice measure 208 / measure 9]                         %! _comment_measure_numbers
     fs''!4.                                                                    %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_I_Music_Voice measure 209 / measure 10]                        %! _comment_measure_numbers
     e''2                                                                       %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_I_Music_Voice measure 210 / measure 11]                        %! _comment_measure_numbers
     fs''!1                                                                     %! baca_make_notes
@@ -674,14 +674,14 @@ G_Violin_I_Music_Voice = {                                                     %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_I_Music_Voice measure 211 / measure 12]                        %! _comment_measure_numbers
     af''!2.
 
     af''!4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_I_Music_Voice measure 212 / measure 13]                        %! _comment_measure_numbers
     fs''!2.
@@ -785,7 +785,7 @@ G_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -797,18 +797,18 @@ G_Violin_II_Music_Voice = {                                                    %
 
     % [G Violin_II_Music_Voice measure 201 / measure 2]                        %! _comment_measure_numbers
     ef'!2..                                                                    %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 202 / measure 3]                        %! _comment_measure_numbers
     f'4.                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 203 / measure 4]                        %! _comment_measure_numbers
     ef'!2.                                                                     %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 204 / measure 5]                        %! _comment_measure_numbers
     cs'!2.
@@ -825,21 +825,21 @@ G_Violin_II_Music_Voice = {                                                    %
 
     cs'!4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 205 / measure 6]                        %! _comment_measure_numbers
     e'2.
 
     e'4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 206 / measure 7]                        %! _comment_measure_numbers
     g'2                                                                        %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 207 / measure 8]                        %! _comment_measure_numbers
     e'1                                                                        %! baca_make_notes
@@ -853,18 +853,18 @@ G_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 208 / measure 9]                        %! _comment_measure_numbers
     fs'!4.                                                                     %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 209 / measure 10]                       %! _comment_measure_numbers
     e'2                                                                        %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 210 / measure 11]                       %! _comment_measure_numbers
     d'1                                                                        %! baca_make_notes
@@ -878,14 +878,14 @@ G_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 211 / measure 12]                       %! _comment_measure_numbers
     f'2.
 
     f'4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Violin_II_Music_Voice measure 212 / measure 13]                       %! _comment_measure_numbers
     af'!2.
@@ -991,7 +991,7 @@ G_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1003,18 +1003,18 @@ G_Viola_Music_Voice = {                                                        %
 
     % [G Viola_Music_Voice measure 201 / measure 2]                            %! _comment_measure_numbers
     f'2..                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 202 / measure 3]                            %! _comment_measure_numbers
     d'4.                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 203 / measure 4]                            %! _comment_measure_numbers
     e'2.                                                                       %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 204 / measure 5]                            %! _comment_measure_numbers
     d'2.
@@ -1031,21 +1031,21 @@ G_Viola_Music_Voice = {                                                        %
 
     d'4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 205 / measure 6]                            %! _comment_measure_numbers
     c'2.
 
     c'4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 206 / measure 7]                            %! _comment_measure_numbers
     e'2                                                                        %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 207 / measure 8]                            %! _comment_measure_numbers
     fs'!1                                                                      %! baca_make_notes
@@ -1059,18 +1059,18 @@ G_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 208 / measure 9]                            %! _comment_measure_numbers
     ef'!4.                                                                     %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 209 / measure 10]                           %! _comment_measure_numbers
     f'2                                                                        %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 210 / measure 11]                           %! _comment_measure_numbers
     ef'!1                                                                      %! baca_make_notes
@@ -1084,14 +1084,14 @@ G_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 211 / measure 12]                           %! _comment_measure_numbers
     cs'!2.
 
     cs'!4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Music_Voice measure 212 / measure 13]                           %! _comment_measure_numbers
     f'2.
@@ -1182,7 +1182,7 @@ G_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1194,18 +1194,18 @@ G_Cello_Music_Voice = {                                                        %
 
     % [G Cello_Music_Voice measure 201 / measure 2]                            %! _comment_measure_numbers
     ef,!2..                                                                    %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 202 / measure 3]                            %! _comment_measure_numbers
     f,4.                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 203 / measure 4]                            %! _comment_measure_numbers
     d,2.                                                                       %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 204 / measure 5]                            %! _comment_measure_numbers
     e,2.
@@ -1222,21 +1222,21 @@ G_Cello_Music_Voice = {                                                        %
 
     e,4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 205 / measure 6]                            %! _comment_measure_numbers
     d,2.
 
     d,4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 206 / measure 7]                            %! _comment_measure_numbers
     c,2                                                                        %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 207 / measure 8]                            %! _comment_measure_numbers
     d,1                                                                        %! baca_make_notes
@@ -1250,18 +1250,18 @@ G_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 208 / measure 9]                            %! _comment_measure_numbers
     e,4.                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 209 / measure 10]                           %! _comment_measure_numbers
     cs,!2                                                                      %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 210 / measure 11]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_notes
@@ -1275,14 +1275,14 @@ G_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 211 / measure 12]                           %! _comment_measure_numbers
     cs,!2.
 
     cs,!4.
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Music_Voice measure 212 / measure 13]                           %! _comment_measure_numbers
     b,,2.

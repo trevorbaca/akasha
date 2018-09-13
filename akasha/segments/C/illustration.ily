@@ -1128,7 +1128,7 @@ C_Viola_Music_Voice = {                                                        %
         \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Va.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1167,7 +1167,7 @@ C_Viola_Music_Voice = {                                                        %
 
         % [C Viola_Music_Voice measure 37 / measure 3]                         %! _comment_measure_numbers
         ds!1                                                                   %! glissando_rhythm
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         cqs!8                                                                  %! glissando_rhythm
 
@@ -1198,7 +1198,7 @@ C_Viola_Music_Voice = {                                                        %
 
         % [C Viola_Music_Voice measure 39 / measure 5]                         %! _comment_measure_numbers
         ds!\breve                                                              %! glissando_rhythm
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         cqs!4                                                                  %! glissando_rhythm
 
@@ -1229,7 +1229,7 @@ C_Viola_Music_Voice = {                                                        %
 
         % [C Viola_Music_Voice measure 41 / measure 7]                         %! _comment_measure_numbers
         ds!\breve                                                              %! glissando_rhythm
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         cqs!4                                                                  %! glissando_rhythm
 
@@ -1262,15 +1262,15 @@ C_Viola_Music_Voice = {                                                        %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [C Viola_Music_Voice measure 44 / measure 10]                            %! _comment_measure_numbers
     d1                                                                         %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [C Viola_Music_Voice measure 45 / measure 11]                            %! _comment_measure_numbers
     cs!2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [C Viola_Music_Voice measure 46 / measure 12]                            %! _comment_measure_numbers
     bs,!1                                                                      %! baca_make_notes
@@ -1384,13 +1384,13 @@ C_Viola_Music_Voice = {                                                        %
     ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     \times 2/3 {                                                               %! glissando_rhythm
 
         % [C Viola_Music_Voice measure 60 / measure 26]                        %! _comment_measure_numbers
         ds!\breve                                                              %! glissando_rhythm
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         cqs!4                                                                  %! glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
