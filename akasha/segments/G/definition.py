@@ -114,21 +114,30 @@ maker(
 
 maker(
     ('v1', (5, 13)),
-    baca.glissando(),
-    baca.loop([17, 19, 17, 15, 18, 16], [1]),
+    baca.suite(
+        # TODO: unsuite
+        baca.loop([17, 19, 17, 15, 18, 16], [1]),
+        baca.glissando(),
+        ),
     )
 
 maker(
     ('v2', (1, 13)),
-    baca.glissando(),
-    baca.loop([6, 3, 5, 3, 1, 4], [1]),
+    baca.suite(
+        # TODO: unsuite
+        baca.loop([6, 3, 5, 3, 1, 4], [1]),
+        baca.glissando(),
+        ),
     )
 
 maker(
     ('va', (1, 13)),
     baca.clef('alto'),
-    baca.glissando(),
-    baca.loop([3, 5, 2, 4, 2, 0], [1]),
+    baca.suite(
+        # TODO: unsuite
+        baca.loop([3, 5, 2, 4, 2, 0], [1]),
+        baca.glissando(),
+        ),
     )
 
 maker(
@@ -143,8 +152,11 @@ maker(
 maker(
     ('vc', (1, 13)),
     baca.clef('bass'),
-    baca.glissando(),
-    baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
+    baca.suite(
+        # TODO: unsuite
+        baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
+        baca.glissando(),
+        ),
     )
 
 maker(
