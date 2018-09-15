@@ -206,7 +206,7 @@ maker(
     ('v2', (38, 46)),
     baca.dynamic('p'),
     baca.new(
-        baca.trill_spanner(string='M2'),
+        baca.trill_spanner('A5'),
         map=baca.qruns(exclude=baca.enums.HIDDEN),
         ),
     baca.markup('tasto'),

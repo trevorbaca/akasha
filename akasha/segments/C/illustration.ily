@@ -1063,12 +1063,12 @@ C_Violin_II_Music_Voice = {                                                    %
     r1.                                                                        %! baca_make_repeat_tied_notes
 
     % [C Violin_II_Music_Voice measure 60 / measure 26]                        %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
     g''1.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
-    \startTrillSpan a''
+    \startTrillSpan a''                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1078,7 +1078,7 @@ C_Violin_II_Music_Voice = {                                                    %
             % [C Violin_II_Music_Voice measure 61 / measure 27]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 

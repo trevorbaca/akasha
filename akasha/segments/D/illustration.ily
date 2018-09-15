@@ -1770,12 +1770,12 @@ D_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 99 / measure 38]                        %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
     g''2.                                                                      %! fill_first_half
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
-    \startTrillSpan a''
+    \startTrillSpan a''                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [D Violin_II_Music_Voice measure 100 / measure 39]                       %! _comment_measure_numbers
     g''2..                                                                     %! fill_first_half
@@ -1789,7 +1789,7 @@ D_Violin_II_Music_Voice = {                                                    %
             % [D Violin_II_Music_Voice measure 101 / measure 40]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 7/8                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1810,9 +1810,9 @@ D_Violin_II_Music_Voice = {                                                    %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [D Violin_II_Music_Voice measure 104 / measure 43]                       %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
     g''1                                                                       %! fill_first_half
-    \startTrillSpan a''
+    \startTrillSpan a''                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [D Violin_II_Music_Voice measure 105 / measure 44]                       %! _comment_measure_numbers
     g''2.
@@ -1829,7 +1829,7 @@ D_Violin_II_Music_Voice = {                                                    %
             % [D Violin_II_Music_Voice measure 106 / measure 45]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 9/8                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
