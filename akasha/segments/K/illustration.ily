@@ -1855,7 +1855,7 @@ K_Violin_I_Music_Voice = {                                                     %
 
     % [K Violin_I_Music_Voice measure 317 / measure 53]                        %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \ottava #1                                                                 %! baca_ottava:SpannerCommand
+    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
     b''''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1872,7 +1872,7 @@ K_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \ottava #0                                                                 %! baca_ottava:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1898,8 +1898,8 @@ K_Violin_I_Music_Voice = {                                                     %
 
     % [K Violin_I_Music_Voice measure 320 / measure 56]                        %! _comment_measure_numbers
     \override Staff.OttavaBracket.staff-padding = #12                          %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
+    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
     \override TextSpanner.staff-padding = #9.5                                 %! baca_text_spanner_staff_padding:OverrideCommand(1)
-    \ottava #1                                                                 %! baca_ottava:SpannerCommand
     b''''4.                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2004,7 +2004,7 @@ K_Violin_I_Music_Voice = {                                                     %
     \repeatTie
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     \revert Staff.OttavaBracket.staff-padding                                  %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
-    \ottava #0                                                                 %! baca_ottava:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2459,7 +2459,7 @@ K_Violin_II_Music_Voice = {                                                    %
 
     % [K Violin_II_Music_Voice measure 315 / measure 51]                       %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \ottava #1                                                                 %! baca_ottava:SpannerCommand
+    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
     cs''''!1                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2487,7 +2487,7 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 318 / measure 54]                       %! _comment_measure_numbers
     cs''''!2..                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
-    \ottava #0                                                                 %! baca_ottava:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2513,8 +2513,8 @@ K_Violin_II_Music_Voice = {                                                    %
 
     % [K Violin_II_Music_Voice measure 320 / measure 56]                       %! _comment_measure_numbers
     \override Staff.OttavaBracket.staff-padding = #10                          %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
+    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
     \override TextSpanner.staff-padding = #7.5                                 %! baca_text_spanner_staff_padding:OverrideCommand(1)
-    \ottava #1                                                                 %! baca_ottava:SpannerCommand
     cs''''!4.                                                                  %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2619,7 +2619,7 @@ K_Violin_II_Music_Voice = {                                                    %
     \repeatTie
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     \revert Staff.OttavaBracket.staff-padding                                  %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
-    \ottava #0                                                                 %! baca_ottava:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
