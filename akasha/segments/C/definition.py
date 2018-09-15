@@ -232,7 +232,7 @@ maker(
     baca.markup('tasto'),
     baca.pitch('G5'),
     baca.staff_lines(5),
-    baca.trill_spanner(string='M2'),
+    baca.trill_spanner('A5'),
     )
 
 maker(

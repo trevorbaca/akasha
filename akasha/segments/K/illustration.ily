@@ -1862,7 +1862,7 @@ K_Violin_I_Music_Voice = {                                                     %
     ^ \markup { "pos. ord. + 9°/A4(II)" }                                      %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     b''''4.
     \repeatTie
@@ -1882,7 +1882,7 @@ K_Violin_I_Music_Voice = {                                                     %
             % [K Violin_I_Music_Voice measure 319 / measure 55]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1911,7 +1911,7 @@ K_Violin_I_Music_Voice = {                                                     %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_I_Music_Voice measure 321 / measure 57]                        %! _comment_measure_numbers
     b''''2.                                                                    %! baca_make_repeat_tied_notes
@@ -1954,14 +1954,14 @@ K_Violin_I_Music_Voice = {                                                     %
     \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_I_Music_Voice measure 326 / measure 62]                        %! _comment_measure_numbers
     b''''2.
@@ -2014,7 +2014,7 @@ K_Violin_I_Music_Voice = {                                                     %
             % [K Violin_I_Music_Voice measure 333 / measure 69]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2466,7 +2466,7 @@ K_Violin_II_Music_Voice = {                                                    %
     ^ \markup { "pos. ord. + 5°/A4(II)" }                                      %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_II_Music_Voice measure 316 / measure 52]                       %! _comment_measure_numbers
     cs''''!2.
@@ -2497,7 +2497,7 @@ K_Violin_II_Music_Voice = {                                                    %
             % [K Violin_II_Music_Voice measure 319 / measure 55]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2526,7 +2526,7 @@ K_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_II_Music_Voice measure 321 / measure 57]                       %! _comment_measure_numbers
     cs''''!2.                                                                  %! baca_make_repeat_tied_notes
@@ -2569,14 +2569,14 @@ K_Violin_II_Music_Voice = {                                                    %
     \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_II_Music_Voice measure 326 / measure 62]                       %! _comment_measure_numbers
     cs''''!2.
@@ -2629,7 +2629,7 @@ K_Violin_II_Music_Voice = {                                                    %
             % [K Violin_II_Music_Voice measure 333 / measure 69]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3076,7 +3076,7 @@ K_Viola_Music_Voice = {                                                        %
     ^ \markup { "pos. ord. + 7°/A2(IV)" }                                      %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [K Viola_Music_Voice measure 314 / measure 50]                           %! _comment_measure_numbers
@@ -3115,7 +3115,7 @@ K_Viola_Music_Voice = {                                                        %
             % [K Viola_Music_Voice measure 319 / measure 55]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3142,7 +3142,7 @@ K_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Viola_Music_Voice measure 321 / measure 57]                           %! _comment_measure_numbers
     gqf''!2.                                                                   %! baca_make_repeat_tied_notes
@@ -3185,14 +3185,14 @@ K_Viola_Music_Voice = {                                                        %
     \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Viola_Music_Voice measure 326 / measure 62]                           %! _comment_measure_numbers
     gqf''!2.
@@ -3243,7 +3243,7 @@ K_Viola_Music_Voice = {                                                        %
             % [K Viola_Music_Voice measure 333 / measure 69]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3681,7 +3681,7 @@ K_Cello_Music_Voice = {                                                        %
     ^ \markup { "pos. ord. + 11°/A1(IV)" }                                     %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [K Cello_Music_Voice measure 312 / measure 48]                           %! _comment_measure_numbers
@@ -3728,7 +3728,7 @@ K_Cello_Music_Voice = {                                                        %
             % [K Cello_Music_Voice measure 319 / measure 55]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3755,7 +3755,7 @@ K_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Cello_Music_Voice measure 321 / measure 57]                           %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
@@ -3798,14 +3798,14 @@ K_Cello_Music_Voice = {                                                        %
     \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Cello_Music_Voice measure 326 / measure 62]                           %! _comment_measure_numbers
     d''2.
@@ -3856,7 +3856,7 @@ K_Cello_Music_Voice = {                                                        %
             % [K Cello_Music_Voice measure 333 / measure 69]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
