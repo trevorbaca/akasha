@@ -1061,8 +1061,8 @@ D_Violin_I_Music_Voice = {                                                     %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \ottava #1                                                                 %! baca_ottava:SpannerCommand
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1111,7 +1111,7 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 69 / measure 8]                          %! _comment_measure_numbers
     cs''''!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    \ottava #0                                                                 %! baca_ottava:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1135,7 +1135,7 @@ D_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 71 / measure 10]                         %! _comment_measure_numbers
-    \ottava #1                                                                 %! baca_ottava:SpannerCommand
+    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
     cs''''!2.
 
     cs''''!4.
@@ -1174,8 +1174,8 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 78 / measure 17]                         %! _comment_measure_numbers
     cs''''!2                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
+    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
-    \ottava #0                                                                 %! baca_ottava:SpannerCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
