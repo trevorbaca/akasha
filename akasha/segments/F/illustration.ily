@@ -1450,7 +1450,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         ef''!4                                                                 %! growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1474,7 +1473,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         f''4                                                                   %! growth
         \repeatTie
 
@@ -1485,11 +1483,9 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         f''16                                                                  %! growth
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         ef''!4                                                                 %! growth
 
     }                                                                          %! growth
@@ -1526,7 +1522,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
         r16
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         f''4                                                                   %! growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1546,7 +1541,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         ef''!4                                                                 %! growth
         \repeatTie
 
@@ -1632,7 +1626,6 @@ F_Violin_I_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! growth
 
         % [F Violin_I_Music_Voice measure 165 / measure 14]                    %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         fs''!4                                                                 %! growth
 
         fs''!16                                                                %! growth
@@ -1642,7 +1635,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         fs''!4                                                                 %! growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1666,7 +1658,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         ef''!4                                                                 %! growth
         \repeatTie
 
@@ -1678,11 +1669,9 @@ F_Violin_I_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! growth
 
         % [F Violin_I_Music_Voice measure 166 / measure 15]                    %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         ef''!16                                                                %! growth
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         fs''!4                                                                 %! growth
 
     }                                                                          %! growth
@@ -1719,7 +1708,6 @@ F_Violin_I_Music_Voice = {                                                     %
         % [F Violin_I_Music_Voice measure 167 / measure 16]                    %! _comment_measure_numbers
         r16
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         ef''!4                                                                 %! growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1739,7 +1727,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         fs''!4                                                                 %! growth
         \repeatTie
 
@@ -1841,7 +1828,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         fs''!4                                                                 %! growth
 
         fs''!16                                                                %! growth
@@ -1851,7 +1837,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         fs''!4                                                                 %! growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1876,7 +1861,6 @@ F_Violin_I_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! growth
 
         % [F Violin_I_Music_Voice measure 170 / measure 19]                    %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         e''4                                                                   %! growth
         \repeatTie
 
@@ -1887,11 +1871,9 @@ F_Violin_I_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! growth
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         e''16                                                                  %! growth
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! growth
 
     }                                                                          %! growth
@@ -1998,7 +1980,6 @@ F_Violin_I_Music_Voice = {                                                     %
     \revert TupletNumber.text
 
     % [F Violin_I_Music_Voice measure 174 / measure 23]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -3153,7 +3134,6 @@ F_Violin_II_Music_Voice = {                                                    %
     \repeatTie
     [                                                                          %! growth
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     cs''!8.                                                                    %! growth
     ]                                                                          %! growth
 
@@ -3169,7 +3149,6 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 163 / measure 12]                       %! _comment_measure_numbers
     r16
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     b'8.                                                                       %! growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3245,7 +3224,6 @@ F_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! growth
     \revert TupletNumber.text
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     cs''!4                                                                     %! growth
 
     cs''!4                                                                     %! growth
@@ -3255,7 +3233,6 @@ F_Violin_II_Music_Voice = {                                                    %
     \repeatTie
     [                                                                          %! growth
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     b'8.                                                                       %! growth
     ]                                                                          %! growth
 
@@ -3271,7 +3248,6 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 165 / measure 14]                       %! _comment_measure_numbers
     r16
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d''8.                                                                      %! growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3290,7 +3266,6 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 166 / measure 15]                       %! _comment_measure_numbers
     r16
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     b'8.                                                                       %! growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3308,7 +3283,6 @@ F_Violin_II_Music_Voice = {                                                    %
 
     r16
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d''8.                                                                      %! growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3406,7 +3380,6 @@ F_Violin_II_Music_Voice = {                                                    %
     \revert TupletNumber.text
 
     % [F Violin_II_Music_Voice measure 169 / measure 18]                       %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d''4                                                                       %! growth
 
     d''4                                                                       %! growth
@@ -3416,7 +3389,6 @@ F_Violin_II_Music_Voice = {                                                    %
     \repeatTie
     [                                                                          %! growth
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c''8.                                                                      %! growth
     ]                                                                          %! growth
 
@@ -3432,7 +3404,6 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 170 / measure 19]                       %! _comment_measure_numbers
     r16
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d''8.                                                                      %! growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3530,7 +3501,6 @@ F_Violin_II_Music_Voice = {                                                    %
     \revert TupletNumber.text
 
     % [F Violin_II_Music_Voice measure 174 / measure 23]                       %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fs'!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -4394,7 +4364,6 @@ F_Viola_Music_Voice = {                                                        %
     a16                                                                        %! manifest
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     a2                                                                         %! manifest
     \repeatTie
 
@@ -4422,7 +4391,6 @@ F_Viola_Music_Voice = {                                                        %
 
     c'16                                                                       %! manifest
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'4                                                                        %! manifest
     \repeatTie
 
@@ -4438,7 +4406,6 @@ F_Viola_Music_Voice = {                                                        %
     c'16                                                                       %! manifest
     \repeatTie
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     cs'!4..                                                                    %! manifest
 
     % [F Viola_Music_Voice measure 167 / measure 16]                           %! _comment_measure_numbers
@@ -4452,7 +4419,6 @@ F_Viola_Music_Voice = {                                                        %
 
     cqs'!16                                                                    %! manifest
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     cqs'!4                                                                     %! manifest
     \repeatTie
 
@@ -4470,7 +4436,6 @@ F_Viola_Music_Voice = {                                                        %
     d'16                                                                       %! manifest
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d'2                                                                        %! manifest
     \repeatTie
 
@@ -5326,7 +5291,6 @@ F_Cello_Music_Voice = {                                                        %
 
     gf!16                                                                      %! cello_solo_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     gqf!4                                                                      %! cello_solo_rhythm
 
     % [F Cello_Music_Voice measure 153 / measure 2]                            %! _comment_measure_numbers
@@ -5576,7 +5540,6 @@ F_Cello_Music_Voice = {                                                        %
 
     g,16                                                                       %! manifest
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g,4                                                                        %! manifest
     \repeatTie
 
@@ -5604,7 +5567,6 @@ F_Cello_Music_Voice = {                                                        %
     fqs,!16                                                                    %! manifest
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs,!2.                                                                    %! manifest
     \repeatTie
 
@@ -5612,7 +5574,6 @@ F_Cello_Music_Voice = {                                                        %
     fqs,!16                                                                    %! manifest
     \repeatTie
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fs,!2...                                                                   %! manifest
 
     % [F Cello_Music_Voice measure 167 / measure 16]                           %! _comment_measure_numbers
@@ -5621,7 +5582,6 @@ F_Cello_Music_Voice = {                                                        %
 
     e,16                                                                       %! manifest
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e,2                                                                        %! manifest
     \repeatTie
 
@@ -5642,7 +5602,6 @@ F_Cello_Music_Voice = {                                                        %
 
     ef,!16                                                                     %! manifest
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     ef,!4                                                                      %! manifest
     \repeatTie
 

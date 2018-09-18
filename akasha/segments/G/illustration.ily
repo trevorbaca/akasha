@@ -606,7 +606,6 @@ G_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! dense_getato_rhythm
 
     % [G Violin_I_Music_Voice measure 204 / measure 5]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

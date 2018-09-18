@@ -1703,7 +1703,6 @@ A_Cello_Music_Voice = {                                                        %
 
     f16                                                                        %! cello_solo_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! cello_solo_rhythm
 
     % [A Cello_Music_Voice measure 5 / measure 2]                              %! _comment_measure_numbers
