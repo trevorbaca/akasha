@@ -1972,7 +1972,7 @@ F_Violin_I_Music_Voice = {                                                     %
 
         \revert Staff.Stem.stemlet-length                                      %! growth
         g''16 * 31/16                                                          %! growth
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ]                                                                      %! growth
 
@@ -3208,7 +3208,7 @@ F_Violin_II_Music_Voice = {                                                    %
         r16 * 243/64
 
         cs''!16 * 165/64                                                       %! growth
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         r16 * 33/16
@@ -3343,7 +3343,7 @@ F_Violin_II_Music_Voice = {                                                    %
         r16 * 51/8
 
         c''16 * 333/64                                                         %! growth
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         r16 * 67/16
@@ -3466,7 +3466,7 @@ F_Violin_II_Music_Voice = {                                                    %
         r16 * 51/8
 
         c''16 * 333/64                                                         %! growth
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         r16 * 67/16
@@ -3493,7 +3493,7 @@ F_Violin_II_Music_Voice = {                                                    %
 
         \revert Staff.Stem.stemlet-length                                      %! growth
         cs''!16 * 63/32                                                        %! growth
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ]                                                                      %! growth
 
