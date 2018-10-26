@@ -1,17 +1,17 @@
 J_Global_Rests = {                                                             %! extern
 
     % [J Global_Rests measure 261 / measure 1]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
+    R1 * 1                                                                     %! _make_global_rests(1)
 
     % [J Global_Rests measure 262 / measure 2]                                 %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_global_rests
+    R1 * 3/2                                                                   %! _make_global_rests(1)
 
     % [J Global_Rests measure 263 / measure 3]                                 %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_global_rests
+    R1 * 3/2                                                                   %! _make_global_rests(1)
 
     % [J Global_Rests measure 264 / measure 4]                                 %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
+    R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-very-long-fermata-markup                                           %! baca_global_fermata:GlobalFermataCommand(1)
 
 }                                                                              %! extern
