@@ -1,170 +1,170 @@
 D_Global_Rests = {                                                             %! extern
 
     % [D Global_Rests measure 62 / measure 1]                                  %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 63 / measure 2]                                  %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 64 / measure 3]                                  %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 65 / measure 4]                                  %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 66 / measure 5]                                  %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 67 / measure 6]                                  %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 68 / measure 7]                                  %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 69 / measure 8]                                  %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
+    R1 * 1                                                                     %! _make_global_rests(1)
 
     % [D Global_Rests measure 70 / measure 9]                                  %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
+    R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 71 / measure 10]                                 %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_global_rests
+    R1 * 9/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 72 / measure 11]                                 %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_global_rests
+    R1 * 9/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 73 / measure 12]                                 %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 74 / measure 13]                                 %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 75 / measure 14]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 76 / measure 15]                                 %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 77 / measure 16]                                 %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_global_rests
+    R1 * 9/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 78 / measure 17]                                 %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 79 / measure 18]                                 %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
+    R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 80 / measure 19]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
+    R1 * 1                                                                     %! _make_global_rests(1)
 
     % [D Global_Rests measure 81 / measure 20]                                 %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_global_rests
+    R1 * 9/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 82 / measure 21]                                 %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 83 / measure 22]                                 %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 84 / measure 23]                                 %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
+    R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 85 / measure 24]                                 %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_global_rests
+    R1 * 9/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 86 / measure 25]                                 %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_global_rests
+    R1 * 9/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 87 / measure 26]                                 %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 88 / measure 27]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
+    R1 * 1                                                                     %! _make_global_rests(1)
 
     % [D Global_Rests measure 89 / measure 28]                                 %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 90 / measure 29]                                 %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 91 / measure 30]                                 %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 92 / measure 31]                                 %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 93 / measure 32]                                 %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
+    R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 94 / measure 33]                                 %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 95 / measure 34]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 96 / measure 35]                                 %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 97 / measure 36]                                 %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 98 / measure 37]                                 %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
+    R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 99 / measure 38]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 100 / measure 39]                                %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 101 / measure 40]                                %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 102 / measure 41]                                %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 103 / measure 42]                                %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
+    R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 104 / measure 43]                                %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
+    R1 * 1                                                                     %! _make_global_rests(1)
 
     % [D Global_Rests measure 105 / measure 44]                                %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_global_rests
+    R1 * 9/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 106 / measure 45]                                %! _comment_measure_numbers
-    R1 * 9/8                                                                   %! _make_global_rests
+    R1 * 9/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 107 / measure 46]                                %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 108 / measure 47]                                %! _comment_measure_numbers
-    R1 * 3/8                                                                   %! _make_global_rests
+    R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 109 / measure 48]                                %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 110 / measure 49]                                %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 111 / measure 50]                                %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests
+    R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 112 / measure 51]                                %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
+    R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
 
 }                                                                              %! extern
