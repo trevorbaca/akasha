@@ -24,7 +24,7 @@ maker = baca.SegmentMaker(
         ['October', 'December 2015.'],
         ),
     final_markup_extra_offset=(-19, -4),
-    last_segment=True,
+    final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('B', 25, 30, [-1]),
     validate_measure_count=25,
