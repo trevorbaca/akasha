@@ -1,3 +1,4 @@
+% page_count = 1
 % measure_count = 3
 % time_signatures = [
 % '3/8', '6/8', '1/4'
