@@ -33,13 +33,18 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.metronome_mark('89'),
-    baca.rehearsal_mark('N'),
-    baca.rehearsal_mark_y_offset(5),
+    baca.rehearsal_mark(
+        'N',
+        abjad.tweak((0, 13)).extra_offset,
+        ),
     )
 
 maker(
     'Global_Rests',
-    baca.global_fermata('very_long', selector=baca.leaf(-1)),
+    baca.global_fermata(
+        'very_long',
+        selector=baca.leaf(-1),
+        ),
     )
 
 maker(

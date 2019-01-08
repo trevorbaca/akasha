@@ -173,11 +173,11 @@ D_Global_Rests = {                                                             %
 D_Global_Skips = {                                                             %! extern
 
     % [D Global_Skips measure 62 / measure 1]                                  %! _comment_measure_numbers
-    \once \override GlobalContext.RehearsalMark.Y-offset = #7                  %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
+    - \tweak extra-offset #'(0 . 7)                                            %! baca_rehearsal_mark:IndicatorCommand
     - \baca-rehearsal-mark-markup "D"                                          %! baca_rehearsal_mark:IndicatorCommand
 %@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
