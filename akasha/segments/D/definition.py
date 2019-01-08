@@ -42,8 +42,10 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
-    baca.rehearsal_mark('D'),
-    baca.rehearsal_mark_y_offset(7),
+    baca.rehearsal_mark(
+        'D',
+        abjad.tweak((0, 7)).extra_offset,
+        ),
     baca.metronome_mark('126', selector=baca.leaf(0)),
     baca.metronome_mark('55', selector=baca.leaf(32)),
     baca.metronome_mark('126', selector=baca.leaf(37)),
