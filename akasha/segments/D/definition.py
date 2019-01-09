@@ -167,7 +167,7 @@ maker(
     baca.dynamic('ppp'),
     baca.new(
         baca.glissando(),
-        map=baca.runs(exclude='HIDDEN'),
+        map=baca.runs(exclude=baca.enums.HIDDEN),
         ),
     baca.markup('XP + senza vib. + full bow strokes'),
     baca.note_head_style_harmonic(),
