@@ -63,7 +63,7 @@ metadata = abjad.OrderedDict(
                         ),
                     (
                         'M',
-                        [368, 368],
+                        [368],
                         ),
                     (
                         'N',
