@@ -34,27 +34,27 @@
             " "
     }
     evenHeaderMarkup = \markup \fill-line { " " }
-    left-margin = 20\mm
+    left-margin = 25\mm
     oddFooterMarkup = \evenFooterMarkup
     oddHeaderMarkup = \markup \fill-line { " " }
     print-first-page-number = ##f
     print-page-number = ##t
     ragged-bottom = ##t
     ragged-last-bottom = ##t
-    right-margin = 5\mm
+    right-margin = 15\mm
     markup-system-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 60)
         (padding . 0)
         (stretchability . 0)
     )
-    system-system-spacing = #'(
-        (basic-distance . 0)
-        (minimum-distance . 24) % space after each system
-        (padding . 0)
-        (stretchability . 0)
-    )
-    %systems-per-page = 3
+%    system-system-spacing = #'(
+%        (basic-distance . 0)
+%        (minimum-distance . 24) % space after each system
+%        (padding . 0)
+%        (stretchability . 0)
+%    )
+%    %systems-per-page = 3
     top-markup-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 18)
@@ -110,7 +110,7 @@
 
 \layout {
     \accidentalStyle neo-modern
-    indent = 5
+    indent = 0
     ragged-bottom = ##t
     ragged-last = ##t
     ragged-right = ##t
