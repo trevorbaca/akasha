@@ -654,6 +654,12 @@ M_Violin_I_Music_Voice = {                                                     %
             \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.line-count = 5                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #12                                                        %! _clone_segment_initial_short_instrument_name
+                    "Vn. I"                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -910,6 +916,12 @@ M_Violin_II_Music_Voice = {                                                    %
             \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.line-count = 5                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #12                                                        %! _clone_segment_initial_short_instrument_name
+                    "Vn. II"                                                   %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1152,6 +1164,12 @@ M_Viola_Music_Voice = {                                                        %
             \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #12                                                        %! _clone_segment_initial_short_instrument_name
+                    Va.                                                        %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
             \clef "alto"                                                       %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1386,6 +1404,12 @@ M_Cello_Music_Voice = {                                                        %
             #12                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vc.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #12                                                                %! _clone_segment_initial_short_instrument_name
+            Vc.                                                                %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
