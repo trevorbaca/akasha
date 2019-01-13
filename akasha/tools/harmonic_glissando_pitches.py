@@ -21,5 +21,5 @@ def harmonic_glissando_pitches(
     pitch_numbers = abjad.sequence(pitch_numbers).rotate(n=rotation)
     return baca.pitches(
         pitch_numbers,
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         )

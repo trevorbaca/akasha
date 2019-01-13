@@ -202,7 +202,7 @@ maker(
     baca.markup('OB'),
     baca.pitch(
         'B2',
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -232,7 +232,7 @@ maker(
     baca.markup('OB'),
     baca.pitch(
         'B4',
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -268,7 +268,7 @@ maker(
     baca.markup('OB'),
     baca.pitch(
         'B3',
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -305,7 +305,7 @@ maker(
     ('vc', (17, 27)),
     baca.pitch(
         'B1',
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     )
 
