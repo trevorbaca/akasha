@@ -104,7 +104,7 @@ maker(
     akasha.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.beam_positions(-4),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     baca.tuplet_bracket_staff_padding(2),
     )

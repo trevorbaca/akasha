@@ -77,14 +77,14 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (1, 24)),
     baca.alternate_bow_strokes(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     baca.clef('percussion'),
     baca.dynamic('"mf"'),
     baca.markup('full bow strokes: temrinate each not abruptly'),
     baca.staff_position(
         0,
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     baca.staff_lines(1),
     )
@@ -95,6 +95,6 @@ maker(
     baca.dynamic('pp-ancora'),
     baca.markup('leggieriss.'),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     )

@@ -268,7 +268,7 @@ maker(
             baca.markups.lines(
                 ['scratch moltiss.:', 'terminate each note abruptly']),
             ),
-        selector=baca.phead(0, exclude=baca.enums.HIDDEN),
+        selector=baca.phead(0, exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -281,7 +281,7 @@ maker(
 maker(
     ('v1', (23, 39)),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -307,7 +307,7 @@ maker(
             baca.markups.lines(
                 ['scratch moltiss:', 'terminate each not abruptly']),
             ),
-        selector=baca.phead(0, exclude=baca.enums.HIDDEN),
+        selector=baca.phead(0, exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -321,7 +321,7 @@ maker(
     ('v2', (19, 20)),
     baca.dynamic('mf'),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     baca.markup('senza scratch'),
     )
@@ -330,7 +330,7 @@ maker(
     ('v2', (21, 39)),
     baca.markup('leggieriss.'),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -345,7 +345,7 @@ maker(
 maker(
     'va',
     baca.alternate_bow_strokes(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     baca.dynamic('"mf"'),
     baca.markup('OB'),
@@ -366,7 +366,7 @@ maker(
             baca.markups.lines(
                 ['scratch moltiss.:', 'terminate each note abruptly']),
             ),
-        selector=baca.phead(0, exclude=baca.enums.HIDDEN),
+        selector=baca.phead(0, exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -381,14 +381,14 @@ maker(
     baca.dynamic('mf'),
     baca.markup('senza scratch'),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     )
 
 maker(
     ('vc', (19, 39)),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     baca.markup('leggieriss.'),
     )

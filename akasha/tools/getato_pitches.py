@@ -20,5 +20,5 @@ def getato_pitches(
     return baca.loop(
         pitch_numbers,
         intervals,
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         )

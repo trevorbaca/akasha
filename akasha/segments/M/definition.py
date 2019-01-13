@@ -69,7 +69,7 @@ maker(
     ('vc', (1, 24)),
     baca.pitch(
         'Bb1',
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     )
 
