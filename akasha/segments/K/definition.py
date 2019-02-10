@@ -145,7 +145,8 @@ maker(
 maker(
     ('Global_Skips', (30, 39)),
     baca.markup(
-        abjad.Markup.from_literal(r'\akasha-repeat-six', literal=True),
+        r'\akasha-repeat-six',
+        literal=True,
         selector=baca.skip(0),
         ),
     baca.volta(),
@@ -336,7 +337,8 @@ maker(
 maker(
     ('Global_Skips', (56, 60)),
     baca.markup(
-        abjad.Markup.from_literal(r'\akasha-repeat-six', literal=True),
+        r'\akasha-repeat-six',
+        literal=True,
         selector=baca.skip(0),
         ),
     baca.text_script_extra_offset((1.5, 6)),
