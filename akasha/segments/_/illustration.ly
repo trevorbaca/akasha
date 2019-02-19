@@ -16,16 +16,16 @@
         \context Score = "Score"                                               %! ScoreTemplate
         <<                                                                     %! ScoreTemplate
 
-            \context GlobalContext = "Global_Context"                          %! _make_global_context
-            <<                                                                 %! _make_global_context
+            \context GlobalContext = "Global_Context"                          %! abjad.ScoreTemplate._make_global_context
+            <<                                                                 %! abjad.ScoreTemplate._make_global_context
 
-                \context GlobalRests = "Global_Rests"                          %! _make_global_context
+                \context GlobalRests = "Global_Rests"                          %! abjad.ScoreTemplate._make_global_context
                 \i_Global_Rests                                                %! extern
 
-                \context GlobalSkips = "Global_Skips"                          %! _make_global_context
+                \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context
                 \i_Global_Skips                                                %! extern
 
-            >>                                                                 %! _make_global_context
+            >>                                                                 %! abjad.ScoreTemplate._make_global_context
 
             \context MusicContext = "Music_Context"                            %! ScoreTemplate
             {                                                                  %! ScoreTemplate
@@ -33,19 +33,19 @@
                 \context StringQuartetStaffGroup = "String_Quartet_Staff_Group" %! ScoreTemplate
                 <<                                                             %! ScoreTemplate
 
-                    \tag ViolinI                                               %! ScoreTemplate(5)
+                    \tag ViolinI                                               %! baca.ScoreTemplate._attach_liypond_tag
                     \context Staff = "Violin_I_Music_Staff"                    %! ScoreTemplate
                     \i_Violin_I_Music_Staff                                    %! extern
 
-                    \tag ViolinII                                              %! ScoreTemplate(5)
+                    \tag ViolinII                                              %! baca.ScoreTemplate._attach_liypond_tag
                     \context Staff = "Violin_II_Music_Staff"                   %! ScoreTemplate
                     \i_Violin_II_Music_Staff                                   %! extern
 
-                    \tag viola                                                 %! ScoreTemplate(5)
+                    \tag viola                                                 %! baca.ScoreTemplate._attach_liypond_tag
                     \context Staff = "Viola_Music_Staff"                       %! ScoreTemplate
                     \i_Viola_Music_Staff                                       %! extern
 
-                    \tag cello                                                 %! ScoreTemplate(5)
+                    \tag cello                                                 %! baca.ScoreTemplate._attach_liypond_tag
                     \context Staff = "Cello_Music_Staff"                       %! ScoreTemplate
                     \i_Cello_Music_Staff                                       %! extern
 
