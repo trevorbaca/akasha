@@ -159,7 +159,7 @@ maker(
     ('vc', (1, 12)),
     baca.pitch(
         'C#2',
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.plts(exclude=abjad.const.HIDDEN),
         ),
     )
 
@@ -178,7 +178,7 @@ maker(
     baca.staff_lines(1),
     baca.staff_position(
         0,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.plts(exclude=abjad.const.HIDDEN),
         ),
     )
 

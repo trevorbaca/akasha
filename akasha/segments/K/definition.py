@@ -204,7 +204,7 @@ maker(
     ('v1', (41, 52)),
     baca.pitch(
         'A5',
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.plts(exclude=abjad.const.HIDDEN),
         ),
     )
 
@@ -213,7 +213,7 @@ maker(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch('B7'),
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.pleaves(exclude=abjad.const.HIDDEN),
         )
     )
 
@@ -221,7 +221,7 @@ maker(
     ('v2', (41, 50)),
     baca.pitch(
         'A4',
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.plts(exclude=abjad.const.HIDDEN),
         ),
     )
 
@@ -230,7 +230,7 @@ maker(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch('C#7'),
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.pleaves(exclude=abjad.const.HIDDEN),
         )
     )
 
@@ -238,7 +238,7 @@ maker(
     ('va', (41, 48)),
     baca.pitch(
         'A2',
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.pleaves(exclude=abjad.const.HIDDEN),
         ),
     )
 
@@ -247,7 +247,7 @@ maker(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch('G~5'),
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.pleaves(exclude=abjad.const.HIDDEN),
         ),
     )
 
@@ -255,7 +255,7 @@ maker(
     ('vc', (41, 45)),
     baca.new(
         baca.pitch('A1'),
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.plts(exclude=abjad.const.HIDDEN),
         ),
     )
 
@@ -264,7 +264,7 @@ maker(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch('D5'),
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.pleaves(exclude=abjad.const.HIDDEN),
         ),
     )
 
