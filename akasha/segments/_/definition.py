@@ -50,6 +50,7 @@ maker(
 
 maker(
     'vc',
+    baca.clef('bass'),
     baca.suite(
         akasha.margin_markup('Vc.'),
         baca.start_markup('Cello', hcenter_in=14),
