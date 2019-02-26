@@ -1,4 +1,4 @@
-H_Global_Rests = {                                                             %! extern
+H_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [H Global_Rests measure 217 / measure 1]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
@@ -25,10 +25,10 @@ H_Global_Rests = {                                                             %
     R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Global_Skips = {                                                             %! extern
+H_Global_Skips = {                                                             %! abjad.Path.extern
 
     \repeat volta 2
     {
@@ -168,10 +168,10 @@ H_Global_Skips = {                                                             %
 
     }
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Violin_I_Music_Voice = {                                                     %! extern
+H_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern
 
     \override TupletNumber.text = \markup {
         \scale
@@ -364,18 +364,18 @@ H_Violin_I_Music_Voice = {                                                     %
     % [H Violin_I_Music_Voice measure 223 / measure 7]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Violin_I_Music_Staff = {                                                     %! extern
+H_Violin_I_Music_Staff = {                                                     %! abjad.Path.extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
-    \H_Violin_I_Music_Voice                                                    %! extern
+    \H_Violin_I_Music_Voice                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Violin_II_Music_Voice = {                                                    %! extern
+H_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern
 
     \override TupletNumber.text = \markup {
         \scale
@@ -568,18 +568,18 @@ H_Violin_II_Music_Voice = {                                                    %
     % [H Violin_II_Music_Voice measure 223 / measure 7]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Violin_II_Music_Staff = {                                                    %! extern
+H_Violin_II_Music_Staff = {                                                    %! abjad.Path.extern
 
     \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
-    \H_Violin_II_Music_Voice                                                   %! extern
+    \H_Violin_II_Music_Voice                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Viola_Music_Voice = {                                                        %! extern
+H_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [H Viola_Music_Voice measure 217 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -691,18 +691,18 @@ H_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Viola_Music_Staff = {                                                        %! extern
+H_Viola_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \H_Viola_Music_Voice                                                       %! extern
+    \H_Viola_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Cello_Music_Voice = {                                                        %! extern
+H_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     \override TupletNumber.text = \markup {
         \scale
@@ -870,12 +870,12 @@ H_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-H_Cello_Music_Staff = {                                                        %! extern
+H_Cello_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \H_Cello_Music_Voice                                                       %! extern
+    \H_Cello_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern

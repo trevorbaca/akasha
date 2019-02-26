@@ -1,4 +1,4 @@
-G_Global_Rests = {                                                             %! extern
+G_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [G Global_Rests measure 200 / measure 1]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests(1)
@@ -53,10 +53,10 @@ G_Global_Rests = {                                                             %
     % [G Global_Rests measure 216 / measure 17]                                %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests(1)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Global_Skips = {                                                             %! extern
+G_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [G Global_Skips measure 200 / measure 1]                                 %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -381,10 +381,10 @@ G_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Violin_I_Music_Voice = {                                                     %! extern
+G_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern
 
     \times 8/14 {                                                              %! dense_getato_rhythm
 
@@ -748,18 +748,18 @@ G_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Violin_I_Music_Staff = {                                                     %! extern
+G_Violin_I_Music_Staff = {                                                     %! abjad.Path.extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
-    \G_Violin_I_Music_Voice                                                    %! extern
+    \G_Violin_I_Music_Voice                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Violin_II_Music_Voice = {                                                    %! extern
+G_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern
 
     % [G Violin_II_Music_Voice measure 200 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -958,18 +958,18 @@ G_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Violin_II_Music_Staff = {                                                    %! extern
+G_Violin_II_Music_Staff = {                                                    %! abjad.Path.extern
 
     \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
-    \G_Violin_II_Music_Voice                                                   %! extern
+    \G_Violin_II_Music_Voice                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Viola_Music_Voice = {                                                        %! extern
+G_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [G Viola_Music_Voice measure 200 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1159,18 +1159,18 @@ G_Viola_Music_Voice = {                                                        %
     c'4.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Viola_Music_Staff = {                                                        %! extern
+G_Viola_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \G_Viola_Music_Voice                                                       %! extern
+    \G_Viola_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Cello_Music_Voice = {                                                        %! extern
+G_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [G Cello_Music_Voice measure 200 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1367,12 +1367,12 @@ G_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Cello_Music_Staff = {                                                        %! extern
+G_Cello_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \G_Cello_Music_Voice                                                       %! extern
+    \G_Cello_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
