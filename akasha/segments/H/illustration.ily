@@ -103,15 +103,12 @@ H_Global_Skips = {                                                             %
     %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
     %@% \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
     %@% - \baca-start-lmi-left-only "3"                                        %! LOCAL_MEASURE_INDEX
     %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
     %@% - \baca-start-lmn-left-only "4"                                        %! LOCAL_MEASURE_NUMBER
     %@% \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "220"                                       %! MEASURE_NUMBER
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
-    %@% - \baca-start-ct-left-only "[10'04'']"                                 %! CLOCK_TIME
-    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME
 
         % [H Global_Skips measure 221 / measure 5]                             %! _comment_measure_numbers
         \time 3/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
