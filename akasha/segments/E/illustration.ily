@@ -1,4 +1,4 @@
-E_Global_Rests = {                                                             %! extern
+E_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [E Global_Rests measure 113 / measure 1]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
@@ -127,10 +127,10 @@ E_Global_Rests = {                                                             %
     R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Global_Skips = {                                                             %! extern
+E_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [E Global_Skips measure 113 / measure 1]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -849,10 +849,10 @@ E_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Violin_I_Music_Voice = {                                                     %! extern
+E_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2441,18 +2441,18 @@ E_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Violin_I_Music_Staff = {                                                     %! extern
+E_Violin_I_Music_Staff = {                                                     %! abjad.Path.extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
-    \E_Violin_I_Music_Voice                                                    %! extern
+    \E_Violin_I_Music_Voice                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Violin_II_Music_Voice = {                                                    %! extern
+E_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4162,18 +4162,18 @@ E_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Violin_II_Music_Staff = {                                                    %! extern
+E_Violin_II_Music_Staff = {                                                    %! abjad.Path.extern
 
     \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
-    \E_Violin_II_Music_Voice                                                   %! extern
+    \E_Violin_II_Music_Voice                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Viola_Music_Voice = {                                                        %! extern
+E_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [E Viola_Music_Voice measure 113 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4772,18 +4772,18 @@ E_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Viola_Music_Staff = {                                                        %! extern
+E_Viola_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \E_Viola_Music_Voice                                                       %! extern
+    \E_Viola_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Cello_Music_Voice = {                                                        %! extern
+E_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -6619,12 +6619,12 @@ E_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-E_Cello_Music_Staff = {                                                        %! extern
+E_Cello_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \E_Cello_Music_Voice                                                       %! extern
+    \E_Cello_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
