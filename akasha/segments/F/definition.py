@@ -9,29 +9,20 @@ from abjadext import rmakers
 ##################################### [F] #####################################
 ###############################################################################
 
-def stages(n):
-    return {
-        1: (1, 2),
-        2: (3, 4),
-        3: 5,
-        4: 6,
-        5: 7,
-        6: (8, 9),
-        7: 10,
-        8: (11, 22),
-        9: (23, 26),
-        10: (27, 30),
-        11: (31, 34),
-        12: 35,
-        13: (36, 41),
-        14: 42,
-        15: 43,
-        16: 44,
-        17: 45,
-        18: 46,
-        19: 47,
-        20: 48,
-        }[n]
+stage_markup = (
+    ('[F.1]', 1),
+    ('[F.2]', 3),
+    ('[F.4]', 6),
+    ('[F.6]', 8),
+    ('[F.8]', 11),
+    ('[F.9]', 23),
+    ('[F.10]', 27),
+    ('[F.11]', 31),
+    ('[F.13]', 36),
+    ('[F.15]', 43),
+    ('[F.17]', 45),
+    ('[F.19]', 47),
+    )
 
 maker = baca.SegmentMaker(
     activate=[
@@ -41,6 +32,7 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         'A', 48, 9,
         [5, 7, 10, 35, 42, 44, 46, 48]
