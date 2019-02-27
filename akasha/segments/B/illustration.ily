@@ -56,6 +56,8 @@ B_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "24"                                            %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+    - \baca-start-snm-left-only "[B.1]"                                        %! STAGE_NUMBER %@%
+    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER %@%
 %@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "55"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
@@ -104,6 +106,7 @@ B_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER %@%
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
@@ -111,6 +114,8 @@ B_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "27"                                            %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+    - \baca-start-snm-left-only "[B.2]"                                        %! STAGE_NUMBER %@%
+    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER %@%
 %@% - \baca-start-ct-left-only "[1'54'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
@@ -138,6 +143,7 @@ B_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER %@%
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmi-left-only "5"                                            %! LOCAL_MEASURE_INDEX
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
@@ -145,6 +151,8 @@ B_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "29"                                            %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+    - \baca-start-snm-left-only "[B.4]"                                        %! STAGE_NUMBER %@%
+    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER %@%
 %@% - \baca-start-ct-left-only "[2'02'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
@@ -172,6 +180,7 @@ B_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER %@%
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmi-left-only "7"                                            %! LOCAL_MEASURE_INDEX
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
@@ -179,6 +188,8 @@ B_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "31"                                            %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+    - \baca-start-snm-left-only "[B.6]"                                        %! STAGE_NUMBER %@%
+    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER %@%
 %@% - \baca-start-ct-left-only "[2'05'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
@@ -206,6 +217,7 @@ B_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER %@%
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmi-both "9" "10"                                            %! LOCAL_MEASURE_INDEX
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
@@ -213,6 +225,8 @@ B_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-both "33" "34"                                            %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+    - \baca-start-snm-both "[B.8]" "[B.9]"                                     %! STAGE_NUMBER %@%
+    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER %@%
 %@% - \baca-start-ct-both "[2'08'']" "[2'12'']"                                %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
@@ -221,6 +235,7 @@ B_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER %@%
     \bacaStopTextSpanMM                                                        %! SEGMENT_FINAL_STOP_MM_SPANNER:_attach_metronome_marks(4)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
