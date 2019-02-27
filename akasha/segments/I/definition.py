@@ -34,6 +34,7 @@ def stage(n):
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
+    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('A', 37, 15, [3, 27, 30, -1]),
     validate_measure_count=37,
