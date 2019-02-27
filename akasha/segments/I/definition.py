@@ -32,6 +32,9 @@ def stage(n):
         }[n]
 
 maker = baca.SegmentMaker(
+    activate=[
+        abjad.const.LOCAL_MEASURE_NUMBER,
+        ],
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
     phantom=True,
