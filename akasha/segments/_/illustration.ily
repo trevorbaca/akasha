@@ -49,7 +49,7 @@ i_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-both "2" "3"                                              %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-both "[0'02'']" "[0'06'']"                                %! CLOCK_TIME
+%@% - \baca-start-ct-both-right-fermata "[0'02'']" "8''"                       %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [_ Global_Skips measure 3]                                               %! _comment_measure_numbers
