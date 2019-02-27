@@ -74,16 +74,16 @@
         \override TimeSignature.style = #'numbered
     }
 
-    % STAFF
-    \context {
-        \Staff
-        \remove Time_signature_engraver
-    }
-
     % VOICE
     \context {
         \Voice
         \remove Forbid_line_break_engraver
+    }
+
+    % STAFF
+    \context {
+        \Staff
+        \remove Time_signature_engraver
     }
 
     % STRING QUARTET STAFF GROUP
@@ -101,6 +101,7 @@
         \type Engraver_group
         \alias ChoirStaff
         \accepts StringQuartetStaffGroup
+
         systemStartDelimiter = #'SystemStartBar
     }
 
