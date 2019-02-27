@@ -8,14 +8,11 @@ import os
 ##################################### [L] #####################################
 ###############################################################################
 
-def stage(n):
-    return {
-        1: 1,
-        2: 2,
-        3: 3,
-        4: 4,
-        5: (5, 6),
-        }[n]
+stage_markup = (
+    ('[L.1]', 1),
+    ('[L.3]', 3),
+    ('[L.5]', 5),
+    )
 
 maker = baca.SegmentMaker(
     activate=[
@@ -24,6 +21,7 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=akasha.time_signatures('A', 6, 18, [2, 4]),
     validate_measure_count=6,
     )

@@ -49,6 +49,8 @@ H_Global_Skips = {                                                             %
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "217"                                       %! MEASURE_NUMBER
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
+    %@% - \baca-start-snm-left-only "[H.1]"                                    %! STAGE_NUMBER
+    %@% \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER
     %@% - \abjad-invisible-line                                                %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "89"                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
     %@% \bacaStartTextSpanMM                                                   %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
@@ -82,6 +84,7 @@ H_Global_Skips = {                                                             %
     %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
         \bacaStopTextSpanMM                                                    %! _attach_metronome_marks(1)
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
     %@% - \baca-start-lmi-left-only "2"                                        %! LOCAL_MEASURE_INDEX
@@ -90,6 +93,8 @@ H_Global_Skips = {                                                             %
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "219"                                       %! MEASURE_NUMBER
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
+    %@% - \baca-start-snm-left-only "[H.2]"                                    %! STAGE_NUMBER
+    %@% \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER
     %@% - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "44"                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
     %@% \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -123,6 +128,7 @@ H_Global_Skips = {                                                             %
     %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
         \bacaStopTextSpanMM                                                    %! _attach_metronome_marks(1)
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
     %@% - \baca-start-lmi-left-only "4"                                        %! LOCAL_MEASURE_INDEX
@@ -131,6 +137,8 @@ H_Global_Skips = {                                                             %
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "221"                                       %! MEASURE_NUMBER
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
+    %@% - \baca-start-snm-left-only "[H.4]"                                    %! STAGE_NUMBER
+    %@% \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER
     %@% - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "55"                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
     %@% \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -185,6 +193,7 @@ H_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! PHANTOM:_style_phantom_measures(1):LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! PHANTOM:_style_phantom_measures(1):LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! PHANTOM:_style_phantom_measures(1):MEASURE_NUMBER
+%@% \bacaStopTextSpanSNM                                                       %! PHANTOM:_style_phantom_measures(1):STAGE_NUMBER
     \bacaStopTextSpanMM                                                        %! PHANTOM:_style_phantom_measures(1):SEGMENT_FINAL_STOP_MM_SPANNER:_attach_metronome_marks(4)
 %@% \bacaStopTextSpanCT                                                        %! PHANTOM:_style_phantom_measures(1):CLOCK_TIME
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
