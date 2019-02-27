@@ -25,8 +25,8 @@ i_Global_Skips = {                                                             %
     s1 * 3/8                                                                   %! _make_global_skips(1)
 %@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
-%@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "1"                                             %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -43,13 +43,13 @@ i_Global_Skips = {                                                             %
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmi-left-only "1"                                            %! LOCAL_MEASURE_INDEX
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
-%@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "2"                                             %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
 %@% - \baca-start-ct-left-only "[0'02'']"                                      %! CLOCK_TIME
@@ -60,13 +60,13 @@ i_Global_Skips = {                                                             %
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmi-left-only "2"                                            %! LOCAL_MEASURE_INDEX
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
-%@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "3"                                             %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
 %@% - \baca-start-ct-both-left-fermata "8''" "[0'14'']"                        %! CLOCK_TIME
@@ -79,7 +79,7 @@ i_Global_Skips = {                                                             %
     \baca-time-signature-transparent                                           %! PHANTOM:_style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:_make_global_skips(3)
 %@% \bacaStopTextSpanLMI                                                       %! PHANTOM:_style_phantom_measures(1):LOCAL_MEASURE_INDEX
-%@% \bacaStopTextSpanLMN                                                       %! PHANTOM:_style_phantom_measures(1):LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN                                                       %! PHANTOM:_style_phantom_measures(1):LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! PHANTOM:_style_phantom_measures(1):MEASURE_NUMBER
     \bacaStopTextSpanMM                                                        %! PHANTOM:_style_phantom_measures(1):SEGMENT_FINAL_STOP_MM_SPANNER:_attach_metronome_marks(4)
 %@% \bacaStopTextSpanCT                                                        %! PHANTOM:_style_phantom_measures(1):CLOCK_TIME
