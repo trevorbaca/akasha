@@ -9,23 +9,23 @@ from abjadext import rmakers
 ##################################### [B] #####################################
 ###############################################################################
 
-def stage(n):
-    return {
-        1: (1, 3),
-        2: 4,
-        3: 5,
-        4: 6,
-        5: 7,
-        6: 8,
-        7: 9,
-        8: 10,
-        9: 11,
-        }[n]
+stage_markup = (
+    ('[B.1]', 1),
+    ('[B.2]', 4),
+    #('[B.3]', 5),
+    ('[B.4]', 6),
+    #('[B.5]', 7),
+    ('[B.6]', 8),
+    #('[B.7]', 9),
+    ('[B.8]', 10),
+    ('[B.9]', 11),
+    )
 
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=akasha.time_signatures('B', 11, 6, [5, 7, 9]),
     validate_measure_count=11,
     )
