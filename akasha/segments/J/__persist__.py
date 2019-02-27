@@ -20,6 +20,7 @@ persist = abjad.OrderedDict(
                 'Violin_II_Rest_Voice',
                 'Viola_Music_Staff',
                 'Viola_Music_Voice',
+                'Viola_Rest_Voice',
                 'Cello_Music_Staff',
                 'Cello_Music_Voice',
                 'Cello_Rest_Voice',

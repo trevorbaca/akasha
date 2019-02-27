@@ -1,6 +1,6 @@
 % first_page_number = 11
 % page_count = 3
-% measure_count = 48
+% measure_count = 48 + 1
 % time_signatures = [
 % '3/4', '4/4', '5/4', '3/4', '1/4', '3/4', '1/4', '3/4', '4/4', '1/4', '5/4',
 %  '6/4', '6/4', '4/4', '4/4', '6/4', '6/4', '5/4', '3/4', '3/4', '4/4', '4/4',
@@ -406,14 +406,25 @@
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
             s1 * 3/2                                                           %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
-        %@% - \baca-start-spm-both "[1/20]" "[[1/4 * 35/24]]"                  %! SPACING
+        %@% - \baca-start-spm-left-only "[1/20]"                               %! SPACING
         %@% \bacaStartTextSpanSPM                                              %! SPACING
 
             % [Page_Layout measure 199]                                        %! _comment_measure_numbers
-            \baca-new-spacing-section #35 #96                                  %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
+            \baca-new-spacing-section #1 #4                                    %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
             s1 * 1/4                                                           %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
+        %@% - \baca-start-spm-left-only "[1/4]"                                %! SPACING
+        %@% \bacaStartTextSpanSPM                                              %! SPACING
+
+            % [Page_Layout measure 200]                                        %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+            \baca-new-spacing-section #1 #4                                    %! PHANTOM:_style_phantom_measures(1):HorizontalSpacingSpecifier(1):SPACING_COMMAND
+            \noBreak                                                           %! PHANTOM:_style_phantom_measures(1):BreakMeasureMap(2):BREAK
+            \baca-time-signature-transparent                                   %! PHANTOM:_style_phantom_measures(2)
+            s1 * 1/4                                                           %! PHANTOM:_make_global_skips(3)
+        %@% \bacaStopTextSpanSPM                                               %! PHANTOM:_style_phantom_measures(1):SPACING
+            \once \override Score.BarLine.transparent = ##t                    %! PHANTOM:_style_phantom_measures(3)
+            \once \override Score.SpanBar.transparent = ##t                    %! PHANTOM:_style_phantom_measures(3)
 
         }   %*% Page_Layout                                                    %! abjad.ScoreTemplate._make_global_context
 
