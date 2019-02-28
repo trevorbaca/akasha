@@ -26,7 +26,6 @@ maker = baca.SegmentMaker(
         ),
     final_markup_extra_offset=(-19, -4),
     final_segment=True,
-    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures('B', 25, 30, [-1]),
