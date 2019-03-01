@@ -231,8 +231,6 @@ K_Global_Skips = {                                                             %
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
     - \baca-rehearsal-mark-markup "K"                                          %! baca_rehearsal_mark:IndicatorCommand
-%@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "265"                                           %! MEASURE_NUMBER
@@ -252,12 +250,9 @@ K_Global_Skips = {                                                             %
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "1"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "266"                                           %! MEASURE_NUMBER
@@ -269,12 +264,9 @@ K_Global_Skips = {                                                             %
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "2"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "267"                                           %! MEASURE_NUMBER
@@ -284,12 +276,9 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 268 / measure 4]                                 %! _comment_measure_numbers
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "268"                                           %! MEASURE_NUMBER
@@ -301,13 +290,10 @@ K_Global_Skips = {                                                             %
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "4"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "269"                                           %! MEASURE_NUMBER
@@ -321,12 +307,9 @@ K_Global_Skips = {                                                             %
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "5"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "270"                                           %! MEASURE_NUMBER
@@ -338,12 +321,9 @@ K_Global_Skips = {                                                             %
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "6"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "271"                                           %! MEASURE_NUMBER
@@ -355,12 +335,9 @@ K_Global_Skips = {                                                             %
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "7"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "272"                                           %! MEASURE_NUMBER
@@ -372,13 +349,10 @@ K_Global_Skips = {                                                             %
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "8"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "9"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "273"                                           %! MEASURE_NUMBER
@@ -390,12 +364,9 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 274 / measure 10]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "9"                                            %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "274"                                           %! MEASURE_NUMBER
@@ -407,12 +378,9 @@ K_Global_Skips = {                                                             %
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "10"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "11"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "275"                                           %! MEASURE_NUMBER
@@ -424,12 +392,9 @@ K_Global_Skips = {                                                             %
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "11"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "12"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "276"                                           %! MEASURE_NUMBER
@@ -441,13 +406,10 @@ K_Global_Skips = {                                                             %
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "12"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "13"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "277"                                           %! MEASURE_NUMBER
@@ -461,12 +423,9 @@ K_Global_Skips = {                                                             %
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "13"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "14"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "278"                                           %! MEASURE_NUMBER
@@ -478,12 +437,9 @@ K_Global_Skips = {                                                             %
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "14"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "15"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "279"                                           %! MEASURE_NUMBER
@@ -495,12 +451,9 @@ K_Global_Skips = {                                                             %
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "15"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "16"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "280"                                           %! MEASURE_NUMBER
@@ -512,13 +465,10 @@ K_Global_Skips = {                                                             %
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "16"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "17"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "281"                                           %! MEASURE_NUMBER
@@ -532,12 +482,9 @@ K_Global_Skips = {                                                             %
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "17"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "18"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "282"                                           %! MEASURE_NUMBER
@@ -549,12 +496,9 @@ K_Global_Skips = {                                                             %
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "18"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "19"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "283"                                           %! MEASURE_NUMBER
@@ -566,12 +510,9 @@ K_Global_Skips = {                                                             %
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "19"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "20"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "284"                                           %! MEASURE_NUMBER
@@ -583,13 +524,10 @@ K_Global_Skips = {                                                             %
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "20"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "21"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "285"                                           %! MEASURE_NUMBER
@@ -601,12 +539,9 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 286 / measure 22]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "21"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "22"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "286"                                           %! MEASURE_NUMBER
@@ -618,12 +553,9 @@ K_Global_Skips = {                                                             %
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "22"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "23"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "287"                                           %! MEASURE_NUMBER
@@ -635,12 +567,9 @@ K_Global_Skips = {                                                             %
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "23"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "24"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "288"                                           %! MEASURE_NUMBER
@@ -652,13 +581,10 @@ K_Global_Skips = {                                                             %
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "24"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "25"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "289"                                           %! MEASURE_NUMBER
@@ -670,12 +596,9 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 290 / measure 26]                                %! _comment_measure_numbers
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "25"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "26"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "290"                                           %! MEASURE_NUMBER
@@ -687,12 +610,9 @@ K_Global_Skips = {                                                             %
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "26"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "27"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "291"                                           %! MEASURE_NUMBER
@@ -704,12 +624,9 @@ K_Global_Skips = {                                                             %
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "27"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "28"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "292"                                           %! MEASURE_NUMBER
@@ -721,12 +638,9 @@ K_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "28"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "29"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "293"                                           %! MEASURE_NUMBER
@@ -742,13 +656,10 @@ K_Global_Skips = {                                                             %
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/8                                                               %! _make_global_skips(1)
         ^ \akasha-repeat-six                                                   %! baca_markup:IndicatorCommand
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "29"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "30"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "294"                                       %! MEASURE_NUMBER
@@ -762,12 +673,9 @@ K_Global_Skips = {                                                             %
         \time 4/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 1/2                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "30"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "31"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "295"                                       %! MEASURE_NUMBER
@@ -779,12 +687,9 @@ K_Global_Skips = {                                                             %
         \time 8/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 1                                                                 %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "31"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "32"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "296"                                       %! MEASURE_NUMBER
@@ -796,12 +701,9 @@ K_Global_Skips = {                                                             %
         \time 9/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 9/8                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "32"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "33"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "297"                                       %! MEASURE_NUMBER
@@ -811,12 +713,9 @@ K_Global_Skips = {                                                             %
 
         % [K Global_Skips measure 298 / measure 34]                            %! _comment_measure_numbers
         s1 * 9/8                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "33"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "34"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "298"                                       %! MEASURE_NUMBER
@@ -828,13 +727,10 @@ K_Global_Skips = {                                                             %
         \time 4/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 1/2                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "34"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "35"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "299"                                       %! MEASURE_NUMBER
@@ -846,12 +742,9 @@ K_Global_Skips = {                                                             %
 
         % [K Global_Skips measure 300 / measure 36]                            %! _comment_measure_numbers
         s1 * 1/2                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "35"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "36"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "300"                                       %! MEASURE_NUMBER
@@ -863,12 +756,9 @@ K_Global_Skips = {                                                             %
         \time 3/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/8                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "36"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "37"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "301"                                       %! MEASURE_NUMBER
@@ -880,12 +770,9 @@ K_Global_Skips = {                                                             %
         \time 6/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/4                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "37"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "38"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "302"                                       %! MEASURE_NUMBER
@@ -897,12 +784,9 @@ K_Global_Skips = {                                                             %
         \time 7/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 7/8                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "38"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "39"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "303"                                       %! MEASURE_NUMBER
@@ -916,12 +800,9 @@ K_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "39"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "40"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "304"                                           %! MEASURE_NUMBER
@@ -933,13 +814,10 @@ K_Global_Skips = {                                                             %
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "40"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "41"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "305"                                           %! MEASURE_NUMBER
@@ -953,12 +831,9 @@ K_Global_Skips = {                                                             %
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "41"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "42"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "306"                                           %! MEASURE_NUMBER
@@ -968,12 +843,9 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 307 / measure 43]                                %! _comment_measure_numbers
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "42"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "43"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "307"                                           %! MEASURE_NUMBER
@@ -985,12 +857,9 @@ K_Global_Skips = {                                                             %
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "43"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "44"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "308"                                           %! MEASURE_NUMBER
@@ -1002,12 +871,9 @@ K_Global_Skips = {                                                             %
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "44"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "45"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "309"                                           %! MEASURE_NUMBER
@@ -1019,12 +885,9 @@ K_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "45"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "46"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "310"                                           %! MEASURE_NUMBER
@@ -1036,13 +899,10 @@ K_Global_Skips = {                                                             %
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "46"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "47"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "311"                                           %! MEASURE_NUMBER
@@ -1056,12 +916,9 @@ K_Global_Skips = {                                                             %
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "47"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "48"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "312"                                           %! MEASURE_NUMBER
@@ -1071,13 +928,10 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 313 / measure 49]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "48"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "49"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "313"                                           %! MEASURE_NUMBER
@@ -1091,12 +945,9 @@ K_Global_Skips = {                                                             %
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "49"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "50"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "314"                                           %! MEASURE_NUMBER
@@ -1108,13 +959,10 @@ K_Global_Skips = {                                                             %
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "50"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "51"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "315"                                           %! MEASURE_NUMBER
@@ -1128,12 +976,9 @@ K_Global_Skips = {                                                             %
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "51"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "52"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "316"                                           %! MEASURE_NUMBER
@@ -1143,14 +988,11 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 317 / measure 53]                                %! _comment_measure_numbers
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
     \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "52"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "53"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "317"                                           %! MEASURE_NUMBER
@@ -1190,12 +1032,9 @@ K_Global_Skips = {                                                             %
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "53"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "54"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "318"                                           %! MEASURE_NUMBER
@@ -1207,12 +1046,9 @@ K_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "54"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "55"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "319"                                           %! MEASURE_NUMBER
@@ -1229,14 +1065,11 @@ K_Global_Skips = {                                                             %
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/8                                                               %! _make_global_skips(1)
         ^ \akasha-repeat-six                                                   %! baca_markup:IndicatorCommand
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
         \bacaStopTextSpanMM                                                    %! _attach_metronome_marks(1)
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "55"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "56"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "320"                                       %! MEASURE_NUMBER
@@ -1256,12 +1089,9 @@ K_Global_Skips = {                                                             %
         \time 6/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/4                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "56"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "57"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "321"                                       %! MEASURE_NUMBER
@@ -1273,12 +1103,9 @@ K_Global_Skips = {                                                             %
         \time 7/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 7/8                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "57"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "58"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "322"                                       %! MEASURE_NUMBER
@@ -1290,12 +1117,9 @@ K_Global_Skips = {                                                             %
         \time 9/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 9/8                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "58"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "59"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "323"                                       %! MEASURE_NUMBER
@@ -1307,12 +1131,9 @@ K_Global_Skips = {                                                             %
         \time 4/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 1/2                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-    %@% - \baca-start-lmi-left-only "59"                                       %! LOCAL_MEASURE_INDEX
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX
         - \baca-start-lmn-left-only "60"                                       %! LOCAL_MEASURE_NUMBER
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
     %@% - \baca-start-mn-left-only "324"                                       %! MEASURE_NUMBER
@@ -1327,13 +1148,10 @@ K_Global_Skips = {                                                             %
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "60"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "61"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "325"                                           %! MEASURE_NUMBER
@@ -1347,12 +1165,9 @@ K_Global_Skips = {                                                             %
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "61"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "62"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "326"                                           %! MEASURE_NUMBER
@@ -1364,13 +1179,10 @@ K_Global_Skips = {                                                             %
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "62"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "63"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "327"                                           %! MEASURE_NUMBER
@@ -1384,12 +1196,9 @@ K_Global_Skips = {                                                             %
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "63"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "64"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "328"                                           %! MEASURE_NUMBER
@@ -1401,12 +1210,9 @@ K_Global_Skips = {                                                             %
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "64"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "65"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "329"                                           %! MEASURE_NUMBER
@@ -1416,12 +1222,9 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 330 / measure 66]                                %! _comment_measure_numbers
     s1 * 9/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "65"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "66"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "330"                                           %! MEASURE_NUMBER
@@ -1433,12 +1236,9 @@ K_Global_Skips = {                                                             %
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "66"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "67"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "331"                                           %! MEASURE_NUMBER
@@ -1450,12 +1250,9 @@ K_Global_Skips = {                                                             %
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "67"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "68"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "332"                                           %! MEASURE_NUMBER
@@ -1467,12 +1264,9 @@ K_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmi-left-only "68"                                           %! LOCAL_MEASURE_INDEX
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
     - \baca-start-lmn-left-only "69"                                           %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "333"                                           %! MEASURE_NUMBER
@@ -1486,7 +1280,6 @@ K_Global_Skips = {                                                             %
     \time 1/4                                                                  %! PHANTOM:_style_phantom_measures(1):REDUNDANT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(3)
     \baca-time-signature-transparent                                           %! PHANTOM:_style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:_make_global_skips(3)
-%@% \bacaStopTextSpanLMI                                                       %! PHANTOM:_style_phantom_measures(1):LOCAL_MEASURE_INDEX
     \bacaStopTextSpanLMN                                                       %! PHANTOM:_style_phantom_measures(1):LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! PHANTOM:_style_phantom_measures(1):MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! PHANTOM:_style_phantom_measures(1):STAGE_NUMBER
