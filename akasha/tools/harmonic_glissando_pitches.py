@@ -3,11 +3,7 @@ import akasha
 import baca
 
 
-def harmonic_glissando_pitches(
-    start_pitch,
-    direction=abjad.Up,
-    rotation=None,
-    ):
+def harmonic_glissando_pitches(start_pitch, direction=abjad.Up, rotation=None):
     """
     Makes harmonic glissando pitches.
     """
@@ -20,6 +16,5 @@ def harmonic_glissando_pitches(
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     pitch_numbers = abjad.sequence(pitch_numbers).rotate(n=rotation)
     return baca.pitches(
-        pitch_numbers,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
-        )
+        pitch_numbers, selector=baca.plts(exclude=abjad.const.HIDDEN)
+    )
