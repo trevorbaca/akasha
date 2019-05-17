@@ -18,9 +18,8 @@ def manifest(these_counts):
 
     assert sum(these_counts) == len(counts)
     these_counts = counts.partition_by_counts(
-        these_counts,
-        overhang=abjad.Exact,
-        )
+        these_counts, overhang=abjad.Exact
+    )
     these_counts = [sum(_) for _ in these_counts]
 
     return baca.rhythm(
@@ -28,13 +27,8 @@ def manifest(these_counts):
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             read_talea_once_only=True,
-            tag='manifest',
-            talea=rmakers.Talea(
-                counts=these_counts,
-                denominator=16,
-                ),
-            tie_specifier=rmakers.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),
-        )
+            tag="manifest",
+            talea=rmakers.Talea(counts=these_counts, denominator=16),
+            tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+        ),
+    )

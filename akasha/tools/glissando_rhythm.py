@@ -10,7 +10,6 @@ def glissando_rhythm():
     return baca.rhythm(
         division_expression=baca.sequence().sum().sequence(),
         rhythm_maker=rmakers.TupletRhythmMaker(
-            tag='glissando_rhythm',
-            tuplet_ratios=[(8, 1)],
-            ),
-        )
+            tag="glissando_rhythm", tuplet_ratios=[(8, 1)]
+        ),
+    )

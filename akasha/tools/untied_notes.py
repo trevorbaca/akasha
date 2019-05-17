@@ -9,12 +9,8 @@ def untied_notes():
     """
     return baca.rhythm(
         rhythm_maker=rmakers.NoteRhythmMaker(
-            duration_specifier=rmakers.DurationSpecifier(
-                rewrite_meter=True,
-                ),
-            tag='untied_notes',
-            tie_specifier=rmakers.TieSpecifier(
-                strip_ties=True,
-                ),
-            ),
+            duration_specifier=rmakers.DurationSpecifier(rewrite_meter=True),
+            tag="untied_notes",
+            tie_specifier=rmakers.TieSpecifier(strip_ties=True),
         )
+    )

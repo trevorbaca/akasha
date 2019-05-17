@@ -13,6 +13,6 @@ def time_signatures(series, count, rotation, fermata_measures=None):
         count=count,
         fermata_measures=fermata_measures,
         rotation=rotation,
-        )
+    )
     time_signatures = maker.run()
     return time_signatures

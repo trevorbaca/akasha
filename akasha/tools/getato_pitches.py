@@ -3,11 +3,7 @@ import akasha
 import baca
 
 
-def getato_pitches(
-    start_pitch,
-    intervals=[0],
-    direction=abjad.Up,
-    ):
+def getato_pitches(start_pitch, intervals=[0], direction=abjad.Up):
     """
     Makes getato pitches.
     """
@@ -21,4 +17,4 @@ def getato_pitches(
         pitch_numbers,
         intervals,
         selector=baca.plts(exclude=abjad.const.HIDDEN),
-        )
+    )

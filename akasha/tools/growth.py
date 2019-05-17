@@ -4,12 +4,8 @@ from abjadext import rmakers
 
 
 def growth(
-    index,
-    first_silence,
-    division_ratio,
-    accelerando=False,
-    extra_counts=None,
-    ):
+    index, first_silence, division_ratio, accelerando=False, extra_counts=None
+):
     """
     Makes growth talea rhythm.
     """
@@ -29,47 +25,30 @@ def growth(
         return expression
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
-        #extra_counts_per_division=[1],
+        # extra_counts_per_division=[1],
         extra_counts_per_division=extra_counts,
-        logical_tie_masks=[
-            silence_mask,
-            sustain_mask,
-            ],
-        tag='growth',
-        talea=rmakers.Talea(
-            counts=[9, 4, 8, 7],
-            denominator=16,
-            ),
-        tie_specifier=rmakers.TieSpecifier(
-            repeat_ties=True,
-            ),
-        )
+        logical_tie_masks=[silence_mask, sustain_mask],
+        tag="growth",
+        talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
+        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+    )
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
         beam_specifier=rmakers.BeamSpecifier(
-            beam_rests=True,
-            stemlet_length=0.75,
-            use_feather_beams=True,
-            ),
+            beam_rests=True, stemlet_length=0.75, use_feather_beams=True
+        ),
         interpolation_specifiers=[
             rmakers.InterpolationSpecifier(
                 start_duration=abjad.Duration(1, 2),
                 stop_duration=abjad.Duration(1, 8),
                 written_duration=abjad.Duration(1, 16),
-                ),
-            ],
-        logical_tie_masks=[
-            silence_mask,
-            sustain_mask,
-            ],
-        tag='growth',
-        tie_specifier=rmakers.TieSpecifier(
-            repeat_ties=True,
-            ),
-        tuplet_specifier=rmakers.TupletSpecifier(
-            duration_bracket=True,
-            ),
-        )
+            )
+        ],
+        logical_tie_masks=[silence_mask, sustain_mask],
+        tag="growth",
+        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+        tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
+    )
 
     if accelerando:
         rhythm_maker = accelerando_rhythm_maker
@@ -79,4 +58,4 @@ def growth(
     return baca.rhythm(
         division_expression=division_expression(index, accelerando),
         rhythm_maker=rhythm_maker,
-        )
+    )

@@ -3,11 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def scratch_rhythm(
-    denominators,
-    logical_tie_masks,
-    extra_counts_per_division,
-    ):
+def scratch_rhythm(denominators, logical_tie_masks, extra_counts_per_division):
     """
     Makes scratch rhythm.
     """
@@ -16,6 +12,6 @@ def scratch_rhythm(
             denominators=denominators,
             logical_tie_masks=logical_tie_masks,
             extra_counts_per_division=extra_counts_per_division,
-            tag='scratch_rhythm',
-            ),
+            tag="scratch_rhythm",
         )
+    )
