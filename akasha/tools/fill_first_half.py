@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def fill_first_half():
+def fill_first_half() -> baca.RhythmCommand:
     """
     Fills first half of scope with repeat-tied notes.
     """

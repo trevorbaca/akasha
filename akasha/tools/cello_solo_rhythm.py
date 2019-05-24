@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def cello_solo_rhythm(rotation=None):
+def cello_solo_rhythm(rotation=None) -> baca.RhythmCommand:
     """
     Makes cello solo rhythm.
     """

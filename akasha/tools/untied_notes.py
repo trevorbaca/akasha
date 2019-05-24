@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def untied_notes():
+def untied_notes() -> baca.RhythmCommand:
     """
     Makes untied notes.
     """

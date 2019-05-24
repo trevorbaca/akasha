@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def accelerando_rhythm(
     *, division_expression=None, dmask=None, fuse_counts=(1, 2), ltmask=None
-):
+) -> baca.RhythmCommand:
     """
     Makes accelerando rhythm.
     """
