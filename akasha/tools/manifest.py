@@ -3,17 +3,17 @@ import baca
 from abjadext import rmakers
 
 
-def manifest(these_counts):
+def manifest(these_counts) -> baca.RhythmCommand:
     """
     Makes manifest rhythm.
     """
 
-    counts = [7, 4, 11, 8]
-    counts += [14, 8, 11, 8]
-    counts += [14, 8, 22, 16]
-    counts += [28, 16, 22, 16]
-    counts += [46, 32, 22, 16]
-    counts = baca.sequence(counts)
+    counts_ = [7, 4, 11, 8]
+    counts_ += [14, 8, 11, 8]
+    counts_ += [14, 8, 22, 16]
+    counts_ += [28, 16, 22, 16]
+    counts_ += [46, 32, 22, 16]
+    counts = baca.sequence(counts_)
     assert len(counts) == 20
 
     assert sum(these_counts) == len(counts)

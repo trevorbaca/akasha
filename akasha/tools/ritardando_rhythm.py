@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def ritardando_rhythm(*, division_expression=None, dmask=None, ltmask=None):
+def ritardando_rhythm(
+    *, division_expression=None, dmask=None, ltmask=None
+) -> baca.RhythmCommand:
     """
     Makes ritardando rhythm.
     """

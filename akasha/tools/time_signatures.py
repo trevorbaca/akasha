@@ -1,9 +1,12 @@
 import abjad
 import akasha
 import baca
+import typing
 
 
-def time_signatures(series, count, rotation, fermata_measures=None):
+def time_signatures(
+    series, count, rotation, fermata_measures=None
+) -> typing.List[abjad.TimeSignature]:
     """
     Makes time sigantures.
     """

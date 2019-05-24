@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def polyphony_rhythm(*, ltmask=None, rotation=0):
+def polyphony_rhythm(*, ltmask=None, rotation=0) -> baca.RhythmCommand:
     """
     Makes polyphony rhythm.
     """

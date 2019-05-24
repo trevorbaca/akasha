@@ -1,15 +1,18 @@
 import abjad
-import akasha
 import baca
+from akasha.materials import getato_intervals
 
 
-def getato_pitches(start_pitch, intervals=[0], direction=abjad.Up):
+def getato_pitches(
+    start_pitch, intervals=[0], direction=abjad.Up
+) -> baca.PitchCommand:
     """
     Makes getato pitches.
     """
+
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
-    pitch_numbers = akasha.materials.getato_intervals
+    pitch_numbers = getato_intervals
     if direction == abjad.Down:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]

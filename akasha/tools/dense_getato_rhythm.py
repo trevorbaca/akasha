@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def dense_getato_rhythm(fuse_counts, extra_counts_per_division, *, dmask=None):
+def dense_getato_rhythm(
+    fuse_counts, extra_counts_per_division, *, dmask=None
+) -> baca.RhythmCommand:
     """
     Makes dense getato rhythm.
     """

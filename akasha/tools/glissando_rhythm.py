@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def glissando_rhythm():
+def glissando_rhythm() -> baca.RhythmCommand:
     """
     Makes glissando rhythm.
     """

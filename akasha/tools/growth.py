@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def growth(
     index, first_silence, division_ratio, accelerando=False, extra_counts=None
-):
+) -> baca.RhythmCommand:
     """
     Makes growth talea rhythm.
     """
@@ -50,6 +50,7 @@ def growth(
         tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
     )
 
+    rhythm_maker: rmakers.RhythmMaker
     if accelerando:
         rhythm_maker = accelerando_rhythm_maker
     else:

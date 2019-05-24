@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def perforated_counts(degree=0, rotation=None):
+def perforated_counts(degree=0, rotation=None) -> baca.Sequence:
     r"""
     Makes perforated counts.
 
@@ -41,4 +41,4 @@ def perforated_counts(degree=0, rotation=None):
             counts.extend(part)
         else:
             raise ValueError(part)
-    return abjad.sequence(counts).rotate(n=rotation)
+    return baca.sequence(counts).rotate(n=rotation)

@@ -3,7 +3,7 @@ import akasha
 import baca
 
 
-def cello_solo_pitches(transposition=None):
+def cello_solo_pitches(transposition=None) -> baca.PitchCommand:
     """
     Makes cello solo pitches.
     """

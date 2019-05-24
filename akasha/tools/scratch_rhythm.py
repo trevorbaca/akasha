@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def scratch_rhythm(denominators, logical_tie_masks, extra_counts_per_division):
+def scratch_rhythm(
+    denominators, logical_tie_masks, extra_counts_per_division
+) -> baca.RhythmCommand:
     """
     Makes scratch rhythm.
     """
