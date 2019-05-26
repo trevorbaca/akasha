@@ -16,7 +16,7 @@ def growth(
 
     def division_expression(index, accelerando):
         ratio = abjad.Ratio(division_ratio)
-        expression = baca.split_by_durations(durations=[(1, 4)])
+        expression = baca.split_by_durations([(1, 4)])
         expression = expression.flatten(depth=-1)
         expression = expression.partition_by_ratio_of_lengths(ratio)
         expression = expression[index]
