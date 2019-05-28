@@ -11,9 +11,9 @@ def viola_ob_rhythm(rotation=None) -> baca.RhythmCommand:
     durations_ = [abjad.Duration(_) for _ in durations_]
     durations = abjad.sequence(durations_)
     durations = durations.rotate(n=rotation)
-    division_expression = baca.split_by_durations(durations)
+    divisions = baca.split_by_durations(durations)
     return baca.rhythm(
-        division_expression=division_expression,
+        divisions=divisions,
         rhythm_maker=rmakers.NoteRhythmMaker(
             tag="viola_ob_rhythm", division_masks=rmakers.silence([0, -1])
         ),

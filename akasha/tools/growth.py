@@ -14,7 +14,7 @@ def growth(
     silence_mask = rmakers.SilenceMask(pattern)
     sustain_mask = rmakers.sustain([0, -1])
 
-    def division_expression(index, accelerando):
+    def divisions(index, accelerando):
         ratio = abjad.Ratio(division_ratio)
         expression = baca.split_by_durations([(1, 4)])
         expression = expression.flatten(depth=-1)
@@ -57,6 +57,5 @@ def growth(
         rhythm_maker = talea_rhythm_maker
 
     return baca.rhythm(
-        division_expression=division_expression(index, accelerando),
-        rhythm_maker=rhythm_maker,
+        divisions=divisions(index, accelerando), rhythm_maker=rhythm_maker
     )

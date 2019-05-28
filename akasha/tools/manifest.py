@@ -23,7 +23,7 @@ def manifest(these_counts) -> baca.RhythmCommand:
     these_counts = [sum(_) for _ in these_counts]
 
     return baca.rhythm(
-        division_expression=baca.strict_quarter_divisions(),
+        divisions=baca.quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             read_talea_once_only=True,
