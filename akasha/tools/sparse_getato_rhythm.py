@@ -12,7 +12,7 @@ def sparse_getato_rhythm(
     Makes sparse getato rhythm.
     """
     return baca.rhythm(
-        divisions=baca.quarter_divisions(),
+        divisions=baca.quarter_split_each(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=dmask,
