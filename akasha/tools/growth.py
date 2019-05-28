@@ -16,16 +16,14 @@ def growth(
 
     def divisions(index, accelerando):
         ratio = abjad.Ratio(division_ratio)
-        expression = baca.split_by_durations([(1, 4)])
-        expression = expression.flatten(depth=-1)
+        expression = baca.quarter_split_each()
         expression = expression.partition_by_ratio_of_lengths(ratio)
         expression = expression[index]
         if accelerando:
-            expression = expression.sum().sequence()
+            expression = expression.join()
         return expression
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
-        # extra_counts_per_division=[1],
         extra_counts_per_division=extra_counts,
         logical_tie_masks=[silence_mask, sustain_mask],
         tag="growth",

@@ -95,22 +95,22 @@ maker(
 
 maker(
     ('va', (4, 20)),
-    baca.make_repeated_duration_notes((1, 4)),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
     ('v1', (8, 20)),
-    baca.make_repeated_duration_notes((1, 4)),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
     ('v2', (13, 20)),
-    baca.make_repeated_duration_notes((1, 4)),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
     ('vc', (17, 20)),
-    baca.make_repeated_duration_notes((1, 4)),
+    baca.make_repeated_duration_notes([(1, 4)]),
     )
 
 maker(
