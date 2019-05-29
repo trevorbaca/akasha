@@ -13,7 +13,7 @@ def fill_first_half() -> baca.RhythmCommand:
         )[0],
         rhythm_maker=rmakers.NoteRhythmMaker(
             duration_specifier=rmakers.DurationSpecifier(rewrite_meter=True),
-            tag="fill_first_half",
+            tag="akasha.fill_first_half",
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=True
             ),

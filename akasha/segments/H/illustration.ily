@@ -221,7 +221,7 @@ H_Violin_I_Music_Voice = {                                                     %
                     }
                 }
         }
-    \times 1/1 {                                                               %! accelerando_rhythm
+    \times 1/1 {                                                               %! akasha.accelerando_rhythm
 
         % [H Violin_I_Music_Voice measure 217 / measure 1]                     %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -241,19 +241,19 @@ H_Violin_I_Music_Voice = {                                                     %
             }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Beam.grow-direction = #right
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.accelerando_rhythm
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        d'16 * 117/16                                                          %! accelerando_rhythm
+        d'16 * 117/16                                                          %! akasha.accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup { XFB }                                                      %! baca_markup:IndicatorCommand
-        [                                                                      %! accelerando_rhythm
+        [                                                                      %! akasha.accelerando_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -263,15 +263,15 @@ H_Violin_I_Music_Voice = {                                                     %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        e'16 * 73/16                                                           %! accelerando_rhythm
+        e'16 * 73/16                                                           %! akasha.accelerando_rhythm
 
-        d'16 * 73/32                                                           %! accelerando_rhythm
+        d'16 * 73/32                                                           %! akasha.accelerando_rhythm
 
-        \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
-        e'16 * 59/32                                                           %! accelerando_rhythm
-        ]                                                                      %! accelerando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.accelerando_rhythm
+        e'16 * 59/32                                                           %! akasha.accelerando_rhythm
+        ]                                                                      %! akasha.accelerando_rhythm
 
-    }                                                                          %! accelerando_rhythm
+    }                                                                          %! akasha.accelerando_rhythm
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -315,27 +315,27 @@ H_Violin_I_Music_Voice = {                                                     %
                     }
                 }
         }
-    \times 1/1 {                                                               %! accelerando_rhythm
+    \times 1/1 {                                                               %! akasha.accelerando_rhythm
 
         % [H Violin_I_Music_Voice measure 218 / measure 2]                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
-        d'16 * 113/64                                                          %! accelerando_rhythm
-        [                                                                      %! accelerando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.accelerando_rhythm
+        d'16 * 113/64                                                          %! akasha.accelerando_rhythm
+        [                                                                      %! akasha.accelerando_rhythm
 
-        e'16 * 121/64                                                          %! accelerando_rhythm
+        e'16 * 121/64                                                          %! akasha.accelerando_rhythm
 
-        d'16 * 147/64                                                          %! accelerando_rhythm
+        d'16 * 147/64                                                          %! akasha.accelerando_rhythm
 
-        e'16 * 25/8                                                            %! accelerando_rhythm
+        e'16 * 25/8                                                            %! akasha.accelerando_rhythm
 
-        d'16 * 145/32                                                          %! accelerando_rhythm
+        d'16 * 145/32                                                          %! akasha.accelerando_rhythm
 
-        \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
-        e'16 * 409/64                                                          %! accelerando_rhythm
-        ]                                                                      %! accelerando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.accelerando_rhythm
+        e'16 * 409/64                                                          %! akasha.accelerando_rhythm
+        ]                                                                      %! akasha.accelerando_rhythm
 
-    }                                                                          %! accelerando_rhythm
+    }                                                                          %! akasha.accelerando_rhythm
     \revert TupletNumber.text
 
     % [H Violin_I_Music_Voice measure 219 / measure 3]                         %! _comment_measure_numbers
@@ -451,7 +451,7 @@ H_Violin_II_Music_Voice = {                                                    %
                     }
                 }
         }
-    \times 1/1 {                                                               %! ritardando_rhythm
+    \times 1/1 {                                                               %! akasha.ritardando_rhythm
 
         % [H Violin_II_Music_Voice measure 217 / measure 1]                    %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -471,19 +471,19 @@ H_Violin_II_Music_Voice = {                                                    %
             }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Beam.grow-direction = #left
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.ritardando_rhythm
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        cs'!16 * 109/64                                                        %! ritardando_rhythm
+        cs'!16 * 109/64                                                        %! akasha.ritardando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup { XFB }                                                      %! baca_markup:IndicatorCommand
-        [                                                                      %! ritardando_rhythm
+        [                                                                      %! akasha.ritardando_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -493,17 +493,17 @@ H_Violin_II_Music_Voice = {                                                    %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        ds'!16 * 61/32                                                         %! ritardando_rhythm
+        ds'!16 * 61/32                                                         %! akasha.ritardando_rhythm
 
-        cs'!16 * 163/64                                                        %! ritardando_rhythm
+        cs'!16 * 163/64                                                        %! akasha.ritardando_rhythm
 
-        ds'!16 * 31/8                                                          %! ritardando_rhythm
+        ds'!16 * 31/8                                                          %! akasha.ritardando_rhythm
 
-        \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
-        cs'!16 * 191/32                                                        %! ritardando_rhythm
-        ]                                                                      %! ritardando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.ritardando_rhythm
+        cs'!16 * 191/32                                                        %! akasha.ritardando_rhythm
+        ]                                                                      %! akasha.ritardando_rhythm
 
-    }                                                                          %! ritardando_rhythm
+    }                                                                          %! akasha.ritardando_rhythm
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -547,25 +547,25 @@ H_Violin_II_Music_Voice = {                                                    %
                     }
                 }
         }
-    \times 1/1 {                                                               %! ritardando_rhythm
+    \times 1/1 {                                                               %! akasha.ritardando_rhythm
 
         % [H Violin_II_Music_Voice measure 218 / measure 2]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
-        ds'!16 * 477/64                                                        %! ritardando_rhythm
-        [                                                                      %! ritardando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.ritardando_rhythm
+        ds'!16 * 477/64                                                        %! akasha.ritardando_rhythm
+        [                                                                      %! akasha.ritardando_rhythm
 
-        cs'!16 * 353/64                                                        %! ritardando_rhythm
+        cs'!16 * 353/64                                                        %! akasha.ritardando_rhythm
 
-        ds'!16 * 97/32                                                         %! ritardando_rhythm
+        ds'!16 * 97/32                                                         %! akasha.ritardando_rhythm
 
-        cs'!16 * 17/8                                                          %! ritardando_rhythm
+        cs'!16 * 17/8                                                          %! akasha.ritardando_rhythm
 
-        \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
-        ds'!16 * 15/8                                                          %! ritardando_rhythm
-        ]                                                                      %! ritardando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.ritardando_rhythm
+        ds'!16 * 15/8                                                          %! akasha.ritardando_rhythm
+        ]                                                                      %! akasha.ritardando_rhythm
 
-    }                                                                          %! ritardando_rhythm
+    }                                                                          %! akasha.ritardando_rhythm
     \revert TupletNumber.text
 
     % [H Violin_II_Music_Voice measure 219 / measure 3]                        %! _comment_measure_numbers
@@ -710,14 +710,14 @@ H_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 8/9 {                                                               %! glissando_rhythm
+    \times 8/9 {                                                               %! akasha.glissando_rhythm
 
         % [H Viola_Music_Voice measure 221 / measure 5]                        %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        ds!1..                                                                 %! glissando_rhythm
+        ds!1..                                                                 %! akasha.glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ^ \markup { tasto }                                                    %! baca_markup:IndicatorCommand
@@ -725,11 +725,11 @@ H_Viola_Music_Voice = {                                                        %
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
-        cqs!8..                                                                %! glissando_rhythm
+        cqs!8..                                                                %! akasha.glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    }                                                                          %! glissando_rhythm
+    }                                                                          %! akasha.glissando_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -832,7 +832,7 @@ H_Cello_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! ritardando_rhythm
+    \times 1/1 {                                                               %! akasha.ritardando_rhythm
 
         % [H Cello_Music_Voice measure 217 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -849,18 +849,18 @@ H_Cello_Music_Voice = {                                                        %
             }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Beam.grow-direction = #left
         \clef "bass"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.ritardando_rhythm
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        c'16 * 119/64                                                          %! ritardando_rhythm
+        c'16 * 119/64                                                          %! akasha.ritardando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“Vc.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Cello”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup { XFB }                                                      %! baca_markup:IndicatorCommand
-        [                                                                      %! ritardando_rhythm
+        [                                                                      %! akasha.ritardando_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -870,27 +870,27 @@ H_Cello_Music_Voice = {                                                        %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        d'16 * 61/32                                                           %! ritardando_rhythm
+        d'16 * 61/32                                                           %! akasha.ritardando_rhythm
 
-        c'16 * 65/32                                                           %! ritardando_rhythm
+        c'16 * 65/32                                                           %! akasha.ritardando_rhythm
 
-        d'16 * 145/64                                                          %! ritardando_rhythm
+        d'16 * 145/64                                                          %! akasha.ritardando_rhythm
 
-        c'16 * 21/8                                                            %! ritardando_rhythm
+        c'16 * 21/8                                                            %! akasha.ritardando_rhythm
 
-        d'16 * 101/32                                                          %! ritardando_rhythm
+        d'16 * 101/32                                                          %! akasha.ritardando_rhythm
 
-        c'16 * 125/32                                                          %! ritardando_rhythm
+        c'16 * 125/32                                                          %! akasha.ritardando_rhythm
 
-        d'16 * 315/64                                                          %! ritardando_rhythm
+        d'16 * 315/64                                                          %! akasha.ritardando_rhythm
 
-        c'16 * 49/8                                                            %! ritardando_rhythm
+        c'16 * 49/8                                                            %! akasha.ritardando_rhythm
 
-        \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
-        d'16 * 461/64                                                          %! ritardando_rhythm
-        ]                                                                      %! ritardando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.ritardando_rhythm
+        d'16 * 461/64                                                          %! akasha.ritardando_rhythm
+        ]                                                                      %! akasha.ritardando_rhythm
 
-    }                                                                          %! ritardando_rhythm
+    }                                                                          %! akasha.ritardando_rhythm
     \revert TupletNumber.text
 
     % [H Cello_Music_Voice measure 219 / measure 3]                            %! _comment_measure_numbers
@@ -919,10 +919,10 @@ H_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 8/9 {                                                               %! glissando_rhythm
+    \times 8/9 {                                                               %! akasha.glissando_rhythm
 
         % [H Cello_Music_Voice measure 221 / measure 5]                        %! _comment_measure_numbers
-        cs,!1..                                                                %! glissando_rhythm
+        cs,!1..                                                                %! akasha.glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ^ \markup { tasto }                                                    %! baca_markup:IndicatorCommand
@@ -930,11 +930,11 @@ H_Cello_Music_Voice = {                                                        %
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
-        bf,,!8..                                                               %! glissando_rhythm
+        bf,,!8..                                                               %! akasha.glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    }                                                                          %! glissando_rhythm
+    }                                                                          %! akasha.glissando_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 

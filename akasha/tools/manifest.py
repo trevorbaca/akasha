@@ -27,7 +27,7 @@ def manifest(these_counts) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             read_talea_once_only=True,
-            tag="manifest",
+            tag="akasha.manifest",
             talea=rmakers.Talea(counts=these_counts, denominator=16),
             tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         ),

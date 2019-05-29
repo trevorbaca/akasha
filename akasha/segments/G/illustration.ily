@@ -374,7 +374,7 @@ G_Global_Skips = {                                                             %
 
 G_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         % [G Violin_I_Music_Voice measure 200 / measure 1]                     %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -412,192 +412,192 @@ G_Violin_I_Music_Voice = {                                                     %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
-        ]                                                                      %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
-    \times 6/10 {                                                              %! dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
+    \times 6/10 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        a'''16                                                                 %! dense_getato_rhythm
-        [                                                                      %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
 
-        a'''16                                                                 %! dense_getato_rhythm
-        ]                                                                      %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [G Violin_I_Music_Voice measure 201 / measure 2]                     %! _comment_measure_numbers
         r16
 
-        bf'''!16                                                               %! dense_getato_rhythm
-        [                                                                      %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
 
-        a'''16                                                                 %! dense_getato_rhythm
-        ]                                                                      %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        af'''!16                                                               %! dense_getato_rhythm
-        [                                                                      %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
 
-        cs''''!16                                                              %! dense_getato_rhythm
-        ]                                                                      %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    c''''16                                                                    %! dense_getato_rhythm
+    c''''16                                                                    %! akasha.dense_getato_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
-    \times 6/10 {                                                              %! dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
+    \times 6/10 {                                                              %! akasha.dense_getato_rhythm
 
         % [G Violin_I_Music_Voice measure 202 / measure 3]                     %! _comment_measure_numbers
         r16
 
-        d''''16                                                                %! dense_getato_rhythm
-        [                                                                      %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
 
-        d''''16                                                                %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
 
-        a'''16                                                                 %! dense_getato_rhythm
-        ]                                                                      %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 12/18 {                                                             %! dense_getato_rhythm
+    \times 12/18 {                                                             %! akasha.dense_getato_rhythm
 
         % [G Violin_I_Music_Voice measure 203 / measure 4]                     %! _comment_measure_numbers
         r16
 
-        b'''16                                                                 %! dense_getato_rhythm
-        [                                                                      %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
 
-        d''''16                                                                %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
 
-        d''''16                                                                %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
 
-        d''''16                                                                %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
 
-        e''''16                                                                %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
 
-        f''''16                                                                %! dense_getato_rhythm
+        f''''16                                                                %! akasha.dense_getato_rhythm
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
 
-        e''''16                                                                %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
     % [G Violin_I_Music_Voice measure 204 / measure 5]                         %! _comment_measure_numbers
     f''2.

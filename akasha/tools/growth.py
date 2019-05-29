@@ -26,7 +26,7 @@ def growth(
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts,
         logical_tie_masks=[silence_mask, sustain_mask],
-        tag="growth",
+        tag="akasha.growth",
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
     )
@@ -43,7 +43,7 @@ def growth(
             )
         ],
         logical_tie_masks=[silence_mask, sustain_mask],
-        tag="growth",
+        tag="akasha.growth",
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
     )
