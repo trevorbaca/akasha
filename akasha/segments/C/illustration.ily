@@ -1151,7 +1151,7 @@ C_Violin_II_Music_Staff = {                                                    %
 
 C_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
-    \times 2/3 {                                                               %! glissando_rhythm
+    \times 2/3 {                                                               %! akasha.glissando_rhythm
 
         % [C Viola_Music_Voice measure 35 / measure 1]                         %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1175,7 +1175,7 @@ C_Viola_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        ds!\breve                                                              %! glissando_rhythm
+        ds!\breve                                                              %! akasha.glissando_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Va.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1190,9 +1190,9 @@ C_Viola_Music_Voice = {                                                        %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        cqs!4                                                                  %! glissando_rhythm
+        cqs!4                                                                  %! akasha.glissando_rhythm
 
-    }                                                                          %! glissando_rhythm
+    }                                                                          %! akasha.glissando_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1215,15 +1215,15 @@ C_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 8/9 {                                                               %! glissando_rhythm
+    \times 8/9 {                                                               %! akasha.glissando_rhythm
 
         % [C Viola_Music_Voice measure 37 / measure 3]                         %! _comment_measure_numbers
-        ds!1                                                                   %! glissando_rhythm
+        ds!1                                                                   %! akasha.glissando_rhythm
         \glissando                                                             %! baca_glissando
 
-        cqs!8                                                                  %! glissando_rhythm
+        cqs!8                                                                  %! akasha.glissando_rhythm
 
-    }                                                                          %! glissando_rhythm
+    }                                                                          %! akasha.glissando_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1246,15 +1246,15 @@ C_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 2/3 {                                                               %! glissando_rhythm
+    \times 2/3 {                                                               %! akasha.glissando_rhythm
 
         % [C Viola_Music_Voice measure 39 / measure 5]                         %! _comment_measure_numbers
-        ds!\breve                                                              %! glissando_rhythm
+        ds!\breve                                                              %! akasha.glissando_rhythm
         \glissando                                                             %! baca_glissando
 
-        cqs!4                                                                  %! glissando_rhythm
+        cqs!4                                                                  %! akasha.glissando_rhythm
 
-    }                                                                          %! glissando_rhythm
+    }                                                                          %! akasha.glissando_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1277,15 +1277,15 @@ C_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 2/3 {                                                               %! glissando_rhythm
+    \times 2/3 {                                                               %! akasha.glissando_rhythm
 
         % [C Viola_Music_Voice measure 41 / measure 7]                         %! _comment_measure_numbers
-        ds!\breve                                                              %! glissando_rhythm
+        ds!\breve                                                              %! akasha.glissando_rhythm
         \glissando                                                             %! baca_glissando
 
-        cqs!4                                                                  %! glissando_rhythm
+        cqs!4                                                                  %! akasha.glissando_rhythm
 
-    }                                                                          %! glissando_rhythm
+    }                                                                          %! akasha.glissando_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1399,14 +1399,14 @@ C_Viola_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [C Viola_Music_Voice measure 57 / measure 23]                            %! _comment_measure_numbers
-    ds'!4                                                                      %! polyphony_rhythm
+    ds'!4                                                                      %! akasha.polyphony_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand
 
-    dtqs'!4.                                                                   %! polyphony_rhythm
+    dtqs'!4.                                                                   %! akasha.polyphony_rhythm
 
-    e'4.                                                                       %! polyphony_rhythm
+    e'4.                                                                       %! akasha.polyphony_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1438,17 +1438,17 @@ C_Viola_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! glissando_rhythm
+    \times 2/3 {                                                               %! akasha.glissando_rhythm
 
         % [C Viola_Music_Voice measure 60 / measure 26]                        %! _comment_measure_numbers
-        ds!\breve                                                              %! glissando_rhythm
+        ds!\breve                                                              %! akasha.glissando_rhythm
         \glissando                                                             %! baca_glissando
 
-        cqs!4                                                                  %! glissando_rhythm
+        cqs!4                                                                  %! akasha.glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    }                                                                          %! glissando_rhythm
+    }                                                                          %! akasha.glissando_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1680,55 +1680,55 @@ C_Cello_Music_Voice = {                                                        %
     % [C Cello_Music_Voice measure 48 / measure 14]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    \times 8/9 {                                                               %! sparse_getato_rhythm
+    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm
 
         % [C Cello_Music_Voice measure 49 / measure 15]                        %! _comment_measure_numbers
-        cs!32                                                                  %! sparse_getato_rhythm
+        cs!32                                                                  %! akasha.sparse_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        c32                                                                    %! sparse_getato_rhythm
+        c32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-        r8..                                                                   %! sparse_getato_rhythm
+        r8..                                                                   %! akasha.sparse_getato_rhythm
 
-    }                                                                          %! sparse_getato_rhythm
+    }                                                                          %! akasha.sparse_getato_rhythm
 
-    \times 8/9 {                                                               %! sparse_getato_rhythm
+    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm
 
-        r32                                                                    %! sparse_getato_rhythm
+        r32                                                                    %! akasha.sparse_getato_rhythm
 
-        cs!32                                                                  %! sparse_getato_rhythm
+        cs!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        d32                                                                    %! sparse_getato_rhythm
+        d32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef!32                                                                  %! sparse_getato_rhythm
+        ef!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs!32                                                                  %! sparse_getato_rhythm
+        cs!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d32                                                                    %! sparse_getato_rhythm
+        d32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs!32                                                                  %! sparse_getato_rhythm
+        cs!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c32                                                                    %! sparse_getato_rhythm
+        c32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf,!32                                                                 %! sparse_getato_rhythm
+        bf,!32                                                                 %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! sparse_getato_rhythm
+    }                                                                          %! akasha.sparse_getato_rhythm
 
     r4
 
@@ -1772,7 +1772,7 @@ C_Cello_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [C Cello_Music_Voice measure 57 / measure 23]                            %! _comment_measure_numbers
-    c'1                                                                        %! polyphony_rhythm
+    c'1                                                                        %! akasha.polyphony_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand

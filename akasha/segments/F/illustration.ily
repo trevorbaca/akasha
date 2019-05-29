@@ -1020,171 +1020,171 @@ F_Violin_I_Music_Voice = {                                                     %
     % [F Violin_I_Music_Voice measure 153 / measure 2]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    \times 4/7 {                                                               %! dense_getato_rhythm
+    \times 4/7 {                                                               %! akasha.dense_getato_rhythm
 
         % [F Violin_I_Music_Voice measure 154 / measure 3]                     %! _comment_measure_numbers
         r16
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        e'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    d'''16                                                                     %! dense_getato_rhythm
+    d'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    ef'''!16                                                                   %! dense_getato_rhythm
+    ef'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    e'''16                                                                     %! dense_getato_rhythm
+    e'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+    ]                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/5 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/5 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/7 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/7 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     % [F Violin_I_Music_Voice measure 155 / measure 4]                         %! _comment_measure_numbers
     r16
 
-    e'''16                                                                     %! dense_getato_rhythm
+    e'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    ef'''!16                                                                   %! dense_getato_rhythm
+    ef'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    f'''16                                                                     %! dense_getato_rhythm
+    f'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+    ]                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/5 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/5 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        g'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1252,24 +1252,24 @@ F_Violin_I_Music_Voice = {                                                     %
                     }
                 }
         }
-    \times 1/1 {                                                               %! accelerando_rhythm
+    \times 1/1 {                                                               %! akasha.accelerando_rhythm
 
         % [F Violin_I_Music_Voice measure 159 / measure 8]                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
-        ef''!16 * 227/32                                                       %! accelerando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.accelerando_rhythm
+        ef''!16 * 227/32                                                       %! akasha.accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-pp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                            %! baca_markup:IndicatorCommand
-        [                                                                      %! accelerando_rhythm
+        [                                                                      %! akasha.accelerando_rhythm
 
         r16 * 199/64
 
-        \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
-        f''16 * 115/64                                                         %! accelerando_rhythm
-        ]                                                                      %! accelerando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.accelerando_rhythm
+        f''16 * 115/64                                                         %! akasha.accelerando_rhythm
+        ]                                                                      %! akasha.accelerando_rhythm
 
-    }                                                                          %! accelerando_rhythm
+    }                                                                          %! akasha.accelerando_rhythm
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -1311,25 +1311,25 @@ F_Violin_I_Music_Voice = {                                                     %
                     }
                 }
         }
-    \times 1/1 {                                                               %! accelerando_rhythm
+    \times 1/1 {                                                               %! akasha.accelerando_rhythm
 
         % [F Violin_I_Music_Voice measure 160 / measure 9]                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75                             %! accelerando_rhythm
-        ef''!16 * 109/64                                                       %! accelerando_rhythm
-        [                                                                      %! accelerando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.accelerando_rhythm
+        ef''!16 * 109/64                                                       %! akasha.accelerando_rhythm
+        [                                                                      %! akasha.accelerando_rhythm
 
-        f''16 * 61/32                                                          %! accelerando_rhythm
+        f''16 * 61/32                                                          %! akasha.accelerando_rhythm
 
-        ef''!16 * 163/64                                                       %! accelerando_rhythm
+        ef''!16 * 163/64                                                       %! akasha.accelerando_rhythm
 
         r16 * 31/8
 
-        \revert Staff.Stem.stemlet-length                                      %! accelerando_rhythm
-        f''16 * 191/32                                                         %! accelerando_rhythm
-        ]                                                                      %! accelerando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.accelerando_rhythm
+        f''16 * 191/32                                                         %! akasha.accelerando_rhythm
+        ]                                                                      %! akasha.accelerando_rhythm
 
-    }                                                                          %! accelerando_rhythm
+    }                                                                          %! akasha.accelerando_rhythm
     \revert TupletNumber.text
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1353,120 +1353,120 @@ F_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         % [F Violin_I_Music_Voice measure 162 / measure 11]                    %! _comment_measure_numbers
-        ef''!4                                                                 %! growth
+        ef''!4                                                                 %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        ef''!16                                                                %! growth
+        ef''!16                                                                %! akasha.growth
         \repeatTie
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        ef''!4                                                                 %! growth
+        ef''!4                                                                 %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
 
         r16
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         r8.
 
-        f''8                                                                   %! growth
+        f''8                                                                   %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        f''4                                                                   %! growth
+        f''4                                                                   %! akasha.growth
         \repeatTie
 
-        f''16                                                                  %! growth
+        f''16                                                                  %! akasha.growth
         \repeatTie
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        f''16                                                                  %! growth
+        f''16                                                                  %! akasha.growth
         \repeatTie
 
-        ef''!4                                                                 %! growth
+        ef''!4                                                                 %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         % [F Violin_I_Music_Voice measure 163 / measure 12]                    %! _comment_measure_numbers
-        ef''!8.                                                                %! growth
+        ef''!8.                                                                %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
 
         r8
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         r4
 
         r16
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         r8
 
         r8.
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         r16
 
-        f''4                                                                   %! growth
+        f''4                                                                   %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        f''4                                                                   %! growth
+        f''4                                                                   %! akasha.growth
         \repeatTie
 
-        ef''!16                                                                %! growth
+        ef''!16                                                                %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        ef''!4                                                                 %! growth
+        ef''!4                                                                 %! akasha.growth
         \repeatTie
 
-        ef''!16                                                                %! growth
+        ef''!16                                                                %! akasha.growth
         \repeatTie
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1507,152 +1507,152 @@ F_Violin_I_Music_Voice = {                                                     %
                     }
                 }
         }
-    \times 1/1 {                                                               %! growth
+    \times 1/1 {                                                               %! akasha.growth
 
         % [F Violin_I_Music_Voice measure 164 / measure 13]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
-        f''16 * 241/32                                                         %! growth
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.growth
+        f''16 * 241/32                                                         %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        [                                                                      %! growth
+        [                                                                      %! akasha.growth
 
         r16 * 49/8
 
-        ef''!16 * 243/64                                                       %! growth
+        ef''!16 * 243/64                                                       %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        f''16 * 165/64                                                         %! growth
+        f''16 * 165/64                                                         %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         r16 * 33/16
 
-        \revert Staff.Stem.stemlet-length                                      %! growth
-        ef''!16 * 61/32                                                        %! growth
+        \revert Staff.Stem.stemlet-length                                      %! akasha.growth
+        ef''!16 * 61/32                                                        %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! growth
+        ]                                                                      %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
     \revert TupletNumber.text
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         % [F Violin_I_Music_Voice measure 165 / measure 14]                    %! _comment_measure_numbers
-        fs''!4                                                                 %! growth
+        fs''!4                                                                 %! akasha.growth
 
-        fs''!16                                                                %! growth
+        fs''!16                                                                %! akasha.growth
         \repeatTie
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        fs''!4                                                                 %! growth
+        fs''!4                                                                 %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
 
         r16
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         r8.
 
-        ef''!8                                                                 %! growth
+        ef''!8                                                                 %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        ef''!4                                                                 %! growth
+        ef''!4                                                                 %! akasha.growth
         \repeatTie
 
-        ef''!16                                                                %! growth
+        ef''!16                                                                %! akasha.growth
         \repeatTie
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         % [F Violin_I_Music_Voice measure 166 / measure 15]                    %! _comment_measure_numbers
-        ef''!16                                                                %! growth
+        ef''!16                                                                %! akasha.growth
         \repeatTie
 
-        fs''!4                                                                 %! growth
+        fs''!4                                                                 %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        fs''!8.                                                                %! growth
+        fs''!8.                                                                %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
 
         r8
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         r4
 
         r16
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         r8
 
         r8.
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         % [F Violin_I_Music_Voice measure 167 / measure 16]                    %! _comment_measure_numbers
         r16
 
-        ef''!4                                                                 %! growth
+        ef''!4                                                                 %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        ef''!4                                                                 %! growth
+        ef''!4                                                                 %! akasha.growth
         \repeatTie
 
-        fs''!16                                                                %! growth
+        fs''!16                                                                %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        fs''!4                                                                 %! growth
+        fs''!4                                                                 %! akasha.growth
         \repeatTie
 
-        fs''!16                                                                %! growth
+        fs''!16                                                                %! akasha.growth
         \repeatTie
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1695,24 +1695,24 @@ F_Violin_I_Music_Voice = {                                                     %
                     }
                 }
         }
-    \times 1/1 {                                                               %! growth
+    \times 1/1 {                                                               %! akasha.growth
 
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
-        e''16 * 31/4                                                           %! growth
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.growth
+        e''16 * 31/4                                                           %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        [                                                                      %! growth
+        [                                                                      %! akasha.growth
 
         r16 * 233/32
 
-        fs''!16 * 393/64                                                       %! growth
+        fs''!16 * 393/64                                                       %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        e''16 * 39/8                                                           %! growth
+        e''16 * 39/8                                                           %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -1720,93 +1720,93 @@ F_Violin_I_Music_Voice = {                                                     %
 
         r16 * 25/8
 
-        fs''!16 * 169/64                                                       %! growth
+        fs''!16 * 169/64                                                       %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        e''16 * 37/16                                                          %! growth
+        e''16 * 37/16                                                          %! akasha.growth
 
-        fs''!16 * 135/64                                                       %! growth
+        fs''!16 * 135/64                                                       %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         r16 * 127/64
 
-        \revert Staff.Stem.stemlet-length                                      %! growth
-        e''16 * 31/16                                                          %! growth
+        \revert Staff.Stem.stemlet-length                                      %! akasha.growth
+        e''16 * 31/16                                                          %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! growth
+        ]                                                                      %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
     \revert TupletNumber.text
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        fs''!4                                                                 %! growth
+        fs''!4                                                                 %! akasha.growth
 
-        fs''!16                                                                %! growth
+        fs''!16                                                                %! akasha.growth
         \repeatTie
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        fs''!4                                                                 %! growth
+        fs''!4                                                                 %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
 
         r16
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         r8.
 
-        e''8                                                                   %! growth
+        e''8                                                                   %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
         % [F Violin_I_Music_Voice measure 170 / measure 19]                    %! _comment_measure_numbers
-        e''4                                                                   %! growth
+        e''4                                                                   %! akasha.growth
         \repeatTie
 
-        e''16                                                                  %! growth
+        e''16                                                                  %! akasha.growth
         \repeatTie
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        e''16                                                                  %! growth
+        e''16                                                                  %! akasha.growth
         \repeatTie
 
-        g''4                                                                   %! growth
+        g''4                                                                   %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! growth
+    \times 4/5 {                                                               %! akasha.growth
 
-        g''8.                                                                  %! growth
+        g''8.                                                                  %! akasha.growth
         \repeatTie
-        [                                                                      %! growth
+        [                                                                      %! akasha.growth
 
-        e''8                                                                   %! growth
-        ]                                                                      %! growth
+        e''8                                                                   %! akasha.growth
+        ]                                                                      %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1849,25 +1849,25 @@ F_Violin_I_Music_Voice = {                                                     %
                     }
                 }
         }
-    \times 1/1 {                                                               %! growth
+    \times 1/1 {                                                               %! akasha.growth
 
         % [F Violin_I_Music_Voice measure 171 / measure 20]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
-        g''16 * 31/4                                                           %! growth
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.growth
+        g''16 * 31/4                                                           %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        [                                                                      %! growth
+        [                                                                      %! akasha.growth
 
         r16 * 233/32
 
-        e''16 * 393/64                                                         %! growth
+        e''16 * 393/64                                                         %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        g''16 * 39/8                                                           %! growth
+        g''16 * 39/8                                                           %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -1875,27 +1875,27 @@ F_Violin_I_Music_Voice = {                                                     %
 
         r16 * 25/8
 
-        f''16 * 169/64                                                         %! growth
+        f''16 * 169/64                                                         %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        g''16 * 37/16                                                          %! growth
+        g''16 * 37/16                                                          %! akasha.growth
 
-        f''16 * 135/64                                                         %! growth
+        f''16 * 135/64                                                         %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         r16 * 127/64
 
-        \revert Staff.Stem.stemlet-length                                      %! growth
-        g''16 * 31/16                                                          %! growth
+        \revert Staff.Stem.stemlet-length                                      %! akasha.growth
+        g''16 * 31/16                                                          %! akasha.growth
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! growth
+        ]                                                                      %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
     \revert TupletNumber.text
 
     % [F Violin_I_Music_Voice measure 174 / measure 23]                        %! _comment_measure_numbers
@@ -1987,484 +1987,484 @@ F_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Violin_I_Music_Voice measure 187 / measure 36]                    %! _comment_measure_numbers
         r16
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "pos. ord." }                                              %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        af'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        a'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [F Violin_I_Music_Voice measure 188 / measure 37]                    %! _comment_measure_numbers
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        g'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        a'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        c''''16                                                                %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        af'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [F Violin_I_Music_Voice measure 190 / measure 39]                    %! _comment_measure_numbers
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        cs''''!16                                                              %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/7 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/7 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Violin_I_Music_Voice measure 191 / measure 40]                    %! _comment_measure_numbers
         r16
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        cs''''!16                                                              %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e''''16                                                                %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f''''16                                                                %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        f''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    c''''16                                                                    %! dense_getato_rhythm
+    c''''16                                                                    %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    b'''16                                                                     %! dense_getato_rhythm
+    b'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    cs''''!16                                                                  %! dense_getato_rhythm
+    cs''''!16                                                                  %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+    ]                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        cs''''!16                                                              %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        d''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e''''16                                                                %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f''''16                                                                %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e''''16                                                                %! dense_getato_rhythm
+        f''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs''''!16                                                              %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g''''16                                                                %! dense_getato_rhythm
+        fs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        g''''16                                                                %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Violin_I_Music_Voice measure 192 / measure 41]                    %! _comment_measure_numbers
         r16
 
-        f''''16                                                                %! dense_getato_rhythm
+        f''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        fs''''!16                                                              %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        ef''''!16                                                              %! dense_getato_rhythm
+        fs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        e''''16                                                                %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        fs''''!16                                                              %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        f''''16                                                                %! dense_getato_rhythm
+        fs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e''''16                                                                %! dense_getato_rhythm
+        f''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    f''''16                                                                    %! dense_getato_rhythm
+    f''''16                                                                    %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    fs''''!16                                                                  %! dense_getato_rhythm
+    fs''''!16                                                                  %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    g''''16                                                                    %! dense_getato_rhythm
+    g''''16                                                                    %! akasha.dense_getato_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+    ]                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2493,122 +2493,122 @@ F_Violin_I_Music_Voice = {                                                     %
     % [F Violin_I_Music_Voice measure 195 / measure 44]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    \times 12/18 {                                                             %! dense_getato_rhythm
+    \times 12/18 {                                                             %! akasha.dense_getato_rhythm
 
         % [F Violin_I_Music_Voice measure 196 / measure 45]                    %! _comment_measure_numbers
         r16
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
-    \times 12/16 {                                                             %! dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
+    \times 12/16 {                                                             %! akasha.dense_getato_rhythm
 
         r16
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        a'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2733,176 +2733,176 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 153 / measure 2]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [F Violin_II_Music_Voice measure 154 / measure 3]                    %! _comment_measure_numbers
         r16
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        cs'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        c'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        b''16                                                                  %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        c'''16                                                                 %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/5 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/5 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        ef'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        f'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        d'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [F Violin_II_Music_Voice measure 155 / measure 4]                    %! _comment_measure_numbers
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        e'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2970,26 +2970,26 @@ F_Violin_II_Music_Voice = {                                                    %
                     }
                 }
         }
-    \times 1/1 {                                                               %! ritardando_rhythm
+    \times 1/1 {                                                               %! akasha.ritardando_rhythm
 
         % [F Violin_II_Music_Voice measure 159 / measure 8]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
-        b'16 * 13/8                                                            %! ritardando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.ritardando_rhythm
+        b'16 * 13/8                                                            %! akasha.ritardando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-pp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                            %! baca_markup:IndicatorCommand
-        [                                                                      %! ritardando_rhythm
+        [                                                                      %! akasha.ritardando_rhythm
 
-        cs''!16 * 125/64                                                       %! ritardando_rhythm
+        cs''!16 * 125/64                                                       %! akasha.ritardando_rhythm
 
         r16 * 49/16
 
-        \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
-        b'16 * 343/64                                                          %! ritardando_rhythm
-        ]                                                                      %! ritardando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.ritardando_rhythm
+        b'16 * 343/64                                                          %! akasha.ritardando_rhythm
+        ]                                                                      %! akasha.ritardando_rhythm
 
-    }                                                                          %! ritardando_rhythm
+    }                                                                          %! akasha.ritardando_rhythm
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3031,23 +3031,23 @@ F_Violin_II_Music_Voice = {                                                    %
                     }
                 }
         }
-    \times 1/1 {                                                               %! ritardando_rhythm
+    \times 1/1 {                                                               %! akasha.ritardando_rhythm
 
         % [F Violin_II_Music_Voice measure 160 / measure 9]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! ritardando_rhythm
-        cs''!16 * 117/16                                                       %! ritardando_rhythm
-        [                                                                      %! ritardando_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.ritardando_rhythm
+        cs''!16 * 117/16                                                       %! akasha.ritardando_rhythm
+        [                                                                      %! akasha.ritardando_rhythm
 
         r16 * 73/16
 
-        b'16 * 73/32                                                           %! ritardando_rhythm
+        b'16 * 73/32                                                           %! akasha.ritardando_rhythm
 
-        \revert Staff.Stem.stemlet-length                                      %! ritardando_rhythm
-        cs''!16 * 59/32                                                        %! ritardando_rhythm
-        ]                                                                      %! ritardando_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! akasha.ritardando_rhythm
+        cs''!16 * 59/32                                                        %! akasha.ritardando_rhythm
+        ]                                                                      %! akasha.ritardando_rhythm
 
-    }                                                                          %! ritardando_rhythm
+    }                                                                          %! akasha.ritardando_rhythm
     \revert TupletNumber.text
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3072,23 +3072,23 @@ F_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [F Violin_II_Music_Voice measure 162 / measure 11]                       %! _comment_measure_numbers
-    b'4                                                                        %! growth
+    b'4                                                                        %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    b'4                                                                        %! growth
+    b'4                                                                        %! akasha.growth
     \repeatTie
 
-    b'16                                                                       %! growth
+    b'16                                                                       %! akasha.growth
     \repeatTie
-    [                                                                          %! growth
+    [                                                                          %! akasha.growth
 
-    cs''!8.                                                                    %! growth
-    ]                                                                          %! growth
+    cs''!8.                                                                    %! akasha.growth
+    ]                                                                          %! akasha.growth
 
-    cs''!16                                                                    %! growth
+    cs''!16                                                                    %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
@@ -3100,7 +3100,7 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 163 / measure 12]                       %! _comment_measure_numbers
     r16
 
-    b'8.                                                                       %! growth
+    b'8.                                                                       %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3145,49 +3145,49 @@ F_Violin_II_Music_Voice = {                                                    %
                     }
                 }
         }
-    \times 1/1 {                                                               %! growth
+    \times 1/1 {                                                               %! akasha.growth
 
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
-        cs''!16 * 241/32                                                       %! growth
-        [                                                                      %! growth
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.growth
+        cs''!16 * 241/32                                                       %! akasha.growth
+        [                                                                      %! akasha.growth
 
-        b'16 * 49/8                                                            %! growth
+        b'16 * 49/8                                                            %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         r16 * 243/64
 
-        cs''!16 * 165/64                                                       %! growth
+        cs''!16 * 165/64                                                       %! akasha.growth
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         r16 * 33/16
 
-        \revert Staff.Stem.stemlet-length                                      %! growth
-        b'16 * 61/32                                                           %! growth
+        \revert Staff.Stem.stemlet-length                                      %! akasha.growth
+        b'16 * 61/32                                                           %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! growth
+        ]                                                                      %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
     \revert TupletNumber.text
 
-    cs''!4                                                                     %! growth
+    cs''!4                                                                     %! akasha.growth
 
-    cs''!4                                                                     %! growth
+    cs''!4                                                                     %! akasha.growth
     \repeatTie
 
-    cs''!16                                                                    %! growth
+    cs''!16                                                                    %! akasha.growth
     \repeatTie
-    [                                                                          %! growth
+    [                                                                          %! akasha.growth
 
-    b'8.                                                                       %! growth
-    ]                                                                          %! growth
+    b'8.                                                                       %! akasha.growth
+    ]                                                                          %! akasha.growth
 
-    b'16                                                                       %! growth
+    b'16                                                                       %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
@@ -3199,13 +3199,13 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 165 / measure 14]                       %! _comment_measure_numbers
     r16
 
-    d''8.                                                                      %! growth
+    d''8.                                                                      %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    d''4                                                                       %! growth
+    d''4                                                                       %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
@@ -3217,13 +3217,13 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 166 / measure 15]                       %! _comment_measure_numbers
     r16
 
-    b'8.                                                                       %! growth
+    b'8.                                                                       %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    b'16                                                                       %! growth
+    b'16                                                                       %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
@@ -3234,7 +3234,7 @@ F_Violin_II_Music_Voice = {                                                    %
 
     r16
 
-    d''8.                                                                      %! growth
+    d''8.                                                                      %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3279,39 +3279,39 @@ F_Violin_II_Music_Voice = {                                                    %
                     }
                 }
         }
-    \times 1/1 {                                                               %! growth
+    \times 1/1 {                                                               %! akasha.growth
 
         % [F Violin_II_Music_Voice measure 167 / measure 16]                   %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
-        b'16 * 497/64                                                          %! growth
-        [                                                                      %! growth
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.growth
+        b'16 * 497/64                                                          %! akasha.growth
+        [                                                                      %! akasha.growth
 
-        d''16 * 59/8                                                           %! growth
+        d''16 * 59/8                                                           %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         r16 * 51/8
 
-        c''16 * 333/64                                                         %! growth
+        c''16 * 333/64                                                         %! akasha.growth
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         r16 * 67/16
 
-        d''16 * 219/64                                                         %! growth
+        d''16 * 219/64                                                         %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         r16 * 185/64
 
-        c''16 * 5/2                                                            %! growth
+        c''16 * 5/2                                                            %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        d''16 * 9/4                                                            %! growth
+        d''16 * 9/4                                                            %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -3319,31 +3319,31 @@ F_Violin_II_Music_Voice = {                                                    %
 
         r16 * 127/64
 
-        \revert Staff.Stem.stemlet-length                                      %! growth
-        c''16 * 63/32                                                          %! growth
+        \revert Staff.Stem.stemlet-length                                      %! akasha.growth
+        c''16 * 63/32                                                          %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! growth
+        ]                                                                      %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
     \revert TupletNumber.text
 
     % [F Violin_II_Music_Voice measure 169 / measure 18]                       %! _comment_measure_numbers
-    d''4                                                                       %! growth
+    d''4                                                                       %! akasha.growth
 
-    d''4                                                                       %! growth
+    d''4                                                                       %! akasha.growth
     \repeatTie
 
-    d''16                                                                      %! growth
+    d''16                                                                      %! akasha.growth
     \repeatTie
-    [                                                                          %! growth
+    [                                                                          %! akasha.growth
 
-    c''8.                                                                      %! growth
-    ]                                                                          %! growth
+    c''8.                                                                      %! akasha.growth
+    ]                                                                          %! akasha.growth
 
-    c''16                                                                      %! growth
+    c''16                                                                      %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
@@ -3355,13 +3355,13 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 170 / measure 19]                       %! _comment_measure_numbers
     r16
 
-    d''8.                                                                      %! growth
+    d''8.                                                                      %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    d''4                                                                       %! growth
+    d''4                                                                       %! akasha.growth
     \repeatTie
 
     \override TupletNumber.text = \markup {
@@ -3403,38 +3403,38 @@ F_Violin_II_Music_Voice = {                                                    %
                     }
                 }
         }
-    \times 1/1 {                                                               %! growth
+    \times 1/1 {                                                               %! akasha.growth
 
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! growth
-        c''16 * 497/64                                                         %! growth
-        [                                                                      %! growth
+        \override Staff.Stem.stemlet-length = 0.75                             %! akasha.growth
+        c''16 * 497/64                                                         %! akasha.growth
+        [                                                                      %! akasha.growth
 
-        ef''!16 * 59/8                                                         %! growth
+        ef''!16 * 59/8                                                         %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         r16 * 51/8
 
-        c''16 * 333/64                                                         %! growth
+        c''16 * 333/64                                                         %! akasha.growth
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         r16 * 67/16
 
-        ef''!16 * 219/64                                                       %! growth
+        ef''!16 * 219/64                                                       %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         r16 * 185/64
 
-        c''16 * 5/2                                                            %! growth
+        c''16 * 5/2                                                            %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        ef''!16 * 9/4                                                          %! growth
+        ef''!16 * 9/4                                                          %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -3442,13 +3442,13 @@ F_Violin_II_Music_Voice = {                                                    %
 
         r16 * 127/64
 
-        \revert Staff.Stem.stemlet-length                                      %! growth
-        cs''!16 * 63/32                                                        %! growth
+        \revert Staff.Stem.stemlet-length                                      %! akasha.growth
+        cs''!16 * 63/32                                                        %! akasha.growth
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! growth
+        ]                                                                      %! akasha.growth
 
-    }                                                                          %! growth
+    }                                                                          %! akasha.growth
     \revert TupletNumber.text
 
     % [F Violin_II_Music_Voice measure 174 / measure 23]                       %! _comment_measure_numbers
@@ -3540,489 +3540,489 @@ F_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Violin_II_Music_Voice measure 187 / measure 36]                   %! _comment_measure_numbers
         r16
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "pos. ord." }                                              %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        d'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        e'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Violin_II_Music_Voice measure 188 / measure 37]                   %! _comment_measure_numbers
         r16
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        ef'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        e'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Violin_II_Music_Voice measure 189 / measure 38]                   %! _comment_measure_numbers
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [F Violin_II_Music_Voice measure 190 / measure 39]                   %! _comment_measure_numbers
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/7 {                                                               %! dense_getato_rhythm
+    \times 4/7 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        a'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        bf'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        b'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        af'''!16                                                               %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     % [F Violin_II_Music_Voice measure 191 / measure 40]                       %! _comment_measure_numbers
     r16
 
-    a'''16                                                                     %! dense_getato_rhythm
+    a'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    af'''!16                                                                   %! dense_getato_rhythm
+    af'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    bf'''!16                                                                   %! dense_getato_rhythm
+    bf'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+    ]                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b'''16                                                                 %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [F Violin_II_Music_Voice measure 192 / measure 41]                   %! _comment_measure_numbers
         r16
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        ef''''!16                                                              %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        e''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        c''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        cs''''!16                                                              %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        c''''16                                                                %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        cs''''!16                                                              %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        d''''16                                                                %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef''''!16                                                              %! dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e''''16                                                                %! dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        e''''16                                                                %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4051,114 +4051,114 @@ F_Violin_II_Music_Voice = {                                                    %
     % [F Violin_II_Music_Voice measure 195 / measure 44]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
-    \times 12/16 {                                                             %! dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
+    \times 12/16 {                                                             %! akasha.dense_getato_rhythm
 
         % [F Violin_II_Music_Voice measure 196 / measure 45]                   %! _comment_measure_numbers
         r16
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    fs'''!16                                                                   %! dense_getato_rhythm
+    fs'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    f'''16                                                                     %! dense_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
-
-    g'''16                                                                     %! dense_getato_rhythm
+    f'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    af'''!16                                                                   %! dense_getato_rhythm
+    g'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    fs'''!16                                                                   %! dense_getato_rhythm
+    af'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
 
-    \times 6/9 {                                                               %! dense_getato_rhythm
+    fs'''!16                                                                   %! akasha.dense_getato_rhythm
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    ]                                                                          %! akasha.dense_getato_rhythm
+
+    \times 6/9 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        e'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4335,126 +4335,126 @@ F_Viola_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [F Viola_Music_Voice measure 162 / measure 11]                           %! _comment_measure_numbers
-    gs!2                                                                       %! manifest
+    gs!2                                                                       %! akasha.manifest
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand
 
-    gs!8.                                                                      %! manifest
+    gs!8.                                                                      %! akasha.manifest
     \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a16                                                                        %! manifest
+    a16                                                                        %! akasha.manifest
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a2                                                                         %! manifest
+    a2                                                                         %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 163 / measure 12]                           %! _comment_measure_numbers
-    a8                                                                         %! manifest
+    a8                                                                         %! akasha.manifest
     \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    b8                                                                         %! manifest
+    b8                                                                         %! akasha.manifest
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    b2                                                                         %! manifest
+    b2                                                                         %! akasha.manifest
     \repeatTie
 
-    b2.                                                                        %! manifest
+    b2.                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 164 / measure 13]                           %! _comment_measure_numbers
-    bqf!2                                                                      %! manifest
+    bqf!2                                                                      %! akasha.manifest
 
-    bf!4                                                                       %! manifest
+    bf!4                                                                       %! akasha.manifest
 
-    bf!4..                                                                     %! manifest
+    bf!4..                                                                     %! akasha.manifest
     \repeatTie
 
-    c'16                                                                       %! manifest
+    c'16                                                                       %! akasha.manifest
 
-    c'4                                                                        %! manifest
+    c'4                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 165 / measure 14]                           %! _comment_measure_numbers
-    c'1                                                                        %! manifest
+    c'1                                                                        %! akasha.manifest
     - \tweak direction #up
     \repeatTie
 
     % [F Viola_Music_Voice measure 166 / measure 15]                           %! _comment_measure_numbers
-    c'2                                                                        %! manifest
+    c'2                                                                        %! akasha.manifest
     \repeatTie
 
-    c'16                                                                       %! manifest
+    c'16                                                                       %! akasha.manifest
     \repeatTie
 
-    cs'!4..                                                                    %! manifest
+    cs'!4..                                                                    %! akasha.manifest
 
     % [F Viola_Music_Voice measure 167 / measure 16]                           %! _comment_measure_numbers
-    cs'!1.                                                                     %! manifest
+    cs'!1.                                                                     %! akasha.manifest
     - \tweak direction #up
     \repeatTie
 
     % [F Viola_Music_Voice measure 168 / measure 17]                           %! _comment_measure_numbers
-    cs'!4..                                                                    %! manifest
+    cs'!4..                                                                    %! akasha.manifest
     \repeatTie
 
-    cqs'!16                                                                    %! manifest
+    cqs'!16                                                                    %! akasha.manifest
 
-    cqs'!4                                                                     %! manifest
+    cqs'!4                                                                     %! akasha.manifest
     \repeatTie
 
-    cqs'!2.                                                                    %! manifest
+    cqs'!2.                                                                    %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 169 / measure 18]                           %! _comment_measure_numbers
-    cqs'!2                                                                     %! manifest
+    cqs'!2                                                                     %! akasha.manifest
     \repeatTie
 
-    cqs'!8.                                                                    %! manifest
+    cqs'!8.                                                                    %! akasha.manifest
     \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    d'16                                                                       %! manifest
+    d'16                                                                       %! akasha.manifest
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    d'2                                                                        %! manifest
+    d'2                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 170 / measure 19]                           %! _comment_measure_numbers
-    d'2.                                                                       %! manifest
+    d'2.                                                                       %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 171 / measure 20]                           %! _comment_measure_numbers
-    d'2.                                                                       %! manifest
+    d'2.                                                                       %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 172 / measure 21]                           %! _comment_measure_numbers
-    d'1                                                                        %! manifest
+    d'1                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 173 / measure 22]                           %! _comment_measure_numbers
-    d'1                                                                        %! manifest
+    d'1                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 174 / measure 23]                           %! _comment_measure_numbers
-    d'2.                                                                       %! manifest
+    d'2.                                                                       %! akasha.manifest
     \repeatTie
 
-    d'2                                                                        %! manifest
+    d'2                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 175 / measure 24]                           %! _comment_measure_numbers
-    d'2.                                                                       %! manifest
+    d'2.                                                                       %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 176 / measure 25]                           %! _comment_measure_numbers
-    d'2.                                                                       %! manifest
+    d'2.                                                                       %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 177 / measure 26]                           %! _comment_measure_numbers
-    d'1.                                                                       %! manifest
+    d'1.                                                                       %! akasha.manifest
     \repeatTie
 
     % [F Viola_Music_Voice measure 178 / measure 27]                           %! _comment_measure_numbers
@@ -4525,7 +4525,7 @@ F_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Viola_Music_Voice measure 187 / measure 36]                       %! _comment_measure_numbers
     %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_187:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
@@ -4537,481 +4537,481 @@ F_Viola_Music_Voice = {                                                        %
         r16
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "pos. ord." }                                              %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Viola_Music_Voice measure 188 / measure 37]                       %! _comment_measure_numbers
         r16
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        d'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        e'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        cs'''!16                                                               %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [F Viola_Music_Voice measure 189 / measure 38]                       %! _comment_measure_numbers
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/7 {                                                               %! dense_getato_rhythm
+    \times 4/7 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        cs'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        ef'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [F Viola_Music_Voice measure 190 / measure 39]                       %! _comment_measure_numbers
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    fs'''!16                                                                   %! dense_getato_rhythm
+    fs'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    af'''!16                                                                   %! dense_getato_rhythm
+    af'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    a'''16                                                                     %! dense_getato_rhythm
+    a'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+    ]                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        af'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        f'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Viola_Music_Voice measure 191 / measure 40]                       %! _comment_measure_numbers
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        g'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        af'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        fs'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [F Viola_Music_Voice measure 192 / measure 41]                       %! _comment_measure_numbers
         r16
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c''''16                                                                %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        cs''''!16                                                              %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        a'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        b'''16                                                                 %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        a'''16                                                                 %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''''16                                                                %! dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        c''''16                                                                %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5066,7 +5066,7 @@ F_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 12/15 {                                                             %! dense_getato_rhythm
+    \times 12/15 {                                                             %! akasha.dense_getato_rhythm
 
         % [F Viola_Music_Voice measure 196 / measure 45]                       %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -5075,109 +5075,109 @@ F_Viola_Music_Voice = {                                                        %
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         r16
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    d'''16                                                                     %! dense_getato_rhythm
+    d'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    ef'''!16                                                                   %! dense_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
-
-    d'''16                                                                     %! dense_getato_rhythm
+    ef'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    e'''16                                                                     %! dense_getato_rhythm
+    d'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    f'''16                                                                     %! dense_getato_rhythm
+    e'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! dense_getato_rhythm
-    \times 6/10 {                                                              %! dense_getato_rhythm
+    f'''16                                                                     %! akasha.dense_getato_rhythm
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    ]                                                                          %! akasha.dense_getato_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
+    \times 6/10 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        e'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        cs'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5289,7 +5289,7 @@ F_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    f4..                                                                       %! cello_solo_rhythm
+    f4..                                                                       %! akasha.cello_solo_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -5304,205 +5304,205 @@ F_Cello_Music_Voice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    gf!16                                                                      %! cello_solo_rhythm
+    gf!16                                                                      %! akasha.cello_solo_rhythm
 
-    gqf!4                                                                      %! cello_solo_rhythm
+    gqf!4                                                                      %! akasha.cello_solo_rhythm
 
     % [F Cello_Music_Voice measure 153 / measure 2]                            %! _comment_measure_numbers
-    gqf!4.                                                                     %! cello_solo_rhythm
+    gqf!4.                                                                     %! akasha.cello_solo_rhythm
     \repeatTie
 
-    g8                                                                         %! cello_solo_rhythm
+    g8                                                                         %! akasha.cello_solo_rhythm
 
-    df!4..                                                                     %! cello_solo_rhythm
+    df!4..                                                                     %! akasha.cello_solo_rhythm
 
-    c16                                                                        %! cello_solo_rhythm
+    c16                                                                        %! akasha.cello_solo_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Cello_Music_Voice measure 154 / measure 3]                        %! _comment_measure_numbers
         r16
 
-        a''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca_markup:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf''!16                                                                %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g''16                                                                  %! dense_getato_rhythm
+        g''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/7 {                                                               %! dense_getato_rhythm
+    \times 4/7 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        b''16                                                                  %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        cs'''!16                                                               %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/13 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/13 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        d'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b''16                                                                  %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Cello_Music_Voice measure 155 / measure 4]                        %! _comment_measure_numbers
         r16
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        d'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        cs'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5547,108 +5547,108 @@ F_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-    af,!4..                                                                    %! manifest
+    af,!4..                                                                    %! akasha.manifest
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    g,16                                                                       %! manifest
+    g,16                                                                       %! akasha.manifest
 
-    g,4                                                                        %! manifest
+    g,4                                                                        %! akasha.manifest
     \repeatTie
 
-    g,2                                                                        %! manifest
+    g,2                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 163 / measure 12]                           %! _comment_measure_numbers
-    g,2                                                                        %! manifest
+    g,2                                                                        %! akasha.manifest
     \repeatTie
 
-    g,8                                                                        %! manifest
+    g,8                                                                        %! akasha.manifest
     \repeatTie
 
-    f,2..                                                                      %! manifest
+    f,2..                                                                      %! akasha.manifest
 
     % [F Cello_Music_Voice measure 164 / measure 13]                           %! _comment_measure_numbers
-    f,1.                                                                       %! manifest
+    f,1.                                                                       %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 165 / measure 14]                           %! _comment_measure_numbers
-    f,8.                                                                       %! manifest
+    f,8.                                                                       %! akasha.manifest
     \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    fqs,!16                                                                    %! manifest
+    fqs,!16                                                                    %! akasha.manifest
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    fqs,!2.                                                                    %! manifest
+    fqs,!2.                                                                    %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 166 / measure 15]                           %! _comment_measure_numbers
-    fqs,!16                                                                    %! manifest
+    fqs,!16                                                                    %! akasha.manifest
     \repeatTie
 
-    fs,!2...                                                                   %! manifest
+    fs,!2...                                                                   %! akasha.manifest
 
     % [F Cello_Music_Voice measure 167 / measure 16]                           %! _comment_measure_numbers
-    fs,!2...                                                                   %! manifest
+    fs,!2...                                                                   %! akasha.manifest
     \repeatTie
 
-    e,16                                                                       %! manifest
+    e,16                                                                       %! akasha.manifest
 
-    e,2                                                                        %! manifest
+    e,2                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 168 / measure 17]                           %! _comment_measure_numbers
-    e,1.                                                                       %! manifest
+    e,1.                                                                       %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 169 / measure 18]                           %! _comment_measure_numbers
-    e,2.                                                                       %! manifest
+    e,2.                                                                       %! akasha.manifest
     \repeatTie
 
-    e,2                                                                        %! manifest
+    e,2                                                                        %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 170 / measure 19]                           %! _comment_measure_numbers
-    e,4..                                                                      %! manifest
+    e,4..                                                                      %! akasha.manifest
     \repeatTie
 
-    ef,!16                                                                     %! manifest
+    ef,!16                                                                     %! akasha.manifest
 
-    ef,!4                                                                      %! manifest
+    ef,!4                                                                      %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 171 / measure 20]                           %! _comment_measure_numbers
-    ef,!2.                                                                     %! manifest
+    ef,!2.                                                                     %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 172 / measure 21]                           %! _comment_measure_numbers
-    ef,!1                                                                      %! manifest
+    ef,!1                                                                      %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 173 / measure 22]                           %! _comment_measure_numbers
-    ef,!1                                                                      %! manifest
+    ef,!1                                                                      %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 174 / measure 23]                           %! _comment_measure_numbers
-    ef,!2.                                                                     %! manifest
+    ef,!2.                                                                     %! akasha.manifest
     \repeatTie
 
-    ef,!2                                                                      %! manifest
+    ef,!2                                                                      %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 175 / measure 24]                           %! _comment_measure_numbers
-    ef,!2.                                                                     %! manifest
+    ef,!2.                                                                     %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 176 / measure 25]                           %! _comment_measure_numbers
-    ef,!2.                                                                     %! manifest
+    ef,!2.                                                                     %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 177 / measure 26]                           %! _comment_measure_numbers
-    ef,!1.                                                                     %! manifest
+    ef,!1.                                                                     %! akasha.manifest
     \repeatTie
 
     % [F Cello_Music_Voice measure 178 / measure 27]                           %! _comment_measure_numbers
@@ -5719,7 +5719,7 @@ F_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [F Cello_Music_Voice measure 187 / measure 36]                       %! _comment_measure_numbers
     %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_187:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
@@ -5731,481 +5731,481 @@ F_Cello_Music_Voice = {                                                        %
         r16
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        af''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ^ \markup { "pos. ord." }                                              %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        a''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g''16                                                                  %! dense_getato_rhythm
+        g''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs''!16                                                                %! dense_getato_rhythm
+        fs''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        af''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        g''16                                                                  %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        af''!16                                                                %! dense_getato_rhythm
+        g''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af''!16                                                                %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [F Cello_Music_Voice measure 188 / measure 37]                       %! _comment_measure_numbers
         r16
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        b''16                                                                  %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        cs'''!16                                                               %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        bf''!16                                                                %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af''!16                                                                %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Cello_Music_Voice measure 189 / measure 38]                       %! _comment_measure_numbers
         r16
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        b''16                                                                  %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        bf''!16                                                                %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/7 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/7 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        c'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        b''16                                                                  %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        bf''!16                                                                %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Cello_Music_Voice measure 190 / measure 39]                       %! _comment_measure_numbers
         r16
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        ef'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    d'''16                                                                     %! dense_getato_rhythm
+    d'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    ef'''!16                                                                   %! dense_getato_rhythm
+    ef'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    d'''16                                                                     %! dense_getato_rhythm
+    d'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+    ]                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/14 {                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        c'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        d'''16                                                                 %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [F Cello_Music_Voice measure 191 / measure 40]                       %! _comment_measure_numbers
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        f'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        af'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        ef'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        e'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        ef'''!16                                                               %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        e'''16                                                                 %! dense_getato_rhythm
+        ef'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/12 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [F Cello_Music_Voice measure 192 / measure 41]                       %! _comment_measure_numbers
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf'''!16                                                               %! dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
-    \times 4/6 {                                                               %! dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        g'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        f'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        e'''16                                                                 %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        e'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    \times 8/11 {                                                              %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
+
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         r16
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        f'''16                                                                 %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        fs'''!16                                                               %! dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        g'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        fs'''!16                                                               %! dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af'''!16                                                               %! dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'''16                                                                 %! dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+
+        a'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -6237,94 +6237,94 @@ F_Cello_Music_Voice = {                                                        %
     % [F Cello_Music_Voice measure 196 / measure 45]                           %! _comment_measure_numbers
     r16
 
-    af''!16                                                                    %! dense_getato_rhythm
+    af''!16                                                                    %! akasha.dense_getato_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     ^ \markup { leggieriss. }                                                  %! baca_markup:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    a''16                                                                      %! dense_getato_rhythm
+    a''16                                                                      %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    af''!16                                                                    %! dense_getato_rhythm
+    af''!16                                                                    %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    g''16                                                                      %! dense_getato_rhythm
+    g''16                                                                      %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    fs''!16                                                                    %! dense_getato_rhythm
+    fs''!16                                                                    %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+    ]                                                                          %! akasha.dense_getato_rhythm
 
-    \times 12/15 {                                                             %! dense_getato_rhythm
+    \times 12/15 {                                                             %! akasha.dense_getato_rhythm
 
         r16
 
-        af''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm
 
-        g''16                                                                  %! dense_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        af''!16                                                                %! dense_getato_rhythm
+        g''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        af''!16                                                                %! dense_getato_rhythm
+        a''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        bf''!16                                                                %! dense_getato_rhythm
+        af''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        bf''!16                                                                %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'''16                                                                 %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b''16                                                                  %! dense_getato_rhythm
+        c'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        cs'''!16                                                               %! dense_getato_rhythm
+        b''16                                                                  %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'''16                                                                 %! dense_getato_rhythm
+        cs'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! dense_getato_rhythm
 
-    }                                                                          %! dense_getato_rhythm
+        d'''16                                                                 %! akasha.dense_getato_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! akasha.dense_getato_rhythm
+
+    }                                                                          %! akasha.dense_getato_rhythm
 
     r16
 
-    c'''16                                                                     %! dense_getato_rhythm
+    c'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! dense_getato_rhythm
+    [                                                                          %! akasha.dense_getato_rhythm
 
-    cs'''!16                                                                   %! dense_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
-
-    bf''!16                                                                    %! dense_getato_rhythm
+    cs'''!16                                                                   %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    b''16                                                                      %! dense_getato_rhythm
+    bf''!16                                                                    %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    bf''!16                                                                    %! dense_getato_rhythm
+    b''16                                                                      %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! dense_getato_rhythm
+
+    bf''!16                                                                    %! akasha.dense_getato_rhythm
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    ]                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 

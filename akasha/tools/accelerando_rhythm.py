@@ -37,7 +37,7 @@ def accelerando_rhythm(
                 ),
             ],
             logical_tie_masks=ltmask,
-            tag="accelerando_rhythm",
+            tag="akasha.accelerando_rhythm",
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
         ),
     )
