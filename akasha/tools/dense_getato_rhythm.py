@@ -9,10 +9,10 @@ def dense_getato_rhythm(
     """
     Makes dense getato rhythm.
     """
+    divisions = baca.quarter_split_each(compound=(3, 2))
+    divisions = divisions.fuse(fuse_counts, cyclic=True)
     return baca.rhythm(
-        divisions=baca.fuse_compound_quarter_divisions(
-            fuse_counts, cyclic=True
-        ),
+        divisions=divisions,
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             burnish_specifier=rmakers.BurnishSpecifier(
                 left_classes=[abjad.Rest], left_counts=[1]
