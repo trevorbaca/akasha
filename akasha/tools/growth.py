@@ -16,7 +16,8 @@ def growth(
 
     def divisions(index, accelerando):
         ratio = abjad.Ratio(division_ratio)
-        expression = baca.divisions().quarters_each()
+        expression = baca.divisions().fuse().split([(1, 4)], cyclic=True)
+        expression = expression.flatten(depth=-1)
         expression = expression.partition_by_ratio_of_lengths(ratio)
         expression = expression[index]
         if accelerando:
