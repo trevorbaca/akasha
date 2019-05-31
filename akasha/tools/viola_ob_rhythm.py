@@ -9,9 +9,9 @@ def viola_ob_rhythm(*, rotation=None) -> baca.RhythmCommand:
     """
     durations = baca.sequence([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
     durations = durations.rotate(n=rotation)
-    expression = baca.split_expanse(durations, cyclic=True)
+    divisions = baca.divisions().fuse().split_each(durations, cyclic=True)
     return baca.rhythm(
-        divisions=expression,
+        divisions=divisions,
         rhythm_maker=rmakers.NoteRhythmMaker(
             tag="akasha.viola_ob_rhythm",
             division_masks=rmakers.silence([0, -1]),
