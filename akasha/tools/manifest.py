@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def manifest(these_counts) -> baca.RhythmCommand:
+def manifest(these_counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     """
     Makes manifest rhythm.
     """

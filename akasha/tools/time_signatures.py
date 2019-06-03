@@ -5,7 +5,10 @@ import typing
 
 
 def time_signatures(
-    series, count, rotation, fermata_measures=None
+    series: str,
+    count: int,
+    rotation: int,
+    fermata_measures: abjad.IntegerSequence = None,
 ) -> typing.List[abjad.TimeSignature]:
     """
     Makes time sigantures.

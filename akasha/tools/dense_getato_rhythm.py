@@ -4,7 +4,10 @@ from abjadext import rmakers
 
 
 def dense_getato_rhythm(
-    fuse_counts, extra_counts_per_division, *, dmask=None
+    fuse_counts: abjad.IntegerSequence,
+    extra_counts_per_division: abjad.IntegerSequence,
+    *,
+    dmask: rmakers.MasksTyping = None,
 ) -> baca.RhythmCommand:
     """
     Makes dense getato rhythm.

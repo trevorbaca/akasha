@@ -4,7 +4,10 @@ from abjadext import rmakers
 
 
 def scratch_rhythm(
-    denominators, logical_tie_masks, extra_counts_per_division
+    denominators: abjad.IntegerSequence,
+    *,
+    ltmask: rmakers.MasksTyping,
+    extra_counts: abjad.IntegerSequence,
 ) -> baca.RhythmCommand:
     """
     Makes scratch rhythm.
@@ -12,8 +15,8 @@ def scratch_rhythm(
     return baca.rhythm(
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             denominators=denominators,
-            logical_tie_masks=logical_tie_masks,
-            extra_counts_per_division=extra_counts_per_division,
+            logical_tie_masks=ltmask,
+            extra_counts_per_division=extra_counts,
             tag="akasha.scratch_rhythm",
         )
     )

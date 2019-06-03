@@ -1,10 +1,14 @@
 import abjad
 import baca
+import typing
 from akasha.materials import getato_intervals
 
 
 def getato_pitches(
-    start_pitch, intervals=[0], direction=abjad.Up
+    start_pitch: abjad.PitchTyping,
+    intervals: abjad.IntegerSequence = [0],
+    *,
+    direction: abjad.VerticalAlignment = abjad.Up,
 ) -> baca.PitchCommand:
     """
     Makes getato pitches.

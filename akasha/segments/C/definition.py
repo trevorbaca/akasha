@@ -99,7 +99,7 @@ maker(
     ('vc', 15),
     akasha.sparse_getato_rhythm(
         degree=0,
-        extra_counts_per_division=[1, 1, 0, 2],
+        extra_counts=[1, 1, 0, 2],
         rotation=-12,
         ),
     )

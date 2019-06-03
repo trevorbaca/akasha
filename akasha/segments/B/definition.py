@@ -77,7 +77,7 @@ maker(
             [5, -6, -5, -4, -3, -2, -1],
             inverted=True,
             ),
-        extra_counts_per_division=[1, 1, 0, 2],
+        extra_counts=[1, 1, 0, 2],
         ),
     )
 
@@ -85,7 +85,7 @@ maker(
     ('vc', 6),
     akasha.sparse_getato_rhythm(
         degree=0,
-        extra_counts_per_division=[1, 1, 0, 2],
+        extra_counts=[1, 1, 0, 2],
         rotation=-4,
         ),
     )
@@ -94,7 +94,7 @@ maker(
     ('vc', 8),
     akasha.sparse_getato_rhythm(
         degree=0,
-        extra_counts_per_division=[1, 1, 0, 2],
+        extra_counts=[1, 1, 0, 2],
         rotation=-8,
         ),
     )
