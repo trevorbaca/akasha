@@ -70,8 +70,8 @@ maker(
     ('v2', 3),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([-1]),
-        [-2]
+        ltmask=~rmakers.silence([-1]),
+        extra_counts=[-2]
         ),
     )
 
@@ -84,8 +84,8 @@ maker(
     ('vc', 3),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([1]),
-        [-1],
+        ltmask=~rmakers.silence([1]),
+        extra_counts=[-1],
         ),
     )
 
@@ -93,8 +93,8 @@ maker(
     ('v1', 5),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([0]),
-        [-2],
+        ltmask=~rmakers.silence([0]),
+        extra_counts=[-2],
         ),
     )
 
@@ -102,8 +102,8 @@ maker(
     ('v2', 5),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([2]),
-        [-1],
+        ltmask=~rmakers.silence([2]),
+        extra_counts=[-1],
         ),
     )
 
@@ -116,8 +116,8 @@ maker(
     ('v1', 7),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([0]),
-        [-2],
+        ltmask=~rmakers.silence([0]),
+        extra_counts=[-2],
         ),
     )
 
@@ -125,8 +125,8 @@ maker(
     ('v2', 7),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([-1]),
-        [1],
+        ltmask=~rmakers.silence([-1]),
+        extra_counts=[1],
         ),
     )
 
@@ -139,8 +139,8 @@ maker(
     ('vc', 7),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([1]),
-        [-1],
+        ltmask=~rmakers.silence([1]),
+        extra_counts=[-1],
         ),
     )
 
@@ -153,8 +153,8 @@ maker(
     ('v1', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([1, -3]),
-        [1],
+        ltmask=~rmakers.silence([1, -3]),
+        extra_counts=[1],
         ),
     )
 
@@ -162,8 +162,8 @@ maker(
     ('v2', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([2, -1]),
-        [0],
+        ltmask=~rmakers.silence([2, -1]),
+        extra_counts=[0],
         ),
     )
 
@@ -171,8 +171,8 @@ maker(
     ('vc', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        ~rmakers.silence([2, -2]),
-        [2],
+        ltmask=~rmakers.silence([2, -2]),
+        extra_counts=[2],
         ),
     )
 
@@ -180,8 +180,8 @@ maker(
     ('v1', (11, 22)),
     akasha.scratch_rhythm(
         [8],
-        ~rmakers.silence([0, 3], 8),
-        [1],
+        ltmask=~rmakers.silence([0, 3], 8),
+        extra_counts=[1],
         ),
     )
 
@@ -200,8 +200,8 @@ maker(
     ('v2', (11, 20)),
     akasha.scratch_rhythm(
         [8],
-        ~rmakers.silence([1, 4], 9),
-        [-1],
+        ltmask=~rmakers.silence([1, 4], 9),
+        extra_counts=[-1],
         ),
     )
 
@@ -227,8 +227,8 @@ maker(
     ('vc', (11, 18)),
     akasha.scratch_rhythm(
         [8],
-        ~rmakers.silence([2, 5], 9),
-        [2],
+        ltmask=~rmakers.silence([2, 5], 9),
+        extra_counts=[2],
         ),
     )
 

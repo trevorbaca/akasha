@@ -6,7 +6,11 @@ from .perforated_counts import perforated_counts
 
 
 def sparse_getato_rhythm(
-    *, degree=1, dmask=None, extra_counts_per_division=[1], rotation=None
+    *,
+    degree: int = 1,
+    dmask: rmakers.MasksTyping = None,
+    extra_counts: abjad.IntegerSequence = [1],
+    rotation: int = None,
 ) -> baca.RhythmCommand:
     """
     Makes sparse getato rhythm.
@@ -16,7 +20,7 @@ def sparse_getato_rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=dmask,
-            extra_counts_per_division=extra_counts_per_division,
+            extra_counts_per_division=extra_counts,
             tag="akasha.sparse_getato_rhythm",
             talea=rmakers.Talea(
                 counts=perforated_counts(degree=degree, rotation=rotation),

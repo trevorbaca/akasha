@@ -4,7 +4,10 @@ from akasha.materials import getato_intervals
 
 
 def harmonic_glissando_pitches(
-    start_pitch, direction=abjad.Up, rotation=None
+    start_pitch: abjad.PitchTyping,
+    *,
+    direction: abjad.VerticalAlignment = abjad.Up,
+    rotation: int = None,
 ) -> baca.PitchCommand:
     """
     Makes harmonic glissando pitches.

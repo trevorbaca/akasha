@@ -4,7 +4,11 @@ from abjadext import rmakers
 
 
 def accelerando_rhythm(
-    *, divisions=None, dmask=None, fuse_counts=(1, 2), ltmask=None
+    *,
+    divisions: abjad.Expression = None,
+    dmask: rmakers.MasksTyping = None,
+    fuse_counts: abjad.IntegerSequence = (1, 2),
+    ltmask: rmakers.MasksTyping = None,
 ) -> baca.RhythmCommand:
     """
     Makes accelerando rhythm.
@@ -26,14 +30,14 @@ def accelerando_rhythm(
             division_masks=dmask,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 2),
-                    stop_duration=abjad.Duration(1, 8),
-                    written_duration=abjad.Duration(1, 16),
+                    start_duration=(1, 2),
+                    stop_duration=(1, 8),
+                    written_duration=(1, 16),
                 ),
                 rmakers.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 8),
-                    stop_duration=abjad.Duration(1, 2),
-                    written_duration=abjad.Duration(1, 16),
+                    start_duration=(1, 8),
+                    stop_duration=(1, 2),
+                    written_duration=(1, 16),
                 ),
             ],
             logical_tie_masks=ltmask,

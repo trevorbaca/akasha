@@ -4,7 +4,10 @@ from abjadext import rmakers
 
 
 def ritardando_rhythm(
-    *, divisions=None, dmask=None, ltmask=None
+    *,
+    divisions: abjad.Expression = None,
+    dmask: rmakers.MasksTyping = None,
+    ltmask: rmakers.MasksTyping = None,
 ) -> baca.RhythmCommand:
     """
     Makes ritardando rhythm.

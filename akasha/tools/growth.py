@@ -4,7 +4,11 @@ from abjadext import rmakers
 
 
 def growth(
-    index, first_silence, division_ratio, accelerando=False, extra_counts=None
+    index: int,
+    first_silence: int,
+    division_ratio: abjad.RatioTyping,
+    accelerando: bool = False,
+    extra_counts: abjad.IntegerSequence = None,
 ) -> baca.RhythmCommand:
     """
     Makes growth talea rhythm.
