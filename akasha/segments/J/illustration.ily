@@ -10,9 +10,9 @@ J_Global_Rests = {                                                             %
     R1 * 3/2                                                                   %! _make_global_rests(1)
 
     % [J Global_Rests measure 264 / measure 4]                                 %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-very-long-fermata-markup                                           %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-very-long-fermata-markup                                           %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [J Global_Rests measure 265 / measure 5]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
@@ -27,7 +27,7 @@ J_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-    - \baca-rehearsal-mark-markup "J"                                          %! baca_rehearsal_mark:IndicatorCommand
+    - \baca-rehearsal-mark-markup "J"                                          %! baca.rehearsal_mark:IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "261"                                           %! MEASURE_NUMBER
@@ -131,16 +131,16 @@ J_Violin_I_Music_Voice = {                                                     %
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
             c'1 * 1                                                            %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
             ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
             ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "scratch moltiss.:"                                    %! baca_markup:IndicatorCommand
-                        "terminate each note abruptly"                         %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            ^ \markup {                                                        %! baca.markup:IndicatorCommand
+                \column                                                        %! baca.markup:IndicatorCommand
+                    {                                                          %! baca.markup:IndicatorCommand
+                        "scratch moltiss.:"                                    %! baca.markup:IndicatorCommand
+                        "terminate each note abruptly"                         %! baca.markup:IndicatorCommand
+                    }                                                          %! baca.markup:IndicatorCommand
+                }                                                              %! baca.markup:IndicatorCommand
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
             \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -295,14 +295,14 @@ J_Violin_II_Music_Voice = {                                                    %
 
         a4                                                                     %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \column                                                            %! baca_markup:IndicatorCommand
-                {                                                              %! baca_markup:IndicatorCommand
-                    "scratch moltiss.:"                                        %! baca_markup:IndicatorCommand
-                    "terminate each note abruptly"                             %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        ^ \markup {                                                            %! baca.markup:IndicatorCommand
+            \column                                                            %! baca.markup:IndicatorCommand
+                {                                                              %! baca.markup:IndicatorCommand
+                    "scratch moltiss.:"                                        %! baca.markup:IndicatorCommand
+                    "terminate each note abruptly"                             %! baca.markup:IndicatorCommand
+                }                                                              %! baca.markup:IndicatorCommand
+            }                                                                  %! baca.markup:IndicatorCommand
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -523,14 +523,14 @@ J_Cello_Music_Voice = {                                                        %
 
         b,4                                                                    %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \column                                                            %! baca_markup:IndicatorCommand
-                {                                                              %! baca_markup:IndicatorCommand
-                    "scratch moltiss.:"                                        %! baca_markup:IndicatorCommand
-                    "terminate each note abruptly"                             %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        ^ \markup {                                                            %! baca.markup:IndicatorCommand
+            \column                                                            %! baca.markup:IndicatorCommand
+                {                                                              %! baca.markup:IndicatorCommand
+                    "scratch moltiss.:"                                        %! baca.markup:IndicatorCommand
+                    "terminate each note abruptly"                             %! baca.markup:IndicatorCommand
+                }                                                              %! baca.markup:IndicatorCommand
+            }                                                                  %! baca.markup:IndicatorCommand
 
         r4
 

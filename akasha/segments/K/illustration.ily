@@ -85,9 +85,9 @@ K_Global_Rests = {                                                             %
     R1 * 1                                                                     %! _make_global_rests(1)
 
     % [K Global_Rests measure 293 / measure 29]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [K Global_Rests measure 294 / measure 30]                                %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests(1)
@@ -120,9 +120,9 @@ K_Global_Rests = {                                                             %
     R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [K Global_Rests measure 304 / measure 40]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [K Global_Rests measure 305 / measure 41]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests(1)
@@ -140,9 +140,9 @@ K_Global_Rests = {                                                             %
     R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [K Global_Rests measure 310 / measure 46]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [K Global_Rests measure 311 / measure 47]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
@@ -169,9 +169,9 @@ K_Global_Rests = {                                                             %
     R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [K Global_Rests measure 319 / measure 55]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [K Global_Rests measure 320 / measure 56]                                %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests(1)
@@ -213,9 +213,9 @@ K_Global_Rests = {                                                             %
     R1 * 1                                                                     %! _make_global_rests(1)
 
     % [K Global_Rests measure 333 / measure 69]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-very-long-fermata-markup                                           %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-very-long-fermata-markup                                           %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [K Global_Rests measure 334 / measure 70]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
@@ -230,7 +230,7 @@ K_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-    - \baca-rehearsal-mark-markup "K"                                          %! baca_rehearsal_mark:IndicatorCommand
+    - \baca-rehearsal-mark-markup "K"                                          %! baca.rehearsal_mark:IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "265"                                           %! MEASURE_NUMBER
@@ -655,7 +655,7 @@ K_Global_Skips = {                                                             %
         \time 3/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/8                                                               %! _make_global_skips(1)
-        ^ \akasha-repeat-six                                                   %! baca_markup:IndicatorCommand
+        ^ \akasha-repeat-six                                                   %! baca.markup:IndicatorCommand
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
@@ -1060,11 +1060,11 @@ K_Global_Skips = {                                                             %
     {
 
         % [K Global_Skips measure 320 / measure 56]                            %! _comment_measure_numbers
-        \override TextScript.extra-offset = #'(1.5 . 6)                        %! baca_text_script_extra_offset:OverrideCommand(1)
+        \override TextScript.extra-offset = #'(1.5 . 6)                        %! baca.text_script_extra_offset:OverrideCommand(1)
         \time 3/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/8                                                               %! _make_global_skips(1)
-        ^ \akasha-repeat-six                                                   %! baca_markup:IndicatorCommand
+        ^ \akasha-repeat-six                                                   %! baca.markup:IndicatorCommand
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
     %@% \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
@@ -1140,7 +1140,7 @@ K_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
     %@% - \baca-start-ct-left-only "[18'23'']"                                 %! CLOCK_TIME
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME
-        \revert TextScript.extra-offset                                        %! baca_text_script_extra_offset:OverrideCommand(2)
+        \revert TextScript.extra-offset                                        %! baca.text_script_extra_offset:OverrideCommand(2)
 
     }
 
@@ -1317,10 +1317,10 @@ K_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     a''2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "tasto + 1 click/3-4 sec." }                                   %! baca_markup:IndicatorCommand
+    ^ \markup { "tasto + 1 click/3-4 sec." }                                   %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1351,12 +1351,12 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 269 / measure 5]                         %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1 click/1-2 sec."                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1 click/1-2 sec."                         %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 270 / measure 6]                         %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
@@ -1365,7 +1365,7 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 271 / measure 7]                         %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 272 / measure 8]                         %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
@@ -1374,12 +1374,12 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 273 / measure 9]                         %! _comment_measure_numbers
     a''2..                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1-2 clicks/sec."                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1-2 clicks/sec."                          %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 274 / measure 10]                        %! _comment_measure_numbers
     a''2..                                                                     %! baca_make_repeat_tied_notes
@@ -1388,7 +1388,7 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 275 / measure 11]                        %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 276 / measure 12]                        %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
@@ -1397,12 +1397,12 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 277 / measure 13]                        %! _comment_measure_numbers
     a''2..                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "scratch moltiss."                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "scratch moltiss."                         %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 278 / measure 14]                        %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
@@ -1411,9 +1411,9 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 279 / measure 15]                        %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 280 / measure 16]                        %! _comment_measure_numbers
     a''2..                                                                     %! baca_make_repeat_tied_notes
@@ -1422,12 +1422,12 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 281 / measure 17]                        %! _comment_measure_numbers
     a''2.
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1/2 scratch"                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1/2 scratch"                              %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     a''4.
     \repeatTie
@@ -1443,7 +1443,7 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 284 / measure 20]                        %! _comment_measure_numbers
     a''2.
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     a''4.
     \repeatTie
@@ -1451,12 +1451,12 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 285 / measure 21]                        %! _comment_measure_numbers
     a''2..                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "PO"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "PO"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 286 / measure 22]                        %! _comment_measure_numbers
     a''2..                                                                     %! baca_make_repeat_tied_notes
@@ -1465,7 +1465,7 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 287 / measure 23]                        %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 288 / measure 24]                        %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
@@ -1474,16 +1474,16 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 289 / measure 25]                        %! _comment_measure_numbers
     a''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "vib. moltiss."                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "vib. moltiss."                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     a''4.
     \repeatTie
@@ -1498,9 +1498,9 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 291 / measure 27]                        %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 292 / measure 28]                        %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
@@ -1530,15 +1530,15 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 294 / measure 30]                        %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "PO senza vib."                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO senza vib."                             %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 295 / measure 31]                        %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
@@ -1547,9 +1547,9 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 296 / measure 32]                        %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 297 / measure 33]                        %! _comment_measure_numbers
     a''2.
@@ -1561,42 +1561,42 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 298 / measure 34]                        %! _comment_measure_numbers
     a''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "PO"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "PO"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     a''4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 299 / measure 35]                        %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "PO"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 300 / measure 36]                        %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 301 / measure 37]                        %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
@@ -1605,23 +1605,23 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 302 / measure 38]                        %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pos. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pos. ord."                                %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 303 / measure 39]                        %! _comment_measure_numbers
     a''2..                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1647,15 +1647,15 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 305 / measure 41]                        %! _comment_measure_numbers
     a''2..                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XT"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XT"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 306 / measure 42]                        %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
@@ -1668,9 +1668,9 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 308 / measure 44]                        %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 309 / measure 45]                        %! _comment_measure_numbers
     a''4.                                                                      %! baca_make_repeat_tied_notes
@@ -1725,15 +1725,15 @@ K_Violin_I_Music_Voice = {                                                     %
     \repeatTie
 
     % [K Violin_I_Music_Voice measure 317 / measure 53]                        %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+    \ottava 1                                                                  %! baca.ottava:SpannerIndicatorCommand(1)
     b''''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { "pos. ord. + 9°/A4(II)" }                                      %! baca_markup:IndicatorCommand
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ^ \markup { "pos. ord. + 9°/A4(II)" }                                      %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     b''''4.
     \repeatTie
@@ -1741,9 +1741,9 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 318 / measure 54]                        %! _comment_measure_numbers
     b''''2..                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
+    \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1753,7 +1753,7 @@ K_Violin_I_Music_Voice = {                                                     %
             % [K Violin_I_Music_Voice measure 319 / measure 55]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1768,21 +1768,21 @@ K_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Violin_I_Music_Voice measure 320 / measure 56]                        %! _comment_measure_numbers
-    \override Staff.OttavaBracket.staff-padding = #12                          %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
-    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
+    \override Staff.OttavaBracket.staff-padding = #12                          %! baca.ottava_bracket_staff_padding:OverrideCommand(1)
+    \ottava 1                                                                  %! baca.ottava:SpannerIndicatorCommand(1)
     \override TextSpanner.staff-padding = #9.5                                 %! baca_text_spanner_staff_padding:OverrideCommand(1)
     b''''4.                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_I_Music_Voice measure 321 / measure 57]                        %! _comment_measure_numbers
     b''''2.                                                                    %! baca_make_repeat_tied_notes
@@ -1791,9 +1791,9 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 322 / measure 58]                        %! _comment_measure_numbers
     b''''2..                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 323 / measure 59]                        %! _comment_measure_numbers
     b''''2.
@@ -1801,38 +1801,38 @@ K_Violin_I_Music_Voice = {                                                     %
 
     b''''4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pos. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pos. ord."                                %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_I_Music_Voice measure 324 / measure 60]                        %! _comment_measure_numbers
     b''''2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 325 / measure 61]                        %! _comment_measure_numbers
     b''''1                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_I_Music_Voice measure 326 / measure 62]                        %! _comment_measure_numbers
     b''''2.
@@ -1844,9 +1844,9 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 327 / measure 63]                        %! _comment_measure_numbers
     b''''2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_I_Music_Voice measure 328 / measure 64]                        %! _comment_measure_numbers
     b''''4.                                                                    %! baca_make_repeat_tied_notes
@@ -1873,9 +1873,9 @@ K_Violin_I_Music_Voice = {                                                     %
     % [K Violin_I_Music_Voice measure 332 / measure 68]                        %! _comment_measure_numbers
     b''''1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
-    \revert Staff.OttavaBracket.staff-padding                                  %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
-    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert Staff.OttavaBracket.staff-padding                                  %! baca.ottava_bracket_staff_padding:OverrideCommand(2)
+    \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1885,7 +1885,7 @@ K_Violin_I_Music_Voice = {                                                     %
             % [K Violin_I_Music_Voice measure 333 / measure 69]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1964,10 +1964,10 @@ K_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     gtqs'!2                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "tasto + 1 click/3-4 sec." }                                   %! baca_markup:IndicatorCommand
+    ^ \markup { "tasto + 1 click/3-4 sec." }                                   %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1998,12 +1998,12 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 269 / measure 5]                        %! _comment_measure_numbers
     gtqs'!4.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1 click/1-2 sec."                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1 click/1-2 sec."                         %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 270 / measure 6]                        %! _comment_measure_numbers
     gtqs'!2                                                                    %! baca_make_repeat_tied_notes
@@ -2012,7 +2012,7 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 271 / measure 7]                        %! _comment_measure_numbers
     gtqs'!4.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 272 / measure 8]                        %! _comment_measure_numbers
     gtqs'!2.                                                                   %! baca_make_repeat_tied_notes
@@ -2021,12 +2021,12 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 273 / measure 9]                        %! _comment_measure_numbers
     gtqs'!2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1-2 clicks/sec."                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1-2 clicks/sec."                          %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 274 / measure 10]                       %! _comment_measure_numbers
     gtqs'!2..                                                                  %! baca_make_repeat_tied_notes
@@ -2035,7 +2035,7 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 275 / measure 11]                       %! _comment_measure_numbers
     gtqs'!2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 276 / measure 12]                       %! _comment_measure_numbers
     gtqs'!4.                                                                   %! baca_make_repeat_tied_notes
@@ -2044,12 +2044,12 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 277 / measure 13]                       %! _comment_measure_numbers
     gtqs'!2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "scratch moltiss."                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "scratch moltiss."                         %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 278 / measure 14]                       %! _comment_measure_numbers
     gtqs'!4.                                                                   %! baca_make_repeat_tied_notes
@@ -2058,9 +2058,9 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 279 / measure 15]                       %! _comment_measure_numbers
     gtqs'!2.                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 280 / measure 16]                       %! _comment_measure_numbers
     gtqs'!2..                                                                  %! baca_make_repeat_tied_notes
@@ -2069,12 +2069,12 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 281 / measure 17]                       %! _comment_measure_numbers
     gtqs'!2.
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1/2 scratch"                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1/2 scratch"                              %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     gtqs'!4.
     \repeatTie
@@ -2090,7 +2090,7 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 284 / measure 20]                       %! _comment_measure_numbers
     gtqs'!2.
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     gtqs'!4.
     \repeatTie
@@ -2098,12 +2098,12 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 285 / measure 21]                       %! _comment_measure_numbers
     gtqs'!2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "PO"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "PO"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 286 / measure 22]                       %! _comment_measure_numbers
     gtqs'!2..                                                                  %! baca_make_repeat_tied_notes
@@ -2112,7 +2112,7 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 287 / measure 23]                       %! _comment_measure_numbers
     gtqs'!4.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 288 / measure 24]                       %! _comment_measure_numbers
     gtqs'!2.                                                                   %! baca_make_repeat_tied_notes
@@ -2121,16 +2121,16 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 289 / measure 25]                       %! _comment_measure_numbers
     gtqs'!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "vib. moltiss."                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "vib. moltiss."                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     gtqs'!4.
     \repeatTie
@@ -2145,9 +2145,9 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 291 / measure 27]                       %! _comment_measure_numbers
     gtqs'!2                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 292 / measure 28]                       %! _comment_measure_numbers
     gtqs'!1                                                                    %! baca_make_repeat_tied_notes
@@ -2177,15 +2177,15 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 294 / measure 30]                       %! _comment_measure_numbers
     a'4.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "PO senza vib."                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO senza vib."                             %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 295 / measure 31]                       %! _comment_measure_numbers
     a'2                                                                        %! baca_make_repeat_tied_notes
@@ -2194,9 +2194,9 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 296 / measure 32]                       %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 297 / measure 33]                       %! _comment_measure_numbers
     a'2.
@@ -2208,42 +2208,42 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 298 / measure 34]                       %! _comment_measure_numbers
     a'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "PO"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "PO"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     a'4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 299 / measure 35]                       %! _comment_measure_numbers
     gtqs'!2                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "PO"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 300 / measure 36]                       %! _comment_measure_numbers
     gtqs'!2                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 301 / measure 37]                       %! _comment_measure_numbers
     gtqs'!4.                                                                   %! baca_make_repeat_tied_notes
@@ -2252,23 +2252,23 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 302 / measure 38]                       %! _comment_measure_numbers
     gtqs'!2.                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pos. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pos. ord."                                %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 303 / measure 39]                       %! _comment_measure_numbers
     gtqs'!2..                                                                  %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2294,15 +2294,15 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 305 / measure 41]                       %! _comment_measure_numbers
     a'2..                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XT"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XT"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 306 / measure 42]                       %! _comment_measure_numbers
     a'4.                                                                       %! baca_make_repeat_tied_notes
@@ -2315,9 +2315,9 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 308 / measure 44]                       %! _comment_measure_numbers
     a'2                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 309 / measure 45]                       %! _comment_measure_numbers
     a'4.                                                                       %! baca_make_repeat_tied_notes
@@ -2361,15 +2361,15 @@ K_Violin_II_Music_Voice = {                                                    %
     \repeatTie
 
     % [K Violin_II_Music_Voice measure 315 / measure 51]                       %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+    \ottava 1                                                                  %! baca.ottava:SpannerIndicatorCommand(1)
     cs''''!1                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { "pos. ord. + 5°/A4(II)" }                                      %! baca_markup:IndicatorCommand
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ^ \markup { "pos. ord. + 5°/A4(II)" }                                      %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_II_Music_Voice measure 316 / measure 52]                       %! _comment_measure_numbers
     cs''''!2.
@@ -2381,7 +2381,7 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 317 / measure 53]                       %! _comment_measure_numbers
     cs''''!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
 
     cs''''!4.
@@ -2390,7 +2390,7 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 318 / measure 54]                       %! _comment_measure_numbers
     cs''''!2..                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
-    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
+    \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2400,7 +2400,7 @@ K_Violin_II_Music_Voice = {                                                    %
             % [K Violin_II_Music_Voice measure 319 / measure 55]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2415,21 +2415,21 @@ K_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Violin_II_Music_Voice measure 320 / measure 56]                       %! _comment_measure_numbers
-    \override Staff.OttavaBracket.staff-padding = #10                          %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
-    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
+    \override Staff.OttavaBracket.staff-padding = #10                          %! baca.ottava_bracket_staff_padding:OverrideCommand(1)
+    \ottava 1                                                                  %! baca.ottava:SpannerIndicatorCommand(1)
     \override TextSpanner.staff-padding = #7.5                                 %! baca_text_spanner_staff_padding:OverrideCommand(1)
     cs''''!4.                                                                  %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_II_Music_Voice measure 321 / measure 57]                       %! _comment_measure_numbers
     cs''''!2.                                                                  %! baca_make_repeat_tied_notes
@@ -2438,9 +2438,9 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 322 / measure 58]                       %! _comment_measure_numbers
     cs''''!2..                                                                 %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 323 / measure 59]                       %! _comment_measure_numbers
     cs''''!2.
@@ -2448,38 +2448,38 @@ K_Violin_II_Music_Voice = {                                                    %
 
     cs''''!4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pos. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pos. ord."                                %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Violin_II_Music_Voice measure 324 / measure 60]                       %! _comment_measure_numbers
     cs''''!2                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 325 / measure 61]                       %! _comment_measure_numbers
     cs''''!1                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Violin_II_Music_Voice measure 326 / measure 62]                       %! _comment_measure_numbers
     cs''''!2.
@@ -2491,9 +2491,9 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 327 / measure 63]                       %! _comment_measure_numbers
     cs''''!2                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Violin_II_Music_Voice measure 328 / measure 64]                       %! _comment_measure_numbers
     cs''''!4.                                                                  %! baca_make_repeat_tied_notes
@@ -2520,9 +2520,9 @@ K_Violin_II_Music_Voice = {                                                    %
     % [K Violin_II_Music_Voice measure 332 / measure 68]                       %! _comment_measure_numbers
     cs''''!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
-    \revert Staff.OttavaBracket.staff-padding                                  %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
-    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert Staff.OttavaBracket.staff-padding                                  %! baca.ottava_bracket_staff_padding:OverrideCommand(2)
+    \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2532,7 +2532,7 @@ K_Violin_II_Music_Voice = {                                                    %
             % [K Violin_II_Music_Voice measure 333 / measure 69]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2611,10 +2611,10 @@ K_Viola_Music_Voice = {                                                        %
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     aqs,!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "tasto + 1 click/3-4 sec." }                                   %! baca_markup:IndicatorCommand
+    ^ \markup { "tasto + 1 click/3-4 sec." }                                   %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2645,12 +2645,12 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 269 / measure 5]                            %! _comment_measure_numbers
     aqs,!4.                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1 click/1-2 sec."                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1 click/1-2 sec."                         %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 270 / measure 6]                            %! _comment_measure_numbers
     aqs,!2                                                                     %! baca_make_repeat_tied_notes
@@ -2659,7 +2659,7 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 271 / measure 7]                            %! _comment_measure_numbers
     aqs,!4.                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 272 / measure 8]                            %! _comment_measure_numbers
     aqs,!2.                                                                    %! baca_make_repeat_tied_notes
@@ -2668,12 +2668,12 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 273 / measure 9]                            %! _comment_measure_numbers
     aqs,!2..                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1-2 clicks/sec."                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1-2 clicks/sec."                          %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 274 / measure 10]                           %! _comment_measure_numbers
     aqs,!2..                                                                   %! baca_make_repeat_tied_notes
@@ -2682,7 +2682,7 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 275 / measure 11]                           %! _comment_measure_numbers
     aqs,!2                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 276 / measure 12]                           %! _comment_measure_numbers
     aqs,!4.                                                                    %! baca_make_repeat_tied_notes
@@ -2691,12 +2691,12 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 277 / measure 13]                           %! _comment_measure_numbers
     aqs,!2..                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "scratch moltiss."                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "scratch moltiss."                         %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 278 / measure 14]                           %! _comment_measure_numbers
     aqs,!4.                                                                    %! baca_make_repeat_tied_notes
@@ -2705,9 +2705,9 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 279 / measure 15]                           %! _comment_measure_numbers
     aqs,!2.                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 280 / measure 16]                           %! _comment_measure_numbers
     aqs,!2..                                                                   %! baca_make_repeat_tied_notes
@@ -2716,12 +2716,12 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 281 / measure 17]                           %! _comment_measure_numbers
     aqs,!2.
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1/2 scratch"                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1/2 scratch"                              %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     aqs,!4.
     \repeatTie
@@ -2737,7 +2737,7 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 284 / measure 20]                           %! _comment_measure_numbers
     aqs,!2.
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     aqs,!4.
     \repeatTie
@@ -2745,12 +2745,12 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 285 / measure 21]                           %! _comment_measure_numbers
     aqs,!2..                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "PO"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "PO"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 286 / measure 22]                           %! _comment_measure_numbers
     aqs,!2..                                                                   %! baca_make_repeat_tied_notes
@@ -2759,7 +2759,7 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 287 / measure 23]                           %! _comment_measure_numbers
     aqs,!4.                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 288 / measure 24]                           %! _comment_measure_numbers
     aqs,!2.                                                                    %! baca_make_repeat_tied_notes
@@ -2768,16 +2768,16 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 289 / measure 25]                           %! _comment_measure_numbers
     aqs,!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "vib. moltiss."                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "vib. moltiss."                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     aqs,!4.
     \repeatTie
@@ -2792,9 +2792,9 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 291 / measure 27]                           %! _comment_measure_numbers
     aqs,!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 292 / measure 28]                           %! _comment_measure_numbers
     aqs,!1                                                                     %! baca_make_repeat_tied_notes
@@ -2824,15 +2824,15 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 294 / measure 30]                           %! _comment_measure_numbers
     a,4.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "PO senza vib."                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO senza vib."                             %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 295 / measure 31]                           %! _comment_measure_numbers
     a,2                                                                        %! baca_make_repeat_tied_notes
@@ -2841,9 +2841,9 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 296 / measure 32]                           %! _comment_measure_numbers
     a,1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 297 / measure 33]                           %! _comment_measure_numbers
     a,2.
@@ -2855,42 +2855,42 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 298 / measure 34]                           %! _comment_measure_numbers
     a,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "PO"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "PO"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     a,4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 299 / measure 35]                           %! _comment_measure_numbers
     aqs,!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "PO"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 300 / measure 36]                           %! _comment_measure_numbers
     aqs,!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 301 / measure 37]                           %! _comment_measure_numbers
     aqs,!4.                                                                    %! baca_make_repeat_tied_notes
@@ -2899,23 +2899,23 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 302 / measure 38]                           %! _comment_measure_numbers
     aqs,!2.                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pos. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pos. ord."                                %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 303 / measure 39]                           %! _comment_measure_numbers
     aqs,!2..                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2941,15 +2941,15 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 305 / measure 41]                           %! _comment_measure_numbers
     a,2..                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XT"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XT"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 306 / measure 42]                           %! _comment_measure_numbers
     a,4.                                                                       %! baca_make_repeat_tied_notes
@@ -2962,9 +2962,9 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 308 / measure 44]                           %! _comment_measure_numbers
     a,2                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 309 / measure 45]                           %! _comment_measure_numbers
     a,4.                                                                       %! baca_make_repeat_tied_notes
@@ -3000,18 +3000,18 @@ K_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     % [K Viola_Music_Voice measure 313 / measure 49]                           %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     gqf''!2..                                                                  %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { "pos. ord. + 7°/A2(IV)" }                                      %! baca_markup:IndicatorCommand
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ^ \markup { "pos. ord. + 7°/A2(IV)" }                                      %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [K Viola_Music_Voice measure 314 / measure 50]                           %! _comment_measure_numbers
@@ -3025,7 +3025,7 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 316 / measure 52]                           %! _comment_measure_numbers
     gqf''!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
 
     gqf''!4.
@@ -3050,7 +3050,7 @@ K_Viola_Music_Voice = {                                                        %
             % [K Viola_Music_Voice measure 319 / measure 55]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3068,16 +3068,16 @@ K_Viola_Music_Voice = {                                                        %
     \override TextSpanner.staff-padding = #7                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     gqf''!4.                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Viola_Music_Voice measure 321 / measure 57]                           %! _comment_measure_numbers
     gqf''!2.                                                                   %! baca_make_repeat_tied_notes
@@ -3086,9 +3086,9 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 322 / measure 58]                           %! _comment_measure_numbers
     gqf''!2..                                                                  %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 323 / measure 59]                           %! _comment_measure_numbers
     gqf''!2.
@@ -3096,38 +3096,38 @@ K_Viola_Music_Voice = {                                                        %
 
     gqf''!4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pos. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pos. ord."                                %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Viola_Music_Voice measure 324 / measure 60]                           %! _comment_measure_numbers
     gqf''!2                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 325 / measure 61]                           %! _comment_measure_numbers
     gqf''!1                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Viola_Music_Voice measure 326 / measure 62]                           %! _comment_measure_numbers
     gqf''!2.
@@ -3139,9 +3139,9 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 327 / measure 63]                           %! _comment_measure_numbers
     gqf''!2                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Viola_Music_Voice measure 328 / measure 64]                           %! _comment_measure_numbers
     gqf''!4.                                                                   %! baca_make_repeat_tied_notes
@@ -3168,7 +3168,7 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 332 / measure 68]                           %! _comment_measure_numbers
     gqf''!1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3178,7 +3178,7 @@ K_Viola_Music_Voice = {                                                        %
             % [K Viola_Music_Voice measure 333 / measure 69]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3253,10 +3253,10 @@ K_Cello_Music_Voice = {                                                        %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     a,,2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "tasto + 1 click/3-4 sec." }                                   %! baca_markup:IndicatorCommand
+    ^ \markup { "tasto + 1 click/3-4 sec." }                                   %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3287,12 +3287,12 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 269 / measure 5]                            %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1 click/1-2 sec."                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1 click/1-2 sec."                         %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 270 / measure 6]                            %! _comment_measure_numbers
     a,,2                                                                       %! baca_make_repeat_tied_notes
@@ -3301,7 +3301,7 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 271 / measure 7]                            %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 272 / measure 8]                            %! _comment_measure_numbers
     a,,2.                                                                      %! baca_make_repeat_tied_notes
@@ -3310,12 +3310,12 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 273 / measure 9]                            %! _comment_measure_numbers
     a,,2..                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1-2 clicks/sec."                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1-2 clicks/sec."                          %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 274 / measure 10]                           %! _comment_measure_numbers
     a,,2..                                                                     %! baca_make_repeat_tied_notes
@@ -3324,7 +3324,7 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 275 / measure 11]                           %! _comment_measure_numbers
     a,,2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 276 / measure 12]                           %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
@@ -3333,12 +3333,12 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 277 / measure 13]                           %! _comment_measure_numbers
     a,,2..                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "scratch moltiss."                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "scratch moltiss."                         %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 278 / measure 14]                           %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
@@ -3347,9 +3347,9 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 279 / measure 15]                           %! _comment_measure_numbers
     a,,2.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 280 / measure 16]                           %! _comment_measure_numbers
     a,,2..                                                                     %! baca_make_repeat_tied_notes
@@ -3358,12 +3358,12 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 281 / measure 17]                           %! _comment_measure_numbers
     a,,2.
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "1/2 scratch"                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "1/2 scratch"                              %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     a,,4.
     \repeatTie
@@ -3379,7 +3379,7 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 284 / measure 20]                           %! _comment_measure_numbers
     a,,2.
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     a,,4.
     \repeatTie
@@ -3387,12 +3387,12 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 285 / measure 21]                           %! _comment_measure_numbers
     a,,2..                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "PO"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "PO"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 286 / measure 22]                           %! _comment_measure_numbers
     a,,2..                                                                     %! baca_make_repeat_tied_notes
@@ -3401,7 +3401,7 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 287 / measure 23]                           %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 288 / measure 24]                           %! _comment_measure_numbers
     a,,2.                                                                      %! baca_make_repeat_tied_notes
@@ -3410,16 +3410,16 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 289 / measure 25]                           %! _comment_measure_numbers
     a,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "trans."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "vib. moltiss."                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "vib. moltiss."                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     a,,4.
     \repeatTie
@@ -3434,9 +3434,9 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 291 / measure 27]                           %! _comment_measure_numbers
     a,,2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 292 / measure 28]                           %! _comment_measure_numbers
     a,,1                                                                       %! baca_make_repeat_tied_notes
@@ -3466,15 +3466,15 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 294 / measure 30]                           %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "PO senza vib."                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO senza vib."                             %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 295 / measure 31]                           %! _comment_measure_numbers
     a,,2                                                                       %! baca_make_repeat_tied_notes
@@ -3483,9 +3483,9 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 296 / measure 32]                           %! _comment_measure_numbers
     a,,1                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 297 / measure 33]                           %! _comment_measure_numbers
     a,,2.
@@ -3497,42 +3497,42 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 298 / measure 34]                           %! _comment_measure_numbers
     a,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "PO"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "PO"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     a,,4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 299 / measure 35]                           %! _comment_measure_numbers
     a,,2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "PO"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 300 / measure 36]                           %! _comment_measure_numbers
     a,,2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 301 / measure 37]                           %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
@@ -3541,23 +3541,23 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 302 / measure 38]                           %! _comment_measure_numbers
     a,,2.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pos. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pos. ord."                                %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 303 / measure 39]                           %! _comment_measure_numbers
     a,,2..                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3583,15 +3583,15 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 305 / measure 41]                           %! _comment_measure_numbers
     a,,2..                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XT"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XT"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 306 / measure 42]                           %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
@@ -3604,9 +3604,9 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 308 / measure 44]                           %! _comment_measure_numbers
     a,,2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 309 / measure 45]                           %! _comment_measure_numbers
     a,,4.                                                                      %! baca_make_repeat_tied_notes
@@ -3635,20 +3635,20 @@ K_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Cello_Music_Voice measure 311 / measure 47]                           %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_311:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_311:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_311:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_311:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     d''2.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { "pos. ord. + 11°/A1(IV)" }                                     %! baca_markup:IndicatorCommand
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ^ \markup { "pos. ord. + 11°/A1(IV)" }                                     %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [K Cello_Music_Voice measure 312 / measure 48]                           %! _comment_measure_numbers
@@ -3662,7 +3662,7 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 314 / measure 50]                           %! _comment_measure_numbers
     d''2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [K Cello_Music_Voice measure 315 / measure 51]                           %! _comment_measure_numbers
@@ -3695,7 +3695,7 @@ K_Cello_Music_Voice = {                                                        %
             % [K Cello_Music_Voice measure 319 / measure 55]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3713,16 +3713,16 @@ K_Cello_Music_Voice = {                                                        %
     \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     d''4.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Cello_Music_Voice measure 321 / measure 57]                           %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
@@ -3731,9 +3731,9 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 322 / measure 58]                           %! _comment_measure_numbers
     d''2..                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 323 / measure 59]                           %! _comment_measure_numbers
     d''2.
@@ -3741,38 +3741,38 @@ K_Cello_Music_Voice = {                                                        %
 
     d''4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "XP"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pos. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "XP"                                        %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pos. ord."                                %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 324 / measure 60]                           %! _comment_measure_numbers
     d''2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 325 / measure 61]                           %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-sffp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "pos. ord."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "XP"                                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
+    - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "pos. ord."                                 %! baca.text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "XP"                                       %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca.text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
+    \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [K Cello_Music_Voice measure 326 / measure 62]                           %! _comment_measure_numbers
     d''2.
@@ -3784,9 +3784,9 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 327 / measure 63]                           %! _comment_measure_numbers
     d''2                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [K Cello_Music_Voice measure 328 / measure 64]                           %! _comment_measure_numbers
     d''4.                                                                      %! baca_make_repeat_tied_notes
@@ -3813,7 +3813,7 @@ K_Cello_Music_Voice = {                                                        %
     % [K Cello_Music_Voice measure 332 / measure 68]                           %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3823,7 +3823,7 @@ K_Cello_Music_Voice = {                                                        %
             % [K Cello_Music_Voice measure 333 / measure 69]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container

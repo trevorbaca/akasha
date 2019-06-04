@@ -13,25 +13,25 @@ B_Global_Rests = {                                                             %
     R1 * 1                                                                     %! _make_global_rests(1)
 
     % [B Global_Rests measure 28 / measure 5]                                  %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [B Global_Rests measure 29 / measure 6]                                  %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [B Global_Rests measure 30 / measure 7]                                  %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [B Global_Rests measure 31 / measure 8]                                  %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [B Global_Rests measure 32 / measure 9]                                  %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [B Global_Rests measure 33 / measure 10]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests(1)
@@ -52,7 +52,7 @@ B_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/8                                                                   %! _make_global_skips(1)
-    - \baca-rehearsal-mark-markup "B"                                          %! baca_rehearsal_mark:IndicatorCommand
+    - \baca-rehearsal-mark-markup "B"                                          %! baca.rehearsal_mark:IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "24"                                            %! MEASURE_NUMBER
@@ -436,10 +436,10 @@ B_Violin_II_Music_Voice = {                                                    %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     ds'!4                                                                      %! akasha.polyphony_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca_markup:IndicatorCommand
+    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -547,8 +547,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \override Staff.Stem.stemlet-length = 0.75                             %! akasha.accelerando_rhythm
         c''16 * 487/64                                                         %! akasha.accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup { "tasto + XFB" }                                            %! baca_markup:IndicatorCommand
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        ^ \markup { "tasto + XFB" }                                            %! baca.markup:IndicatorCommand
         [                                                                      %! akasha.accelerando_rhythm
 
         bf'!16 * 209/32                                                        %! akasha.accelerando_rhythm
@@ -706,7 +706,7 @@ B_Viola_Music_Voice = {                                                        %
 
     % [B Viola_Music_Voice measure 34 / measure 11]                            %! _comment_measure_numbers
     ds!2..                                                                     %! baca_make_repeat_tied_notes
-    ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
+    ^ \markup { tasto }                                                        %! baca.markup:IndicatorCommand
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -760,8 +760,8 @@ B_Cello_Music_Voice = {                                                        %
             #12                                                                %! _clone_segment_initial_short_instrument_name
             Vc.                                                                %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \override Beam.positions = #'(-4 . -4)                                     %! baca_beam_positions:OverrideCommand(1)
-    \override TupletBracket.staff-padding = #2                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
+    \override Beam.positions = #'(-4 . -4)                                     %! baca.beam_positions:OverrideCommand(1)
+    \override TupletBracket.staff-padding = #2                                 %! baca.tuplet_bracket_staff_padding:OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -789,17 +789,17 @@ B_Cello_Music_Voice = {                                                        %
         r16.                                                                   %! akasha.sparse_getato_rhythm
 
         bf!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         [                                                                      %! akasha.sparse_getato_rhythm
 
         a32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         bf!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         b32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! akasha.sparse_getato_rhythm
 
         r16                                                                    %! akasha.sparse_getato_rhythm
@@ -812,32 +812,32 @@ B_Cello_Music_Voice = {                                                        %
     r8.                                                                        %! akasha.sparse_getato_rhythm
 
     c'32                                                                       %! akasha.sparse_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato:IndicatorCommand
 
     bf!32                                                                      %! akasha.sparse_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato:IndicatorCommand
 
     \times 4/5 {                                                               %! akasha.sparse_getato_rhythm
 
         b32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         bf!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         a32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         g32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         af!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         a32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! akasha.sparse_getato_rhythm
 
         r8                                                                     %! akasha.sparse_getato_rhythm
@@ -850,17 +850,17 @@ B_Cello_Music_Voice = {                                                        %
         r8                                                                     %! akasha.sparse_getato_rhythm
 
         bf!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         af!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         g32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         fs!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r32                                                                    %! akasha.sparse_getato_rhythm
@@ -872,33 +872,33 @@ B_Cello_Music_Voice = {                                                        %
         r16.                                                                   %! akasha.sparse_getato_rhythm
 
         g32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         e32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         fs!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         f32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         g32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! akasha.sparse_getato_rhythm
 
     fs!32                                                                      %! akasha.sparse_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato:IndicatorCommand
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g32                                                                        %! akasha.sparse_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16
@@ -906,33 +906,33 @@ B_Cello_Music_Voice = {                                                        %
     r16
 
     af!32                                                                      %! akasha.sparse_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato:IndicatorCommand
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a32                                                                        %! akasha.sparse_getato_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 4/5 {                                                               %! akasha.sparse_getato_rhythm
 
         g32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         af!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         g32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         fs!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         e32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         f32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8                                                                     %! akasha.sparse_getato_rhythm
@@ -964,20 +964,20 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 29 / measure 6]                         %! _comment_measure_numbers
         fs!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         [                                                                      %! akasha.sparse_getato_rhythm
 
         g32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         f32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         e32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         ef!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! akasha.sparse_getato_rhythm
 
         r8                                                                     %! akasha.sparse_getato_rhythm
@@ -987,17 +987,17 @@ B_Cello_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! akasha.sparse_getato_rhythm
 
         e32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         d32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         cs!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         ef!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r32                                                                    %! akasha.sparse_getato_rhythm
@@ -1029,22 +1029,22 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 31 / measure 8]                         %! _comment_measure_numbers
         d32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         r8                                                                     %! akasha.sparse_getato_rhythm
 
         e32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         [                                                                      %! akasha.sparse_getato_rhythm
 
         ef!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         e32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         f32                                                                    %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
         ]                                                                      %! akasha.sparse_getato_rhythm
 
     }                                                                          %! akasha.sparse_getato_rhythm
@@ -1054,9 +1054,9 @@ B_Cello_Music_Voice = {                                                        %
         r4                                                                     %! akasha.sparse_getato_rhythm
 
         fs!32                                                                  %! akasha.sparse_getato_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-        \revert Beam.positions                                                 %! baca_beam_positions:OverrideCommand(2)
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        \revert Beam.positions                                                 %! baca.beam_positions:OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
 
     }                                                                          %! akasha.sparse_getato_rhythm
 
@@ -1087,8 +1087,8 @@ B_Cello_Music_Voice = {                                                        %
     % [B Cello_Music_Voice measure 34 / measure 11]                            %! _comment_measure_numbers
     cs,!2..                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup { tasto }                                                        %! baca.markup:IndicatorCommand
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

@@ -25,9 +25,9 @@ D_Global_Rests = {                                                             %
     R1 * 1                                                                     %! _make_global_rests(1)
 
     % [D Global_Rests measure 70 / measure 9]                                  %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 71 / measure 10]                                 %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_global_rests(1)
@@ -54,9 +54,9 @@ D_Global_Rests = {                                                             %
     R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 79 / measure 18]                                 %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 80 / measure 19]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
@@ -71,9 +71,9 @@ D_Global_Rests = {                                                             %
     R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 84 / measure 23]                                 %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 85 / measure 24]                                 %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_global_rests(1)
@@ -100,9 +100,9 @@ D_Global_Rests = {                                                             %
     R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 93 / measure 32]                                 %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 94 / measure 33]                                 %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests(1)
@@ -117,9 +117,9 @@ D_Global_Rests = {                                                             %
     R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 98 / measure 37]                                 %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 99 / measure 38]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
@@ -134,9 +134,9 @@ D_Global_Rests = {                                                             %
     R1 * 3/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 103 / measure 42]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 104 / measure 43]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
@@ -163,9 +163,9 @@ D_Global_Rests = {                                                             %
     R1 * 7/8                                                                   %! _make_global_rests(1)
 
     % [D Global_Rests measure 112 / measure 51]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! baca.global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 113 / measure 52]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
@@ -180,8 +180,8 @@ D_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
-    - \tweak extra-offset #'(0 . 7)                                            %! baca_rehearsal_mark:IndicatorCommand
-    - \baca-rehearsal-mark-markup "D"                                          %! baca_rehearsal_mark:IndicatorCommand
+    - \tweak extra-offset #'(0 . 7)                                            %! baca.rehearsal_mark:IndicatorCommand
+    - \baca-rehearsal-mark-markup "D"                                          %! baca.rehearsal_mark:IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "62"                                            %! MEASURE_NUMBER
@@ -956,17 +956,17 @@ D_Violin_I_Music_Voice = {                                                     %
             #12                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             "Vn. I"                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
     \markup {                                                                  %! _clone_segment_initial_short_instrument_name
         \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
             #12                                                                %! _clone_segment_initial_short_instrument_name
             "Vn. I"                                                            %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \ottava 1                                                                  %! baca.ottava:SpannerIndicatorCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -975,10 +975,10 @@ D_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     cs''''!4.                                                                  %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "5°/A4(II) + vib. mod." }                                      %! baca_markup:IndicatorCommand
+    ^ \markup { "5°/A4(II) + vib. mod." }                                      %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1015,7 +1015,7 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 69 / measure 8]                          %! _comment_measure_numbers
     cs''''!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
+    \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1039,7 +1039,7 @@ D_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 71 / measure 10]                         %! _comment_measure_numbers
-    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
+    \ottava 1                                                                  %! baca.ottava:SpannerIndicatorCommand(1)
     cs''''!2.
 
     cs''''!4.
@@ -1078,8 +1078,8 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 78 / measure 17]                         %! _comment_measure_numbers
     cs''''!2                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
-    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1103,31 +1103,31 @@ D_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_I_Music_Voice measure 80 / measure 19]                         %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
     a'1                                                                        %! akasha.untied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ^ \markup { "XP + senza vib. + full bow strokes" }                         %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    ^ \markup { "XP + senza vib. + full bow strokes" }                         %! baca.markup:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 81 / measure 20]                         %! _comment_measure_numbers
     c''2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     a'4.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 82 / measure 21]                         %! _comment_measure_numbers
     fs'!2                                                                      %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 83 / measure 22]                         %! _comment_measure_numbers
     ef'!4.                                                                     %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1152,50 +1152,50 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 85 / measure 24]                         %! _comment_measure_numbers
     fs'!2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     a'4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 86 / measure 25]                         %! _comment_measure_numbers
     c''2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     fs''!4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 87 / measure 26]                         %! _comment_measure_numbers
     ef''!2                                                                     %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 88 / measure 27]                         %! _comment_measure_numbers
     c''1                                                                       %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 89 / measure 28]                         %! _comment_measure_numbers
     a'4.                                                                       %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 90 / measure 29]                         %! _comment_measure_numbers
     ef''!2                                                                     %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 91 / measure 30]                         %! _comment_measure_numbers
     fs''!2..                                                                   %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 92 / measure 31]                         %! _comment_measure_numbers
     a''2..                                                                     %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1220,22 +1220,22 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 94 / measure 33]                         %! _comment_measure_numbers
     a'4.                                                                       %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 95 / measure 34]                         %! _comment_measure_numbers
     ef''!2.                                                                    %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 96 / measure 35]                         %! _comment_measure_numbers
     fs''!2                                                                     %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 97 / measure 36]                         %! _comment_measure_numbers
     a''4.                                                                      %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1260,22 +1260,22 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 99 / measure 38]                         %! _comment_measure_numbers
     ef'''!2.                                                                   %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 100 / measure 39]                        %! _comment_measure_numbers
     a''2..                                                                     %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 101 / measure 40]                        %! _comment_measure_numbers
     c'''2..                                                                    %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 102 / measure 41]                        %! _comment_measure_numbers
     a'4.                                                                       %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1300,31 +1300,31 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 104 / measure 43]                        %! _comment_measure_numbers
     fs'!1                                                                      %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 105 / measure 44]                        %! _comment_measure_numbers
     ef'!2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     a'4.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 106 / measure 45]                        %! _comment_measure_numbers
     fs'!2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     a'4.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_I_Music_Voice measure 107 / measure 46]                        %! _comment_measure_numbers
     c''2                                                                       %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1477,59 +1477,59 @@ D_Violin_II_Music_Voice = {                                                    %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [D Violin_II_Music_Voice measure 71 / measure 10]                        %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
     a'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ^ \markup { "XP + full bow strokes" }                                      %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    ^ \markup { "XP + full bow strokes" }                                      %! baca.markup:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     c''4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 72 / measure 11]                        %! _comment_measure_numbers
     a'2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     fs'!4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 73 / measure 12]                        %! _comment_measure_numbers
     ef'!2..                                                                    %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 74 / measure 13]                        %! _comment_measure_numbers
     a'4.                                                                       %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 75 / measure 14]                        %! _comment_measure_numbers
     fs'!2.                                                                     %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 76 / measure 15]                        %! _comment_measure_numbers
     a'2..                                                                      %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 77 / measure 16]                        %! _comment_measure_numbers
     c''2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     fs''!4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 78 / measure 17]                        %! _comment_measure_numbers
     ef''!2                                                                     %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1554,26 +1554,26 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 80 / measure 19]                        %! _comment_measure_numbers
     fs'!1                                                                      %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 81 / measure 20]                        %! _comment_measure_numbers
     a'2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     c''4.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 82 / measure 21]                        %! _comment_measure_numbers
     fs''!2                                                                     %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 83 / measure 22]                        %! _comment_measure_numbers
     ef''!4.                                                                    %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1598,50 +1598,50 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 85 / measure 24]                        %! _comment_measure_numbers
     a'2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     ef''!4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 86 / measure 25]                        %! _comment_measure_numbers
     fs''!2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     a''4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 87 / measure 26]                        %! _comment_measure_numbers
     fs''!2                                                                     %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 88 / measure 27]                        %! _comment_measure_numbers
     c'''1                                                                      %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 89 / measure 28]                        %! _comment_measure_numbers
     ef'''!4.                                                                   %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 90 / measure 29]                        %! _comment_measure_numbers
     a''2                                                                       %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 91 / measure 30]                        %! _comment_measure_numbers
     c'''2..                                                                    %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 92 / measure 31]                        %! _comment_measure_numbers
     a'2..                                                                      %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1666,23 +1666,23 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 94 / measure 33]                        %! _comment_measure_numbers
     ef'''!4.                                                                   %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 95 / measure 34]                        %! _comment_measure_numbers
     a''2.                                                                      %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 96 / measure 35]                        %! _comment_measure_numbers
     c'''2                                                                      %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Violin_II_Music_Voice measure 97 / measure 36]                        %! _comment_measure_numbers
     a'4.                                                                       %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1706,12 +1706,12 @@ D_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Violin_II_Music_Voice measure 99 / measure 38]                        %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \pitchedTrill                                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
     g''2.                                                                      %! akasha.fill_first_half
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
-    \startTrillSpan a''                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup { tasto }                                                        %! baca.markup:IndicatorCommand
+    \startTrillSpan a''                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [D Violin_II_Music_Voice measure 100 / measure 39]                       %! _comment_measure_numbers
     g''2..                                                                     %! akasha.fill_first_half
@@ -1725,7 +1725,7 @@ D_Violin_II_Music_Voice = {                                                    %
             % [D Violin_II_Music_Voice measure 101 / measure 40]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 7/8                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1746,9 +1746,9 @@ D_Violin_II_Music_Voice = {                                                    %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [D Violin_II_Music_Voice measure 104 / measure 43]                       %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \pitchedTrill                                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
     g''1                                                                       %! akasha.fill_first_half
-    \startTrillSpan a''                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \startTrillSpan a''                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [D Violin_II_Music_Voice measure 105 / measure 44]                       %! _comment_measure_numbers
     g''2.
@@ -1765,7 +1765,7 @@ D_Violin_II_Music_Voice = {                                                    %
             % [D Violin_II_Music_Voice measure 106 / measure 45]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 9/8                                                          %! _make_multimeasure_rest_container
-            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1852,21 +1852,21 @@ D_Viola_Music_Voice = {                                                        %
             #12                                                                %! _clone_segment_initial_short_instrument_name
             Va.                                                                %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_62:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_62:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     gqf''!4.                                                                   %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "7°/A2(IV) + vib. mod." }                                      %! baca_markup:IndicatorCommand
+    ^ \markup { "7°/A2(IV) + vib. mod." }                                      %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2061,7 +2061,7 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 92 / measure 31]                            %! _comment_measure_numbers
     gqf''!2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2085,38 +2085,38 @@ D_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 94 / measure 33]                            %! _comment_measure_numbers
-    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_94:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_94:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-    \clef "alto"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_94:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_94:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \clef "alto"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     ff!4.                                                                      %! akasha.untied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { "tasto + senza vib." }                                         %! baca_markup:IndicatorCommand
+    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ^ \markup { "tasto + senza vib." }                                         %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [D Viola_Music_Voice measure 95 / measure 34]                            %! _comment_measure_numbers
     e2.                                                                        %! akasha.untied_notes
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [D Viola_Music_Voice measure 96 / measure 35]                            %! _comment_measure_numbers
     ds!2                                                                       %! akasha.untied_notes
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! akasha.glissando_rhythm
 
         % [D Viola_Music_Voice measure 97 / measure 36]                        %! _comment_measure_numbers
         cs!2                                                                   %! akasha.glissando_rhythm
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         bs,!16                                                                 %! akasha.glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     }                                                                          %! akasha.glissando_rhythm
 
@@ -2142,27 +2142,27 @@ D_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 99 / measure 38]                            %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
     af!2.                                                                      %! akasha.untied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-ppp-ancora                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ^ \markup { "XP + full bow strokes" }                                      %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \baca-ppp-ancora                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    ^ \markup { "XP + full bow strokes" }                                      %! baca.markup:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Viola_Music_Voice measure 100 / measure 39]                           %! _comment_measure_numbers
     b2..                                                                       %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Viola_Music_Voice measure 101 / measure 40]                           %! _comment_measure_numbers
     af!2..                                                                     %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Viola_Music_Voice measure 102 / measure 41]                           %! _comment_measure_numbers
     f4.                                                                        %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2187,31 +2187,31 @@ D_Viola_Music_Voice = {                                                        %
 
     % [D Viola_Music_Voice measure 104 / measure 43]                           %! _comment_measure_numbers
     f1                                                                         %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Viola_Music_Voice measure 105 / measure 44]                           %! _comment_measure_numbers
     af!2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     b4.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Viola_Music_Voice measure 106 / measure 45]                           %! _comment_measure_numbers
     f'2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     d'4.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Viola_Music_Voice measure 107 / measure 46]                           %! _comment_measure_numbers
     b2                                                                         %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2298,20 +2298,20 @@ D_Cello_Music_Voice = {                                                        %
             #12                                                                %! _clone_segment_initial_short_instrument_name
             Vc.                                                                %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_62:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_62:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     d''4.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "11°/A1(IV) + vib. mod." }                                     %! baca_markup:IndicatorCommand
+    ^ \markup { "11°/A1(IV) + vib. mod." }                                     %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2448,7 +2448,7 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 83 / measure 22]                            %! _comment_measure_numbers
     d''4.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2472,63 +2472,63 @@ D_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 85 / measure 24]                            %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_85:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_85:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-    \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_85:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_85:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     g,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ^ \markup { "XP + senza vib. + full bow strokes" }                         %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    ^ \markup { "XP + senza vib. + full bow strokes" }                         %! baca.markup:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     bf,!4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 86 / measure 25]                            %! _comment_measure_numbers
     g,2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     e,4.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 87 / measure 26]                            %! _comment_measure_numbers
     cs,!2                                                                      %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 88 / measure 27]                            %! _comment_measure_numbers
     g,1                                                                        %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 89 / measure 28]                            %! _comment_measure_numbers
     e,4.                                                                       %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 90 / measure 29]                            %! _comment_measure_numbers
     g,2                                                                        %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 91 / measure 30]                            %! _comment_measure_numbers
     bf,!2..                                                                    %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 92 / measure 31]                            %! _comment_measure_numbers
     e2..                                                                       %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2554,10 +2554,10 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 94 / measure 33]                            %! _comment_measure_numbers
     cs,!4.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
+    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ^ \markup { tasto }                                                        %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [D Cello_Music_Voice measure 95 / measure 34]                            %! _comment_measure_numbers
     cs,!2.                                                                     %! baca_make_repeat_tied_notes
@@ -2566,7 +2566,7 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 96 / measure 35]                            %! _comment_measure_numbers
     cs,!2                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [D Cello_Music_Voice measure 97 / measure 36]                            %! _comment_measure_numbers
@@ -2595,28 +2595,28 @@ D_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 99 / measure 38]                            %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
     e,2.                                                                       %! akasha.untied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-ppp-ancora                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    ^ \markup { "XP + full bow strokes" }                                      %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \baca-ppp-ancora                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    ^ \markup { "XP + full bow strokes" }                                      %! baca.markup:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 100 / measure 39]                           %! _comment_measure_numbers
     g,2..                                                                      %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 101 / measure 40]                           %! _comment_measure_numbers
     bf,!2..                                                                    %! akasha.untied_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 102 / measure 41]                           %! _comment_measure_numbers
     e4.                                                                        %! akasha.untied_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2642,51 +2642,51 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 104 / measure 43]                           %! _comment_measure_numbers
     df!1                                                                       %! akasha.untied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
+    \sf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ^ \markup { tasto }                                                        %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 105 / measure 44]                           %! _comment_measure_numbers
     c2.
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     bf,!4.
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 106 / measure 45]                           %! _comment_measure_numbers
     af,!2.
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     g,4.
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 107 / measure 46]                           %! _comment_measure_numbers
     f,2                                                                        %! akasha.untied_notes
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 108 / measure 47]                           %! _comment_measure_numbers
     ef,!4.                                                                     %! akasha.untied_notes
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 109 / measure 48]                           %! _comment_measure_numbers
     d,2.                                                                       %! akasha.untied_notes
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [D Cello_Music_Voice measure 110 / measure 49]                           %! _comment_measure_numbers
     c,2..                                                                      %! akasha.untied_notes
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 8/9 {                                                               %! akasha.glissando_rhythm
 
         % [D Cello_Music_Voice measure 111 / measure 50]                       %! _comment_measure_numbers
         bf,,!2..                                                               %! akasha.glissando_rhythm
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         a,,16..                                                                %! akasha.glissando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     }                                                                          %! akasha.glissando_rhythm
 
