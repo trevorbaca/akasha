@@ -14,11 +14,12 @@ def ritardando_rhythm(
     """
 
     if divisions is None:
-        expression = baca.sequence().partition_by_counts(
+        divisions = baca.divisions().partition_by_counts(
             [1, 2], cyclic=True, overhang=True
         )
-        expression = expression.map(baca.sequence().sum()).flatten(depth=-1)
-        divisions = expression
+        divisions = divisions.map(baca.divisions().fuse())
+        assert divisions is not None
+        divisions = divisions.flatten(depth=-1)
 
     return baca.rhythm(
         divisions=divisions,
@@ -29,18 +30,18 @@ def ritardando_rhythm(
             division_masks=dmask,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 8),
-                    stop_duration=abjad.Duration(1, 2),
-                    written_duration=abjad.Duration(1, 16),
+                    start_duration=(1, 8),
+                    stop_duration=(1, 2),
+                    written_duration=(1, 16),
                 ),
                 rmakers.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 2),
-                    stop_duration=abjad.Duration(1, 8),
-                    written_duration=abjad.Duration(1, 16),
+                    start_duration=(1, 2),
+                    stop_duration=(1, 8),
+                    written_duration=(1, 16),
                 ),
             ],
             logical_tie_masks=ltmask,
-            tag="akasha.ritardando_rhythm",
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
         ),
+        tag="akasha.ritardando_rhythm",
     )

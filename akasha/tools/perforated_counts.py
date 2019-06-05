@@ -22,7 +22,6 @@ def perforated_counts(
         >>> akasha.perforated_counts(degree=1)
         Sequence([1, 1, 1, -9, 1, 1, -7, 1, -9, 1, 1, 1, -2])
 
-    Returns sequence.
     """
     counts = []
     if degree == 0:

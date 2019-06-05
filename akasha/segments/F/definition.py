@@ -34,7 +34,7 @@ maker = baca.SegmentMaker(
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         'A', 48, 9,
-        [5, 7, 10, 35, 42, 44, 46, 48]
+        fermata_measures=[5, 7, 10, 35, 42, 44, 46, 48]
         ),
     validate_measure_count=48,
     )
