@@ -8,6 +8,7 @@ def time_signatures(
     series: str,
     count: int,
     rotation: int,
+    *,
     fermata_measures: abjad.IntegerSequence = None,
 ) -> typing.List[abjad.TimeSignature]:
     """

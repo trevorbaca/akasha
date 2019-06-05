@@ -31,7 +31,6 @@ def growth(
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts,
         logical_tie_masks=[silence_mask, sustain_mask],
-        tag="akasha.growth",
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
     )
@@ -42,13 +41,12 @@ def growth(
         ),
         interpolation_specifiers=[
             rmakers.InterpolationSpecifier(
-                start_duration=abjad.Duration(1, 2),
-                stop_duration=abjad.Duration(1, 8),
-                written_duration=abjad.Duration(1, 16),
+                start_duration=(1, 2),
+                stop_duration=(1, 8),
+                written_duration=(1, 16),
             )
         ],
         logical_tie_masks=[silence_mask, sustain_mask],
-        tag="akasha.growth",
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
     )
@@ -60,5 +58,7 @@ def growth(
         rhythm_maker = talea_rhythm_maker
 
     return baca.rhythm(
-        divisions=divisions(index, accelerando), rhythm_maker=rhythm_maker
+        divisions=divisions(index, accelerando),
+        rhythm_maker=rhythm_maker,
+        tag="akasha.growth",
     )
