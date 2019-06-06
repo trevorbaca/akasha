@@ -19,6 +19,7 @@ def sparse_getato_rhythm(
         divisions=baca.divisions().map(baca.divisions().quarters()),
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             extra_counts_per_division=extra_counts,
             talea=rmakers.Talea(

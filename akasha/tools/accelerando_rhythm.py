@@ -25,7 +25,10 @@ def accelerando_rhythm(
         divisions=divisions,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(
-                beam_rests=True, stemlet_length=0.75, use_feather_beams=True
+                beam_each_division=True,
+                beam_rests=True,
+                stemlet_length=0.75,
+                use_feather_beams=True,
             ),
             division_masks=dmask,
             interpolation_specifiers=[

@@ -9,6 +9,9 @@ def glissando_rhythm() -> baca.RhythmCommand:
     """
     return baca.rhythm(
         divisions=baca.divisions().fuse(),
-        rhythm_maker=rmakers.TupletRhythmMaker(tuplet_ratios=[(8, 1)]),
+        rhythm_maker=rmakers.TupletRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            tuplet_ratios=[(8, 1)],
+        ),
         tag="akasha.glissando_rhythm",
     )
