@@ -29,6 +29,7 @@ def growth(
         return expression
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
+        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extra_counts,
         logical_tie_masks=[silence_mask, sustain_mask],
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
@@ -37,7 +38,10 @@ def growth(
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
         beam_specifier=rmakers.BeamSpecifier(
-            beam_rests=True, stemlet_length=0.75, use_feather_beams=True
+            beam_each_division=True,
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
         ),
         interpolation_specifiers=[
             rmakers.InterpolationSpecifier(

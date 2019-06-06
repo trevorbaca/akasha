@@ -14,6 +14,7 @@ def scratch_rhythm(
     """
     return baca.rhythm(
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             denominators=denominators,
             logical_tie_masks=ltmask,
             extra_counts_per_division=extra_counts,

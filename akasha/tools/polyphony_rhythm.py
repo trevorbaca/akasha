@@ -14,6 +14,7 @@ def polyphony_rhythm(
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             logical_tie_masks=ltmask,
             talea=rmakers.Talea(counts=counts, denominator=16),
             tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
