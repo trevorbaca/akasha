@@ -68,8 +68,10 @@ maker(
 maker(
     ('va', (1, 3)),
     akasha.polyphony_rhythm(
+        rmakers.SilenceMask(
+            selector=baca.lts()[:2],
+        ),
         rotation=-2,
-        ltmask=rmakers.silence([0, 1]),
         ),
     baca.pitches('Db4 Db~4 C4', exact=True),
     )
