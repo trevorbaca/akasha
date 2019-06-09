@@ -875,11 +875,11 @@ E_Violin_I_Music_Voice = {                                                     %
                 }                                                              %! baca.markup:IndicatorCommand
             }                                                                  %! baca.markup:IndicatorCommand
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -910,9 +910,9 @@ E_Violin_I_Music_Voice = {                                                     %
         % [E Violin_I_Music_Voice measure 119 / measure 7]                     %! _comment_measure_numbers
         fs'!4                                                                  %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -941,13 +941,13 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 3/4 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 121 / measure 9]                     %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         f'4                                                                    %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -955,13 +955,13 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 3/4 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 122 / measure 10]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         e'4                                                                    %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -970,19 +970,19 @@ E_Violin_I_Music_Voice = {                                                     %
         % [E Violin_I_Music_Voice measure 123 / measure 11]                    %! _comment_measure_numbers
         ef'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         f'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         e'8                                                                    %! akasha.scratch_rhythm
 
@@ -991,23 +991,23 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 124 / measure 12]                    %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         f'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         fs'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -1015,27 +1015,27 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 10/11 {                                                             %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 125 / measure 13]                    %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         af'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         g'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         fs'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -1043,17 +1043,17 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 126 / measure 14]                    %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         f'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         g'8                                                                    %! akasha.scratch_rhythm
 
@@ -1063,22 +1063,22 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 127 / measure 15]                    %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         af'!8                                                                  %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         ^ \markup { "po' meno scratch" }                                       %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -1088,29 +1088,29 @@ E_Violin_I_Music_Voice = {                                                     %
         % [E Violin_I_Music_Voice measure 128 / measure 16]                    %! _comment_measure_numbers
         a'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         af'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         bf'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -1119,19 +1119,19 @@ E_Violin_I_Music_Voice = {                                                     %
         % [E Violin_I_Music_Voice measure 129 / measure 17]                    %! _comment_measure_numbers
         b'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         a'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         bf'!8                                                                  %! akasha.scratch_rhythm
 
@@ -1141,31 +1141,31 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 12/13 {                                                             %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 130 / measure 18]                    %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         g'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         af'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         g'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -1173,31 +1173,31 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 12/13 {                                                             %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 131 / measure 19]                    %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         fs'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         f'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         g'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -1207,29 +1207,29 @@ E_Violin_I_Music_Voice = {                                                     %
         % [E Violin_I_Music_Voice measure 132 / measure 20]                    %! _comment_measure_numbers
         fs'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         g'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         af'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -1238,19 +1238,19 @@ E_Violin_I_Music_Voice = {                                                     %
         % [E Violin_I_Music_Voice measure 133 / measure 21]                    %! _comment_measure_numbers
         bf'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         a'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         af'!8                                                                  %! akasha.scratch_rhythm
 
@@ -1260,19 +1260,19 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_I_Music_Voice measure 134 / measure 22]                    %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         g'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2484,11 +2484,11 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 6/4 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 115 / measure 3]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         a4                                                                     %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2528,15 +2528,15 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 6/5 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 117 / measure 5]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         bf!4                                                                   %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2565,15 +2565,15 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 5/6 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 119 / measure 7]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         a4                                                                     %! akasha.scratch_rhythm
 
@@ -2604,9 +2604,9 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 3/3 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 121 / measure 9]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         af!4                                                                   %! akasha.scratch_rhythm
 
@@ -2616,9 +2616,9 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 3/3 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 122 / measure 10]                   %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         g4                                                                     %! akasha.scratch_rhythm
 
@@ -2628,22 +2628,22 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 8/7 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 123 / measure 11]                   %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         a8                                                                     %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         ^ \markup { "po' meno scratch" }                                       %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         af!8                                                                   %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2651,17 +2651,17 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 8/7 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 124 / measure 12]                   %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         a8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         bf!8                                                                   %! akasha.scratch_rhythm
 
@@ -2671,21 +2671,21 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 10/9 {                                                              %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 125 / measure 13]                   %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         c'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         b8                                                                     %! akasha.scratch_rhythm
 
@@ -2695,15 +2695,15 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 6/5 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 126 / measure 14]                   %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2713,13 +2713,13 @@ E_Violin_II_Music_Voice = {                                                    %
         % [E Violin_II_Music_Voice measure 127 / measure 15]                   %! _comment_measure_numbers
         bf!8                                                                   %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         a8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2727,27 +2727,27 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 12/11 {                                                             %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 128 / measure 16]                   %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         b8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         c'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2755,19 +2755,19 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 8/7 {                                                               %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 129 / measure 17]                   %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         cs'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         c'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2775,27 +2775,27 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 12/11 {                                                             %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 130 / measure 18]                   %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         d'8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         ef'!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2803,9 +2803,9 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 12/11 {                                                             %! akasha.scratch_rhythm
 
         % [E Violin_II_Music_Voice measure 131 / measure 19]                   %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         cs'!8                                                                  %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2813,22 +2813,22 @@ E_Violin_II_Music_Voice = {                                                    %
         - \staccato                                                            %! baca.staccato:IndicatorCommand
         ^ \markup { "senza scratch" }                                          %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         d'8                                                                    %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -2839,27 +2839,27 @@ E_Violin_II_Music_Voice = {                                                    %
         b8                                                                     %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         c'8                                                                    %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         b8                                                                     %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -4863,7 +4863,7 @@ E_Cello_Music_Voice = {                                                        %
     \times 6/5 {                                                               %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 115 / measure 3]                        %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         b,4                                                                    %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4876,11 +4876,11 @@ E_Cello_Music_Voice = {                                                        %
                 }                                                              %! baca.markup:IndicatorCommand
             }                                                                  %! baca.markup:IndicatorCommand
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -4915,13 +4915,13 @@ E_Cello_Music_Voice = {                                                        %
     \times 5/4 {                                                               %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 119 / measure 7]                        %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         c4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -4950,18 +4950,18 @@ E_Cello_Music_Voice = {                                                        %
     \times 3/5 {                                                               %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 121 / measure 9]                        %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         b,4                                                                    %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         ^ \markup { "po' meno scratch" }                                       %! baca.markup:IndicatorCommand
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -4969,65 +4969,65 @@ E_Cello_Music_Voice = {                                                        %
     \times 3/5 {                                                               %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 122 / measure 10]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
         bf,!4                                                                  %! akasha.scratch_rhythm
 
-        r4
+        r4                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
     \times 8/10 {                                                              %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 123 / measure 11]                       %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         a,8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         b,8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
     \times 8/10 {                                                              %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 124 / measure 12]                       %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         bf,!8                                                                  %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         b,8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -5037,27 +5037,27 @@ E_Cello_Music_Voice = {                                                        %
         % [E Cello_Music_Voice measure 125 / measure 13]                       %! _comment_measure_numbers
         c8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         d8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         cs!8                                                                   %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -5067,19 +5067,19 @@ E_Cello_Music_Voice = {                                                        %
         % [E Cello_Music_Voice measure 126 / measure 14]                       %! _comment_measure_numbers
         c8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         b,8                                                                    %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -5087,7 +5087,7 @@ E_Cello_Music_Voice = {                                                        %
     \times 6/8 {                                                               %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 127 / measure 15]                       %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         cs!8                                                                   %! akasha.scratch_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5095,15 +5095,15 @@ E_Cello_Music_Voice = {                                                        %
         - \staccato                                                            %! baca.staccato:IndicatorCommand
         ^ \markup { "senza scratch" }                                          %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         d8                                                                     %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -5114,63 +5114,63 @@ E_Cello_Music_Voice = {                                                        %
     \times 12/14 {                                                             %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 128 / measure 16]                       %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         ef!8                                                                   %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         d8                                                                     %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         e8                                                                     %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
     \times 8/10 {                                                              %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 129 / measure 17]                       %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         f8                                                                     %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         ef!8                                                                   %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 
@@ -5178,36 +5178,36 @@ E_Cello_Music_Voice = {                                                        %
     \times 12/14 {                                                             %! akasha.scratch_rhythm
 
         % [E Cello_Music_Voice measure 130 / measure 18]                       %! _comment_measure_numbers
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         e8                                                                     %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         cs!8                                                                   %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
         d8                                                                     %! akasha.scratch_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
-        r8
+        r8                                                                     %! akasha.scratch_rhythm
 
     }                                                                          %! akasha.scratch_rhythm
 

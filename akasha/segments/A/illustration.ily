@@ -480,7 +480,7 @@ A_Violin_I_Music_Voice = {                                                     %
     eqs'!8                                                                     %! akasha.polyphony_rhythm
     \repeatTie
 
-    r2..
+    r2..                                                                       %! akasha.polyphony_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -620,19 +620,19 @@ A_Violin_I_Music_Voice = {                                                     %
 
         e''16 * 61/32                                                          %! akasha.accelerando_rhythm
 
-        r16 * 129/64
+        r16 * 129/64                                                           %! akasha.accelerando_rhythm
 
         d''16 * 141/64                                                         %! akasha.accelerando_rhythm
 
-        r16 * 159/64
+        r16 * 159/64                                                           %! akasha.accelerando_rhythm
 
         e''16 * 185/64                                                         %! akasha.accelerando_rhythm
 
-        r16 * 111/32
+        r16 * 111/32                                                           %! akasha.accelerando_rhythm
 
         d''16 * 17/4                                                           %! akasha.accelerando_rhythm
 
-        r16 * 335/64
+        r16 * 335/64                                                           %! akasha.accelerando_rhythm
 
         e''16 * 407/64                                                         %! akasha.accelerando_rhythm
 
@@ -711,13 +711,13 @@ A_Violin_I_Music_Voice = {                                                     %
         e''16 * 241/32                                                         %! akasha.accelerando_rhythm
         [                                                                      %! akasha.accelerando_rhythm
 
-        r16 * 49/8
+        r16 * 49/8                                                             %! akasha.accelerando_rhythm
 
         d''16 * 243/64                                                         %! akasha.accelerando_rhythm
 
         e''16 * 165/64                                                         %! akasha.accelerando_rhythm
 
-        r16 * 33/16
+        r16 * 33/16                                                            %! akasha.accelerando_rhythm
 
         \revert Staff.Stem.stemlet-length                                      %! akasha.accelerando_rhythm
         d''16 * 61/32                                                          %! akasha.accelerando_rhythm
@@ -796,13 +796,13 @@ A_Violin_I_Music_Voice = {                                                     %
         e''16 * 113/64                                                         %! akasha.ritardando_rhythm
         [                                                                      %! akasha.ritardando_rhythm
 
-        r16 * 121/64
+        r16 * 121/64                                                           %! akasha.ritardando_rhythm
 
         d''16 * 147/64                                                         %! akasha.ritardando_rhythm
 
-        r16 * 25/8
+        r16 * 25/8                                                             %! akasha.ritardando_rhythm
 
-        r16 * 145/32
+        r16 * 145/32                                                           %! akasha.ritardando_rhythm
 
         \revert Staff.Stem.stemlet-length                                      %! akasha.ritardando_rhythm
         e''16 * 409/64                                                         %! akasha.ritardando_rhythm
@@ -992,7 +992,7 @@ A_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 9 / measure 6]                          %! _comment_measure_numbers
-    r2.
+    r2.                                                                        %! akasha.polyphony_rhythm
 
     r4.
 
@@ -1031,7 +1031,7 @@ A_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 12 / measure 9]                         %! _comment_measure_numbers
-    r4
+    r4                                                                         %! akasha.polyphony_rhythm
 
     cs'!4.                                                                     %! akasha.polyphony_rhythm
 
@@ -1113,17 +1113,17 @@ A_Violin_II_Music_Voice = {                                                    %
         ^ \markup { "tasto + XFB" }                                            %! baca.markup:IndicatorCommand
         [                                                                      %! akasha.ritardando_rhythm
 
-        r16 * 459/64
+        r16 * 459/64                                                           %! akasha.ritardando_rhythm
 
         c''16 * 187/32                                                         %! akasha.ritardando_rhythm
 
         bf'!16 * 287/64                                                        %! akasha.ritardando_rhythm
 
-        r16 * 223/64
+        r16 * 223/64                                                           %! akasha.ritardando_rhythm
 
         c''16 * 181/64                                                         %! akasha.ritardando_rhythm
 
-        r16 * 153/64
+        r16 * 153/64                                                           %! akasha.ritardando_rhythm
 
         bf'!16 * 137/64                                                        %! akasha.ritardando_rhythm
 
@@ -1206,13 +1206,13 @@ A_Violin_II_Music_Voice = {                                                    %
 
         bf'!16 * 121/64                                                        %! akasha.ritardando_rhythm
 
-        r16 * 139/64
+        r16 * 139/64                                                           %! akasha.ritardando_rhythm
 
-        r16 * 87/32
+        r16 * 87/32                                                            %! akasha.ritardando_rhythm
 
         c''16 * 117/32                                                         %! akasha.ritardando_rhythm
 
-        r16 * 81/16
+        r16 * 81/16                                                            %! akasha.ritardando_rhythm
 
         \revert Staff.Stem.stemlet-length                                      %! akasha.ritardando_rhythm
         bf'!16 * 429/64                                                        %! akasha.ritardando_rhythm
@@ -1291,11 +1291,11 @@ A_Violin_II_Music_Voice = {                                                    %
         c''16 * 477/64                                                         %! akasha.accelerando_rhythm
         [                                                                      %! akasha.accelerando_rhythm
 
-        r16 * 353/64
+        r16 * 353/64                                                           %! akasha.accelerando_rhythm
 
         bf'!16 * 97/32                                                         %! akasha.accelerando_rhythm
 
-        r16 * 17/8
+        r16 * 17/8                                                             %! akasha.accelerando_rhythm
 
         \revert Staff.Stem.stemlet-length                                      %! akasha.accelerando_rhythm
         c''16 * 15/8                                                           %! akasha.accelerando_rhythm
@@ -1374,7 +1374,7 @@ A_Violin_II_Music_Voice = {                                                    %
 
         c''16 * 125/64                                                         %! akasha.ritardando_rhythm
 
-        r16 * 49/16
+        r16 * 49/16                                                            %! akasha.ritardando_rhythm
 
         \revert Staff.Stem.stemlet-length                                      %! akasha.ritardando_rhythm
         bf'!16 * 343/64                                                        %! akasha.ritardando_rhythm
@@ -1550,7 +1550,7 @@ A_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 9 / measure 6]                              %! _comment_measure_numbers
-    r4
+    r4                                                                         %! akasha.polyphony_rhythm
 
     ef'!2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1568,7 +1568,7 @@ A_Viola_Music_Voice = {                                                        %
 
     e'4.                                                                       %! akasha.polyphony_rhythm
 
-    r2
+    r2                                                                         %! akasha.polyphony_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1592,7 +1592,7 @@ A_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 12 / measure 9]                             %! _comment_measure_numbers
-    r2
+    r2                                                                         %! akasha.polyphony_rhythm
 
     r8
 
@@ -1887,7 +1887,7 @@ A_Cello_Music_Voice = {                                                        %
     a2.                                                                        %! akasha.polyphony_rhythm
     \repeatTie
 
-    r4
+    r4                                                                         %! akasha.polyphony_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1925,7 +1925,7 @@ A_Cello_Music_Voice = {                                                        %
     \repeatTie
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    r8
+    r8                                                                         %! akasha.polyphony_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
