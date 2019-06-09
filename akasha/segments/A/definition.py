@@ -129,12 +129,14 @@ maker(
 maker(
     ('v1', (11, 13)),
     akasha.accelerando_rhythm(
-        dmask=rmakers.silence([0]),
-        ltmask=rmakers.silence([3, 5, 7, 9]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([3, 5, 7, 9])],
         ),
+        dmask=rmakers.silence([0]),
+    ),
     baca.dynamic('pp'),
     baca.markup('tasto + XFB'),
-    )
+)
 
 maker(
     ('v2', (11, 13)),
@@ -166,7 +168,9 @@ maker(
 maker(
     ('v1', 15),
     akasha.accelerando_rhythm(
-        ltmask=rmakers.silence([0, 2, 3, -1], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([0, 2, 3, -1], inverted=True)],
+        ),
         ),
     )
 
@@ -214,9 +218,11 @@ maker(
 maker(
     ('v2', 17),
     akasha.accelerando_rhythm(
-        ltmask=rmakers.silence([0, 2, -1], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([0, 2, -1], inverted=True)],
         ),
-    )
+    ),
+)
 
 maker(
     ('v2', 19),

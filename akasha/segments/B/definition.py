@@ -48,12 +48,14 @@ maker(
 maker(
     ('v1', (1, 3)),
     akasha.accelerando_rhythm(
+        rmakers.SilenceMask(
+            selector=baca.lt(1),
+        ),
         dmask=rmakers.silence([-2, -1]),
         fuse_counts=[1],
-        ltmask=rmakers.silence([1]),
-        ),
+    ),
     baca.pitches('E5 D5'),
-    )
+)
 
 maker(
     ('v2', (1, 3)),
@@ -115,13 +117,15 @@ maker(
 maker(
     ('v2', (10, 11)),
     akasha.accelerando_rhythm(
-        fuse_counts=(2, 1),
-        ltmask=rmakers.silence([3]),
+        rmakers.SilenceMask(
+            selector=baca.lt(3),
         ),
+        fuse_counts=(2, 1),
+    ),
     baca.dynamic('pp'),
     baca.markup('tasto + XFB'),
     baca.pitches('C5 Bb4'),
-    )
+)
 
 maker(
     (['va', 'vc'], 11),

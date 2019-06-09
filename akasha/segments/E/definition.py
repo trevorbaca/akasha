@@ -73,10 +73,12 @@ maker(
     ('v2', 3),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([-1]),
-        extra_counts=[-2]
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([-1], inverted=True)],
         ),
-    )
+        extra_counts=[-2]
+    ),
+)
 
 maker(
     ('va', 3),
@@ -87,7 +89,9 @@ maker(
     ('vc', 3),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([1]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([1], inverted=True)],
+        ),
         extra_counts=[-1],
         ),
     )
@@ -96,7 +100,9 @@ maker(
     ('v1', 5),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([0]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([0], inverted=True)],
+        ),
         extra_counts=[-2],
         ),
     )
@@ -105,7 +111,9 @@ maker(
     ('v2', 5),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([2]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([2], inverted=True)],
+        ),
         extra_counts=[-1],
         ),
     )
@@ -119,19 +127,23 @@ maker(
     ('v1', 7),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([0]),
-        extra_counts=[-2],
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([0], inverted=True)],
         ),
-    )
+        extra_counts=[-2],
+    ),
+)
 
 maker(
     ('v2', 7),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([-1]),
-        extra_counts=[1],
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([-1], inverted=True)],
         ),
-    )
+        extra_counts=[1],
+    ),
+)
 
 maker(
     ('va', 7),
@@ -142,7 +154,9 @@ maker(
     ('vc', 7),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([1]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([1], inverted=True)],
+        ),
         extra_counts=[-1],
         ),
     )
@@ -156,7 +170,9 @@ maker(
     ('v1', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([1, -3]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([1, -3], inverted=True)],
+        ),
         extra_counts=[1],
         ),
     )
@@ -165,7 +181,9 @@ maker(
     ('v2', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([2, -1]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([2, -1], inverted=True)],
+        ),
         extra_counts=[0],
         ),
     )
@@ -174,7 +192,9 @@ maker(
     ('vc', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        ltmask=~rmakers.silence([2, -2]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([2, -2], inverted=True)],
+        ),
         extra_counts=[2],
         ),
     )
@@ -183,7 +203,9 @@ maker(
     ('v1', (11, 22)),
     akasha.scratch_rhythm(
         [8],
-        ltmask=~rmakers.silence([0, 3], 8),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([0, 3], inverted=True, period=8)],
+        ),
         extra_counts=[1],
         ),
     )
@@ -203,7 +225,9 @@ maker(
     ('v2', (11, 20)),
     akasha.scratch_rhythm(
         [8],
-        ltmask=~rmakers.silence([1, 4], 9),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([1, 4], inverted=True, period=9)],
+        ),
         extra_counts=[-1],
         ),
     )
@@ -230,7 +254,9 @@ maker(
     ('vc', (11, 18)),
     akasha.scratch_rhythm(
         [8],
-        ltmask=~rmakers.silence([2, 5], 9),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([2, 5], inverted=True, period=9)],
+        ),
         extra_counts=[2],
         ),
     )
