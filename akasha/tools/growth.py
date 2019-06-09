@@ -15,8 +15,7 @@ def growth(
     """
 
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
-    silence_mask = rmakers.SilenceMask(pattern)
-    sustain_mask = rmakers.sustain([0, -1])
+    pattern = pattern & abjad.index([0, -1], inverted=True)
 
     def divisions(index, accelerando):
         ratio = abjad.Ratio(division_ratio)
@@ -29,14 +28,15 @@ def growth(
         return expression
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
+        rmakers.SilenceMask(selector=baca.lts()[pattern]),
         beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extra_counts,
-        logical_tie_masks=[silence_mask, sustain_mask],
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
     )
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
+        rmakers.SilenceMask(selector=baca.lts()[pattern]),
         beam_specifier=rmakers.BeamSpecifier(
             beam_each_division=True,
             beam_rests=True,
@@ -50,7 +50,6 @@ def growth(
                 written_duration=(1, 16),
             )
         ],
-        logical_tie_masks=[silence_mask, sustain_mask],
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
     )
