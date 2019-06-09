@@ -76,17 +76,29 @@ maker(
     baca.dynamic('mp'),
     baca.markup('tasto + 1/2 scratch'),
     baca.new(
-        akasha.polyphony_rhythm(ltmask=~rmakers.silence([0, 1, 2])),
+        akasha.polyphony_rhythm(
+            rmakers.SilenceMask(
+                selector=baca.lts()[abjad.index([0, 1, 2], inverted=True)],
+            ),
+        ),
         baca.pitches('E4 F4 E+4', exact=True),
         match=0,
         ),
     baca.new(
-        akasha.polyphony_rhythm(ltmask=~rmakers.silence([2, 3, 4])),
+        akasha.polyphony_rhythm(
+            rmakers.SilenceMask(
+                selector=baca.lts()[abjad.index([2, 3, 4], inverted=True)],
+            ),
+        ),
         baca.pitches('D4 D~4 C4', exact=True),
         match=1,
         ),
     baca.new(
-        akasha.polyphony_rhythm(ltmask=~rmakers.silence([1, 2, 3])),
+        akasha.polyphony_rhythm(
+            rmakers.SilenceMask(
+                selector=baca.lts()[abjad.index([1, 2, 3], inverted=True)],
+            ),
+        ),
         baca.pitches('Eb4 D4 E4', exact=True),
         match=2,
         ),
@@ -102,7 +114,9 @@ maker(
 maker(
     ('v2', 9),
     akasha.polyphony_rhythm(
-        ltmask=rmakers.silence([1, 2, 3], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([1, 2, 3], inverted=True)],
+        ),
         rotation=-2,
         ),
     baca.pitches('C#4 C#+4', exact=True),
@@ -111,7 +125,9 @@ maker(
 maker(
     ('va', 9),
     akasha.polyphony_rhythm(
-        ltmask=rmakers.silence([2, 3, 4], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([2, 3, 4], inverted=True)],
+        ),
         rotation=-2,
         ),
     baca.pitches('C4', exact=True),
@@ -120,7 +136,9 @@ maker(
 maker(
     ('vc', 9),
     akasha.polyphony_rhythm(
-        ltmask=rmakers.silence([0, 1, 2], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([0, 1, 2], inverted=True)],
+        ),
         rotation=-2,
         ),
     baca.pitches('C4 C~4 B3', exact=True),
@@ -159,7 +177,9 @@ maker(
 maker(
     ('vc', (11, 13)),
     akasha.polyphony_rhythm(
-        ltmask=rmakers.silence([-1]),
+        rmakers.SilenceMask(
+            selector=baca.lt(-1),
+        ),
         rotation=-6,
         ),
     baca.pitches('Bb3 Bb~3 A3 Ab3 G3 A3', exact=True),
@@ -192,7 +212,9 @@ maker(
 maker(
     ('vc', 15),
     akasha.polyphony_rhythm(
-        ltmask=rmakers.silence([-1]),
+        rmakers.SilenceMask(
+            selector=baca.lt(-1),
+        ),
         rotation=-10,
         ),
     baca.pitches('A3 A#3 B3', exact=True),
