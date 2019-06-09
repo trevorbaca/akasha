@@ -4,11 +4,10 @@ from abjadext import rmakers
 
 
 def accelerando_rhythm(
-    *,
+    *specifiers,
     divisions: abjad.Expression = None,
     dmask: rmakers.MasksTyping = None,
     fuse_counts: abjad.IntegerSequence = (1, 2),
-    ltmask: rmakers.MasksTyping = None,
 ) -> baca.RhythmCommand:
     """
     Makes accelerando rhythm.
@@ -24,6 +23,7 @@ def accelerando_rhythm(
     return baca.rhythm(
         divisions=divisions,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
+            *specifiers,
             beam_specifier=rmakers.BeamSpecifier(
                 beam_each_division=True,
                 beam_rests=True,
@@ -43,7 +43,6 @@ def accelerando_rhythm(
                     written_duration=(1, 16),
                 ),
             ],
-            logical_tie_masks=ltmask,
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
             tag="akasha.accelerando_rhythm",
         ),
