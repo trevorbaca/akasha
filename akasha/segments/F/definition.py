@@ -117,9 +117,11 @@ maker(
 maker(
     ('v2', (8, 9)),
     akasha.ritardando_rhythm(
-        ltmask=rmakers.silence([2, 5]),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([2, 5])],
         ),
-    )
+    ),
+)
 
 division_ratio = (2, 1, 2, 2, 1, 2)
 
