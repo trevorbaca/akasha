@@ -19,15 +19,15 @@ def sparse_getato_rhythm(
         divisions=baca.divisions().map(baca.divisions().quarters()),
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.TupletSpecifier(
+                extract_trivial=True, rewrite_rest_filled=True
+            ),
             beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             extra_counts_per_division=extra_counts,
             talea=rmakers.Talea(
                 counts=perforated_counts(degree=degree, rotation=rotation),
                 denominator=32,
-            ),
-            tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True, rewrite_rest_filled=True
             ),
         ),
         tag="akasha.sparse_getato_rhythm",
