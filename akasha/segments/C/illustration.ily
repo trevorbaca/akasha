@@ -1730,7 +1730,7 @@ C_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.sparse_getato_rhythm
 
-    r4
+    r4                                                                         %! akasha.sparse_getato_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
