@@ -9,9 +9,12 @@ def untied_notes() -> baca.RhythmCommand:
     """
     return baca.rhythm(
         rhythm_maker=rmakers.NoteRhythmMaker(
+            rmakers.TieSpecifier(
+                detach_ties=True,
+                selector=baca.notes(),
+            ),
             beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             duration_specifier=rmakers.DurationSpecifier(rewrite_meter=True),
-            tie_specifier=rmakers.TieSpecifier(strip_ties=True),
         ),
         tag="akasha.untied_notes",
     )
