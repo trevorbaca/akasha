@@ -328,6 +328,7 @@ B_Violin_I_Music_Voice = {                                                     %
     \revert TupletNumber.text
 
     % [B Violin_I_Music_Voice measure 25 / measure 2]                          %! _comment_measure_numbers
+    \once \override Beam.grow-direction = #right
     r1                                                                         %! akasha.accelerando_rhythm
 
     r8                                                                         %! akasha.accelerando_rhythm
