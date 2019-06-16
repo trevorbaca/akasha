@@ -29,15 +29,16 @@ def growth(
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
         rmakers.TupletSpecifier(extract_trivial=True),
+        rmakers.TieSpecifier(repeat_ties=True),
         rmakers.SilenceMask(selector=baca.lts()[pattern]),
         rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extra_counts,
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
-        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
     )
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
         rmakers.SilenceMask(selector=baca.lts()[pattern]),
+        rmakers.TieSpecifier(repeat_ties=True),
         rmakers.BeamSpecifier(
             beam_each_division=True,
             beam_rests=True,
@@ -51,7 +52,6 @@ def growth(
                 written_duration=(1, 16),
             )
         ],
-        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
     )
 
