@@ -706,7 +706,7 @@ B_Viola_Music_Voice = {                                                        %
     R1 * 7/8                                                                   %! _make_measure_silences
 
     % [B Viola_Music_Voice measure 34 / measure 11]                            %! _comment_measure_numbers
-    ds!2..                                                                     %! baca_make_repeat_tied_notes
+    ds!2..                                                                     %! baca.make_repeat_tied_notes
     ^ \markup { tasto }                                                        %! baca.markup:IndicatorCommand
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1086,7 +1086,7 @@ B_Cello_Music_Voice = {                                                        %
     R1 * 7/8                                                                   %! _make_measure_silences
 
     % [B Cello_Music_Voice measure 34 / measure 11]                            %! _comment_measure_numbers
-    cs,!2..                                                                    %! baca_make_repeat_tied_notes
+    cs,!2..                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \markup { tasto }                                                        %! baca.markup:IndicatorCommand

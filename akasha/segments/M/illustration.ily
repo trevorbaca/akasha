@@ -673,37 +673,37 @@ M_Violin_I_Music_Voice = {                                                     %
     R1 * 5/4                                                                   %! _make_measure_silences
 
     % [M Violin_I_Music_Voice measure 346 / measure 7]                         %! _comment_measure_numbers
-    bf'!2.                                                                     %! baca_make_repeat_tied_notes
+    bf'!2.                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \markup { "tasto + XFB" }                                                %! baca.markup:IndicatorCommand
 
     % [M Violin_I_Music_Voice measure 347 / measure 8]                         %! _comment_measure_numbers
-    bf'!2.                                                                     %! baca_make_repeat_tied_notes
+    bf'!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_I_Music_Voice measure 348 / measure 9]                         %! _comment_measure_numbers
-    bf'!1.                                                                     %! baca_make_repeat_tied_notes
+    bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [M Violin_I_Music_Voice measure 349 / measure 10]                        %! _comment_measure_numbers
-    bf'!1.                                                                     %! baca_make_repeat_tied_notes
+    bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [M Violin_I_Music_Voice measure 350 / measure 11]                        %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [M Violin_I_Music_Voice measure 351 / measure 12]                        %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [M Violin_I_Music_Voice measure 352 / measure 13]                        %! _comment_measure_numbers
-    bf'!1.                                                                     %! baca_make_repeat_tied_notes
+    bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -714,13 +714,13 @@ M_Violin_I_Music_Voice = {                                                     %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 353 / measure 14]                        %! _comment_measure_numbers
-    bf'!1.                                                                     %! baca_make_repeat_tied_notes
+    bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 354 / measure 15]                        %! _comment_measure_numbers
-    bf'!2.                                                                     %! baca_make_repeat_tied_notes
+    bf'!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -730,7 +730,7 @@ M_Violin_I_Music_Voice = {                                                     %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 355 / measure 16]                        %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
@@ -749,12 +749,12 @@ M_Violin_I_Music_Voice = {                                                     %
     \repeatTie
 
     % [M Violin_I_Music_Voice measure 357 / measure 18]                        %! _comment_measure_numbers
-    bf'!2.                                                                     %! baca_make_repeat_tied_notes
+    bf'!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 358 / measure 19]                        %! _comment_measure_numbers
-    bf'!2.                                                                     %! baca_make_repeat_tied_notes
+    bf'!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -764,11 +764,11 @@ M_Violin_I_Music_Voice = {                                                     %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 359 / measure 20]                        %! _comment_measure_numbers
-    bf'!2.                                                                     %! baca_make_repeat_tied_notes
+    bf'!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_I_Music_Voice measure 360 / measure 21]                        %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
@@ -781,7 +781,7 @@ M_Violin_I_Music_Voice = {                                                     %
     \repeatTie
 
     % [M Violin_I_Music_Voice measure 362 / measure 23]                        %! _comment_measure_numbers
-    bf'!1.                                                                     %! baca_make_repeat_tied_notes
+    bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -792,13 +792,13 @@ M_Violin_I_Music_Voice = {                                                     %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 363 / measure 24]                        %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 364 / measure 25]                        %! _comment_measure_numbers
-    bf'!1.                                                                     %! baca_make_repeat_tied_notes
+    bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -809,13 +809,13 @@ M_Violin_I_Music_Voice = {                                                     %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 365 / measure 26]                        %! _comment_measure_numbers
-    bf'!1.                                                                     %! baca_make_repeat_tied_notes
+    bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 366 / measure 27]                        %! _comment_measure_numbers
-    bf'!1.                                                                     %! baca_make_repeat_tied_notes
+    bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -826,7 +826,7 @@ M_Violin_I_Music_Voice = {                                                     %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 367 / measure 28]                        %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
@@ -961,33 +961,33 @@ M_Violin_II_Music_Voice = {                                                    %
     R1 * 5/4                                                                   %! _make_measure_silences
 
     % [M Violin_II_Music_Voice measure 346 / measure 7]                        %! _comment_measure_numbers
-    bf!2.                                                                      %! baca_make_repeat_tied_notes
+    bf!2.                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \markup { "tasto + XFB" }                                                %! baca.markup:IndicatorCommand
 
     % [M Violin_II_Music_Voice measure 347 / measure 8]                        %! _comment_measure_numbers
-    bf!2.                                                                      %! baca_make_repeat_tied_notes
+    bf!2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 348 / measure 9]                        %! _comment_measure_numbers
-    bf!1.                                                                      %! baca_make_repeat_tied_notes
+    bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 349 / measure 10]                       %! _comment_measure_numbers
-    bf!1.                                                                      %! baca_make_repeat_tied_notes
+    bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 350 / measure 11]                       %! _comment_measure_numbers
-    bf!1                                                                       %! baca_make_repeat_tied_notes
+    bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 351 / measure 12]                       %! _comment_measure_numbers
-    bf!1                                                                       %! baca_make_repeat_tied_notes
+    bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 352 / measure 13]                       %! _comment_measure_numbers
-    bf!1.                                                                      %! baca_make_repeat_tied_notes
+    bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -997,12 +997,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_II_Music_Voice measure 353 / measure 14]                       %! _comment_measure_numbers
-    bf!1.                                                                      %! baca_make_repeat_tied_notes
+    bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 354 / measure 15]                       %! _comment_measure_numbers
-    bf!2.                                                                      %! baca_make_repeat_tied_notes
+    bf!2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1012,7 +1012,7 @@ M_Violin_II_Music_Voice = {                                                    %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_II_Music_Voice measure 355 / measure 16]                       %! _comment_measure_numbers
-    bf!1                                                                       %! baca_make_repeat_tied_notes
+    bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
@@ -1030,12 +1030,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 357 / measure 18]                       %! _comment_measure_numbers
-    bf!2.                                                                      %! baca_make_repeat_tied_notes
+    bf!2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 358 / measure 19]                       %! _comment_measure_numbers
-    bf!2.                                                                      %! baca_make_repeat_tied_notes
+    bf!2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1045,11 +1045,11 @@ M_Violin_II_Music_Voice = {                                                    %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_II_Music_Voice measure 359 / measure 20]                       %! _comment_measure_numbers
-    bf!2.                                                                      %! baca_make_repeat_tied_notes
+    bf!2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 360 / measure 21]                       %! _comment_measure_numbers
-    bf!1                                                                       %! baca_make_repeat_tied_notes
+    bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 361 / measure 22]                       %! _comment_measure_numbers
@@ -1061,7 +1061,7 @@ M_Violin_II_Music_Voice = {                                                    %
     \repeatTie
 
     % [M Violin_II_Music_Voice measure 362 / measure 23]                       %! _comment_measure_numbers
-    bf!1.                                                                      %! baca_make_repeat_tied_notes
+    bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1071,12 +1071,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_II_Music_Voice measure 363 / measure 24]                       %! _comment_measure_numbers
-    bf!1                                                                       %! baca_make_repeat_tied_notes
+    bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 364 / measure 25]                       %! _comment_measure_numbers
-    bf!1.                                                                      %! baca_make_repeat_tied_notes
+    bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1086,12 +1086,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_II_Music_Voice measure 365 / measure 26]                       %! _comment_measure_numbers
-    bf!1.                                                                      %! baca_make_repeat_tied_notes
+    bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 366 / measure 27]                       %! _comment_measure_numbers
-    bf!1.                                                                      %! baca_make_repeat_tied_notes
+    bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1101,7 +1101,7 @@ M_Violin_II_Music_Voice = {                                                    %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Violin_II_Music_Voice measure 367 / measure 28]                       %! _comment_measure_numbers
-    bf!1                                                                       %! baca_make_repeat_tied_notes
+    bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
@@ -1235,33 +1235,33 @@ M_Viola_Music_Voice = {                                                        %
     R1 * 5/4                                                                   %! _make_measure_silences
 
     % [M Viola_Music_Voice measure 346 / measure 7]                            %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \markup { "tasto + XFB" }                                                %! baca.markup:IndicatorCommand
 
     % [M Viola_Music_Voice measure 347 / measure 8]                            %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Viola_Music_Voice measure 348 / measure 9]                            %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Viola_Music_Voice measure 349 / measure 10]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Viola_Music_Voice measure 350 / measure 11]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Viola_Music_Voice measure 351 / measure 12]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Viola_Music_Voice measure 352 / measure 13]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1271,12 +1271,12 @@ M_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Viola_Music_Voice measure 353 / measure 14]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 354 / measure 15]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1286,7 +1286,7 @@ M_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Viola_Music_Voice measure 355 / measure 16]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
@@ -1304,12 +1304,12 @@ M_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     % [M Viola_Music_Voice measure 357 / measure 18]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 358 / measure 19]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1319,11 +1319,11 @@ M_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Viola_Music_Voice measure 359 / measure 20]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Viola_Music_Voice measure 360 / measure 21]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Viola_Music_Voice measure 361 / measure 22]                           %! _comment_measure_numbers
@@ -1335,7 +1335,7 @@ M_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     % [M Viola_Music_Voice measure 362 / measure 23]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1345,12 +1345,12 @@ M_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Viola_Music_Voice measure 363 / measure 24]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 364 / measure 25]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1360,12 +1360,12 @@ M_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Viola_Music_Voice measure 365 / measure 26]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 366 / measure 27]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trans."                                    %! baca.text_spanner:PiecewiseCommand(1)
@@ -1375,7 +1375,7 @@ M_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [M Viola_Music_Voice measure 367 / measure 28]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
@@ -1483,19 +1483,19 @@ M_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [M Cello_Music_Voice measure 341 / measure 2]                            %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 342 / measure 3]                            %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 343 / measure 4]                            %! _comment_measure_numbers
-    bf,,!1                                                                     %! baca_make_repeat_tied_notes
+    bf,,!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 344 / measure 5]                            %! _comment_measure_numbers
-    bf,,!1                                                                     %! baca_make_repeat_tied_notes
+    bf,,!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 345 / measure 6]                            %! _comment_measure_numbers
@@ -1506,22 +1506,22 @@ M_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [M Cello_Music_Voice measure 346 / measure 7]                            %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
 
     % [M Cello_Music_Voice measure 347 / measure 8]                            %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 348 / measure 9]                            %! _comment_measure_numbers
-    bf,,!1.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!1.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 349 / measure 10]                           %! _comment_measure_numbers
-    bf,,!1.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!1.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1549,21 +1549,21 @@ M_Cello_Music_Voice = {                                                        %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [M Cello_Music_Voice measure 352 / measure 13]                           %! _comment_measure_numbers
-    bf,,!1.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!1.                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \markup { "vib. poco" }                                                  %! baca.markup:IndicatorCommand
 
     % [M Cello_Music_Voice measure 353 / measure 14]                           %! _comment_measure_numbers
-    bf,,!1.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!1.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 354 / measure 15]                           %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 355 / measure 16]                           %! _comment_measure_numbers
-    bf,,!1                                                                     %! baca_make_repeat_tied_notes
+    bf,,!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 356 / measure 17]                           %! _comment_measure_numbers
@@ -1574,11 +1574,11 @@ M_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [M Cello_Music_Voice measure 357 / measure 18]                           %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 358 / measure 19]                           %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
@@ -1588,11 +1588,11 @@ M_Cello_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 359 / measure 20]                           %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 360 / measure 21]                           %! _comment_measure_numbers
-    bf,,!1                                                                     %! baca_make_repeat_tied_notes
+    bf,,!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 361 / measure 22]                           %! _comment_measure_numbers
@@ -1603,11 +1603,11 @@ M_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [M Cello_Music_Voice measure 362 / measure 23]                           %! _comment_measure_numbers
-    bf,,!1.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!1.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [M Cello_Music_Voice measure 363 / measure 24]                           %! _comment_measure_numbers
-    bf,,!1                                                                     %! baca_make_repeat_tied_notes
+    bf,,!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
