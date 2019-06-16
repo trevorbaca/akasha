@@ -350,7 +350,7 @@ L_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
@@ -388,7 +388,7 @@ L_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [L Viola_Music_Voice measure 336 / measure 3]                            %! _comment_measure_numbers
-    c'1.                                                                       %! baca_make_repeat_tied_notes
+    c'1.                                                                       %! baca.make_repeat_tied_notes
     - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -523,14 +523,14 @@ L_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    bf,,!1.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!1.                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \markup { "pos. ord. + vib. poco" }                                      %! baca.markup:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [L Cello_Music_Voice measure 339 / measure 6]                            %! _comment_measure_numbers
-    bf,,!2.                                                                    %! baca_make_repeat_tied_notes
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
