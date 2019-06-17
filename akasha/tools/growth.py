@@ -37,6 +37,7 @@ def growth(
     )
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
+        rmakers.TupletSpecifier(duration_bracket=True),
         rmakers.SilenceMask(selector=baca.lts()[pattern]),
         rmakers.TieSpecifier(repeat_ties=True),
         rmakers.BeamSpecifier(
@@ -52,7 +53,6 @@ def growth(
                 written_duration=(1, 16),
             )
         ],
-        tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
     )
 
     rhythm_maker: rmakers.RhythmMaker
