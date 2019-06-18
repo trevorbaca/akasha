@@ -822,7 +822,7 @@ B_Cello_Music_Voice = {                                                        %
 
         b32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         bf!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -835,7 +835,7 @@ B_Cello_Music_Voice = {                                                        %
 
         af!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         a32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -852,7 +852,7 @@ B_Cello_Music_Voice = {                                                        %
 
         bf!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         af!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -862,7 +862,7 @@ B_Cello_Music_Voice = {                                                        %
 
         fs!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r32                                                                    %! akasha.sparse_getato_rhythm
 
@@ -874,7 +874,7 @@ B_Cello_Music_Voice = {                                                        %
 
         g32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         f32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -890,17 +890,17 @@ B_Cello_Music_Voice = {                                                        %
 
         g32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! akasha.sparse_getato_rhythm
 
     fs!32                                                                      %! akasha.sparse_getato_rhythm
     - \staccato                                                                %! baca.staccato:IndicatorCommand
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g32                                                                        %! akasha.sparse_getato_rhythm
     - \staccato                                                                %! baca.staccato:IndicatorCommand
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16
 
@@ -908,17 +908,17 @@ B_Cello_Music_Voice = {                                                        %
 
     af!32                                                                      %! akasha.sparse_getato_rhythm
     - \staccato                                                                %! baca.staccato:IndicatorCommand
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a32                                                                        %! akasha.sparse_getato_rhythm
     - \staccato                                                                %! baca.staccato:IndicatorCommand
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5 {                                                               %! akasha.sparse_getato_rhythm
 
         g32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         af!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -934,7 +934,7 @@ B_Cello_Music_Voice = {                                                        %
 
         f32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! akasha.sparse_getato_rhythm
 
@@ -989,7 +989,7 @@ B_Cello_Music_Voice = {                                                        %
 
         e32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -999,7 +999,7 @@ B_Cello_Music_Voice = {                                                        %
 
         ef!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r32                                                                    %! akasha.sparse_getato_rhythm
 

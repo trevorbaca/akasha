@@ -939,14 +939,14 @@ A_Violin_II_Music_Voice = {                                                    %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \staccato                                                            %! baca.staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca.markup:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         bf!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8.                                                                    %! akasha.sparse_getato_rhythm
 
@@ -958,11 +958,11 @@ A_Violin_II_Music_Voice = {                                                    %
 
         a32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         af!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! akasha.sparse_getato_rhythm
 
@@ -1515,14 +1515,14 @@ A_Viola_Music_Voice = {                                                        %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \staccato                                                            %! baca.staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca.markup:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         a32                                                                    %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         bf!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r16                                                                    %! akasha.sparse_getato_rhythm
 
@@ -1626,13 +1626,13 @@ A_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     dqs'!8
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     dqs'!8
     \repeatTie
 
     ds'!8                                                                      %! akasha.polyphony_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [A Viola_Music_Voice measure 15 / measure 12]                            %! _comment_measure_numbers
     ds'!2.                                                                     %! akasha.polyphony_rhythm
@@ -1875,13 +1875,13 @@ A_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     g8
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g8
     \repeatTie
 
     a8                                                                         %! akasha.polyphony_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [A Cello_Music_Voice measure 16 / measure 13]                            %! _comment_measure_numbers
     a2.                                                                        %! akasha.polyphony_rhythm
@@ -1919,11 +1919,11 @@ A_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     b8
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b8
     \repeatTie
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! akasha.polyphony_rhythm
 
@@ -1966,11 +1966,11 @@ A_Cello_Music_Voice = {                                                        %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \staccato                                                            %! baca.staccato:IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }           %! baca.markup:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         cs'!32                                                                 %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! akasha.sparse_getato_rhythm
 
