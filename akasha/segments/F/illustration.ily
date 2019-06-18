@@ -4342,10 +4342,10 @@ F_Viola_Music_Voice = {                                                        %
 
     gs!8.                                                                      %! akasha.manifest
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a16                                                                        %! akasha.manifest
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a2                                                                         %! akasha.manifest
     \repeatTie
@@ -4353,10 +4353,10 @@ F_Viola_Music_Voice = {                                                        %
     % [F Viola_Music_Voice measure 163 / measure 12]                           %! _comment_measure_numbers
     a8                                                                         %! akasha.manifest
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b8                                                                         %! akasha.manifest
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b2                                                                         %! akasha.manifest
     \repeatTie
@@ -4414,10 +4414,10 @@ F_Viola_Music_Voice = {                                                        %
 
     cqs'!8.                                                                    %! akasha.manifest
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! akasha.manifest
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'2                                                                        %! akasha.manifest
     \repeatTie
@@ -5577,10 +5577,10 @@ F_Cello_Music_Voice = {                                                        %
     % [F Cello_Music_Voice measure 165 / measure 14]                           %! _comment_measure_numbers
     f,8.                                                                       %! akasha.manifest
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     fqs,!16                                                                    %! akasha.manifest
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     fqs,!2.                                                                    %! akasha.manifest
     \repeatTie
