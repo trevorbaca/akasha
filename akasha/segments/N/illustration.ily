@@ -729,14 +729,14 @@ N_Violin_II_Music_Voice = {                                                    %
         \baca-pp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \staccato                                                            %! baca.staccato:IndicatorCommand
         ^ \markup { leggieriss. }                                              %! baca.markup:IndicatorCommand
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         e'''32                                                                 %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
         f'''32                                                                 %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         r16                                                                    %! akasha.sparse_getato_rhythm
 
