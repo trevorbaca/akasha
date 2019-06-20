@@ -8,7 +8,6 @@ from .perforated_counts import perforated_counts
 def sparse_getato_rhythm(
     *specifiers,
     degree: int = 1,
-    dmask: rmakers.MasksTyping = None,
     extra_counts: abjad.IntegerSequence = [1],
     rotation: int = None,
 ) -> baca.RhythmCommand:
@@ -24,7 +23,6 @@ def sparse_getato_rhythm(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
             rmakers.BeamSpecifier(beam_each_division=True),
-            division_masks=dmask,
             extra_counts_per_division=extra_counts,
             talea=rmakers.Talea(
                 counts=perforated_counts(degree=degree, rotation=rotation),
