@@ -64,17 +64,21 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (1, 16)),
     baca.make_notes(
-        dmask=rmakers.silence([1], 2),
-        repeat_ties=True,
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([1], 2)],
         ),
-    )
+        repeat_ties=True,
+    ),
+)
 
 maker(
     ('v2', (9, 24)),
     akasha.sparse_getato_rhythm(
-        dmask=~rmakers.silence([3, 36, 37]),
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[abjad.index([3, 36, 37], inverted=True)],
         ),
-    )
+    ),
+)
 
 maker(
     (['v1', 'va', 'vc'], (1, 24)),

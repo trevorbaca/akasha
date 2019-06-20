@@ -6,7 +6,7 @@ from abjadext import rmakers
 def dense_getato_rhythm(
     fuse_counts: abjad.IntegerSequence,
     extra_counts_per_division: abjad.IntegerSequence,
-    *,
+    *specifiers: rmakers.SpecifierTyping,
     dmask: rmakers.MasksTyping = None,
 ) -> baca.RhythmCommand:
     """
@@ -18,6 +18,8 @@ def dense_getato_rhythm(
     return baca.rhythm(
         divisions=divisions,
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
+            *specifiers,
+            rmakers.TupletSpecifier(rewrite_rest_filled=True),
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             burnish_specifier=rmakers.BurnishSpecifier(

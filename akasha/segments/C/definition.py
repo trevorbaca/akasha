@@ -130,7 +130,7 @@ maker(
 maker(
     ('v2', (25, 26)),
     baca.make_repeat_tied_notes(
-        dmask=rmakers.silence([0]),
+        rmakers.SilenceMask(selector=baca.lt(0)),
         ),
     )
 
