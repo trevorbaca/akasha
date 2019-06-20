@@ -55,9 +55,11 @@ maker(
 maker(
     ('v2', 4),
     akasha.sparse_getato_rhythm(
-        dmask=rmakers.silence([0, 1], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[2:],
         ),
-    )
+    ),
+)
 
 maker(
     ('va', 1),
@@ -67,9 +69,11 @@ maker(
 maker(
     ('va', 4),
     akasha.sparse_getato_rhythm(
-        dmask=rmakers.silence([-1], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[:-1],
         ),
-    )
+    ),
+)
 
 maker(
     (['v1', 'v2', 'va'], (6, 7)),
@@ -107,9 +111,11 @@ maker(
 maker(
     ('v1', 9),
     akasha.sparse_getato_rhythm(
-        dmask=rmakers.silence([-2, -1], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[:-2],
         ),
-    )
+    ),
+)
 
 maker(
     ('v2', 9),
@@ -147,10 +153,12 @@ maker(
 maker(
     ('v1', (11, 13)),
     akasha.accelerando_rhythm(
+        rmakers.SilenceMask(selector=baca.tuplet(0)),
+        rmakers.TupletSpecifier(rewrite_rest_filled=True),
+        rmakers.TupletSpecifier(extract_trivial=True),
         rmakers.SilenceMask(
             selector=baca.lts()[abjad.index([3, 5, 7, 9])],
         ),
-        dmask=rmakers.silence([0]),
     ),
     baca.dynamic('pp'),
     baca.markup('tasto + XFB'),
@@ -159,10 +167,12 @@ maker(
 maker(
     ('v2', (11, 13)),
     akasha.ritardando_rhythm(
+        rmakers.SilenceMask(selector=baca.tuplet(0)),
+        rmakers.TupletSpecifier(rewrite_rest_filled=True),
+        rmakers.TupletSpecifier(extract_trivial=True),
         rmakers.SilenceMask(
             selector=baca.lts()[abjad.index([2, 5, 7])],
         ),
-        dmask=rmakers.silence([0]),
         ),
     baca.dynamic('pp'),
     baca.markup('tasto + XFB'),
@@ -266,9 +276,11 @@ maker(
 maker(
     ('vc', 19),
     akasha.sparse_getato_rhythm(
-        dmask=rmakers.silence([1], inverted=True),
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[abjad.index([1], inverted=True)],
         ),
-    )
+    ),
+)
 
 maker(
     baca.timeline([('v2', 4), ('va', 4), ('v1', 9), ('vc', 19)]),

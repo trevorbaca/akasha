@@ -6,7 +6,7 @@ from .perforated_counts import perforated_counts
 
 
 def sparse_getato_rhythm(
-    *,
+    *specifiers,
     degree: int = 1,
     dmask: rmakers.MasksTyping = None,
     extra_counts: abjad.IntegerSequence = [1],
@@ -19,6 +19,7 @@ def sparse_getato_rhythm(
         divisions=baca.divisions().map(baca.divisions().quarters()),
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            *specifiers,
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
