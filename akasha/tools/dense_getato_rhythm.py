@@ -7,7 +7,6 @@ def dense_getato_rhythm(
     fuse_counts: abjad.IntegerSequence,
     extra_counts_per_division: abjad.IntegerSequence,
     *specifiers: rmakers.SpecifierTyping,
-    dmask: rmakers.MasksTyping = None,
 ) -> baca.RhythmCommand:
     """
     Makes dense getato rhythm.
@@ -26,7 +25,6 @@ def dense_getato_rhythm(
                 left_classes=[abjad.Rest], left_counts=[1]
             ),
             denominators=[16],
-            division_masks=dmask,
             extra_counts_per_division=extra_counts_per_division,
         ),
         tag="akasha.dense_getato_rhythm",

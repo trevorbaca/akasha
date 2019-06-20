@@ -6,7 +6,6 @@ from abjadext import rmakers
 def accelerando_rhythm(
     *specifiers,
     divisions: abjad.Expression = None,
-    dmask: rmakers.MasksTyping = None,
     fuse_counts: abjad.IntegerSequence = (1, 2),
 ) -> baca.RhythmCommand:
     """
@@ -31,7 +30,6 @@ def accelerando_rhythm(
                 stemlet_length=0.75,
                 use_feather_beams=True,
             ),
-            division_masks=dmask,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=(1, 2),
