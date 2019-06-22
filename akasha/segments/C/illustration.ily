@@ -1080,7 +1080,7 @@ C_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    r1.                                                                        %! baca.make_repeat_tied_notes
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [C Violin_II_Music_Voice measure 60 / measure 26]                        %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)

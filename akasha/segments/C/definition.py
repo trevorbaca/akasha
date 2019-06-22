@@ -128,10 +128,8 @@ maker(
     )
 
 maker(
-    ('v2', (25, 26)),
-    baca.make_repeat_tied_notes(
-        rmakers.SilenceMask(selector=baca.lt(0)),
-        ),
+    ('v2', 26),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
