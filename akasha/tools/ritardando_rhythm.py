@@ -24,8 +24,8 @@ def ritardando_rhythm(
             *specifiers,
             rmakers.TupletSpecifier(duration_bracket=True),
             rmakers.BeamSpecifier(
-                beam_each_division=True,
                 beam_rests=True,
+                selector=baca.tuplets(),
                 stemlet_length=0.75,
                 use_feather_beams=True,
             ),
