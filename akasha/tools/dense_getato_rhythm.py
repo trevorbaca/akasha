@@ -18,9 +18,9 @@ def dense_getato_rhythm(
         divisions=divisions,
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(rewrite_rest_filled=True),
             rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
             burnish_specifier=rmakers.BurnishSpecifier(
                 left_classes=[abjad.Rest], left_counts=[1]
             ),
