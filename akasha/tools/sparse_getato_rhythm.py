@@ -14,15 +14,16 @@ def sparse_getato_rhythm(
     """
     Makes sparse getato rhythm.
     """
+    quarters = baca.divisions().quarters()
     return baca.rhythm(
-        divisions=baca.divisions().map(baca.divisions().quarters()),
-        rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
+            rmakers.RewriteMeterCommand(),
+            divisions=baca.divisions().map(quarters).flatten(depth=-1),
             extra_counts_per_division=extra_counts,
             talea=rmakers.Talea(
                 counts=perforated_counts(degree=degree, rotation=rotation),
