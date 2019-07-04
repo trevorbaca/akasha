@@ -112,7 +112,7 @@ i_Violin_I_Music_Voice = {                                                     %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:IndicatorCommand
 
     % [_ Violin_I_Music_Voice measure 2]                                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 6/8                                                                   %! _call_rhythm_commands
 
     % [_ Violin_I_Music_Voice measure 3]                                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -187,7 +187,7 @@ i_Violin_II_Music_Voice = {                                                    %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:IndicatorCommand
 
     % [_ Violin_II_Music_Voice measure 2]                                      %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 6/8                                                                   %! _call_rhythm_commands
 
     % [_ Violin_II_Music_Voice measure 3]                                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -364,7 +364,7 @@ i_Cello_Music_Voice = {                                                        %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:IndicatorCommand
 
     % [_ Cello_Music_Voice measure 2]                                          %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 6/8                                                                   %! _call_rhythm_commands
 
     % [_ Cello_Music_Voice measure 3]                                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
