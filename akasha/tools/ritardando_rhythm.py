@@ -15,11 +15,8 @@ def ritardando_rhythm(
             [1, 2], cyclic=True, overhang=True
         )
         divisions = divisions.map(baca.divisions().fuse())
-        assert divisions is not None
-        divisions = divisions.flatten(depth=-1)
 
     return baca.rhythm(
-        divisions=divisions,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             *specifiers,
             rmakers.TupletSpecifier(duration_bracket=True),
@@ -29,6 +26,7 @@ def ritardando_rhythm(
                 stemlet_length=0.75,
                 use_feather_beams=True,
             ),
+            divisions=divisions,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=(1, 8),
@@ -41,6 +39,6 @@ def ritardando_rhythm(
                     written_duration=(1, 16),
                 ),
             ],
-        ),
-        tag="akasha.ritardando_rhythm",
+            tag="akasha.ritardando_rhythm",
+        )
     )

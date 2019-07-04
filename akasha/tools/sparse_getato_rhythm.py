@@ -23,12 +23,12 @@ def sparse_getato_rhythm(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
             rmakers.RewriteMeterCommand(),
-            divisions=baca.divisions().map(quarters).flatten(depth=-1),
+            divisions=baca.divisions().map(quarters),
             extra_counts_per_division=extra_counts,
+            tag="akasha.sparse_getato_rhythm",
             talea=rmakers.Talea(
                 counts=perforated_counts(degree=degree, rotation=rotation),
                 denominator=32,
             ),
-        ),
-        tag="akasha.sparse_getato_rhythm",
+        )
     )

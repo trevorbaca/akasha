@@ -97,8 +97,8 @@ maker(
     )
 
 maker(
-    ('v2', [(38, 41), (43, 46)]),
-    akasha.fill_first_half(),
+    ('v2', [(38, 39), (43, 44)]),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(

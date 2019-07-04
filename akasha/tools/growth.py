@@ -14,6 +14,7 @@ def growth(
     Makes growth talea rhythm.
     """
 
+    tag = "akasha.growth"
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
 
@@ -33,6 +34,7 @@ def growth(
         rmakers.BeamSpecifier(selector=baca.tuplets()),
         rmakers.TupletSpecifier(extract_trivial=True),
         extra_counts_per_division=extra_counts,
+        tag=tag,
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
     )
 
@@ -53,6 +55,7 @@ def growth(
                 written_duration=(1, 16),
             )
         ],
+        tag=tag,
     )
 
     rhythm_maker: rmakers.RhythmMaker
@@ -62,7 +65,7 @@ def growth(
         rhythm_maker = talea_rhythm_maker
 
     return baca.rhythm(
+        # TODO: replace:
         divisions=divisions(index, accelerando),
         rhythm_maker=rhythm_maker,
-        tag="akasha.growth",
     )
