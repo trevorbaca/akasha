@@ -16,11 +16,9 @@ def accelerando_rhythm(
         expression = baca.sequence().partition_by_counts(
             fuse_counts, cyclic=True, overhang=True
         )
-        expression = expression.map(baca.sequence().sum()).flatten(depth=-1)
-        divisions = expression
+        divisions = expression.map(baca.sequence().sum())
 
     return baca.rhythm(
-        divisions=divisions,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             *specifiers,
             rmakers.TupletSpecifier(duration_bracket=True),
@@ -30,6 +28,7 @@ def accelerando_rhythm(
                 stemlet_length=0.75,
                 use_feather_beams=True,
             ),
+            divisions=divisions,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=(1, 2),
@@ -43,5 +42,5 @@ def accelerando_rhythm(
                 ),
             ],
             tag="akasha.accelerando_rhythm",
-        ),
+        )
     )

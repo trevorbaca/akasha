@@ -30,7 +30,7 @@ def manifest(these_counts: abjad.IntegerSequence) -> baca.RhythmCommand:
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=baca.divisions().fuse().quarters().flatten(depth=-1),
             read_talea_once_only=True,
+            tag="akasha.manifest",
             talea=rmakers.Talea(counts=these_counts, denominator=16),
-        ),
-        tag="akasha.manifest",
+        )
     )

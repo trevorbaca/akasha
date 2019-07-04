@@ -17,6 +17,6 @@ def scratch_rhythm(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             denominators=denominators,
             extra_counts_per_division=extra_counts,
-        ),
-        tag="akasha.scratch_rhythm",
+            tag="akasha.scratch_rhythm",
+        )
     )

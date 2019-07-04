@@ -15,7 +15,6 @@ def dense_getato_rhythm(
     divisions = baca.divisions().map(quarters).flatten(depth=-1)
     divisions = divisions.fuse(fuse_counts, cyclic=True)
     return baca.rhythm(
-        divisions=divisions,
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
@@ -25,7 +24,8 @@ def dense_getato_rhythm(
                 left_classes=[abjad.Rest], left_counts=[1]
             ),
             denominators=[16],
+            divisions=divisions,
             extra_counts_per_division=extra_counts_per_division,
-        ),
-        tag="akasha.dense_getato_rhythm",
+            tag="akasha.dense_getato_rhythm",
+        )
     )

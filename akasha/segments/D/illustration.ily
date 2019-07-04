@@ -1707,14 +1707,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 99 / measure 38]                        %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
-    g''2.                                                                      %! akasha.fill_first_half
+    g''2.                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \markup { tasto }                                                        %! baca.markup:IndicatorCommand
     \startTrillSpan a''                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [D Violin_II_Music_Voice measure 100 / measure 39]                       %! _comment_measure_numbers
-    g''2..                                                                     %! akasha.fill_first_half
+    g''2..                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1747,7 +1747,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 104 / measure 43]                       %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
-    g''1                                                                       %! akasha.fill_first_half
+    g''1                                                                       %! baca.make_repeat_tied_notes
     \startTrillSpan a''                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [D Violin_II_Music_Voice measure 105 / measure 44]                       %! _comment_measure_numbers
