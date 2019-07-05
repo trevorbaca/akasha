@@ -10,6 +10,7 @@ def viola_ob_rhythm(*, rotation: int = None) -> baca.RhythmCommand:
     divisions = baca.sequence([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
     divisions = divisions.rotate(n=rotation)
     divisions = baca.divisions().fuse().split(divisions, cyclic=True)
+
     return baca.rhythm(
         rhythm_maker=rmakers.NoteRhythmMaker(
             rmakers.SilenceMask(selector=baca.leaves()[abjad.index([0, -1])]),

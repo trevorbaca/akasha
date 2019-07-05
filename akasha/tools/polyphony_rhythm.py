@@ -9,6 +9,7 @@ def polyphony_rhythm(*specifiers, rotation: int = 0) -> baca.RhythmCommand:
     """
     counts = abjad.sequence([4, 14, 4, 6, 18])
     counts = counts.rotate(n=rotation)
+
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,

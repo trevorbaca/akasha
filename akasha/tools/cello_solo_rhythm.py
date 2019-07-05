@@ -8,6 +8,7 @@ def cello_solo_rhythm(rotation: int = None) -> baca.RhythmCommand:
     Makes cello solo rhythm.
     """
     counts = abjad.sequence([7, 1, 10, 2]).rotate(n=rotation)
+
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
