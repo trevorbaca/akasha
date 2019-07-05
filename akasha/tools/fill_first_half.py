@@ -15,6 +15,6 @@ def fill_first_half() -> baca.RhythmCommand:
             ),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
+            tag="akasha.fill_first_half",
         ),
-        tag="akasha.fill_first_half",
     )

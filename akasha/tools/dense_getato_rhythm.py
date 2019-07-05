@@ -14,6 +14,7 @@ def dense_getato_rhythm(
     quarters = baca.divisions().quarters(compound=(3, 2))
     divisions = baca.divisions().map(quarters).flatten(depth=-1)
     divisions = divisions.fuse(fuse_counts, cyclic=True)
+
     return baca.rhythm(
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             *specifiers,

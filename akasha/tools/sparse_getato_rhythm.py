@@ -14,7 +14,6 @@ def sparse_getato_rhythm(
     """
     Makes sparse getato rhythm.
     """
-    quarters = baca.divisions().quarters()
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
@@ -23,7 +22,7 @@ def sparse_getato_rhythm(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
             rmakers.RewriteMeterCommand(),
-            divisions=baca.divisions().map(quarters),
+            divisions=baca.divisions().map(baca.divisions().quarters()),
             extra_counts_per_division=extra_counts,
             tag="akasha.sparse_getato_rhythm",
             talea=rmakers.Talea(
