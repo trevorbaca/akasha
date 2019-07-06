@@ -18,7 +18,7 @@ def growth(
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
 
-    def divisions(index, accelerando):
+    def _divisions(index, accelerando):
         ratio = abjad.Ratio(division_ratio)
         expression = baca.divisions().fuse().split([(1, 4)], cyclic=True)
         expression = expression.flatten(depth=-1)
@@ -27,6 +27,8 @@ def growth(
         if accelerando:
             expression = expression.fuse()
         return expression
+
+    divisions = _divisions(index, accelerando)
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
         rmakers.TieSpecifier(repeat_ties=True),
@@ -66,6 +68,6 @@ def growth(
 
     return baca.rhythm(
         # TODO: replace:
-        divisions=divisions(index, accelerando),
+        divisions=divisions,
         rhythm_maker=rhythm_maker,
     )
