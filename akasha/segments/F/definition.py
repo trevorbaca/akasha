@@ -157,6 +157,17 @@ maker(
     akasha.growth(5, 1, division_ratio, accelerando=True, extra_counts=[1]),
     )
 
+#maker(
+#    ("v1", (11, 22)),
+#    akasha.growth(
+#        division_ratio=(2, 1, 2, 2, 1, 2),
+#        extra_counts=[1],
+#        first_silence=1,
+#        index=None,
+#        special=True,
+#    ),
+#)
+
 division_ratio = (1, 1, 2, 2, 1, 2)
 
 maker(
