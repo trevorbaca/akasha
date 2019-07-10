@@ -55,11 +55,16 @@ def growth(
     )
 
     return baca.rhythm(
-        divisions=divisions,
-        rhythm_maker=rmakers.MakerAssignments(
-            rmakers.MakerAssignment(
-                abjad.DurationInequality(">", (1, 4)), accelerando_rhythm_maker
+        rmakers.RhythmCommand(
+            rmakers.MakerAssignments(
+                rmakers.MakerAssignment(
+                    abjad.DurationInequality(">", (1, 4)),
+                    accelerando_rhythm_maker,
+                ),
+                rmakers.MakerAssignment(
+                    abjad.index([0], 1), talea_rhythm_maker
+                ),
             ),
-            rmakers.MakerAssignment(abjad.index([0], 1), talea_rhythm_maker),
-        ),
+            divisions=divisions,
+        )
     )
