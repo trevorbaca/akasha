@@ -23,14 +23,17 @@ def manifest(these_counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     these_counts = [sum(_) for _ in these_counts]
 
     return baca.rhythm(
-        rhythm_maker=rmakers.TaleaRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TaleaRhythmMaker(
+                read_talea_once_only=True,
+                tag="akasha.manifest",
+                talea=rmakers.Talea(counts=these_counts, denominator=16),
+            ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=baca.divisions().fuse().quarters().flatten(depth=-1),
-            read_talea_once_only=True,
             tag="akasha.manifest",
-            talea=rmakers.Talea(counts=these_counts, denominator=16),
         )
     )
