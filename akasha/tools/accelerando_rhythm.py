@@ -19,7 +19,22 @@ def accelerando_rhythm(
         divisions = expression.map(baca.sequence().sum())
 
     return baca.rhythm(
-        rhythm_maker=rmakers.AccelerandoRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.AccelerandoRhythmMaker(
+                interpolation_specifiers=[
+                    rmakers.InterpolationSpecifier(
+                        start_duration=(1, 2),
+                        stop_duration=(1, 8),
+                        written_duration=(1, 16),
+                    ),
+                    rmakers.InterpolationSpecifier(
+                        start_duration=(1, 8),
+                        stop_duration=(1, 2),
+                        written_duration=(1, 16),
+                    ),
+                ],
+                tag="akasha.accelerando_rhythm",
+            ),
             *specifiers,
             rmakers.TupletSpecifier(duration_bracket=True),
             rmakers.BeamSpecifier(
@@ -29,18 +44,6 @@ def accelerando_rhythm(
                 use_feather_beams=True,
             ),
             divisions=divisions,
-            interpolation_specifiers=[
-                rmakers.InterpolationSpecifier(
-                    start_duration=(1, 2),
-                    stop_duration=(1, 8),
-                    written_duration=(1, 16),
-                ),
-                rmakers.InterpolationSpecifier(
-                    start_duration=(1, 8),
-                    stop_duration=(1, 2),
-                    written_duration=(1, 16),
-                ),
-            ],
             tag="akasha.accelerando_rhythm",
         )
     )

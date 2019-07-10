@@ -16,17 +16,20 @@ def dense_getato_rhythm(
     divisions = divisions.fuse(fuse_counts, cyclic=True)
 
     return baca.rhythm(
-        rhythm_maker=rmakers.EvenDivisionRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.EvenDivisionRhythmMaker(
+                burnish_specifier=rmakers.BurnishSpecifier(
+                    left_classes=[abjad.Rest], left_counts=[1]
+                ),
+                denominators=[16],
+                extra_counts_per_division=extra_counts_per_division,
+                tag="akasha.dense_getato_rhythm",
+            ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(rewrite_rest_filled=True),
             rmakers.TupletSpecifier(extract_trivial=True),
-            burnish_specifier=rmakers.BurnishSpecifier(
-                left_classes=[abjad.Rest], left_counts=[1]
-            ),
-            denominators=[16],
             divisions=divisions,
-            extra_counts_per_division=extra_counts_per_division,
             tag="akasha.dense_getato_rhythm",
         )
     )
