@@ -3,7 +3,6 @@ from .accelerando_rhythm import accelerando_rhythm
 from .cello_solo_pitches import cello_solo_pitches
 from .cello_solo_rhythm import cello_solo_rhythm
 from .dense_getato_rhythm import dense_getato_rhythm
-from .fill_first_half import fill_first_half
 from .getato_pitches import getato_pitches
 from .glissando_rhythm import glissando_rhythm
 from .growth import growth

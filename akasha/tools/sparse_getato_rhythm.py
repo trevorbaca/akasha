@@ -17,7 +17,6 @@ def sparse_getato_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                *specifiers,
                 extra_counts_per_division=extra_counts,
                 tag="akasha.sparse_getato_rhythm",
                 talea=rmakers.Talea(
@@ -25,6 +24,7 @@ def sparse_getato_rhythm(
                     denominator=32,
                 ),
             ),
+            *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
