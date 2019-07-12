@@ -13,7 +13,6 @@ def growth(
     Makes growth rhythm.
     """
 
-    tag = "akasha.growth"
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
 
@@ -39,7 +38,6 @@ def growth(
                 written_duration=(1, 16),
             )
         ],
-        tag=tag,
     )
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
@@ -50,7 +48,6 @@ def growth(
         # rmakers.TieSpecifier(repeat_ties=(1, 4)),
         rmakers.TieSpecifier(repeat_ties=True),
         extra_counts_per_division=extra_counts,
-        tag=tag,
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
     )
 
@@ -66,5 +63,6 @@ def growth(
                 ),
             ),
             divisions=divisions,
-        )
+        ),
+        tag="akasha.growth",
     )
