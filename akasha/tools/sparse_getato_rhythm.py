@@ -18,7 +18,6 @@ def sparse_getato_rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extra_counts,
-                tag="akasha.sparse_getato_rhythm",
                 talea=rmakers.Talea(
                     counts=perforated_counts(degree=degree, rotation=rotation),
                     denominator=32,
@@ -31,6 +30,6 @@ def sparse_getato_rhythm(
             ),
             rmakers.RewriteMeterCommand(),
             divisions=baca.divisions().map(baca.divisions().quarters()),
-            tag="akasha.sparse_getato_rhythm",
-        )
+        ),
+        tag="akasha.sparse_getato_rhythm",
     )

@@ -16,10 +16,9 @@ def scratch_rhythm(
             rmakers.EvenDivisionRhythmMaker(
                 denominators=denominators,
                 extra_counts_per_division=extra_counts,
-                tag="akasha.scratch_rhythm",
             ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
-            tag="akasha.scratch_rhythm",
-        )
+        ),
+        tag="akasha.scratch_rhythm",
     )

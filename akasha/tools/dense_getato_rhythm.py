@@ -23,13 +23,12 @@ def dense_getato_rhythm(
                 ),
                 denominators=[16],
                 extra_counts_per_division=extra_counts_per_division,
-                tag="akasha.dense_getato_rhythm",
             ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(rewrite_rest_filled=True),
             rmakers.TupletSpecifier(extract_trivial=True),
             divisions=divisions,
-            tag="akasha.dense_getato_rhythm",
-        )
+        ),
+        tag="akasha.dense_getato_rhythm",
     )
