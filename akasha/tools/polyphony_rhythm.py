@@ -13,14 +13,13 @@ def polyphony_rhythm(*specifiers, rotation: int = 0) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                tag="akasha.polyphony_rhythm",
-                talea=rmakers.Talea(counts=counts, denominator=16),
+                talea=rmakers.Talea(counts=counts, denominator=16)
             ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
-            tag="akasha.polyphony_rhythm",
-        )
+        ),
+        tag="akasha.polyphony_rhythm",
     )

@@ -32,8 +32,7 @@ def accelerando_rhythm(
                         stop_duration=(1, 2),
                         written_duration=(1, 16),
                     ),
-                ],
-                tag="akasha.accelerando_rhythm",
+                ]
             ),
             *specifiers,
             rmakers.TupletSpecifier(duration_bracket=True),
@@ -44,6 +43,6 @@ def accelerando_rhythm(
                 use_feather_beams=True,
             ),
             divisions=divisions,
-            tag="akasha.accelerando_rhythm",
-        )
+        ),
+        tag="akasha.accelerando_rhythm",
     )
