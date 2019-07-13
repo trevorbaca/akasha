@@ -8,7 +8,7 @@ def getato_pitches(
     start_pitch: abjad.PitchTyping,
     intervals: abjad.IntegerSequence = [0],
     *,
-    direction: abjad.VerticalAlignment = abjad.Up,
+    direction: typing.Union[int, abjad.VerticalAlignment] = abjad.Up,
 ) -> baca.PitchCommand:
     """
     Makes getato pitches.

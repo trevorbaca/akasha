@@ -1,12 +1,13 @@
 import abjad
 import baca
+import typing
 from akasha.materials import getato_intervals
 
 
 def harmonic_glissando_pitches(
     start_pitch: abjad.PitchTyping,
     *,
-    direction: abjad.VerticalAlignment = abjad.Up,
+    direction: typing.Union[int, abjad.VerticalAlignment] = abjad.Up,
     rotation: int = None,
 ) -> baca.PitchCommand:
     """
