@@ -38,9 +38,7 @@ maker(
     ('v2', 1),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([-1], inverted=True)],
-        ),
+        rmakers.SilenceMask(baca.lts()[abjad.index([-1], inverted=True)]),
         extra_counts=[-2]
         ),
     )
@@ -49,9 +47,7 @@ maker(
     ('vc', 1),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([1], inverted=True)],
-        ),
+        rmakers.SilenceMask(baca.lts()[abjad.index([1], inverted=True)]),
         extra_counts=[-1],
         ),
     )
@@ -60,9 +56,7 @@ maker(
     ('v1', 2),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([0], inverted=True)],
-        ),
+        rmakers.SilenceMask(baca.lts()[abjad.index([0], inverted=True)]),
         extra_counts=[-2],
         ),
     )
@@ -71,9 +65,7 @@ maker(
     ('v2', 2),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([2], inverted=True)],
-        ),
+        rmakers.SilenceMask(baca.lts()[abjad.index([2], inverted=True)]),
         extra_counts=[-1],
         ),
     )
@@ -82,9 +74,7 @@ maker(
     ('v1', 3),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([0], inverted=True)],
-        ),
+        rmakers.SilenceMask(baca.lts()[abjad.index([0], inverted=True)]),
         extra_counts=[-2],
         ),
     )
@@ -93,9 +83,7 @@ maker(
     ('v2', 3),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([-1], inverted=True)],
-        ),
+        rmakers.SilenceMask(baca.lts()[abjad.index([-1], inverted=True)]),
         extra_counts=[1],
         ),
     )
@@ -104,9 +92,7 @@ maker(
     ('vc', 3),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([1], inverted=True)],
-        ),
+        rmakers.SilenceMask(baca.lts()[abjad.index([1], inverted=True)]),
         extra_counts=[-1],
         ),
     )
