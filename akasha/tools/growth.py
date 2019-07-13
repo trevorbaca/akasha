@@ -24,7 +24,7 @@ def growth(
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
         rmakers.TupletSpecifier(duration_bracket=True),
-        rmakers.SilenceMask(selector=baca.lts()[pattern]),
+        rmakers.SilenceMask(baca.lts()[pattern]),
         rmakers.BeamSpecifier(
             beam_rests=True,
             selector=baca.tuplets(),
@@ -41,7 +41,7 @@ def growth(
     )
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
-        rmakers.SilenceMask(selector=baca.lts()[pattern]),
+        rmakers.SilenceMask(baca.lts()[pattern]),
         rmakers.BeamSpecifier(selector=baca.tuplets()),
         rmakers.TupletSpecifier(extract_trivial=True),
         # TODO: teach TieSpecifier to respect (1, 4):

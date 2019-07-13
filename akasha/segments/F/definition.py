@@ -110,8 +110,7 @@ maker(
 maker(
     ('v1', (8, 9)),
     akasha.accelerando_rhythm(
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([1, 6])],
+        rmakers.SilenceMask(baca.lts()[abjad.index([1, 6])],
         ),
     ),
 )
@@ -119,8 +118,7 @@ maker(
 maker(
     ('v2', (8, 9)),
     akasha.ritardando_rhythm(
-        rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([2, 5])],
+        rmakers.SilenceMask(baca.lts()[abjad.index([2, 5])],
         ),
     ),
 )
