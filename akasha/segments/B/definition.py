@@ -48,10 +48,10 @@ maker(
 maker(
     ('v1', (1, 3)),
     akasha.accelerando_rhythm(
-        rmakers.SilenceMask(baca.tuplets()[-2:]),
+        rmakers.rest(baca.tuplets()[-2:]),
         rmakers.TupletSpecifier(rewrite_rest_filled=True),
         rmakers.TupletSpecifier(extract_trivial=True),
-        rmakers.SilenceMask(baca.lt(1)),
+        rmakers.rest(baca.lt(1)),
         fuse_counts=[1],
     ),
     baca.pitches('E5 D5'),
@@ -68,7 +68,7 @@ maker(
 maker(
     ('va', (1, 3)),
     akasha.polyphony_rhythm(
-        rmakers.SilenceMask(baca.lts()[:2]),
+        rmakers.rest(baca.lts()[:2]),
         rotation=-2,
         ),
     baca.pitches('Db4 Db~4 C4', exact=True),
@@ -77,9 +77,7 @@ maker(
 maker(
     ('vc', (1, 4)),
     akasha.sparse_getato_rhythm(
-        rmakers.SilenceMask(
-            baca.tuplets().exclude([5, -6, -5, -4, -3, -2, -1]),
-        ),
+        rmakers.rest(baca.tuplets().exclude([5, -6, -5, -4, -3, -2, -1])),
         degree=0,
         extra_counts=[1, 1, 0, 2],
     ),
@@ -116,7 +114,7 @@ maker(
 maker(
     ('v2', (10, 11)),
     akasha.accelerando_rhythm(
-        rmakers.SilenceMask(baca.lt(3)),
+        rmakers.rest(baca.lt(3)),
         fuse_counts=(2, 1),
     ),
     baca.dynamic('pp'),
