@@ -78,8 +78,7 @@ maker(
     ('vc', (1, 4)),
     akasha.sparse_getato_rhythm(
         rmakers.SilenceMask(
-            baca.tuplets()[
-                abjad.index([5, -6, -5, -4, -3, -2, -1], inverted=True)],
+            baca.tuplets().exclude([5, -6, -5, -4, -3, -2, -1]),
         ),
         degree=0,
         extra_counts=[1, 1, 0, 2],

@@ -110,16 +110,14 @@ maker(
 maker(
     ('v1', (8, 9)),
     akasha.accelerando_rhythm(
-        rmakers.SilenceMask(baca.lts()[abjad.index([1, 6])],
-        ),
+        rmakers.SilenceMask(baca.lts().get([1, 6])),
     ),
 )
 
 maker(
     ('v2', (8, 9)),
     akasha.ritardando_rhythm(
-        rmakers.SilenceMask(baca.lts()[abjad.index([2, 5])],
-        ),
+        rmakers.SilenceMask(baca.lts().get([2, 5])),
     ),
 )
 
@@ -296,11 +294,11 @@ maker(
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.new(
         baca.hairpin('pp < p', remove_length_1_spanner_start=True),
-        map=baca.runs()[abjad.index([0], 2)],
+        map=baca.runs().get([0], 2),
         ),
     baca.new(
         baca.hairpin('p > pp', remove_length_1_spanner_start=True),
-        map=baca.runs()[abjad.index([1], 2)],
+        map=baca.runs().get([1], 2),
         ),
     )
 
@@ -309,11 +307,11 @@ maker(
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.new(
         baca.hairpin('pp < p', remove_length_1_spanner_start=True),
-        map=baca.runs()[abjad.index([0], 2)],
+        map=baca.runs().get([0], 2),
         ),
     baca.new(
         baca.hairpin('p > pp', remove_length_1_spanner_start=True),
-        map=baca.runs()[abjad.index([1], 2)],
+        map=baca.runs().get([1], 2),
         ),
     )
 
