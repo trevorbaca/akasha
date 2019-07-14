@@ -110,14 +110,14 @@ maker(
 maker(
     ('v1', (8, 9)),
     akasha.accelerando_rhythm(
-        rmakers.SilenceMask(baca.lts().get([1, 6])),
+        rmakers.rest(baca.lts().get([1, 6])),
     ),
 )
 
 maker(
     ('v2', (8, 9)),
     akasha.ritardando_rhythm(
-        rmakers.SilenceMask(baca.lts().get([2, 5])),
+        rmakers.rest(baca.lts().get([2, 5])),
     ),
 )
 
