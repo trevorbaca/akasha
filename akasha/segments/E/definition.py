@@ -73,7 +73,7 @@ maker(
     ('v2', 3),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([-1], inverted=True)]),
+        rmakers.SilenceMask(baca.lts()[:-1]),
         extra_counts=[-2]
     ),
 )
@@ -87,7 +87,7 @@ maker(
     ('vc', 3),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([1], inverted=True)]),
+        rmakers.SilenceMask(baca.lts().exclude([1])),
         extra_counts=[-1],
         ),
     )
@@ -96,7 +96,7 @@ maker(
     ('v1', 5),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([0], inverted=True)]),
+        rmakers.SilenceMask(baca.lts()[1:]),
         extra_counts=[-2],
         ),
     )
@@ -105,7 +105,7 @@ maker(
     ('v2', 5),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([2], inverted=True)]),
+        rmakers.SilenceMask(baca.lts().exclude([2])),
         extra_counts=[-1],
         ),
     )
@@ -119,7 +119,7 @@ maker(
     ('v1', 7),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([0], inverted=True)]),
+        rmakers.SilenceMask(baca.lts()[1:]),
         extra_counts=[-2],
     ),
 )
@@ -128,7 +128,7 @@ maker(
     ('v2', 7),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([-1], inverted=True)]),
+        rmakers.SilenceMask(baca.lts()[:-1]),
         extra_counts=[1],
     ),
 )
@@ -142,7 +142,7 @@ maker(
     ('vc', 7),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([1], inverted=True)]),
+        rmakers.SilenceMask(baca.lts().exclude([1])),
         extra_counts=[-1],
         ),
     )
@@ -156,7 +156,7 @@ maker(
     ('v1', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([1, -3], inverted=True)]),
+        rmakers.SilenceMask(baca.lts().exclude([1, -3])),
         extra_counts=[1],
         ),
     )
@@ -165,7 +165,7 @@ maker(
     ('v2', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([2, -1], inverted=True)]),
+        rmakers.SilenceMask(baca.lts().exclude([2, -1])),
         extra_counts=[0],
         ),
     )
@@ -174,7 +174,7 @@ maker(
     ('vc', (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        rmakers.SilenceMask(baca.lts()[abjad.index([2, -2], inverted=True)]),
+        rmakers.SilenceMask(baca.lts().exclude([2, -2])),
         extra_counts=[2],
         ),
     )
@@ -183,9 +183,7 @@ maker(
     ('v1', (11, 22)),
     akasha.scratch_rhythm(
         [8],
-        rmakers.SilenceMask(
-            baca.lts()[abjad.index([0, 3], inverted=True, period=8)],
-        ),
+        rmakers.SilenceMask(baca.lts().exclude([0, 3], 8)),
         extra_counts=[1],
         ),
     )
@@ -196,9 +194,9 @@ maker(
         [1],
         [3, 0, 2, 1],
         rmakers.SilenceMask(
-            baca.tuplets()[abjad.index(
+            baca.tuplets().get(
                 [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1]
-            )],
+            ),
         ),
     ),
 )
@@ -207,9 +205,7 @@ maker(
     ('v2', (11, 20)),
     akasha.scratch_rhythm(
         [8],
-        rmakers.SilenceMask(
-            baca.lts()[abjad.index([1, 4], inverted=True, period=9)],
-        ),
+        rmakers.SilenceMask(baca.lts().exclude([1, 4], 9)),
         extra_counts=[-1],
         ),
     )
@@ -220,9 +216,7 @@ maker(
         [1],
         [2, 1, 3, 0],
         rmakers.SilenceMask(
-            baca.tuplets()[abjad.index(
-                [0, 2, 3, 4, 5, 6, 10, 14, 22]
-            )],
+            baca.tuplets().get([0, 2, 3, 4, 5, 6, 10, 14, 22])
         ),
     ),
 )
@@ -240,9 +234,7 @@ maker(
     ('vc', (11, 18)),
     akasha.scratch_rhythm(
         [8],
-        rmakers.SilenceMask(
-            baca.lts()[abjad.index([2, 5], inverted=True, period=9)],
-        ),
+        rmakers.SilenceMask(baca.lts().exclude([2, 5], 9)),
         extra_counts=[2],
         ),
     )
@@ -253,9 +245,7 @@ maker(
         [1],
         [3, 0, 2, 1],
         rmakers.SilenceMask(
-            baca.tuplets()[abjad.index(
-                [0, 2, 3, 4, 5, 6, 10, 14, 22]
-            )],
+            baca.tuplets().get([0, 2, 3, 4, 5, 6, 10, 14, 22])
         ),
     ),
 )
