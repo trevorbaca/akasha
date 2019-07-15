@@ -25,12 +25,7 @@ def growth(
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
         rmakers.TupletCommand(duration_bracket=True),
         rmakers.rest(baca.lts().get(pattern)),
-        rmakers.BeamCommand(
-            beam_rests=True,
-            selector=baca.tuplets(),
-            stemlet_length=0.75,
-            use_feather_beams=True,
-        ),
+        rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         interpolation_specifiers=[
             rmakers.InterpolationSpecifier(
                 start_duration=(1, 2),
@@ -42,11 +37,11 @@ def growth(
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
         rmakers.rest(baca.lts().get(pattern)),
-        rmakers.BeamCommand(selector=baca.tuplets()),
-        rmakers.TupletCommand(extract_trivial=True),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
         # TODO: teach TieCommand to respect (1, 4):
         # rmakers.TieCommand(repeat_ties=(1, 4)),
-        rmakers.TieCommand(repeat_ties=True),
+        rmakers.to_repeat_tie(),
         extra_counts_per_division=extra_counts,
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
     )
