@@ -35,7 +35,7 @@ def accelerando_rhythm(
                 ]
             ),
             *specifiers,
-            rmakers.TupletCommand(duration_bracket=True),
+            rmakers.set_duration_bracket(),
             rmakers.BeamCommand(
                 beam_rests=True,
                 selector=baca.tuplets(),
