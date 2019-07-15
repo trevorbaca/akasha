@@ -24,11 +24,11 @@ def sparse_getato_rhythm(
                 ),
             ),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
-            rmakers.RewriteMeterCommand(),
+            rmakers.rewrite_meter(),
             divisions=baca.divisions().map(baca.divisions().quarters()),
         ),
         tag="akasha.sparse_getato_rhythm",

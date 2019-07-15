@@ -136,8 +136,8 @@ maker(
     ('v1', (11, 13)),
     akasha.accelerando_rhythm(
         rmakers.rest(baca.tuplet(0)),
-        rmakers.TupletSpecifier(rewrite_rest_filled=True),
-        rmakers.TupletSpecifier(extract_trivial=True),
+        rmakers.TupletCommand(rewrite_rest_filled=True),
+        rmakers.TupletCommand(extract_trivial=True),
         rmakers.rest(baca.lts().get([3, 5, 7, 9])),
     ),
     baca.dynamic('pp'),
@@ -148,8 +148,8 @@ maker(
     ('v2', (11, 13)),
     akasha.ritardando_rhythm(
         rmakers.rest(baca.tuplet(0)),
-        rmakers.TupletSpecifier(rewrite_rest_filled=True),
-        rmakers.TupletSpecifier(extract_trivial=True),
+        rmakers.TupletCommand(rewrite_rest_filled=True),
+        rmakers.TupletCommand(extract_trivial=True),
         rmakers.rest(baca.lts().get([2, 5, 7])),
         ),
     baca.dynamic('pp'),
