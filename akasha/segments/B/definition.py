@@ -49,8 +49,8 @@ maker(
     ('v1', (1, 3)),
     akasha.accelerando_rhythm(
         rmakers.rest(baca.tuplets()[-2:]),
-        rmakers.TupletSpecifier(rewrite_rest_filled=True),
-        rmakers.TupletSpecifier(extract_trivial=True),
+        rmakers.TupletCommand(rewrite_rest_filled=True),
+        rmakers.TupletCommand(extract_trivial=True),
         rmakers.rest(baca.lt(1)),
         fuse_counts=[1],
     ),
