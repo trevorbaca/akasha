@@ -15,7 +15,7 @@ def viola_ob_rhythm(*, rotation: int = None) -> baca.RhythmCommand:
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(),
             rmakers.rest(baca.leaves().get([0, -1])),
-            rmakers.BeamCommand(selector=baca.plts()),
+            rmakers.beam(baca.plts()),
             rmakers.split_measures(),
             divisions=divisions,
         ),

@@ -33,13 +33,8 @@ def ritardando_rhythm(
                 ]
             ),
             *specifiers,
-            rmakers.TupletCommand(duration_bracket=True),
-            rmakers.BeamCommand(
-                beam_rests=True,
-                selector=baca.tuplets(),
-                stemlet_length=0.75,
-                use_feather_beams=True,
-            ),
+            rmakers.set_duration_bracket(),
+            rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
             divisions=divisions,
         ),
         tag="akasha.ritardando_rhythm",
