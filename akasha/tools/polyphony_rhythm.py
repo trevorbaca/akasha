@@ -16,7 +16,7 @@ def polyphony_rhythm(*specifiers, rotation: int = 0) -> baca.RhythmCommand:
                 talea=rmakers.Talea(counts=counts, denominator=16)
             ),
             *specifiers,
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.trivialize(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
