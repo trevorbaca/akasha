@@ -23,7 +23,7 @@ def growth(
     divisions = divisions.fuse(indices=[1, 3, 5])
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
-        rmakers.TupletCommand(duration_bracket=True),
+        rmakers.duration_bracket(),
         rmakers.rest(baca.lts().get(pattern)),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         interpolation_specifiers=[
