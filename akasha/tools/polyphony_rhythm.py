@@ -20,7 +20,7 @@ def polyphony_rhythm(*specifiers, rotation: int = 0) -> baca.RhythmCommand:
             rmakers.trivialize(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            rmakers.to_repeat_tie(),
+            rmakers.force_repeat_ties(),
         ),
         tag="akasha.polyphony_rhythm",
     )

@@ -713,7 +713,7 @@ G_Violin_I_Music_Voice = {                                                     %
 
     % [G Violin_I_Music_Voice measure 215 / measure 16]                        %! _comment_measure_numbers
     fs''!2                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -949,7 +949,7 @@ G_Violin_II_Music_Voice = {                                                    %
 
     % [G Violin_II_Music_Voice measure 215 / measure 16]                       %! _comment_measure_numbers
     af'!2                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1193,11 +1193,11 @@ G_Viola_Music_Voice = {                                                        %
 
     % [G Viola_Music_Voice measure 215 / measure 16]                           %! _comment_measure_numbers
     c'2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [G Viola_Music_Voice measure 216 / measure 17]                           %! _comment_measure_numbers
     c'4.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1410,7 +1410,7 @@ G_Cello_Music_Voice = {                                                        %
 
     % [G Cello_Music_Voice measure 215 / measure 16]                           %! _comment_measure_numbers
     cs,!2                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 

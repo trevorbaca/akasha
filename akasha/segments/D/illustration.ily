@@ -990,31 +990,31 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 63 / measure 2]                          %! _comment_measure_numbers
     cs''''!2                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 64 / measure 3]                          %! _comment_measure_numbers
     cs''''!4.                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 65 / measure 4]                          %! _comment_measure_numbers
     cs''''!2.                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 66 / measure 5]                          %! _comment_measure_numbers
     cs''''!2..                                                                 %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 67 / measure 6]                          %! _comment_measure_numbers
     cs''''!2..                                                                 %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 68 / measure 7]                          %! _comment_measure_numbers
     cs''''!2                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 69 / measure 8]                          %! _comment_measure_numbers
     cs''''!1                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1054,19 +1054,19 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 73 / measure 12]                         %! _comment_measure_numbers
     cs''''!2..                                                                 %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 74 / measure 13]                         %! _comment_measure_numbers
     cs''''!4.                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 75 / measure 14]                         %! _comment_measure_numbers
     cs''''!2.                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 76 / measure 15]                         %! _comment_measure_numbers
     cs''''!2..                                                                 %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Violin_I_Music_Voice measure 77 / measure 16]                         %! _comment_measure_numbers
     cs''''!2.
@@ -1077,7 +1077,7 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 78 / measure 17]                         %! _comment_measure_numbers
     cs''''!2                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
@@ -1715,7 +1715,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 100 / measure 39]                       %! _comment_measure_numbers
     g''2..                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1878,31 +1878,31 @@ D_Viola_Music_Voice = {                                                        %
 
     % [D Viola_Music_Voice measure 63 / measure 2]                             %! _comment_measure_numbers
     gqf''!2                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 64 / measure 3]                             %! _comment_measure_numbers
     gqf''!4.                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 65 / measure 4]                             %! _comment_measure_numbers
     gqf''!2.                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 66 / measure 5]                             %! _comment_measure_numbers
     gqf''!2..                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 67 / measure 6]                             %! _comment_measure_numbers
     gqf''!2..                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 68 / measure 7]                             %! _comment_measure_numbers
     gqf''!2                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 69 / measure 8]                             %! _comment_measure_numbers
     gqf''!1                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1940,19 +1940,19 @@ D_Viola_Music_Voice = {                                                        %
 
     % [D Viola_Music_Voice measure 73 / measure 12]                            %! _comment_measure_numbers
     gqf''!2..                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 74 / measure 13]                            %! _comment_measure_numbers
     gqf''!4.                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 75 / measure 14]                            %! _comment_measure_numbers
     gqf''!2.                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 76 / measure 15]                            %! _comment_measure_numbers
     gqf''!2..                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 77 / measure 16]                            %! _comment_measure_numbers
     gqf''!2.
@@ -1963,7 +1963,7 @@ D_Viola_Music_Voice = {                                                        %
 
     % [D Viola_Music_Voice measure 78 / measure 17]                            %! _comment_measure_numbers
     gqf''!2                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1998,11 +1998,11 @@ D_Viola_Music_Voice = {                                                        %
 
     % [D Viola_Music_Voice measure 82 / measure 21]                            %! _comment_measure_numbers
     gqf''!2                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 83 / measure 22]                            %! _comment_measure_numbers
     gqf''!4.                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2040,27 +2040,27 @@ D_Viola_Music_Voice = {                                                        %
 
     % [D Viola_Music_Voice measure 87 / measure 26]                            %! _comment_measure_numbers
     gqf''!2                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 88 / measure 27]                            %! _comment_measure_numbers
     gqf''!1                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 89 / measure 28]                            %! _comment_measure_numbers
     gqf''!4.                                                                   %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 90 / measure 29]                            %! _comment_measure_numbers
     gqf''!2                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 91 / measure 30]                            %! _comment_measure_numbers
     gqf''!2..                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Viola_Music_Voice measure 92 / measure 31]                            %! _comment_measure_numbers
     gqf''!2..                                                                  %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -2323,31 +2323,31 @@ D_Cello_Music_Voice = {                                                        %
 
     % [D Cello_Music_Voice measure 63 / measure 2]                             %! _comment_measure_numbers
     d''2                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 64 / measure 3]                             %! _comment_measure_numbers
     d''4.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 65 / measure 4]                             %! _comment_measure_numbers
     d''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 66 / measure 5]                             %! _comment_measure_numbers
     d''2..                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 67 / measure 6]                             %! _comment_measure_numbers
     d''2..                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 68 / measure 7]                             %! _comment_measure_numbers
     d''2                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 69 / measure 8]                             %! _comment_measure_numbers
     d''1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2385,19 +2385,19 @@ D_Cello_Music_Voice = {                                                        %
 
     % [D Cello_Music_Voice measure 73 / measure 12]                            %! _comment_measure_numbers
     d''2..                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 74 / measure 13]                            %! _comment_measure_numbers
     d''4.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 75 / measure 14]                            %! _comment_measure_numbers
     d''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 76 / measure 15]                            %! _comment_measure_numbers
     d''2..                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 77 / measure 16]                            %! _comment_measure_numbers
     d''2.
@@ -2408,7 +2408,7 @@ D_Cello_Music_Voice = {                                                        %
 
     % [D Cello_Music_Voice measure 78 / measure 17]                            %! _comment_measure_numbers
     d''2                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2443,11 +2443,11 @@ D_Cello_Music_Voice = {                                                        %
 
     % [D Cello_Music_Voice measure 82 / measure 21]                            %! _comment_measure_numbers
     d''2                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 83 / measure 22]                            %! _comment_measure_numbers
     d''4.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -2561,17 +2561,17 @@ D_Cello_Music_Voice = {                                                        %
 
     % [D Cello_Music_Voice measure 95 / measure 34]                            %! _comment_measure_numbers
     cs,!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 96 / measure 35]                            %! _comment_measure_numbers
     cs,!2                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 97 / measure 36]                            %! _comment_measure_numbers
     cs,!4.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
