@@ -18,7 +18,7 @@ def scratch_rhythm(
                 extra_counts_per_division=extra_counts,
             ),
             *specifiers,
-            rmakers.beam(),
+            rmakers.simple_beam(),
         ),
         tag="akasha.scratch_rhythm",
     )
