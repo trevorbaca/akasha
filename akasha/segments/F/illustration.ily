@@ -1909,15 +1909,15 @@ F_Violin_I_Music_Voice = {                                                     %
 
     % [F Violin_I_Music_Voice measure 175 / measure 24]                        %! _comment_measure_numbers
     e''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 176 / measure 25]                        %! _comment_measure_numbers
     e''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 177 / measure 26]                        %! _comment_measure_numbers
     e''1.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 178 / measure 27]                        %! _comment_measure_numbers
     f''1                                                                       %! baca.make_repeat_tied_notes
@@ -1934,27 +1934,27 @@ F_Violin_I_Music_Voice = {                                                     %
 
     % [F Violin_I_Music_Voice measure 179 / measure 28]                        %! _comment_measure_numbers
     f''1.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 180 / measure 29]                        %! _comment_measure_numbers
     f''1.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 181 / measure 30]                        %! _comment_measure_numbers
     f''1.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 182 / measure 31]                        %! _comment_measure_numbers
     f''1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 183 / measure 32]                        %! _comment_measure_numbers
     f''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 184 / measure 33]                        %! _comment_measure_numbers
     f''1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_I_Music_Voice measure 185 / measure 34]                        %! _comment_measure_numbers
     f''2.
@@ -3462,15 +3462,15 @@ F_Violin_II_Music_Voice = {                                                    %
 
     % [F Violin_II_Music_Voice measure 175 / measure 24]                       %! _comment_measure_numbers
     fs'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 176 / measure 25]                       %! _comment_measure_numbers
     fs'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 177 / measure 26]                       %! _comment_measure_numbers
     fs'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 178 / measure 27]                       %! _comment_measure_numbers
     fs'!1                                                                      %! baca.make_repeat_tied_notes
@@ -3487,27 +3487,27 @@ F_Violin_II_Music_Voice = {                                                    %
 
     % [F Violin_II_Music_Voice measure 179 / measure 28]                       %! _comment_measure_numbers
     fs'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 180 / measure 29]                       %! _comment_measure_numbers
     fs'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 181 / measure 30]                       %! _comment_measure_numbers
     fs'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 182 / measure 31]                       %! _comment_measure_numbers
     fs'!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 183 / measure 32]                       %! _comment_measure_numbers
     fs'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 184 / measure 33]                       %! _comment_measure_numbers
     fs'!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Violin_II_Music_Voice measure 185 / measure 34]                       %! _comment_measure_numbers
     fs'!2.
@@ -4472,27 +4472,27 @@ F_Viola_Music_Voice = {                                                        %
 
     % [F Viola_Music_Voice measure 179 / measure 28]                           %! _comment_measure_numbers
     ds'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Viola_Music_Voice measure 180 / measure 29]                           %! _comment_measure_numbers
     ds'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Viola_Music_Voice measure 181 / measure 30]                           %! _comment_measure_numbers
     ds'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Viola_Music_Voice measure 182 / measure 31]                           %! _comment_measure_numbers
     ds'!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Viola_Music_Voice measure 183 / measure 32]                           %! _comment_measure_numbers
     ds'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Viola_Music_Voice measure 184 / measure 33]                           %! _comment_measure_numbers
     ds'!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Viola_Music_Voice measure 185 / measure 34]                           %! _comment_measure_numbers
     ds'!2.
@@ -5666,27 +5666,27 @@ F_Cello_Music_Voice = {                                                        %
 
     % [F Cello_Music_Voice measure 179 / measure 28]                           %! _comment_measure_numbers
     df,!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Cello_Music_Voice measure 180 / measure 29]                           %! _comment_measure_numbers
     df,!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Cello_Music_Voice measure 181 / measure 30]                           %! _comment_measure_numbers
     df,!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Cello_Music_Voice measure 182 / measure 31]                           %! _comment_measure_numbers
     df,!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Cello_Music_Voice measure 183 / measure 32]                           %! _comment_measure_numbers
     df,!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Cello_Music_Voice measure 184 / measure 33]                           %! _comment_measure_numbers
     df,!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [F Cello_Music_Voice measure 185 / measure 34]                           %! _comment_measure_numbers
     df,!2.

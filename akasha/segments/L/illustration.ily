@@ -531,7 +531,7 @@ L_Cello_Music_Voice = {                                                        %
 
     % [L Cello_Music_Voice measure 339 / measure 6]                            %! _comment_measure_numbers
     bf,,!2.                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

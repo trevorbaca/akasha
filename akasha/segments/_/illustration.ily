@@ -271,7 +271,7 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 2]                                          %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 

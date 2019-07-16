@@ -687,7 +687,7 @@ H_Viola_Music_Voice = {                                                        %
 
     % [H Viola_Music_Voice measure 219 / measure 3]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
