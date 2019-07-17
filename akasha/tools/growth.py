@@ -37,7 +37,7 @@ def growth(
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
         rmakers.rest(baca.lts().get(pattern)),
-        rmakers.simple_beam(),
+        rmakers.beam(),
         rmakers.extract_trivial(),
         # TODO: teach rmakers.force_repeat_ties() to respect (1, 4):
         # rmakers.force_repeat_ties(threshold=(1, 4)),

@@ -25,7 +25,7 @@ def dense_getato_rhythm(
                 extra_counts_per_division=extra_counts_per_division,
             ),
             *specifiers,
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
             divisions=divisions,
