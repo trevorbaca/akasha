@@ -24,10 +24,10 @@ def growth(
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
         rmakers.duration_bracket(),
-        rmakers.rest(baca.lts().get(pattern)),
+        rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         interpolation_specifiers=[
-            rmakers.InterpolationSpecifier(
+            rmakers.Interpolation(
                 start_duration=(1, 2),
                 stop_duration=(1, 8),
                 written_duration=(1, 16),
@@ -36,7 +36,7 @@ def growth(
     )
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
-        rmakers.rest(baca.lts().get(pattern)),
+        rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.beam(),
         rmakers.extract_trivial(),
         # TODO: teach rmakers.force_repeat_ties() to respect (1, 4):

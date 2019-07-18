@@ -64,7 +64,7 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (1, 16)),
     baca.make_notes(
-        rmakers.rest(baca.lts().get([1], 2)),
+        rmakers.force_rest(baca.lts().get([1], 2)),
         repeat_ties=True,
     ),
 )
@@ -72,7 +72,7 @@ maker(
 maker(
     ('v2', (9, 24)),
     akasha.sparse_getato_rhythm(
-        rmakers.rest(baca.tuplets().exclude([3, 36, 37])),
+        rmakers.force_rest(baca.tuplets().exclude([3, 36, 37])),
     ),
 )
 

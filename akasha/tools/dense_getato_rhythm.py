@@ -18,7 +18,7 @@ def dense_getato_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.EvenDivisionRhythmMaker(
-                burnish_specifier=rmakers.BurnishSpecifier(
+                burnish_specifier=rmakers.Burnish(
                     left_classes=[abjad.Rest], left_counts=[1]
                 ),
                 denominators=[16],
