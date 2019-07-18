@@ -26,7 +26,7 @@ def growth(
         rmakers.duration_bracket(),
         rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-        interpolation_specifiers=[
+        interpolations=[
             rmakers.Interpolation(
                 start_duration=(1, 2),
                 stop_duration=(1, 8),
