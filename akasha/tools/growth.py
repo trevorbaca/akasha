@@ -23,16 +23,10 @@ def growth(
     divisions = divisions.fuse(indices=[1, 3, 5])
 
     accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
-        rmakers.duration_bracket(),
         rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-        interpolations=[
-            rmakers.Interpolation(
-                start_duration=(1, 2),
-                stop_duration=(1, 8),
-                written_duration=(1, 16),
-            )
-        ],
+        rmakers.duration_bracket(),
+        interpolations=rmakers.interpolate((1, 2), (1, 8), (1, 16)),
     )
 
     talea_rhythm_maker = rmakers.TaleaRhythmMaker(
