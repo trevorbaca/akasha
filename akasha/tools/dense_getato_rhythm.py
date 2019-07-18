@@ -18,12 +18,10 @@ def dense_getato_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.EvenDivisionRhythmMaker(
-                burnish_specifier=rmakers.Burnish(
-                    left_classes=[abjad.Rest], left_counts=[1]
-                ),
                 denominators=[16],
                 extra_counts_per_division=extra_counts_per_division,
             ),
+            rmakers.force_rest(baca.tuplets().map(baca.leaf(0))),
             *specifiers,
             rmakers.beam(),
             rmakers.rewrite_rest_filled(),
