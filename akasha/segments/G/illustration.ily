@@ -398,7 +398,7 @@ G_Violin_I_Music_Voice = {                                                     %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -451,7 +451,7 @@ G_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
     \times 6/10 {                                                              %! akasha.dense_getato_rhythm
 
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
         [                                                                      %! akasha.dense_getato_rhythm
@@ -478,7 +478,7 @@ G_Violin_I_Music_Voice = {                                                     %
     \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [G Violin_I_Music_Voice measure 201 / measure 2]                     %! _comment_measure_numbers
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
         [                                                                      %! akasha.dense_getato_rhythm
@@ -496,7 +496,7 @@ G_Violin_I_Music_Voice = {                                                     %
 
     \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
         [                                                                      %! akasha.dense_getato_rhythm
@@ -522,7 +522,7 @@ G_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm
 
-    r16
+    r16                                                                        %! akasha.dense_getato_rhythm
 
     c''''16                                                                    %! akasha.dense_getato_rhythm
 
@@ -530,7 +530,7 @@ G_Violin_I_Music_Voice = {                                                     %
     \times 6/10 {                                                              %! akasha.dense_getato_rhythm
 
         % [G Violin_I_Music_Voice measure 202 / measure 3]                     %! _comment_measure_numbers
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         d''''16                                                                %! akasha.dense_getato_rhythm
         [                                                                      %! akasha.dense_getato_rhythm
@@ -557,7 +557,7 @@ G_Violin_I_Music_Voice = {                                                     %
     \times 12/18 {                                                             %! akasha.dense_getato_rhythm
 
         % [G Violin_I_Music_Voice measure 203 / measure 4]                     %! _comment_measure_numbers
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
         [                                                                      %! akasha.dense_getato_rhythm

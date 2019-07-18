@@ -1128,7 +1128,7 @@ I_Violin_I_Music_Voice = {                                                     %
     \times 8/14 {                                                              %! akasha.dense_getato_rhythm
 
         % [I Violin_I_Music_Voice measure 246 / measure 23]                    %! _comment_measure_numbers
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1178,7 +1178,7 @@ I_Violin_I_Music_Voice = {                                                     %
 
     \times 8/12 {                                                              %! akasha.dense_getato_rhythm
 
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -1220,7 +1220,7 @@ I_Violin_I_Music_Voice = {                                                     %
     \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [I Violin_I_Music_Voice measure 247 / measure 24]                    %! _comment_measure_numbers
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -1243,7 +1243,7 @@ I_Violin_I_Music_Voice = {                                                     %
 
     \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -1281,7 +1281,7 @@ I_Violin_I_Music_Voice = {                                                     %
 
     \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
-        r16
+        r16                                                                    %! akasha.dense_getato_rhythm
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -1302,7 +1302,7 @@ I_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm
 
-    r16
+    r16                                                                        %! akasha.dense_getato_rhythm
 
     b'''16                                                                     %! akasha.dense_getato_rhythm
     - \staccato                                                                %! baca.staccato:IndicatorCommand
