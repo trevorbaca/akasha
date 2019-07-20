@@ -15,8 +15,8 @@ def sparse_getato_rhythm(
     Makes sparse getato rhythm.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=extra_counts,
                 talea=rmakers.Talea(
                     counts=perforated_counts(degree=degree, rotation=rotation),

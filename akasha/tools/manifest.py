@@ -23,8 +23,8 @@ def manifest(these_counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     these_counts = [sum(_) for _ in these_counts]
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 read_talea_once_only=True,
                 talea=rmakers.Talea(counts=these_counts, denominator=16),
             ),
