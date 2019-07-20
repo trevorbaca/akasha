@@ -17,7 +17,7 @@ def sparse_getato_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                extra_counts_per_division=extra_counts,
+                extra_counts=extra_counts,
                 talea=rmakers.Talea(
                     counts=perforated_counts(degree=degree, rotation=rotation),
                     denominator=32,

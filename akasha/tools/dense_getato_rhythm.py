@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def dense_getato_rhythm(
     fuse_counts: abjad.IntegerSequence,
-    extra_counts_per_division: abjad.IntegerSequence,
+    extra_counts: abjad.IntegerSequence,
     *specifiers: rmakers.Command,
 ) -> baca.RhythmCommand:
     """
@@ -18,8 +18,7 @@ def dense_getato_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.EvenDivisionRhythmMaker(
-                denominators=[16],
-                extra_counts_per_division=extra_counts_per_division,
+                denominators=[16], extra_counts=extra_counts
             ),
             rmakers.force_rest(baca.tuplets().map(baca.leaf(0))),
             *specifiers,
