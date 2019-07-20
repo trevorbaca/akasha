@@ -27,7 +27,7 @@ def ritardando_rhythm(
             *specifiers,
             rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
             rmakers.duration_bracket(),
-            divisions=divisions,
+            preprocessor=divisions,
         ),
         tag="akasha.ritardando_rhythm",
     )

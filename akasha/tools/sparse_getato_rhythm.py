@@ -28,7 +28,7 @@ def sparse_getato_rhythm(
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            divisions=baca.divisions().map(baca.divisions().quarters()),
+            preprocessor=baca.divisions().map(baca.divisions().quarters()),
         ),
         tag="akasha.sparse_getato_rhythm",
     )

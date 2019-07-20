@@ -25,7 +25,7 @@ def dense_getato_rhythm(
             rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
-            divisions=divisions,
+            preprocessor=divisions,
         ),
         tag="akasha.dense_getato_rhythm",
     )

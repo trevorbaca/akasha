@@ -29,7 +29,7 @@ def accelerando_rhythm(
             *specifiers,
             rmakers.duration_bracket(),
             rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-            divisions=divisions,
+            preprocessor=divisions,
         ),
         tag="akasha.accelerando_rhythm",
     )

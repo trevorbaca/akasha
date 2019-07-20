@@ -51,7 +51,7 @@ def growth(
                     abjad.index([0], 1), talea_rhythm_maker
                 ),
             ),
-            divisions=divisions,
+            preprocessor=divisions,
         ),
         tag="akasha.growth",
     )
