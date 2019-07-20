@@ -19,8 +19,8 @@ def accelerando_rhythm(
         divisions = expression.map(baca.sequence().sum())
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.AccelerandoRhythmMaker(
+        rmakers.rhythm(
+            rmakers.accelerando(
                 interpolations=[
                     rmakers.interpolate((1, 2), (1, 8), (1, 16)),
                     rmakers.interpolate((1, 8), (1, 2), (1, 16)),

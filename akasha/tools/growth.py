@@ -22,14 +22,14 @@ def growth(
     divisions = divisions.partition_by_ratio_of_lengths(ratio)
     divisions = divisions.fuse(indices=[1, 3, 5])
 
-    accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
+    accelerando_rhythm_maker = rmakers.accelerando(
         rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.duration_bracket(),
         interpolations=rmakers.interpolate((1, 2), (1, 8), (1, 16)),
     )
 
-    talea_rhythm_maker = rmakers.TaleaRhythmMaker(
+    talea_rhythm_maker = rmakers.talea(
         rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.beam(),
         rmakers.extract_trivial(),
@@ -41,7 +41,7 @@ def growth(
     )
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
+        rmakers.rhythm(
             rmakers.MakerAssignments(
                 rmakers.MakerAssignment(
                     abjad.DurationInequality(">", (1, 4)),
