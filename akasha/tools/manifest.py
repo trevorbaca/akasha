@@ -32,7 +32,7 @@ def manifest(these_counts: abjad.IntegerSequence) -> baca.RhythmCommand:
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
-            divisions=baca.divisions().fuse().quarters().flatten(depth=-1),
+            preprocessor=baca.divisions().fuse().quarters().flatten(depth=-1),
         ),
         tag="akasha.manifest",
     )
