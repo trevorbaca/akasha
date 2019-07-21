@@ -32,10 +32,10 @@ def growth(
     talea_rhythm_maker = rmakers.talea(
         rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.rewrite_sustained(),
         rmakers.extract_trivial(),
-        # TODO: teach rmakers.force_repeat_tie() to respect (1, 4):
-        # rmakers.force_repeat_tie(threshold=(1, 4)),
-        rmakers.force_repeat_tie(),
+        rmakers.force_repeat_tie(threshold=(1, 4)),
         extra_counts=extra_counts,
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
     )
