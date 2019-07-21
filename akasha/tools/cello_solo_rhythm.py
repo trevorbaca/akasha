@@ -14,7 +14,7 @@ def cello_solo_rhythm(rotation: int = None) -> baca.RhythmCommand:
             rmakers.talea(talea=rmakers.Talea(counts=counts, denominator=16)),
             rmakers.beam(),
             rmakers.extract_trivial(),
-            rmakers.force_repeat_ties(),
+            rmakers.force_repeat_tie(),
         ),
         tag="akasha.cello_solo_rhythm",
     )

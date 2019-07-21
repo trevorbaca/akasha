@@ -33,9 +33,9 @@ def growth(
         rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        # TODO: teach rmakers.force_repeat_ties() to respect (1, 4):
-        # rmakers.force_repeat_ties(threshold=(1, 4)),
-        rmakers.force_repeat_ties(),
+        # TODO: teach rmakers.force_repeat_tie() to respect (1, 4):
+        # rmakers.force_repeat_tie(threshold=(1, 4)),
+        rmakers.force_repeat_tie(),
         extra_counts=extra_counts,
         talea=rmakers.Talea(counts=[9, 4, 8, 7], denominator=16),
     )
