@@ -12,7 +12,7 @@ def polyphony_rhythm(*specifiers, rotation: int = 0) -> baca.RhythmCommand:
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(talea=rmakers.Talea(counts=counts, denominator=16)),
+            rmakers.talea(counts, 16),
             *specifiers,
             rmakers.beam(),
             rmakers.trivialize(),
