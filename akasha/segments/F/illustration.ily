@@ -1353,19 +1353,12 @@ F_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \times 4/5 {                                                               %! akasha.growth
-
-        % [F Violin_I_Music_Voice measure 162 / measure 11]                    %! _comment_measure_numbers
-        ef''!4                                                                 %! akasha.growth
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-
-        ef''!16                                                                %! akasha.growth
-        \repeatTie
-
-    }                                                                          %! akasha.growth
+    % [F Violin_I_Music_Voice measure 162 / measure 11]                        %! _comment_measure_numbers
+    ef''!4                                                                     %! akasha.growth
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     \times 4/5 {                                                               %! akasha.growth
 
@@ -1387,18 +1380,11 @@ F_Violin_I_Music_Voice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        ~
 
     }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! akasha.growth
-
-        f''4                                                                   %! akasha.growth
-        \repeatTie
-
-        f''16                                                                  %! akasha.growth
-        \repeatTie
-
-    }                                                                          %! akasha.growth
+    f''4                                                                       %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
@@ -1406,6 +1392,7 @@ F_Violin_I_Music_Voice = {                                                     %
         \repeatTie
 
         ef''!4                                                                 %! akasha.growth
+        ~
 
     }                                                                          %! akasha.growth
 
@@ -1415,27 +1402,14 @@ F_Violin_I_Music_Voice = {                                                     %
         ef''!8.                                                                %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
 
         r8                                                                     %! akasha.growth
 
     }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! akasha.growth
+    r4                                                                         %! akasha.growth
 
-        r4                                                                     %! akasha.growth
-
-        r16                                                                    %! akasha.growth
-
-    }                                                                          %! akasha.growth
-
-    \times 4/5 {                                                               %! akasha.growth
-
-        r8                                                                     %! akasha.growth
-
-        r8.                                                                    %! akasha.growth
-
-    }                                                                          %! akasha.growth
+    r4                                                                         %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
@@ -1446,27 +1420,20 @@ F_Violin_I_Music_Voice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        ~
 
     }                                                                          %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
         f''4                                                                   %! akasha.growth
-        \repeatTie
 
         ef''!16                                                                %! akasha.growth
+        ~
 
     }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! akasha.growth
-
-        ef''!4                                                                 %! akasha.growth
-        \repeatTie
-
-        ef''!16                                                                %! akasha.growth
-        \repeatTie
-
-    }                                                                          %! akasha.growth
+    ef''!4                                                                     %! akasha.growth
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1542,15 +1509,8 @@ F_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.growth
     \revert TupletNumber.text
 
-    \times 4/5 {                                                               %! akasha.growth
-
-        % [F Violin_I_Music_Voice measure 165 / measure 14]                    %! _comment_measure_numbers
-        fs''!4                                                                 %! akasha.growth
-
-        fs''!16                                                                %! akasha.growth
-        \repeatTie
-
-    }                                                                          %! akasha.growth
+    % [F Violin_I_Music_Voice measure 165 / measure 14]                        %! _comment_measure_numbers
+    fs''!4                                                                     %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
@@ -1572,18 +1532,11 @@ F_Violin_I_Music_Voice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        ~
 
     }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! akasha.growth
-
-        ef''!4                                                                 %! akasha.growth
-        \repeatTie
-
-        ef''!16                                                                %! akasha.growth
-        \repeatTie
-
-    }                                                                          %! akasha.growth
+    ef''!4                                                                     %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
@@ -1592,6 +1545,7 @@ F_Violin_I_Music_Voice = {                                                     %
         \repeatTie
 
         fs''!4                                                                 %! akasha.growth
+        ~
 
     }                                                                          %! akasha.growth
 
@@ -1600,27 +1554,14 @@ F_Violin_I_Music_Voice = {                                                     %
         fs''!8.                                                                %! akasha.growth
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
 
         r8                                                                     %! akasha.growth
 
     }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! akasha.growth
+    r4                                                                         %! akasha.growth
 
-        r4                                                                     %! akasha.growth
-
-        r16                                                                    %! akasha.growth
-
-    }                                                                          %! akasha.growth
-
-    \times 4/5 {                                                               %! akasha.growth
-
-        r8                                                                     %! akasha.growth
-
-        r8.                                                                    %! akasha.growth
-
-    }                                                                          %! akasha.growth
+    r4                                                                         %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
@@ -1632,27 +1573,20 @@ F_Violin_I_Music_Voice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        ~
 
     }                                                                          %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
         ef''!4                                                                 %! akasha.growth
-        \repeatTie
 
         fs''!16                                                                %! akasha.growth
+        ~
 
     }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! akasha.growth
-
-        fs''!4                                                                 %! akasha.growth
-        \repeatTie
-
-        fs''!16                                                                %! akasha.growth
-        \repeatTie
-
-    }                                                                          %! akasha.growth
+    fs''!4                                                                     %! akasha.growth
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1745,14 +1679,7 @@ F_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.growth
     \revert TupletNumber.text
 
-    \times 4/5 {                                                               %! akasha.growth
-
-        fs''!4                                                                 %! akasha.growth
-
-        fs''!16                                                                %! akasha.growth
-        \repeatTie
-
-    }                                                                          %! akasha.growth
+    fs''!4                                                                     %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
@@ -1774,19 +1701,12 @@ F_Violin_I_Music_Voice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        ~
 
     }                                                                          %! akasha.growth
 
-    \times 4/5 {                                                               %! akasha.growth
-
-        % [F Violin_I_Music_Voice measure 170 / measure 19]                    %! _comment_measure_numbers
-        e''4                                                                   %! akasha.growth
-        \repeatTie
-
-        e''16                                                                  %! akasha.growth
-        \repeatTie
-
-    }                                                                          %! akasha.growth
+    % [F Violin_I_Music_Voice measure 170 / measure 19]                        %! _comment_measure_numbers
+    e''4                                                                       %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
@@ -1794,13 +1714,13 @@ F_Violin_I_Music_Voice = {                                                     %
         \repeatTie
 
         g''4                                                                   %! akasha.growth
+        ~
 
     }                                                                          %! akasha.growth
 
     \times 4/5 {                                                               %! akasha.growth
 
         g''8.                                                                  %! akasha.growth
-        \repeatTie
         [                                                                      %! akasha.growth
 
         e''8                                                                   %! akasha.growth
@@ -3086,12 +3006,12 @@ F_Violin_II_Music_Voice = {                                                    %
     [                                                                          %! akasha.growth
 
     cs''!8.                                                                    %! akasha.growth
+    ~
     ]                                                                          %! akasha.growth
 
     cs''!16                                                                    %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
 
     r8.                                                                        %! akasha.growth
 
@@ -3185,12 +3105,12 @@ F_Violin_II_Music_Voice = {                                                    %
     [                                                                          %! akasha.growth
 
     b'8.                                                                       %! akasha.growth
+    ~
     ]                                                                          %! akasha.growth
 
     b'16                                                                       %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
 
     r8.                                                                        %! akasha.growth
 
@@ -3204,11 +3124,11 @@ F_Violin_II_Music_Voice = {                                                    %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ~
 
     d''4                                                                       %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
 
     r4                                                                         %! akasha.growth
 
@@ -3222,11 +3142,11 @@ F_Violin_II_Music_Voice = {                                                    %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ~
 
     b'16                                                                       %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
 
     r8.                                                                        %! akasha.growth
 
@@ -3341,12 +3261,12 @@ F_Violin_II_Music_Voice = {                                                    %
     [                                                                          %! akasha.growth
 
     c''8.                                                                      %! akasha.growth
+    ~
     ]                                                                          %! akasha.growth
 
     c''16                                                                      %! akasha.growth
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
 
     r8.                                                                        %! akasha.growth
 
@@ -3360,9 +3280,9 @@ F_Violin_II_Music_Voice = {                                                    %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    ~
 
     d''4                                                                       %! akasha.growth
-    \repeatTie
 
     \override TupletNumber.text = \markup {
         \scale
@@ -4345,10 +4265,10 @@ F_Viola_Music_Voice = {                                                        %
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a16                                                                        %! akasha.manifest
+    ~
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a2                                                                         %! akasha.manifest
-    \repeatTie
 
     % [F Viola_Music_Voice measure 163 / measure 12]                           %! _comment_measure_numbers
     a8                                                                         %! akasha.manifest
@@ -4356,10 +4276,10 @@ F_Viola_Music_Voice = {                                                        %
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b8                                                                         %! akasha.manifest
+    ~
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b2                                                                         %! akasha.manifest
-    \repeatTie
 
     b2.                                                                        %! akasha.manifest
     \repeatTie
@@ -4373,9 +4293,9 @@ F_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     c'16                                                                       %! akasha.manifest
+    ~
 
     c'4                                                                        %! akasha.manifest
-    \repeatTie
 
     % [F Viola_Music_Voice measure 165 / measure 14]                           %! _comment_measure_numbers
     c'1                                                                        %! akasha.manifest
@@ -4401,9 +4321,9 @@ F_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     cqs'!16                                                                    %! akasha.manifest
+    ~
 
     cqs'!4                                                                     %! akasha.manifest
-    \repeatTie
 
     cqs'!2.                                                                    %! akasha.manifest
     \repeatTie
@@ -4417,10 +4337,10 @@ F_Viola_Music_Voice = {                                                        %
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! akasha.manifest
+    ~
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'2                                                                        %! akasha.manifest
-    \repeatTie
 
     % [F Viola_Music_Voice measure 170 / measure 19]                           %! _comment_measure_numbers
     d'2.                                                                       %! akasha.manifest
@@ -5554,9 +5474,9 @@ F_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     g,16                                                                       %! akasha.manifest
+    ~
 
     g,4                                                                        %! akasha.manifest
-    \repeatTie
 
     g,2                                                                        %! akasha.manifest
     \repeatTie
@@ -5580,10 +5500,10 @@ F_Cello_Music_Voice = {                                                        %
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     fqs,!16                                                                    %! akasha.manifest
+    ~
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     fqs,!2.                                                                    %! akasha.manifest
-    \repeatTie
 
     % [F Cello_Music_Voice measure 166 / measure 15]                           %! _comment_measure_numbers
     fqs,!16                                                                    %! akasha.manifest
@@ -5596,9 +5516,9 @@ F_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     e,16                                                                       %! akasha.manifest
+    ~
 
     e,2                                                                        %! akasha.manifest
-    \repeatTie
 
     % [F Cello_Music_Voice measure 168 / measure 17]                           %! _comment_measure_numbers
     e,1.                                                                       %! akasha.manifest
@@ -5616,9 +5536,9 @@ F_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     ef,!16                                                                     %! akasha.manifest
+    ~
 
     ef,!4                                                                      %! akasha.manifest
-    \repeatTie
 
     % [F Cello_Music_Voice measure 171 / measure 20]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! akasha.manifest
