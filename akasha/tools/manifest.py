@@ -24,10 +24,7 @@ def manifest(these_counts: abjad.IntegerSequence) -> baca.RhythmCommand:
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(
-                read_talea_once_only=True,
-                talea=rmakers.Talea(counts=these_counts, denominator=16),
-            ),
+            rmakers.talea(these_counts, 16, read_talea_once_only=True),
             rmakers.beam(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
