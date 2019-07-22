@@ -10,11 +10,9 @@ def cello_solo_rhythm(rotation: int = None) -> baca.RhythmCommand:
     counts = abjad.sequence([7, 1, 10, 2]).rotate(n=rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts, 16),
-            rmakers.beam(),
-            rmakers.extract_trivial(),
-            rmakers.force_repeat_tie(),
-        ),
+        rmakers.talea(counts, 16),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
+        rmakers.force_repeat_tie(),
         tag="akasha.cello_solo_rhythm",
     )

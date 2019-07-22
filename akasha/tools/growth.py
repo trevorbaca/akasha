@@ -42,14 +42,12 @@ def growth(
     )
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.MakerAssignments(
-                rmakers.MakerAssignment(
-                    abjad.DurationInequality(">", (1, 4)), accelerando_command
-                ),
-                rmakers.MakerAssignment(abjad.index([0], 1), talea_command),
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
+                abjad.DurationInequality(">", (1, 4)), accelerando_command
             ),
-            preprocessor=divisions,
+            rmakers.MakerAssignment(abjad.index([0], 1), talea_command),
         ),
+        preprocessor=divisions,
         tag="akasha.growth",
     )

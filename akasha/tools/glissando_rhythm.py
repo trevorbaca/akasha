@@ -8,10 +8,8 @@ def glissando_rhythm() -> baca.RhythmCommand:
     Makes glissando rhythm.
     """
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet([(8, 1)]),
-            rmakers.beam(),
-            preprocessor=baca.divisions().fuse(),
-        ),
+        rmakers.tuplet([(8, 1)]),
+        rmakers.beam(),
+        preprocessor=baca.divisions().fuse(),
         tag="akasha.glissando_rhythm",
     )
