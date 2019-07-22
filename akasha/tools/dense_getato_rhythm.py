@@ -16,16 +16,12 @@ def dense_getato_rhythm(
     divisions = divisions.fuse(fuse_counts, cyclic=True)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.even_division(
-                denominators=[16], extra_counts=extra_counts
-            ),
-            rmakers.force_rest(baca.tuplets().map(baca.leaf(0))),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.extract_trivial(),
-            preprocessor=divisions,
-        ),
+        rmakers.even_division(denominators=[16], extra_counts=extra_counts),
+        rmakers.force_rest(baca.tuplets().map(baca.leaf(0))),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
+        preprocessor=divisions,
         tag="akasha.dense_getato_rhythm",
     )

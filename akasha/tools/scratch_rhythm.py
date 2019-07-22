@@ -12,12 +12,10 @@ def scratch_rhythm(
     Makes scratch rhythm.
     """
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.even_division(
-                denominators=denominators, extra_counts=extra_counts
-            ),
-            *specifiers,
-            rmakers.beam(),
+        rmakers.even_division(
+            denominators=denominators, extra_counts=extra_counts
         ),
+        *specifiers,
+        rmakers.beam(),
         tag="akasha.scratch_rhythm",
     )

@@ -8,11 +8,9 @@ def untied_notes() -> baca.RhythmCommand:
     Makes untied notes.
     """
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.note(),
-            rmakers.rewrite_meter(),
-            rmakers.beam(baca.plts()),
-            rmakers.untie(),
-        ),
+        rmakers.note(),
+        rmakers.rewrite_meter(),
+        rmakers.beam(baca.plts()),
+        rmakers.untie(),
         tag="akasha.untied_notes",
     )

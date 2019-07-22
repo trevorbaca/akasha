@@ -11,14 +11,12 @@ def polyphony_rhythm(*specifiers, rotation: int = 0) -> baca.RhythmCommand:
     counts = counts.rotate(n=rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts, 16),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.trivialize(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            rmakers.force_repeat_tie(),
-        ),
+        rmakers.talea(counts, 16),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
         tag="akasha.polyphony_rhythm",
     )
