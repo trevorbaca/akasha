@@ -18,10 +18,7 @@ def ritardando_rhythm(
 
     return baca.rhythm(
         rmakers.accelerando(
-            interpolations=[
-                rmakers.interpolate((1, 8), (1, 2), (1, 16)),
-                rmakers.interpolate((1, 2), (1, 8), (1, 16)),
-            ]
+            [(1, 8), (1, 2), (1, 16)], [(1, 2), (1, 8), (1, 16)]
         ),
         *specifiers,
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
