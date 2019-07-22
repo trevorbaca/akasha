@@ -9,7 +9,7 @@ def glissando_rhythm() -> baca.RhythmCommand:
     """
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios=[(8, 1)]),
+            rmakers.tuplet([(8, 1)]),
             rmakers.beam(),
             preprocessor=baca.divisions().fuse(),
         ),
