@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def scratch_rhythm(
     denominators: abjad.IntegerSequence,
-    *specifiers,
+    *commands,
     extra_counts: abjad.IntegerSequence,
 ) -> baca.RhythmCommand:
     """
@@ -13,7 +13,7 @@ def scratch_rhythm(
     """
     return baca.rhythm(
         rmakers.even_division(denominators, extra_counts=extra_counts),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         tag="akasha.scratch_rhythm",
     )

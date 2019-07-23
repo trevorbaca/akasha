@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 
 def accelerando_rhythm(
-    *specifiers,
+    *commands,
     divisions: abjad.Expression = None,
     fuse_counts: abjad.IntegerSequence = (1, 2),
 ) -> baca.RhythmCommand:
@@ -22,7 +22,7 @@ def accelerando_rhythm(
         rmakers.accelerando(
             [(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]
         ),
-        *specifiers,
+        *commands,
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         preprocessor=divisions,

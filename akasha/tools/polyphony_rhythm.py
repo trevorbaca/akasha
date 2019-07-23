@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def polyphony_rhythm(*specifiers, rotation: int = 0) -> baca.RhythmCommand:
+def polyphony_rhythm(*commands, rotation: int = 0) -> baca.RhythmCommand:
     """
     Makes polyphony rhythm.
     """
@@ -12,7 +12,7 @@ def polyphony_rhythm(*specifiers, rotation: int = 0) -> baca.RhythmCommand:
 
     return baca.rhythm(
         rmakers.talea(counts, 16),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.trivialize(),
         rmakers.extract_trivial(),

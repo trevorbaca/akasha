@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 
 def ritardando_rhythm(
-    *specifiers: rmakers.Command, divisions: abjad.Expression = None
+    *commands: rmakers.Command, divisions: abjad.Expression = None
 ) -> baca.RhythmCommand:
     """
     Makes ritardando rhythm.
@@ -20,7 +20,7 @@ def ritardando_rhythm(
         rmakers.accelerando(
             [(1, 8), (1, 2), (1, 16)], [(1, 2), (1, 8), (1, 16)]
         ),
-        *specifiers,
+        *commands,
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.duration_bracket(),
         preprocessor=divisions,
