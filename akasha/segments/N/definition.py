@@ -37,6 +37,7 @@ maker(
     baca.metronome_mark('89'),
     baca.rehearsal_mark(
         'N',
+        baca.leaf(0),
         abjad.tweak((0, 13)).extra_offset,
         ),
     )
