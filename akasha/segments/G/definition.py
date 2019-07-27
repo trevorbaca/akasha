@@ -36,6 +36,7 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'G',
+        baca.leaf(0),
         abjad.tweak((0, 5)).extra_offset,
         ),
     baca.metronome_mark('126', selector=baca.leaf(0)),

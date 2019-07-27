@@ -35,6 +35,7 @@ maker(
     baca.metronome_mark('55', selector=baca.leaf(4)),
     baca.rehearsal_mark(
         'H',
+        baca.leaf(0),
         abjad.tweak((0, 5)).extra_offset,
         ),
     baca.volta(),
