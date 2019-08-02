@@ -11,5 +11,6 @@ def glissando_rhythm() -> baca.RhythmCommand:
         rmakers.tuplet([(8, 1)]),
         rmakers.beam(),
         preprocessor=baca.divisions().fuse(),
+        stack=True,
         tag="akasha.glissando_rhythm",
     )

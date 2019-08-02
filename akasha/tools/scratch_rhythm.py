@@ -15,5 +15,6 @@ def scratch_rhythm(
         rmakers.even_division(denominators, extra_counts=extra_counts),
         *commands,
         rmakers.beam(),
+        stack=True,
         tag="akasha.scratch_rhythm",
     )
