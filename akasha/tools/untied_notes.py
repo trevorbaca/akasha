@@ -12,6 +12,5 @@ def untied_notes() -> baca.RhythmCommand:
         rmakers.rewrite_meter(),
         rmakers.beam(baca.plts()),
         rmakers.untie(),
-        stack=True,
         tag="akasha.untied_notes",
     )
