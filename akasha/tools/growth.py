@@ -40,7 +40,7 @@ def growth(
     )
 
     return baca.rhythm(
-        rmakers.tesselate(
+        rmakers.bind(
             rmakers.assign(accelerando, abjad.DurationInequality(">", (1, 4))),
             rmakers.assign(talea),
         ),
