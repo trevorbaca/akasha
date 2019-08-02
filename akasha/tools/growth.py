@@ -47,6 +47,5 @@ def growth(
             rmakers.assign(talea),
         ),
         preprocessor=divisions,
-        stack=True,
         tag="akasha.growth",
     )
