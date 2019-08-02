@@ -22,14 +22,14 @@ def growth(
     divisions = divisions.partition_by_ratio_of_lengths(ratio)
     divisions = divisions.fuse(indices=[1, 3, 5])
 
-    accelerando = rmakers.command(
+    accelerando = rmakers.stack(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)]),
         rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.duration_bracket(),
     )
 
-    talea = rmakers.command(
+    talea = rmakers.stack(
         rmakers.talea([9, 4, 8, 7], 16, extra_counts=extra_counts),
         rmakers.force_rest(baca.lts().get(pattern)),
         rmakers.beam(),
