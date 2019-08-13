@@ -147,14 +147,14 @@ maker(
 maker(
     ('va', (28, 29)),
     akasha.accelerando_rhythm(
-        divisions=baca.divisions().fuse(),
+        divisions=baca.sequence().fuse(),
         ),
     )
 
 maker(
     ('vc', (28, 29)),
     akasha.ritardando_rhythm(
-        divisions=baca.divisions().fuse(),
+        divisions=baca.sequence().fuse(),
         ),
     )
 

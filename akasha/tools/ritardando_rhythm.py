@@ -11,10 +11,10 @@ def ritardando_rhythm(
     """
 
     if divisions is None:
-        divisions = baca.divisions().partition_by_counts(
+        divisions = baca.sequence().partition_by_counts(
             [1, 2], cyclic=True, overhang=True
         )
-        divisions = divisions.map(baca.divisions().fuse())
+        divisions = divisions.map(baca.sequence().fuse())
 
     return baca.rhythm(
         rmakers.accelerando(
