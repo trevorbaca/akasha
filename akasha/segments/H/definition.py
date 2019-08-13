@@ -65,7 +65,7 @@ maker(
 maker(
     ('vc', (1, 2)),
     akasha.ritardando_rhythm(
-        divisions=baca.divisions().fuse(),
+        divisions=baca.sequence().fuse(),
         ),
     )
 

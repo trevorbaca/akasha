@@ -17,7 +17,7 @@ def growth(
     pattern = pattern & abjad.index([0, -1], inverted=True)
 
     ratio = abjad.Ratio(division_ratio)
-    divisions = baca.divisions().fuse().split([(1, 4)], cyclic=True)
+    divisions = baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True)
     divisions = divisions.flatten(depth=-1)
     divisions = divisions.partition_by_ratio_of_lengths(ratio)
     divisions = divisions.fuse(indices=[1, 3, 5])
