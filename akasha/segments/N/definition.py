@@ -51,18 +51,6 @@ maker(
     )
 
 maker(
-    ['v1', 'vc'],
-    baca.new(
-        baca.bar_extent_persistent((-2, 0)),
-        match=0,
-        ),
-    baca.new(
-        baca.bar_extent_persistent((0, -2)),
-        match=1,
-        ),
-    )
-
-maker(
     (['v1', 'va', 'vc'], (1, 16)),
     baca.make_notes(
         rmakers.force_rest(baca.lts().get([1], 2)),

@@ -87,6 +87,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Viola_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Viola_Music_Voice',
                                 manifest='instruments',
                                 value='Viola',
                                 ),
