@@ -27,21 +27,29 @@ maker(
     baca.global_fermata('very_long'),
     )
 
+# v1
+
 maker(
     'v1',
+    baca.staff_lines(5),
     baca.suite(
         akasha.margin_markup('Vn. I'),
         baca.start_markup('Violin I', hcenter_in=14),
         ),
     )
 
+# v2
+
 maker(
     'v2',
+    baca.staff_lines(5),
     baca.suite(
         akasha.margin_markup('Vn. II'),
         baca.start_markup('Violin II', hcenter_in=14),
         ),
     )
+
+# va
 
 maker(
     'va',
@@ -52,19 +60,22 @@ maker(
     )
 
 maker(
-    'vc',
-    baca.suite(
-        akasha.margin_markup('Vc.'),
-        baca.start_markup('Cello', hcenter_in=14),
-        ),
-    )
-
-maker(
     ('va', (1, 2)),
+    baca.staff_lines(1),
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.make_repeat_tied_notes(),
     baca.markup('OB + terminate abruptly'),
-    baca.staff_lines(1),
     baca.staff_position(0),
+    )
+
+# vc
+
+maker(
+    'vc',
+    baca.staff_lines(5),
+    baca.suite(
+        akasha.margin_markup('Vc.'),
+        baca.start_markup('Cello', hcenter_in=14),
+        ),
     )
