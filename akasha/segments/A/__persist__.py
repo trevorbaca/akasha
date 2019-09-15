@@ -41,6 +41,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Cello_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Cello_Music_Voice',
                                 manifest='instruments',
                                 value='Cello',
                                 ),
@@ -48,6 +54,11 @@ persist = abjad.OrderedDict(
                                 context='Cello_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='bass',
+                                ),
+                            abjad.Momento(
+                                context='Cello_Music_Voice',
+                                prototype='baca.StaffLines',
+                                value=5,
                                 ),
                             ],
                         ),
@@ -129,6 +140,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Violin_II_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Violin_II_Music_Voice',
                                 manifest='instruments',
                                 value='ViolinI',
                                 ),
@@ -136,6 +153,11 @@ persist = abjad.OrderedDict(
                                 context='Violin_II_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
+                                ),
+                            abjad.Momento(
+                                context='Violin_II_Music_Voice',
+                                prototype='baca.StaffLines',
+                                value=5,
                                 ),
                             ],
                         ),
@@ -160,6 +182,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Violin_I_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Violin_I_Music_Voice',
                                 manifest='instruments',
                                 value='ViolinI',
                                 ),
@@ -167,6 +195,11 @@ persist = abjad.OrderedDict(
                                 context='Violin_I_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
+                                ),
+                            abjad.Momento(
+                                context='Violin_I_Music_Voice',
+                                prototype='baca.StaffLines',
+                                value=5,
                                 ),
                             ],
                         ),
