@@ -718,7 +718,7 @@ M_Violin_I_Music_Voice = {                                                     %
     bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 354 / measure 15]                        %! baca.SegmentMaker._comment_measure_numbers()
     bf'!2.                                                                     %! baca.make_repeat_tied_notes
@@ -734,7 +734,7 @@ M_Violin_I_Music_Voice = {                                                     %
     bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 356 / measure 17]                        %! baca.SegmentMaker._comment_measure_numbers()
     bf'!2.
@@ -752,7 +752,7 @@ M_Violin_I_Music_Voice = {                                                     %
     % [M Violin_I_Music_Voice measure 357 / measure 18]                        %! baca.SegmentMaker._comment_measure_numbers()
     bf'!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 358 / measure 19]                        %! baca.SegmentMaker._comment_measure_numbers()
     bf'!2.                                                                     %! baca.make_repeat_tied_notes
@@ -776,7 +776,7 @@ M_Violin_I_Music_Voice = {                                                     %
     % [M Violin_I_Music_Voice measure 361 / measure 22]                        %! baca.SegmentMaker._comment_measure_numbers()
     bf'!2.
     \repeatTie
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     bf'!2
     \repeatTie
@@ -796,7 +796,7 @@ M_Violin_I_Music_Voice = {                                                     %
     bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 364 / measure 25]                        %! baca.SegmentMaker._comment_measure_numbers()
     bf'!1.                                                                     %! baca.make_repeat_tied_notes
@@ -813,7 +813,7 @@ M_Violin_I_Music_Voice = {                                                     %
     bf'!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_I_Music_Voice measure 366 / measure 27]                        %! baca.SegmentMaker._comment_measure_numbers()
     bf'!1.                                                                     %! baca.make_repeat_tied_notes
@@ -830,7 +830,7 @@ M_Violin_I_Music_Voice = {                                                     %
     bf'!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1000,7 +1000,7 @@ M_Violin_II_Music_Voice = {                                                    %
     % [M Violin_II_Music_Voice measure 353 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 354 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!2.                                                                      %! baca.make_repeat_tied_notes
@@ -1015,7 +1015,7 @@ M_Violin_II_Music_Voice = {                                                    %
     % [M Violin_II_Music_Voice measure 355 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 356 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!2.
@@ -1033,7 +1033,7 @@ M_Violin_II_Music_Voice = {                                                    %
     % [M Violin_II_Music_Voice measure 357 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 358 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!2.                                                                      %! baca.make_repeat_tied_notes
@@ -1056,7 +1056,7 @@ M_Violin_II_Music_Voice = {                                                    %
     % [M Violin_II_Music_Voice measure 361 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!2.
     \repeatTie
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     bf!2
     \repeatTie
@@ -1074,7 +1074,7 @@ M_Violin_II_Music_Voice = {                                                    %
     % [M Violin_II_Music_Voice measure 363 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 364 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!1.                                                                      %! baca.make_repeat_tied_notes
@@ -1089,7 +1089,7 @@ M_Violin_II_Music_Voice = {                                                    %
     % [M Violin_II_Music_Voice measure 365 / measure 26]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!1.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Violin_II_Music_Voice measure 366 / measure 27]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!1.                                                                      %! baca.make_repeat_tied_notes
@@ -1104,7 +1104,7 @@ M_Violin_II_Music_Voice = {                                                    %
     % [M Violin_II_Music_Voice measure 367 / measure 28]                       %! baca.SegmentMaker._comment_measure_numbers()
     bf!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1274,7 +1274,7 @@ M_Viola_Music_Voice = {                                                        %
     % [M Viola_Music_Voice measure 353 / measure 14]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 354 / measure 15]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!2.                                                                     %! baca.make_repeat_tied_notes
@@ -1289,7 +1289,7 @@ M_Viola_Music_Voice = {                                                        %
     % [M Viola_Music_Voice measure 355 / measure 16]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 356 / measure 17]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!2.
@@ -1307,7 +1307,7 @@ M_Viola_Music_Voice = {                                                        %
     % [M Viola_Music_Voice measure 357 / measure 18]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!2.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 358 / measure 19]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!2.                                                                     %! baca.make_repeat_tied_notes
@@ -1330,7 +1330,7 @@ M_Viola_Music_Voice = {                                                        %
     % [M Viola_Music_Voice measure 361 / measure 22]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!2.
     \repeatTie
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     bf,!2
     \repeatTie
@@ -1348,7 +1348,7 @@ M_Viola_Music_Voice = {                                                        %
     % [M Viola_Music_Voice measure 363 / measure 24]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 364 / measure 25]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!1.                                                                     %! baca.make_repeat_tied_notes
@@ -1363,7 +1363,7 @@ M_Viola_Music_Voice = {                                                        %
     % [M Viola_Music_Voice measure 365 / measure 26]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!1.                                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Viola_Music_Voice measure 366 / measure 27]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!1.                                                                     %! baca.make_repeat_tied_notes
@@ -1378,7 +1378,7 @@ M_Viola_Music_Voice = {                                                        %
     % [M Viola_Music_Voice measure 367 / measure 28]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1516,7 +1516,7 @@ M_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
     % [M Cello_Music_Voice measure 347 / measure 8]                            %! baca.SegmentMaker._comment_measure_numbers()
     bf,,!2.                                                                    %! baca.make_repeat_tied_notes
