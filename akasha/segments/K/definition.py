@@ -144,13 +144,18 @@ maker(
     )
 
 maker(
+    "Global_Skips",
+    baca.bar_line(".|:", baca.skip(55 - 1)),
+    baca.bar_line(":|.", baca.skip(60 - 1)),
+)
+
+maker(
     ('Global_Skips', (30, 39)),
     baca.markup(
         r'\akasha-repeat-six',
         literal=True,
         selector=baca.skip(0),
         ),
-    baca.volta(),
     )
 
 maker(
