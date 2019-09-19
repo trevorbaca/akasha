@@ -38,7 +38,8 @@ maker(
         baca.leaf(0),
         abjad.tweak((0, 5)).extra_offset,
         ),
-    baca.volta(),
+    baca.bar_line(".|:", baca.skip(1 - 1), format_slot="before"),
+    baca.bar_line(":|.", baca.skip(7 - 1)),
     )
 
 maker(
