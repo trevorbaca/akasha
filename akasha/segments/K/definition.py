@@ -348,7 +348,6 @@ maker(
         selector=baca.skip(0),
         ),
     baca.text_script_extra_offset((1.5, 6)),
-    baca.volta(),
     )
 
 maker(
