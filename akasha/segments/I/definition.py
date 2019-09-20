@@ -30,6 +30,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.const.LOCAL_MEASURE_NUMBER,
         ],
+    check_all_are_pitched=True,
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -229,9 +230,17 @@ maker(
     )
 
 maker(
-    ('v1', (8, 27)),
+    ('v1', (8, 22)),
     baca.dynamic('ppp'),
     baca.markup('OB'),
+    baca.pitch(
+        'B4',
+        selector=baca.plts(exclude=abjad.const.HIDDEN),
+        ),
+    )
+
+maker(
+    ('v1', (25, 26)),
     baca.pitch(
         'B4',
         selector=baca.plts(exclude=abjad.const.HIDDEN),
