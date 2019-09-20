@@ -33,13 +33,8 @@ maker(
     'Global_Skips',
     baca.metronome_mark('44', selector=baca.leaf(2)),
     baca.metronome_mark('55', selector=baca.leaf(4)),
-    baca.rehearsal_mark(
-        'H',
-        baca.leaf(0),
-        abjad.tweak((0, 5)).extra_offset,
-        ),
-    baca.bar_line(".|:", baca.skip(1 - 1), format_slot="before"),
-    baca.bar_line(":|.", baca.skip(7 - 1)),
+    baca.open_volta(baca.skip(1 - 1)),
+    baca.close_volta(baca.skip(7 - 1), format_slot="after"),
     )
 
 maker(
