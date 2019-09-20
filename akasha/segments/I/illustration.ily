@@ -806,7 +806,7 @@ I_Violin_I_Music_Voice = {                                                     %
             #12                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             "Vn. I"                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TextSpanner.staff-padding = #4                                   %! baca.text_spanner_staff_padding:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                   %! baca.text_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1557,7 +1557,7 @@ I_Violin_I_Music_Voice = {                                                     %
             % [I Violin_I_Music_Voice measure 260 / measure 37]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding():OverrideCommand(2)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1626,7 +1626,7 @@ I_Violin_II_Music_Voice = {                                                    %
             #12                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             "Vn. II"                                                           %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TextSpanner.staff-padding = #4                                   %! baca.text_spanner_staff_padding:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                   %! baca.text_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2190,7 +2190,7 @@ I_Violin_II_Music_Voice = {                                                    %
             % [I Violin_II_Music_Voice measure 260 / measure 37]               %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding():OverrideCommand(2)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2259,7 +2259,7 @@ I_Viola_Music_Voice = {                                                        %
             #12                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Va.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TextSpanner.staff-padding = #4                                   %! baca.text_spanner_staff_padding:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                   %! baca.text_spanner_staff_padding():OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2822,7 +2822,7 @@ I_Viola_Music_Voice = {                                                        %
             % [I Viola_Music_Voice measure 260 / measure 37]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding():OverrideCommand(2)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2892,7 +2892,7 @@ I_Cello_Music_Voice = {                                                        %
             #12                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Vc.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TextSpanner.staff-padding = #4                                   %! baca.text_spanner_staff_padding:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                   %! baca.text_spanner_staff_padding():OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3396,7 +3396,7 @@ I_Cello_Music_Voice = {                                                        %
             % [I Cello_Music_Voice measure 260 / measure 37]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding():OverrideCommand(2)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
