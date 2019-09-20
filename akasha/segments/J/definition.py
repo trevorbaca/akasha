@@ -10,7 +10,7 @@ from abjadext import rmakers
 ###############################################################################
 
 stage_markup = (
-    ('[J.1]', 1),
+    ("[J.1]", 1),
 )
 
 maker = baca.SegmentMaker(
@@ -21,22 +21,22 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
-    time_signatures=akasha.time_signatures('A', 4, 6, fermata_measures=[4]),
+    time_signatures=akasha.time_signatures("A", 4, 6, fermata_measures=[4]),
     validate_measure_count=4,
 )
 
 maker(
-    'Global_Skips',
-    baca.rehearsal_mark('J'),
+    "Global_Skips",
+    baca.rehearsal_mark("J"),
 )
 
 maker(
-    'Global_Rests',
-    baca.global_fermata('very_long', selector=baca.leaf(-1)),
+    "Global_Rests",
+    baca.global_fermata("very_long", selector=baca.leaf(-1)),
 )
 
 maker(
-    ('v2', 1),
+    ("v2", 1),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(baca.lts()[:-1]),
@@ -45,7 +45,7 @@ maker(
 )
 
 maker(
-    ('vc', 1),
+    ("vc", 1),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(baca.lts().exclude([1])),
@@ -54,7 +54,7 @@ maker(
 )
 
 maker(
-    ('v1', 2),
+    ("v1", 2),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(baca.lts()[1:]),
@@ -63,7 +63,7 @@ maker(
 )
 
 maker(
-    ('v2', 2),
+    ("v2", 2),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(baca.lts().exclude([2])),
@@ -72,7 +72,7 @@ maker(
 )
 
 maker(
-    ('v1', 3),
+    ("v1", 3),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(baca.lts()[1:]),
@@ -81,7 +81,7 @@ maker(
 )
 
 maker(
-    ('v2', 3),
+    ("v2", 3),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(baca.lts()[:-1]),
@@ -90,7 +90,7 @@ maker(
 )
 
 maker(
-    ('vc', 3),
+    ("vc", 3),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(baca.lts().exclude([1])),
@@ -99,7 +99,7 @@ maker(
 )
 
 maker(
-    (['v1', 'v2', 'vc'], (1, 3)),
+    (["v1", "v2", "vc"], (1, 3)),
     baca.new(
         akasha.getato_pitches(5, [2]),
         match=0,
@@ -112,9 +112,9 @@ maker(
         akasha.getato_pitches(-13, [2]),
         match=2,
     ),
-    baca.dynamic('ff'),
+    baca.dynamic("ff"),
     baca.markup(
         baca.markups.lines(
-            ['scratch moltiss.:', 'terminate each note abruptly']),
+            ["scratch moltiss.:", "terminate each note abruptly"]),
     ),
 )
