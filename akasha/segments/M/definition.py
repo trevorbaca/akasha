@@ -19,7 +19,7 @@ stage_markup = (
     ('[M.8]', 23),
     ('[M.9]', 25),
     ('[M.10]', 27),
-    )
+)
 
 maker = baca.SegmentMaker(
     activate=[
@@ -32,7 +32,7 @@ maker = baca.SegmentMaker(
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures('A', 29, 21, fermata_measures=[-1]),
     validate_measure_count=29,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -41,40 +41,40 @@ maker(
     baca.metronome_mark(baca.Ritardando(), selector=baca.leaf(18)),
     baca.metronome_mark('44', selector=baca.leaf(26)),
     baca.rehearsal_mark('M'),
-    )
+)
 
 maker(
     ('Global_Rests', -1),
     baca.global_fermata('fermata'),
-    )
+)
 
 maker(
     'va',
     baca.staff_lines(5),
-    )
+)
 
 maker(
     ('vc', (1, 10)),
     baca.make_repeat_tied_notes(),
-    )
+)
 
 maker(
     (['v1', 'v2', 'va'], (7, 28)),
     baca.make_repeat_tied_notes(),
-    )
+)
 
 maker(
     ('vc', (13, 24)),
     baca.make_repeat_tied_notes(),
-    )
+)
 
 maker(
     ('vc', (1, 24)),
     baca.pitch(
         'Bb1',
         selector=baca.plts(exclude=abjad.const.HIDDEN),
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', (1, 10)),
@@ -82,93 +82,93 @@ maker(
     baca.text_spanner(
         'trans. => vib. moltiss.',
         selector=baca.leaves()[:9],
-        ),
-    )
+    ),
+)
 
 maker(
     ('v1', (7, 28)),
     baca.pitch('Bb4'),
-    )
+)
 
 maker(
     ('v2', (7, 28)),
     baca.pitch('Bb3'),
-    )
+)
 
 maker(
     ('va', (7, 28)),
     baca.pitch('Bb2'),
-    )
+)
 
 maker(
     (['v1', 'v2', 'va'], (7, 10)),
     baca.dynamic('pp'),
     baca.markup('tasto + XFB'),
-    )
+)
 
 maker(
     ('vc', (13, 18)),
     baca.dynamic('pp'),
     baca.markup('vib. poco'),
-    )
+)
 
 maker(
     (['v1', 'v2', 'va'], (13, 14)),
     baca.text_spanner(
         'trans. => pos. ord. XFB',
         selector=baca.leaves()[:2],
-        ),
-    )
+    ),
+)
 
 maker(
     (['v1', 'v2', 'va'], (15, 16)),
     baca.text_spanner(
         'trans. => pont. XFB',
         selector=baca.leaves()[:2],
-        ),
-    )
+    ),
+)
 
 maker(
     (['v1', 'v2', 'va'], (17, 18)),
     baca.text_spanner(
         'trans. => XP+XFB',
         selector=baca.leaves()[:3],
-        ),
-    )
+    ),
+)
 
 maker(
     (['v1', 'v2', 'va'], (19, 22)),
     baca.text_spanner(
         'trans. => XP',
         selector=baca.leaves()[:4],
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', (19, 24)),
     baca.hairpin('pp >o niente', selector=baca.rleaves()),
-    )
+)
 
 maker(
     (['v1', 'v2', 'va'], (23, 24)),
     baca.text_spanner(
         'trans. => 1/3OB',
         selector=baca.leaves()[:2],
-        ),
-    )
+    ),
+)
 
 maker(
     (['v1', 'v2', 'va'], (25, 26)),
     baca.text_spanner(
         'trans. => 2/3OB',
         selector=baca.leaves()[:2],
-        ),
-    )
+    ),
+)
 
 maker(
     (['v1', 'v2', 'va'], (27, 28)),
     baca.text_spanner(
         'trans. => OB (no pitch)',
         selector=baca.leaves()[:2],
-        ),
-    )
+    ),
+)

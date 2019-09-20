@@ -16,7 +16,7 @@ stage_markup = (
     ('[B.6]', 8),
     ('[B.8]', 10),
     ('[B.9]', 11),
-    )
+)
 
 maker = baca.SegmentMaker(
     activate=[
@@ -32,19 +32,19 @@ maker = baca.SegmentMaker(
         fermata_measures=[5, 7, 9],
     ),
     validate_measure_count=11,
-    )
+)
 
 maker(
     'Global_Skips',
     baca.rehearsal_mark('B'),
-    )
+)
 
 maker(
     'Global_Rests',
     baca.global_fermata('long', selector=baca.leaf(4)),
     baca.global_fermata('short', selector=baca.leaf(6)),
     baca.global_fermata('short', selector=baca.leaf(8)),
-    )
+)
 
 maker(
     ('v1', (1, 3)),
@@ -64,16 +64,16 @@ maker(
     baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
     baca.dynamic('mp'),
     baca.markup('tasto + 1/2 scratch'),
-    )
+)
 
 maker(
     ('va', (1, 3)),
     akasha.polyphony_rhythm(
         rmakers.force_rest(baca.lts()[:2]),
         rotation=-2,
-        ),
+    ),
     baca.pitches('Db4 Db~4 C4', exact=True),
-    )
+)
 
 maker(
     ('vc', (1, 4)),
@@ -90,8 +90,8 @@ maker(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-4,
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', 8),
@@ -99,8 +99,8 @@ maker(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-8,
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', (1, 8)),
@@ -108,9 +108,9 @@ maker(
     baca.beam_positions(-4),
     baca.staccato(
         selector=baca.pheads(exclude=abjad.const.HIDDEN),
-        ),
+    ),
     baca.tuplet_bracket_staff_padding(2),
-    )
+)
 
 maker(
     ('v2', (10, 11)),
@@ -130,10 +130,10 @@ maker(
     baca.new(
         baca.pitch('D#3'),
         match=0,
-        ),
+    ),
     baca.new(
         baca.pitch('C#2'),
         baca.dynamic('mp'),
         match=1,
-        ),
-    )
+    ),
+)
