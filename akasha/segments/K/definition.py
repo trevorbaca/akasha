@@ -145,8 +145,8 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.bar_line(".|:", baca.skip(55 - 1)),
-    baca.bar_line(":|.", baca.skip(60 - 1)),
+    baca.open_volta(baca.skip(56 - 1)),
+    baca.close_volta(baca.skip(61 - 1)),
 )
 
 maker(
