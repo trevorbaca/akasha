@@ -773,8 +773,8 @@ B_Cello_Music_Voice = {                                                        %
             #12                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Vc.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override Beam.positions = #'(-4 . -4)                                     %! baca.beam_positions:OverrideCommand(1)
-    \override TupletBracket.staff-padding = #2                                 %! baca.tuplet_bracket_staff_padding:OverrideCommand(1)
+    \override Beam.positions = #'(-4 . -4)                                     %! baca.beam_positions():OverrideCommand(1)
+    \override TupletBracket.staff-padding = #2                                 %! baca.tuplet_bracket_staff_padding():OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1069,8 +1069,8 @@ B_Cello_Music_Voice = {                                                        %
 
         fs!32                                                                  %! akasha.sparse_getato_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        \revert Beam.positions                                                 %! baca.beam_positions:OverrideCommand(2)
-        \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
+        \revert Beam.positions                                                 %! baca.beam_positions():OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding():OverrideCommand(2)
 
     }                                                                          %! akasha.sparse_getato_rhythm
 

@@ -863,7 +863,7 @@ F_Global_Skips = {                                                             %
     \bar ".|:"                                                                 %! baca.bar_line:IndicatorCommand
 
     % [F Global_Skips measure 196 / measure 45]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \override TextScript.extra-offset = #'(1.5 . 6)                            %! baca.text_script_extra_offset:OverrideCommand(1)
+    \override TextScript.extra-offset = #'(1.5 . 6)                            %! baca.text_script_extra_offset():OverrideCommand(1)
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
@@ -902,7 +902,7 @@ F_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only-fermata "1''"                                   %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
     \bar ":|."                                                                 %! baca.bar_line:IndicatorCommand
-    \revert TextScript.extra-offset                                            %! baca.text_script_extra_offset:OverrideCommand(2)
+    \revert TextScript.extra-offset                                            %! baca.text_script_extra_offset():OverrideCommand(2)
 
     % [F Global_Skips measure 198 / measure 47]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
@@ -4446,8 +4446,8 @@ F_Viola_Music_Voice = {                                                        %
     \times 8/11 {                                                              %! akasha.dense_getato_rhythm
 
         % [F Viola_Music_Voice measure 187 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
-    %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_187:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_187:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_187:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_187:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -5464,8 +5464,8 @@ F_Cello_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 
     % [F Cello_Music_Voice measure 162 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_162:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_162:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_162:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_162:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -5645,8 +5645,8 @@ F_Cello_Music_Voice = {                                                        %
     \times 4/6 {                                                               %! akasha.dense_getato_rhythm
 
         % [F Cello_Music_Voice measure 187 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
-    %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_187:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_187:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_187:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_187:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)

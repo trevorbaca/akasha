@@ -967,7 +967,7 @@ D_Violin_I_Music_Voice = {                                                     %
             "Vn. I"                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \ottava 1                                                                  %! baca.ottava:SpannerIndicatorCommand(1)
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1080,7 +1080,7 @@ D_Violin_I_Music_Voice = {                                                     %
     cs''''!2                                                                   %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1104,7 +1104,7 @@ D_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [D Violin_I_Music_Voice measure 80 / measure 19]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
     a'1                                                                        %! akasha.untied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -1325,7 +1325,7 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 107 / measure 46]                        %! baca.SegmentMaker._comment_measure_numbers()
     c''2                                                                       %! akasha.untied_notes
     - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1478,7 +1478,7 @@ D_Violin_II_Music_Voice = {                                                    %
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 
     % [D Violin_II_Music_Voice measure 71 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
     a'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -1683,7 +1683,7 @@ D_Violin_II_Music_Voice = {                                                    %
     % [D Violin_II_Music_Voice measure 97 / measure 36]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'4.                                                                       %! akasha.untied_notes
     - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1853,9 +1853,9 @@ D_Viola_Music_Voice = {                                                        %
             #12                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Va.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_62:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2062,7 +2062,7 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 92 / measure 31]                            %! baca.SegmentMaker._comment_measure_numbers()
     gqf''!2..                                                                  %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2086,8 +2086,8 @@ D_Viola_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [D Viola_Music_Voice measure 94 / measure 33]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_94:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_94:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_94:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_94:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "alto"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -2143,7 +2143,7 @@ D_Viola_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [D Viola_Music_Voice measure 99 / measure 38]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
     af!2.                                                                      %! akasha.untied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ppp-ancora                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -2212,7 +2212,7 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 107 / measure 46]                           %! baca.SegmentMaker._comment_measure_numbers()
     b2                                                                         %! akasha.untied_notes
     - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2303,9 +2303,9 @@ D_Cello_Music_Voice = {                                                        %
             #12                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Vc.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_62:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_62:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2454,7 +2454,7 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 83 / measure 22]                            %! baca.SegmentMaker._comment_measure_numbers()
     d''4.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2478,9 +2478,9 @@ D_Cello_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [D Cello_Music_Voice measure 85 / measure 24]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_85:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_85:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_85:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_85:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -2534,7 +2534,7 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 92 / measure 31]                            %! baca.SegmentMaker._comment_measure_numbers()
     e2..                                                                       %! akasha.untied_notes
     - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2601,7 +2601,7 @@ D_Cello_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [D Cello_Music_Voice measure 99 / measure 38]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
     e,2.                                                                       %! akasha.untied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ppp-ancora                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -2622,7 +2622,7 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 102 / measure 41]                           %! baca.SegmentMaker._comment_measure_numbers()
     e4.                                                                        %! akasha.untied_notes
     - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
