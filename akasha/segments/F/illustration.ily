@@ -13,17 +13,17 @@ F_Global_Rests = {                                                             %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [F Global_Rests measure 156 / measure 5]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata():GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
-    ^ \baca-long-fermata-markup                                                %! baca.global_fermata:GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! baca.global_fermata():GlobalFermataCommand(1)
 
     % [F Global_Rests measure 157 / measure 6]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [F Global_Rests measure 158 / measure 7]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata():GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
-    ^ \baca-long-fermata-markup                                                %! baca.global_fermata:GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! baca.global_fermata():GlobalFermataCommand(1)
 
     % [F Global_Rests measure 159 / measure 8]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
@@ -32,9 +32,9 @@ F_Global_Rests = {                                                             %
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [F Global_Rests measure 161 / measure 10]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata():GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
-    ^ \baca-long-fermata-markup                                                %! baca.global_fermata:GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! baca.global_fermata():GlobalFermataCommand(1)
 
     % [F Global_Rests measure 162 / measure 11]                                %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
@@ -109,9 +109,9 @@ F_Global_Rests = {                                                             %
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [F Global_Rests measure 186 / measure 35]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata():GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
-    ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca.global_fermata():GlobalFermataCommand(1)
 
     % [F Global_Rests measure 187 / measure 36]                                %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
@@ -132,33 +132,33 @@ F_Global_Rests = {                                                             %
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [F Global_Rests measure 193 / measure 42]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata():GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
-    ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca.global_fermata():GlobalFermataCommand(1)
 
     % [F Global_Rests measure 194 / measure 43]                                %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [F Global_Rests measure 195 / measure 44]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata():GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
-    ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca.global_fermata():GlobalFermataCommand(1)
 
     % [F Global_Rests measure 196 / measure 45]                                %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [F Global_Rests measure 197 / measure 46]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata():GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca.global_fermata:GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca.global_fermata():GlobalFermataCommand(1)
 
     % [F Global_Rests measure 198 / measure 47]                                %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [F Global_Rests measure 199 / measure 48]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca.global_fermata():GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
-    ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! baca.global_fermata():GlobalFermataCommand(1)
 
     % [F Global_Rests measure 200 / measure 49]                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(4):baca.SegmentMaker._comment_measure_numbers()
     R1 * 1/4                                                                   %! PHANTOM:baca.SegmentMaker._make_global_rests(2)
@@ -173,8 +173,8 @@ F_Global_Skips = {                                                             %
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
-    - \tweak extra-offset #'(0 . 5)                                            %! baca.rehearsal_mark:IndicatorCommand
-    - \baca-rehearsal-mark-markup "F"                                          %! baca.rehearsal_mark:IndicatorCommand
+    - \tweak extra-offset #'(0 . 5)                                            %! baca.rehearsal_mark():IndicatorCommand
+    - \baca-rehearsal-mark-markup "F"                                          %! baca.rehearsal_mark():IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "152"                                           %! MEASURE_NUMBER
@@ -862,14 +862,14 @@ F_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [F Global_Skips measure 196 / measure 45]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \bar ".|:"                                                                 %! baca.bar_line:IndicatorCommand
+    \bar ".|:"                                                                 %! baca.bar_line():IndicatorCommand
     \override TextScript.extra-offset = #'(1.5 . 6)                            %! baca.text_script_extra_offset():OverrideCommand(1)
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! MEASURE_196:NOT_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! MEASURE_196:ONLY_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
-    ^ \akasha-repeat-six                                                       %! baca.markup:IndicatorCommand
+    ^ \akasha-repeat-six                                                       %! baca.markup():IndicatorCommand
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
@@ -906,7 +906,7 @@ F_Global_Skips = {                                                             %
     \revert TextScript.extra-offset                                            %! baca.text_script_extra_offset():OverrideCommand(2)
 
     % [F Global_Skips measure 198 / measure 47]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \bar ":|."                                                                 %! baca.bar_line:IndicatorCommand
+    \bar ":|."                                                                 %! baca.bar_line():IndicatorCommand
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! MEASURE_198:ONLY_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1027,23 +1027,23 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -1051,14 +1051,14 @@ F_Violin_I_Music_Voice = {                                                     %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     d'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     ef'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     e'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \times 4/6 {                                                               %! akasha.dense_getato_rhythm
@@ -1066,20 +1066,20 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -1089,17 +1089,17 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -1109,23 +1109,23 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -1134,14 +1134,14 @@ F_Violin_I_Music_Voice = {                                                     %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     e'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     ef'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     f'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \times 4/6 {                                                               %! akasha.dense_getato_rhythm
@@ -1149,20 +1149,20 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -1172,17 +1172,17 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -1261,7 +1261,7 @@ F_Violin_I_Music_Voice = {                                                     %
         ef''!16 * 227/32                                                       %! akasha.accelerando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-pp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-        ^ \markup { "tasto + XFB" }                                            %! baca.markup:IndicatorCommand
+        ^ \markup { "tasto + XFB" }                                            %! baca.markup():IndicatorCommand
         [                                                                      %! akasha.accelerando_rhythm
 
         r16 * 199/64                                                           %! akasha.accelerando_rhythm
@@ -1823,25 +1823,25 @@ F_Violin_I_Music_Voice = {                                                     %
     e''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup:IndicatorCommand
+    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():IndicatorCommand
 
     e''2
     \repeatTie
 
     % [F Violin_I_Music_Voice measure 175 / measure 24]                        %! baca.SegmentMaker._comment_measure_numbers()
-    e''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    e''2.                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 176 / measure 25]                        %! baca.SegmentMaker._comment_measure_numbers()
-    e''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    e''2.                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 177 / measure 26]                        %! baca.SegmentMaker._comment_measure_numbers()
-    e''1.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    e''1.                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 178 / measure 27]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1                                                                       %! baca.make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1854,28 +1854,28 @@ F_Violin_I_Music_Voice = {                                                     %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [F Violin_I_Music_Voice measure 179 / measure 28]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''1.                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 180 / measure 29]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''1.                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 181 / measure 30]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''1.                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 182 / measure 31]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 183 / measure 32]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 184 / measure 33]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_I_Music_Voice measure 185 / measure 34]                        %! baca.SegmentMaker._comment_measure_numbers()
     f''2.
@@ -1916,47 +1916,47 @@ F_Violin_I_Music_Voice = {                                                     %
         f'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ^ \markup { "pos. ord." }                                              %! baca.markup:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
+        ^ \markup { "pos. ord." }                                              %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         [                                                                      %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -1966,39 +1966,39 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         % [F Violin_I_Music_Voice measure 188 / measure 37]                    %! baca.SegmentMaker._comment_measure_numbers()
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2008,20 +2008,20 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2031,35 +2031,35 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2069,20 +2069,20 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2092,39 +2092,39 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         % [F Violin_I_Music_Voice measure 190 / measure 39]                    %! baca.SegmentMaker._comment_measure_numbers()
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2134,44 +2134,44 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2181,23 +2181,23 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2208,44 +2208,44 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2253,14 +2253,14 @@ F_Violin_I_Music_Voice = {                                                     %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     c''''16                                                                    %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     b'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     cs''''!16                                                                  %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \times 8/14 {                                                              %! akasha.dense_getato_rhythm
@@ -2268,44 +2268,44 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2316,35 +2316,35 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         f''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         fs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2354,20 +2354,20 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         fs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2375,16 +2375,16 @@ F_Violin_I_Music_Voice = {                                                     %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     f''''16                                                                    %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     fs''''!16                                                                  %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     g''''16                                                                    %! akasha.dense_getato_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -2422,57 +2422,57 @@ F_Violin_I_Music_Voice = {                                                     %
         f'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ^ \markup { leggieriss. }                                              %! baca.markup:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
+        ^ \markup { leggieriss. }                                              %! baca.markup():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2483,50 +2483,50 @@ F_Violin_I_Music_Voice = {                                                     %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2660,20 +2660,20 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2683,35 +2683,35 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2721,17 +2721,17 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2741,39 +2741,39 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         % [F Violin_II_Music_Voice measure 155 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2783,44 +2783,44 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -2899,7 +2899,7 @@ F_Violin_II_Music_Voice = {                                                    %
         b'16 * 13/8                                                            %! akasha.ritardando_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-pp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-        ^ \markup { "tasto + XFB" }                                            %! baca.markup:IndicatorCommand
+        ^ \markup { "tasto + XFB" }                                            %! baca.markup():IndicatorCommand
         [                                                                      %! akasha.ritardando_rhythm
 
         cs''!16 * 125/64                                                       %! akasha.ritardando_rhythm
@@ -3376,25 +3376,25 @@ F_Violin_II_Music_Voice = {                                                    %
     fs'!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup:IndicatorCommand
+    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():IndicatorCommand
 
     fs'!2
     \repeatTie
 
     % [F Violin_II_Music_Voice measure 175 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!2.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 176 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!2.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 177 / measure 26]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 178 / measure 27]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1                                                                      %! baca.make_repeat_tied_notes
+    fs'!1                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3407,28 +3407,28 @@ F_Violin_II_Music_Voice = {                                                    %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [F Violin_II_Music_Voice measure 179 / measure 28]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 180 / measure 29]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 181 / measure 30]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 182 / measure 31]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!1                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 183 / measure 32]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!2.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 184 / measure 33]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    fs'!1                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Violin_II_Music_Voice measure 185 / measure 34]                       %! baca.SegmentMaker._comment_measure_numbers()
     fs'!2.
@@ -3469,41 +3469,41 @@ F_Violin_II_Music_Voice = {                                                    %
         d'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ^ \markup { "pos. ord." }                                              %! baca.markup:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
+        ^ \markup { "pos. ord." }                                              %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         [                                                                      %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3513,20 +3513,20 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3537,35 +3537,35 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3575,20 +3575,20 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3599,38 +3599,38 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3640,45 +3640,45 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         % [F Violin_II_Music_Voice measure 190 / measure 39]                   %! baca.SegmentMaker._comment_measure_numbers()
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3688,23 +3688,23 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3714,44 +3714,44 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3760,14 +3760,14 @@ F_Violin_II_Music_Voice = {                                                    %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     a'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     af'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     bf'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \times 8/14 {                                                              %! akasha.dense_getato_rhythm
@@ -3775,44 +3775,44 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3822,35 +3822,35 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3861,20 +3861,20 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3884,38 +3884,38 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3925,22 +3925,22 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e''''16                                                                %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -3981,51 +3981,51 @@ F_Violin_II_Music_Voice = {                                                    %
         d'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ^ \markup { leggieriss. }                                              %! baca.markup:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
+        ^ \markup { leggieriss. }                                              %! baca.markup():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4033,20 +4033,20 @@ F_Violin_II_Music_Voice = {                                                    %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     fs'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     f'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     g'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     af'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     fs'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \times 6/9 {                                                               %! akasha.dense_getato_rhythm
@@ -4054,29 +4054,29 @@ F_Violin_II_Music_Voice = {                                                    %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4159,9 +4159,9 @@ F_Viola_Music_Voice = {                                                        %
                     #12                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
                     Va.                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
-            \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-            \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-            \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+            \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
+            \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
+            \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
             \set Staff.instrumentName =                                        %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             \markup {                                                          %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 \hcenter-in                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -4214,16 +4214,16 @@ F_Viola_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 
     % [F Viola_Music_Voice measure 157 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
-    fs!2.                                                                      %! baca.make_repeat_tied_notes
+    fs!2.                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca.markup:IndicatorCommand
-        \column                                                                %! baca.markup:IndicatorCommand
-            {                                                                  %! baca.markup:IndicatorCommand
-                "scratch moltiss.:"                                            %! baca.markup:IndicatorCommand
-                "terminate each note abruptly"                                 %! baca.markup:IndicatorCommand
-            }                                                                  %! baca.markup:IndicatorCommand
-        }                                                                      %! baca.markup:IndicatorCommand
+    ^ \markup {                                                                %! baca.markup():IndicatorCommand
+        \column                                                                %! baca.markup():IndicatorCommand
+            {                                                                  %! baca.markup():IndicatorCommand
+                "scratch moltiss.:"                                            %! baca.markup():IndicatorCommand
+                "terminate each note abruptly"                                 %! baca.markup():IndicatorCommand
+            }                                                                  %! baca.markup():IndicatorCommand
+        }                                                                      %! baca.markup():IndicatorCommand
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -4259,7 +4259,7 @@ F_Viola_Music_Voice = {                                                        %
     gs!2                                                                       %! akasha.manifest
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup:IndicatorCommand
+    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():IndicatorCommand
 
     gs!8.                                                                      %! akasha.manifest
     \repeatTie
@@ -4379,7 +4379,7 @@ F_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     % [F Viola_Music_Voice measure 178 / measure 27]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ds'!1                                                                      %! baca.make_repeat_tied_notes
+    ds'!1                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4392,28 +4392,28 @@ F_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [F Viola_Music_Voice measure 179 / measure 28]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ds'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    ds'!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Viola_Music_Voice measure 180 / measure 29]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ds'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    ds'!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Viola_Music_Voice measure 181 / measure 30]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ds'!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    ds'!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Viola_Music_Voice measure 182 / measure 31]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ds'!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    ds'!1                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Viola_Music_Voice measure 183 / measure 32]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ds'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    ds'!2.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Viola_Music_Voice measure 184 / measure 33]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ds'!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    ds'!1                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Viola_Music_Voice measure 185 / measure 34]                           %! baca.SegmentMaker._comment_measure_numbers()
     ds'!2.
@@ -4451,48 +4451,48 @@ F_Viola_Music_Voice = {                                                        %
         % [F Viola_Music_Voice measure 187 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
     %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_187:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
     %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_187:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
-        \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
+        \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef():IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef:IndicatorCommand
+        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef():IndicatorCommand
         r16                                                                    %! akasha.dense_getato_rhythm
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
         b''16                                                                  %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ^ \markup { "pos. ord." }                                              %! baca.markup:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
+        ^ \markup { "pos. ord." }                                              %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         [                                                                      %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4502,20 +4502,20 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4526,38 +4526,38 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4567,45 +4567,45 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         % [F Viola_Music_Voice measure 189 / measure 38]                       %! baca.SegmentMaker._comment_measure_numbers()
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4615,23 +4615,23 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4641,45 +4641,45 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         % [F Viola_Music_Voice measure 190 / measure 39]                       %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4687,14 +4687,14 @@ F_Viola_Music_Voice = {                                                        %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     fs'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     af'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     a'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \times 8/14 {                                                              %! akasha.dense_getato_rhythm
@@ -4702,44 +4702,44 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4750,35 +4750,35 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4788,20 +4788,20 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4811,38 +4811,38 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4853,20 +4853,20 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs''''!16                                                              %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4876,35 +4876,35 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4914,22 +4914,22 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c''''16                                                                %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -4956,15 +4956,15 @@ F_Viola_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [F Viola_Music_Voice measure 194 / measure 43]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    b'1.                                                                       %! baca.make_repeat_tied_notes
+    b'1.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca.down_bow:IndicatorCommand
-    ^ \markup { "OB + termiante abruptly" }                                    %! baca.markup:IndicatorCommand
+    - \downbow                                                                 %! baca.down_bow():IndicatorCommand
+    ^ \markup { "OB + termiante abruptly" }                                    %! baca.markup():IndicatorCommand
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -4990,57 +4990,57 @@ F_Viola_Music_Voice = {                                                        %
     \times 12/15 {                                                             %! akasha.dense_getato_rhythm
 
         % [F Viola_Music_Voice measure 196 / measure 45]                       %! baca.SegmentMaker._comment_measure_numbers()
-        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-        \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
+        \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
+        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
         r16                                                                    %! akasha.dense_getato_rhythm
 
         b''16                                                                  %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ^ \markup { leggieriss. }                                              %! baca.markup:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
+        ^ \markup { leggieriss. }                                              %! baca.markup():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5048,20 +5048,20 @@ F_Viola_Music_Voice = {                                                        %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     d'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     ef'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     d'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     e'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     f'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
@@ -5070,32 +5070,32 @@ F_Viola_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5122,15 +5122,15 @@ F_Viola_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [F Viola_Music_Voice measure 198 / measure 47]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines():IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    b'1.                                                                       %! baca.make_repeat_tied_notes
+    b'1.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca.down_bow:IndicatorCommand
-    ^ \markup { "OB + terminate abruptly" }                                    %! baca.markup:IndicatorCommand
+    - \downbow                                                                 %! baca.down_bow():IndicatorCommand
+    ^ \markup { "OB + terminate abruptly" }                                    %! baca.markup():IndicatorCommand
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -5220,7 +5220,7 @@ F_Cello_Music_Voice = {                                                        %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup:IndicatorCommand
+    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -5252,45 +5252,45 @@ F_Cello_Music_Voice = {                                                        %
         a''16                                                                  %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ^ \markup { leggieriss. }                                              %! baca.markup:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
+        ^ \markup { leggieriss. }                                              %! baca.markup():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5300,23 +5300,23 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5326,41 +5326,41 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5371,38 +5371,38 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5412,20 +5412,20 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5469,14 +5469,14 @@ F_Cello_Music_Voice = {                                                        %
     % [F Cello_Music_Voice measure 162 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
 %%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_162:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_162:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
-    \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
+    \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca.clef():IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef():IndicatorCommand
     af,!4..                                                                    %! akasha.manifest
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup:IndicatorCommand
+    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     g,16                                                                       %! akasha.manifest
@@ -5578,7 +5578,7 @@ F_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [F Cello_Music_Voice measure 178 / measure 27]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df,!1                                                                      %! baca.make_repeat_tied_notes
+    df,!1                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5591,28 +5591,28 @@ F_Cello_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [F Cello_Music_Voice measure 179 / measure 28]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df,!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    df,!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Cello_Music_Voice measure 180 / measure 29]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df,!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    df,!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Cello_Music_Voice measure 181 / measure 30]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df,!1.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    df,!1.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Cello_Music_Voice measure 182 / measure 31]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df,!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    df,!1                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Cello_Music_Voice measure 183 / measure 32]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df,!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    df,!2.                                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Cello_Music_Voice measure 184 / measure 33]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df,!1                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    df,!1                                                                      %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [F Cello_Music_Voice measure 185 / measure 34]                           %! baca.SegmentMaker._comment_measure_numbers()
     df,!2.
@@ -5650,33 +5650,33 @@ F_Cello_Music_Voice = {                                                        %
         % [F Cello_Music_Voice measure 187 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
     %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_187:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
     %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_187:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
-        \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
+        \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef():IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef:IndicatorCommand
+        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef():IndicatorCommand
         r16                                                                    %! akasha.dense_getato_rhythm
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
         af''!16                                                                %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
-        ^ \markup { "pos. ord." }                                              %! baca.markup:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
+        ^ \markup { "pos. ord." }                                              %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         [                                                                      %! akasha.dense_getato_rhythm
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5686,35 +5686,35 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         g''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5725,20 +5725,20 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5748,38 +5748,38 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5790,44 +5790,44 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5837,23 +5837,23 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5864,44 +5864,44 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5909,14 +5909,14 @@ F_Cello_Music_Voice = {                                                        %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     d'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     ef'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     d'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \times 8/14 {                                                              %! akasha.dense_getato_rhythm
@@ -5924,45 +5924,45 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         % [F Cello_Music_Voice measure 191 / measure 40]                       %! baca.SegmentMaker._comment_measure_numbers()
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -5972,35 +5972,35 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -6010,20 +6010,20 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -6033,39 +6033,39 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         % [F Cello_Music_Voice measure 192 / measure 41]                       %! baca.SegmentMaker._comment_measure_numbers()
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -6075,20 +6075,20 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         e'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -6098,37 +6098,37 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         f'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         g'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a'''16                                                                 %! akasha.dense_getato_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -6166,21 +6166,21 @@ F_Cello_Music_Voice = {                                                        %
     af''!16                                                                    %! akasha.dense_getato_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
-    ^ \markup { leggieriss. }                                                  %! baca.markup:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
+    ^ \markup { leggieriss. }                                                  %! baca.markup():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     a''16                                                                      %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     af''!16                                                                    %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     g''16                                                                      %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     fs''!16                                                                    %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     \times 12/15 {                                                             %! akasha.dense_getato_rhythm
@@ -6188,47 +6188,47 @@ F_Cello_Music_Voice = {                                                        %
         r16                                                                    %! akasha.dense_getato_rhythm
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         [                                                                      %! akasha.dense_getato_rhythm
 
         g''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         a''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         af''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         bf''!16                                                                %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         c'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         b''16                                                                  %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         cs'''!16                                                               %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
 
         d'''16                                                                 %! akasha.dense_getato_rhythm
-        - \staccato                                                            %! baca.staccato:IndicatorCommand
+        - \staccato                                                            %! baca.staccato():IndicatorCommand
         ]                                                                      %! akasha.dense_getato_rhythm
 
     }                                                                          %! akasha.dense_getato_rhythm
@@ -6236,20 +6236,20 @@ F_Cello_Music_Voice = {                                                        %
     r16                                                                        %! akasha.dense_getato_rhythm
 
     c'''16                                                                     %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     [                                                                          %! akasha.dense_getato_rhythm
 
     cs'''!16                                                                   %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     bf''!16                                                                    %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     b''16                                                                      %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
 
     bf''!16                                                                    %! akasha.dense_getato_rhythm
-    - \staccato                                                                %! baca.staccato:IndicatorCommand
+    - \staccato                                                                %! baca.staccato():IndicatorCommand
     ]                                                                          %! akasha.dense_getato_rhythm
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
