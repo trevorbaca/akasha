@@ -23,5 +23,5 @@ def dense_getato_rhythm(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         preprocessor=divisions,
-        tag="akasha.dense_getato_rhythm",
+        tag=abjad.Tag("akasha.dense_getato_rhythm"),
     )
