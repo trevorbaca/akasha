@@ -18,5 +18,5 @@ def viola_ob_rhythm(*, rotation: int = None) -> baca.RhythmCommand:
         rmakers.beam(baca.plts()),
         rmakers.split_measures(),
         preprocessor=divisions,
-        tag="akasha.viola_ob_rhythm",
+        tag=abjad.Tag("akasha.viola_ob_rhythm"),
     )

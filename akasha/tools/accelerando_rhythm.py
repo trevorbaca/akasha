@@ -26,5 +26,5 @@ def accelerando_rhythm(
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         preprocessor=divisions,
-        tag="akasha.accelerando_rhythm",
+        tag=abjad.Tag("akasha.accelerando_rhythm"),
     )

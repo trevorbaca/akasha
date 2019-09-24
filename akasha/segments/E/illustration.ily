@@ -2429,7 +2429,7 @@ E_Violin_I_Music_Voice = {                                                     %
 
 E_Violin_I_Music_Staff = {                                                     %! abjad.Path.extern()
 
-    \context Voice = "Violin_I_Music_Voice"                                    %! akasha.ScoreTemplate.__call__
+    \context Voice = "Violin_I_Music_Voice"                                    %! akasha.ScoreTemplate.__call__()
     \E_Violin_I_Music_Voice                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -4189,7 +4189,7 @@ E_Violin_II_Music_Voice = {                                                    %
 
 E_Violin_II_Music_Staff = {                                                    %! abjad.Path.extern()
 
-    \context Voice = "Violin_II_Music_Voice"                                   %! akasha.ScoreTemplate.__call__
+    \context Voice = "Violin_II_Music_Voice"                                   %! akasha.ScoreTemplate.__call__()
     \E_Violin_II_Music_Voice                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -4837,7 +4837,7 @@ E_Viola_Music_Voice = {                                                        %
 
 E_Viola_Music_Staff = {                                                        %! abjad.Path.extern()
 
-    \context Voice = "Viola_Music_Voice"                                       %! akasha.ScoreTemplate.__call__
+    \context Voice = "Viola_Music_Voice"                                       %! akasha.ScoreTemplate.__call__()
     \E_Viola_Music_Voice                                                       %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -6730,7 +6730,7 @@ E_Cello_Music_Voice = {                                                        %
 
 E_Cello_Music_Staff = {                                                        %! abjad.Path.extern()
 
-    \context Voice = "Cello_Music_Voice"                                       %! akasha.ScoreTemplate.__call__
+    \context Voice = "Cello_Music_Voice"                                       %! akasha.ScoreTemplate.__call__()
     \E_Cello_Music_Voice                                                       %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
