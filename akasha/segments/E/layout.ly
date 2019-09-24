@@ -9,25 +9,25 @@
 %  ]
 
 
-\context Score = "Score"                                                       %! baca.SingleStaffScoreTemplate.__call__
-\with                                                                          %! baca.SingleStaffScoreTemplate.__call__
-{                                                                              %! baca.SingleStaffScoreTemplate.__call__
-    currentBarNumber = #113                                                    %! baca.SingleStaffScoreTemplate.__call__
-}                                                                              %! baca.SingleStaffScoreTemplate.__call__
-<<                                                                             %! baca.SingleStaffScoreTemplate.__call__
+\context Score = "Score"                                                       %! baca.SingleStaffScoreTemplate.__call__()
+\with                                                                          %! baca.SingleStaffScoreTemplate.__call__()
+{                                                                              %! baca.SingleStaffScoreTemplate.__call__()
+    currentBarNumber = #113                                                    %! baca.SingleStaffScoreTemplate.__call__()
+}                                                                              %! baca.SingleStaffScoreTemplate.__call__()
+<<                                                                             %! baca.SingleStaffScoreTemplate.__call__()
 
-    \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context
-    <<                                                                         %! abjad.ScoreTemplate._make_global_context
+    \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context()
+    <<                                                                         %! abjad.ScoreTemplate._make_global_context()
 
-        \context PageLayout = "Page_Layout"                                    %! abjad.ScoreTemplate._make_global_context
-        {   %*% Page_Layout                                                    %! abjad.ScoreTemplate._make_global_context
+        \context PageLayout = "Page_Layout"                                    %! abjad.ScoreTemplate._make_global_context()
+        {   %*% Page_Layout                                                    %! abjad.ScoreTemplate._make_global_context()
 
             % [Page_Layout measure 113]                                        %! baca.SegmentMaker._comment_measure_numbers()
             \baca-new-spacing-section #1 #48                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \autoPageBreaksOff                                                 %! BreakMeasureMap(1):BREAK
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #20 #'(20 22)                                           %! BREAK:IndicatorCommand
-            \pageBreak                                                         %! BREAK:IndicatorCommand
+            \baca-lbsd #20 #'(20 22)                                           %! BREAK:baca.IndicatorCommand._call()
+            \pageBreak                                                         %! BREAK:baca.IndicatorCommand._call()
             s1 * 1                                                             %! baca.SegmentMaker._make_global_skips(1)
         %@% - \baca-start-spm-left-only "[1/48]"                               %! SPACING
         %@% \bacaStartTextSpanSPM                                              %! SPACING
@@ -91,8 +91,8 @@
             % [Page_Layout measure 121]                                        %! baca.SegmentMaker._comment_measure_numbers()
             \baca-new-spacing-section #1 #48                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #140 #'(20 22)                                          %! BREAK:IndicatorCommand
-            \break                                                             %! BREAK:IndicatorCommand
+            \baca-lbsd #140 #'(20 22)                                          %! BREAK:baca.IndicatorCommand._call()
+            \break                                                             %! BREAK:baca.IndicatorCommand._call()
             s1 * 3/4                                                           %! baca.SegmentMaker._make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
         %@% - \baca-start-spm-left-only "[1/48]"                               %! SPACING
@@ -141,8 +141,8 @@
             % [Page_Layout measure 127]                                        %! baca.SegmentMaker._comment_measure_numbers()
             \baca-new-spacing-section #1 #48                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #20 #'(20 22)                                           %! BREAK:IndicatorCommand
-            \pageBreak                                                         %! BREAK:IndicatorCommand
+            \baca-lbsd #20 #'(20 22)                                           %! BREAK:baca.IndicatorCommand._call()
+            \pageBreak                                                         %! BREAK:baca.IndicatorCommand._call()
             s1 * 3/4                                                           %! baca.SegmentMaker._make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
         %@% - \baca-start-spm-left-only "[1/48]"                               %! SPACING
@@ -175,8 +175,8 @@
             % [Page_Layout measure 131]                                        %! baca.SegmentMaker._comment_measure_numbers()
             \baca-new-spacing-section #1 #48                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #140 #'(20 22)                                          %! BREAK:IndicatorCommand
-            \break                                                             %! BREAK:IndicatorCommand
+            \baca-lbsd #140 #'(20 22)                                          %! BREAK:baca.IndicatorCommand._call()
+            \break                                                             %! BREAK:baca.IndicatorCommand._call()
             s1 * 3/2                                                           %! baca.SegmentMaker._make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
         %@% - \baca-start-spm-left-only "[1/48]"                               %! SPACING
@@ -209,8 +209,8 @@
             % [Page_Layout measure 135]                                        %! baca.SegmentMaker._comment_measure_numbers()
             \baca-new-spacing-section #1 #48                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #20 #'(20 22)                                           %! BREAK:IndicatorCommand
-            \pageBreak                                                         %! BREAK:IndicatorCommand
+            \baca-lbsd #20 #'(20 22)                                           %! BREAK:baca.IndicatorCommand._call()
+            \pageBreak                                                         %! BREAK:baca.IndicatorCommand._call()
             s1 * 1                                                             %! baca.SegmentMaker._make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
         %@% - \baca-start-spm-left-only "[1/48]"                               %! SPACING
@@ -251,8 +251,8 @@
             % [Page_Layout measure 140]                                        %! baca.SegmentMaker._comment_measure_numbers()
             \baca-new-spacing-section #1 #48                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #140 #'(20 22)                                          %! BREAK:IndicatorCommand
-            \break                                                             %! BREAK:IndicatorCommand
+            \baca-lbsd #140 #'(20 22)                                          %! BREAK:baca.IndicatorCommand._call()
+            \break                                                             %! BREAK:baca.IndicatorCommand._call()
             s1 * 1                                                             %! baca.SegmentMaker._make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
         %@% - \baca-start-spm-left-only "[1/48]"                               %! SPACING
@@ -285,8 +285,8 @@
             % [Page_Layout measure 144]                                        %! baca.SegmentMaker._comment_measure_numbers()
             \baca-new-spacing-section #1 #48                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #20 #'(20 22)                                           %! BREAK:IndicatorCommand
-            \pageBreak                                                         %! BREAK:IndicatorCommand
+            \baca-lbsd #20 #'(20 22)                                           %! BREAK:baca.IndicatorCommand._call()
+            \pageBreak                                                         %! BREAK:baca.IndicatorCommand._call()
             s1 * 3/2                                                           %! baca.SegmentMaker._make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
         %@% - \baca-start-spm-left-only "[1/48]"                               %! SPACING
@@ -311,8 +311,8 @@
             % [Page_Layout measure 147]                                        %! baca.SegmentMaker._comment_measure_numbers()
             \baca-new-spacing-section #1 #48                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #140 #'(20 22)                                          %! BREAK:IndicatorCommand
-            \break                                                             %! BREAK:IndicatorCommand
+            \baca-lbsd #140 #'(20 22)                                          %! BREAK:baca.IndicatorCommand._call()
+            \break                                                             %! BREAK:baca.IndicatorCommand._call()
             s1 * 3/2                                                           %! baca.SegmentMaker._make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
         %@% - \baca-start-spm-left-only "[1/48]"                               %! SPACING
@@ -359,8 +359,8 @@
             \once \override Score.BarLine.transparent = ##t                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(3)
             \once \override Score.SpanBar.transparent = ##t                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(3)
 
-        }   %*% Page_Layout                                                    %! abjad.ScoreTemplate._make_global_context
+        }   %*% Page_Layout                                                    %! abjad.ScoreTemplate._make_global_context()
 
-    >>                                                                         %! abjad.ScoreTemplate._make_global_context
+    >>                                                                         %! abjad.ScoreTemplate._make_global_context()
 
->>                                                                             %! baca.SingleStaffScoreTemplate.__call__
+>>                                                                             %! baca.SingleStaffScoreTemplate.__call__()
