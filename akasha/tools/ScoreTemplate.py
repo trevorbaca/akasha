@@ -22,53 +22,53 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.f(lilypond_file[abjad.Score], strict=99)
         \context Score = "Score"                                                                           %! akasha.ScoreTemplate.__call__
         <<                                                                                                 %! akasha.ScoreTemplate.__call__
-            \context GlobalContext = "Global_Context"                                                      %! abjad.ScoreTemplate._make_global_context
-            <<                                                                                             %! abjad.ScoreTemplate._make_global_context
-                \context GlobalRests = "Global_Rests"                                                      %! abjad.ScoreTemplate._make_global_context
-                {                                                                                          %! abjad.ScoreTemplate._make_global_context
-                }                                                                                          %! abjad.ScoreTemplate._make_global_context
-                \context GlobalSkips = "Global_Skips"                                                      %! abjad.ScoreTemplate._make_global_context
-                {                                                                                          %! abjad.ScoreTemplate._make_global_context
-                }                                                                                          %! abjad.ScoreTemplate._make_global_context
-            >>                                                                                             %! abjad.ScoreTemplate._make_global_context
+            \context GlobalContext = "Global_Context"                                                      %! abjad.ScoreTemplate._make_global_context()
+            <<                                                                                             %! abjad.ScoreTemplate._make_global_context()
+                \context GlobalRests = "Global_Rests"                                                      %! abjad.ScoreTemplate._make_global_context()
+                {                                                                                          %! abjad.ScoreTemplate._make_global_context()
+                }                                                                                          %! abjad.ScoreTemplate._make_global_context()
+                \context GlobalSkips = "Global_Skips"                                                      %! abjad.ScoreTemplate._make_global_context()
+                {                                                                                          %! abjad.ScoreTemplate._make_global_context()
+                }                                                                                          %! abjad.ScoreTemplate._make_global_context()
+            >>                                                                                             %! abjad.ScoreTemplate._make_global_context()
             \context MusicContext = "Music_Context"                                                        %! akasha.ScoreTemplate.__call__
             {                                                                                              %! akasha.ScoreTemplate.__call__
                 \context StringQuartetStaffGroup = "String_Quartet_Staff_Group"                            %! akasha.ScoreTemplate.__call__
                 <<                                                                                         %! akasha.ScoreTemplate.__call__
-                    \tag ViolinI                                                                           %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag ViolinI                                                                           %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Violin_I_Music_Staff"                                                %! akasha.ScoreTemplate.__call__
                     {                                                                                      %! akasha.ScoreTemplate.__call__
                         \context Voice = "Violin_I_Music_Voice"                                            %! akasha.ScoreTemplate.__call__
                         {                                                                                  %! akasha.ScoreTemplate.__call__
-                            \clef "treble"                                                                 %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                             %! abjad.ScoreTemplate.__illustrate__
+                            \clef "treble"                                                                 %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                             %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                                  %! akasha.ScoreTemplate.__call__
                     }                                                                                      %! akasha.ScoreTemplate.__call__
-                    \tag ViolinII                                                                          %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag ViolinII                                                                          %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Violin_II_Music_Staff"                                               %! akasha.ScoreTemplate.__call__
                     {                                                                                      %! akasha.ScoreTemplate.__call__
                         \context Voice = "Violin_II_Music_Voice"                                           %! akasha.ScoreTemplate.__call__
                         {                                                                                  %! akasha.ScoreTemplate.__call__
-                            \clef "treble"                                                                 %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                             %! abjad.ScoreTemplate.__illustrate__
+                            \clef "treble"                                                                 %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                             %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                                  %! akasha.ScoreTemplate.__call__
                     }                                                                                      %! akasha.ScoreTemplate.__call__
-                    \tag viola                                                                             %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag viola                                                                             %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Viola_Music_Staff"                                                   %! akasha.ScoreTemplate.__call__
                     {                                                                                      %! akasha.ScoreTemplate.__call__
                         \context Voice = "Viola_Music_Voice"                                               %! akasha.ScoreTemplate.__call__
                         {                                                                                  %! akasha.ScoreTemplate.__call__
-                            \clef "alto"                                                                   %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                             %! abjad.ScoreTemplate.__illustrate__
+                            \clef "alto"                                                                   %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                             %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                                  %! akasha.ScoreTemplate.__call__
                     }                                                                                      %! akasha.ScoreTemplate.__call__
-                    \tag cello                                                                             %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag cello                                                                             %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Cello_Music_Staff"                                                   %! akasha.ScoreTemplate.__call__
                     {                                                                                      %! akasha.ScoreTemplate.__call__
                         \context Voice = "Cello_Music_Voice"                                               %! akasha.ScoreTemplate.__call__
                         {                                                                                  %! akasha.ScoreTemplate.__call__
-                            \clef "bass"                                                                   %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                             %! abjad.ScoreTemplate.__illustrate__
+                            \clef "bass"                                                                   %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                             %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                                  %! akasha.ScoreTemplate.__call__
                     }                                                                                      %! akasha.ScoreTemplate.__call__
                 >>                                                                                         %! akasha.ScoreTemplate.__call__
