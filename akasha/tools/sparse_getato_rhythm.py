@@ -26,5 +26,5 @@ def sparse_getato_rhythm(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=baca.sequence().map(baca.sequence().quarters()),
-        tag=abjad.Tag("akasha.sparse_getato_rhythm"),
+        tag=abjad.Tag("akasha.sparse_getato_rhythm()"),
     )
