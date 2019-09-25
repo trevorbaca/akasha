@@ -35,8 +35,8 @@ H_Global_Skips = {                                                             %
 
     % [H Global_Skips measure 217 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \bar ".|:"                                                                 %! baca.bar_line():baca.IndicatorCommand._call()
-    \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! MEASURE_217:NOT_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
-%%% \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! MEASURE_217:ONLY_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
+    \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! baca.bar_line_x_extent():NOT_MOL:MEASURE_217:baca.OverrideCommand._call(1)
+%%% \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! baca.bar_line_x_extent():ONLY_MOL:MEASURE_217:baca.OverrideCommand._call(1)
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -160,7 +160,7 @@ H_Global_Skips = {                                                             %
 %@% - \baca-start-ct-both-left-fermata "2''" "[11'27'']"                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
     \bar ":|."                                                                 %! baca.bar_line():baca.IndicatorCommand._call()
-%%% \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! MEASURE_224:ONLY_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
+%%% \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! baca.bar_line_x_extent():ONLY_MOL:MEASURE_224:baca.OverrideCommand._call(1)
 
     % [H Global_Skips measure 224 / measure 8]                                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):baca.SegmentMaker._comment_measure_numbers()
     \baca-time-signature-transparent                                           %! PHANTOM:baca.SegmentMaker._style_phantom_measures(2)

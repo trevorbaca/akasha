@@ -1053,8 +1053,8 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 320 / measure 56]                                %! baca.SegmentMaker._comment_measure_numbers()
     \bar ".|:"                                                                 %! baca.bar_line():baca.IndicatorCommand._call()
-%%% \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! MEASURE_320:NOT_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
-    \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! MEASURE_320:ONLY_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
+%%% \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! baca.bar_line_x_extent():NOT_MOL:MEASURE_320:baca.OverrideCommand._call(1)
+    \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! baca.bar_line_x_extent():ONLY_MOL:MEASURE_320:baca.OverrideCommand._call(1)
     \override TextScript.extra-offset = #'(1.5 . 6)                            %! baca.text_script_extra_offset():baca.OverrideCommand._call(1)
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1139,7 +1139,7 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 325 / measure 61]                                %! baca.SegmentMaker._comment_measure_numbers()
     \bar ":|."                                                                 %! baca.bar_line():baca.IndicatorCommand._call()
-%%% \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! MEASURE_325:ONLY_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
+%%% \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! baca.bar_line_x_extent():ONLY_MOL:MEASURE_325:baca.OverrideCommand._call(1)
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
@@ -3027,8 +3027,8 @@ K_Viola_Music_Voice = {                                                        %
 
     % [K Viola_Music_Voice measure 313 / measure 49]                           %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
-    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_313:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():baca.OverrideCommand._call(1)
-    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_313:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():baca.OverrideCommand._call(1)
+    \once \override Staff.Clef.X-extent = ##f                                  %! baca.clef_x_extent_false():baca.clef_shift():SHIFTED_CLEF:MEASURE_313:baca.OverrideCommand._call(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! baca.clef_extra_offset():baca.clef_shift():SHIFTED_CLEF:MEASURE_313:baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.clef():baca.IndicatorCommand._call()
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -3681,8 +3681,8 @@ K_Cello_Music_Voice = {                                                        %
 
     % [K Cello_Music_Voice measure 311 / measure 47]                           %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_311:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():baca.OverrideCommand._call(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_311:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():baca.OverrideCommand._call(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! baca.clef_x_extent_false():baca.clef_shift():SHIFTED_CLEF:MEASURE_311:baca.OverrideCommand._call(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! baca.clef_extra_offset():baca.clef_shift():SHIFTED_CLEF:MEASURE_311:baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.clef():baca.IndicatorCommand._call()
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
