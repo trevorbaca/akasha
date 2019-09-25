@@ -374,7 +374,7 @@ G_Global_Skips = {                                                             %
 
 G_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern()
 
-    \times 8/14 {                                                              %! akasha.dense_getato_rhythm
+    \times 8/14 {                                                              %! akasha.dense_getato_rhythm()
 
         % [G Violin_I_Music_Voice measure 200 / measure 1]                     %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -399,7 +399,7 @@ G_Violin_I_Music_Voice = {                                                     %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        r16                                                                    %! akasha.dense_getato_rhythm
+        r16                                                                    %! akasha.dense_getato_rhythm()
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -413,192 +413,192 @@ G_Violin_I_Music_Voice = {                                                     %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-        g'''16                                                                 %! akasha.dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
-        [                                                                      %! akasha.dense_getato_rhythm
+        [                                                                      %! akasha.dense_getato_rhythm()
 
-        af'''!16                                                               %! akasha.dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        g'''16                                                                 %! akasha.dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        fs'''!16                                                               %! akasha.dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        f'''16                                                                 %! akasha.dense_getato_rhythm
+        f'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        g'''16                                                                 %! akasha.dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        fs'''!16                                                               %! akasha.dense_getato_rhythm
+        fs'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        g'''16                                                                 %! akasha.dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        af'''!16                                                               %! akasha.dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        a'''16                                                                 %! akasha.dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        af'''!16                                                               %! akasha.dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        g'''16                                                                 %! akasha.dense_getato_rhythm
-        ]                                                                      %! akasha.dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm()
+        ]                                                                      %! akasha.dense_getato_rhythm()
 
-    }                                                                          %! akasha.dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
-    \times 6/10 {                                                              %! akasha.dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
+    \times 6/10 {                                                              %! akasha.dense_getato_rhythm()
 
-        r16                                                                    %! akasha.dense_getato_rhythm
+        r16                                                                    %! akasha.dense_getato_rhythm()
 
-        a'''16                                                                 %! akasha.dense_getato_rhythm
-        [                                                                      %! akasha.dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm()
+        [                                                                      %! akasha.dense_getato_rhythm()
 
-        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        c''''16                                                                %! akasha.dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm()
 
-        cs''''!16                                                              %! akasha.dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        c''''16                                                                %! akasha.dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm()
 
-        a'''16                                                                 %! akasha.dense_getato_rhythm
-        ]                                                                      %! akasha.dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm()
+        ]                                                                      %! akasha.dense_getato_rhythm()
 
-    }                                                                          %! akasha.dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm
+    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
 
         % [G Violin_I_Music_Voice measure 201 / measure 2]                     %! baca.SegmentMaker._comment_measure_numbers()
-        r16                                                                    %! akasha.dense_getato_rhythm
+        r16                                                                    %! akasha.dense_getato_rhythm()
 
-        bf'''!16                                                               %! akasha.dense_getato_rhythm
-        [                                                                      %! akasha.dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm()
+        [                                                                      %! akasha.dense_getato_rhythm()
 
-        a'''16                                                                 %! akasha.dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        af'''!16                                                               %! akasha.dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        g'''16                                                                 %! akasha.dense_getato_rhythm
+        g'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        a'''16                                                                 %! akasha.dense_getato_rhythm
-        ]                                                                      %! akasha.dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm()
+        ]                                                                      %! akasha.dense_getato_rhythm()
 
-    }                                                                          %! akasha.dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/11 {                                                              %! akasha.dense_getato_rhythm
+    \times 8/11 {                                                              %! akasha.dense_getato_rhythm()
 
-        r16                                                                    %! akasha.dense_getato_rhythm
+        r16                                                                    %! akasha.dense_getato_rhythm()
 
-        af'''!16                                                               %! akasha.dense_getato_rhythm
-        [                                                                      %! akasha.dense_getato_rhythm
+        af'''!16                                                               %! akasha.dense_getato_rhythm()
+        [                                                                      %! akasha.dense_getato_rhythm()
 
-        a'''16                                                                 %! akasha.dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        c''''16                                                                %! akasha.dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        a'''16                                                                 %! akasha.dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        c''''16                                                                %! akasha.dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm()
 
-        cs''''!16                                                              %! akasha.dense_getato_rhythm
-        ]                                                                      %! akasha.dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm()
+        ]                                                                      %! akasha.dense_getato_rhythm()
 
-    }                                                                          %! akasha.dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm()
 
-    r16                                                                        %! akasha.dense_getato_rhythm
+    r16                                                                        %! akasha.dense_getato_rhythm()
 
-    c''''16                                                                    %! akasha.dense_getato_rhythm
+    c''''16                                                                    %! akasha.dense_getato_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm
-    \times 6/10 {                                                              %! akasha.dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
+    \times 6/10 {                                                              %! akasha.dense_getato_rhythm()
 
         % [G Violin_I_Music_Voice measure 202 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
-        r16                                                                    %! akasha.dense_getato_rhythm
+        r16                                                                    %! akasha.dense_getato_rhythm()
 
-        d''''16                                                                %! akasha.dense_getato_rhythm
-        [                                                                      %! akasha.dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm()
+        [                                                                      %! akasha.dense_getato_rhythm()
 
-        ef''''!16                                                              %! akasha.dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm()
 
-        cs''''!16                                                              %! akasha.dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm()
 
-        d''''16                                                                %! akasha.dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        c''''16                                                                %! akasha.dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        a'''16                                                                 %! akasha.dense_getato_rhythm
-        ]                                                                      %! akasha.dense_getato_rhythm
+        a'''16                                                                 %! akasha.dense_getato_rhythm()
+        ]                                                                      %! akasha.dense_getato_rhythm()
 
-    }                                                                          %! akasha.dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 12/18 {                                                             %! akasha.dense_getato_rhythm
+    \times 12/18 {                                                             %! akasha.dense_getato_rhythm()
 
         % [G Violin_I_Music_Voice measure 203 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        r16                                                                    %! akasha.dense_getato_rhythm
+        r16                                                                    %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
-        [                                                                      %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
+        [                                                                      %! akasha.dense_getato_rhythm()
 
-        bf'''!16                                                               %! akasha.dense_getato_rhythm
+        bf'''!16                                                               %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        c''''16                                                                %! akasha.dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm()
 
-        d''''16                                                                %! akasha.dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm()
 
-        cs''''!16                                                              %! akasha.dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm()
 
-        c''''16                                                                %! akasha.dense_getato_rhythm
+        c''''16                                                                %! akasha.dense_getato_rhythm()
 
-        b'''16                                                                 %! akasha.dense_getato_rhythm
+        b'''16                                                                 %! akasha.dense_getato_rhythm()
 
-        cs''''!16                                                              %! akasha.dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm()
 
-        d''''16                                                                %! akasha.dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm()
 
-        ef''''!16                                                              %! akasha.dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm()
 
-        d''''16                                                                %! akasha.dense_getato_rhythm
+        d''''16                                                                %! akasha.dense_getato_rhythm()
 
-        e''''16                                                                %! akasha.dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm()
 
-        f''''16                                                                %! akasha.dense_getato_rhythm
+        f''''16                                                                %! akasha.dense_getato_rhythm()
 
-        ef''''!16                                                              %! akasha.dense_getato_rhythm
+        ef''''!16                                                              %! akasha.dense_getato_rhythm()
 
-        e''''16                                                                %! akasha.dense_getato_rhythm
+        e''''16                                                                %! akasha.dense_getato_rhythm()
 
-        cs''''!16                                                              %! akasha.dense_getato_rhythm
+        cs''''!16                                                              %! akasha.dense_getato_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        ]                                                                      %! akasha.dense_getato_rhythm
+        ]                                                                      %! akasha.dense_getato_rhythm()
 
-    }                                                                          %! akasha.dense_getato_rhythm
+    }                                                                          %! akasha.dense_getato_rhythm()
 
     % [G Violin_I_Music_Voice measure 204 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
     f''2.
@@ -693,7 +693,7 @@ G_Violin_I_Music_Voice = {                                                     %
 
             % [G Violin_I_Music_Voice measure 213 / measure 14]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -725,7 +725,7 @@ G_Violin_I_Music_Voice = {                                                     %
 
             % [G Violin_I_Music_Voice measure 216 / measure 17]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/8                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/8                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"8"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -748,7 +748,7 @@ G_Violin_I_Music_Voice = {                                                     %
 
             % [G Violin_I_Music_Voice measure 217 / measure 18]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -935,7 +935,7 @@ G_Violin_II_Music_Voice = {                                                    %
 
             % [G Violin_II_Music_Voice measure 213 / measure 14]               %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -967,7 +967,7 @@ G_Violin_II_Music_Voice = {                                                    %
 
             % [G Violin_II_Music_Voice measure 216 / measure 17]               %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/8                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/8                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"8"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -990,7 +990,7 @@ G_Violin_II_Music_Voice = {                                                    %
 
             % [G Violin_II_Music_Voice measure 217 / measure 18]               %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1179,7 +1179,7 @@ G_Viola_Music_Voice = {                                                        %
 
             % [G Viola_Music_Voice measure 213 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1221,7 +1221,7 @@ G_Viola_Music_Voice = {                                                        %
 
             % [G Viola_Music_Voice measure 217 / measure 18]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1411,7 +1411,7 @@ G_Cello_Music_Voice = {                                                        %
 
             % [G Cello_Music_Voice measure 213 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1443,7 +1443,7 @@ G_Cello_Music_Voice = {                                                        %
 
             % [G Cello_Music_Voice measure 216 / measure 17]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/8                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/8                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"8"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1466,7 +1466,7 @@ G_Cello_Music_Voice = {                                                        %
 
             % [G Cello_Music_Voice measure 217 / measure 18]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()

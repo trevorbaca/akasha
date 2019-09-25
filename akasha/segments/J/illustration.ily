@@ -130,7 +130,7 @@ J_Violin_I_Music_Voice = {                                                     %
         %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
             \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-            c'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1                                                            %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
             ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -165,33 +165,33 @@ J_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm
-    \times 6/4 {                                                               %! akasha.scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
+    \times 6/4 {                                                               %! akasha.scratch_rhythm()
 
         % [J Violin_I_Music_Voice measure 262 / measure 2]                     %! baca.SegmentMaker._comment_measure_numbers()
-        f'4                                                                    %! akasha.scratch_rhythm
+        f'4                                                                    %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-    }                                                                          %! akasha.scratch_rhythm
+    }                                                                          %! akasha.scratch_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm
-    \times 6/4 {                                                               %! akasha.scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
+    \times 6/4 {                                                               %! akasha.scratch_rhythm()
 
         % [J Violin_I_Music_Voice measure 263 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
-        fs'!4                                                                  %! akasha.scratch_rhythm
+        fs'!4                                                                  %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-    }                                                                          %! akasha.scratch_rhythm
+    }                                                                          %! akasha.scratch_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -200,7 +200,7 @@ J_Violin_I_Music_Voice = {                                                     %
 
             % [J Violin_I_Music_Voice measure 264 / measure 4]                 %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -223,7 +223,7 @@ J_Violin_I_Music_Voice = {                                                     %
 
             % [J Violin_I_Music_Voice measure 265 / measure 5]                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -257,8 +257,8 @@ J_Violin_I_Music_Staff = {                                                     %
 
 J_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm
-    \times 4/4 {                                                               %! akasha.scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
+    \times 4/4 {                                                               %! akasha.scratch_rhythm()
 
         % [J Violin_II_Music_Voice measure 261 / measure 1]                    %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -282,7 +282,7 @@ J_Violin_II_Music_Voice = {                                                    %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -296,11 +296,11 @@ J_Violin_II_Music_Voice = {                                                    %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        a4                                                                     %! akasha.scratch_rhythm
+        a4                                                                     %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         ^ \markup {                                                            %! baca.markup():baca.IndicatorCommand._call()
@@ -311,43 +311,43 @@ J_Violin_II_Music_Voice = {                                                    %
                 }                                                              %! baca.markup():baca.IndicatorCommand._call()
             }                                                                  %! baca.markup():baca.IndicatorCommand._call()
 
-    }                                                                          %! akasha.scratch_rhythm
+    }                                                                          %! akasha.scratch_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm
-    \times 6/5 {                                                               %! akasha.scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
+    \times 6/5 {                                                               %! akasha.scratch_rhythm()
 
         % [J Violin_II_Music_Voice measure 262 / measure 2]                    %! baca.SegmentMaker._comment_measure_numbers()
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        bf!4                                                                   %! akasha.scratch_rhythm
+        bf!4                                                                   %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-    }                                                                          %! akasha.scratch_rhythm
+    }                                                                          %! akasha.scratch_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm
-    \times 6/7 {                                                               %! akasha.scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
+    \times 6/7 {                                                               %! akasha.scratch_rhythm()
 
         % [J Violin_II_Music_Voice measure 263 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        a4                                                                     %! akasha.scratch_rhythm
+        a4                                                                     %! akasha.scratch_rhythm()
 
-    }                                                                          %! akasha.scratch_rhythm
+    }                                                                          %! akasha.scratch_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -356,7 +356,7 @@ J_Violin_II_Music_Voice = {                                                    %
 
             % [J Violin_II_Music_Voice measure 264 / measure 4]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -379,7 +379,7 @@ J_Violin_II_Music_Voice = {                                                    %
 
             % [J Violin_II_Music_Voice measure 265 / measure 5]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -469,7 +469,7 @@ J_Viola_Music_Voice = {                                                        %
 
             % [J Viola_Music_Voice measure 265 / measure 5]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -503,8 +503,8 @@ J_Viola_Music_Staff = {                                                        %
 
 J_Cello_Music_Voice = {                                                        %! abjad.Path.extern()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm
-    \times 4/3 {                                                               %! akasha.scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
+    \times 4/3 {                                                               %! akasha.scratch_rhythm()
 
         % [J Cello_Music_Voice measure 261 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -529,7 +529,7 @@ J_Cello_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Vc.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -543,7 +543,7 @@ J_Cello_Music_Voice = {                                                        %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-        b,4                                                                    %! akasha.scratch_rhythm
+        b,4                                                                    %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         ^ \markup {                                                            %! baca.markup():baca.IndicatorCommand._call()
@@ -554,9 +554,9 @@ J_Cello_Music_Voice = {                                                        %
                 }                                                              %! baca.markup():baca.IndicatorCommand._call()
             }                                                                  %! baca.markup():baca.IndicatorCommand._call()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-    }                                                                          %! akasha.scratch_rhythm
+    }                                                                          %! akasha.scratch_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -565,7 +565,7 @@ J_Cello_Music_Voice = {                                                        %
 
             % [J Cello_Music_Voice measure 262 / measure 2]                    %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/2                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -581,21 +581,21 @@ J_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm
-    \times 6/5 {                                                               %! akasha.scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
+    \times 6/5 {                                                               %! akasha.scratch_rhythm()
 
         % [J Cello_Music_Voice measure 263 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        c4                                                                     %! akasha.scratch_rhythm
+        c4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-        r4                                                                     %! akasha.scratch_rhythm
+        r4                                                                     %! akasha.scratch_rhythm()
 
-    }                                                                          %! akasha.scratch_rhythm
+    }                                                                          %! akasha.scratch_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -604,7 +604,7 @@ J_Cello_Music_Voice = {                                                        %
 
             % [J Cello_Music_Voice measure 264 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -627,7 +627,7 @@ J_Cello_Music_Voice = {                                                        %
 
             % [J Cello_Music_Voice measure 265 / measure 5]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()

@@ -14,5 +14,5 @@ def cello_solo_rhythm(rotation: int = None) -> baca.RhythmCommand:
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.force_repeat_tie(),
-        tag=abjad.Tag("akasha.cello_solo_rhythm"),
+        tag=abjad.Tag("akasha.cello_solo_rhythm()"),
     )

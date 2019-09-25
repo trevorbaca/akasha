@@ -11,5 +11,5 @@ def glissando_rhythm() -> baca.RhythmCommand:
         rmakers.tuplet([(8, 1)]),
         rmakers.beam(),
         preprocessor=baca.sequence().fuse(),
-        tag=abjad.Tag("akasha.glissando_rhythm"),
+        tag=abjad.Tag("akasha.glissando_rhythm()"),
     )
