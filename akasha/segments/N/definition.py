@@ -21,11 +21,6 @@ maker = baca.SegmentMaker(
         ],
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
-    final_markup=(
-        ["Cambridge, MA", "Dallas, TX", "Madison, WI."],
-        ["October", "December 2015."],
-    ),
-    final_markup_extra_offset=(-19, -4),
     final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -88,5 +83,16 @@ maker(
     baca.markup("leggieriss."),
     baca.staccato(
         selector=baca.pheads(exclude=abjad.const.HIDDEN),
+    ),
+)
+
+maker(
+    ("vc", -1),
+    baca.chunk(
+        baca.mark(r"\akasha-colophon-markup"),
+        baca.rehearsal_mark_down(),
+        baca.rehearsal_mark_padding(6),
+        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        selector=baca.leaves().rleak()[-1],
     ),
 )
