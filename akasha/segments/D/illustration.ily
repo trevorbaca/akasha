@@ -1130,21 +1130,21 @@ D_Violin_I_Music_Voice = {                                                     %
     \ppp                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
     ^ \markup { "XP + senza vib. + full bow strokes" }                         %! baca.markup():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 81 / measure 20]                         %! baca.SegmentMaker._comment_measure_numbers()
     c''2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     a'4.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 82 / measure 21]                         %! baca.SegmentMaker._comment_measure_numbers()
     fs'!2                                                                      %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 83 / measure 22]                         %! baca.SegmentMaker._comment_measure_numbers()
     ef'!4.                                                                     %! akasha.untied_notes()
@@ -1178,45 +1178,45 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 85 / measure 24]                         %! baca.SegmentMaker._comment_measure_numbers()
     fs'!2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     a'4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 86 / measure 25]                         %! baca.SegmentMaker._comment_measure_numbers()
     c''2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     fs''!4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 87 / measure 26]                         %! baca.SegmentMaker._comment_measure_numbers()
     ef''!2                                                                     %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 88 / measure 27]                         %! baca.SegmentMaker._comment_measure_numbers()
     c''1                                                                       %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 89 / measure 28]                         %! baca.SegmentMaker._comment_measure_numbers()
     a'4.                                                                       %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 90 / measure 29]                         %! baca.SegmentMaker._comment_measure_numbers()
     ef''!2                                                                     %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 91 / measure 30]                         %! baca.SegmentMaker._comment_measure_numbers()
     fs''!2..                                                                   %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 92 / measure 31]                         %! baca.SegmentMaker._comment_measure_numbers()
     a''2..                                                                     %! akasha.untied_notes()
@@ -1250,17 +1250,17 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 94 / measure 33]                         %! baca.SegmentMaker._comment_measure_numbers()
     a'4.                                                                       %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 95 / measure 34]                         %! baca.SegmentMaker._comment_measure_numbers()
     ef''!2.                                                                    %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 96 / measure 35]                         %! baca.SegmentMaker._comment_measure_numbers()
     fs''!2                                                                     %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 97 / measure 36]                         %! baca.SegmentMaker._comment_measure_numbers()
     a''4.                                                                      %! akasha.untied_notes()
@@ -1294,17 +1294,17 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 99 / measure 38]                         %! baca.SegmentMaker._comment_measure_numbers()
     ef'''!2.                                                                   %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 100 / measure 39]                        %! baca.SegmentMaker._comment_measure_numbers()
     a''2..                                                                     %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 101 / measure 40]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'''2..                                                                    %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 102 / measure 41]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'4.                                                                       %! akasha.untied_notes()
@@ -1338,25 +1338,25 @@ D_Violin_I_Music_Voice = {                                                     %
     % [D Violin_I_Music_Voice measure 104 / measure 43]                        %! baca.SegmentMaker._comment_measure_numbers()
     fs'!1                                                                      %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 105 / measure 44]                        %! baca.SegmentMaker._comment_measure_numbers()
     ef'!2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     a'4.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 106 / measure 45]                        %! baca.SegmentMaker._comment_measure_numbers()
     fs'!2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     a'4.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_I_Music_Voice measure 107 / measure 46]                        %! baca.SegmentMaker._comment_measure_numbers()
     c''2                                                                       %! akasha.untied_notes()
@@ -1543,49 +1543,49 @@ D_Violin_II_Music_Voice = {                                                    %
     \ppp                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
     ^ \markup { "XP + full bow strokes" }                                      %! baca.markup():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     c''4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 72 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     fs'!4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 73 / measure 12]                        %! baca.SegmentMaker._comment_measure_numbers()
     ef'!2..                                                                    %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 74 / measure 13]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'4.                                                                       %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 75 / measure 14]                        %! baca.SegmentMaker._comment_measure_numbers()
     fs'!2.                                                                     %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 76 / measure 15]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'2..                                                                      %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 77 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
     c''2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     fs''!4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 78 / measure 17]                        %! baca.SegmentMaker._comment_measure_numbers()
     ef''!2                                                                     %! akasha.untied_notes()
@@ -1619,21 +1619,21 @@ D_Violin_II_Music_Voice = {                                                    %
     % [D Violin_II_Music_Voice measure 80 / measure 19]                        %! baca.SegmentMaker._comment_measure_numbers()
     fs'!1                                                                      %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 81 / measure 20]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     c''4.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 82 / measure 21]                        %! baca.SegmentMaker._comment_measure_numbers()
     fs''!2                                                                     %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 83 / measure 22]                        %! baca.SegmentMaker._comment_measure_numbers()
     ef''!4.                                                                    %! akasha.untied_notes()
@@ -1667,45 +1667,45 @@ D_Violin_II_Music_Voice = {                                                    %
     % [D Violin_II_Music_Voice measure 85 / measure 24]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     ef''!4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 86 / measure 25]                        %! baca.SegmentMaker._comment_measure_numbers()
     fs''!2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     a''4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 87 / measure 26]                        %! baca.SegmentMaker._comment_measure_numbers()
     fs''!2                                                                     %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 88 / measure 27]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'''1                                                                      %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 89 / measure 28]                        %! baca.SegmentMaker._comment_measure_numbers()
     ef'''!4.                                                                   %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 90 / measure 29]                        %! baca.SegmentMaker._comment_measure_numbers()
     a''2                                                                       %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 91 / measure 30]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'''2..                                                                    %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 92 / measure 31]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'2..                                                                      %! akasha.untied_notes()
@@ -1739,17 +1739,17 @@ D_Violin_II_Music_Voice = {                                                    %
     % [D Violin_II_Music_Voice measure 94 / measure 33]                        %! baca.SegmentMaker._comment_measure_numbers()
     ef'''!4.                                                                   %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 95 / measure 34]                        %! baca.SegmentMaker._comment_measure_numbers()
     a''2.                                                                      %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 96 / measure 35]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'''2                                                                      %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Violin_II_Music_Voice measure 97 / measure 36]                        %! baca.SegmentMaker._comment_measure_numbers()
     a'4.                                                                       %! akasha.untied_notes()
@@ -2250,22 +2250,22 @@ D_Viola_Music_Voice = {                                                        %
     ^ \markup { "tasto + senza vib." }                                         %! baca.markup():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
     % [D Viola_Music_Voice measure 95 / measure 34]                            %! baca.SegmentMaker._comment_measure_numbers()
     e2.                                                                        %! akasha.untied_notes()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Viola_Music_Voice measure 96 / measure 35]                            %! baca.SegmentMaker._comment_measure_numbers()
     ds!2                                                                       %! akasha.untied_notes()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \times 2/3 {                                                               %! akasha.glissando_rhythm()
 
         % [D Viola_Music_Voice measure 97 / measure 36]                        %! baca.SegmentMaker._comment_measure_numbers()
         cs!2                                                                   %! akasha.glissando_rhythm()
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
         bs,!16                                                                 %! akasha.glissando_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2305,17 +2305,17 @@ D_Viola_Music_Voice = {                                                        %
     \baca-ppp-ancora                                                           %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
     ^ \markup { "XP + full bow strokes" }                                      %! baca.markup():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Viola_Music_Voice measure 100 / measure 39]                           %! baca.SegmentMaker._comment_measure_numbers()
     b2..                                                                       %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Viola_Music_Voice measure 101 / measure 40]                           %! baca.SegmentMaker._comment_measure_numbers()
     af!2..                                                                     %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Viola_Music_Voice measure 102 / measure 41]                           %! baca.SegmentMaker._comment_measure_numbers()
     f4.                                                                        %! akasha.untied_notes()
@@ -2349,25 +2349,25 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 104 / measure 43]                           %! baca.SegmentMaker._comment_measure_numbers()
     f1                                                                         %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Viola_Music_Voice measure 105 / measure 44]                           %! baca.SegmentMaker._comment_measure_numbers()
     af!2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     b4.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Viola_Music_Voice measure 106 / measure 45]                           %! baca.SegmentMaker._comment_measure_numbers()
     f'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     d'4.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Viola_Music_Voice measure 107 / measure 46]                           %! baca.SegmentMaker._comment_measure_numbers()
     b2                                                                         %! akasha.untied_notes()
@@ -2694,46 +2694,46 @@ D_Cello_Music_Voice = {                                                        %
     \ppp                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
     ^ \markup { "XP + senza vib. + full bow strokes" }                         %! baca.markup():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
     bf,!4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 86 / measure 25]                            %! baca.SegmentMaker._comment_measure_numbers()
     g,2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     e,4.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 87 / measure 26]                            %! baca.SegmentMaker._comment_measure_numbers()
     cs,!2                                                                      %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 88 / measure 27]                            %! baca.SegmentMaker._comment_measure_numbers()
     g,1                                                                        %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 89 / measure 28]                            %! baca.SegmentMaker._comment_measure_numbers()
     e,4.                                                                       %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 90 / measure 29]                            %! baca.SegmentMaker._comment_measure_numbers()
     g,2                                                                        %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 91 / measure 30]                            %! baca.SegmentMaker._comment_measure_numbers()
     bf,!2..                                                                    %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 92 / measure 31]                            %! baca.SegmentMaker._comment_measure_numbers()
     e2..                                                                       %! akasha.untied_notes()
@@ -2826,17 +2826,17 @@ D_Cello_Music_Voice = {                                                        %
     \baca-ppp-ancora                                                           %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
     ^ \markup { "XP + full bow strokes" }                                      %! baca.markup():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 100 / measure 39]                           %! baca.SegmentMaker._comment_measure_numbers()
     g,2..                                                                      %! akasha.untied_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 101 / measure 40]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf,!2..                                                                    %! akasha.untied_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 102 / measure 41]                           %! baca.SegmentMaker._comment_measure_numbers()
     e4.                                                                        %! akasha.untied_notes()
@@ -2875,43 +2875,43 @@ D_Cello_Music_Voice = {                                                        %
     ^ \markup { tasto }                                                        %! baca.markup():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 105 / measure 44]                           %! baca.SegmentMaker._comment_measure_numbers()
     c2.
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     bf,!4.
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 106 / measure 45]                           %! baca.SegmentMaker._comment_measure_numbers()
     af,!2.
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     g,4.
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 107 / measure 46]                           %! baca.SegmentMaker._comment_measure_numbers()
     f,2                                                                        %! akasha.untied_notes()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 108 / measure 47]                           %! baca.SegmentMaker._comment_measure_numbers()
     ef,!4.                                                                     %! akasha.untied_notes()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 109 / measure 48]                           %! baca.SegmentMaker._comment_measure_numbers()
     d,2.                                                                       %! akasha.untied_notes()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [D Cello_Music_Voice measure 110 / measure 49]                           %! baca.SegmentMaker._comment_measure_numbers()
     c,2..                                                                      %! akasha.untied_notes()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \times 8/9 {                                                               %! akasha.glissando_rhythm()
 
         % [D Cello_Music_Voice measure 111 / measure 50]                       %! baca.SegmentMaker._comment_measure_numbers()
         bf,,!2..                                                               %! akasha.glissando_rhythm()
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
         a,,16..                                                                %! akasha.glissando_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
