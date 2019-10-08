@@ -229,7 +229,7 @@ maker(
     baca.markup("tasto"),
     baca.pitch("G5"),
     baca.staff_lines(5),
-    baca.trill_spanner("A5"),
+    baca.trill_spanner(alteration="A5"),
 )
 
 maker(
