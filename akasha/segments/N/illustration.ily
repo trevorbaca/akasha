@@ -521,6 +521,8 @@ N_Violin_I_Music_Voice = {                                                     %
     % [N Violin_I_Music_Voice measure 375 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'4.
     \repeatTie
@@ -989,6 +991,8 @@ N_Viola_Music_Voice = {                                                        %
     % [N Viola_Music_Voice measure 375 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'4.
     \repeatTie
@@ -1195,6 +1199,8 @@ N_Cello_Music_Voice = {                                                        %
     % [N Cello_Music_Voice measure 375 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'4.
     \repeatTie
