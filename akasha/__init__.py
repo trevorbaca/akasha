@@ -18,4 +18,3 @@ from akasha.materials.metronome_marks.definition import metronome_marks
 from akasha.materials.time_signature_series.definition import (
     time_signature_series,
 )
-from akasha import segments
