@@ -8,6 +8,7 @@ if not (
     raise ImportError("Requires Python 3.7.")
 del distutils
 del platform
+from akasha.ScoreTemplate import ScoreTemplate
 
 from akasha.tools import *
 from akasha.materials.colophon_markup.definition import colophon_markup
