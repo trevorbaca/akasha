@@ -1,9 +1,9 @@
+import os
+
 import abjad
 import akasha
 import baca
-import os
 from abjadext import rmakers
-
 
 ###############################################################################
 ##################################### [N] #####################################

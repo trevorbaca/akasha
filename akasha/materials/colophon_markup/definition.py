@@ -1,6 +1,5 @@
 import abjad
 
-
 place_markup = abjad.Markup(
     "Cambridge, MA; Dallas, TX; Madison, WI", direction=abjad.Up
 )

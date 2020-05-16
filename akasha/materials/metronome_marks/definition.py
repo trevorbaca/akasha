@@ -1,6 +1,5 @@
 import abjad
 
-
 metronome_marks = abjad.OrderedDict(
     [
         ("38", abjad.MetronomeMark((1, 4), 38)),

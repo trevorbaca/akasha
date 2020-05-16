@@ -1,10 +1,9 @@
+import typing
+
 import abjad
 import baca
-import typing
-from akasha.materials import getato_intervals
-from akasha.materials import margin_markups
-from akasha.materials import time_signature_series
 from abjadext import rmakers
+from akasha.materials import getato_intervals, margin_markups, time_signature_series
 
 
 def accelerando_rhythm(
@@ -32,7 +31,6 @@ def accelerando_rhythm(
         preprocessor=divisions,
         tag=abjad.Tag("akasha.accelerando_rhythm()"),
     )
-
 
 
 def cello_solo_pitches(transposition: int = None) -> baca.PitchCommand:
