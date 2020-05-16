@@ -1,7 +1,6 @@
 import abjad
 import baca
 
-
 time_signature_series = abjad.OrderedDict()
 
 numerators = baca.sequence([[3, 3, 4, 5], [4, 6, 6]])
