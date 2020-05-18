@@ -12,11 +12,11 @@ from abjadext import rmakers
 maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures(
-        "A", 20, 0, 
+        "A", 20, 0,
         fermata_measures=[3, 5, 8, 10, 14, 16, 18, 20],
     ),
     validate_measure_count=20,
@@ -57,7 +57,7 @@ maker(
     ("v2", 4),
     akasha.sparse_getato_rhythm(
         rmakers.force_rest(baca.tuplets()[2:]),
-),
+    ),
 )
 
 maker(
@@ -69,7 +69,7 @@ maker(
     ("va", 4),
     akasha.sparse_getato_rhythm(
         rmakers.force_rest(baca.tuplets()[:-1]),
-),
+    ),
 )
 
 maker(
@@ -79,21 +79,21 @@ maker(
     baca.new(
         akasha.polyphony_rhythm(
             rmakers.force_rest(baca.lts().exclude([0, 1, 2])),
-    ),
+        ),
         baca.pitches("E4 F4 E+4", exact=True),
         match=0,
     ),
     baca.new(
         akasha.polyphony_rhythm(
             rmakers.force_rest(baca.lts().exclude([2, 3, 4])),
-    ),
+        ),
         baca.pitches("D4 D~4 C4", exact=True),
         match=1,
     ),
     baca.new(
         akasha.polyphony_rhythm(
             rmakers.force_rest(baca.lts().exclude([1, 2, 3])),
-    ),
+        ),
         baca.pitches("Eb4 D4 E4", exact=True),
         match=2,
     ),

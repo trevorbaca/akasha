@@ -29,7 +29,7 @@ stage_markup = (
 maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
@@ -308,7 +308,7 @@ maker(
         ("v1", (17, 20)),
         ("v2", (17, 20)),
         ("va", (17, 20)),
-        ],
+    ],
     baca.text_spanner("trans. => XP"),
 )
 
@@ -373,7 +373,7 @@ maker(
 )
 
 maker(
-    (["v1", "v2", "va", "vc"],  (31, 36)),
+    (["v1", "v2", "va", "vc"], (31, 36)),
     baca.new(
         baca.pitch("B4"),
         match=0,

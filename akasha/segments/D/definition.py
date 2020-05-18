@@ -10,28 +10,28 @@ import baca
 
 stage_markup = (
     ("[D.1]", 1),
-    #("[D.2]", 9),
+    # ("[D.2]", 9),
     ("[D.3]", 10),
-    #("[D.4]", 18),
+    # ("[D.4]", 18),
     ("[D.5]", 19),
-    #("[D.6]", 23),
+    # ("[D.6]", 23),
     ("[D.7]", 24),
-    #("[D.8]", 32),
+    # ("[D.8]", 32),
     ("[D.9]", 33),
     ("[D.10]", 36),
-    #("[D.11]", 37),
+    # ("[D.11]", 37),
     ("[D.12]", 38),
-    #("[D.13]", 42),
+    # ("[D.13]", 42),
     ("[D.14]", 43),
     ("[D.15]", 47),
     ("[D.16]", 50),
-    #("[D.17]", 51),
+    # ("[D.17]", 51),
 )
 
 maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
@@ -75,7 +75,7 @@ maker(
         (["va", "vc"], (19, 22)),
         ("va", (24, 31)),
         ("vc", (33, 36)),
-        ],
+    ],
     baca.make_repeat_tied_notes(),
 )
 
@@ -89,7 +89,7 @@ maker(
         (["v1", "va", "vc"], (38, 41)),
         (["v1", "va", "vc"], (43, 46)),
         ("vc", (47, 49)),
-        ],
+    ],
     akasha.untied_notes(),
 )
 
@@ -318,7 +318,7 @@ maker(
     baca.hairpin("sf > ppp"),
     baca.markup("tasto"),
 )
-    
+
 maker(
     [
         ("v2", (10, 17)),
@@ -327,6 +327,6 @@ maker(
         (["v1", "v2"], (33, 36)),
         (["v1", "va", "vc"], (38, 41)),
         (["v1", "va"], (43, 46)),
-        ],
+    ],
     baca.alternate_bow_strokes(),
 )

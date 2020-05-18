@@ -11,13 +11,13 @@ from abjadext import rmakers
 
 stage_markup = (
     ("[E.1]", 1),
-    #("[E.2]", 2),
+    # ("[E.2]", 2),
     ("[E.3]", 3),
-    #("[E.4]", 4),
+    # ("[E.4]", 4),
     ("[E.5]", 5),
-    #("[E.6]", 6),
+    # ("[E.6]", 6),
     ("[E.7]", 7),
-    #("[E.8]", 8),
+    # ("[E.8]", 8),
     ("[E.9]", 9),
     ("[E.10]", 11),
     ("[E.11]", 13),
@@ -27,13 +27,13 @@ stage_markup = (
     ("[E.15]", 23),
     ("[E.16]", 27),
     ("[E.17]", 33),
-    #("[E.18]", 39),
+    # ("[E.18]", 39),
 )
 
 maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     color_octaves=False,
     ignore_repeat_pitch_classes=True,

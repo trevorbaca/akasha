@@ -31,7 +31,7 @@ stage_markup = (
 maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
@@ -68,7 +68,7 @@ maker(
         ("v2", [(47, 50), (51, 54)]),
         ("va", [(47, 48), (49, 54)]),
         ("vc", (47, 54)),
-        ],
+    ],
     baca.make_repeat_tied_notes(),
 )
 
