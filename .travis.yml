@@ -15,7 +15,9 @@ before_install:
     # upgrade pip:
     - pip install --upgrade pip
 
-    # install mypy:
+    # pip install isort, flake8, mypy
+    - pip install flake8
+    - pip install isort
     - pip install mypy
 
     # install lilypond:
@@ -73,6 +75,11 @@ before_install:
     - which isort-check
     - which flake8-check
     - which prime-parser-tables
+    - pip --version
+    - mypy --version
+    - flake8 --version
+    - black --version
+    - isort --version
 
 install:
     - pip install -e .
