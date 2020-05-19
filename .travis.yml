@@ -62,24 +62,30 @@ before_install:
     - export MYPYPATH=$MYPYPATH:$IDE
     - export PATH=$PATH:$IDE/ide/scr
 
-    # log setup:
-    - echo $TRAVIS_BUILD_DIR
-    - echo $MYPYPATH
-    - echo $PATH
-    - ls
-    - ls /tmp
-    - pwd
-    - which baca-doctest
-    - which mypy
-    - which black-check
-    - which isort-check
-    - which flake8-check
-    - which prime-parser-tables
-    - pip --version
-    - mypy --version
-    - flake8 --version
+    # log versions
     - black --version
+    - flake8 --version
     - isort --version
+    - mypy --version
+    - pip --version
+
+    # log environment variables
+    - echo $MYPYPATH
+    - echo $PACKAGE
+    - echo $PATH
+    - echo $TRAVIS_BUILD_DIR
+
+    # log script paths
+    - which baca-doctest
+    - which black-check
+    - which flake8-check
+    - which isort-check
+    - which mypy-check
+    - which prime-parser-tables
+
+    # log present working directory
+    - pwd
+    - ls
 
 install:
     - pip install -e .
