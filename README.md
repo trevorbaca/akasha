@@ -1,9 +1,13 @@
 Akasha
 ======
 
-[![Build Status](https://travis-ci.org/trevorbaca/akasha.svg?branch=master)](https://travis-ci.org/trevorbaca/akasha)
+[![Build Status](
+    https://travis-ci.org/trevorbaca/akasha.svg?branch=master)](
+    https://travis-ci.org/trevorbaca/akasha)
 <!---
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![Code style: black]
+    (https://img.shields.io/badge/code%20style-black-000000.svg)]
+    (https://github.com/ambv/black)
 -->
 
 Akasha (2015) for string quartet.
