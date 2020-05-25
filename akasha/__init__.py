@@ -1,29 +1,29 @@
 import distutils.version
 import platform
 
-from akasha.ScoreTemplate import ScoreTemplate
-from akasha.materials.colophon_markup.definition import colophon_markup
-from akasha.materials.getato_intervals.definition import getato_intervals
-from akasha.materials.instruments.definition import instruments
-from akasha.materials.margin_markups.definition import margin_markups
-from akasha.materials.metronome_marks.definition import metronome_marks
-from akasha.materials.time_signature_series.definition import time_signature_series
-from akasha.tools import (
+from .ScoreTemplate import ScoreTemplate
+from .tools import (
     accelerando_rhythm,
     cello_solo_pitches,
     cello_solo_rhythm,
+    colophon_markup,
     dense_getato_rhythm,
+    getato_intervals,
     getato_pitches,
     glissando_rhythm,
     growth,
     harmonic_glissando_pitches,
+    instruments,
     manifest,
     margin_markup,
+    margin_markups,
+    metronome_marks,
     perforated_counts,
     polyphony_rhythm,
     ritardando_rhythm,
     scratch_rhythm,
     sparse_getato_rhythm,
+    time_signature_series,
     time_signatures,
     untied_notes,
     viola_ob_rhythm,
