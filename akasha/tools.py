@@ -3,7 +3,85 @@ import typing
 import abjad
 import baca
 from abjadext import rmakers
-from akasha.materials import getato_intervals, margin_markups, time_signature_series
+
+# colophon markup
+
+place_markup = abjad.Markup(
+    "Cambridge, MA; Dallas, TX; Madison, WI", direction=abjad.Up
+)
+date_markup = abjad.Markup("Oct. - Dec. 2015", direction=abjad.Up)
+colophon_markup = abjad.Markup.right_column([place_markup, date_markup])
+colophon_markup = colophon_markup.italic()
+
+# getato intervals
+
+pitches = [5, 6, 5, 4, 3, 5, 4, 5, 6, 8, 7, 6, 5, 7, 8, 9, 8, 10, 11, 9, 10]
+intervals = [_ - 5 for _ in pitches]
+getato_intervals = intervals
+
+# instruments
+
+instruments = abjad.OrderedDict(
+    [
+        ("ViolinI", abjad.Violin(pitch_range="[G3, +inf]")),
+        ("ViolinII", abjad.Violin(pitch_range="[G3, +inf]")),
+        ("Viola", abjad.Viola(pitch_range="[A2, +inf]")),
+        ("Cello", abjad.Cello(pitch_range="[A1, +inf]")),
+    ]
+)
+
+# margin markups
+
+
+def _make_margin_markup(markup):
+    markup = baca.markups.instrument(markup, hcenter_in=12)
+    return abjad.MarginMarkup(markup=markup)
+
+
+margin_markups = abjad.OrderedDict(
+    [
+        ("Va.", _make_margin_markup("Va.")),
+        ("Vc.", _make_margin_markup("Vc.")),
+        ("Vn. I", _make_margin_markup("Vn. I")),
+        ("Vn. II", _make_margin_markup("Vn. II")),
+    ]
+)
+
+# metronome marks
+
+metronome_marks = abjad.OrderedDict(
+    [
+        ("38", abjad.MetronomeMark((1, 4), 38)),
+        ("44", abjad.MetronomeMark((1, 4), 44)),
+        ("55", abjad.MetronomeMark((1, 4), 55)),
+        ("89", abjad.MetronomeMark((1, 4), 89)),
+        ("126", abjad.MetronomeMark((1, 4), 126)),
+    ]
+)
+
+# time signature series
+
+time_signature_series = abjad.OrderedDict()
+
+numerators = baca.sequence([[3, 3, 4, 5], [4, 6, 6]])
+groups = numerators.helianthate(-1, 1)
+assert len(groups) == 24
+lengths = [len(_) for _ in groups]
+numerators = baca.sequence(groups).flatten(depth=-1)
+time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
+groups = baca.sequence(time_signatures).partition_by_counts(lengths)
+time_signature_series["A"] = groups
+
+numerators = baca.sequence([[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]])
+groups = numerators.helianthate(-1, 1)
+assert len(groups) == 36
+lengths = [len(_) for _ in groups]
+numerators = baca.sequence(groups).flatten(depth=-1)
+time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
+groups = baca.sequence(time_signatures).partition_by_counts(lengths)
+time_signature_series["B"] = groups
+
+# rhtyhms
 
 
 def accelerando_rhythm(
