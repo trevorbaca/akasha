@@ -2,8 +2,8 @@ Akasha
 ======
 
 [![Build Status](
-    https://travis-ci.org/trevorbaca/akasha.svg?branch=master)](
-    https://travis-ci.org/trevorbaca/akasha)
+    https://api.travis-ci.org/trevorbaca/akasha.svg?branch=master)](
+    https://api.travis-ci.org/trevorbaca/akasha)
 <!---
 [![Code style: black]
     (https://img.shields.io/badge/code%20style-black-000000.svg)]
