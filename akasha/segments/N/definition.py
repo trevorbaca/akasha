@@ -1,5 +1,3 @@
-import os
-
 import abjad
 import akasha
 import baca
@@ -22,7 +20,7 @@ maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
     final_segment=True,
-    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    segment_directory=abjad.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures("B", 25, 30, fermata_measures=[-1]),
     validate_measure_count=25,
