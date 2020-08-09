@@ -1,4 +1,4 @@
-L_Global_Rests = {                                                             %! abjad.Path.extern()
+L_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [L Global_Rests measure 334 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
@@ -25,10 +25,10 @@ L_Global_Rests = {                                                             %
     % [L Global_Rests measure 340 / measure 7]                                 %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Global_Skips = {                                                             %! abjad.Path.extern()
+L_Global_Skips = {                                                             %! ide.Path.extern()
 
     % [L Global_Skips measure 334 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
@@ -139,10 +139,10 @@ L_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
     \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern()
+L_Violin_I_Music_Voice = {                                                     %! ide.Path.extern()
 
     % [L Violin_I_Music_Voice measure 334 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -231,18 +231,18 @@ L_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Violin_I_Music_Staff = {                                                     %! abjad.Path.extern()
+L_Violin_I_Music_Staff = {                                                     %! ide.Path.extern()
 
     \context Voice = "Violin_I_Music_Voice"                                    %! akasha.ScoreTemplate.__call__()
-    \L_Violin_I_Music_Voice                                                    %! abjad.Path.extern()
+    \L_Violin_I_Music_Voice                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern()
+L_Violin_II_Music_Voice = {                                                    %! ide.Path.extern()
 
     % [L Violin_II_Music_Voice measure 334 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -330,18 +330,18 @@ L_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Violin_II_Music_Staff = {                                                    %! abjad.Path.extern()
+L_Violin_II_Music_Staff = {                                                    %! ide.Path.extern()
 
     \context Voice = "Violin_II_Music_Voice"                                   %! akasha.ScoreTemplate.__call__()
-    \L_Violin_II_Music_Voice                                                   %! abjad.Path.extern()
+    \L_Violin_II_Music_Voice                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Viola_Music_Voice = {                                                        %! abjad.Path.extern()
+L_Viola_Music_Voice = {                                                        %! ide.Path.extern()
 
     % [L Viola_Music_Voice measure 334 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -488,18 +488,18 @@ L_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Viola_Music_Staff = {                                                        %! abjad.Path.extern()
+L_Viola_Music_Staff = {                                                        %! ide.Path.extern()
 
     \context Voice = "Viola_Music_Voice"                                       %! akasha.ScoreTemplate.__call__()
-    \L_Viola_Music_Voice                                                       %! abjad.Path.extern()
+    \L_Viola_Music_Voice                                                       %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Cello_Music_Voice = {                                                        %! abjad.Path.extern()
+L_Cello_Music_Voice = {                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -628,12 +628,12 @@ L_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Cello_Music_Staff = {                                                        %! abjad.Path.extern()
+L_Cello_Music_Staff = {                                                        %! ide.Path.extern()
 
     \context Voice = "Cello_Music_Voice"                                       %! akasha.ScoreTemplate.__call__()
-    \L_Cello_Music_Voice                                                       %! abjad.Path.extern()
+    \L_Cello_Music_Voice                                                       %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
