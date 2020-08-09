@@ -31,7 +31,7 @@ maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    segment_directory=abjad.Path(__file__).resolve().parent,
+    segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "A", 37, 15,
