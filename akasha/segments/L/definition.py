@@ -44,7 +44,7 @@ maker(
 maker(
     ("va", (1, 3)),
     baca.alternate_bow_strokes(
-        selector=baca.pheads(exclude=abjad.const.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.clef("alto"),
     baca.dynamic('"mf"'),

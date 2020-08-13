@@ -210,7 +210,7 @@ maker(
     ("v1", (11, 19)),
     baca.pitches(
         "D5 E5",
-        selector=baca.pleaves(exclude=abjad.const.HIDDEN),
+        selector=baca.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -232,7 +232,7 @@ maker(
     ("v2", (11, 19)),
     baca.pitches(
         "Bb4 C5",
-        selector=baca.pleaves(exclude=abjad.const.HIDDEN),
+        selector=baca.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
