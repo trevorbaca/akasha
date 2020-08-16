@@ -16,7 +16,14 @@ akasha-colophon-markup = \markup {
         }
     }
 
-%%% MISCELLANEOUS%%%
+%%% DIRECTIVES %%%
+
+akasha-scratch-moltiss-explanation = \markup {
+  \column {
+    "scratch moltiss.:"
+    "terminate each note abruptly"
+    }
+  }
 
 akasha-repeat-six = \markup
     \with-dimensions-from \null
@@ -26,3 +33,17 @@ akasha-repeat-six = \markup
     \bold
     \sans
     x6
+
+%%% MARGIN MARKUP %%%
+
+akasha-violin-i-markup = \markup \hcenter-in #14 "Violin I"
+akasha-vn-i-markup = \markup \hcenter-in #12 "Vn. I"
+
+akasha-violin-ii-markup = \markup \hcenter-in #14 "Violin II"
+akasha-vn-ii-markup = \markup \hcenter-in #12 "Vn. II"
+
+akasha-viola-markup = \markup \hcenter-in #14 "Viola"
+akasha-va-markup = \markup \hcenter-in #12 "Va."
+
+akasha-cello-markup = \markup \hcenter-in #14 "Cello"
+akasha-vc-markup = \markup \hcenter-in #12 "Vc."

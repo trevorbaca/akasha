@@ -271,8 +271,8 @@ maker(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(
-            baca.markups.lines(
-                ["scratch moltiss.:", "terminate each note abruptly"]),
+            r"\akasha-scratch-moltiss-explanation",
+            literal=True,
         ),
         selector=baca.phead(0, exclude=baca.const.HIDDEN),
     ),
@@ -310,8 +310,8 @@ maker(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(
-            baca.markups.lines(
-                ["scratch moltiss:", "terminate each not abruptly"]),
+            r"\akasha-scratch-moltiss-explanation",
+            literal=True,
         ),
         selector=baca.phead(0, exclude=baca.const.HIDDEN),
     ),
@@ -369,8 +369,8 @@ maker(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(
-            baca.markups.lines(
-                ["scratch moltiss.:", "terminate each note abruptly"]),
+            r"\akasha-scratch-moltiss-explanation",
+            literal=True,
         ),
         selector=baca.phead(0, exclude=baca.const.HIDDEN),
     ),
