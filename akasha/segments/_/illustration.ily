@@ -85,12 +85,7 @@ i_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.StaffSymbol.line-count = 5                           %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \startStaff                                                                %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \set Staff.shortInstrumentName = \akasha-vn-i-markup                       %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #14                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            "Violin I"                                                         %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #14 "Violin I"             %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -160,12 +155,7 @@ i_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.StaffSymbol.line-count = 5                           %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \startStaff                                                                %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup                      %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #14                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            "Violin II"                                                        %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #14 "Violin II"            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -232,12 +222,7 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 1]                                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \akasha-va-markup                         %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #14                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Viola                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #14 "Viola"                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \stopStaff                                                                 %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1                           %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \startStaff                                                                %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -344,12 +329,7 @@ i_Cello_Music_Voice = {                                                        %
     \once \override Staff.StaffSymbol.line-count = 5                           %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \startStaff                                                                %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \set Staff.shortInstrumentName = \akasha-vc-markup                         %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #14                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Cello                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #14 "Cello"                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \clef "bass"                                                               %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
