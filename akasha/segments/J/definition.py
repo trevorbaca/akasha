@@ -111,7 +111,7 @@ maker(
     ),
     baca.dynamic("ff"),
     baca.markup(
-        baca.markups.lines(
-            ["scratch moltiss.:", "terminate each note abruptly"]),
+        r"\akasha-scratch-moltiss-explanation",
+        literal=True,
     ),
 )

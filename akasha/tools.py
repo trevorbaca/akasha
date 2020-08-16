@@ -33,17 +33,12 @@ instruments = abjad.OrderedDict(
 # margin markups
 
 
-def _make_margin_markup(markup):
-    markup = baca.markups.instrument(markup, hcenter_in=12)
-    return abjad.MarginMarkup(markup=markup)
-
-
 margin_markups = abjad.OrderedDict(
     [
-        ("Va.", _make_margin_markup("Va.")),
-        ("Vc.", _make_margin_markup("Vc.")),
-        ("Vn. I", _make_margin_markup("Vn. I")),
-        ("Vn. II", _make_margin_markup("Vn. II")),
+        ("Va.", abjad.MarginMarkup(markup=r"\akasha-va-markup")),
+        ("Vc.", abjad.MarginMarkup(markup=r"\akasha-vc-markup")),
+        ("Vn. I", abjad.MarginMarkup(markup=r"\akasha-vn-i-markup")),
+        ("Vn. II", abjad.MarginMarkup(markup=r"\akasha-vn-ii-markup")),
     ]
 )
 

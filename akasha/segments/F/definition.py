@@ -270,7 +270,8 @@ maker(
     ("va", 6),
     baca.dynamic("ff"),
     baca.markup(
-        baca.markups.lines(["scratch moltiss.:", "terminate each note abruptly"]),
+        r"\akasha-scratch-moltiss-explanation",
+        literal=True,
     ),
     baca.pitch("F#3"),
 )
