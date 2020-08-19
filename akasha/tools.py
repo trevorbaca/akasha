@@ -4,15 +4,6 @@ import abjad
 import baca
 from abjadext import rmakers
 
-# colophon markup
-
-place_markup = abjad.Markup(
-    "Cambridge, MA; Dallas, TX; Madison, WI", direction=abjad.Up
-)
-date_markup = abjad.Markup("Oct. - Dec. 2015", direction=abjad.Up)
-colophon_markup = abjad.Markup.right_column([place_markup, date_markup])
-colophon_markup = colophon_markup.italic()
-
 # getato intervals
 
 pitches = [5, 6, 5, 4, 3, 5, 4, 5, 6, 8, 7, 6, 5, 7, 8, 9, 8, 10, 11, 9, 10]
