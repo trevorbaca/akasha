@@ -6,7 +6,6 @@ from .tools import (
     accelerando_rhythm,
     cello_solo_pitches,
     cello_solo_rhythm,
-    colophon_markup,
     dense_getato_rhythm,
     getato_intervals,
     getato_pitches,
@@ -31,7 +30,6 @@ from .tools import (
 
 __all__ = [
     "ScoreTemplate",
-    "colophon_markup",
     "getato_intervals",
     "instruments",
     "margin_markups",
