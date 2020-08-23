@@ -72,7 +72,10 @@ maker(
 maker(
     (["v1", "v2", "va", "vc"], (1, 28)),
     baca.dynamic('"ff"'),
-    baca.markup("tasto + 1 click/3-4 sec."),
+    baca.markup(
+        r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup",
+        literal=True,
+    ),
     baca.new(
         baca.pitch("A5"),
         match=0,
@@ -150,7 +153,7 @@ maker(
 maker(
     ("Global_Skips", (30, 39)),
     baca.markup(
-        r"\akasha-repeat-six",
+        r"\akasha-repeat-six-markup",
         literal=True,
         selector=baca.skip(0),
     ),
@@ -288,7 +291,10 @@ maker(
 
 maker(
     ("vc", (47, 54)),
-    baca.markup("pos. ord. + 11°/A1(IV)"),
+    baca.markup(
+        r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup",
+        literal=True,
+    ),
     baca.trill_spanner(),
     baca.clef("treble"),
 )
@@ -300,7 +306,10 @@ maker(
 
 maker(
     ("va", (49, 54)),
-    baca.markup("pos. ord. + 7°/A2(IV)"),
+    baca.markup(
+        r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup",
+        literal=True,
+    ),
     baca.trill_spanner(),
     baca.clef("treble"),
 )
@@ -317,7 +326,10 @@ maker(
 
 maker(
     ("v2", (51, 54)),
-    baca.markup("pos. ord. + 5°/A4(II)"),
+    baca.markup(
+        r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup",
+        literal=True,
+    ),
     baca.trill_spanner(),
 )
 
@@ -333,7 +345,10 @@ maker(
 
 maker(
     ("v1", (53, 54)),
-    baca.markup("pos. ord. + 9°/A4(II)"),
+    baca.markup(
+        r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup",
+        literal=True,
+    ),
     baca.trill_spanner(),
     baca.hairpin("sffp < f"),
 )
@@ -341,7 +356,7 @@ maker(
 maker(
     ("Global_Skips", (56, 60)),
     baca.markup(
-        r"\akasha-repeat-six",
+        r"\akasha-repeat-six-markup",
         literal=True,
         selector=baca.skip(0),
     ),

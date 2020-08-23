@@ -100,13 +100,19 @@ maker(
 maker(
     (["v1", "v2", "va"], (7, 10)),
     baca.dynamic("pp"),
-    baca.markup("tasto + XFB"),
+    baca.markup(
+        r"\baca-tasto-plus-xfb-markup",
+        literal=True,
+    ),
 )
 
 maker(
     ("vc", (13, 18)),
     baca.dynamic("pp"),
-    baca.markup("vib. poco"),
+    baca.markup(
+        r"\baca-vib-poco-markup",
+        literal=True,
+    ),
 )
 
 maker(

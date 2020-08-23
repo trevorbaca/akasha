@@ -243,7 +243,10 @@ maker(
     ("vc", (1, 2)),
     akasha.cello_solo_pitches(transposition=1),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -261,7 +264,10 @@ maker(
 maker(
     ("vc", (3, 4)),
     akasha.getato_pitches(21, [2]),
-    baca.markup("leggieriss."),
+    baca.markup(
+        r"\baca-leggieriss-markup",
+        literal=True,
+    ),
     baca.dynamic("pp"),
     baca.staccato(selector=baca.pheads()),
 )
@@ -270,7 +276,7 @@ maker(
     ("va", 6),
     baca.dynamic("ff"),
     baca.markup(
-        r"\akasha-scratch-moltiss-explanation",
+        r"\akasha-scratch-moltiss-explanation-markup",
         literal=True,
     ),
     baca.pitch("F#3"),
@@ -279,7 +285,10 @@ maker(
 maker(
     (["v1", "v2"], (8, 9)),
     baca.dynamic("pp-ancora"),
-    baca.markup("tasto + XFB"),
+    baca.markup(
+        r"\baca-tasto-plus-xfb-markup",
+        literal=True,
+    ),
     baca.new(
         baca.pitches("Eb5 F5"),
         match=0,
@@ -319,7 +328,10 @@ maker(
 maker(
     ("va", (11, 26)),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
     baca.pitches("G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True),
 )
 
@@ -327,21 +339,30 @@ maker(
     ("vc", (11, 26)),
     baca.clef("bass"),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
     baca.pitches("Ab2 G2 F2 F+2 F#2 E2 Eb2", exact=True),
 )
 
 maker(
     ("v1", (23, 26)),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
     baca.pitch("E5"),
 )
 
 maker(
     ("v2", (23, 26)),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
     baca.pitch("F#4"),
 )
 
@@ -378,7 +399,10 @@ maker(
         "ff < fff",
         selector=baca.tleaves(),
     ),
-    baca.markup("pos. ord."),
+    baca.markup(
+        r"\baca-pos-ord-markup",
+        literal=True,
+    ),
     baca.staccato(selector=baca.pheads()),
 )
 
@@ -389,7 +413,10 @@ maker(
         "ff < fff",
         selector=baca.tleaves(),
     ),
-    baca.markup("pos. ord."),
+    baca.markup(
+        r"\baca-pos-ord-markup",
+        literal=True,
+    ),
     baca.staccato(selector=baca.pheads()),
 )
 
@@ -401,7 +428,10 @@ maker(
         "ff < fff",
         selector=baca.tleaves(),
     ),
-    baca.markup("pos. ord."),
+    baca.markup(
+        r"\baca-pos-ord-markup",
+        literal=True,
+    ),
     baca.staccato(selector=baca.pheads()),
 )
 
@@ -413,7 +443,10 @@ maker(
         "ff < fff",
         selector=baca.tleaves(),
     ),
-    baca.markup("pos. ord."),
+    baca.markup(
+        r"\baca-pos-ord-markup",
+        literal=True,
+    ),
     baca.staccato(selector=baca.pheads()),
 )
 
@@ -421,7 +454,10 @@ maker(
     ("va", 43),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markup("OB + termiante abruptly"),
+    baca.markup(
+        r"\akasha-ob-plus-terminate-abruptly-markup",
+        literal=True,
+    ),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -429,7 +465,7 @@ maker(
 maker(
     ("Global_Skips", (45, 46)),
     baca.markup(
-        r"\akasha-repeat-six",
+        r"\akasha-repeat-six-markup",
         literal=True,
         selector=baca.skip(0),
     ),
@@ -446,7 +482,10 @@ maker(
     ("v1", 45),
     akasha.getato_pitches(29, [2]),
     baca.dynamic("pp"),
-    baca.markup("leggieriss."),
+    baca.markup(
+        r"\baca-leggieriss-markup",
+        literal=True,
+    ),
     baca.staccato(selector=baca.pheads()),
 )
 
@@ -454,7 +493,10 @@ maker(
     ("v2", 45),
     akasha.getato_pitches(26, [2]),
     baca.dynamic("pp"),
-    baca.markup("leggieriss."),
+    baca.markup(
+        r"\baca-leggieriss-markup",
+        literal=True,
+    ),
     baca.staccato(selector=baca.pheads()),
 )
 
@@ -462,7 +504,10 @@ maker(
     ("va", 45),
     akasha.getato_pitches(23, [2]),
     baca.dynamic("pp"),
-    baca.markup("leggieriss."),
+    baca.markup(
+        r"\baca-leggieriss-markup",
+        literal=True,
+    ),
     baca.staff_lines(5),
     baca.staccato(selector=baca.pheads()),
 )
@@ -471,7 +516,10 @@ maker(
     ("vc", 45),
     akasha.getato_pitches(20, [2]),
     baca.dynamic("pp"),
-    baca.markup("leggieriss."),
+    baca.markup(
+        r"\baca-leggieriss-markup",
+        literal=True,
+    ),
     baca.staccato(selector=baca.pheads()),
 )
 
@@ -479,7 +527,10 @@ maker(
     ("va", 47),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markup("OB + terminate abruptly"),
+    baca.markup(
+        r"\akasha-ob-plus-terminate-abruptly-markup",
+        literal=True,
+    ),
     baca.staff_lines(1),
     baca.staff_position(0),
 )

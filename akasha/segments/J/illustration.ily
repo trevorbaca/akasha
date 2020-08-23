@@ -125,7 +125,7 @@ J_Violin_I_Music_Voice = {                                                     %
             \ff                                                                %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
             ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                   %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \akasha-scratch-moltiss-explanation                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \akasha-scratch-moltiss-explanation-markup                       %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \set Staff.shortInstrumentName = \akasha-vn-i-markup               %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -270,7 +270,7 @@ J_Violin_II_Music_Voice = {                                                    %
         a4                                                                     %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \akasha-scratch-moltiss-explanation                                  %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-scratch-moltiss-explanation-markup                           %! baca.markup():baca.IndicatorCommand._call()
 
     }                                                                          %! akasha.scratch_rhythm()
 
@@ -481,7 +481,7 @@ J_Cello_Music_Voice = {                                                        %
         b,4                                                                    %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \akasha-scratch-moltiss-explanation                                  %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-scratch-moltiss-explanation-markup                           %! baca.markup():baca.IndicatorCommand._call()
 
         r4                                                                     %! akasha.scratch_rhythm()
 

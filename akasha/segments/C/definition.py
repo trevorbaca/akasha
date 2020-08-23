@@ -168,7 +168,10 @@ maker(
         ("v2", (9, 24)),
     ],
     baca.dynamic('"mf"'),
-    baca.markup("OB"),
+    baca.markup(
+        r"\baca-ob-markup",
+        literal=True,
+    ),
     baca.staff_lines(1),
     baca.staff_position(
         0,
@@ -195,35 +198,50 @@ maker(
     ("vc", 15),
     akasha.getato_pitches("C#3", direction=abjad.Down),
     baca.dynamic("p"),
-    baca.markup("leggieriss."),
+    baca.markup(
+        r"\baca-leggieriss-markup",
+        literal=True,
+    ),
     baca.staccato(selector=baca.pheads()),
 )
 
 maker(
     ("va", 16),
     baca.dynamic("ff"),
-    baca.markup("tasto + scratch moltiss."),
+    baca.markup(
+        r"\baca-tasto-plus-scratch-moltiss-markup",
+        literal=True,
+    ),
     baca.pitch("C4"),
 )
 
 maker(
     ("va", 23),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
     baca.pitches("D#4 D#+4 E4", exact=True),
 )
 
 maker(
     ("vc", 23),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
     baca.pitch("C4"),
 )
 
 maker(
     ("v2", (25, 26)),
     baca.dynamic("pp"),
-    baca.markup("tasto"),
+    baca.markup(
+        r"\baca-tasto-markup",
+        literal=True,
+    ),
     baca.pitch("G5"),
     baca.staff_lines(5),
     baca.trill_spanner(alteration="A5"),
@@ -237,12 +255,18 @@ maker(
         baca.glissando(),
     ),
     baca.hairpin("mp > pp"),
-    baca.markup("tasto"),
+    baca.markup(
+        r"\baca-tasto-markup",
+        literal=True,
+    ),
 )
 
 maker(
     ("vc", (25, 26)),
     baca.hairpin("mp > pp"),
-    baca.markup("tasto"),
+    baca.markup(
+        r"\baca-tasto-markup",
+        literal=True,
+    ),
     baca.pitch("C#2"),
 )
