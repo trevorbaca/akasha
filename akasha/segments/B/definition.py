@@ -61,7 +61,10 @@ maker(
     akasha.polyphony_rhythm(),
     baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -117,14 +120,20 @@ maker(
         fuse_counts=(2, 1),
     ),
     baca.dynamic("pp"),
-    baca.markup("tasto + XFB"),
+    baca.markup(
+        r"\baca-tasto-plus-xfb-markup",
+        literal=True,
+    ),
     baca.pitches("C5 Bb4"),
 )
 
 maker(
     (["va", "vc"], 11),
     baca.make_repeat_tied_notes(),
-    baca.markup("tasto"),
+    baca.markup(
+        r"\baca-tasto-markup",
+        literal=True,
+    ),
     baca.new(
         baca.pitch("D#3"),
         match=0,

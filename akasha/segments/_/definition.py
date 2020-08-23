@@ -63,7 +63,10 @@ maker(
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.make_repeat_tied_notes(),
-    baca.markup("OB + terminate abruptly"),
+    baca.markup(
+        r"\akasha-ob-plus-terminate-abruptly-markup",
+        literal=True,
+    ),
     baca.staff_position(0),
 )
 

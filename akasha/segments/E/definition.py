@@ -271,7 +271,7 @@ maker(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(
-            r"\akasha-scratch-moltiss-explanation",
+            r"\akasha-scratch-moltiss-explanation-markup",
             literal=True,
         ),
         selector=baca.phead(0, exclude=baca.const.HIDDEN),
@@ -281,7 +281,10 @@ maker(
 maker(
     ("v1", (15, 22)),
     baca.dynamic("f"),
-    baca.markup("po' meno scratch"),
+    baca.markup(
+        r"\akasha-po-meno-scratch-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -297,7 +300,10 @@ maker(
         "mf > pp",
         selector=baca.tleaves(),
     ),
-    baca.markup("leggieriss. (senza scratch)"),
+    baca.markup(
+        r"\akasha-leggieriss-senza-scratch-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -310,7 +316,7 @@ maker(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(
-            r"\akasha-scratch-moltiss-explanation",
+            r"\akasha-scratch-moltiss-explanation-markup",
             literal=True,
         ),
         selector=baca.phead(0, exclude=baca.const.HIDDEN),
@@ -320,7 +326,10 @@ maker(
 maker(
     ("v2", (11, 18)),
     baca.dynamic("f"),
-    baca.markup("po' meno scratch"),
+    baca.markup(
+        r"\akasha-po-meno-scratch-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -329,12 +338,18 @@ maker(
     baca.staccato(
         selector=baca.pheads(exclude=baca.const.HIDDEN),
     ),
-    baca.markup("senza scratch"),
+    baca.markup(
+        r"\akasha-senza-scratch-markup",
+        literal=True,
+    ),
 )
 
 maker(
     ("v2", (21, 39)),
-    baca.markup("leggieriss."),
+    baca.markup(
+        r"\baca-leggieriss-markup",
+        literal=True,
+    ),
     baca.staccato(
         selector=baca.pheads(exclude=baca.const.HIDDEN),
     ),
@@ -354,7 +369,10 @@ maker(
         selector=baca.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.dynamic('"mf"'),
-    baca.markup("OB"),
+    baca.markup(
+        r"\baca-ob-markup",
+        literal=True,
+    ),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -369,7 +387,7 @@ maker(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(
-            r"\akasha-scratch-moltiss-explanation",
+            r"\akasha-scratch-moltiss-explanation-markup",
             literal=True,
         ),
         selector=baca.phead(0, exclude=baca.const.HIDDEN),
@@ -379,13 +397,19 @@ maker(
 maker(
     ("vc", (9, 14)),
     baca.dynamic("f"),
-    baca.markup("po' meno scratch"),
+    baca.markup(
+        r"\akasha-po-meno-scratch-markup",
+        literal=True,
+    ),
 )
 
 maker(
     ("vc", (15, 18)),
     baca.dynamic("mf"),
-    baca.markup("senza scratch"),
+    baca.markup(
+        r"\akasha-senza-scratch-markup",
+        literal=True,
+    ),
     baca.staccato(
         selector=baca.pheads(exclude=baca.const.HIDDEN),
     ),
@@ -396,7 +420,10 @@ maker(
     baca.staccato(
         selector=baca.pheads(exclude=baca.const.HIDDEN),
     ),
-    baca.markup("leggieriss."),
+    baca.markup(
+        r"\baca-leggieriss-markup",
+        literal=True,
+    ),
 )
 
 maker(

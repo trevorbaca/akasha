@@ -853,7 +853,7 @@ F_Global_Skips = {                                                             %
     \time 6/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
     s1 * 3/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
-    ^ \akasha-repeat-six                                                       %! baca.markup():baca.IndicatorCommand._call()
+    ^ \akasha-repeat-six-markup                                                %! baca.markup():baca.IndicatorCommand._call()
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER:baca.SegmentMaker._label_stage_numbers()
@@ -1235,7 +1235,7 @@ F_Violin_I_Music_Voice = {                                                     %
         ef''!16 * 227/32                                                       %! akasha.accelerando_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-pp-ancora                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \markup { "tasto + XFB" }                                            %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-tasto-plus-xfb-markup                                          %! baca.markup():baca.IndicatorCommand._call()
     %@% ^ \baca-duration-multiplier-markup #"227" #"32"                        %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
         [                                                                      %! akasha.accelerando_rhythm()
 
@@ -1833,7 +1833,7 @@ F_Violin_I_Music_Voice = {                                                     %
     e''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-tasto-plus-half-scratch-markup                                     %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -1969,7 +1969,7 @@ F_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { "pos. ord." }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-pos-ord-markup                                                 %! baca.markup():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! akasha.dense_getato_rhythm()
@@ -2481,7 +2481,7 @@ F_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { leggieriss. }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-leggieriss-markup                                              %! baca.markup():baca.IndicatorCommand._call()
         [                                                                      %! akasha.dense_getato_rhythm()
 
         fs'''!16                                                               %! akasha.dense_getato_rhythm()
@@ -2958,7 +2958,7 @@ F_Violin_II_Music_Voice = {                                                    %
         b'16 * 13/8                                                            %! akasha.ritardando_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-pp-ancora                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \markup { "tasto + XFB" }                                            %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-tasto-plus-xfb-markup                                          %! baca.markup():baca.IndicatorCommand._call()
     %@% ^ \baca-duration-multiplier-markup #"13" #"8"                          %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
         [                                                                      %! akasha.ritardando_rhythm()
 
@@ -3473,7 +3473,7 @@ F_Violin_II_Music_Voice = {                                                    %
     fs'!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-tasto-plus-half-scratch-markup                                     %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -3609,7 +3609,7 @@ F_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { "pos. ord." }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-pos-ord-markup                                                 %! baca.markup():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! akasha.dense_getato_rhythm()
@@ -4127,7 +4127,7 @@ F_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { leggieriss. }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-leggieriss-markup                                              %! baca.markup():baca.IndicatorCommand._call()
         [                                                                      %! akasha.dense_getato_rhythm()
 
         ef'''!16                                                               %! akasha.dense_getato_rhythm()
@@ -4364,7 +4364,7 @@ F_Viola_Music_Voice = {                                                        %
     fs!2.                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \akasha-scratch-moltiss-explanation                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \akasha-scratch-moltiss-explanation-markup                               %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -4414,7 +4414,7 @@ F_Viola_Music_Voice = {                                                        %
     gs!2                                                                       %! akasha.manifest()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-tasto-plus-half-scratch-markup                                     %! baca.markup():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
@@ -4686,7 +4686,7 @@ F_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { "pos. ord." }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-pos-ord-markup                                                 %! baca.markup():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! akasha.dense_getato_rhythm()
@@ -5192,7 +5192,7 @@ F_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mf                                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \downbow                                                                 %! baca.down_bow():baca.IndicatorCommand._call()
-    ^ \markup { "OB + termiante abruptly" }                                    %! baca.markup():baca.IndicatorCommand._call()
+    ^ \akasha-ob-plus-terminate-abruptly-markup                                %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -5239,7 +5239,7 @@ F_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { leggieriss. }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-leggieriss-markup                                              %! baca.markup():baca.IndicatorCommand._call()
         [                                                                      %! akasha.dense_getato_rhythm()
 
         c'''16                                                                 %! akasha.dense_getato_rhythm()
@@ -5373,7 +5373,7 @@ F_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mf                                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \downbow                                                                 %! baca.down_bow():baca.IndicatorCommand._call()
-    ^ \markup { "OB + terminate abruptly" }                                    %! baca.markup():baca.IndicatorCommand._call()
+    ^ \akasha-ob-plus-terminate-abruptly-markup                                %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -5467,7 +5467,7 @@ F_Cello_Music_Voice = {                                                        %
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-tasto-plus-half-scratch-markup                                     %! baca.markup():baca.IndicatorCommand._call()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \akasha-vc-markup                         %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
@@ -5497,7 +5497,7 @@ F_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { leggieriss. }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-leggieriss-markup                                              %! baca.markup():baca.IndicatorCommand._call()
         [                                                                      %! akasha.dense_getato_rhythm()
 
         bf''!16                                                                %! akasha.dense_getato_rhythm()
@@ -5729,7 +5729,7 @@ F_Cello_Music_Voice = {                                                        %
     af,!4..                                                                    %! akasha.manifest()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "tasto + 1/2 scratch" }                                        %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-tasto-plus-half-scratch-markup                                     %! baca.markup():baca.IndicatorCommand._call()
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
     g,16                                                                       %! akasha.manifest()
@@ -5979,7 +5979,7 @@ F_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { "pos. ord." }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-pos-ord-markup                                                 %! baca.markup():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! akasha.dense_getato_rhythm()
@@ -6491,7 +6491,7 @@ F_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
-    ^ \markup { leggieriss. }                                                  %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-leggieriss-markup                                                  %! baca.markup():baca.IndicatorCommand._call()
     [                                                                          %! akasha.dense_getato_rhythm()
 
     a''16                                                                      %! akasha.dense_getato_rhythm()

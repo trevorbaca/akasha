@@ -76,7 +76,10 @@ maker(
 maker(
     (["v1", "v2", "vc"], (1, 2)),
     baca.dynamic("p"),
-    baca.markup("XFB"),
+    baca.markup(
+        r"\baca-xfb-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -125,7 +128,10 @@ maker(
         baca.glissando(),
     ),
     baca.hairpin("mp > pp"),
-    baca.markup("tasto"),
+    baca.markup(
+        r"\baca-tasto-markup",
+        literal=True,
+    ),
     baca.staff_lines(5),
 )
 
@@ -137,5 +143,8 @@ maker(
         baca.glissando(),
     ),
     baca.hairpin("mp > pp"),
-    baca.markup("tasto"),
+    baca.markup(
+        r"\baca-tasto-markup",
+        literal=True,
+    ),
 )

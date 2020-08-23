@@ -47,7 +47,10 @@ maker(
     akasha.cello_solo_pitches(),
     akasha.cello_solo_rhythm(rotation=0),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -72,7 +75,10 @@ maker(
 maker(
     (["v1", "v2", "va"], (6, 7)),
     baca.dynamic("mp"),
-    baca.markup("tasto + 1/2 scratch"),
+    baca.markup(
+        r"\baca-tasto-plus-half-scratch-markup",
+        literal=True,
+    ),
     baca.new(
         akasha.polyphony_rhythm(
             rmakers.force_rest(baca.lts().exclude([0, 1, 2])),
@@ -139,7 +145,10 @@ maker(
         rmakers.force_rest(baca.lts().get([3, 5, 7, 9])),
     ),
     baca.dynamic("pp"),
-    baca.markup("tasto + XFB"),
+    baca.markup(
+        r"\baca-tasto-plus-xfb-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -151,7 +160,10 @@ maker(
         rmakers.force_rest(baca.lts().get([2, 5, 7])),
     ),
     baca.dynamic("pp"),
-    baca.markup("tasto + XFB"),
+    baca.markup(
+        r"\baca-tasto-plus-xfb-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -251,5 +263,8 @@ maker(
 maker(
     [("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)],
     baca.dynamic("p"),
-    baca.markup("leggierissimo: off-string bowing on staccati"),
+    baca.markup(
+        r"\akasha-leggierissimo-off-string-bowing-on-staccati-markup",
+        literal=True,
+    ),
 )

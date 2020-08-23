@@ -826,7 +826,7 @@ E_Violin_I_Music_Voice = {                                                     %
         f'4                                                                    %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \akasha-scratch-moltiss-explanation                                  %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-scratch-moltiss-explanation-markup                           %! baca.markup():baca.IndicatorCommand._call()
 
         r4                                                                     %! akasha.scratch_rhythm()
 
@@ -1035,7 +1035,7 @@ E_Violin_I_Music_Voice = {                                                     %
         af'!8                                                                  %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \markup { "po' meno scratch" }                                       %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-po-meno-scratch-markup                                       %! baca.markup():baca.IndicatorCommand._call()
 
         r8                                                                     %! akasha.scratch_rhythm()
 
@@ -1246,7 +1246,7 @@ E_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
-    ^ \markup { "leggieriss. (senza scratch)" }                                %! baca.markup():baca.IndicatorCommand._call()
+    ^ \akasha-leggieriss-senza-scratch-markup                                  %! baca.markup():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [                                                                          %! akasha.dense_getato_rhythm()
@@ -2451,7 +2451,7 @@ E_Violin_II_Music_Voice = {                                                    %
         a4                                                                     %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \akasha-scratch-moltiss-explanation                                  %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-scratch-moltiss-explanation-markup                           %! baca.markup():baca.IndicatorCommand._call()
 
     }                                                                          %! akasha.scratch_rhythm()
 
@@ -2597,7 +2597,7 @@ E_Violin_II_Music_Voice = {                                                    %
         a8                                                                     %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \markup { "po' meno scratch" }                                       %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-po-meno-scratch-markup                                       %! baca.markup():baca.IndicatorCommand._call()
 
         r8                                                                     %! akasha.scratch_rhythm()
 
@@ -2775,7 +2775,7 @@ E_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { "senza scratch" }                                          %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-senza-scratch-markup                                         %! baca.markup():baca.IndicatorCommand._call()
 
         r8                                                                     %! akasha.scratch_rhythm()
 
@@ -2836,7 +2836,7 @@ E_Violin_II_Music_Voice = {                                                    %
 
         bf!16                                                                  %! akasha.dense_getato_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { leggieriss. }                                              %! baca.markup():baca.IndicatorCommand._call()
+        ^ \baca-leggieriss-markup                                              %! baca.markup():baca.IndicatorCommand._call()
         [                                                                      %! akasha.dense_getato_rhythm()
 
         a16                                                                    %! akasha.dense_getato_rhythm()
@@ -4166,7 +4166,7 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mf                                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    ^ \markup { OB }                                                           %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-ob-markup                                                          %! baca.markup():baca.IndicatorCommand._call()
 
     c'4.                                                                       %! akasha.viola_ob_rhythm()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
@@ -4842,7 +4842,7 @@ E_Cello_Music_Voice = {                                                        %
         b,4                                                                    %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \akasha-scratch-moltiss-explanation                                  %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-scratch-moltiss-explanation-markup                           %! baca.markup():baca.IndicatorCommand._call()
 
         r4                                                                     %! akasha.scratch_rhythm()
 
@@ -4935,7 +4935,7 @@ E_Cello_Music_Voice = {                                                        %
         b,4                                                                    %! akasha.scratch_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        ^ \markup { "po' meno scratch" }                                       %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-po-meno-scratch-markup                                       %! baca.markup():baca.IndicatorCommand._call()
 
         r4                                                                     %! akasha.scratch_rhythm()
 
@@ -5071,7 +5071,7 @@ E_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        ^ \markup { "senza scratch" }                                          %! baca.markup():baca.IndicatorCommand._call()
+        ^ \akasha-senza-scratch-markup                                         %! baca.markup():baca.IndicatorCommand._call()
 
         r8                                                                     %! akasha.scratch_rhythm()
 
@@ -5196,7 +5196,7 @@ E_Cello_Music_Voice = {                                                        %
 
     cs!16                                                                      %! akasha.dense_getato_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
-    ^ \markup { leggieriss. }                                                  %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-leggieriss-markup                                                  %! baca.markup():baca.IndicatorCommand._call()
     [                                                                          %! akasha.dense_getato_rhythm()
 
     c16                                                                        %! akasha.dense_getato_rhythm()
