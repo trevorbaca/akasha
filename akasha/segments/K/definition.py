@@ -35,8 +35,7 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
-        "B", 69, 24,
-        fermata_measures=[29, 40, 46, 55, 69]
+        "B", 69, 24, fermata_measures=[29, 40, 46, 55, 69]
     ),
     validate_measure_count=69,
 )
@@ -59,8 +58,10 @@ maker(
 
 maker(
     [
-        (["v1", "v2", "va", "vc"], [
-            (1, 28), (30, 34), (35, 39), (41, 45), (56, 60), (61, 68)]),
+        (
+            ["v1", "v2", "va", "vc"],
+            [(1, 28), (30, 34), (35, 39), (41, 45), (56, 60), (61, 68)],
+        ),
         ("v1", [(47, 52), (53, 54)]),
         ("v2", [(47, 50), (51, 54)]),
         ("va", [(47, 48), (49, 54)]),
@@ -221,7 +222,7 @@ maker(
         baca.note_head_style_harmonic(),
         baca.pitch("B7"),
         selector=baca.pleaves(exclude=baca.const.HIDDEN),
-    )
+    ),
 )
 
 maker(
@@ -238,7 +239,7 @@ maker(
         baca.note_head_style_harmonic(),
         baca.pitch("C#7"),
         selector=baca.pleaves(exclude=baca.const.HIDDEN),
-    )
+    ),
 )
 
 maker(

@@ -13,7 +13,9 @@ maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     segment_directory=baca.Path(__file__).resolve().parent,
     time_signatures=akasha.time_signatures(
-        "A", 20, 0,
+        "A",
+        20,
+        0,
         fermata_measures=[3, 5, 8, 10, 14, 16, 18, 20],
     ),
     validate_measure_count=20,

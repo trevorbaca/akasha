@@ -6,9 +6,7 @@ from abjadext import rmakers
 ##################################### [J] #####################################
 ###############################################################################
 
-stage_markup = (
-    ("[J.1]", 1),
-)
+stage_markup = (("[J.1]", 1),)
 
 maker = baca.SegmentMaker(
     activate=[
@@ -34,11 +32,7 @@ maker(
 
 maker(
     ("v2", 1),
-    akasha.scratch_rhythm(
-        [4],
-        rmakers.force_rest(baca.lts()[:-1]),
-        extra_counts=[-2]
-    ),
+    akasha.scratch_rhythm([4], rmakers.force_rest(baca.lts()[:-1]), extra_counts=[-2]),
 )
 
 maker(

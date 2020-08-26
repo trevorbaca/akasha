@@ -26,7 +26,9 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
-        "B", 11, 6,
+        "B",
+        11,
+        6,
         fermata_measures=[5, 7, 9],
     ),
     validate_measure_count=11,
