@@ -37,8 +37,7 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
-        "A", 39, 6,
-        fermata_measures=[2, 4, 6, 8, 39]
+        "A", 39, 6, fermata_measures=[2, 4, 6, 8, 39]
     ),
     validate_measure_count=39,
 )
@@ -69,11 +68,7 @@ maker(
 
 maker(
     ("v2", 3),
-    akasha.scratch_rhythm(
-        [4],
-        rmakers.force_rest(baca.lts()[:-1]),
-        extra_counts=[-2]
-    ),
+    akasha.scratch_rhythm([4], rmakers.force_rest(baca.lts()[:-1]), extra_counts=[-2]),
 )
 
 maker(
