@@ -86,9 +86,7 @@ def accelerando_rhythm(
         divisions = expression.map(baca.sequence().sum())
 
     return baca.rhythm(
-        rmakers.accelerando(
-            [(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]
-        ),
+        rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
         *commands,
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
@@ -102,8 +100,7 @@ def cello_solo_pitches(transposition: int = None) -> baca.PitchCommand:
     Makes cello solo pitches.
     """
     pitches = abjad.PitchSegment(
-        "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3"
-        " E3 E-3 Eb3 Db3 C3 D3 F#3",
+        "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3" " E3 E-3 Eb3 Db3 C3 D3 F#3",
         item_class=abjad.NamedPitch,
     )
     if transposition is not None:
@@ -223,9 +220,7 @@ def growth(
 
     return baca.rhythm(
         rmakers.bind(
-            rmakers.assign(
-                accelerando_, abjad.DurationInequality(">", (1, 4))
-            ),
+            rmakers.assign(accelerando_, abjad.DurationInequality(">", (1, 4))),
             rmakers.assign(talea),
         ),
         preprocessor=divisions,
@@ -250,9 +245,7 @@ def harmonic_glissando_pitches(
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     pitch_numbers = abjad.sequence(pitch_numbers).rotate(n=rotation)
-    return baca.pitches(
-        pitch_numbers, selector=baca.plts(exclude=baca.const.HIDDEN)
-    )
+    return baca.pitches(pitch_numbers, selector=baca.plts(exclude=baca.const.HIDDEN))
 
 
 def manifest(these_counts: abjad.IntegerSequence) -> baca.RhythmCommand:
@@ -269,9 +262,7 @@ def manifest(these_counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     assert len(counts) == 20
 
     assert sum(these_counts) == len(counts)
-    these_counts = counts.partition_by_counts(
-        these_counts, overhang=abjad.Exact
-    )
+    these_counts = counts.partition_by_counts(these_counts, overhang=abjad.Exact)
     these_counts = [sum(_) for _ in these_counts]
 
     return baca.rhythm(
@@ -301,9 +292,7 @@ def margin_markup(
     return baca.not_parts(command)
 
 
-def perforated_counts(
-    *, degree: int = 0, rotation: int = None
-) -> baca.Sequence:
+def perforated_counts(*, degree: int = 0, rotation: int = None) -> baca.Sequence:
     r"""
     Makes perforated counts.
 
@@ -377,9 +366,7 @@ def ritardando_rhythm(
         divisions = divisions.map(baca.sequence().fuse())
 
     return baca.rhythm(
-        rmakers.accelerando(
-            [(1, 8), (1, 2), (1, 16)], [(1, 2), (1, 8), (1, 16)]
-        ),
+        rmakers.accelerando([(1, 8), (1, 2), (1, 16)], [(1, 2), (1, 8), (1, 16)]),
         *commands,
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.duration_bracket(),
