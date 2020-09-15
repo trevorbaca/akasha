@@ -1,6 +1,7 @@
 import abjad
-import akasha
 import baca
+
+import akasha
 
 
 class ScoreTemplate(baca.ScoreTemplate):
