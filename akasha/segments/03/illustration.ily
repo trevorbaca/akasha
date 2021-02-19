@@ -269,7 +269,7 @@ c_Violin_I_Music_Voice = {                                                     %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }
@@ -536,7 +536,7 @@ c_Violin_II_Music_Voice = {                                                    %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }

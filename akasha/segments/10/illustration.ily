@@ -1411,7 +1411,7 @@ j_Violin_I_Music_Voice = {                                                     %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }
@@ -1468,7 +1468,7 @@ j_Violin_I_Music_Voice = {                                                     %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }
@@ -2151,7 +2151,7 @@ j_Violin_II_Music_Voice = {                                                    %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }
@@ -2211,7 +2211,7 @@ j_Violin_II_Music_Voice = {                                                    %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }
@@ -2907,7 +2907,7 @@ j_Viola_Music_Voice = {                                                        %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }
@@ -3602,7 +3602,7 @@ j_Cello_Music_Voice = {                                                        %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }
