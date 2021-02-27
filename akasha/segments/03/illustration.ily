@@ -241,7 +241,7 @@ c_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -251,14 +251,14 @@ c_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -510,7 +510,7 @@ c_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -520,14 +520,14 @@ c_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -723,9 +723,9 @@ c_Viola_Music_Voice = {                                                        %
     ^ \baca-tasto-markup                                                       %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
@@ -780,7 +780,7 @@ c_Cello_Music_Voice = {                                                        %
     \startStaff                                                                %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
     \set Staff.instrumentName = \akasha-vc-markup                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \override Beam.positions = #'(-4 . -4)                                     %! baca.beam_positions():baca.OverrideCommand._call(1)
-    \override TupletBracket.staff-padding = #2                                 %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
+    \override TupletBracket.staff-padding = 2                                  %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
     \clef "bass"                                                               %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
@@ -1119,9 +1119,9 @@ c_Cello_Music_Voice = {                                                        %
     ^ \baca-tasto-markup                                                       %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
