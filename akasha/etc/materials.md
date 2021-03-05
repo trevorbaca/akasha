@@ -35,9 +35,7 @@ MATERIALS
 COLORS
 ======
 
-A. getati
-
-::
+A. getati::
 
   a1. isolated scratch tenuti
   a2. rhythmically irregular scratch detache
@@ -49,9 +47,7 @@ A. getati
   a8. very perf. getato pianiss.
   a9. silence with occ. getato strands
 
-B. microtonal field
-
-::
+B. microtonal field::
 
   b1. solo microtonal melodic line on accel / rit with SB
   b2. two-voice microtonal polyphony char. mod. rhythm pSB
@@ -64,9 +60,7 @@ B. microtonal field
   b9. reartic. 8-note 12ET chord pSB lentiss. rit. dim.
   b10. fixed 8-note 12ET chord SB dim.
 
-C. massed trills
-
-::
+C. massed trills::
 
   c1. isolated tasto tenuti or trills
   c2. isolated 2- or 3-note tenuti or trills
@@ -76,9 +70,7 @@ C. massed trills
   c6. fixed trill field with t > xsp > t enveloping 
   c7. xsp swipe against four-note root chord
 
-D. spectral field
-
-::
+D. spectral field::
 
   d1. vc, va detuned octave
   d2. tutti detuned octaves
@@ -88,9 +80,7 @@ D. spectral field
   d6. tutti A9-A7-A6-A5 trill field with t > xsp > t enveloping
   d7. xsp swipe against 9-7-6-5 spectral chord
 
-E. OB
-
-::
+E. OB::
 
   e1. fixed OB
   e2. quarter note OB
