@@ -1,25 +1,25 @@
 SEGMENTS
 ========
 
-time signature series
+time signatures by segment:
   ```
-  intro: B[0]
-  A: A[0]
-  B: B[6]
-  C: A[3]
-  D: B[12]
+     i: B[0]
+     A: A[0]
+     B: B[6]
+     C: A[3]
+     D: B[12]
   E, F: A[6], A[9]
-  G: B[18]
+     G: B[18]
   H, I: A[12], A[15]
-  [J:E]
-  K: B[24]
+     J: (E ibid.)
+     K: B[24]
   L, M: A[18], A[21]
-  N: B[30]
+     N: B[30]
   ```
 
 intro (8")
 
-[A] (72")
+[A] (72"):
   ```
   1-2 (2 + long fermata)
   microtonal cello line;
@@ -58,7 +58,7 @@ intro (8")
   short fermata;
   ```
 
-[B] (31")
+[B] (31"):
   ```
   1 (3)[55]
   two-voice microtonal harmonies;
@@ -76,7 +76,7 @@ intro (8")
   attaca;
   ```
 
-[C] (96")
+[C] (96"):
   ```
   1-8 (4x: 1 + fermata)
   sputtering exposition of detuned va, vc octave with glissandi lentiss.;
@@ -120,7 +120,7 @@ intro (8")
   long fermata;
   ```
 
-[D] (89")
+[D] (89"):
   ```
   1-2 (8 + short fermata)[126]
   three-note vn1, va, vc spectral chord freezes time;
@@ -162,7 +162,7 @@ intro (8")
   long fermata;
   ```
 
-[E] (115")
+[E] (115"):
   ```
   1-8 (4x: 1 + fermata)[44]
   segment begins with mod. rhythmicized va OB;
@@ -210,7 +210,7 @@ intro (8")
   long fermata;
   ```
 
-[F] (3')
+[F] (3'):
   ```
   1 (2)[44]
   tempo resets back to mod.;
@@ -268,7 +268,7 @@ intro (8")
   fermata;
   ```
 
-[G] (1')
+[G] (1'):
   ```
   1 (4)[126-->44]
   microtonal field resumes 12ET in v2, va, vc SB;
@@ -298,7 +298,7 @@ intro (8")
   attaca;
   ```
 
-[H] (30") [whole segment repeats]
+[H] (30") [whole segment repeats]:
   ```
   1 (2)
   tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
@@ -312,7 +312,7 @@ intro (8")
   fermata;
   ```
 
-[I] (2'30")
+[I] (2'30"):
   ```
   1-2 (2 + fermata)[89]
   tutti detuned ord. octave B (B1, B+2, A#+3 B5) with swell (cres. + vib.);
@@ -378,14 +378,14 @@ intro (8")
   very long fermata;
   ```
 
-[J] (30")
+[J] (30"):
   ```
   1-4 (3 + very long fermata)[44]
   exact recall of first three scratch measures of [E];
   very long fermata;
   ```
 
-[K] (4')
+[K] (4'):
   ```
   1 (4)[44]
   tutti assume finger chord of trill field;
@@ -474,7 +474,7 @@ intro (8")
   very long fermata;
   ```
 
-[L] (15")
+[L] (15"):
   ```
   1 (1)[55]
   va OB;
@@ -494,7 +494,7 @@ intro (8")
   attaca;
   ```
 
-[M] (1'30")
+[M] (1'30"):
   ```
   1 (6)[55]
   vc Bb1 ppp < ff;
@@ -542,7 +542,7 @@ intro (8")
   fermata;
   ```
 
-[N] (30")
+[N] (30"):
   ```
   1 (8)[89]
   vn1, va, vc OB homorhythm with tutti rests between each stroke;
