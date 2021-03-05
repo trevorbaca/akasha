@@ -1,8 +1,8 @@
 SEGMENTS
 ========
 
-time signature series:
-
+time signature series
+  ```
   intro: B[0]
   A: A[0]
   B: B[6]
@@ -15,11 +15,12 @@ time signature series:
   K: B[24]
   L, M: A[18], A[21]
   N: B[30]
+  ```
 
 intro (8")
 
 [A] (72")
-
+  ```
   1-2 (2 + long fermata)
   microtonal cello line;
   long fermata;
@@ -55,9 +56,10 @@ intro (8")
   tasto loops broken apart;
   dialogue with ext. thin get. pianiss.;
   short fermata;
+  ```
 
 [B] (31")
-
+  ```
   1 (3)[55]
   two-voice microtonal harmonies;
   mixed with two-note written-out alternation as implication of trill;
@@ -72,9 +74,10 @@ intro (8")
   two-note written-out prefiguration of trill resumes;
   timed together with first appearance of detuned va, vc octave;
   attaca;
+  ```
 
 [C] (96")
-
+  ```
   1-8 (4x: 1 + fermata)
   sputtering exposition of detuned va, vc octave with glissandi lentiss.;
   start; fermata;
@@ -115,9 +118,10 @@ intro (8")
   va, vc detuned octave diminuendo for full stage;
   segment ends with question mark;
   long fermata;
+  ```
 
 [D] (89")
-
+  ```
   1-2 (8 + short fermata)[126]
   three-note vn1, va, vc spectral chord freezes time;
   vn2 tacet;
@@ -156,9 +160,10 @@ intro (8")
   15-17 (3 + 1 + long fermata)[44]
   vc down-glissando outlasts rest of materials and closes segment unacc.;
   long fermata;
+  ```
 
 [E] (115")
-
+  ```
   1-8 (4x: 1 + fermata)[44]
   segment begins with mod. rhythmicized va OB;
   large process of revealing getati begins;
@@ -203,9 +208,10 @@ intro (8")
   ascent reaches peak;
   va OB;
   long fermata;
+  ```
 
 [F] (3')
-
+  ```
   1 (2)[44]
   tempo resets back to mod.;
   microtonal vc melody returns from beginning of piece;
@@ -260,9 +266,10 @@ intro (8")
   19-20 (1 + fermata)[55]
   single note of va OB;
   fermata;
+  ```
 
 [G] (1')
-
+  ```
   1 (4)[126-->44]
   microtonal field resumes 12ET in v2, va, vc SB;
   get. field handled exclusively as vn1 solo maximally fast burst;
@@ -289,9 +296,10 @@ intro (8")
   7 (1)
   OB pedal which continues through end of segment;
   attaca;
+  ```
 
 [H] (30") [whole segment repeats]
-
+  ```
   1 (2)
   tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
 
@@ -302,9 +310,10 @@ intro (8")
   3 (2 + fermata)
   isolated va, vc detuned octave;
   fermata;
+  ```
 
 [I] (2'30")
-
+  ```
   1-2 (2 + fermata)[89]
   tutti detuned ord. octave B (B1, B+2, A#+3 B5) with swell (cres. + vib.);
   fermata;
@@ -367,15 +376,17 @@ intro (8")
   18-19 (2 + very long fermata)[44]
   tutti mp scratch moltiss. (B);
   very long fermata;
+  ```
 
 [J] (30")
-
+  ```
   1-4 (3 + very long fermata)[44]
   exact recall of first three scratch measures of [E];
   very long fermata;
+  ```
 
 [K] (4')
-
+  ```
   1 (4)[44]
   tutti assume finger chord of trill field;
   tutti begin tasto extremely sparse clicks (1 click per 3-4 sec.);
@@ -461,9 +472,10 @@ intro (8")
 
   22 (1)
   very long fermata;
+  ```
 
 [L] (15")
-
+  ```
   1 (1)[55]
   va OB;
 
@@ -480,9 +492,10 @@ intro (8")
   5 (2)
   pp vc Bb1 pochiss. vib.;
   attaca;
+  ```
 
 [M] (1'30")
-
+  ```
   1 (6)[55]
   vc Bb1 ppp < ff;
   vc Bb1 pochiss. vib. < vib. moltiss.;
@@ -527,9 +540,10 @@ intro (8")
 
   11 (1)
   fermata;
+  ```
 
 [N] (30")
-
+  ```
   1 (8)[89]
   vn1, va, vc OB homorhythm with tutti rests between each stroke;
   vn2 tacet;
@@ -546,16 +560,18 @@ intro (8")
 
   4 (1)
   very long fermata.
+  ```
 
 fermata approxmations:
-
+  ```
   short: <1"
   fermata: 2-3"
   long fermata: 4-6"
   very long fermata: 8-10"
+  ```
 
 segment durations:
-
+  ```
   i: 8" + 1 very long fermata (8-10" silence)
   A: 72" + 3 short fermatas + 5 long fermatas (20-30" silence)
   B: 31" + 2 short fermatas + 1 long fermata (4-6" silence)
@@ -571,5 +587,6 @@ segment durations:
   L: 23" + 2 very long fermatas (16-20" silence)
   M: 113" + 1 fermata (4-6" silence)
   N: 51" + 1 very long fermata (8-10" silence)
+  ```
 
 1325" + (164-232" silence) or 24.5-26' (depending on interpretation of silences).
