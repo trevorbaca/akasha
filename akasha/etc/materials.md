@@ -59,7 +59,6 @@ B. microtonal field
   b8. reartic. 8-note 12ET chord pSB lento rit. dim.
   b9. reartic. 8-note 12ET chord pSB lentiss. rit. dim.
   b10. fixed 8-note 12ET chord SB dim.
-  ```
 
 C. massed trills
 
