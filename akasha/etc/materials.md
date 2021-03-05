@@ -37,6 +37,8 @@ COLORS
 
 A. getati
 
+::
+
   a1. isolated scratch tenuti
   a2. rhythmically irregular scratch detache
   a3. mf getato pos. ord
@@ -48,6 +50,8 @@ A. getati
   a9. silence with occ. getato strands
 
 B. microtonal field
+
+::
 
   b1. solo microtonal melodic line on accel / rit with SB
   b2. two-voice microtonal polyphony char. mod. rhythm pSB
@@ -62,6 +66,8 @@ B. microtonal field
 
 C. massed trills
 
+::
+
   c1. isolated tasto tenuti or trills
   c2. isolated 2- or 3-note tenuti or trills
   c3. 3-note tenuti or trill phrases with intermitt. breaks
@@ -72,6 +78,8 @@ C. massed trills
 
 D. spectral field
 
+::
+
   d1. vc, va detuned octave
   d2. tutti detuned octaves
   d3. vc, va arco 9-7
@@ -81,6 +89,8 @@ D. spectral field
   d7. xsp swipe against 9-7-6-5 spectral chord
 
 E. OB
+
+::
 
   e1. fixed OB
   e2. quarter note OB
