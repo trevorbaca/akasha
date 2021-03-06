@@ -3,9 +3,9 @@ Akasha
 
 ![Build Status](
     https://github.com/trevorbaca/akasha/actions/workflows/test.yml/badge.svg)
-[![Code style: black]
-    (https://img.shields.io/badge/code%20style-black-000000.svg)]
-    (https://github.com/ambv/black)
+[![Code style: black](
+    https://img.shields.io/badge/code%20style-black-000000.svg)](
+    https://github.com/ambv/black)
 
 Akasha (2015) for string quartet.
 
