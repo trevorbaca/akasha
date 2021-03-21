@@ -1,8 +1,8 @@
 import distutils.version
 import platform
 
-from .ScoreTemplate import ScoreTemplate
 from .tools import (
+    ScoreTemplate,
     accelerando_rhythm,
     cello_solo_pitches,
     cello_solo_rhythm,
