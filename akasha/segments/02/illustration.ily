@@ -510,7 +510,8 @@ b_Violin_I_Music_Voice = {                                                     %
     % [02 Violin_I_Music_Voice measure 12 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         b32                                                                    %! akasha.sparse_getato_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -530,7 +531,8 @@ b_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         r16.                                                                   %! akasha.sparse_getato_rhythm()
 
@@ -612,7 +614,8 @@ b_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.accelerando_rhythm()
+    \times 1/1                                                                 %! akasha.accelerando_rhythm()
+    {                                                                          %! akasha.accelerando_rhythm()
 
         % [02 Violin_I_Music_Voice measure 15 / measure 12]                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -720,7 +723,8 @@ b_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.accelerando_rhythm()
+    \times 1/1                                                                 %! akasha.accelerando_rhythm()
+    {                                                                          %! akasha.accelerando_rhythm()
 
         % [02 Violin_I_Music_Voice measure 18 / measure 15]                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -812,7 +816,8 @@ b_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.ritardando_rhythm()
+    \times 1/1                                                                 %! akasha.ritardando_rhythm()
+    {                                                                          %! akasha.ritardando_rhythm()
 
         % [02 Violin_I_Music_Voice measure 20 / measure 17]                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -965,7 +970,8 @@ b_Violin_II_Music_Voice = {                                                    %
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         % [02 Violin_II_Music_Voice measure 7 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
         bf!32                                                                  %! akasha.sparse_getato_rhythm()
@@ -986,7 +992,8 @@ b_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         r16.                                                                   %! akasha.sparse_getato_rhythm()
 
@@ -1147,7 +1154,8 @@ b_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.ritardando_rhythm()
+    \times 1/1                                                                 %! akasha.ritardando_rhythm()
+    {                                                                          %! akasha.ritardando_rhythm()
 
         % [02 Violin_II_Music_Voice measure 15 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -1252,7 +1260,8 @@ b_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.ritardando_rhythm()
+    \times 1/1                                                                 %! akasha.ritardando_rhythm()
+    {                                                                          %! akasha.ritardando_rhythm()
 
         % [02 Violin_II_Music_Voice measure 18 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -1347,7 +1356,8 @@ b_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.accelerando_rhythm()
+    \times 1/1                                                                 %! akasha.accelerando_rhythm()
+    {                                                                          %! akasha.accelerando_rhythm()
 
         % [02 Violin_II_Music_Voice measure 20 / measure 17]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -1434,7 +1444,8 @@ b_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.ritardando_rhythm()
+    \times 1/1                                                                 %! akasha.ritardando_rhythm()
+    {                                                                          %! akasha.ritardando_rhythm()
 
         % [02 Violin_II_Music_Voice measure 22 / measure 19]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -1578,7 +1589,8 @@ b_Viola_Music_Voice = {                                                        %
     % [02 Viola_Music_Voice measure 7 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
     r2.                                                                        %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         r8                                                                     %! akasha.sparse_getato_rhythm()
 
@@ -2097,7 +2109,8 @@ b_Cello_Music_Voice = {                                                        %
     % [02 Cello_Music_Voice measure 22 / measure 19]                           %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         r16.                                                                   %! akasha.sparse_getato_rhythm()
 

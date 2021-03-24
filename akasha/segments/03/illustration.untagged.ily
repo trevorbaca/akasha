@@ -187,7 +187,8 @@ c_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [03 Violin_I_Music_Voice measure 24 / measure 1]
         \set Staff.shortInstrumentName = \akasha-vn-i-markup
@@ -428,7 +429,8 @@ c_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [03 Violin_II_Music_Voice measure 33 / measure 10]
         \once \override Beam.grow-direction = #right
@@ -662,7 +664,8 @@ c_Cello_Music_Voice = {
 
     r4.
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Cello_Music_Voice measure 25 / measure 2]
         r16.
@@ -696,7 +699,8 @@ c_Cello_Music_Voice = {
     bf!32
     - \staccato
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         b32
         - \staccato
@@ -723,7 +727,8 @@ c_Cello_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Cello_Music_Voice measure 27 / measure 4]
         r8
@@ -746,7 +751,8 @@ c_Cello_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r16.
 
@@ -792,7 +798,8 @@ c_Cello_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g32
         - \staccato
@@ -840,7 +847,8 @@ c_Cello_Music_Voice = {
 
     >>
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Cello_Music_Voice measure 29 / measure 6]
         fs!32
@@ -864,7 +872,8 @@ c_Cello_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         e32
         - \staccato
@@ -906,7 +915,8 @@ c_Cello_Music_Voice = {
 
     >>
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Cello_Music_Voice measure 31 / measure 8]
         d32
@@ -930,7 +940,8 @@ c_Cello_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r4
 

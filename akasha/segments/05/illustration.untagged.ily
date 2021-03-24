@@ -1884,7 +1884,8 @@ e_Viola_Music_Voice = {
     ds!2
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Viola_Music_Voice measure 97 / measure 36]
         cs!2
@@ -2527,7 +2528,8 @@ e_Cello_Music_Voice = {
     c,2..
     \glissando
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Cello_Music_Voice measure 111 / measure 50]
         bf,,!2..

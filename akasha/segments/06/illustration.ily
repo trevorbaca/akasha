@@ -820,7 +820,8 @@ f_Violin_I_Music_Voice = {                                                     %
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/4 {                                                               %! akasha.scratch_rhythm()
+    \times 6/4                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 117 / measure 5]                    %! baca.SegmentMaker._comment_measure_numbers()
         f'4                                                                    %! akasha.scratch_rhythm()
@@ -862,7 +863,8 @@ f_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 5/3 {                                                               %! akasha.scratch_rhythm()
+    \times 5/3                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 119 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         fs'!4                                                                  %! akasha.scratch_rhythm()
@@ -899,7 +901,8 @@ f_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 3/4 {                                                               %! akasha.scratch_rhythm()
+    \times 3/4                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 121 / measure 9]                    %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -913,7 +916,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 3/4 {                                                               %! akasha.scratch_rhythm()
+    \times 3/4                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 122 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -926,7 +930,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.scratch_rhythm()
 
-    \times 8/9 {                                                               %! akasha.scratch_rhythm()
+    \times 8/9                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 123 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         ef'!8                                                                  %! akasha.scratch_rhythm()
@@ -949,7 +954,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.scratch_rhythm()
 
-    \times 8/9 {                                                               %! akasha.scratch_rhythm()
+    \times 8/9                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 124 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -973,7 +979,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 10/11 {                                                             %! akasha.scratch_rhythm()
+    \times 10/11                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 125 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -1001,7 +1008,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/7 {                                                               %! akasha.scratch_rhythm()
+    \times 6/7                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 126 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -1021,7 +1029,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/7 {                                                               %! akasha.scratch_rhythm()
+    \times 6/7                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 127 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -1044,7 +1053,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/13 {                                                             %! akasha.scratch_rhythm()
+    \times 12/13                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 128 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         a'8                                                                    %! akasha.scratch_rhythm()
@@ -1075,7 +1085,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.scratch_rhythm()
 
-    \times 8/9 {                                                               %! akasha.scratch_rhythm()
+    \times 8/9                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 129 / measure 17]                   %! baca.SegmentMaker._comment_measure_numbers()
         b'8                                                                    %! akasha.scratch_rhythm()
@@ -1099,7 +1110,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/13 {                                                             %! akasha.scratch_rhythm()
+    \times 12/13                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 130 / measure 18]                   %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -1131,7 +1143,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/13 {                                                             %! akasha.scratch_rhythm()
+    \times 12/13                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 131 / measure 19]                   %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -1163,7 +1176,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/13 {                                                             %! akasha.scratch_rhythm()
+    \times 12/13                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 132 / measure 20]                   %! baca.SegmentMaker._comment_measure_numbers()
         fs'!8                                                                  %! akasha.scratch_rhythm()
@@ -1194,7 +1208,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.scratch_rhythm()
 
-    \times 8/9 {                                                               %! akasha.scratch_rhythm()
+    \times 8/9                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 133 / measure 21]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf'!8                                                                  %! akasha.scratch_rhythm()
@@ -1218,7 +1233,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/7 {                                                               %! akasha.scratch_rhythm()
+    \times 6/7                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_I_Music_Voice measure 134 / measure 22]                   %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -1269,7 +1285,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     r4                                                                         %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1289,7 +1306,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1331,7 +1349,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     r4                                                                         %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1351,7 +1370,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 138 / measure 26]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -1393,7 +1413,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     r4                                                                         %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 139 / measure 27]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -1414,7 +1435,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1453,7 +1475,8 @@ f_Violin_I_Music_Voice = {                                                     %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 140 / measure 28]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -1477,7 +1500,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1497,7 +1521,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1539,7 +1564,8 @@ f_Violin_I_Music_Voice = {                                                     %
     % [06 Violin_I_Music_Voice measure 141 / measure 29]                       %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1559,7 +1585,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1598,7 +1625,8 @@ f_Violin_I_Music_Voice = {                                                     %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1621,7 +1649,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 142 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -1642,7 +1671,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1681,7 +1711,8 @@ f_Violin_I_Music_Voice = {                                                     %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1705,7 +1736,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 143 / measure 31]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -1732,7 +1764,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1784,7 +1817,8 @@ f_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/8 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/8                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1814,7 +1848,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 144 / measure 32]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -1841,7 +1876,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1893,7 +1929,8 @@ f_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/8 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/8                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -1925,7 +1962,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 145 / measure 33]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -1952,7 +1990,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2004,7 +2043,8 @@ f_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/8 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/8                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2033,7 +2073,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 146 / measure 34]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -2054,7 +2095,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2093,7 +2135,8 @@ f_Violin_I_Music_Voice = {                                                     %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2117,7 +2160,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 147 / measure 35]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -2144,7 +2188,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2196,7 +2241,8 @@ f_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/8 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/8                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2225,7 +2271,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_I_Music_Voice measure 148 / measure 36]                   %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -2246,7 +2293,8 @@ f_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2285,7 +2333,8 @@ f_Violin_I_Music_Voice = {                                                     %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2439,7 +2488,8 @@ f_Violin_II_Music_Voice = {                                                    %
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/4 {                                                               %! akasha.scratch_rhythm()
+    \times 6/4                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 115 / measure 3]                   %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -2481,7 +2531,8 @@ f_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/5 {                                                               %! akasha.scratch_rhythm()
+    \times 6/5                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 117 / measure 5]                   %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -2522,7 +2573,8 @@ f_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 5/6 {                                                               %! akasha.scratch_rhythm()
+    \times 5/6                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 119 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -2565,7 +2617,8 @@ f_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 3/3 {                                                               %! akasha.scratch_rhythm()
+    \times 3/3                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 121 / measure 9]                   %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -2577,7 +2630,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 3/3 {                                                               %! akasha.scratch_rhythm()
+    \times 3/3                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 122 / measure 10]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -2589,7 +2643,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 8/7 {                                                               %! akasha.scratch_rhythm()
+    \times 8/7                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 123 / measure 11]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -2612,7 +2667,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 8/7 {                                                               %! akasha.scratch_rhythm()
+    \times 8/7                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 124 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -2632,7 +2688,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 10/9 {                                                              %! akasha.scratch_rhythm()
+    \times 10/9                                                                %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 125 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -2656,7 +2713,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/5 {                                                               %! akasha.scratch_rhythm()
+    \times 6/5                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 126 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -2672,7 +2730,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/5 {                                                               %! akasha.scratch_rhythm()
+    \times 6/5                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 127 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         bf!8                                                                   %! akasha.scratch_rhythm()
@@ -2688,7 +2747,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/11 {                                                             %! akasha.scratch_rhythm()
+    \times 12/11                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 128 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -2716,7 +2776,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 8/7 {                                                               %! akasha.scratch_rhythm()
+    \times 8/7                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 129 / measure 17]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -2736,7 +2797,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/11 {                                                             %! akasha.scratch_rhythm()
+    \times 12/11                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 130 / measure 18]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -2764,7 +2826,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/11 {                                                             %! akasha.scratch_rhythm()
+    \times 12/11                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 131 / measure 19]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -2797,7 +2860,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/11 {                                                             %! akasha.scratch_rhythm()
+    \times 12/11                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Violin_II_Music_Voice measure 132 / measure 20]                  %! baca.SegmentMaker._comment_measure_numbers()
         b8                                                                     %! akasha.scratch_rhythm()
@@ -2830,7 +2894,8 @@ f_Violin_II_Music_Voice = {                                                    %
     % [06 Violin_II_Music_Voice measure 133 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2880,7 +2945,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2903,7 +2969,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2939,7 +3006,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2962,7 +3030,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -2997,7 +3066,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 137 / measure 25]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -3021,7 +3091,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3041,7 +3112,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3081,7 +3153,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3104,7 +3177,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3140,7 +3214,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3163,7 +3238,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 140 / measure 28]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -3184,7 +3260,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3223,7 +3300,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3246,7 +3324,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 141 / measure 29]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -3267,7 +3346,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3306,7 +3386,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3329,7 +3410,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3349,7 +3431,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 142 / measure 30]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -3389,7 +3472,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3412,7 +3496,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3432,7 +3517,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 143 / measure 31]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -3485,7 +3571,8 @@ f_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/8 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/8                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3515,7 +3602,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3541,7 +3629,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 144 / measure 32]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -3594,7 +3683,8 @@ f_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/8 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/8                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3624,7 +3714,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3672,7 +3763,8 @@ f_Violin_II_Music_Voice = {                                                    %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 12/15 {                                                             %! akasha.dense_getato_rhythm()
+    \times 12/15                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3723,7 +3815,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/11 {                                                              %! akasha.dense_getato_rhythm()
+    \times 6/11                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3761,7 +3854,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/12 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/12                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 146 / measure 34]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -3803,7 +3897,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/14 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/14                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3850,7 +3945,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 147 / measure 35]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -3884,7 +3980,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 12/17 {                                                             %! akasha.dense_getato_rhythm()
+    \times 12/17                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3941,7 +4038,8 @@ f_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/10 {                                                              %! akasha.dense_getato_rhythm()
+    \times 6/10                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -3976,7 +4074,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/14 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/14                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Violin_II_Music_Voice measure 148 / measure 36]                  %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -4024,7 +4123,8 @@ f_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/11 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/11                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -4834,7 +4934,8 @@ f_Cello_Music_Voice = {                                                        %
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/5 {                                                               %! akasha.scratch_rhythm()
+    \times 6/5                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 115 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -4886,7 +4987,8 @@ f_Cello_Music_Voice = {                                                        %
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 5/4 {                                                               %! akasha.scratch_rhythm()
+    \times 5/4                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 119 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -4925,7 +5027,8 @@ f_Cello_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 3/5 {                                                               %! akasha.scratch_rhythm()
+    \times 3/5                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 121 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -4944,7 +5047,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 3/5 {                                                               %! akasha.scratch_rhythm()
+    \times 3/5                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 122 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -4959,7 +5063,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.scratch_rhythm()
 
-    \times 8/10 {                                                              %! akasha.scratch_rhythm()
+    \times 8/10                                                                %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 123 / measure 11]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -4984,7 +5089,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.scratch_rhythm()
 
-    \times 8/10 {                                                              %! akasha.scratch_rhythm()
+    \times 8/10                                                                %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 124 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -5010,7 +5116,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 10/12 {                                                             %! akasha.scratch_rhythm()
+    \times 10/12                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 125 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
         c8                                                                     %! akasha.scratch_rhythm()
@@ -5040,7 +5147,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/8 {                                                               %! akasha.scratch_rhythm()
+    \times 6/8                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 126 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
         c8                                                                     %! akasha.scratch_rhythm()
@@ -5062,7 +5170,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/8 {                                                               %! akasha.scratch_rhythm()
+    \times 6/8                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 127 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -5089,7 +5198,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/14 {                                                             %! akasha.scratch_rhythm()
+    \times 12/14                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 128 / measure 16]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -5125,7 +5235,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.scratch_rhythm()
 
-    \times 8/10 {                                                              %! akasha.scratch_rhythm()
+    \times 8/10                                                                %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 129 / measure 17]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -5153,7 +5264,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 12/14 {                                                             %! akasha.scratch_rhythm()
+    \times 12/14                                                               %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [06 Cello_Music_Voice measure 130 / measure 18]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.scratch_rhythm()
@@ -5224,7 +5336,8 @@ f_Cello_Music_Voice = {                                                        %
     r4.                                                                        %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5250,7 +5363,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 133 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5292,7 +5406,8 @@ f_Cello_Music_Voice = {                                                        %
 
     r4                                                                         %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5312,7 +5427,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 134 / measure 22]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5354,7 +5470,8 @@ f_Cello_Music_Voice = {                                                        %
 
     r4                                                                         %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 135 / measure 23]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5379,7 +5496,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5418,7 +5536,8 @@ f_Cello_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5441,7 +5560,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 136 / measure 24]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5462,7 +5582,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5503,7 +5624,8 @@ f_Cello_Music_Voice = {                                                        %
 
     r4                                                                         %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5523,7 +5645,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 137 / measure 25]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5563,7 +5686,8 @@ f_Cello_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5586,7 +5710,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 138 / measure 26]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5607,7 +5732,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5667,7 +5793,8 @@ f_Cello_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 8/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5699,7 +5826,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 140 / measure 28]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5726,7 +5854,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/10 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/10                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5761,7 +5890,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/12 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/12                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5803,7 +5933,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/5                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5823,7 +5954,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/11 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/11                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5861,7 +5993,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5884,7 +6017,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/12 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/12                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 142 / measure 30]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5926,7 +6060,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 8/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -5958,7 +6093,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 143 / measure 31]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -5992,7 +6128,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 12/14 {                                                             %! akasha.dense_getato_rhythm()
+    \times 12/14                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6040,7 +6177,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/10 {                                                              %! akasha.dense_getato_rhythm()
+    \times 6/10                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6076,7 +6214,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 12/13 {                                                             %! akasha.dense_getato_rhythm()
+    \times 12/13                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 144 / measure 32]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -6121,7 +6260,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 12/15 {                                                             %! akasha.dense_getato_rhythm()
+    \times 12/15                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6173,7 +6313,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 12/18 {                                                             %! akasha.dense_getato_rhythm()
+    \times 12/18                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 145 / measure 33]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -6233,7 +6374,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 6/9 {                                                               %! akasha.dense_getato_rhythm()
+    \times 6/9                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6265,7 +6407,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 10/15 {                                                             %! akasha.dense_getato_rhythm()
+    \times 10/15                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6316,7 +6459,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/12 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/12                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6357,7 +6501,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/6 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/6                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6380,7 +6525,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 12/15 {                                                             %! akasha.dense_getato_rhythm()
+    \times 12/15                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         % [06 Cello_Music_Voice measure 147 / measure 35]                      %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! akasha.dense_getato_rhythm()
@@ -6432,7 +6578,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 6/11 {                                                              %! akasha.dense_getato_rhythm()
+    \times 6/11                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6471,7 +6618,8 @@ f_Cello_Music_Voice = {                                                        %
     }                                                                          %! akasha.dense_getato_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.dense_getato_rhythm()
-    \times 10/14 {                                                             %! akasha.dense_getato_rhythm()
+    \times 10/14                                                               %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6518,7 +6666,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 8/14 {                                                              %! akasha.dense_getato_rhythm()
+    \times 8/14                                                                %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 
@@ -6565,7 +6714,8 @@ f_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.dense_getato_rhythm()
 
-    \times 4/7 {                                                               %! akasha.dense_getato_rhythm()
+    \times 4/7                                                                 %! akasha.dense_getato_rhythm()
+    {                                                                          %! akasha.dense_getato_rhythm()
 
         r16                                                                    %! akasha.dense_getato_rhythm()
 

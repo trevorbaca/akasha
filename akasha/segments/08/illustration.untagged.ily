@@ -222,7 +222,8 @@ h_Global_Skips = {
 
 h_Violin_I_Music_Voice = {
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [08 Violin_I_Music_Voice measure 200 / measure 1]
         \set Staff.shortInstrumentName = \akasha-vn-i-markup
@@ -282,7 +283,8 @@ h_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    \times 6/10
+    {
 
         r16
 
@@ -308,7 +310,8 @@ h_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [08 Violin_I_Music_Voice measure 201 / measure 2]
         r16
@@ -327,7 +330,8 @@ h_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -360,7 +364,8 @@ h_Violin_I_Music_Voice = {
     c''''16
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    \times 6/10
+    {
 
         % [08 Violin_I_Music_Voice measure 202 / measure 3]
         r16
@@ -387,7 +392,8 @@ h_Violin_I_Music_Voice = {
 
     }
 
-    \times 12/18 {
+    \times 12/18
+    {
 
         % [08 Violin_I_Music_Voice measure 203 / measure 4]
         r16

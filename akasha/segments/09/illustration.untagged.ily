@@ -154,7 +154,8 @@ i_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [09 Violin_I_Music_Voice measure 217 / measure 1]
         \set Staff.shortInstrumentName = \akasha-vn-i-markup
@@ -230,7 +231,8 @@ i_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [09 Violin_I_Music_Voice measure 218 / measure 2]
         \once \override Beam.grow-direction = #left
@@ -371,7 +373,8 @@ i_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [09 Violin_II_Music_Voice measure 217 / measure 1]
         \set Staff.shortInstrumentName = \akasha-vn-ii-markup
@@ -448,7 +451,8 @@ i_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [09 Violin_II_Music_Voice measure 218 / measure 2]
         \once \override Beam.grow-direction = #right
@@ -617,7 +621,8 @@ i_Viola_Music_Voice = {
 
     >>
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [09 Viola_Music_Voice measure 221 / measure 5]
         \stopStaff
@@ -737,7 +742,8 @@ i_Cello_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [09 Cello_Music_Voice measure 217 / measure 1]
         \set Staff.shortInstrumentName = \akasha-vc-markup
@@ -821,7 +827,8 @@ i_Cello_Music_Voice = {
 
     >>
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [09 Cello_Music_Voice measure 221 / measure 5]
         cs,!1..

@@ -1044,7 +1044,8 @@ d_Violin_II_Music_Staff = {
 
 d_Viola_Music_Voice = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [04 Viola_Music_Voice measure 35 / measure 1]
         \set Staff.shortInstrumentName = \akasha-va-markup
@@ -1093,7 +1094,8 @@ d_Viola_Music_Voice = {
 
     >>
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [04 Viola_Music_Voice measure 37 / measure 3]
         ds!1
@@ -1125,7 +1127,8 @@ d_Viola_Music_Voice = {
 
     >>
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [04 Viola_Music_Voice measure 39 / measure 5]
         ds!\breve
@@ -1157,7 +1160,8 @@ d_Viola_Music_Voice = {
 
     >>
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [04 Viola_Music_Voice measure 41 / measure 7]
         ds!\breve
@@ -1343,7 +1347,8 @@ d_Viola_Music_Voice = {
     \glissando
     <> \bacaStopTextSpanRhythmAnnotation
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [04 Viola_Music_Voice measure 60 / measure 26]
         ds!\breve
@@ -1621,7 +1626,8 @@ d_Cello_Music_Voice = {
     % [04 Cello_Music_Voice measure 48 / measure 14]
     R1 * 1/4
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [04 Cello_Music_Voice measure 49 / measure 15]
         cs!32
@@ -1639,7 +1645,8 @@ d_Cello_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r32
 

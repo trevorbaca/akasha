@@ -518,7 +518,8 @@ f_Violin_I_Music_Voice = {
     R1 * 1/4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/4
+    {
 
         % [06 Violin_I_Music_Voice measure 117 / measure 5]
         f'4
@@ -557,7 +558,8 @@ f_Violin_I_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/3 {
+    \times 5/3
+    {
 
         % [06 Violin_I_Music_Voice measure 119 / measure 7]
         fs'!4
@@ -591,7 +593,8 @@ f_Violin_I_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [06 Violin_I_Music_Voice measure 121 / measure 9]
         r4
@@ -605,7 +608,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [06 Violin_I_Music_Voice measure 122 / measure 10]
         r4
@@ -618,7 +622,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [06 Violin_I_Music_Voice measure 123 / measure 11]
         ef'!8
@@ -641,7 +646,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [06 Violin_I_Music_Voice measure 124 / measure 12]
         r8
@@ -665,7 +671,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/11 {
+    \times 10/11
+    {
 
         % [06 Violin_I_Music_Voice measure 125 / measure 13]
         r8
@@ -693,7 +700,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 126 / measure 14]
         r8
@@ -713,7 +721,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 127 / measure 15]
         r8
@@ -736,7 +745,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/13 {
+    \times 12/13
+    {
 
         % [06 Violin_I_Music_Voice measure 128 / measure 16]
         a'8
@@ -767,7 +777,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [06 Violin_I_Music_Voice measure 129 / measure 17]
         b'8
@@ -791,7 +802,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/13 {
+    \times 12/13
+    {
 
         % [06 Violin_I_Music_Voice measure 130 / measure 18]
         r8
@@ -823,7 +835,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/13 {
+    \times 12/13
+    {
 
         % [06 Violin_I_Music_Voice measure 131 / measure 19]
         r8
@@ -855,7 +868,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/13 {
+    \times 12/13
+    {
 
         % [06 Violin_I_Music_Voice measure 132 / measure 20]
         fs'!8
@@ -886,7 +900,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [06 Violin_I_Music_Voice measure 133 / measure 21]
         bf'!8
@@ -910,7 +925,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 134 / measure 22]
         r8
@@ -961,7 +977,8 @@ f_Violin_I_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -981,7 +998,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -1023,7 +1041,8 @@ f_Violin_I_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -1043,7 +1062,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [06 Violin_I_Music_Voice measure 138 / measure 26]
         r16
@@ -1085,7 +1105,8 @@ f_Violin_I_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Violin_I_Music_Voice measure 139 / measure 27]
         r16
@@ -1106,7 +1127,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -1145,7 +1167,8 @@ f_Violin_I_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [06 Violin_I_Music_Voice measure 140 / measure 28]
         r16
@@ -1169,7 +1192,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -1189,7 +1213,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -1231,7 +1256,8 @@ f_Violin_I_Music_Voice = {
     % [06 Violin_I_Music_Voice measure 141 / measure 29]
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -1251,7 +1277,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -1290,7 +1317,8 @@ f_Violin_I_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -1313,7 +1341,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Violin_I_Music_Voice measure 142 / measure 30]
         r16
@@ -1334,7 +1363,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -1373,7 +1403,8 @@ f_Violin_I_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -1397,7 +1428,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 143 / measure 31]
         r16
@@ -1424,7 +1456,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         r16
 
@@ -1476,7 +1509,8 @@ f_Violin_I_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         r16
 
@@ -1506,7 +1540,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 144 / measure 32]
         r16
@@ -1533,7 +1568,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         r16
 
@@ -1585,7 +1621,8 @@ f_Violin_I_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         r16
 
@@ -1617,7 +1654,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 145 / measure 33]
         r16
@@ -1644,7 +1682,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         r16
 
@@ -1696,7 +1735,8 @@ f_Violin_I_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         r16
 
@@ -1725,7 +1765,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Violin_I_Music_Voice measure 146 / measure 34]
         r16
@@ -1746,7 +1787,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -1785,7 +1827,8 @@ f_Violin_I_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -1809,7 +1852,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 147 / measure 35]
         r16
@@ -1836,7 +1880,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         r16
 
@@ -1888,7 +1933,8 @@ f_Violin_I_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         r16
 
@@ -1917,7 +1963,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Violin_I_Music_Voice measure 148 / measure 36]
         r16
@@ -1938,7 +1985,8 @@ f_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -1977,7 +2025,8 @@ f_Violin_I_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -2120,7 +2169,8 @@ f_Violin_II_Music_Voice = {
     R1 * 1/4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/4
+    {
 
         % [06 Violin_II_Music_Voice measure 115 / measure 3]
         r4
@@ -2159,7 +2209,8 @@ f_Violin_II_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [06 Violin_II_Music_Voice measure 117 / measure 5]
         r4
@@ -2197,7 +2248,8 @@ f_Violin_II_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [06 Violin_II_Music_Voice measure 119 / measure 7]
         r4
@@ -2237,7 +2289,8 @@ f_Violin_II_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/3 {
+    \times 3/3
+    {
 
         % [06 Violin_II_Music_Voice measure 121 / measure 9]
         r4
@@ -2249,7 +2302,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/3 {
+    \times 3/3
+    {
 
         % [06 Violin_II_Music_Voice measure 122 / measure 10]
         r4
@@ -2261,7 +2315,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [06 Violin_II_Music_Voice measure 123 / measure 11]
         r8
@@ -2284,7 +2339,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [06 Violin_II_Music_Voice measure 124 / measure 12]
         r8
@@ -2304,7 +2360,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/9 {
+    \times 10/9
+    {
 
         % [06 Violin_II_Music_Voice measure 125 / measure 13]
         r8
@@ -2328,7 +2385,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [06 Violin_II_Music_Voice measure 126 / measure 14]
         r8
@@ -2344,7 +2402,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [06 Violin_II_Music_Voice measure 127 / measure 15]
         bf!8
@@ -2360,7 +2419,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/11 {
+    \times 12/11
+    {
 
         % [06 Violin_II_Music_Voice measure 128 / measure 16]
         r8
@@ -2388,7 +2448,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [06 Violin_II_Music_Voice measure 129 / measure 17]
         r8
@@ -2408,7 +2469,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/11 {
+    \times 12/11
+    {
 
         % [06 Violin_II_Music_Voice measure 130 / measure 18]
         r8
@@ -2436,7 +2498,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/11 {
+    \times 12/11
+    {
 
         % [06 Violin_II_Music_Voice measure 131 / measure 19]
         r8
@@ -2469,7 +2532,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/11 {
+    \times 12/11
+    {
 
         % [06 Violin_II_Music_Voice measure 132 / measure 20]
         b8
@@ -2502,7 +2566,8 @@ f_Violin_II_Music_Voice = {
     % [06 Violin_II_Music_Voice measure 133 / measure 21]
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2552,7 +2617,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -2575,7 +2641,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2611,7 +2678,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -2634,7 +2702,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2669,7 +2738,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [06 Violin_II_Music_Voice measure 137 / measure 25]
         r16
@@ -2693,7 +2763,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2713,7 +2784,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -2753,7 +2825,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -2776,7 +2849,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2812,7 +2886,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -2835,7 +2910,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Violin_II_Music_Voice measure 140 / measure 28]
         r16
@@ -2856,7 +2932,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -2895,7 +2972,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -2918,7 +2996,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Violin_II_Music_Voice measure 141 / measure 29]
         r16
@@ -2939,7 +3018,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -2978,7 +3058,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -3001,7 +3082,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3021,7 +3103,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [06 Violin_II_Music_Voice measure 142 / measure 30]
         r16
@@ -3061,7 +3144,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -3084,7 +3168,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3104,7 +3189,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         % [06 Violin_II_Music_Voice measure 143 / measure 31]
         r16
@@ -3157,7 +3243,8 @@ f_Violin_II_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         r16
 
@@ -3187,7 +3274,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         r16
 
@@ -3213,7 +3301,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         % [06 Violin_II_Music_Voice measure 144 / measure 32]
         r16
@@ -3266,7 +3355,8 @@ f_Violin_II_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         r16
 
@@ -3296,7 +3386,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         r16
 
@@ -3344,7 +3435,8 @@ f_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 12/15 {
+    \times 12/15
+    {
 
         r16
 
@@ -3395,7 +3487,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/11 {
+    \times 6/11
+    {
 
         r16
 
@@ -3433,7 +3526,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [06 Violin_II_Music_Voice measure 146 / measure 34]
         r16
@@ -3475,7 +3569,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -3522,7 +3617,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         % [06 Violin_II_Music_Voice measure 147 / measure 35]
         r16
@@ -3556,7 +3652,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/17 {
+    \times 12/17
+    {
 
         r16
 
@@ -3613,7 +3710,8 @@ f_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    \times 6/10
+    {
 
         r16
 
@@ -3648,7 +3746,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [06 Violin_II_Music_Voice measure 148 / measure 36]
         r16
@@ -3696,7 +3795,8 @@ f_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -4476,7 +4576,8 @@ f_Cello_Music_Voice = {
     R1 * 1/4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [06 Cello_Music_Voice measure 115 / measure 3]
         r4
@@ -4523,7 +4624,8 @@ f_Cello_Music_Voice = {
     R1 * 1/4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [06 Cello_Music_Voice measure 119 / measure 7]
         r4
@@ -4559,7 +4661,8 @@ f_Cello_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [06 Cello_Music_Voice measure 121 / measure 9]
         r4
@@ -4578,7 +4681,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [06 Cello_Music_Voice measure 122 / measure 10]
         r4
@@ -4593,7 +4697,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [06 Cello_Music_Voice measure 123 / measure 11]
         r8
@@ -4618,7 +4723,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [06 Cello_Music_Voice measure 124 / measure 12]
         r8
@@ -4644,7 +4750,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/12 {
+    \times 10/12
+    {
 
         % [06 Cello_Music_Voice measure 125 / measure 13]
         c8
@@ -4674,7 +4781,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [06 Cello_Music_Voice measure 126 / measure 14]
         c8
@@ -4696,7 +4804,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [06 Cello_Music_Voice measure 127 / measure 15]
         r8
@@ -4723,7 +4832,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/14 {
+    \times 12/14
+    {
 
         % [06 Cello_Music_Voice measure 128 / measure 16]
         r8
@@ -4759,7 +4869,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [06 Cello_Music_Voice measure 129 / measure 17]
         r8
@@ -4787,7 +4898,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/14 {
+    \times 12/14
+    {
 
         % [06 Cello_Music_Voice measure 130 / measure 18]
         r8
@@ -4858,7 +4970,8 @@ f_Cello_Music_Voice = {
     r4.
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         r16
 
@@ -4884,7 +4997,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [06 Cello_Music_Voice measure 133 / measure 21]
         r16
@@ -4926,7 +5040,8 @@ f_Cello_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -4946,7 +5061,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [06 Cello_Music_Voice measure 134 / measure 22]
         r16
@@ -4988,7 +5104,8 @@ f_Cello_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Cello_Music_Voice measure 135 / measure 23]
         r16
@@ -5013,7 +5130,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -5052,7 +5170,8 @@ f_Cello_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -5075,7 +5194,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Cello_Music_Voice measure 136 / measure 24]
         r16
@@ -5096,7 +5216,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -5137,7 +5258,8 @@ f_Cello_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -5157,7 +5279,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [06 Cello_Music_Voice measure 137 / measure 25]
         r16
@@ -5197,7 +5320,8 @@ f_Cello_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -5220,7 +5344,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [06 Cello_Music_Voice measure 138 / measure 26]
         r16
@@ -5241,7 +5366,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -5300,7 +5426,8 @@ f_Cello_Music_Voice = {
     - \staccato
     ]
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r16
 
@@ -5332,7 +5459,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [06 Cello_Music_Voice measure 140 / measure 28]
         r16
@@ -5359,7 +5487,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/10 {
+    \times 8/10
+    {
 
         r16
 
@@ -5394,7 +5523,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -5436,7 +5566,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -5456,7 +5587,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -5494,7 +5626,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -5517,7 +5650,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [06 Cello_Music_Voice measure 142 / measure 30]
         r16
@@ -5559,7 +5693,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r16
 
@@ -5591,7 +5726,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         % [06 Cello_Music_Voice measure 143 / measure 31]
         r16
@@ -5625,7 +5761,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/14 {
+    \times 12/14
+    {
 
         r16
 
@@ -5673,7 +5810,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    \times 6/10
+    {
 
         r16
 
@@ -5709,7 +5847,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/13 {
+    \times 12/13
+    {
 
         % [06 Cello_Music_Voice measure 144 / measure 32]
         r16
@@ -5754,7 +5893,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 12/15 {
+    \times 12/15
+    {
 
         r16
 
@@ -5806,7 +5946,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 12/18 {
+    \times 12/18
+    {
 
         % [06 Cello_Music_Voice measure 145 / measure 33]
         r16
@@ -5866,7 +6007,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         r16
 
@@ -5898,7 +6040,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 10/15 {
+    \times 10/15
+    {
 
         r16
 
@@ -5949,7 +6092,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -5990,7 +6134,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -6013,7 +6158,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 12/15 {
+    \times 12/15
+    {
 
         % [06 Cello_Music_Voice measure 147 / measure 35]
         r16
@@ -6065,7 +6211,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/11 {
+    \times 6/11
+    {
 
         r16
 
@@ -6104,7 +6251,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/14 {
+    \times 10/14
+    {
 
         r16
 
@@ -6151,7 +6299,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -6198,7 +6347,8 @@ f_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 

@@ -274,7 +274,8 @@ c_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.accelerando_rhythm()
+    \times 1/1                                                                 %! akasha.accelerando_rhythm()
+    {                                                                          %! akasha.accelerando_rhythm()
 
         % [03 Violin_I_Music_Voice measure 24 / measure 1]                     %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \akasha-vn-i-markup                   %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -542,7 +543,8 @@ c_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! akasha.accelerando_rhythm()
+    \times 1/1                                                                 %! akasha.accelerando_rhythm()
+    {                                                                          %! akasha.accelerando_rhythm()
 
         % [03 Violin_II_Music_Voice measure 33 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -800,7 +802,8 @@ c_Cello_Music_Voice = {                                                        %
 
     r4.                                                                        %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         % [03 Cello_Music_Voice measure 25 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
         r16.                                                                   %! akasha.sparse_getato_rhythm()
@@ -834,7 +837,8 @@ c_Cello_Music_Voice = {                                                        %
     bf!32                                                                      %! akasha.sparse_getato_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
-    \times 4/5 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 4/5                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         b32                                                                    %! akasha.sparse_getato_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
@@ -861,7 +865,8 @@ c_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         % [03 Cello_Music_Voice measure 27 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! akasha.sparse_getato_rhythm()
@@ -884,7 +889,8 @@ c_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         r16.                                                                   %! akasha.sparse_getato_rhythm()
 
@@ -930,7 +936,8 @@ c_Cello_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 4/5 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 4/5                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         g32                                                                    %! akasha.sparse_getato_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
@@ -981,7 +988,8 @@ c_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         % [03 Cello_Music_Voice measure 29 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
         fs!32                                                                  %! akasha.sparse_getato_rhythm()
@@ -1005,7 +1013,8 @@ c_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.sparse_getato_rhythm()
 
-    \times 4/5 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 4/5                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         e32                                                                    %! akasha.sparse_getato_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
@@ -1050,7 +1059,8 @@ c_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         % [03 Cello_Music_Voice measure 31 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
         d32                                                                    %! akasha.sparse_getato_rhythm()
@@ -1074,7 +1084,8 @@ c_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         r4                                                                     %! akasha.sparse_getato_rhythm()
 
