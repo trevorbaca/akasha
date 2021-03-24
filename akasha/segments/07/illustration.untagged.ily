@@ -635,7 +635,8 @@ g_Violin_I_Music_Voice = {
     % [07 Violin_I_Music_Voice measure 153 / measure 2]
     R1 * 1
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [07 Violin_I_Music_Voice measure 154 / measure 3]
         r16
@@ -675,7 +676,8 @@ g_Violin_I_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -698,7 +700,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -718,7 +721,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -758,7 +762,8 @@ g_Violin_I_Music_Voice = {
     - \staccato
     ]
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -781,7 +786,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -865,7 +871,8 @@ g_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [07 Violin_I_Music_Voice measure 159 / measure 8]
         \once \override Beam.grow-direction = #right
@@ -921,7 +928,8 @@ g_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [07 Violin_I_Music_Voice measure 160 / measure 9]
         \once \override Beam.grow-direction = #left
@@ -973,7 +981,8 @@ g_Violin_I_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         ef''4
         - \tweak color #(x11-color 'blue)
@@ -984,7 +993,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r8.
 
@@ -1001,7 +1011,8 @@ g_Violin_I_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f''16
         \repeatTie
@@ -1011,7 +1022,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [07 Violin_I_Music_Voice measure 163 / measure 12]
         ef''8.
@@ -1026,7 +1038,8 @@ g_Violin_I_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -1039,7 +1052,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f''4
 
@@ -1086,7 +1100,8 @@ g_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [07 Violin_I_Music_Voice measure 164 / measure 13]
         \once \override Beam.grow-direction = #right
@@ -1126,7 +1141,8 @@ g_Violin_I_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fs''4
         - \tweak color #(x11-color 'blue)
@@ -1137,7 +1153,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r8.
 
@@ -1154,7 +1171,8 @@ g_Violin_I_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [07 Violin_I_Music_Voice measure 166 / measure 15]
         ef''16
@@ -1165,7 +1183,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fs''8.
         - \tweak color #(x11-color 'blue)
@@ -1179,7 +1198,8 @@ g_Violin_I_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [07 Violin_I_Music_Voice measure 167 / measure 16]
         r16
@@ -1193,7 +1213,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         ef''4
 
@@ -1242,7 +1263,8 @@ g_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
@@ -1296,7 +1318,8 @@ g_Violin_I_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fs''4
         - \tweak color #(x11-color 'blue)
@@ -1307,7 +1330,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r8.
 
@@ -1325,7 +1349,8 @@ g_Violin_I_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         e''16
         \repeatTie
@@ -1335,7 +1360,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''8.
         [
@@ -1383,7 +1409,8 @@ g_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [07 Violin_I_Music_Voice measure 171 / measure 20]
         \once \override Beam.grow-direction = #right
@@ -1560,7 +1587,8 @@ g_Violin_I_Music_Voice = {
 
     >>
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [07 Violin_I_Music_Voice measure 187 / measure 36]
         r16
@@ -1613,7 +1641,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -1655,7 +1684,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -1678,7 +1708,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -1716,7 +1747,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -1739,7 +1771,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -1781,7 +1814,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -1828,7 +1862,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -1854,7 +1889,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [07 Violin_I_Music_Voice measure 191 / measure 40]
         r16
@@ -1915,7 +1951,8 @@ g_Violin_I_Music_Voice = {
     - \staccato
     ]
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -1962,7 +1999,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         % [07 Violin_I_Music_Voice measure 192 / measure 41]
         r16
@@ -2001,7 +2039,8 @@ g_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -2067,7 +2106,8 @@ g_Violin_I_Music_Voice = {
     % [07 Violin_I_Music_Voice measure 195 / measure 44]
     R1 * 1/4
 
-    \times 12/18 {
+    \times 12/18
+    {
 
         % [07 Violin_I_Music_Voice measure 196 / measure 45]
         r16
@@ -2131,7 +2171,8 @@ g_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/16 {
+    \times 12/16
+    {
 
         r16
 
@@ -2293,7 +2334,8 @@ g_Violin_II_Music_Voice = {
     % [07 Violin_II_Music_Voice measure 153 / measure 2]
     R1 * 1
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [07 Violin_II_Music_Voice measure 154 / measure 3]
         r16
@@ -2317,7 +2359,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -2355,7 +2398,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2375,7 +2419,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -2417,7 +2462,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -2528,7 +2574,8 @@ g_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [07 Violin_II_Music_Voice measure 159 / measure 8]
         \once \override Beam.grow-direction = #left
@@ -2586,7 +2633,8 @@ g_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [07 Violin_II_Music_Voice measure 160 / measure 9]
         \once \override Beam.grow-direction = #right
@@ -2702,7 +2750,8 @@ g_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
@@ -2837,7 +2886,8 @@ g_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [07 Violin_II_Music_Voice measure 167 / measure 16]
         \once \override Beam.grow-direction = #right
@@ -2962,7 +3012,8 @@ g_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
@@ -3138,7 +3189,8 @@ g_Violin_II_Music_Voice = {
 
     >>
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [07 Violin_II_Music_Voice measure 187 / measure 36]
         r16
@@ -3185,7 +3237,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -3208,7 +3261,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         % [07 Violin_II_Music_Voice measure 188 / measure 37]
         r16
@@ -3247,7 +3301,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -3270,7 +3325,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [07 Violin_II_Music_Voice measure 189 / measure 38]
         r16
@@ -3312,7 +3368,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -3360,7 +3417,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -3386,7 +3444,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -3447,7 +3506,8 @@ g_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -3494,7 +3554,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -3532,7 +3593,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [07 Violin_II_Music_Voice measure 192 / measure 41]
         r16
@@ -3556,7 +3618,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -3597,7 +3660,8 @@ g_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -3651,7 +3715,8 @@ g_Violin_II_Music_Voice = {
     R1 * 1/4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/16 {
+    \times 12/16
+    {
 
         % [07 Violin_II_Music_Voice measure 196 / measure 45]
         r16
@@ -3727,7 +3792,8 @@ g_Violin_II_Music_Voice = {
     - \staccato
     ]
 
-    \times 6/9 {
+    \times 6/9
+    {
 
         r16
 
@@ -4178,7 +4244,8 @@ g_Viola_Music_Voice = {
 
     >>
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         % [07 Viola_Music_Voice measure 187 / measure 36]
     %%% \once \override Staff.Clef.X-extent = ##f
@@ -4228,7 +4295,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -4251,7 +4319,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [07 Viola_Music_Voice measure 188 / measure 37]
         r16
@@ -4293,7 +4362,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -4341,7 +4411,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -4367,7 +4438,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -4428,7 +4500,8 @@ g_Viola_Music_Voice = {
     - \staccato
     ]
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -4475,7 +4548,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         % [07 Viola_Music_Voice measure 191 / measure 40]
         r16
@@ -4514,7 +4588,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -4537,7 +4612,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -4578,7 +4654,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [07 Viola_Music_Voice measure 192 / measure 41]
         r16
@@ -4602,7 +4679,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -4640,7 +4718,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -4727,7 +4806,8 @@ g_Viola_Music_Voice = {
 
     >>
 
-    \times 12/15 {
+    \times 12/15
+    {
 
         % [07 Viola_Music_Voice measure 196 / measure 45]
         \stopStaff
@@ -4805,7 +4885,8 @@ g_Viola_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    \times 6/10
+    {
 
         r16
 
@@ -4979,7 +5060,8 @@ g_Cello_Music_Voice = {
 
     c16
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [07 Cello_Music_Voice measure 154 / measure 3]
         r16
@@ -5030,7 +5112,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -5056,7 +5139,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/13 {
+    \times 8/13
+    {
 
         r16
 
@@ -5100,7 +5184,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [07 Cello_Music_Voice measure 155 / measure 4]
         r16
@@ -5142,7 +5227,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -5442,7 +5528,8 @@ g_Cello_Music_Voice = {
 
     >>
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [07 Cello_Music_Voice measure 187 / measure 36]
     %%% \once \override Staff.Clef.X-extent = ##f
@@ -5477,7 +5564,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -5515,7 +5603,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [07 Cello_Music_Voice measure 188 / measure 37]
         r16
@@ -5539,7 +5628,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -5580,7 +5670,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [07 Cello_Music_Voice measure 189 / measure 38]
         r16
@@ -5628,7 +5719,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         r16
 
@@ -5654,7 +5746,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [07 Cello_Music_Voice measure 190 / measure 39]
         r16
@@ -5715,7 +5808,8 @@ g_Cello_Music_Voice = {
     - \staccato
     ]
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         r16
 
@@ -5763,7 +5857,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -5801,7 +5896,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -5824,7 +5920,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -5866,7 +5963,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -5889,7 +5987,8 @@ g_Cello_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -5980,7 +6079,8 @@ g_Cello_Music_Voice = {
     - \staccato
     ]
 
-    \times 12/15 {
+    \times 12/15
+    {
 
         r16
 

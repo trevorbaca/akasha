@@ -145,7 +145,8 @@ k_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/4 {                                                               %! akasha.scratch_rhythm()
+    \times 6/4                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [11 Violin_I_Music_Voice measure 262 / measure 2]                    %! baca.SegmentMaker._comment_measure_numbers()
         f'4                                                                    %! akasha.scratch_rhythm()
@@ -159,7 +160,8 @@ k_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/4 {                                                               %! akasha.scratch_rhythm()
+    \times 6/4                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [11 Violin_I_Music_Voice measure 263 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
         fs'!4                                                                  %! akasha.scratch_rhythm()
@@ -240,7 +242,8 @@ k_Violin_I_Music_Staff = {                                                     %
 k_Violin_II_Music_Voice = {                                                    %! ide.Path.extern()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 4/4 {                                                               %! akasha.scratch_rhythm()
+    \times 4/4                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [11 Violin_II_Music_Voice measure 261 / measure 1]                   %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \akasha-vn-ii-markup                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -275,7 +278,8 @@ k_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/5 {                                                               %! akasha.scratch_rhythm()
+    \times 6/5                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [11 Violin_II_Music_Voice measure 262 / measure 2]                   %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -291,7 +295,8 @@ k_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! akasha.scratch_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/7 {                                                               %! akasha.scratch_rhythm()
+    \times 6/7                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [11 Violin_II_Music_Voice measure 263 / measure 3]                   %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()
@@ -454,7 +459,8 @@ k_Viola_Music_Staff = {                                                        %
 k_Cello_Music_Voice = {                                                        %! ide.Path.extern()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 4/3 {                                                               %! akasha.scratch_rhythm()
+    \times 4/3                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [11 Cello_Music_Voice measure 261 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \akasha-vc-markup                     %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -513,7 +519,8 @@ k_Cello_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! akasha.scratch_rhythm()
-    \times 6/5 {                                                               %! akasha.scratch_rhythm()
+    \times 6/5                                                                 %! akasha.scratch_rhythm()
+    {                                                                          %! akasha.scratch_rhythm()
 
         % [11 Cello_Music_Voice measure 263 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! akasha.scratch_rhythm()

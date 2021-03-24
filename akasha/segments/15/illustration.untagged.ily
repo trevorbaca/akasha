@@ -536,7 +536,8 @@ o_Violin_II_Music_Voice = {
     % [15 Violin_II_Music_Voice measure 378 / measure 10]
     r4
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r8
 
@@ -591,7 +592,8 @@ o_Violin_II_Music_Voice = {
     % [15 Violin_II_Music_Voice measure 387 / measure 19]
     r4
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r8
 
@@ -604,7 +606,8 @@ o_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [15 Violin_II_Music_Voice measure 388 / measure 20]
         r8.

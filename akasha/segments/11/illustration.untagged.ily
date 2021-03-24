@@ -111,7 +111,8 @@ k_Violin_I_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/4
+    {
 
         % [11 Violin_I_Music_Voice measure 262 / measure 2]
         f'4
@@ -125,7 +126,8 @@ k_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/4
+    {
 
         % [11 Violin_I_Music_Voice measure 263 / measure 3]
         fs'!4
@@ -200,7 +202,8 @@ k_Violin_I_Music_Staff = {
 k_Violin_II_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
+    \times 4/4
+    {
 
         % [11 Violin_II_Music_Voice measure 261 / measure 1]
         \set Staff.shortInstrumentName = \akasha-vn-ii-markup
@@ -234,7 +237,8 @@ k_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [11 Violin_II_Music_Voice measure 262 / measure 2]
         r4
@@ -250,7 +254,8 @@ k_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [11 Violin_II_Music_Voice measure 263 / measure 3]
         r4
@@ -399,7 +404,8 @@ k_Viola_Music_Staff = {
 k_Cello_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 4/3
+    {
 
         % [11 Cello_Music_Voice measure 261 / measure 1]
         \set Staff.shortInstrumentName = \akasha-vc-markup
@@ -454,7 +460,8 @@ k_Cello_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [11 Cello_Music_Voice measure 263 / measure 3]
         r4

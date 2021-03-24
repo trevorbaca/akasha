@@ -823,7 +823,8 @@ j_Violin_I_Music_Voice = {
     \repeatTie
     <> \bacaStopTextSpanRhythmAnnotation
 
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [10 Violin_I_Music_Voice measure 246 / measure 23]
         r16
@@ -874,7 +875,8 @@ j_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         r16
 
@@ -915,7 +917,8 @@ j_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [10 Violin_I_Music_Voice measure 247 / measure 24]
         r16
@@ -939,7 +942,8 @@ j_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/11 {
+    \times 8/11
+    {
 
         r16
 
@@ -977,7 +981,8 @@ j_Violin_I_Music_Voice = {
 
     }
 
-    \times 4/6 {
+    \times 4/6
+    {
 
         r16
 
@@ -1100,7 +1105,8 @@ j_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [10 Violin_I_Music_Voice measure 251 / measure 28]
         \once \override Beam.grow-direction = #right
@@ -1155,7 +1161,8 @@ j_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [10 Violin_I_Music_Voice measure 252 / measure 29]
         \once \override Beam.grow-direction = #left
@@ -1806,7 +1813,8 @@ j_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [10 Violin_II_Music_Voice measure 251 / measure 28]
         \once \override Beam.grow-direction = #left
@@ -1863,7 +1871,8 @@ j_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [10 Violin_II_Music_Voice measure 252 / measure 29]
         \once \override Beam.grow-direction = #right
@@ -2536,7 +2545,8 @@ j_Viola_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [10 Viola_Music_Voice measure 251 / measure 28]
         \once \override Beam.grow-direction = #right
@@ -3193,7 +3203,8 @@ j_Cello_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [10 Cello_Music_Voice measure 251 / measure 28]
         \once \override Beam.grow-direction = #left

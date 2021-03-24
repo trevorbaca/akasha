@@ -2316,7 +2316,8 @@ e_Viola_Music_Voice = {                                                        %
     ds!2                                                                       %! akasha.untied_notes()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! akasha.glissando_rhythm()
+    \times 2/3                                                                 %! akasha.glissando_rhythm()
+    {                                                                          %! akasha.glissando_rhythm()
 
         % [05 Viola_Music_Voice measure 97 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
         cs!2                                                                   %! akasha.glissando_rhythm()
@@ -2995,7 +2996,8 @@ e_Cello_Music_Voice = {                                                        %
     c,2..                                                                      %! akasha.untied_notes()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 8/9 {                                                               %! akasha.glissando_rhythm()
+    \times 8/9                                                                 %! akasha.glissando_rhythm()
+    {                                                                          %! akasha.glissando_rhythm()
 
         % [05 Cello_Music_Voice measure 111 / measure 50]                      %! baca.SegmentMaker._comment_measure_numbers()
         bf,,!2..                                                               %! akasha.glissando_rhythm()

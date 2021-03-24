@@ -367,7 +367,8 @@ b_Violin_I_Music_Voice = {
     % [02 Violin_I_Music_Voice measure 12 / measure 9]
     r1
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         b32
         - \tweak color #(x11-color 'blue)
@@ -387,7 +388,8 @@ b_Violin_I_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r16.
 
@@ -466,7 +468,8 @@ b_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [02 Violin_I_Music_Voice measure 15 / measure 12]
         \once \override Beam.grow-direction = #left
@@ -560,7 +563,8 @@ b_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [02 Violin_I_Music_Voice measure 18 / measure 15]
         \once \override Beam.grow-direction = #right
@@ -643,7 +647,8 @@ b_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [02 Violin_I_Music_Voice measure 20 / measure 17]
         \once \override Beam.grow-direction = #left
@@ -776,7 +781,8 @@ b_Violin_II_Music_Voice = {
     % [02 Violin_II_Music_Voice measure 6 / measure 3]
     R1 * 1/4
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [02 Violin_II_Music_Voice measure 7 / measure 4]
         bf!32
@@ -797,7 +803,8 @@ b_Violin_II_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r16.
 
@@ -949,7 +956,8 @@ b_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [02 Violin_II_Music_Voice measure 15 / measure 12]
         \once \override Beam.grow-direction = #right
@@ -1041,7 +1049,8 @@ b_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [02 Violin_II_Music_Voice measure 18 / measure 15]
         \once \override Beam.grow-direction = #left
@@ -1126,7 +1135,8 @@ b_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [02 Violin_II_Music_Voice measure 20 / measure 17]
         \once \override Beam.grow-direction = #right
@@ -1205,7 +1215,8 @@ b_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [02 Violin_II_Music_Voice measure 22 / measure 19]
         \once \override Beam.grow-direction = #left
@@ -1333,7 +1344,8 @@ b_Viola_Music_Voice = {
     % [02 Viola_Music_Voice measure 7 / measure 4]
     r2.
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r8
 
@@ -1810,7 +1822,8 @@ b_Cello_Music_Voice = {
     % [02 Cello_Music_Voice measure 22 / measure 19]
     r4
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         r16.
 

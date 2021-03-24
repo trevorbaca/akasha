@@ -724,7 +724,8 @@ o_Violin_II_Music_Voice = {                                                    %
     % [15 Violin_II_Music_Voice measure 378 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         r8                                                                     %! akasha.sparse_getato_rhythm()
 
@@ -779,7 +780,8 @@ o_Violin_II_Music_Voice = {                                                    %
     % [15 Violin_II_Music_Voice measure 387 / measure 19]                      %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         r8                                                                     %! akasha.sparse_getato_rhythm()
 
@@ -792,7 +794,8 @@ o_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! akasha.sparse_getato_rhythm()
 
-    \times 8/9 {                                                               %! akasha.sparse_getato_rhythm()
+    \times 8/9                                                                 %! akasha.sparse_getato_rhythm()
+    {                                                                          %! akasha.sparse_getato_rhythm()
 
         % [15 Violin_II_Music_Voice measure 388 / measure 20]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8.                                                                    %! akasha.sparse_getato_rhythm()
