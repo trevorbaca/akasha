@@ -148,7 +148,8 @@ i_Violin_I_Music_Voice = {
                     c'1
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -223,7 +224,8 @@ i_Violin_I_Music_Voice = {
                     c'4
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -363,7 +365,8 @@ i_Violin_II_Music_Voice = {
                     c'1
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -439,7 +442,8 @@ i_Violin_II_Music_Voice = {
                     c'4
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -727,7 +731,8 @@ i_Cello_Music_Voice = {
                     c'4
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }

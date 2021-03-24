@@ -606,7 +606,8 @@ b_Violin_I_Music_Voice = {                                                     %
                     c'2
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -713,7 +714,8 @@ b_Violin_I_Music_Voice = {                                                     %
                     c'1.
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -804,7 +806,8 @@ b_Violin_I_Music_Voice = {                                                     %
                     c'4
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -1138,7 +1141,8 @@ b_Violin_II_Music_Voice = {                                                    %
                     c'2
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -1242,7 +1246,8 @@ b_Violin_II_Music_Voice = {                                                    %
                     c'1.
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -1336,7 +1341,8 @@ b_Violin_II_Music_Voice = {                                                    %
                     c'4
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -1422,7 +1428,8 @@ b_Violin_II_Music_Voice = {                                                    %
                     c'2.
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
