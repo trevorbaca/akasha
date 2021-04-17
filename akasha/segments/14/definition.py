@@ -76,10 +76,10 @@ maker(
 
 maker(
     ("vc", (1, 10)),
-    baca.hairpin("ppp < ff", selector=baca.leaves()[:9]),
+    baca.hairpin("ppp < ff", selector=baca.leaves_(stop=9)),
     baca.text_spanner(
         "trans. => vib. moltiss.",
-        selector=baca.leaves()[:9],
+        selector=baca.leaves_(stop=9),
     ),
 )
 
@@ -120,7 +120,7 @@ maker(
     (["v1", "v2", "va"], (13, 14)),
     baca.text_spanner(
         "trans. => pos. ord. XFB",
-        selector=baca.leaves()[:2],
+        selector=baca.leaves_(stop=2),
     ),
 )
 
@@ -128,7 +128,7 @@ maker(
     (["v1", "v2", "va"], (15, 16)),
     baca.text_spanner(
         "trans. => pont. XFB",
-        selector=baca.leaves()[:2],
+        selector=baca.leaves_(stop=2),
     ),
 )
 
@@ -136,7 +136,7 @@ maker(
     (["v1", "v2", "va"], (17, 18)),
     baca.text_spanner(
         "trans. => XP+XFB",
-        selector=baca.leaves()[:3],
+        selector=baca.leaves_(stop=3),
     ),
 )
 
@@ -144,7 +144,7 @@ maker(
     (["v1", "v2", "va"], (19, 22)),
     baca.text_spanner(
         "trans. => XP",
-        selector=baca.leaves()[:4],
+        selector=baca.leaves_(stop=4),
     ),
 )
 
@@ -157,7 +157,7 @@ maker(
     (["v1", "v2", "va"], (23, 24)),
     baca.text_spanner(
         "trans. => 1/3OB",
-        selector=baca.leaves()[:2],
+        selector=baca.leaves_(stop=2),
     ),
 )
 
@@ -165,7 +165,7 @@ maker(
     (["v1", "v2", "va"], (25, 26)),
     baca.text_spanner(
         "trans. => 2/3OB",
-        selector=baca.leaves()[:2],
+        selector=baca.leaves_(stop=2),
     ),
 )
 
@@ -173,6 +173,6 @@ maker(
     (["v1", "v2", "va"], (27, 28)),
     baca.text_spanner(
         "trans. => OB (no pitch)",
-        selector=baca.leaves()[:2],
+        selector=baca.leaves_(stop=2),
     ),
 )

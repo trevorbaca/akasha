@@ -484,9 +484,15 @@ def viola_ob_rhythm(*, rotation: int = None) -> baca.RhythmCommand:
         divisions_ = divisions_.split_divisions(fractions, cyclic=True)
         return divisions_
 
+    def selector(argument):
+        selection = baca.Selection(argument)
+        selection = selection.leaves()
+        selection = selection.get([0, -1])
+        return selection
+
     return baca.rhythm(
         rmakers.note(),
-        rmakers.force_rest(baca.leaves().get([0, -1])),
+        rmakers.force_rest(selector),
         rmakers.beam(baca.plts()),
         rmakers.split_measures(),
         preprocessor=divisions,
