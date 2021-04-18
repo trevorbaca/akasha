@@ -57,7 +57,7 @@ maker(
 maker(
     ("vc", (1, 2)),
     akasha.ritardando_rhythm(
-        divisions=lambda _: baca.Sequence(_).fuse(),
+        preprocessor=lambda _: baca.Sequence(_).fuse(),
     ),
 )
 

@@ -145,14 +145,14 @@ maker(
 maker(
     ("va", (28, 29)),
     akasha.accelerando_rhythm(
-        divisions=lambda _: baca.Sequence(_).fuse(),
+        preprocessor=lambda _: baca.Sequence(_).fuse(),
     ),
 )
 
 maker(
     ("vc", (28, 29)),
     akasha.ritardando_rhythm(
-        divisions=lambda _: baca.Sequence(_).fuse(),
+        preprocessor=lambda _: baca.Sequence(_).fuse(),
     ),
 )
 
