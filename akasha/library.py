@@ -553,20 +553,5 @@ class ScoreTemplate(baca.ScoreTemplate):
     def voice_abbreviations(self):
         """
         Gets voice abbreviations.
-
-        ..  container:: example
-
-            >>> score_template = akasha.ScoreTemplate()
-            >>> string = abjad.storage(score_template.voice_abbreviations)
-            >>> print(string)
-            abjad.OrderedDict(
-                [
-                    ('v1', 'Violin_I_Music_Voice'),
-                    ('v2', 'Violin_II_Music_Voice'),
-                    ('va', 'Viola_Music_Voice'),
-                    ('vc', 'Cello_Music_Voice'),
-                    ]
-                )
-
         """
         return super(ScoreTemplate, self).voice_abbreviations
