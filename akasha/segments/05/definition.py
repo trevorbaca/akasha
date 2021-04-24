@@ -182,7 +182,7 @@ maker(
     baca.dynamic("ppp"),
     baca.new(
         baca.glissando(),
-        map=baca.runs(exclude=baca.const.HIDDEN),
+        map=baca.selectors.runs(exclude=baca.const.HIDDEN),
     ),
     baca.markup(
         r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup",
@@ -216,7 +216,7 @@ maker(
     baca.dynamic("ppp"),
     baca.new(
         baca.glissando(),
-        map=baca.runs(exclude=baca.const.HIDDEN),
+        map=baca.selectors.runs(exclude=baca.const.HIDDEN),
     ),
     baca.markup(
         r"\akasha-xp-plus-full-bow-strokes-markup",
@@ -230,7 +230,7 @@ maker(
     baca.dynamic("p"),
     baca.new(
         baca.trill_spanner(alteration="A5"),
-        map=baca.qruns(exclude=baca.const.HIDDEN),
+        map=baca.selectors.qruns(exclude=baca.const.HIDDEN),
     ),
     baca.markup(
         r"\baca-tasto-markup",
@@ -281,7 +281,7 @@ maker(
     baca.dynamic("ppp-ancora"),
     baca.new(
         baca.glissando(),
-        map=baca.runs(exclude=baca.const.HIDDEN),
+        map=baca.selectors.runs(exclude=baca.const.HIDDEN),
     ),
     baca.markup(
         r"\akasha-xp-plus-full-bow-strokes-markup",
