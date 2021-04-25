@@ -114,7 +114,7 @@ maker(
 
 maker(
     (["v1", "v2", "va", "vc"], (13, 16)),
-    baca.dynamic("ff", selector=baca.note(2)),
+    baca.dynamic("ff", selector=baca.selectors.note(2)),
     baca.text_spanner(
         "trans. => scratch moltiss.",
         selector=baca.selectors.leaves((None, -1)),

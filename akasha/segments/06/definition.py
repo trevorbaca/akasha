@@ -69,7 +69,13 @@ maker(
 
 maker(
     ("v2", 3),
-    akasha.scratch_rhythm([4], rmakers.force_rest(baca.lts()[:-1]), extra_counts=[-2]),
+    akasha.scratch_rhythm(
+        [4],
+        rmakers.force_rest(
+            baca.lts()[:-1],
+        ),
+        extra_counts=[-2],
+    ),
 )
 
 maker(
@@ -81,7 +87,9 @@ maker(
     ("vc", 3),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts().exclude([1])),
+        rmakers.force_rest(
+            baca.lts().exclude([1]),
+        ),
         extra_counts=[-1],
     ),
 )
@@ -90,7 +98,9 @@ maker(
     ("v1", 5),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts()[1:]),
+        rmakers.force_rest(
+            baca.lts()[1:],
+        ),
         extra_counts=[-2],
     ),
 )
@@ -99,7 +109,9 @@ maker(
     ("v2", 5),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts().exclude([2])),
+        rmakers.force_rest(
+            baca.lts().exclude([2]),
+        ),
         extra_counts=[-1],
     ),
 )
@@ -113,7 +125,9 @@ maker(
     ("v1", 7),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts()[1:]),
+        rmakers.force_rest(
+            baca.lts()[1:],
+        ),
         extra_counts=[-2],
     ),
 )
@@ -122,7 +136,9 @@ maker(
     ("v2", 7),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts()[:-1]),
+        rmakers.force_rest(
+            baca.lts()[:-1],
+        ),
         extra_counts=[1],
     ),
 )
@@ -136,7 +152,9 @@ maker(
     ("vc", 7),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts().exclude([1])),
+        rmakers.force_rest(
+            baca.lts().exclude([1]),
+        ),
         extra_counts=[-1],
     ),
 )
@@ -150,7 +168,9 @@ maker(
     ("v1", (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts().exclude([1, -3])),
+        rmakers.force_rest(
+            baca.lts().exclude([1, -3]),
+        ),
         extra_counts=[1],
     ),
 )
@@ -159,7 +179,9 @@ maker(
     ("v2", (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts().exclude([2, -1])),
+        rmakers.force_rest(
+            baca.lts().exclude([2, -1]),
+        ),
         extra_counts=[0],
     ),
 )
@@ -168,7 +190,9 @@ maker(
     ("vc", (9, 10)),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(baca.lts().exclude([2, -2])),
+        rmakers.force_rest(
+            baca.lts().exclude([2, -2]),
+        ),
         extra_counts=[2],
     ),
 )
@@ -177,7 +201,9 @@ maker(
     ("v1", (11, 22)),
     akasha.scratch_rhythm(
         [8],
-        rmakers.force_rest(baca.lts().exclude([0, 3], 8)),
+        rmakers.force_rest(
+            baca.lts().exclude([0, 3], 8),
+        ),
         extra_counts=[1],
     ),
 )
@@ -188,7 +214,7 @@ maker(
         [1],
         [3, 0, 2, 1],
         rmakers.force_rest(
-            baca.tuplets().get(
+            baca.selectors.tuplets(
                 [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1]
             ),
         ),
@@ -199,7 +225,9 @@ maker(
     ("v2", (11, 20)),
     akasha.scratch_rhythm(
         [8],
-        rmakers.force_rest(baca.lts().exclude([1, 4], 9)),
+        rmakers.force_rest(
+            baca.lts().exclude([1, 4], 9),
+        ),
         extra_counts=[-1],
     ),
 )
@@ -209,7 +237,9 @@ maker(
     akasha.dense_getato_rhythm(
         [1],
         [2, 1, 3, 0],
-        rmakers.force_rest(baca.tuplets().get([0, 2, 3, 4, 5, 6, 10, 14, 22])),
+        rmakers.force_rest(
+            baca.selectors.tuplets([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+        ),
     ),
 )
 
@@ -218,7 +248,9 @@ maker(
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
-        rmakers.force_rest(baca.tuplets()[-5:]),
+        rmakers.force_rest(
+            baca.selectors.tuplets((-5, None)),
+        ),
     ),
 )
 
@@ -226,7 +258,9 @@ maker(
     ("vc", (11, 18)),
     akasha.scratch_rhythm(
         [8],
-        rmakers.force_rest(baca.lts().exclude([2, 5], 9)),
+        rmakers.force_rest(
+            baca.lts().exclude([2, 5], 9),
+        ),
         extra_counts=[2],
     ),
 )
@@ -236,7 +270,9 @@ maker(
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
-        rmakers.force_rest(baca.tuplets().get([0, 2, 3, 4, 5, 6, 10, 14, 22])),
+        rmakers.force_rest(
+            baca.selectors.tuplets([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+        ),
     ),
 )
 
@@ -253,7 +289,9 @@ maker(
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
-        rmakers.force_rest(baca.tuplets()[-4:]),
+        rmakers.force_rest(
+            baca.selectors.tuplets((-4, None)),
+        ),
     ),
 )
 

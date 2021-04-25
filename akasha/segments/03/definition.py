@@ -50,10 +50,12 @@ maker(
 maker(
     ("v1", (1, 3)),
     akasha.accelerando_rhythm(
-        rmakers.force_rest(baca.tuplets()[-2:]),
+        rmakers.force_rest(
+            baca.selectors.tuplets((-2, None)),
+        ),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
-        rmakers.force_rest(baca.lt(1)),
+        rmakers.force_rest(baca.selectors.lt(1)),
         fuse_counts=[1],
     ),
     baca.pitches("E5 D5"),
@@ -73,7 +75,9 @@ maker(
 maker(
     ("va", (1, 3)),
     akasha.polyphony_rhythm(
-        rmakers.force_rest(baca.lts()[:2]),
+        rmakers.force_rest(
+            baca.selectors.lts((None, 2)),
+        ),
         rotation=-2,
     ),
     baca.pitches("Db4 Db~4 C4", exact=True),
@@ -82,7 +86,9 @@ maker(
 maker(
     ("vc", (1, 4)),
     akasha.sparse_getato_rhythm(
-        rmakers.force_rest(baca.tuplets().exclude([5, -6, -5, -4, -3, -2, -1])),
+        rmakers.force_rest(
+            baca.selectors.tuplets(~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
+        ),
         degree=0,
         extra_counts=[1, 1, 0, 2],
     ),
@@ -119,7 +125,7 @@ maker(
 maker(
     ("v2", (10, 11)),
     akasha.accelerando_rhythm(
-        rmakers.force_rest(baca.lt(3)),
+        rmakers.force_rest(baca.selectors.lt(3)),
         fuse_counts=(2, 1),
     ),
     baca.dynamic("pp"),

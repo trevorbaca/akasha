@@ -197,14 +197,18 @@ def growth(first_silence, division_ratio, accelerando=False, extra_counts=None):
 
     accelerando_ = rmakers.stack(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)]),
-        rmakers.force_rest(baca.lts().get(pattern)),
+        rmakers.force_rest(
+            baca.selectors.lts(pattern),
+        ),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.duration_bracket(),
     )
 
     talea = rmakers.stack(
         rmakers.talea([9, 4, 8, 7], 16, extra_counts=extra_counts),
-        rmakers.force_rest(baca.lts().get(pattern)),
+        rmakers.force_rest(
+            baca.selectors.lts(pattern),
+        ),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.rewrite_sustained(),
