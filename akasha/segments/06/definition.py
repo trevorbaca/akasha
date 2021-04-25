@@ -332,7 +332,7 @@ maker(
     ("v1", (23, 32)),
     baca.hairpin(
         "mf > pp",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.markup(
         r"\akasha-leggieriss-senza-scratch-markup",
@@ -393,7 +393,7 @@ maker(
     ("v2", (23, 32)),
     baca.hairpin(
         "mf > pp",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
 )
 
@@ -464,7 +464,7 @@ maker(
     ("vc", (23, 32)),
     baca.hairpin(
         "mf > pp",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
 )
 

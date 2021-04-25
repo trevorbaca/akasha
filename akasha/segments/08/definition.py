@@ -113,7 +113,7 @@ maker(
     akasha.getato_pitches(31, [2]),
     baca.hairpin(
         "pp >o niente",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
 )
 
