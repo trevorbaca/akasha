@@ -253,7 +253,7 @@ maker(
     ("v1", (11, 19)),
     baca.pitches(
         "D5 E5",
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -279,7 +279,7 @@ maker(
     ("v2", (11, 19)),
     baca.pitches(
         "Bb4 C5",
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -295,7 +295,7 @@ maker(
 maker(
     baca.timeline([("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)]),
     akasha.getato_pitches(-2, [0]),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
