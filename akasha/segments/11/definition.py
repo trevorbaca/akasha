@@ -35,9 +35,7 @@ maker(
     ("v2", 1),
     akasha.scratch_rhythm(
         [4],
-        rmakers.force_rest(
-            baca.lts()[:-1]
-        ),
+        rmakers.force_rest(baca.lts()[:-1]),
         extra_counts=[-2],
     ),
 )

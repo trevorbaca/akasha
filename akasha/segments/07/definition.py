@@ -401,7 +401,7 @@ maker(
     akasha.getato_pitches(29, [2]),
     baca.hairpin(
         "ff < fff",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.markup(
         r"\baca-pos-ord-markup",
@@ -415,7 +415,7 @@ maker(
     akasha.getato_pitches(26, [2]),
     baca.hairpin(
         "ff < fff",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.markup(
         r"\baca-pos-ord-markup",
@@ -430,7 +430,7 @@ maker(
     baca.clef("treble"),
     baca.hairpin(
         "ff < fff",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.markup(
         r"\baca-pos-ord-markup",
@@ -445,7 +445,7 @@ maker(
     baca.clef("treble"),
     baca.hairpin(
         "ff < fff",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.markup(
         r"\baca-pos-ord-markup",
