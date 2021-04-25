@@ -237,7 +237,7 @@ maker(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("B7"),
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -254,7 +254,7 @@ maker(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("C#7"),
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -262,7 +262,7 @@ maker(
     ("va", (41, 48)),
     baca.pitch(
         "A2",
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -271,7 +271,7 @@ maker(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("G~5"),
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -288,7 +288,7 @@ maker(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("D5"),
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 

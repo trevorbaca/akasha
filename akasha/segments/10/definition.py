@@ -350,7 +350,7 @@ maker(
         r"\akasha-leggieriss-plus-po-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(

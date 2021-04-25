@@ -256,13 +256,13 @@ maker(
 maker(
     ("v1", (3, 4)),
     akasha.getato_pitches(27, [2]),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
     ("v2", (3, 4)),
     akasha.getato_pitches(24, [2]),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -273,7 +273,7 @@ maker(
         literal=True,
     ),
     baca.dynamic("pp"),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -407,7 +407,7 @@ maker(
         r"\baca-pos-ord-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -421,7 +421,7 @@ maker(
         r"\baca-pos-ord-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -436,7 +436,7 @@ maker(
         r"\baca-pos-ord-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -451,7 +451,7 @@ maker(
         r"\baca-pos-ord-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -490,7 +490,7 @@ maker(
         r"\baca-leggieriss-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -501,7 +501,7 @@ maker(
         r"\baca-leggieriss-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -513,7 +513,7 @@ maker(
         literal=True,
     ),
     baca.staff_lines(5),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -524,7 +524,7 @@ maker(
         r"\baca-leggieriss-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(

@@ -68,7 +68,7 @@ maker(
 maker(
     (["v1", "va", "vc"], (1, 24)),
     baca.alternate_bow_strokes(
-        selector=baca.pheads(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.clef("percussion"),
     baca.dynamic('"mf"'),
@@ -92,7 +92,7 @@ maker(
         literal=True,
     ),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
 )
 

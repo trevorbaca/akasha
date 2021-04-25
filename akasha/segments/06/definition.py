@@ -308,7 +308,7 @@ maker(
             r"\akasha-scratch-moltiss-explanation-markup",
             literal=True,
         ),
-        selector=baca.phead(0, exclude=baca.const.HIDDEN),
+        selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -324,7 +324,7 @@ maker(
 maker(
     ("v1", (23, 39)),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -353,7 +353,7 @@ maker(
             r"\akasha-scratch-moltiss-explanation-markup",
             literal=True,
         ),
-        selector=baca.phead(0, exclude=baca.const.HIDDEN),
+        selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -370,7 +370,7 @@ maker(
     ("v2", (19, 20)),
     baca.dynamic("mf"),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.markup(
         r"\akasha-senza-scratch-markup",
@@ -385,7 +385,7 @@ maker(
         literal=True,
     ),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -400,7 +400,7 @@ maker(
 maker(
     "va",
     baca.alternate_bow_strokes(
-        selector=baca.pheads(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.dynamic('"mf"'),
     baca.markup(
@@ -424,7 +424,7 @@ maker(
             r"\akasha-scratch-moltiss-explanation-markup",
             literal=True,
         ),
-        selector=baca.phead(0, exclude=baca.const.HIDDEN),
+        selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -445,14 +445,14 @@ maker(
         literal=True,
     ),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
 )
 
 maker(
     ("vc", (19, 39)),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.markup(
         r"\baca-leggieriss-markup",

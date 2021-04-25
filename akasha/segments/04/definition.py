@@ -205,7 +205,7 @@ maker(
         r"\baca-leggieriss-markup",
         literal=True,
     ),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(selector=baca.selectors.pheads()),
 )
 
 maker(
