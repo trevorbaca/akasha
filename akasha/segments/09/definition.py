@@ -27,16 +27,16 @@ maker = baca.SegmentMaker(
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("44", selector=baca.leaf(2)),
-    baca.metronome_mark("55", selector=baca.leaf(4)),
+    baca.metronome_mark("44", selector=baca.selectors.leaf(2)),
+    baca.metronome_mark("55", selector=baca.selectors.leaf(4)),
     baca.open_volta(baca.skip(1 - 1)),
     baca.close_volta(baca.skip(7 - 1), format_slot="after"),
 )
 
 maker(
     "Global_Rests",
-    baca.global_fermata("fermata", selector=baca.leaf(3)),
-    baca.global_fermata("fermata", selector=baca.leaf(-1)),
+    baca.global_fermata("fermata", selector=baca.selectors.leaf(3)),
+    baca.global_fermata("fermata", selector=baca.selectors.leaf(-1)),
 )
 
 maker(

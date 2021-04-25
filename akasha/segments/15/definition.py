@@ -32,7 +32,7 @@ maker(
     baca.metronome_mark("89"),
     baca.rehearsal_mark(
         "N",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 13)).extra_offset,
     ),
     baca.bar_line("|.", baca.skip(-1)),
@@ -42,7 +42,7 @@ maker(
     "Global_Rests",
     baca.global_fermata(
         "very_long",
-        selector=baca.leaf(-1),
+        selector=baca.selectors.leaf(-1),
     ),
 )
 

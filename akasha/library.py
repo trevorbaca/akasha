@@ -266,7 +266,7 @@ def manifest(these_counts):
     )
 
 
-def margin_markup(key, alert=None, context="Staff", selector=baca.leaf(0)):
+def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf(0)):
     """
     Makes tagged margin markup indicator command.
     """

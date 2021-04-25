@@ -33,19 +33,19 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "G",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 5)).extra_offset,
     ),
-    baca.metronome_mark("126", selector=baca.leaf(0)),
-    baca.metronome_mark(baca.Ritardando(), selector=baca.leaf(0)),
-    baca.metronome_mark("44", selector=baca.leaf(4)),
-    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(14)),
-    baca.metronome_mark("89", selector=baca.leaf(16)),
+    baca.metronome_mark("126", selector=baca.selectors.leaf(0)),
+    baca.metronome_mark(baca.Ritardando(), selector=baca.selectors.leaf(0)),
+    baca.metronome_mark("44", selector=baca.selectors.leaf(4)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.selectors.leaf(14)),
+    baca.metronome_mark("89", selector=baca.selectors.leaf(16)),
 )
 
 maker(
     "Global_Rests",
-    baca.global_fermata("fermata", selector=baca.leaf(13)),
+    baca.global_fermata("fermata", selector=baca.selectors.leaf(13)),
 )
 
 maker(
