@@ -29,8 +29,8 @@ maker(
     "Global_Skips",
     baca.metronome_mark("44", selector=baca.selectors.leaf(2)),
     baca.metronome_mark("55", selector=baca.selectors.leaf(4)),
-    baca.open_volta(baca.skip(1 - 1)),
-    baca.close_volta(baca.skip(7 - 1), format_slot="after"),
+    baca.open_volta(baca.selectors.skip(1 - 1)),
+    baca.close_volta(baca.selectors.skip(7 - 1), format_slot="after"),
 )
 
 maker(

@@ -471,15 +471,15 @@ maker(
     baca.markup(
         r"\akasha-repeat-six-markup",
         literal=True,
-        selector=baca.skip(0),
+        selector=baca.selectors.skip(0),
     ),
     baca.text_script_extra_offset((1.5, 6)),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(45 - 1)),
-    baca.close_volta(baca.skip(47 - 1)),
+    baca.open_volta(baca.selectors.skip(45 - 1)),
+    baca.close_volta(baca.selectors.skip(47 - 1)),
 )
 
 maker(
