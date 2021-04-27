@@ -46,20 +46,50 @@ maker = baca.SegmentMaker(
 maker(
     "Global_Skips",
     baca.rehearsal_mark("E"),
-    baca.metronome_mark("55", selector=baca.selectors.leaf(8)),
-    baca.metronome_mark(baca.Accelerando(), selector=baca.selectors.leaf(12)),
-    baca.metronome_mark("89", selector=baca.selectors.leaf(14)),
-    baca.metronome_mark(baca.Accelerando(), selector=baca.selectors.leaf(18)),
-    baca.metronome_mark("126", selector=baca.selectors.leaf(26)),
+    baca.metronome_mark(
+        "55",
+        selector=baca.selectors.leaf(8),
+    ),
+    baca.metronome_mark(
+        baca.Accelerando(),
+        selector=baca.selectors.leaf(12),
+    ),
+    baca.metronome_mark(
+        "89",
+        selector=baca.selectors.leaf(14),
+    ),
+    baca.metronome_mark(
+        baca.Accelerando(),
+        selector=baca.selectors.leaf(18),
+    ),
+    baca.metronome_mark(
+        "126",
+        selector=baca.selectors.leaf(26),
+    ),
 )
 
 maker(
     "Global_Rests",
-    baca.global_fermata("fermata", selector=baca.selectors.leaf(1)),
-    baca.global_fermata("fermata", selector=baca.selectors.leaf(3)),
-    baca.global_fermata("fermata", selector=baca.selectors.leaf(5)),
-    baca.global_fermata("fermata", selector=baca.selectors.leaf(7)),
-    baca.global_fermata("long", selector=baca.selectors.leaf(-1)),
+    baca.global_fermata(
+        "fermata",
+        selector=baca.selectors.leaf(1),
+    ),
+    baca.global_fermata(
+        "fermata",
+        selector=baca.selectors.leaf(3),
+    ),
+    baca.global_fermata(
+        "fermata",
+        selector=baca.selectors.leaf(5),
+    ),
+    baca.global_fermata(
+        "fermata",
+        selector=baca.selectors.leaf(7),
+    ),
+    baca.global_fermata(
+        "long",
+        selector=baca.selectors.leaf(-1),
+    ),
 )
 
 maker(

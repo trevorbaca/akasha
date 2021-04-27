@@ -43,18 +43,39 @@ maker = baca.SegmentMaker(
 
 maker(
     "Global_Skips",
-    baca.metronome_mark(baca.Ritardando(), selector=baca.selectors.leaf(52)),
-    baca.metronome_mark("38", selector=baca.selectors.leaf(55)),
+    baca.metronome_mark(
+        baca.Ritardando(),
+        selector=baca.selectors.leaf(52),
+    ),
+    baca.metronome_mark(
+        "38",
+        selector=baca.selectors.leaf(55),
+    ),
     baca.rehearsal_mark("K"),
 )
 
 maker(
     "Global_Rests",
-    baca.global_fermata("short", selector=baca.selectors.leaf(28)),
-    baca.global_fermata("short", selector=baca.selectors.leaf(39)),
-    baca.global_fermata("fermata", selector=baca.selectors.leaf(45)),
-    baca.global_fermata("short", selector=baca.selectors.leaf(54)),
-    baca.global_fermata("very_long", selector=baca.selectors.leaf(68)),
+    baca.global_fermata(
+        "short",
+        selector=baca.selectors.leaf(28),
+    ),
+    baca.global_fermata(
+        "short",
+        selector=baca.selectors.leaf(39),
+    ),
+    baca.global_fermata(
+        "fermata",
+        selector=baca.selectors.leaf(45),
+    ),
+    baca.global_fermata(
+        "short",
+        selector=baca.selectors.leaf(54),
+    ),
+    baca.global_fermata(
+        "very_long",
+        selector=baca.selectors.leaf(68),
+    ),
 )
 
 maker(
@@ -114,7 +135,10 @@ maker(
 
 maker(
     (["v1", "v2", "va", "vc"], (13, 16)),
-    baca.dynamic("ff", selector=baca.selectors.note(2)),
+    baca.dynamic(
+        "ff",
+        selector=baca.selectors.note(2),
+    ),
     baca.text_spanner(
         "trans. => scratch moltiss.",
         selector=baca.selectors.leaves((None, -1)),

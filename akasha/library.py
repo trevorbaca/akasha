@@ -238,7 +238,10 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.Up, rotation=None
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     pitch_numbers = baca.Sequence(pitch_numbers).rotate(n=rotation)
-    return baca.pitches(pitch_numbers, selector=baca.plts(exclude=baca.const.HIDDEN))
+    return baca.pitches(
+        pitch_numbers,
+        selector=baca.plts(exclude=baca.const.HIDDEN),
+    )
 
 
 def manifest(these_counts):
@@ -272,7 +275,10 @@ def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf
     """
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
-        margin_markup, alert=alert, context=context, selector=selector
+        margin_markup,
+        alert=alert,
+        context=context,
+        selector=selector,
     )
     return baca.not_parts(command)
 
