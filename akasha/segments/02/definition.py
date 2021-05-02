@@ -132,7 +132,7 @@ maker(
     baca.new(
         akasha.polyphony_rhythm(
             rmakers.force_rest(
-                baca.lts().exclude([0, 1, 2]),
+                baca.selectors.lts(omit=[0, 1, 2]),
             ),
         ),
         baca.pitches("E4 F4 E+4", exact=True),
@@ -141,7 +141,7 @@ maker(
     baca.new(
         akasha.polyphony_rhythm(
             rmakers.force_rest(
-                baca.lts().exclude([2, 3, 4]),
+                baca.selectors.lts(omit=[2, 3, 4]),
             ),
         ),
         baca.pitches("D4 D~4 C4", exact=True),
@@ -150,7 +150,7 @@ maker(
     baca.new(
         akasha.polyphony_rhythm(
             rmakers.force_rest(
-                baca.lts().exclude([1, 2, 3]),
+                baca.selectors.lts(omit=[1, 2, 3]),
             ),
         ),
         baca.pitches("Eb4 D4 E4", exact=True),
@@ -171,7 +171,7 @@ maker(
     ("v2", 9),
     akasha.polyphony_rhythm(
         rmakers.force_rest(
-            baca.lts().exclude([1, 2, 3]),
+            baca.selectors.lts(omit=[1, 2, 3]),
         ),
         rotation=-2,
     ),
@@ -182,7 +182,7 @@ maker(
     ("va", 9),
     akasha.polyphony_rhythm(
         rmakers.force_rest(
-            baca.lts().exclude([2, 3, 4]),
+            baca.selectors.lts(omit=[2, 3, 4]),
         ),
         rotation=-2,
     ),
@@ -193,7 +193,7 @@ maker(
     ("vc", 9),
     akasha.polyphony_rhythm(
         rmakers.force_rest(
-            baca.lts().exclude([0, 1, 2]),
+            baca.selectors.lts(omit=[0, 1, 2]),
         ),
         rotation=-2,
     ),
@@ -207,7 +207,7 @@ maker(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.force_rest(
-            baca.lts().get([3, 5, 7, 9]),
+            baca.selectors.lts([3, 5, 7, 9]),
         ),
     ),
     baca.dynamic("pp"),
@@ -224,7 +224,7 @@ maker(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.force_rest(
-            baca.lts().get([2, 5, 7]),
+            baca.selectors.lts([2, 5, 7]),
         ),
     ),
     baca.dynamic("pp"),
@@ -253,7 +253,7 @@ maker(
     ("v1", 15),
     akasha.accelerando_rhythm(
         rmakers.force_rest(
-            baca.lts().exclude([0, 2, 3, -1]),
+            baca.selectors.lts(omit=[0, 2, 3, -1]),
         ),
     ),
 )
@@ -262,7 +262,7 @@ maker(
     ("v2", 15),
     akasha.ritardando_rhythm(
         rmakers.force_rest(
-            baca.lts().exclude([0, 1, 4, -1]),
+            baca.selectors.lts(omit=[0, 1, 4, -1]),
         ),
     ),
 )
@@ -286,7 +286,7 @@ maker(
     ("v1", 17),
     akasha.ritardando_rhythm(
         rmakers.force_rest(
-            baca.lts().exclude([0, 2, -1]),
+            baca.selectors.lts(omit=[0, 2, -1]),
         ),
     ),
 )
@@ -303,7 +303,7 @@ maker(
     ("v2", 17),
     akasha.accelerando_rhythm(
         rmakers.force_rest(
-            baca.lts().exclude([0, 2, -1]),
+            baca.selectors.lts(omit=[0, 2, -1]),
         ),
     ),
 )
@@ -312,7 +312,7 @@ maker(
     ("v2", 19),
     akasha.ritardando_rhythm(
         rmakers.force_rest(
-            baca.lts().exclude([0, 1, -1]),
+            baca.selectors.lts(omit=[0, 1, -1]),
         ),
     ),
 )

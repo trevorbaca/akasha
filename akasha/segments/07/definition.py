@@ -162,7 +162,7 @@ maker(
     ("v1", (8, 9)),
     akasha.accelerando_rhythm(
         rmakers.force_rest(
-            baca.lts().get([1, 6]),
+            baca.selectors.lts([1, 6]),
         ),
     ),
 )
@@ -171,7 +171,7 @@ maker(
     ("v2", (8, 9)),
     akasha.ritardando_rhythm(
         rmakers.force_rest(
-            baca.lts().get([2, 5]),
+            baca.selectors.lts([2, 5]),
         ),
     ),
 )

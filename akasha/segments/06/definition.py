@@ -102,7 +102,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts()[:-1],
+            baca.selectors.lts((None, -1)),
         ),
         extra_counts=[-2],
     ),
@@ -118,7 +118,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts().exclude([1]),
+            baca.selectors.lts(omit=[1]),
         ),
         extra_counts=[-1],
     ),
@@ -129,7 +129,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts()[1:],
+            baca.selectors.lts((1, None)),
         ),
         extra_counts=[-2],
     ),
@@ -140,7 +140,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts().exclude([2]),
+            baca.selectors.lts(omit=[2]),
         ),
         extra_counts=[-1],
     ),
@@ -156,7 +156,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts()[1:],
+            baca.selectors.lts((1, None)),
         ),
         extra_counts=[-2],
     ),
@@ -167,7 +167,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts()[:-1],
+            baca.selectors.lts((None, -1)),
         ),
         extra_counts=[1],
     ),
@@ -183,7 +183,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts().exclude([1]),
+            baca.selectors.lts(omit=[1]),
         ),
         extra_counts=[-1],
     ),
@@ -199,7 +199,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts().exclude([1, -3]),
+            baca.selectors.lts(omit=[1, -3]),
         ),
         extra_counts=[1],
     ),
@@ -210,7 +210,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts().exclude([2, -1]),
+            baca.selectors.lts(omit=[2, -1]),
         ),
         extra_counts=[0],
     ),
@@ -221,7 +221,7 @@ maker(
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.lts().exclude([2, -2]),
+            baca.selectors.lts(omit=[2, -2]),
         ),
         extra_counts=[2],
     ),
@@ -232,7 +232,7 @@ maker(
     akasha.scratch_rhythm(
         [8],
         rmakers.force_rest(
-            baca.lts().exclude([0, 3], 8),
+            baca.selectors.lts(omit=([0, 3], 8)),
         ),
         extra_counts=[1],
     ),
@@ -256,7 +256,7 @@ maker(
     akasha.scratch_rhythm(
         [8],
         rmakers.force_rest(
-            baca.lts().exclude([1, 4], 9),
+            baca.selectors.lts(omit=([1, 4], 9)),
         ),
         extra_counts=[-1],
     ),
@@ -289,7 +289,7 @@ maker(
     akasha.scratch_rhythm(
         [8],
         rmakers.force_rest(
-            baca.lts().exclude([2, 5], 9),
+            baca.selectors.lts(omit=([2, 5], 9)),
         ),
         extra_counts=[2],
     ),
