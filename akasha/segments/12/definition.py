@@ -252,7 +252,7 @@ maker(
     ("v1", (41, 52)),
     baca.pitch(
         "A5",
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -269,7 +269,7 @@ maker(
     ("v2", (41, 50)),
     baca.pitch(
         "A4",
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -303,7 +303,7 @@ maker(
     ("vc", (41, 45)),
     baca.new(
         baca.pitch("A1"),
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 

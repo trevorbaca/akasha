@@ -78,7 +78,7 @@ maker(
     ),
     baca.staff_position(
         0,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
     baca.staff_lines(1),
 )
