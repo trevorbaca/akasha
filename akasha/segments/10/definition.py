@@ -265,7 +265,7 @@ maker(
     ),
     baca.pitch(
         "B2",
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -298,7 +298,7 @@ maker(
     ),
     baca.pitch(
         "B4",
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -306,7 +306,7 @@ maker(
     ("v1", (25, 26)),
     baca.pitch(
         "B4",
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -345,7 +345,7 @@ maker(
     ),
     baca.pitch(
         "B3",
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -382,7 +382,7 @@ maker(
     ("vc", (17, 27)),
     baca.pitch(
         "B1",
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
