@@ -50,7 +50,7 @@ maker(
     (["v1", "va", "vc"], (1, 16)),
     baca.make_notes(
         rmakers.force_rest(
-            baca.lts().get([1], 2),
+            baca.selectors.lts(([1], 2)),
         ),
         repeat_ties=True,
     ),
