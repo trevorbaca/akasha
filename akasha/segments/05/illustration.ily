@@ -1,4 +1,4 @@
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Global_Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -307,11 +307,11 @@ e_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Global_Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -2475,11 +2475,11 @@ e_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Violin_I_Music_Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -3687,25 +3687,25 @@ e_Violin_I_Music_Voice = {
     >>
 
 %! akasha.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Violin_I_Music_Staff = {
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Violin_I_Music_Voice"
     %! akasha.ScoreTemplate.__call__()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \e_Violin_I_Music_Voice
 
 %! akasha.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Violin_II_Music_Voice = {
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -4880,25 +4880,25 @@ e_Violin_II_Music_Voice = {
     >>
 
 %! akasha.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Violin_II_Music_Staff = {
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Violin_II_Music_Voice"
     %! akasha.ScoreTemplate.__call__()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \e_Violin_II_Music_Voice
 
 %! akasha.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Viola_Music_Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -6244,25 +6244,25 @@ e_Viola_Music_Voice = {
     >>
 
 %! akasha.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Viola_Music_Staff = {
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Viola_Music_Voice"
     %! akasha.ScoreTemplate.__call__()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \e_Viola_Music_Voice
 
 %! akasha.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Cello_Music_Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -7677,19 +7677,19 @@ e_Cello_Music_Voice = {
     >>
 
 %! akasha.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 e_Cello_Music_Staff = {
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Cello_Music_Voice"
     %! akasha.ScoreTemplate.__call__()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \e_Cello_Music_Voice
 
 %! akasha.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
