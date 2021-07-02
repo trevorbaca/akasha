@@ -4,7 +4,7 @@
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
-\include "../stylesheets/parts.ily"
+\include "../parts.ily"
 
 \score {
     \keepWithTag viola {
