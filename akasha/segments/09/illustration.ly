@@ -7,7 +7,7 @@
 %! baca.SegmentMaker._make_lilypond_file()
 %! abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheet.ily"
-%! ide.Path.extern()
+%! baca.Path.extern()
 \include "illustration.ily"
 
 %! baca.SegmentMaker._make_lilypond_file()
@@ -49,13 +49,13 @@
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalRests = "Global_Rests"
                 %! abjad.ScoreTemplate._make_global_context()
-                %! ide.Path.extern()
+                %! baca.Path.extern()
                 \i_Global_Rests
 
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalSkips = "Global_Skips"
                 %! abjad.ScoreTemplate._make_global_context()
-                %! ide.Path.extern()
+                %! baca.Path.extern()
                 \i_Global_Skips
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -76,7 +76,7 @@
                     %! akasha.ScoreTemplate.__call__()
                     \context Staff = "Violin_I_Music_Staff"
                     %! akasha.ScoreTemplate.__call__()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \i_Violin_I_Music_Staff
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -84,7 +84,7 @@
                     %! akasha.ScoreTemplate.__call__()
                     \context Staff = "Violin_II_Music_Staff"
                     %! akasha.ScoreTemplate.__call__()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \i_Violin_II_Music_Staff
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -92,7 +92,7 @@
                     %! akasha.ScoreTemplate.__call__()
                     \context Staff = "Viola_Music_Staff"
                     %! akasha.ScoreTemplate.__call__()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \i_Viola_Music_Staff
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -100,7 +100,7 @@
                     %! akasha.ScoreTemplate.__call__()
                     \context Staff = "Cello_Music_Staff"
                     %! akasha.ScoreTemplate.__call__()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \i_Cello_Music_Staff
 
                 %! akasha.ScoreTemplate.__call__()
