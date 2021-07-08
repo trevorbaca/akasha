@@ -4,7 +4,6 @@
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
-\include "../parts.ily"
 
 \score {
     \keepWithTag cello {
