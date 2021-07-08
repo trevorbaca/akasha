@@ -11,7 +11,7 @@
             " "
             \bold
             \fontsize #3
-            \override #'(font-name . "Palatino")
+            %\override #'(font-name . "Palatino")
             \concat {
                 \override #'(font-name . "Shree Devanagari 714")
                 { आकाश    }
@@ -70,14 +70,14 @@
 
 \header {
     composer = \markup {
-        \override #'(font-name . "Palatino")
+        %\override #'(font-name . "Palatino")
         \fontsize #5
         \line { Trevor Bača (*1975) \hspace #15 }
     }
     tagline = \markup { "" }
     title = \markup \column {
         \center-align {
-            \override #'(font-name . "Palatino")
+            %\override #'(font-name . "Palatino")
             \fontsize #3
             \line {
                 \hspace #2
@@ -93,7 +93,7 @@
             \fontsize #18
             \line { आकाश    }
             " "
-            \override #'(font-name . "Palatino Italic")
+            %\override #'(font-name . "Palatino Italic")
             \fontsize #3
             \line {
                 \hspace #2
@@ -246,7 +246,7 @@
         \override StemTremolo.flag-count = 4
         \override StemTremolo.slope = 0.5
 
-        \override TextScript.font-name = #"Palatino"
+        %\override TextScript.font-name = #"Palatino"
         \override TextScript.padding = 1
         % DISCOVERY: overriding textscript.x-extent = ##f
         %            makes lilypond ignore self-alignment-x tweaks;
@@ -282,7 +282,7 @@
 %%% COLOPHON %%%
 
 akasha-colophon-markup = \markup {
-    \override #'(font-name . "Palatino")
+    %\override #'(font-name . "Palatino")
     \with-color #black
     \override #'(baseline-skip . 4)
     \right-column {
