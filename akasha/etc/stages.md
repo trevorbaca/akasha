@@ -22,39 +22,39 @@ intro (8")
 [A] (72"):
   ```
   1-2 (2 + long fermata)
-  microtonal cello line;
+  microtonal cello line [B];
   long fermata;
 
   3-4 (1 + long fermata)
-  extremely thin get. pianiss.;
+  extremely thin get. pianiss. [A];
   long fermata;
 
   5-6 (2 + short fermata)
-  microtonal polyphony in multiple instruments with moments of harmony;
+  microtonal polyphony in multiple instruments with moments of harmony [B];
   short fermata;
 
   7-8 (1 + short fermata)
-  microtonal polyphony in multiple instruments with moments of harmony;
-  mixed with extremely thin get. pianiss.;
+  microtonal polyphony in multiple instruments with moments of harmony [B];
+  mixed with extremely thin get. pianiss. [A];
   short fermata;
 
   9-10 (3 + long fermata)
-  microtonal polyphony in multiple instruments with moments of harmony;
-  isolated three-note tasto loops;
+  microtonal polyphony in multiple instruments with moments of harmony [B];
+  isolated three-note tasto loops [C];
   long fermata;
 
   11-12 (1 + long fermata)
-  microtonal polyphony in multiple instruments with moments of harmony;
-  isolated three-note tasto loops;
+  microtonal polyphony in multiple instruments with moments of harmony [B];
+  isolated three-note tasto loops [C];
   long fermata;
 
   13-14 (1 + long fermata)
-  three-note tasto loops with first hint of repetition;
+  three-note tasto loops with first hint of repetition [C];
   long fermata;
 
   15-16 (1 + short fermata)
-  tasto loops broken apart;
-  dialogue with ext. thin get. pianiss.;
+  tasto loops broken apart [C];
+  dialogue with ext. thin get. pianiss. [A];
   short fermata;
   ```
 
