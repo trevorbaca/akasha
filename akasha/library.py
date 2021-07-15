@@ -96,7 +96,7 @@ def cello_solo_pitches(transposition=None):
     Makes cello solo pitches.
     """
     pitches = abjad.PitchSegment(
-        "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3" " E3 E-3 Eb3 Db3 C3 D3 F#3",
+        "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3 E3 E-3 Eb3 Db3 C3 D3 F#3",
         item_class=abjad.NamedPitch,
     )
     if transposition is not None:
@@ -283,6 +283,31 @@ def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf
     return baca.not_parts(command)
 
 
+def material_annotation_spanner(
+    string,
+    color,
+    tag,
+    staff_padding: abjad.Number,
+    *,
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
+    """
+    Makes material annotation spanner.
+    """
+    command = baca.material_annotation_spanner(
+        string,
+        abjad.tweak(color).color,
+        abjad.tweak(staff_padding).staff_padding,
+        measures=measures,
+        selector=selector,
+    )
+    tag = abjad.Tag(tag)
+    result = baca.tag(tag, command)
+    assert isinstance(result, baca.PiecewiseCommand)
+    return result
+
+
 def perforated_counts(*, degree=0, rotation=None):
     """
     Makes perforated counts.
@@ -388,7 +413,7 @@ def sparse_getato_rhythm(*commands, degree=1, extra_counts=[1], rotation=None):
 
 def time_signatures(series, count, rotation, *, fermata_measures=None):
     """
-    Makes time sigantures.
+    Makes time signatures.
     """
     series = time_signature_series[series]
     maker = baca.TimeSignatureMaker(
@@ -565,3 +590,98 @@ class ScoreTemplate(baca.ScoreTemplate):
         Gets voice abbreviations.
         """
         return super(ScoreTemplate, self).voice_abbreviations
+
+
+def A(
+    staff_padding: abjad.Number,
+    *,
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
+    """
+    Makes annotation spanner for material A.
+    """
+    return material_annotation_spanner(
+        "A =|",
+        "#darkred",
+        "MATERIAL:MATERIAL_A",
+        staff_padding,
+        measures=measures,
+        selector=selector,
+    )
+
+
+def B(
+    staff_padding: abjad.Number,
+    *,
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
+    """
+    Makes annotation spanner for material B.
+    """
+    return material_annotation_spanner(
+        "B =|",
+        "#blue",
+        "MATERIAL:MATERIAL_B",
+        staff_padding,
+        measures=measures,
+        selector=selector,
+    )
+
+
+def C(
+    staff_padding: abjad.Number,
+    *,
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
+    """
+    Makes annotation spanner for material C.
+    """
+    return material_annotation_spanner(
+        "C =|",
+        "#darkgreen",
+        "MATERIAL:MATERIAL_C",
+        staff_padding,
+        measures=measures,
+        selector=selector,
+    )
+
+
+def D(
+    staff_padding: abjad.Number,
+    *,
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
+    """
+    Makes annotation spanner for material D.
+    """
+    return material_annotation_spanner(
+        "D =|",
+        "#green",
+        "MATERIAL:MATERIAL_D",
+        staff_padding,
+        measures=measures,
+        selector=selector,
+    )
+
+
+def E(
+    staff_padding: abjad.Number,
+    *,
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
+    """
+    Makes annotation spanner for material E.
+    """
+    return material_annotation_spanner(
+        "E =|",
+        "#green",
+        "MATERIAL:MATERIAL_E",
+        staff_padding,
+        measures=measures,
+        selector=selector,
+    )

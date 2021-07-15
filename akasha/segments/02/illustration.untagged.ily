@@ -89,7 +89,6 @@ b_Global_Skips = {
     \bar ""
     \baca-time-signature-color #'blue
     s1 * 3/4
-    - \baca-rehearsal-mark-markup "A" #10
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
     - \abjad-dashed-line-with-arrow
@@ -324,6 +323,12 @@ b_Violin_I_Music_Voice = {
     - \tweak color #(x11-color 'blue)
     \mp
     ^ \baca-tasto-plus-half-scratch-markup
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     f'2
     - \tweak stencil ##f
@@ -351,6 +356,7 @@ b_Violin_I_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -366,6 +372,12 @@ b_Violin_I_Music_Voice = {
 
     % [02 Violin_I_Music_Voice measure 12 / measure 9]
     r1
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "A"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #darkred
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     \times 8/9
     {
@@ -414,6 +426,7 @@ b_Violin_I_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -429,6 +442,12 @@ b_Violin_I_Music_Voice = {
 
     % [02 Violin_I_Music_Voice measure 14 / measure 11]
     r1.
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "C"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #darkgreen
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
@@ -514,6 +533,7 @@ b_Violin_I_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -571,6 +591,12 @@ b_Violin_I_Music_Voice = {
         \override Staff.Stem.stemlet-length = 0.75
         e''16 * 241/32
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "C"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkgreen
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         r16 * 49/8
 
@@ -596,6 +622,7 @@ b_Violin_I_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -655,6 +682,12 @@ b_Violin_I_Music_Voice = {
         \override Staff.Stem.stemlet-length = 0.75
         e''16 * 113/64
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "C"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkgreen
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         r16 * 121/64
 
@@ -680,6 +713,7 @@ b_Violin_I_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -791,6 +825,12 @@ b_Violin_II_Music_Voice = {
         - \staccato
         ^ \akasha-leggierissimo-off-string-bowing-on-staccati-markup
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "A"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkred
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         b32
         - \staccato
@@ -831,6 +871,7 @@ b_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -846,6 +887,12 @@ b_Violin_II_Music_Voice = {
 
     % [02 Violin_II_Music_Voice measure 9 / measure 6]
     r2.
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     r4.
 
@@ -873,6 +920,7 @@ b_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -888,6 +936,12 @@ b_Violin_II_Music_Voice = {
 
     % [02 Violin_II_Music_Voice measure 12 / measure 9]
     r4
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     cs'!4.
 
@@ -902,6 +956,7 @@ b_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -917,6 +972,12 @@ b_Violin_II_Music_Voice = {
 
     % [02 Violin_II_Music_Voice measure 14 / measure 11]
     r1.
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "C"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #darkgreen
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
@@ -1000,6 +1061,7 @@ b_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1057,6 +1119,12 @@ b_Violin_II_Music_Voice = {
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 115/64
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "C"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkgreen
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         bf'!16 * 121/64
 
@@ -1084,6 +1152,7 @@ b_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1143,6 +1212,12 @@ b_Violin_II_Music_Voice = {
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 477/64
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "C"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkgreen
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         r16 * 353/64
 
@@ -1166,6 +1241,7 @@ b_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1223,6 +1299,12 @@ b_Violin_II_Music_Voice = {
         \override Staff.Stem.stemlet-length = 0.75
         bf'!16 * 13/8
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "C"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkgreen
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         c''16 * 125/64
 
@@ -1244,6 +1326,7 @@ b_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1343,6 +1426,12 @@ b_Viola_Music_Voice = {
 
     % [02 Viola_Music_Voice measure 7 / measure 4]
     r2.
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "A"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #darkred
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     \times 8/9
     {
@@ -1376,6 +1465,7 @@ b_Viola_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1391,6 +1481,12 @@ b_Viola_Music_Voice = {
 
     % [02 Viola_Music_Voice measure 9 / measure 6]
     r4
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     ef'!2
     - \tweak color #(x11-color 'blue)
@@ -1423,6 +1519,7 @@ b_Viola_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1438,6 +1535,12 @@ b_Viola_Music_Voice = {
 
     % [02 Viola_Music_Voice measure 12 / measure 9]
     r2
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     r8
 
@@ -1452,6 +1555,7 @@ b_Viola_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1467,6 +1571,12 @@ b_Viola_Music_Voice = {
 
     % [02 Viola_Music_Voice measure 14 / measure 11]
     d'2.
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
     - \tweak stencil ##f
     ~
 
@@ -1511,6 +1621,7 @@ b_Viola_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1526,6 +1637,12 @@ b_Viola_Music_Voice = {
 
     % [02 Viola_Music_Voice measure 18 / measure 15]
     ef'!4.
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     d'4.
     - \tweak stencil ##f
@@ -1543,6 +1660,7 @@ b_Viola_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1625,6 +1743,12 @@ b_Cello_Music_Voice = {
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
     ^ \baca-tasto-plus-half-scratch-markup
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-vc-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1652,6 +1776,7 @@ b_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1682,6 +1807,12 @@ b_Cello_Music_Voice = {
 
     % [02 Cello_Music_Voice measure 12 / measure 9]
     c'4
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     cqf'!4.
 
@@ -1696,6 +1827,7 @@ b_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1711,6 +1843,12 @@ b_Cello_Music_Voice = {
 
     % [02 Cello_Music_Voice measure 14 / measure 11]
     bf!2..
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     btqf!8
     - \tweak stencil ##f
@@ -1757,6 +1895,7 @@ b_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1772,6 +1911,12 @@ b_Cello_Music_Voice = {
 
     % [02 Cello_Music_Voice measure 18 / measure 15]
     a4
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     as!2
     - \tweak stencil ##f
@@ -1800,6 +1945,7 @@ b_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1821,6 +1967,12 @@ b_Cello_Music_Voice = {
 
     % [02 Cello_Music_Voice measure 22 / measure 19]
     r4
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "A"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #darkred
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
 
     \times 8/9
     {
@@ -1853,6 +2005,7 @@ b_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 

@@ -180,9 +180,6 @@ b_Global_Skips = {
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4
-    %! baca.rehearsal_mark()
-    %! baca.IndicatorCommand._call()
-    - \baca-rehearsal-mark-markup "A" #10
     %! LOCAL_MEASURE_NUMBER
     %! baca.SegmentMaker._label_measure_numbers()
     - \baca-start-lmn-left-only "1"
@@ -1238,6 +1235,55 @@ b_Violin_I_Music_Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-tasto-plus-half-scratch-markup
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     f'2
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -1296,6 +1342,13 @@ b_Violin_I_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -1327,6 +1380,55 @@ b_Violin_I_Music_Voice = {
     % [02 Violin_I_Music_Voice measure 12 / measure 9]
     %! akasha.sparse_getato_rhythm()
     r1
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "A"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #darkred
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     %! akasha.sparse_getato_rhythm()
     \times 8/9
@@ -1438,6 +1540,13 @@ b_Violin_I_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_A
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -1469,6 +1578,55 @@ b_Violin_I_Music_Voice = {
     % [02 Violin_I_Music_Voice measure 14 / measure 11]
     %! akasha.accelerando_rhythm()
     r1.
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "C"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #darkgreen
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
@@ -1641,6 +1799,13 @@ b_Violin_I_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_C
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -1721,6 +1886,55 @@ b_Violin_I_Music_Voice = {
         %@% ^ \baca-duration-multiplier-markup #"241" #"32"
         %! akasha.accelerando_rhythm()
         [
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \baca-text-spanner-left-text "C"
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! AUTODETECT
+        %! SPANNER_START
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak bound-details.right.padding 3.25
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak color #darkgreen
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak staff-padding 4
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
 
         %! akasha.accelerando_rhythm()
         r16 * 49/8
@@ -1792,6 +2006,13 @@ b_Violin_I_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_C
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -1874,6 +2095,55 @@ b_Violin_I_Music_Voice = {
         %@% ^ \baca-duration-multiplier-markup #"113" #"64"
         %! akasha.ritardando_rhythm()
         [
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \baca-text-spanner-left-text "C"
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! AUTODETECT
+        %! SPANNER_START
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak bound-details.right.padding 3.25
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak color #darkgreen
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak staff-padding 4
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
 
         %! akasha.ritardando_rhythm()
         r16 * 121/64
@@ -1945,6 +2215,13 @@ b_Violin_I_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_C
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -2263,6 +2540,55 @@ b_Violin_II_Music_Voice = {
         ^ \akasha-leggierissimo-off-string-bowing-on-staccati-markup
         %! rmakers.RewriteMeterCommand.__call__
         [
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_A
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_A
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \baca-text-spanner-left-text "A"
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_A
+        %! baca.PiecewiseCommand._call(2)
+        %! AUTODETECT
+        %! SPANNER_START
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_A
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak bound-details.right.padding 3.25
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_A
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak color #darkred
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_A
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak staff-padding 4
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_A
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
 
         %! akasha.sparse_getato_rhythm()
         b32
@@ -2349,6 +2675,13 @@ b_Violin_II_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_A
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -2380,6 +2713,55 @@ b_Violin_II_Music_Voice = {
     % [02 Violin_II_Music_Voice measure 9 / measure 6]
     %! akasha.polyphony_rhythm()
     r2.
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     r4.
 
@@ -2449,6 +2831,13 @@ b_Violin_II_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -2480,6 +2869,55 @@ b_Violin_II_Music_Voice = {
     % [02 Violin_II_Music_Voice measure 12 / measure 9]
     %! akasha.polyphony_rhythm()
     r4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     %! akasha.polyphony_rhythm()
     cs'!4.
@@ -2519,6 +2957,13 @@ b_Violin_II_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -2550,6 +2995,55 @@ b_Violin_II_Music_Voice = {
     % [02 Violin_II_Music_Voice measure 14 / measure 11]
     %! akasha.ritardando_rhythm()
     r1.
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "C"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #darkgreen
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_C
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
@@ -2716,6 +3210,13 @@ b_Violin_II_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_C
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -2796,6 +3297,55 @@ b_Violin_II_Music_Voice = {
         %@% ^ \baca-duration-multiplier-markup #"115" #"64"
         %! akasha.ritardando_rhythm()
         [
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \baca-text-spanner-left-text "C"
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! AUTODETECT
+        %! SPANNER_START
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak bound-details.right.padding 3.25
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak color #darkgreen
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak staff-padding 4
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
 
         %! akasha.ritardando_rhythm()
         bf'!16 * 121/64
@@ -2873,6 +3423,13 @@ b_Violin_II_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_C
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -2955,6 +3512,55 @@ b_Violin_II_Music_Voice = {
         %@% ^ \baca-duration-multiplier-markup #"477" #"64"
         %! akasha.accelerando_rhythm()
         [
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \baca-text-spanner-left-text "C"
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! AUTODETECT
+        %! SPANNER_START
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak bound-details.right.padding 3.25
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak color #darkgreen
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak staff-padding 4
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
 
         %! akasha.accelerando_rhythm()
         r16 * 353/64
@@ -3020,6 +3626,13 @@ b_Violin_II_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_C
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -3100,6 +3713,55 @@ b_Violin_II_Music_Voice = {
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
         %! akasha.ritardando_rhythm()
         [
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \baca-text-spanner-left-text "C"
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! AUTODETECT
+        %! SPANNER_START
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak bound-details.right.padding 3.25
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak color #darkgreen
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak staff-padding 4
+        %! baca.material_annotation_spanner()
+        %! MATERIAL_ANNOTATION_SPANNER
+        %! MATERIAL
+        %! MATERIAL_C
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
 
         %! akasha.ritardando_rhythm()
         c''16 * 125/64
@@ -3159,6 +3821,13 @@ b_Violin_II_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_C
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -3449,6 +4118,55 @@ b_Viola_Music_Voice = {
     % [02 Viola_Music_Voice measure 7 / measure 4]
     %! akasha.sparse_getato_rhythm()
     r2.
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "A"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #darkred
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     %! akasha.sparse_getato_rhythm()
     \times 8/9
@@ -3533,6 +4251,13 @@ b_Viola_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_A
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -3564,6 +4289,55 @@ b_Viola_Music_Voice = {
     % [02 Viola_Music_Voice measure 9 / measure 6]
     %! akasha.polyphony_rhythm()
     r4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     ef'!2
     %! EXPLICIT_DYNAMIC_COLOR
@@ -3640,6 +4414,13 @@ b_Viola_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -3671,6 +4452,55 @@ b_Viola_Music_Voice = {
     % [02 Viola_Music_Voice measure 12 / measure 9]
     %! akasha.polyphony_rhythm()
     r2
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     r8
 
@@ -3709,6 +4539,13 @@ b_Viola_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -3739,6 +4576,55 @@ b_Viola_Music_Voice = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [02 Viola_Music_Voice measure 14 / measure 11]
     d'2.
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -3824,6 +4710,13 @@ b_Viola_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -3855,6 +4748,55 @@ b_Viola_Music_Voice = {
     % [02 Viola_Music_Voice measure 18 / measure 15]
     %! akasha.polyphony_rhythm()
     ef'!4.
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     d'4.
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -3897,6 +4839,13 @@ b_Viola_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -4140,6 +5089,55 @@ b_Cello_Music_Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-tasto-plus-half-scratch-markup
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
     %! baca.SegmentMaker._attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -4207,6 +5205,13 @@ b_Cello_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -4278,6 +5283,55 @@ b_Cello_Music_Voice = {
     % [02 Cello_Music_Voice measure 12 / measure 9]
     %! akasha.polyphony_rhythm()
     c'4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     %! akasha.polyphony_rhythm()
     cqf'!4.
@@ -4317,6 +5371,13 @@ b_Cello_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -4348,6 +5409,55 @@ b_Cello_Music_Voice = {
     % [02 Cello_Music_Voice measure 14 / measure 11]
     %! akasha.polyphony_rhythm()
     bf!2..
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     btqf!8
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -4433,6 +5543,13 @@ b_Cello_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -4464,6 +5581,55 @@ b_Cello_Music_Voice = {
     % [02 Cello_Music_Voice measure 18 / measure 15]
     %! akasha.polyphony_rhythm()
     a4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "B"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #blue
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_B
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     as!2
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -4522,6 +5688,13 @@ b_Cello_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_B
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -4569,6 +5742,55 @@ b_Cello_Music_Voice = {
     % [02 Cello_Music_Voice measure 22 / measure 19]
     %! akasha.sparse_getato_rhythm()
     r4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "A"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 3.25
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak color #darkred
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak staff-padding 4
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! MATERIAL
+    %! MATERIAL_A
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     %! akasha.sparse_getato_rhythm()
     \times 8/9
@@ -4650,6 +5872,13 @@ b_Cello_Music_Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.material_annotation_spanner()
+            %! MATERIAL_ANNOTATION_SPANNER
+            %! MATERIAL
+            %! MATERIAL_A
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanMaterialAnnotation
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }

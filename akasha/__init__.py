@@ -2,6 +2,11 @@ import distutils.version
 import platform
 
 from .library import (
+    A,
+    B,
+    C,
+    D,
+    E,
     ScoreTemplate,
     accelerando_rhythm,
     cello_solo_pitches,
@@ -16,6 +21,7 @@ from .library import (
     manifest,
     margin_markup,
     margin_markups,
+    material_annotation_spanner,
     metronome_marks,
     perforated_counts,
     polyphony_rhythm,
@@ -29,6 +35,11 @@ from .library import (
 )
 
 __all__ = [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
     "ScoreTemplate",
     "getato_intervals",
     "instruments",
@@ -45,6 +56,7 @@ __all__ = [
     "harmonic_glissando_pitches",
     "manifest",
     "margin_markup",
+    "material_annotation_spanner",
     "perforated_counts",
     "polyphony_rhythm",
     "ritardando_rhythm",
