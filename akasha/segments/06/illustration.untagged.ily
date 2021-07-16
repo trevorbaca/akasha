@@ -140,7 +140,6 @@ f_Global_Skips = {
     \bar ""
     \baca-time-signature-color #'blue
     s1 * 1
-    - \baca-rehearsal-mark-markup "E" #10
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
     - \abjad-invisible-line

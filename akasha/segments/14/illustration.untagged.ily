@@ -102,7 +102,6 @@ n_Global_Skips = {
     \bar ""
     \baca-time-signature-color #'blue
     s1 * 5/4
-    - \baca-rehearsal-mark-markup "M" #10
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
     - \abjad-invisible-line
