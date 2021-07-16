@@ -20,7 +20,6 @@ maker = baca.SegmentMaker(
         0,
         fermata_measures=[3, 5, 8, 10, 14, 16, 18, 20],
     ),
-    validate_measure_count=20,
 )
 
 maker(

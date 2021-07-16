@@ -42,7 +42,6 @@ maker = baca.SegmentMaker(
         12,
         fermata_measures=[9, 18, 23, 32, 37, 42, 51],
     ),
-    validate_measure_count=51,
 )
 
 maker(

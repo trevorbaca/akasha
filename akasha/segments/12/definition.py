@@ -38,7 +38,6 @@ maker = baca.SegmentMaker(
     time_signatures=akasha.time_signatures(
         "B", 69, 24, fermata_measures=[29, 40, 46, 55, 69]
     ),
-    validate_measure_count=69,
 )
 
 maker(
