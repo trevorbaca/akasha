@@ -52,7 +52,6 @@ c_Global_Skips = {
     \bar ""
     \baca-time-signature-color #'blue
     s1 * 9/8
-    - \baca-rehearsal-mark-markup "B" #10
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
     - \abjad-invisible-line

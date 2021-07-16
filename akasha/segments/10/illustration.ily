@@ -241,9 +241,6 @@ j_Global_Skips = {
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/2
-    %! baca.rehearsal_mark()
-    %! baca.IndicatorCommand._call()
-    - \baca-rehearsal-mark-markup "I" #10
     %! LOCAL_MEASURE_NUMBER
     %! baca.SegmentMaker._label_measure_numbers()
     - \baca-start-lmn-left-only "1"
