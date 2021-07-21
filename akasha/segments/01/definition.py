@@ -82,3 +82,6 @@ maker(
         baca.start_markup("Cello", hcenter_in=14),
     ),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)
