@@ -1,3 +1,5 @@
+import pathlib
+
 import baca
 from abjadext import rmakers
 
@@ -35,7 +37,7 @@ maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    segment_directory=baca.Path(__file__).resolve().parent,
+    segment_directory=pathlib.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "A", 39, 6, fermata_measures=[2, 4, 6, 8, 39]

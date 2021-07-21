@@ -1,3 +1,5 @@
+import pathlib
+
 import abjad
 import baca
 from abjadext import rmakers
@@ -13,7 +15,7 @@ maker = baca.SegmentMaker(
         baca.tags.LOCAL_MEASURE_NUMBER,
     ],
     check_all_are_pitched=True,
-    segment_directory=baca.Path(__file__).resolve().parent,
+    segment_directory=pathlib.Path(__file__).resolve().parent,
     time_signatures=akasha.time_signatures(
         "A",
         20,
