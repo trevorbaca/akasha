@@ -14,7 +14,12 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     segment_directory=pathlib.Path(__file__).resolve().parent,
-    time_signatures=akasha.time_signatures("B", 3, 0, fermata_measures=[-1]),
+    time_signatures=akasha.time_signatures(
+        "B",
+        count=3,
+        fermata_measures=[-1],
+        rotation=0,
+    ),
 )
 
 maker(

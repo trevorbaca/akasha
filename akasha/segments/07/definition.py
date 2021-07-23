@@ -35,7 +35,10 @@ maker = baca.SegmentMaker(
     segment_directory=pathlib.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
-        "A", 48, 9, fermata_measures=[5, 7, 10, 35, 42, 44, 46, 48]
+        "A",
+        count=48,
+        fermata_measures=[5, 7, 10, 35, 42, 44, 46, 48],
+        rotation=9,
     ),
 )
 
@@ -165,6 +168,7 @@ maker(
         rmakers.force_rest(
             baca.selectors.lts([1, 6]),
         ),
+        fuse_counts=[1, 2],
     ),
 )
 

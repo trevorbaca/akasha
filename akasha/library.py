@@ -68,7 +68,7 @@ time_signature_series["B"] = groups
 # rhtyhms
 
 
-def accelerando_rhythm(*commands, fuse_counts=(1, 2), preprocessor=None):
+def accelerando_rhythm(*commands, fuse_counts=None, preprocessor=None):
     """
     Makes accelerando rhythm.
     """
@@ -411,7 +411,7 @@ def sparse_getato_rhythm(*commands, degree=1, extra_counts=[1], rotation=None):
     )
 
 
-def time_signatures(series, count, rotation, *, fermata_measures=None):
+def time_signatures(series, *, count=None, fermata_measures=None, rotation=None):
     """
     Makes time signatures.
     """
