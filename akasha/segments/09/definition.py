@@ -23,7 +23,12 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     segment_directory=pathlib.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
-    time_signatures=akasha.time_signatures("A", 7, 12, fermata_measures=[4, 7]),
+    time_signatures=akasha.time_signatures(
+        "A",
+        count=7,
+        fermata_measures=[4, 7],
+        rotation=12,
+    ),
 )
 
 maker(
@@ -54,7 +59,9 @@ maker(
 
 maker(
     ("v1", (1, 2)),
-    akasha.accelerando_rhythm(),
+    akasha.accelerando_rhythm(
+        fuse_counts=[1, 2],
+    ),
 )
 
 maker(

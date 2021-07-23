@@ -54,6 +54,8 @@ c_Global_Skips = {
     s1 * 9/8
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[03.1]"
+    \bacaStartTextSpanSNM
     - \abjad-invisible-line
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'green4
     \bacaStartTextSpanMM
@@ -77,8 +79,11 @@ c_Global_Skips = {
     \baca-time-signature-color #'blue
     s1 * 1
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "4"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[03.2]"
+    \bacaStartTextSpanSNM
 
     % [03 Global_Skips measure 28 / measure 5]
     \time 1/4
@@ -93,8 +98,11 @@ c_Global_Skips = {
     \baca-time-signature-color #'blue
     s1 * 3/8
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "6"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[03.4]"
+    \bacaStartTextSpanSNM
 
     % [03 Global_Skips measure 30 / measure 7]
     \time 1/4
@@ -109,8 +117,11 @@ c_Global_Skips = {
     \baca-time-signature-color #'blue
     s1 * 1/2
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "8"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[03.6]"
+    \bacaStartTextSpanSNM
 
     % [03 Global_Skips measure 32 / measure 9]
     \time 1/4
@@ -125,8 +136,11 @@ c_Global_Skips = {
     \baca-time-signature-color #'blue
     s1 * 7/8
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "10"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[03.8]"
+    \bacaStartTextSpanSNM
 
     % [03 Global_Skips measure 34 / measure 11]
     s1 * 7/8
@@ -139,6 +153,7 @@ c_Global_Skips = {
     \baca-time-signature-transparent
     s1 * 1/4
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     \bacaStopTextSpanMM
     \once \override Score.BarLine.transparent = ##t
     \once \override Score.SpanBar.transparent = ##t
@@ -209,6 +224,12 @@ c_Violin_I_Music_Voice = {
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "C"
+        - \tweak bound-details.right.padding 2.75
+        - \tweak color #darkgreen
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
         \set Staff.shortInstrumentName = \akasha-vn-i-markup
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -241,6 +262,7 @@ c_Violin_I_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -331,6 +353,12 @@ c_Violin_II_Music_Voice = {
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
     ^ \baca-tasto-plus-half-scratch-markup
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 2.75
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -364,6 +392,7 @@ c_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -439,6 +468,12 @@ c_Violin_II_Music_Voice = {
         \pp
         ^ \baca-tasto-plus-xfb-markup
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "C"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkgreen
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         bf'!16 * 209/32
 
@@ -466,6 +501,7 @@ c_Violin_II_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -513,6 +549,12 @@ c_Viola_Music_Voice = {
     \mp
     ^ \baca-reapplied-indicator-markup "[“Va.”]"
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "B"
+    - \tweak bound-details.right.padding 2.75
+    - \tweak color #blue
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-va-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -556,6 +598,7 @@ c_Viola_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -596,6 +639,12 @@ c_Viola_Music_Voice = {
     - \tweak color #darkcyan
     - \tweak staff-padding 8
     \bacaStartTextSpanRhythmAnnotation
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "D"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #green
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
@@ -607,6 +656,7 @@ c_Viola_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -657,6 +707,12 @@ c_Cello_Music_Voice = {
     \p
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "A"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #darkred
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-vc-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -833,6 +889,7 @@ c_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -853,6 +910,12 @@ c_Cello_Music_Voice = {
         fs!32
         - \staccato
         [
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "A"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkred
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         g32
         - \staccato
@@ -901,6 +964,7 @@ c_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -920,6 +984,12 @@ c_Cello_Music_Voice = {
         % [03 Cello_Music_Voice measure 31 / measure 8]
         d32
         - \staccato
+        - \abjad-dashed-line-with-hook
+        - \baca-text-spanner-left-text "A"
+        - \tweak bound-details.right.padding 3.25
+        - \tweak color #darkred
+        - \tweak staff-padding 4
+        \bacaStartTextSpanMaterialAnnotation
 
         r8
 
@@ -960,6 +1030,7 @@ c_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -987,6 +1058,12 @@ c_Cello_Music_Voice = {
     - \tweak color #darkcyan
     - \tweak staff-padding 8
     \bacaStartTextSpanRhythmAnnotation
+    - \abjad-dashed-line-with-hook
+    - \baca-text-spanner-left-text "D"
+    - \tweak bound-details.right.padding 3.25
+    - \tweak color #green
+    - \tweak staff-padding 4
+    \bacaStartTextSpanMaterialAnnotation
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
@@ -998,6 +1075,7 @@ c_Cello_Music_Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \bacaStopTextSpanMaterialAnnotation
 
         }
 

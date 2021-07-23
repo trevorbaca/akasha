@@ -18,9 +18,9 @@ maker = baca.SegmentMaker(
     segment_directory=pathlib.Path(__file__).resolve().parent,
     time_signatures=akasha.time_signatures(
         "A",
-        20,
-        0,
+        count=20,
         fermata_measures=[3, 5, 8, 10, 14, 16, 18, 20],
+        rotation=0,
     ),
 )
 
@@ -218,6 +218,7 @@ maker(
         rmakers.force_rest(
             baca.selectors.lts([3, 5, 7, 9]),
         ),
+        fuse_counts=[1, 2],
     ),
     baca.dynamic("pp"),
     baca.markup(
@@ -268,6 +269,7 @@ maker(
         rmakers.force_rest(
             baca.selectors.lts(omit=[0, 2, 3, -1]),
         ),
+        fuse_counts=[1, 2],
     ),
 )
 
@@ -323,6 +325,7 @@ maker(
         rmakers.force_rest(
             baca.selectors.lts(omit=[0, 2, -1]),
         ),
+        fuse_counts=[1, 2],
     ),
 )
 
