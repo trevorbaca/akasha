@@ -80,42 +80,42 @@ time signatures by segment:
   ```
   1-8 (4x: 1 + fermata)
   sputtering exposition of detuned va, vc octave with glissandi lentiss.;
-  start; fermata;
-  start; fermata;
-  start; fermata;
-  start; fermata;
+  start; fermata; [D]
+  start; fermata; [D]
+  start; fermata; [D]
+  start; fermata; [D]
 
   9 (4)
-  detuned va, vc octave grows quiet under long dim.;
-  vn1, vn2 OB on top of this;
+  detuned va, vc octave grows quiet under long dim. [D];
+  vn1, vn2 OB on top of this [E];
 
   10-11 (1 + fermata)
-  vn1, vn2 OB revealed after va, vc fall silent;
+  vn1, vn2 OB revealed after va, vc fall silent [E];
   fermata;
 
   12 (1)
-  recapitulation of get. pianiss. descent (vc) solo;
+  recapitulation of get. pianiss. descent (vc) solo [A];
   attaca;
 
   13 (1)
-  get. pianiss. descent interrupted by single scratch detache (va);
-  on top of this vn1, vn2 OB;
+  get. pianiss. descent interrupted by single scratch detache (va) [A];
+  on top of this vn1, vn2 OB [E];
   attaca;
 
   14-19 (3x: 1 + fermata)
-  vn1, vn2 OB start; fermata;
-  vn1, vn2 OB start; fermata;
-  vn1, vn2 OB start; fermata;
+  vn1, vn2 OB start; fermata; [E]
+  vn1, vn2 OB start; fermata; [E]
+  vn1, vn2 OB start; fermata; [E]
 
   20-21 (1 + fermata)
-  vn1, vn2 OB;
-  [va, vc two-voice microtonal harmonies recall previous segment];
+  vn1, vn2 OB [E];
+  [va, vc two-voice microtonal harmonies recall previous segment] [B?];
   fermata;
 
   22-24 (1 + 1 + long fermata)
-  vn1 OB for full stage;
-  vn2 plays first appearance of trill during second half of stage;
-  va, vc detuned octave diminuendo for full stage;
+  vn1 OB for full stage [E];
+  vn2 plays first appearance of trill during second half of stage [C];
+  va, vc detuned octave diminuendo for full stage [D];
   segment ends with question mark;
   long fermata;
   ```

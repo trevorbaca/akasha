@@ -65,13 +65,14 @@ _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
 groups = baca.Sequence(_time_signatures).partition_by_counts(lengths)
 time_signature_series["B"] = groups
 
-# rhtyhms
+# rhythms
 
 
 def accelerando_rhythm(*commands, fuse_counts=None, preprocessor=None):
     """
     Makes accelerando rhythm.
     """
+    fuse_counts = fuse_counts or []
     if preprocessor is None:
 
         def preprocessor(divisions):
