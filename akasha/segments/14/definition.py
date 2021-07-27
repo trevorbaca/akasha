@@ -35,7 +35,7 @@ maker = baca.SegmentMaker(
         count=29,
         fermata_measures=[-1],
         rotation=21,
-     ),
+    ),
 )
 
 maker(
