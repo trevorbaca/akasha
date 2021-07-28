@@ -1,7 +1,12 @@
 \version "2.23.1"
 \language "english"
 \include "../../stylesheet.ily"
-\include "illustration.ily"
+\include "music.ily"
+
+\header { composer = ##f poet = ##f title = ##f }
+\layout { indent = 0 }
+\paper { print-first-page-number = ##t }
+\paper { first-page-number = #11 }
 
 \score
 {
@@ -19,10 +24,10 @@
             <<
 
                 \context GlobalRests = "Global_Rests"
-                \a_Global_Rests
+                \g_Global_Rests
 
                 \context GlobalSkips = "Global_Skips"
-                \a_Global_Skips
+                \g_Global_Skips
 
             >>
 
@@ -34,19 +39,19 @@
 
                     \tag ViolinI
                     \context Staff = "Violin_I_Music_Staff"
-                    \a_Violin_I_Music_Staff
+                    \g_Violin_I_Music_Staff
 
                     \tag ViolinII
                     \context Staff = "Violin_II_Music_Staff"
-                    \a_Violin_II_Music_Staff
+                    \g_Violin_II_Music_Staff
 
                     \tag viola
                     \context Staff = "Viola_Music_Staff"
-                    \a_Viola_Music_Staff
+                    \g_Viola_Music_Staff
 
                     \tag cello
                     \context Staff = "Cello_Music_Staff"
-                    \a_Cello_Music_Staff
+                    \g_Cello_Music_Staff
 
                 >>
 
