@@ -4,7 +4,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-import akasha
+from akasha import library as akasha
 
 #########################################################################################
 ########################################### 03 ##########################################
