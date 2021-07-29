@@ -18,6 +18,7 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
+    score_template=akasha.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "A",
