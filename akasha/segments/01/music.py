@@ -1,5 +1,3 @@
-import pathlib
-
 import baca
 
 from akasha import library as akasha
