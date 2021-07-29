@@ -18,9 +18,9 @@
     <<
 
         \context PageLayout = "Page_Layout"
-        {   %*% Page_Layout
+        {   %*% b_Page_Layout
 
-            % [Page_Layout measure 4]
+            % [02 Page_Layout measure 4]
             \baca-new-spacing-section #1 #16
             \autoPageBreaksOff
             \noBreak
@@ -28,104 +28,104 @@
             \pageBreak
             s1 * 3/4
 
-            % [Page_Layout measure 5]
+            % [02 Page_Layout measure 5]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 3/4
 
-            % [Page_Layout measure 6]
+            % [02 Page_Layout measure 6]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 7]
+            % [02 Page_Layout measure 7]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 1
 
-            % [Page_Layout measure 8]
+            % [02 Page_Layout measure 8]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 9]
+            % [02 Page_Layout measure 9]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 5/4
 
-            % [Page_Layout measure 10]
+            % [02 Page_Layout measure 10]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 1
 
-            % [Page_Layout measure 11]
+            % [02 Page_Layout measure 11]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 12]
+            % [02 Page_Layout measure 12]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 3/2
 
-            % [Page_Layout measure 13]
+            % [02 Page_Layout measure 13]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 14]
+            % [02 Page_Layout measure 14]
             \baca-new-spacing-section #35 #384
             \noBreak
             s1 * 3/2
 
-            % [Page_Layout measure 15]
+            % [02 Page_Layout measure 15]
             \baca-new-spacing-section #1 #16
             \noBreak
             \baca-lbsd #140 #'(20 20)
             \break
             s1 * 3/2
 
-            % [Page_Layout measure 16]
+            % [02 Page_Layout measure 16]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 1
 
-            % [Page_Layout measure 17]
+            % [02 Page_Layout measure 17]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 18]
+            % [02 Page_Layout measure 18]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 3/2
 
-            % [Page_Layout measure 19]
+            % [02 Page_Layout measure 19]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 20]
+            % [02 Page_Layout measure 20]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 5/4
 
-            % [Page_Layout measure 21]
+            % [02 Page_Layout measure 21]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 22]
+            % [02 Page_Layout measure 22]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 3/4
 
-            % [Page_Layout measure 23]
+            % [02 Page_Layout measure 23]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 24]
+            % [02 Page_Layout measure 24]
             \baca-new-spacing-section #1 #4
             \noBreak
             \baca-time-signature-transparent
@@ -133,7 +133,7 @@
             \once \override Score.BarLine.transparent = ##t
             \once \override Score.SpanBar.transparent = ##t
 
-        }   %*% Page_Layout
+        }   %*% b_Page_Layout
 
     >>
 

@@ -17,9 +17,9 @@
     <<
 
         \context PageLayout = "Page_Layout"
-        {   %*% Page_Layout
+        {   %*% m_Page_Layout
 
-            % [Page_Layout measure 334]
+            % [13 Page_Layout measure 334]
             \baca-new-spacing-section #1 #16
             \autoPageBreaksOff
             \noBreak
@@ -27,32 +27,32 @@
             \pageBreak
             s1 * 1
 
-            % [Page_Layout measure 335]
+            % [13 Page_Layout measure 335]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 336]
+            % [13 Page_Layout measure 336]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 3/2
 
-            % [Page_Layout measure 337]
+            % [13 Page_Layout measure 337]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [Page_Layout measure 338]
+            % [13 Page_Layout measure 338]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 3/2
 
-            % [Page_Layout measure 339]
+            % [13 Page_Layout measure 339]
             \baca-new-spacing-section #1 #16
             \noBreak
             s1 * 3/4
 
-            % [Page_Layout measure 340]
+            % [13 Page_Layout measure 340]
             \baca-new-spacing-section #1 #4
             \noBreak
             \baca-time-signature-transparent
@@ -60,7 +60,7 @@
             \once \override Score.BarLine.transparent = ##t
             \once \override Score.SpanBar.transparent = ##t
 
-        }   %*% Page_Layout
+        }   %*% m_Page_Layout
 
     >>
 
