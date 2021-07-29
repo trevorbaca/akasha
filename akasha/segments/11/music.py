@@ -17,7 +17,6 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
-    segment_directory=pathlib.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "A",
