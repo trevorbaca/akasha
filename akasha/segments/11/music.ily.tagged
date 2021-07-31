@@ -2,22 +2,22 @@
 k_Global_Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Global_Rests measure 261 / measure 1]
+    % [Global_Rests measure 261 / measure 1]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Global_Rests measure 262 / measure 2]
+    % [Global_Rests measure 262 / measure 2]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Global_Rests measure 263 / measure 3]
+    % [Global_Rests measure 263 / measure 3]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Global_Rests measure 264 / measure 4]
+    % [Global_Rests measure 264 / measure 4]
     %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
     \baca-fermata-measure
@@ -30,7 +30,7 @@ k_Global_Rests = {
     %! baca.SegmentMaker._comment_measure_numbers()
     %! baca.SegmentMaker._style_phantom_measures(4)
     %! PHANTOM
-    % [11 Global_Rests measure 265 / measure 5]
+    % [Global_Rests measure 265 / measure 5]
     %! baca.SegmentMaker._make_global_rests(2)
     %! PHANTOM
     R1 * 1/4
@@ -44,7 +44,7 @@ k_Global_Rests = {
 k_Global_Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Global_Skips measure 261 / measure 1]
+    % [Global_Skips measure 261 / measure 1]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -108,7 +108,7 @@ k_Global_Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Global_Skips measure 262 / measure 2]
+    % [Global_Skips measure 262 / measure 2]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -147,7 +147,7 @@ k_Global_Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Global_Skips measure 263 / measure 3]
+    % [Global_Skips measure 263 / measure 3]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/2
     %! LOCAL_MEASURE_NUMBER
@@ -179,7 +179,7 @@ k_Global_Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Global_Skips measure 264 / measure 4]
+    % [Global_Skips measure 264 / measure 4]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -220,7 +220,7 @@ k_Global_Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     %! baca.SegmentMaker._style_phantom_measures(1)
     %! PHANTOM
-    % [11 Global_Skips measure 265 / measure 5]
+    % [Global_Skips measure 265 / measure 5]
     %! baca.SegmentMaker._style_phantom_measures(2)
     %! PHANTOM
     \baca-time-signature-transparent
@@ -276,7 +276,7 @@ k_Violin_I_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Violin_I_Music_Voice measure 261 / measure 1]
+            % [Violin_I_Music_Voice measure 261 / measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -388,7 +388,7 @@ k_Violin_I_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Violin_I_Rest_Voice measure 261 / measure 1]
+            % [Violin_I_Rest_Voice measure 261 / measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -413,7 +413,7 @@ k_Violin_I_Music_Voice = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [11 Violin_I_Music_Voice measure 262 / measure 2]
+        % [Violin_I_Music_Voice measure 262 / measure 2]
         %! akasha.scratch_rhythm()
         f'4
 
@@ -437,7 +437,7 @@ k_Violin_I_Music_Voice = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [11 Violin_I_Music_Voice measure 263 / measure 3]
+        % [Violin_I_Music_Voice measure 263 / measure 3]
         %! akasha.scratch_rhythm()
         fs'!4
 
@@ -462,7 +462,7 @@ k_Violin_I_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Violin_I_Music_Voice measure 264 / measure 4]
+            % [Violin_I_Music_Voice measure 264 / measure 4]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -495,7 +495,7 @@ k_Violin_I_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Violin_I_Rest_Voice measure 264 / measure 4]
+            % [Violin_I_Rest_Voice measure 264 / measure 4]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -526,7 +526,7 @@ k_Violin_I_Music_Voice = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [11 Violin_I_Music_Voice measure 265 / measure 5]
+            % [Violin_I_Music_Voice measure 265 / measure 5]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -566,7 +566,7 @@ k_Violin_I_Music_Voice = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [11 Violin_I_Rest_Voice measure 265 / measure 5]
+            % [Violin_I_Rest_Voice measure 265 / measure 5]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -633,7 +633,7 @@ k_Violin_II_Music_Voice = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [11 Violin_II_Music_Voice measure 261 / measure 1]
+        % [Violin_II_Music_Voice measure 261 / measure 1]
         %! -PARTS
         %! baca.SegmentMaker._reapply_persistent_indicators(3)
         %! baca.SegmentMaker._set_status_tag()
@@ -740,7 +740,7 @@ k_Violin_II_Music_Voice = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [11 Violin_II_Music_Voice measure 262 / measure 2]
+        % [Violin_II_Music_Voice measure 262 / measure 2]
         %! akasha.scratch_rhythm()
         r4
 
@@ -767,7 +767,7 @@ k_Violin_II_Music_Voice = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [11 Violin_II_Music_Voice measure 263 / measure 3]
+        % [Violin_II_Music_Voice measure 263 / measure 3]
         %! akasha.scratch_rhythm()
         r4
 
@@ -801,7 +801,7 @@ k_Violin_II_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Violin_II_Music_Voice measure 264 / measure 4]
+            % [Violin_II_Music_Voice measure 264 / measure 4]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -834,7 +834,7 @@ k_Violin_II_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Violin_II_Rest_Voice measure 264 / measure 4]
+            % [Violin_II_Rest_Voice measure 264 / measure 4]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -865,7 +865,7 @@ k_Violin_II_Music_Voice = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [11 Violin_II_Music_Voice measure 265 / measure 5]
+            % [Violin_II_Music_Voice measure 265 / measure 5]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -905,7 +905,7 @@ k_Violin_II_Music_Voice = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [11 Violin_II_Rest_Voice measure 265 / measure 5]
+            % [Violin_II_Rest_Voice measure 265 / measure 5]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -965,7 +965,7 @@ k_Violin_II_Music_Staff = {
 k_Viola_Music_Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Viola_Music_Voice measure 261 / measure 1]
+    % [Viola_Music_Voice measure 261 / measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -1041,7 +1041,7 @@ k_Viola_Music_Voice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Viola_Music_Voice measure 262 / measure 2]
+    % [Viola_Music_Voice measure 262 / measure 2]
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 6/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1049,7 +1049,7 @@ k_Viola_Music_Voice = {
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Viola_Music_Voice measure 263 / measure 3]
+    % [Viola_Music_Voice measure 263 / measure 3]
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 6/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1057,7 +1057,7 @@ k_Viola_Music_Voice = {
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [11 Viola_Music_Voice measure 264 / measure 4]
+    % [Viola_Music_Voice measure 264 / measure 4]
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 1/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1078,7 +1078,7 @@ k_Viola_Music_Voice = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [11 Viola_Music_Voice measure 265 / measure 5]
+            % [Viola_Music_Voice measure 265 / measure 5]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -1118,7 +1118,7 @@ k_Viola_Music_Voice = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [11 Viola_Rest_Voice measure 265 / measure 5]
+            % [Viola_Rest_Voice measure 265 / measure 5]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -1185,7 +1185,7 @@ k_Cello_Music_Voice = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [11 Cello_Music_Voice measure 261 / measure 1]
+        % [Cello_Music_Voice measure 261 / measure 1]
         %! -PARTS
         %! baca.SegmentMaker._reapply_persistent_indicators(3)
         %! baca.SegmentMaker._set_status_tag()
@@ -1296,7 +1296,7 @@ k_Cello_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Cello_Music_Voice measure 262 / measure 2]
+            % [Cello_Music_Voice measure 262 / measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -1329,7 +1329,7 @@ k_Cello_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Cello_Rest_Voice measure 262 / measure 2]
+            % [Cello_Rest_Voice measure 262 / measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -1354,7 +1354,7 @@ k_Cello_Music_Voice = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [11 Cello_Music_Voice measure 263 / measure 3]
+        % [Cello_Music_Voice measure 263 / measure 3]
         %! akasha.scratch_rhythm()
         r4
 
@@ -1382,7 +1382,7 @@ k_Cello_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Cello_Music_Voice measure 264 / measure 4]
+            % [Cello_Music_Voice measure 264 / measure 4]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -1415,7 +1415,7 @@ k_Cello_Music_Voice = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [11 Cello_Rest_Voice measure 264 / measure 4]
+            % [Cello_Rest_Voice measure 264 / measure 4]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -1446,7 +1446,7 @@ k_Cello_Music_Voice = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [11 Cello_Music_Voice measure 265 / measure 5]
+            % [Cello_Music_Voice measure 265 / measure 5]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -1486,7 +1486,7 @@ k_Cello_Music_Voice = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [11 Cello_Rest_Voice measure 265 / measure 5]
+            % [Cello_Rest_Voice measure 265 / measure 5]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f

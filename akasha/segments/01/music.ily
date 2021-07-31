@@ -1,17 +1,17 @@
 a_Global_Rests = {
 
-    % [01 Global_Rests measure 1]
+    % [Global_Rests measure 1]
     R1 * 3/8
 
-    % [01 Global_Rests measure 2]
+    % [Global_Rests measure 2]
     R1 * 3/4
 
-    % [01 Global_Rests measure 3]
+    % [Global_Rests measure 3]
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-very-long-fermata-markup
 
-    % [01 Global_Rests measure 4]
+    % [Global_Rests measure 4]
     R1 * 1/4
 
 }
@@ -19,7 +19,7 @@ a_Global_Rests = {
 
 a_Global_Skips = {
 
-    % [01 Global_Skips measure 1]
+    % [Global_Skips measure 1]
     \time 3/8
     \baca-time-signature-color #'blue
     s1 * 3/8
@@ -29,7 +29,7 @@ a_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
     \bacaStartTextSpanMM
 
-    % [01 Global_Skips measure 2]
+    % [Global_Skips measure 2]
     \time 6/8
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -37,7 +37,7 @@ a_Global_Skips = {
     - \baca-start-lmn-left-only "2"
     \bacaStartTextSpanLMN
 
-    % [01 Global_Skips measure 3]
+    % [Global_Skips measure 3]
     \time 1/4
     \baca-time-signature-color #'blue
     s1 * 1/4
@@ -45,7 +45,7 @@ a_Global_Skips = {
     - \baca-start-lmn-left-only "3"
     \bacaStartTextSpanLMN
 
-    % [01 Global_Skips measure 4]
+    % [Global_Skips measure 4]
     \baca-time-signature-transparent
     s1 * 1/4
     \bacaStopTextSpanLMN
@@ -58,7 +58,7 @@ a_Global_Skips = {
 
 a_Violin_I_Music_Voice = {
 
-    % [01 Violin_I_Music_Voice measure 1]
+    % [Violin_I_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
@@ -77,10 +77,10 @@ a_Violin_I_Music_Voice = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \akasha-vn-i-markup
 
-    % [01 Violin_I_Music_Voice measure 2]
+    % [Violin_I_Music_Voice measure 2]
     R1 * 6/8
 
-    % [01 Violin_I_Music_Voice measure 3]
+    % [Violin_I_Music_Voice measure 3]
     R1 * 1/4
 
     <<
@@ -88,7 +88,7 @@ a_Violin_I_Music_Voice = {
         \context Voice = "Violin_I_Music_Voice"
         {
 
-            % [01 Violin_I_Music_Voice measure 4]
+            % [Violin_I_Music_Voice measure 4]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -97,7 +97,7 @@ a_Violin_I_Music_Voice = {
         \context Voice = "Violin_I_Rest_Voice"
         {
 
-            % [01 Violin_I_Rest_Voice measure 4]
+            % [Violin_I_Rest_Voice measure 4]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -122,7 +122,7 @@ a_Violin_I_Music_Staff = {
 
 a_Violin_II_Music_Voice = {
 
-    % [01 Violin_II_Music_Voice measure 1]
+    % [Violin_II_Music_Voice measure 1]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -140,10 +140,10 @@ a_Violin_II_Music_Voice = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
 
-    % [01 Violin_II_Music_Voice measure 2]
+    % [Violin_II_Music_Voice measure 2]
     R1 * 6/8
 
-    % [01 Violin_II_Music_Voice measure 3]
+    % [Violin_II_Music_Voice measure 3]
     R1 * 1/4
 
     <<
@@ -151,7 +151,7 @@ a_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Music_Voice"
         {
 
-            % [01 Violin_II_Music_Voice measure 4]
+            % [Violin_II_Music_Voice measure 4]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -160,7 +160,7 @@ a_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Rest_Voice"
         {
 
-            % [01 Violin_II_Rest_Voice measure 4]
+            % [Violin_II_Rest_Voice measure 4]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -185,7 +185,7 @@ a_Violin_II_Music_Staff = {
 
 a_Viola_Music_Voice = {
 
-    % [01 Viola_Music_Voice measure 1]
+    % [Viola_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \akasha-va-markup
     \set Staff.instrumentName = \markup \hcenter-in #14 "Viola"
     \stopStaff
@@ -215,7 +215,7 @@ a_Viola_Music_Voice = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \akasha-va-markup
 
-    % [01 Viola_Music_Voice measure 2]
+    % [Viola_Music_Voice measure 2]
     c'2.
     \repeatTie
     <> \bacaStopTextSpanRhythmAnnotation
@@ -225,7 +225,7 @@ a_Viola_Music_Voice = {
         \context Voice = "Viola_Music_Voice"
         {
 
-            % [01 Viola_Music_Voice measure 3]
+            % [Viola_Music_Voice measure 3]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -235,7 +235,7 @@ a_Viola_Music_Voice = {
         \context Voice = "Viola_Rest_Voice"
         {
 
-            % [01 Viola_Rest_Voice measure 3]
+            % [Viola_Rest_Voice measure 3]
             R1 * 1/4
 
         }
@@ -247,7 +247,7 @@ a_Viola_Music_Voice = {
         \context Voice = "Viola_Music_Voice"
         {
 
-            % [01 Viola_Music_Voice measure 4]
+            % [Viola_Music_Voice measure 4]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -256,7 +256,7 @@ a_Viola_Music_Voice = {
         \context Voice = "Viola_Rest_Voice"
         {
 
-            % [01 Viola_Rest_Voice measure 4]
+            % [Viola_Rest_Voice measure 4]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -281,7 +281,7 @@ a_Viola_Music_Staff = {
 
 a_Cello_Music_Voice = {
 
-    % [01 Cello_Music_Voice measure 1]
+    % [Cello_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
@@ -300,10 +300,10 @@ a_Cello_Music_Voice = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \akasha-vc-markup
 
-    % [01 Cello_Music_Voice measure 2]
+    % [Cello_Music_Voice measure 2]
     R1 * 6/8
 
-    % [01 Cello_Music_Voice measure 3]
+    % [Cello_Music_Voice measure 3]
     R1 * 1/4
 
     <<
@@ -311,7 +311,7 @@ a_Cello_Music_Voice = {
         \context Voice = "Cello_Music_Voice"
         {
 
-            % [01 Cello_Music_Voice measure 4]
+            % [Cello_Music_Voice measure 4]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -320,7 +320,7 @@ a_Cello_Music_Voice = {
         \context Voice = "Cello_Rest_Voice"
         {
 
-            % [01 Cello_Rest_Voice measure 4]
+            % [Cello_Rest_Voice measure 4]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
