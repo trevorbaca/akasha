@@ -1,83 +1,83 @@
 o_Global_Rests = {
 
-    % [15 Global_Rests measure 369 / measure 1]
+    % [Global_Rests measure 369 / measure 1]
     R1 * 3/8
 
-    % [15 Global_Rests measure 370 / measure 2]
+    % [Global_Rests measure 370 / measure 2]
     R1 * 1/2
 
-    % [15 Global_Rests measure 371 / measure 3]
+    % [Global_Rests measure 371 / measure 3]
     R1 * 7/8
 
-    % [15 Global_Rests measure 372 / measure 4]
+    % [Global_Rests measure 372 / measure 4]
     R1 * 7/8
 
-    % [15 Global_Rests measure 373 / measure 5]
+    % [Global_Rests measure 373 / measure 5]
     R1 * 3/8
 
-    % [15 Global_Rests measure 374 / measure 6]
+    % [Global_Rests measure 374 / measure 6]
     R1 * 3/4
 
-    % [15 Global_Rests measure 375 / measure 7]
+    % [Global_Rests measure 375 / measure 7]
     R1 * 9/8
 
-    % [15 Global_Rests measure 376 / measure 8]
+    % [Global_Rests measure 376 / measure 8]
     R1 * 9/8
 
-    % [15 Global_Rests measure 377 / measure 9]
+    % [Global_Rests measure 377 / measure 9]
     R1 * 1/2
 
-    % [15 Global_Rests measure 378 / measure 10]
+    % [Global_Rests measure 378 / measure 10]
     R1 * 1
 
-    % [15 Global_Rests measure 379 / measure 11]
+    % [Global_Rests measure 379 / measure 11]
     R1 * 3/4
 
-    % [15 Global_Rests measure 380 / measure 12]
+    % [Global_Rests measure 380 / measure 12]
     R1 * 7/8
 
-    % [15 Global_Rests measure 381 / measure 13]
+    % [Global_Rests measure 381 / measure 13]
     R1 * 7/8
 
-    % [15 Global_Rests measure 382 / measure 14]
+    % [Global_Rests measure 382 / measure 14]
     R1 * 3/8
 
-    % [15 Global_Rests measure 383 / measure 15]
+    % [Global_Rests measure 383 / measure 15]
     R1 * 1
 
-    % [15 Global_Rests measure 384 / measure 16]
+    % [Global_Rests measure 384 / measure 16]
     R1 * 9/8
 
-    % [15 Global_Rests measure 385 / measure 17]
+    % [Global_Rests measure 385 / measure 17]
     R1 * 9/8
 
-    % [15 Global_Rests measure 386 / measure 18]
+    % [Global_Rests measure 386 / measure 18]
     R1 * 1/2
 
-    % [15 Global_Rests measure 387 / measure 19]
+    % [Global_Rests measure 387 / measure 19]
     R1 * 1/2
 
-    % [15 Global_Rests measure 388 / measure 20]
+    % [Global_Rests measure 388 / measure 20]
     R1 * 3/8
 
-    % [15 Global_Rests measure 389 / measure 21]
+    % [Global_Rests measure 389 / measure 21]
     R1 * 1/2
 
-    % [15 Global_Rests measure 390 / measure 22]
+    % [Global_Rests measure 390 / measure 22]
     R1 * 1
 
-    % [15 Global_Rests measure 391 / measure 23]
+    % [Global_Rests measure 391 / measure 23]
     R1 * 9/8
 
-    % [15 Global_Rests measure 392 / measure 24]
+    % [Global_Rests measure 392 / measure 24]
     R1 * 9/8
 
-    % [15 Global_Rests measure 393 / measure 25]
+    % [Global_Rests measure 393 / measure 25]
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-very-long-fermata-markup
 
-    % [15 Global_Rests measure 394 / measure 26]
+    % [Global_Rests measure 394 / measure 26]
     R1 * 1/4
 
 }
@@ -85,7 +85,7 @@ o_Global_Rests = {
 
 o_Global_Skips = {
 
-    % [15 Global_Skips measure 369 / measure 1]
+    % [Global_Skips measure 369 / measure 1]
     \time 3/8
     \bar ""
     \baca-time-signature-color #'blue
@@ -98,7 +98,7 @@ o_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "89" #'blue
     \bacaStartTextSpanMM
 
-    % [15 Global_Skips measure 370 / measure 2]
+    % [Global_Skips measure 370 / measure 2]
     \time 4/8
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -106,7 +106,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "2"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 371 / measure 3]
+    % [Global_Skips measure 371 / measure 3]
     \time 7/8
     \baca-time-signature-color #'blue
     s1 * 7/8
@@ -114,13 +114,13 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "3"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 372 / measure 4]
+    % [Global_Skips measure 372 / measure 4]
     s1 * 7/8
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "4"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 373 / measure 5]
+    % [Global_Skips measure 373 / measure 5]
     \time 3/8
     \baca-time-signature-color #'blue
     s1 * 3/8
@@ -128,7 +128,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "5"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 374 / measure 6]
+    % [Global_Skips measure 374 / measure 6]
     \time 6/8
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -136,7 +136,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "6"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 375 / measure 7]
+    % [Global_Skips measure 375 / measure 7]
     \time 9/8
     \baca-time-signature-color #'blue
     s1 * 9/8
@@ -144,13 +144,13 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "7"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 376 / measure 8]
+    % [Global_Skips measure 376 / measure 8]
     s1 * 9/8
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "8"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 377 / measure 9]
+    % [Global_Skips measure 377 / measure 9]
     \time 4/8
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -158,7 +158,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "9"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 378 / measure 10]
+    % [Global_Skips measure 378 / measure 10]
     \time 8/8
     \baca-time-signature-color #'blue
     s1 * 1
@@ -166,7 +166,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "10"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 379 / measure 11]
+    % [Global_Skips measure 379 / measure 11]
     \time 6/8
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -174,7 +174,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "11"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 380 / measure 12]
+    % [Global_Skips measure 380 / measure 12]
     \time 7/8
     \baca-time-signature-color #'blue
     s1 * 7/8
@@ -182,13 +182,13 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "12"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 381 / measure 13]
+    % [Global_Skips measure 381 / measure 13]
     s1 * 7/8
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "13"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 382 / measure 14]
+    % [Global_Skips measure 382 / measure 14]
     \time 3/8
     \baca-time-signature-color #'blue
     s1 * 3/8
@@ -196,7 +196,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "14"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 383 / measure 15]
+    % [Global_Skips measure 383 / measure 15]
     \time 8/8
     \baca-time-signature-color #'blue
     s1 * 1
@@ -204,7 +204,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "15"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 384 / measure 16]
+    % [Global_Skips measure 384 / measure 16]
     \time 9/8
     \baca-time-signature-color #'blue
     s1 * 9/8
@@ -212,13 +212,13 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "16"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 385 / measure 17]
+    % [Global_Skips measure 385 / measure 17]
     s1 * 9/8
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "17"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 386 / measure 18]
+    % [Global_Skips measure 386 / measure 18]
     \time 4/8
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -226,13 +226,13 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "18"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 387 / measure 19]
+    % [Global_Skips measure 387 / measure 19]
     s1 * 1/2
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "19"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 388 / measure 20]
+    % [Global_Skips measure 388 / measure 20]
     \time 3/8
     \baca-time-signature-color #'blue
     s1 * 3/8
@@ -240,7 +240,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "20"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 389 / measure 21]
+    % [Global_Skips measure 389 / measure 21]
     \time 4/8
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -248,7 +248,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "21"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 390 / measure 22]
+    % [Global_Skips measure 390 / measure 22]
     \time 8/8
     \baca-time-signature-color #'blue
     s1 * 1
@@ -256,7 +256,7 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "22"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 391 / measure 23]
+    % [Global_Skips measure 391 / measure 23]
     \time 9/8
     \baca-time-signature-color #'blue
     s1 * 9/8
@@ -264,13 +264,13 @@ o_Global_Skips = {
     - \baca-start-lmn-left-only "23"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 392 / measure 24]
+    % [Global_Skips measure 392 / measure 24]
     s1 * 9/8
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "24"
     \bacaStartTextSpanLMN
 
-    % [15 Global_Skips measure 393 / measure 25]
+    % [Global_Skips measure 393 / measure 25]
     \time 1/4
     \baca-time-signature-color #'blue
     s1 * 1/4
@@ -279,7 +279,7 @@ o_Global_Skips = {
     \bacaStartTextSpanLMN
     \bar "|."
 
-    % [15 Global_Skips measure 394 / measure 26]
+    % [Global_Skips measure 394 / measure 26]
     \baca-time-signature-transparent
     s1 * 1/4
     \bacaStopTextSpanLMN
@@ -292,7 +292,7 @@ o_Global_Skips = {
 
 o_Violin_I_Music_Voice = {
 
-    % [15 Violin_I_Music_Voice measure 369 / measure 1]
+    % [Violin_I_Music_Voice measure 369 / measure 1]
     \set Staff.shortInstrumentName = \akasha-vn-i-markup
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     \stopStaff
@@ -323,24 +323,24 @@ o_Violin_I_Music_Voice = {
     \set Staff.shortInstrumentName = \akasha-vn-i-markup
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [15 Violin_I_Music_Voice measure 370 / measure 2]
+    % [Violin_I_Music_Voice measure 370 / measure 2]
     r2
 
-    % [15 Violin_I_Music_Voice measure 371 / measure 3]
+    % [Violin_I_Music_Voice measure 371 / measure 3]
     c'2..
     - \upbow
 
-    % [15 Violin_I_Music_Voice measure 372 / measure 4]
+    % [Violin_I_Music_Voice measure 372 / measure 4]
     r2..
 
-    % [15 Violin_I_Music_Voice measure 373 / measure 5]
+    % [Violin_I_Music_Voice measure 373 / measure 5]
     c'4.
     - \downbow
 
-    % [15 Violin_I_Music_Voice measure 374 / measure 6]
+    % [Violin_I_Music_Voice measure 374 / measure 6]
     r2.
 
-    % [15 Violin_I_Music_Voice measure 375 / measure 7]
+    % [Violin_I_Music_Voice measure 375 / measure 7]
     c'2.
     - \upbow
     - \tweak stencil ##f
@@ -349,37 +349,37 @@ o_Violin_I_Music_Voice = {
     c'4.
     \repeatTie
 
-    % [15 Violin_I_Music_Voice measure 376 / measure 8]
+    % [Violin_I_Music_Voice measure 376 / measure 8]
     r2.
 
     r4.
 
-    % [15 Violin_I_Music_Voice measure 377 / measure 9]
+    % [Violin_I_Music_Voice measure 377 / measure 9]
     c'2
     - \downbow
 
-    % [15 Violin_I_Music_Voice measure 378 / measure 10]
+    % [Violin_I_Music_Voice measure 378 / measure 10]
     r1
 
-    % [15 Violin_I_Music_Voice measure 379 / measure 11]
+    % [Violin_I_Music_Voice measure 379 / measure 11]
     c'2.
     - \upbow
 
-    % [15 Violin_I_Music_Voice measure 380 / measure 12]
+    % [Violin_I_Music_Voice measure 380 / measure 12]
     r2..
 
-    % [15 Violin_I_Music_Voice measure 381 / measure 13]
+    % [Violin_I_Music_Voice measure 381 / measure 13]
     c'2..
     - \downbow
 
-    % [15 Violin_I_Music_Voice measure 382 / measure 14]
+    % [Violin_I_Music_Voice measure 382 / measure 14]
     r4.
 
-    % [15 Violin_I_Music_Voice measure 383 / measure 15]
+    % [Violin_I_Music_Voice measure 383 / measure 15]
     c'1
     - \upbow
 
-    % [15 Violin_I_Music_Voice measure 384 / measure 16]
+    % [Violin_I_Music_Voice measure 384 / measure 16]
     r2.
 
     r4.
@@ -390,7 +390,7 @@ o_Violin_I_Music_Voice = {
         \context Voice = "Violin_I_Music_Voice"
         {
 
-            % [15 Violin_I_Music_Voice measure 385 / measure 17]
+            % [Violin_I_Music_Voice measure 385 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 9/8
@@ -400,35 +400,35 @@ o_Violin_I_Music_Voice = {
         \context Voice = "Violin_I_Rest_Voice"
         {
 
-            % [15 Violin_I_Rest_Voice measure 385 / measure 17]
+            % [Violin_I_Rest_Voice measure 385 / measure 17]
             R1 * 9/8
 
         }
 
     >>
 
-    % [15 Violin_I_Music_Voice measure 386 / measure 18]
+    % [Violin_I_Music_Voice measure 386 / measure 18]
     R1 * 1/2
 
-    % [15 Violin_I_Music_Voice measure 387 / measure 19]
+    % [Violin_I_Music_Voice measure 387 / measure 19]
     R1 * 1/2
 
-    % [15 Violin_I_Music_Voice measure 388 / measure 20]
+    % [Violin_I_Music_Voice measure 388 / measure 20]
     R1 * 3/8
 
-    % [15 Violin_I_Music_Voice measure 389 / measure 21]
+    % [Violin_I_Music_Voice measure 389 / measure 21]
     R1 * 1/2
 
-    % [15 Violin_I_Music_Voice measure 390 / measure 22]
+    % [Violin_I_Music_Voice measure 390 / measure 22]
     R1 * 1
 
-    % [15 Violin_I_Music_Voice measure 391 / measure 23]
+    % [Violin_I_Music_Voice measure 391 / measure 23]
     R1 * 9/8
 
-    % [15 Violin_I_Music_Voice measure 392 / measure 24]
+    % [Violin_I_Music_Voice measure 392 / measure 24]
     R1 * 9/8
 
-    % [15 Violin_I_Music_Voice measure 393 / measure 25]
+    % [Violin_I_Music_Voice measure 393 / measure 25]
     R1 * 1/4
 
     <<
@@ -436,7 +436,7 @@ o_Violin_I_Music_Voice = {
         \context Voice = "Violin_I_Music_Voice"
         {
 
-            % [15 Violin_I_Music_Voice measure 394 / measure 26]
+            % [Violin_I_Music_Voice measure 394 / measure 26]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -445,7 +445,7 @@ o_Violin_I_Music_Voice = {
         \context Voice = "Violin_I_Rest_Voice"
         {
 
-            % [15 Violin_I_Rest_Voice measure 394 / measure 26]
+            % [Violin_I_Rest_Voice measure 394 / measure 26]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -475,7 +475,7 @@ o_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Music_Voice"
         {
 
-            % [15 Violin_II_Music_Voice measure 369 / measure 1]
+            % [Violin_II_Music_Voice measure 369 / measure 1]
             \set Staff.shortInstrumentName = \akasha-vn-ii-markup
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 5
@@ -502,38 +502,38 @@ o_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Rest_Voice"
         {
 
-            % [15 Violin_II_Rest_Voice measure 369 / measure 1]
+            % [Violin_II_Rest_Voice measure 369 / measure 1]
             R1 * 3/8
 
         }
 
     >>
 
-    % [15 Violin_II_Music_Voice measure 370 / measure 2]
+    % [Violin_II_Music_Voice measure 370 / measure 2]
     R1 * 1/2
 
-    % [15 Violin_II_Music_Voice measure 371 / measure 3]
+    % [Violin_II_Music_Voice measure 371 / measure 3]
     R1 * 7/8
 
-    % [15 Violin_II_Music_Voice measure 372 / measure 4]
+    % [Violin_II_Music_Voice measure 372 / measure 4]
     R1 * 7/8
 
-    % [15 Violin_II_Music_Voice measure 373 / measure 5]
+    % [Violin_II_Music_Voice measure 373 / measure 5]
     R1 * 3/8
 
-    % [15 Violin_II_Music_Voice measure 374 / measure 6]
+    % [Violin_II_Music_Voice measure 374 / measure 6]
     R1 * 3/4
 
-    % [15 Violin_II_Music_Voice measure 375 / measure 7]
+    % [Violin_II_Music_Voice measure 375 / measure 7]
     R1 * 9/8
 
-    % [15 Violin_II_Music_Voice measure 376 / measure 8]
+    % [Violin_II_Music_Voice measure 376 / measure 8]
     R1 * 9/8
 
-    % [15 Violin_II_Music_Voice measure 377 / measure 9]
+    % [Violin_II_Music_Voice measure 377 / measure 9]
     r2
 
-    % [15 Violin_II_Music_Voice measure 378 / measure 10]
+    % [Violin_II_Music_Voice measure 378 / measure 10]
     r4
 
     \times 8/9
@@ -561,35 +561,35 @@ o_Violin_II_Music_Voice = {
 
     r2
 
-    % [15 Violin_II_Music_Voice measure 379 / measure 11]
+    % [Violin_II_Music_Voice measure 379 / measure 11]
     r2.
 
-    % [15 Violin_II_Music_Voice measure 380 / measure 12]
+    % [Violin_II_Music_Voice measure 380 / measure 12]
     r2..
 
-    % [15 Violin_II_Music_Voice measure 381 / measure 13]
+    % [Violin_II_Music_Voice measure 381 / measure 13]
     r2..
 
-    % [15 Violin_II_Music_Voice measure 382 / measure 14]
+    % [Violin_II_Music_Voice measure 382 / measure 14]
     r4.
 
-    % [15 Violin_II_Music_Voice measure 383 / measure 15]
+    % [Violin_II_Music_Voice measure 383 / measure 15]
     r1
 
-    % [15 Violin_II_Music_Voice measure 384 / measure 16]
+    % [Violin_II_Music_Voice measure 384 / measure 16]
     r2.
 
     r4.
 
-    % [15 Violin_II_Music_Voice measure 385 / measure 17]
+    % [Violin_II_Music_Voice measure 385 / measure 17]
     r2.
 
     r4.
 
-    % [15 Violin_II_Music_Voice measure 386 / measure 18]
+    % [Violin_II_Music_Voice measure 386 / measure 18]
     r2
 
-    % [15 Violin_II_Music_Voice measure 387 / measure 19]
+    % [Violin_II_Music_Voice measure 387 / measure 19]
     r4
 
     \times 8/9
@@ -609,7 +609,7 @@ o_Violin_II_Music_Voice = {
     \times 8/9
     {
 
-        % [15 Violin_II_Music_Voice measure 388 / measure 20]
+        % [Violin_II_Music_Voice measure 388 / measure 20]
         r8.
 
         g'''32
@@ -627,18 +627,18 @@ o_Violin_II_Music_Voice = {
 
     r8
 
-    % [15 Violin_II_Music_Voice measure 389 / measure 21]
+    % [Violin_II_Music_Voice measure 389 / measure 21]
     r2
 
-    % [15 Violin_II_Music_Voice measure 390 / measure 22]
+    % [Violin_II_Music_Voice measure 390 / measure 22]
     r1
 
-    % [15 Violin_II_Music_Voice measure 391 / measure 23]
+    % [Violin_II_Music_Voice measure 391 / measure 23]
     r2.
 
     r4.
 
-    % [15 Violin_II_Music_Voice measure 392 / measure 24]
+    % [Violin_II_Music_Voice measure 392 / measure 24]
     r2.
 
     r4.
@@ -648,7 +648,7 @@ o_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Music_Voice"
         {
 
-            % [15 Violin_II_Music_Voice measure 393 / measure 25]
+            % [Violin_II_Music_Voice measure 393 / measure 25]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -658,7 +658,7 @@ o_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Rest_Voice"
         {
 
-            % [15 Violin_II_Rest_Voice measure 393 / measure 25]
+            % [Violin_II_Rest_Voice measure 393 / measure 25]
             R1 * 1/4
 
         }
@@ -670,7 +670,7 @@ o_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Music_Voice"
         {
 
-            % [15 Violin_II_Music_Voice measure 394 / measure 26]
+            % [Violin_II_Music_Voice measure 394 / measure 26]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -679,7 +679,7 @@ o_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Rest_Voice"
         {
 
-            % [15 Violin_II_Rest_Voice measure 394 / measure 26]
+            % [Violin_II_Rest_Voice measure 394 / measure 26]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -704,7 +704,7 @@ o_Violin_II_Music_Staff = {
 
 o_Viola_Music_Voice = {
 
-    % [15 Viola_Music_Voice measure 369 / measure 1]
+    % [Viola_Music_Voice measure 369 / measure 1]
     \set Staff.shortInstrumentName = \akasha-va-markup
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
@@ -734,24 +734,24 @@ o_Viola_Music_Voice = {
     \set Staff.shortInstrumentName = \akasha-va-markup
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [15 Viola_Music_Voice measure 370 / measure 2]
+    % [Viola_Music_Voice measure 370 / measure 2]
     r2
 
-    % [15 Viola_Music_Voice measure 371 / measure 3]
+    % [Viola_Music_Voice measure 371 / measure 3]
     c'2..
     - \upbow
 
-    % [15 Viola_Music_Voice measure 372 / measure 4]
+    % [Viola_Music_Voice measure 372 / measure 4]
     r2..
 
-    % [15 Viola_Music_Voice measure 373 / measure 5]
+    % [Viola_Music_Voice measure 373 / measure 5]
     c'4.
     - \downbow
 
-    % [15 Viola_Music_Voice measure 374 / measure 6]
+    % [Viola_Music_Voice measure 374 / measure 6]
     r2.
 
-    % [15 Viola_Music_Voice measure 375 / measure 7]
+    % [Viola_Music_Voice measure 375 / measure 7]
     c'2.
     - \upbow
     - \tweak stencil ##f
@@ -760,37 +760,37 @@ o_Viola_Music_Voice = {
     c'4.
     \repeatTie
 
-    % [15 Viola_Music_Voice measure 376 / measure 8]
+    % [Viola_Music_Voice measure 376 / measure 8]
     r2.
 
     r4.
 
-    % [15 Viola_Music_Voice measure 377 / measure 9]
+    % [Viola_Music_Voice measure 377 / measure 9]
     c'2
     - \downbow
 
-    % [15 Viola_Music_Voice measure 378 / measure 10]
+    % [Viola_Music_Voice measure 378 / measure 10]
     r1
 
-    % [15 Viola_Music_Voice measure 379 / measure 11]
+    % [Viola_Music_Voice measure 379 / measure 11]
     c'2.
     - \upbow
 
-    % [15 Viola_Music_Voice measure 380 / measure 12]
+    % [Viola_Music_Voice measure 380 / measure 12]
     r2..
 
-    % [15 Viola_Music_Voice measure 381 / measure 13]
+    % [Viola_Music_Voice measure 381 / measure 13]
     c'2..
     - \downbow
 
-    % [15 Viola_Music_Voice measure 382 / measure 14]
+    % [Viola_Music_Voice measure 382 / measure 14]
     r4.
 
-    % [15 Viola_Music_Voice measure 383 / measure 15]
+    % [Viola_Music_Voice measure 383 / measure 15]
     c'1
     - \upbow
 
-    % [15 Viola_Music_Voice measure 384 / measure 16]
+    % [Viola_Music_Voice measure 384 / measure 16]
     r2.
 
     r4.
@@ -801,7 +801,7 @@ o_Viola_Music_Voice = {
         \context Voice = "Viola_Music_Voice"
         {
 
-            % [15 Viola_Music_Voice measure 385 / measure 17]
+            % [Viola_Music_Voice measure 385 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 9/8
@@ -811,35 +811,35 @@ o_Viola_Music_Voice = {
         \context Voice = "Viola_Rest_Voice"
         {
 
-            % [15 Viola_Rest_Voice measure 385 / measure 17]
+            % [Viola_Rest_Voice measure 385 / measure 17]
             R1 * 9/8
 
         }
 
     >>
 
-    % [15 Viola_Music_Voice measure 386 / measure 18]
+    % [Viola_Music_Voice measure 386 / measure 18]
     R1 * 1/2
 
-    % [15 Viola_Music_Voice measure 387 / measure 19]
+    % [Viola_Music_Voice measure 387 / measure 19]
     R1 * 1/2
 
-    % [15 Viola_Music_Voice measure 388 / measure 20]
+    % [Viola_Music_Voice measure 388 / measure 20]
     R1 * 3/8
 
-    % [15 Viola_Music_Voice measure 389 / measure 21]
+    % [Viola_Music_Voice measure 389 / measure 21]
     R1 * 1/2
 
-    % [15 Viola_Music_Voice measure 390 / measure 22]
+    % [Viola_Music_Voice measure 390 / measure 22]
     R1 * 1
 
-    % [15 Viola_Music_Voice measure 391 / measure 23]
+    % [Viola_Music_Voice measure 391 / measure 23]
     R1 * 9/8
 
-    % [15 Viola_Music_Voice measure 392 / measure 24]
+    % [Viola_Music_Voice measure 392 / measure 24]
     R1 * 9/8
 
-    % [15 Viola_Music_Voice measure 393 / measure 25]
+    % [Viola_Music_Voice measure 393 / measure 25]
     R1 * 1/4
 
     <<
@@ -847,7 +847,7 @@ o_Viola_Music_Voice = {
         \context Voice = "Viola_Music_Voice"
         {
 
-            % [15 Viola_Music_Voice measure 394 / measure 26]
+            % [Viola_Music_Voice measure 394 / measure 26]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -856,7 +856,7 @@ o_Viola_Music_Voice = {
         \context Voice = "Viola_Rest_Voice"
         {
 
-            % [15 Viola_Rest_Voice measure 394 / measure 26]
+            % [Viola_Rest_Voice measure 394 / measure 26]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -881,7 +881,7 @@ o_Viola_Music_Staff = {
 
 o_Cello_Music_Voice = {
 
-    % [15 Cello_Music_Voice measure 369 / measure 1]
+    % [Cello_Music_Voice measure 369 / measure 1]
     \set Staff.shortInstrumentName = \akasha-vc-markup
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     \stopStaff
@@ -912,24 +912,24 @@ o_Cello_Music_Voice = {
     \set Staff.shortInstrumentName = \akasha-vc-markup
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [15 Cello_Music_Voice measure 370 / measure 2]
+    % [Cello_Music_Voice measure 370 / measure 2]
     r2
 
-    % [15 Cello_Music_Voice measure 371 / measure 3]
+    % [Cello_Music_Voice measure 371 / measure 3]
     c'2..
     - \upbow
 
-    % [15 Cello_Music_Voice measure 372 / measure 4]
+    % [Cello_Music_Voice measure 372 / measure 4]
     r2..
 
-    % [15 Cello_Music_Voice measure 373 / measure 5]
+    % [Cello_Music_Voice measure 373 / measure 5]
     c'4.
     - \downbow
 
-    % [15 Cello_Music_Voice measure 374 / measure 6]
+    % [Cello_Music_Voice measure 374 / measure 6]
     r2.
 
-    % [15 Cello_Music_Voice measure 375 / measure 7]
+    % [Cello_Music_Voice measure 375 / measure 7]
     c'2.
     - \upbow
     - \tweak stencil ##f
@@ -938,37 +938,37 @@ o_Cello_Music_Voice = {
     c'4.
     \repeatTie
 
-    % [15 Cello_Music_Voice measure 376 / measure 8]
+    % [Cello_Music_Voice measure 376 / measure 8]
     r2.
 
     r4.
 
-    % [15 Cello_Music_Voice measure 377 / measure 9]
+    % [Cello_Music_Voice measure 377 / measure 9]
     c'2
     - \downbow
 
-    % [15 Cello_Music_Voice measure 378 / measure 10]
+    % [Cello_Music_Voice measure 378 / measure 10]
     r1
 
-    % [15 Cello_Music_Voice measure 379 / measure 11]
+    % [Cello_Music_Voice measure 379 / measure 11]
     c'2.
     - \upbow
 
-    % [15 Cello_Music_Voice measure 380 / measure 12]
+    % [Cello_Music_Voice measure 380 / measure 12]
     r2..
 
-    % [15 Cello_Music_Voice measure 381 / measure 13]
+    % [Cello_Music_Voice measure 381 / measure 13]
     c'2..
     - \downbow
 
-    % [15 Cello_Music_Voice measure 382 / measure 14]
+    % [Cello_Music_Voice measure 382 / measure 14]
     r4.
 
-    % [15 Cello_Music_Voice measure 383 / measure 15]
+    % [Cello_Music_Voice measure 383 / measure 15]
     c'1
     - \upbow
 
-    % [15 Cello_Music_Voice measure 384 / measure 16]
+    % [Cello_Music_Voice measure 384 / measure 16]
     r2.
 
     r4.
@@ -979,7 +979,7 @@ o_Cello_Music_Voice = {
         \context Voice = "Cello_Music_Voice"
         {
 
-            % [15 Cello_Music_Voice measure 385 / measure 17]
+            % [Cello_Music_Voice measure 385 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 9/8
@@ -989,35 +989,35 @@ o_Cello_Music_Voice = {
         \context Voice = "Cello_Rest_Voice"
         {
 
-            % [15 Cello_Rest_Voice measure 385 / measure 17]
+            % [Cello_Rest_Voice measure 385 / measure 17]
             R1 * 9/8
 
         }
 
     >>
 
-    % [15 Cello_Music_Voice measure 386 / measure 18]
+    % [Cello_Music_Voice measure 386 / measure 18]
     R1 * 1/2
 
-    % [15 Cello_Music_Voice measure 387 / measure 19]
+    % [Cello_Music_Voice measure 387 / measure 19]
     R1 * 1/2
 
-    % [15 Cello_Music_Voice measure 388 / measure 20]
+    % [Cello_Music_Voice measure 388 / measure 20]
     R1 * 3/8
 
-    % [15 Cello_Music_Voice measure 389 / measure 21]
+    % [Cello_Music_Voice measure 389 / measure 21]
     R1 * 1/2
 
-    % [15 Cello_Music_Voice measure 390 / measure 22]
+    % [Cello_Music_Voice measure 390 / measure 22]
     R1 * 1
 
-    % [15 Cello_Music_Voice measure 391 / measure 23]
+    % [Cello_Music_Voice measure 391 / measure 23]
     R1 * 9/8
 
-    % [15 Cello_Music_Voice measure 392 / measure 24]
+    % [Cello_Music_Voice measure 392 / measure 24]
     R1 * 9/8
 
-    % [15 Cello_Music_Voice measure 393 / measure 25]
+    % [Cello_Music_Voice measure 393 / measure 25]
     R1 * 1/4
 
     <<
@@ -1025,7 +1025,7 @@ o_Cello_Music_Voice = {
         \context Voice = "Cello_Music_Voice"
         {
 
-            % [15 Cello_Music_Voice measure 394 / measure 26]
+            % [Cello_Music_Voice measure 394 / measure 26]
             \abjad-invisible-music-coloring
             \once \override Score.RehearsalMark.direction = #down
             \once \override Score.RehearsalMark.padding = 6
@@ -1038,7 +1038,7 @@ o_Cello_Music_Voice = {
         \context Voice = "Cello_Rest_Voice"
         {
 
-            % [15 Cello_Rest_Voice measure 394 / measure 26]
+            % [Cello_Rest_Voice measure 394 / measure 26]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
