@@ -19,8 +19,11 @@ maker = baca.SegmentMaker(
         baca.tags.LOCAL_MEASURE_NUMBER,
     ],
     check_all_are_pitched=True,
-    ignore_repeat_pitch_classes=True,
     final_segment=True,
+    ignore_repeat_pitch_classes=True,
+    instruments=akasha.instruments,
+    margin_markups=akasha.margin_markups,
+    metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
