@@ -1,4 +1,4 @@
-a_Global_Rests = {
+segment.01.Global.Rests = {
 
     % [Global_Rests measure 1]
     R1 * 3/8
@@ -17,7 +17,7 @@ a_Global_Rests = {
 }
 
 
-a_Global_Skips = {
+segment.01.Global.Skips = {
 
     % [Global_Skips measure 1]
     \time 3/8
@@ -56,7 +56,7 @@ a_Global_Skips = {
 }
 
 
-a_Violin_I_Music_Voice = {
+segment.01.Violin.I.Music.Voice = {
 
     % [Violin_I_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -112,15 +112,15 @@ a_Violin_I_Music_Voice = {
 }
 
 
-a_Violin_I_Music_Staff = {
+segment.01.Violin.I.Music.Staff = {
 
     \context Voice = "Violin_I_Music_Voice"
-    \a_Violin_I_Music_Voice
+    { \segment.01.Violin.I.Music.Voice }
 
 }
 
 
-a_Violin_II_Music_Voice = {
+segment.01.Violin.II.Music.Voice = {
 
     % [Violin_II_Music_Voice measure 1]
     \stopStaff
@@ -175,15 +175,15 @@ a_Violin_II_Music_Voice = {
 }
 
 
-a_Violin_II_Music_Staff = {
+segment.01.Violin.II.Music.Staff = {
 
     \context Voice = "Violin_II_Music_Voice"
-    \a_Violin_II_Music_Voice
+    { \segment.01.Violin.II.Music.Voice }
 
 }
 
 
-a_Viola_Music_Voice = {
+segment.01.Viola.Music.Voice = {
 
     % [Viola_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \akasha-va-markup
@@ -271,15 +271,15 @@ a_Viola_Music_Voice = {
 }
 
 
-a_Viola_Music_Staff = {
+segment.01.Viola.Music.Staff = {
 
     \context Voice = "Viola_Music_Voice"
-    \a_Viola_Music_Voice
+    { \segment.01.Viola.Music.Voice }
 
 }
 
 
-a_Cello_Music_Voice = {
+segment.01.Cello.Music.Voice = {
 
     % [Cello_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -335,9 +335,9 @@ a_Cello_Music_Voice = {
 }
 
 
-a_Cello_Music_Staff = {
+segment.01.Cello.Music.Staff = {
 
     \context Voice = "Cello_Music_Voice"
-    \a_Cello_Music_Voice
+    { \segment.01.Cello.Music.Voice }
 
 }

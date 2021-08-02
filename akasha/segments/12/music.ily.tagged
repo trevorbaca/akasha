@@ -1,5 +1,5 @@
-%! baca.Path.extern()
-l_Global_Rests = {
+%! baca.path.extern()
+segment.12.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 265 / measure 1]
@@ -385,12 +385,12 @@ l_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Global_Skips = {
+%! baca.path.extern()
+segment.12.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 265 / measure 1]
@@ -3318,12 +3318,12 @@ l_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Violin_I_Music_Voice = {
+%! baca.path.extern()
+segment.12.Violin.I.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 265 / measure 1]
@@ -5729,26 +5729,26 @@ l_Violin_I_Music_Voice = {
     >>
 
 %! akasha.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Violin_I_Music_Staff = {
+%! baca.path.extern()
+segment.12.Violin.I.Music.Staff = {
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Violin_I_Music_Voice"
     %! akasha.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \l_Violin_I_Music_Voice
+    %! baca.path.extern()
+    { \segment.12.Violin.I.Music.Voice }
 
 %! akasha.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Violin_II_Music_Voice = {
+%! baca.path.extern()
+segment.12.Violin.II.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 265 / measure 1]
@@ -8147,26 +8147,26 @@ l_Violin_II_Music_Voice = {
     >>
 
 %! akasha.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Violin_II_Music_Staff = {
+%! baca.path.extern()
+segment.12.Violin.II.Music.Staff = {
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Violin_II_Music_Voice"
     %! akasha.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \l_Violin_II_Music_Voice
+    %! baca.path.extern()
+    { \segment.12.Violin.II.Music.Voice }
 
 %! akasha.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Viola_Music_Voice = {
+%! baca.path.extern()
+segment.12.Viola.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 265 / measure 1]
@@ -10575,26 +10575,26 @@ l_Viola_Music_Voice = {
     >>
 
 %! akasha.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Viola_Music_Staff = {
+%! baca.path.extern()
+segment.12.Viola.Music.Staff = {
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Viola_Music_Voice"
     %! akasha.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \l_Viola_Music_Voice
+    %! baca.path.extern()
+    { \segment.12.Viola.Music.Voice }
 
 %! akasha.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Cello_Music_Voice = {
+%! baca.path.extern()
+segment.12.Cello.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Music_Voice measure 265 / measure 1]
@@ -12975,19 +12975,19 @@ l_Cello_Music_Voice = {
     >>
 
 %! akasha.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-l_Cello_Music_Staff = {
+%! baca.path.extern()
+segment.12.Cello.Music.Staff = {
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Cello_Music_Voice"
     %! akasha.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \l_Cello_Music_Voice
+    %! baca.path.extern()
+    { \segment.12.Cello.Music.Voice }
 
 %! akasha.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
