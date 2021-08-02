@@ -24,10 +24,10 @@
             <<
 
                 \context GlobalRests = "Global_Rests"
-                \f_Global_Rests
+                { \segment.06.Global.Rests }
 
                 \context GlobalSkips = "Global_Skips"
-                \f_Global_Skips
+                { \segment.06.Global.Skips }
 
             >>
 
@@ -39,19 +39,19 @@
 
                     \tag ViolinI
                     \context Staff = "Violin_I_Music_Staff"
-                    \f_Violin_I_Music_Staff
+                    { \segment.06.Violin.I.Music.Staff }
 
                     \tag ViolinII
                     \context Staff = "Violin_II_Music_Staff"
-                    \f_Violin_II_Music_Staff
+                    { \segment.06.Violin.II.Music.Staff }
 
                     \tag viola
                     \context Staff = "Viola_Music_Staff"
-                    \f_Viola_Music_Staff
+                    { \segment.06.Viola.Music.Staff }
 
                     \tag cello
                     \context Staff = "Cello_Music_Staff"
-                    \f_Cello_Music_Staff
+                    { \segment.06.Cello.Music.Staff }
 
                 >>
 
