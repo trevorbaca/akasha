@@ -5,11 +5,11 @@ abjad.OrderedDict(
             [
                 "Score",
                 "Global_Context",
-                "Global_Rests",
                 "Global_Skips",
                 "Music_Context",
                 "String_Quartet_Staff_Group",
                 "Violin_I_Music_Staff",
+                "Global_Rests",
                 "Violin_I_Music_Voice",
                 "Violin_I_Rest_Voice",
                 "Violin_II_Music_Staff",
@@ -38,12 +38,6 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Cello_Music_Voice",
-                                edition=abjad.Tag("-PARTS"),
-                                prototype="baca.BarExtent",
-                                value=5,
-                            ),
-                            baca.Memento(
-                                context="Cello_Music_Voice",
                                 manifest="instruments",
                                 value="Cello",
                             ),
@@ -51,6 +45,11 @@ abjad.OrderedDict(
                                 context="Cello_Music_Voice",
                                 prototype="abjad.Clef",
                                 value="treble",
+                            ),
+                            baca.Memento(
+                                context="Cello_Music_Voice",
+                                prototype="baca.BarExtent",
+                                value=5,
                             ),
                             baca.Memento(
                                 context="Cello_Music_Voice",

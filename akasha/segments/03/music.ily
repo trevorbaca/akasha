@@ -1,50 +1,3 @@
-segment.03.Global.Rests = {
-
-    % [Global_Rests measure 24 / measure 1]
-    R1 * 9/8
-
-    % [Global_Rests measure 25 / measure 2]
-    R1 * 9/8
-
-    % [Global_Rests measure 26 / measure 3]
-    R1 * 1/2
-
-    % [Global_Rests measure 27 / measure 4]
-    R1 * 1
-
-    % [Global_Rests measure 28 / measure 5]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-long-fermata-markup
-
-    % [Global_Rests measure 29 / measure 6]
-    R1 * 3/8
-
-    % [Global_Rests measure 30 / measure 7]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-short-fermata-markup
-
-    % [Global_Rests measure 31 / measure 8]
-    R1 * 1/2
-
-    % [Global_Rests measure 32 / measure 9]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-short-fermata-markup
-
-    % [Global_Rests measure 33 / measure 10]
-    R1 * 7/8
-
-    % [Global_Rests measure 34 / measure 11]
-    R1 * 7/8
-
-    % [Global_Rests measure 35 / measure 12]
-    R1 * 1/4
-
-}
-
-
 segment.03.Global.Skips = {
 
     % [Global_Skips measure 24 / measure 1]
@@ -157,6 +110,53 @@ segment.03.Global.Skips = {
     \bacaStopTextSpanMM
     \once \override Score.BarLine.transparent = ##t
     \once \override Score.SpanBar.transparent = ##t
+
+}
+
+
+segment.03.Global.Rests = {
+
+    % [Global_Rests measure 24 / measure 1]
+    R1 * 9/8
+
+    % [Global_Rests measure 25 / measure 2]
+    R1 * 9/8
+
+    % [Global_Rests measure 26 / measure 3]
+    R1 * 1/2
+
+    % [Global_Rests measure 27 / measure 4]
+    R1 * 1
+
+    % [Global_Rests measure 28 / measure 5]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-long-fermata-markup
+
+    % [Global_Rests measure 29 / measure 6]
+    R1 * 3/8
+
+    % [Global_Rests measure 30 / measure 7]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-short-fermata-markup
+
+    % [Global_Rests measure 31 / measure 8]
+    R1 * 1/2
+
+    % [Global_Rests measure 32 / measure 9]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-short-fermata-markup
+
+    % [Global_Rests measure 33 / measure 10]
+    R1 * 7/8
+
+    % [Global_Rests measure 34 / measure 11]
+    R1 * 7/8
+
+    % [Global_Rests measure 35 / measure 12]
+    R1 * 1/4
 
 }
 
@@ -326,12 +326,15 @@ segment.03.Violin.I.Music.Voice = {
 }
 
 
-segment.03.Violin.I.Music.Staff = {
+segment.03.Violin.I.Music.Staff = <<
+
+    \context GlobalRests = "Global_Rests"
+    { \segment.03.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
     { \segment.03.Violin.I.Music.Voice }
 
-}
+>>
 
 
 segment.03.Violin.II.Music.Voice = {
@@ -523,12 +526,15 @@ segment.03.Violin.II.Music.Voice = {
 }
 
 
-segment.03.Violin.II.Music.Staff = {
+segment.03.Violin.II.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.03.Global.Rests }
 
     \context Voice = "Violin_II_Music_Voice"
     { \segment.03.Violin.II.Music.Voice }
 
-}
+>>
 
 
 segment.03.Viola.Music.Voice = {
@@ -678,12 +684,15 @@ segment.03.Viola.Music.Voice = {
 }
 
 
-segment.03.Viola.Music.Staff = {
+segment.03.Viola.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.03.Global.Rests }
 
     \context Voice = "Viola_Music_Voice"
     { \segment.03.Viola.Music.Voice }
 
-}
+>>
 
 
 segment.03.Cello.Music.Voice = {
@@ -1097,9 +1106,12 @@ segment.03.Cello.Music.Voice = {
 }
 
 
-segment.03.Cello.Music.Staff = {
+segment.03.Cello.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.03.Global.Rests }
 
     \context Voice = "Cello_Music_Voice"
     { \segment.03.Cello.Music.Voice }
 
-}
+>>

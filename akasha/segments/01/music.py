@@ -6,15 +6,22 @@ from akasha import library as akasha
 ########################################### 01 ##########################################
 #########################################################################################
 
+stage_tokens = (
+    (1, 2 + 1),
+)
+stage_markup = akasha.make_stage_markup("01", stage_tokens)
+
 maker = baca.SegmentMaker(
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
+        baca.tags.STAGE_NUMBER,
     ],
     check_all_are_pitched=True,
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
+    stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "B",
         count=3,

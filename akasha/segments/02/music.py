@@ -8,19 +8,49 @@ from akasha import library as akasha
 ########################################### 02 ##########################################
 #########################################################################################
 
+
+moment_tokens = (
+    (2, 5, "AB"),
+    (3, 5, "B"),
+    (4, 6, "BC"),
+    (5, 2, "C"),
+    (6, 2, "AC"),
+)
+moment_markup = akasha.make_moment_markup(moment_tokens)
+
+stage_tokens = (
+    (1, 2 + 1),
+    (3, 1 + 1),
+    (5, 2 + 1),
+    (7, 1 + 1),
+    (9, 3 + 1),
+    (11, 1 + 1),
+    (13, 1 + 1),
+    (15, 1 + 1),
+)
+stage_markup = akasha.make_stage_markup("02", stage_tokens)
+
+
+fermata_measures=[3, 5, 8, 10, 14, 16, 18, 20]
 maker = baca.SegmentMaker(
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
+        baca.tags.MOMENT_NUMBER,
+        baca.tags.STAGE_NUMBER,
     ],
     check_all_are_pitched=True,
+    fermata_extra_offset_y=4.5,
+    fermata_measure_empty_overrides=fermata_measures,
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
+    moment_markup=moment_markup,
     score_template=akasha.ScoreTemplate(),
+    stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "A",
         count=20,
-        fermata_measures=[3, 5, 8, 10, 14, 16, 18, 20],
+        fermata_measures=fermata_measures,
         rotation=0,
     ),
 )
@@ -367,10 +397,6 @@ maker(
 maker(
     [("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)],
     baca.dynamic("p"),
-    baca.markup(
-        r"\akasha-leggierissimo-off-string-bowing-on-staccati-markup",
-        literal=True,
-    ),
 )
 
 if __name__ == "__main__":
