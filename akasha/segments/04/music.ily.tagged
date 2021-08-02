@@ -1,4 +1,1228 @@
 %! baca.path.extern()
+segment.04.Global.Skips = {
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 35 / measure 1]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 6/4
+    %! EMPTY_START_BAR
+    %! +SEGMENT
+    %! baca.SegmentMaker._make_global_skips(4)
+    \bar ""
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/2
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "1"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "35"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.1]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! baca.SegmentMaker._reapply_persistent_indicators(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! REAPPLIED_METRONOME_MARK
+    %! baca.SegmentMaker._attach_metronome_marks(2)
+    %@% - \abjad-invisible-line
+    %! baca.SegmentMaker._reapply_persistent_indicators(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! REAPPLIED_METRONOME_MARK
+    %! baca.SegmentMaker._attach_metronome_marks(2)
+    %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "55"
+    %! baca.SegmentMaker._reapply_persistent_indicators(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! REAPPLIED_METRONOME_MARK
+    %! baca.SegmentMaker._attach_metronome_marks(2)
+    %@% \bacaStartTextSpanMM
+    %! REAPPLIED_METRONOME_MARK_WITH_COLOR
+    %! baca.SegmentMaker._attach_metronome_marks(3)
+    - \abjad-invisible-line
+    %! REAPPLIED_METRONOME_MARK_WITH_COLOR
+    %! baca.SegmentMaker._attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'green4
+    %! REAPPLIED_METRONOME_MARK_WITH_COLOR
+    %! baca.SegmentMaker._attach_metronome_marks(3)
+    \bacaStartTextSpanMM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[2'18'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 36 / measure 2]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "2"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "36"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 37 / measure 3]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 4/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "3"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "37"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.3]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[2'26'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 38 / measure 4]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "4"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "38"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 39 / measure 5]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 6/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/2
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "5"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "39"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.5]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[2'32'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 40 / measure 6]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "6"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "40"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 41 / measure 7]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 6/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/2
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "7"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "41"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.7]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[2'41'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 42 / measure 8]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "8"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "42"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 43 / measure 9]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 6/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/2
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "9"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "43"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.9]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[2'50'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 44 / measure 10]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 4/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "10"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "44"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[2'56'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 45 / measure 11]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 3/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "11"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "45"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'00'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 46 / measure 12]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 4/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "12"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "46"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'04'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 47 / measure 13]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 5/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 5/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "13"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "47"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.10]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'08'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 48 / measure 14]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "14"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "48"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 49 / measure 15]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 3/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "15"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "49"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.12]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'16'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 50 / measure 16]
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "16"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "50"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.13]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'19'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 51 / measure 17]
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "17"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "51"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.14]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'22'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 52 / measure 18]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "18"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "52"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 53 / measure 19]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 4/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "19"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "53"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.16]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'27'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 54 / measure 20]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "20"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "54"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 55 / measure 21]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 5/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 5/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "21"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "55"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.18]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'34'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 56 / measure 22]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "22"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "56"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 57 / measure 23]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 4/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "23"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "57"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.20]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'41'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 58 / measure 24]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "24"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "58"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only-fermata "2''"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 59 / measure 25]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 6/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/2
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "25"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "59"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.22]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'48'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 60 / measure 26]
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 3/2
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStopTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "26"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "60"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    - \baca-start-snm-left-only "[04.23]"
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    \bacaStartTextSpanSNM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-left-only "[3'54'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Skips measure 61 / measure 27]
+    %! baca.SegmentMaker._make_global_skips(2)
+    %! baca.SegmentMaker._set_status_tag()
+    %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+    %! baca.SegmentMaker._attach_color_literal(2)
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
+    %! baca.SegmentMaker._make_global_skips(1)
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStopTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStopTextSpanCT
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    - \baca-start-lmn-left-only "27"
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    \bacaStartTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% - \baca-start-mn-left-only "61"
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %@% \bacaStartTextSpanMN
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% - \baca-start-ct-both-left-fermata "4''" "[4'05'']"
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %@% \bacaStartTextSpanCT
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._style_phantom_measures(1)
+    %! PHANTOM
+    % [Global_Skips measure 62 / measure 28]
+    %! baca.SegmentMaker._style_phantom_measures(2)
+    %! PHANTOM
+    \baca-time-signature-transparent
+    %! baca.SegmentMaker._make_global_skips(3)
+    %! PHANTOM
+    s1 * 1/4
+    %! LOCAL_MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %! baca.SegmentMaker._style_phantom_measures(1)
+    %! PHANTOM
+    \bacaStopTextSpanLMN
+    %! MEASURE_NUMBER
+    %! baca.SegmentMaker._label_measure_numbers()
+    %! baca.SegmentMaker._style_phantom_measures(1)
+    %! PHANTOM
+    %@% \bacaStopTextSpanMN
+    %! STAGE_NUMBER
+    %! baca.SegmentMaker._label_stage_numbers()
+    %! baca.SegmentMaker._style_phantom_measures(1)
+    %! PHANTOM
+    \bacaStopTextSpanSNM
+    %! EOS_STOP_MM_SPANNER
+    %! baca.SegmentMaker._attach_metronome_marks(4)
+    %! baca.SegmentMaker._style_phantom_measures(1)
+    %! PHANTOM
+    \bacaStopTextSpanMM
+    %! CLOCK_TIME
+    %! baca.SegmentMaker._label_clock_time()
+    %! baca.SegmentMaker._style_phantom_measures(1)
+    %! PHANTOM
+    %@% \bacaStopTextSpanCT
+    %! baca.SegmentMaker._style_phantom_measures(3)
+    %! PHANTOM
+    \once \override Score.BarLine.transparent = ##t
+    %! baca.SegmentMaker._style_phantom_measures(3)
+    %! PHANTOM
+    \once \override Score.SpanBar.transparent = ##t
+
+%! abjad.ScoreTemplate._make_global_context()
+%! baca.path.extern()
+}
+
+
+%! baca.path.extern()
 segment.04.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -197,1236 +1421,10 @@ segment.04.Global.Rests = {
     ^ \baca-long-fermata-markup
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    %! baca.SegmentMaker._style_phantom_measures(4)
-    %! PHANTOM
     % [Global_Rests measure 62 / measure 28]
     %! baca.SegmentMaker._make_global_rests(2)
     %! PHANTOM
     R1 * 1/4
-
-%! abjad.ScoreTemplate._make_global_context()
-%! baca.path.extern()
-}
-
-
-%! baca.path.extern()
-segment.04.Global.Skips = {
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 35 / measure 1]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 6/4
-    %! EMPTY_START_BAR
-    %! +SEGMENT
-    %! baca.SegmentMaker._make_global_skips(4)
-    \bar ""
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/2
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "1"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "35"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.1]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! baca.SegmentMaker._reapply_persistent_indicators(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! REAPPLIED_METRONOME_MARK
-    %! baca.SegmentMaker._attach_metronome_marks(2)
-    %@% - \abjad-invisible-line
-    %! baca.SegmentMaker._reapply_persistent_indicators(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! REAPPLIED_METRONOME_MARK
-    %! baca.SegmentMaker._attach_metronome_marks(2)
-    %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "55"
-    %! baca.SegmentMaker._reapply_persistent_indicators(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! REAPPLIED_METRONOME_MARK
-    %! baca.SegmentMaker._attach_metronome_marks(2)
-    %@% \bacaStartTextSpanMM
-    %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    %! baca.SegmentMaker._attach_metronome_marks(3)
-    - \abjad-invisible-line
-    %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    %! baca.SegmentMaker._attach_metronome_marks(3)
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'green4
-    %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    %! baca.SegmentMaker._attach_metronome_marks(3)
-    \bacaStartTextSpanMM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[2'18'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 36 / measure 2]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "2"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "36"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 37 / measure 3]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 4/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "3"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "37"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.3]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[2'26'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 38 / measure 4]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "4"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "38"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 39 / measure 5]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 6/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/2
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "5"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "39"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.5]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[2'32'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 40 / measure 6]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "6"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "40"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 41 / measure 7]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 6/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/2
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "7"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "41"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.7]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[2'41'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 42 / measure 8]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "8"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "42"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 43 / measure 9]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 6/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/2
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "9"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "43"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.9]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[2'50'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 44 / measure 10]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 4/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "10"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "44"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[2'56'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 45 / measure 11]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 3/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "11"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "45"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'00'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 46 / measure 12]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 4/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "12"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "46"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'04'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 47 / measure 13]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 5/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 5/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "13"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "47"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.10]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'08'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 48 / measure 14]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "14"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "48"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 49 / measure 15]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 3/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "15"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "49"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.12]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'16'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 50 / measure 16]
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "16"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "50"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.13]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'19'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 51 / measure 17]
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "17"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "51"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.14]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'22'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 52 / measure 18]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "18"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "52"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 53 / measure 19]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 4/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "19"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "53"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.16]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'27'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 54 / measure 20]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "20"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "54"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 55 / measure 21]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 5/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 5/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "21"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "55"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.18]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'34'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 56 / measure 22]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "22"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "56"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 57 / measure 23]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 4/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "23"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "57"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.20]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'41'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 58 / measure 24]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "24"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "58"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only-fermata "2''"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 59 / measure 25]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 6/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/2
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "25"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "59"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.22]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'48'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 60 / measure 26]
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 3/2
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "26"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "60"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[C.23]"
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-left-only "[3'54'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 61 / measure 27]
-    %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-    %! baca.SegmentMaker._attach_color_literal(2)
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
-    %! baca.SegmentMaker._make_global_skips(1)
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStopTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStopTextSpanCT
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    - \baca-start-lmn-left-only "27"
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    \bacaStartTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% - \baca-start-mn-left-only "61"
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %@% \bacaStartTextSpanMN
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% - \baca-start-ct-both-left-fermata "4''" "[4'05'']"
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %@% \bacaStartTextSpanCT
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    %! baca.SegmentMaker._style_phantom_measures(1)
-    %! PHANTOM
-    % [Global_Skips measure 62 / measure 28]
-    %! baca.SegmentMaker._style_phantom_measures(2)
-    %! PHANTOM
-    \baca-time-signature-transparent
-    %! baca.SegmentMaker._make_global_skips(3)
-    %! PHANTOM
-    s1 * 1/4
-    %! LOCAL_MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %! baca.SegmentMaker._style_phantom_measures(1)
-    %! PHANTOM
-    \bacaStopTextSpanLMN
-    %! MEASURE_NUMBER
-    %! baca.SegmentMaker._label_measure_numbers()
-    %! baca.SegmentMaker._style_phantom_measures(1)
-    %! PHANTOM
-    %@% \bacaStopTextSpanMN
-    %! STAGE_NUMBER
-    %! baca.SegmentMaker._label_stage_numbers()
-    %! baca.SegmentMaker._style_phantom_measures(1)
-    %! PHANTOM
-    %@% \bacaStopTextSpanSNM
-    %! EOS_STOP_MM_SPANNER
-    %! baca.SegmentMaker._attach_metronome_marks(4)
-    %! baca.SegmentMaker._style_phantom_measures(1)
-    %! PHANTOM
-    \bacaStopTextSpanMM
-    %! CLOCK_TIME
-    %! baca.SegmentMaker._label_clock_time()
-    %! baca.SegmentMaker._style_phantom_measures(1)
-    %! PHANTOM
-    %@% \bacaStopTextSpanCT
-    %! baca.SegmentMaker._style_phantom_measures(3)
-    %! PHANTOM
-    \once \override Score.BarLine.transparent = ##t
-    %! baca.SegmentMaker._style_phantom_measures(3)
-    %! PHANTOM
-    \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
 %! baca.path.extern()
@@ -1451,7 +1449,6 @@ segment.04.Violin.I.Music.Voice = {
             %! baca.SegmentMaker._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \akasha-vn-i-markup
-            %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
             %! REAPPLIED_BAR_EXTENT
@@ -2475,7 +2472,13 @@ segment.04.Violin.I.Music.Voice = {
 
 
 %! baca.path.extern()
-segment.04.Violin.I.Music.Staff = {
+segment.04.Violin.I.Music.Staff = <<
+
+    %! abjad.ScoreTemplate._make_global_context()
+    \context GlobalRests = "Global_Rests"
+    %! abjad.ScoreTemplate._make_global_context()
+    %! baca.path.extern()
+    { \segment.04.Global.Rests }
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Violin_I_Music_Voice"
@@ -2485,7 +2488,7 @@ segment.04.Violin.I.Music.Staff = {
 
 %! akasha.ScoreTemplate.__call__()
 %! baca.path.extern()
-}
+>>
 
 
 %! baca.path.extern()
@@ -3559,7 +3562,15 @@ segment.04.Violin.II.Music.Voice = {
 
 
 %! baca.path.extern()
-segment.04.Violin.II.Music.Staff = {
+segment.04.Violin.II.Music.Staff = <<
+
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+%%% \context GlobalRests = "Global_Rests"
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+    %! baca.path.extern()
+%%% { \segment.04.Global.Rests }
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Violin_II_Music_Voice"
@@ -3569,7 +3580,7 @@ segment.04.Violin.II.Music.Staff = {
 
 %! akasha.ScoreTemplate.__call__()
 %! baca.path.extern()
-}
+>>
 
 
 %! baca.path.extern()
@@ -4653,7 +4664,15 @@ segment.04.Viola.Music.Voice = {
 
 
 %! baca.path.extern()
-segment.04.Viola.Music.Staff = {
+segment.04.Viola.Music.Staff = <<
+
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+%%% \context GlobalRests = "Global_Rests"
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+    %! baca.path.extern()
+%%% { \segment.04.Global.Rests }
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Viola_Music_Voice"
@@ -4663,7 +4682,7 @@ segment.04.Viola.Music.Staff = {
 
 %! akasha.ScoreTemplate.__call__()
 %! baca.path.extern()
-}
+>>
 
 
 %! baca.path.extern()
@@ -4676,7 +4695,6 @@ segment.04.Cello.Music.Voice = {
     %! baca.SegmentMaker._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \akasha-vc-markup
-    %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
     %! REAPPLIED_BAR_EXTENT
@@ -5899,7 +5917,15 @@ segment.04.Cello.Music.Voice = {
 
 
 %! baca.path.extern()
-segment.04.Cello.Music.Staff = {
+segment.04.Cello.Music.Staff = <<
+
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+%%% \context GlobalRests = "Global_Rests"
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+    %! baca.path.extern()
+%%% { \segment.04.Global.Rests }
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Cello_Music_Voice"
@@ -5909,4 +5935,4 @@ segment.04.Cello.Music.Staff = {
 
 %! akasha.ScoreTemplate.__call__()
 %! baca.path.extern()
-}
+>>

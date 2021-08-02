@@ -23,9 +23,6 @@
             \context GlobalContext = "Global_Context"
             <<
 
-                \context GlobalRests = "Global_Rests"
-                { \segment.15.Global.Rests }
-
                 \context GlobalSkips = "Global_Skips"
                 { \segment.15.Global.Skips }
 

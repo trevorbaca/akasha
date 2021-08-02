@@ -1,33 +1,3 @@
-segment.13.Global.Rests = {
-
-    % [Global_Rests measure 334 / measure 1]
-    R1 * 1
-
-    % [Global_Rests measure 335 / measure 2]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-very-long-fermata-markup
-
-    % [Global_Rests measure 336 / measure 3]
-    R1 * 3/2
-
-    % [Global_Rests measure 337 / measure 4]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-very-long-fermata-markup
-
-    % [Global_Rests measure 338 / measure 5]
-    R1 * 3/2
-
-    % [Global_Rests measure 339 / measure 6]
-    R1 * 3/4
-
-    % [Global_Rests measure 340 / measure 7]
-    R1 * 1/4
-
-}
-
-
 segment.13.Global.Skips = {
 
     % [Global_Skips measure 334 / measure 1]
@@ -89,6 +59,36 @@ segment.13.Global.Skips = {
     \bacaStopTextSpanMM
     \once \override Score.BarLine.transparent = ##t
     \once \override Score.SpanBar.transparent = ##t
+
+}
+
+
+segment.13.Global.Rests = {
+
+    % [Global_Rests measure 334 / measure 1]
+    R1 * 1
+
+    % [Global_Rests measure 335 / measure 2]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-very-long-fermata-markup
+
+    % [Global_Rests measure 336 / measure 3]
+    R1 * 3/2
+
+    % [Global_Rests measure 337 / measure 4]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-very-long-fermata-markup
+
+    % [Global_Rests measure 338 / measure 5]
+    R1 * 3/2
+
+    % [Global_Rests measure 339 / measure 6]
+    R1 * 3/4
+
+    % [Global_Rests measure 340 / measure 7]
+    R1 * 1/4
 
 }
 
@@ -160,12 +160,15 @@ segment.13.Violin.I.Music.Voice = {
 }
 
 
-segment.13.Violin.I.Music.Staff = {
+segment.13.Violin.I.Music.Staff = <<
+
+    \context GlobalRests = "Global_Rests"
+    { \segment.13.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
     { \segment.13.Violin.I.Music.Voice }
 
-}
+>>
 
 
 segment.13.Violin.II.Music.Voice = {
@@ -234,12 +237,15 @@ segment.13.Violin.II.Music.Voice = {
 }
 
 
-segment.13.Violin.II.Music.Staff = {
+segment.13.Violin.II.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.13.Global.Rests }
 
     \context Voice = "Violin_II_Music_Voice"
     { \segment.13.Violin.II.Music.Voice }
 
-}
+>>
 
 
 segment.13.Viola.Music.Voice = {
@@ -365,12 +371,15 @@ segment.13.Viola.Music.Voice = {
 }
 
 
-segment.13.Viola.Music.Staff = {
+segment.13.Viola.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.13.Global.Rests }
 
     \context Voice = "Viola_Music_Voice"
     { \segment.13.Viola.Music.Voice }
 
-}
+>>
 
 
 segment.13.Cello.Music.Voice = {
@@ -479,9 +488,12 @@ segment.13.Cello.Music.Voice = {
 }
 
 
-segment.13.Cello.Music.Staff = {
+segment.13.Cello.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.13.Global.Rests }
 
     \context Voice = "Cello_Music_Voice"
     { \segment.13.Cello.Music.Voice }
 
-}
+>>

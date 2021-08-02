@@ -1,138 +1,3 @@
-segment.06.Global.Rests = {
-
-    % [Global_Rests measure 113 / measure 1]
-    R1 * 1
-
-    % [Global_Rests measure 114 / measure 2]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-fermata-markup
-
-    % [Global_Rests measure 115 / measure 3]
-    R1 * 3/2
-
-    % [Global_Rests measure 116 / measure 4]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-fermata-markup
-
-    % [Global_Rests measure 117 / measure 5]
-    R1 * 3/2
-
-    % [Global_Rests measure 118 / measure 6]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-fermata-markup
-
-    % [Global_Rests measure 119 / measure 7]
-    R1 * 5/4
-
-    % [Global_Rests measure 120 / measure 8]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-fermata-markup
-
-    % [Global_Rests measure 121 / measure 9]
-    R1 * 3/4
-
-    % [Global_Rests measure 122 / measure 10]
-    R1 * 3/4
-
-    % [Global_Rests measure 123 / measure 11]
-    R1 * 1
-
-    % [Global_Rests measure 124 / measure 12]
-    R1 * 1
-
-    % [Global_Rests measure 125 / measure 13]
-    R1 * 5/4
-
-    % [Global_Rests measure 126 / measure 14]
-    R1 * 3/4
-
-    % [Global_Rests measure 127 / measure 15]
-    R1 * 3/4
-
-    % [Global_Rests measure 128 / measure 16]
-    R1 * 3/2
-
-    % [Global_Rests measure 129 / measure 17]
-    R1 * 1
-
-    % [Global_Rests measure 130 / measure 18]
-    R1 * 3/2
-
-    % [Global_Rests measure 131 / measure 19]
-    R1 * 3/2
-
-    % [Global_Rests measure 132 / measure 20]
-    R1 * 3/2
-
-    % [Global_Rests measure 133 / measure 21]
-    R1 * 1
-
-    % [Global_Rests measure 134 / measure 22]
-    R1 * 3/4
-
-    % [Global_Rests measure 135 / measure 23]
-    R1 * 1
-
-    % [Global_Rests measure 136 / measure 24]
-    R1 * 5/4
-
-    % [Global_Rests measure 137 / measure 25]
-    R1 * 3/4
-
-    % [Global_Rests measure 138 / measure 26]
-    R1 * 3/4
-
-    % [Global_Rests measure 139 / measure 27]
-    R1 * 3/4
-
-    % [Global_Rests measure 140 / measure 28]
-    R1 * 1
-
-    % [Global_Rests measure 141 / measure 29]
-    R1 * 5/4
-
-    % [Global_Rests measure 142 / measure 30]
-    R1 * 1
-
-    % [Global_Rests measure 143 / measure 31]
-    R1 * 3/2
-
-    % [Global_Rests measure 144 / measure 32]
-    R1 * 3/2
-
-    % [Global_Rests measure 145 / measure 33]
-    R1 * 3/2
-
-    % [Global_Rests measure 146 / measure 34]
-    R1 * 1
-
-    % [Global_Rests measure 147 / measure 35]
-    R1 * 3/2
-
-    % [Global_Rests measure 148 / measure 36]
-    R1 * 5/4
-
-    % [Global_Rests measure 149 / measure 37]
-    R1 * 3/4
-
-    % [Global_Rests measure 150 / measure 38]
-    R1 * 3/4
-
-    % [Global_Rests measure 151 / measure 39]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-long-fermata-markup
-
-    % [Global_Rests measure 152 / measure 40]
-    R1 * 1/4
-
-}
-
-
 segment.06.Global.Skips = {
 
     % [Global_Skips measure 113 / measure 1]
@@ -461,6 +326,141 @@ segment.06.Global.Skips = {
     \bacaStopTextSpanMM
     \once \override Score.BarLine.transparent = ##t
     \once \override Score.SpanBar.transparent = ##t
+
+}
+
+
+segment.06.Global.Rests = {
+
+    % [Global_Rests measure 113 / measure 1]
+    R1 * 1
+
+    % [Global_Rests measure 114 / measure 2]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-fermata-markup
+
+    % [Global_Rests measure 115 / measure 3]
+    R1 * 3/2
+
+    % [Global_Rests measure 116 / measure 4]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-fermata-markup
+
+    % [Global_Rests measure 117 / measure 5]
+    R1 * 3/2
+
+    % [Global_Rests measure 118 / measure 6]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-fermata-markup
+
+    % [Global_Rests measure 119 / measure 7]
+    R1 * 5/4
+
+    % [Global_Rests measure 120 / measure 8]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-fermata-markup
+
+    % [Global_Rests measure 121 / measure 9]
+    R1 * 3/4
+
+    % [Global_Rests measure 122 / measure 10]
+    R1 * 3/4
+
+    % [Global_Rests measure 123 / measure 11]
+    R1 * 1
+
+    % [Global_Rests measure 124 / measure 12]
+    R1 * 1
+
+    % [Global_Rests measure 125 / measure 13]
+    R1 * 5/4
+
+    % [Global_Rests measure 126 / measure 14]
+    R1 * 3/4
+
+    % [Global_Rests measure 127 / measure 15]
+    R1 * 3/4
+
+    % [Global_Rests measure 128 / measure 16]
+    R1 * 3/2
+
+    % [Global_Rests measure 129 / measure 17]
+    R1 * 1
+
+    % [Global_Rests measure 130 / measure 18]
+    R1 * 3/2
+
+    % [Global_Rests measure 131 / measure 19]
+    R1 * 3/2
+
+    % [Global_Rests measure 132 / measure 20]
+    R1 * 3/2
+
+    % [Global_Rests measure 133 / measure 21]
+    R1 * 1
+
+    % [Global_Rests measure 134 / measure 22]
+    R1 * 3/4
+
+    % [Global_Rests measure 135 / measure 23]
+    R1 * 1
+
+    % [Global_Rests measure 136 / measure 24]
+    R1 * 5/4
+
+    % [Global_Rests measure 137 / measure 25]
+    R1 * 3/4
+
+    % [Global_Rests measure 138 / measure 26]
+    R1 * 3/4
+
+    % [Global_Rests measure 139 / measure 27]
+    R1 * 3/4
+
+    % [Global_Rests measure 140 / measure 28]
+    R1 * 1
+
+    % [Global_Rests measure 141 / measure 29]
+    R1 * 5/4
+
+    % [Global_Rests measure 142 / measure 30]
+    R1 * 1
+
+    % [Global_Rests measure 143 / measure 31]
+    R1 * 3/2
+
+    % [Global_Rests measure 144 / measure 32]
+    R1 * 3/2
+
+    % [Global_Rests measure 145 / measure 33]
+    R1 * 3/2
+
+    % [Global_Rests measure 146 / measure 34]
+    R1 * 1
+
+    % [Global_Rests measure 147 / measure 35]
+    R1 * 3/2
+
+    % [Global_Rests measure 148 / measure 36]
+    R1 * 5/4
+
+    % [Global_Rests measure 149 / measure 37]
+    R1 * 3/4
+
+    % [Global_Rests measure 150 / measure 38]
+    R1 * 3/4
+
+    % [Global_Rests measure 151 / measure 39]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-long-fermata-markup
+
+    % [Global_Rests measure 152 / measure 40]
+    R1 * 1/4
 
 }
 
@@ -2115,12 +2115,15 @@ segment.06.Violin.I.Music.Voice = {
 }
 
 
-segment.06.Violin.I.Music.Staff = {
+segment.06.Violin.I.Music.Staff = <<
+
+    \context GlobalRests = "Global_Rests"
+    { \segment.06.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
     { \segment.06.Violin.I.Music.Voice }
 
-}
+>>
 
 
 segment.06.Violin.II.Music.Voice = {
@@ -3896,12 +3899,15 @@ segment.06.Violin.II.Music.Voice = {
 }
 
 
-segment.06.Violin.II.Music.Staff = {
+segment.06.Violin.II.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.06.Global.Rests }
 
     \context Voice = "Violin_II_Music_Voice"
     { \segment.06.Violin.II.Music.Voice }
 
-}
+>>
 
 
 segment.06.Viola.Music.Voice = {
@@ -4521,12 +4527,15 @@ segment.06.Viola.Music.Voice = {
 }
 
 
-segment.06.Viola.Music.Staff = {
+segment.06.Viola.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.06.Global.Rests }
 
     \context Voice = "Viola_Music_Voice"
     { \segment.06.Viola.Music.Voice }
 
-}
+>>
 
 
 segment.06.Cello.Music.Voice = {
@@ -6432,9 +6441,12 @@ segment.06.Cello.Music.Voice = {
 }
 
 
-segment.06.Cello.Music.Staff = {
+segment.06.Cello.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.06.Global.Rests }
 
     \context Voice = "Cello_Music_Voice"
     { \segment.06.Cello.Music.Voice }
 
-}
+>>

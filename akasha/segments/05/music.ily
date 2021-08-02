@@ -1,3 +1,457 @@
+segment.05.Global.Skips = {
+
+    % [Global_Skips measure 62 / measure 1]
+    \time 3/8
+    \bar ""
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    - \tweak extra-offset #'(0 . 7)
+    - \baca-rehearsal-mark-markup "D" #10
+    - \baca-start-lmn-left-only "1"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.1]"
+    \bacaStartTextSpanSNM
+    - \abjad-invisible-line
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
+    \bacaStartTextSpanMM
+
+    % [Global_Skips measure 63 / measure 2]
+    \time 4/8
+    \baca-time-signature-color #'blue
+    s1 * 1/2
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "2"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 64 / measure 3]
+    \time 3/8
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "3"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 65 / measure 4]
+    \time 6/8
+    \baca-time-signature-color #'blue
+    s1 * 3/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "4"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 66 / measure 5]
+    \time 7/8
+    \baca-time-signature-color #'blue
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "5"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 67 / measure 6]
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "6"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 68 / measure 7]
+    \time 4/8
+    \baca-time-signature-color #'blue
+    s1 * 1/2
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "7"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 69 / measure 8]
+    \time 8/8
+    \baca-time-signature-color #'blue
+    s1 * 1
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "8"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 70 / measure 9]
+    \time 1/4
+    \baca-time-signature-color #'blue
+    s1 * 1/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "9"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 71 / measure 10]
+    \time 9/8
+    \baca-time-signature-color #'blue
+    s1 * 9/8
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    - \baca-start-lmn-left-only "10"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.3]"
+    \bacaStartTextSpanSNM
+
+    % [Global_Skips measure 72 / measure 11]
+    s1 * 9/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "11"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 73 / measure 12]
+    \time 7/8
+    \baca-time-signature-color #'blue
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "12"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 74 / measure 13]
+    \time 3/8
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "13"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 75 / measure 14]
+    \time 6/8
+    \baca-time-signature-color #'blue
+    s1 * 3/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "14"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 76 / measure 15]
+    \time 7/8
+    \baca-time-signature-color #'blue
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "15"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 77 / measure 16]
+    \time 9/8
+    \baca-time-signature-color #'blue
+    s1 * 9/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "16"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 78 / measure 17]
+    \time 4/8
+    \baca-time-signature-color #'blue
+    s1 * 1/2
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "17"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 79 / measure 18]
+    \time 1/4
+    \baca-time-signature-color #'blue
+    s1 * 1/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "18"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 80 / measure 19]
+    \time 8/8
+    \baca-time-signature-color #'blue
+    s1 * 1
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    - \baca-start-lmn-left-only "19"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.5]"
+    \bacaStartTextSpanSNM
+
+    % [Global_Skips measure 81 / measure 20]
+    \time 9/8
+    \baca-time-signature-color #'blue
+    s1 * 9/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "20"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 82 / measure 21]
+    \time 4/8
+    \baca-time-signature-color #'blue
+    s1 * 1/2
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "21"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 83 / measure 22]
+    \time 3/8
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "22"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 84 / measure 23]
+    \time 1/4
+    \baca-time-signature-color #'blue
+    s1 * 1/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "23"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 85 / measure 24]
+    \time 9/8
+    \baca-time-signature-color #'blue
+    s1 * 9/8
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    - \baca-start-lmn-left-only "24"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.7]"
+    \bacaStartTextSpanSNM
+
+    % [Global_Skips measure 86 / measure 25]
+    s1 * 9/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "25"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 87 / measure 26]
+    \time 4/8
+    \baca-time-signature-color #'blue
+    s1 * 1/2
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "26"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 88 / measure 27]
+    \time 8/8
+    \baca-time-signature-color #'blue
+    s1 * 1
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "27"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 89 / measure 28]
+    \time 3/8
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "28"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 90 / measure 29]
+    \time 4/8
+    \baca-time-signature-color #'blue
+    s1 * 1/2
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "29"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 91 / measure 30]
+    \time 7/8
+    \baca-time-signature-color #'blue
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "30"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 92 / measure 31]
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "31"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 93 / measure 32]
+    \time 1/4
+    \baca-time-signature-color #'blue
+    s1 * 1/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "32"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 94 / measure 33]
+    \time 3/8
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanMM
+    - \baca-start-lmn-left-only "33"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.9]"
+    \bacaStartTextSpanSNM
+    - \abjad-invisible-line
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'blue
+    \bacaStartTextSpanMM
+
+    % [Global_Skips measure 95 / measure 34]
+    \time 6/8
+    \baca-time-signature-color #'blue
+    s1 * 3/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "34"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 96 / measure 35]
+    \time 4/8
+    \baca-time-signature-color #'blue
+    s1 * 1/2
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    - \baca-start-lmn-left-only "35"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.10]"
+    \bacaStartTextSpanSNM
+
+    % [Global_Skips measure 97 / measure 36]
+    \time 3/8
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "36"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 98 / measure 37]
+    \time 1/4
+    \baca-time-signature-color #'blue
+    s1 * 1/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "37"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 99 / measure 38]
+    \time 6/8
+    \baca-time-signature-color #'blue
+    s1 * 3/4
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanMM
+    - \baca-start-lmn-left-only "38"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.12]"
+    \bacaStartTextSpanSNM
+    - \abjad-dashed-line-with-arrow
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
+    \bacaStartTextSpanMM
+
+    % [Global_Skips measure 100 / measure 39]
+    \time 7/8
+    \baca-time-signature-color #'blue
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "39"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 101 / measure 40]
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "40"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 102 / measure 41]
+    \time 3/8
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "41"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 103 / measure 42]
+    \time 1/4
+    \baca-time-signature-color #'blue
+    s1 * 1/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "42"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 104 / measure 43]
+    \time 8/8
+    \baca-time-signature-color #'blue
+    s1 * 1
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    - \baca-start-lmn-left-only "43"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.14]"
+    \bacaStartTextSpanSNM
+
+    % [Global_Skips measure 105 / measure 44]
+    \time 9/8
+    \baca-time-signature-color #'blue
+    s1 * 9/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "44"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 106 / measure 45]
+    s1 * 9/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "45"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 107 / measure 46]
+    \time 4/8
+    \baca-time-signature-color #'blue
+    s1 * 1/2
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "46"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 108 / measure 47]
+    \time 3/8
+    \baca-time-signature-color #'blue
+    s1 * 3/8
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanMM
+    - \baca-start-lmn-left-only "47"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.15]"
+    \bacaStartTextSpanSNM
+    - \abjad-invisible-line
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
+    \bacaStartTextSpanMM
+
+    % [Global_Skips measure 109 / measure 48]
+    \time 6/8
+    \baca-time-signature-color #'blue
+    s1 * 3/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "48"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 110 / measure 49]
+    \time 7/8
+    \baca-time-signature-color #'blue
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "49"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 111 / measure 50]
+    s1 * 7/8
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    - \baca-start-lmn-left-only "50"
+    \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[05.16]"
+    \bacaStartTextSpanSNM
+
+    % [Global_Skips measure 112 / measure 51]
+    \time 1/4
+    \baca-time-signature-color #'blue
+    s1 * 1/4
+    \bacaStopTextSpanLMN
+    - \baca-start-lmn-left-only "51"
+    \bacaStartTextSpanLMN
+
+    % [Global_Skips measure 113 / measure 52]
+    \baca-time-signature-transparent
+    s1 * 1/4
+    \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanMM
+    \once \override Score.BarLine.transparent = ##t
+    \once \override Score.SpanBar.transparent = ##t
+
+}
+
+
 segment.05.Global.Rests = {
 
     % [Global_Rests measure 62 / measure 1]
@@ -169,430 +623,6 @@ segment.05.Global.Rests = {
 
     % [Global_Rests measure 113 / measure 52]
     R1 * 1/4
-
-}
-
-
-segment.05.Global.Skips = {
-
-    % [Global_Skips measure 62 / measure 1]
-    \time 3/8
-    \bar ""
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    - \tweak extra-offset #'(0 . 7)
-    - \baca-rehearsal-mark-markup "D" #10
-    - \baca-start-lmn-left-only "1"
-    \bacaStartTextSpanLMN
-    - \abjad-invisible-line
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
-    \bacaStartTextSpanMM
-
-    % [Global_Skips measure 63 / measure 2]
-    \time 4/8
-    \baca-time-signature-color #'blue
-    s1 * 1/2
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "2"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 64 / measure 3]
-    \time 3/8
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "3"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 65 / measure 4]
-    \time 6/8
-    \baca-time-signature-color #'blue
-    s1 * 3/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "4"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 66 / measure 5]
-    \time 7/8
-    \baca-time-signature-color #'blue
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "5"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 67 / measure 6]
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "6"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 68 / measure 7]
-    \time 4/8
-    \baca-time-signature-color #'blue
-    s1 * 1/2
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "7"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 69 / measure 8]
-    \time 8/8
-    \baca-time-signature-color #'blue
-    s1 * 1
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "8"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 70 / measure 9]
-    \time 1/4
-    \baca-time-signature-color #'blue
-    s1 * 1/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "9"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 71 / measure 10]
-    \time 9/8
-    \baca-time-signature-color #'blue
-    s1 * 9/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "10"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 72 / measure 11]
-    s1 * 9/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "11"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 73 / measure 12]
-    \time 7/8
-    \baca-time-signature-color #'blue
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "12"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 74 / measure 13]
-    \time 3/8
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "13"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 75 / measure 14]
-    \time 6/8
-    \baca-time-signature-color #'blue
-    s1 * 3/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "14"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 76 / measure 15]
-    \time 7/8
-    \baca-time-signature-color #'blue
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "15"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 77 / measure 16]
-    \time 9/8
-    \baca-time-signature-color #'blue
-    s1 * 9/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "16"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 78 / measure 17]
-    \time 4/8
-    \baca-time-signature-color #'blue
-    s1 * 1/2
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "17"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 79 / measure 18]
-    \time 1/4
-    \baca-time-signature-color #'blue
-    s1 * 1/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "18"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 80 / measure 19]
-    \time 8/8
-    \baca-time-signature-color #'blue
-    s1 * 1
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "19"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 81 / measure 20]
-    \time 9/8
-    \baca-time-signature-color #'blue
-    s1 * 9/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "20"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 82 / measure 21]
-    \time 4/8
-    \baca-time-signature-color #'blue
-    s1 * 1/2
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "21"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 83 / measure 22]
-    \time 3/8
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "22"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 84 / measure 23]
-    \time 1/4
-    \baca-time-signature-color #'blue
-    s1 * 1/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "23"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 85 / measure 24]
-    \time 9/8
-    \baca-time-signature-color #'blue
-    s1 * 9/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "24"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 86 / measure 25]
-    s1 * 9/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "25"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 87 / measure 26]
-    \time 4/8
-    \baca-time-signature-color #'blue
-    s1 * 1/2
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "26"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 88 / measure 27]
-    \time 8/8
-    \baca-time-signature-color #'blue
-    s1 * 1
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "27"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 89 / measure 28]
-    \time 3/8
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "28"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 90 / measure 29]
-    \time 4/8
-    \baca-time-signature-color #'blue
-    s1 * 1/2
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "29"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 91 / measure 30]
-    \time 7/8
-    \baca-time-signature-color #'blue
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "30"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 92 / measure 31]
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "31"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 93 / measure 32]
-    \time 1/4
-    \baca-time-signature-color #'blue
-    s1 * 1/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "32"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 94 / measure 33]
-    \time 3/8
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    \bacaStopTextSpanLMN
-    \bacaStopTextSpanMM
-    - \baca-start-lmn-left-only "33"
-    \bacaStartTextSpanLMN
-    - \abjad-invisible-line
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'blue
-    \bacaStartTextSpanMM
-
-    % [Global_Skips measure 95 / measure 34]
-    \time 6/8
-    \baca-time-signature-color #'blue
-    s1 * 3/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "34"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 96 / measure 35]
-    \time 4/8
-    \baca-time-signature-color #'blue
-    s1 * 1/2
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "35"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 97 / measure 36]
-    \time 3/8
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "36"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 98 / measure 37]
-    \time 1/4
-    \baca-time-signature-color #'blue
-    s1 * 1/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "37"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 99 / measure 38]
-    \time 6/8
-    \baca-time-signature-color #'blue
-    s1 * 3/4
-    \bacaStopTextSpanLMN
-    \bacaStopTextSpanMM
-    - \baca-start-lmn-left-only "38"
-    \bacaStartTextSpanLMN
-    - \abjad-dashed-line-with-arrow
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
-    \bacaStartTextSpanMM
-
-    % [Global_Skips measure 100 / measure 39]
-    \time 7/8
-    \baca-time-signature-color #'blue
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "39"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 101 / measure 40]
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "40"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 102 / measure 41]
-    \time 3/8
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "41"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 103 / measure 42]
-    \time 1/4
-    \baca-time-signature-color #'blue
-    s1 * 1/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "42"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 104 / measure 43]
-    \time 8/8
-    \baca-time-signature-color #'blue
-    s1 * 1
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "43"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 105 / measure 44]
-    \time 9/8
-    \baca-time-signature-color #'blue
-    s1 * 9/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "44"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 106 / measure 45]
-    s1 * 9/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "45"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 107 / measure 46]
-    \time 4/8
-    \baca-time-signature-color #'blue
-    s1 * 1/2
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "46"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 108 / measure 47]
-    \time 3/8
-    \baca-time-signature-color #'blue
-    s1 * 3/8
-    \bacaStopTextSpanLMN
-    \bacaStopTextSpanMM
-    - \baca-start-lmn-left-only "47"
-    \bacaStartTextSpanLMN
-    - \abjad-invisible-line
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
-    \bacaStartTextSpanMM
-
-    % [Global_Skips measure 109 / measure 48]
-    \time 6/8
-    \baca-time-signature-color #'blue
-    s1 * 3/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "48"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 110 / measure 49]
-    \time 7/8
-    \baca-time-signature-color #'blue
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "49"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 111 / measure 50]
-    s1 * 7/8
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "50"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 112 / measure 51]
-    \time 1/4
-    \baca-time-signature-color #'blue
-    s1 * 1/4
-    \bacaStopTextSpanLMN
-    - \baca-start-lmn-left-only "51"
-    \bacaStartTextSpanLMN
-
-    % [Global_Skips measure 113 / measure 52]
-    \baca-time-signature-transparent
-    s1 * 1/4
-    \bacaStopTextSpanLMN
-    \bacaStopTextSpanMM
-    \once \override Score.BarLine.transparent = ##t
-    \once \override Score.SpanBar.transparent = ##t
 
 }
 
@@ -1078,12 +1108,15 @@ segment.05.Violin.I.Music.Voice = {
 }
 
 
-segment.05.Violin.I.Music.Staff = {
+segment.05.Violin.I.Music.Staff = <<
+
+    \context GlobalRests = "Global_Rests"
+    { \segment.05.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
     { \segment.05.Violin.I.Music.Voice }
 
-}
+>>
 
 
 segment.05.Violin.II.Music.Voice = {
@@ -1527,12 +1560,15 @@ segment.05.Violin.II.Music.Voice = {
 }
 
 
-segment.05.Violin.II.Music.Staff = {
+segment.05.Violin.II.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.05.Global.Rests }
 
     \context Voice = "Violin_II_Music_Voice"
     { \segment.05.Violin.II.Music.Voice }
 
-}
+>>
 
 
 segment.05.Viola.Music.Voice = {
@@ -2055,12 +2091,15 @@ segment.05.Viola.Music.Voice = {
 }
 
 
-segment.05.Viola.Music.Staff = {
+segment.05.Viola.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.05.Global.Rests }
 
     \context Voice = "Viola_Music_Voice"
     { \segment.05.Viola.Music.Voice }
 
-}
+>>
 
 
 segment.05.Cello.Music.Voice = {
@@ -2592,9 +2631,12 @@ segment.05.Cello.Music.Voice = {
 }
 
 
-segment.05.Cello.Music.Staff = {
+segment.05.Cello.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.05.Global.Rests }
 
     \context Voice = "Cello_Music_Voice"
     { \segment.05.Cello.Music.Voice }
 
-}
+>>

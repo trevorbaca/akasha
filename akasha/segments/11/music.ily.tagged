@@ -1,46 +1,4 @@
 %! baca.path.extern()
-segment.11.Global.Rests = {
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 261 / measure 1]
-    %! baca.SegmentMaker._make_global_rests(1)
-    R1 * 1
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 262 / measure 2]
-    %! baca.SegmentMaker._make_global_rests(1)
-    R1 * 3/2
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 263 / measure 3]
-    %! baca.SegmentMaker._make_global_rests(1)
-    R1 * 3/2
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 264 / measure 4]
-    %! baca.global_fermata()
-    %! baca.GlobalFermataCommand._call(2)
-    \baca-fermata-measure
-    %! baca.SegmentMaker._make_global_rests(1)
-    R1 * 1/4
-    %! baca.global_fermata()
-    %! baca.GlobalFermataCommand._call(1)
-    ^ \baca-very-long-fermata-markup
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    %! baca.SegmentMaker._style_phantom_measures(4)
-    %! PHANTOM
-    % [Global_Rests measure 265 / measure 5]
-    %! baca.SegmentMaker._make_global_rests(2)
-    %! PHANTOM
-    R1 * 1/4
-
-%! abjad.ScoreTemplate._make_global_context()
-%! baca.path.extern()
-}
-
-
-%! baca.path.extern()
 segment.11.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -258,6 +216,46 @@ segment.11.Global.Skips = {
     %! baca.SegmentMaker._style_phantom_measures(3)
     %! PHANTOM
     \once \override Score.SpanBar.transparent = ##t
+
+%! abjad.ScoreTemplate._make_global_context()
+%! baca.path.extern()
+}
+
+
+%! baca.path.extern()
+segment.11.Global.Rests = {
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Rests measure 261 / measure 1]
+    %! baca.SegmentMaker._make_global_rests(1)
+    R1 * 1
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Rests measure 262 / measure 2]
+    %! baca.SegmentMaker._make_global_rests(1)
+    R1 * 3/2
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Rests measure 263 / measure 3]
+    %! baca.SegmentMaker._make_global_rests(1)
+    R1 * 3/2
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Rests measure 264 / measure 4]
+    %! baca.global_fermata()
+    %! baca.GlobalFermataCommand._call(2)
+    \baca-fermata-measure
+    %! baca.SegmentMaker._make_global_rests(1)
+    R1 * 1/4
+    %! baca.global_fermata()
+    %! baca.GlobalFermataCommand._call(1)
+    ^ \baca-very-long-fermata-markup
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Global_Rests measure 265 / measure 5]
+    %! baca.SegmentMaker._make_global_rests(2)
+    %! PHANTOM
+    R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
 %! baca.path.extern()
@@ -609,7 +607,13 @@ segment.11.Violin.I.Music.Voice = {
 
 
 %! baca.path.extern()
-segment.11.Violin.I.Music.Staff = {
+segment.11.Violin.I.Music.Staff = <<
+
+    %! abjad.ScoreTemplate._make_global_context()
+    \context GlobalRests = "Global_Rests"
+    %! abjad.ScoreTemplate._make_global_context()
+    %! baca.path.extern()
+    { \segment.11.Global.Rests }
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Violin_I_Music_Voice"
@@ -619,7 +623,7 @@ segment.11.Violin.I.Music.Staff = {
 
 %! akasha.ScoreTemplate.__call__()
 %! baca.path.extern()
-}
+>>
 
 
 %! baca.path.extern()
@@ -948,7 +952,15 @@ segment.11.Violin.II.Music.Voice = {
 
 
 %! baca.path.extern()
-segment.11.Violin.II.Music.Staff = {
+segment.11.Violin.II.Music.Staff = <<
+
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+%%% \context GlobalRests = "Global_Rests"
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+    %! baca.path.extern()
+%%% { \segment.11.Global.Rests }
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Violin_II_Music_Voice"
@@ -958,7 +970,7 @@ segment.11.Violin.II.Music.Staff = {
 
 %! akasha.ScoreTemplate.__call__()
 %! baca.path.extern()
-}
+>>
 
 
 %! baca.path.extern()
@@ -1161,7 +1173,15 @@ segment.11.Viola.Music.Voice = {
 
 
 %! baca.path.extern()
-segment.11.Viola.Music.Staff = {
+segment.11.Viola.Music.Staff = <<
+
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+%%% \context GlobalRests = "Global_Rests"
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+    %! baca.path.extern()
+%%% { \segment.11.Global.Rests }
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Viola_Music_Voice"
@@ -1171,7 +1191,7 @@ segment.11.Viola.Music.Staff = {
 
 %! akasha.ScoreTemplate.__call__()
 %! baca.path.extern()
-}
+>>
 
 
 %! baca.path.extern()
@@ -1191,7 +1211,6 @@ segment.11.Cello.Music.Voice = {
         %! baca.SegmentMaker._set_status_tag()
         %! REAPPLIED_MARGIN_MARKUP
         \set Staff.shortInstrumentName = \akasha-vc-markup
-        %! -PARTS
         %! baca.SegmentMaker._reapply_persistent_indicators(3)
         %! baca.SegmentMaker._set_status_tag()
         %! REAPPLIED_BAR_EXTENT
@@ -1529,7 +1548,15 @@ segment.11.Cello.Music.Voice = {
 
 
 %! baca.path.extern()
-segment.11.Cello.Music.Staff = {
+segment.11.Cello.Music.Staff = <<
+
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+%%% \context GlobalRests = "Global_Rests"
+    %! abjad.ScoreTemplate._make_global_context()
+    %! NOT_TOPMOST
+    %! baca.path.extern()
+%%% { \segment.11.Global.Rests }
 
     %! akasha.ScoreTemplate.__call__()
     \context Voice = "Cello_Music_Voice"
@@ -1539,4 +1566,4 @@ segment.11.Cello.Music.Staff = {
 
 %! akasha.ScoreTemplate.__call__()
 %! baca.path.extern()
-}
+>>

@@ -1,87 +1,3 @@
-segment.02.Global.Rests = {
-
-    % [Global_Rests measure 4 / measure 1]
-    R1 * 3/4
-
-    % [Global_Rests measure 5 / measure 2]
-    R1 * 3/4
-
-    % [Global_Rests measure 6 / measure 3]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-long-fermata-markup
-
-    % [Global_Rests measure 7 / measure 4]
-    R1 * 1
-
-    % [Global_Rests measure 8 / measure 5]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-long-fermata-markup
-
-    % [Global_Rests measure 9 / measure 6]
-    R1 * 5/4
-
-    % [Global_Rests measure 10 / measure 7]
-    R1 * 1
-
-    % [Global_Rests measure 11 / measure 8]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-short-fermata-markup
-
-    % [Global_Rests measure 12 / measure 9]
-    R1 * 3/2
-
-    % [Global_Rests measure 13 / measure 10]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-short-fermata-markup
-
-    % [Global_Rests measure 14 / measure 11]
-    R1 * 3/2
-
-    % [Global_Rests measure 15 / measure 12]
-    R1 * 3/2
-
-    % [Global_Rests measure 16 / measure 13]
-    R1 * 1
-
-    % [Global_Rests measure 17 / measure 14]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-long-fermata-markup
-
-    % [Global_Rests measure 18 / measure 15]
-    R1 * 3/2
-
-    % [Global_Rests measure 19 / measure 16]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-long-fermata-markup
-
-    % [Global_Rests measure 20 / measure 17]
-    R1 * 5/4
-
-    % [Global_Rests measure 21 / measure 18]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-long-fermata-markup
-
-    % [Global_Rests measure 22 / measure 19]
-    R1 * 3/4
-
-    % [Global_Rests measure 23 / measure 20]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-short-fermata-markup
-
-    % [Global_Rests measure 24 / measure 21]
-    R1 * 1/4
-
-}
-
-
 segment.02.Global.Skips = {
 
     % [Global_Skips measure 4 / measure 1]
@@ -91,6 +7,10 @@ segment.02.Global.Skips = {
     s1 * 3/4
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[02.1]"
+    \bacaStartTextSpanSNM
+    - \baca-start-xnm-left-only "[2 (AB)]"
+    \bacaStartTextSpanXNM
     - \abjad-dashed-line-with-arrow
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
     \bacaStartTextSpanMM
@@ -118,8 +38,11 @@ segment.02.Global.Skips = {
     \baca-time-signature-color #'blue
     s1 * 1
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "4"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[02.3]"
+    \bacaStartTextSpanSNM
 
     % [Global_Skips measure 8 / measure 5]
     \time 1/4
@@ -134,9 +57,15 @@ segment.02.Global.Skips = {
     \baca-time-signature-color #'blue
     s1 * 5/4
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanXNM
     \bacaStopTextSpanMM
     - \baca-start-lmn-left-only "6"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[02.5]"
+    \bacaStartTextSpanSNM
+    - \baca-start-xnm-left-only "[3 (B)]"
+    \bacaStartTextSpanXNM
     - \abjad-dashed-line-with-arrow
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
     \bacaStartTextSpanMM
@@ -162,8 +91,11 @@ segment.02.Global.Skips = {
     \baca-time-signature-color #'blue
     s1 * 3/2
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "9"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[02.7]"
+    \bacaStartTextSpanSNM
 
     % [Global_Skips measure 13 / measure 10]
     \time 1/4
@@ -182,8 +114,14 @@ segment.02.Global.Skips = {
     \baca-time-signature-color #'blue
     s1 * 3/2
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "11"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[02.9]"
+    \bacaStartTextSpanSNM
+    - \baca-start-xnm-left-only "[4 (BC)]"
+    \bacaStartTextSpanXNM
 
     % [Global_Skips measure 15 / measure 12]
     s1 * 3/2
@@ -212,8 +150,11 @@ segment.02.Global.Skips = {
     \baca-time-signature-color #'blue
     s1 * 3/2
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "15"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[02.11]"
+    \bacaStartTextSpanSNM
 
     % [Global_Skips measure 19 / measure 16]
     \time 1/4
@@ -228,8 +169,14 @@ segment.02.Global.Skips = {
     \baca-time-signature-color #'blue
     s1 * 5/4
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "17"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[02.13]"
+    \bacaStartTextSpanSNM
+    - \baca-start-xnm-left-only "[5 (C)]"
+    \bacaStartTextSpanXNM
 
     % [Global_Skips measure 21 / measure 18]
     \time 1/4
@@ -244,8 +191,14 @@ segment.02.Global.Skips = {
     \baca-time-signature-color #'blue
     s1 * 3/4
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "19"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[02.15]"
+    \bacaStartTextSpanSNM
+    - \baca-start-xnm-left-only "[6 (AC)]"
+    \bacaStartTextSpanXNM
 
     % [Global_Skips measure 23 / measure 20]
     \time 1/4
@@ -259,9 +212,103 @@ segment.02.Global.Skips = {
     \baca-time-signature-transparent
     s1 * 1/4
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
+    \bacaStopTextSpanXNM
     \bacaStopTextSpanMM
     \once \override Score.BarLine.transparent = ##t
     \once \override Score.SpanBar.transparent = ##t
+
+}
+
+
+segment.02.Global.Rests = {
+
+    % [Global_Rests measure 4 / measure 1]
+    R1 * 3/4
+
+    % [Global_Rests measure 5 / measure 2]
+    R1 * 3/4
+
+    % [Global_Rests measure 6 / measure 3]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-long-fermata-markup
+
+    % [Global_Rests measure 7 / measure 4]
+    R1 * 1
+
+    % [Global_Rests measure 8 / measure 5]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-long-fermata-markup
+
+    % [Global_Rests measure 9 / measure 6]
+    R1 * 5/4
+
+    % [Global_Rests measure 10 / measure 7]
+    R1 * 1
+
+    % [Global_Rests measure 11 / measure 8]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-short-fermata-markup
+
+    % [Global_Rests measure 12 / measure 9]
+    R1 * 3/2
+
+    % [Global_Rests measure 13 / measure 10]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-short-fermata-markup
+
+    % [Global_Rests measure 14 / measure 11]
+    R1 * 3/2
+
+    % [Global_Rests measure 15 / measure 12]
+    R1 * 3/2
+
+    % [Global_Rests measure 16 / measure 13]
+    R1 * 1
+
+    % [Global_Rests measure 17 / measure 14]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-long-fermata-markup
+
+    % [Global_Rests measure 18 / measure 15]
+    R1 * 3/2
+
+    % [Global_Rests measure 19 / measure 16]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-long-fermata-markup
+
+    % [Global_Rests measure 20 / measure 17]
+    R1 * 5/4
+
+    % [Global_Rests measure 21 / measure 18]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-long-fermata-markup
+
+    % [Global_Rests measure 22 / measure 19]
+    R1 * 3/4
+
+    % [Global_Rests measure 23 / measure 20]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-short-fermata-markup
+
+    % [Global_Rests measure 24 / measure 21]
+    R1 * 1/4
 
 }
 
@@ -310,15 +357,35 @@ segment.02.Violin.I.Music.Voice = {
     R1 * 3/4
 
     % [Violin_I_Music_Voice measure 6 / measure 3]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     % [Violin_I_Music_Voice measure 7 / measure 4]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     R1 * 1
 
     % [Violin_I_Music_Voice measure 8 / measure 5]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     % [Violin_I_Music_Voice measure 9 / measure 6]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     e'4
     - \tweak color #(x11-color 'blue)
     \mp
@@ -353,10 +420,14 @@ segment.02.Violin.I.Music.Voice = {
         {
 
             % [Violin_I_Music_Voice measure 11 / measure 8]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
 
@@ -371,6 +442,12 @@ segment.02.Violin.I.Music.Voice = {
     >>
 
     % [Violin_I_Music_Voice measure 12 / measure 9]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     r1
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "A"
@@ -386,7 +463,6 @@ segment.02.Violin.I.Music.Voice = {
         - \tweak color #(x11-color 'blue)
         \p
         - \staccato
-        ^ \akasha-leggierissimo-off-string-bowing-on-staccati-markup
         [
 
         cs'!32
@@ -423,10 +499,14 @@ segment.02.Violin.I.Music.Voice = {
         {
 
             % [Violin_I_Music_Voice measure 13 / measure 10]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
 
@@ -441,6 +521,12 @@ segment.02.Violin.I.Music.Voice = {
     >>
 
     % [Violin_I_Music_Voice measure 14 / measure 11]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     r1.
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "C"
@@ -530,10 +616,14 @@ segment.02.Violin.I.Music.Voice = {
         {
 
             % [Violin_I_Music_Voice measure 17 / measure 14]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
 
@@ -587,8 +677,14 @@ segment.02.Violin.I.Music.Voice = {
     {
 
         % [Violin_I_Music_Voice measure 18 / measure 15]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
+    %%% \once \override Score.BarLine.transparent = ##t
+    %%% \once \override Score.SpanBar.transparent = ##t
         e''16 * 241/32
         [
         - \abjad-dashed-line-with-hook
@@ -619,10 +715,14 @@ segment.02.Violin.I.Music.Voice = {
         {
 
             % [Violin_I_Music_Voice measure 19 / measure 16]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
 
@@ -678,8 +778,14 @@ segment.02.Violin.I.Music.Voice = {
     {
 
         % [Violin_I_Music_Voice measure 20 / measure 17]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
+    %%% \once \override Score.BarLine.transparent = ##t
+    %%% \once \override Score.SpanBar.transparent = ##t
         e''16 * 113/64
         [
         - \abjad-dashed-line-with-hook
@@ -710,10 +816,14 @@ segment.02.Violin.I.Music.Voice = {
         {
 
             % [Violin_I_Music_Voice measure 21 / measure 18]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
 
@@ -728,10 +838,20 @@ segment.02.Violin.I.Music.Voice = {
     >>
 
     % [Violin_I_Music_Voice measure 22 / measure 19]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     R1 * 3/4
 
     % [Violin_I_Music_Voice measure 23 / measure 20]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     <<
 
@@ -740,6 +860,8 @@ segment.02.Violin.I.Music.Voice = {
 
             % [Violin_I_Music_Voice measure 24 / measure 21]
             \abjad-invisible-music-coloring
+            \once \override Score.BarLine.transparent = ##t
+            \once \override Score.SpanBar.transparent = ##t
             R1 * 1/4
 
         }
@@ -762,12 +884,15 @@ segment.02.Violin.I.Music.Voice = {
 }
 
 
-segment.02.Violin.I.Music.Staff = {
+segment.02.Violin.I.Music.Staff = <<
+
+    \context GlobalRests = "Global_Rests"
+    { \segment.02.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
     { \segment.02.Violin.I.Music.Voice }
 
-}
+>>
 
 
 segment.02.Violin.II.Music.Voice = {
@@ -813,17 +938,22 @@ segment.02.Violin.II.Music.Voice = {
     R1 * 3/4
 
     % [Violin_II_Music_Voice measure 6 / measure 3]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     \times 8/9
     {
 
         % [Violin_II_Music_Voice measure 7 / measure 4]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
         bf!32
         - \tweak color #(x11-color 'blue)
         \p
         - \staccato
-        ^ \akasha-leggierissimo-off-string-bowing-on-staccati-markup
         [
         - \abjad-dashed-line-with-hook
         - \baca-text-spanner-left-text "A"
@@ -868,6 +998,9 @@ segment.02.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 8 / measure 5]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -886,6 +1019,9 @@ segment.02.Violin.II.Music.Voice = {
     >>
 
     % [Violin_II_Music_Voice measure 9 / measure 6]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     r2.
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -917,6 +1053,9 @@ segment.02.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 11 / measure 8]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -935,6 +1074,9 @@ segment.02.Violin.II.Music.Voice = {
     >>
 
     % [Violin_II_Music_Voice measure 12 / measure 9]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     r4
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -953,6 +1095,9 @@ segment.02.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 13 / measure 10]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -971,6 +1116,9 @@ segment.02.Violin.II.Music.Voice = {
     >>
 
     % [Violin_II_Music_Voice measure 14 / measure 11]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     r1.
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "C"
@@ -1058,6 +1206,9 @@ segment.02.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 17 / measure 14]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1115,6 +1266,9 @@ segment.02.Violin.II.Music.Voice = {
     {
 
         % [Violin_II_Music_Voice measure 18 / measure 15]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 115/64
@@ -1149,6 +1303,9 @@ segment.02.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 19 / measure 16]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1208,6 +1365,9 @@ segment.02.Violin.II.Music.Voice = {
     {
 
         % [Violin_II_Music_Voice measure 20 / measure 17]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 477/64
@@ -1238,6 +1398,9 @@ segment.02.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 21 / measure 18]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1295,6 +1458,9 @@ segment.02.Violin.II.Music.Voice = {
     {
 
         % [Violin_II_Music_Voice measure 22 / measure 19]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
         bf'!16 * 13/8
@@ -1323,6 +1489,9 @@ segment.02.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 23 / measure 20]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1369,12 +1538,15 @@ segment.02.Violin.II.Music.Voice = {
 }
 
 
-segment.02.Violin.II.Music.Staff = {
+segment.02.Violin.II.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.02.Global.Rests }
 
     \context Voice = "Violin_II_Music_Voice"
     { \segment.02.Violin.II.Music.Voice }
 
-}
+>>
 
 
 segment.02.Viola.Music.Voice = {
@@ -1422,9 +1594,15 @@ segment.02.Viola.Music.Voice = {
     R1 * 3/4
 
     % [Viola_Music_Voice measure 6 / measure 3]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     % [Viola_Music_Voice measure 7 / measure 4]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     r2.
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "A"
@@ -1442,7 +1620,6 @@ segment.02.Viola.Music.Voice = {
         - \tweak color #(x11-color 'blue)
         \p
         - \staccato
-        ^ \akasha-leggierissimo-off-string-bowing-on-staccati-markup
         [
 
         a32
@@ -1462,6 +1639,9 @@ segment.02.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 8 / measure 5]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -1480,6 +1660,9 @@ segment.02.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 9 / measure 6]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     r4
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -1516,6 +1699,9 @@ segment.02.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 11 / measure 8]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -1534,6 +1720,9 @@ segment.02.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 12 / measure 9]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     r2
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -1552,6 +1741,9 @@ segment.02.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 13 / measure 10]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -1570,6 +1762,9 @@ segment.02.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 14 / measure 11]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     d'2.
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -1618,6 +1813,9 @@ segment.02.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 17 / measure 14]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -1636,6 +1834,9 @@ segment.02.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 18 / measure 15]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     ef'!4.
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -1657,6 +1858,9 @@ segment.02.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 19 / measure 16]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -1675,15 +1879,27 @@ segment.02.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 20 / measure 17]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     R1 * 5/4
 
     % [Viola_Music_Voice measure 21 / measure 18]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     % [Viola_Music_Voice measure 22 / measure 19]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     R1 * 3/4
 
     % [Viola_Music_Voice measure 23 / measure 20]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     <<
@@ -1715,12 +1931,15 @@ segment.02.Viola.Music.Voice = {
 }
 
 
-segment.02.Viola.Music.Staff = {
+segment.02.Viola.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.02.Global.Rests }
 
     \context Voice = "Viola_Music_Voice"
     { \segment.02.Viola.Music.Voice }
 
-}
+>>
 
 
 segment.02.Cello.Music.Voice = {
@@ -1773,10 +1992,14 @@ segment.02.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 6 / measure 3]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -1791,21 +2014,41 @@ segment.02.Cello.Music.Voice = {
     >>
 
     % [Cello_Music_Voice measure 7 / measure 4]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     R1 * 1
 
     % [Cello_Music_Voice measure 8 / measure 5]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     % [Cello_Music_Voice measure 9 / measure 6]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     R1 * 5/4
 
     % [Cello_Music_Voice measure 10 / measure 7]
     R1 * 1
 
     % [Cello_Music_Voice measure 11 / measure 8]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     % [Cello_Music_Voice measure 12 / measure 9]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     c'4
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -1824,10 +2067,14 @@ segment.02.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 13 / measure 10]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -1842,6 +2089,10 @@ segment.02.Cello.Music.Voice = {
     >>
 
     % [Cello_Music_Voice measure 14 / measure 11]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     bf!2..
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -1892,10 +2143,14 @@ segment.02.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 17 / measure 14]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -1910,6 +2165,10 @@ segment.02.Cello.Music.Voice = {
     >>
 
     % [Cello_Music_Voice measure 18 / measure 15]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     a4
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "B"
@@ -1942,10 +2201,14 @@ segment.02.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 19 / measure 16]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -1960,12 +2223,24 @@ segment.02.Cello.Music.Voice = {
     >>
 
     % [Cello_Music_Voice measure 20 / measure 17]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     R1 * 5/4
 
     % [Cello_Music_Voice measure 21 / measure 18]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     % [Cello_Music_Voice measure 22 / measure 19]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     r4
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "A"
@@ -1983,7 +2258,6 @@ segment.02.Cello.Music.Voice = {
         - \tweak color #(x11-color 'blue)
         \p
         - \staccato
-        ^ \akasha-leggierissimo-off-string-bowing-on-staccati-markup
         [
 
         cs'!32
@@ -2002,10 +2276,14 @@ segment.02.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 23 / measure 20]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
             \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -2048,9 +2326,12 @@ segment.02.Cello.Music.Voice = {
 }
 
 
-segment.02.Cello.Music.Staff = {
+segment.02.Cello.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.02.Global.Rests }
 
     \context Voice = "Cello_Music_Voice"
     { \segment.02.Cello.Music.Voice }
 
-}
+>>

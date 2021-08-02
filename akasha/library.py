@@ -270,6 +270,26 @@ def manifest(these_counts):
     )
 
 
+def make_moment_markup(moment_tokens):
+    moment_markup = []
+    start_measure = 1
+    for moment_number, measure_count, string in moment_tokens:
+        moment_markup_ = (f"[{moment_number} ({string})]", start_measure)
+        moment_markup.append(moment_markup_)
+        start_measure += measure_count
+    return moment_markup
+
+
+def make_stage_markup(segment_number, stage_tokens):
+    stage_markup = []
+    start_measure = 1
+    for stage_number, measure_count in stage_tokens:
+        stage_markup_ = (f"[{segment_number}.{stage_number}]", start_measure)
+        stage_markup.append(stage_markup_)
+        start_measure += measure_count
+    return stage_markup
+
+
 def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf(0)):
     """
     Makes tagged margin markup indicator command.
@@ -478,6 +498,9 @@ class ScoreTemplate(baca.ScoreTemplate):
     ### CLASS VARIABLES ###
 
     _always_make_global_rests = True
+
+    # _global_rests_in_topmost_staff = True
+    _global_rests_in_every_staff = True
 
     ### INITIALIZER ###
 

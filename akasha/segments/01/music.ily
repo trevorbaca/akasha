@@ -1,22 +1,3 @@
-segment.01.Global.Rests = {
-
-    % [Global_Rests measure 1]
-    R1 * 3/8
-
-    % [Global_Rests measure 2]
-    R1 * 3/4
-
-    % [Global_Rests measure 3]
-    \baca-fermata-measure
-    R1 * 1/4
-    ^ \baca-very-long-fermata-markup
-
-    % [Global_Rests measure 4]
-    R1 * 1/4
-
-}
-
-
 segment.01.Global.Skips = {
 
     % [Global_Skips measure 1]
@@ -25,6 +6,8 @@ segment.01.Global.Skips = {
     s1 * 3/8
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
+    - \baca-start-snm-left-only "[01.1]"
+    \bacaStartTextSpanSNM
     - \abjad-invisible-line
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
     \bacaStartTextSpanMM
@@ -49,9 +32,29 @@ segment.01.Global.Skips = {
     \baca-time-signature-transparent
     s1 * 1/4
     \bacaStopTextSpanLMN
+    \bacaStopTextSpanSNM
     \bacaStopTextSpanMM
     \once \override Score.BarLine.transparent = ##t
     \once \override Score.SpanBar.transparent = ##t
+
+}
+
+
+segment.01.Global.Rests = {
+
+    % [Global_Rests measure 1]
+    R1 * 3/8
+
+    % [Global_Rests measure 2]
+    R1 * 3/4
+
+    % [Global_Rests measure 3]
+    \baca-fermata-measure
+    R1 * 1/4
+    ^ \baca-very-long-fermata-markup
+
+    % [Global_Rests measure 4]
+    R1 * 1/4
 
 }
 
@@ -112,12 +115,15 @@ segment.01.Violin.I.Music.Voice = {
 }
 
 
-segment.01.Violin.I.Music.Staff = {
+segment.01.Violin.I.Music.Staff = <<
+
+    \context GlobalRests = "Global_Rests"
+    { \segment.01.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
     { \segment.01.Violin.I.Music.Voice }
 
-}
+>>
 
 
 segment.01.Violin.II.Music.Voice = {
@@ -175,12 +181,15 @@ segment.01.Violin.II.Music.Voice = {
 }
 
 
-segment.01.Violin.II.Music.Staff = {
+segment.01.Violin.II.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.01.Global.Rests }
 
     \context Voice = "Violin_II_Music_Voice"
     { \segment.01.Violin.II.Music.Voice }
 
-}
+>>
 
 
 segment.01.Viola.Music.Voice = {
@@ -271,12 +280,15 @@ segment.01.Viola.Music.Voice = {
 }
 
 
-segment.01.Viola.Music.Staff = {
+segment.01.Viola.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.01.Global.Rests }
 
     \context Voice = "Viola_Music_Voice"
     { \segment.01.Viola.Music.Voice }
 
-}
+>>
 
 
 segment.01.Cello.Music.Voice = {
@@ -335,9 +347,12 @@ segment.01.Cello.Music.Voice = {
 }
 
 
-segment.01.Cello.Music.Staff = {
+segment.01.Cello.Music.Staff = <<
+
+%%% \context GlobalRests = "Global_Rests"
+%%% { \segment.01.Global.Rests }
 
     \context Voice = "Cello_Music_Voice"
     { \segment.01.Cello.Music.Voice }
 
-}
+>>
