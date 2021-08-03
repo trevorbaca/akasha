@@ -121,7 +121,7 @@ maker(
 
 maker(
     ("vc", (1, 2)),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.cello_solo_pitches(),
     akasha.cello_solo_rhythm(rotation=0),
     baca.dynamic("mp"),
@@ -133,7 +133,7 @@ maker(
 
 maker(
     ("v2", 4),
-    akasha.A(4),
+    akasha.material("A"),
     akasha.sparse_getato_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets((2, None)),
@@ -148,7 +148,7 @@ maker(
 
 maker(
     ("va", 4),
-    akasha.A(4),
+    akasha.material("A"),
     akasha.sparse_getato_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets((None, -1)),
@@ -158,7 +158,7 @@ maker(
 
 maker(
     (["v1", "v2", "va"], (6, 7)),
-    akasha.B(4),
+    akasha.material("B"),
     baca.dynamic("mp"),
     baca.markup(
         r"\baca-tasto-plus-half-scratch-markup",
@@ -195,7 +195,7 @@ maker(
 
 maker(
     ("v1", 9),
-    akasha.A(4),
+    akasha.material("A"),
     akasha.sparse_getato_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets((None, -2)),
@@ -205,7 +205,7 @@ maker(
 
 maker(
     ("v2", 9),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(omit=[1, 2, 3]),
@@ -217,7 +217,7 @@ maker(
 
 maker(
     ("va", 9),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(omit=[2, 3, 4]),
@@ -229,7 +229,7 @@ maker(
 
 maker(
     ("vc", 9),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(omit=[0, 1, 2]),
@@ -241,7 +241,7 @@ maker(
 
 maker(
     ("v1", (11, 13)),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.accelerando_rhythm(
         rmakers.force_rest(baca.selectors.tuplet(0)),
         rmakers.rewrite_rest_filled(),
@@ -260,7 +260,7 @@ maker(
 
 maker(
     ("v2", (11, 13)),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.ritardando_rhythm(
         rmakers.force_rest(baca.selectors.tuplet(0)),
         rmakers.rewrite_rest_filled(),
@@ -278,14 +278,14 @@ maker(
 
 maker(
     ("va", (11, 13)),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(rotation=-4),
     baca.pitches("D4 D+4 D#4 E4 F#4 F4", exact=True),
 )
 
 maker(
     ("vc", (11, 13)),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(
         rmakers.force_rest(baca.selectors.lt(-1)),
         rotation=-6,
@@ -295,7 +295,7 @@ maker(
 
 maker(
     ("v1", 15),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.accelerando_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(omit=[0, 2, 3, -1]),
@@ -306,7 +306,7 @@ maker(
 
 maker(
     ("v2", 15),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.ritardando_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(omit=[0, 1, 4, -1]),
@@ -316,14 +316,14 @@ maker(
 
 maker(
     ("va", 15),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(rotation=-8),
     baca.pitches("Eb4 D4", exact=True),
 )
 
 maker(
     ("vc", 15),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(
         rmakers.force_rest(baca.selectors.lt(-1)),
         rotation=-10,
@@ -333,7 +333,7 @@ maker(
 
 maker(
     ("v1", 17),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.ritardando_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(omit=[0, 2, -1]),
@@ -351,7 +351,7 @@ maker(
 
 maker(
     ("v2", 17),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.accelerando_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(omit=[0, 2, -1]),
@@ -362,7 +362,7 @@ maker(
 
 maker(
     ("v2", 19),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.ritardando_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(omit=[0, 1, -1]),
@@ -380,7 +380,7 @@ maker(
 
 maker(
     ("vc", 19),
-    akasha.A(4),
+    akasha.material("A"),
     akasha.sparse_getato_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets(~abjad.Pattern([1])),

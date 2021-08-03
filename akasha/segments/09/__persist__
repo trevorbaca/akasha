@@ -49,11 +49,13 @@ abjad.OrderedDict(
                             baca.Memento(
                                 context="Cello_Music_Voice",
                                 prototype="baca.BarExtent",
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                             ),
                             baca.Memento(
                                 context="Cello_Music_Voice",
                                 prototype="baca.StaffLines",
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                             ),
                         ],
@@ -94,12 +96,6 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Viola_Music_Voice",
-                                edition=abjad.Tag("-PARTS"),
-                                prototype="baca.BarExtent",
-                                value=5,
-                            ),
-                            baca.Memento(
-                                context="Viola_Music_Voice",
                                 manifest="instruments",
                                 value="Viola",
                             ),
@@ -110,7 +106,14 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Viola_Music_Voice",
+                                prototype="baca.BarExtent",
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                            ),
+                            baca.Memento(
+                                context="Viola_Music_Voice",
                                 prototype="baca.StaffLines",
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                             ),
                         ],
@@ -136,12 +139,6 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Violin_II_Music_Voice",
-                                edition=abjad.Tag("-PARTS"),
-                                prototype="baca.BarExtent",
-                                value=5,
-                            ),
-                            baca.Memento(
-                                context="Violin_II_Music_Voice",
                                 manifest="instruments",
                                 value="ViolinI",
                             ),
@@ -152,7 +149,14 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Violin_II_Music_Voice",
+                                prototype="baca.BarExtent",
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                            ),
+                            baca.Memento(
+                                context="Violin_II_Music_Voice",
                                 prototype="baca.StaffLines",
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                             ),
                         ],
@@ -178,12 +182,6 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Violin_I_Music_Voice",
-                                edition=abjad.Tag("-PARTS"),
-                                prototype="baca.BarExtent",
-                                value=5,
-                            ),
-                            baca.Memento(
-                                context="Violin_I_Music_Voice",
                                 manifest="instruments",
                                 value="ViolinI",
                             ),
@@ -194,7 +192,14 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Violin_I_Music_Voice",
+                                prototype="baca.BarExtent",
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                            ),
+                            baca.Memento(
+                                context="Violin_I_Music_Voice",
                                 prototype="baca.StaffLines",
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                             ),
                         ],

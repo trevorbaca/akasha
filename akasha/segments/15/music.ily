@@ -280,6 +280,7 @@ segment.15.Global.Rests = {
     R1 * 9/8
 
     % [Global_Rests measure 393 / measure 25]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-very-long-fermata-markup
@@ -429,6 +430,9 @@ segment.15.Violin.I.Music.Voice = {
     R1 * 9/8
 
     % [Violin_I_Music_Voice measure 393 / measure 25]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     <<
@@ -652,6 +656,9 @@ segment.15.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 393 / measure 25]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -846,6 +853,9 @@ segment.15.Viola.Music.Voice = {
     R1 * 9/8
 
     % [Viola_Music_Voice measure 393 / measure 25]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     <<
@@ -1027,6 +1037,9 @@ segment.15.Cello.Music.Voice = {
     R1 * 9/8
 
     % [Cello_Music_Voice measure 393 / measure 25]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     <<

@@ -21,6 +21,7 @@ stage_tokens = (
 )
 stage_markup = akasha.make_stage_markup("05", stage_tokens)
 
+fermata_measures = [9, 18, 23, 32, 37, 42, 51]
 maker = baca.SegmentMaker(
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
@@ -28,6 +29,8 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     color_octaves=False,
+    fermata_extra_offset_y=4.5,
+    fermata_measure_empty_overrides=fermata_measures,
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -37,7 +40,7 @@ maker = baca.SegmentMaker(
     time_signatures=akasha.time_signatures(
         "B",
         count=51,
-        fermata_measures=[9, 18, 23, 32, 37, 42, 51],
+        fermata_measures=fermata_measures,
         rotation=12,
     ),
 )

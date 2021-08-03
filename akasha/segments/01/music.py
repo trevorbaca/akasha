@@ -9,12 +9,15 @@ from akasha import library as akasha
 stage_tokens = ((1, 2 + 1),)
 stage_markup = akasha.make_stage_markup("01", stage_tokens)
 
+fermata_measures = [-1]
 maker = baca.SegmentMaker(
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.STAGE_NUMBER,
     ],
     check_all_are_pitched=True,
+    fermata_extra_offset_y=4.5,
+    fermata_measure_empty_overrides=fermata_measures,
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
@@ -23,7 +26,7 @@ maker = baca.SegmentMaker(
     time_signatures=akasha.time_signatures(
         "B",
         count=3,
-        fermata_measures=[-1],
+        fermata_measures=fermata_measures,
         rotation=0,
     ),
 )
@@ -72,6 +75,7 @@ maker(
 
 maker(
     ("va", (1, 2)),
+    akasha.material("E"),
     baca.staff_lines(1),
     baca.down_bow(),
     baca.dynamic('"mf"'),

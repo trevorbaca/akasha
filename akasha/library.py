@@ -616,96 +616,34 @@ class ScoreTemplate(baca.ScoreTemplate):
         return super(ScoreTemplate, self).voice_abbreviations
 
 
-def A(
-    staff_padding: abjad.Number,
-    *,
-    measures=None,
-    selector=baca.selectors.rleaves(),
-):
+material_to_color = {
+    "A": "0.061 0.961 0.806",
+    "B": "0.261 0.661 0.806",
+    "C": "0.461 0.361 0.806",
+    "D": "0.661 0.161 0.806",
+    "E": "0.861 0.961 0.406",
+}
+
+
+def material(letter):
     """
-    Makes annotation spanner for material A.
+    Colors staff for material ``letter``.
     """
-    return material_annotation_spanner(
-        "A =|",
-        "#darkred",
-        "MATERIAL:MATERIAL_A",
-        staff_padding,
-        measures=measures,
-        selector=selector,
+    color = material_to_color[letter]
+    literal = baca.literal(rf"\colorSpan #-4 #4 #(rgb-color {color})")
+    tag = baca.tags.COLORED_PHRASING_SLUR
+    tags = literal.tags
+    tags.append(tag)
+    literal = abjad.new(literal, tags=tags)
+    slur = baca.slur(
+        phrasing_slur=True,
+        selector=lambda _: baca.Selection(_).leaves(),
     )
-
-
-def B(
-    staff_padding: abjad.Number,
-    *,
-    measures=None,
-    selector=baca.selectors.rleaves(),
-):
-    """
-    Makes annotation spanner for material B.
-    """
-    return material_annotation_spanner(
-        "B =|",
-        "#blue",
-        "MATERIAL:MATERIAL_B",
-        staff_padding,
-        measures=measures,
-        selector=selector,
-    )
-
-
-def C(
-    staff_padding: abjad.Number,
-    *,
-    measures=None,
-    selector=baca.selectors.rleaves(),
-):
-    """
-    Makes annotation spanner for material C.
-    """
-    return material_annotation_spanner(
-        "C =|",
-        "#darkgreen",
-        "MATERIAL:MATERIAL_C",
-        staff_padding,
-        measures=measures,
-        selector=selector,
-    )
-
-
-def D(
-    staff_padding: abjad.Number,
-    *,
-    measures=None,
-    selector=baca.selectors.rleaves(),
-):
-    """
-    Makes annotation spanner for material D.
-    """
-    return material_annotation_spanner(
-        "D =|",
-        "#green",
-        "MATERIAL:MATERIAL_D",
-        staff_padding,
-        measures=measures,
-        selector=selector,
-    )
-
-
-def E(
-    staff_padding: abjad.Number,
-    *,
-    measures=None,
-    selector=baca.selectors.rleaves(),
-):
-    """
-    Makes annotation spanner for material E.
-    """
-    return material_annotation_spanner(
-        "E =|",
-        "#green",
-        "MATERIAL:MATERIAL_E",
-        staff_padding,
-        measures=measures,
-        selector=selector,
+    tag = baca.tags.COLORED_PHRASING_SLUR
+    tags = slur.tags
+    tags.append(tag)
+    slur = abjad.new(slur, tags=tags)
+    return baca.suite(
+        literal,
+        slur,
     )
