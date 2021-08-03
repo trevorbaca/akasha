@@ -6,9 +6,7 @@ from akasha import library as akasha
 ########################################### 01 ##########################################
 #########################################################################################
 
-stage_tokens = (
-    (1, 2 + 1),
-)
+stage_tokens = ((1, 2 + 1),)
 stage_markup = akasha.make_stage_markup("01", stage_tokens)
 
 maker = baca.SegmentMaker(
