@@ -1785,6 +1785,7 @@ segment.06.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 114 / measure 2]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
     \baca-fermata-measure
@@ -1801,6 +1802,7 @@ segment.06.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 116 / measure 4]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
     \baca-fermata-measure
@@ -1817,6 +1819,7 @@ segment.06.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 118 / measure 6]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
     \baca-fermata-measure
@@ -1833,6 +1836,7 @@ segment.06.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 120 / measure 8]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
     \baca-fermata-measure
@@ -1994,6 +1998,7 @@ segment.06.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 151 / measure 39]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
     \baca-fermata-measure
@@ -2032,23 +2037,25 @@ segment.06.Violin.I.Music.Voice = {
             %! baca.SegmentMaker._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \akasha-vn-i-markup
-            %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_BAR_EXTENT
             %! EXPLICIT_BAR_EXTENT
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \stopStaff
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \once \override Staff.StaffSymbol.line-count = 5
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \startStaff
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             \set Staff.instrumentName = \akasha-vn-i-markup
@@ -2152,14 +2159,40 @@ segment.06.Violin.I.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 114 / measure 2]
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \startStaff
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/4
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    %! baca.SegmentMaker._style_fermata_measures(2)
+    %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 115 / measure 3]
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \startStaff
+    %! baca.SegmentMaker._style_fermata_measures(4)
+    %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! FERMATA_MEASURE
+    %! MEASURE_114
+    %! baca.SegmentMaker._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+    %! FERMATA_MEASURE
+    %! MEASURE_114
+    %! baca.SegmentMaker._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2168,11 +2201,20 @@ segment.06.Violin.I.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 116 / measure 4]
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \startStaff
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/4
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    %! baca.SegmentMaker._style_fermata_measures(2)
+    %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     %! akasha.scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
@@ -2183,6 +2225,23 @@ segment.06.Violin.I.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 117 / measure 5]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
+        %! baca.SegmentMaker._style_fermata_measures(4)
+        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! FERMATA_MEASURE
+        %! MEASURE_116
+        %! baca.SegmentMaker._style_fermata_measures(7)
+    %%% \once \override Score.BarLine.transparent = ##t
+        %! FERMATA_MEASURE
+        %! MEASURE_116
+        %! baca.SegmentMaker._style_fermata_measures(7)
+    %%% \once \override Score.SpanBar.transparent = ##t
         %! akasha.scratch_rhythm()
         f'4
         %! EXPLICIT_DYNAMIC_COLOR
@@ -2223,6 +2282,12 @@ segment.06.Violin.I.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Violin_I_Music_Voice measure 118 / measure 6]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -2245,6 +2310,9 @@ segment.06.Violin.I.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.SegmentMaker._style_fermata_measures(2)
+            %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -2281,6 +2349,23 @@ segment.06.Violin.I.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 119 / measure 7]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
+        %! baca.SegmentMaker._style_fermata_measures(4)
+        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! FERMATA_MEASURE
+        %! MEASURE_118
+        %! baca.SegmentMaker._style_fermata_measures(7)
+    %%% \once \override Score.BarLine.transparent = ##t
+        %! FERMATA_MEASURE
+        %! MEASURE_118
+        %! baca.SegmentMaker._style_fermata_measures(7)
+    %%% \once \override Score.SpanBar.transparent = ##t
         %! akasha.scratch_rhythm()
         fs'!4
 
@@ -2303,6 +2388,12 @@ segment.06.Violin.I.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Violin_I_Music_Voice measure 120 / measure 8]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -2325,6 +2416,9 @@ segment.06.Violin.I.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.SegmentMaker._style_fermata_measures(2)
+            %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -2361,6 +2455,23 @@ segment.06.Violin.I.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 121 / measure 9]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
+        %! baca.SegmentMaker._style_fermata_measures(4)
+        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! FERMATA_MEASURE
+        %! MEASURE_120
+        %! baca.SegmentMaker._style_fermata_measures(7)
+        \once \override Score.BarLine.transparent = ##t
+        %! FERMATA_MEASURE
+        %! MEASURE_120
+        %! baca.SegmentMaker._style_fermata_measures(7)
+        \once \override Score.SpanBar.transparent = ##t
         %! akasha.scratch_rhythm()
         r4
 
@@ -5064,6 +5175,12 @@ segment.06.Violin.I.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Violin_I_Music_Voice measure 151 / measure 39]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -5086,6 +5203,9 @@ segment.06.Violin.I.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.SegmentMaker._style_fermata_measures(2)
+            %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -5140,6 +5260,18 @@ segment.06.Violin.I.Music.Voice = {
             %! INVISIBLE_MUSIC_COMMAND
             %! baca.SegmentMaker._style_phantom_measures(5)
             %@% \abjad-invisible-music
+            %! FERMATA_MEASURE
+            %! MEASURE_151
+            %! baca.SegmentMaker._style_fermata_measures(7)
+            %! baca.SegmentMaker._style_phantom_measures(5)
+            %! PHANTOM
+            \once \override Score.BarLine.transparent = ##t
+            %! FERMATA_MEASURE
+            %! MEASURE_151
+            %! baca.SegmentMaker._style_fermata_measures(7)
+            %! baca.SegmentMaker._style_phantom_measures(5)
+            %! PHANTOM
+            \once \override Score.SpanBar.transparent = ##t
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! PHANTOM
             %! HIDDEN
@@ -5249,15 +5381,18 @@ segment.06.Violin.II.Music.Voice = {
             \set Staff.shortInstrumentName = \akasha-vn-ii-markup
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \stopStaff
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \once \override Staff.StaffSymbol.line-count = 5
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \startStaff
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             \set Staff.instrumentName = \akasha-vn-ii-markup
@@ -5361,6 +5496,12 @@ segment.06.Violin.II.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 114 / measure 2]
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \startStaff
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -5376,6 +5517,12 @@ segment.06.Violin.II.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 115 / measure 3]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
         %! akasha.scratch_rhythm()
         r4
 
@@ -5416,6 +5563,12 @@ segment.06.Violin.II.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Violin_II_Music_Voice measure 116 / measure 4]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -5474,6 +5627,12 @@ segment.06.Violin.II.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 117 / measure 5]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
         %! akasha.scratch_rhythm()
         r4
 
@@ -5502,6 +5661,12 @@ segment.06.Violin.II.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Violin_II_Music_Voice measure 118 / measure 6]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -5560,6 +5725,12 @@ segment.06.Violin.II.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 119 / measure 7]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
         %! akasha.scratch_rhythm()
         r4
 
@@ -5591,6 +5762,12 @@ segment.06.Violin.II.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Violin_II_Music_Voice measure 120 / measure 8]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -5649,6 +5826,12 @@ segment.06.Violin.II.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 121 / measure 9]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
         %! akasha.scratch_rhythm()
         r4
 
@@ -8573,6 +8756,12 @@ segment.06.Violin.II.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Violin_II_Music_Voice measure 151 / measure 39]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -8859,6 +9048,12 @@ segment.06.Viola.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Viola_Music_Voice measure 114 / measure 2]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -8910,6 +9105,12 @@ segment.06.Viola.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 115 / measure 3]
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 1
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \startStaff
     %! akasha.viola_ob_rhythm()
     r4.
 
@@ -8944,6 +9145,12 @@ segment.06.Viola.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Viola_Music_Voice measure 116 / measure 4]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -8995,6 +9202,12 @@ segment.06.Viola.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 117 / measure 5]
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 1
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \startStaff
     %! akasha.viola_ob_rhythm()
     r4.
 
@@ -9029,6 +9242,12 @@ segment.06.Viola.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Viola_Music_Voice measure 118 / measure 6]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -9080,6 +9299,12 @@ segment.06.Viola.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 119 / measure 7]
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 1
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \startStaff
     %! akasha.viola_ob_rhythm()
     r4
 
@@ -9108,6 +9333,12 @@ segment.06.Viola.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Viola_Music_Voice measure 120 / measure 8]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -9159,6 +9390,12 @@ segment.06.Viola.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 121 / measure 9]
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 1
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \startStaff
     %! akasha.viola_ob_rhythm()
     r4
 
@@ -9909,6 +10146,12 @@ segment.06.Viola.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Viola_Music_Voice measure 151 / measure 39]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -10096,20 +10339,23 @@ segment.06.Cello.Music.Voice = {
             \set Staff.shortInstrumentName = \akasha-vc-markup
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_BAR_EXTENT
             %! EXPLICIT_BAR_EXTENT
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \stopStaff
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \once \override Staff.StaffSymbol.line-count = 5
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
-            %! REAPPLIED_STAFF_LINES
+            %! EXPLICIT_STAFF_LINES
+            %! baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
             \startStaff
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             \set Staff.instrumentName = \akasha-vc-markup
@@ -10213,11 +10459,20 @@ segment.06.Cello.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Music_Voice measure 114 / measure 2]
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \startStaff
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/4
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    %! baca.SegmentMaker._style_fermata_measures(2)
+    %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     %! akasha.scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
@@ -10228,6 +10483,15 @@ segment.06.Cello.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Cello_Music_Voice measure 115 / measure 3]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
+        %! baca.SegmentMaker._style_fermata_measures(4)
+        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         %! akasha.scratch_rhythm()
         r4
 
@@ -10271,6 +10535,12 @@ segment.06.Cello.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Cello_Music_Voice measure 116 / measure 4]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -10293,6 +10563,9 @@ segment.06.Cello.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.SegmentMaker._style_fermata_measures(2)
+            %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -10322,6 +10595,15 @@ segment.06.Cello.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Music_Voice measure 117 / measure 5]
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+    %! baca.SegmentMaker._style_fermata_measures(3)
+    \startStaff
+    %! baca.SegmentMaker._style_fermata_measures(4)
+    %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -10330,11 +10612,20 @@ segment.06.Cello.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Music_Voice measure 118 / measure 6]
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \stopStaff
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+    %! baca.SegmentMaker._style_fermata_measures(1)
+    \startStaff
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/4
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    %! baca.SegmentMaker._style_fermata_measures(2)
+    %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     %! akasha.scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
@@ -10345,6 +10636,15 @@ segment.06.Cello.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Cello_Music_Voice measure 119 / measure 7]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
+        %! baca.SegmentMaker._style_fermata_measures(4)
+        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         %! akasha.scratch_rhythm()
         r4
 
@@ -10370,6 +10670,12 @@ segment.06.Cello.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Cello_Music_Voice measure 120 / measure 8]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -10392,6 +10698,9 @@ segment.06.Cello.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.SegmentMaker._style_fermata_measures(2)
+            %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -10428,6 +10737,15 @@ segment.06.Cello.Music.Voice = {
 
         %! baca.SegmentMaker._comment_measure_numbers()
         % [Cello_Music_Voice measure 121 / measure 9]
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \stopStaff
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \once \override Staff.StaffSymbol.line-count = 5
+        %! baca.SegmentMaker._style_fermata_measures(3)
+        \startStaff
+        %! baca.SegmentMaker._style_fermata_measures(4)
+        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         %! akasha.scratch_rhythm()
         r4
 
@@ -13701,6 +14019,12 @@ segment.06.Cello.Music.Voice = {
 
             %! baca.SegmentMaker._comment_measure_numbers()
             % [Cello_Music_Voice measure 151 / measure 39]
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \stopStaff
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+            %! baca.SegmentMaker._style_fermata_measures(1)
+            \startStaff
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -13723,6 +14047,9 @@ segment.06.Cello.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.SegmentMaker._style_fermata_measures(2)
+            %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }

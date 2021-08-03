@@ -49,6 +49,7 @@ segment.01.Global.Rests = {
     R1 * 3/4
 
     % [Global_Rests measure 3]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-very-long-fermata-markup
@@ -84,7 +85,11 @@ segment.01.Violin.I.Music.Voice = {
     R1 * 6/8
 
     % [Violin_I_Music_Voice measure 3]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     <<
 
@@ -93,6 +98,8 @@ segment.01.Violin.I.Music.Voice = {
 
             % [Violin_I_Music_Voice measure 4]
             \abjad-invisible-music-coloring
+            \once \override Score.BarLine.transparent = ##t
+            \once \override Score.SpanBar.transparent = ##t
             R1 * 1/4
 
         }
@@ -150,6 +157,9 @@ segment.01.Violin.II.Music.Voice = {
     R1 * 6/8
 
     % [Violin_II_Music_Voice measure 3]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     <<
@@ -200,6 +210,7 @@ segment.01.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.861 0.961 0.406)
     \clef "alto"
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
     \set Staff.forceClef = ##t
@@ -218,6 +229,7 @@ segment.01.Viola.Music.Voice = {
     - \tweak color #darkcyan
     - \tweak staff-padding 8
     \bacaStartTextSpanRhythmAnnotation
+    \(
     - \tweak stencil ##f
     ~
     \override Staff.Clef.color = #(x11-color 'violet)
@@ -227,6 +239,7 @@ segment.01.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 2]
     c'2.
     \repeatTie
+    \)
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
@@ -235,6 +248,9 @@ segment.01.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 3]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -316,7 +332,11 @@ segment.01.Cello.Music.Voice = {
     R1 * 6/8
 
     % [Cello_Music_Voice measure 3]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     <<
 

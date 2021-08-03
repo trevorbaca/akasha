@@ -384,18 +384,14 @@ segment.02.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     e'4
     - \tweak color #(x11-color 'blue)
     \mp
     ^ \baca-tasto-plus-half-scratch-markup
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     f'2
     - \tweak stencil ##f
@@ -413,6 +409,7 @@ segment.02.Violin.I.Music.Voice = {
     \repeatTie
 
     r2..
+    \)
 
     <<
 
@@ -426,7 +423,6 @@ segment.02.Violin.I.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
@@ -446,15 +442,11 @@ segment.02.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     r1
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "A"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #darkred
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     \times 8/9
     {
@@ -490,6 +482,7 @@ segment.02.Violin.I.Music.Voice = {
         ]
 
         r8
+        \)
 
     }
 
@@ -505,7 +498,6 @@ segment.02.Violin.I.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
@@ -525,15 +517,11 @@ segment.02.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     r1.
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "C"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #darkgreen
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
@@ -605,6 +593,7 @@ segment.02.Violin.I.Music.Voice = {
 
         \revert Staff.Stem.stemlet-length
         d''16 * 117/16
+        \)
         ]
 
     }
@@ -622,7 +611,6 @@ segment.02.Violin.I.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
@@ -681,18 +669,14 @@ segment.02.Violin.I.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
     %%% \once \override Score.BarLine.transparent = ##t
     %%% \once \override Score.SpanBar.transparent = ##t
         e''16 * 241/32
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "C"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkgreen
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         r16 * 49/8
 
@@ -704,6 +688,7 @@ segment.02.Violin.I.Music.Voice = {
 
         \revert Staff.Stem.stemlet-length
         d''16 * 61/32
+        \)
         ]
 
     }
@@ -721,7 +706,6 @@ segment.02.Violin.I.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
@@ -782,18 +766,14 @@ segment.02.Violin.I.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
     %%% \once \override Score.BarLine.transparent = ##t
     %%% \once \override Score.SpanBar.transparent = ##t
         e''16 * 113/64
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "C"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkgreen
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         r16 * 121/64
 
@@ -805,6 +785,7 @@ segment.02.Violin.I.Music.Voice = {
 
         \revert Staff.Stem.stemlet-length
         e''16 * 409/64
+        \)
         ]
 
     }
@@ -822,7 +803,6 @@ segment.02.Violin.I.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
@@ -950,17 +930,13 @@ segment.02.Violin.II.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
+        \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
         bf!32
         - \tweak color #(x11-color 'blue)
         \p
         - \staccato
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "A"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkred
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         b32
         - \staccato
@@ -991,6 +967,7 @@ segment.02.Violin.II.Music.Voice = {
     }
 
     r2
+    \)
 
     <<
 
@@ -1004,7 +981,6 @@ segment.02.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1022,13 +998,9 @@ segment.02.Violin.II.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     r2.
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     r4.
 
@@ -1046,6 +1018,7 @@ segment.02.Violin.II.Music.Voice = {
     dqf'!4.
 
     c'2
+    \)
 
     <<
 
@@ -1059,7 +1032,6 @@ segment.02.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1077,17 +1049,14 @@ segment.02.Violin.II.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     r4
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     cs'!4.
 
     ctqs'!2..
+    \)
 
     <<
 
@@ -1101,7 +1070,6 @@ segment.02.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1119,13 +1087,9 @@ segment.02.Violin.II.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
     r1.
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "C"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #darkgreen
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
@@ -1195,6 +1159,7 @@ segment.02.Violin.II.Music.Voice = {
 
         \revert Staff.Stem.stemlet-length
         bf'!16 * 31/16
+        \)
         ]
 
     }
@@ -1212,7 +1177,6 @@ segment.02.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1269,16 +1233,12 @@ segment.02.Violin.II.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
+        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 115/64
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "C"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkgreen
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         bf'!16 * 121/64
 
@@ -1292,6 +1252,7 @@ segment.02.Violin.II.Music.Voice = {
 
         \revert Staff.Stem.stemlet-length
         bf'!16 * 429/64
+        \)
         ]
 
     }
@@ -1309,7 +1270,6 @@ segment.02.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1368,16 +1328,12 @@ segment.02.Violin.II.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
+        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 477/64
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "C"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkgreen
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         r16 * 353/64
 
@@ -1387,6 +1343,7 @@ segment.02.Violin.II.Music.Voice = {
 
         \revert Staff.Stem.stemlet-length
         c''16 * 15/8
+        \)
         ]
 
     }
@@ -1404,7 +1361,6 @@ segment.02.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1461,16 +1417,12 @@ segment.02.Violin.II.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
+        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
         bf'!16 * 13/8
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "C"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkgreen
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         c''16 * 125/64
 
@@ -1478,6 +1430,7 @@ segment.02.Violin.II.Music.Voice = {
 
         \revert Staff.Stem.stemlet-length
         bf'!16 * 343/64
+        \)
         ]
 
     }
@@ -1495,7 +1448,6 @@ segment.02.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1603,13 +1555,9 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
     r2.
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "A"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #darkred
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     \times 8/9
     {
@@ -1630,6 +1578,7 @@ segment.02.Viola.Music.Voice = {
         ]
 
         r16
+        \)
 
     }
 
@@ -1645,7 +1594,6 @@ segment.02.Viola.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1663,13 +1611,9 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     r4
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     ef'!2
     - \tweak color #(x11-color 'blue)
@@ -1692,6 +1636,7 @@ segment.02.Viola.Music.Voice = {
     e'4.
 
     r2
+    \)
 
     <<
 
@@ -1705,7 +1650,6 @@ segment.02.Viola.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1723,17 +1667,14 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     r2
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     r8
 
     c'2..
+    \)
 
     <<
 
@@ -1747,7 +1688,6 @@ segment.02.Viola.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1765,13 +1705,9 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     d'2.
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
     - \tweak stencil ##f
     ~
 
@@ -1806,6 +1742,7 @@ segment.02.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 16 / measure 13]
     f'1
     \repeatTie
+    \)
 
     <<
 
@@ -1819,7 +1756,6 @@ segment.02.Viola.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1837,13 +1773,9 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     ef'!4.
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     d'4.
     - \tweak stencil ##f
@@ -1851,6 +1783,7 @@ segment.02.Viola.Music.Voice = {
 
     d'2.
     \repeatTie
+    \)
 
     <<
 
@@ -1864,7 +1797,6 @@ segment.02.Viola.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -1951,6 +1883,7 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \set Staff.instrumentName = \akasha-vc-markup
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     \clef "bass"
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -1962,12 +1895,7 @@ segment.02.Cello.Music.Voice = {
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
     ^ \baca-tasto-plus-half-scratch-markup
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-vc-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1985,6 +1913,7 @@ segment.02.Cello.Music.Voice = {
     fs!8
 
     c4
+    \)
 
     <<
 
@@ -1998,7 +1927,6 @@ segment.02.Cello.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
@@ -2049,17 +1977,14 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     c'4
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     cqf'!4.
 
     b2..
+    \)
 
     <<
 
@@ -2073,7 +1998,6 @@ segment.02.Cello.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
@@ -2093,13 +2017,9 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     bf!2..
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     btqf!8
     - \tweak stencil ##f
@@ -2136,6 +2056,7 @@ segment.02.Cello.Music.Voice = {
     \repeatTie
 
     r4
+    \)
 
     <<
 
@@ -2149,7 +2070,6 @@ segment.02.Cello.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
@@ -2169,13 +2089,9 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     a4
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     as!2
     - \tweak stencil ##f
@@ -2194,6 +2110,7 @@ segment.02.Cello.Music.Voice = {
     ]
 
     r8
+    \)
 
     <<
 
@@ -2207,7 +2124,6 @@ segment.02.Cello.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
@@ -2241,13 +2157,9 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
     r4
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "A"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #darkred
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
 
     \times 8/9
     {
@@ -2269,6 +2181,7 @@ segment.02.Cello.Music.Voice = {
     }
 
     r4
+    \)
 
     <<
 
@@ -2282,7 +2195,6 @@ segment.02.Cello.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }

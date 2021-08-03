@@ -129,6 +129,7 @@ segment.03.Global.Rests = {
     R1 * 1
 
     % [Global_Rests measure 28 / measure 5]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-long-fermata-markup
@@ -137,6 +138,7 @@ segment.03.Global.Rests = {
     R1 * 3/8
 
     % [Global_Rests measure 30 / measure 7]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-short-fermata-markup
@@ -145,6 +147,7 @@ segment.03.Global.Rests = {
     R1 * 1/2
 
     % [Global_Rests measure 32 / measure 9]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-short-fermata-markup
@@ -211,6 +214,7 @@ segment.03.Violin.I.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \set Staff.instrumentName = \akasha-vn-i-markup
+        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
         \once \override Beam.grow-direction = #right
         \clef "treble"
         \override Staff.Stem.stemlet-length = 0.75
@@ -224,12 +228,7 @@ segment.03.Violin.I.Music.Voice = {
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "C"
-        - \tweak bound-details.right.padding 2.75
-        - \tweak color #darkgreen
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
         \set Staff.shortInstrumentName = \akasha-vn-i-markup
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -252,6 +251,7 @@ segment.03.Violin.I.Music.Voice = {
 
     % [Violin_I_Music_Voice measure 26 / measure 3]
     r2
+    \)
 
     <<
 
@@ -262,7 +262,6 @@ segment.03.Violin.I.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -277,21 +276,51 @@ segment.03.Violin.I.Music.Voice = {
     >>
 
     % [Violin_I_Music_Voice measure 28 / measure 5]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     % [Violin_I_Music_Voice measure 29 / measure 6]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     R1 * 3/8
 
     % [Violin_I_Music_Voice measure 30 / measure 7]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     % [Violin_I_Music_Voice measure 31 / measure 8]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     R1 * 1/2
 
     % [Violin_I_Music_Voice measure 32 / measure 9]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     % [Violin_I_Music_Voice measure 33 / measure 10]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     R1 * 7/8
 
     % [Violin_I_Music_Voice measure 34 / measure 11]
@@ -345,6 +374,7 @@ segment.03.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \set Staff.instrumentName = \akasha-vn-ii-markup
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     \clef "treble"
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -356,12 +386,7 @@ segment.03.Violin.II.Music.Voice = {
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
     ^ \baca-tasto-plus-half-scratch-markup
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -385,6 +410,7 @@ segment.03.Violin.II.Music.Voice = {
     % [Violin_II_Music_Voice measure 26 / measure 3]
     e'2
     \repeatTie
+    \)
 
     <<
 
@@ -395,7 +421,6 @@ segment.03.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -410,18 +435,33 @@ segment.03.Violin.II.Music.Voice = {
     >>
 
     % [Violin_II_Music_Voice measure 28 / measure 5]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     % [Violin_II_Music_Voice measure 29 / measure 6]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     R1 * 3/8
 
     % [Violin_II_Music_Voice measure 30 / measure 7]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     % [Violin_II_Music_Voice measure 31 / measure 8]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     R1 * 1/2
 
     % [Violin_II_Music_Voice measure 32 / measure 9]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -464,6 +504,10 @@ segment.03.Violin.II.Music.Voice = {
     {
 
         % [Violin_II_Music_Voice measure 33 / measure 10]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 487/64
@@ -471,12 +515,7 @@ segment.03.Violin.II.Music.Voice = {
         \pp
         ^ \baca-tasto-plus-xfb-markup
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "C"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkgreen
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         bf'!16 * 209/32
 
@@ -490,6 +529,7 @@ segment.03.Violin.II.Music.Voice = {
 
         \revert Staff.Stem.stemlet-length
         bf'!16 * 61/32
+        \)
         ]
 
     }
@@ -504,7 +544,6 @@ segment.03.Violin.II.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -545,6 +584,7 @@ segment.03.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \set Staff.instrumentName = \akasha-va-markup
+    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
     \clef "alto"
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -555,12 +595,7 @@ segment.03.Viola.Music.Voice = {
     \mp
     ^ \baca-reapplied-indicator-markup "[“Va.”]"
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "B"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #blue
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-va-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -594,6 +629,7 @@ segment.03.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 26 / measure 3]
     c'2
     \repeatTie
+    \)
 
     <<
 
@@ -604,7 +640,6 @@ segment.03.Viola.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -619,38 +654,53 @@ segment.03.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 28 / measure 5]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     % [Viola_Music_Voice measure 29 / measure 6]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     R1 * 3/8
 
     % [Viola_Music_Voice measure 30 / measure 7]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     % [Viola_Music_Voice measure 31 / measure 8]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     R1 * 1/2
 
     % [Viola_Music_Voice measure 32 / measure 9]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     % [Viola_Music_Voice measure 33 / measure 10]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
     R1 * 7/8
 
     % [Viola_Music_Voice measure 34 / measure 11]
+    \colorSpan #-4 #4 #(rgb-color 0.661 0.161 0.806)
     ds!2..
     ^ \baca-tasto-markup
+    \)
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
     - \tweak color #darkcyan
     - \tweak staff-padding 8
     \bacaStartTextSpanRhythmAnnotation
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "D"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #green
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
@@ -662,7 +712,6 @@ segment.03.Viola.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 
@@ -704,6 +753,7 @@ segment.03.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \set Staff.instrumentName = \akasha-vc-markup
+    \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
     \override Beam.positions = #'(-4 . -4)
     \override TupletBracket.staff-padding = 2
     \clef "bass"
@@ -716,12 +766,7 @@ segment.03.Cello.Music.Voice = {
     \p
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "A"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #darkred
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-vc-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -886,6 +931,7 @@ segment.03.Cello.Music.Voice = {
         ]
 
         r8
+        \)
 
     }
 
@@ -895,10 +941,13 @@ segment.03.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 28 / measure 5]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -916,15 +965,15 @@ segment.03.Cello.Music.Voice = {
     {
 
         % [Cello_Music_Voice measure 29 / measure 6]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
         fs!32
         - \staccato
         [
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "A"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkred
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         g32
         - \staccato
@@ -961,6 +1010,7 @@ segment.03.Cello.Music.Voice = {
         ]
 
         r32
+        \)
 
     }
 
@@ -970,10 +1020,13 @@ segment.03.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 30 / measure 7]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -991,14 +1044,14 @@ segment.03.Cello.Music.Voice = {
     {
 
         % [Cello_Music_Voice measure 31 / measure 8]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
         d32
         - \staccato
-        - \abjad-dashed-line-with-hook
-        - \baca-text-spanner-left-text "A"
-        - \tweak bound-details.right.padding 3.25
-        - \tweak color #darkred
-        - \tweak staff-padding 4
-        \bacaStartTextSpanMaterialAnnotation
+        \(
 
         r8
 
@@ -1025,6 +1078,7 @@ segment.03.Cello.Music.Voice = {
 
         fs!32
         - \staccato
+        \)
         \revert Beam.positions
         \revert TupletBracket.staff-padding
 
@@ -1036,10 +1090,13 @@ segment.03.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 32 / measure 9]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -1054,25 +1111,26 @@ segment.03.Cello.Music.Voice = {
     >>
 
     % [Cello_Music_Voice measure 33 / measure 10]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     R1 * 7/8
 
     % [Cello_Music_Voice measure 34 / measure 11]
+    \colorSpan #-4 #4 #(rgb-color 0.661 0.161 0.806)
     cs,!2..
     - \tweak color #(x11-color 'blue)
     \mp
     ^ \baca-tasto-markup
+    \)
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
     - \tweak color #darkcyan
     - \tweak staff-padding 8
     \bacaStartTextSpanRhythmAnnotation
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "D"
-    - \tweak bound-details.right.padding 3.25
-    - \tweak color #green
-    - \tweak staff-padding 4
-    \bacaStartTextSpanMaterialAnnotation
+    \(
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
@@ -1084,7 +1142,6 @@ segment.03.Cello.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
-            \bacaStopTextSpanMaterialAnnotation
 
         }
 

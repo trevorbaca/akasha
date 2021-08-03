@@ -136,12 +136,6 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Violin_II_Music_Voice",
-                                edition=abjad.Tag("-PARTS"),
-                                prototype="baca.BarExtent",
-                                value=5,
-                            ),
-                            baca.Memento(
-                                context="Violin_II_Music_Voice",
                                 manifest="instruments",
                                 value="ViolinI",
                             ),
@@ -149,6 +143,11 @@ abjad.OrderedDict(
                                 context="Violin_II_Music_Voice",
                                 prototype="abjad.Clef",
                                 value="treble",
+                            ),
+                            baca.Memento(
+                                context="Violin_II_Music_Voice",
+                                prototype="baca.BarExtent",
+                                value=5,
                             ),
                             baca.Memento(
                                 context="Violin_II_Music_Voice",
@@ -178,12 +177,6 @@ abjad.OrderedDict(
                             ),
                             baca.Memento(
                                 context="Violin_I_Music_Voice",
-                                edition=abjad.Tag("-PARTS"),
-                                prototype="baca.BarExtent",
-                                value=5,
-                            ),
-                            baca.Memento(
-                                context="Violin_I_Music_Voice",
                                 manifest="instruments",
                                 value="ViolinI",
                             ),
@@ -191,6 +184,11 @@ abjad.OrderedDict(
                                 context="Violin_I_Music_Voice",
                                 prototype="abjad.Clef",
                                 value="treble",
+                            ),
+                            baca.Memento(
+                                context="Violin_I_Music_Voice",
+                                prototype="baca.BarExtent",
+                                value=5,
                             ),
                             baca.Memento(
                                 context="Violin_I_Music_Voice",

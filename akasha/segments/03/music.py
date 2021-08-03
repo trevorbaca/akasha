@@ -18,6 +18,7 @@ stage_tokens = (
 stage_markup = akasha.make_stage_markup("03", stage_tokens)
 
 
+fermata_measures = [5, 7, 9]
 maker = baca.SegmentMaker(
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
@@ -25,6 +26,8 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     color_octaves=False,
+    fermata_extra_offset_y=4.5,
+    fermata_measure_empty_overrides=fermata_measures,
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -34,7 +37,7 @@ maker = baca.SegmentMaker(
     time_signatures=akasha.time_signatures(
         "B",
         count=11,
-        fermata_measures=[5, 7, 9],
+        fermata_measures=fermata_measures,
         rotation=6,
     ),
 )
@@ -57,7 +60,7 @@ maker(
 
 maker(
     ("v1", (1, 3)),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.accelerando_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets((-2, None)),
@@ -72,7 +75,7 @@ maker(
 
 maker(
     ("v2", (1, 3)),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(),
     baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
     baca.dynamic("mp"),
@@ -84,7 +87,7 @@ maker(
 
 maker(
     ("va", (1, 3)),
-    akasha.B(4),
+    akasha.material("B"),
     akasha.polyphony_rhythm(
         rmakers.force_rest(
             baca.selectors.lts((None, 2)),
@@ -96,7 +99,7 @@ maker(
 
 maker(
     ("vc", (1, 4)),
-    akasha.A(4),
+    akasha.material("A"),
     akasha.sparse_getato_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets(~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
@@ -108,7 +111,7 @@ maker(
 
 maker(
     ("vc", 6),
-    akasha.A(4),
+    akasha.material("A"),
     akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
@@ -118,7 +121,7 @@ maker(
 
 maker(
     ("vc", 8),
-    akasha.A(4),
+    akasha.material("A"),
     akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
@@ -138,7 +141,7 @@ maker(
 
 maker(
     ("v2", (10, 11)),
-    akasha.C(4),
+    akasha.material("C"),
     akasha.accelerando_rhythm(
         rmakers.force_rest(baca.selectors.lt(3)),
         fuse_counts=[2, 1],
@@ -153,7 +156,7 @@ maker(
 
 maker(
     (["va", "vc"], 11),
-    akasha.D(4),
+    akasha.material("D"),
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-tasto-markup",

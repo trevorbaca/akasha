@@ -336,6 +336,7 @@ segment.06.Global.Rests = {
     R1 * 1
 
     % [Global_Rests measure 114 / measure 2]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-fermata-markup
@@ -344,6 +345,7 @@ segment.06.Global.Rests = {
     R1 * 3/2
 
     % [Global_Rests measure 116 / measure 4]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-fermata-markup
@@ -352,6 +354,7 @@ segment.06.Global.Rests = {
     R1 * 3/2
 
     % [Global_Rests measure 118 / measure 6]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-fermata-markup
@@ -360,6 +363,7 @@ segment.06.Global.Rests = {
     R1 * 5/4
 
     % [Global_Rests measure 120 / measure 8]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-fermata-markup
@@ -455,6 +459,7 @@ segment.06.Global.Rests = {
     R1 * 3/4
 
     % [Global_Rests measure 151 / measure 39]
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-long-fermata-markup
@@ -508,19 +513,39 @@ segment.06.Violin.I.Music.Voice = {
     >>
 
     % [Violin_I_Music_Voice measure 114 / measure 2]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     % [Violin_I_Music_Voice measure 115 / measure 3]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+%%% \once \override Score.BarLine.transparent = ##t
+%%% \once \override Score.SpanBar.transparent = ##t
     R1 * 3/2
 
     % [Violin_I_Music_Voice measure 116 / measure 4]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/4
     {
 
         % [Violin_I_Music_Voice measure 117 / measure 5]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %%% \once \override Score.BarLine.transparent = ##t
+    %%% \once \override Score.SpanBar.transparent = ##t
         f'4
         - \tweak color #(x11-color 'blue)
         \ff
@@ -540,9 +565,13 @@ segment.06.Violin.I.Music.Voice = {
         {
 
             % [Violin_I_Music_Voice measure 118 / measure 6]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
 
@@ -561,6 +590,12 @@ segment.06.Violin.I.Music.Voice = {
     {
 
         % [Violin_I_Music_Voice measure 119 / measure 7]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %%% \once \override Score.BarLine.transparent = ##t
+    %%% \once \override Score.SpanBar.transparent = ##t
         fs'!4
 
         r4
@@ -575,9 +610,13 @@ segment.06.Violin.I.Music.Voice = {
         {
 
             % [Violin_I_Music_Voice measure 120 / measure 8]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
 
@@ -596,6 +635,12 @@ segment.06.Violin.I.Music.Voice = {
     {
 
         % [Violin_I_Music_Voice measure 121 / measure 9]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        \once \override Score.BarLine.transparent = ##t
+        \once \override Score.SpanBar.transparent = ##t
         r4
 
         f'4
@@ -2070,9 +2115,13 @@ segment.06.Violin.I.Music.Voice = {
         {
 
             % [Violin_I_Music_Voice measure 151 / measure 39]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
         }
 
@@ -2093,6 +2142,8 @@ segment.06.Violin.I.Music.Voice = {
 
             % [Violin_I_Music_Voice measure 152 / measure 40]
             \abjad-invisible-music-coloring
+            \once \override Score.BarLine.transparent = ##t
+            \once \override Score.SpanBar.transparent = ##t
             R1 * 1/4
 
         }
@@ -2168,6 +2219,9 @@ segment.06.Violin.II.Music.Voice = {
     >>
 
     % [Violin_II_Music_Voice measure 114 / measure 2]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
 
     \tweak text #tuplet-number::calc-fraction-text
@@ -2175,6 +2229,9 @@ segment.06.Violin.II.Music.Voice = {
     {
 
         % [Violin_II_Music_Voice measure 115 / measure 3]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
         r4
 
         r4
@@ -2194,6 +2251,9 @@ segment.06.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 116 / measure 4]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -2215,6 +2275,9 @@ segment.06.Violin.II.Music.Voice = {
     {
 
         % [Violin_II_Music_Voice measure 117 / measure 5]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
         r4
 
         r4
@@ -2233,6 +2296,9 @@ segment.06.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 118 / measure 6]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -2254,6 +2320,9 @@ segment.06.Violin.II.Music.Voice = {
     {
 
         % [Violin_II_Music_Voice measure 119 / measure 7]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
         r4
 
         r4
@@ -2274,6 +2343,9 @@ segment.06.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 120 / measure 8]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -2295,6 +2367,9 @@ segment.06.Violin.II.Music.Voice = {
     {
 
         % [Violin_II_Music_Voice measure 121 / measure 9]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
         r4
 
         r4
@@ -3854,6 +3929,9 @@ segment.06.Violin.II.Music.Voice = {
         {
 
             % [Violin_II_Music_Voice measure 151 / measure 39]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -3949,6 +4027,9 @@ segment.06.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 114 / measure 2]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -3966,6 +4047,9 @@ segment.06.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 115 / measure 3]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 1
+    \startStaff
     r4.
 
     c'4
@@ -3985,6 +4069,9 @@ segment.06.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 116 / measure 4]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -4002,6 +4089,9 @@ segment.06.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 117 / measure 5]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 1
+    \startStaff
     r4.
 
     c'4
@@ -4021,6 +4111,9 @@ segment.06.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 118 / measure 6]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -4038,6 +4131,9 @@ segment.06.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 119 / measure 7]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 1
+    \startStaff
     r4
 
     c'4.
@@ -4054,6 +4150,9 @@ segment.06.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 120 / measure 8]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -4071,6 +4170,9 @@ segment.06.Viola.Music.Voice = {
     >>
 
     % [Viola_Music_Voice measure 121 / measure 9]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 1
+    \startStaff
     r4
 
     c'4.
@@ -4482,6 +4584,9 @@ segment.06.Viola.Music.Voice = {
         {
 
             % [Viola_Music_Voice measure 151 / measure 39]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -4581,13 +4686,21 @@ segment.06.Cello.Music.Voice = {
     >>
 
     % [Cello_Music_Voice measure 114 / measure 2]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5
     {
 
         % [Cello_Music_Voice measure 115 / measure 3]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         r4
 
         b,4
@@ -4609,9 +4722,13 @@ segment.06.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 116 / measure 4]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -4626,16 +4743,28 @@ segment.06.Cello.Music.Voice = {
     >>
 
     % [Cello_Music_Voice measure 117 / measure 5]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 5
+    \startStaff
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     R1 * 3/2
 
     % [Cello_Music_Voice measure 118 / measure 6]
+    \stopStaff
+    \once \override Staff.StaffSymbol.line-count = 0
+    \startStaff
     R1 * 1/4
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4
     {
 
         % [Cello_Music_Voice measure 119 / measure 7]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         r4
 
         c4
@@ -4652,9 +4781,13 @@ segment.06.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 120 / measure 8]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
@@ -4673,6 +4806,10 @@ segment.06.Cello.Music.Voice = {
     {
 
         % [Cello_Music_Voice measure 121 / measure 9]
+        \stopStaff
+        \once \override Staff.StaffSymbol.line-count = 5
+        \startStaff
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         r4
 
         r4
@@ -6396,9 +6533,13 @@ segment.06.Cello.Music.Voice = {
         {
 
             % [Cello_Music_Voice measure 151 / measure 39]
+            \stopStaff
+            \once \override Staff.StaffSymbol.line-count = 0
+            \startStaff
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
 
         }
 
