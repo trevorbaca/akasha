@@ -225,11 +225,8 @@ maker(
 
 maker(
     ("va", [1, 3, 5, 7]),
-    baca.suite(
-        # TODO: release requirement of pitch prior to glissando indicators
-        baca.pitches("D#3 C+3", exact=True),
-        baca.glissando(),
-    ),
+    baca.pitches("D#3 C+3", exact=True),
+    baca.glissando(),
 )
 
 maker(
@@ -259,11 +256,8 @@ maker(
 
 maker(
     ("va", (9, 12)),
-    baca.suite(
-        # TODO: release requirement of pitch prior to glissando indicators
-        baca.pitches("Eb3 D3 C#3 B#2", exact=True),
-        baca.glissando(),
-    ),
+    baca.pitches("Eb3 D3 C#3 B#2", exact=True),
+    baca.glissando(),
     baca.hairpin("mp > pp"),
 )
 
@@ -327,11 +321,8 @@ maker(
 
 maker(
     ("va", (25, 26)),
-    baca.suite(
-        # TODO: release requirement of pitch prior to glissando indicators
-        baca.pitches("E3 D#3 C+3", exact=True),
-        baca.glissando(),
-    ),
+    baca.pitches("E3 D#3 C+3", exact=True),
+    baca.glissando(),
     baca.hairpin("mp > pp"),
     baca.markup(
         r"\baca-tasto-markup",
