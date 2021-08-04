@@ -7,9 +7,9 @@ segment.02.Global.Skips = {
     s1 * 3/4
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[02.1]" magenta
+    - \baca-start-snm-colored-left-only "[02.1]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "2-AB" darkcyan
+    - \baca-start-xnm-colored-left-only "2-AB" magenta
     \bacaStartTextSpanXNM
     - \abjad-dashed-line-with-arrow
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
@@ -41,7 +41,7 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "4"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[02.3]" magenta
+    - \baca-start-snm-colored-left-only "[02.3]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 8 / measure 5]
@@ -62,9 +62,9 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanMM
     - \baca-start-lmn-left-only "6"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[02.5]" magenta
+    - \baca-start-snm-colored-left-only "[02.5]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "3-B" darkcyan
+    - \baca-start-xnm-colored-left-only "3-B" magenta
     \bacaStartTextSpanXNM
     - \abjad-dashed-line-with-arrow
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
@@ -94,7 +94,7 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "9"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[02.7]" magenta
+    - \baca-start-snm-colored-left-only "[02.7]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 13 / measure 10]
@@ -118,9 +118,9 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "11"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[02.9]" magenta
+    - \baca-start-snm-colored-left-only "[02.9]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "4-BC" darkcyan
+    - \baca-start-xnm-colored-left-only "4-BC" magenta
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 15 / measure 12]
@@ -153,7 +153,7 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "15"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[02.11]" magenta
+    - \baca-start-snm-colored-left-only "[02.11]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 19 / measure 16]
@@ -173,9 +173,9 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "17"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[02.13]" magenta
+    - \baca-start-snm-colored-left-only "[02.13]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "5-C" darkcyan
+    - \baca-start-xnm-colored-left-only "5-C" magenta
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 21 / measure 18]
@@ -195,9 +195,9 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "19"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[02.15]" magenta
+    - \baca-start-snm-colored-left-only "[02.15]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "6-AC" darkcyan
+    - \baca-start-xnm-colored-left-only "6-AC" magenta
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 23 / measure 20]

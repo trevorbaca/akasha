@@ -7,8 +7,10 @@ segment.03.Global.Skips = {
     s1 * 9/8
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[03.1]" magenta
+    - \baca-start-snm-colored-left-only "[03.1]" darkcyan
     \bacaStartTextSpanSNM
+    - \baca-start-xnm-colored-left-only "7-ABC" magenta
+    \bacaStartTextSpanXNM
     - \abjad-invisible-line
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'green4
     \bacaStartTextSpanMM
@@ -35,7 +37,7 @@ segment.03.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "4"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[03.2]" magenta
+    - \baca-start-snm-colored-left-only "[03.2]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 28 / measure 5]
@@ -54,7 +56,7 @@ segment.03.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "6"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[03.4]" magenta
+    - \baca-start-snm-colored-left-only "[03.4]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 30 / measure 7]
@@ -73,7 +75,7 @@ segment.03.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "8"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[03.6]" magenta
+    - \baca-start-snm-colored-left-only "[03.6]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 32 / measure 9]
@@ -90,10 +92,13 @@ segment.03.Global.Skips = {
     s1 * 7/8
     \bacaStopTextSpanLMN
     \bacaStopTextSpanSNM
+    \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "10"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[03.8]" magenta
+    - \baca-start-snm-colored-left-only "[03.8]" darkcyan
     \bacaStartTextSpanSNM
+    - \baca-start-xnm-colored-left-only "8-CD" magenta
+    \bacaStartTextSpanXNM
 
     % [Global_Skips measure 34 / measure 11]
     s1 * 7/8
@@ -107,6 +112,7 @@ segment.03.Global.Skips = {
     s1 * 1/4
     \bacaStopTextSpanLMN
     \bacaStopTextSpanSNM
+    \bacaStopTextSpanXNM
     \bacaStopTextSpanMM
     \once \override Score.BarLine.transparent = ##t
     \once \override Score.SpanBar.transparent = ##t
@@ -397,11 +403,9 @@ segment.03.Violin.II.Music.Voice = {
     f'4
 
     fqf'!8
-    - \tweak stencil ##f
     ~
 
     fqf'4
-    \repeatTie
 
     e'2
     - \tweak stencil ##f
@@ -616,11 +620,9 @@ segment.03.Viola.Music.Voice = {
     \repeatTie
 
     dtqf'!8
-    - \tweak stencil ##f
     ~
 
     dtqf'8
-    \repeatTie
 
     c'4
     - \tweak stencil ##f
@@ -690,7 +692,7 @@ segment.03.Viola.Music.Voice = {
     R1 * 7/8
 
     % [Viola_Music_Voice measure 34 / measure 11]
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     ds!2..
     ^ \baca-tasto-markup
     - \abjad-dashed-line-with-hook
@@ -1118,7 +1120,7 @@ segment.03.Cello.Music.Voice = {
     R1 * 7/8
 
     % [Cello_Music_Voice measure 34 / measure 11]
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     cs,!2..
     - \tweak color #(x11-color 'blue)
     \mp
