@@ -7013,3 +7013,13 @@ LilyPond runtime: 8 seconds
 Segment-maker runtime: 17 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 6 seconds
+
+2021-08-04 14:23:48
+Segment-maker runtime: 23 seconds
+Abjad format time: 1 second
+LilyPond runtime: 7 seconds
+
+2021-08-04 15:04:49
+Segment-maker runtime: 20 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 7 seconds

@@ -224,6 +224,11 @@ segment.01.Viola.Music.Voice = {
     \baca-effort-mf
     - \downbow
     ^ \baca-default-indicator-markup "(“Viola”)"
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     ^ \akasha-ob-plus-terminate-abruptly-markup
     ^ \baca-explicit-indicator-markup "[“Va.”]"
     - \abjad-dashed-line-with-hook

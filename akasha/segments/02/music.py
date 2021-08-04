@@ -10,7 +10,7 @@ from akasha import library as akasha
 
 moment_tokens = (
     (2, 5, "AB"),
-    (3, 5, "B"),
+    (3, 5, "B(A)"),
     (4, 6, "BC"),
     (5, 2, "C"),
     (6, 2, "AC"),

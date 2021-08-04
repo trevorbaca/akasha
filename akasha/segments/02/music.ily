@@ -64,7 +64,7 @@ segment.02.Global.Skips = {
     \bacaStartTextSpanLMN
     - \baca-start-snm-colored-left-only "[02.5]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "3-B" magenta
+    - \baca-start-xnm-colored-left-only "3-B(A)" magenta
     \bacaStartTextSpanXNM
     - \abjad-dashed-line-with-arrow
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
@@ -390,6 +390,11 @@ segment.02.Violin.I.Music.Voice = {
     e'4
     - \tweak color #(x11-color 'blue)
     \mp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     ^ \baca-tasto-plus-half-scratch-markup
     \(
 
@@ -401,12 +406,10 @@ segment.02.Violin.I.Music.Voice = {
     \repeatTie
 
     eqs'!8
-    - \tweak stencil ##f
     ~
 
     % [Violin_I_Music_Voice measure 10 / measure 7]
     eqs'8
-    \repeatTie
 
     r2..
     \)
@@ -446,6 +449,11 @@ segment.02.Violin.I.Music.Voice = {
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     r1
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 A \halign #0 \transparent "O" }
+
     \(
 
     \times 8/9
@@ -521,6 +529,11 @@ segment.02.Violin.I.Music.Voice = {
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     r1.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 C \halign #0 \transparent "O" }
+
     \(
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -675,6 +688,11 @@ segment.02.Violin.I.Music.Voice = {
     %%% \once \override Score.BarLine.transparent = ##t
     %%% \once \override Score.SpanBar.transparent = ##t
         e''16 * 241/32
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         [
         \(
 
@@ -772,6 +790,11 @@ segment.02.Violin.I.Music.Voice = {
     %%% \once \override Score.BarLine.transparent = ##t
     %%% \once \override Score.SpanBar.transparent = ##t
         e''16 * 113/64
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         [
         \(
 
@@ -935,6 +958,11 @@ segment.02.Violin.II.Music.Voice = {
         - \tweak color #(x11-color 'blue)
         \p
         - \staccato
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
         [
         \(
 
@@ -1000,6 +1028,11 @@ segment.02.Violin.II.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     r2.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
 
     r4.
@@ -1008,12 +1041,10 @@ segment.02.Violin.II.Music.Voice = {
     - \tweak color #(x11-color 'blue)
     \mp
     ^ \baca-tasto-plus-half-scratch-markup
-    - \tweak stencil ##f
     ~
 
     % [Violin_II_Music_Voice measure 10 / measure 7]
     d'8
-    \repeatTie
 
     dqf'!4.
 
@@ -1051,6 +1082,11 @@ segment.02.Violin.II.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     r4
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
 
     cs'!4.
@@ -1089,6 +1125,11 @@ segment.02.Violin.II.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
     r1.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 C \halign #0 \transparent "O" }
+
     \(
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -1237,6 +1278,11 @@ segment.02.Violin.II.Music.Voice = {
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 115/64
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         [
         \(
 
@@ -1332,6 +1378,11 @@ segment.02.Violin.II.Music.Voice = {
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 477/64
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         [
         \(
 
@@ -1421,6 +1472,11 @@ segment.02.Violin.II.Music.Voice = {
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
         bf'!16 * 13/8
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         [
         \(
 
@@ -1557,6 +1613,11 @@ segment.02.Viola.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
     r2.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 A \halign #0 \transparent "O" }
+
     \(
 
     \times 8/9
@@ -1613,6 +1674,11 @@ segment.02.Viola.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     r4
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
 
     ef'!2
@@ -1626,12 +1692,10 @@ segment.02.Viola.Music.Voice = {
     \repeatTie
 
     d'8
-    - \tweak stencil ##f
     ~
 
     % [Viola_Music_Voice measure 10 / measure 7]
     d'8
-    \repeatTie
 
     e'4.
 
@@ -1669,6 +1733,11 @@ segment.02.Viola.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     r2
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
 
     r8
@@ -1707,6 +1776,11 @@ segment.02.Viola.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     d'2.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
     - \tweak stencil ##f
     ~
@@ -1715,33 +1789,27 @@ segment.02.Viola.Music.Voice = {
     \repeatTie
 
     dqs'!8
-    [
-    - \tweak stencil ##f
     ~
+    [
 
     dqs'8
-    \repeatTie
 
     ds'!8
-    ]
-    - \tweak stencil ##f
     ~
+    ]
 
     % [Viola_Music_Voice measure 15 / measure 12]
     ds'2.
-    \repeatTie
 
     e'4
 
     fs'!4.
 
     f'8
-    - \tweak stencil ##f
     ~
 
     % [Viola_Music_Voice measure 16 / measure 13]
     f'1
-    \repeatTie
     \)
 
     <<
@@ -1775,6 +1843,11 @@ segment.02.Viola.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     ef'!4.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
 
     d'4.
@@ -1894,6 +1967,11 @@ segment.02.Cello.Music.Voice = {
     \mp
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     ^ \baca-tasto-plus-half-scratch-markup
     \(
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -1979,6 +2057,11 @@ segment.02.Cello.Music.Voice = {
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     c'4
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
 
     cqf'!4.
@@ -2019,14 +2102,17 @@ segment.02.Cello.Music.Voice = {
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     bf!2..
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
 
     btqf!8
-    - \tweak stencil ##f
     ~
 
     btqf8
-    \repeatTie
 
     a4.
 
@@ -2039,21 +2125,17 @@ segment.02.Cello.Music.Voice = {
     \repeatTie
 
     g8
-    [
-    - \tweak stencil ##f
     ~
+    [
 
     g8
-    \repeatTie
 
     a8
-    ]
-    - \tweak stencil ##f
     ~
+    ]
 
     % [Cello_Music_Voice measure 16 / measure 13]
     a2.
-    \repeatTie
 
     r4
     \)
@@ -2091,6 +2173,11 @@ segment.02.Cello.Music.Voice = {
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     a4
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
 
     as!2
@@ -2101,12 +2188,10 @@ segment.02.Cello.Music.Voice = {
     \repeatTie
 
     b8
-    [
-    - \tweak stencil ##f
     ~
+    [
 
     b8
-    \repeatTie
     ]
 
     r8
@@ -2159,6 +2244,11 @@ segment.02.Cello.Music.Voice = {
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
     r4
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 A \halign #0 \transparent "O" }
+
     \(
 
     \times 8/9

@@ -297,7 +297,7 @@ segment.02.Global.Skips = {
     \bacaStartTextSpanSNM
     %! MOMENT_NUMBER
     %! baca.SegmentMaker._label_moment_numbers()
-    - \baca-start-xnm-colored-left-only "3-B" magenta
+    - \baca-start-xnm-colored-left-only "3-B(A)" magenta
     %! MOMENT_NUMBER
     %! baca.SegmentMaker._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -1419,6 +1419,13 @@ segment.02.Violin.I.Music.Voice = {
     \mp
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \baca-tasto-plus-half-scratch-markup
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
@@ -1437,16 +1444,12 @@ segment.02.Violin.I.Music.Voice = {
 
     %! akasha.polyphony_rhythm()
     eqs'!8
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 10 / measure 7]
     %! akasha.polyphony_rhythm()
     eqs'8
-    \repeatTie
 
     %! akasha.polyphony_rhythm()
     r2..
@@ -1549,6 +1552,13 @@ segment.02.Violin.I.Music.Voice = {
 %%% \once \override Score.SpanBar.transparent = ##t
     %! akasha.sparse_getato_rhythm()
     r1
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 A \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -1728,6 +1738,13 @@ segment.02.Violin.I.Music.Voice = {
 %%% \once \override Score.SpanBar.transparent = ##t
     %! akasha.accelerando_rhythm()
     r1.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 C \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -2015,6 +2032,13 @@ segment.02.Violin.I.Music.Voice = {
     %%% \once \override Score.SpanBar.transparent = ##t
         %! akasha.accelerando_rhythm()
         e''16 * 241/32
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         %! baca.SegmentMaker._label_duration_multipliers()
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"241" #"32"
@@ -2208,6 +2232,13 @@ segment.02.Violin.I.Music.Voice = {
     %%% \once \override Score.SpanBar.transparent = ##t
         %! akasha.ritardando_rhythm()
         e''16 * 113/64
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         %! baca.SegmentMaker._label_duration_multipliers()
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"113" #"64"
@@ -2679,6 +2710,13 @@ segment.02.Violin.II.Music.Voice = {
         %! baca.staccato()
         %! baca.IndicatorCommand._call()
         - \staccato
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
         %! rmakers.RewriteMeterCommand.__call__
         [
         %! baca.slur()
@@ -2824,6 +2862,13 @@ segment.02.Violin.II.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! akasha.polyphony_rhythm()
     r2.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -2849,16 +2894,12 @@ segment.02.Violin.II.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-tasto-plus-half-scratch-markup
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 10 / measure 7]
     %! akasha.polyphony_rhythm()
     d'8
-    \repeatTie
 
     %! akasha.polyphony_rhythm()
     dqf'!4.
@@ -2950,6 +2991,13 @@ segment.02.Violin.II.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! akasha.polyphony_rhythm()
     r4
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -3046,6 +3094,13 @@ segment.02.Violin.II.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
     %! akasha.ritardando_rhythm()
     r1.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 C \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -3313,6 +3368,13 @@ segment.02.Violin.II.Music.Voice = {
         \override Staff.Stem.stemlet-length = 0.75
         %! akasha.ritardando_rhythm()
         c''16 * 115/64
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         %! baca.SegmentMaker._label_duration_multipliers()
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"115" #"64"
@@ -3498,6 +3560,13 @@ segment.02.Violin.II.Music.Voice = {
         \override Staff.Stem.stemlet-length = 0.75
         %! akasha.accelerando_rhythm()
         c''16 * 477/64
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         %! baca.SegmentMaker._label_duration_multipliers()
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"477" #"64"
@@ -3669,6 +3738,13 @@ segment.02.Violin.II.Music.Voice = {
         \override Staff.Stem.stemlet-length = 0.75
         %! akasha.ritardando_rhythm()
         bf'!16 * 13/8
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         %! baca.SegmentMaker._label_duration_multipliers()
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
@@ -4063,6 +4139,13 @@ segment.02.Viola.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
     %! akasha.sparse_getato_rhythm()
     r2.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 A \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -4201,6 +4284,13 @@ segment.02.Viola.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! akasha.polyphony_rhythm()
     r4
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -4233,16 +4323,12 @@ segment.02.Viola.Music.Voice = {
 
     %! akasha.polyphony_rhythm()
     d'8
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 10 / measure 7]
     %! akasha.polyphony_rhythm()
     d'8
-    \repeatTie
 
     %! akasha.polyphony_rhythm()
     e'4.
@@ -4334,6 +4420,13 @@ segment.02.Viola.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! akasha.polyphony_rhythm()
     r2
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -4428,6 +4521,13 @@ segment.02.Viola.Music.Voice = {
     %! baca.IndicatorCommand._call()
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     d'2.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -4442,30 +4542,22 @@ segment.02.Viola.Music.Voice = {
     \repeatTie
 
     dqs'!8
+    ~
     %! rmakers.RewriteMeterCommand.__call__
     [
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
 
     dqs'8
-    \repeatTie
 
     %! akasha.polyphony_rhythm()
     ds'!8
+    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 15 / measure 12]
     %! akasha.polyphony_rhythm()
     ds'2.
-    \repeatTie
 
     %! akasha.polyphony_rhythm()
     e'4
@@ -4475,16 +4567,12 @@ segment.02.Viola.Music.Voice = {
 
     %! akasha.polyphony_rhythm()
     f'8
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 16 / measure 13]
     %! akasha.polyphony_rhythm()
     f'1
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
@@ -4570,6 +4658,13 @@ segment.02.Viola.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! akasha.polyphony_rhythm()
     ef'!4.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -4908,6 +5003,13 @@ segment.02.Cello.Music.Voice = {
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \baca-tasto-plus-half-scratch-markup
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
@@ -5115,6 +5217,13 @@ segment.02.Cello.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! akasha.polyphony_rhythm()
     c'4
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -5217,6 +5326,13 @@ segment.02.Cello.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! akasha.polyphony_rhythm()
     bf!2..
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -5224,13 +5340,9 @@ segment.02.Cello.Music.Voice = {
     \(
 
     btqf!8
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
     btqf8
-    \repeatTie
 
     %! akasha.polyphony_rhythm()
     a4.
@@ -5247,30 +5359,22 @@ segment.02.Cello.Music.Voice = {
     \repeatTie
 
     g8
+    ~
     %! rmakers.RewriteMeterCommand.__call__
     [
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
 
     g8
-    \repeatTie
 
     %! akasha.polyphony_rhythm()
     a8
+    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Music_Voice measure 16 / measure 13]
     %! akasha.polyphony_rhythm()
     a2.
-    \repeatTie
 
     %! akasha.polyphony_rhythm()
     r4
@@ -5365,6 +5469,13 @@ segment.02.Cello.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! akasha.polyphony_rhythm()
     a4
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)
@@ -5381,15 +5492,11 @@ segment.02.Cello.Music.Voice = {
     \repeatTie
 
     b8
+    ~
     %! rmakers.RewriteMeterCommand.__call__
     [
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
 
     b8
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     ]
 
@@ -5520,6 +5627,13 @@ segment.02.Cello.Music.Voice = {
     \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
     %! akasha.sparse_getato_rhythm()
     r4
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 A \halign #0 \transparent "O" }
+
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(2)

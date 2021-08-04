@@ -1,127 +1,147 @@
 SEGMENTS
 ========
 
+segments: [01], [02], [03], [04], [05], [06], [07],
+    [08], [09], [10], [11], [12], [13], [14], [15],
+
 time signatures by segment:
-  ```
-     i: B[0]
-     A: A[0]
-     B: B[6]
-     C: A[3]
-     D: B[12]
-  E, F: A[6], A[9]
-     G: B[18]
-  H, I: A[12], A[15]
-     J: (E ibid.)
-     K: B[24]
-  L, M: A[18], A[21]
-     N: B[30]
-  ```
+
+    [01]: B[0]
+    [02]: A[0]
+    [03]: B[6]
+    [04]: A[3]
+    [05]: B[12]
+    [06]: A[6]
+    [07]: A[9]
+    [08]: B[18]
+    [09]: A[12]
+    [10]: A[15]
+    [11]: ([06] ibid.)*
+    [12]: B[24]
+    [13]: A[18]
+    [14]: A[21]
+    [15]: B[30]
+
+materials: (A), (B), (C), (D), (E)
 
 [01] intro (8")
 
+  moment 1 (E):
+
+    1 (2 + very long fermata)
+    va OB (E);
+    very long fermata;
+
 [02] (72"):
-  ```
-  1-2 (2 + long fermata)
-  microtonal cello line [B];
-  long fermata;
 
-  3-4 (1 + long fermata)
-  extremely thin get. pianiss. [A];
-  long fermata;
+  moment 2 (AB):
 
-  5-6 (2 + short fermata)
-  microtonal polyphony in multiple instruments with moments of harmony [B];
-  short fermata;
+    1-2 (2 + long fermata)
+    microtonal cello line (B);
+    long fermata;
 
-  7-8 (1 + short fermata)
-  microtonal polyphony in multiple instruments with moments of harmony [B];
-  mixed with extremely thin get. pianiss. [A];
-  short fermata;
+    3-4 (1 + long fermata)
+    extremely thin get. pianiss. (A);
+    long fermata;
 
-  9-10 (3 + long fermata)
-  microtonal polyphony in multiple instruments with moments of harmony [B];
-  isolated three-note tasto loops [C];
-  long fermata;
+  moment 3 (B[A]):
 
-  11-12 (1 + long fermata)
-  microtonal polyphony in multiple instruments with moments of harmony [B];
-  isolated three-note tasto loops [C];
-  long fermata;
+    5-6 (2 + short fermata)
+    microtonal polyphony in multiple instruments with moments of harmony (B);
+    short fermata;
 
-  13-14 (1 + long fermata)
-  three-note tasto loops with first hint of repetition [C];
-  long fermata;
+    7-8 (1 + short fermata)
+    microtonal polyphony in multiple instruments with moments of harmony (B);
+    mixed with extremely thin get. pianiss. (A);
+    short fermata;
 
-  15-16 (1 + short fermata)
-  tasto loops broken apart [C];
-  dialogue with ext. thin get. pianiss. [A];
-  short fermata;
-  ```
+  moment 4 (BC):
+
+    9-10 (3 + long fermata)
+    microtonal polyphony in multiple instruments with moments of harmony (B);
+    isolated three-note tasto loops (C);
+    long fermata;
+
+    11-12 (1 + long fermata)
+    microtonal polyphony in multiple instruments with moments of harmony (B);
+    isolated three-note tasto loops (C);
+    long fermata;
+
+  moment 5 (C):
+
+    13-14 (1 + long fermata)
+    three-note tasto loops with first hint of repetition (C);
+    long fermata;
+
+  moment 6 (AC):
+
+    15-16 (1 + short fermata)
+    tasto loops broken apart (C);
+    dialogue with ext. thin get. pianiss. (A);
+    short fermata;
 
 [03] (31"):
-  ```
+
   1 (3)[55]
-  two-voice microtonal harmonies [B];
-  mixed with two-note written-out alternation as implication of trill [C];
-  with extremely thin get. pianiss. carried over from previous stage [A];
+  two-voice microtonal harmonies (B);
+  mixed with two-note written-out alternation as implication of trill (C);
+  with extremely thin get. pianiss. carried over from previous stage (A);
 
   2-7 (1 + long fermata + 1 + short fermata + 1 + short fermata)
   get. pianiss. fills in somewhat and continues longer than expected,
   descends register a little bit but not too much,
-  halts inserted into descent but different halts heard in exposition [A];
+  halts inserted into descent but different halts heard in exposition (A);
 
   8 (2)
-  two-note written-out prefiguration of trill resumes [C];
-  timed together with first appearance of detuned va, vc octave [D];
+  two-note written-out prefiguration of trill resumes (C);
+  timed together with first appearance of detuned va, vc octave (D);
   attaca;
-  ```
 
 [04] (96"):
-  ```
+
   1-8 (4x: 1 + fermata)
   sputtering exposition of detuned va, vc octave with glissandi lentiss.;
-  start; fermata; [D]
-  start; fermata; [D]
-  start; fermata; [D]
-  start; fermata; [D]
+  start; fermata; (D)
+  start; fermata; (D)
+  start; fermata; (D)
+  start; fermata; (D)
 
   9 (4)
-  detuned va, vc octave grows quiet under long dim. [D];
-  vn1, vn2 OB on top of this [E];
+  detuned va, vc octave grows quiet under long dim. (D);
+  vn1, vn2 OB on top of this (E);
 
   10-11 (1 + fermata)
-  vn1, vn2 OB revealed after va, vc fall silent [E];
+  vn1, vn2 OB revealed after va, vc fall silent (E);
   fermata;
 
   12 (1)
-  recapitulation of get. pianiss. descent (vc) solo [A];
+  recapitulation of get. pianiss. descent (vc) solo (A);
   attaca;
 
   13 (1)
-  get. pianiss. descent interrupted by single scratch detache (va) [A];
-  on top of this vn1, vn2 OB [E];
+  get. pianiss. descent interrupted by single scratch detache (va) (A);
+  on top of this vn1, vn2 OB (E);
   attaca;
 
   14-19 (3x: 1 + fermata)
-  vn1, vn2 OB start; fermata; [E]
-  vn1, vn2 OB start; fermata; [E]
-  vn1, vn2 OB start; fermata; [E]
+  vn1, vn2 OB start; fermata; (E)
+  vn1, vn2 OB start; fermata; (E)
+  vn1, vn2 OB start; fermata; (E)
 
   20-21 (1 + fermata)
-  vn1, vn2 OB [E];
-  [va, vc two-voice microtonal harmonies recall previous segment] [B];
+  vn1, vn2 OB (E);
+  [va, vc two-voice microtonal harmonies recall previous segment] (B);
   fermata;
 
   22-24 (1 + 1 + long fermata)
-  vn1 OB for full stage [E];
-  vn2 plays first appearance of trill during second half of stage [C];
-  va, vc detuned octave diminuendo for full stage [D];
+  vn1 OB for full stage (E);
+  vn2 plays first appearance of trill during second half of stage (C);
+  va, vc detuned octave diminuendo for full stage (D);
   segment ends with question mark;
   long fermata;
-  ```
 
 [05] (89"):
-  ```
+
   1-2 (8 + short fermata)[126]
   three-note vn1, va, vc spectral chord freezes time;
   vn2 tacet;
@@ -160,10 +180,9 @@ time signatures by segment:
   15-17 (3 + 1 + long fermata)[44]
   vc down-glissando outlasts rest of materials and closes segment unacc.;
   long fermata;
-  ```
 
 [06] (115"):
-  ```
+
   1-8 (4x: 1 + fermata)[44]
   segment begins with mod. rhythmicized va OB;
   large process of revealing getati begins;
@@ -208,10 +227,9 @@ time signatures by segment:
   ascent reaches peak;
   va OB;
   long fermata;
-  ```
 
 [07] (3'):
-  ```
+
   1 (2)[44]
   tempo resets back to mod.;
   microtonal vc melody returns from beginning of piece;
@@ -266,10 +284,9 @@ time signatures by segment:
   19-20 (1 + fermata)[55]
   single note of va OB;
   fermata;
-  ```
 
 [08] (1'):
-  ```
+
   1 (4)[126-->44]
   microtonal field resumes 12ET in v2, va, vc SB;
   get. field handled exclusively as vn1 solo maximally fast burst;
@@ -296,10 +313,9 @@ time signatures by segment:
   7 (1)
   OB pedal which continues through end of segment;
   attaca;
-  ```
 
 [09] (30") [whole segment repeats]:
-  ```
+
   1 (2)
   tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
 
@@ -310,10 +326,9 @@ time signatures by segment:
   3 (2 + fermata)
   isolated va, vc detuned octave;
   fermata;
-  ```
 
 [10] (2'30"):
-  ```
+
   1-2 (2 + fermata)[89]
   tutti detuned ord. octave B (B1, B+2, A#+3 B5) with swell (cres. + vib.);
   fermata;
@@ -376,17 +391,15 @@ time signatures by segment:
   18-19 (2 + very long fermata)[44]
   tutti mp scratch moltiss. (B);
   very long fermata;
-  ```
 
 [11] (30"):
-  ```
+
   1-4 (3 + very long fermata)[44]
-  exact recall of first three scratch measures of [E];
+  exact recall of first three scratch measures of segment [06];
   very long fermata;
-  ```
 
 [12] (4'):
-  ```
+
   1 (4)[44]
   tutti assume finger chord of trill field;
   tutti begin tasto extremely sparse clicks (1 click per 3-4 sec.);
@@ -472,10 +485,9 @@ time signatures by segment:
 
   22 (1)
   very long fermata;
-  ```
 
 [13] (15"):
-  ```
+
   1 (1)[55]
   va OB;
 
@@ -492,10 +504,9 @@ time signatures by segment:
   5 (2)
   pp vc Bb1 pochiss. vib.;
   attaca;
-  ```
 
-[1414141414141414141414141414] (1'30"):
-  ```
+[14] (1'30"):
+
   1 (6)[55]
   vc Bb1 ppp < ff;
   vc Bb1 pochiss. vib. < vib. moltiss.;
@@ -540,10 +551,9 @@ time signatures by segment:
 
   11 (1)
   fermata;
-  ```
 
 [15] (30"):
-  ```
+
   1 (8)[89]
   vn1, va, vc OB homorhythm with tutti rests between each stroke;
   vn2 tacet;
@@ -560,33 +570,30 @@ time signatures by segment:
 
   4 (1)
   very long fermata.
-  ```
 
 fermata approxmations:
-  ```
+
   short: <1"
   fermata: 2-3"
   long fermata: 4-6"
   very long fermata: 8-10"
-  ```
 
 segment durations:
-  ```
-  i: 8" + 1 very long fermata (8-10" silence)
-  A: 72" + 3 short fermatas + 5 long fermatas (20-30" silence)
-  B: 31" + 2 short fermatas + 1 long fermata (4-6" silence)
-  C: 96" + 9 fermatas + 1 long fermata (22-33" silence)
-  D: 89" + 3 short fermatas + 3 fermatas + 1 long fermata (10-15" silence)
-  E: 115" + 4 fermatas + 1 long fermata (12-18" silence)
-  F: 127" + 6 short fermatas + 4 fermatas + 3 long fermatas (20-30" silence)
-  G: 57" + 1 fermata (4-6" silence)
-  H: 20" + 2 fermatas (8-12" silence)
-  I: 139" + 2 short fermatas + 1 fermata + 1 very long fermata (10-13" silence)
-  J: 23" + 1 very long fermata (8-10" silence)
-  K: 283" + 49" (5x) + 29" (5x) + 3 short + 1 fermata + 1 very long (10-13")
-  L: 23" + 2 very long fermatas (16-20" silence)
-  M: 113" + 1 fermata (4-6" silence)
-  N: 51" + 1 very long fermata (8-10" silence)
-  ```
+
+  01: 8" + 1 very long fermata (8-10" silence)
+  02: 72" + 3 short fermatas + 5 long fermatas (20-30" silence)
+  03: 31" + 2 short fermatas + 1 long fermata (4-6" silence)
+  04: 96" + 9 fermatas + 1 long fermata (22-33" silence)
+  05: 89" + 3 short fermatas + 3 fermatas + 1 long fermata (10-15" silence)
+  06: 115" + 4 fermatas + 1 long fermata (12-18" silence)
+  07: 127" + 6 short fermatas + 4 fermatas + 3 long fermatas (20-30" silence)
+  08: 57" + 1 fermata (4-6" silence)
+  09: 20" + 2 fermatas (8-12" silence)
+  10: 139" + 2 short fermatas + 1 fermata + 1 very long fermata (10-13" silence)
+  11: 23" + 1 very long fermata (8-10" silence)
+  12: 283" + 49" (5x) + 29" (5x) + 3 short + 1 fermata + 1 very long (10-13")
+  13: 23" + 2 very long fermatas (16-20" silence)
+  14: 113" + 1 fermata (4-6" silence)
+  15: 51" + 1 very long fermata (8-10" silence)
 
 1325" + (164-232" silence) or 24.5-26' (depending on interpretation of silences).

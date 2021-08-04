@@ -343,7 +343,7 @@ def polyphony_rhythm(*commands, rotation=0):
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie(),
+        rmakers.force_repeat_tie((1, 4)),
         tag=abjad.Tag("akasha.polyphony_rhythm()"),
     )
 
@@ -603,11 +603,20 @@ material_to_color = {
 def material(
     letter,
     *,
-    selector=lambda _: baca.Selection(_).leaves(),
+    selector=baca.selectors.leaves(),
 ):
     """
     Colors staff for material ``letter``.
     """
+    markup = baca.markup(
+        rf"""\markup
+            \override #'(circle-padding . 0.75)
+            \circle
+            {{ \combine \halign #0 {letter} \halign #0 \transparent "O" }}
+            """,
+        literal=True,
+        selector=baca.selectors.leaf(0),
+    )
     color = material_to_color[letter]
     literal = baca.literal(rf"\colorSpan #-4 #4 #(rgb-color {color})")
     tag = baca.tags.COLORED_PHRASING_SLUR
@@ -625,4 +634,5 @@ def material(
     return baca.suite(
         literal,
         slur,
+        markup,
     )
