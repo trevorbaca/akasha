@@ -109,7 +109,7 @@ time signatures by segment:
 
   20-21 (1 + fermata)
   vn1, vn2 OB [E];
-  [va, vc two-voice microtonal harmonies recall previous segment] [B?];
+  [va, vc two-voice microtonal harmonies recall previous segment] [B];
   fermata;
 
   22-24 (1 + 1 + long fermata)

@@ -26,7 +26,7 @@ segment.01.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    - \baca-start-snm-left-only "[01.1]"
+    - \baca-start-snm-colored-left-only "[01.1]" magenta
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -702,7 +702,7 @@ segment.01.Viola.Music.Voice = {
     %! baca.literal()
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
-    \colorSpan #-4 #4 #(rgb-color 0.861 0.961 0.406)
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! abjad.ScoreTemplate.attach_defaults(3)
     %! baca.SegmentMaker._set_status_tag()
     %! DEFAULT_CLEF

@@ -6,7 +6,7 @@ segment.01.Global.Skips = {
     s1 * 3/8
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[01.1]"
+    - \baca-start-snm-colored-left-only "[01.1]" magenta
     \bacaStartTextSpanSNM
     - \abjad-invisible-line
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
@@ -210,7 +210,7 @@ segment.01.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.861 0.961 0.406)
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     \clef "alto"
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
     \set Staff.forceClef = ##t
