@@ -8,7 +8,6 @@ from akasha import library as akasha
 ########################################### 02 ##########################################
 #########################################################################################
 
-
 moment_tokens = (
     (2, 5, "AB"),
     (3, 5, "B"),
@@ -16,6 +15,7 @@ moment_tokens = (
     (5, 2, "C"),
     (6, 2, "AC"),
 )
+
 moment_markup = akasha.make_moment_markup(moment_tokens)
 
 stage_tokens = (
@@ -28,8 +28,8 @@ stage_tokens = (
     (13, 1 + 1),
     (15, 1 + 1),
 )
-stage_markup = akasha.make_stage_markup("02", stage_tokens)
 
+stage_markup = akasha.make_stage_markup("02", stage_tokens)
 
 fermata_measures = [3, 5, 8, 10, 14, 16, 18, 20]
 maker = baca.SegmentMaker(

@@ -274,7 +274,7 @@ def make_moment_markup(moment_tokens):
     moment_markup = []
     start_measure = 1
     for moment_number, measure_count, string in moment_tokens:
-        moment_markup_ = (f"[{moment_number} ({string})]", start_measure)
+        moment_markup_ = (f"{moment_number}-{string}", start_measure, "darkcyan")
         moment_markup.append(moment_markup_)
         start_measure += measure_count
     return moment_markup
@@ -284,7 +284,7 @@ def make_stage_markup(segment_number, stage_tokens):
     stage_markup = []
     start_measure = 1
     for stage_number, measure_count in stage_tokens:
-        stage_markup_ = (f"[{segment_number}.{stage_number}]", start_measure)
+        stage_markup_ = (f"[{segment_number}.{stage_number}]", start_measure, "magenta")
         stage_markup.append(stage_markup_)
         start_measure += measure_count
     return stage_markup
@@ -302,31 +302,6 @@ def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf
         selector=selector,
     )
     return baca.not_parts(command)
-
-
-def material_annotation_spanner(
-    string,
-    color,
-    tag,
-    staff_padding: abjad.Number,
-    *,
-    measures=None,
-    selector=baca.selectors.rleaves(),
-):
-    """
-    Makes material annotation spanner.
-    """
-    command = baca.material_annotation_spanner(
-        string,
-        abjad.tweak(color).color,
-        abjad.tweak(staff_padding).staff_padding,
-        measures=measures,
-        selector=selector,
-    )
-    tag = abjad.Tag(tag)
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.PiecewiseCommand)
-    return result
 
 
 def perforated_counts(*, degree=0, rotation=None):
@@ -617,15 +592,19 @@ class ScoreTemplate(baca.ScoreTemplate):
 
 
 material_to_color = {
-    "A": "0.061 0.961 0.806",
-    "B": "0.261 0.661 0.806",
-    "C": "0.461 0.361 0.806",
-    "D": "0.661 0.161 0.806",
-    "E": "0.861 0.961 0.406",
+    "A": "0.984 0.945 0.492",  # <- ok
+    "B": "0.980 0.769 0.984",  # ?
+    "C": "0.335 0.937 0.597",
+    "D": "0.257 0.527 0.957",  # <- ok
+    "E": "0.865 0.877 0.896",  # <- ok
 }
 
 
-def material(letter):
+def material(
+    letter,
+    *,
+    selector=lambda _: baca.Selection(_).leaves(),
+):
     """
     Colors staff for material ``letter``.
     """
@@ -637,7 +616,7 @@ def material(letter):
     literal = abjad.new(literal, tags=tags)
     slur = baca.slur(
         phrasing_slur=True,
-        selector=lambda _: baca.Selection(_).leaves(),
+        selector=selector,
     )
     tag = baca.tags.COLORED_PHRASING_SLUR
     tags = slur.tags

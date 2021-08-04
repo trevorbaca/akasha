@@ -156,7 +156,10 @@ maker(
 
 maker(
     (["va", "vc"], 11),
-    akasha.material("D"),
+    akasha.material(
+        "D",
+        selector=lambda _: baca.Selection(_).rleaves(),
+    ),
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-tasto-markup",

@@ -30,7 +30,7 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    - \baca-start-snm-left-only "[03.1]"
+    - \baca-start-snm-colored-left-only "[03.1]" magenta
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -173,7 +173,7 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    - \baca-start-snm-left-only "[03.2]"
+    - \baca-start-snm-colored-left-only "[03.2]" magenta
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -260,7 +260,7 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    - \baca-start-snm-left-only "[03.4]"
+    - \baca-start-snm-colored-left-only "[03.4]" magenta
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -347,7 +347,7 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    - \baca-start-snm-left-only "[03.6]"
+    - \baca-start-snm-colored-left-only "[03.6]" magenta
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -434,7 +434,7 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    - \baca-start-snm-left-only "[03.8]"
+    - \baca-start-snm-colored-left-only "[03.8]" magenta
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -698,7 +698,7 @@ segment.03.Violin.I.Music.Voice = {
         %! baca.literal()
         %! COLORED_PHRASING_SLUR
         %! baca.IndicatorCommand._call()
-        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
         \once \override Beam.grow-direction = #right
         %! baca.SegmentMaker._reapply_persistent_indicators(3)
         %! baca.SegmentMaker._set_status_tag()
@@ -1147,7 +1147,7 @@ segment.03.Violin.II.Music.Voice = {
     %! baca.literal()
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
     %! REAPPLIED_CLEF
@@ -1426,7 +1426,7 @@ segment.03.Violin.II.Music.Voice = {
         %! baca.literal()
         %! COLORED_PHRASING_SLUR
         %! baca.IndicatorCommand._call()
-        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
         \once \override Beam.grow-direction = #right
         %! akasha.accelerando_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
@@ -1662,7 +1662,7 @@ segment.03.Viola.Music.Voice = {
     %! baca.literal()
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
     %! REAPPLIED_CLEF
@@ -1916,17 +1916,12 @@ segment.03.Viola.Music.Voice = {
     %! baca.literal()
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
-    \colorSpan #-4 #4 #(rgb-color 0.661 0.161 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
     %! baca.make_repeat_tied_notes()
     ds!2..
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-tasto-markup
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -2019,6 +2014,13 @@ segment.03.Viola.Music.Voice = {
             %! PHANTOM
             %! baca.SegmentMaker._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            %! baca.SegmentMaker._style_phantom_measures(5)
+            %! PHANTOM
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         %! PHANTOM
@@ -2133,7 +2135,7 @@ segment.03.Cello.Music.Voice = {
     %! baca.literal()
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
-    \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
     %! baca.beam_positions()
     %! baca.OverrideCommand._call(1)
     \override Beam.positions = #'(-4 . -4)
@@ -2591,7 +2593,7 @@ segment.03.Cello.Music.Voice = {
         %! baca.literal()
         %! COLORED_PHRASING_SLUR
         %! baca.IndicatorCommand._call()
-        \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.sparse_getato_rhythm()
         fs!32
         %! baca.staccato()
@@ -2768,7 +2770,7 @@ segment.03.Cello.Music.Voice = {
         %! baca.literal()
         %! COLORED_PHRASING_SLUR
         %! baca.IndicatorCommand._call()
-        \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.sparse_getato_rhythm()
         d32
         %! baca.staccato()
@@ -2932,7 +2934,7 @@ segment.03.Cello.Music.Voice = {
     %! baca.literal()
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
-    \colorSpan #-4 #4 #(rgb-color 0.661 0.161 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
     %! baca.make_repeat_tied_notes()
     cs,!2..
     %! EXPLICIT_DYNAMIC_COLOR
@@ -2950,11 +2952,6 @@ segment.03.Cello.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-tasto-markup
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -3047,6 +3044,13 @@ segment.03.Cello.Music.Voice = {
             %! PHANTOM
             %! baca.SegmentMaker._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            %! baca.SegmentMaker._style_phantom_measures(5)
+            %! PHANTOM
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         %! PHANTOM

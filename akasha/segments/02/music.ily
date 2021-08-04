@@ -7,9 +7,9 @@ segment.02.Global.Skips = {
     s1 * 3/4
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[02.1]"
+    - \baca-start-snm-colored-left-only "[02.1]" magenta
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-left-only "[2 (AB)]"
+    - \baca-start-xnm-colored-left-only "2-AB" darkcyan
     \bacaStartTextSpanXNM
     - \abjad-dashed-line-with-arrow
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
@@ -41,7 +41,7 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "4"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[02.3]"
+    - \baca-start-snm-colored-left-only "[02.3]" magenta
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 8 / measure 5]
@@ -62,9 +62,9 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanMM
     - \baca-start-lmn-left-only "6"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[02.5]"
+    - \baca-start-snm-colored-left-only "[02.5]" magenta
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-left-only "[3 (B)]"
+    - \baca-start-xnm-colored-left-only "3-B" darkcyan
     \bacaStartTextSpanXNM
     - \abjad-dashed-line-with-arrow
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
@@ -94,7 +94,7 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "9"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[02.7]"
+    - \baca-start-snm-colored-left-only "[02.7]" magenta
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 13 / measure 10]
@@ -118,9 +118,9 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "11"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[02.9]"
+    - \baca-start-snm-colored-left-only "[02.9]" magenta
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-left-only "[4 (BC)]"
+    - \baca-start-xnm-colored-left-only "4-BC" darkcyan
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 15 / measure 12]
@@ -153,7 +153,7 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "15"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[02.11]"
+    - \baca-start-snm-colored-left-only "[02.11]" magenta
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 19 / measure 16]
@@ -173,9 +173,9 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "17"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[02.13]"
+    - \baca-start-snm-colored-left-only "[02.13]" magenta
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-left-only "[5 (C)]"
+    - \baca-start-xnm-colored-left-only "5-C" darkcyan
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 21 / measure 18]
@@ -195,9 +195,9 @@ segment.02.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "19"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-left-only "[02.15]"
+    - \baca-start-snm-colored-left-only "[02.15]" magenta
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-left-only "[6 (AC)]"
+    - \baca-start-xnm-colored-left-only "6-AC" darkcyan
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 23 / measure 20]
@@ -384,7 +384,7 @@ segment.02.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     e'4
@@ -442,7 +442,7 @@ segment.02.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     r1
@@ -517,7 +517,7 @@ segment.02.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     r1.
@@ -669,7 +669,7 @@ segment.02.Violin.I.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
-        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
     %%% \once \override Score.BarLine.transparent = ##t
@@ -766,7 +766,7 @@ segment.02.Violin.I.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
-        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
     %%% \once \override Score.BarLine.transparent = ##t
@@ -930,7 +930,7 @@ segment.02.Violin.II.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-        \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         bf!32
         - \tweak color #(x11-color 'blue)
         \p
@@ -998,7 +998,7 @@ segment.02.Violin.II.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     r2.
     \(
 
@@ -1049,7 +1049,7 @@ segment.02.Violin.II.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     r4
     \(
 
@@ -1087,7 +1087,7 @@ segment.02.Violin.II.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
     r1.
     \(
 
@@ -1233,7 +1233,7 @@ segment.02.Violin.II.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 115/64
@@ -1328,7 +1328,7 @@ segment.02.Violin.II.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         c''16 * 477/64
@@ -1417,7 +1417,7 @@ segment.02.Violin.II.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-        \colorSpan #-4 #4 #(rgb-color 0.461 0.361 0.806)
+        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
         bf'!16 * 13/8
@@ -1555,7 +1555,7 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
     r2.
     \(
 
@@ -1611,7 +1611,7 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     r4
     \(
 
@@ -1667,7 +1667,7 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     r2
     \(
 
@@ -1705,7 +1705,7 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     d'2.
     \(
     - \tweak stencil ##f
@@ -1773,7 +1773,7 @@ segment.02.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     ef'!4.
     \(
 
@@ -1883,7 +1883,7 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \set Staff.instrumentName = \akasha-vc-markup
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     \clef "bass"
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -1977,7 +1977,7 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     c'4
     \(
 
@@ -2017,7 +2017,7 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     bf!2..
     \(
 
@@ -2089,7 +2089,7 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.261 0.661 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
     a4
     \(
 
@@ -2157,7 +2157,7 @@ segment.02.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.061 0.961 0.806)
+    \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
     r4
     \(
 

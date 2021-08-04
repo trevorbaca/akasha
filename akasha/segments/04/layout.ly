@@ -25,7 +25,7 @@
             \baca-new-spacing-section #1 #16
             \autoPageBreaksOff
             \noBreak
-            \baca-lbsd #20 #'(20 20)
+            \baca-lbsd #30 #'(20 20)
             \pageBreak
             s1 * 3/2
 
@@ -97,7 +97,7 @@
             % [Page_Layout measure 49]
             \baca-new-spacing-section #1 #16
             \noBreak
-            \baca-lbsd #140 #'(20 20)
+            \baca-lbsd #150 #'(20 20)
             \break
             s1 * 3/4
 
