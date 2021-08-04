@@ -2,12 +2,28 @@ import baca
 
 breaks = baca.breaks(
     baca.page(
-        [62, 20, (20, 20)],
-        [71, 140, (20, 20)],
+        baca.system(
+            (20, 20),
+            measure=62,
+            y_offset=20,
+        ),
+        baca.system(
+            (20, 20),
+            measure=71,
+            y_offset=140,
+        ),
     ),
     baca.page(
-        [85, 20, (20, 20)],
-        [99, 140, (20, 20)],
+        baca.system(
+            (20, 20),
+            measure=85,
+            y_offset=20,
+        ),
+        baca.system(
+            (20, 20),
+            measure=99,
+            y_offset=140,
+        ),
     ),
 )
 
