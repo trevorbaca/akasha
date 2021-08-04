@@ -757,6 +757,13 @@ segment.01.Viola.Music.Voice = {
     ^ \baca-default-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \akasha-ob-plus-terminate-abruptly-markup
     %! EXPLICIT_MARGIN_MARKUP_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()

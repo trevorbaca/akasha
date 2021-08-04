@@ -233,6 +233,11 @@ segment.03.Violin.I.Music.Voice = {
         \pp
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         [
         \(
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -391,6 +396,11 @@ segment.03.Violin.II.Music.Voice = {
     \mp
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     ^ \baca-tasto-plus-half-scratch-markup
     \(
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -403,11 +413,9 @@ segment.03.Violin.II.Music.Voice = {
     f'4
 
     fqf'!8
-    - \tweak stencil ##f
     ~
 
     fqf'4
-    \repeatTie
 
     e'2
     - \tweak stencil ##f
@@ -519,6 +527,11 @@ segment.03.Violin.II.Music.Voice = {
         c''16 * 487/64
         - \tweak color #(x11-color 'blue)
         \pp
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 C \halign #0 \transparent "O" }
+
         ^ \baca-tasto-plus-xfb-markup
         [
         \(
@@ -601,6 +614,11 @@ segment.03.Viola.Music.Voice = {
     \mp
     ^ \baca-reapplied-indicator-markup "[“Va.”]"
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     \(
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-va-markup
@@ -622,11 +640,9 @@ segment.03.Viola.Music.Voice = {
     \repeatTie
 
     dtqf'!8
-    - \tweak stencil ##f
     ~
 
     dtqf'8
-    \repeatTie
 
     c'4
     - \tweak stencil ##f
@@ -698,6 +714,11 @@ segment.03.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 34 / measure 11]
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     ds!2..
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     ^ \baca-tasto-markup
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
@@ -772,6 +793,11 @@ segment.03.Cello.Music.Voice = {
     \p
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 A \halign #0 \transparent "O" }
+
     \(
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-vc-markup
@@ -978,6 +1004,11 @@ segment.03.Cello.Music.Voice = {
         \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         fs!32
         - \staccato
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
         [
         \(
 
@@ -1057,6 +1088,11 @@ segment.03.Cello.Music.Voice = {
         \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         d32
         - \staccato
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
         \(
 
         r8
@@ -1128,6 +1164,11 @@ segment.03.Cello.Music.Voice = {
     cs,!2..
     - \tweak color #(x11-color 'blue)
     \mp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     ^ \baca-tasto-markup
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"

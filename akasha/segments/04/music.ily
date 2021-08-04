@@ -7,9 +7,9 @@ segment.04.Global.Skips = {
     s1 * 3/2
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.1]" magenta
+    - \baca-start-snm-colored-left-only "[04.1]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "9-D" darkcyan
+    - \baca-start-xnm-colored-left-only "9-D" magenta
     \bacaStartTextSpanXNM
     - \abjad-invisible-line
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'green4
@@ -31,7 +31,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "3"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.3]" magenta
+    - \baca-start-snm-colored-left-only "[04.3]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 38 / measure 4]
@@ -50,7 +50,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "5"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.5]" magenta
+    - \baca-start-snm-colored-left-only "[04.5]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 40 / measure 6]
@@ -69,7 +69,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "7"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.7]" magenta
+    - \baca-start-snm-colored-left-only "[04.7]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 42 / measure 8]
@@ -89,9 +89,9 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "9"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.9]" magenta
+    - \baca-start-snm-colored-left-only "[04.9]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "10-ADE" darkcyan
+    - \baca-start-xnm-colored-left-only "10-ADE" magenta
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 44 / measure 10]
@@ -126,7 +126,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "13"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.10]" magenta
+    - \baca-start-snm-colored-left-only "[04.10]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 48 / measure 14]
@@ -145,7 +145,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "15"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.12]" magenta
+    - \baca-start-snm-colored-left-only "[04.12]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 50 / measure 16]
@@ -155,9 +155,9 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "16"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.13]" magenta
+    - \baca-start-snm-colored-left-only "[04.13]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "11-AE" darkcyan
+    - \baca-start-xnm-colored-left-only "11-AE" magenta
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 51 / measure 17]
@@ -167,9 +167,9 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "17"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.14]" magenta
+    - \baca-start-snm-colored-left-only "[04.14]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "12-E[b]" darkcyan
+    - \baca-start-xnm-colored-left-only "12-E[b]" magenta
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 52 / measure 18]
@@ -188,7 +188,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "19"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.16]" magenta
+    - \baca-start-snm-colored-left-only "[04.16]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 54 / measure 20]
@@ -207,7 +207,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "21"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.18]" magenta
+    - \baca-start-snm-colored-left-only "[04.18]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 56 / measure 22]
@@ -226,7 +226,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "23"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.20]" magenta
+    - \baca-start-snm-colored-left-only "[04.20]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 58 / measure 24]
@@ -246,9 +246,9 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanXNM
     - \baca-start-lmn-left-only "25"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.22]" magenta
+    - \baca-start-snm-colored-left-only "[04.22]" darkcyan
     \bacaStartTextSpanSNM
-    - \baca-start-xnm-colored-left-only "13-CD(E)" darkcyan
+    - \baca-start-xnm-colored-left-only "13-CD(E)" magenta
     \bacaStartTextSpanXNM
 
     % [Global_Skips measure 60 / measure 26]
@@ -257,7 +257,7 @@ segment.04.Global.Skips = {
     \bacaStopTextSpanSNM
     - \baca-start-lmn-left-only "26"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[04.23]" magenta
+    - \baca-start-snm-colored-left-only "[04.23]" darkcyan
     \bacaStartTextSpanSNM
 
     % [Global_Skips measure 61 / measure 27]
@@ -509,6 +509,11 @@ segment.04.Violin.I.Music.Voice = {
     b'1.
     - \tweak color #(x11-color 'blue)
     \baca-effort-mf
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     ^ \baca-ob-markup
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
@@ -589,6 +594,11 @@ segment.04.Violin.I.Music.Voice = {
     % [Violin_I_Music_Voice measure 50 / measure 16]
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     b'2.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -640,6 +650,11 @@ segment.04.Violin.I.Music.Voice = {
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     b'1
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -685,6 +700,11 @@ segment.04.Violin.I.Music.Voice = {
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     b'2.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -735,6 +755,11 @@ segment.04.Violin.I.Music.Voice = {
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     b'1
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -780,6 +805,11 @@ segment.04.Violin.I.Music.Voice = {
 %%% \once \override Score.BarLine.transparent = ##t
 %%% \once \override Score.SpanBar.transparent = ##t
     b'1.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -957,6 +987,11 @@ segment.04.Violin.II.Music.Voice = {
     b'1.
     - \tweak color #(x11-color 'blue)
     \baca-effort-mf
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     ^ \baca-ob-markup
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
@@ -1033,6 +1068,11 @@ segment.04.Violin.II.Music.Voice = {
     % [Violin_II_Music_Voice measure 50 / measure 16]
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     b'2.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -1080,6 +1120,11 @@ segment.04.Violin.II.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     b'1
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -1121,6 +1166,11 @@ segment.04.Violin.II.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     b'2.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -1167,6 +1217,11 @@ segment.04.Violin.II.Music.Voice = {
     \startStaff
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     b'1
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -1215,6 +1270,11 @@ segment.04.Violin.II.Music.Voice = {
     g''1.
     - \tweak color #(x11-color 'blue)
     \pp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 C \halign #0 \transparent "O" }
+
     ^ \baca-tasto-markup
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
@@ -1304,7 +1364,7 @@ segment.04.Viola.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \set Staff.instrumentName = \akasha-va-markup
-        \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+        \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
         \clef "alto"
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)
         \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -1315,6 +1375,11 @@ segment.04.Viola.Music.Voice = {
         \mp
         ^ \baca-reapplied-indicator-markup "[“Va.”]"
         ^ \baca-reapplied-indicator-markup "(“Viola”)"
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 D \halign #0 \transparent "O" }
+
         \(
         \glissando
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -1358,8 +1423,13 @@ segment.04.Viola.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-        \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+        \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
         ds!1
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 D \halign #0 \transparent "O" }
+
         \(
         \glissando
 
@@ -1400,8 +1470,13 @@ segment.04.Viola.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-        \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+        \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
         ds!\breve
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 D \halign #0 \transparent "O" }
+
         \(
         \glissando
 
@@ -1442,8 +1517,13 @@ segment.04.Viola.Music.Voice = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-        \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+        \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
         ds!\breve
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 D \halign #0 \transparent "O" }
+
         \(
         \glissando
 
@@ -1481,10 +1561,15 @@ segment.04.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     ef!1.
     - \tweak color #(x11-color 'blue)
     \mp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     - \tweak color #(x11-color 'blue)
     \>
     - \abjad-dashed-line-with-hook
@@ -1550,6 +1635,11 @@ segment.04.Viola.Music.Voice = {
     c'2.
     - \tweak color #(x11-color 'blue)
     \ff
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 A \halign #0 \transparent "O" }
+
     ^ \baca-tasto-plus-scratch-moltiss-markup
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
@@ -1621,6 +1711,11 @@ segment.04.Viola.Music.Voice = {
     ds'!4
     - \tweak color #(x11-color 'blue)
     \mp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     ^ \baca-tasto-plus-half-scratch-markup
     \(
 
@@ -1658,10 +1753,15 @@ segment.04.Viola.Music.Voice = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     e1.
     - \tweak color #(x11-color 'blue)
     \mp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     ^ \baca-tasto-markup
     - \tweak color #(x11-color 'blue)
     \>
@@ -1763,7 +1863,7 @@ segment.04.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \set Staff.instrumentName = \akasha-vc-markup
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     \clef "bass"
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -1774,6 +1874,11 @@ segment.04.Cello.Music.Voice = {
     \mp
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -1818,8 +1923,13 @@ segment.04.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     cs,!1
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -1861,8 +1971,13 @@ segment.04.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     cs,!1.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -1904,8 +2019,13 @@ segment.04.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     cs,!1.
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     - \tweak bound-details.right.padding 2.75
@@ -1947,10 +2067,15 @@ segment.04.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     cs,!1.
     - \tweak color #(x11-color 'blue)
     \mp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     - \tweak color #(x11-color 'blue)
     \>
     - \abjad-dashed-line-with-hook
@@ -2025,6 +2150,11 @@ segment.04.Cello.Music.Voice = {
         - \tweak color #(x11-color 'blue)
         \p
         - \staccato
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
         ^ \baca-leggieriss-markup
         [
         \(
@@ -2142,6 +2272,11 @@ segment.04.Cello.Music.Voice = {
     c'1
     - \tweak color #(x11-color 'blue)
     \mp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 B \halign #0 \transparent "O" }
+
     ^ \baca-tasto-plus-half-scratch-markup
     \(
 
@@ -2177,10 +2312,15 @@ segment.04.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \colorSpan #-4 #4 #(rgb-color 0.257 0.527 0.957)
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     cs,!1.
     - \tweak color #(x11-color 'blue)
     \mp
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     ^ \baca-tasto-markup
     - \tweak color #(x11-color 'blue)
     \>
