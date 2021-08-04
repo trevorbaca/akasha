@@ -6,8 +6,10 @@ segment.01.Global.Skips = {
     s1 * 3/8
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
-    - \baca-start-snm-colored-left-only "[01.1]" magenta
+    - \baca-start-snm-colored-left-only "[01.1]" darkcyan
     \bacaStartTextSpanSNM
+    - \baca-start-xnm-colored-left-only "1-E" magenta
+    \bacaStartTextSpanXNM
     - \abjad-invisible-line
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
     \bacaStartTextSpanMM
@@ -33,6 +35,7 @@ segment.01.Global.Skips = {
     s1 * 1/4
     \bacaStopTextSpanLMN
     \bacaStopTextSpanSNM
+    \bacaStopTextSpanXNM
     \bacaStopTextSpanMM
     \once \override Score.BarLine.transparent = ##t
     \once \override Score.SpanBar.transparent = ##t

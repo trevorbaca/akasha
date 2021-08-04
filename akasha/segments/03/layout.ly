@@ -23,7 +23,7 @@
             \baca-new-spacing-section #1 #24
             \autoPageBreaksOff
             \noBreak
-            \baca-lbsd #20 #'(20 20)
+            \baca-lbsd #30 #'(20 20 20 20)
             \pageBreak
             s1 * 9/8
 

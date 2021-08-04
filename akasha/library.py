@@ -274,7 +274,7 @@ def make_moment_markup(moment_tokens):
     moment_markup = []
     start_measure = 1
     for moment_number, measure_count, string in moment_tokens:
-        moment_markup_ = (f"{moment_number}-{string}", start_measure, "darkcyan")
+        moment_markup_ = (f"{moment_number}-{string}", start_measure, "magenta")
         moment_markup.append(moment_markup_)
         start_measure += measure_count
     return moment_markup
@@ -284,7 +284,7 @@ def make_stage_markup(segment_number, stage_tokens):
     stage_markup = []
     start_measure = 1
     for stage_number, measure_count in stage_tokens:
-        stage_markup_ = (f"[{segment_number}.{stage_number}]", start_measure, "magenta")
+        stage_markup_ = (f"[{segment_number}.{stage_number}]", start_measure, "darkcyan")
         stage_markup.append(stage_markup_)
         start_measure += measure_count
     return stage_markup
@@ -592,11 +592,11 @@ class ScoreTemplate(baca.ScoreTemplate):
 
 
 material_to_color = {
-    "A": "0.984 0.945 0.492",  # <- ok
-    "B": "0.980 0.769 0.984",  # ?
+    "A": "0.984 0.945 0.492",
+    "B": "0.980 0.769 0.984",
     "C": "0.335 0.937 0.597",
-    "D": "0.257 0.527 0.957",  # <- ok
-    "E": "0.865 0.877 0.896",  # <- ok
+    "D": "0.710 0.878 0.976",
+    "E": "0.865 0.877 0.896",
 }
 
 

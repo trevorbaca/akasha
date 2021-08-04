@@ -8,6 +8,13 @@ from akasha import library as akasha
 ########################################### 03 ##########################################
 #########################################################################################
 
+moment_tokens = (
+    (7, 9, "ABC"),
+    (8, 2, "CD"),
+)
+
+moment_markup = akasha.make_moment_markup(moment_tokens)
+
 stage_tokens = (
     (1, 3),
     (2, 1 + 1),
@@ -22,6 +29,7 @@ fermata_measures = [5, 7, 9]
 maker = baca.SegmentMaker(
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
+        baca.tags.MOMENT_NUMBER,
         baca.tags.STAGE_NUMBER,
     ],
     check_all_are_pitched=True,
@@ -32,6 +40,7 @@ maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
+    moment_markup=moment_markup,
     score_template=akasha.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
