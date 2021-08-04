@@ -144,11 +144,8 @@ maker(
 
 maker(
     ("va", (5, 6)),
-    baca.suite(
-        # TODO: unsuite
-        baca.pitches("D#3 C+3", exact=True),
-        baca.glissando(),
-    ),
+    baca.pitches("D#3 C+3", exact=True),
+    baca.glissando(),
     baca.hairpin("mp > pp"),
     baca.markup(
         r"\baca-tasto-markup",
@@ -159,11 +156,8 @@ maker(
 
 maker(
     ("vc", (5, 6)),
-    baca.suite(
-        # TODO: unsuite
-        baca.pitches("C#2 Bb1", exact=True),
-        baca.glissando(),
-    ),
+    baca.pitches("C#2 Bb1", exact=True),
+    baca.glissando(),
     baca.hairpin("mp > pp"),
     baca.markup(
         r"\baca-tasto-markup",

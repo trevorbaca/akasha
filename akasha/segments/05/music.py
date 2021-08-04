@@ -290,11 +290,8 @@ maker(
 maker(
     ("va", (33, 36)),
     baca.clef("alto"),
-    baca.suite(
-        # TODO: unsuite
-        baca.pitches("Fb3 E3 D#3 C#3 B#2", exact=True),
-        baca.glissando(),
-    ),
+    baca.pitches("Fb3 E3 D#3 C#3 B#2", exact=True),
+    baca.glissando(),
     baca.hairpin("sf > ppp"),
     baca.markup(
         r"\akasha-tasto-plus-senza-vib-markup",
@@ -380,11 +377,8 @@ maker(
 
 maker(
     ("vc", (43, 50)),
-    baca.suite(
-        # TODO: unsuite
-        baca.pitches("Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True),
-        baca.glissando(),
-    ),
+    baca.pitches("Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True),
+    baca.glissando(),
     baca.hairpin("sf > ppp"),
     baca.markup(
         r"\baca-tasto-markup",
