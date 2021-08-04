@@ -1239,9 +1239,13 @@ segment.03.Violin.II.Music.Voice = {
     f'4
 
     fqf'!8
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
     fqf'4
+    \repeatTie
 
     %! akasha.polyphony_rhythm()
     e'2
@@ -1758,9 +1762,13 @@ segment.03.Viola.Music.Voice = {
     \repeatTie
 
     dtqf'!8
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
     dtqf'8
+    \repeatTie
 
     %! akasha.polyphony_rhythm()
     c'4

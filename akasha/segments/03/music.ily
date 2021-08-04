@@ -403,9 +403,11 @@ segment.03.Violin.II.Music.Voice = {
     f'4
 
     fqf'!8
+    - \tweak stencil ##f
     ~
 
     fqf'4
+    \repeatTie
 
     e'2
     - \tweak stencil ##f
@@ -620,9 +622,11 @@ segment.03.Viola.Music.Voice = {
     \repeatTie
 
     dtqf'!8
+    - \tweak stencil ##f
     ~
 
     dtqf'8
+    \repeatTie
 
     c'4
     - \tweak stencil ##f
