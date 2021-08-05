@@ -7,32 +7,44 @@ from akasha import library as akasha
 ########################################### 06 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[E.1]", 1),
-    # ("[E.2]", 2),
-    ("[E.3]", 3),
-    # ("[E.4]", 4),
-    ("[E.5]", 5),
-    # ("[E.6]", 6),
-    ("[E.7]", 7),
-    # ("[E.8]", 8),
-    ("[E.9]", 9),
-    ("[E.10]", 11),
-    ("[E.11]", 13),
-    ("[E.12]", 15),
-    ("[E.13]", 19),
-    ("[E.14]", 21),
-    ("[E.15]", 23),
-    ("[E.16]", 27),
-    ("[E.17]", 33),
-    # ("[E.18]", 39),
+moment_tokens = (
+    ("19+20", 39, "AE+A"),
 )
+
+moment_markup = akasha.make_moment_markup(moment_tokens)
+
+stage_tokens = (
+    (1, 1 + 1),
+    (3, 1 + 1),
+    (5, 1 + 1),
+    (7, 1 + 1),
+    (9, 2),
+    (10, 2),
+    (11, 2),
+    (12, 4),
+    (13, 2),
+    (14, 2),
+    (15, 4),
+    (16, 6),
+    (17, 6 + 1),
+)
+
+stage_markup = akasha.make_stage_markup("06", stage_tokens)
 
 fermata_measures = [2, 4, 6, 8, 39]
 maker = baca.SegmentMaker(
-    activate=[
+    activate=(
         baca.tags.LOCAL_MEASURE_NUMBER,
-    ],
+        baca.tags.MOMENT_NUMBER,
+        baca.tags.STAGE_NUMBER,
+    ),
+    deactivate=(
+        baca.tags.DEFAULT_INSTRUMENT_ALERT,
+        baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
+        baca.tags.REAPPLIED_INSTRUMENT_ALERT,
+        baca.tags.REAPPLIED_MARGIN_MARKUP_ALERT,
+        baca.tags.RHYTHM_ANNOTATION_SPANNER,
+    ),
     check_all_are_pitched=True,
     color_octaves=False,
     fermata_extra_offset_y=4.5,
@@ -41,6 +53,7 @@ maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
+    moment_markup=moment_markup,
     score_template=akasha.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
@@ -101,11 +114,13 @@ maker(
 
 maker(
     ("va", 1),
+    akasha.material("E", baca.selectors.rleaves()),
     akasha.viola_ob_rhythm(rotation=0),
 )
 
 maker(
     ("v2", 3),
+    akasha.material("A", baca.selectors.rleaves()),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -117,11 +132,13 @@ maker(
 
 maker(
     ("va", 3),
+    akasha.material("E", baca.selectors.rleaves()),
     akasha.viola_ob_rhythm(rotation=-2),
 )
 
 maker(
     ("vc", 3),
+    akasha.material("A", baca.selectors.rleaves()),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -133,6 +150,7 @@ maker(
 
 maker(
     ("v1", 5),
+    akasha.material("A", baca.selectors.rleaves()),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -144,6 +162,7 @@ maker(
 
 maker(
     ("v2", 5),
+    akasha.material("A", baca.selectors.rleaves()),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -155,11 +174,13 @@ maker(
 
 maker(
     ("va", 5),
+    akasha.material("E", baca.selectors.rleaves()),
     akasha.viola_ob_rhythm(rotation=-4),
 )
 
 maker(
     ("v1", 7),
+    akasha.material("A", baca.selectors.rleaves()),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -171,6 +192,7 @@ maker(
 
 maker(
     ("v2", 7),
+    akasha.material("A", baca.selectors.rleaves()),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -182,11 +204,13 @@ maker(
 
 maker(
     ("va", 7),
+    akasha.material("E", baca.selectors.rleaves()),
     akasha.viola_ob_rhythm(rotation=-6),
 )
 
 maker(
     ("vc", 7),
+    akasha.material("A", baca.selectors.rleaves()),
     akasha.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -198,6 +222,7 @@ maker(
 
 maker(
     ("va", (9, 38)),
+    akasha.material("E", baca.selectors.rleaves()),
     akasha.viola_ob_rhythm(rotation=-8),
 )
 
@@ -330,6 +355,11 @@ maker(
             baca.selectors.tuplets((-4, None)),
         ),
     ),
+)
+
+maker(
+    (["v1", "v2", "vc"], (9, 38)),
+    akasha.material("A", baca.selectors.rleaves()),
 )
 
 maker(

@@ -30,10 +30,16 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.1]"
+    - \baca-start-snm-colored-left-only "[06.1]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    - \baca-start-xnm-colored-left-only "19+20-AE+A" magenta
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStartTextSpanXNM
     %! baca.SegmentMaker._reapply_persistent_indicators(2)
     %! baca.SegmentMaker._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
@@ -123,7 +129,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -141,10 +147,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.3]"
+    - \baca-start-snm-colored-left-only "[06.3]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[5'45'']"
@@ -210,7 +216,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -228,10 +234,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.5]"
+    - \baca-start-snm-colored-left-only "[06.5]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[5'55'']"
@@ -297,7 +303,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -315,10 +321,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.7]"
+    - \baca-start-snm-colored-left-only "[06.7]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'05'']"
@@ -384,7 +390,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! baca.SegmentMaker._attach_metronome_marks(1)
     \bacaStopTextSpanMM
     %! CLOCK_TIME
@@ -404,10 +410,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.9]"
+    - \baca-start-snm-colored-left-only "[06.9]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
@@ -487,7 +493,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -505,10 +511,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.10]"
+    - \baca-start-snm-colored-left-only "[06.10]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'21'']"
@@ -567,7 +573,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! baca.SegmentMaker._attach_metronome_marks(1)
     \bacaStopTextSpanMM
     %! CLOCK_TIME
@@ -587,10 +593,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.11]"
+    - \baca-start-snm-colored-left-only "[06.11]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
@@ -684,7 +690,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! baca.SegmentMaker._attach_metronome_marks(1)
     \bacaStopTextSpanMM
     %! CLOCK_TIME
@@ -704,10 +710,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.12]"
+    - \baca-start-snm-colored-left-only "[06.12]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
@@ -865,7 +871,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! baca.SegmentMaker._attach_metronome_marks(1)
     \bacaStopTextSpanMM
     %! CLOCK_TIME
@@ -885,10 +891,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.13]"
+    - \baca-start-snm-colored-left-only "[06.13]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
@@ -982,7 +988,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -1000,10 +1006,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.14]"
+    - \baca-start-snm-colored-left-only "[06.14]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'59'']"
@@ -1069,7 +1075,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -1087,10 +1093,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.15]"
+    - \baca-start-snm-colored-left-only "[06.15]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'04'']"
@@ -1220,7 +1226,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! baca.SegmentMaker._attach_metronome_marks(1)
     \bacaStopTextSpanMM
     %! CLOCK_TIME
@@ -1240,10 +1246,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.16]"
+    - \baca-start-snm-colored-left-only "[06.16]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
@@ -1472,7 +1478,7 @@ segment.06.Global.Skips = {
     %@% \bacaStopTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -1490,10 +1496,10 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% - \baca-start-snm-left-only "[E.17]"
+    - \baca-start-snm-colored-left-only "[06.17]" darkcyan
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
-    %@% \bacaStartTextSpanSNM
+    \bacaStartTextSpanSNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'27'']"
@@ -1752,7 +1758,12 @@ segment.06.Global.Skips = {
     %! baca.SegmentMaker._label_stage_numbers()
     %! baca.SegmentMaker._style_phantom_measures(1)
     %! PHANTOM
-    %@% \bacaStopTextSpanSNM
+    \bacaStopTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    %! baca.SegmentMaker._style_phantom_measures(1)
+    %! PHANTOM
+    \bacaStopTextSpanXNM
     %! EOS_STOP_MM_SPANNER
     %! baca.SegmentMaker._attach_metronome_marks(4)
     %! baca.SegmentMaker._style_phantom_measures(1)
@@ -2109,10 +2120,10 @@ segment.06.Violin.I.Music.Voice = {
             \ppp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
             %! baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
+            %@% ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
             %! REAPPLIED_INSTRUMENT_ALERT
             %! baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+            %@% ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
@@ -2234,6 +2245,10 @@ segment.06.Violin.I.Music.Voice = {
         %! baca.SegmentMaker._style_fermata_measures(4)
         %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! FERMATA_MEASURE
         %! MEASURE_116
         %! baca.SegmentMaker._style_fermata_measures(7)
@@ -2258,7 +2273,19 @@ segment.06.Violin.I.Music.Voice = {
         \ff
         %! baca.markup()
         %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
         ^ \akasha-scratch-moltiss-explanation-markup
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         r4
@@ -2310,6 +2337,11 @@ segment.06.Violin.I.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
             %! baca.SegmentMaker._style_fermata_measures(2)
             %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -2358,6 +2390,10 @@ segment.06.Violin.I.Music.Voice = {
         %! baca.SegmentMaker._style_fermata_measures(4)
         %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! FERMATA_MEASURE
         %! MEASURE_118
         %! baca.SegmentMaker._style_fermata_measures(7)
@@ -2368,6 +2404,18 @@ segment.06.Violin.I.Music.Voice = {
     %%% \once \override Score.SpanBar.transparent = ##t
         %! akasha.scratch_rhythm()
         fs'!4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         r4
@@ -2416,6 +2464,11 @@ segment.06.Violin.I.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
             %! baca.SegmentMaker._style_fermata_measures(2)
             %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -2464,6 +2517,10 @@ segment.06.Violin.I.Music.Voice = {
         %! baca.SegmentMaker._style_fermata_measures(4)
         %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! FERMATA_MEASURE
         %! MEASURE_120
         %! baca.SegmentMaker._style_fermata_measures(7)
@@ -2474,6 +2531,18 @@ segment.06.Violin.I.Music.Voice = {
         \once \override Score.SpanBar.transparent = ##t
         %! akasha.scratch_rhythm()
         r4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         f'4
@@ -5203,6 +5272,11 @@ segment.06.Violin.I.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
             %! baca.SegmentMaker._style_fermata_measures(2)
             %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -5446,10 +5520,10 @@ segment.06.Violin.II.Music.Voice = {
             \p
             %! REAPPLIED_MARGIN_MARKUP_ALERT
             %! baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
+            %@% ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
             %! REAPPLIED_INSTRUMENT_ALERT
             %! baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+            %@% ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
@@ -5523,8 +5597,24 @@ segment.06.Violin.II.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         %! baca.SegmentMaker._style_fermata_measures(3)
         \startStaff
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.scratch_rhythm()
         r4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         r4
@@ -5591,6 +5681,11 @@ segment.06.Violin.II.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -5633,8 +5728,24 @@ segment.06.Violin.II.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         %! baca.SegmentMaker._style_fermata_measures(3)
         \startStaff
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.scratch_rhythm()
         r4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         r4
@@ -5689,6 +5800,11 @@ segment.06.Violin.II.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -5731,8 +5847,24 @@ segment.06.Violin.II.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         %! baca.SegmentMaker._style_fermata_measures(3)
         \startStaff
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.scratch_rhythm()
         r4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         r4
@@ -5790,6 +5922,11 @@ segment.06.Violin.II.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -5832,8 +5969,24 @@ segment.06.Violin.II.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
         %! baca.SegmentMaker._style_fermata_measures(3)
         \startStaff
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.scratch_rhythm()
         r4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         r4
@@ -8784,6 +8937,11 @@ segment.06.Violin.II.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -8956,6 +9114,10 @@ segment.06.Viola.Music.Voice = {
     \startStaff
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-va-markup
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
     %! REAPPLIED_CLEF
@@ -8991,10 +9153,22 @@ segment.06.Viola.Music.Voice = {
     \baca-ppp-ancora
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Va.”]"
+    %@% ^ \baca-reapplied-indicator-markup "[“Va.”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -9076,6 +9250,11 @@ segment.06.Viola.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -9111,8 +9290,24 @@ segment.06.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! akasha.viola_ob_rhythm()
     r4.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
 
     %! akasha.viola_ob_rhythm()
     c'4
@@ -9173,6 +9368,11 @@ segment.06.Viola.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -9208,8 +9408,24 @@ segment.06.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! akasha.viola_ob_rhythm()
     r4.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
 
     %! akasha.viola_ob_rhythm()
     c'4
@@ -9270,6 +9486,11 @@ segment.06.Viola.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -9305,8 +9526,24 @@ segment.06.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! akasha.viola_ob_rhythm()
     r4
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
 
     %! akasha.viola_ob_rhythm()
     c'4.
@@ -9361,6 +9598,11 @@ segment.06.Viola.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -9396,8 +9638,24 @@ segment.06.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! akasha.viola_ob_rhythm()
     r4
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
 
     %! akasha.viola_ob_rhythm()
     c'4.
@@ -9473,11 +9731,15 @@ segment.06.Viola.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 125 / measure 13]
     c'8
+    \repeatTie
 
     %! akasha.viola_ob_rhythm()
     c'4
@@ -10174,6 +10436,11 @@ segment.06.Viola.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         }
@@ -10409,10 +10676,10 @@ segment.06.Cello.Music.Voice = {
             \ppp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
             %! baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "[“Vc.”]"
+            %@% ^ \baca-reapplied-indicator-markup "[“Vc.”]"
             %! REAPPLIED_INSTRUMENT_ALERT
             %! baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Cello”)"
+            %@% ^ \baca-reapplied-indicator-markup "(“Cello”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
@@ -10492,8 +10759,24 @@ segment.06.Cello.Music.Voice = {
         %! baca.SegmentMaker._style_fermata_measures(4)
         %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.scratch_rhythm()
         r4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         b,4
@@ -10563,6 +10846,11 @@ segment.06.Cello.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
             %! baca.SegmentMaker._style_fermata_measures(2)
             %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(0 . 2)
@@ -10645,8 +10933,24 @@ segment.06.Cello.Music.Voice = {
         %! baca.SegmentMaker._style_fermata_measures(4)
         %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.scratch_rhythm()
         r4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         c4
@@ -10698,6 +11002,11 @@ segment.06.Cello.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
             %! baca.SegmentMaker._style_fermata_measures(2)
             %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(0 . 2)
@@ -10746,8 +11055,24 @@ segment.06.Cello.Music.Voice = {
         %! baca.SegmentMaker._style_fermata_measures(4)
         %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! baca.literal()
+        %! COLORED_PHRASING_SLUR
+        %! baca.IndicatorCommand._call()
+        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
         %! akasha.scratch_rhythm()
         r4
+        %! baca.markup()
+        %! baca.IndicatorCommand._call()
+        ^ \markup
+                    \override #'(circle-padding . 0.75)
+                    \circle
+                    { \combine \halign #0 A \halign #0 \transparent "O" }
+
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \(
 
         %! akasha.scratch_rhythm()
         r4
@@ -14047,6 +14372,11 @@ segment.06.Cello.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
             %! baca.SegmentMaker._style_fermata_measures(2)
             %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(0 . 2)

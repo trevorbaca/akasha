@@ -207,107 +207,119 @@ materials: (A), (B), (C), (D), (E)
 
 [segment 06] (115"):
 
-  1-8 (4x: 1 + fermata)[44]
-  segment begins with mod. rhythmicized va OB;
-  large process of revealing getati begins;
-  process begins with isolated v1, v2, vc scratch tenuti;
-  fermata;
+  moments 19 + 20 (AE/A):
 
-  9 (2)[55]
-  no more halting;
-  v1, v2, vc scratch become denser;
-  va OB;
+    1-8 (4x: 1 + fermata)[44]
+    segment begins with mod. rhythmicized va OB (E);
+    large process of revealing getati begins;
+    process begins with isolated v1, v2, vc scratch tenuti (A);
+    fermata;
 
-  10 (2)
-  v1, v2, vc scratch durations become shorter;
-  va OB;
+    9 (2)[55]
+    no more halting;
+    v1, v2, vc scratch become denser (A);
+    va OB (E);
 
-  11 (2)[55->accel.]
-  v1, v2, vc scratch staccatiss.;
-  va OB;
+    10 (2)
+    v1, v2, vc scratch durations become shorter (A);
+    va OB (E);
 
-  12 (4)[89]
-  v1, v2, vc scratch staccatiss crossfade to get. ord. mf;
-  va OB;
+    11 (2)[55->accel.]
+    v1, v2, vc scratch staccatiss. (A);
+    va OB (E);
 
-  13-14 (4)[89->accel.]
-  v1, v2, vc all get. ord. mf;
-  ascent begins;
-  va OB;
+    12 (4)[89]
+    v1, v2, vc scratch staccatiss. crossfade to get. ord. mf (A);
+    va OB (E);
 
-  15 (4)[89-->accel.]
-  v1, v2, vc get. become dense piano;
-  ascent continues;
-  va OB;
+    13-14 (4)[89->accel.]
+    v1, v2, vc all get. ord. mf (A);
+    ascent begins (A);
+    va OB (E);
 
-  16 (6)[126]
-  v1, v2, vc get. become very dense pianiss.;
-  ascent continues;
-  va OB;
+    15 (4)[89-->accel.]
+    v1, v2, vc get. become dense piano (A);
+    ascent continues (A);
+    va OB (E);
 
-  17-18 (6 + long fermata)
-  v1, v2, vc get. very dense pianiss.;
-  [v1, v2, vc max. dense get. pianiss. *withheld and does not appear yet*]
-  ascent reaches peak;
-  va OB;
-  long fermata;
+    16 (6)[126]
+    v1, v2, vc get. become very dense pianiss. (A);
+    ascent continues (A);
+    va OB (E);
+
+    17-18 (6 + long fermata)
+    v1, v2, vc get. very dense pianiss. (A);
+    [v1, v2, vc max. dense get. pianiss. *withheld and does not appear yet*]
+    ascent reaches peak (A);
+    va OB (E);
+    long fermata;
 
 [segment 07] (3'):
 
-  1 (2)[44]
-  tempo resets back to mod.;
-  microtonal vc melody returns from beginning of piece;
-  attaca;
+  moment 21 (CAB):
 
-  2-3 (2 + long fermata)[126]
-  [intercalated memory of vn1, vn2, vc dense get. pianiss. from prev. seg.];
-  long fermata;
+    1 (2)[44]
+    tempo resets back to mod.;
+    microtonal vc melody returns from beginning of piece (B);
+    attaca;
 
-  4-5 (1 + long fermata)[55]
-  single va scratch tenuto;
-  long fermata;
+    2-3 (2 + long fermata)[126]
+    [intercalated memory of vn1, vn2, vc dense get. pianiss. from prev. seg. (A)];
+    long fermata;
 
-  6-7 (2 + long fermata)[89]
-  vn1, vn2 tasto tenuto loops;
-  long fermata;
+    4-5 (1 + long fermata)[55]
+    single va scratch tenuto (A);
+    long fermata;
 
-  8 (12)[89]
-  vn1, vn2 mixed counted and accel./rit. tasto loops;
-  va, vc microtonal polyphony starts and then gets slower and slower;
-  vn1, vn2 tasto loops disappear at end of segment;
-  va, vc microtonal polyphony continues across segment boundary;
-  attaca;
+    6-7 (2 + long fermata)[89]
+    vn1, vn2 tasto tenuto loops (C);
+    long fermata;
 
-  9 (4)[89]
-  vn1, vn2 get. pianiss. begins again but with many silenced divisions;
-  va, vc, micro polyphony reaches point of maximum slowness;
-  attaca;
+  moment 22 (CB):
 
-  10 (4)[89]
-  va, vc, microtonal field freezes and undergoes big crescendo;
-  attaca;
+    8 (12)[89]
+    vn1, vn2 mixed counted and accel./rit. tasto loops (C);
+    va, vc microtonal polyphony starts and then gets slower and slower (B);
+    vn1, vn2 tasto loops disappear at end of segment (C);
+    va, vc microtonal polyphony continues across segment boundary (B);
+    attaca;
 
-  11-12 (4 + fermata)[89-->126]
-  va, vc microtonal field big crescendo stops at end of stage;
-  fermata;
+  moment 23 (B):
 
-  13-14 (6 + fermata)[126]
-  get. subito vn1, vn2, va, vc max. density for first time in piece;
-  tutti fortissimo;
-  fermata;
+    9 (4)[89]
+    <<vn1, vn2 get. pianiss. begins again but with many silenced divisions (A)>>;
+    va, vc, micro polyphony reaches point of maximum slowness (B);
+    attaca;
 
-  15-16 (1 + fermata)[55]
-  single note of va OB;
-  fermata;
+    10 (4)[89]
+    va, vc, microtonal field freezes and undergoes big crescendo (B);
+    attaca;
 
-  17-18 (8x: 1 + short fermata)[126]
-  vn1, vn2, va, vc get. field repeats eight times;
-  tutti pianissimo;
-  short breath after each repetition;
+    11-12 (4 + fermata)[89-->126]
+    va, vc microtonal field big crescendo stops at end of stage (B);
+    fermata;
 
-  19-20 (1 + fermata)[55]
-  single note of va OB;
-  fermata;
+  moment 24 (EA):
+
+    13-14 (6 + fermata)[126]
+    get. subito vn1, vn2, va, vc max. density for first time in piece (A);
+    tutti fortissimo (A);
+    fermata;
+
+    15-16 (1 + fermata)[55]
+    single note of va OB (E);
+    fermata;
+
+  moment 25 (A[E]):
+
+    17-18 (8x: 1 + short fermata)[126]
+    vn1, vn2, va, vc get. field repeats <<eight>> six times (A);
+    tutti pianissimo (A);
+    short breath included in each repetition;
+
+    19-20 (1 + fermata)[55]
+    single note of va OB (E);
+    fermata;
 
 [segment 08] (1'):
 

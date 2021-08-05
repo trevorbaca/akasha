@@ -27,7 +27,7 @@
             \baca-new-spacing-section #1 #20
             \autoPageBreaksOff
             \noBreak
-            \baca-lbsd #20 #'(20 20)
+            \baca-lbsd #30 #'(20 20)
             \pageBreak
             s1 * 3/4
 
@@ -79,7 +79,7 @@
             % [Page_Layout measure 162]
             \baca-new-spacing-section #1 #20
             \noBreak
-            \baca-lbsd #140 #'(20 20)
+            \baca-lbsd #155 #'(20 20)
             \break
             s1 * 5/4
 
@@ -121,7 +121,7 @@
             % [Page_Layout measure 170]
             \baca-new-spacing-section #1 #20
             \noBreak
-            \baca-lbsd #20 #'(20 20)
+            \baca-lbsd #30 #'(20 20)
             \pageBreak
             s1 * 3/4
 
@@ -208,7 +208,7 @@
             % [Page_Layout measure 187]
             \baca-new-spacing-section #1 #48
             \noBreak
-            \baca-lbsd #140 #'(20 20)
+            \baca-lbsd #155 #'(20 20)
             \break
             s1 * 3/4
 
@@ -235,7 +235,7 @@
             % [Page_Layout measure 192]
             \baca-new-spacing-section #1 #48
             \noBreak
-            \baca-lbsd #20 #'(20 20)
+            \baca-lbsd #30 #'(20 20)
             \pageBreak
             s1 * 1
 
