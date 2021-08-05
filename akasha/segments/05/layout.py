@@ -5,25 +5,27 @@ breaks = baca.breaks(
         baca.system(
             (20, 20),
             measure=62,
-            y_offset=20,
+            y_offset=30,
         ),
         baca.system(
             (20, 20),
             measure=71,
-            y_offset=140,
+            y_offset=155,
         ),
+        number=1,
     ),
     baca.page(
         baca.system(
             (20, 20),
             measure=85,
-            y_offset=20,
+            y_offset=30,
         ),
         baca.system(
             (20, 20),
             measure=99,
-            y_offset=140,
+            y_offset=155,
         ),
+        number=2,
     ),
 )
 

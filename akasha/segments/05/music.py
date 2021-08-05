@@ -7,6 +7,16 @@ from akasha import library as akasha
 ########################################### 05 ##########################################
 #########################################################################################
 
+moment_tokens = (
+    (14, 9, "D"),
+    (15, 23, "DE"),
+    (16, 5, "E[d]"),
+    (17, 5, "CE"),
+    (18, 9, "CDE"),
+)
+
+moment_markup = akasha.make_moment_markup(moment_tokens)
+
 stage_tokens = (
     (1, 8 + 1),
     (3, 8 + 1),
@@ -23,10 +33,18 @@ stage_markup = akasha.make_stage_markup("05", stage_tokens)
 
 fermata_measures = [9, 18, 23, 32, 37, 42, 51]
 maker = baca.SegmentMaker(
-    activate=[
+    activate=(
         baca.tags.LOCAL_MEASURE_NUMBER,
+        baca.tags.MOMENT_NUMBER,
         baca.tags.STAGE_NUMBER,
-    ],
+    ),
+    deactivate=(
+        baca.tags.DEFAULT_INSTRUMENT_ALERT,
+        baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
+        baca.tags.REAPPLIED_INSTRUMENT_ALERT,
+        baca.tags.REAPPLIED_MARGIN_MARKUP_ALERT,
+        baca.tags.RHYTHM_ANNOTATION_SPANNER,
+    ),
     check_all_are_pitched=True,
     color_octaves=False,
     fermata_extra_offset_y=4.5,
@@ -35,6 +53,7 @@ maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
+    moment_markup=moment_markup,
     score_template=akasha.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
@@ -47,11 +66,6 @@ maker = baca.SegmentMaker(
 
 maker(
     "Global_Skips",
-    baca.rehearsal_mark(
-        "D",
-        baca.selectors.leaf(0),
-        abjad.tweak((0, 7)).extra_offset,
-    ),
     baca.metronome_mark(
         "126",
         selector=baca.selectors.leaf(0),
@@ -113,6 +127,7 @@ maker(
         ("va", (24, 31)),
         ("vc", (33, 36)),
     ],
+    akasha.material("D"),
     baca.make_repeat_tied_notes(),
 )
 
@@ -122,11 +137,15 @@ maker(
         ("v2", [(10, 17), (19, 22)]),
         (["v1", "v2", "vc"], (24, 31)),
         (["v1", "v2"], (33, 36)),
-        ("va", (33, 35)),
         (["v1", "va", "vc"], (38, 41)),
-        (["v1", "va", "vc"], (43, 46)),
-        ("vc", (47, 49)),
+        (["v1", "va"], (43, 46)),
     ],
+    akasha.material("E"),
+    akasha.untied_notes(),
+)
+
+maker(
+    ("va", (33, 35)),
     akasha.untied_notes(),
 )
 
@@ -136,13 +155,29 @@ maker(
 )
 
 maker(
+    ("va", (33, 36)),
+    akasha.material("D"),
+)
+
+maker(
     ("v2", [(38, 39), (43, 44)]),
+    akasha.material("C", baca.selectors.rleaves()),
     baca.make_repeat_tied_notes(),
+)
+
+maker(
+    ("vc", (43, 49)),
+    akasha.untied_notes(),
 )
 
 maker(
     ("vc", 50),
     akasha.glissando_rhythm(),
+)
+
+maker(
+    ("vc", (43, 50)),
+    akasha.material("D"),
 )
 
 maker(
