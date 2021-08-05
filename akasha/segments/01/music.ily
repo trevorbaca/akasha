@@ -78,8 +78,6 @@ segment.01.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     R1 * 3/8
-    ^ \baca-default-indicator-markup "(“ViolinI”)"
-    ^ \baca-explicit-indicator-markup "[“Vn. I”]"
     \override Staff.Clef.color = #(x11-color 'violet)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \akasha-vn-i-markup
@@ -150,8 +148,6 @@ segment.01.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     R1 * 3/8
-    ^ \baca-default-indicator-markup "(“ViolinI”)"
-    ^ \baca-explicit-indicator-markup "[“Vn. II”]"
     \override Staff.Clef.color = #(x11-color 'violet)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
@@ -223,20 +219,12 @@ segment.01.Viola.Music.Voice = {
     - \tweak color #(x11-color 'blue)
     \baca-effort-mf
     - \downbow
-    ^ \baca-default-indicator-markup "(“Viola”)"
     ^ \markup
                 \override #'(circle-padding . 0.75)
                 \circle
                 { \combine \halign #0 E \halign #0 \transparent "O" }
 
     ^ \akasha-ob-plus-terminate-abruptly-markup
-    ^ \baca-explicit-indicator-markup "[“Va.”]"
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
     \(
     - \tweak stencil ##f
     ~
@@ -247,8 +235,6 @@ segment.01.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 2]
     c'2.
     \repeatTie
-    \)
-    <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
@@ -262,6 +248,7 @@ segment.01.Viola.Music.Voice = {
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
+            \)
 
         }
 
@@ -330,8 +317,6 @@ segment.01.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     R1 * 3/8
-    ^ \baca-default-indicator-markup "(“Cello”)"
-    ^ \baca-explicit-indicator-markup "[“Vc.”]"
     \override Staff.Clef.color = #(x11-color 'violet)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \akasha-vc-markup

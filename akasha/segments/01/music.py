@@ -14,11 +14,16 @@ stage_markup = akasha.make_stage_markup("01", stage_tokens)
 
 fermata_measures = [-1]
 maker = baca.SegmentMaker(
-    activate=[
+    activate=(
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.MOMENT_NUMBER,
         baca.tags.STAGE_NUMBER,
-    ],
+    ),
+    deactivate=(
+        baca.tags.DEFAULT_INSTRUMENT_ALERT,
+        baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
+        baca.tags.RHYTHM_ANNOTATION_SPANNER,
+    ),
     check_all_are_pitched=True,
     fermata_extra_offset_y=4.5,
     fermata_measure_empty_overrides=fermata_measures,
@@ -80,7 +85,10 @@ maker(
 
 maker(
     ("va", (1, 2)),
-    akasha.material("E"),
+    akasha.material(
+        "E",
+        baca.selectors.rleaves(),
+    ),
     baca.staff_lines(1),
     baca.down_bow(),
     baca.dynamic('"mf"'),
