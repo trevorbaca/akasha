@@ -24,7 +24,7 @@
             % [Page_Layout measure 1]
             %! SPACING_COMMAND
             %! baca.HorizontalSpacingSpecifier.__call__(1)
-            \baca-new-spacing-section #1 #12
+            \baca-new-spacing-section #1 #24
             %! BREAK
             %! baca.BreakMeasureMap.__call__(1)
             \autoPageBreaksOff
@@ -41,7 +41,7 @@
             s1 * 3/8
             %! SPACING
             %! baca.HorizontalSpacingSpecifier.__call__(2)
-            %@% - \baca-start-spm-left-only "[1/12]"
+            %@% - \baca-start-spm-left-only "[1/24]"
             %! SPACING
             %! baca.HorizontalSpacingSpecifier.__call__(2)
             %@% \bacaStartTextSpanSPM
@@ -50,7 +50,7 @@
             % [Page_Layout measure 2]
             %! SPACING_COMMAND
             %! baca.HorizontalSpacingSpecifier.__call__(1)
-            \baca-new-spacing-section #1 #12
+            \baca-new-spacing-section #1 #24
             %! BREAK
             %! baca.BreakMeasureMap.__call__(2)
             \noBreak
@@ -61,7 +61,7 @@
             %@% \bacaStopTextSpanSPM
             %! SPACING
             %! baca.HorizontalSpacingSpecifier.__call__(2)
-            %@% - \baca-start-spm-left-only "[1/12]"
+            %@% - \baca-start-spm-left-only "[1/24]"
             %! SPACING
             %! baca.HorizontalSpacingSpecifier.__call__(2)
             %@% \bacaStartTextSpanSPM

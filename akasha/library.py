@@ -604,11 +604,7 @@ material_to_color = {
 }
 
 
-def material(
-    letter,
-    *,
-    selector=baca.selectors.leaves(),
-):
+def material(letter, selector=baca.selectors.leaves()):
     """
     Colors staff for material ``letter``.
     """
