@@ -16,12 +16,6 @@ segment.05.Global.Skips = {
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/8
-    %! baca.rehearsal_mark()
-    %! baca.IndicatorCommand._call()
-    - \tweak extra-offset #'(0 . 7)
-    %! baca.rehearsal_mark()
-    %! baca.IndicatorCommand._call()
-    - \baca-rehearsal-mark-markup "D" #10
     %! LOCAL_MEASURE_NUMBER
     %! baca.SegmentMaker._label_measure_numbers()
     - \baca-start-lmn-left-only "1"
@@ -40,6 +34,12 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    - \baca-start-xnm-colored-left-only "14-D" magenta
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStartTextSpanXNM
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
@@ -393,6 +393,9 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStopTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStopTextSpanXNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -414,6 +417,12 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    - \baca-start-xnm-colored-left-only "15-DE" magenta
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStartTextSpanXNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[4'17'']"
@@ -1296,6 +1305,9 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStopTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStopTextSpanXNM
     %! baca.SegmentMaker._attach_metronome_marks(1)
     \bacaStopTextSpanMM
     %! CLOCK_TIME
@@ -1319,6 +1331,12 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    - \baca-start-xnm-colored-left-only "16-E[d]" magenta
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStartTextSpanXNM
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
@@ -1532,6 +1550,9 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStopTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStopTextSpanXNM
     %! baca.SegmentMaker._attach_metronome_marks(1)
     \bacaStopTextSpanMM
     %! CLOCK_TIME
@@ -1555,6 +1576,12 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    - \baca-start-xnm-colored-left-only "17-CE" magenta
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStartTextSpanXNM
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
@@ -1752,6 +1779,9 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStopTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStopTextSpanXNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -1773,6 +1803,12 @@ segment.05.Global.Skips = {
     %! STAGE_NUMBER
     %! baca.SegmentMaker._label_stage_numbers()
     \bacaStartTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    - \baca-start-xnm-colored-left-only "18-CDE" magenta
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    \bacaStartTextSpanXNM
     %! CLOCK_TIME
     %! baca.SegmentMaker._label_clock_time()
     %@% - \baca-start-ct-left-only "[5'09'']"
@@ -2144,6 +2180,11 @@ segment.05.Global.Skips = {
     %! baca.SegmentMaker._style_phantom_measures(1)
     %! PHANTOM
     \bacaStopTextSpanSNM
+    %! MOMENT_NUMBER
+    %! baca.SegmentMaker._label_moment_numbers()
+    %! baca.SegmentMaker._style_phantom_measures(1)
+    %! PHANTOM
+    \bacaStopTextSpanXNM
     %! EOS_STOP_MM_SPANNER
     %! baca.SegmentMaker._attach_metronome_marks(4)
     %! baca.SegmentMaker._style_phantom_measures(1)
@@ -2516,6 +2557,10 @@ segment.05.Violin.I.Music.Voice = {
     \startStaff
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vn-i-markup
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -2560,10 +2605,17 @@ segment.05.Violin.I.Music.Voice = {
     \mp
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
+    %@% ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+    %@% ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \akasha-fifth-degree-of-a-four-plus-vib-mod-markup
@@ -2571,37 +2623,62 @@ segment.05.Violin.I.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -2691,6 +2768,11 @@ segment.05.Violin.I.Music.Voice = {
     cs''''1
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
@@ -2699,7 +2781,7 @@ segment.05.Violin.I.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -2780,6 +2862,10 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -2793,41 +2879,73 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(7)
     \once \override Score.SpanBar.transparent = ##t
     cs''''!2.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -2922,6 +3040,11 @@ segment.05.Violin.I.Music.Voice = {
     cs''''2
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
@@ -2933,7 +3056,7 @@ segment.05.Violin.I.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -3014,6 +3137,10 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
@@ -3044,7 +3171,19 @@ segment.05.Violin.I.Music.Voice = {
     - \downbow
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -3085,6 +3224,11 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -3165,6 +3309,10 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! FERMATA_MEASURE
     %! MEASURE_84
     %! baca.SegmentMaker._style_fermata_measures(7)
@@ -3177,6 +3325,18 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -3269,6 +3429,11 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -3349,6 +3514,10 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! FERMATA_MEASURE
     %! MEASURE_93
     %! baca.SegmentMaker._style_fermata_measures(7)
@@ -3362,6 +3531,18 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -3395,6 +3576,11 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -3475,6 +3661,10 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! FERMATA_MEASURE
     %! MEASURE_98
     %! baca.SegmentMaker._style_fermata_measures(7)
@@ -3488,6 +3678,18 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -3521,6 +3723,11 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -3601,6 +3808,10 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! FERMATA_MEASURE
     %! MEASURE_103
     %! baca.SegmentMaker._style_fermata_measures(7)
@@ -3614,6 +3825,18 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -3661,6 +3884,11 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -3978,10 +4206,10 @@ segment.05.Violin.II.Music.Voice = {
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
             %! baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
+            %@% ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
             %! REAPPLIED_INSTRUMENT_ALERT
             %! baca.SegmentMaker._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+            %@% ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
@@ -4104,6 +4332,10 @@ segment.05.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
@@ -4125,7 +4357,19 @@ segment.05.Violin.II.Music.Voice = {
     - \downbow
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-full-bow-strokes-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -4225,6 +4469,11 @@ segment.05.Violin.II.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -4299,11 +4548,27 @@ segment.05.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! akasha.untied_notes()
     fs'!1
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -4344,6 +4609,11 @@ segment.05.Violin.II.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -4418,10 +4688,26 @@ segment.05.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     a'2.
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -4514,6 +4800,11 @@ segment.05.Violin.II.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -4588,11 +4879,27 @@ segment.05.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! akasha.untied_notes()
     ef'''!4.
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -4626,6 +4933,11 @@ segment.05.Violin.II.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -4703,6 +5015,10 @@ segment.05.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -4723,42 +5039,74 @@ segment.05.Violin.II.Music.Voice = {
     \p
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 C \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \baca-tasto-markup
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -4778,7 +5126,7 @@ segment.05.Violin.II.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -4812,6 +5160,11 @@ segment.05.Violin.II.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"7" #"8"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
             %! baca.trill_spanner()
             %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
@@ -4873,47 +5226,83 @@ segment.05.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \pitchedTrill
     %! baca.make_repeat_tied_notes()
     g''1
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 C \halign #0 \transparent "O" }
+
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -4938,7 +5327,7 @@ segment.05.Violin.II.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -4972,6 +5361,11 @@ segment.05.Violin.II.Music.Voice = {
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"9" #"8"
+            %! baca.slur()
+            %! COLORED_PHRASING_SLUR
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! SPANNER_STOP
+            \)
             %! baca.trill_spanner()
             %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
@@ -5202,6 +5596,10 @@ segment.05.Viola.Music.Voice = {
     \startStaff
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-va-markup
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
@@ -5256,10 +5654,17 @@ segment.05.Viola.Music.Voice = {
     \mp
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Va.”]"
+    %@% ^ \baca-reapplied-indicator-markup "[“Va.”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \akasha-seventh-degree-of-a-two-plus-vib-mod-markup
@@ -5267,37 +5672,62 @@ segment.05.Viola.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -5387,11 +5817,16 @@ segment.05.Viola.Music.Voice = {
     gqf''1
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -5466,42 +5901,78 @@ segment.05.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     gqf''!2.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -5596,11 +6067,16 @@ segment.05.Viola.Music.Voice = {
     gqf''2
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -5675,43 +6151,79 @@ segment.05.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! baca.make_repeat_tied_notes()
     gqf''!1
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -5750,11 +6262,16 @@ segment.05.Viola.Music.Voice = {
     gqf''4.
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -5829,42 +6346,78 @@ segment.05.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     gqf''!2.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -5954,6 +6507,11 @@ segment.05.Viola.Music.Voice = {
     gqf''2..
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -5961,7 +6519,7 @@ segment.05.Viola.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -6036,6 +6594,10 @@ segment.05.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! baca.clef_x_extent_false()
     %! baca.clef_shift()
     %! SHIFTED_CLEF
@@ -6083,6 +6645,13 @@ segment.05.Viola.Music.Voice = {
     \sf
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \akasha-tasto-plus-senza-vib-markup
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
@@ -6098,6 +6667,11 @@ segment.05.Viola.Music.Voice = {
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -6150,6 +6724,11 @@ segment.05.Viola.Music.Voice = {
         %! baca.SegmentMaker._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(4)
+        %! SPANNER_STOP
+        \)
 
     %! akasha.glissando_rhythm()
     }
@@ -6227,6 +6806,10 @@ segment.05.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
@@ -6249,7 +6832,19 @@ segment.05.Viola.Music.Voice = {
     - \downbow
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-full-bow-strokes-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -6283,6 +6878,11 @@ segment.05.Viola.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -6357,11 +6957,27 @@ segment.05.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca.SegmentMaker._style_fermata_measures(3)
     \startStaff
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! akasha.untied_notes()
     f1
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \downbow
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -6409,6 +7025,11 @@ segment.05.Viola.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -6660,6 +7281,10 @@ segment.05.Cello.Music.Voice = {
     \startStaff
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vc-markup
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
@@ -6714,10 +7339,17 @@ segment.05.Cello.Music.Voice = {
     \mp
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc.”]"
+    %@% ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %@% ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \akasha-eleventh-degree-of-a-one-plus-vib-mod-markup
@@ -6725,37 +7357,62 @@ segment.05.Cello.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -6845,11 +7502,16 @@ segment.05.Cello.Music.Voice = {
     d''1
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -6930,42 +7592,78 @@ segment.05.Cello.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     d''2.
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -7060,11 +7758,16 @@ segment.05.Cello.Music.Voice = {
     d''2
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -7145,43 +7848,79 @@ segment.05.Cello.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! baca.make_repeat_tied_notes()
     d''1
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -7220,6 +7959,11 @@ segment.05.Cello.Music.Voice = {
     d''4.
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -7227,7 +7971,7 @@ segment.05.Cello.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -7308,6 +8052,10 @@ segment.05.Cello.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
@@ -7358,7 +8106,19 @@ segment.05.Cello.Music.Voice = {
     - \downbow
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -7454,6 +8214,11 @@ segment.05.Cello.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -7537,6 +8302,10 @@ segment.05.Cello.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! baca.make_repeat_tied_notes()
     cs,!4.
     %! EXPLICIT_DYNAMIC_COLOR
@@ -7553,6 +8322,13 @@ segment.05.Cello.Music.Voice = {
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \sf
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-tasto-markup
@@ -7574,37 +8350,62 @@ segment.05.Cello.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    %@% - \abjad-dashed-line-with-hook
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
+    %@% - \baca-text-spanner-left-text "make_repeat_tied_notes()"
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+%@%     %! baca.rhythm_annotation_spanner()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak color #darkcyan
+%@%     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \tweak staff-padding 8
+%@%     %! baca.PiecewiseCommand._call(2)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
+%@%     %! AUTODETECT
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+%@%     %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak bound-details.right.padding 2.75
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak color #darkcyan
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% - \tweak staff-padding 8
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %@% \bacaStartTextSpanRhythmAnnotation
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -7652,11 +8453,16 @@ segment.05.Cello.Music.Voice = {
     cs,4.
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    %@% <> \bacaStopTextSpanRhythmAnnotation
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -7737,6 +8543,10 @@ segment.05.Cello.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
@@ -7759,7 +8569,19 @@ segment.05.Cello.Music.Voice = {
     - \downbow
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 E \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-full-bow-strokes-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -7793,6 +8615,11 @@ segment.05.Cello.Music.Voice = {
     %! baca.alternate_bow_strokes()
     %! baca.IndicatorCommand._call()
     - \upbow
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -7876,6 +8703,10 @@ segment.05.Cello.Music.Voice = {
     %! baca.SegmentMaker._style_fermata_measures(4)
     %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.literal()
+    %! COLORED_PHRASING_SLUR
+    %! baca.IndicatorCommand._call()
+    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     %! akasha.untied_notes()
     df!1
     %! EXPLICIT_DYNAMIC_COLOR
@@ -7894,6 +8725,13 @@ segment.05.Cello.Music.Voice = {
     \sf
     %! baca.markup()
     %! baca.IndicatorCommand._call()
+    ^ \markup
+                \override #'(circle-padding . 0.75)
+                \circle
+                { \combine \halign #0 D \halign #0 \transparent "O" }
+
+    %! baca.markup()
+    %! baca.IndicatorCommand._call()
     ^ \baca-tasto-markup
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
@@ -7909,6 +8747,11 @@ segment.05.Cello.Music.Voice = {
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -7998,6 +8841,11 @@ segment.05.Cello.Music.Voice = {
         %! baca.SegmentMaker._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
+        %! baca.slur()
+        %! COLORED_PHRASING_SLUR
+        %! baca.SpannerIndicatorCommand._call(4)
+        %! SPANNER_STOP
+        \)
 
     %! akasha.glissando_rhythm()
     }
