@@ -284,7 +284,11 @@ def make_stage_markup(segment_number, stage_tokens):
     stage_markup = []
     start_measure = 1
     for stage_number, measure_count in stage_tokens:
-        stage_markup_ = (f"[{segment_number}.{stage_number}]", start_measure, "darkcyan")
+        stage_markup_ = (
+            f"[{segment_number}.{stage_number}]",
+            start_measure,
+            "darkcyan",
+        )
         stage_markup.append(stage_markup_)
         start_measure += measure_count
     return stage_markup
