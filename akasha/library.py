@@ -464,6 +464,7 @@ def viola_ob_rhythm(*, rotation=None):
         rmakers.force_rest(selector),
         rmakers.beam(baca.selectors.plts()),
         rmakers.split_measures(),
+        rmakers.force_repeat_tie((1, 4)),
         preprocessor=preprocessor,
         tag=abjad.Tag("akasha.viola_ob_rhythm()"),
     )

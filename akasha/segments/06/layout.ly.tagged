@@ -45,7 +45,7 @@
             \noBreak
             %! BREAK
             %! baca.IndicatorCommand._call()
-            \baca-lbsd #20 #'(20 22)
+            \baca-lbsd #30 #'(20 22)
             %! BREAK
             %! baca.IndicatorCommand._call()
             \pageBreak
@@ -208,7 +208,7 @@
             \noBreak
             %! BREAK
             %! baca.IndicatorCommand._call()
-            \baca-lbsd #140 #'(20 22)
+            \baca-lbsd #155 #'(20 22)
             %! BREAK
             %! baca.IndicatorCommand._call()
             \break
@@ -334,7 +334,7 @@
             \noBreak
             %! BREAK
             %! baca.IndicatorCommand._call()
-            \baca-lbsd #20 #'(20 22)
+            \baca-lbsd #30 #'(20 22)
             %! BREAK
             %! baca.IndicatorCommand._call()
             \pageBreak
@@ -420,7 +420,7 @@
             \noBreak
             %! BREAK
             %! baca.IndicatorCommand._call()
-            \baca-lbsd #140 #'(20 22)
+            \baca-lbsd #155 #'(20 22)
             %! BREAK
             %! baca.IndicatorCommand._call()
             \break
@@ -506,7 +506,7 @@
             \noBreak
             %! BREAK
             %! baca.IndicatorCommand._call()
-            \baca-lbsd #20 #'(20 22)
+            \baca-lbsd #30 #'(20 22)
             %! BREAK
             %! baca.IndicatorCommand._call()
             \pageBreak
@@ -612,7 +612,7 @@
             \noBreak
             %! BREAK
             %! baca.IndicatorCommand._call()
-            \baca-lbsd #140 #'(20 22)
+            \baca-lbsd #155 #'(20 22)
             %! BREAK
             %! baca.IndicatorCommand._call()
             \break
@@ -698,7 +698,7 @@
             \noBreak
             %! BREAK
             %! baca.IndicatorCommand._call()
-            \baca-lbsd #20 #'(20 22)
+            \baca-lbsd #30 #'(20 22)
             %! BREAK
             %! baca.IndicatorCommand._call()
             \pageBreak
@@ -764,7 +764,7 @@
             \noBreak
             %! BREAK
             %! baca.IndicatorCommand._call()
-            \baca-lbsd #140 #'(20 22)
+            \baca-lbsd #155 #'(20 22)
             %! BREAK
             %! baca.IndicatorCommand._call()
             \break

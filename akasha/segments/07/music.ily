@@ -5,8 +5,6 @@ segment.07.Global.Skips = {
     \bar ""
     \baca-time-signature-color #'blue
     s1 * 3/4
-    - \tweak extra-offset #'(0 . 5)
-    - \baca-rehearsal-mark-markup "F" #10
     - \baca-start-lmn-left-only "1"
     \bacaStartTextSpanLMN
     - \abjad-invisible-line
@@ -622,8 +620,6 @@ segment.07.Violin.I.Music.Voice = {
             b'1 * 3/4
             - \tweak color #(x11-color 'green4)
             \pp
-            ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
-            ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             \set Staff.shortInstrumentName = \akasha-vn-i-markup
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1502,12 +1498,6 @@ segment.07.Violin.I.Music.Voice = {
     - \tweak color #(x11-color 'blue)
     \mp
     ^ \baca-tasto-plus-half-scratch-markup
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
     - \tweak stencil ##f
     ~
 
@@ -1531,7 +1521,6 @@ segment.07.Violin.I.Music.Voice = {
     % [Violin_I_Music_Voice measure 177 / measure 26]
     e''1.
     \repeatTie
-    <> \bacaStopTextSpanRhythmAnnotation
 
     % [Violin_I_Music_Voice measure 178 / measure 27]
     f''1
@@ -1539,12 +1528,6 @@ segment.07.Violin.I.Music.Voice = {
     \mp
     - \tweak color #(x11-color 'blue)
     \<
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
     - \abjad-dashed-line-with-arrow
     - \baca-text-spanner-left-text "trans."
     - \baca-text-spanner-right-text "scratch moltiss."
@@ -1601,7 +1584,6 @@ segment.07.Violin.I.Music.Voice = {
     \f
     \repeatTie
     \stopTextSpan
-    <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
@@ -2400,8 +2382,6 @@ segment.07.Violin.II.Music.Voice = {
             b'1 * 3/4
             - \tweak color #(x11-color 'green4)
             \pp
-            ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
-            ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             \set Staff.shortInstrumentName = \akasha-vn-ii-markup
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3171,12 +3151,6 @@ segment.07.Violin.II.Music.Voice = {
     - \tweak color #(x11-color 'blue)
     \mp
     ^ \baca-tasto-plus-half-scratch-markup
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
     - \tweak stencil ##f
     ~
 
@@ -3200,7 +3174,6 @@ segment.07.Violin.II.Music.Voice = {
     % [Violin_II_Music_Voice measure 177 / measure 26]
     fs'1.
     \repeatTie
-    <> \bacaStopTextSpanRhythmAnnotation
 
     % [Violin_II_Music_Voice measure 178 / measure 27]
     fs'!1
@@ -3208,12 +3181,6 @@ segment.07.Violin.II.Music.Voice = {
     \mp
     - \tweak color #(x11-color 'blue)
     \<
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
     - \abjad-dashed-line-with-arrow
     - \baca-text-spanner-left-text "trans."
     - \baca-text-spanner-right-text "scratch moltiss."
@@ -3270,7 +3237,6 @@ segment.07.Violin.II.Music.Voice = {
     \f
     \repeatTie
     \stopTextSpan
-    <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
@@ -4048,8 +4014,6 @@ segment.07.Viola.Music.Voice = {
             c'1 * 3/4
             - \tweak color #(x11-color 'green4)
             \baca-effort-mf
-            ^ \baca-reapplied-indicator-markup "[“Va.”]"
-            ^ \baca-reapplied-indicator-markup "(“Viola”)"
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             \set Staff.shortInstrumentName = \akasha-va-markup
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4089,13 +4053,6 @@ segment.07.Viola.Music.Voice = {
     - \tweak color #(x11-color 'blue)
     \ff
     ^ \akasha-scratch-moltiss-explanation-markup
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
-    <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
@@ -4311,12 +4268,6 @@ segment.07.Viola.Music.Voice = {
     \mp
     - \tweak color #(x11-color 'blue)
     \<
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
     - \abjad-dashed-line-with-arrow
     - \baca-text-spanner-left-text "trans."
     - \baca-text-spanner-right-text "scratch moltiss."
@@ -4373,7 +4324,6 @@ segment.07.Viola.Music.Voice = {
     \f
     \repeatTie
     \stopTextSpan
-    <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
@@ -4938,13 +4888,6 @@ segment.07.Viola.Music.Voice = {
     \baca-effort-mf
     - \downbow
     ^ \akasha-ob-plus-terminate-abruptly-markup
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
-    <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
@@ -5121,13 +5064,6 @@ segment.07.Viola.Music.Voice = {
     \baca-effort-mf
     - \downbow
     ^ \akasha-ob-plus-terminate-abruptly-markup
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
-    <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
@@ -5203,20 +5139,20 @@ segment.07.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     \set Staff.instrumentName = \akasha-vc-markup
-    \clef "treble"
+%%% \once \override Staff.Clef.X-extent = ##f
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
+    \clef "bass"
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    \set Staff.forceClef = ##t
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \set Staff.forceClef = ##t
     f4..
     - \tweak color #(x11-color 'blue)
     \mp
-    ^ \baca-reapplied-indicator-markup "[“Vc.”]"
-    ^ \baca-reapplied-indicator-markup "(“Cello”)"
     ^ \baca-tasto-plus-half-scratch-markup
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \akasha-vc-markup
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     gf!16
 
@@ -5238,7 +5174,13 @@ segment.07.Cello.Music.Voice = {
     {
 
         % [Cello_Music_Voice measure 154 / measure 3]
+        \once \override Staff.Clef.X-extent = ##f
+        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+        \clef "treble"
+        \once \override Staff.Clef.color = #(x11-color 'blue)
+        \set Staff.forceClef = ##t
         r16
+        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
         a''16
         - \tweak color #(x11-color 'blue)
@@ -5640,12 +5582,6 @@ segment.07.Cello.Music.Voice = {
     \mp
     - \tweak color #(x11-color 'blue)
     \<
-    - \abjad-dashed-line-with-hook
-    - \baca-text-spanner-left-text "make_repeat_tied_notes()"
-    - \tweak bound-details.right.padding 2.75
-    - \tweak color #darkcyan
-    - \tweak staff-padding 8
-    \bacaStartTextSpanRhythmAnnotation
     - \abjad-dashed-line-with-arrow
     - \baca-text-spanner-left-text "trans."
     - \baca-text-spanner-right-text "scratch moltiss."
@@ -5702,7 +5638,6 @@ segment.07.Cello.Music.Voice = {
     \f
     \repeatTie
     \stopTextSpan
-    <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
