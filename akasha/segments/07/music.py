@@ -1,4 +1,3 @@
-import abjad
 import baca
 from abjadext import rmakers
 
@@ -7,21 +6,6 @@ from akasha import library as akasha
 #########################################################################################
 ########################################### 07 ##########################################
 #########################################################################################
-
-#stage_markup = (
-#    ("[F.1]", 1),
-#    ("[F.2]", 3),
-#    ("[F.4]", 6),
-#    ("[F.6]", 8),
-#    ("[F.8]", 11),
-#    ("[F.9]", 23),
-#    ("[F.10]", 27),
-#    ("[F.11]", 31),
-#    ("[F.13]", 36),
-#    ("[F.15]", 43),
-#    ("[F.17]", 45),
-#    ("[F.19]", 47),
-#)
 
 fermata_measures = [5, 7, 10, 35, 42, 44, 46, 48]
 maker = baca.SegmentMaker(
@@ -45,9 +29,9 @@ maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
-    #moment_markup=moment_markup,
+    # moment_markup=moment_markup,
     score_template=akasha.ScoreTemplate(),
-    #stage_markup=stage_markup,
+    # stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "A",
         count=48,
