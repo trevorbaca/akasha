@@ -7,9 +7,7 @@ from akasha import library as akasha
 ########################################### 06 ##########################################
 #########################################################################################
 
-moment_tokens = (
-    ("19+20", 39, "AE+A"),
-)
+moment_tokens = (("19+20", 39, "AE+A"),)
 
 moment_markup = akasha.make_moment_markup(moment_tokens)
 
