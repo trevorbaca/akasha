@@ -1,12 +1,10 @@
 import baca
 
-spacing = baca.SpacingSpecifier(
-    breaks=baca.breaks(
-        baca.page(
-            1,
-            baca.system(measure=1, y_offset=30, distances=(20, 20)),
-            baca.system(measure=12, y_offset=145, distances=(20, 20)),
-        ),
+spacing = baca.make_layout(
+    baca.page(
+        1,
+        baca.system(measure=1, y_offset=30, distances=(20, 20)),
+        baca.system(measure=12, y_offset=145, distances=(20, 20)),
     ),
     fallback_duration=(1, 16),
 )
