@@ -375,7 +375,7 @@ def ritardando_rhythm(*commands, preprocessor=None):
     )
 
 
-def scratch_rhythm(denominators, *commands, extra_counts):
+def scratch_rhythm(denominators, *commands, extra_counts=None):
     """
     Makes scratch rhythm.
     """
