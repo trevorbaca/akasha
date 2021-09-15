@@ -504,7 +504,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         site = "akasha.ScoreTemplate.__call__()"
         tag = abjad.Tag(site)
         # GLOBAL CONTEXT
-        global_context = self._make_global_context()
+        global_context = baca.templates.make_global_context()
 
         # VIOLIN 1
         violin_i_music_voice = abjad.Voice(name="Violin_I_Music_Voice", tag=tag)
@@ -581,9 +581,9 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # SCORE
         score = abjad.Score([global_context, music_context], name="Score", tag=tag)
-        self._assert_lilypond_identifiers(score)
-        self._assert_unique_context_names(score)
-        self._assert_matching_custom_context_names(score)
+        baca.templates.assert_lilypond_identifiers(score)
+        baca.templates.assert_unique_context_names(score)
+        baca.templates.assert_matching_custom_context_names(score)
         return score
 
     ### PUBLIC PROPERTIES ###
