@@ -7,6 +7,32 @@ from akasha import library as akasha
 ########################################### 07 ##########################################
 #########################################################################################
 
+moment_tokens = (
+    (21, 10, "CAB"),
+    (22, 12, "CB"),
+    (23, 13, "B"),
+    (24, 9, "EA"),
+    (25, 4, "A[E]"),
+)
+
+moment_markup = akasha.make_moment_markup(moment_tokens)
+
+stage_tokens = (
+    (1, 2),
+    (2, 2 + 1),
+    (4, 1 + 1),
+    (6, 2 + 1),
+    (8, 12),
+    (9, 4),
+    (10, 4),
+    (11, 4 + 1),
+    (13, 6 + 1),
+    (15, 1 + 1),
+    (17, 1 + 1),
+    (19, 1 + 1),
+)
+stage_markup = akasha.make_stage_markup("07", stage_tokens)
+
 fermata_measures = [5, 7, 10, 35, 42, 44, 46, 48]
 maker = baca.SegmentMaker(
     activate=(
@@ -29,9 +55,9 @@ maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
-    # moment_markup=moment_markup,
+    moment_markup=moment_markup,
     score_template=akasha.ScoreTemplate(),
-    # stage_markup=stage_markup,
+    stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "A",
         count=48,
@@ -125,6 +151,7 @@ maker(
     ("vc", (1, 2)),
     akasha.cello_solo_rhythm(),
     baca.clef("bass"),
+    akasha.material("B"),
 )
 
 maker(
@@ -133,6 +160,7 @@ maker(
         [1],
         [3, 0, 2, 1],
     ),
+    akasha.material("A"),
 )
 
 maker(
@@ -141,6 +169,7 @@ maker(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
     ),
+    akasha.material("A"),
 )
 
 maker(
@@ -150,11 +179,13 @@ maker(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
     ),
+    akasha.material("A"),
 )
 
 maker(
     ("va", 6),
     baca.make_repeat_tied_notes(),
+    akasha.material("A", baca.selectors.rleaves()),
 )
 
 maker(
@@ -165,6 +196,7 @@ maker(
         ),
         fuse_counts=[1, 2],
     ),
+    akasha.material("C"),
 )
 
 maker(
@@ -174,6 +206,7 @@ maker(
             baca.selectors.lts([2, 5]),
         ),
     ),
+    akasha.material("C"),
 )
 
 maker(
@@ -183,6 +216,7 @@ maker(
         extra_counts=[1],
         first_silence=1,
     ),
+    akasha.material("C"),
 )
 
 maker(
@@ -191,6 +225,7 @@ maker(
         division_ratio=(1, 1, 2, 2, 1, 2),
         first_silence=2,
     ),
+    akasha.material("C"),
 )
 
 maker(
@@ -222,11 +257,22 @@ maker(
 )
 
 maker(
+    (["va", "vc"], (11, 34)),
+    akasha.material("B"),
+)
+
+maker(
+    (["v1", "v2"], (23, 34)),
+    akasha.material("B"),
+)
+
+maker(
     ("v1", (36, 41)),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
+    akasha.material("A"),
 )
 
 maker(
@@ -235,6 +281,7 @@ maker(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
     ),
+    akasha.material("A"),
 )
 
 maker(
@@ -243,6 +290,7 @@ maker(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
     ),
+    akasha.material("A"),
 )
 
 maker(
@@ -251,11 +299,13 @@ maker(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
     ),
+    akasha.material("A"),
 )
 
 maker(
     ("va", 43),
     baca.make_repeat_tied_notes(),
+    akasha.material("E", baca.selectors.rleaves()),
 )
 
 maker(
@@ -289,9 +339,16 @@ maker(
         [6, 3, 6, 4],
     ),
 )
+
+maker(
+    (["v1", "v2", "va", "vc"], 45),
+    akasha.material("A"),
+)
+
 maker(
     ("va", 47),
     baca.make_repeat_tied_notes(),
+    akasha.material("E", baca.selectors.rleaves()),
 )
 
 maker(
