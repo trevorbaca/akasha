@@ -85,10 +85,7 @@ maker(
 
 maker(
     ("va", (1, 2)),
-    akasha.material(
-        "E",
-        baca.selectors.rleaves(),
-    ),
+    akasha.material("E", baca.selectors.rleaves()),
     baca.staff_lines(1),
     baca.down_bow(),
     baca.dynamic('"mf"'),
