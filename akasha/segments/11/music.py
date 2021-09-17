@@ -14,7 +14,7 @@ maker = baca.SegmentMaker(
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
     ],
-    check_all_are_pitched=True,
+    error_on_not_yet_pitched=True,
     fermata_extra_offset_y=4.5,
     fermata_measure_empty_overrides=fermata_measures,
     ignore_repeat_pitch_classes=True,
