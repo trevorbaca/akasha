@@ -38,7 +38,7 @@ maker = baca.SegmentMaker(
         baca.tags.MOMENT_NUMBER,
         baca.tags.STAGE_NUMBER,
     ],
-    check_all_are_pitched=True,
+    error_on_not_yet_pitched=True,
     fermata_extra_offset_y=4.5,
     fermata_measure_empty_overrides=fermata_measures,
     instruments=akasha.instruments,
