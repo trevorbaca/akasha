@@ -28,6 +28,7 @@ stage_markup = (
 
 fermata_measures = [29, 40, 46, 55, 69]
 maker = baca.SegmentMaker(
+    **baca.segments(),
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
     ],

@@ -32,6 +32,7 @@ stage_markup = akasha.make_stage_markup("05", stage_tokens)
 
 fermata_measures = [9, 18, 23, 32, 37, 42, 51]
 maker = baca.SegmentMaker(
+    **baca.segments(),
     activate=(
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.MOMENT_NUMBER,
