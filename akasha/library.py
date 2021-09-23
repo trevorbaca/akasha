@@ -179,7 +179,7 @@ def glissando_rhythm():
     )
 
 
-def growth(first_silence, division_ratio, accelerando=False, extra_counts=None):
+def growth(first_silence, division_ratio, extra_counts=None):
     """
     Makes growth rhythm.
     """
