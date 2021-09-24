@@ -22,16 +22,10 @@ stage_markup = (
 fermata_measures = [-1]
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
-    color_octaves=False,
-    fermata_extra_offset_y=4.5,
-    fermata_measure_empty_overrides=fermata_measures,
-    ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
-    stage_markup=stage_markup,
     time_signatures=akasha.time_signatures(
         "A",
         count=29,
@@ -209,4 +203,9 @@ if __name__ == "__main__":
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
         ],
+        color_octaves=False,
+        error_on_not_yet_pitched=True,
+        fermata_extra_offset_y=4.5,
+        fermata_measure_empty_overrides=fermata_measures,
+        stage_markup=stage_markup,
     )
