@@ -34,11 +34,6 @@ stage_markup = akasha.make_stage_markup("02", stage_tokens)
 fermata_measures = [3, 5, 8, 10, 14, 16, 18, 20]
 maker = baca.SegmentMaker(
     **baca.segments(),
-    activate=[
-        baca.tags.LOCAL_MEASURE_NUMBER,
-        baca.tags.MOMENT_NUMBER,
-        baca.tags.STAGE_NUMBER,
-    ],
     error_on_not_yet_pitched=True,
     fermata_extra_offset_y=4.5,
     fermata_measure_empty_overrides=fermata_measures,
@@ -401,4 +396,12 @@ maker(
 )
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(maker, runtime=baca.segments(runtime=True))
+    baca.build.make_segment_pdf(
+        maker,
+        **baca.segments(runtime=True),
+        activate=[
+            baca.tags.LOCAL_MEASURE_NUMBER,
+            baca.tags.MOMENT_NUMBER,
+            baca.tags.STAGE_NUMBER,
+        ],
+    )
