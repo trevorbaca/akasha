@@ -22,9 +22,6 @@ stage_markup = (
 fermata_measures = [-1]
 maker = baca.SegmentMaker(
     **baca.segments(),
-    activate=[
-        baca.tags.LOCAL_MEASURE_NUMBER,
-    ],
     error_on_not_yet_pitched=True,
     color_octaves=False,
     fermata_extra_offset_y=4.5,
@@ -206,4 +203,10 @@ maker(
 )
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(maker, runtime=baca.segments(runtime=True))
+    baca.build.make_segment_pdf(
+        maker,
+        **baca.segments(runtime=True),
+        activate=[
+            baca.tags.LOCAL_MEASURE_NUMBER,
+        ],
+    )

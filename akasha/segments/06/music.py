@@ -32,18 +32,6 @@ stage_markup = akasha.make_stage_markup("06", stage_tokens)
 fermata_measures = [2, 4, 6, 8, 39]
 maker = baca.SegmentMaker(
     **baca.segments(),
-    activate=(
-        baca.tags.LOCAL_MEASURE_NUMBER,
-        baca.tags.MOMENT_NUMBER,
-        baca.tags.STAGE_NUMBER,
-    ),
-    deactivate=(
-        baca.tags.DEFAULT_INSTRUMENT_ALERT,
-        baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
-        baca.tags.REAPPLIED_INSTRUMENT_ALERT,
-        baca.tags.REAPPLIED_MARGIN_MARKUP_ALERT,
-        baca.tags.RHYTHM_ANNOTATION_SPANNER,
-    ),
     error_on_not_yet_pitched=True,
     color_octaves=False,
     fermata_extra_offset_y=4.5,
@@ -540,4 +528,19 @@ maker(
 )
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(maker, runtime=baca.segments(runtime=True))
+    baca.build.make_segment_pdf(
+        maker,
+        **baca.segments(runtime=True),
+        activate=(
+            baca.tags.LOCAL_MEASURE_NUMBER,
+            baca.tags.MOMENT_NUMBER,
+            baca.tags.STAGE_NUMBER,
+        ),
+        deactivate=(
+            baca.tags.DEFAULT_INSTRUMENT_ALERT,
+            baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
+            baca.tags.REAPPLIED_INSTRUMENT_ALERT,
+            baca.tags.REAPPLIED_MARGIN_MARKUP_ALERT,
+            baca.tags.RHYTHM_ANNOTATION_SPANNER,
+        ),
+    )
