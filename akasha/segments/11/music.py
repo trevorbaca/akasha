@@ -10,7 +10,7 @@ from akasha import library as akasha
 stage_markup = (("[J.1]", 1),)
 
 fermata_measures = [4]
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
