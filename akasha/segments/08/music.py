@@ -17,7 +17,7 @@ stage_markup = (
 )
 
 fermata_measures = [14]
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
