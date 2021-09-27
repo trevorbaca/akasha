@@ -35,7 +35,7 @@ stage_markup = akasha.make_stage_markup("07", stage_tokens)
 
 fermata_measures = [5, 7, 10, 35, 42, 44, 46, 48]
 commands = baca.CommandAccumulator(
-    **baca.segments(),
+    **baca.segment_accumulation_defaults(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
@@ -632,7 +632,7 @@ commands(
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segments(runtime=True),
+        **baca.segment_interpretation_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.MOMENT_NUMBER,
