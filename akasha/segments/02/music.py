@@ -32,7 +32,7 @@ stage_tokens = (
 stage_markup = akasha.make_stage_markup("02", stage_tokens)
 
 fermata_measures = [3, 5, 8, 10, 14, 16, 18, 20]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -46,7 +46,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "44",
@@ -74,7 +74,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "long",
@@ -110,7 +110,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 2)),
     akasha.material("B"),
     akasha.cello_solo_pitches(),
@@ -122,7 +122,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 4),
     akasha.material("A"),
     akasha.sparse_getato_rhythm(
@@ -132,12 +132,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 1),
     baca.staff_lines(5),
 )
 
-maker(
+commands(
     ("va", 4),
     akasha.material("A"),
     akasha.sparse_getato_rhythm(
@@ -147,7 +147,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (6, 7)),
     akasha.material("B"),
     baca.dynamic("mp"),
@@ -184,7 +184,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 9),
     akasha.material("A"),
     akasha.sparse_getato_rhythm(
@@ -194,7 +194,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 9),
     akasha.material("B"),
     akasha.polyphony_rhythm(
@@ -206,7 +206,7 @@ maker(
     baca.pitches("C#4 C#+4", exact=True),
 )
 
-maker(
+commands(
     ("va", 9),
     akasha.material("B"),
     akasha.polyphony_rhythm(
@@ -218,7 +218,7 @@ maker(
     baca.pitches("C4", exact=True),
 )
 
-maker(
+commands(
     ("vc", 9),
     akasha.material("B"),
     akasha.polyphony_rhythm(
@@ -230,7 +230,7 @@ maker(
     baca.pitches("C4 C~4 B3", exact=True),
 )
 
-maker(
+commands(
     ("v1", (11, 13)),
     akasha.material("C"),
     akasha.accelerando_rhythm(
@@ -249,7 +249,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (11, 13)),
     akasha.material("C"),
     akasha.ritardando_rhythm(
@@ -267,14 +267,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (11, 13)),
     akasha.material("B"),
     akasha.polyphony_rhythm(rotation=-4),
     baca.pitches("D4 D+4 D#4 E4 F#4 F4", exact=True),
 )
 
-maker(
+commands(
     ("vc", (11, 13)),
     akasha.material("B"),
     akasha.polyphony_rhythm(
@@ -284,7 +284,7 @@ maker(
     baca.pitches("Bb3 Bb~3 A3 Ab3 G3 A3", exact=True),
 )
 
-maker(
+commands(
     ("v1", 15),
     akasha.material("C"),
     akasha.accelerando_rhythm(
@@ -295,7 +295,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 15),
     akasha.material("C"),
     akasha.ritardando_rhythm(
@@ -305,14 +305,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 15),
     akasha.material("B"),
     akasha.polyphony_rhythm(rotation=-8),
     baca.pitches("Eb4 D4", exact=True),
 )
 
-maker(
+commands(
     ("vc", 15),
     akasha.material("B"),
     akasha.polyphony_rhythm(
@@ -322,7 +322,7 @@ maker(
     baca.pitches("A3 A#3 B3", exact=True),
 )
 
-maker(
+commands(
     ("v1", 17),
     akasha.material("C"),
     akasha.ritardando_rhythm(
@@ -332,7 +332,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (11, 19)),
     baca.pitches(
         "D5 E5",
@@ -340,7 +340,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 17),
     akasha.material("C"),
     akasha.accelerando_rhythm(
@@ -351,7 +351,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 19),
     akasha.material("C"),
     akasha.ritardando_rhythm(
@@ -361,7 +361,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (11, 19)),
     baca.pitches(
         "Bb4 C5",
@@ -369,7 +369,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 19),
     akasha.material("A"),
     akasha.sparse_getato_rhythm(
@@ -379,26 +379,26 @@ maker(
     ),
 )
 
-maker(
+commands(
     baca.timeline([("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)]),
     akasha.getato_pitches(-2, [0]),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     [("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)],
     baca.dynamic("p"),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
-        activate=[
+        activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.MOMENT_NUMBER,
             baca.tags.STAGE_NUMBER,
-        ],
+        ),
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,

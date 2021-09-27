@@ -13,7 +13,7 @@ stage_markup = (
 )
 
 fermata_measures = [4, 7]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -27,7 +27,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "44",
@@ -41,7 +41,7 @@ maker(
     baca.close_volta(baca.selectors.skip(7 - 1), format_slot="after"),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
@@ -53,41 +53,41 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (1, 2)),
     akasha.accelerando_rhythm(
         fuse_counts=[1, 2],
     ),
 )
 
-maker(
+commands(
     ("v2", (1, 2)),
     akasha.ritardando_rhythm(),
 )
 
-maker(
+commands(
     ("va", (1, 3)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("vc", (1, 2)),
     akasha.ritardando_rhythm(
         preprocessor=lambda _: baca.Sequence(_).fuse(),
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "vc"], 3),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     (["va", "vc"], (5, 6)),
     akasha.glissando_rhythm(),
 )
 
-maker(
+commands(
     (["v1", "v2", "vc"], (1, 2)),
     baca.dynamic("p"),
     baca.markup(
@@ -96,45 +96,45 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (1, 2)),
     baca.pitches("D4 E4"),
 )
 
-maker(
+commands(
     ("v2", (1, 2)),
     baca.pitches("C#4 D#4"),
 )
 
-maker(
+commands(
     ("vc", (1, 2)),
     baca.pitches("C4 D4"),
 )
 
-maker(
+commands(
     ("va", (1, 3)),
     baca.staff_position(0),
 )
 
-maker(
+commands(
     ("v1", 3),
     baca.dynamic("ppp"),
     baca.pitch("F#5"),
 )
 
-maker(
+commands(
     ("v2", 3),
     baca.dynamic("ppp"),
     baca.pitch("Ab4"),
 )
 
-maker(
+commands(
     ("vc", 3),
     baca.dynamic("ppp"),
     baca.pitch("C#2"),
 )
 
-maker(
+commands(
     ("va", (5, 6)),
     baca.pitches("D#3 C+3", exact=True),
     baca.glissando(),
@@ -146,7 +146,7 @@ maker(
     baca.staff_lines(5),
 )
 
-maker(
+commands(
     ("vc", (5, 6)),
     baca.pitches("C#2 Bb1", exact=True),
     baca.glissando(),
@@ -159,7 +159,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

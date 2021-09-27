@@ -10,7 +10,7 @@ from akasha import library as akasha
 stage_markup = (("[J.1]", 1),)
 
 fermata_measures = [4]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -24,7 +24,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "very_long",
@@ -32,7 +32,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 1),
     akasha.scratch_rhythm(
         [4],
@@ -43,7 +43,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 1),
     akasha.scratch_rhythm(
         [4],
@@ -54,7 +54,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 2),
     akasha.scratch_rhythm(
         [4],
@@ -65,7 +65,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 2),
     akasha.scratch_rhythm(
         [4],
@@ -76,7 +76,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 3),
     akasha.scratch_rhythm(
         [4],
@@ -87,7 +87,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 3),
     akasha.scratch_rhythm(
         [4],
@@ -98,7 +98,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 3),
     akasha.scratch_rhythm(
         [4],
@@ -109,7 +109,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "vc"], (1, 3)),
     baca.new(
         akasha.getato_pitches(5, [2]),
@@ -132,7 +132,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

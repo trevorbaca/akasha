@@ -34,7 +34,7 @@ stage_tokens = (
 stage_markup = akasha.make_stage_markup("07", stage_tokens)
 
 fermata_measures = [5, 7, 10, 35, 42, 44, 46, 48]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -48,7 +48,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "44",
@@ -88,7 +88,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "long",
@@ -124,19 +124,19 @@ maker(
     ),
 )
 
-maker(
+commands(
     "va",
     baca.staff_lines(5),
 )
 
-maker(
+commands(
     ("vc", (1, 2)),
     akasha.cello_solo_rhythm(),
     baca.clef("bass"),
     akasha.material("B"),
 )
 
-maker(
+commands(
     ("v1", (3, 4)),
     akasha.dense_getato_rhythm(
         [1],
@@ -145,7 +145,7 @@ maker(
     akasha.material("A"),
 )
 
-maker(
+commands(
     ("v2", (3, 4)),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
@@ -154,7 +154,7 @@ maker(
     akasha.material("A"),
 )
 
-maker(
+commands(
     ("vc", (3, 4)),
     baca.clef("treble"),
     akasha.dense_getato_rhythm(
@@ -164,13 +164,13 @@ maker(
     akasha.material("A"),
 )
 
-maker(
+commands(
     ("va", 6),
     baca.make_repeat_tied_notes(),
     akasha.material("A", baca.selectors.rleaves()),
 )
 
-maker(
+commands(
     ("v1", (8, 9)),
     akasha.accelerando_rhythm(
         rmakers.force_rest(
@@ -181,7 +181,7 @@ maker(
     akasha.material("C"),
 )
 
-maker(
+commands(
     ("v2", (8, 9)),
     akasha.ritardando_rhythm(
         rmakers.force_rest(
@@ -191,7 +191,7 @@ maker(
     akasha.material("C"),
 )
 
-maker(
+commands(
     ("v1", (11, 22)),
     akasha.growth(
         division_ratio=(2, 1, 2, 2, 1, 2),
@@ -201,7 +201,7 @@ maker(
     akasha.material("C"),
 )
 
-maker(
+commands(
     ("v2", (11, 22)),
     akasha.growth(
         division_ratio=(1, 1, 2, 2, 1, 2),
@@ -210,7 +210,7 @@ maker(
     akasha.material("C"),
 )
 
-maker(
+commands(
     [
         ("v1", [(23, 26), (27, 34)]),
         ("v2", [(23, 26), (27, 34)]),
@@ -218,37 +218,37 @@ maker(
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("va", (11, 26)),
     akasha.manifest([2, 1, 2, 1, 1, 3, 2, 1, 7]),
 )
 
-maker(
+commands(
     ("vc", (11, 26)),
     akasha.manifest([1, 3, 4, 1, 2, 3, 6]),
 )
 
-maker(
+commands(
     ("va", (27, 34)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("vc", (27, 34)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     (["va", "vc"], (11, 34)),
     akasha.material("B"),
 )
 
-maker(
+commands(
     (["v1", "v2"], (23, 34)),
     akasha.material("B"),
 )
 
-maker(
+commands(
     ("v1", (36, 41)),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
@@ -257,7 +257,7 @@ maker(
     akasha.material("A"),
 )
 
-maker(
+commands(
     ("v2", (36, 41)),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 1, 2],
@@ -266,7 +266,7 @@ maker(
     akasha.material("A"),
 )
 
-maker(
+commands(
     ("va", (36, 41)),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
@@ -275,7 +275,7 @@ maker(
     akasha.material("A"),
 )
 
-maker(
+commands(
     ("vc", (36, 41)),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
@@ -284,13 +284,13 @@ maker(
     akasha.material("A"),
 )
 
-maker(
+commands(
     ("va", 43),
     baca.make_repeat_tied_notes(),
     akasha.material("E", baca.selectors.rleaves()),
 )
 
-maker(
+commands(
     ("v1", 45),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
@@ -298,7 +298,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 45),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 1, 2],
@@ -306,7 +306,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 45),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
@@ -314,7 +314,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 45),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
@@ -322,18 +322,18 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], 45),
     akasha.material("A"),
 )
 
-maker(
+commands(
     ("va", 47),
     baca.make_repeat_tied_notes(),
     akasha.material("E", baca.selectors.rleaves()),
 )
 
-maker(
+commands(
     ("vc", (1, 2)),
     akasha.cello_solo_pitches(transposition=1),
     baca.dynamic("mp"),
@@ -343,19 +343,19 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (3, 4)),
     akasha.getato_pitches(27, [2]),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("v2", (3, 4)),
     akasha.getato_pitches(24, [2]),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("vc", (3, 4)),
     akasha.getato_pitches(21, [2]),
     baca.markup(
@@ -366,7 +366,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("va", 6),
     baca.dynamic("ff"),
     baca.markup(
@@ -376,7 +376,7 @@ maker(
     baca.pitch("F#3"),
 )
 
-maker(
+commands(
     (["v1", "v2"], (8, 9)),
     baca.dynamic("pp-ancora"),
     baca.markup(
@@ -393,7 +393,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (11, 22)),
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.new(
@@ -406,7 +406,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (11, 22)),
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.new(
@@ -419,7 +419,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (11, 26)),
     baca.dynamic("mp"),
     baca.markup(
@@ -429,7 +429,7 @@ maker(
     baca.pitches("G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True),
 )
 
-maker(
+commands(
     ("vc", (11, 26)),
     baca.clef("bass"),
     baca.dynamic("mp"),
@@ -440,7 +440,7 @@ maker(
     baca.pitches("Ab2 G2 F2 F+2 F#2 E2 Eb2", exact=True),
 )
 
-maker(
+commands(
     ("v1", (23, 26)),
     baca.dynamic("mp"),
     baca.markup(
@@ -450,7 +450,7 @@ maker(
     baca.pitch("E5"),
 )
 
-maker(
+commands(
     ("v2", (23, 26)),
     baca.dynamic("mp"),
     baca.markup(
@@ -460,33 +460,33 @@ maker(
     baca.pitch("F#4"),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (27, 34)),
     baca.hairpin("mp < f"),
     baca.text_spanner("trans. => scratch moltiss."),
 )
 
-maker(
+commands(
     ("v1", (27, 34)),
     baca.pitch("F5"),
 )
 
-maker(
+commands(
     ("v2", (27, 34)),
     baca.pitch("F#4"),
 )
 
-maker(
+commands(
     ("va", (27, 34)),
     baca.pitch("D#4"),
 )
 
-maker(
+commands(
     ("vc", (27, 34)),
     baca.pitch("Db2"),
 )
 
-maker(
+commands(
     ("v1", (36, 41)),
     akasha.getato_pitches(29, [2]),
     baca.hairpin(
@@ -500,7 +500,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("v2", (36, 41)),
     akasha.getato_pitches(26, [2]),
     baca.hairpin(
@@ -514,7 +514,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("va", (36, 41)),
     akasha.getato_pitches(23, [2]),
     baca.clef("treble"),
@@ -529,7 +529,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("vc", (36, 41)),
     akasha.getato_pitches(20, [2]),
     baca.clef("treble"),
@@ -544,7 +544,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("va", 43),
     baca.down_bow(),
     baca.dynamic('"mf"'),
@@ -556,7 +556,7 @@ maker(
     baca.staff_position(0),
 )
 
-maker(
+commands(
     ("Global_Skips", (45, 46)),
     baca.markup(
         r"\akasha-repeat-six-markup",
@@ -566,13 +566,13 @@ maker(
     baca.text_script_extra_offset((1.5, 6)),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(45 - 1)),
     baca.close_volta(baca.selectors.skip(47 - 1)),
 )
 
-maker(
+commands(
     ("v1", 45),
     akasha.getato_pitches(29, [2]),
     baca.dynamic("pp"),
@@ -583,7 +583,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("v2", 45),
     akasha.getato_pitches(26, [2]),
     baca.dynamic("pp"),
@@ -594,7 +594,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("va", 45),
     akasha.getato_pitches(23, [2]),
     baca.dynamic("pp"),
@@ -606,7 +606,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("vc", 45),
     akasha.getato_pitches(20, [2]),
     baca.dynamic("pp"),
@@ -617,7 +617,7 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("va", 47),
     baca.down_bow(),
     baca.dynamic('"mf"'),
@@ -631,7 +631,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
