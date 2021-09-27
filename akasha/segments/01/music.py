@@ -14,7 +14,7 @@ stage_markup = akasha.make_stage_markup("01", stage_tokens)
 
 fermata_measures = [-1]
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -28,19 +28,19 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("44"),
 )
 
-maker(
+commands(
     ("Global_Rests", -1),
     baca.global_fermata("very_long"),
 )
 
 # v1
 
-maker(
+commands(
     "v1",
     baca.staff_lines(5),
     baca.suite(
@@ -51,7 +51,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     "v2",
     baca.staff_lines(5),
     baca.suite(
@@ -62,7 +62,7 @@ maker(
 
 # va
 
-maker(
+commands(
     "va",
     baca.suite(
         akasha.margin_markup("Va."),
@@ -70,7 +70,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (1, 2)),
     akasha.material("E", baca.selectors.rleaves()),
     baca.staff_lines(1),
@@ -86,7 +86,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.staff_lines(5),
     baca.suite(
@@ -97,7 +97,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,

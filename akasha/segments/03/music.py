@@ -26,7 +26,7 @@ stage_markup = akasha.make_stage_markup("03", stage_tokens)
 
 
 fermata_measures = [5, 7, 9]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -40,7 +40,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "long",
@@ -56,7 +56,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (1, 3)),
     akasha.material("C"),
     akasha.accelerando_rhythm(
@@ -71,7 +71,7 @@ maker(
     baca.pitches("E5 D5"),
 )
 
-maker(
+commands(
     ("v2", (1, 3)),
     akasha.material("B"),
     akasha.polyphony_rhythm(),
@@ -83,7 +83,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (1, 3)),
     akasha.material("B"),
     akasha.polyphony_rhythm(
@@ -95,7 +95,7 @@ maker(
     baca.pitches("Db4 Db~4 C4", exact=True),
 )
 
-maker(
+commands(
     ("vc", (1, 4)),
     akasha.material("A"),
     akasha.sparse_getato_rhythm(
@@ -107,7 +107,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 6),
     akasha.material("A"),
     akasha.sparse_getato_rhythm(
@@ -117,7 +117,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 8),
     akasha.material("A"),
     akasha.sparse_getato_rhythm(
@@ -127,7 +127,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 8)),
     akasha.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.beam_positions(-4),
@@ -137,7 +137,7 @@ maker(
     baca.tuplet_bracket_staff_padding(2),
 )
 
-maker(
+commands(
     ("v2", (10, 11)),
     akasha.material("C"),
     akasha.accelerando_rhythm(
@@ -152,7 +152,7 @@ maker(
     baca.pitches("C5 Bb4"),
 )
 
-maker(
+commands(
     (["va", "vc"], 11),
     akasha.material(
         "D",
@@ -176,7 +176,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

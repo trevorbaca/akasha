@@ -25,7 +25,7 @@ stage_markup = (
 )
 
 fermata_measures = [3, 27, 30, -1]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -39,7 +39,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "89",
@@ -107,7 +107,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
@@ -127,58 +127,58 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (1, 2)),
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("PO + senza vib. => vib. moltiss."),
 )
 
-maker(
+commands(
     (["v1", "v2", "vc"], (4, 5)),
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("senza vib. => vib. moltiss."),
 )
 
-maker(
+commands(
     (["v2", "vc"], (8, 10)),
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("senza vib. => vib. moltiss."),
 )
 
-maker(
+commands(
     ("vc", (13, 14)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("va", (4, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
-maker(
+commands(
     ("v1", (8, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
-maker(
+commands(
     ("v2", (13, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
-maker(
+commands(
     ("vc", (17, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (21, 22)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("v1", (23, 24)),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
@@ -186,24 +186,24 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (25, 26)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("v1", (28, 29)),
     akasha.accelerando_rhythm(
         fuse_counts=[1, 2],
     ),
 )
 
-maker(
+commands(
     ("v2", (28, 29)),
     akasha.ritardando_rhythm(),
 )
 
-maker(
+commands(
     ("va", (28, 29)),
     akasha.accelerando_rhythm(
         fuse_counts=[1, 2],
@@ -211,54 +211,54 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (28, 29)),
     akasha.ritardando_rhythm(
         preprocessor=lambda _: baca.Sequence(_).fuse(),
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("v1", (1, 2)),
     baca.pitch("B5"),
 )
 
-maker(
+commands(
     ("v2", (1, 2)),
     baca.pitch("A#+3"),
 )
 
-maker(
+commands(
     ("va", (1, 2)),
     baca.pitch("B+2"),
 )
 
-maker(
+commands(
     ("vc", (1, 2)),
     baca.pitch("B1"),
 )
 
-maker(
+commands(
     ("v1", (4, 5)),
     baca.pitch("B5"),
 )
 
-maker(
+commands(
     ("v2", (4, 5)),
     baca.pitch("B3"),
 )
 
-maker(
+commands(
     ("vc", (4, 5)),
     baca.pitch("B1"),
 )
 
-maker(
+commands(
     ("va", (4, 27)),
     baca.dynamic("ppp"),
     baca.markup(
@@ -271,27 +271,27 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (4, 20)),
     baca.alternate_bow_strokes(),
 )
 
-maker(
+commands(
     ("va", (6, 7)),
     baca.text_spanner("trans. => 3/4OB"),
 )
 
-maker(
+commands(
     ("v2", (8, 10)),
     baca.pitch("A#+3"),
 )
 
-maker(
+commands(
     ("vc", (8, 10)),
     baca.pitch("B1"),
 )
 
-maker(
+commands(
     ("v1", (8, 22)),
     baca.dynamic("ppp"),
     baca.markup(
@@ -304,7 +304,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (25, 26)),
     baca.pitch(
         "B4",
@@ -312,33 +312,33 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (8, 20)),
     baca.alternate_bow_strokes(),
 )
 
-maker(
+commands(
     ("v1", (11, 12)),
     baca.text_spanner("trans. => 3/4OB"),
 )
 
-maker(
+commands(
     ("va", (11, 12)),
     baca.text_spanner("trans. => 1/2OB"),
 )
 
-maker(
+commands(
     ("vc", (13, 14)),
     baca.pitch("B1"),
 )
 
-maker(
+commands(
     ("vc", (13, 14)),
     baca.hairpin("sfp < f"),
     baca.text_spanner("senza vib. => vib. moltiss."),
 )
 
-maker(
+commands(
     ("v2", (13, 27)),
     baca.dynamic("ppp"),
     baca.markup(
@@ -351,27 +351,27 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (13, 20)),
     baca.alternate_bow_strokes(downbow_first=False),
 )
 
-maker(
+commands(
     ("v1", (15, 16)),
     baca.text_spanner("trans. => 1/2OB"),
 )
 
-maker(
+commands(
     ("v2", (15, 16)),
     baca.text_spanner("trans. => 3/4OB"),
 )
 
-maker(
+commands(
     ("va", (15, 16)),
     baca.text_spanner("trans. => 1/4OB"),
 )
 
-maker(
+commands(
     [
         ("v1", (17, 20)),
         ("v2", (17, 20)),
@@ -380,7 +380,7 @@ maker(
     baca.text_spanner("trans. => XP"),
 )
 
-maker(
+commands(
     ("vc", (17, 27)),
     baca.pitch(
         "B1",
@@ -388,14 +388,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (17, 20)),
     baca.alternate_bow_strokes(),
     baca.dynamic("ppp"),
     baca.text_spanner("OB => XP"),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (21, 22)),
     baca.hairpin("ppp < mp"),
     baca.markup(
@@ -404,7 +404,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (23, 24)),
     akasha.getato_pitches(31, [2]),
     baca.dynamic("ppp"),
@@ -415,38 +415,38 @@ maker(
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (25, 26)),
     baca.hairpin("ppp < mp"),
     baca.text_spanner("XP+FB => tasto+FB"),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (28, 29)),
     baca.dynamic("p"),
 )
 
-maker(
+commands(
     ("v1", (28, 29)),
     baca.pitches("D#4 E#4"),
 )
 
-maker(
+commands(
     ("v2", (28, 29)),
     baca.pitches("D4 E4"),
 )
 
-maker(
+commands(
     ("va", (28, 29)),
     baca.pitches("C#4 D#4"),
 )
 
-maker(
+commands(
     ("vc", (28, 29)),
     baca.pitches("C4 D4"),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (31, 36)),
     baca.new(
         baca.pitch("B4"),
@@ -466,26 +466,26 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (31, 32)),
     baca.hairpin("ppp < mp"),
     baca.text_spanner("trans. => tasto + 1/2 scratch"),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (33, 34)),
     baca.hairpin("mp < mf"),
     baca.text_spanner("trans. => scratch moltiss."),
 )
 
-maker(
+commands(
     ["v1", "v2", "va", "vc"],
     baca.text_spanner_staff_padding(4),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

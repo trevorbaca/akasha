@@ -16,7 +16,7 @@ stage_markup = (
 
 fermata_measures = [-1]
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -30,7 +30,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("89"),
     baca.rehearsal_mark(
@@ -41,7 +41,7 @@ maker(
     baca.bar_line("|.", baca.selectors.skip(-1)),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "very_long",
@@ -49,7 +49,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "va", "vc"], (1, 16)),
     baca.make_notes(
         rmakers.force_rest(
@@ -59,7 +59,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (9, 24)),
     akasha.sparse_getato_rhythm(
         rmakers.force_rest(
@@ -68,7 +68,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "va", "vc"], (1, 24)),
     baca.alternate_bow_strokes(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
@@ -86,7 +86,7 @@ maker(
     baca.staff_lines(1),
 )
 
-maker(
+commands(
     ("v2", (9, 24)),
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.dynamic("pp-ancora"),
@@ -99,7 +99,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", -1),
     baca.chunk(
         baca.mark(r"\akasha-colophon-markup"),
@@ -112,7 +112,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

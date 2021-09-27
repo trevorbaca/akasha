@@ -20,7 +20,7 @@ stage_markup = (
 )
 
 fermata_measures = [-1]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -34,7 +34,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         baca.Accelerando(),
@@ -54,32 +54,32 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("Global_Rests", -1),
     baca.global_fermata("fermata"),
 )
 
-maker(
+commands(
     "va",
     baca.staff_lines(5),
 )
 
-maker(
+commands(
     ("vc", (1, 10)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (7, 28)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("vc", (13, 24)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("vc", (1, 24)),
     baca.pitch(
         "Bb1",
@@ -87,7 +87,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 10)),
     baca.hairpin(
         "ppp < ff",
@@ -99,22 +99,22 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (7, 28)),
     baca.pitch("Bb4"),
 )
 
-maker(
+commands(
     ("v2", (7, 28)),
     baca.pitch("Bb3"),
 )
 
-maker(
+commands(
     ("va", (7, 28)),
     baca.pitch("Bb2"),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (7, 10)),
     baca.dynamic("pp"),
     baca.markup(
@@ -123,7 +123,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (13, 18)),
     baca.dynamic("pp"),
     baca.markup(
@@ -132,7 +132,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (13, 14)),
     baca.text_spanner(
         "trans. => pos. ord. XFB",
@@ -140,7 +140,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (15, 16)),
     baca.text_spanner(
         "trans. => pont. XFB",
@@ -148,7 +148,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (17, 18)),
     baca.text_spanner(
         "trans. => XP+XFB",
@@ -156,7 +156,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (19, 22)),
     baca.text_spanner(
         "trans. => XP",
@@ -164,7 +164,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (19, 24)),
     baca.hairpin(
         "pp >o niente",
@@ -172,7 +172,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (23, 24)),
     baca.text_spanner(
         "trans. => 1/3OB",
@@ -180,7 +180,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (25, 26)),
     baca.text_spanner(
         "trans. => 2/3OB",
@@ -188,7 +188,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va"], (27, 28)),
     baca.text_spanner(
         "trans. => OB (no pitch)",
@@ -198,7 +198,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

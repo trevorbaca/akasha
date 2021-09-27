@@ -13,7 +13,7 @@ stage_markup = (
 )
 
 fermata_measures = [2, 4]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -27,12 +27,12 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("55"),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "very_long",
@@ -44,12 +44,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", [1, 3]),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("va", (1, 3)),
     baca.alternate_bow_strokes(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
@@ -64,7 +64,7 @@ maker(
     baca.staff_position(0),
 )
 
-maker(
+commands(
     ("vc", (5, 6)),
     baca.clef("bass"),
     baca.dynamic("pp"),
@@ -78,7 +78,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

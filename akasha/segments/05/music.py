@@ -31,7 +31,7 @@ stage_tokens = (
 stage_markup = akasha.make_stage_markup("05", stage_tokens)
 
 fermata_measures = [9, 18, 23, 32, 37, 42, 51]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -45,7 +45,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "126",
@@ -69,7 +69,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "short",
@@ -101,7 +101,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     [
         (["v1", "va", "vc"], [(1, 8), (10, 17)]),
         (["va", "vc"], (19, 22)),
@@ -112,7 +112,7 @@ maker(
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     [
         ("v1", (19, 22)),
         ("v2", [(10, 17), (19, 22)]),
@@ -125,43 +125,43 @@ maker(
     akasha.untied_notes(),
 )
 
-maker(
+commands(
     ("va", (33, 35)),
     akasha.untied_notes(),
 )
 
-maker(
+commands(
     ("va", 36),
     akasha.glissando_rhythm(),
 )
 
-maker(
+commands(
     ("va", (33, 36)),
     akasha.material("D"),
 )
 
-maker(
+commands(
     ("v2", [(38, 39), (43, 44)]),
     akasha.material("C", baca.selectors.rleaves()),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("vc", (43, 49)),
     akasha.untied_notes(),
 )
 
-maker(
+commands(
     ("vc", 50),
     akasha.glissando_rhythm(),
 )
 
-maker(
+commands(
     ("vc", (43, 50)),
     akasha.material("D"),
 )
 
-maker(
+commands(
     ("v1", [(1, 8), (10, 17)]),
     baca.ottava(),
     baca.new(
@@ -170,7 +170,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (1, 17)),
     baca.dynamic("mp"),
     baca.markup(
@@ -184,7 +184,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (1, 8)),
     baca.clef("treble"),
     baca.dynamic("mp"),
@@ -194,7 +194,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 8)),
     baca.clef("treble"),
     baca.dynamic("mp"),
@@ -204,32 +204,32 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (19, 22)),
     akasha.harmonic_glissando_pitches("A4"),
 )
 
-maker(
+commands(
     ("v1", (24, 31)),
     akasha.harmonic_glissando_pitches("A4", rotation=-6),
 )
 
-maker(
+commands(
     ("v1", (33, 36)),
     akasha.harmonic_glissando_pitches("A4", rotation=-12),
 )
 
-maker(
+commands(
     ("v1", (38, 41)),
     akasha.harmonic_glissando_pitches("A4", rotation=-18),
 )
 
-maker(
+commands(
     ("v1", (43, 46)),
     akasha.harmonic_glissando_pitches("A4", rotation=-24),
 )
 
-maker(
+commands(
     ("v1", (19, 46)),
     baca.dynamic("ppp"),
     baca.new(
@@ -243,27 +243,27 @@ maker(
     baca.note_head_style_harmonic(),
 )
 
-maker(
+commands(
     ("v2", (10, 17)),
     akasha.harmonic_glissando_pitches("A4"),
 )
 
-maker(
+commands(
     ("v2", (19, 22)),
     akasha.harmonic_glissando_pitches("A4", rotation=-6),
 )
 
-maker(
+commands(
     ("v2", (24, 31)),
     akasha.harmonic_glissando_pitches("A4", rotation=-12),
 )
 
-maker(
+commands(
     ("v2", (33, 36)),
     akasha.harmonic_glissando_pitches("A4", rotation=-18),
 )
 
-maker(
+commands(
     ("v2", (10, 36)),
     baca.dynamic("ppp"),
     baca.new(
@@ -277,7 +277,7 @@ maker(
     baca.note_head_style_harmonic(),
 )
 
-maker(
+commands(
     ("v2", (38, 46)),
     baca.dynamic("p"),
     baca.new(
@@ -294,7 +294,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (1, 31)),
     baca.note_head_style_harmonic(),
     baca.pitch(
@@ -303,7 +303,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (33, 36)),
     baca.clef("alto"),
     baca.pitches("Fb3 E3 D#3 C#3 B#2", exact=True),
@@ -315,17 +315,17 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (38, 41)),
     akasha.harmonic_glissando_pitches("Ab3"),
 )
 
-maker(
+commands(
     ("va", (43, 46)),
     akasha.harmonic_glissando_pitches("Ab3", rotation=-6),
 )
 
-maker(
+commands(
     ("va", (38, 46)),
     baca.dynamic("ppp-ancora"),
     baca.new(
@@ -339,7 +339,7 @@ maker(
     baca.note_head_style_harmonic(),
 )
 
-maker(
+commands(
     ("vc", (1, 22)),
     baca.note_head_style_harmonic(),
     baca.pitch(
@@ -348,12 +348,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (24, 31)),
     akasha.harmonic_glissando_pitches("G2"),
 )
 
-maker(
+commands(
     ("vc", (24, 31)),
     baca.clef("bass"),
     baca.dynamic("ppp"),
@@ -365,7 +365,7 @@ maker(
     baca.note_head_style_harmonic(),
 )
 
-maker(
+commands(
     ("vc", (33, 35)),
     baca.hairpin("sf > ppp"),
     baca.markup(
@@ -375,12 +375,12 @@ maker(
     baca.pitch("C#2"),
 )
 
-maker(
+commands(
     ("vc", (38, 41)),
     akasha.harmonic_glissando_pitches("G2", rotation=-6),
 )
 
-maker(
+commands(
     ("vc", (38, 41)),
     baca.dynamic("ppp-ancora"),
     baca.glissando(),
@@ -391,7 +391,7 @@ maker(
     baca.note_head_style_harmonic(),
 )
 
-maker(
+commands(
     ("vc", (43, 50)),
     baca.pitches("Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True),
     baca.glissando(),
@@ -402,7 +402,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     [
         ("v2", (10, 17)),
         (["v1", "v2"], (19, 22)),
@@ -416,7 +416,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,

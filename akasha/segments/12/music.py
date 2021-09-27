@@ -27,7 +27,7 @@ stage_markup = (
 )
 
 fermata_measures = [29, 40, 46, 55, 69]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
@@ -41,7 +41,7 @@ maker = baca.CommandAccumulator(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         baca.Ritardando(),
@@ -53,7 +53,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "short",
@@ -77,7 +77,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     [
         (
             ["v1", "v2", "va", "vc"],
@@ -91,7 +91,7 @@ maker(
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (1, 28)),
     baca.dynamic('"ff"'),
     baca.markup(
@@ -116,7 +116,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (5, 8)),
     baca.text_spanner(
         "trans. => 1 click/1-2 sec.",
@@ -124,7 +124,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (9, 12)),
     baca.text_spanner(
         "trans. => 1-2 clicks/sec.",
@@ -132,7 +132,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (13, 16)),
     baca.dynamic(
         "ff",
@@ -144,7 +144,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (17, 20)),
     baca.text_spanner(
         "trans. => 1/2 scratch",
@@ -152,7 +152,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (21, 24)),
     baca.text_spanner(
         "trans. => PO",
@@ -160,7 +160,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (25, 28)),
     baca.text_spanner(
         "trans. => vib. moltiss.",
@@ -172,13 +172,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(56 - 1)),
     baca.close_volta(baca.selectors.skip(61 - 1)),
 )
 
-maker(
+commands(
     ("Global_Skips", (30, 39)),
     baca.markup(
         r"\akasha-repeat-six-markup",
@@ -187,7 +187,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (30, 39)),
     baca.new(
         baca.pitch("A5"),
@@ -207,7 +207,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (30, 34)),
     baca.hairpin(
         "sffp < fff",
@@ -227,7 +227,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (35, 39)),
     baca.hairpin(
         "sffp < fff",
@@ -247,7 +247,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (41, 52)),
     baca.pitch(
         "A5",
@@ -255,7 +255,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (53, 68)),
     baca.new(
         baca.note_head_style_harmonic(),
@@ -264,7 +264,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (41, 50)),
     baca.pitch(
         "A4",
@@ -272,7 +272,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (51, 68)),
     baca.new(
         baca.note_head_style_harmonic(),
@@ -281,7 +281,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (41, 48)),
     baca.pitch(
         "A2",
@@ -289,7 +289,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (49, 68)),
     baca.new(
         baca.note_head_style_harmonic(),
@@ -298,7 +298,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (41, 45)),
     baca.new(
         baca.pitch("A1"),
@@ -306,7 +306,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (47, 68)),
     baca.new(
         baca.note_head_style_harmonic(),
@@ -315,7 +315,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (41, 45)),
     baca.hairpin(
         "sffp > pp",
@@ -327,12 +327,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (1, 46)),
     baca.text_spanner_staff_padding(4),
 )
 
-maker(
+commands(
     ("vc", (47, 54)),
     baca.markup(
         r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup",
@@ -342,7 +342,7 @@ maker(
     baca.clef("treble"),
 )
 
-maker(
+commands(
     ("vc", (47, 50)),
     baca.hairpin(
         "sffp < f",
@@ -350,7 +350,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (49, 54)),
     baca.markup(
         r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup",
@@ -360,7 +360,7 @@ maker(
     baca.clef("treble"),
 )
 
-maker(
+commands(
     ("va", (49, 52)),
     baca.hairpin(
         "sffp < f",
@@ -368,12 +368,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (51, 54)),
     baca.ottava(),
 )
 
-maker(
+commands(
     ("v2", (51, 54)),
     baca.markup(
         r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup",
@@ -382,7 +382,7 @@ maker(
     baca.trill_spanner(),
 )
 
-maker(
+commands(
     ("v2", (51, 54)),
     baca.hairpin(
         "sffp < f",
@@ -390,12 +390,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (53, 54)),
     baca.ottava(),
 )
 
-maker(
+commands(
     ("v1", (53, 54)),
     baca.markup(
         r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup",
@@ -405,7 +405,7 @@ maker(
     baca.hairpin("sffp < f"),
 )
 
-maker(
+commands(
     ("Global_Skips", (56, 60)),
     baca.markup(
         r"\akasha-repeat-six-markup",
@@ -415,7 +415,7 @@ maker(
     baca.text_script_extra_offset((1.5, 6)),
 )
 
-maker(
+commands(
     (["v1", "v2"], (56, 68)),
     baca.new(
         baca.ottava_bracket_staff_padding(12),
@@ -428,7 +428,7 @@ maker(
     baca.ottava(),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (56, 60)),
     baca.hairpin(
         "sf < fff",
@@ -449,7 +449,7 @@ maker(
     baca.trill_spanner(),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (61, 68)),
     baca.hairpin(
         "sffp < fff",
@@ -462,7 +462,7 @@ maker(
     baca.trill_spanner(),
 )
 
-maker(
+commands(
     (["v1", "v2", "va", "vc"], (56, -1)),
     baca.new(
         baca.text_spanner_staff_padding(9.5),
@@ -484,7 +484,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
