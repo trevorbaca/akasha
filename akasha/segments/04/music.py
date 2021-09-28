@@ -41,13 +41,14 @@ commands = baca.CommandAccumulator(
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
-    score_template=akasha.ScoreTemplate(),
+    score_template=akasha.make_empty_score,
     time_signatures=akasha.time_signatures(
         "A",
         count=27,
         fermata_measures=fermata_measures,
         rotation=3,
     ),
+    voice_abbreviations=akasha.voice_abbreviations,
 )
 
 commands(
@@ -338,10 +339,12 @@ if __name__ == "__main__":
             baca.tags.MOMENT_NUMBER,
             baca.tags.STAGE_NUMBER,
         ],
+        always_make_global_rests=True,
         color_octaves=False,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
+        global_rests_in_every_staff=True,
         moment_markup=moment_markup,
         stage_markup=stage_markup,
     )
