@@ -16,12 +16,14 @@ stage_markup = (
 
 fermata_measures = [-1]
 
+score = akasha.make_empty_score()
+voice_names = baca.accumulator.get_voice_names(score)
+
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=akasha.instruments,
     margin_markups=akasha.margin_markups,
     metronome_marks=akasha.metronome_marks,
-    score_template=akasha.make_empty_score,
     time_signatures=akasha.time_signatures(
         "B",
         count=25,
@@ -29,6 +31,7 @@ commands = baca.CommandAccumulator(
         rotation=30,
     ),
     voice_abbreviations=akasha.voice_abbreviations,
+    voice_names=voice_names,
 )
 
 commands(
@@ -122,5 +125,6 @@ if __name__ == "__main__":
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
         final_segment=True,
+        score=score,
         stage_markup=stage_markup,
     )
