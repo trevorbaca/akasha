@@ -323,32 +323,38 @@ materials: (A), (B), (C), (D), (E)
 
 [segment 08] (1'):
 
-  1 (4)[126-->44]
-  microtonal field resumes 12ET in v2, va, vc SB;
-  get. field handled exclusively as vn1 solo maximally fast burst;
-  attaca;
+  moment 26 (AB):
 
-  2 (3)
-  vn1 joins microtonal field;
-  microtonal field sub. 24ET;
-  SB > ord;
+    1 (4)[126-->44]
+    microtonal field resumes 12ET in v2, va, vc SB; (B)
+    get. field handled exclusively as vn1 solo maximally fast burst; (A)
+    attaca;
 
-  3 (3)
-  microtonal field sub. 12ET;
-  ord > FB;
+  moment 27 (B):
 
-  4-5 (3 + fermata)
-  microtonal field sub. 24ET;
-  FB > XFB;
-  fermata;
+    2 (3)
+    vn1 joins microtonal field; (B)
+    microtonal field sub. 24ET; (B)
+    SB > ord;
 
-  6 (2)[44-->55]
-  microtonal field (24ET) XFB with OB pedal underneath;
-  microtonal field sub. stop at end of segment;
+    3 (3)
+    microtonal field sub. 12ET; (B)
+    ord > FB;
 
-  7 (1)
-  OB pedal which continues through end of segment;
-  attaca;
+    4-5 (3 + fermata)
+    microtonal field sub. 24ET; (B)
+    FB > XFB;
+    fermata;
+
+  moment 28 (EB):
+
+    6 (2)[44-->55]
+    microtonal field (24ET) XFB with OB pedal underneath; (B) (E)
+    microtonal field sub. stop at end of segment;
+
+    7 (1)
+    OB pedal which continues through end of segment; (E)
+    attaca;
 
 [segment 09] (30") [whole segment repeats]:
 
