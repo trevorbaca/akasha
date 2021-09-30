@@ -5390,7 +5390,7 @@ segment.06.Violin.I.Music.Voice = {
     %! PHANTOM
     >>
 
-%! akasha.ScoreTemplate.__call__()
+%! akasha.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -5404,13 +5404,13 @@ segment.06.Violin.I.Music.Staff = <<
     %! baca.path.extern()
     { \segment.06.Global.Rests }
 
-    %! akasha.ScoreTemplate.__call__()
+    %! akasha.make_empty_score()
     \context Voice = "Violin_I_Music_Voice"
-    %! akasha.ScoreTemplate.__call__()
+    %! akasha.make_empty_score()
     %! baca.path.extern()
     { \segment.06.Violin.I.Music.Voice }
 
-%! akasha.ScoreTemplate.__call__()
+%! akasha.make_empty_score()
 %! baca.path.extern()
 >>
 
@@ -9015,7 +9015,7 @@ segment.06.Violin.II.Music.Voice = {
     %! PHANTOM
     >>
 
-%! akasha.ScoreTemplate.__call__()
+%! akasha.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -9031,13 +9031,13 @@ segment.06.Violin.II.Music.Staff = <<
     %! baca.path.extern()
 %%% { \segment.06.Global.Rests }
 
-    %! akasha.ScoreTemplate.__call__()
+    %! akasha.make_empty_score()
     \context Voice = "Violin_II_Music_Voice"
-    %! akasha.ScoreTemplate.__call__()
+    %! akasha.make_empty_score()
     %! baca.path.extern()
     { \segment.06.Violin.II.Music.Voice }
 
-%! akasha.ScoreTemplate.__call__()
+%! akasha.make_empty_score()
 %! baca.path.extern()
 >>
 
@@ -10489,7 +10489,7 @@ segment.06.Viola.Music.Voice = {
     %! PHANTOM
     >>
 
-%! akasha.ScoreTemplate.__call__()
+%! akasha.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -10505,13 +10505,13 @@ segment.06.Viola.Music.Staff = <<
     %! baca.path.extern()
 %%% { \segment.06.Global.Rests }
 
-    %! akasha.ScoreTemplate.__call__()
+    %! akasha.make_empty_score()
     \context Voice = "Viola_Music_Voice"
-    %! akasha.ScoreTemplate.__call__()
+    %! akasha.make_empty_score()
     %! baca.path.extern()
     { \segment.06.Viola.Music.Voice }
 
-%! akasha.ScoreTemplate.__call__()
+%! akasha.make_empty_score()
 %! baca.path.extern()
 >>
 
@@ -14408,7 +14408,7 @@ segment.06.Cello.Music.Voice = {
     %! PHANTOM
     >>
 
-%! akasha.ScoreTemplate.__call__()
+%! akasha.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -14424,12 +14424,12 @@ segment.06.Cello.Music.Staff = <<
     %! baca.path.extern()
 %%% { \segment.06.Global.Rests }
 
-    %! akasha.ScoreTemplate.__call__()
+    %! akasha.make_empty_score()
     \context Voice = "Cello_Music_Voice"
-    %! akasha.ScoreTemplate.__call__()
+    %! akasha.make_empty_score()
     %! baca.path.extern()
     { \segment.06.Cello.Music.Voice }
 
-%! akasha.ScoreTemplate.__call__()
+%! akasha.make_empty_score()
 %! baca.path.extern()
 >>

@@ -33,9 +33,9 @@
         %! baca._make_lilypond_file()
         }
 
-        %! akasha.ScoreTemplate.__call__()
+        %! akasha.make_empty_score()
         \context Score = "Score"
-        %! akasha.ScoreTemplate.__call__()
+        %! akasha.make_empty_score()
         <<
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -52,55 +52,55 @@
             %! abjad.ScoreTemplate._make_global_context()
             >>
 
-            %! akasha.ScoreTemplate.__call__()
+            %! akasha.make_empty_score()
             \context MusicContext = "Music_Context"
-            %! akasha.ScoreTemplate.__call__()
+            %! akasha.make_empty_score()
             {
 
-                %! akasha.ScoreTemplate.__call__()
+                %! akasha.make_empty_score()
                 \context StringQuartetStaffGroup = "String_Quartet_Staff_Group"
-                %! akasha.ScoreTemplate.__call__()
+                %! akasha.make_empty_score()
                 <<
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag ViolinI
-                    %! akasha.ScoreTemplate.__call__()
+                    %! akasha.make_empty_score()
                     \context Staff = "Violin_I_Music_Staff"
-                    %! akasha.ScoreTemplate.__call__()
+                    %! akasha.make_empty_score()
                     %! baca.path.extern()
                     { \segment.13.Violin.I.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag ViolinII
-                    %! akasha.ScoreTemplate.__call__()
+                    %! akasha.make_empty_score()
                     \context Staff = "Violin_II_Music_Staff"
-                    %! akasha.ScoreTemplate.__call__()
+                    %! akasha.make_empty_score()
                     %! baca.path.extern()
                     { \segment.13.Violin.II.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag viola
-                    %! akasha.ScoreTemplate.__call__()
+                    %! akasha.make_empty_score()
                     \context Staff = "Viola_Music_Staff"
-                    %! akasha.ScoreTemplate.__call__()
+                    %! akasha.make_empty_score()
                     %! baca.path.extern()
                     { \segment.13.Viola.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag cello
-                    %! akasha.ScoreTemplate.__call__()
+                    %! akasha.make_empty_score()
                     \context Staff = "Cello_Music_Staff"
-                    %! akasha.ScoreTemplate.__call__()
+                    %! akasha.make_empty_score()
                     %! baca.path.extern()
                     { \segment.13.Cello.Music.Staff }
 
-                %! akasha.ScoreTemplate.__call__()
+                %! akasha.make_empty_score()
                 >>
 
-            %! akasha.ScoreTemplate.__call__()
+            %! akasha.make_empty_score()
             }
 
-        %! akasha.ScoreTemplate.__call__()
+        %! akasha.make_empty_score()
         >>
 
     %! baca._make_lilypond_file()
