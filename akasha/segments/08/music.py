@@ -7,14 +7,23 @@ from akasha import library as akasha
 ########################################### 08 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[G.1]", 1),
-    ("[G.2]", 5),
-    ("[G.3]", 8),
-    ("[G.4]", 11),
-    ("[G.6]", 15),
-    ("[G.7]", 17),
+moment_tokens = (
+    (26, 4, "AB"),
+    (27, 9 + 1, "B"),
+    (28, 3, "EB"),
 )
+
+moment_markup = akasha.make_moment_markup(moment_tokens)
+
+stage_tokens = (
+    (1, 4),
+    (2, 3),
+    (3, 3),
+    (4, 3 + 1),
+    (6, 2),
+    (7, 1),
+)
+stage_markup = akasha.make_stage_markup("08", stage_tokens)
 
 fermata_measures = [14]
 
@@ -84,6 +93,7 @@ commands(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
+    akasha.material("A"),
 )
 
 commands(
@@ -131,6 +141,26 @@ commands(
 commands(
     ("va", (15, 17)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", [(5, 13), (15, 17)]),
+    akasha.material("B", baca.selectors.rleaves()),
+)
+
+commands(
+    (["v2", "vc"], [(1, 13), (15, 17)]),
+    akasha.material("B", baca.selectors.rleaves()),
+)
+
+commands(
+    ("va", (1, 13)),
+    akasha.material("B", baca.selectors.rleaves()),
+)
+
+commands(
+    ("va", (15, 17)),
+    akasha.material("E", baca.selectors.rleaves()),
 )
 
 commands(
@@ -202,13 +232,18 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
         **baca.segment_interpretation_defaults(),
-        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
+        activate=(
+            baca.tags.LOCAL_MEASURE_NUMBER,
+            baca.tags.MOMENT_NUMBER,
+            baca.tags.STAGE_NUMBER,
+        ),
         always_make_global_rests=True,
         color_octaves=False,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        moment_markup=moment_markup,
         score=score,
         stage_markup=stage_markup,
     )
