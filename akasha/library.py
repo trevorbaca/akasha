@@ -1,3 +1,5 @@
+import inspect
+
 import abjad
 import baca
 from abjadext import rmakers
@@ -479,8 +481,7 @@ voice_abbreviations = {
 
 
 def make_empty_score():
-    site = "akasha.ScoreTemplate.__call__()"
-    tag = abjad.Tag(site)
+    tag = baca.site(inspect.currentframe())
     global_context = baca.score.make_global_context()
     violin_i_music_voice = abjad.Voice(name="Violin_I_Music_Voice", tag=tag)
     violin_one_music_staff = abjad.Staff(
