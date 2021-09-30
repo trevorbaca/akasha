@@ -481,7 +481,7 @@ voice_abbreviations = {
 def make_empty_score():
     site = "akasha.ScoreTemplate.__call__()"
     tag = abjad.Tag(site)
-    global_context = baca.templates.make_global_context()
+    global_context = baca.score.make_global_context()
     violin_i_music_voice = abjad.Voice(name="Violin_I_Music_Voice", tag=tag)
     violin_one_music_staff = abjad.Staff(
         [violin_i_music_voice], name="Violin_I_Music_Staff", tag=tag
@@ -492,7 +492,7 @@ def make_empty_score():
         instruments["ViolinI"],
     )
     abjad.annotate(violin_one_music_staff, "default_clef", abjad.Clef("treble"))
-    baca.templates.attach_lilypond_tag("ViolinI", violin_one_music_staff)
+    baca.score.attach_lilypond_tag("ViolinI", violin_one_music_staff)
     violin_ii_music_voice = abjad.Voice(name="Violin_II_Music_Voice", tag=tag)
     violin_two_music_staff = abjad.Staff(
         [violin_ii_music_voice], name="Violin_II_Music_Staff", tag=tag
@@ -503,7 +503,7 @@ def make_empty_score():
         instruments["ViolinII"],
     )
     abjad.annotate(violin_two_music_staff, "default_clef", abjad.Clef("treble"))
-    baca.templates.attach_lilypond_tag("ViolinII", violin_two_music_staff)
+    baca.score.attach_lilypond_tag("ViolinII", violin_two_music_staff)
     viola_music_voice = abjad.Voice(name="Viola_Music_Voice", tag=tag)
     viola_music_staff = abjad.Staff(
         [viola_music_voice], name="Viola_Music_Staff", tag=tag
@@ -514,7 +514,7 @@ def make_empty_score():
         instruments["Viola"],
     )
     abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
-    baca.templates.attach_lilypond_tag("viola", viola_music_staff)
+    baca.score.attach_lilypond_tag("viola", viola_music_staff)
     cello_music_voice = abjad.Voice(name="Cello_Music_Voice", tag=tag)
     cello_music_staff = abjad.Staff(
         [cello_music_voice], name="Cello_Music_Staff", tag=tag
@@ -525,7 +525,7 @@ def make_empty_score():
         instruments["Cello"],
     )
     abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
-    baca.templates.attach_lilypond_tag("cello", cello_music_staff)
+    baca.score.attach_lilypond_tag("cello", cello_music_staff)
     string_quartet_staff_group = abjad.StaffGroup(
         [
             violin_one_music_staff,
@@ -544,9 +544,9 @@ def make_empty_score():
         tag=tag,
     )
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
-    baca.templates.assert_lilypond_identifiers(score)
-    baca.templates.assert_unique_context_names(score)
-    baca.templates.assert_matching_custom_context_names(score)
+    baca.score.assert_lilypond_identifiers(score)
+    baca.score.assert_unique_context_names(score)
+    baca.score.assert_matching_custom_context_names(score)
     return score
 
 
