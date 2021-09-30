@@ -265,7 +265,7 @@ segment.01.Violin.I.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set Staff.instrumentName = \markup \hcenter-in #14 "Violin I"
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -275,7 +275,7 @@ segment.01.Violin.I.Music.Voice = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -494,7 +494,7 @@ segment.01.Violin.II.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set Staff.instrumentName = \markup \hcenter-in #14 "Violin II"
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -504,7 +504,7 @@ segment.01.Violin.II.Music.Voice = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -714,7 +714,7 @@ segment.01.Viola.Music.Voice = {
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "alto"
@@ -724,7 +724,7 @@ segment.01.Viola.Music.Voice = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1076,7 +1076,7 @@ segment.01.Cello.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set Staff.instrumentName = \markup \hcenter-in #14 "Cello"
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "bass"
@@ -1086,7 +1086,7 @@ segment.01.Cello.Music.Voice = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
