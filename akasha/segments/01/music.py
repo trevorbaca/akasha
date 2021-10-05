@@ -100,7 +100,7 @@ commands(
 )
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(
+    score = baca.build.make_segment_pdf(
         commands,
         **baca.segment_interpretation_defaults(),
         activate=(
@@ -118,6 +118,10 @@ if __name__ == "__main__":
         fermata_extra_offset_y=4.5,
         global_rests_in_every_staff=True,
         fermata_measure_empty_overrides=fermata_measures,
+        lilypond_file_keywords=baca.make_lilypond_file_dictionary(
+            include_layout_ly=True,
+            includes=["../../stylesheet.ily"],
+        ),
         moment_markup=moment_markup,
         score=score,
         stage_markup=stage_markup,
