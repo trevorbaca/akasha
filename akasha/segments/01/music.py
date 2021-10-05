@@ -100,8 +100,7 @@ commands(
 )
 
 if __name__ == "__main__":
-    score = baca.build.make_segment_pdf(
-        commands,
+    keywords = baca.interpret.make_keyword_dictionary(
         **baca.segment_interpretation_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -118,11 +117,21 @@ if __name__ == "__main__":
         fermata_extra_offset_y=4.5,
         global_rests_in_every_staff=True,
         fermata_measure_empty_overrides=fermata_measures,
-        lilypond_file_keywords=baca.make_lilypond_file_dictionary(
-            include_layout_ly=True,
-            includes=["../../stylesheet.ily"],
-        ),
         moment_markup=moment_markup,
         score=score,
         stage_markup=stage_markup,
     )
+    lilypond_file_keywords = baca.make_keyword_dictionary(
+        include_layout_ly=True,
+        includes=["../../stylesheet.ily"],
+    )
+    baca.build.remove_music_ly()
+    metadata, persist, score, timing = baca.build.interpret_segment_revised(
+        commands,
+        **keywords,
+    )
+    lilypond_file = baca.build.make_segment_lilypond_file(
+        score,
+        lilypond_file_keywords=lilypond_file_keywords,
+    )
+    baca.build.make_segment_pdf_revised(lilypond_file, metadata, persist, timing)
