@@ -125,6 +125,10 @@ if __name__ == "__main__":
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
         final_segment=True,
+        lilypond_file_keywords=baca.make_lilypond_file_dictionary(
+            include_layout_ly=True,
+            includes=["../../stylesheet.ily"],
+        ),
         score=score,
         stage_markup=stage_markup,
     )
