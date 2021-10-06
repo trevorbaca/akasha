@@ -180,7 +180,9 @@ commands(
 )
 
 if __name__ == "__main__":
-    keywords = baca.interpret.make_keyword_dictionary(
+    metadata, persist, score, timing = baca.build.interpret_segment(
+        score,
+        commands,
         **baca.score_interpretation_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -194,12 +196,7 @@ if __name__ == "__main__":
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
         moment_markup=moment_markup,
-        score=score,
         stage_markup=stage_markup,
-    )
-    metadata, persist, score, timing = baca.build.interpret_segment(
-        commands,
-        **keywords,
     )
     lilypond_file = baca.make_lilypond_file(
         score,
