@@ -125,7 +125,6 @@ if __name__ == "__main__":
         include_layout_ly=True,
         includes=["../../stylesheet.ily"],
     )
-    baca.build.remove_music_ly()
     metadata, persist, score, timing = baca.build.interpret_segment_revised(
         commands,
         **keywords,
