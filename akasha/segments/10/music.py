@@ -6,23 +6,34 @@ from akasha import library as akasha
 ########################################### 10 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[I.1]", 1),
-    ("[I.3]", 4),
-    ("[I.4]", 6),
-    ("[I.5]", 8),
-    ("[I.6]", 11),
-    ("[I.7]", 13),
-    ("[I.8]", 15),
-    ("[I.9]", 17),
-    ("[I.10]", 21),
-    ("[I.11]", 23),
-    ("[I.12]", 25),
-    ("[I.14]", 28),
-    ("[I.16]", 31),
-    ("[I.17]", 33),
-    ("[I.18]", 35),
+moment_tokens = (
+    (30, 16, "DE"),
+    (31, 4, "E"),
+    (32, 10, "B(E)A[C]"),
+    (33, 7, "B(A)"),
 )
+
+moment_markup = akasha.make_moment_markup(moment_tokens)
+
+stage_tokens = (
+    (1, 2 + 1),
+    (3, 2),
+    (4, 2),
+    (5, 3),
+    (6, 2),
+    (7, 2),
+    (8, 2),
+    (9, 4),
+    (10, 2),
+    (11, 2),
+    (12, 2 + 1),
+    (14, 2 + 1),
+    (16, 2),
+    (17, 2),
+    (18, 2 + 1),
+)
+
+stage_markup = akasha.make_stage_markup("09", stage_tokens)
 
 fermata_measures = [3, 27, 30, -1]
 
@@ -137,6 +148,7 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("PO + senza vib. => vib. moltiss."),
+    akasha.material("D", baca.selectors.rleaves()),
 )
 
 commands(
@@ -144,6 +156,7 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("senza vib. => vib. moltiss."),
+    akasha.material("D", baca.selectors.rleaves()),
 )
 
 commands(
@@ -151,36 +164,43 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("senza vib. => vib. moltiss."),
+    akasha.material("D", baca.selectors.rleaves()),
 )
 
 commands(
     ("vc", (13, 14)),
     baca.make_repeat_tied_notes(),
+    akasha.material("D", baca.selectors.rleaves()),
 )
 
 commands(
     ("va", (4, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
+    akasha.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("v1", (8, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
+    akasha.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("v2", (13, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
+    akasha.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("vc", (17, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
+    akasha.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (21, 22)),
     baca.make_repeat_tied_notes(),
+    akasha.material("B", baca.selectors.rleaves()),
 )
 
 commands(
@@ -189,11 +209,13 @@ commands(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
+    akasha.material("A", baca.selectors.rleaves()),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (25, 26)),
     baca.make_repeat_tied_notes(),
+    akasha.material("B", baca.selectors.rleaves()),
 )
 
 commands(
@@ -224,8 +246,14 @@ commands(
 )
 
 commands(
+    (["v1", "v2", "va", "vc"], (28, 29)),
+    akasha.material("C", baca.selectors.rleaves()),
+)
+
+commands(
     (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
     baca.make_repeat_tied_notes(),
+    akasha.material("B", baca.selectors.rleaves()),
 )
 
 commands(
@@ -493,13 +521,18 @@ if __name__ == "__main__":
         score,
         commands,
         **baca.score_interpretation_defaults(),
-        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
+        activate=(
+            baca.tags.LOCAL_MEASURE_NUMBER,
+            baca.tags.MOMENT_NUMBER,
+            baca.tags.STAGE_NUMBER,
+        ),
         always_make_global_rests=True,
         color_octaves=False,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        moment_markup=moment_markup,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(
