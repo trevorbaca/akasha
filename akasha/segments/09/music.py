@@ -6,11 +6,17 @@ from akasha import library as akasha
 ########################################### 09 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[H.1]", 1),
-    ("[H.2]", 3),
-    ("[H.4]", 5),
+moment_tokens = ((29, 7, "BCD[E]"),)
+
+moment_markup = akasha.make_moment_markup(moment_tokens)
+
+stage_tokens = (
+    (1, 2),
+    (2, 1 + 1),
+    (4, 2 + 1),
 )
+
+stage_markup = akasha.make_stage_markup("09", stage_tokens)
 
 fermata_measures = [4, 7]
 
@@ -73,6 +79,7 @@ commands(
 commands(
     ("va", (1, 3)),
     baca.make_repeat_tied_notes(),
+    akasha.material("E", baca.selectors.rleaves()),
 )
 
 commands(
@@ -83,13 +90,20 @@ commands(
 )
 
 commands(
+    (["v1", "v2", "vc"], (1, 2)),
+    akasha.material("C"),
+)
+
+commands(
     (["v1", "v2", "vc"], 3),
     baca.make_repeat_tied_notes(),
+    akasha.material("B", baca.selectors.rleaves()),
 )
 
 commands(
     (["va", "vc"], (5, 6)),
     akasha.glissando_rhythm(),
+    akasha.material("D"),
 )
 
 commands(
@@ -167,13 +181,17 @@ if __name__ == "__main__":
         score,
         commands,
         **baca.score_interpretation_defaults(),
-        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
+        activate=(
+            baca.tags.LOCAL_MEASURE_NUMBER,
+            baca.tags.MOMENT_NUMBER,
+            baca.tags.STAGE_NUMBER,
+        ),
         always_make_global_rests=True,
-        color_octaves=False,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        moment_markup=moment_markup,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(
