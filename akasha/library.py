@@ -12,7 +12,7 @@ getato_intervals = intervals
 
 # instruments
 
-instruments = abjad.OrderedDict(
+instruments = dict(
     [
         ("ViolinI", abjad.Violin(pitch_range="[G3, +inf]")),
         ("ViolinII", abjad.Violin(pitch_range="[G3, +inf]")),
@@ -24,7 +24,7 @@ instruments = abjad.OrderedDict(
 # margin markups
 
 
-margin_markups = abjad.OrderedDict(
+margin_markups = dict(
     [
         ("Va.", abjad.MarginMarkup(markup=r"\akasha-va-markup")),
         ("Vc.", abjad.MarginMarkup(markup=r"\akasha-vc-markup")),
@@ -35,7 +35,7 @@ margin_markups = abjad.OrderedDict(
 
 # metronome marks
 
-metronome_marks = abjad.OrderedDict(
+metronome_marks = dict(
     [
         ("38", abjad.MetronomeMark((1, 4), 38)),
         ("44", abjad.MetronomeMark((1, 4), 44)),
@@ -47,7 +47,7 @@ metronome_marks = abjad.OrderedDict(
 
 # time signature series
 
-time_signature_series = abjad.OrderedDict()
+time_signature_series = dict()
 
 numerators = baca.Sequence([[3, 3, 4, 5], [4, 6, 6]])
 groups = numerators.helianthate(-1, 1)
