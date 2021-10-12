@@ -99,10 +99,7 @@ commands(
 commands(
     (["v1", "v2", "va", "vc"], (1, 28)),
     baca.dynamic('"ff"'),
-    baca.markup(
-        r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"),
     baca.new(
         baca.pitch("A5"),
         match=0,
@@ -187,7 +184,6 @@ commands(
     ("Global_Skips", (30, 39)),
     baca.markup(
         r"\akasha-repeat-six-markup",
-        literal=True,
         selector=baca.selectors.skip(0),
     ),
 )
@@ -339,10 +335,7 @@ commands(
 
 commands(
     ("vc", (47, 54)),
-    baca.markup(
-        r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup"),
     baca.trill_spanner(),
     baca.clef("treble"),
 )
@@ -357,10 +350,7 @@ commands(
 
 commands(
     ("va", (49, 54)),
-    baca.markup(
-        r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup"),
     baca.trill_spanner(),
     baca.clef("treble"),
 )
@@ -380,10 +370,7 @@ commands(
 
 commands(
     ("v2", (51, 54)),
-    baca.markup(
-        r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup"),
     baca.trill_spanner(),
 )
 
@@ -402,10 +389,7 @@ commands(
 
 commands(
     ("v1", (53, 54)),
-    baca.markup(
-        r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup"),
     baca.trill_spanner(),
     baca.hairpin("sffp < f"),
 )
@@ -414,7 +398,6 @@ commands(
     ("Global_Skips", (56, 60)),
     baca.markup(
         r"\akasha-repeat-six-markup",
-        literal=True,
         selector=baca.selectors.skip(0),
     ),
     baca.text_script_extra_offset((1.5, 6)),

@@ -570,7 +570,6 @@ def material(letter, selector=baca.selectors.leaves()):
             \circle
             {{ \combine \halign #0 {letter} \halign #0 \transparent "O" }}
             """,
-        literal=True,
         selector=baca.selectors.leaf(0),
     )
     color = material_to_color[letter]

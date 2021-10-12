@@ -178,10 +178,7 @@ commands(
 commands(
     ("v1", (1, 17)),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup"),
     baca.note_head_style_harmonic(),
     baca.pitch(
         "C#7",
@@ -193,20 +190,14 @@ commands(
     ("va", (1, 8)),
     baca.clef("treble"),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"),
 )
 
 commands(
     ("vc", (1, 8)),
     baca.clef("treble"),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup"),
 )
 
 commands(
@@ -241,10 +232,7 @@ commands(
         baca.glissando(),
         map=baca.selectors.runs(exclude=baca.const.HIDDEN),
     ),
-    baca.markup(
-        r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
 )
 
@@ -275,10 +263,7 @@ commands(
         baca.glissando(),
         map=baca.selectors.runs(exclude=baca.const.HIDDEN),
     ),
-    baca.markup(
-        r"\akasha-xp-plus-full-bow-strokes-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
 )
 
@@ -289,10 +274,7 @@ commands(
         baca.trill_spanner(alteration="A5"),
         map=baca.selectors.qruns(exclude=baca.const.HIDDEN),
     ),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
     baca.pitch(
         "G5",
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
@@ -314,10 +296,7 @@ commands(
     baca.pitches("Fb3 E3 D#3 C#3 B#2", exact=True),
     baca.glissando(),
     baca.hairpin("sf > ppp"),
-    baca.markup(
-        r"\akasha-tasto-plus-senza-vib-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-tasto-plus-senza-vib-markup"),
 )
 
 commands(
@@ -337,10 +316,7 @@ commands(
         baca.glissando(),
         map=baca.selectors.runs(exclude=baca.const.HIDDEN),
     ),
-    baca.markup(
-        r"\akasha-xp-plus-full-bow-strokes-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
 )
 
@@ -363,20 +339,14 @@ commands(
     baca.clef("bass"),
     baca.dynamic("ppp"),
     baca.glissando(),
-    baca.markup(
-        r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
 )
 
 commands(
     ("vc", (33, 35)),
     baca.hairpin("sf > ppp"),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
     baca.pitch("C#2"),
 )
 
@@ -389,10 +359,7 @@ commands(
     ("vc", (38, 41)),
     baca.dynamic("ppp-ancora"),
     baca.glissando(),
-    baca.markup(
-        r"\akasha-xp-plus-full-bow-strokes-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
 )
 
@@ -401,10 +368,7 @@ commands(
     baca.pitches("Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True),
     baca.glissando(),
     baca.hairpin("sf > ppp"),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
 )
 
 commands(

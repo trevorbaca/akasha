@@ -129,10 +129,7 @@ commands(
         match=2,
     ),
     baca.dynamic("ff"),
-    baca.markup(
-        r"\akasha-scratch-moltiss-explanation-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
 )
 
 if __name__ == "__main__":

@@ -342,10 +342,7 @@ commands(
     ("vc", (1, 2)),
     akasha.cello_solo_pitches(transposition=1),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
 )
 
 commands(
@@ -363,10 +360,7 @@ commands(
 commands(
     ("vc", (3, 4)),
     akasha.getato_pitches(21, [2]),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
     baca.dynamic("pp"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
@@ -374,20 +368,14 @@ commands(
 commands(
     ("va", 6),
     baca.dynamic("ff"),
-    baca.markup(
-        r"\akasha-scratch-moltiss-explanation-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
     baca.pitch("F#3"),
 )
 
 commands(
     (["v1", "v2"], (8, 9)),
     baca.dynamic("pp-ancora"),
-    baca.markup(
-        r"\baca-tasto-plus-xfb-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
     baca.new(
         baca.pitches("Eb5 F5"),
         match=0,
@@ -427,10 +415,7 @@ commands(
 commands(
     ("va", (11, 26)),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitches("G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True),
 )
 
@@ -438,30 +423,21 @@ commands(
     ("vc", (11, 26)),
     baca.clef("bass"),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitches("Ab2 G2 F2 F+2 F#2 E2 Eb2", exact=True),
 )
 
 commands(
     ("v1", (23, 26)),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitch("E5"),
 )
 
 commands(
     ("v2", (23, 26)),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitch("F#4"),
 )
 
@@ -498,10 +474,7 @@ commands(
         "ff < fff",
         selector=baca.selectors.tleaves(),
     ),
-    baca.markup(
-        r"\baca-pos-ord-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-pos-ord-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
@@ -512,10 +485,7 @@ commands(
         "ff < fff",
         selector=baca.selectors.tleaves(),
     ),
-    baca.markup(
-        r"\baca-pos-ord-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-pos-ord-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
@@ -527,10 +497,7 @@ commands(
         "ff < fff",
         selector=baca.selectors.tleaves(),
     ),
-    baca.markup(
-        r"\baca-pos-ord-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-pos-ord-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
@@ -542,10 +509,7 @@ commands(
         "ff < fff",
         selector=baca.selectors.tleaves(),
     ),
-    baca.markup(
-        r"\baca-pos-ord-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-pos-ord-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
@@ -553,10 +517,7 @@ commands(
     ("va", 43),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markup(
-        r"\akasha-ob-plus-terminate-abruptly-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -565,7 +526,6 @@ commands(
     ("Global_Skips", (45, 46)),
     baca.markup(
         r"\akasha-repeat-six-markup",
-        literal=True,
         selector=baca.selectors.skip(0),
     ),
     baca.text_script_extra_offset((1.5, 6)),
@@ -581,10 +541,7 @@ commands(
     ("v1", 45),
     akasha.getato_pitches(29, [2]),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
@@ -592,10 +549,7 @@ commands(
     ("v2", 45),
     akasha.getato_pitches(26, [2]),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
@@ -603,10 +557,7 @@ commands(
     ("va", 45),
     akasha.getato_pitches(23, [2]),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
     baca.staff_lines(5),
     baca.staccato(selector=baca.selectors.pheads()),
 )
@@ -615,10 +566,7 @@ commands(
     ("vc", 45),
     akasha.getato_pitches(20, [2]),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
@@ -626,10 +574,7 @@ commands(
     ("va", 47),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markup(
-        r"\akasha-ob-plus-terminate-abruptly-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
     baca.staff_lines(1),
     baca.staff_position(0),
 )

@@ -356,10 +356,7 @@ commands(
     ("v1", (1, 14)),
     baca.new(
         baca.dynamic("ff"),
-        baca.markup(
-            r"\akasha-scratch-moltiss-explanation-markup",
-            literal=True,
-        ),
+        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
         selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
     ),
 )
@@ -367,10 +364,7 @@ commands(
 commands(
     ("v1", (15, 22)),
     baca.dynamic("f"),
-    baca.markup(
-        r"\akasha-po-meno-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-po-meno-scratch-markup"),
 )
 
 commands(
@@ -386,10 +380,7 @@ commands(
         "mf > pp",
         selector=baca.selectors.tleaves(),
     ),
-    baca.markup(
-        r"\akasha-leggieriss-senza-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-leggieriss-senza-scratch-markup"),
 )
 
 commands(
@@ -401,10 +392,7 @@ commands(
     ("v2", (1, 10)),
     baca.new(
         baca.dynamic("ff"),
-        baca.markup(
-            r"\akasha-scratch-moltiss-explanation-markup",
-            literal=True,
-        ),
+        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
         selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
     ),
 )
@@ -412,10 +400,7 @@ commands(
 commands(
     ("v2", (11, 18)),
     baca.dynamic("f"),
-    baca.markup(
-        r"\akasha-po-meno-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-po-meno-scratch-markup"),
 )
 
 commands(
@@ -424,18 +409,12 @@ commands(
     baca.staccato(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
-    baca.markup(
-        r"\akasha-senza-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-senza-scratch-markup"),
 )
 
 commands(
     ("v2", (21, 39)),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
@@ -455,10 +434,7 @@ commands(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.dynamic('"mf"'),
-    baca.markup(
-        r"\baca-ob-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-ob-markup"),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -472,10 +448,7 @@ commands(
     ("vc", (1, 8)),
     baca.new(
         baca.dynamic("ff"),
-        baca.markup(
-            r"\akasha-scratch-moltiss-explanation-markup",
-            literal=True,
-        ),
+        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
         selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
     ),
 )
@@ -483,19 +456,13 @@ commands(
 commands(
     ("vc", (9, 14)),
     baca.dynamic("f"),
-    baca.markup(
-        r"\akasha-po-meno-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-po-meno-scratch-markup"),
 )
 
 commands(
     ("vc", (15, 18)),
     baca.dynamic("mf"),
-    baca.markup(
-        r"\akasha-senza-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-senza-scratch-markup"),
     baca.staccato(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
@@ -506,10 +473,7 @@ commands(
     baca.staccato(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
 )
 
 commands(
