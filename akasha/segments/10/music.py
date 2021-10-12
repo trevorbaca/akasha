@@ -294,10 +294,7 @@ commands(
 commands(
     ("va", (4, 27)),
     baca.dynamic("ppp"),
-    baca.markup(
-        r"\baca-ob-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B2",
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
@@ -327,10 +324,7 @@ commands(
 commands(
     ("v1", (8, 22)),
     baca.dynamic("ppp"),
-    baca.markup(
-        r"\baca-ob-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B4",
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
@@ -374,10 +368,7 @@ commands(
 commands(
     ("v2", (13, 27)),
     baca.dynamic("ppp"),
-    baca.markup(
-        r"\baca-ob-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B3",
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
@@ -431,20 +422,14 @@ commands(
 commands(
     (["v1", "v2", "va", "vc"], (21, 22)),
     baca.hairpin("ppp < mp"),
-    baca.markup(
-        r"\akasha-xp-plus-fb-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-xp-plus-fb-markup"),
 )
 
 commands(
     ("v1", (23, 24)),
     akasha.getato_pitches(31, [2]),
     baca.dynamic("ppp"),
-    baca.markup(
-        r"\akasha-leggieriss-plus-po-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-leggieriss-plus-po-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 

@@ -121,10 +121,7 @@ commands(
     akasha.cello_solo_pitches(),
     akasha.cello_solo_rhythm(rotation=0),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
 )
 
 commands(
@@ -156,10 +153,7 @@ commands(
     (["v1", "v2", "va"], (6, 7)),
     akasha.material("B"),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.new(
         akasha.polyphony_rhythm(
             rmakers.force_rest(
@@ -248,10 +242,7 @@ commands(
         fuse_counts=[1, 2],
     ),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-tasto-plus-xfb-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
 )
 
 commands(
@@ -266,10 +257,7 @@ commands(
         ),
     ),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-tasto-plus-xfb-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
 )
 
 commands(

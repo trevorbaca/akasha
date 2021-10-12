@@ -81,10 +81,7 @@ commands(
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r"\akasha-ob-plus-terminate-abruptly-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
     baca.staff_position(0),
 )
 

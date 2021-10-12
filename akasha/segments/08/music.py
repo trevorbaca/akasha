@@ -195,10 +195,7 @@ commands(
     ("va", (15, 16)),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markup(
-        r"\baca-ob-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-ob-markup"),
     baca.staff_lines(1),
     baca.staff_position(0),
 )

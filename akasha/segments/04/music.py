@@ -237,10 +237,7 @@ commands(
         ("v2", (9, 24)),
     ],
     baca.dynamic('"mf"'),
-    baca.markup(
-        r"\baca-ob-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-ob-markup"),
     baca.staff_lines(1),
     baca.staff_position(
         0,
@@ -264,50 +261,35 @@ commands(
     ("vc", 15),
     akasha.getato_pitches("C#3", direction=abjad.Down),
     baca.dynamic("p"),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
 commands(
     ("va", 16),
     baca.dynamic("ff"),
-    baca.markup(
-        r"\baca-tasto-plus-scratch-moltiss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-scratch-moltiss-markup"),
     baca.pitch("C4"),
 )
 
 commands(
     ("va", 23),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitches("D#4 D#+4 E4", exact=True),
 )
 
 commands(
     ("vc", 23),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitch("C4"),
 )
 
 commands(
     ("v2", (25, 26)),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
     baca.pitch("G5"),
     baca.staff_lines(5),
     baca.trill_spanner(alteration="A5"),
@@ -318,19 +300,13 @@ commands(
     baca.pitches("E3 D#3 C+3", exact=True),
     baca.glissando(),
     baca.hairpin("mp > pp"),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
 )
 
 commands(
     ("vc", (25, 26)),
     baca.hairpin("mp > pp"),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
     baca.pitch("C#2"),
 )
 

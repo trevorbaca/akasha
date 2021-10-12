@@ -82,10 +82,7 @@ commands(
     akasha.polyphony_rhythm(),
     baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
     baca.dynamic("mp"),
-    baca.markup(
-        r"\baca-tasto-plus-half-scratch-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
 )
 
 commands(
@@ -150,10 +147,7 @@ commands(
         fuse_counts=[2, 1],
     ),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-tasto-plus-xfb-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
     baca.pitches("C5 Bb4"),
 )
 
@@ -164,10 +158,7 @@ commands(
         selector=lambda _: baca.Selection(_).rleaves(),
     ),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
     baca.new(
         baca.pitch("D#3"),
         match=0,

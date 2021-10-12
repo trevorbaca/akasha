@@ -79,10 +79,7 @@ commands(
     ),
     baca.clef("percussion"),
     baca.dynamic('"mf"'),
-    baca.markup(
-        r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
     baca.staff_position(
         0,
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
@@ -94,10 +91,7 @@ commands(
     ("v2", (9, 24)),
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.dynamic("pp-ancora"),
-    baca.markup(
-        r"\baca-leggieriss-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),

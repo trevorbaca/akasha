@@ -122,19 +122,13 @@ commands(
 commands(
     (["v1", "v2", "va"], (7, 10)),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-tasto-plus-xfb-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
 )
 
 commands(
     ("vc", (13, 18)),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-vib-poco-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-vib-poco-markup"),
 )
 
 commands(

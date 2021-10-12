@@ -61,10 +61,7 @@ commands(
     ),
     baca.clef("alto"),
     baca.dynamic('"mf"'),
-    baca.markup(
-        r"\akasha-ob-plus-terminate-each-note-abruptly-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-ob-plus-terminate-each-note-abruptly-markup"),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -74,10 +71,7 @@ commands(
     baca.clef("bass"),
     baca.dynamic("pp"),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r"\akasha-pos-ord-plus-vib-poco-markup",
-        literal=True,
-    ),
+    baca.markup(r"\akasha-pos-ord-plus-vib-poco-markup"),
     baca.pitch("Bb1"),
 )
 

@@ -109,10 +109,7 @@ commands(
 commands(
     (["v1", "v2", "vc"], (1, 2)),
     baca.dynamic("p"),
-    baca.markup(
-        r"\baca-xfb-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-xfb-markup"),
 )
 
 commands(
@@ -158,10 +155,7 @@ commands(
     baca.pitches("D#3 C+3", exact=True),
     baca.glissando(),
     baca.hairpin("mp > pp"),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
     baca.staff_lines(5),
 )
 
@@ -170,10 +164,7 @@ commands(
     baca.pitches("C#2 Bb1", exact=True),
     baca.glissando(),
     baca.hairpin("mp > pp"),
-    baca.markup(
-        r"\baca-tasto-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-tasto-markup"),
 )
 
 if __name__ == "__main__":
