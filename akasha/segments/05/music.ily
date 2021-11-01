@@ -30,13 +30,13 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.1]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.1]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
-    - \baca-start-xnm-colored-left-only "14-D" magenta
+    - \baca-start-xnm-colored-left-only "14-D" #magenta
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -413,13 +413,13 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.3]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.3]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
-    - \baca-start-xnm-colored-left-only "15-DE" magenta
+    - \baca-start-xnm-colored-left-only "15-DE" #magenta
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -772,7 +772,7 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.5]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.5]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -976,7 +976,7 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.7]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.7]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -1327,13 +1327,13 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.9]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.9]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
-    - \baca-start-xnm-colored-left-only "16-E[d]" magenta
+    - \baca-start-xnm-colored-left-only "16-E[d]" #magenta
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -1441,7 +1441,7 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.10]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.10]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -1572,13 +1572,13 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.12]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.12]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
-    - \baca-start-xnm-colored-left-only "17-CE" magenta
+    - \baca-start-xnm-colored-left-only "17-CE" #magenta
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -1799,13 +1799,13 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.14]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.14]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
-    - \baca-start-xnm-colored-left-only "18-CDE" magenta
+    - \baca-start-xnm-colored-left-only "18-CDE" #magenta
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -1965,7 +1965,7 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.15]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.15]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -2105,7 +2105,7 @@ segment.05.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[05.16]" darkcyan
+    - \baca-start-snm-colored-left-only "[05.16]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM

@@ -276,7 +276,7 @@ def make_moment_markup(moment_tokens):
     moment_markup = []
     start_measure = 1
     for moment_number, measure_count, string in moment_tokens:
-        moment_markup_ = (f"{moment_number}-{string}", start_measure, "magenta")
+        moment_markup_ = (f"{moment_number}-{string}", start_measure, "#magenta")
         moment_markup.append(moment_markup_)
         start_measure += measure_count
     return moment_markup
@@ -289,7 +289,7 @@ def make_stage_markup(segment_number, stage_tokens):
         stage_markup_ = (
             f"[{segment_number}.{stage_number}]",
             start_measure,
-            "darkcyan",
+            "#darkcyan",
         )
         stage_markup.append(stage_markup_)
         start_measure += measure_count

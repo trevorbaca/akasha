@@ -30,13 +30,13 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[03.1]" darkcyan
+    - \baca-start-snm-colored-left-only "[03.1]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
-    - \baca-start-xnm-colored-left-only "7-ABC" magenta
+    - \baca-start-xnm-colored-left-only "7-ABC" #magenta
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -179,7 +179,7 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[03.2]" darkcyan
+    - \baca-start-snm-colored-left-only "[03.2]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -266,7 +266,7 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[03.4]" darkcyan
+    - \baca-start-snm-colored-left-only "[03.4]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -353,7 +353,7 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[03.6]" darkcyan
+    - \baca-start-snm-colored-left-only "[03.6]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
@@ -443,13 +443,13 @@ segment.03.Global.Skips = {
     %@% \bacaStartTextSpanMN
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
-    - \baca-start-snm-colored-left-only "[03.8]" darkcyan
+    - \baca-start-snm-colored-left-only "[03.8]" #darkcyan
     %! STAGE_NUMBER
     %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
-    - \baca-start-xnm-colored-left-only "8-CD" magenta
+    - \baca-start-xnm-colored-left-only "8-CD" #magenta
     %! MOMENT_NUMBER
     %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM

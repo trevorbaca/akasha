@@ -1,6 +1,6 @@
 % Akasha (2015) for string quartet
 
-\version "2.23.1"
+\version "2.20.0"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
