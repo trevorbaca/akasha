@@ -3,7 +3,6 @@
 \version "2.20.0"
 \language "english"
 
-#(ly:set-option 'relative-includes #t)
 \include "stylesheet.ily"
 \include "_segments/01.ily"
 \include "_segments/02.ily"
