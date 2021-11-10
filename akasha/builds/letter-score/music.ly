@@ -1,7 +1,6 @@
 % Akasha (2015) for string quartet
 
 \version "2.20.0"
-\language "english"
 
 \include "stylesheet.ily"
 \include "_segments/01.ily"
