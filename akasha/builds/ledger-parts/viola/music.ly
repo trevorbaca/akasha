@@ -1,7 +1,6 @@
 % Akasha (2015) viola part
 
 \version "2.19.35"
-\language "english"
 
 \include "../parts.ily"
 
