@@ -1,7 +1,7 @@
 import baca
 from abjadext import rmakers
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 11 ##########################################
@@ -11,21 +11,21 @@ stage_markup = (("[J.1]", 1),)
 
 fermata_measures = [4]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "A",
         count=4,
         fermata_measures=fermata_measures,
         rotation=6,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -39,7 +39,7 @@ commands(
 
 commands(
     ("v2", 1),
-    akasha.scratch_rhythm(
+    library.scratch_rhythm(
         [4],
         rmakers.force_rest(
             baca.selectors.lts((None, -1)),
@@ -50,7 +50,7 @@ commands(
 
 commands(
     ("vc", 1),
-    akasha.scratch_rhythm(
+    library.scratch_rhythm(
         [4],
         rmakers.force_rest(
             baca.selectors.lts(omit=[1]),
@@ -61,7 +61,7 @@ commands(
 
 commands(
     ("v1", 2),
-    akasha.scratch_rhythm(
+    library.scratch_rhythm(
         [4],
         rmakers.force_rest(
             baca.selectors.lts((1, None)),
@@ -72,7 +72,7 @@ commands(
 
 commands(
     ("v2", 2),
-    akasha.scratch_rhythm(
+    library.scratch_rhythm(
         [4],
         rmakers.force_rest(
             baca.selectors.lts(omit=[2]),
@@ -83,7 +83,7 @@ commands(
 
 commands(
     ("v1", 3),
-    akasha.scratch_rhythm(
+    library.scratch_rhythm(
         [4],
         rmakers.force_rest(
             baca.selectors.lts((1, None)),
@@ -94,7 +94,7 @@ commands(
 
 commands(
     ("v2", 3),
-    akasha.scratch_rhythm(
+    library.scratch_rhythm(
         [4],
         rmakers.force_rest(
             baca.selectors.lts((None, -1)),
@@ -105,7 +105,7 @@ commands(
 
 commands(
     ("vc", 3),
-    akasha.scratch_rhythm(
+    library.scratch_rhythm(
         [4],
         rmakers.force_rest(
             baca.selectors.lts(omit=[1]),
@@ -117,15 +117,15 @@ commands(
 commands(
     (["v1", "v2", "vc"], (1, 3)),
     baca.new(
-        akasha.getato_pitches(5, [2]),
+        library.getato_pitches(5, [2]),
         match=0,
     ),
     baca.new(
-        akasha.getato_pitches(-3, [2]),
+        library.getato_pitches(-3, [2]),
         match=1,
     ),
     baca.new(
-        akasha.getato_pitches(-13, [2]),
+        library.getato_pitches(-13, [2]),
         match=2,
     ),
     baca.dynamic("ff"),

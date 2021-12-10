@@ -1,6 +1,6 @@
 import baca
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 05 ##########################################
@@ -14,7 +14,7 @@ moment_tokens = (
     (18, 9, "CDE"),
 )
 
-moment_markup = akasha.make_moment_markup(moment_tokens)
+moment_markup = library.make_moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 8 + 1),
@@ -28,25 +28,25 @@ stage_tokens = (
     (15, 3),
     (16, 1 + 1),
 )
-stage_markup = akasha.make_stage_markup("05", stage_tokens)
+stage_markup = library.make_stage_markup("05", stage_tokens)
 
 fermata_measures = [9, 18, 23, 32, 37, 42, 51]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "B",
         count=51,
         fermata_measures=fermata_measures,
         rotation=12,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -113,7 +113,7 @@ commands(
         ("va", (24, 31)),
         ("vc", (33, 36)),
     ],
-    akasha.material("D"),
+    library.material("D"),
     baca.make_repeat_tied_notes(),
 )
 
@@ -126,44 +126,44 @@ commands(
         (["v1", "va", "vc"], (38, 41)),
         (["v1", "va"], (43, 46)),
     ],
-    akasha.material("E"),
-    akasha.untied_notes(),
+    library.material("E"),
+    library.untied_notes(),
 )
 
 commands(
     ("va", (33, 35)),
-    akasha.untied_notes(),
+    library.untied_notes(),
 )
 
 commands(
     ("va", 36),
-    akasha.glissando_rhythm(),
+    library.glissando_rhythm(),
 )
 
 commands(
     ("va", (33, 36)),
-    akasha.material("D"),
+    library.material("D"),
 )
 
 commands(
     ("v2", [(38, 39), (43, 44)]),
-    akasha.material("C", baca.selectors.rleaves()),
+    library.material("C", baca.selectors.rleaves()),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
     ("vc", (43, 49)),
-    akasha.untied_notes(),
+    library.untied_notes(),
 )
 
 commands(
     ("vc", 50),
-    akasha.glissando_rhythm(),
+    library.glissando_rhythm(),
 )
 
 commands(
     ("vc", (43, 50)),
-    akasha.material("D"),
+    library.material("D"),
 )
 
 commands(
@@ -202,27 +202,27 @@ commands(
 
 commands(
     ("v1", (19, 22)),
-    akasha.harmonic_glissando_pitches("A4"),
+    library.harmonic_glissando_pitches("A4"),
 )
 
 commands(
     ("v1", (24, 31)),
-    akasha.harmonic_glissando_pitches("A4", rotation=-6),
+    library.harmonic_glissando_pitches("A4", rotation=-6),
 )
 
 commands(
     ("v1", (33, 36)),
-    akasha.harmonic_glissando_pitches("A4", rotation=-12),
+    library.harmonic_glissando_pitches("A4", rotation=-12),
 )
 
 commands(
     ("v1", (38, 41)),
-    akasha.harmonic_glissando_pitches("A4", rotation=-18),
+    library.harmonic_glissando_pitches("A4", rotation=-18),
 )
 
 commands(
     ("v1", (43, 46)),
-    akasha.harmonic_glissando_pitches("A4", rotation=-24),
+    library.harmonic_glissando_pitches("A4", rotation=-24),
 )
 
 commands(
@@ -238,22 +238,22 @@ commands(
 
 commands(
     ("v2", (10, 17)),
-    akasha.harmonic_glissando_pitches("A4"),
+    library.harmonic_glissando_pitches("A4"),
 )
 
 commands(
     ("v2", (19, 22)),
-    akasha.harmonic_glissando_pitches("A4", rotation=-6),
+    library.harmonic_glissando_pitches("A4", rotation=-6),
 )
 
 commands(
     ("v2", (24, 31)),
-    akasha.harmonic_glissando_pitches("A4", rotation=-12),
+    library.harmonic_glissando_pitches("A4", rotation=-12),
 )
 
 commands(
     ("v2", (33, 36)),
-    akasha.harmonic_glissando_pitches("A4", rotation=-18),
+    library.harmonic_glissando_pitches("A4", rotation=-18),
 )
 
 commands(
@@ -301,12 +301,12 @@ commands(
 
 commands(
     ("va", (38, 41)),
-    akasha.harmonic_glissando_pitches("Ab3"),
+    library.harmonic_glissando_pitches("Ab3"),
 )
 
 commands(
     ("va", (43, 46)),
-    akasha.harmonic_glissando_pitches("Ab3", rotation=-6),
+    library.harmonic_glissando_pitches("Ab3", rotation=-6),
 )
 
 commands(
@@ -331,7 +331,7 @@ commands(
 
 commands(
     ("vc", (24, 31)),
-    akasha.harmonic_glissando_pitches("G2"),
+    library.harmonic_glissando_pitches("G2"),
 )
 
 commands(
@@ -352,7 +352,7 @@ commands(
 
 commands(
     ("vc", (38, 41)),
-    akasha.harmonic_glissando_pitches("G2", rotation=-6),
+    library.harmonic_glissando_pitches("G2", rotation=-6),
 )
 
 commands(

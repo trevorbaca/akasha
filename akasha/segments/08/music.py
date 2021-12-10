@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 08 ##########################################
@@ -13,7 +13,7 @@ moment_tokens = (
     (28, 3, "EB"),
 )
 
-moment_markup = akasha.make_moment_markup(moment_tokens)
+moment_markup = library.make_moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 4),
@@ -23,25 +23,25 @@ stage_tokens = (
     (6, 2),
     (7, 1),
 )
-stage_markup = akasha.make_stage_markup("08", stage_tokens)
+stage_markup = library.make_stage_markup("08", stage_tokens)
 
 fermata_measures = [14]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "B",
         count=17,
         fermata_measures=fermata_measures,
         rotation=18,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -89,11 +89,11 @@ commands(
 
 commands(
     ("v1", (1, 4)),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
@@ -145,27 +145,27 @@ commands(
 
 commands(
     ("v1", [(5, 13), (15, 17)]),
-    akasha.material("B", baca.selectors.rleaves()),
+    library.material("B", baca.selectors.rleaves()),
 )
 
 commands(
     (["v2", "vc"], [(1, 13), (15, 17)]),
-    akasha.material("B", baca.selectors.rleaves()),
+    library.material("B", baca.selectors.rleaves()),
 )
 
 commands(
     ("va", (1, 13)),
-    akasha.material("B", baca.selectors.rleaves()),
+    library.material("B", baca.selectors.rleaves()),
 )
 
 commands(
     ("va", (15, 17)),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("v1", (1, 4)),
-    akasha.getato_pitches(31, [2]),
+    library.getato_pitches(31, [2]),
     baca.hairpin(
         "pp >o niente",
         selector=baca.selectors.tleaves(),

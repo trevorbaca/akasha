@@ -1,7 +1,7 @@
 import baca
 from abjadext import rmakers
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 07 ##########################################
@@ -15,7 +15,7 @@ moment_tokens = (
     (25, 4, "A[E]"),
 )
 
-moment_markup = akasha.make_moment_markup(moment_tokens)
+moment_markup = library.make_moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 2),
@@ -31,25 +31,25 @@ stage_tokens = (
     (17, 1 + 1),
     (19, 1 + 1),
 )
-stage_markup = akasha.make_stage_markup("07", stage_tokens)
+stage_markup = library.make_stage_markup("07", stage_tokens)
 
 fermata_measures = [5, 7, 10, 35, 42, 44, 46, 48]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "A",
         count=48,
         fermata_measures=fermata_measures,
         rotation=9,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -136,83 +136,83 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    akasha.cello_solo_rhythm(),
+    library.cello_solo_rhythm(),
     baca.clef("bass"),
-    akasha.material("B"),
+    library.material("B"),
 )
 
 commands(
     ("v1", (3, 4)),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
     ),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
     ("v2", (3, 4)),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
     ),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
     ("vc", (3, 4)),
     baca.clef("treble"),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
     ),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
     ("va", 6),
     baca.make_repeat_tied_notes(),
-    akasha.material("A", baca.selectors.rleaves()),
+    library.material("A", baca.selectors.rleaves()),
 )
 
 commands(
     ("v1", (8, 9)),
-    akasha.accelerando_rhythm(
+    library.accelerando_rhythm(
         rmakers.force_rest(
             baca.selectors.lts([1, 6]),
         ),
         fuse_counts=[1, 2],
     ),
-    akasha.material("C"),
+    library.material("C"),
 )
 
 commands(
     ("v2", (8, 9)),
-    akasha.ritardando_rhythm(
+    library.ritardando_rhythm(
         rmakers.force_rest(
             baca.selectors.lts([2, 5]),
         ),
     ),
-    akasha.material("C"),
+    library.material("C"),
 )
 
 commands(
     ("v1", (11, 22)),
-    akasha.growth(
+    library.growth(
         division_ratio=(2, 1, 2, 2, 1, 2),
         extra_counts=[1],
         first_silence=1,
     ),
-    akasha.material("C"),
+    library.material("C"),
 )
 
 commands(
     ("v2", (11, 22)),
-    akasha.growth(
+    library.growth(
         division_ratio=(1, 1, 2, 2, 1, 2),
         first_silence=2,
     ),
-    akasha.material("C"),
+    library.material("C"),
 )
 
 commands(
@@ -225,12 +225,12 @@ commands(
 
 commands(
     ("va", (11, 26)),
-    akasha.manifest([2, 1, 2, 1, 1, 3, 2, 1, 7]),
+    library.manifest([2, 1, 2, 1, 1, 3, 2, 1, 7]),
 )
 
 commands(
     ("vc", (11, 26)),
-    akasha.manifest([1, 3, 4, 1, 2, 3, 6]),
+    library.manifest([1, 3, 4, 1, 2, 3, 6]),
 )
 
 commands(
@@ -245,59 +245,59 @@ commands(
 
 commands(
     (["va", "vc"], (11, 34)),
-    akasha.material("B"),
+    library.material("B"),
 )
 
 commands(
     (["v1", "v2"], (23, 34)),
-    akasha.material("B"),
+    library.material("B"),
 )
 
 commands(
     ("v1", (36, 41)),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
     ("v2", (36, 41)),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
     ),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
     ("va", (36, 41)),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
     ),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
     ("vc", (36, 41)),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
     ),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
     ("va", 43),
     baca.make_repeat_tied_notes(),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("v1", 45),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
@@ -305,7 +305,7 @@ commands(
 
 commands(
     ("v2", 45),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
     ),
@@ -313,7 +313,7 @@ commands(
 
 commands(
     ("va", 45),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
     ),
@@ -321,7 +321,7 @@ commands(
 
 commands(
     ("vc", 45),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
     ),
@@ -329,37 +329,37 @@ commands(
 
 commands(
     (["v1", "v2", "va", "vc"], 45),
-    akasha.material("A"),
+    library.material("A"),
 )
 
 commands(
     ("va", 47),
     baca.make_repeat_tied_notes(),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("vc", (1, 2)),
-    akasha.cello_solo_pitches(transposition=1),
+    library.cello_solo_pitches(transposition=1),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
 )
 
 commands(
     ("v1", (3, 4)),
-    akasha.getato_pitches(27, [2]),
+    library.getato_pitches(27, [2]),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
 commands(
     ("v2", (3, 4)),
-    akasha.getato_pitches(24, [2]),
+    library.getato_pitches(24, [2]),
     baca.staccato(selector=baca.selectors.pheads()),
 )
 
 commands(
     ("vc", (3, 4)),
-    akasha.getato_pitches(21, [2]),
+    library.getato_pitches(21, [2]),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.dynamic("pp"),
     baca.staccato(selector=baca.selectors.pheads()),
@@ -469,7 +469,7 @@ commands(
 
 commands(
     ("v1", (36, 41)),
-    akasha.getato_pitches(29, [2]),
+    library.getato_pitches(29, [2]),
     baca.hairpin(
         "ff < fff",
         selector=baca.selectors.tleaves(),
@@ -480,7 +480,7 @@ commands(
 
 commands(
     ("v2", (36, 41)),
-    akasha.getato_pitches(26, [2]),
+    library.getato_pitches(26, [2]),
     baca.hairpin(
         "ff < fff",
         selector=baca.selectors.tleaves(),
@@ -491,7 +491,7 @@ commands(
 
 commands(
     ("va", (36, 41)),
-    akasha.getato_pitches(23, [2]),
+    library.getato_pitches(23, [2]),
     baca.clef("treble"),
     baca.hairpin(
         "ff < fff",
@@ -503,7 +503,7 @@ commands(
 
 commands(
     ("vc", (36, 41)),
-    akasha.getato_pitches(20, [2]),
+    library.getato_pitches(20, [2]),
     baca.clef("treble"),
     baca.hairpin(
         "ff < fff",
@@ -539,7 +539,7 @@ commands(
 
 commands(
     ("v1", 45),
-    akasha.getato_pitches(29, [2]),
+    library.getato_pitches(29, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
@@ -547,7 +547,7 @@ commands(
 
 commands(
     ("v2", 45),
-    akasha.getato_pitches(26, [2]),
+    library.getato_pitches(26, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
@@ -555,7 +555,7 @@ commands(
 
 commands(
     ("va", 45),
-    akasha.getato_pitches(23, [2]),
+    library.getato_pitches(23, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staff_lines(5),
@@ -564,7 +564,7 @@ commands(
 
 commands(
     ("vc", 45),
-    akasha.getato_pitches(20, [2]),
+    library.getato_pitches(20, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
