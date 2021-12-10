@@ -1,6 +1,6 @@
 import baca
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 09 ##########################################
@@ -8,7 +8,7 @@ from akasha import library as akasha
 
 moment_tokens = ((29, 7, "BCD[E]"),)
 
-moment_markup = akasha.make_moment_markup(moment_tokens)
+moment_markup = library.make_moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 2),
@@ -16,25 +16,25 @@ stage_tokens = (
     (4, 2 + 1),
 )
 
-stage_markup = akasha.make_stage_markup("09", stage_tokens)
+stage_markup = library.make_stage_markup("09", stage_tokens)
 
 fermata_measures = [4, 7]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "A",
         count=7,
         fermata_measures=fermata_measures,
         rotation=12,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -66,44 +66,44 @@ commands(
 
 commands(
     ("v1", (1, 2)),
-    akasha.accelerando_rhythm(
+    library.accelerando_rhythm(
         fuse_counts=[1, 2],
     ),
 )
 
 commands(
     ("v2", (1, 2)),
-    akasha.ritardando_rhythm(),
+    library.ritardando_rhythm(),
 )
 
 commands(
     ("va", (1, 3)),
     baca.make_repeat_tied_notes(),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("vc", (1, 2)),
-    akasha.ritardando_rhythm(
+    library.ritardando_rhythm(
         preprocessor=lambda _: baca.Sequence(_).fuse(),
     ),
 )
 
 commands(
     (["v1", "v2", "vc"], (1, 2)),
-    akasha.material("C"),
+    library.material("C"),
 )
 
 commands(
     (["v1", "v2", "vc"], 3),
     baca.make_repeat_tied_notes(),
-    akasha.material("B", baca.selectors.rleaves()),
+    library.material("B", baca.selectors.rleaves()),
 )
 
 commands(
     (["va", "vc"], (5, 6)),
-    akasha.glissando_rhythm(),
-    akasha.material("D"),
+    library.glissando_rhythm(),
+    library.material("D"),
 )
 
 commands(

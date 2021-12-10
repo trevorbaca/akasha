@@ -1,34 +1,34 @@
 import baca
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 01 ##########################################
 #########################################################################################
 
 moment_tokens = ((1, 2 + 1, "E"),)
-moment_markup = akasha.make_moment_markup(moment_tokens)
+moment_markup = library.make_moment_markup(moment_tokens)
 
 stage_tokens = ((1, 2 + 1),)
-stage_markup = akasha.make_stage_markup("01", stage_tokens)
+stage_markup = library.make_stage_markup("01", stage_tokens)
 
 fermata_measures = [-1]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "B",
         count=3,
         fermata_measures=fermata_measures,
         rotation=0,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -48,7 +48,7 @@ commands(
     "v1",
     baca.staff_lines(5),
     baca.suite(
-        akasha.margin_markup("Vn. I"),
+        library.margin_markup("Vn. I"),
         baca.start_markup("Violin I", hcenter_in=14),
     ),
 )
@@ -59,7 +59,7 @@ commands(
     "v2",
     baca.staff_lines(5),
     baca.suite(
-        akasha.margin_markup("Vn. II"),
+        library.margin_markup("Vn. II"),
         baca.start_markup("Violin II", hcenter_in=14),
     ),
 )
@@ -69,14 +69,14 @@ commands(
 commands(
     "va",
     baca.suite(
-        akasha.margin_markup("Va."),
+        library.margin_markup("Va."),
         baca.start_markup("Viola", hcenter_in=14),
     ),
 )
 
 commands(
     ("va", (1, 2)),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
     baca.staff_lines(1),
     baca.down_bow(),
     baca.dynamic('"mf"'),
@@ -91,7 +91,7 @@ commands(
     "vc",
     baca.staff_lines(5),
     baca.suite(
-        akasha.margin_markup("Vc."),
+        library.margin_markup("Vc."),
         baca.start_markup("Cello", hcenter_in=14),
     ),
 )

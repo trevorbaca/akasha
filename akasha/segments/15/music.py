@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 15 ##########################################
@@ -16,21 +16,21 @@ stage_markup = (
 
 fermata_measures = [-1]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "B",
         count=25,
         fermata_measures=fermata_measures,
         rotation=30,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -65,7 +65,7 @@ commands(
 
 commands(
     ("v2", (9, 24)),
-    akasha.sparse_getato_rhythm(
+    library.sparse_getato_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets(~abjad.Pattern([3, 36, 37])),
         ),
@@ -89,7 +89,7 @@ commands(
 
 commands(
     ("v2", (9, 24)),
-    akasha.getato_pitches(29, direction=abjad.Down),
+    library.getato_pitches(29, direction=abjad.Down),
     baca.dynamic("pp-ancora"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(

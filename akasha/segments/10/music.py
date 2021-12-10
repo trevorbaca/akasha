@@ -1,6 +1,6 @@
 import baca
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 10 ##########################################
@@ -13,7 +13,7 @@ moment_tokens = (
     (33, 7, "B(A)"),
 )
 
-moment_markup = akasha.make_moment_markup(moment_tokens)
+moment_markup = library.make_moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 2 + 1),
@@ -33,25 +33,25 @@ stage_tokens = (
     (18, 2 + 1),
 )
 
-stage_markup = akasha.make_stage_markup("09", stage_tokens)
+stage_markup = library.make_stage_markup("09", stage_tokens)
 
 fermata_measures = [3, 27, 30, -1]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "A",
         count=37,
         fermata_measures=fermata_measures,
         rotation=15,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -148,7 +148,7 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("PO + senza vib. => vib. moltiss."),
-    akasha.material("D", baca.selectors.rleaves()),
+    library.material("D", baca.selectors.rleaves()),
 )
 
 commands(
@@ -156,7 +156,7 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("senza vib. => vib. moltiss."),
-    akasha.material("D", baca.selectors.rleaves()),
+    library.material("D", baca.selectors.rleaves()),
 )
 
 commands(
@@ -164,75 +164,75 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("senza vib. => vib. moltiss."),
-    akasha.material("D", baca.selectors.rleaves()),
+    library.material("D", baca.selectors.rleaves()),
 )
 
 commands(
     ("vc", (13, 14)),
     baca.make_repeat_tied_notes(),
-    akasha.material("D", baca.selectors.rleaves()),
+    library.material("D", baca.selectors.rleaves()),
 )
 
 commands(
     ("va", (4, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("v1", (8, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("v2", (13, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     ("vc", (17, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
-    akasha.material("E", baca.selectors.rleaves()),
+    library.material("E", baca.selectors.rleaves()),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (21, 22)),
     baca.make_repeat_tied_notes(),
-    akasha.material("B", baca.selectors.rleaves()),
+    library.material("B", baca.selectors.rleaves()),
 )
 
 commands(
     ("v1", (23, 24)),
-    akasha.dense_getato_rhythm(
+    library.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
-    akasha.material("A", baca.selectors.rleaves()),
+    library.material("A", baca.selectors.rleaves()),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (25, 26)),
     baca.make_repeat_tied_notes(),
-    akasha.material("B", baca.selectors.rleaves()),
+    library.material("B", baca.selectors.rleaves()),
 )
 
 commands(
     ("v1", (28, 29)),
-    akasha.accelerando_rhythm(
+    library.accelerando_rhythm(
         fuse_counts=[1, 2],
     ),
 )
 
 commands(
     ("v2", (28, 29)),
-    akasha.ritardando_rhythm(),
+    library.ritardando_rhythm(),
 )
 
 commands(
     ("va", (28, 29)),
-    akasha.accelerando_rhythm(
+    library.accelerando_rhythm(
         fuse_counts=[1, 2],
         preprocessor=lambda _: baca.Sequence(_).fuse(),
     ),
@@ -240,20 +240,20 @@ commands(
 
 commands(
     ("vc", (28, 29)),
-    akasha.ritardando_rhythm(
+    library.ritardando_rhythm(
         preprocessor=lambda _: baca.Sequence(_).fuse(),
     ),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (28, 29)),
-    akasha.material("C", baca.selectors.rleaves()),
+    library.material("C", baca.selectors.rleaves()),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
     baca.make_repeat_tied_notes(),
-    akasha.material("B", baca.selectors.rleaves()),
+    library.material("B", baca.selectors.rleaves()),
 )
 
 commands(
@@ -427,7 +427,7 @@ commands(
 
 commands(
     ("v1", (23, 24)),
-    akasha.getato_pitches(31, [2]),
+    library.getato_pitches(31, [2]),
     baca.dynamic("ppp"),
     baca.markup(r"\akasha-leggieriss-plus-po-markup"),
     baca.staccato(selector=baca.selectors.pheads()),

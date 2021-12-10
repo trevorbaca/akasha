@@ -1,6 +1,6 @@
 import baca
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 14 ##########################################
@@ -21,21 +21,21 @@ stage_markup = (
 
 fermata_measures = [-1]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "A",
         count=29,
         fermata_measures=fermata_measures,
         rotation=21,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 

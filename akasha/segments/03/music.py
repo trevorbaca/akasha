@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from akasha import library as akasha
+from akasha import library
 
 #########################################################################################
 ########################################### 03 ##########################################
@@ -13,7 +13,7 @@ moment_tokens = (
     (8, 2, "CD"),
 )
 
-moment_markup = akasha.make_moment_markup(moment_tokens)
+moment_markup = library.make_moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 3),
@@ -22,26 +22,26 @@ stage_tokens = (
     (6, 1 + 1),
     (8, 2),
 )
-stage_markup = akasha.make_stage_markup("03", stage_tokens)
+stage_markup = library.make_stage_markup("03", stage_tokens)
 
 
 fermata_measures = [5, 7, 9]
 
-score = akasha.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=akasha.instruments,
-    margin_markups=akasha.margin_markups,
-    metronome_marks=akasha.metronome_marks,
-    time_signatures=akasha.time_signatures(
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures(
         "B",
         count=11,
         fermata_measures=fermata_measures,
         rotation=6,
     ),
-    voice_abbreviations=akasha.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -63,8 +63,8 @@ commands(
 
 commands(
     ("v1", (1, 3)),
-    akasha.material("C"),
-    akasha.accelerando_rhythm(
+    library.material("C"),
+    library.accelerando_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets((-2, None)),
         ),
@@ -78,8 +78,8 @@ commands(
 
 commands(
     ("v2", (1, 3)),
-    akasha.material("B"),
-    akasha.polyphony_rhythm(),
+    library.material("B"),
+    library.polyphony_rhythm(),
     baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
@@ -87,8 +87,8 @@ commands(
 
 commands(
     ("va", (1, 3)),
-    akasha.material("B"),
-    akasha.polyphony_rhythm(
+    library.material("B"),
+    library.polyphony_rhythm(
         rmakers.force_rest(
             baca.selectors.lts((None, 2)),
         ),
@@ -99,8 +99,8 @@ commands(
 
 commands(
     ("vc", (1, 4)),
-    akasha.material("A"),
-    akasha.sparse_getato_rhythm(
+    library.material("A"),
+    library.sparse_getato_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets(~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
         ),
@@ -111,8 +111,8 @@ commands(
 
 commands(
     ("vc", 6),
-    akasha.material("A"),
-    akasha.sparse_getato_rhythm(
+    library.material("A"),
+    library.sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-4,
@@ -121,8 +121,8 @@ commands(
 
 commands(
     ("vc", 8),
-    akasha.material("A"),
-    akasha.sparse_getato_rhythm(
+    library.material("A"),
+    library.sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-8,
@@ -131,7 +131,7 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    akasha.getato_pitches(-2, [-3], direction=abjad.Down),
+    library.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.beam_positions(-4),
     baca.staccato(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
@@ -141,8 +141,8 @@ commands(
 
 commands(
     ("v2", (10, 11)),
-    akasha.material("C"),
-    akasha.accelerando_rhythm(
+    library.material("C"),
+    library.accelerando_rhythm(
         rmakers.force_rest(baca.selectors.lt(3)),
         fuse_counts=[2, 1],
     ),
@@ -153,7 +153,7 @@ commands(
 
 commands(
     (["va", "vc"], 11),
-    akasha.material(
+    library.material(
         "D",
         selector=lambda _: baca.Selection(_).rleaves(),
     ),
