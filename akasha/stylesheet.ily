@@ -68,44 +68,6 @@
     top-margin = 0\mm
 }
 
-\header {
-    composer = \markup {
-        \override #'(font-name . "Palatino")
-        \fontsize #5
-        \line { Trevor Bača (*1975) \hspace #15 }
-    }
-    tagline = \markup { "" }
-    title = \markup \column {
-        \center-align {
-            \override #'(font-name . "Palatino")
-            \fontsize #3
-            \line {
-                \hspace #2
-                A \hspace #8
-                K \hspace #8
-                A \hspace #8
-                S \hspace #8
-                H \hspace #8
-                A
-            }
-            " "
-            \override #'(font-name . "Shree Devanagari 714")
-            \fontsize #18
-            \line { आकाश    }
-            " "
-            \override #'(font-name . "Palatino Italic")
-            \fontsize #3
-            \line {
-                \hspace #2
-                for \hspace #1
-                the \hspace #1
-                JACK \hspace #1
-                Quartet
-            }
-        }
-    }
-}
-
 \layout {
     \accidentalStyle neo-modern
     indent = 0
