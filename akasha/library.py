@@ -1,3 +1,4 @@
+import dataclasses
 import inspect
 
 import abjad
@@ -577,7 +578,7 @@ def material(letter, selector=baca.selectors.leaves()):
     tag = baca.tags.COLORED_PHRASING_SLUR
     tags = literal.tags
     tags.append(tag)
-    literal = abjad.new(literal, tags=tags)
+    literal = dataclasses.replace(literal, tags=tags)
     slur = baca.slur(
         phrasing_slur=True,
         selector=selector,
@@ -585,7 +586,7 @@ def material(letter, selector=baca.selectors.leaves()):
     tag = baca.tags.COLORED_PHRASING_SLUR
     tags = slur.tags
     tags.append(tag)
-    slur = abjad.new(slur, tags=tags)
+    slur = dataclasses.replace(slur, tags=tags)
     return baca.suite(
         literal,
         slur,
