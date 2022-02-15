@@ -222,7 +222,7 @@ def growth(first_silence, division_ratio, extra_counts=None):
 
     return baca.rhythm(
         rmakers.bind(
-            rmakers.assign(accelerando_, abjad.DurationInequality(">", (1, 4))),
+            rmakers.assign(accelerando_, lambda _: _ > abjad.Duration((1, 4))),
             rmakers.assign(talea),
         ),
         preprocessor=preprocessor,
