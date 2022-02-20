@@ -51,7 +51,7 @@ metronome_marks = dict(
 time_signature_series = dict()
 
 numerators = baca.Sequence([[3, 3, 4, 5], [4, 6, 6]])
-groups = numerators.helianthate(-1, 1)
+groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(groups) == 24
 lengths = [len(_) for _ in groups]
 numerators = baca.Sequence(groups).flatten(depth=-1)
@@ -60,7 +60,7 @@ groups = baca.Sequence(_time_signatures).partition_by_counts(lengths)
 time_signature_series["A"] = groups
 
 numerators = baca.Sequence([[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]])
-groups = numerators.helianthate(-1, 1)
+groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(groups) == 36
 lengths = [len(_) for _ in groups]
 numerators = baca.Sequence(groups).flatten(depth=-1)
