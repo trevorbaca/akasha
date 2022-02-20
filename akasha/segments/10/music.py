@@ -234,14 +234,14 @@ commands(
     ("va", (28, 29)),
     library.accelerando_rhythm(
         fuse_counts=[1, 2],
-        preprocessor=lambda _: baca.Sequence(_).fuse(),
+        preprocessor=lambda _: baca.sequence.fuse(_),
     ),
 )
 
 commands(
     ("vc", (28, 29)),
     library.ritardando_rhythm(
-        preprocessor=lambda _: baca.Sequence(_).fuse(),
+        preprocessor=lambda _: baca.sequence.fuse(_),
     ),
 )
 
