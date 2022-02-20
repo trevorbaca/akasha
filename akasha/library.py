@@ -50,22 +50,22 @@ metronome_marks = dict(
 
 time_signature_series = dict()
 
-numerators = baca.Sequence([[3, 3, 4, 5], [4, 6, 6]])
+numerators = [[3, 3, 4, 5], [4, 6, 6]]
 groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(groups) == 24
 lengths = [len(_) for _ in groups]
-numerators = baca.Sequence(groups).flatten(depth=-1)
+numerators = abjad.Sequence(groups).flatten(depth=-1)
 _time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
-groups = baca.Sequence(_time_signatures).partition_by_counts(lengths)
+groups = abjad.Sequence(_time_signatures).partition_by_counts(lengths)
 time_signature_series["A"] = groups
 
-numerators = baca.Sequence([[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]])
+numerators = [[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]]
 groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(groups) == 36
 lengths = [len(_) for _ in groups]
-numerators = baca.Sequence(groups).flatten(depth=-1)
+numerators = abjad.Sequence(groups).flatten(depth=-1)
 _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
-groups = baca.Sequence(_time_signatures).partition_by_counts(lengths)
+groups = abjad.Sequence(_time_signatures).partition_by_counts(lengths)
 time_signature_series["B"] = groups
 
 # rhythms
@@ -79,11 +79,10 @@ def accelerando_rhythm(*commands, fuse_counts=None, preprocessor=None):
     if preprocessor is None:
 
         def preprocessor(divisions):
-            divisions = baca.Sequence(divisions)
-            divisions = divisions.partition_by_counts(
+            divisions = abjad.Sequence(divisions).partition_by_counts(
                 fuse_counts, cyclic=True, overhang=True
             )
-            return baca.Sequence(sum(_) for _ in divisions)
+            return [sum(_) for _ in divisions]
 
     return baca.rhythm(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
@@ -112,7 +111,7 @@ def cello_solo_rhythm(rotation=None):
     """
     Makes cello solo rhythm.
     """
-    counts = baca.Sequence([7, 1, 10, 2]).rotate(n=rotation)
+    counts = abjad.Sequence([7, 1, 10, 2]).rotate(n=rotation)
     return baca.rhythm(
         rmakers.talea(counts, 16),
         rmakers.beam(),
@@ -128,12 +127,9 @@ def dense_getato_rhythm(fuse_counts, extra_counts, *commands):
     """
 
     def preprocessor(divisions):
-        divisions = baca.Sequence(divisions)
-        divisions = baca.Sequence(
-            baca.Sequence(_).quarters(compound=(3, 2)) for _ in divisions
-        )
-        divisions = divisions.flatten(depth=-1)
-        divisions = divisions.fuse(fuse_counts, cyclic=True)
+        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
+        divisions = abjad.Sequence(divisions).flatten(depth=-1)
+        divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
         return divisions
 
     def selector(argument):
@@ -177,7 +173,7 @@ def glissando_rhythm():
     return baca.rhythm(
         rmakers.tuplet([(8, 1)]),
         rmakers.beam(),
-        preprocessor=lambda _: baca.Sequence(_).fuse(),
+        preprocessor=lambda _: baca.sequence.fuse(_),
         tag=abjad.Tag("akasha.glissando_rhythm()"),
     )
 
@@ -191,12 +187,11 @@ def growth(first_silence, division_ratio, extra_counts=None):
 
     def preprocessor(divisions):
         ratio = abjad.Ratio(division_ratio)
-        divisions = baca.Sequence(divisions)
-        divisions = divisions.fuse()
-        divisions = divisions.split_divisions([(1, 4)], cyclic=True)
-        divisions = divisions.flatten(depth=-1)
+        divisions = baca.sequence.fuse(divisions)
+        divisions = baca.sequence.split_divisions(divisions, [(1, 4)], cyclic=True)
+        divisions = abjad.Sequence(divisions).flatten(depth=-1)
         divisions = divisions.partition_by_ratio_of_lengths(ratio)
-        divisions = divisions.fuse(indices=[1, 3, 5])
+        divisions = baca.sequence.fuse(divisions, indices=[1, 3, 5])
         return divisions
 
     accelerando_ = rmakers.stack(
@@ -241,7 +236,7 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.Up, rotation=None
     if direction == abjad.Down:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
-    pitch_numbers = baca.Sequence(pitch_numbers).rotate(n=rotation)
+    pitch_numbers = abjad.Sequence(pitch_numbers).rotate(n=rotation)
     return baca.pitches(
         pitch_numbers,
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
@@ -257,18 +252,25 @@ def manifest(these_counts):
     counts_ += [14, 8, 22, 16]
     counts_ += [28, 16, 22, 16]
     counts_ += [46, 32, 22, 16]
-    counts = baca.Sequence(counts_)
+    counts = abjad.Sequence(counts_)
     assert len(counts) == 20
     assert sum(these_counts) == len(counts)
     these_counts = counts.partition_by_counts(these_counts, overhang=abjad.Exact)
     these_counts = [sum(_) for _ in these_counts]
+
+    def preprocessor(divisions):
+        result = baca.sequence.fuse(divisions)
+        result = baca.sequence.quarters(result)
+        result = abjad.Sequence(result).flatten(depth=-1)
+        return result
+
     return baca.rhythm(
         rmakers.talea(these_counts, 16, read_talea_once_only=True),
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie((1, 4)),
-        preprocessor=lambda _: baca.Sequence(_).fuse().quarters().flatten(depth=-1),
+        preprocessor=preprocessor,
         tag=abjad.Tag("akasha.manifest()"),
     )
 
@@ -326,7 +328,7 @@ def perforated_counts(*, degree=0, rotation=None):
     else:
         raise ValueError(f"degree must be between 0 and 1: {degree!r}.")
     vector = pattern.get_boolean_vector()
-    parts = baca.Sequence(vector).group_by()
+    parts = abjad.Sequence(vector).group_by()
     for part in parts:
         if part[0] == 0:
             counts.append(-len(part))
@@ -334,14 +336,14 @@ def perforated_counts(*, degree=0, rotation=None):
             counts.extend(part)
         else:
             raise ValueError(part)
-    return baca.Sequence(counts).rotate(n=rotation)
+    return abjad.Sequence(counts).rotate(n=rotation)
 
 
 def polyphony_rhythm(*commands, rotation=0):
     """
     Makes polyphony rhythm.
     """
-    counts = baca.Sequence([4, 14, 4, 6, 18])
+    counts = abjad.Sequence([4, 14, 4, 6, 18])
     counts = counts.rotate(n=rotation)
     return baca.rhythm(
         rmakers.talea(counts, 16),
@@ -362,11 +364,11 @@ def ritardando_rhythm(*commands, preprocessor=None):
     if preprocessor is None:
 
         def preprocessor(divisions):
-            divisions = baca.Sequence(divisions)
+            divisions = abjad.Sequence(divisions)
             divisions = divisions.partition_by_counts(
                 [1, 2], cyclic=True, overhang=True
             )
-            return baca.Sequence(baca.Sequence(_).fuse() for _ in divisions)
+            return [baca.sequence.fuse(_) for _ in divisions]
 
     return baca.rhythm(
         rmakers.accelerando([(1, 8), (1, 2), (1, 16)], [(1, 2), (1, 8), (1, 16)]),
@@ -396,7 +398,7 @@ def sparse_getato_rhythm(*commands, degree=1, extra_counts=[1], rotation=None):
     """
 
     def preprocessor(divisions):
-        return baca.Sequence([baca.Sequence(_).quarters() for _ in divisions])
+        return [baca.sequence.quarters(_) for _ in divisions]
 
     return baca.rhythm(
         rmakers.talea(
@@ -449,11 +451,10 @@ def viola_ob_rhythm(*, rotation=None):
 
     def preprocessor(divisions):
         fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
-        fractions = baca.Sequence(fractions)
+        fractions = abjad.Sequence(fractions)
         fractions = fractions.rotate(n=rotation)
-        divisions = baca.Sequence(divisions)
-        divisions = divisions.fuse()
-        divisions = divisions.split_divisions(fractions, cyclic=True)
+        divisions = baca.sequence.fuse(divisions)
+        divisions = baca.sequence.split_divisions(divisions, fractions, cyclic=True)
         return divisions
 
     def selector(argument):

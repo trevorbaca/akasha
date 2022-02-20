@@ -85,7 +85,7 @@ commands(
 commands(
     ("vc", (1, 2)),
     library.ritardando_rhythm(
-        preprocessor=lambda _: baca.Sequence(_).fuse(),
+        preprocessor=lambda _: baca.sequence.fuse(_),
     ),
 )
 
