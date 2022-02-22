@@ -56,7 +56,7 @@ assert len(groups) == 24
 lengths = [len(_) for _ in groups]
 numerators = abjad.sequence.flatten(groups, depth=-1)
 _time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
-groups = abjad.Sequence(_time_signatures).partition_by_counts(lengths)
+groups = abjad.sequence.partition_by_counts(_time_signatures, lengths)
 time_signature_series["A"] = groups
 
 numerators = [[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]]
@@ -65,7 +65,7 @@ assert len(groups) == 36
 lengths = [len(_) for _ in groups]
 numerators = abjad.sequence.flatten(groups, depth=-1)
 _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
-groups = abjad.Sequence(_time_signatures).partition_by_counts(lengths)
+groups = abjad.sequence.partition_by_counts(_time_signatures, lengths)
 time_signature_series["B"] = groups
 
 # rhythms
@@ -79,8 +79,8 @@ def accelerando_rhythm(*commands, fuse_counts=None, preprocessor=None):
     if preprocessor is None:
 
         def preprocessor(divisions):
-            divisions = abjad.Sequence(divisions).partition_by_counts(
-                fuse_counts, cyclic=True, overhang=True
+            divisions = abjad.sequence.partition_by_counts(
+                divisions, fuse_counts, cyclic=True, overhang=True
             )
             return [sum(_) for _ in divisions]
 
@@ -190,7 +190,7 @@ def growth(first_silence, division_ratio, extra_counts=None):
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(divisions, [(1, 4)], cyclic=True)
         divisions = abjad.sequence.flatten(divisions, depth=-1)
-        divisions = divisions.partition_by_ratio_of_lengths(ratio)
+        divisions = abjad.sequence.partition_by_ratio_of_lengths(divisions, ratio)
         divisions = baca.sequence.fuse(divisions, indices=[1, 3, 5])
         return divisions
 
@@ -252,10 +252,12 @@ def manifest(these_counts):
     counts_ += [14, 8, 22, 16]
     counts_ += [28, 16, 22, 16]
     counts_ += [46, 32, 22, 16]
-    counts = abjad.Sequence(counts_)
+    counts = counts_
     assert len(counts) == 20
     assert sum(these_counts) == len(counts)
-    these_counts = counts.partition_by_counts(these_counts, overhang=abjad.Exact)
+    these_counts = abjad.sequence.partition_by_counts(
+        counts, these_counts, overhang=abjad.Exact
+    )
     these_counts = [sum(_) for _ in these_counts]
 
     def preprocessor(divisions):
@@ -343,7 +345,7 @@ def polyphony_rhythm(*commands, rotation=0):
     """
     Makes polyphony rhythm.
     """
-    counts = abjad.Sequence([4, 14, 4, 6, 18])
+    counts = [4, 14, 4, 6, 18]
     counts = abjad.sequence.rotate(counts, n=rotation)
     return baca.rhythm(
         rmakers.talea(counts, 16),
@@ -364,9 +366,8 @@ def ritardando_rhythm(*commands, preprocessor=None):
     if preprocessor is None:
 
         def preprocessor(divisions):
-            divisions = abjad.Sequence(divisions)
-            divisions = divisions.partition_by_counts(
-                [1, 2], cyclic=True, overhang=True
+            divisions = abjad.sequence.partition_by_counts(
+                divisions, [1, 2], cyclic=True, overhang=True
             )
             return [baca.sequence.fuse(_) for _ in divisions]
 
@@ -451,7 +452,6 @@ def viola_ob_rhythm(*, rotation=None):
 
     def preprocessor(divisions):
         fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
-        fractions = abjad.Sequence(fractions)
         fractions = abjad.sequence.rotate(fractions, n=rotation)
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(divisions, fractions, cyclic=True)
