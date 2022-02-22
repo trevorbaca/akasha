@@ -54,7 +54,7 @@ numerators = [[3, 3, 4, 5], [4, 6, 6]]
 groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(groups) == 24
 lengths = [len(_) for _ in groups]
-numerators = abjad.Sequence(groups).flatten(depth=-1)
+numerators = abjad.sequence.flatten(groups, depth=-1)
 _time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
 groups = abjad.Sequence(_time_signatures).partition_by_counts(lengths)
 time_signature_series["A"] = groups
@@ -63,7 +63,7 @@ numerators = [[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]]
 groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(groups) == 36
 lengths = [len(_) for _ in groups]
-numerators = abjad.Sequence(groups).flatten(depth=-1)
+numerators = abjad.sequence.flatten(groups, depth=-1)
 _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
 groups = abjad.Sequence(_time_signatures).partition_by_counts(lengths)
 time_signature_series["B"] = groups
@@ -111,7 +111,7 @@ def cello_solo_rhythm(rotation=None):
     """
     Makes cello solo rhythm.
     """
-    counts = abjad.Sequence([7, 1, 10, 2]).rotate(n=rotation)
+    counts = abjad.sequence.rotate([7, 1, 10, 2], n=rotation)
     return baca.rhythm(
         rmakers.talea(counts, 16),
         rmakers.beam(),
@@ -127,8 +127,8 @@ def dense_getato_rhythm(fuse_counts, extra_counts, *commands):
     """
 
     def preprocessor(divisions):
-        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
-        divisions = abjad.Sequence(divisions).flatten(depth=-1)
+        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
         divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
         return divisions
 
@@ -189,7 +189,7 @@ def growth(first_silence, division_ratio, extra_counts=None):
         ratio = abjad.Ratio(division_ratio)
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(divisions, [(1, 4)], cyclic=True)
-        divisions = abjad.Sequence(divisions).flatten(depth=-1)
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
         divisions = divisions.partition_by_ratio_of_lengths(ratio)
         divisions = baca.sequence.fuse(divisions, indices=[1, 3, 5])
         return divisions
@@ -236,7 +236,7 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.Up, rotation=None
     if direction == abjad.Down:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
-    pitch_numbers = abjad.Sequence(pitch_numbers).rotate(n=rotation)
+    pitch_numbers = abjad.sequence.rotate(pitch_numbers, n=rotation)
     return baca.pitches(
         pitch_numbers,
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
@@ -261,7 +261,7 @@ def manifest(these_counts):
     def preprocessor(divisions):
         result = baca.sequence.fuse(divisions)
         result = baca.sequence.quarters(result)
-        result = abjad.Sequence(result).flatten(depth=-1)
+        result = abjad.sequence.flatten(result, depth=-1)
         return result
 
     return baca.rhythm(
@@ -336,7 +336,7 @@ def perforated_counts(*, degree=0, rotation=None):
             counts.extend(part)
         else:
             raise ValueError(part)
-    return abjad.Sequence(counts).rotate(n=rotation)
+    return abjad.sequence.rotate(counts, n=rotation)
 
 
 def polyphony_rhythm(*commands, rotation=0):
@@ -344,7 +344,7 @@ def polyphony_rhythm(*commands, rotation=0):
     Makes polyphony rhythm.
     """
     counts = abjad.Sequence([4, 14, 4, 6, 18])
-    counts = counts.rotate(n=rotation)
+    counts = abjad.sequence.rotate(counts, n=rotation)
     return baca.rhythm(
         rmakers.talea(counts, 16),
         *commands,
@@ -398,7 +398,7 @@ def sparse_getato_rhythm(*commands, degree=1, extra_counts=[1], rotation=None):
     """
 
     def preprocessor(divisions):
-        return [baca.sequence.quarters(_) for _ in divisions]
+        return [baca.sequence.quarters([_]) for _ in divisions]
 
     return baca.rhythm(
         rmakers.talea(
@@ -452,7 +452,7 @@ def viola_ob_rhythm(*, rotation=None):
     def preprocessor(divisions):
         fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
         fractions = abjad.Sequence(fractions)
-        fractions = fractions.rotate(n=rotation)
+        fractions = abjad.sequence.rotate(fractions, n=rotation)
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(divisions, fractions, cyclic=True)
         return divisions
