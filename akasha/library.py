@@ -133,9 +133,9 @@ def dense_getato_rhythm(fuse_counts, extra_counts, *commands):
         return divisions
 
     def selector(argument):
-        selection = baca.Selection(argument).tuplets()
-        items = [baca.Selection(_).leaf(0) for _ in selection]
-        return baca.Selection(items)
+        selection = abjad.select.tuplets(argument)
+        items = [abjad.select.leaf(_, 0) for _ in selection]
+        return items
 
     return baca.rhythm(
         rmakers.even_division([16], extra_counts=extra_counts),
@@ -458,10 +458,9 @@ def viola_ob_rhythm(*, rotation=None):
         return divisions
 
     def selector(argument):
-        selection = baca.Selection(argument)
-        selection = selection.leaves()
-        selection = selection.get([0, -1])
-        return selection
+        result = abjad.select.leaves(argument)
+        result = abjad.select.get(result, [0, -1])
+        return result
 
     return baca.rhythm(
         rmakers.note(),
