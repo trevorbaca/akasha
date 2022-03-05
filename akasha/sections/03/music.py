@@ -155,7 +155,7 @@ commands(
     (["va", "vc"], 11),
     library.material(
         "D",
-        selector=lambda _: baca.Selection(_).rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(r"\baca-tasto-markup"),
