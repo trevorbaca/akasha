@@ -340,7 +340,7 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    library.cello_solo_pitches(transposition=1),
+    library.cello_solo_pitches(transposition="m2"),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
 )
