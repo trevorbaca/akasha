@@ -1,14 +1,14 @@
 Akasha
 ======
 
-![Build Status](
-    https://github.com/trevorbaca/akasha/actions/workflows/main.yml/badge.svg)
 [![Python 3.10](
     https://img.shields.io/badge/python-3.10-blue.svg)](
     https://www.python.org/downloads/release/python-310/)
 [![Code style: black](
     https://img.shields.io/badge/code%20style-black-000000.svg)](
     https://github.com/ambv/black)
+![Build Status](
+    https://github.com/trevorbaca/akasha/actions/workflows/main.yml/badge.svg)
 
 Akasha (2015) for string quartet.
 
@@ -21,4 +21,3 @@ present in all things in motion in the world.
 World premiere given by the [JACK Quartet](http:/jackquartet.com) on 6 February 2016 in
 Paine Hall on the campus of Harvard University. [Complete
 recording](https://soundcloud.com/trevorbaca/akasha) available on Soundcloud.
-
