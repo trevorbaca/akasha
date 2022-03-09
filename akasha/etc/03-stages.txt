@@ -1,10 +1,10 @@
-SEGMENTS
-========
+STAGES (BY SECTION)
+===================
 
-segments: [01], [02], [03], [04], [05], [06], [07],
+sections: [01], [02], [03], [04], [05], [06], [07],
     [08], [09], [10], [11], [12], [13], [14], [15],
 
-time signatures by segment:
+time signatures by section:
 
     [01]: B[0]
     [02]: A[0]
@@ -24,7 +24,7 @@ time signatures by segment:
 
 materials: (A), (B), (C), (D), (E)
 
-[segment 01] (8")
+[section 01] (8")
 
   moment 1 (E):
 
@@ -32,7 +32,7 @@ materials: (A), (B), (C), (D), (E)
     va OB (E);
     very long fermata;
 
-[segment 02] (72"):
+[section 02] (72"):
 
   moment 2 (AB):
 
@@ -80,7 +80,7 @@ materials: (A), (B), (C), (D), (E)
     dialogue with ext. thin get. pianiss. (A);
     short fermata;
 
-[segment 03] (31"):
+[section 03] (31"):
 
     moment 7 (ABC):
 
@@ -101,7 +101,7 @@ materials: (A), (B), (C), (D), (E)
       timed together with first appearance of detuned va, vc octave (D);
       attaca;
 
-[segment 04] (96"):
+[section 04] (96"):
 
   moment 9 (D):
 
@@ -142,7 +142,7 @@ materials: (A), (B), (C), (D), (E)
 
     20-21 (1 + fermata)
     vn1, vn2 OB (E);
-    [va, vc two-voice microtonal harmonies recall previous segment] (B);
+    [va, vc two-voice microtonal harmonies recall previous section] (B);
     fermata;
 
   moment 13 (CD[E]):
@@ -151,10 +151,10 @@ materials: (A), (B), (C), (D), (E)
     vn1 OB for full stage (E);
     vn2 plays first appearance of trill during second half of stage (C);
     va, vc detuned octave diminuendo for full stage (D);
-    segment ends with question mark;
+    section ends with question mark;
     long fermata;
 
-[segment 05] (89"):
+[section 05] (89"):
 
   moment 14 (D):
 
@@ -184,7 +184,7 @@ materials: (A), (B), (C), (D), (E)
 
     9-11 (4 + fermata)[55]
     vn1, vn2 ppp XP glissandi resume (E);
-    [memory of previous segment: detuned va, vc octave diminuendo] (D);
+    [memory of previous section: detuned va, vc octave diminuendo] (D);
     fermata to highlight introduction of trill at next stage;
 
   moment 17 (CE):
@@ -202,15 +202,15 @@ materials: (A), (B), (C), (D), (E)
     now with the accompaniment of a slow low-register vc down-glissando (D); 
 
     15-17 (3 + 1 + long fermata)[44]
-    vc down-glissando outlasts rest of materials and closes segment unacc. (D);
+    vc down-glissando outlasts rest of materials and closes section unacc. (D);
     long fermata;
 
-[segment 06] (115"):
+[section 06] (115"):
 
   moments 19 + 20 (AE/A):
 
     1-8 (4x: 1 + fermata)[44]
-    segment begins with mod. rhythmicized va OB (E);
+    section begins with mod. rhythmicized va OB (E);
     large process of revealing getati begins;
     process begins with isolated v1, v2, vc scratch tenuti (A);
     fermata;
@@ -254,7 +254,7 @@ materials: (A), (B), (C), (D), (E)
     va OB (E);
     long fermata;
 
-[segment 07] (3'):
+[section 07] (3'):
 
   moment 21 (CAB):
 
@@ -280,8 +280,8 @@ materials: (A), (B), (C), (D), (E)
     8 (12)[89]
     vn1, vn2 mixed counted and accel./rit. tasto loops (C);
     va, vc microtonal polyphony starts and then gets slower and slower (B);
-    vn1, vn2 tasto loops disappear at end of segment (C);
-    va, vc microtonal polyphony continues across segment boundary (B);
+    vn1, vn2 tasto loops disappear at end of section (C);
+    va, vc microtonal polyphony continues across section boundary (B);
     attaca;
 
   moment 23 (B):
@@ -321,7 +321,7 @@ materials: (A), (B), (C), (D), (E)
     single note of va OB (E);
     fermata;
 
-[segment 08] (1'):
+[section 08] (1'):
 
   moment 26 (AB):
 
@@ -350,13 +350,13 @@ materials: (A), (B), (C), (D), (E)
 
     6 (2)[44-->55]
     microtonal field (24ET) XFB with OB pedal underneath; (B) (E)
-    microtonal field sub. stop at end of segment;
+    microtonal field sub. stop at end of section;
 
     7 (1)
-    OB pedal which continues through end of segment; (E)
+    OB pedal which continues through end of section; (E)
     attaca;
 
-[segment 09] (30"):
+[section 09] (30"):
 
   moment 29 (BCD):
 
@@ -371,7 +371,7 @@ materials: (A), (B), (C), (D), (E)
     isolated va, vc detuned octave; (D)
     fermata;
 
-[segment 10] (2'30"):
+[section 10] (2'30"):
 
   moment 30 (DE):
 
@@ -444,13 +444,13 @@ materials: (A), (B), (C), (D), (E)
     tutti mp scratch moltiss. (B); (B)
     very long fermata;
 
-[segment 11] (30"):
+[section 11] (30"):
 
   1-4 (3 + very long fermata)[44]
-  exact recall of first three scratch measures of segment [06];
+  exact recall of first three scratch measures of section [06];
   very long fermata;
 
-[segment 12] (4'):
+[section 12] (4'):
 
   1 (4)[44]
   tutti assume finger chord of trill field;
@@ -538,7 +538,7 @@ materials: (A), (B), (C), (D), (E)
   22 (1)
   very long fermata;
 
-[segment 13] (15"):
+[section 13] (15"):
 
   1 (1)[55]
   va OB;
@@ -557,7 +557,7 @@ materials: (A), (B), (C), (D), (E)
   pp vc Bb1 pochiss. vib.;
   attaca;
 
-[segment 14] (1'30"):
+[section 14] (1'30"):
 
   1 (6)[55]
   vc Bb1 ppp < ff;
@@ -604,7 +604,7 @@ materials: (A), (B), (C), (D), (E)
   11 (1)
   fermata;
 
-[segment 15] (30"):
+[section 15] (30"):
 
   1 (8)[89]
   vn1, va, vc OB homorhythm with tutti rests between each stroke;
@@ -630,7 +630,7 @@ fermata approxmations:
   long fermata: 4-6"
   very long fermata: 8-10"
 
-segment durations:
+section durations:
 
   01: 8" + 1 very long fermata (8-10" silence)
   02: 72" + 3 short fermatas + 5 long fermatas (20-30" silence)
