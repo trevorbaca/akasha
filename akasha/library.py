@@ -72,9 +72,6 @@ time_signature_series["B"] = groups
 
 
 def accelerando_rhythm(*commands, fuse_counts=None, preprocessor=None):
-    """
-    Makes accelerando rhythm.
-    """
     fuse_counts = fuse_counts or []
     if preprocessor is None:
 
@@ -95,21 +92,14 @@ def accelerando_rhythm(*commands, fuse_counts=None, preprocessor=None):
 
 
 def cello_solo_pitches(transposition=None):
-    """
-    Makes cello solo pitches.
-    """
-    pitches = abjad.NamedPitchSegment(
-        "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3 E3 E-3 Eb3 Db3 C3 D3 F#3",
-    )
-    if transposition is not None:
-        pitches = pitches.transpose(transposition)
+    string = "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3 E3 E-3 Eb3 Db3 C3 D3 F#3"
+    pitches = [abjad.NamedPitch(_) for _ in string.split()]
+    if transposition:
+        pitches = [_.transpose(n=transposition) for _ in pitches]
     return baca.pitches(pitches)
 
 
 def cello_solo_rhythm(rotation=None):
-    """
-    Makes cello solo rhythm.
-    """
     counts = abjad.sequence.rotate([7, 1, 10, 2], n=rotation)
     return baca.rhythm(
         rmakers.talea(counts, 16),
@@ -121,10 +111,6 @@ def cello_solo_rhythm(rotation=None):
 
 
 def dense_getato_rhythm(fuse_counts, extra_counts, *commands):
-    """
-    Makes dense getato rhythm.
-    """
-
     def preprocessor(divisions):
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         divisions = abjad.sequence.flatten(divisions, depth=-1)
@@ -149,9 +135,6 @@ def dense_getato_rhythm(fuse_counts, extra_counts, *commands):
 
 
 def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.Up):
-    """
-    Makes getato pitches.
-    """
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     pitch_numbers = getato_intervals
@@ -166,9 +149,6 @@ def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.Up):
 
 
 def glissando_rhythm():
-    """
-    Makes glissando rhythm.
-    """
     return baca.rhythm(
         rmakers.tuplet([(8, 1)]),
         rmakers.beam(),
@@ -178,9 +158,6 @@ def glissando_rhythm():
 
 
 def growth(first_silence, division_ratio, extra_counts=None):
-    """
-    Makes growth rhythm.
-    """
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
 
@@ -225,9 +202,6 @@ def growth(first_silence, division_ratio, extra_counts=None):
 
 
 def harmonic_glissando_pitches(start_pitch, *, direction=abjad.Up, rotation=None):
-    """
-    Makes harmonic glissando pitches.
-    """
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     pitch_numbers = getato_intervals
@@ -243,9 +217,6 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.Up, rotation=None
 
 
 def manifest(these_counts):
-    """
-    Makes manifest rhythm.
-    """
     counts_ = [7, 4, 11, 8]
     counts_ += [14, 8, 11, 8]
     counts_ += [14, 8, 22, 16]
@@ -301,9 +272,6 @@ def make_stage_markup(segment_number, stage_tokens):
 
 
 def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf(0)):
-    """
-    Makes tagged margin markup indicator command.
-    """
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
         margin_markup,
@@ -315,9 +283,6 @@ def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf
 
 
 def perforated_counts(*, degree=0, rotation=None):
-    """
-    Makes perforated counts.
-    """
     counts = []
     if degree == 0:
         pattern_1 = abjad.index([0, 1, 2, 3], 12)
@@ -341,9 +306,6 @@ def perforated_counts(*, degree=0, rotation=None):
 
 
 def polyphony_rhythm(*commands, rotation=0):
-    """
-    Makes polyphony rhythm.
-    """
     counts = [4, 14, 4, 6, 18]
     counts = abjad.sequence.rotate(counts, n=rotation)
     return baca.rhythm(
@@ -359,9 +321,6 @@ def polyphony_rhythm(*commands, rotation=0):
 
 
 def ritardando_rhythm(*commands, preprocessor=None):
-    """
-    Makes ritardando rhythm.
-    """
     if preprocessor is None:
 
         def preprocessor(divisions):
@@ -381,9 +340,6 @@ def ritardando_rhythm(*commands, preprocessor=None):
 
 
 def scratch_rhythm(denominators, *commands, extra_counts=None):
-    """
-    Makes scratch rhythm.
-    """
     return baca.rhythm(
         rmakers.even_division(denominators, extra_counts=extra_counts),
         *commands,
@@ -393,10 +349,6 @@ def scratch_rhythm(denominators, *commands, extra_counts=None):
 
 
 def sparse_getato_rhythm(*commands, degree=1, extra_counts=[1], rotation=None):
-    """
-    Makes sparse getato rhythm.
-    """
-
     def preprocessor(divisions):
         return [baca.sequence.quarters([_]) for _ in divisions]
 
@@ -417,9 +369,6 @@ def sparse_getato_rhythm(*commands, degree=1, extra_counts=[1], rotation=None):
 
 
 def time_signatures(series, *, count=None, fermata_measures=None, rotation=None):
-    """
-    Makes time signatures.
-    """
     series = time_signature_series[series]
     maker = baca.TimeSignatureMaker(
         series,
@@ -432,9 +381,6 @@ def time_signatures(series, *, count=None, fermata_measures=None, rotation=None)
 
 
 def untied_notes():
-    """
-    Makes untied notes.
-    """
     return baca.rhythm(
         rmakers.note(),
         rmakers.rewrite_meter(),
@@ -445,10 +391,6 @@ def untied_notes():
 
 
 def viola_ob_rhythm(*, rotation=None):
-    """
-    Makes viola OB rhythm.
-    """
-
     def preprocessor(divisions):
         fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
         fractions = abjad.sequence.rotate(fractions, n=rotation)
@@ -561,9 +503,6 @@ material_to_color = {
 
 
 def material(letter, selector=baca.selectors.leaves()):
-    """
-    Colors staff for material ``letter``.
-    """
     markup = baca.markup(
         rf"""\markup
             \override #'(circle-padding . 0.75)
