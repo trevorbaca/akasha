@@ -131,7 +131,7 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    library.getato_pitches(-2, [-3], direction=abjad.Down),
+    library.getato_pitches(-2, [-3], direction=abjad.DOWN),
     baca.beam_positions(-4),
     baca.staccato(
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
