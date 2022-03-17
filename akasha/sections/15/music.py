@@ -89,7 +89,7 @@ commands(
 
 commands(
     ("v2", (9, 24)),
-    library.getato_pitches(29, direction=abjad.Down),
+    library.getato_pitches(29, direction=abjad.DOWN),
     baca.dynamic("pp-ancora"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(
@@ -103,7 +103,7 @@ commands(
         baca.mark(r"\akasha-colophon-markup"),
         baca.rehearsal_mark_down(),
         baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
         selector=baca.selectors.rleaf(-1),
     ),
 )

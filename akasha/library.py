@@ -134,11 +134,11 @@ def dense_getato_rhythm(fuse_counts, extra_counts, *commands):
     )
 
 
-def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.Up):
+def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP):
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     pitch_numbers = getato_intervals
-    if direction == abjad.Down:
+    if direction == abjad.DOWN:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     return baca.loop(
@@ -201,12 +201,12 @@ def growth(first_silence, division_ratio, extra_counts=None):
     )
 
 
-def harmonic_glissando_pitches(start_pitch, *, direction=abjad.Up, rotation=None):
+def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None):
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     pitch_numbers = getato_intervals
     pitch_numbers = [3 * _ for _ in pitch_numbers]
-    if direction == abjad.Down:
+    if direction == abjad.DOWN:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     pitch_numbers = abjad.sequence.rotate(pitch_numbers, n=rotation)
@@ -226,7 +226,7 @@ def manifest(these_counts):
     assert len(counts) == 20
     assert sum(these_counts) == len(counts)
     these_counts = abjad.sequence.partition_by_counts(
-        counts, these_counts, overhang=abjad.Exact
+        counts, these_counts, overhang=abjad.EXACT
     )
     these_counts = [sum(_) for _ in these_counts]
 

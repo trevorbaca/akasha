@@ -259,7 +259,7 @@ commands(
 
 commands(
     ("vc", 15),
-    library.getato_pitches("C#3", direction=abjad.Down),
+    library.getato_pitches("C#3", direction=abjad.DOWN),
     baca.dynamic("p"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
