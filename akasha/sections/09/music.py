@@ -49,7 +49,7 @@ commands(
         selector=baca.selectors.leaf(4),
     ),
     baca.open_volta(baca.selectors.skip(1 - 1)),
-    baca.close_volta(baca.selectors.skip(7 - 1), format_slot="after"),
+    baca.close_volta(baca.selectors.skip(7 - 1), site="after"),
 )
 
 commands(
