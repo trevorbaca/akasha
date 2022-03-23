@@ -40,7 +40,7 @@ commands(
     baca.rehearsal_mark(
         "N",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 13)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
     ),
     baca.bar_line("|.", baca.selectors.skip(-1)),
 )

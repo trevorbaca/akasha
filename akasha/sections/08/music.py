@@ -50,7 +50,7 @@ commands(
     baca.rehearsal_mark(
         "G",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 5)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 5)"),
     ),
     baca.metronome_mark(
         "126",
