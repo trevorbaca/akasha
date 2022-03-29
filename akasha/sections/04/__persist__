@@ -55,7 +55,7 @@
             ),
             baca.Memento(
                 context="Cello_Music_Voice",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -125,7 +125,7 @@
             ),
             baca.Memento(
                 context="Viola_Music_Voice",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -177,7 +177,7 @@
             ),
             baca.Memento(
                 context="Violin_II_Music_Voice",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -229,7 +229,7 @@
             ),
             baca.Memento(
                 context="Violin_I_Music_Voice",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
