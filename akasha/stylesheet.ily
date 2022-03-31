@@ -220,6 +220,8 @@
 
         \override TextSpanner.staff-padding = 2
 
+        \override TrillPitchAccidental.avoid-slur = #'ignore
+
         \override TrillSpanner.bound-details.right.padding = 2
 
         \override TupletBracket.breakable = ##t
