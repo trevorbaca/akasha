@@ -738,7 +738,7 @@ segment.01.Viola.Music.Voice = {
     %! baca.make_repeat_tied_notes()
     c'4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
