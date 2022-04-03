@@ -4930,13 +4930,13 @@ segment.12.Violin.I.Music.Voice = {
     %! baca.ottava_bracket_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override Staff.OttavaBracket.staff-padding = 12
+    %! baca.text_spanner_staff_padding()
+    %! baca.OverrideCommand._call(1)
+    \override TextSpanner.staff-padding = 9.5
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \ottava 1
-    %! baca.text_spanner_staff_padding()
-    %! baca.OverrideCommand._call(1)
-    \override TextSpanner.staff-padding = 9.5
     %! FERMATA_MEASURE
     %! MEASURE_319
     %! baca._style_fermata_measures(7)
@@ -7089,13 +7089,13 @@ segment.12.Violin.II.Music.Voice = {
     %! baca.ottava_bracket_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override Staff.OttavaBracket.staff-padding = 10
+    %! baca.text_spanner_staff_padding()
+    %! baca.OverrideCommand._call(1)
+    \override TextSpanner.staff-padding = 7.5
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \ottava 1
-    %! baca.text_spanner_staff_padding()
-    %! baca.OverrideCommand._call(1)
-    \override TextSpanner.staff-padding = 7.5
     %! baca.make_repeat_tied_notes()
     cs''''!4.
     %! EXPLICIT_DYNAMIC_COLOR

@@ -2561,13 +2561,13 @@ segment.05.Violin.I.Music.Voice = {
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
+    %! baca.note_head_style_harmonic()
+    %! baca.OverrideCommand._call(1)
+    \override NoteHead.style = #'harmonic
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \ottava 1
-    %! baca.note_head_style_harmonic()
-    %! baca.OverrideCommand._call(1)
-    \override NoteHead.style = #'harmonic
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -2925,13 +2925,13 @@ segment.05.Violin.I.Music.Voice = {
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.note_head_style_harmonic()
+    %! baca.OverrideCommand._call(2)
+    \revert NoteHead.style
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \ottava 0
-    %! baca.note_head_style_harmonic()
-    %! baca.OverrideCommand._call(2)
-    \revert NoteHead.style
 
     %! baca._make_multimeasure_rest_container(7)
     <<
