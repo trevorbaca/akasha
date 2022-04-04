@@ -3024,6 +3024,16 @@ segment.10.Violin.I.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-fb-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -3038,16 +3048,6 @@ segment.10.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
@@ -3507,6 +3507,16 @@ segment.10.Violin.I.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -3521,16 +3531,6 @@ segment.10.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -3971,6 +3971,11 @@ segment.10.Violin.I.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -3985,11 +3990,6 @@ segment.10.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -4082,6 +4082,16 @@ segment.10.Violin.I.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -4096,16 +4106,6 @@ segment.10.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -5352,6 +5352,16 @@ segment.10.Violin.II.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-fb-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -5366,16 +5376,6 @@ segment.10.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
@@ -5498,6 +5498,11 @@ segment.10.Violin.II.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -5512,11 +5517,6 @@ segment.10.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -5929,6 +5929,11 @@ segment.10.Violin.II.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -5943,11 +5948,6 @@ segment.10.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -6038,6 +6038,16 @@ segment.10.Violin.II.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -6052,16 +6062,6 @@ segment.10.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -7256,6 +7256,16 @@ segment.10.Viola.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-fb-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -7270,16 +7280,6 @@ segment.10.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
@@ -7402,6 +7402,11 @@ segment.10.Viola.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -7416,11 +7421,6 @@ segment.10.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -7771,6 +7771,11 @@ segment.10.Viola.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -7785,11 +7790,6 @@ segment.10.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -7880,6 +7880,16 @@ segment.10.Viola.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -7894,16 +7904,6 @@ segment.10.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -8815,6 +8815,11 @@ segment.10.Cello.Music.Voice = {
                 \circle
                 { \combine \halign #0 D \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -8829,11 +8834,6 @@ segment.10.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -9190,6 +9190,16 @@ segment.10.Cello.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \akasha-xp-plus-fb-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -9204,16 +9214,6 @@ segment.10.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
@@ -9336,6 +9336,11 @@ segment.10.Cello.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -9350,11 +9355,6 @@ segment.10.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -9723,6 +9723,11 @@ segment.10.Cello.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -9737,11 +9742,6 @@ segment.10.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -9832,6 +9832,16 @@ segment.10.Cello.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(4)
+    %! SPANNER_STOP
+    \)
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -9846,16 +9856,6 @@ segment.10.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(4)
-    %! SPANNER_STOP
-    \)
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
