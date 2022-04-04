@@ -1087,6 +1087,8 @@ segment.08.Violin.I.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
+        %! akasha.dense_getato_rhythm()
+        [
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! baca.hairpin()
@@ -1113,8 +1115,6 @@ segment.08.Violin.I.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \>
-        %! akasha.dense_getato_rhythm()
-        [
 
         %! akasha.dense_getato_rhythm()
         af'''!16

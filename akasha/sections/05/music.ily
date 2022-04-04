@@ -6083,6 +6083,14 @@ segment.05.Viola.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \akasha-tasto-plus-senza-vib-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
+    %! baca.glissando()
+    %! abjad.glissando(7)
+    \glissando
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -6097,14 +6105,6 @@ segment.05.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
-    %! baca.glissando()
-    %! abjad.glissando(7)
-    \glissando
     %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -7547,6 +7547,11 @@ segment.05.Cello.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-tasto-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -7561,11 +7566,6 @@ segment.05.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
@@ -7878,6 +7878,14 @@ segment.05.Cello.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-tasto-markup
+    %! baca.slur()
+    %! COLORED_PHRASING_SLUR
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \(
+    %! baca.glissando()
+    %! abjad.glissando(7)
+    \glissando
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -7892,14 +7900,6 @@ segment.05.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! baca.slur()
-    %! COLORED_PHRASING_SLUR
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \(
-    %! baca.glissando()
-    %! abjad.glissando(7)
-    \glissando
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 44]
