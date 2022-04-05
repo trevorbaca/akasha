@@ -240,6 +240,12 @@ segment.01.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \akasha-vn-i-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -255,12 +261,6 @@ segment.01.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \akasha-vn-i-markup
     %! baca.start_markup()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -469,6 +469,12 @@ segment.01.Violin.II.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \akasha-vn-ii-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -484,12 +490,6 @@ segment.01.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \akasha-vn-ii-markup
     %! baca.start_markup()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -691,10 +691,6 @@ segment.01.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \akasha-va-markup
-    %! baca.start_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    \set Staff.instrumentName = \markup \hcenter-in #14 "Viola"
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -710,6 +706,10 @@ segment.01.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
+    %! baca.start_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #14 "Viola"
     %! baca.literal()
     %! COLORED_PHRASING_SLUR
     %! baca.IndicatorCommand._call()
@@ -991,6 +991,12 @@ segment.01.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \akasha-vc-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1006,12 +1012,6 @@ segment.01.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \akasha-vc-markup
     %! baca.start_markup()
     %! -PARTS
     %! baca.IndicatorCommand._call()
