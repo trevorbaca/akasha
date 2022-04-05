@@ -7510,9 +7510,9 @@ segment.07.Violin.II.Music.Voice = {
 
     %! akasha.growth()
     cs''!8.
-    ~
     %! akasha.growth()
     ]
+    ~
 
     %! akasha.growth()
     cs''16
@@ -7742,9 +7742,9 @@ segment.07.Violin.II.Music.Voice = {
 
     %! akasha.growth()
     b'8.
-    ~
     %! akasha.growth()
     ]
+    ~
 
     %! akasha.growth()
     b'16
@@ -8188,9 +8188,9 @@ segment.07.Violin.II.Music.Voice = {
 
     %! akasha.growth()
     c''8.
-    ~
     %! akasha.growth()
     ]
+    ~
 
     %! akasha.growth()
     c''16
@@ -10701,9 +10701,9 @@ segment.07.Viola.Music.Voice = {
 
     %! akasha.manifest()
     a16
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    ~
 
     %! akasha.manifest()
     a2
@@ -10722,9 +10722,9 @@ segment.07.Viola.Music.Voice = {
 
     %! akasha.manifest()
     b8
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    ~
 
     %! akasha.manifest()
     b2
@@ -10850,9 +10850,9 @@ segment.07.Viola.Music.Voice = {
 
     %! akasha.manifest()
     d'16
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    ~
 
     %! akasha.manifest()
     d'2
@@ -13804,9 +13804,9 @@ segment.07.Cello.Music.Voice = {
 
     %! akasha.manifest()
     fqs,!16
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    ~
 
     %! akasha.manifest()
     fqs,2.
