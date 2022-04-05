@@ -1879,12 +1879,12 @@ segment.04.Violin.I.Music.Voice = {
     ~
 
     b'2
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -2973,12 +2973,12 @@ segment.04.Violin.II.Music.Voice = {
     ~
 
     b'2
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -5475,13 +5475,13 @@ segment.04.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<

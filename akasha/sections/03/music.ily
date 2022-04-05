@@ -1263,12 +1263,12 @@ segment.03.Violin.II.Music.Voice = {
     % [Violin_II_Music_Voice measure 3]
     %! akasha.polyphony_rhythm()
     e'2
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -1784,12 +1784,12 @@ segment.03.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 3]
     %! akasha.polyphony_rhythm()
     c'2
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<

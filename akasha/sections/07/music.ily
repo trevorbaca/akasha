@@ -4887,7 +4887,6 @@ segment.07.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
@@ -4897,6 +4896,7 @@ segment.07.Violin.I.Music.Voice = {
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -7504,9 +7504,9 @@ segment.07.Violin.II.Music.Voice = {
 
     %! akasha.growth()
     b'16
-    \repeatTie
     %! akasha.growth()
     [
+    \repeatTie
 
     %! akasha.growth()
     cs''!8.
@@ -7736,9 +7736,9 @@ segment.07.Violin.II.Music.Voice = {
 
     %! akasha.growth()
     cs''16
-    \repeatTie
     %! akasha.growth()
     [
+    \repeatTie
 
     %! akasha.growth()
     b'8.
@@ -8182,9 +8182,9 @@ segment.07.Violin.II.Music.Voice = {
 
     %! akasha.growth()
     d''16
-    \repeatTie
     %! akasha.growth()
     [
+    \repeatTie
 
     %! akasha.growth()
     c''8.
@@ -8710,7 +8710,6 @@ segment.07.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
@@ -8720,6 +8719,7 @@ segment.07.Violin.II.Music.Voice = {
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -10695,9 +10695,9 @@ segment.07.Viola.Music.Voice = {
 
     %! akasha.manifest()
     gs8.
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! akasha.manifest()
     a16
@@ -10716,9 +10716,9 @@ segment.07.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 12]
     %! akasha.manifest()
     a8
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! akasha.manifest()
     b8
@@ -10844,9 +10844,9 @@ segment.07.Viola.Music.Voice = {
 
     %! akasha.manifest()
     cqs'8.
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! akasha.manifest()
     d'16
@@ -11096,7 +11096,6 @@ segment.07.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
@@ -11106,6 +11105,7 @@ segment.07.Viola.Music.Voice = {
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -13798,9 +13798,9 @@ segment.07.Cello.Music.Voice = {
     % [Cello_Music_Voice measure 14]
     %! akasha.manifest()
     f,8.
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! akasha.manifest()
     fqs,!16
@@ -14115,7 +14115,6 @@ segment.07.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
@@ -14125,6 +14124,7 @@ segment.07.Cello.Music.Voice = {
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<

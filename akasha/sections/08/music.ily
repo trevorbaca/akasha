@@ -1730,11 +1730,11 @@ segment.08.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    \repeatTie
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -2521,11 +2521,11 @@ segment.08.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    \repeatTie
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -3314,11 +3314,11 @@ segment.08.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    \repeatTie
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -4087,11 +4087,11 @@ segment.08.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    \repeatTie
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<

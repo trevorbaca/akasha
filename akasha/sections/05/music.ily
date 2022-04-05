@@ -2711,13 +2711,13 @@ segment.05.Violin.I.Music.Voice = {
     % [Violin_I_Music_Voice measure 8]
     %! baca.make_repeat_tied_notes()
     cs''''1
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
     %! baca.ottava()
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
@@ -2918,13 +2918,13 @@ segment.05.Violin.I.Music.Voice = {
     % [Violin_I_Music_Voice measure 17]
     %! baca.make_repeat_tied_notes()
     cs''''2
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -5450,13 +5450,13 @@ segment.05.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 8]
     %! baca.make_repeat_tied_notes()
     gqf''1
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -5635,13 +5635,13 @@ segment.05.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 17]
     %! baca.make_repeat_tied_notes()
     gqf''2
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -5765,13 +5765,13 @@ segment.05.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 22]
     %! baca.make_repeat_tied_notes()
     gqf''4.
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -5945,13 +5945,13 @@ segment.05.Viola.Music.Voice = {
     % [Viola_Music_Voice measure 31]
     %! baca.make_repeat_tied_notes()
     gqf''2..
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -6860,13 +6860,13 @@ segment.05.Cello.Music.Voice = {
     % [Cello_Music_Voice measure 8]
     %! baca.make_repeat_tied_notes()
     d''1
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -7051,13 +7051,13 @@ segment.05.Cello.Music.Voice = {
     % [Cello_Music_Voice measure 17]
     %! baca.make_repeat_tied_notes()
     d''2
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -7187,13 +7187,13 @@ segment.05.Cello.Music.Voice = {
     % [Cello_Music_Voice measure 22]
     %! baca.make_repeat_tied_notes()
     d''4.
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -7611,13 +7611,13 @@ segment.05.Cello.Music.Voice = {
     % [Cello_Music_Voice measure 36]
     %! baca.make_repeat_tied_notes()
     cs,4.
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
