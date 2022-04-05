@@ -4452,17 +4452,17 @@ segment.02.Viola.Music.Voice = {
     \repeatTie
 
     dqs'!8
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     [
+    ~
 
     dqs'8
 
     %! akasha.polyphony_rhythm()
     ds'!8
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    ~
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 12]
@@ -5249,17 +5249,17 @@ segment.02.Cello.Music.Voice = {
     \repeatTie
 
     g8
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     [
+    ~
 
     g8
 
     %! akasha.polyphony_rhythm()
     a8
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    ~
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 13]
@@ -5377,9 +5377,9 @@ segment.02.Cello.Music.Voice = {
     \repeatTie
 
     b8
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     [
+    ~
 
     b8
     %! rmakers.RewriteMeterCommand.__call__
