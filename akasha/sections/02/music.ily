@@ -4583,12 +4583,12 @@ segment.02.Viola.Music.Voice = {
     ~
 
     d'2.
-    \repeatTie
     %! baca.slur()
     %! COLORED_PHRASING_SLUR
     %! baca.SpannerIndicatorCommand._call(4)
     %! SPANNER_STOP
     \)
+    \repeatTie
 
     %! baca._make_multimeasure_rest_container(7)
     <<
