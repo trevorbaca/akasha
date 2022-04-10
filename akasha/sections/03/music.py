@@ -66,7 +66,7 @@ commands(
     library.material("C"),
     library.accelerando_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets((-2, None)),
+            lambda _: abjad.select.tuplets(_)[-2:]
         ),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
@@ -97,12 +97,19 @@ commands(
     baca.pitches("Db4 Db~4 C4", exact=True),
 )
 
+
+def get_tuplets(argument, pattern):
+    tuplets = abjad.select.tuplets(argument)
+    tuplets = abjad.select.get(tuplets, pattern)
+    return tuplets
+
+
 commands(
     ("vc", (1, 4)),
     library.material("A"),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets(~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
+            lambda _: get_tuplets(_, ~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
         ),
         degree=0,
         extra_counts=[1, 1, 0, 2],
