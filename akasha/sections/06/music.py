@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -261,8 +262,9 @@ commands(
         [1],
         [3, 0, 2, 1],
         rmakers.force_rest(
-            baca.selectors.tuplets(
-                [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1]
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1],
             ),
         ),
     ),
@@ -285,7 +287,10 @@ commands(
         [1],
         [2, 1, 3, 0],
         rmakers.force_rest(
-            baca.selectors.tuplets([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                [0, 2, 3, 4, 5, 6, 10, 14, 22],
+            ),
         ),
     ),
 )
@@ -296,7 +301,7 @@ commands(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
         rmakers.force_rest(
-            baca.selectors.tuplets((-5, None)),
+            lambda _: abjad.select.tuplets(_)[-5:],
         ),
     ),
 )
@@ -318,7 +323,10 @@ commands(
         [1],
         [3, 0, 2, 1],
         rmakers.force_rest(
-            baca.selectors.tuplets([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                [0, 2, 3, 4, 5, 6, 10, 14, 22],
+            ),
         ),
     ),
 )
@@ -337,7 +345,7 @@ commands(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
         rmakers.force_rest(
-            baca.selectors.tuplets((-4, None)),
+            lambda _: abjad.select.tuplets(_)[-4:],
         ),
     ),
 )

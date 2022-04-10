@@ -129,7 +129,7 @@ commands(
     library.material("A"),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets((2, None)),
+            lambda _: abjad.select.tuplets(_)[2:],
         ),
     ),
 )
@@ -144,7 +144,7 @@ commands(
     library.material("A"),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets((None, -1)),
+            lambda _: abjad.select.tuplets(_)[:-1],
         ),
     ),
 )
@@ -188,7 +188,7 @@ commands(
     library.material("A"),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets((None, -2)),
+            lambda _: abjad.select.tuplets(_)[:-2],
         ),
     ),
 )
@@ -233,7 +233,9 @@ commands(
     ("v1", (11, 13)),
     library.material("C"),
     library.accelerando_rhythm(
-        rmakers.force_rest(baca.selectors.tuplet(0)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.force_rest(
@@ -249,7 +251,9 @@ commands(
     ("v2", (11, 13)),
     library.material("C"),
     library.ritardando_rhythm(
-        rmakers.force_rest(baca.selectors.tuplet(0)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.force_rest(
@@ -367,7 +371,10 @@ commands(
     library.material("A"),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets(~abjad.Pattern([1])),
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                ~abjad.Pattern([1]),
+            )
         ),
     ),
 )

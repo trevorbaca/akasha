@@ -67,7 +67,10 @@ commands(
     ("v2", (9, 24)),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets(~abjad.Pattern([3, 36, 37])),
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                ~abjad.Pattern([3, 36, 37]),
+            ),
         ),
     ),
 )
