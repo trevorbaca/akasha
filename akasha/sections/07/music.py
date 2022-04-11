@@ -535,15 +535,15 @@ commands(
     ("Global_Skips", (45, 46)),
     baca.markup(
         r"\akasha-repeat-six-markup",
-        selector=baca.selectors.skip(0),
+        selector=lambda _: baca.select.skip(_, 0),
     ),
     baca.text_script_extra_offset((1.5, 6)),
 )
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(45 - 1)),
-    baca.close_volta(baca.selectors.skip(47 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 45 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 47 - 1)),
 )
 
 commands(

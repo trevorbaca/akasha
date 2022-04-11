@@ -176,15 +176,15 @@ commands(
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(56 - 1)),
-    baca.close_volta(baca.selectors.skip(61 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 56 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 61 - 1)),
 )
 
 commands(
     ("Global_Skips", (30, 39)),
     baca.markup(
         r"\akasha-repeat-six-markup",
-        selector=baca.selectors.skip(0),
+        selector=lambda _: baca.select.skip(_, 0),
     ),
 )
 
@@ -398,7 +398,7 @@ commands(
     ("Global_Skips", (56, 60)),
     baca.markup(
         r"\akasha-repeat-six-markup",
-        selector=baca.selectors.skip(0),
+        selector=lambda _: baca.select.skip(_, 0),
     ),
     baca.text_script_extra_offset((1.5, 6)),
 )
