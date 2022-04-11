@@ -227,7 +227,7 @@ commands(
     ("vc", (1, 12)),
     baca.pitch(
         "C#2",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -241,7 +241,7 @@ commands(
     baca.staff_lines(1),
     baca.staff_position(
         0,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 

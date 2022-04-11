@@ -144,7 +144,7 @@ def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP):
     return baca.loop(
         pitch_numbers,
         intervals,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     )
 
 
@@ -212,7 +212,7 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None
     pitch_numbers = abjad.sequence.rotate(pitch_numbers, n=rotation)
     return baca.pitches(
         pitch_numbers,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     )
 
 
@@ -384,7 +384,7 @@ def untied_notes():
     return baca.rhythm(
         rmakers.note(),
         rmakers.rewrite_meter(),
-        rmakers.beam(baca.selectors.plts()),
+        rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.untie(),
         tag=abjad.Tag("akasha.untied_notes()"),
     )
@@ -406,7 +406,7 @@ def viola_ob_rhythm(*, rotation=None):
     return baca.rhythm(
         rmakers.note(),
         rmakers.force_rest(selector),
-        rmakers.beam(baca.selectors.plts()),
+        rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.split_measures(),
         rmakers.force_repeat_tie((1, 4)),
         preprocessor=preprocessor,
