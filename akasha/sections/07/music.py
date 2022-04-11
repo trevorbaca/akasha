@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -391,11 +392,11 @@ commands(
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.new(
         baca.hairpin("pp < p", remove_length_1_spanner_start=True),
-        map=baca.selectors.runs(([0], 2)),
+        map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
     ),
     baca.new(
         baca.hairpin("p > pp", remove_length_1_spanner_start=True),
-        map=baca.selectors.runs(([1], 2)),
+        map=lambda _: abjad.select.get(baca.select.runs(_), [1], 2),
     ),
 )
 
@@ -404,11 +405,11 @@ commands(
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.new(
         baca.hairpin("pp < p", remove_length_1_spanner_start=True),
-        map=baca.selectors.runs(([0], 2)),
+        map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
     ),
     baca.new(
         baca.hairpin("p > pp", remove_length_1_spanner_start=True),
-        map=baca.selectors.runs(([1], 2)),
+        map=lambda _: abjad.select.get(baca.select.runs(_), [1], 2),
     ),
 )
 

@@ -230,7 +230,7 @@ commands(
     baca.dynamic("ppp"),
     baca.new(
         baca.glissando(),
-        map=baca.selectors.runs(exclude=baca.const.HIDDEN),
+        map=lambda _: baca.select.runs(_, exclude=baca.const.HIDDEN),
     ),
     baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
@@ -261,7 +261,7 @@ commands(
     baca.dynamic("ppp"),
     baca.new(
         baca.glissando(),
-        map=baca.selectors.runs(exclude=baca.const.HIDDEN),
+        map=lambda _: baca.select.runs(_, exclude=baca.const.HIDDEN),
     ),
     baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
@@ -314,7 +314,7 @@ commands(
     baca.dynamic("ppp-ancora"),
     baca.new(
         baca.glissando(),
-        map=baca.selectors.runs(exclude=baca.const.HIDDEN),
+        map=lambda _: baca.select.runs(_, exclude=baca.const.HIDDEN),
     ),
     baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
