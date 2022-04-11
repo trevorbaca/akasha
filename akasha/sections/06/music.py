@@ -386,7 +386,9 @@ commands(
     ("v1", (23, 32)),
     baca.hairpin(
         "mf > pp",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
     baca.markup(r"\akasha-leggieriss-senza-scratch-markup"),
 )
@@ -432,7 +434,9 @@ commands(
     ("v2", (23, 32)),
     baca.hairpin(
         "mf > pp",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
 )
 
@@ -488,7 +492,9 @@ commands(
     ("vc", (23, 32)),
     baca.hairpin(
         "mf > pp",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
 )
 
