@@ -252,7 +252,7 @@ commands(
     ("v1", (41, 52)),
     baca.pitch(
         "A5",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -269,7 +269,7 @@ commands(
     ("v2", (41, 50)),
     baca.pitch(
         "A4",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -303,7 +303,7 @@ commands(
     ("vc", (41, 45)),
     baca.new(
         baca.pitch("A1"),
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 

@@ -88,7 +88,7 @@ commands(
     ("vc", (1, 24)),
     baca.pitch(
         "Bb1",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 

@@ -85,7 +85,7 @@ commands(
     baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
     baca.staff_position(
         0,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
     baca.staff_lines(1),
 )

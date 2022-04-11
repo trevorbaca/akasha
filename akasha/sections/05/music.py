@@ -182,7 +182,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.pitch(
         "C#7",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -277,7 +277,7 @@ commands(
     baca.markup(r"\baca-tasto-markup"),
     baca.pitch(
         "G5",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -286,7 +286,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.pitch(
         "Gqf5",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -325,7 +325,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.pitch(
         "D5",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 

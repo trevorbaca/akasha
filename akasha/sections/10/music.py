@@ -297,7 +297,7 @@ commands(
     baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B2",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -327,7 +327,7 @@ commands(
     baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B4",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -335,7 +335,7 @@ commands(
     ("v1", (25, 26)),
     baca.pitch(
         "B4",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -371,7 +371,7 @@ commands(
     baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B3",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -408,7 +408,7 @@ commands(
     ("vc", (17, 27)),
     baca.pitch(
         "B1",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
