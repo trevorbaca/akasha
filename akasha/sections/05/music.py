@@ -272,7 +272,7 @@ commands(
     baca.dynamic("p"),
     baca.new(
         baca.trill_spanner(alteration="A5"),
-        map=baca.selectors.qruns(exclude=baca.const.HIDDEN),
+        map=lambda _: baca.select.qruns(_, exclude=baca.const.HIDDEN),
     ),
     baca.markup(r"\baca-tasto-markup"),
     baca.pitch(
