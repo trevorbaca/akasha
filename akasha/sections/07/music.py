@@ -173,7 +173,7 @@ commands(
 commands(
     ("va", 6),
     baca.make_repeat_tied_notes(),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -293,7 +293,7 @@ commands(
 commands(
     ("va", 43),
     baca.make_repeat_tied_notes(),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -336,7 +336,7 @@ commands(
 commands(
     ("va", 47),
     baca.make_repeat_tied_notes(),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(

@@ -100,13 +100,13 @@ commands(
 
 commands(
     ("va", 1),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
     library.viola_ob_rhythm(rotation=0),
 )
 
 commands(
     ("v2", 3),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -118,13 +118,13 @@ commands(
 
 commands(
     ("va", 3),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
     library.viola_ob_rhythm(rotation=-2),
 )
 
 commands(
     ("vc", 3),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -136,7 +136,7 @@ commands(
 
 commands(
     ("v1", 5),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -148,7 +148,7 @@ commands(
 
 commands(
     ("v2", 5),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -160,13 +160,13 @@ commands(
 
 commands(
     ("va", 5),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
     library.viola_ob_rhythm(rotation=-4),
 )
 
 commands(
     ("v1", 7),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -178,7 +178,7 @@ commands(
 
 commands(
     ("v2", 7),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -190,13 +190,13 @@ commands(
 
 commands(
     ("va", 7),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
     library.viola_ob_rhythm(rotation=-6),
 )
 
 commands(
     ("vc", 7),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -208,7 +208,7 @@ commands(
 
 commands(
     ("va", (9, 38)),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
     library.viola_ob_rhythm(rotation=-8),
 )
 
@@ -352,7 +352,7 @@ commands(
 
 commands(
     (["v1", "v2", "vc"], (9, 38)),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
