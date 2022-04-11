@@ -42,7 +42,7 @@ commands(
         baca.selectors.leaf(0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
     ),
-    baca.bar_line("|.", baca.selectors.skip(-1)),
+    baca.bar_line("|.", lambda _: baca.select.skip(_, -1)),
 )
 
 commands(

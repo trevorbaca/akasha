@@ -48,8 +48,8 @@ commands(
         "55",
         selector=baca.selectors.leaf(4),
     ),
-    baca.open_volta(baca.selectors.skip(1 - 1)),
-    baca.close_volta(baca.selectors.skip(7 - 1), site="after"),
+    baca.open_volta(lambda _: baca.select.skip(_, 1 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 7 - 1), site="after"),
 )
 
 commands(
