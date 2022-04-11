@@ -109,7 +109,7 @@ commands(
     [("vc", 1), ("vc", 3), ("vc", 5), ("vc", 7)],
     library.material(
         "D",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
 )
@@ -149,7 +149,7 @@ commands(
     ],
     library.material(
         "E",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
 )
@@ -158,7 +158,7 @@ commands(
     ("va", 16),
     library.material(
         "A",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
 )
@@ -167,7 +167,7 @@ commands(
     ("va", 23),
     library.material(
         "B",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.polyphony_rhythm(rotation=-2),
 )
@@ -176,7 +176,7 @@ commands(
     ("vc", 23),
     library.material(
         "B",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.polyphony_rhythm(rotation=-4),
 )
@@ -185,7 +185,7 @@ commands(
     ("v2", 26),
     library.material(
         "C",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
 )
@@ -204,7 +204,7 @@ commands(
     ("va", (25, 26)),
     library.material(
         "D",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -212,7 +212,7 @@ commands(
     ("vc", (25, 26)),
     library.material(
         "D",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
 )

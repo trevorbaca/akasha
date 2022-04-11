@@ -148,7 +148,7 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("PO + senza vib. => vib. moltiss."),
-    library.material("D", baca.selectors.rleaves()),
+    library.material("D", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -156,7 +156,7 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("senza vib. => vib. moltiss."),
-    library.material("D", baca.selectors.rleaves()),
+    library.material("D", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -164,43 +164,43 @@ commands(
     baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
     baca.text_spanner("senza vib. => vib. moltiss."),
-    library.material("D", baca.selectors.rleaves()),
+    library.material("D", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("vc", (13, 14)),
     baca.make_repeat_tied_notes(),
-    library.material("D", baca.selectors.rleaves()),
+    library.material("D", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", (4, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("v1", (8, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("v2", (13, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("vc", (17, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (21, 22)),
     baca.make_repeat_tied_notes(),
-    library.material("B", baca.selectors.rleaves()),
+    library.material("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -209,13 +209,13 @@ commands(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
-    library.material("A", baca.selectors.rleaves()),
+    library.material("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (25, 26)),
     baca.make_repeat_tied_notes(),
-    library.material("B", baca.selectors.rleaves()),
+    library.material("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -247,13 +247,13 @@ commands(
 
 commands(
     (["v1", "v2", "va", "vc"], (28, 29)),
-    library.material("C", baca.selectors.rleaves()),
+    library.material("C", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
     baca.make_repeat_tied_notes(),
-    library.material("B", baca.selectors.rleaves()),
+    library.material("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(

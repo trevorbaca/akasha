@@ -147,7 +147,7 @@ commands(
 
 commands(
     ("v2", [(38, 39), (43, 44)]),
-    library.material("C", baca.selectors.rleaves()),
+    library.material("C", lambda _: baca.select.rleaves(_)),
     baca.make_repeat_tied_notes(),
 )
 

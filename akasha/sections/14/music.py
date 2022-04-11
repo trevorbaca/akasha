@@ -167,7 +167,7 @@ commands(
     ("vc", (19, 24)),
     baca.hairpin(
         "pp >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

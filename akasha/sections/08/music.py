@@ -145,22 +145,22 @@ commands(
 
 commands(
     ("v1", [(5, 13), (15, 17)]),
-    library.material("B", baca.selectors.rleaves()),
+    library.material("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     (["v2", "vc"], [(1, 13), (15, 17)]),
-    library.material("B", baca.selectors.rleaves()),
+    library.material("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", (1, 13)),
-    library.material("B", baca.selectors.rleaves()),
+    library.material("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", (15, 17)),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(

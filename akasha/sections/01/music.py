@@ -76,7 +76,7 @@ commands(
 
 commands(
     ("va", (1, 2)),
-    library.material("E", baca.selectors.rleaves()),
+    library.material("E", lambda _: baca.select.rleaves(_)),
     baca.staff_lines(1),
     baca.down_bow(),
     baca.dynamic('"mf"'),
