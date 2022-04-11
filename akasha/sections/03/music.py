@@ -65,9 +65,7 @@ commands(
     ("v1", (1, 3)),
     library.material("C"),
     library.accelerando_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[-2:]
-        ),
+        rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.force_rest(baca.selectors.lt(1)),

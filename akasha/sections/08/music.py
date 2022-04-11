@@ -168,7 +168,9 @@ commands(
     library.getato_pitches(31, [2]),
     baca.hairpin(
         "pp >o niente",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
 )
 

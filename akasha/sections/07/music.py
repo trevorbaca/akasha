@@ -472,7 +472,9 @@ commands(
     library.getato_pitches(29, [2]),
     baca.hairpin(
         "ff < fff",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
     baca.markup(r"\baca-pos-ord-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
@@ -483,7 +485,9 @@ commands(
     library.getato_pitches(26, [2]),
     baca.hairpin(
         "ff < fff",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
     baca.markup(r"\baca-pos-ord-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
@@ -495,7 +499,9 @@ commands(
     baca.clef("treble"),
     baca.hairpin(
         "ff < fff",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
     baca.markup(r"\baca-pos-ord-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
@@ -507,7 +513,9 @@ commands(
     baca.clef("treble"),
     baca.hairpin(
         "ff < fff",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
     baca.markup(r"\baca-pos-ord-markup"),
     baca.staccato(selector=baca.selectors.pheads()),
