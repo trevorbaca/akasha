@@ -51,11 +51,11 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         baca.Ritardando(),
-        selector=baca.selectors.leaf(52),
+        selector=lambda _: abjad.select.leaf(_, 52),
     ),
     baca.metronome_mark(
         "38",
-        selector=baca.selectors.leaf(55),
+        selector=lambda _: abjad.select.leaf(_, 55),
     ),
 )
 
@@ -63,23 +63,23 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(28),
+        selector=lambda _: abjad.select.leaf(_, 28),
     ),
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(39),
+        selector=lambda _: abjad.select.leaf(_, 39),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(45),
+        selector=lambda _: abjad.select.leaf(_, 45),
     ),
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(54),
+        selector=lambda _: abjad.select.leaf(_, 54),
     ),
     baca.global_fermata(
         "very_long",
-        selector=baca.selectors.leaf(68),
+        selector=lambda _: abjad.select.leaf(_, 68),
     ),
 )
 

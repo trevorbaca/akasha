@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from akasha import library
@@ -41,11 +42,11 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "very_long",
-        selector=baca.selectors.leaf(1),
+        selector=lambda _: abjad.select.leaf(_, 1),
     ),
     baca.global_fermata(
         "very_long",
-        selector=baca.selectors.leaf(3),
+        selector=lambda _: abjad.select.leaf(_, 3),
     ),
 )
 

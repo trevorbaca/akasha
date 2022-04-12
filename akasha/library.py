@@ -271,7 +271,9 @@ def make_stage_markup(segment_number, stage_tokens):
     return stage_markup
 
 
-def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf(0)):
+def margin_markup(
+    key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
+):
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
         margin_markup,
@@ -502,14 +504,14 @@ material_to_color = {
 }
 
 
-def material(letter, selector=baca.selectors.leaves()):
+def material(letter, selector=lambda _: baca.select.leaves(_)):
     markup = baca.markup(
         rf"""\markup
             \override #'(circle-padding . 0.75)
             \circle
             {{ \combine \halign #0 {letter} \halign #0 \transparent "O" }}
             """,
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     )
     color = material_to_color[letter]
     literal = baca.literal(rf"\colorSpan #-4 #4 #(rgb-color {color})")

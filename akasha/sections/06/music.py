@@ -54,23 +54,23 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "55",
-        selector=baca.selectors.leaf(8),
+        selector=lambda _: abjad.select.leaf(_, 8),
     ),
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(12),
+        selector=lambda _: abjad.select.leaf(_, 12),
     ),
     baca.metronome_mark(
         "89",
-        selector=baca.selectors.leaf(14),
+        selector=lambda _: abjad.select.leaf(_, 14),
     ),
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(18),
+        selector=lambda _: abjad.select.leaf(_, 18),
     ),
     baca.metronome_mark(
         "126",
-        selector=baca.selectors.leaf(26),
+        selector=lambda _: abjad.select.leaf(_, 26),
     ),
 )
 
@@ -78,23 +78,23 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(1),
+        selector=lambda _: abjad.select.leaf(_, 1),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(3),
+        selector=lambda _: abjad.select.leaf(_, 3),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(5),
+        selector=lambda _: abjad.select.leaf(_, 5),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(7),
+        selector=lambda _: abjad.select.leaf(_, 7),
     ),
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(-1),
+        selector=lambda _: abjad.select.leaf(_, -1),
     ),
 )
 
@@ -365,7 +365,7 @@ commands(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.phead(_, 0, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -403,7 +403,7 @@ commands(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.phead(_, 0, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -461,7 +461,7 @@ commands(
     baca.new(
         baca.dynamic("ff"),
         baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        selector=baca.selectors.phead(0, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.phead(_, 0, exclude=baca.const.HIDDEN),
     ),
 )
 

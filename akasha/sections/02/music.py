@@ -55,27 +55,27 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "44",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.metronome_mark(
         "55",
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.metronome_mark(
         "44",
-        selector=baca.selectors.leaf(5),
+        selector=lambda _: abjad.select.leaf(_, 5),
     ),
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(5),
+        selector=lambda _: abjad.select.leaf(_, 5),
     ),
     baca.metronome_mark(
         "55",
-        selector=baca.selectors.leaf(9),
+        selector=lambda _: abjad.select.leaf(_, 9),
     ),
 )
 
@@ -83,35 +83,35 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(4),
+        selector=lambda _: abjad.select.leaf(_, 4),
     ),
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(7),
+        selector=lambda _: abjad.select.leaf(_, 7),
     ),
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(9),
+        selector=lambda _: abjad.select.leaf(_, 9),
     ),
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(13),
+        selector=lambda _: abjad.select.leaf(_, 13),
     ),
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(15),
+        selector=lambda _: abjad.select.leaf(_, 15),
     ),
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(17),
+        selector=lambda _: abjad.select.leaf(_, 17),
     ),
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(19),
+        selector=lambda _: abjad.select.leaf(_, 19),
     ),
 )
 

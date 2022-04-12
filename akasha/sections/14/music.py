@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from akasha import library
@@ -43,19 +44,19 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(6),
+        selector=lambda _: abjad.select.leaf(_, 6),
     ),
     baca.metronome_mark(
         "89",
-        selector=baca.selectors.leaf(10),
+        selector=lambda _: abjad.select.leaf(_, 10),
     ),
     baca.metronome_mark(
         baca.Ritardando(),
-        selector=baca.selectors.leaf(18),
+        selector=lambda _: abjad.select.leaf(_, 18),
     ),
     baca.metronome_mark(
         "44",
-        selector=baca.selectors.leaf(26),
+        selector=lambda _: abjad.select.leaf(_, 26),
     ),
 )
 
