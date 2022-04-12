@@ -68,7 +68,7 @@ commands(
         rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
-        rmakers.force_rest(baca.selectors.lt(1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, 1)),
         fuse_counts=[1],
     ),
     baca.pitches("E5 D5"),
@@ -139,7 +139,7 @@ commands(
     library.getato_pitches(-2, [-3], direction=abjad.DOWN),
     baca.beam_positions(-4),
     baca.staccato(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.tuplet_bracket_staff_padding(2),
 )
@@ -148,7 +148,7 @@ commands(
     ("v2", (10, 11)),
     library.material("C"),
     library.accelerando_rhythm(
-        rmakers.force_rest(baca.selectors.lt(3)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, 3)),
         fuse_counts=[2, 1],
     ),
     baca.dynamic("pp"),

@@ -349,13 +349,13 @@ commands(
 commands(
     ("v1", (3, 4)),
     library.getato_pitches(27, [2]),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
     ("v2", (3, 4)),
     library.getato_pitches(24, [2]),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -363,7 +363,7 @@ commands(
     library.getato_pitches(21, [2]),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.dynamic("pp"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -478,7 +478,7 @@ commands(
         ),
     ),
     baca.markup(r"\baca-pos-ord-markup"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -491,7 +491,7 @@ commands(
         ),
     ),
     baca.markup(r"\baca-pos-ord-markup"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -505,7 +505,7 @@ commands(
         ),
     ),
     baca.markup(r"\baca-pos-ord-markup"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -519,7 +519,7 @@ commands(
         ),
     ),
     baca.markup(r"\baca-pos-ord-markup"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -551,7 +551,7 @@ commands(
     library.getato_pitches(29, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -559,7 +559,7 @@ commands(
     library.getato_pitches(26, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -568,7 +568,7 @@ commands(
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staff_lines(5),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -576,7 +576,7 @@ commands(
     library.getato_pitches(20, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(

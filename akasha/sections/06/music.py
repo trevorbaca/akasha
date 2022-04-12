@@ -378,7 +378,7 @@ commands(
 commands(
     ("v1", (23, 39)),
     baca.staccato(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -417,7 +417,7 @@ commands(
     ("v2", (19, 20)),
     baca.dynamic("mf"),
     baca.staccato(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.markup(r"\akasha-senza-scratch-markup"),
 )
@@ -426,7 +426,7 @@ commands(
     ("v2", (21, 39)),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -443,7 +443,7 @@ commands(
 commands(
     "va",
     baca.alternate_bow_strokes(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.dynamic('"mf"'),
     baca.markup(r"\baca-ob-markup"),
@@ -476,14 +476,14 @@ commands(
     baca.dynamic("mf"),
     baca.markup(r"\akasha-senza-scratch-markup"),
     baca.staccato(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
 )
 
 commands(
     ("vc", (19, 39)),
     baca.staccato(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.markup(r"\baca-leggieriss-markup"),
 )

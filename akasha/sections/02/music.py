@@ -275,7 +275,7 @@ commands(
     ("vc", (11, 13)),
     library.material("B"),
     library.polyphony_rhythm(
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
         rotation=-6,
     ),
     baca.pitches("Bb3 Bb~3 A3 Ab3 G3 A3", exact=True),
@@ -313,7 +313,7 @@ commands(
     ("vc", 15),
     library.material("B"),
     library.polyphony_rhythm(
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
         rotation=-10,
     ),
     baca.pitches("A3 A#3 B3", exact=True),
@@ -333,7 +333,7 @@ commands(
     ("v1", (11, 19)),
     baca.pitches(
         "D5 E5",
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -362,7 +362,7 @@ commands(
     ("v2", (11, 19)),
     baca.pitches(
         "Bb4 C5",
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -382,7 +382,7 @@ commands(
 commands(
     baca.timeline([("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)]),
     library.getato_pitches(-2, [0]),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
