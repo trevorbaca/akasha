@@ -57,7 +57,7 @@ commands(
     (["v1", "va", "vc"], (1, 16)),
     baca.make_notes(
         rmakers.force_rest(
-            baca.selectors.lts(([1], 2)),
+            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
         ),
         repeat_ties=True,
     ),

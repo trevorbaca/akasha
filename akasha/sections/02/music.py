@@ -157,7 +157,9 @@ commands(
     baca.new(
         library.polyphony_rhythm(
             rmakers.force_rest(
-                baca.selectors.lts(omit=[0, 1, 2]),
+                lambda _: abjad.select.get(
+                    baca.select.lts(_), ~abjad.Pattern([0, 1, 2])
+                ),
             ),
         ),
         baca.pitches("E4 F4 E+4", exact=True),
@@ -166,7 +168,9 @@ commands(
     baca.new(
         library.polyphony_rhythm(
             rmakers.force_rest(
-                baca.selectors.lts(omit=[2, 3, 4]),
+                lambda _: abjad.select.get(
+                    baca.select.lts(_), ~abjad.Pattern([2, 3, 4])
+                ),
             ),
         ),
         baca.pitches("D4 D~4 C4", exact=True),
@@ -175,7 +179,9 @@ commands(
     baca.new(
         library.polyphony_rhythm(
             rmakers.force_rest(
-                baca.selectors.lts(omit=[1, 2, 3]),
+                lambda _: abjad.select.get(
+                    baca.select.lts(_), ~abjad.Pattern([1, 2, 3])
+                ),
             ),
         ),
         baca.pitches("Eb4 D4 E4", exact=True),
@@ -198,7 +204,7 @@ commands(
     library.material("B"),
     library.polyphony_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(omit=[1, 2, 3]),
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
         ),
         rotation=-2,
     ),
@@ -210,7 +216,7 @@ commands(
     library.material("B"),
     library.polyphony_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(omit=[2, 3, 4]),
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
         ),
         rotation=-2,
     ),
@@ -222,7 +228,7 @@ commands(
     library.material("B"),
     library.polyphony_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(omit=[0, 1, 2]),
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
         ),
         rotation=-2,
     ),
@@ -239,7 +245,10 @@ commands(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.force_rest(
-            baca.selectors.lts([3, 5, 7, 9]),
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [3, 5, 7, 9],
+            ),
         ),
         fuse_counts=[1, 2],
     ),
@@ -257,7 +266,10 @@ commands(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.force_rest(
-            baca.selectors.lts([2, 5, 7]),
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [2, 5, 7],
+            ),
         ),
     ),
     baca.dynamic("pp"),
@@ -286,7 +298,11 @@ commands(
     library.material("C"),
     library.accelerando_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(omit=[0, 2, 3, -1]),
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [0, 2, 3, -1],
+                invert=True,
+            ),
         ),
         fuse_counts=[1, 2],
     ),
@@ -297,7 +313,11 @@ commands(
     library.material("C"),
     library.ritardando_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(omit=[0, 1, 4, -1]),
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [0, 1, 4, -1],
+                invert=True,
+            ),
         ),
     ),
 )
@@ -324,7 +344,11 @@ commands(
     library.material("C"),
     library.ritardando_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(omit=[0, 2, -1]),
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [0, 2, -1],
+                invert=True,
+            ),
         ),
     ),
 )
@@ -342,7 +366,11 @@ commands(
     library.material("C"),
     library.accelerando_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(omit=[0, 2, -1]),
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [0, 2, -1],
+                invert=True,
+            ),
         ),
         fuse_counts=[1, 2],
     ),
@@ -353,7 +381,11 @@ commands(
     library.material("C"),
     library.ritardando_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(omit=[0, 1, -1]),
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [0, 1, -1],
+                invert=True,
+            ),
         ),
     ),
 )
