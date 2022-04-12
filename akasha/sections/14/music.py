@@ -97,11 +97,11 @@ commands(
     ("vc", (1, 10)),
     baca.hairpin(
         "ppp < ff",
-        selector=baca.selectors.leaves((None, 9)),
+        selector=lambda _: baca.select.leaves(_)[:9],
     ),
     baca.text_spanner(
         "trans. => vib. moltiss.",
-        selector=baca.selectors.leaves((None, 9)),
+        selector=lambda _: baca.select.leaves(_)[:9],
     ),
 )
 
@@ -136,7 +136,7 @@ commands(
     (["v1", "v2", "va"], (13, 14)),
     baca.text_spanner(
         "trans. => pos. ord. XFB",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
 )
 
@@ -144,7 +144,7 @@ commands(
     (["v1", "v2", "va"], (15, 16)),
     baca.text_spanner(
         "trans. => pont. XFB",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
 )
 
@@ -152,7 +152,7 @@ commands(
     (["v1", "v2", "va"], (17, 18)),
     baca.text_spanner(
         "trans. => XP+XFB",
-        selector=baca.selectors.leaves((None, 3)),
+        selector=lambda _: baca.select.leaves(_)[:3],
     ),
 )
 
@@ -160,7 +160,7 @@ commands(
     (["v1", "v2", "va"], (19, 22)),
     baca.text_spanner(
         "trans. => XP",
-        selector=baca.selectors.leaves((None, 4)),
+        selector=lambda _: baca.select.leaves(_)[:4],
     ),
 )
 
@@ -176,7 +176,7 @@ commands(
     (["v1", "v2", "va"], (23, 24)),
     baca.text_spanner(
         "trans. => 1/3OB",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
 )
 
@@ -184,7 +184,7 @@ commands(
     (["v1", "v2", "va"], (25, 26)),
     baca.text_spanner(
         "trans. => 2/3OB",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
 )
 
@@ -192,7 +192,7 @@ commands(
     (["v1", "v2", "va"], (27, 28)),
     baca.text_spanner(
         "trans. => OB (no pitch)",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
 )
 

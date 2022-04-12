@@ -110,7 +110,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[-1]),
+            lambda _: abjad.select.get(baca.select.lts(_), [-1], invert=True),
         ),
         extra_counts=[-2],
     ),
@@ -128,7 +128,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[1]),
+            lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
         ),
         extra_counts=[-1],
     ),
@@ -140,7 +140,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[0]),
+            lambda _: abjad.select.get(baca.select.lts(_), [0], invert=True),
         ),
         extra_counts=[-2],
     ),
@@ -152,7 +152,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[2]),
+            lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
         ),
         extra_counts=[-1],
     ),
@@ -170,7 +170,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[0]),
+            lambda _: abjad.select.get(baca.select.lts(_), [0], invert=True),
         ),
         extra_counts=[-2],
     ),
@@ -182,7 +182,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[-1]),
+            lambda _: abjad.select.get(baca.select.lts(_), [-1], invert=True),
         ),
         extra_counts=[1],
     ),
@@ -200,7 +200,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[1]),
+            lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
         ),
         extra_counts=[-1],
     ),
@@ -217,7 +217,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[1, -3]),
+            lambda _: abjad.select.get(baca.select.lts(_), [1, -3], invert=True),
         ),
         extra_counts=[1],
     ),
@@ -228,7 +228,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[2, -1]),
+            lambda _: abjad.select.get(baca.select.lts(_), [2, -1], invert=True),
         ),
         extra_counts=[0],
     ),
@@ -239,7 +239,7 @@ commands(
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
-            baca.selectors.lts(omit=[2, -2]),
+            lambda _: abjad.select.get(baca.select.lts(_), [2, -2], invert=True),
         ),
         extra_counts=[2],
     ),
@@ -250,7 +250,7 @@ commands(
     library.scratch_rhythm(
         [8],
         rmakers.force_rest(
-            baca.selectors.lts(omit=([0, 3], 8)),
+            lambda _: abjad.select.get(baca.select.lts(_), ([0, 3], 8), invert=True),
         ),
         extra_counts=[1],
     ),
@@ -275,7 +275,7 @@ commands(
     library.scratch_rhythm(
         [8],
         rmakers.force_rest(
-            baca.selectors.lts(omit=([1, 4], 9)),
+            lambda _: abjad.select.get(baca.select.lts(_), ([1, 4], 9), invert=True),
         ),
         extra_counts=[-1],
     ),
@@ -311,7 +311,7 @@ commands(
     library.scratch_rhythm(
         [8],
         rmakers.force_rest(
-            baca.selectors.lts(omit=([2, 5], 9)),
+            lambda _: abjad.select.get(baca.select.lts(_), ([2, 5], 9), invert=True),
         ),
         extra_counts=[2],
     ),

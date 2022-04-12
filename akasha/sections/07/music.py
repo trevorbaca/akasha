@@ -180,7 +180,7 @@ commands(
     ("v1", (8, 9)),
     library.accelerando_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts([1, 6]),
+            lambda _: abjad.select.get(baca.select.lts(_), [1, 6]),
         ),
         fuse_counts=[1, 2],
     ),
@@ -191,7 +191,7 @@ commands(
     ("v2", (8, 9)),
     library.ritardando_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts([2, 5]),
+            lambda _: abjad.select.get(baca.select.lts(_), [2, 5]),
         ),
     ),
     library.material("C"),

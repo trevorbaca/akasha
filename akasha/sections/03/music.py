@@ -88,7 +88,7 @@ commands(
     library.material("B"),
     library.polyphony_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts((None, 2)),
+            lambda _: baca.select.lts(_)[:2],
         ),
         rotation=-2,
     ),
