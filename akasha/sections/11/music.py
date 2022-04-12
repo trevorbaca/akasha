@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -33,7 +34,7 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "very_long",
-        selector=baca.selectors.leaf(-1),
+        selector=lambda _: abjad.select.leaf(_, -1),
     ),
 )
 

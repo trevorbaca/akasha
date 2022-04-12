@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from akasha import library
@@ -42,11 +43,11 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "44",
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.metronome_mark(
         "55",
-        selector=baca.selectors.leaf(4),
+        selector=lambda _: abjad.select.leaf(_, 4),
     ),
     baca.open_volta(lambda _: baca.select.skip(_, 1 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 7 - 1), site="after"),
@@ -56,11 +57,11 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(3),
+        selector=lambda _: abjad.select.leaf(_, 3),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(-1),
+        selector=lambda _: abjad.select.leaf(_, -1),
     ),
 )
 

@@ -39,7 +39,7 @@ commands(
     baca.metronome_mark("89"),
     baca.rehearsal_mark(
         "N",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
     ),
     baca.bar_line("|.", lambda _: baca.select.skip(_, -1)),
@@ -49,7 +49,7 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "very_long",
-        selector=baca.selectors.leaf(-1),
+        selector=lambda _: abjad.select.leaf(_, -1),
     ),
 )
 

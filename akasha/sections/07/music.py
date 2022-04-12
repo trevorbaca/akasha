@@ -58,39 +58,39 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "44",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.metronome_mark(
         "126",
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.metronome_mark(
         "55",
-        selector=baca.selectors.leaf(5),
+        selector=lambda _: abjad.select.leaf(_, 5),
     ),
     baca.metronome_mark(
         "89",
-        selector=baca.selectors.leaf(7),
+        selector=lambda _: abjad.select.leaf(_, 7),
     ),
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(30),
+        selector=lambda _: abjad.select.leaf(_, 30),
     ),
     baca.metronome_mark(
         "126",
-        selector=baca.selectors.leaf(34),
+        selector=lambda _: abjad.select.leaf(_, 34),
     ),
     baca.metronome_mark(
         "55",
-        selector=baca.selectors.leaf(42),
+        selector=lambda _: abjad.select.leaf(_, 42),
     ),
     baca.metronome_mark(
         "126",
-        selector=baca.selectors.leaf(44),
+        selector=lambda _: abjad.select.leaf(_, 44),
     ),
     baca.metronome_mark(
         "55",
-        selector=baca.selectors.leaf(46),
+        selector=lambda _: abjad.select.leaf(_, 46),
     ),
 )
 
@@ -98,35 +98,35 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(4),
+        selector=lambda _: abjad.select.leaf(_, 4),
     ),
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(6),
+        selector=lambda _: abjad.select.leaf(_, 6),
     ),
     baca.global_fermata(
         "long",
-        selector=baca.selectors.leaf(9),
+        selector=lambda _: abjad.select.leaf(_, 9),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(34),
+        selector=lambda _: abjad.select.leaf(_, 34),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(41),
+        selector=lambda _: abjad.select.leaf(_, 41),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(43),
+        selector=lambda _: abjad.select.leaf(_, 43),
     ),
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(45),
+        selector=lambda _: abjad.select.leaf(_, 45),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(47),
+        selector=lambda _: abjad.select.leaf(_, 47),
     ),
 )
 

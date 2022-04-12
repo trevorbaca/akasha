@@ -49,28 +49,28 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "G",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 5)"),
     ),
     baca.metronome_mark(
         "126",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.metronome_mark(
         baca.Ritardando(),
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.metronome_mark(
         "44",
-        selector=baca.selectors.leaf(4),
+        selector=lambda _: abjad.select.leaf(_, 4),
     ),
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(14),
+        selector=lambda _: abjad.select.leaf(_, 14),
     ),
     baca.metronome_mark(
         "89",
-        selector=baca.selectors.leaf(16),
+        selector=lambda _: abjad.select.leaf(_, 16),
     ),
 )
 
@@ -78,7 +78,7 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(13),
+        selector=lambda _: abjad.select.leaf(_, 13),
     ),
 )
 
