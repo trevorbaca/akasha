@@ -78,7 +78,7 @@ commands(
 commands(
     (["v1", "va", "vc"], (1, 24)),
     baca.alternate_bow_strokes(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.clef("percussion"),
     baca.dynamic('"mf"'),
@@ -96,7 +96,7 @@ commands(
     baca.dynamic("pp-ancora"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
 )
 

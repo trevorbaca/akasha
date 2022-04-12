@@ -430,7 +430,7 @@ commands(
     library.getato_pitches(31, [2]),
     baca.dynamic("ppp"),
     baca.markup(r"\akasha-leggieriss-plus-po-markup"),
-    baca.staccato(selector=baca.selectors.pheads()),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(

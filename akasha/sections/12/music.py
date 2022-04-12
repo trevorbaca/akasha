@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from akasha import library
@@ -138,7 +139,7 @@ commands(
     (["v1", "v2", "va", "vc"], (13, 16)),
     baca.dynamic(
         "ff",
-        selector=baca.selectors.note(2),
+        selector=lambda _: abjad.select.note(_, 2),
     ),
     baca.text_spanner(
         "trans. => scratch moltiss.",
@@ -261,7 +262,7 @@ commands(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("B7"),
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -278,7 +279,7 @@ commands(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("C#7"),
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -286,7 +287,7 @@ commands(
     ("va", (41, 48)),
     baca.pitch(
         "A2",
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -295,7 +296,7 @@ commands(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("G~5"),
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -312,7 +313,7 @@ commands(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("D5"),
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
