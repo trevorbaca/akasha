@@ -11,7 +11,7 @@ segment.10.Global.Skips = {
     %! +SEGMENT
     %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -74,7 +74,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -113,7 +113,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -152,7 +152,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 6/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -296,7 +296,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -335,7 +335,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 5/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -406,7 +406,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -477,7 +477,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -557,7 +557,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 5/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -628,7 +628,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -708,7 +708,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -747,7 +747,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 6/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -891,7 +891,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -930,7 +930,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 6/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1010,7 +1010,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1049,7 +1049,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1120,7 +1120,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 5/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1159,7 +1159,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1262,7 +1262,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1301,7 +1301,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1372,7 +1372,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1411,7 +1411,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1450,7 +1450,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 5/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1530,7 +1530,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 6/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1633,7 +1633,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1736,7 +1736,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 6/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -1775,7 +1775,7 @@ segment.10.Global.Skips = {
     %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
@@ -2130,10 +2130,10 @@ segment.10.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(1)
+    %! baca._attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca._reapply_persistent_indicators(3)
@@ -2141,10 +2141,10 @@ segment.10.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_repeat_tied_notes()
@@ -2223,10 +2223,10 @@ segment.10.Violin.I.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -4438,10 +4438,10 @@ segment.10.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(1)
+    %! baca._attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca._reapply_persistent_indicators(3)
@@ -4449,10 +4449,10 @@ segment.10.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_repeat_tied_notes()
@@ -4531,10 +4531,10 @@ segment.10.Violin.II.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -6377,10 +6377,10 @@ segment.10.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "alto"
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(1)
+    %! baca._attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca._reapply_persistent_indicators(3)
@@ -6388,10 +6388,10 @@ segment.10.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_repeat_tied_notes()
@@ -6470,10 +6470,10 @@ segment.10.Viola.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -8224,10 +8224,10 @@ segment.10.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "bass"
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(1)
+    %! baca._attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca._reapply_persistent_indicators(3)
@@ -8235,10 +8235,10 @@ segment.10.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_repeat_tied_notes()
@@ -8317,10 +8317,10 @@ segment.10.Cello.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca.attach_color_literal(2)
+    %! baca._attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
