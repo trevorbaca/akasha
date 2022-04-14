@@ -994,100 +994,146 @@ segment.11.Violin.II.Music.Staff = <<
 %! baca.path.extern()
 segment.11.Viola.Music.Voice = {
 
-    %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \akasha-va-markup
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! EXPLICIT_STAFF_LINES
-    %! baca._reanalyze_reapplied_synthetic_wrappers()
-    \stopStaff
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! EXPLICIT_STAFF_LINES
-    %! baca._reanalyze_reapplied_synthetic_wrappers()
-    \once \override Staff.StaffSymbol.line-count = 5
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! EXPLICIT_STAFF_LINES
-    %! baca._reanalyze_reapplied_synthetic_wrappers()
-    \startStaff
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \akasha-va-markup
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "alto"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \mf
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Va.”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \akasha-va-markup
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Viola_Music_Voice"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Viola_Music_Voice measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \akasha-va-markup
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! EXPLICIT_STAFF_LINES
+            %! baca._reanalyze_reapplied_synthetic_wrappers()
+            \stopStaff
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! EXPLICIT_STAFF_LINES
+            %! baca._reanalyze_reapplied_synthetic_wrappers()
+            \once \override Staff.StaffSymbol.line-count = 5
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! EXPLICIT_STAFF_LINES
+            %! baca._reanalyze_reapplied_synthetic_wrappers()
+            \startStaff
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \akasha-va-markup
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "alto"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_STAFF_LINES_COLOR
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            c'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \mf
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Viola”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Va.”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \akasha-va-markup
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Viola_Rest_Voice"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Viola_Rest_Voice measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 6/4
+    %! baca._make_measure_silences()
+    R1 * 3/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"3" #"2"
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 6/4
+    %! baca._make_measure_silences()
+    R1 * 3/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"3" #"2"
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 4]
@@ -1097,7 +1143,7 @@ segment.11.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
     %! baca._style_fermata_measures(1)
     \startStaff
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 1/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
