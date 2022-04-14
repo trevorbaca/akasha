@@ -298,7 +298,7 @@ commands(
     baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -328,7 +328,7 @@ commands(
     baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B4",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -336,7 +336,7 @@ commands(
     ("v1", (25, 26)),
     baca.pitch(
         "B4",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -372,7 +372,7 @@ commands(
     baca.markup(r"\baca-ob-markup"),
     baca.pitch(
         "B3",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -409,7 +409,7 @@ commands(
     ("vc", (17, 27)),
     baca.pitch(
         "B1",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 

@@ -139,7 +139,7 @@ commands(
     library.getato_pitches(-2, [-3], direction=abjad.DOWN),
     baca.beam_positions(-4),
     baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
     baca.tuplet_bracket_staff_padding(2),
 )

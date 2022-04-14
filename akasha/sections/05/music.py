@@ -183,7 +183,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.pitch(
         "C#7",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -231,7 +231,7 @@ commands(
     baca.dynamic("ppp"),
     baca.new(
         baca.glissando(),
-        map=lambda _: baca.select.runs(_, exclude=baca.const.HIDDEN),
+        map=lambda _: baca.select.runs(_, exclude=baca.enums.HIDDEN),
     ),
     baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
@@ -262,7 +262,7 @@ commands(
     baca.dynamic("ppp"),
     baca.new(
         baca.glissando(),
-        map=lambda _: baca.select.runs(_, exclude=baca.const.HIDDEN),
+        map=lambda _: baca.select.runs(_, exclude=baca.enums.HIDDEN),
     ),
     baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
@@ -273,12 +273,12 @@ commands(
     baca.dynamic("p"),
     baca.new(
         baca.trill_spanner(alteration="A5"),
-        map=lambda _: baca.select.qruns(_, exclude=baca.const.HIDDEN),
+        map=lambda _: baca.select.qruns(_, exclude=baca.enums.HIDDEN),
     ),
     baca.markup(r"\baca-tasto-markup"),
     baca.pitch(
         "G5",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -287,7 +287,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.pitch(
         "Gqf5",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -315,7 +315,7 @@ commands(
     baca.dynamic("ppp-ancora"),
     baca.new(
         baca.glissando(),
-        map=lambda _: baca.select.runs(_, exclude=baca.const.HIDDEN),
+        map=lambda _: baca.select.runs(_, exclude=baca.enums.HIDDEN),
     ),
     baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
@@ -326,7 +326,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.pitch(
         "D5",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 

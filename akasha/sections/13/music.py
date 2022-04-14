@@ -58,7 +58,7 @@ commands(
 commands(
     ("va", (1, 3)),
     baca.alternate_bow_strokes(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
     baca.clef("alto"),
     baca.dynamic('"mf"'),

@@ -357,7 +357,7 @@ commands(
     ("v1", (11, 19)),
     baca.pitches(
         "D5 E5",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -394,7 +394,7 @@ commands(
     ("v2", (11, 19)),
     baca.pitches(
         "Bb4 C5",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
