@@ -46,6 +46,7 @@ commands(
 
 commands(
     "v1",
+    baca.make_mmrests(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. I"),
@@ -57,6 +58,7 @@ commands(
 
 commands(
     "v2",
+    baca.make_mmrests(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. II"),
@@ -89,6 +91,7 @@ commands(
 
 commands(
     "vc",
+    baca.make_mmrests(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vc."),
@@ -107,6 +110,9 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        call_phantom_measure_append_functions_by_hand=False,
+        call_reapplication_functions_by_hand=False,
+        call_rest_intercalation_functions_by_hand=False,
         deactivate=(
             baca.tags.DEFAULT_INSTRUMENT_ALERT,
             baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
