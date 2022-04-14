@@ -78,14 +78,14 @@ commands(
 commands(
     (["v1", "va", "vc"], (1, 24)),
     baca.alternate_bow_strokes(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
     baca.clef("percussion"),
     baca.dynamic('"mf"'),
     baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
     baca.staff_position(
         0,
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
     baca.staff_lines(1),
 )
@@ -96,7 +96,7 @@ commands(
     baca.dynamic("pp-ancora"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
 )
 

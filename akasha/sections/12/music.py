@@ -253,7 +253,7 @@ commands(
     ("v1", (41, 52)),
     baca.pitch(
         "A5",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -262,7 +262,7 @@ commands(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("B7"),
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -270,7 +270,7 @@ commands(
     ("v2", (41, 50)),
     baca.pitch(
         "A4",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -279,7 +279,7 @@ commands(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("C#7"),
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -287,7 +287,7 @@ commands(
     ("va", (41, 48)),
     baca.pitch(
         "A2",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -296,7 +296,7 @@ commands(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("G~5"),
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -304,7 +304,7 @@ commands(
     ("vc", (41, 45)),
     baca.new(
         baca.pitch("A1"),
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -313,7 +313,7 @@ commands(
     baca.new(
         baca.note_head_style_harmonic(),
         baca.pitch("D5"),
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 

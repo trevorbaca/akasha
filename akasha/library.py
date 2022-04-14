@@ -144,7 +144,7 @@ def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP):
     return baca.loop(
         pitch_numbers,
         intervals,
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     )
 
 
@@ -212,7 +212,7 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None
     pitch_numbers = abjad.sequence.rotate(pitch_numbers, n=rotation)
     return baca.pitches(
         pitch_numbers,
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     )
 
 
