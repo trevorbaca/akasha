@@ -110,7 +110,6 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        call_attach_first_segment_default_indicators_by_hand=True,
         call_phantom_measure_append_functions_by_hand=False,
         call_reapplication_functions_by_hand=False,
         call_rest_intercalation_functions_by_hand=False,
