@@ -47,6 +47,7 @@ commands(
 commands(
     "v1",
     baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. I"),
@@ -59,6 +60,7 @@ commands(
 commands(
     "v2",
     baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. II"),
@@ -69,20 +71,17 @@ commands(
 # va
 
 commands(
-    "va",
+    ("va", (1, 2)),
+    baca.make_repeat_tied_notes(),
+    baca.attach_first_segment_default_indicators(),
     baca.suite(
         library.margin_markup("Va."),
         baca.start_markup("Viola", hcenter_in=14),
     ),
-)
-
-commands(
-    ("va", (1, 2)),
     library.material("E", lambda _: baca.select.rleaves(_)),
     baca.staff_lines(1),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.make_repeat_tied_notes(),
     baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
     baca.staff_position(0),
 )
@@ -92,6 +91,7 @@ commands(
 commands(
     "vc",
     baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vc."),
@@ -110,6 +110,7 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        call_attach_first_segment_default_indicators_by_hand=True,
         call_phantom_measure_append_functions_by_hand=False,
         call_reapplication_functions_by_hand=False,
         call_rest_intercalation_functions_by_hand=False,
