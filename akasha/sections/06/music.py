@@ -99,9 +99,22 @@ commands(
 )
 
 commands(
+    ("v1", (1, 4)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     ("va", 1),
-    library.material("E", lambda _: baca.select.rleaves(_)),
     library.viola_ob_rhythm(rotation=0),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -120,6 +133,12 @@ commands(
     ("va", 3),
     library.material("E", lambda _: baca.select.rleaves(_)),
     library.viola_ob_rhythm(rotation=-2),
+)
+
+commands(
+    ("vc", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(

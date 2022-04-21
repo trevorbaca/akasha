@@ -114,8 +114,18 @@ commands(
         ("va", (24, 31)),
         ("vc", (33, 36)),
     ],
-    library.material("D"),
     baca.make_repeat_tied_notes(),
+    library.material("D"),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=[0, 2, 4],
+    ),
+)
+
+commands(
+    ("v2", (1, 9)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(

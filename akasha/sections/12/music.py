@@ -98,6 +98,11 @@ commands(
 )
 
 commands(
+    ["v1", "v2", "va", "vc"],
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     (["v1", "v2", "va", "vc"], (1, 28)),
     baca.dynamic('"ff"'),
     baca.markup(r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"),

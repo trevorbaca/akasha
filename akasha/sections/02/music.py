@@ -116,12 +116,25 @@ commands(
 )
 
 commands(
+    ("v1", (1, 5)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     ("vc", (1, 2)),
+    library.cello_solo_rhythm(rotation=0),
+    baca.reapply_persistent_indicators(),
     library.material("B"),
     library.cello_solo_pitches(),
-    library.cello_solo_rhythm(rotation=0),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+)
+
+commands(
+    ("v2", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -135,7 +148,9 @@ commands(
 )
 
 commands(
-    ("va", 1),
+    ("va", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
     baca.staff_lines(5),
 )
 

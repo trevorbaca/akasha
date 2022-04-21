@@ -70,17 +70,20 @@ commands(
     library.accelerando_rhythm(
         fuse_counts=[1, 2],
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("v2", (1, 2)),
     library.ritardando_rhythm(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("va", (1, 3)),
     baca.make_repeat_tied_notes(),
     library.material("E", lambda _: baca.select.rleaves(_)),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -88,6 +91,7 @@ commands(
     library.ritardando_rhythm(
         preprocessor=lambda _: baca.sequence.fuse(_),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(

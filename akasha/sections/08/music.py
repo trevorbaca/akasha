@@ -94,12 +94,14 @@ commands(
         [6, 4, 6, 3],
     ),
     library.material("A"),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
     (["v2", "va", "vc"], (1, 4)),
-    baca.hairpin("ff > f"),
     baca.make_notes(repeat_ties=True),
+    baca.reapply_persistent_indicators(),
+    baca.hairpin("ff > f"),
     baca.text_spanner("tasto + scratch moltiss. => tasto + 1/4 scratch"),
 )
 

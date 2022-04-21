@@ -100,18 +100,32 @@ commands(
 )
 
 commands(
+    (["v1", "v2"], (1, 8)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     [("va", 1), ("va", 3), ("va", 5), ("va", 7)],
-    library.material("D"),
     library.glissando_rhythm(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
+    library.material("D"),
 )
 
 commands(
     [("vc", 1), ("vc", 3), ("vc", 5), ("vc", 7)],
+    baca.make_repeat_tied_notes(),
     library.material(
         "D",
         selector=lambda _: baca.select.rleaves(_),
     ),
-    baca.make_repeat_tied_notes(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
 )
 
 commands(

@@ -61,6 +61,13 @@ commands(
         ),
         repeat_ties=True,
     ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", (1, 8)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
