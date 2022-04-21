@@ -1,16 +1,16 @@
-%! baca._make_lilypond_file()
 %! abjad.LilyPondFile._get_format_pieces()
+%! baca._make_lilypond_file()
 \version "2.23.6"
 \include "header.ily"
 \include "../stylesheet.ily"
 %! baca.path.extern()
 \include "music.ily"
 
-%! baca._make_lilypond_file()
 %! abjad.LilyPondFile._get_format_pieces()
+%! baca._make_lilypond_file()
 \score
-%! baca._make_lilypond_file()
 %! abjad.LilyPondFile._get_format_pieces()
+%! baca._make_lilypond_file()
 {
 
     %! baca._make_lilypond_file()
@@ -96,6 +96,6 @@
     %! baca._make_lilypond_file()
     >>
 
-%! baca._make_lilypond_file()
 %! abjad.LilyPondFile._get_format_pieces()
+%! baca._make_lilypond_file()
 }
