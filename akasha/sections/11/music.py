@@ -39,6 +39,12 @@ commands(
 )
 
 commands(
+    ("v1", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     ("v2", 1),
     library.scratch_rhythm(
         [4],
@@ -47,6 +53,13 @@ commands(
         ),
         extra_counts=[-2],
     ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    "va",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -58,6 +71,7 @@ commands(
         ),
         extra_counts=[-1],
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(

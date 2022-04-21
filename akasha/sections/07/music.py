@@ -131,6 +131,12 @@ commands(
 )
 
 commands(
+    ("v1", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     "va",
     baca.staff_lines(5),
 )
@@ -138,6 +144,7 @@ commands(
 commands(
     ("vc", (1, 2)),
     library.cello_solo_rhythm(),
+    baca.reapply_persistent_indicators(),
     baca.clef("bass"),
     library.material("B"),
 )
@@ -149,6 +156,12 @@ commands(
         [3, 0, 2, 1],
     ),
     library.material("A"),
+)
+
+commands(
+    ("v2", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -168,6 +181,12 @@ commands(
         [6, 3, 5, 4],
     ),
     library.material("A"),
+)
+
+commands(
+    ("va", (1, 5)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(

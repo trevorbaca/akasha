@@ -66,6 +66,12 @@ commands(
 )
 
 commands(
+    (["v1", "v2", "va"], (1, 6)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     "va",
     baca.staff_lines(5),
 )
@@ -73,6 +79,7 @@ commands(
 commands(
     ("vc", (1, 10)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(

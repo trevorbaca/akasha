@@ -146,10 +146,11 @@ commands(
 
 commands(
     (["v1", "v2", "va", "vc"], (1, 2)),
-    baca.hairpin("sfp < f"),
     baca.make_repeat_tied_notes(),
-    baca.text_spanner("PO + senza vib. => vib. moltiss."),
     library.material("D", lambda _: baca.select.rleaves(_)),
+    baca.reapply_persistent_indicators(),
+    baca.hairpin("sfp < f"),
+    baca.text_spanner("PO + senza vib. => vib. moltiss."),
 )
 
 commands(

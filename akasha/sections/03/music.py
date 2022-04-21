@@ -63,7 +63,6 @@ commands(
 
 commands(
     ("v1", (1, 3)),
-    library.material("C"),
     library.accelerando_rhythm(
         rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
         rmakers.rewrite_rest_filled(),
@@ -71,13 +70,16 @@ commands(
         rmakers.force_rest(lambda _: baca.select.lt(_, 1)),
         fuse_counts=[1],
     ),
+    baca.reapply_persistent_indicators(),
+    library.material("C"),
     baca.pitches("E5 D5"),
 )
 
 commands(
     ("v2", (1, 3)),
-    library.material("B"),
     library.polyphony_rhythm(),
+    baca.reapply_persistent_indicators(),
+    library.material("B"),
     baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
@@ -85,14 +87,15 @@ commands(
 
 commands(
     ("va", (1, 3)),
-    library.material("B"),
     library.polyphony_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.lts(_)[:2],
         ),
         rotation=-2,
     ),
+    baca.reapply_persistent_indicators(),
     baca.pitches("Db4 Db~4 C4", exact=True),
+    library.material("B"),
 )
 
 
@@ -104,7 +107,6 @@ def get_tuplets(argument, pattern):
 
 commands(
     ("vc", (1, 4)),
-    library.material("A"),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: get_tuplets(_, ~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
@@ -112,6 +114,8 @@ commands(
         degree=0,
         extra_counts=[1, 1, 0, 2],
     ),
+    library.material("A"),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
