@@ -4042,15 +4042,15 @@ segment.12.Violin.I.Music.Voice = {
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -6821,15 +6821,15 @@ segment.12.Violin.II.Music.Voice = {
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -9517,15 +9517,15 @@ segment.12.Viola.Music.Voice = {
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Va.”]"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -12231,15 +12231,15 @@ segment.12.Cello.Music.Voice = {
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f

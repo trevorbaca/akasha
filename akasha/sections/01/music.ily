@@ -370,14 +370,14 @@ segment.01.Violin.I.Music.Voice = {
               %! DEFAULT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             %@% ^ \baca-default-indicator-markup "(“ViolinI”)"
-              %! EXPLICIT_MARGIN_MARKUP_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-explicit-indicator-markup "[“Vn. I”]"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+              %! EXPLICIT_MARGIN_MARKUP_ALERT
+              %! baca._attach_latent_indicator_alert()
+            %@% ^ \baca-explicit-indicator-markup "[“Vn. I”]"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! DEFAULT_CLEF_REDRAW_COLOR
@@ -732,14 +732,14 @@ segment.01.Violin.II.Music.Voice = {
               %! DEFAULT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             %@% ^ \baca-default-indicator-markup "(“ViolinI”)"
-              %! EXPLICIT_MARGIN_MARKUP_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-explicit-indicator-markup "[“Vn. II”]"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+              %! EXPLICIT_MARGIN_MARKUP_ALERT
+              %! baca._attach_latent_indicator_alert()
+            %@% ^ \baca-explicit-indicator-markup "[“Vn. II”]"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! DEFAULT_CLEF_REDRAW_COLOR
@@ -1071,9 +1071,15 @@ segment.01.Viola.Music.Voice = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-ob-plus-terminate-abruptly-markup
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     %@% ^ \baca-default-indicator-markup "(“Viola”)"
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    %@% ^ \baca-explicit-indicator-markup "[“Va.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \markup
@@ -1081,12 +1087,6 @@ segment.01.Viola.Music.Voice = {
                 \circle
                 { \combine \halign #0 E \halign #0 \transparent "O" }
 
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \akasha-ob-plus-terminate-abruptly-markup
-      %! EXPLICIT_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    %@% ^ \baca-explicit-indicator-markup "[“Va.”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1471,14 +1471,14 @@ segment.01.Cello.Music.Voice = {
               %! DEFAULT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             %@% ^ \baca-default-indicator-markup "(“Cello”)"
-              %! EXPLICIT_MARGIN_MARKUP_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-explicit-indicator-markup "[“Vc.”]"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+              %! EXPLICIT_MARGIN_MARKUP_ALERT
+              %! baca._attach_latent_indicator_alert()
+            %@% ^ \baca-explicit-indicator-markup "[“Vc.”]"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! DEFAULT_CLEF_REDRAW_COLOR
