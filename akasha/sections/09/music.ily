@@ -724,6 +724,9 @@ segment.09.Violin.I.Music.Voice = {
           %! baca.dynamic()
         \p
         % MARKUP:
+          %! DURATION_MULTIPLIER
+          %! baca._label_duration_multipliers()
+        %@% ^ \baca-duration-multiplier-markup #"117" #"16"
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
@@ -732,17 +735,14 @@ segment.09.Violin.I.Music.Voice = {
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
           %! baca.IndicatorCommand._call()
           %! baca.markup()
+        ^ \baca-xfb-markup
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
         ^ \markup
                     \override #'(circle-padding . 0.75)
                     \circle
                     { \combine \halign #0 C \halign #0 \transparent "O" }
 
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \baca-xfb-markup
-          %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
-        %@% ^ \baca-duration-multiplier-markup #"117" #"16"
         % START_BEAM:
           %! akasha.accelerando_rhythm()
         [
@@ -1457,6 +1457,9 @@ segment.09.Violin.II.Music.Voice = {
           %! baca.dynamic()
         \p
         % MARKUP:
+          %! DURATION_MULTIPLIER
+          %! baca._label_duration_multipliers()
+        %@% ^ \baca-duration-multiplier-markup #"109" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
@@ -1465,17 +1468,14 @@ segment.09.Violin.II.Music.Voice = {
         ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
           %! baca.IndicatorCommand._call()
           %! baca.markup()
+        ^ \baca-xfb-markup
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
         ^ \markup
                     \override #'(circle-padding . 0.75)
                     \circle
                     { \combine \halign #0 C \halign #0 \transparent "O" }
 
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \baca-xfb-markup
-          %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
-        %@% ^ \baca-duration-multiplier-markup #"109" #"64"
         % START_BEAM:
           %! akasha.ritardando_rhythm()
         [
@@ -2331,14 +2331,14 @@ segment.09.Viola.Music.Voice = {
         % MARKUP:
           %! baca.IndicatorCommand._call()
           %! baca.markup()
+        ^ \baca-tasto-markup
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
         ^ \markup
                     \override #'(circle-padding . 0.75)
                     \circle
                     { \combine \halign #0 D \halign #0 \transparent "O" }
 
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \baca-tasto-markup
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -2773,6 +2773,9 @@ segment.09.Cello.Music.Voice = {
           %! baca.dynamic()
         \p
         % MARKUP:
+          %! DURATION_MULTIPLIER
+          %! baca._label_duration_multipliers()
+        %@% ^ \baca-duration-multiplier-markup #"119" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“Cello”)"
@@ -2781,17 +2784,14 @@ segment.09.Cello.Music.Voice = {
         ^ \baca-reapplied-indicator-markup "[“Vc.”]"
           %! baca.IndicatorCommand._call()
           %! baca.markup()
+        ^ \baca-xfb-markup
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
         ^ \markup
                     \override #'(circle-padding . 0.75)
                     \circle
                     { \combine \halign #0 C \halign #0 \transparent "O" }
 
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \baca-xfb-markup
-          %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
-        %@% ^ \baca-duration-multiplier-markup #"119" #"64"
         % START_BEAM:
           %! akasha.ritardando_rhythm()
         [
@@ -3115,14 +3115,14 @@ segment.09.Cello.Music.Voice = {
         % MARKUP:
           %! baca.IndicatorCommand._call()
           %! baca.markup()
+        ^ \baca-tasto-markup
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
         ^ \markup
                     \override #'(circle-padding . 0.75)
                     \circle
                     { \combine \halign #0 D \halign #0 \transparent "O" }
 
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \baca-tasto-markup
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
