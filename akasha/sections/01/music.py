@@ -48,6 +48,7 @@ commands(
     "v1",
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
+    baca.append_phantom_measure(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. I"),
@@ -61,6 +62,7 @@ commands(
     "v2",
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
+    baca.append_phantom_measure(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. II"),
@@ -74,6 +76,16 @@ commands(
     ("va", (1, 2)),
     baca.make_repeat_tied_notes(),
     baca.attach_first_segment_default_indicators(),
+)
+
+commands(
+    ("va", 3),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", (1, 2)),
     baca.suite(
         library.margin_markup("Va."),
         baca.start_markup("Viola", hcenter_in=14),
@@ -86,17 +98,13 @@ commands(
     baca.staff_position(0),
 )
 
-commands(
-    ("va", 3),
-    baca.make_mmrests(),
-)
-
 # vc
 
 commands(
     "vc",
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
+    baca.append_phantom_measure(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vc."),
@@ -122,7 +130,7 @@ if __name__ == "__main__":
             baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
-        # do_not_sort_commands=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         global_rests_in_every_staff=True,
