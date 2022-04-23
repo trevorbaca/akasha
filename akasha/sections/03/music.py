@@ -113,6 +113,7 @@ commands(
     baca.make_mmrests(),
 )
 
+
 def get_tuplets(argument, pattern):
     tuplets = abjad.select.tuplets(argument)
     tuplets = abjad.select.get(tuplets, pattern)
