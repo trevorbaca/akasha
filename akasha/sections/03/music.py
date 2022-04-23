@@ -76,6 +76,11 @@ commands(
 )
 
 commands(
+    ("v1", (4, 11)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (1, 3)),
     library.polyphony_rhythm(),
     baca.reapply_persistent_indicators(),
@@ -83,6 +88,11 @@ commands(
     baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+)
+
+commands(
+    ("v2", (4, 9)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -98,6 +108,10 @@ commands(
     library.material("B"),
 )
 
+commands(
+    ("va", (4, 10)),
+    baca.make_mmrests(),
+)
 
 def get_tuplets(argument, pattern):
     tuplets = abjad.select.tuplets(argument)
@@ -146,6 +160,11 @@ commands(
         selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
     baca.tuplet_bracket_staff_padding(2),
+)
+
+commands(
+    ("vc", [5, 7, (9, 10)]),
+    baca.make_mmrests(),
 )
 
 commands(
