@@ -132,6 +132,11 @@ commands(
 )
 
 commands(
+    ("vc", [(3, 8), 10, 14, (16, 18), 20]),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (1, 3)),
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
@@ -145,6 +150,11 @@ commands(
             lambda _: abjad.select.tuplets(_)[2:],
         ),
     ),
+)
+
+commands(
+    ("v2", fermata_measures[1:]),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -162,6 +172,11 @@ commands(
             lambda _: abjad.select.tuplets(_)[:-1],
         ),
     ),
+)
+
+commands(
+    ("va", fermata_measures[1:-3] + [(16, 20)]),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -202,6 +217,11 @@ commands(
         baca.pitches("Eb4 D4 E4", exact=True),
         match=2,
     ),
+)
+
+commands(
+    ("v1", [8, 10, 14, 16, (18, 20)]),
+    baca.make_mmrests(),
 )
 
 commands(

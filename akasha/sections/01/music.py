@@ -86,6 +86,11 @@ commands(
     baca.staff_position(0),
 )
 
+commands(
+    ("va", 3),
+    baca.make_mmrests(),
+)
+
 # vc
 
 commands(
@@ -111,12 +116,13 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         call_phantom_measure_append_functions_by_hand=False,
-        call_rest_intercalation_functions_by_hand=False,
+        # call_rest_intercalation_functions_by_hand=False,
         deactivate=(
             baca.tags.DEFAULT_INSTRUMENT_ALERT,
             baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
+        # do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         global_rests_in_every_staff=True,
