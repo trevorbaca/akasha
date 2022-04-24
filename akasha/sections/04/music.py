@@ -99,100 +99,153 @@ commands(
     ),
 )
 
+# v1
+
 commands(
-    (["v1", "v2"], (1, 8)),
+    ("v1", (1, 8)),
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
-    [("va", 1), ("va", 3), ("va", 5), ("va", 7)],
-    library.glissando_rhythm(),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
-    library.material("D"),
-)
-
-commands(
-    [("vc", 1), ("vc", 3), ("vc", 5), ("vc", 7)],
+    ("v1", (9, 13)),
     baca.make_repeat_tied_notes(),
-    library.material(
-        "D",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
-)
-
-commands(
-    (["v1", "v2"], (9, 13)),
     library.material("E"),
+)
+
+commands(
+    ("v1", (14, 15)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (16, 17)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("va", (9, 12)),
-    library.material("D"),
-    baca.make_notes(repeat_ties=True),
+    ("v1", 18),
+    baca.make_mmrests(),
 )
 
 commands(
-    ("vc", (9, 12)),
-    library.material("D"),
+    ("v1", 19),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("vc", 15),
-    library.material("A"),
-    library.sparse_getato_rhythm(
-        degree=0,
-        extra_counts=[1, 1, 0, 2],
-        rotation=-12,
-    ),
+    ("v1", 20),
+    baca.make_mmrests(),
 )
 
 commands(
-    [
-        ("v1", [(16, 17), 19, 21, 23, (25, 26)]),
-        ("v2", [(16, 17), 19, 21, 23]),
-    ],
-    library.material(
-        "E",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    ("v1", 21),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("va", 16),
-    library.material(
-        "A",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    ("v1", 22),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 23),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("va", 23),
-    library.material(
-        "B",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    library.polyphony_rhythm(rotation=-2),
+    ("v1", 24),
+    baca.make_mmrests(),
 )
 
 commands(
-    ("vc", 23),
-    library.material(
-        "B",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    library.polyphony_rhythm(rotation=-4),
+    ("v1", (25, 26)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", 27),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# v2
+
+commands(
+    ("v2", (1, 8)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", (9, 13)),
+    baca.make_repeat_tied_notes(),
+    library.material("E"),
+)
+
+commands(
+    ("v2", (14, 15)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (16, 17)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 18),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 19),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 20),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 21),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 22),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 23),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (24, 25)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 26),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 27),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v2", (25, 26)),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-tasto-markup"),
+    baca.pitch("G5"),
+    baca.staff_lines(5),
+    baca.trill_spanner(alteration="A5"),
 )
 
 commands(
@@ -201,7 +254,112 @@ commands(
         "C",
         selector=lambda _: baca.select.rleaves(_),
     ),
+)
+
+# va
+
+commands(
+    ("va", 1),
+    library.glissando_rhythm(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 3),
+    library.glissando_rhythm(),
+)
+
+commands(
+    ("va", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 5),
+    library.glissando_rhythm(),
+)
+
+commands(
+    ("va", 6),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 7),
+    library.glissando_rhythm(),
+)
+
+commands(
+    ("va", [1, 3, 5, 7]),
+    baca.pitches("D#3 C+3", exact=True),
+    baca.glissando(),
+    library.material("D"),
+)
+
+commands(
+    ("va", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (9, 12)),
+    baca.make_notes(repeat_ties=True),
+    baca.pitches("Eb3 D3 C#3 B#2", exact=True),
+    baca.glissando(),
+    baca.hairpin("mp > pp"),
+    library.material("D"),
+)
+
+commands(
+    ("va", (13, 15)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 16),
     baca.make_repeat_tied_notes(),
+    baca.dynamic("ff"),
+    baca.markup(r"\baca-tasto-plus-scratch-moltiss-markup"),
+    baca.pitch("C4"),
+)
+
+commands(
+    ("va", (17, 22)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 16),
+    library.material(
+        "A",
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+)
+
+commands(
+    ("va", 23),
+    library.polyphony_rhythm(rotation=-2),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    baca.pitches("D#4 D#+4 E4", exact=True),
+)
+
+commands(
+    ("va", 24),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 23),
+    library.material(
+        "B",
+        selector=lambda _: baca.select.rleaves(_),
+    ),
 )
 
 commands(
@@ -216,10 +374,149 @@ commands(
 
 commands(
     ("va", (25, 26)),
+    baca.pitches("E3 D#3 C+3", exact=True),
+    baca.glissando(),
+    baca.hairpin("mp > pp"),
+    baca.markup(r"\baca-tasto-markup"),
+)
+
+commands(
+    ("va", 27),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", (25, 26)),
     library.material(
         "D",
         selector=lambda _: baca.select.rleaves(_),
     ),
+)
+
+# vc
+
+commands(
+    ("vc", 1),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 3),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 5),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 6),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 7),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", [1, 3, 5, 7]),
+    library.material(
+        "D",
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+)
+
+commands(
+    ("vc", (9, 12)),
+    baca.make_repeat_tied_notes(),
+    baca.hairpin("mp > pp"),
+    library.material("D"),
+)
+
+commands(
+    ("vc", (1, 12)),
+    baca.pitch(
+        "C#2",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+commands(
+    ("vc", (13, 14)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 15),
+    library.sparse_getato_rhythm(
+        degree=0,
+        extra_counts=[1, 1, 0, 2],
+        rotation=-12,
+    ),
+    library.material("A"),
+    library.getato_pitches("C#3", direction=abjad.DOWN),
+    baca.dynamic("p"),
+    baca.markup(r"\baca-leggieriss-markup"),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("vc", (16, 22)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 23),
+    library.polyphony_rhythm(rotation=-4),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    baca.pitch("C4"),
+)
+
+commands(
+    ("vc", 24),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 23),
+    library.material(
+        "B",
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+)
+
+commands(
+    ("vc", (25, 26)),
+    baca.make_repeat_tied_notes(),
+    baca.hairpin("mp > pp"),
+    baca.markup(r"\baca-tasto-markup"),
+    baca.pitch("C#2"),
+)
+
+commands(
+    ("vc", 27),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -228,20 +525,18 @@ commands(
         "D",
         selector=lambda _: baca.select.rleaves(_),
     ),
-    baca.make_repeat_tied_notes(),
 )
 
-commands(
-    ("va", [1, 3, 5, 7]),
-    baca.pitches("D#3 C+3", exact=True),
-    baca.glissando(),
-)
+# composite
 
 commands(
-    ("vc", (1, 12)),
-    baca.pitch(
-        "C#2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    [
+        ("v1", [(16, 17), 19, 21, 23, (25, 26)]),
+        ("v2", [(16, 17), 19, 21, 23]),
+    ],
+    library.material(
+        "E",
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -259,71 +554,6 @@ commands(
     ),
 )
 
-commands(
-    ("va", (9, 12)),
-    baca.pitches("Eb3 D3 C#3 B#2", exact=True),
-    baca.glissando(),
-    baca.hairpin("mp > pp"),
-)
-
-commands(
-    ("vc", (9, 12)),
-    baca.hairpin("mp > pp"),
-)
-
-commands(
-    ("vc", 15),
-    library.getato_pitches("C#3", direction=abjad.DOWN),
-    baca.dynamic("p"),
-    baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    ("va", 16),
-    baca.dynamic("ff"),
-    baca.markup(r"\baca-tasto-plus-scratch-moltiss-markup"),
-    baca.pitch("C4"),
-)
-
-commands(
-    ("va", 23),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-    baca.pitches("D#4 D#+4 E4", exact=True),
-)
-
-commands(
-    ("vc", 23),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-    baca.pitch("C4"),
-)
-
-commands(
-    ("v2", (25, 26)),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-markup"),
-    baca.pitch("G5"),
-    baca.staff_lines(5),
-    baca.trill_spanner(alteration="A5"),
-)
-
-commands(
-    ("va", (25, 26)),
-    baca.pitches("E3 D#3 C+3", exact=True),
-    baca.glissando(),
-    baca.hairpin("mp > pp"),
-    baca.markup(r"\baca-tasto-markup"),
-)
-
-commands(
-    ("vc", (25, 26)),
-    baca.hairpin("mp > pp"),
-    baca.markup(r"\baca-tasto-markup"),
-    baca.pitch("C#2"),
-)
-
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -336,6 +566,7 @@ if __name__ == "__main__":
         ],
         always_make_global_rests=True,
         color_octaves=False,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,

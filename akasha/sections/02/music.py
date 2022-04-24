@@ -115,6 +115,8 @@ commands(
     ),
 )
 
+# v1
+
 commands(
     ("v1", (1, 5)),
     baca.make_mmrests(),
@@ -122,157 +124,38 @@ commands(
 )
 
 commands(
-    ("vc", (1, 2)),
-    library.cello_solo_rhythm(rotation=0),
-    baca.reapply_persistent_indicators(),
-    library.material("B"),
-    library.cello_solo_pitches(),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-)
-
-commands(
-    ("vc", [(3, 8), 10, 14, (16, 18), 20]),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("v2", (1, 3)),
-    baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("v2", 4),
-    library.material("A"),
-    library.sparse_getato_rhythm(
+    ("v1", (6, 7)),
+    library.polyphony_rhythm(
         rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[2:],
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
         ),
     ),
-)
-
-commands(
-    ("v2", fermata_measures[1:]),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("va", (1, 3)),
-    baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-    baca.staff_lines(5),
-)
-
-commands(
-    ("va", 4),
-    library.material("A"),
-    library.sparse_getato_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[:-1],
-        ),
-    ),
-)
-
-commands(
-    ("va", fermata_measures[1:-3] + [(16, 20)]),
-    baca.make_mmrests(),
-)
-
-commands(
-    (["v1", "v2", "va"], (6, 7)),
+    baca.pitches("E4 F4 E+4", exact=True),
     library.material("B"),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-    baca.new(
-        library.polyphony_rhythm(
-            rmakers.force_rest(
-                lambda _: abjad.select.get(
-                    baca.select.lts(_), ~abjad.Pattern([0, 1, 2])
-                ),
-            ),
-        ),
-        baca.pitches("E4 F4 E+4", exact=True),
-        match=0,
-    ),
-    baca.new(
-        library.polyphony_rhythm(
-            rmakers.force_rest(
-                lambda _: abjad.select.get(
-                    baca.select.lts(_), ~abjad.Pattern([2, 3, 4])
-                ),
-            ),
-        ),
-        baca.pitches("D4 D~4 C4", exact=True),
-        match=1,
-    ),
-    baca.new(
-        library.polyphony_rhythm(
-            rmakers.force_rest(
-                lambda _: abjad.select.get(
-                    baca.select.lts(_), ~abjad.Pattern([1, 2, 3])
-                ),
-            ),
-        ),
-        baca.pitches("Eb4 D4 E4", exact=True),
-        match=2,
-    ),
 )
 
 commands(
-    ("v1", [8, 10, 14, 16, (18, 20)]),
+    ("v1", 8),
     baca.make_mmrests(),
 )
 
 commands(
     ("v1", 9),
-    library.material("A"),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.tuplets(_)[:-2],
         ),
     ),
+    library.material("A"),
 )
 
 commands(
-    ("v2", 9),
-    library.material("B"),
-    library.polyphony_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
-        ),
-        rotation=-2,
-    ),
-    baca.pitches("C#4 C#+4", exact=True),
-)
-
-commands(
-    ("va", 9),
-    library.material("B"),
-    library.polyphony_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
-        ),
-        rotation=-2,
-    ),
-    baca.pitches("C4", exact=True),
-)
-
-commands(
-    ("vc", 9),
-    library.material("B"),
-    library.polyphony_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
-        ),
-        rotation=-2,
-    ),
-    baca.pitches("C4 C~4 B3", exact=True),
+    ("v1", 10),
+    baca.make_mmrests(),
 )
 
 commands(
     ("v1", (11, 13)),
-    library.material("C"),
     library.accelerando_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, 0),
@@ -287,13 +170,122 @@ commands(
         ),
         fuse_counts=[1, 2],
     ),
+    library.material("C"),
     baca.dynamic("pp"),
     baca.markup(r"\baca-tasto-plus-xfb-markup"),
 )
 
 commands(
-    ("v2", (11, 13)),
+    ("v1", 14),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 15),
+    library.accelerando_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [0, 2, 3, -1],
+                invert=True,
+            ),
+        ),
+        fuse_counts=[1, 2],
+    ),
     library.material("C"),
+)
+
+commands(
+    ("v1", 16),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 17),
+    library.ritardando_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                [0, 2, -1],
+                invert=True,
+            ),
+        ),
+    ),
+    library.material("C"),
+)
+
+commands(
+    ("v1", (18, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v1", (11, 19)),
+    baca.pitches(
+        "D5 E5",
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+# v2
+
+commands(
+    ("v2", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", 4),
+    library.sparse_getato_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.tuplets(_)[2:],
+        ),
+    ),
+    library.material("A"),
+)
+
+commands(
+    ("v2", 5),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (6, 7)),
+    library.polyphony_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
+        ),
+    ),
+    library.material("B"),
+    baca.pitches("D4 D~4 C4", exact=True),
+)
+
+commands(
+    ("v2", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 9),
+    library.polyphony_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
+        ),
+        rotation=-2,
+    ),
+    library.material("B"),
+    baca.pitches("C#4 C#+4", exact=True),
+)
+
+commands(
+    ("v2", 10),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (11, 13)),
     library.ritardando_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, 0),
@@ -307,45 +299,18 @@ commands(
             ),
         ),
     ),
+    library.material("C"),
     baca.dynamic("pp"),
     baca.markup(r"\baca-tasto-plus-xfb-markup"),
 )
 
 commands(
-    ("va", (11, 13)),
-    library.material("B"),
-    library.polyphony_rhythm(rotation=-4),
-    baca.pitches("D4 D+4 D#4 E4 F#4 F4", exact=True),
-)
-
-commands(
-    ("vc", (11, 13)),
-    library.material("B"),
-    library.polyphony_rhythm(
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-        rotation=-6,
-    ),
-    baca.pitches("Bb3 Bb~3 A3 Ab3 G3 A3", exact=True),
-)
-
-commands(
-    ("v1", 15),
-    library.material("C"),
-    library.accelerando_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                baca.select.lts(_),
-                [0, 2, 3, -1],
-                invert=True,
-            ),
-        ),
-        fuse_counts=[1, 2],
-    ),
+    ("v2", 14),
+    baca.make_mmrests(),
 )
 
 commands(
     ("v2", 15),
-    library.material("C"),
     library.ritardando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
@@ -355,50 +320,16 @@ commands(
             ),
         ),
     ),
-)
-
-commands(
-    ("va", 15),
-    library.material("B"),
-    library.polyphony_rhythm(rotation=-8),
-    baca.pitches("Eb4 D4", exact=True),
-)
-
-commands(
-    ("vc", 15),
-    library.material("B"),
-    library.polyphony_rhythm(
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-        rotation=-10,
-    ),
-    baca.pitches("A3 A#3 B3", exact=True),
-)
-
-commands(
-    ("v1", 17),
     library.material("C"),
-    library.ritardando_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                baca.select.lts(_),
-                [0, 2, -1],
-                invert=True,
-            ),
-        ),
-    ),
 )
 
 commands(
-    ("v1", (11, 19)),
-    baca.pitches(
-        "D5 E5",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
+    ("v2", 16),
+    baca.make_mmrests(),
 )
 
 commands(
     ("v2", 17),
-    library.material("C"),
     library.accelerando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
@@ -409,11 +340,16 @@ commands(
         ),
         fuse_counts=[1, 2],
     ),
+    library.material("C"),
+)
+
+commands(
+    ("v2", 18),
+    baca.make_mmrests(),
 )
 
 commands(
     ("v2", 19),
-    library.material("C"),
     library.ritardando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
@@ -423,6 +359,7 @@ commands(
             ),
         ),
     ),
+    library.material("C"),
 )
 
 commands(
@@ -434,8 +371,159 @@ commands(
 )
 
 commands(
-    ("vc", 19),
+    ("v2", 20),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# va
+
+commands(
+    ("va", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+    baca.staff_lines(5),
+)
+
+commands(
+    ("va", 4),
+    library.sparse_getato_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.tuplets(_)[:-1],
+        ),
+    ),
     library.material("A"),
+)
+
+commands(
+    ("va", 5),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (6, 7)),
+    library.polyphony_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
+        ),
+    ),
+    library.material("B"),
+    baca.pitches("Eb4 D4 E4", exact=True),
+)
+
+commands(
+    ("va", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 9),
+    library.polyphony_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
+        ),
+        rotation=-2,
+    ),
+    library.material("B"),
+    baca.pitches("C4", exact=True),
+)
+
+commands(
+    ("va", 10),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (11, 13)),
+    library.polyphony_rhythm(rotation=-4),
+    library.material("B"),
+    baca.pitches("D4 D+4 D#4 E4 F#4 F4", exact=True),
+)
+
+commands(
+    ("va", 14),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 15),
+    library.polyphony_rhythm(rotation=-8),
+    library.material("B"),
+    baca.pitches("Eb4 D4", exact=True),
+)
+
+commands(
+    ("va", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# vc
+
+commands(
+    ("vc", (1, 2)),
+    library.cello_solo_rhythm(rotation=0),
+    baca.reapply_persistent_indicators(),
+    library.material("B"),
+    library.cello_solo_pitches(),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+)
+
+commands(
+    ("vc", (3, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 9),
+    library.polyphony_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
+        ),
+        rotation=-2,
+    ),
+    library.material("B"),
+    baca.pitches("C4 C~4 B3", exact=True),
+)
+
+commands(
+    ("vc", 10),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (11, 13)),
+    library.polyphony_rhythm(
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+        rotation=-6,
+    ),
+    library.material("B"),
+    baca.pitches("Bb3 Bb~3 A3 Ab3 G3 A3", exact=True),
+)
+
+commands(
+    ("vc", 14),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 15),
+    library.polyphony_rhythm(
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+        rotation=-10,
+    ),
+    library.material("B"),
+    baca.pitches("A3 A#3 B3", exact=True),
+)
+
+commands(
+    ("vc", (16, 18)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 19),
     library.sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
@@ -444,7 +532,16 @@ commands(
             )
         ),
     ),
+    library.material("A"),
 )
+
+commands(
+    ("vc", 20),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# composite
 
 commands(
     baca.timeline([("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)]),
@@ -455,6 +552,12 @@ commands(
 commands(
     [("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)],
     baca.dynamic("p"),
+)
+
+commands(
+    (["v1", "v2", "va"], (6, 7)),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
 )
 
 if __name__ == "__main__":
@@ -468,6 +571,7 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
