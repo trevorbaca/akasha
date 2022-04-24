@@ -123,8 +123,6 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        call_phantom_measure_append_functions_by_hand=False,
-        # call_rest_intercalation_functions_by_hand=False,
         deactivate=(
             baca.tags.DEFAULT_INSTRUMENT_ALERT,
             baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,

@@ -61,6 +61,8 @@ commands(
     ),
 )
 
+# v1
+
 commands(
     ("v1", (1, 3)),
     library.accelerando_rhythm(
@@ -78,7 +80,10 @@ commands(
 commands(
     ("v1", (4, 11)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
+
+# v2
 
 commands(
     ("v2", (1, 3)),
@@ -96,6 +101,21 @@ commands(
 )
 
 commands(
+    ("v2", (10, 11)),
+    library.accelerando_rhythm(
+        rmakers.force_rest(lambda _: baca.select.lt(_, 3)),
+        fuse_counts=[2, 1],
+    ),
+    baca.append_phantom_measure(),
+    library.material("C"),
+    baca.pitches("C5 Bb4"),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
+)
+
+# va
+
+commands(
     ("va", (1, 3)),
     library.polyphony_rhythm(
         rmakers.force_rest(
@@ -104,14 +124,28 @@ commands(
         rotation=-2,
     ),
     baca.reapply_persistent_indicators(),
-    baca.pitches("Db4 Db~4 C4", exact=True),
     library.material("B"),
+    baca.pitches("Db4 Db~4 C4", exact=True),
 )
 
 commands(
     ("va", (4, 10)),
     baca.make_mmrests(),
 )
+
+commands(
+    ("va", 11),
+    baca.make_repeat_tied_notes(),
+    baca.append_phantom_measure(),
+    library.material(
+        "D",
+        selector=lambda _: baca.rleaves(_),
+    ),
+    baca.pitch("D#3"),
+    baca.markup(r"\baca-tasto-markup"),
+)
+
+# vc
 
 
 def get_tuplets(argument, pattern):
@@ -129,28 +163,38 @@ commands(
         degree=0,
         extra_counts=[1, 1, 0, 2],
     ),
-    library.material("A"),
     baca.reapply_persistent_indicators(),
+    library.material("A"),
+)
+
+commands(
+    ("vc", 5),
+    baca.make_mmrests(),
 )
 
 commands(
     ("vc", 6),
-    library.material("A"),
     library.sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-4,
     ),
+    library.material("A"),
+)
+
+commands(
+    ("vc", 7),
+    baca.make_mmrests(),
 )
 
 commands(
     ("vc", 8),
-    library.material("A"),
     library.sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-8,
     ),
+    library.material("A"),
 )
 
 commands(
@@ -164,39 +208,21 @@ commands(
 )
 
 commands(
-    ("vc", [5, 7, (9, 10)]),
+    ("vc", (9, 10)),
     baca.make_mmrests(),
 )
 
 commands(
-    ("v2", (10, 11)),
-    library.material("C"),
-    library.accelerando_rhythm(
-        rmakers.force_rest(lambda _: baca.select.lt(_, 3)),
-        fuse_counts=[2, 1],
-    ),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
-    baca.pitches("C5 Bb4"),
-)
-
-commands(
-    (["va", "vc"], 11),
+    ("vc", 11),
+    baca.make_repeat_tied_notes(),
+    baca.append_phantom_measure(),
     library.material(
         "D",
         selector=lambda _: baca.rleaves(_),
     ),
-    baca.make_repeat_tied_notes(),
+    baca.pitch("C#2"),
+    baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-markup"),
-    baca.new(
-        baca.pitch("D#3"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitch("C#2"),
-        baca.dynamic("mp"),
-        match=1,
-    ),
 )
 
 if __name__ == "__main__":
@@ -211,6 +237,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         color_octaves=False,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
