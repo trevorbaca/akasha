@@ -82,10 +82,7 @@ commands(
     ),
 )
 
-commands(
-    "va",
-    baca.staff_lines(5),
-)
+# v1
 
 commands(
     ("v1", (1, 4)),
@@ -95,12 +92,166 @@ commands(
     ),
     library.material("A"),
     baca.reapply_persistent_indicators(),
+    library.getato_pitches(31, [2]),
+    baca.hairpin(
+        "pp >o niente",
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
+    ),
 )
 
 commands(
-    (["v2", "va", "vc"], (1, 4)),
+    ("v1", (5, 7)),
+    baca.make_notes(repeat_ties=True),
+    baca.text_spanner("tasto + 1/4 scratch => tasto"),
+)
+
+commands(
+    ("v1", (8, 10)),
+    baca.make_notes(repeat_ties=True),
+)
+commands(
+    ("v1", (11, 13)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("v1", (5, 13)),
+    baca.loop([17, 19, 17, 15, 18, 16], [1]),
+    baca.glissando(),
+)
+
+commands(
+    ("v1", (15, 16)),
+    baca.make_repeat_tied_notes(),
+    baca.dynamic("ppp"),
+    baca.pitch("F#5"),
+)
+
+# v2
+
+commands(
+    ("v2", (1, 4)),
     baca.make_notes(repeat_ties=True),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", (5, 7)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("v2", (8, 10)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("v2", (11, 13)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("v2", (1, 13)),
+    baca.loop([6, 3, 5, 3, 1, 4], [1]),
+    baca.glissando(),
+)
+
+commands(
+    ("v2", (15, 16)),
+    baca.make_repeat_tied_notes(),
+    baca.dynamic("ppp"),
+    baca.pitch("Ab4"),
+)
+
+# va
+
+commands(
+    ("va", (1, 4)),
+    baca.make_notes(repeat_ties=True),
+    baca.reapply_persistent_indicators(),
+    baca.staff_lines(5),
+)
+
+commands(
+    ("va", (5, 7)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("va", (8, 10)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("va", (11, 13)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("va", (1, 13)),
+    baca.clef("alto"),
+    baca.loop([3, 5, 2, 4, 2, 0], [1]),
+    baca.glissando(),
+)
+
+commands(
+    ("va", (15, 17)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (15, 16)),
+    baca.down_bow(),
+    baca.dynamic('"mf"'),
+    baca.markup(r"\baca-ob-markup"),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+)
+
+# vc
+
+commands(
+    ("vc", (1, 4)),
+    baca.make_notes(repeat_ties=True),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", (5, 7)),
+    baca.make_notes(repeat_ties=True),
+)
+
+
+commands(
+    ("vc", (8, 10)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("vc", (11, 13)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("vc", (1, 13)),
+    baca.clef("bass"),
+    baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
+    baca.glissando(),
+)
+
+commands(
+    ("vc", (15, 16)),
+    baca.make_repeat_tied_notes(),
+    baca.dynamic("ppp"),
+    baca.pitch("C#2"),
+)
+
+# composites
+
+commands(
+    (["v2", "va", "vc"], (1, 4)),
     baca.hairpin("ff > f"),
     baca.text_spanner("tasto + scratch moltiss. => tasto + 1/4 scratch"),
 )
@@ -108,12 +259,6 @@ commands(
 commands(
     (["v1", "v2", "va", "vc"], (5, 7)),
     baca.hairpin("f > mf"),
-    baca.make_notes(repeat_ties=True),
-)
-
-commands(
-    ("v1", (5, 7)),
-    baca.text_spanner("tasto + 1/4 scratch => tasto"),
 )
 
 commands(
@@ -124,25 +269,13 @@ commands(
 commands(
     (["v1", "v2", "va", "vc"], (8, 10)),
     baca.hairpin("mf > p"),
-    baca.make_notes(repeat_ties=True),
     baca.text_spanner("trans. => FB"),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (11, 13)),
     baca.hairpin("p > pp"),
-    baca.make_notes(repeat_ties=True),
     baca.text_spanner("trans. => XFB"),
-)
-
-commands(
-    (["v1", "v2", "vc"], (15, 16)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va", (15, 17)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -163,70 +296,6 @@ commands(
 commands(
     ("va", (15, 17)),
     library.material("E", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("v1", (1, 4)),
-    library.getato_pitches(31, [2]),
-    baca.hairpin(
-        "pp >o niente",
-        selector=lambda _: baca.select.tleaves(
-            _,
-        ),
-    ),
-)
-
-commands(
-    ("v1", (5, 13)),
-    baca.loop([17, 19, 17, 15, 18, 16], [1]),
-    baca.glissando(),
-)
-
-commands(
-    ("v2", (1, 13)),
-    baca.loop([6, 3, 5, 3, 1, 4], [1]),
-    baca.glissando(),
-)
-
-commands(
-    ("va", (1, 13)),
-    baca.clef("alto"),
-    baca.loop([3, 5, 2, 4, 2, 0], [1]),
-    baca.glissando(),
-)
-
-commands(
-    ("va", (15, 16)),
-    baca.down_bow(),
-    baca.dynamic('"mf"'),
-    baca.markup(r"\baca-ob-markup"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-)
-
-commands(
-    ("vc", (1, 13)),
-    baca.clef("bass"),
-    baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
-    baca.glissando(),
-)
-
-commands(
-    ("v1", (15, 16)),
-    baca.dynamic("ppp"),
-    baca.pitch("F#5"),
-)
-
-commands(
-    ("v2", (15, 16)),
-    baca.dynamic("ppp"),
-    baca.pitch("Ab4"),
-)
-
-commands(
-    ("vc", (15, 16)),
-    baca.dynamic("ppp"),
-    baca.pitch("C#2"),
 )
 
 if __name__ == "__main__":

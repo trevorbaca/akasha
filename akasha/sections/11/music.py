@@ -38,39 +38,11 @@ commands(
     ),
 )
 
+# v1
+
 commands(
     ("v1", 1),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("v2", 1),
-    library.scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[:-1],
-        ),
-        extra_counts=[-2],
-    ),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    "va",
-    baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 1),
-    library.scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
-        ),
-        extra_counts=[-1],
-    ),
     baca.reapply_persistent_indicators(),
 )
 
@@ -86,17 +58,6 @@ commands(
 )
 
 commands(
-    ("v2", 2),
-    library.scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
-        ),
-        extra_counts=[-1],
-    ),
-)
-
-commands(
     ("v1", 3),
     library.scratch_rhythm(
         [4],
@@ -104,6 +65,31 @@ commands(
             lambda _: baca.select.lts(_)[1:],
         ),
         extra_counts=[-2],
+    ),
+)
+
+# v2
+
+commands(
+    ("v2", 1),
+    library.scratch_rhythm(
+        [4],
+        rmakers.force_rest(
+            lambda _: baca.select.lts(_)[:-1],
+        ),
+        extra_counts=[-2],
+    ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", 2),
+    library.scratch_rhythm(
+        [4],
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
+        ),
+        extra_counts=[-1],
     ),
 )
 
@@ -118,6 +104,28 @@ commands(
     ),
 )
 
+# va
+
+commands(
+    "va",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+# vc
+
+commands(
+    ("vc", 1),
+    library.scratch_rhythm(
+        [4],
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
+        ),
+        extra_counts=[-1],
+    ),
+    baca.reapply_persistent_indicators(),
+)
+
 commands(
     ("vc", 3),
     library.scratch_rhythm(
@@ -128,6 +136,8 @@ commands(
         extra_counts=[-1],
     ),
 )
+
+# composites
 
 commands(
     (["v1", "v2", "vc"], (1, 3)),

@@ -107,74 +107,22 @@ commands(
     ),
 )
 
-commands(
-    [
-        (["v1", "va", "vc"], [(1, 8), (10, 17)]),
-        (["va", "vc"], (19, 22)),
-        ("va", (24, 31)),
-        ("vc", (33, 36)),
-    ],
-    baca.make_repeat_tied_notes(),
-    library.material("D"),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=[0, 2, 4],
-    ),
-)
+# v1
 
 commands(
-    ("v2", (1, 9)),
-    baca.make_mmrests(),
+    ("v1", (1, 8)),
+    baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
-    [
-        ("v1", (19, 22)),
-        ("v2", [(10, 17), (19, 22)]),
-        (["v1", "v2", "vc"], (24, 31)),
-        (["v1", "v2"], (33, 36)),
-        (["v1", "va", "vc"], (38, 41)),
-        (["v1", "va"], (43, 46)),
-    ],
-    library.material("E"),
-    library.untied_notes(),
+    ("v1", 9),
+    baca.make_mmrests(),
 )
 
 commands(
-    ("va", (33, 35)),
-    library.untied_notes(),
-)
-
-commands(
-    ("va", 36),
-    library.glissando_rhythm(),
-)
-
-commands(
-    ("va", (33, 36)),
-    library.material("D"),
-)
-
-commands(
-    ("v2", [(38, 39), (43, 44)]),
-    library.material("C", lambda _: baca.select.rleaves(_)),
+    ("v1", (10, 17)),
     baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc", (43, 49)),
-    library.untied_notes(),
-)
-
-commands(
-    ("vc", 50),
-    library.glissando_rhythm(),
-)
-
-commands(
-    ("vc", (43, 50)),
-    library.material("D"),
 )
 
 commands(
@@ -198,42 +146,37 @@ commands(
 )
 
 commands(
-    ("va", (1, 8)),
-    baca.clef("treble"),
-    baca.dynamic("mp"),
-    baca.markup(r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"),
-)
-
-commands(
-    ("vc", (1, 8)),
-    baca.clef("treble"),
-    baca.dynamic("mp"),
-    baca.markup(r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup"),
-)
-
-commands(
     ("v1", (19, 22)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("A4"),
 )
 
 commands(
     ("v1", (24, 31)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-6),
 )
 
 commands(
     ("v1", (33, 36)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-12),
 )
 
 commands(
     ("v1", (38, 41)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-18),
 )
 
 commands(
     ("v1", (43, 46)),
     library.harmonic_glissando_pitches("A4", rotation=-24),
+)
+
+commands(
+    ("v1", (43, 46)),
+    library.untied_notes(),
 )
 
 commands(
@@ -247,23 +190,35 @@ commands(
     baca.note_head_style_harmonic(),
 )
 
+# v2
+
+commands(
+    ("v2", (1, 9)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
 commands(
     ("v2", (10, 17)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("A4"),
 )
 
 commands(
     ("v2", (19, 22)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-6),
 )
 
 commands(
     ("v2", (24, 31)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-12),
 )
 
 commands(
     ("v2", (33, 36)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-18),
 )
 
@@ -276,6 +231,21 @@ commands(
     ),
     baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
+)
+
+commands(
+    ("v2", (38, 39)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (43, 44)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", [(38, 39), (43, 44)]),
+    library.material("C", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -292,6 +262,37 @@ commands(
     ),
 )
 
+# va
+
+commands(
+    ("va", (1, 8)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.clef("treble"),
+    baca.dynamic("mp"),
+    baca.markup(r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"),
+)
+
+commands(
+    ("va", 9),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (10, 17)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (19, 22)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (24, 31)),
+    baca.make_repeat_tied_notes(),
+)
+
 commands(
     ("va", (1, 31)),
     baca.note_head_style_harmonic(),
@@ -302,7 +303,18 @@ commands(
 )
 
 commands(
+    ("va", (33, 35)),
+    library.untied_notes(),
+)
+
+commands(
+    ("va", 36),
+    library.glissando_rhythm(),
+)
+
+commands(
     ("va", (33, 36)),
+    library.material("D"),
     baca.clef("alto"),
     baca.pitches("Fb3 E3 D#3 C#3 B#2", exact=True),
     baca.glissando(),
@@ -312,11 +324,13 @@ commands(
 
 commands(
     ("va", (38, 41)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("Ab3"),
 )
 
 commands(
     ("va", (43, 46)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("Ab3", rotation=-6),
 )
 
@@ -331,6 +345,32 @@ commands(
     baca.note_head_style_harmonic(),
 )
 
+# vc
+
+commands(
+    ("vc", (1, 8)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.clef("treble"),
+    baca.dynamic("mp"),
+    baca.markup(r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup"),
+)
+
+commands(
+    ("vc", 9),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (10, 17)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (19, 22)),
+    baca.make_repeat_tied_notes(),
+)
+
 commands(
     ("vc", (1, 22)),
     baca.note_head_style_harmonic(),
@@ -342,16 +382,18 @@ commands(
 
 commands(
     ("vc", (24, 31)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("G2"),
-)
-
-commands(
-    ("vc", (24, 31)),
     baca.clef("bass"),
     baca.dynamic("ppp"),
     baca.glissando(),
     baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
+)
+
+commands(
+    ("vc", (33, 36)),
+    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -363,11 +405,8 @@ commands(
 
 commands(
     ("vc", (38, 41)),
+    library.untied_notes(),
     library.harmonic_glissando_pitches("G2", rotation=-6),
-)
-
-commands(
-    ("vc", (38, 41)),
     baca.dynamic("ppp-ancora"),
     baca.glissando(),
     baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
@@ -375,11 +414,46 @@ commands(
 )
 
 commands(
+    ("vc", (43, 49)),
+    library.untied_notes(),
+)
+
+commands(
+    ("vc", 50),
+    library.glissando_rhythm(),
+)
+
+commands(
     ("vc", (43, 50)),
+    library.material("D"),
     baca.pitches("Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True),
     baca.glissando(),
     baca.hairpin("sf > ppp"),
     baca.markup(r"\baca-tasto-markup"),
+)
+
+# composite
+
+commands(
+    [
+        (["v1", "va", "vc"], [(1, 8), (10, 17)]),
+        (["va", "vc"], (19, 22)),
+        ("va", (24, 31)),
+        ("vc", (33, 36)),
+    ],
+    library.material("D"),
+)
+
+commands(
+    [
+        ("v1", (19, 22)),
+        ("v2", [(10, 17), (19, 22)]),
+        (["v1", "v2", "vc"], (24, 31)),
+        (["v1", "v2"], (33, 36)),
+        (["v1", "va", "vc"], (38, 41)),
+        (["v1", "va"], (43, 46)),
+    ],
+    library.material("E"),
 )
 
 commands(

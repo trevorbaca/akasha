@@ -48,6 +48,23 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
+    ("Global_Skips", (30, 39)),
+    baca.markup(
+        r"\akasha-repeat-six-markup",
+        selector=lambda _: baca.select.skip(_, 0),
+    ),
+)
+
+commands(
+    ("Global_Skips", (56, 60)),
+    baca.markup(
+        r"\akasha-repeat-six-markup",
+        selector=lambda _: baca.select.skip(_, 0),
+    ),
+    baca.text_script_extra_offset((1.5, 6)),
+)
+
+commands(
     "Global_Skips",
     baca.metronome_mark(
         baca.Ritardando(),
@@ -57,6 +74,12 @@ commands(
         "38",
         selector=lambda _: abjad.select.leaf(_, 55),
     ),
+)
+
+commands(
+    "Global_Skips",
+    baca.open_volta(lambda _: baca.select.skip(_, 56 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 61 - 1)),
 )
 
 commands(
@@ -84,23 +107,172 @@ commands(
 )
 
 commands(
-    [
-        (
-            ["v1", "v2", "va", "vc"],
-            [(1, 28), (30, 34), (35, 39), (41, 45), (56, 60), (61, 68)],
-        ),
-        ("v1", [(47, 52), (53, 54)]),
-        ("v2", [(47, 50), (51, 54)]),
-        ("va", [(47, 48), (49, 54)]),
-        ("vc", (47, 54)),
-    ],
+    ("v1", (1, 28)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v1", (30, 34)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ["v1", "v2", "va", "vc"],
+    ("v1", (35, 39)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", (41, 45)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", (47, 52)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", (53, 54)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", (56, 60)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", (61, 68)),
+    baca.make_repeat_tied_notes(),
+)
+
+# v2
+
+commands(
+    ("v2", (1, 28)),
+    baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
 )
+
+commands(
+    ("v2", (30, 34)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (35, 39)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (41, 45)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (47, 50)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (51, 54)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (56, 60)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (61, 68)),
+    baca.make_repeat_tied_notes(),
+)
+
+# va
+
+commands(
+    ("va", (1, 28)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", (30, 34)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (35, 39)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (41, 45)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (47, 48)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (49, 54)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (56, 60)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (61, 68)),
+    baca.make_repeat_tied_notes(),
+)
+
+
+# vc
+
+commands(
+    ("vc", (1, 28)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", (30, 34)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (35, 39)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (41, 45)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (47, 54)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (56, 60)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (61, 68)),
+    baca.make_repeat_tied_notes(),
+)
+
+# composites
 
 commands(
     (["v1", "v2", "va", "vc"], (1, 28)),
@@ -177,20 +349,6 @@ commands(
     baca.hairpin(
         "ff < fff",
         selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-)
-
-commands(
-    "Global_Skips",
-    baca.open_volta(lambda _: baca.select.skip(_, 56 - 1)),
-    baca.close_volta(lambda _: baca.select.skip(_, 61 - 1)),
-)
-
-commands(
-    ("Global_Skips", (30, 39)),
-    baca.markup(
-        r"\akasha-repeat-six-markup",
-        selector=lambda _: baca.select.skip(_, 0),
     ),
 )
 
@@ -398,15 +556,6 @@ commands(
     baca.markup(r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup"),
     baca.trill_spanner(),
     baca.hairpin("sffp < f"),
-)
-
-commands(
-    ("Global_Skips", (56, 60)),
-    baca.markup(
-        r"\akasha-repeat-six-markup",
-        selector=lambda _: baca.select.skip(_, 0),
-    ),
-    baca.text_script_extra_offset((1.5, 6)),
 )
 
 commands(

@@ -50,20 +50,24 @@ commands(
     ),
 )
 
+# v1, v2
+
 commands(
     ["v1", "v2"],
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
 )
 
+# va
+
 commands(
     ("va", [1, 3]),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("va", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.alternate_bow_strokes(
         selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
@@ -73,6 +77,8 @@ commands(
     baca.staff_lines(1),
     baca.staff_position(0),
 )
+
+# vc
 
 commands(
     ("vc", (1, 4)),
