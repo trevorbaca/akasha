@@ -53,6 +53,8 @@ commands(
     ),
 )
 
+# v1, va, vc
+
 commands(
     (["v1", "va", "vc"], (1, 16)),
     baca.make_notes(
@@ -65,21 +67,8 @@ commands(
 )
 
 commands(
-    ("v2", (1, 8)),
+    (["v1", "va", "vc"], (17, 25)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("v2", (9, 24)),
-    library.sparse_getato_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                ~abjad.Pattern([3, 36, 37]),
-            ),
-        ),
-    ),
 )
 
 commands(
@@ -98,16 +87,6 @@ commands(
 )
 
 commands(
-    ("v2", (9, 24)),
-    library.getato_pitches(29, direction=abjad.DOWN),
-    baca.dynamic("pp-ancora"),
-    baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
     ("vc", -1),
     baca.chunk(
         baca.mark(r"\akasha-colophon-markup"),
@@ -117,6 +96,33 @@ commands(
         selector=lambda _: baca.select.rleaf(_, -1),
     ),
 )
+
+# v2
+
+commands(
+    ("v2", (1, 8)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", (9, 24)),
+    library.sparse_getato_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                ~abjad.Pattern([3, 36, 37]),
+            ),
+        ),
+    ),
+    library.getato_pitches(29, direction=abjad.DOWN),
+    baca.dynamic("pp-ancora"),
+    baca.markup(r"\baca-leggieriss-markup"),
+    baca.staccato(
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(

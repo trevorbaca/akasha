@@ -65,78 +65,39 @@ commands(
     baca.global_fermata("fermata"),
 )
 
+# v1, v2, va
+
 commands(
     (["v1", "v2", "va"], (1, 6)),
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    "va",
-    baca.staff_lines(5),
-)
-
-commands(
-    ("vc", (1, 10)),
-    baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
+    baca.new(
+        baca.staff_lines(5),
+        match=2,
+    ),
 )
 
 commands(
     (["v1", "v2", "va"], (7, 28)),
     baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc", (13, 24)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc", (1, 24)),
-    baca.pitch(
-        "Bb1",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    baca.new(
+        baca.pitch("Bb4"),
+        match=0,
     ),
-)
-
-commands(
-    ("vc", (1, 10)),
-    baca.hairpin(
-        "ppp < ff",
-        selector=lambda _: baca.select.leaves(_)[:9],
+    baca.new(
+        baca.pitch("Bb3"),
+        match=1,
     ),
-    baca.text_spanner(
-        "trans. => vib. moltiss.",
-        selector=lambda _: baca.select.leaves(_)[:9],
+    baca.new(
+        baca.pitch("Bb2"),
+        match=2,
     ),
-)
-
-commands(
-    ("v1", (7, 28)),
-    baca.pitch("Bb4"),
-)
-
-commands(
-    ("v2", (7, 28)),
-    baca.pitch("Bb3"),
-)
-
-commands(
-    ("va", (7, 28)),
-    baca.pitch("Bb2"),
 )
 
 commands(
     (["v1", "v2", "va"], (7, 10)),
     baca.dynamic("pp"),
     baca.markup(r"\baca-tasto-plus-xfb-markup"),
-)
-
-commands(
-    ("vc", (13, 18)),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-vib-poco-markup"),
 )
 
 commands(
@@ -172,14 +133,6 @@ commands(
 )
 
 commands(
-    ("vc", (19, 24)),
-    baca.hairpin(
-        "pp >o niente",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
     (["v1", "v2", "va"], (23, 24)),
     baca.text_spanner(
         "trans. => 1/3OB",
@@ -202,6 +155,50 @@ commands(
         selector=lambda _: baca.select.leaves(_)[:2],
     ),
 )
+
+# vc
+
+commands(
+    ("vc", (1, 10)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.hairpin(
+        "ppp < ff",
+        selector=lambda _: baca.select.leaves(_)[:9],
+    ),
+    baca.text_spanner(
+        "trans. => vib. moltiss.",
+        selector=lambda _: baca.select.leaves(_)[:9],
+    ),
+)
+
+commands(
+    ("vc", (13, 24)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (13, 18)),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-vib-poco-markup"),
+)
+
+commands(
+    ("vc", (1, 24)),
+    baca.pitch(
+        "Bb1",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+commands(
+    ("vc", (19, 24)),
+    baca.hairpin(
+        "pp >o niente",
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+)
+
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(

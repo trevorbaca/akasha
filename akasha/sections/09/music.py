@@ -65,6 +65,8 @@ commands(
     ),
 )
 
+# v1
+
 commands(
     ("v1", (1, 2)),
     library.accelerando_rhythm(
@@ -74,17 +76,48 @@ commands(
 )
 
 commands(
+    ("v1", 3),
+    baca.make_repeat_tied_notes(),
+    baca.dynamic("ppp"),
+    baca.pitch("F#5"),
+)
+
+# v2
+
+commands(
     ("v2", (1, 2)),
     library.ritardando_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
+    ("v2", 3),
+    baca.make_repeat_tied_notes(),
+    baca.dynamic("ppp"),
+    baca.pitch("Ab4"),
+)
+
+# va
+
+commands(
     ("va", (1, 3)),
     baca.make_repeat_tied_notes(),
-    library.material("E", lambda _: baca.select.rleaves(_)),
     baca.reapply_persistent_indicators(),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+    baca.staff_position(0),
 )
+
+commands(
+    ("va", (5, 6)),
+    library.glissando_rhythm(),
+    baca.pitches("D#3 C+3", exact=True),
+    baca.glissando(),
+    baca.hairpin("mp > pp"),
+    baca.markup(r"\baca-tasto-markup"),
+    baca.staff_lines(5),
+)
+
+# vc
 
 commands(
     ("vc", (1, 2)),
@@ -95,82 +128,52 @@ commands(
 )
 
 commands(
-    (["v1", "v2", "vc"], (1, 2)),
-    library.material("C"),
-)
-
-commands(
-    (["v1", "v2", "vc"], 3),
-    baca.make_repeat_tied_notes(),
-    library.material("B", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    (["va", "vc"], (5, 6)),
-    library.glissando_rhythm(),
-    library.material("D"),
-)
-
-commands(
-    (["v1", "v2", "vc"], (1, 2)),
-    baca.dynamic("p"),
-    baca.markup(r"\baca-xfb-markup"),
-)
-
-commands(
-    ("v1", (1, 2)),
-    baca.pitches("D4 E4"),
-)
-
-commands(
-    ("v2", (1, 2)),
-    baca.pitches("C#4 D#4"),
-)
-
-commands(
-    ("vc", (1, 2)),
-    baca.pitches("C4 D4"),
-)
-
-commands(
-    ("va", (1, 3)),
-    baca.staff_position(0),
-)
-
-commands(
-    ("v1", 3),
-    baca.dynamic("ppp"),
-    baca.pitch("F#5"),
-)
-
-commands(
-    ("v2", 3),
-    baca.dynamic("ppp"),
-    baca.pitch("Ab4"),
-)
-
-commands(
     ("vc", 3),
+    baca.make_repeat_tied_notes(),
     baca.dynamic("ppp"),
     baca.pitch("C#2"),
 )
 
 commands(
-    ("va", (5, 6)),
-    baca.pitches("D#3 C+3", exact=True),
-    baca.glissando(),
-    baca.hairpin("mp > pp"),
-    baca.markup(r"\baca-tasto-markup"),
-    baca.staff_lines(5),
-)
-
-commands(
     ("vc", (5, 6)),
+    library.glissando_rhythm(),
     baca.pitches("C#2 Bb1", exact=True),
     baca.glissando(),
     baca.hairpin("mp > pp"),
     baca.markup(r"\baca-tasto-markup"),
 )
+
+# composites
+
+commands(
+    (["v1", "v2", "vc"], (1, 2)),
+    baca.dynamic("p"),
+    baca.markup(r"\baca-xfb-markup"),
+    library.material("C"),
+    baca.new(
+        baca.pitches("D4 E4"),
+        match=0,
+    ),
+    baca.new(
+        baca.pitches("C#4 D#4"),
+        match=1,
+    ),
+    baca.new(
+        baca.pitches("C4 D4"),
+        match=2,
+    ),
+)
+
+commands(
+    (["v1", "v2", "vc"], 3),
+    library.material("B", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    (["va", "vc"], (5, 6)),
+    library.material("D"),
+)
+
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(

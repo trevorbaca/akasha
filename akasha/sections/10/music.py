@@ -144,183 +144,38 @@ commands(
     ),
 )
 
+# v1
+
 commands(
-    (["v1", "v2", "va", "vc"], (1, 2)),
+    ("v1", (1, 2)),
     baca.make_repeat_tied_notes(),
-    library.material("D", lambda _: baca.select.rleaves(_)),
-    baca.reapply_persistent_indicators(),
-    baca.hairpin("sfp < f"),
-    baca.text_spanner("PO + senza vib. => vib. moltiss."),
 )
 
 commands(
-    (["v1", "v2", "vc"], (4, 5)),
-    baca.hairpin("sfp < f"),
+    ("v1", (4, 5)),
     baca.make_repeat_tied_notes(),
-    baca.text_spanner("senza vib. => vib. moltiss."),
-    library.material("D", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    (["v2", "vc"], (8, 10)),
-    baca.hairpin("sfp < f"),
-    baca.make_repeat_tied_notes(),
-    baca.text_spanner("senza vib. => vib. moltiss."),
-    library.material("D", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("vc", (13, 14)),
-    baca.make_repeat_tied_notes(),
-    library.material("D", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("va", (4, 20)),
-    baca.make_repeated_duration_notes([(1, 4)]),
-    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("v1", (8, 20)),
     baca.make_repeated_duration_notes([(1, 4)]),
     library.material("E", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("v2", (13, 20)),
-    baca.make_repeated_duration_notes([(1, 4)]),
-    library.material("E", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("vc", (17, 20)),
-    baca.make_repeated_duration_notes([(1, 4)]),
-    library.material("E", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (21, 22)),
-    baca.make_repeat_tied_notes(),
-    library.material("B", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("v1", (23, 24)),
-    library.dense_getato_rhythm(
-        [2, 2, 1, 2, 1],
-        [6, 4, 6, 3],
-    ),
-    library.material("A", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (25, 26)),
-    baca.make_repeat_tied_notes(),
-    library.material("B", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("v1", (28, 29)),
-    library.accelerando_rhythm(
-        fuse_counts=[1, 2],
-    ),
-)
-
-commands(
-    ("v2", (28, 29)),
-    library.ritardando_rhythm(),
-)
-
-commands(
-    ("va", (28, 29)),
-    library.accelerando_rhythm(
-        fuse_counts=[1, 2],
-        preprocessor=lambda _: baca.sequence.fuse(_),
-    ),
-)
-
-commands(
-    ("vc", (28, 29)),
-    library.ritardando_rhythm(
-        preprocessor=lambda _: baca.sequence.fuse(_),
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (28, 29)),
-    library.material("C", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
-    baca.make_repeat_tied_notes(),
-    library.material("B", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("v1", (1, 2)),
-    baca.pitch("B5"),
-)
-
-commands(
-    ("v2", (1, 2)),
-    baca.pitch("A#+3"),
-)
-
-commands(
-    ("va", (1, 2)),
-    baca.pitch("B+2"),
-)
-
-commands(
-    ("vc", (1, 2)),
-    baca.pitch("B1"),
-)
-
-commands(
-    ("v1", (4, 5)),
-    baca.pitch("B5"),
-)
-
-commands(
-    ("v2", (4, 5)),
-    baca.pitch("B3"),
-)
-
-commands(
-    ("vc", (4, 5)),
-    baca.pitch("B1"),
-)
-
-commands(
-    ("va", (4, 27)),
-    baca.dynamic("ppp"),
-    baca.markup(r"\baca-ob-markup"),
-    baca.pitch(
-        "B2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("va", (4, 20)),
     baca.alternate_bow_strokes(),
 )
 
 commands(
-    ("va", (6, 7)),
+    ("v1", (11, 12)),
     baca.text_spanner("trans. => 3/4OB"),
 )
 
 commands(
-    ("v2", (8, 10)),
-    baca.pitch("A#+3"),
+    ("v1", (15, 16)),
+    baca.text_spanner("trans. => 1/2OB"),
 )
 
 commands(
-    ("vc", (8, 10)),
-    baca.pitch("B1"),
+    ("v1", (21, 22)),
+    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -334,7 +189,21 @@ commands(
 )
 
 commands(
+    ("v1", (23, 24)),
+    library.dense_getato_rhythm(
+        [2, 2, 1, 2, 1],
+        [6, 4, 6, 3],
+    ),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.getato_pitches(31, [2]),
+    baca.dynamic("ppp"),
+    baca.markup(r"\akasha-leggieriss-plus-po-markup"),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
     ("v1", (25, 26)),
+    baca.make_repeat_tied_notes(),
     baca.pitch(
         "B4",
         selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
@@ -342,29 +211,54 @@ commands(
 )
 
 commands(
-    ("v1", (8, 20)),
-    baca.alternate_bow_strokes(),
+    ("v1", (28, 29)),
+    library.accelerando_rhythm(
+        fuse_counts=[1, 2],
+    ),
 )
 
 commands(
-    ("v1", (11, 12)),
+    ("v1", [(31, 32), (33, 34), (35, 36)]),
+    baca.make_repeat_tied_notes(),
+)
+
+# v2
+
+commands(
+    ("v2", (1, 2)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (4, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (8, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (13, 20)),
+    baca.make_repeated_duration_notes([(1, 4)]),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+    baca.alternate_bow_strokes(downbow_first=False),
+)
+
+commands(
+    ("v2", (15, 16)),
     baca.text_spanner("trans. => 3/4OB"),
 )
 
 commands(
-    ("va", (11, 12)),
-    baca.text_spanner("trans. => 1/2OB"),
+    ("v2", (21, 22)),
+    baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("vc", (13, 14)),
-    baca.pitch("B1"),
-)
-
-commands(
-    ("vc", (13, 14)),
-    baca.hairpin("sfp < f"),
-    baca.text_spanner("senza vib. => vib. moltiss."),
+    ("v2", (25, 26)),
+    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -378,23 +272,204 @@ commands(
 )
 
 commands(
-    ("v2", (13, 20)),
-    baca.alternate_bow_strokes(downbow_first=False),
+    ("v2", (28, 29)),
+    library.ritardando_rhythm(),
 )
 
 commands(
-    ("v1", (15, 16)),
-    baca.text_spanner("trans. => 1/2OB"),
+    ("v2", [(31, 32), (33, 34), (35, 36)]),
+    baca.make_repeat_tied_notes(),
+)
+
+# va
+
+commands(
+    ("va", (1, 2)),
+    baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("v2", (15, 16)),
+    ("va", (4, 20)),
+    baca.make_repeated_duration_notes([(1, 4)]),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("va", (4, 20)),
+    baca.alternate_bow_strokes(),
+)
+
+commands(
+    ("va", (6, 7)),
     baca.text_spanner("trans. => 3/4OB"),
+)
+
+commands(
+    ("va", (11, 12)),
+    baca.text_spanner("trans. => 1/2OB"),
 )
 
 commands(
     ("va", (15, 16)),
     baca.text_spanner("trans. => 1/4OB"),
+)
+
+commands(
+    ("va", (21, 22)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (25, 26)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (4, 27)),
+    baca.dynamic("ppp"),
+    baca.markup(r"\baca-ob-markup"),
+    baca.pitch(
+        "B2",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+commands(
+    ("va", (28, 29)),
+    library.accelerando_rhythm(
+        fuse_counts=[1, 2],
+        preprocessor=lambda _: baca.sequence.fuse(_),
+    ),
+)
+
+commands(
+    ("va", [(31, 32), (33, 34), (35, 36)]),
+    baca.make_repeat_tied_notes(),
+)
+
+# vc
+
+commands(
+    ("vc", (1, 2)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (4, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (8, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (13, 14)),
+    baca.make_repeat_tied_notes(),
+    library.material("D", lambda _: baca.select.rleaves(_)),
+    baca.pitch("B1"),
+    baca.hairpin("sfp < f"),
+    baca.text_spanner("senza vib. => vib. moltiss."),
+)
+
+commands(
+    ("vc", (17, 20)),
+    baca.make_repeated_duration_notes([(1, 4)]),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+    baca.alternate_bow_strokes(),
+    baca.dynamic("ppp"),
+    baca.text_spanner("OB => XP"),
+)
+
+commands(
+    ("vc", (21, 22)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (25, 26)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (28, 29)),
+    library.ritardando_rhythm(
+        preprocessor=lambda _: baca.sequence.fuse(_),
+    ),
+)
+
+commands(
+    ("vc", (17, 27)),
+    baca.pitch(
+        "B1",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+commands(
+    ("vc", [(31, 32), (33, 34), (35, 36)]),
+    baca.make_repeat_tied_notes(),
+)
+
+# composites
+
+commands(
+    (["v1", "v2", "va", "vc"], (1, 2)),
+    library.material("D", lambda _: baca.select.rleaves(_)),
+    baca.reapply_persistent_indicators(),
+    baca.hairpin("sfp < f"),
+    baca.text_spanner("PO + senza vib. => vib. moltiss."),
+    baca.new(
+        baca.pitch("B5"),
+        match=0,
+    ),
+    baca.new(
+        baca.pitch("A#+3"),
+        match=1,
+    ),
+    baca.new(
+        baca.pitch("B+2"),
+        match=2,
+    ),
+    baca.new(
+        baca.pitch("B1"),
+        match=3,
+    ),
+)
+
+commands(
+    (["v1", "v2", "vc"], (4, 5)),
+    baca.hairpin("sfp < f"),
+    baca.text_spanner("senza vib. => vib. moltiss."),
+    library.material("D", lambda _: baca.select.rleaves(_)),
+    baca.new(
+        baca.pitch("B5"),
+        match=0,
+    ),
+    baca.new(
+        baca.pitch("B3"),
+        match=1,
+    ),
+    baca.new(
+        baca.pitch("B1"),
+        match=2,
+    ),
+)
+
+commands(
+    (["v2", "vc"], (8, 10)),
+    baca.hairpin("sfp < f"),
+    baca.text_spanner("senza vib. => vib. moltiss."),
+    library.material("D", lambda _: baca.select.rleaves(_)),
+    baca.new(
+        baca.pitch("A#+3"),
+        match=0,
+    ),
+    baca.new(
+        baca.pitch("B1"),
+        match=1,
+    ),
 )
 
 commands(
@@ -407,63 +482,56 @@ commands(
 )
 
 commands(
-    ("vc", (17, 27)),
-    baca.pitch(
-        "B1",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("vc", (17, 20)),
-    baca.alternate_bow_strokes(),
-    baca.dynamic("ppp"),
-    baca.text_spanner("OB => XP"),
-)
-
-commands(
     (["v1", "v2", "va", "vc"], (21, 22)),
+    library.material("B", lambda _: baca.select.rleaves(_)),
     baca.hairpin("ppp < mp"),
     baca.markup(r"\akasha-xp-plus-fb-markup"),
 )
 
 commands(
-    ("v1", (23, 24)),
-    library.getato_pitches(31, [2]),
-    baca.dynamic("ppp"),
-    baca.markup(r"\akasha-leggieriss-plus-po-markup"),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
     (["v1", "v2", "va", "vc"], (25, 26)),
+    library.material("B", lambda _: baca.select.rleaves(_)),
     baca.hairpin("ppp < mp"),
     baca.text_spanner("XP+FB => tasto+FB"),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (28, 29)),
+    library.material("C", lambda _: baca.select.rleaves(_)),
     baca.dynamic("p"),
+    baca.new(
+        baca.pitches("D#4 E#4"),
+        match=0,
+    ),
+    baca.new(
+        baca.pitches("D4 E4"),
+        match=1,
+    ),
+    baca.new(
+        baca.pitches("C#4 D#4"),
+        match=2,
+    ),
+    baca.new(
+        baca.pitches("C4 D4"),
+        match=3,
+    ),
 )
 
 commands(
-    ("v1", (28, 29)),
-    baca.pitches("D#4 E#4"),
+    (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
+    library.material("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
-    ("v2", (28, 29)),
-    baca.pitches("D4 E4"),
+    (["v1", "v2", "va", "vc"], (31, 32)),
+    baca.hairpin("ppp < mp"),
+    baca.text_spanner("trans. => tasto + 1/2 scratch"),
 )
 
 commands(
-    ("va", (28, 29)),
-    baca.pitches("C#4 D#4"),
-)
-
-commands(
-    ("vc", (28, 29)),
-    baca.pitches("C4 D4"),
+    (["v1", "v2", "va", "vc"], (33, 34)),
+    baca.hairpin("mp < mf"),
+    baca.text_spanner("trans. => scratch moltiss."),
 )
 
 commands(
@@ -487,21 +555,10 @@ commands(
 )
 
 commands(
-    (["v1", "v2", "va", "vc"], (31, 32)),
-    baca.hairpin("ppp < mp"),
-    baca.text_spanner("trans. => tasto + 1/2 scratch"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (33, 34)),
-    baca.hairpin("mp < mf"),
-    baca.text_spanner("trans. => scratch moltiss."),
-)
-
-commands(
     ["v1", "v2", "va", "vc"],
     baca.text_spanner_staff_padding(4),
 )
+
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
