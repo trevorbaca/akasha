@@ -73,8 +73,6 @@ commands(
         fuse_counts=[1],
     ),
     baca.reapply_persistent_indicators(),
-    library.material("C"),
-    baca.pitches("E5 D5"),
 )
 
 commands(
@@ -83,16 +81,18 @@ commands(
     baca.append_phantom_measure(),
 )
 
+commands(
+    ("v1", (1, 3)),
+    library.material("C"),
+    baca.pitches("E5 D5"),
+)
+
 # v2
 
 commands(
     ("v2", (1, 3)),
     library.polyphony_rhythm(),
     baca.reapply_persistent_indicators(),
-    library.material("B"),
-    baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
 )
 
 commands(
@@ -107,6 +107,18 @@ commands(
         fuse_counts=[2, 1],
     ),
     baca.append_phantom_measure(),
+)
+
+commands(
+    ("v2", (1, 3)),
+    library.material("B"),
+    baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+)
+
+commands(
+    ("v2", (10, 11)),
     library.material("C"),
     baca.pitches("C5 Bb4"),
     baca.dynamic("pp"),
@@ -137,6 +149,10 @@ commands(
     ("va", 11),
     baca.make_repeat_tied_notes(),
     baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", 11),
     library.material(
         "D",
         selector=lambda _: baca.rleaves(_),
@@ -164,7 +180,6 @@ commands(
         extra_counts=[1, 1, 0, 2],
     ),
     baca.reapply_persistent_indicators(),
-    library.material("A"),
 )
 
 commands(
@@ -179,7 +194,6 @@ commands(
         extra_counts=[1, 1, 0, 2],
         rotation=-4,
     ),
-    library.material("A"),
 )
 
 commands(
@@ -194,6 +208,31 @@ commands(
         extra_counts=[1, 1, 0, 2],
         rotation=-8,
     ),
+)
+
+commands(
+    ("vc", (9, 10)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 11),
+    baca.make_repeat_tied_notes(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", (1, 4)),
+    library.material("A"),
+)
+
+commands(
+    ("vc", 6),
+    library.material("A"),
+)
+
+commands(
+    ("vc", 8),
     library.material("A"),
 )
 
@@ -208,14 +247,7 @@ commands(
 )
 
 commands(
-    ("vc", (9, 10)),
-    baca.make_mmrests(),
-)
-
-commands(
     ("vc", 11),
-    baca.make_repeat_tied_notes(),
-    baca.append_phantom_measure(),
     library.material(
         "D",
         selector=lambda _: baca.rleaves(_),
