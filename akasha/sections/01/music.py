@@ -47,8 +47,12 @@ commands(
 commands(
     "v1",
     baca.make_mmrests(),
-    baca.attach_first_segment_default_indicators(),
     baca.append_phantom_measure(),
+)
+
+commands(
+    "v1",
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. I"),
@@ -61,8 +65,12 @@ commands(
 commands(
     "v2",
     baca.make_mmrests(),
-    baca.attach_first_segment_default_indicators(),
     baca.append_phantom_measure(),
+)
+
+commands(
+    "v2",
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. II"),
@@ -75,7 +83,6 @@ commands(
 commands(
     ("va", (1, 2)),
     baca.make_repeat_tied_notes(),
-    baca.attach_first_segment_default_indicators(),
 )
 
 commands(
@@ -86,6 +93,7 @@ commands(
 
 commands(
     ("va", (1, 2)),
+    baca.attach_first_segment_default_indicators(),
     baca.suite(
         library.margin_markup("Va."),
         baca.start_markup("Viola", hcenter_in=14),
@@ -103,8 +111,12 @@ commands(
 commands(
     "vc",
     baca.make_mmrests(),
-    baca.attach_first_segment_default_indicators(),
     baca.append_phantom_measure(),
+)
+
+commands(
+    "vc",
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vc."),
