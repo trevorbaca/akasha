@@ -130,8 +130,6 @@ commands(
             lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
         ),
     ),
-    baca.pitches("E4 F4 E+4", exact=True),
-    library.material("B"),
 )
 
 commands(
@@ -146,7 +144,6 @@ commands(
             lambda _: abjad.select.tuplets(_)[:-2],
         ),
     ),
-    library.material("A"),
 )
 
 commands(
@@ -170,9 +167,6 @@ commands(
         ),
         fuse_counts=[1, 2],
     ),
-    library.material("C"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
 )
 
 commands(
@@ -192,7 +186,6 @@ commands(
         ),
         fuse_counts=[1, 2],
     ),
-    library.material("C"),
 )
 
 commands(
@@ -211,13 +204,40 @@ commands(
             ),
         ),
     ),
-    library.material("C"),
 )
 
 commands(
     ("v1", (18, 20)),
     baca.make_mmrests(),
     baca.append_phantom_measure(),
+)
+
+commands(
+    ("v1", (6, 7)),
+    baca.pitches("E4 F4 E+4", exact=True),
+    library.material("B"),
+)
+
+commands(
+    ("v1", 9),
+    library.material("A"),
+)
+
+commands(
+    ("v1", (11, 13)),
+    library.material("C"),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
+)
+
+commands(
+    ("v1", 15),
+    library.material("C"),
+)
+
+commands(
+    ("v1", 17),
+    library.material("C"),
 )
 
 commands(
