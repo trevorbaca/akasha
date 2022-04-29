@@ -126,6 +126,62 @@ commands(
 )
 
 commands(
+    ("v1", 18),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (19, 22)),
+    library.untied_notes(),
+)
+
+commands(
+    ("v1", 23),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (24, 31)),
+    library.untied_notes(),
+)
+
+commands(
+    ("v1", 32),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (33, 36)),
+    library.untied_notes(),
+)
+
+commands(
+    ("v1", 37),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (38, 41)),
+    library.untied_notes(),
+)
+
+commands(
+    ("v1", 42),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (43, 46)),
+    library.untied_notes(),
+)
+
+commands(
+    ("v1", (47, 51)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
     ("v1", [(1, 8), (10, 17)]),
     baca.ottava(),
     baca.new(
@@ -147,36 +203,27 @@ commands(
 
 commands(
     ("v1", (19, 22)),
-    library.untied_notes(),
     library.harmonic_glissando_pitches("A4"),
 )
 
 commands(
     ("v1", (24, 31)),
-    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-6),
 )
 
 commands(
     ("v1", (33, 36)),
-    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-12),
 )
 
 commands(
     ("v1", (38, 41)),
-    library.untied_notes(),
     library.harmonic_glissando_pitches("A4", rotation=-18),
 )
 
 commands(
     ("v1", (43, 46)),
     library.harmonic_glissando_pitches("A4", rotation=-24),
-)
-
-commands(
-    ("v1", (43, 46)),
-    library.untied_notes(),
 )
 
 commands(
@@ -201,24 +248,81 @@ commands(
 commands(
     ("v2", (10, 17)),
     library.untied_notes(),
-    library.harmonic_glissando_pitches("A4"),
+)
+
+commands(
+    ("v2", 18),
+    baca.make_mmrests(),
 )
 
 commands(
     ("v2", (19, 22)),
     library.untied_notes(),
-    library.harmonic_glissando_pitches("A4", rotation=-6),
+)
+
+commands(
+    ("v2", 23),
+    baca.make_mmrests(),
 )
 
 commands(
     ("v2", (24, 31)),
     library.untied_notes(),
-    library.harmonic_glissando_pitches("A4", rotation=-12),
+)
+
+commands(
+    ("v2", 32),
+    baca.make_mmrests(),
 )
 
 commands(
     ("v2", (33, 36)),
     library.untied_notes(),
+)
+
+commands(
+    ("v2", 37),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (38, 39)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (40, 42)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (43, 44)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (45, 51)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v2", (10, 17)),
+    library.harmonic_glissando_pitches("A4"),
+)
+
+commands(
+    ("v2", (19, 22)),
+    library.harmonic_glissando_pitches("A4", rotation=-6),
+)
+
+commands(
+    ("v2", (24, 31)),
+    library.harmonic_glissando_pitches("A4", rotation=-12),
+)
+
+commands(
+    ("v2", (33, 36)),
     library.harmonic_glissando_pitches("A4", rotation=-18),
 )
 
@@ -231,16 +335,6 @@ commands(
     ),
     baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
     baca.note_head_style_harmonic(),
-)
-
-commands(
-    ("v2", (38, 39)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("v2", (43, 44)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -267,10 +361,6 @@ commands(
 commands(
     ("va", (1, 8)),
     baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
-    baca.clef("treble"),
-    baca.dynamic("mp"),
-    baca.markup(r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"),
 )
 
 commands(
@@ -284,8 +374,18 @@ commands(
 )
 
 commands(
+    ("va", 18),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (19, 22)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 23),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -294,12 +394,8 @@ commands(
 )
 
 commands(
-    ("va", (1, 31)),
-    baca.note_head_style_harmonic(),
-    baca.pitch(
-        "Gqf5",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
+    ("va", 32),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -310,6 +406,49 @@ commands(
 commands(
     ("va", 36),
     library.glissando_rhythm(),
+)
+
+commands(
+    ("va", 37),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (38, 41)),
+    library.untied_notes(),
+)
+
+commands(
+    ("va", 42),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (43, 46)),
+    library.untied_notes(),
+)
+
+commands(
+    ("va", (47, 51)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", (1, 8)),
+    baca.reapply_persistent_indicators(),
+    baca.clef("treble"),
+    baca.dynamic("mp"),
+    baca.markup(r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"),
+)
+
+commands(
+    ("va", (1, 31)),
+    baca.note_head_style_harmonic(),
+    baca.pitch(
+        "Gqf5",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
 )
 
 commands(
@@ -324,13 +463,11 @@ commands(
 
 commands(
     ("va", (38, 41)),
-    library.untied_notes(),
     library.harmonic_glissando_pitches("Ab3"),
 )
 
 commands(
     ("va", (43, 46)),
-    library.untied_notes(),
     library.harmonic_glissando_pitches("Ab3", rotation=-6),
 )
 
@@ -350,10 +487,6 @@ commands(
 commands(
     ("vc", (1, 8)),
     baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
-    baca.clef("treble"),
-    baca.dynamic("mp"),
-    baca.markup(r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup"),
 )
 
 commands(
@@ -367,28 +500,28 @@ commands(
 )
 
 commands(
+    ("vc", 18),
+    baca.make_mmrests(),
+)
+
+commands(
     ("vc", (19, 22)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("vc", (1, 22)),
-    baca.note_head_style_harmonic(),
-    baca.pitch(
-        "D5",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
+    ("vc", 23),
+    baca.make_mmrests(),
 )
 
 commands(
     ("vc", (24, 31)),
     library.untied_notes(),
-    library.harmonic_glissando_pitches("G2"),
-    baca.clef("bass"),
-    baca.dynamic("ppp"),
-    baca.glissando(),
-    baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
-    baca.note_head_style_harmonic(),
+)
+
+commands(
+    ("vc", 32),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -397,20 +530,18 @@ commands(
 )
 
 commands(
-    ("vc", (33, 35)),
-    baca.hairpin("sf > ppp"),
-    baca.markup(r"\baca-tasto-markup"),
-    baca.pitch("C#2"),
+    ("vc", 37),
+    baca.make_mmrests(),
 )
 
 commands(
     ("vc", (38, 41)),
     library.untied_notes(),
-    library.harmonic_glissando_pitches("G2", rotation=-6),
-    baca.dynamic("ppp-ancora"),
-    baca.glissando(),
-    baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
-    baca.note_head_style_harmonic(),
+)
+
+commands(
+    ("vc", 42),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -424,6 +555,55 @@ commands(
 )
 
 commands(
+    ("vc", 51),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", (1, 8)),
+    baca.reapply_persistent_indicators(),
+    baca.clef("treble"),
+    baca.dynamic("mp"),
+    baca.markup(r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup"),
+)
+
+commands(
+    ("vc", (1, 22)),
+    baca.note_head_style_harmonic(),
+    baca.pitch(
+        "D5",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+commands(
+    ("vc", (24, 31)),
+    library.harmonic_glissando_pitches("G2"),
+    baca.clef("bass"),
+    baca.dynamic("ppp"),
+    baca.glissando(),
+    baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
+    baca.note_head_style_harmonic(),
+)
+
+commands(
+    ("vc", (33, 35)),
+    baca.hairpin("sf > ppp"),
+    baca.markup(r"\baca-tasto-markup"),
+    baca.pitch("C#2"),
+)
+
+commands(
+    ("vc", (38, 41)),
+    library.harmonic_glissando_pitches("G2", rotation=-6),
+    baca.dynamic("ppp-ancora"),
+    baca.glissando(),
+    baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
+    baca.note_head_style_harmonic(),
+)
+
+commands(
     ("vc", (43, 50)),
     library.material("D"),
     baca.pitches("Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True),
@@ -432,7 +612,7 @@ commands(
     baca.markup(r"\baca-tasto-markup"),
 )
 
-# composite
+# composites
 
 commands(
     [
@@ -487,10 +667,13 @@ if __name__ == "__main__":
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
         color_octaves=False,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         moment_markup=moment_markup,
         stage_markup=stage_markup,
     )

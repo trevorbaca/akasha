@@ -109,6 +109,10 @@ commands(
 commands(
     ("v1", 5),
     library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v1", 5),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -121,6 +125,10 @@ commands(
 commands(
     ("v1", 7),
     library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v1", 7),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -215,6 +223,10 @@ commands(
 commands(
     ("v2", 3),
     library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v2", 3),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -227,6 +239,10 @@ commands(
 commands(
     ("v2", 5),
     library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v2", 5),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -239,6 +255,10 @@ commands(
 commands(
     ("v2", 7),
     library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v2", 7),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
