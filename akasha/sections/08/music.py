@@ -90,6 +90,40 @@ commands(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
+)
+
+commands(
+    ("v1", (5, 7)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("v1", (8, 10)),
+    baca.make_notes(repeat_ties=True),
+)
+commands(
+    ("v1", (11, 13)),
+    baca.make_notes(repeat_ties=True),
+)
+
+commands(
+    ("v1", 14),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (15, 16)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", 17),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v1", (1, 4)),
     library.material("A"),
     baca.reapply_persistent_indicators(),
     library.getato_pitches(31, [2]),
@@ -103,17 +137,7 @@ commands(
 
 commands(
     ("v1", (5, 7)),
-    baca.make_notes(repeat_ties=True),
     baca.text_spanner("tasto + 1/4 scratch => tasto"),
-)
-
-commands(
-    ("v1", (8, 10)),
-    baca.make_notes(repeat_ties=True),
-)
-commands(
-    ("v1", (11, 13)),
-    baca.make_notes(repeat_ties=True),
 )
 
 commands(
@@ -124,7 +148,6 @@ commands(
 
 commands(
     ("v1", (15, 16)),
-    baca.make_repeat_tied_notes(),
     baca.dynamic("ppp"),
     baca.pitch("F#5"),
 )
@@ -153,6 +176,22 @@ commands(
 )
 
 commands(
+    ("v2", 14),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (15, 16)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 17),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
     ("v2", (1, 13)),
     baca.loop([6, 3, 5, 3, 1, 4], [1]),
     baca.glissando(),
@@ -160,7 +199,6 @@ commands(
 
 commands(
     ("v2", (15, 16)),
-    baca.make_repeat_tied_notes(),
     baca.dynamic("ppp"),
     baca.pitch("Ab4"),
 )
@@ -171,7 +209,6 @@ commands(
     ("va", (1, 4)),
     baca.make_notes(repeat_ties=True),
     baca.reapply_persistent_indicators(),
-    baca.staff_lines(5),
 )
 
 commands(
@@ -190,15 +227,26 @@ commands(
 )
 
 commands(
-    ("va", (1, 13)),
-    baca.clef("alto"),
-    baca.loop([3, 5, 2, 4, 2, 0], [1]),
-    baca.glissando(),
+    ("va", 14),
+    baca.make_mmrests(),
 )
 
 commands(
     ("va", (15, 17)),
     baca.make_repeat_tied_notes(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "va",
+    baca.clef("alto"),
+    baca.staff_lines(5),
+)
+
+commands(
+    ("va", (1, 13)),
+    baca.loop([3, 5, 2, 4, 2, 0], [1]),
+    baca.glissando(),
 )
 
 commands(
@@ -223,7 +271,6 @@ commands(
     baca.make_notes(repeat_ties=True),
 )
 
-
 commands(
     ("vc", (8, 10)),
     baca.make_notes(repeat_ties=True),
@@ -235,6 +282,22 @@ commands(
 )
 
 commands(
+    ("vc", 14),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (15, 16)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 17),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
     ("vc", (1, 13)),
     baca.clef("bass"),
     baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
@@ -243,7 +306,6 @@ commands(
 
 commands(
     ("vc", (15, 16)),
-    baca.make_repeat_tied_notes(),
     baca.dynamic("ppp"),
     baca.pitch("C#2"),
 )
@@ -309,11 +371,14 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         color_octaves=False,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         moment_markup=moment_markup,
         stage_markup=stage_markup,
     )

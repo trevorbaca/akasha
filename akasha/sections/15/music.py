@@ -53,10 +53,10 @@ commands(
     ),
 )
 
-# v1, va, vc
+# v1
 
 commands(
-    (["v1", "va", "vc"], (1, 16)),
+    ("v1", (1, 16)),
     baca.make_notes(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
@@ -67,34 +67,9 @@ commands(
 )
 
 commands(
-    (["v1", "va", "vc"], (17, 25)),
+    ("v1", (17, 25)),
     baca.make_mmrests(),
-)
-
-commands(
-    (["v1", "va", "vc"], (1, 24)),
-    baca.alternate_bow_strokes(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.clef("percussion"),
-    baca.dynamic('"mf"'),
-    baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
-    baca.staff_position(
-        0,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.staff_lines(1),
-)
-
-commands(
-    ("vc", -1),
-    baca.chunk(
-        baca.mark(r"\akasha-colophon-markup"),
-        baca.rehearsal_mark_down(),
-        baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: baca.select.rleaf(_, -1),
-    ),
+    baca.append_phantom_measure(),
 )
 
 # v2
@@ -123,6 +98,77 @@ commands(
     ),
 )
 
+commands(
+    ("v2", 25),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# va
+
+commands(
+    ("va", (1, 16)),
+    baca.make_notes(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
+        ),
+        repeat_ties=True,
+    ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", (17, 25)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# vc
+
+commands(
+    ("vc", (1, 16)),
+    baca.make_notes(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
+        ),
+        repeat_ties=True,
+    ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", (17, 25)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", 25),
+    baca.chunk(
+        baca.mark(r"\akasha-colophon-markup"),
+        baca.rehearsal_mark_down(),
+        baca.rehearsal_mark_padding(6),
+        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
+        selector=lambda _: baca.select.rleaf(_, -1),
+    ),
+)
+
+# v1, va, vc composites
+
+commands(
+    (["v1", "va", "vc"], (1, 24)),
+    baca.alternate_bow_strokes(
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+    ),
+    baca.clef("percussion"),
+    baca.dynamic('"mf"'),
+    baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
+    baca.staff_position(
+        0,
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+    baca.staff_lines(1),
+)
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
@@ -131,10 +177,13 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         final_segment=True,
         stage_markup=stage_markup,
     )

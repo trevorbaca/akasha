@@ -65,21 +65,72 @@ commands(
     baca.global_fermata("fermata"),
 )
 
-# v1, v2, va
+# v1
 
 commands(
-    (["v1", "v2", "va"], (1, 6)),
+    ("v1", (1, 6)),
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
-    baca.new(
-        baca.staff_lines(5),
-        match=2,
-    ),
 )
 
 commands(
-    (["v1", "v2", "va"], (7, 28)),
+    ("v1", (7, 28)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", 29),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# v2
+
+commands(
+    ("v2", (1, 6)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", (7, 28)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 29),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# va
+
+commands(
+    ("va", (1, 6)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", (7, 28)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 29),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "va",
+    baca.staff_lines(5),
+)
+
+# v1, v2, va composites
+
+commands(
+    (["v1", "v2", "va"], (7, 28)),
     baca.new(
         baca.pitch("Bb4"),
         match=0,
@@ -162,6 +213,26 @@ commands(
     ("vc", (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", (11, 12)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (13, 24)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (25, 29)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", (1, 10)),
     baca.hairpin(
         "ppp < ff",
         selector=lambda _: baca.select.leaves(_)[:9],
@@ -170,11 +241,6 @@ commands(
         "trans. => vib. moltiss.",
         selector=lambda _: baca.select.leaves(_)[:9],
     ),
-)
-
-commands(
-    ("vc", (13, 24)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -207,11 +273,14 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         color_octaves=False,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

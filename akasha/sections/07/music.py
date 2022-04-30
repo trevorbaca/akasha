@@ -159,9 +159,11 @@ commands(
         [1],
         [3, 0, 2, 1],
     ),
-    library.material("A"),
-    library.getato_pitches(27, [2]),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v1", (5, 7)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -172,7 +174,11 @@ commands(
         ),
         fuse_counts=[1, 2],
     ),
-    library.material("C"),
+)
+
+commands(
+    ("v1", 10),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -182,6 +188,64 @@ commands(
         extra_counts=[1],
         first_silence=1,
     ),
+)
+
+commands(
+    ("v1", (23, 26)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", (27, 34)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", 35),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (36, 41)),
+    library.dense_getato_rhythm(
+        [2, 2, 1, 2, 1],
+        [6, 4, 6, 3],
+    ),
+)
+
+commands(
+    ("v1", (42, 44)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 45),
+    library.dense_getato_rhythm(
+        [2, 2, 1, 2, 1],
+        [6, 4, 6, 3],
+    ),
+)
+
+commands(
+    ("v1", (46, 48)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v1", (3, 4)),
+    library.material("A"),
+    library.getato_pitches(27, [2]),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v1", (8, 9)),
+    library.material("C"),
+)
+
+commands(
+    ("v1", (11, 22)),
     library.material("C"),
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.new(
@@ -196,23 +260,13 @@ commands(
 
 commands(
     ("v1", (23, 26)),
-    baca.make_repeat_tied_notes(),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitch("E5"),
 )
 
 commands(
-    ("v1", (27, 34)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     ("v1", (36, 41)),
-    library.dense_getato_rhythm(
-        [2, 2, 1, 2, 1],
-        [6, 4, 6, 3],
-    ),
     library.material("A"),
     library.getato_pitches(29, [2]),
     baca.hairpin(
@@ -227,10 +281,6 @@ commands(
 
 commands(
     ("v1", 45),
-    library.dense_getato_rhythm(
-        [2, 2, 1, 2, 1],
-        [6, 4, 6, 3],
-    ),
     library.getato_pitches(29, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
@@ -251,9 +301,11 @@ commands(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
     ),
-    library.material("A"),
-    library.getato_pitches(24, [2]),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v2", (5, 7)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -263,7 +315,11 @@ commands(
             lambda _: abjad.select.get(baca.select.lts(_), [2, 5]),
         ),
     ),
-    library.material("C"),
+)
+
+commands(
+    ("v2", 10),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -272,6 +328,64 @@ commands(
         division_ratio=(1, 1, 2, 2, 1, 2),
         first_silence=2,
     ),
+)
+
+commands(
+    ("v2", (23, 26)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (27, 34)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 35),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (36, 41)),
+    library.dense_getato_rhythm(
+        [2, 1, 2, 1, 2],
+        [4, 6, 3, 6],
+    ),
+)
+
+commands(
+    ("v2", (42, 44)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 45),
+    library.dense_getato_rhythm(
+        [2, 1, 2, 1, 2],
+        [4, 6, 3, 6],
+    ),
+)
+
+commands(
+    ("v2", (46, 48)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v2", (3, 4)),
+    library.material("A"),
+    library.getato_pitches(24, [2]),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v2", (8, 9)),
+    library.material("C"),
+)
+
+commands(
+    ("v2", (11, 22)),
     library.material("C"),
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.new(
@@ -286,23 +400,13 @@ commands(
 
 commands(
     ("v2", (23, 26)),
-    baca.make_repeat_tied_notes(),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitch("F#4"),
 )
 
 commands(
-    ("v2", (27, 34)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     ("v2", (36, 41)),
-    library.dense_getato_rhythm(
-        [2, 1, 2, 1, 2],
-        [4, 6, 3, 6],
-    ),
     library.material("A"),
     library.getato_pitches(26, [2]),
     baca.hairpin(
@@ -317,10 +421,6 @@ commands(
 
 commands(
     ("v2", 45),
-    library.dense_getato_rhythm(
-        [2, 1, 2, 1, 2],
-        [4, 6, 3, 6],
-    ),
     library.getato_pitches(26, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
@@ -328,11 +428,6 @@ commands(
 )
 
 # va
-
-commands(
-    "va",
-    baca.staff_lines(5),
-)
 
 commands(
     ("va", (1, 5)),
@@ -343,18 +438,16 @@ commands(
 commands(
     ("va", 6),
     baca.make_repeat_tied_notes(),
-    library.material("A", lambda _: baca.select.rleaves(_)),
-    baca.dynamic("ff"),
-    baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-    baca.pitch("F#3"),
+)
+
+commands(
+    ("va", (7, 10)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("va", (11, 26)),
     library.manifest([2, 1, 2, 1, 1, 3, 2, 1, 7]),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-    baca.pitches("G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True),
 )
 
 commands(
@@ -363,11 +456,79 @@ commands(
 )
 
 commands(
+    ("va", 35),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (36, 41)),
     library.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
     ),
+)
+
+commands(
+    ("va", 42),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 43),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 44),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 45),
+    library.dense_getato_rhythm(
+        [2, 1, 2, 2, 1],
+        [3, 6, 4, 6],
+    ),
+)
+
+commands(
+    ("va", 46),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 47),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 48),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "va",
+    baca.staff_lines(5),
+)
+
+commands(
+    ("va", 6),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+    baca.dynamic("ff"),
+    baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
+    baca.pitch("F#3"),
+)
+
+commands(
+    ("va", (11, 26)),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    baca.pitches("G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True),
+)
+
+commands(
+    ("va", (36, 41)),
     library.material("A"),
     library.getato_pitches(23, [2]),
     baca.clef("treble"),
@@ -383,7 +544,6 @@ commands(
 
 commands(
     ("va", 43),
-    baca.make_repeat_tied_notes(),
     library.material("E", lambda _: baca.select.rleaves(_)),
     baca.down_bow(),
     baca.dynamic('"mf"'),
@@ -394,10 +554,6 @@ commands(
 
 commands(
     ("va", 45),
-    library.dense_getato_rhythm(
-        [2, 1, 2, 2, 1],
-        [3, 6, 4, 6],
-    ),
     library.getato_pitches(23, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
@@ -407,7 +563,6 @@ commands(
 
 commands(
     ("va", 47),
-    baca.make_repeat_tied_notes(),
     library.material("E", lambda _: baca.select.rleaves(_)),
     baca.down_bow(),
     baca.dynamic('"mf"'),
@@ -422,6 +577,65 @@ commands(
     ("vc", (1, 2)),
     library.cello_solo_rhythm(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", (3, 4)),
+    library.dense_getato_rhythm(
+        [2, 1, 2, 2, 1],
+        [6, 3, 5, 4],
+    ),
+)
+
+commands(
+    ("vc", (5, 10)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (11, 26)),
+    library.manifest([1, 3, 4, 1, 2, 3, 6]),
+)
+
+commands(
+    ("vc", (27, 34)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 35),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (36, 41)),
+    library.dense_getato_rhythm(
+        [1, 2, 1, 2, 2],
+        [6, 3, 6, 4],
+    ),
+)
+
+commands(
+    ("vc", (42, 44)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 45),
+    library.dense_getato_rhythm(
+        [1, 2, 1, 2, 2],
+        [6, 3, 6, 4],
+    ),
+)
+
+commands(
+    ("vc", (46, 48)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", (1, 2)),
     baca.clef("bass"),
     library.cello_solo_pitches(transposition="m2"),
     baca.dynamic("mp"),
@@ -432,10 +646,6 @@ commands(
 commands(
     ("vc", (3, 4)),
     baca.clef("treble"),
-    library.dense_getato_rhythm(
-        [2, 1, 2, 2, 1],
-        [6, 3, 5, 4],
-    ),
     library.material("A"),
     library.getato_pitches(21, [2]),
     baca.markup(r"\baca-leggieriss-markup"),
@@ -445,7 +655,6 @@ commands(
 
 commands(
     ("vc", (11, 26)),
-    library.manifest([1, 3, 4, 1, 2, 3, 6]),
     baca.clef("bass"),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
@@ -453,16 +662,7 @@ commands(
 )
 
 commands(
-    ("vc", (27, 34)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     ("vc", (36, 41)),
-    library.dense_getato_rhythm(
-        [1, 2, 1, 2, 2],
-        [6, 3, 6, 4],
-    ),
     library.material("A"),
     library.getato_pitches(20, [2]),
     baca.clef("treble"),
@@ -478,17 +678,13 @@ commands(
 
 commands(
     ("vc", 45),
-    library.dense_getato_rhythm(
-        [1, 2, 1, 2, 2],
-        [6, 3, 6, 4],
-    ),
     library.getato_pitches(20, [2]),
     baca.dynamic("pp"),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
-# composite
+# composites
 
 commands(
     (["v1", "v2"], (8, 9)),
@@ -503,7 +699,6 @@ commands(
         match=1,
     ),
 )
-
 
 commands(
     (["va", "vc"], (11, 34)),
@@ -554,6 +749,8 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        color_octaves=False,
         deactivate=(
             baca.tags.DEFAULT_INSTRUMENT_ALERT,
             baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
@@ -561,11 +758,12 @@ if __name__ == "__main__":
             baca.tags.REAPPLIED_MARGIN_MARKUP_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
-        color_octaves=False,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         moment_markup=moment_markup,
         stage_markup=stage_markup,
     )

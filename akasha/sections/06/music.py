@@ -108,11 +108,6 @@ commands(
 
 commands(
     ("v1", 5),
-    library.material("A", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("v1", 5),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -123,8 +118,8 @@ commands(
 )
 
 commands(
-    ("v1", 7),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    ("v1", 6),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -136,6 +131,11 @@ commands(
         ),
         extra_counts=[-2],
     ),
+)
+
+commands(
+    ("v1", 8),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -161,6 +161,36 @@ commands(
 )
 
 commands(
+    ("v1", (23, 38)),
+    library.dense_getato_rhythm(
+        [1],
+        [3, 0, 2, 1],
+        rmakers.force_rest(
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1],
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("v1", 39),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v1", 5),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v1", 7),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
     ("v1", (1, 14)),
     baca.new(
         baca.dynamic("ff"),
@@ -173,20 +203,6 @@ commands(
     ("v1", (15, 22)),
     baca.dynamic("f"),
     baca.markup(r"\akasha-po-meno-scratch-markup"),
-)
-
-commands(
-    ("v1", (23, 38)),
-    library.dense_getato_rhythm(
-        [1],
-        [3, 0, 2, 1],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1],
-            ),
-        ),
-    ),
 )
 
 commands(
@@ -222,11 +238,6 @@ commands(
 
 commands(
     ("v2", 3),
-    library.material("A", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("v2", 3),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -237,8 +248,8 @@ commands(
 )
 
 commands(
-    ("v2", 5),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    ("v2", 4),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -253,8 +264,8 @@ commands(
 )
 
 commands(
-    ("v2", 7),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    ("v2", 6),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -269,6 +280,11 @@ commands(
 )
 
 commands(
+    ("v2", 8),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (9, 10)),
     library.scratch_rhythm(
         [4],
@@ -280,15 +296,6 @@ commands(
 )
 
 commands(
-    ("v2", (1, 10)),
-    baca.new(
-        baca.dynamic("ff"),
-        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
     ("v2", (11, 20)),
     library.scratch_rhythm(
         [8],
@@ -296,6 +303,61 @@ commands(
             lambda _: abjad.select.get(baca.select.lts(_), ([1, 4], 9), invert=True),
         ),
         extra_counts=[-1],
+    ),
+)
+
+commands(
+    ("v2", (21, 32)),
+    library.dense_getato_rhythm(
+        [1],
+        [2, 1, 3, 0],
+        rmakers.force_rest(
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                [0, 2, 3, 4, 5, 6, 10, 14, 22],
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (33, 38)),
+    library.dense_getato_rhythm(
+        [1, 2, 1, 2, 2],
+        [6, 3, 5, 4],
+        rmakers.force_rest(
+            lambda _: abjad.select.tuplets(_)[-5:],
+        ),
+    ),
+)
+
+commands(
+    ("v2", 39),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v2", 3),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v2", 5),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v2", 7),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("v2", (1, 10)),
+    baca.new(
+        baca.dynamic("ff"),
+        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
+        selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -315,36 +377,11 @@ commands(
 )
 
 commands(
-    ("v2", (21, 32)),
-    library.dense_getato_rhythm(
-        [1],
-        [2, 1, 3, 0],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                [0, 2, 3, 4, 5, 6, 10, 14, 22],
-            ),
-        ),
-    ),
-)
-
-commands(
     ("v2", (23, 32)),
     baca.hairpin(
         "mf > pp",
         selector=lambda _: baca.select.tleaves(
             _,
-        ),
-    ),
-)
-
-commands(
-    ("v2", (33, 38)),
-    library.dense_getato_rhythm(
-        [1, 2, 1, 2, 2],
-        [6, 3, 5, 4],
-        rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[-5:],
         ),
     ),
 )
@@ -367,32 +404,78 @@ commands(
 commands(
     ("va", 1),
     library.viola_ob_rhythm(rotation=0),
-    library.material("E", lambda _: baca.select.rleaves(_)),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 3),
+    library.viola_ob_rhythm(rotation=-2),
+)
+
+commands(
+    ("va", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 5),
+    library.viola_ob_rhythm(rotation=-4),
+)
+
+commands(
+    ("va", 6),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 7),
+    library.viola_ob_rhythm(rotation=-6),
+)
+
+commands(
+    ("va", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (9, 38)),
+    library.viola_ob_rhythm(rotation=-8),
+)
+
+commands(
+    ("va", 39),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", 1),
+    library.material("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", 3),
     library.material("E", lambda _: baca.select.rleaves(_)),
-    library.viola_ob_rhythm(rotation=-2),
 )
 
 commands(
     ("va", 5),
     library.material("E", lambda _: baca.select.rleaves(_)),
-    library.viola_ob_rhythm(rotation=-4),
 )
 
 commands(
     ("va", 7),
     library.material("E", lambda _: baca.select.rleaves(_)),
-    library.viola_ob_rhythm(rotation=-6),
 )
 
 commands(
     ("va", (9, 38)),
     library.material("E", lambda _: baca.select.rleaves(_)),
-    library.viola_ob_rhythm(rotation=-8),
 )
 
 commands(
@@ -416,7 +499,6 @@ commands(
 
 commands(
     ("vc", 3),
-    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -424,11 +506,15 @@ commands(
         ),
         extra_counts=[-1],
     ),
+)
+
+commands(
+    ("vc", (4, 6)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("vc", 7),
-    library.material("A", lambda _: baca.select.rleaves(_)),
     library.scratch_rhythm(
         [4],
         rmakers.force_rest(
@@ -439,12 +525,8 @@ commands(
 )
 
 commands(
-    ("vc", (1, 8)),
-    baca.new(
-        baca.dynamic("ff"),
-        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
-    ),
+    ("vc", 8),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -470,21 +552,6 @@ commands(
 )
 
 commands(
-    ("vc", (9, 14)),
-    baca.dynamic("f"),
-    baca.markup(r"\akasha-po-meno-scratch-markup"),
-)
-
-commands(
-    ("vc", (15, 18)),
-    baca.dynamic("mf"),
-    baca.markup(r"\akasha-senza-scratch-markup"),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
     ("vc", (19, 26)),
     library.dense_getato_rhythm(
         [1],
@@ -504,17 +571,6 @@ commands(
         [1, 2, 1, 2, 2],
         [4, 1, 3, 2],
     ),
-    baca.clef("treble"),
-)
-
-commands(
-    ("vc", (23, 32)),
-    baca.hairpin(
-        "mf > pp",
-        selector=lambda _: baca.select.tleaves(
-            _,
-        ),
-    ),
 )
 
 commands(
@@ -524,6 +580,61 @@ commands(
         [6, 3, 5, 4],
         rmakers.force_rest(
             lambda _: abjad.select.tuplets(_)[-4:],
+        ),
+    ),
+)
+
+commands(
+    ("vc", 39),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", 3),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("vc", 7),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("vc", (1, 8)),
+    baca.new(
+        baca.dynamic("ff"),
+        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
+        selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+commands(
+    ("vc", (9, 14)),
+    baca.dynamic("f"),
+    baca.markup(r"\akasha-po-meno-scratch-markup"),
+)
+
+commands(
+    ("vc", (15, 18)),
+    baca.dynamic("mf"),
+    baca.markup(r"\akasha-senza-scratch-markup"),
+    baca.staccato(
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+commands(
+    ("vc", 27),
+    baca.clef("treble"),
+)
+
+commands(
+    ("vc", (23, 32)),
+    baca.hairpin(
+        "mf > pp",
+        selector=lambda _: baca.select.tleaves(
+            _,
         ),
     ),
 )
@@ -541,7 +652,7 @@ commands(
     library.getato_pitches(-13, [2]),
 )
 
-# composite
+# composites
 
 commands(
     (["v1", "v2", "vc"], (9, 38)),
@@ -560,6 +671,8 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        color_octaves=False,
         deactivate=(
             baca.tags.DEFAULT_INSTRUMENT_ALERT,
             baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
@@ -567,11 +680,12 @@ if __name__ == "__main__":
             baca.tags.REAPPLIED_MARGIN_MARKUP_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
-        color_octaves=False,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         moment_markup=moment_markup,
         stage_markup=stage_markup,
     )
