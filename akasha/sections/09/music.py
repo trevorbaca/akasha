@@ -78,6 +78,16 @@ commands(
 commands(
     ("v1", 3),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", (4, 7)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v1", 3),
     baca.dynamic("ppp"),
     baca.pitch("F#5"),
 )
@@ -93,6 +103,16 @@ commands(
 commands(
     ("v2", 3),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (4, 7)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("v2", 3),
     baca.dynamic("ppp"),
     baca.pitch("Ab4"),
 )
@@ -103,13 +123,32 @@ commands(
     ("va", (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
-    library.material("E", lambda _: baca.select.rleaves(_)),
-    baca.staff_position(0),
+)
+
+commands(
+    ("va", 4),
+    baca.make_mmrests(),
 )
 
 commands(
     ("va", (5, 6)),
     library.glissando_rhythm(),
+)
+
+commands(
+    ("va", 7),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", (1, 3)),
+    baca.staff_position(0),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("va", (5, 6)),
     baca.pitches("D#3 C+3", exact=True),
     baca.glissando(),
     baca.hairpin("mp > pp"),
@@ -130,13 +169,32 @@ commands(
 commands(
     ("vc", 3),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (5, 6)),
+    library.glissando_rhythm(),
+)
+
+commands(
+    ("vc", 7),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", 3),
     baca.dynamic("ppp"),
     baca.pitch("C#2"),
 )
 
 commands(
     ("vc", (5, 6)),
-    library.glissando_rhythm(),
     baca.pitches("C#2 Bb1", exact=True),
     baca.glissando(),
     baca.hairpin("mp > pp"),
@@ -186,10 +244,13 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         moment_markup=moment_markup,
         stage_markup=stage_markup,
     )

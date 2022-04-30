@@ -68,6 +68,12 @@ commands(
     ),
 )
 
+commands(
+    ("v1", 4),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
 # v2
 
 commands(
@@ -104,12 +110,19 @@ commands(
     ),
 )
 
+commands(
+    ("v2", 4),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
 # va
 
 commands(
     "va",
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
 )
 
 # vc
@@ -127,6 +140,11 @@ commands(
 )
 
 commands(
+    ("vc", 2),
+    baca.make_mmrests(),
+)
+
+commands(
     ("vc", 3),
     library.scratch_rhythm(
         [4],
@@ -135,6 +153,12 @@ commands(
         ),
         extra_counts=[-1],
     ),
+)
+
+commands(
+    ("vc", 4),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 # composites
@@ -164,10 +188,13 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

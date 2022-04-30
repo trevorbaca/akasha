@@ -106,10 +106,17 @@ commands(
     ),
 )
 
+# v1
+
 commands(
     ("v1", (1, 28)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v1", 29),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -123,8 +130,18 @@ commands(
 )
 
 commands(
+    ("v1", 40),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (41, 45)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", 46),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -138,6 +155,11 @@ commands(
 )
 
 commands(
+    ("v1", 55),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (56, 60)),
     baca.make_repeat_tied_notes(),
 )
@@ -147,12 +169,23 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
+commands(
+    ("v1", 69),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
 # v2
 
 commands(
     ("v2", (1, 28)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v2", 29),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -166,8 +199,18 @@ commands(
 )
 
 commands(
+    ("v2", 40),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (41, 45)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 46),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -181,6 +224,11 @@ commands(
 )
 
 commands(
+    ("v2", 55),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (56, 60)),
     baca.make_repeat_tied_notes(),
 )
@@ -190,12 +238,23 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
+commands(
+    ("v2", 69),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
 # va
 
 commands(
     ("va", (1, 28)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", 29),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -209,8 +268,18 @@ commands(
 )
 
 commands(
+    ("va", 40),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (41, 45)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 46),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -224,6 +293,11 @@ commands(
 )
 
 commands(
+    ("va", 55),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (56, 60)),
     baca.make_repeat_tied_notes(),
 )
@@ -233,6 +307,11 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
+commands(
+    ("va", 69),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
 
 # vc
 
@@ -240,6 +319,11 @@ commands(
     ("vc", (1, 28)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", 29),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -253,13 +337,28 @@ commands(
 )
 
 commands(
+    ("vc", 40),
+    baca.make_mmrests(),
+)
+
+commands(
     ("vc", (41, 45)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
+    ("vc", 46),
+    baca.make_mmrests(),
+)
+
+commands(
     ("vc", (47, 54)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 55),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -270,6 +369,12 @@ commands(
 commands(
     ("vc", (61, 68)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 69),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 # composites
@@ -632,11 +737,14 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         color_octaves=False,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(
