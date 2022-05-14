@@ -15,7 +15,7 @@ moment_tokens = (
     (18, 9, "CDE"),
 )
 
-moment_markup = library.make_moment_markup(moment_tokens)
+moment_markup = library.moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 8 + 1),
@@ -29,7 +29,7 @@ stage_tokens = (
     (15, 3),
     (16, 1 + 1),
 )
-stage_markup = library.make_stage_markup("05", stage_tokens)
+stage_markup = library.stage_markup("05", stage_tokens)
 
 fermata_measures = [9, 18, 23, 32, 37, 42, 51]
 
@@ -132,7 +132,7 @@ commands(
 
 commands(
     ("v1", (19, 22)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -142,7 +142,7 @@ commands(
 
 commands(
     ("v1", (24, 31)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -152,7 +152,7 @@ commands(
 
 commands(
     ("v1", (33, 36)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -162,7 +162,7 @@ commands(
 
 commands(
     ("v1", (38, 41)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -172,7 +172,7 @@ commands(
 
 commands(
     ("v1", (43, 46)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -247,7 +247,7 @@ commands(
 
 commands(
     ("v2", (10, 17)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -257,7 +257,7 @@ commands(
 
 commands(
     ("v2", (19, 22)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -267,7 +267,7 @@ commands(
 
 commands(
     ("v2", (24, 31)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -277,7 +277,7 @@ commands(
 
 commands(
     ("v2", (33, 36)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -400,12 +400,12 @@ commands(
 
 commands(
     ("va", (33, 35)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
     ("va", 36),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
 )
 
 commands(
@@ -415,7 +415,7 @@ commands(
 
 commands(
     ("va", (38, 41)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -425,7 +425,7 @@ commands(
 
 commands(
     ("va", (43, 46)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -516,7 +516,7 @@ commands(
 
 commands(
     ("vc", (24, 31)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -536,7 +536,7 @@ commands(
 
 commands(
     ("vc", (38, 41)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
@@ -546,12 +546,12 @@ commands(
 
 commands(
     ("vc", (43, 49)),
-    library.untied_notes(),
+    library.make_untied_notes(),
 )
 
 commands(
     ("vc", 50),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
 )
 
 commands(

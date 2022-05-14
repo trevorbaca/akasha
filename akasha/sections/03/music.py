@@ -13,7 +13,7 @@ moment_tokens = (
     (8, 2, "CD"),
 )
 
-moment_markup = library.make_moment_markup(moment_tokens)
+moment_markup = library.moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 3),
@@ -22,7 +22,7 @@ stage_tokens = (
     (6, 1 + 1),
     (8, 2),
 )
-stage_markup = library.make_stage_markup("03", stage_tokens)
+stage_markup = library.stage_markup("03", stage_tokens)
 
 
 fermata_measures = [5, 7, 9]
@@ -65,7 +65,7 @@ commands(
 
 commands(
     ("v1", (1, 3)),
-    library.accelerando_rhythm(
+    library.make_accelerando_rhythm(
         rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
@@ -91,7 +91,7 @@ commands(
 
 commands(
     ("v2", (1, 3)),
-    library.polyphony_rhythm(),
+    library.make_polyphony_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 
@@ -102,7 +102,7 @@ commands(
 
 commands(
     ("v2", (10, 11)),
-    library.accelerando_rhythm(
+    library.make_accelerando_rhythm(
         rmakers.force_rest(lambda _: baca.select.lt(_, 3)),
         fuse_counts=[2, 1],
     ),
@@ -129,7 +129,7 @@ commands(
 
 commands(
     ("va", (1, 3)),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.lts(_)[:2],
         ),
@@ -172,7 +172,7 @@ def get_tuplets(argument, pattern):
 
 commands(
     ("vc", (1, 4)),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: get_tuplets(_, ~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
         ),
@@ -189,7 +189,7 @@ commands(
 
 commands(
     ("vc", 6),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-4,
@@ -203,7 +203,7 @@ commands(
 
 commands(
     ("vc", 8),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-8,

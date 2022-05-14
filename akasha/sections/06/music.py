@@ -10,7 +10,7 @@ from akasha import library
 
 moment_tokens = (("19+20", 39, "AE+A"),)
 
-moment_markup = library.make_moment_markup(moment_tokens)
+moment_markup = library.moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 1 + 1),
@@ -28,7 +28,7 @@ stage_tokens = (
     (17, 6 + 1),
 )
 
-stage_markup = library.make_stage_markup("06", stage_tokens)
+stage_markup = library.stage_markup("06", stage_tokens)
 
 fermata_measures = [2, 4, 6, 8, 39]
 
@@ -108,7 +108,7 @@ commands(
 
 commands(
     ("v1", 5),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [0], invert=True),
@@ -124,7 +124,7 @@ commands(
 
 commands(
     ("v1", 7),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [0], invert=True),
@@ -140,7 +140,7 @@ commands(
 
 commands(
     ("v1", (9, 10)),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [1, -3], invert=True),
@@ -151,7 +151,7 @@ commands(
 
 commands(
     ("v1", (11, 22)),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [8],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ([0, 3], 8), invert=True),
@@ -162,7 +162,7 @@ commands(
 
 commands(
     ("v1", (23, 38)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
         rmakers.force_rest(
@@ -238,7 +238,7 @@ commands(
 
 commands(
     ("v2", 3),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [-1], invert=True),
@@ -254,7 +254,7 @@ commands(
 
 commands(
     ("v2", 5),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
@@ -270,7 +270,7 @@ commands(
 
 commands(
     ("v2", 7),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [-1], invert=True),
@@ -286,7 +286,7 @@ commands(
 
 commands(
     ("v2", (9, 10)),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [2, -1], invert=True),
@@ -297,7 +297,7 @@ commands(
 
 commands(
     ("v2", (11, 20)),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [8],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ([1, 4], 9), invert=True),
@@ -308,7 +308,7 @@ commands(
 
 commands(
     ("v2", (21, 32)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1],
         [2, 1, 3, 0],
         rmakers.force_rest(
@@ -322,7 +322,7 @@ commands(
 
 commands(
     ("v2", (33, 38)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
         rmakers.force_rest(
@@ -403,7 +403,7 @@ commands(
 
 commands(
     ("va", 1),
-    library.viola_ob_rhythm(rotation=0),
+    library.make_viola_ob_rhythm(rotation=0),
     baca.reapply_persistent_indicators(),
 )
 
@@ -414,7 +414,7 @@ commands(
 
 commands(
     ("va", 3),
-    library.viola_ob_rhythm(rotation=-2),
+    library.make_viola_ob_rhythm(rotation=-2),
 )
 
 commands(
@@ -424,7 +424,7 @@ commands(
 
 commands(
     ("va", 5),
-    library.viola_ob_rhythm(rotation=-4),
+    library.make_viola_ob_rhythm(rotation=-4),
 )
 
 commands(
@@ -434,7 +434,7 @@ commands(
 
 commands(
     ("va", 7),
-    library.viola_ob_rhythm(rotation=-6),
+    library.make_viola_ob_rhythm(rotation=-6),
 )
 
 commands(
@@ -444,7 +444,7 @@ commands(
 
 commands(
     ("va", (9, 38)),
-    library.viola_ob_rhythm(rotation=-8),
+    library.make_viola_ob_rhythm(rotation=-8),
 )
 
 commands(
@@ -499,7 +499,7 @@ commands(
 
 commands(
     ("vc", 3),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
@@ -515,7 +515,7 @@ commands(
 
 commands(
     ("vc", 7),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
@@ -531,7 +531,7 @@ commands(
 
 commands(
     ("vc", (9, 10)),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [4],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [2, -2], invert=True),
@@ -542,7 +542,7 @@ commands(
 
 commands(
     ("vc", (11, 18)),
-    library.scratch_rhythm(
+    library.make_scratch_rhythm(
         [8],
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ([2, 5], 9), invert=True),
@@ -553,7 +553,7 @@ commands(
 
 commands(
     ("vc", (19, 26)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
         rmakers.force_rest(
@@ -567,7 +567,7 @@ commands(
 
 commands(
     ("vc", (27, 32)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [4, 1, 3, 2],
     ),
@@ -575,7 +575,7 @@ commands(
 
 commands(
     ("vc", (33, 38)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
         rmakers.force_rest(

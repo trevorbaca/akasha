@@ -3686,7 +3686,7 @@ segment.05.Violin.I.Music.Voice = {
       %! MEASURE_79
       %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a'1
     % AFTER:
     % ARTICULATIONS:
@@ -3758,7 +3758,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 21]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     fs'!2
     % AFTER:
     % ARTICULATIONS:
@@ -3774,7 +3774,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 22]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -3981,7 +3981,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 26]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef''!2
     % AFTER:
     % ARTICULATIONS:
@@ -3997,7 +3997,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 27]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     c''1
     % AFTER:
     % ARTICULATIONS:
@@ -4013,7 +4013,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 28]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -4029,7 +4029,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 29]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef''!2
     % AFTER:
     % ARTICULATIONS:
@@ -4045,7 +4045,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 30]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     fs''!2..
     % AFTER:
     % ARTICULATIONS:
@@ -4061,7 +4061,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 31]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a''2..
     % AFTER:
     % ARTICULATIONS:
@@ -4199,7 +4199,7 @@ segment.05.Violin.I.Music.Voice = {
       %! MEASURE_93
       %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -4228,7 +4228,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 34]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef''!2.
     % AFTER:
     % ARTICULATIONS:
@@ -4244,7 +4244,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 35]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     fs''!2
     % AFTER:
     % ARTICULATIONS:
@@ -4260,7 +4260,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 36]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a''4.
     % AFTER:
     % ARTICULATIONS:
@@ -4398,7 +4398,7 @@ segment.05.Violin.I.Music.Voice = {
       %! MEASURE_98
       %! baca._style_fermata_measures(7)
     \once \override Score.SpanBar.transparent = ##t
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef'''!2.
     % AFTER:
     % ARTICULATIONS:
@@ -4427,7 +4427,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 39]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a''2..
     % AFTER:
     % ARTICULATIONS:
@@ -4443,7 +4443,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 40]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     c'''2..
     % AFTER:
     % ARTICULATIONS:
@@ -4459,7 +4459,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 41]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -4597,7 +4597,7 @@ segment.05.Violin.I.Music.Voice = {
       %! MEASURE_103
       %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     fs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -4682,7 +4682,7 @@ segment.05.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 46]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     c''2
     % AFTER:
     % ARTICULATIONS:
@@ -5388,7 +5388,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 12]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef'!2..
     % AFTER:
     % ARTICULATIONS:
@@ -5404,7 +5404,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 13]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -5420,7 +5420,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 14]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     fs'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -5436,7 +5436,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 15]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a'2..
     % AFTER:
     % ARTICULATIONS:
@@ -5480,7 +5480,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 17]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef''!2
     % AFTER:
     % ARTICULATIONS:
@@ -5601,7 +5601,7 @@ segment.05.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     fs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -5658,7 +5658,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 21]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     fs''!2
     % AFTER:
     % ARTICULATIONS:
@@ -5674,7 +5674,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 22]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -5864,7 +5864,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 26]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     fs''!2
     % AFTER:
     % ARTICULATIONS:
@@ -5880,7 +5880,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 27]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     c'''1
     % AFTER:
     % ARTICULATIONS:
@@ -5896,7 +5896,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 28]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef'''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -5912,7 +5912,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 29]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a''2
     % AFTER:
     % ARTICULATIONS:
@@ -5928,7 +5928,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 30]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     c'''2..
     % AFTER:
     % ARTICULATIONS:
@@ -5944,7 +5944,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 31]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a'2..
     % AFTER:
     % ARTICULATIONS:
@@ -6065,7 +6065,7 @@ segment.05.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef'''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -6094,7 +6094,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 34]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a''2.
     % AFTER:
     % ARTICULATIONS:
@@ -6110,7 +6110,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 35]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     c'''2
     % AFTER:
     % ARTICULATIONS:
@@ -6126,7 +6126,7 @@ segment.05.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 36]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -7928,7 +7928,7 @@ segment.05.Viola.Music.Voice = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ff!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7990,7 +7990,7 @@ segment.05.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 34]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     e2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8002,7 +8002,7 @@ segment.05.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 35]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ds!2
     % AFTER:
     % SPANNER_STARTS:
@@ -8013,16 +8013,16 @@ segment.05.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.glissando_rhythm()
+      %! akasha.make_glissando_rhythm()
     \times 2/3
-      %! akasha.glissando_rhythm()
+      %! akasha.make_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 36]
-          %! akasha.glissando_rhythm()
+          %! akasha.make_glissando_rhythm()
         cs!2
         % AFTER:
         % SPANNER_STARTS:
@@ -8032,7 +8032,7 @@ segment.05.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.glissando_rhythm()
+          %! akasha.make_glissando_rhythm()
         bs,!16
         % AFTER:
         % ARTICULATIONS:
@@ -8060,7 +8060,7 @@ segment.05.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.glissando_rhythm()
+      %! akasha.make_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8173,7 +8173,7 @@ segment.05.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     af!2.
     % AFTER:
     % ARTICULATIONS:
@@ -8217,7 +8217,7 @@ segment.05.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 39]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     b2..
     % AFTER:
     % ARTICULATIONS:
@@ -8233,7 +8233,7 @@ segment.05.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 40]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     af!2..
     % AFTER:
     % ARTICULATIONS:
@@ -8249,7 +8249,7 @@ segment.05.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 41]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     f4.
     % AFTER:
     % ARTICULATIONS:
@@ -8370,7 +8370,7 @@ segment.05.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     f1
     % AFTER:
     % ARTICULATIONS:
@@ -8455,7 +8455,7 @@ segment.05.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 46]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     b2
     % AFTER:
     % ARTICULATIONS:
@@ -9723,7 +9723,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 26]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     cs,!2
     % AFTER:
     % ARTICULATIONS:
@@ -9739,7 +9739,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 27]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     g,1
     % AFTER:
     % ARTICULATIONS:
@@ -9755,7 +9755,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 28]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     e,4.
     % AFTER:
     % ARTICULATIONS:
@@ -9771,7 +9771,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 29]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     g,2
     % AFTER:
     % ARTICULATIONS:
@@ -9787,7 +9787,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 30]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     bf,!2..
     % AFTER:
     % ARTICULATIONS:
@@ -9803,7 +9803,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 31]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     e2..
     % AFTER:
     % ARTICULATIONS:
@@ -10168,7 +10168,7 @@ segment.05.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     e,2.
     % AFTER:
     % ARTICULATIONS:
@@ -10212,7 +10212,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 39]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     g,2..
     % AFTER:
     % ARTICULATIONS:
@@ -10228,7 +10228,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 40]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     bf,!2..
     % AFTER:
     % ARTICULATIONS:
@@ -10244,7 +10244,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 41]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     e4.
     % AFTER:
     % ARTICULATIONS:
@@ -10376,7 +10376,7 @@ segment.05.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     df!1
     % AFTER:
     % ARTICULATIONS:
@@ -10473,7 +10473,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 46]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     f,2
     % AFTER:
     % SPANNER_STARTS:
@@ -10485,7 +10485,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 47]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     ef,!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -10497,7 +10497,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 48]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     d,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -10509,7 +10509,7 @@ segment.05.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 49]
-      %! akasha.untied_notes()
+      %! akasha.make_untied_notes()
     c,2..
     % AFTER:
     % SPANNER_STARTS:
@@ -10520,16 +10520,16 @@ segment.05.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.glissando_rhythm()
+      %! akasha.make_glissando_rhythm()
     \times 8/9
-      %! akasha.glissando_rhythm()
+      %! akasha.make_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 50]
-          %! akasha.glissando_rhythm()
+          %! akasha.make_glissando_rhythm()
         bf,,!2..
         % AFTER:
         % SPANNER_STARTS:
@@ -10539,7 +10539,7 @@ segment.05.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.glissando_rhythm()
+          %! akasha.make_glissando_rhythm()
         a,,16..
         % AFTER:
         % ARTICULATIONS:
@@ -10567,7 +10567,7 @@ segment.05.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.glissando_rhythm()
+      %! akasha.make_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

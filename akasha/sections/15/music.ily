@@ -2284,32 +2284,32 @@ segment.15.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 9]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 10]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     \times 8/9
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         f'''32
         % AFTER:
         % ARTICULATIONS:
@@ -2338,7 +2338,7 @@ segment.15.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         e'''32
         % AFTER:
         % ARTICULATIONS:
@@ -2348,7 +2348,7 @@ segment.15.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         f'''32
         % AFTER:
         % ARTICULATIONS:
@@ -2361,114 +2361,114 @@ segment.15.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         r16
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 11]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 12]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 13]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 14]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 15]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 16]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 17]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 18]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 19]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     \times 8/9
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         r32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         fs'''!32
         % AFTER:
         % ARTICULATIONS:
@@ -2478,33 +2478,33 @@ segment.15.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         r16.
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     \times 8/9
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 20]
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         r8.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         g'''32
         % AFTER:
         % ARTICULATIONS:
@@ -2512,12 +2512,12 @@ segment.15.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         f'''32
         % AFTER:
         % ARTICULATIONS:
@@ -2527,7 +2527,7 @@ segment.15.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         fs'''!32
         % AFTER:
         % ARTICULATIONS:
@@ -2535,56 +2535,56 @@ segment.15.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 21]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 22]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 23]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 24]
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
