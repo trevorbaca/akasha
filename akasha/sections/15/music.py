@@ -82,7 +82,7 @@ commands(
 
 commands(
     ("v2", (9, 24)),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
                 abjad.select.tuplets(_),

@@ -16,7 +16,7 @@ moment_tokens = (
     (25, 4, "A[E]"),
 )
 
-moment_markup = library.make_moment_markup(moment_tokens)
+moment_markup = library.moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 2),
@@ -32,7 +32,7 @@ stage_tokens = (
     (17, 1 + 1),
     (19, 1 + 1),
 )
-stage_markup = library.make_stage_markup("07", stage_tokens)
+stage_markup = library.stage_markup("07", stage_tokens)
 
 fermata_measures = [5, 7, 10, 35, 42, 44, 46, 48]
 
@@ -155,7 +155,7 @@ commands(
 
 commands(
     ("v1", (3, 4)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
     ),
@@ -168,7 +168,7 @@ commands(
 
 commands(
     ("v1", (8, 9)),
-    library.accelerando_rhythm(
+    library.make_accelerando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [1, 6]),
         ),
@@ -183,7 +183,7 @@ commands(
 
 commands(
     ("v1", (11, 22)),
-    library.growth(
+    library.make_growth_rhythm(
         division_ratio=(2, 1, 2, 2, 1, 2),
         extra_counts=[1],
         first_silence=1,
@@ -207,7 +207,7 @@ commands(
 
 commands(
     ("v1", (36, 41)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
@@ -220,7 +220,7 @@ commands(
 
 commands(
     ("v1", 45),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     ),
@@ -297,7 +297,7 @@ commands(
 
 commands(
     ("v2", (3, 4)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
     ),
@@ -310,7 +310,7 @@ commands(
 
 commands(
     ("v2", (8, 9)),
-    library.ritardando_rhythm(
+    library.make_ritardando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [2, 5]),
         ),
@@ -324,7 +324,7 @@ commands(
 
 commands(
     ("v2", (11, 22)),
-    library.growth(
+    library.make_growth_rhythm(
         division_ratio=(1, 1, 2, 2, 1, 2),
         first_silence=2,
     ),
@@ -347,7 +347,7 @@ commands(
 
 commands(
     ("v2", (36, 41)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
     ),
@@ -360,7 +360,7 @@ commands(
 
 commands(
     ("v2", 45),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
     ),
@@ -447,7 +447,7 @@ commands(
 
 commands(
     ("va", (11, 26)),
-    library.manifest([2, 1, 2, 1, 1, 3, 2, 1, 7]),
+    library.make_manifest_rhythm([2, 1, 2, 1, 1, 3, 2, 1, 7]),
 )
 
 commands(
@@ -462,7 +462,7 @@ commands(
 
 commands(
     ("va", (36, 41)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
     ),
@@ -485,7 +485,7 @@ commands(
 
 commands(
     ("va", 45),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
     ),
@@ -575,13 +575,13 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    library.cello_solo_rhythm(),
+    library.make_cello_solo_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("vc", (3, 4)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
     ),
@@ -594,7 +594,7 @@ commands(
 
 commands(
     ("vc", (11, 26)),
-    library.manifest([1, 3, 4, 1, 2, 3, 6]),
+    library.make_manifest_rhythm([1, 3, 4, 1, 2, 3, 6]),
 )
 
 commands(
@@ -609,7 +609,7 @@ commands(
 
 commands(
     ("vc", (36, 41)),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
     ),
@@ -622,7 +622,7 @@ commands(
 
 commands(
     ("vc", 45),
-    library.dense_getato_rhythm(
+    library.make_dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
     ),

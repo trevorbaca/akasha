@@ -9,7 +9,7 @@ from akasha import library
 
 moment_tokens = ((29, 7, "BCD[E]"),)
 
-moment_markup = library.make_moment_markup(moment_tokens)
+moment_markup = library.moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 2),
@@ -17,7 +17,7 @@ stage_tokens = (
     (4, 2 + 1),
 )
 
-stage_markup = library.make_stage_markup("09", stage_tokens)
+stage_markup = library.stage_markup("09", stage_tokens)
 
 fermata_measures = [4, 7]
 
@@ -69,7 +69,7 @@ commands(
 
 commands(
     ("v1", (1, 2)),
-    library.accelerando_rhythm(
+    library.make_accelerando_rhythm(
         fuse_counts=[1, 2],
     ),
     baca.reapply_persistent_indicators(),
@@ -96,7 +96,7 @@ commands(
 
 commands(
     ("v2", (1, 2)),
-    library.ritardando_rhythm(),
+    library.make_ritardando_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 
@@ -132,7 +132,7 @@ commands(
 
 commands(
     ("va", (5, 6)),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
 )
 
 commands(
@@ -160,7 +160,7 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    library.ritardando_rhythm(
+    library.make_ritardando_rhythm(
         preprocessor=lambda _: baca.sequence.fuse(_),
     ),
     baca.reapply_persistent_indicators(),
@@ -178,7 +178,7 @@ commands(
 
 commands(
     ("vc", (5, 6)),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
 )
 
 commands(

@@ -15,7 +15,7 @@ moment_tokens = (
     (13, 3, "CD(E)"),
 )
 
-moment_markup = library.make_moment_markup(moment_tokens)
+moment_markup = library.moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 1 + 1),
@@ -33,7 +33,7 @@ stage_tokens = (
     (22, 1),
     (23, 1 + 1),
 )
-stage_markup = library.make_stage_markup("04", stage_tokens)
+stage_markup = library.stage_markup("04", stage_tokens)
 
 fermata_measures = [2, 4, 6, 8, 14, 18, 20, 22, 24, -1]
 
@@ -268,7 +268,7 @@ commands(
 
 commands(
     ("va", 1),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 
@@ -279,7 +279,7 @@ commands(
 
 commands(
     ("va", 3),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
 )
 
 commands(
@@ -289,7 +289,7 @@ commands(
 
 commands(
     ("va", 5),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
 )
 
 commands(
@@ -299,7 +299,7 @@ commands(
 
 commands(
     ("va", 7),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
 )
 
 commands(
@@ -329,7 +329,7 @@ commands(
 
 commands(
     ("va", 23),
-    library.polyphony_rhythm(rotation=-2),
+    library.make_polyphony_rhythm(rotation=-2),
 )
 
 commands(
@@ -344,7 +344,7 @@ commands(
 
 commands(
     ("va", 26),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
 )
 
 commands(
@@ -469,7 +469,7 @@ commands(
 
 commands(
     ("vc", 15),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-12,
@@ -483,7 +483,7 @@ commands(
 
 commands(
     ("vc", 23),
-    library.polyphony_rhythm(rotation=-4),
+    library.make_polyphony_rhythm(rotation=-4),
 )
 
 commands(

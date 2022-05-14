@@ -16,7 +16,7 @@ moment_tokens = (
     (6, 2, "AC"),
 )
 
-moment_markup = library.make_moment_markup(moment_tokens)
+moment_markup = library.moment_markup(moment_tokens)
 
 stage_tokens = (
     (1, 2 + 1),
@@ -29,7 +29,7 @@ stage_tokens = (
     (15, 1 + 1),
 )
 
-stage_markup = library.make_stage_markup("02", stage_tokens)
+stage_markup = library.stage_markup("02", stage_tokens)
 
 fermata_measures = [3, 5, 8, 10, 14, 16, 18, 20]
 
@@ -124,7 +124,7 @@ commands(
 
 commands(
     ("v1", (6, 7)),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
         ),
@@ -138,7 +138,7 @@ commands(
 
 commands(
     ("v1", 9),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.tuplets(_)[:-2],
         ),
@@ -152,7 +152,7 @@ commands(
 
 commands(
     ("v1", (11, 13)),
-    library.accelerando_rhythm(
+    library.make_accelerando_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, 0),
         ),
@@ -175,7 +175,7 @@ commands(
 
 commands(
     ("v1", 15),
-    library.accelerando_rhythm(
+    library.make_accelerando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
                 baca.select.lts(_),
@@ -194,7 +194,7 @@ commands(
 
 commands(
     ("v1", 17),
-    library.ritardando_rhythm(
+    library.make_ritardando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
                 baca.select.lts(_),
@@ -219,7 +219,7 @@ commands(
 
 commands(
     ("v2", 4),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.tuplets(_)[2:],
         ),
@@ -233,7 +233,7 @@ commands(
 
 commands(
     ("v2", (6, 7)),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
         ),
@@ -247,7 +247,7 @@ commands(
 
 commands(
     ("v2", 9),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
         ),
@@ -262,7 +262,7 @@ commands(
 
 commands(
     ("v2", (11, 13)),
-    library.ritardando_rhythm(
+    library.make_ritardando_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, 0),
         ),
@@ -284,7 +284,7 @@ commands(
 
 commands(
     ("v2", 15),
-    library.ritardando_rhythm(
+    library.make_ritardando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
                 baca.select.lts(_),
@@ -302,7 +302,7 @@ commands(
 
 commands(
     ("v2", 17),
-    library.accelerando_rhythm(
+    library.make_accelerando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
                 baca.select.lts(_),
@@ -321,7 +321,7 @@ commands(
 
 commands(
     ("v2", 19),
-    library.ritardando_rhythm(
+    library.make_ritardando_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
                 baca.select.lts(_),
@@ -346,7 +346,7 @@ commands(
 
 commands(
     ("va", 4),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.tuplets(_)[:-1],
         ),
@@ -360,7 +360,7 @@ commands(
 
 commands(
     ("va", (6, 7)),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
         ),
@@ -374,7 +374,7 @@ commands(
 
 commands(
     ("va", 9),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
         ),
@@ -389,7 +389,7 @@ commands(
 
 commands(
     ("va", (11, 13)),
-    library.polyphony_rhythm(rotation=-4),
+    library.make_polyphony_rhythm(rotation=-4),
 )
 
 commands(
@@ -399,7 +399,7 @@ commands(
 
 commands(
     ("va", 15),
-    library.polyphony_rhythm(rotation=-8),
+    library.make_polyphony_rhythm(rotation=-8),
 )
 
 commands(
@@ -411,7 +411,7 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    library.cello_solo_rhythm(rotation=0),
+    library.make_cello_solo_rhythm(rotation=0),
 )
 
 commands(
@@ -421,7 +421,7 @@ commands(
 
 commands(
     ("vc", 9),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
         ),
@@ -436,7 +436,7 @@ commands(
 
 commands(
     ("vc", (11, 13)),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
         rotation=-6,
     ),
@@ -449,7 +449,7 @@ commands(
 
 commands(
     ("vc", 15),
-    library.polyphony_rhythm(
+    library.make_polyphony_rhythm(
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
         rotation=-10,
     ),
@@ -462,7 +462,7 @@ commands(
 
 commands(
     ("vc", 19),
-    library.sparse_getato_rhythm(
+    library.make_sparse_getato_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(
                 abjad.select.tuplets(_),

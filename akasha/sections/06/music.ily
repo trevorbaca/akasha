@@ -2630,11 +2630,11 @@ segment.06.Violin.I.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/4
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2666,7 +2666,7 @@ segment.06.Violin.I.Music.Voice = {
           %! MEASURE_116
           %! baca._style_fermata_measures(7)
     %%% \once \override Score.SpanBar.transparent = ##t
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         f'4
         % AFTER:
         % ARTICULATIONS:
@@ -2702,23 +2702,23 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2825,11 +2825,11 @@ segment.06.Violin.I.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 5/3
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2861,7 +2861,7 @@ segment.06.Violin.I.Music.Voice = {
           %! MEASURE_118
           %! baca._style_fermata_measures(7)
     %%% \once \override Score.SpanBar.transparent = ##t
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         fs'!4
         % AFTER:
         % MARKUP:
@@ -2881,18 +2881,18 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2999,11 +2999,11 @@ segment.06.Violin.I.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 3/4
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3035,7 +3035,7 @@ segment.06.Violin.I.Music.Voice = {
           %! MEASURE_120
           %! baca._style_fermata_measures(7)
         \once \override Score.SpanBar.transparent = ##t
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -3055,346 +3055,346 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         f'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 3/4
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 10]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         e'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/9
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 11]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         ef'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         f'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         e'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/9
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 12]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         f'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         fs'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 10/11
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 13]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         af'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         g'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         fs'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/7
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 14]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         f'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         g'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/7
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 15]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         af'!8
         % AFTER:
         % ARTICULATIONS:
@@ -3417,542 +3417,542 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/13
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 16]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         af'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         bf'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/9
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 17]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         bf'!8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/13
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 18]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         g'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         af'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         g'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/13
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 19]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         fs'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         f'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         g'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/13
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 20]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         fs'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         g'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         af'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/9
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 21]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         bf'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         af'!8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/7
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 22]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         g'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 23]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a'16
     % AFTER:
     % ARTICULATIONS:
@@ -3978,7 +3978,7 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.markup()
     ^ \akasha-leggieriss-senza-scratch-markup
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3998,7 +3998,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     bf'!16
     % AFTER:
     % ARTICULATIONS:
@@ -4008,7 +4008,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b'16
     % AFTER:
     % ARTICULATIONS:
@@ -4016,52 +4016,52 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 24]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -4069,12 +4069,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4084,7 +4084,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4094,7 +4094,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -4102,31 +4102,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4134,12 +4134,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -4149,7 +4149,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -4159,7 +4159,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -4169,7 +4169,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -4179,7 +4179,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -4187,25 +4187,25 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 25]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a'16
     % AFTER:
     % ARTICULATIONS:
@@ -4213,12 +4213,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     af'!16
     % AFTER:
     % ARTICULATIONS:
@@ -4228,7 +4228,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a'16
     % AFTER:
     % ARTICULATIONS:
@@ -4236,30 +4236,30 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -4267,12 +4267,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4282,7 +4282,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -4292,7 +4292,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -4300,33 +4300,33 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 26]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -4334,12 +4334,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -4349,7 +4349,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4359,7 +4359,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4369,7 +4369,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4379,7 +4379,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -4387,23 +4387,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef''!16
     % AFTER:
     % ARTICULATIONS:
@@ -4411,12 +4411,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -4426,7 +4426,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     d''16
     % AFTER:
     % ARTICULATIONS:
@@ -4434,32 +4434,32 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 27]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -4467,12 +4467,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4482,7 +4482,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -4492,7 +4492,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -4500,31 +4500,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -4532,12 +4532,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -4547,7 +4547,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -4557,7 +4557,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -4567,7 +4567,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4577,7 +4577,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -4585,23 +4585,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -4609,12 +4609,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     c''16
     % AFTER:
     % ARTICULATIONS:
@@ -4624,7 +4624,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b'16
     % AFTER:
     % ARTICULATIONS:
@@ -4632,27 +4632,27 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 28]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4660,12 +4660,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -4675,7 +4675,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4685,7 +4685,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -4695,7 +4695,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -4703,31 +4703,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -4735,12 +4735,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4750,7 +4750,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -4760,7 +4760,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4768,31 +4768,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -4800,12 +4800,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4815,7 +4815,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4825,7 +4825,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -4835,7 +4835,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4845,7 +4845,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -4853,23 +4853,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -4877,12 +4877,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     d''16
     % AFTER:
     % ARTICULATIONS:
@@ -4892,7 +4892,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e''16
     % AFTER:
     % ARTICULATIONS:
@@ -4900,32 +4900,32 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 29]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4933,12 +4933,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -4948,7 +4948,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4958,7 +4958,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -4966,31 +4966,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -4998,12 +4998,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5013,7 +5013,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -5023,7 +5023,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5033,7 +5033,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -5043,7 +5043,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5051,23 +5051,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     fs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -5075,12 +5075,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef''!16
     % AFTER:
     % ARTICULATIONS:
@@ -5090,7 +5090,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e''16
     % AFTER:
     % ARTICULATIONS:
@@ -5098,25 +5098,25 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5124,12 +5124,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -5139,7 +5139,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5149,7 +5149,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5159,7 +5159,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -5167,33 +5167,33 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 30]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5201,12 +5201,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -5216,7 +5216,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5226,7 +5226,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5234,31 +5234,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -5266,12 +5266,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5281,7 +5281,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5291,7 +5291,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5301,7 +5301,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -5311,7 +5311,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5319,23 +5319,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     af''!16
     % AFTER:
     % ARTICULATIONS:
@@ -5343,12 +5343,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -5358,7 +5358,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g''16
     % AFTER:
     % ARTICULATIONS:
@@ -5366,25 +5366,25 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5392,12 +5392,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5407,7 +5407,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5417,7 +5417,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5427,7 +5427,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -5435,35 +5435,35 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 31]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5471,12 +5471,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5486,7 +5486,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -5496,7 +5496,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5506,7 +5506,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5516,7 +5516,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5524,31 +5524,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -5556,12 +5556,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5571,7 +5571,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5581,7 +5581,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -5591,7 +5591,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5601,7 +5601,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -5611,7 +5611,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5621,7 +5621,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5629,23 +5629,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b''16
     % AFTER:
     % ARTICULATIONS:
@@ -5653,12 +5653,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -5668,7 +5668,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     bf''!16
     % AFTER:
     % ARTICULATIONS:
@@ -5678,7 +5678,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g''16
     % AFTER:
     % ARTICULATIONS:
@@ -5688,7 +5688,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     af''!16
     % AFTER:
     % ARTICULATIONS:
@@ -5696,27 +5696,27 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/8
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -5724,12 +5724,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5739,7 +5739,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -5749,7 +5749,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -5759,7 +5759,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5769,7 +5769,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -5779,7 +5779,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5787,35 +5787,35 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 32]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5823,12 +5823,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -5838,7 +5838,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5848,7 +5848,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -5858,7 +5858,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -5868,7 +5868,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5876,31 +5876,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -5908,12 +5908,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5923,7 +5923,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5933,7 +5933,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5943,7 +5943,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -5953,7 +5953,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5963,7 +5963,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -5973,7 +5973,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -5981,23 +5981,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -6005,12 +6005,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     af''!16
     % AFTER:
     % ARTICULATIONS:
@@ -6020,7 +6020,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g''16
     % AFTER:
     % ARTICULATIONS:
@@ -6030,7 +6030,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -6040,7 +6040,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     af''!16
     % AFTER:
     % ARTICULATIONS:
@@ -6048,27 +6048,27 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/8
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -6076,12 +6076,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6091,7 +6091,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6101,7 +6101,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -6111,7 +6111,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6121,7 +6121,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -6131,7 +6131,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -6153,35 +6153,35 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.hairpin()
         \pp
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 33]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6189,12 +6189,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6204,7 +6204,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6214,7 +6214,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6224,7 +6224,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6234,7 +6234,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6242,31 +6242,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6274,12 +6274,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -6289,7 +6289,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6299,7 +6299,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -6309,7 +6309,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6319,7 +6319,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -6329,7 +6329,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -6339,7 +6339,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6347,23 +6347,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b''16
     % AFTER:
     % ARTICULATIONS:
@@ -6371,12 +6371,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     c'''16
     % AFTER:
     % ARTICULATIONS:
@@ -6386,7 +6386,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     d'''16
     % AFTER:
     % ARTICULATIONS:
@@ -6396,7 +6396,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs'''!16
     % AFTER:
     % ARTICULATIONS:
@@ -6406,7 +6406,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     c'''16
     % AFTER:
     % ARTICULATIONS:
@@ -6414,27 +6414,27 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/8
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -6442,12 +6442,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6457,7 +6457,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6467,7 +6467,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6477,7 +6477,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6487,7 +6487,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6497,7 +6497,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6505,33 +6505,33 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 34]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6539,12 +6539,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6554,7 +6554,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6564,7 +6564,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6572,31 +6572,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6604,12 +6604,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6619,7 +6619,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -6629,7 +6629,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6639,7 +6639,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6649,7 +6649,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6657,23 +6657,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     d'''16
     % AFTER:
     % ARTICULATIONS:
@@ -6681,12 +6681,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e'''16
     % AFTER:
     % ARTICULATIONS:
@@ -6696,7 +6696,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef'''!16
     % AFTER:
     % ARTICULATIONS:
@@ -6704,25 +6704,25 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6730,12 +6730,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6745,7 +6745,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6755,7 +6755,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6765,7 +6765,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6773,35 +6773,35 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 35]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6809,12 +6809,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6824,7 +6824,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6834,7 +6834,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6844,7 +6844,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6854,7 +6854,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6862,31 +6862,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6894,12 +6894,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6909,7 +6909,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6919,7 +6919,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6929,7 +6929,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6939,7 +6939,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6949,7 +6949,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -6959,7 +6959,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6967,23 +6967,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     fs'''!16
     % AFTER:
     % ARTICULATIONS:
@@ -6991,12 +6991,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f'''16
     % AFTER:
     % ARTICULATIONS:
@@ -7006,7 +7006,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e'''16
     % AFTER:
     % ARTICULATIONS:
@@ -7016,7 +7016,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef'''!16
     % AFTER:
     % ARTICULATIONS:
@@ -7026,7 +7026,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f'''16
     % AFTER:
     % ARTICULATIONS:
@@ -7034,27 +7034,27 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/8
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7062,12 +7062,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7077,7 +7077,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7087,7 +7087,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7097,7 +7097,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7107,7 +7107,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7117,7 +7117,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7125,33 +7125,33 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 36]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7159,12 +7159,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7174,7 +7174,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7184,7 +7184,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7192,31 +7192,31 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7224,12 +7224,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7239,7 +7239,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7249,7 +7249,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7259,7 +7259,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7269,7 +7269,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7277,23 +7277,23 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g'''16
     % AFTER:
     % ARTICULATIONS:
@@ -7301,12 +7301,12 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     fs'''!16
     % AFTER:
     % ARTICULATIONS:
@@ -7316,7 +7316,7 @@ segment.06.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f'''16
     % AFTER:
     % ARTICULATIONS:
@@ -7324,25 +7324,25 @@ segment.06.Violin.I.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7350,12 +7350,12 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7365,7 +7365,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7375,7 +7375,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7385,7 +7385,7 @@ segment.06.Violin.I.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -7393,52 +7393,52 @@ segment.06.Violin.I.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 37]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 38]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7901,11 +7901,11 @@ segment.06.Violin.II.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/4
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7924,7 +7924,7 @@ segment.06.Violin.II.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -7944,17 +7944,17 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a4
         % AFTER:
         % ARTICULATIONS:
@@ -7978,7 +7978,7 @@ segment.06.Violin.II.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8081,11 +8081,11 @@ segment.06.Violin.II.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/5
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8104,7 +8104,7 @@ segment.06.Violin.II.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -8124,28 +8124,28 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         bf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8248,11 +8248,11 @@ segment.06.Violin.II.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 5/6
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8271,7 +8271,7 @@ segment.06.Violin.II.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -8291,33 +8291,33 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8420,11 +8420,11 @@ segment.06.Violin.II.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 3/3
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8443,7 +8443,7 @@ segment.06.Violin.II.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -8463,73 +8463,73 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         af!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 3/3
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 10]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         g4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/7
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 11]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a8
         % AFTER:
         % ARTICULATIONS:
@@ -8552,461 +8552,461 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         af!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/7
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 12]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         bf!8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 10/9
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 13]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         c'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/5
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 14]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/5
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 15]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         bf!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/11
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 16]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         c'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/7
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 17]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         cs'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         c'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/11
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 18]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         ef'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/11
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 19]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         cs'!8
         % AFTER:
         % ARTICULATIONS:
@@ -9032,17 +9032,17 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         d'8
         % AFTER:
         % ARTICULATIONS:
@@ -9052,50 +9052,50 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/11
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 20]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b8
         % AFTER:
         % ARTICULATIONS:
@@ -9105,17 +9105,17 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         c'8
         % AFTER:
         % ARTICULATIONS:
@@ -9125,32 +9125,32 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b8
         % AFTER:
         % ARTICULATIONS:
@@ -9160,38 +9160,38 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 21]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -9203,12 +9203,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.markup()
         ^ \baca-leggieriss-markup
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -9218,7 +9218,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -9228,7 +9228,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -9236,52 +9236,52 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 22]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 23]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b16
     % AFTER:
     % ARTICULATIONS:
@@ -9303,7 +9303,7 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.hairpin()
     \mf
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -9323,7 +9323,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     c'16
     % AFTER:
     % ARTICULATIONS:
@@ -9333,7 +9333,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     d'16
     % AFTER:
     % ARTICULATIONS:
@@ -9341,25 +9341,25 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9367,12 +9367,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -9382,7 +9382,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -9392,7 +9392,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9402,7 +9402,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -9410,31 +9410,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9442,12 +9442,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -9457,7 +9457,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -9467,7 +9467,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -9475,30 +9475,30 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 24]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef'!16
     % AFTER:
     % ARTICULATIONS:
@@ -9506,12 +9506,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e'16
     % AFTER:
     % ARTICULATIONS:
@@ -9521,7 +9521,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs'!16
     % AFTER:
     % ARTICULATIONS:
@@ -9529,25 +9529,25 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -9555,12 +9555,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9570,7 +9570,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -9580,7 +9580,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -9590,7 +9590,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9598,31 +9598,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -9630,12 +9630,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9645,7 +9645,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -9655,7 +9655,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -9663,28 +9663,28 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef'!16
     % AFTER:
     % ARTICULATIONS:
@@ -9692,12 +9692,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     d'16
     % AFTER:
     % ARTICULATIONS:
@@ -9707,7 +9707,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs'!16
     % AFTER:
     % ARTICULATIONS:
@@ -9715,27 +9715,27 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 25]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9743,12 +9743,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -9758,7 +9758,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -9768,7 +9768,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -9778,7 +9778,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9786,31 +9786,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -9818,12 +9818,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -9833,7 +9833,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9843,7 +9843,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9851,31 +9851,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -9883,12 +9883,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9898,7 +9898,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -9908,7 +9908,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9918,7 +9918,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -9928,7 +9928,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -9936,25 +9936,25 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 26]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef'!16
     % AFTER:
     % ARTICULATIONS:
@@ -9962,12 +9962,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e'16
     % AFTER:
     % ARTICULATIONS:
@@ -9977,7 +9977,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     fs'!16
     % AFTER:
     % ARTICULATIONS:
@@ -9985,25 +9985,25 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -10011,12 +10011,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -10026,7 +10026,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10036,7 +10036,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -10046,7 +10046,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10054,31 +10054,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10086,12 +10086,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10101,7 +10101,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10111,7 +10111,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -10119,30 +10119,30 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 27]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g'16
     % AFTER:
     % ARTICULATIONS:
@@ -10150,12 +10150,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     af'!16
     % AFTER:
     % ARTICULATIONS:
@@ -10165,7 +10165,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f'16
     % AFTER:
     % ARTICULATIONS:
@@ -10173,25 +10173,25 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10199,12 +10199,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -10214,7 +10214,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -10224,7 +10224,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10234,7 +10234,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -10242,33 +10242,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 28]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -10276,12 +10276,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -10291,7 +10291,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10301,7 +10301,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10309,31 +10309,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10341,12 +10341,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10356,7 +10356,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -10366,7 +10366,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10376,7 +10376,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10386,7 +10386,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -10394,23 +10394,23 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     af'!16
     % AFTER:
     % ARTICULATIONS:
@@ -10418,12 +10418,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     bf'!16
     % AFTER:
     % ARTICULATIONS:
@@ -10433,7 +10433,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b'16
     % AFTER:
     % ARTICULATIONS:
@@ -10441,25 +10441,25 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -10467,12 +10467,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10482,7 +10482,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10492,7 +10492,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10502,7 +10502,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10510,33 +10510,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 29]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10544,12 +10544,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -10559,7 +10559,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10569,7 +10569,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10577,31 +10577,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10609,12 +10609,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10624,7 +10624,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10634,7 +10634,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -10644,7 +10644,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10654,7 +10654,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10662,23 +10662,23 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a'16
     % AFTER:
     % ARTICULATIONS:
@@ -10686,12 +10686,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     bf'!16
     % AFTER:
     % ARTICULATIONS:
@@ -10701,7 +10701,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b'16
     % AFTER:
     % ARTICULATIONS:
@@ -10709,25 +10709,25 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10735,12 +10735,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -10750,7 +10750,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -10760,7 +10760,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -10770,7 +10770,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -10778,31 +10778,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -10810,12 +10810,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10825,7 +10825,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -10835,7 +10835,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10843,33 +10843,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 30]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -10877,12 +10877,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -10892,7 +10892,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10902,7 +10902,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -10912,7 +10912,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -10922,7 +10922,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -10930,23 +10930,23 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b'16
     % AFTER:
     % ARTICULATIONS:
@@ -10954,12 +10954,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     bf'!16
     % AFTER:
     % ARTICULATIONS:
@@ -10969,7 +10969,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a'16
     % AFTER:
     % ARTICULATIONS:
@@ -10977,25 +10977,25 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -11003,12 +11003,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -11018,7 +11018,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11028,7 +11028,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -11038,7 +11038,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11046,31 +11046,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11078,12 +11078,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11093,7 +11093,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11103,7 +11103,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -11111,33 +11111,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 31]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -11145,12 +11145,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -11160,7 +11160,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -11170,7 +11170,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -11180,7 +11180,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -11190,7 +11190,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -11200,7 +11200,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -11210,7 +11210,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -11218,23 +11218,23 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     d''16
     % AFTER:
     % ARTICULATIONS:
@@ -11242,12 +11242,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -11257,7 +11257,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     c''16
     % AFTER:
     % ARTICULATIONS:
@@ -11267,7 +11267,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b'16
     % AFTER:
     % ARTICULATIONS:
@@ -11277,7 +11277,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -11285,27 +11285,27 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/8
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11313,12 +11313,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11328,7 +11328,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11338,7 +11338,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -11348,7 +11348,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -11358,7 +11358,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11368,7 +11368,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -11376,33 +11376,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11410,12 +11410,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11425,7 +11425,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11435,7 +11435,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -11445,7 +11445,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -11455,7 +11455,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11463,33 +11463,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 32]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -11497,12 +11497,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11512,7 +11512,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11522,7 +11522,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -11532,7 +11532,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11542,7 +11542,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11552,7 +11552,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11562,7 +11562,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11570,23 +11570,23 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e''16
     % AFTER:
     % ARTICULATIONS:
@@ -11594,12 +11594,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f''16
     % AFTER:
     % ARTICULATIONS:
@@ -11609,7 +11609,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e''16
     % AFTER:
     % ARTICULATIONS:
@@ -11619,7 +11619,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     fs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -11629,7 +11629,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g''16
     % AFTER:
     % ARTICULATIONS:
@@ -11637,27 +11637,27 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/8
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -11665,12 +11665,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11680,7 +11680,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11690,7 +11690,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -11700,7 +11700,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11710,7 +11710,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11720,7 +11720,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11728,33 +11728,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11762,12 +11762,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -11777,7 +11777,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11787,7 +11787,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -11797,7 +11797,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11807,7 +11807,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -11829,25 +11829,25 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.hairpin()
         \pp
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 33]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e''16
     % AFTER:
     % ARTICULATIONS:
@@ -11855,12 +11855,12 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef''!16
     % AFTER:
     % ARTICULATIONS:
@@ -11870,7 +11870,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f''16
     % AFTER:
     % ARTICULATIONS:
@@ -11880,7 +11880,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     fs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -11890,7 +11890,7 @@ segment.06.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g''16
     % AFTER:
     % ARTICULATIONS:
@@ -11898,25 +11898,25 @@ segment.06.Violin.II.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 12/15
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11924,12 +11924,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11939,7 +11939,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -11949,7 +11949,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -11959,7 +11959,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11969,7 +11969,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -11979,7 +11979,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -11989,7 +11989,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -11999,7 +11999,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -12009,7 +12009,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12019,7 +12019,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -12029,7 +12029,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -12039,7 +12039,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -12049,7 +12049,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12057,33 +12057,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/11
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12091,12 +12091,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -12106,7 +12106,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12116,7 +12116,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -12126,7 +12126,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -12136,7 +12136,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12146,7 +12146,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12156,7 +12156,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12166,7 +12166,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12176,7 +12176,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12184,33 +12184,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 34]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12218,12 +12218,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12233,7 +12233,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -12243,7 +12243,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12253,7 +12253,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -12263,7 +12263,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12273,7 +12273,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -12283,7 +12283,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -12293,7 +12293,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12303,7 +12303,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -12313,7 +12313,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12321,31 +12321,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12353,12 +12353,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12368,7 +12368,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12378,7 +12378,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -12388,7 +12388,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12398,7 +12398,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12408,7 +12408,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12418,7 +12418,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12428,7 +12428,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12438,7 +12438,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12448,7 +12448,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12458,7 +12458,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12468,7 +12468,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12476,33 +12476,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 35]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12510,12 +12510,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12525,7 +12525,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12535,7 +12535,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -12545,7 +12545,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12555,7 +12555,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12565,7 +12565,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12575,7 +12575,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12583,33 +12583,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 12/17
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12617,12 +12617,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12632,7 +12632,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12642,7 +12642,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12652,7 +12652,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12662,7 +12662,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12672,7 +12672,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12682,7 +12682,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12692,7 +12692,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12702,7 +12702,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12712,7 +12712,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12722,7 +12722,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12732,7 +12732,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12742,7 +12742,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12752,7 +12752,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12762,7 +12762,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12770,33 +12770,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/10
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12804,12 +12804,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12819,7 +12819,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12829,7 +12829,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12839,7 +12839,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12849,7 +12849,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12859,7 +12859,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12869,7 +12869,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12879,7 +12879,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -12887,33 +12887,33 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 36]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12921,12 +12921,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12936,7 +12936,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12946,7 +12946,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12956,7 +12956,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12966,7 +12966,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12976,7 +12976,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -12986,7 +12986,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12996,7 +12996,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -13006,7 +13006,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -13016,7 +13016,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -13026,7 +13026,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -13036,7 +13036,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -13044,31 +13044,31 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -13076,12 +13076,12 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -13091,7 +13091,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -13101,7 +13101,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -13111,7 +13111,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -13121,7 +13121,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -13131,7 +13131,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -13141,7 +13141,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -13151,7 +13151,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -13161,7 +13161,7 @@ segment.06.Violin.II.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -13169,42 +13169,42 @@ segment.06.Violin.II.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 37]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 38]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13522,7 +13522,7 @@ segment.06.Viola.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -13573,7 +13573,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13599,7 +13599,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13609,7 +13609,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13725,7 +13725,7 @@ segment.06.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r4.
     % AFTER:
     % MARKUP:
@@ -13745,7 +13745,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13755,7 +13755,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13765,7 +13765,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13775,7 +13775,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13891,7 +13891,7 @@ segment.06.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r4.
     % AFTER:
     % MARKUP:
@@ -13911,7 +13911,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13921,7 +13921,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13931,7 +13931,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13941,7 +13941,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14057,7 +14057,7 @@ segment.06.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r4
     % AFTER:
     % MARKUP:
@@ -14077,7 +14077,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14087,7 +14087,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14097,7 +14097,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14213,7 +14213,7 @@ segment.06.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r4
     % AFTER:
     % MARKUP:
@@ -14233,7 +14233,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14260,7 +14260,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14270,7 +14270,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14282,7 +14282,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 11]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14292,7 +14292,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14302,7 +14302,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14329,7 +14329,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14339,7 +14339,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14372,7 +14372,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14382,7 +14382,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14392,7 +14392,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14402,7 +14402,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14414,7 +14414,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 14]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14424,7 +14424,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14451,7 +14451,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14461,7 +14461,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14473,7 +14473,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 16]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14483,7 +14483,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14493,7 +14493,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14503,7 +14503,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14513,7 +14513,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14525,7 +14525,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 17]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14535,7 +14535,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14545,7 +14545,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14572,7 +14572,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14582,7 +14582,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14592,7 +14592,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14602,7 +14602,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14629,7 +14629,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14639,7 +14639,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14649,7 +14649,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14659,7 +14659,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14686,7 +14686,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14696,7 +14696,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14706,7 +14706,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14716,7 +14716,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14743,7 +14743,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14753,7 +14753,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14780,7 +14780,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14790,7 +14790,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14802,7 +14802,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 23]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14812,7 +14812,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14822,7 +14822,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14849,7 +14849,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14859,7 +14859,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14869,7 +14869,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14896,7 +14896,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14906,7 +14906,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14918,7 +14918,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 26]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14928,7 +14928,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14955,7 +14955,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14965,7 +14965,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14977,7 +14977,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 28]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14987,7 +14987,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14997,7 +14997,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15024,7 +15024,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15034,7 +15034,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15044,7 +15044,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15071,7 +15071,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15081,7 +15081,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15091,7 +15091,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15103,7 +15103,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 31]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15113,7 +15113,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15123,7 +15123,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15133,7 +15133,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15143,7 +15143,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15155,7 +15155,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 32]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15165,7 +15165,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15175,7 +15175,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15185,7 +15185,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15195,7 +15195,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15207,7 +15207,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 33]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15217,7 +15217,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15227,7 +15227,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15237,7 +15237,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15247,7 +15247,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15259,7 +15259,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 34]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15269,7 +15269,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15279,7 +15279,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15306,7 +15306,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15316,7 +15316,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15326,7 +15326,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15336,7 +15336,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15363,7 +15363,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15373,7 +15373,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15383,7 +15383,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15410,7 +15410,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15420,7 +15420,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15432,7 +15432,7 @@ segment.06.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 38]
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -15442,7 +15442,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -15452,7 +15452,7 @@ segment.06.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15908,11 +15908,11 @@ segment.06.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/5
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15934,7 +15934,7 @@ segment.06.Cello.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -15954,7 +15954,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b,4
         % AFTER:
         % ARTICULATIONS:
@@ -15977,23 +15977,23 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -16147,11 +16147,11 @@ segment.06.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 5/4
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16173,7 +16173,7 @@ segment.06.Cello.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -16193,23 +16193,23 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         c4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -16316,11 +16316,11 @@ segment.06.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 3/5
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16342,7 +16342,7 @@ segment.06.Cello.Music.Voice = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -16362,12 +16362,12 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b,4
         % AFTER:
         % ARTICULATIONS:
@@ -16390,351 +16390,351 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 3/5
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 10]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/10
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 11]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         a,8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b,8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/10
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 12]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         bf,!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b,8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 10/12
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 13]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         c8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         d8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         cs!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/8
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 14]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         c8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         b,8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 6/8
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 15]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         cs!8
         % AFTER:
         % ARTICULATIONS:
@@ -16760,32 +16760,32 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         d8
         % AFTER:
         % ARTICULATIONS:
@@ -16796,34 +16796,34 @@ segment.06.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/14
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 16]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         ef!8
         % AFTER:
         % ARTICULATIONS:
@@ -16833,32 +16833,32 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         d8
         % AFTER:
         % ARTICULATIONS:
@@ -16868,17 +16868,17 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         e8
         % AFTER:
         % ARTICULATIONS:
@@ -16888,48 +16888,48 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 8/10
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 17]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         f8
         % AFTER:
         % ARTICULATIONS:
@@ -16939,17 +16939,17 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         ef!8
         % AFTER:
         % ARTICULATIONS:
@@ -16959,50 +16959,50 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     \times 12/14
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 18]
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         e8
         % AFTER:
         % ARTICULATIONS:
@@ -17012,17 +17012,17 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         cs!8
         % AFTER:
         % ARTICULATIONS:
@@ -17032,32 +17032,32 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         d8
         % AFTER:
         % ARTICULATIONS:
@@ -17067,35 +17067,35 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.scratch_rhythm()
+          %! akasha.make_scratch_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.scratch_rhythm()
+      %! akasha.make_scratch_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 19]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs!16
     % AFTER:
     % ARTICULATIONS:
@@ -17107,12 +17107,12 @@ segment.06.Cello.Music.Voice = {
       %! baca.markup()
     ^ \baca-leggieriss-markup
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     c16
     % AFTER:
     % ARTICULATIONS:
@@ -17122,7 +17122,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b,16
     % AFTER:
     % ARTICULATIONS:
@@ -17132,7 +17132,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs!16
     % AFTER:
     % ARTICULATIONS:
@@ -17142,7 +17142,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     c16
     % AFTER:
     % ARTICULATIONS:
@@ -17150,54 +17150,54 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 20]
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17205,12 +17205,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d16
         % AFTER:
         % ARTICULATIONS:
@@ -17220,7 +17220,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e16
         % AFTER:
         % ARTICULATIONS:
@@ -17230,7 +17230,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef!16
         % AFTER:
         % ARTICULATIONS:
@@ -17240,7 +17240,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d16
         % AFTER:
         % ARTICULATIONS:
@@ -17250,7 +17250,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17258,33 +17258,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 21]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef!16
         % AFTER:
         % ARTICULATIONS:
@@ -17292,12 +17292,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e16
         % AFTER:
         % ARTICULATIONS:
@@ -17307,7 +17307,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f16
         % AFTER:
         % ARTICULATIONS:
@@ -17317,7 +17317,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e16
         % AFTER:
         % ARTICULATIONS:
@@ -17327,7 +17327,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17337,7 +17337,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -17345,23 +17345,23 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f16
     % AFTER:
     % ARTICULATIONS:
@@ -17369,12 +17369,12 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     fs!16
     % AFTER:
     % ARTICULATIONS:
@@ -17384,7 +17384,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef!16
     % AFTER:
     % ARTICULATIONS:
@@ -17392,30 +17392,30 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e16
         % AFTER:
         % ARTICULATIONS:
@@ -17423,12 +17423,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef!16
         % AFTER:
         % ARTICULATIONS:
@@ -17438,7 +17438,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d16
         % AFTER:
         % ARTICULATIONS:
@@ -17448,7 +17448,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17456,33 +17456,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 22]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef!16
         % AFTER:
         % ARTICULATIONS:
@@ -17490,12 +17490,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d16
         % AFTER:
         % ARTICULATIONS:
@@ -17505,7 +17505,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef!16
         % AFTER:
         % ARTICULATIONS:
@@ -17515,7 +17515,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e16
         % AFTER:
         % ARTICULATIONS:
@@ -17525,7 +17525,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17535,7 +17535,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f16
         % AFTER:
         % ARTICULATIONS:
@@ -17543,23 +17543,23 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e16
     % AFTER:
     % ARTICULATIONS:
@@ -17567,12 +17567,12 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef!16
     % AFTER:
     % ARTICULATIONS:
@@ -17582,7 +17582,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f16
     % AFTER:
     % ARTICULATIONS:
@@ -17590,32 +17590,32 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 23]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17637,7 +17637,7 @@ segment.06.Cello.Music.Voice = {
           %! baca.hairpin()
         \mf
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -17657,7 +17657,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -17667,7 +17667,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17677,7 +17677,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -17685,31 +17685,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -17717,12 +17717,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -17732,7 +17732,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -17742,7 +17742,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f16
         % AFTER:
         % ARTICULATIONS:
@@ -17752,7 +17752,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17762,7 +17762,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f16
         % AFTER:
         % ARTICULATIONS:
@@ -17770,23 +17770,23 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     e16
     % AFTER:
     % ARTICULATIONS:
@@ -17794,12 +17794,12 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ef!16
     % AFTER:
     % ARTICULATIONS:
@@ -17809,7 +17809,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     f16
     % AFTER:
     % ARTICULATIONS:
@@ -17817,25 +17817,25 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e16
         % AFTER:
         % ARTICULATIONS:
@@ -17843,12 +17843,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f16
         % AFTER:
         % ARTICULATIONS:
@@ -17858,7 +17858,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17868,7 +17868,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -17878,7 +17878,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -17886,33 +17886,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 24]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -17920,12 +17920,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f16
         % AFTER:
         % ARTICULATIONS:
@@ -17935,7 +17935,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -17945,7 +17945,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -17953,31 +17953,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -17985,12 +17985,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -18000,7 +18000,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -18010,7 +18010,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -18020,7 +18020,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -18030,7 +18030,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -18038,23 +18038,23 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g16
     % AFTER:
     % ARTICULATIONS:
@@ -18062,12 +18062,12 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     af!16
     % AFTER:
     % ARTICULATIONS:
@@ -18077,7 +18077,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     g16
     % AFTER:
     % ARTICULATIONS:
@@ -18085,30 +18085,30 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -18116,12 +18116,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f16
         % AFTER:
         % ARTICULATIONS:
@@ -18131,7 +18131,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -18141,7 +18141,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs!16
         % AFTER:
         % ARTICULATIONS:
@@ -18149,33 +18149,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 25]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -18183,12 +18183,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -18198,7 +18198,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -18208,7 +18208,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -18218,7 +18218,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -18228,7 +18228,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -18236,23 +18236,23 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a16
     % AFTER:
     % ARTICULATIONS:
@@ -18260,12 +18260,12 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     bf!16
     % AFTER:
     % ARTICULATIONS:
@@ -18275,7 +18275,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b16
     % AFTER:
     % ARTICULATIONS:
@@ -18283,25 +18283,25 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -18309,12 +18309,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -18324,7 +18324,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -18334,7 +18334,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -18344,7 +18344,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -18352,33 +18352,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 26]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -18386,12 +18386,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -18401,7 +18401,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -18411,7 +18411,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -18419,31 +18419,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g16
         % AFTER:
         % ARTICULATIONS:
@@ -18451,12 +18451,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -18466,7 +18466,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af!16
         % AFTER:
         % ARTICULATIONS:
@@ -18476,7 +18476,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -18486,7 +18486,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -18496,7 +18496,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -18504,23 +18504,23 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b16
     % AFTER:
     % ARTICULATIONS:
@@ -18528,12 +18528,12 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     bf!16
     % AFTER:
     % ARTICULATIONS:
@@ -18543,7 +18543,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     a16
     % AFTER:
     % ARTICULATIONS:
@@ -18551,7 +18551,7 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -18591,7 +18591,7 @@ segment.06.Cello.Music.Voice = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -18601,7 +18601,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     b16
     % AFTER:
     % ARTICULATIONS:
@@ -18609,12 +18609,12 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % START_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     c'16
     % AFTER:
     % ARTICULATIONS:
@@ -18624,7 +18624,7 @@ segment.06.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     cs'!16
     % AFTER:
     % ARTICULATIONS:
@@ -18632,25 +18632,25 @@ segment.06.Cello.Music.Voice = {
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -18658,12 +18658,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -18673,7 +18673,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -18683,7 +18683,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -18693,7 +18693,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -18703,7 +18703,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -18713,7 +18713,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -18723,7 +18723,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -18731,33 +18731,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 28]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -18765,12 +18765,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a16
         % AFTER:
         % ARTICULATIONS:
@@ -18780,7 +18780,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -18790,7 +18790,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf!16
         % AFTER:
         % ARTICULATIONS:
@@ -18800,7 +18800,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -18810,7 +18810,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -18818,31 +18818,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/10
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -18850,12 +18850,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -18865,7 +18865,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -18875,7 +18875,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -18885,7 +18885,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -18895,7 +18895,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -18905,7 +18905,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -18915,7 +18915,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -18925,7 +18925,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -18933,31 +18933,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -18965,12 +18965,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -18980,7 +18980,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -18990,7 +18990,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19000,7 +19000,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -19012,7 +19012,7 @@ segment.06.Cello.Music.Voice = {
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 29]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19022,7 +19022,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -19032,7 +19032,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b16
         % AFTER:
         % ARTICULATIONS:
@@ -19042,7 +19042,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19052,7 +19052,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'16
         % AFTER:
         % ARTICULATIONS:
@@ -19062,7 +19062,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19070,31 +19070,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -19102,12 +19102,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -19117,7 +19117,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19127,7 +19127,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -19135,31 +19135,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19167,12 +19167,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19182,7 +19182,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -19192,7 +19192,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19202,7 +19202,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -19212,7 +19212,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19222,7 +19222,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19232,7 +19232,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19242,7 +19242,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19252,7 +19252,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19260,31 +19260,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -19292,12 +19292,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19307,7 +19307,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -19317,7 +19317,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19327,7 +19327,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19335,33 +19335,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 30]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d'16
         % AFTER:
         % ARTICULATIONS:
@@ -19369,12 +19369,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19384,7 +19384,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -19394,7 +19394,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19404,7 +19404,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19414,7 +19414,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -19424,7 +19424,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19434,7 +19434,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19444,7 +19444,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19454,7 +19454,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19464,7 +19464,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19472,31 +19472,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19504,12 +19504,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -19519,7 +19519,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19529,7 +19529,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19539,7 +19539,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19549,7 +19549,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19559,7 +19559,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19569,7 +19569,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -19577,33 +19577,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 31]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19611,12 +19611,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19626,7 +19626,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e'16
         % AFTER:
         % ARTICULATIONS:
@@ -19636,7 +19636,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19646,7 +19646,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19656,7 +19656,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19666,7 +19666,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19676,7 +19676,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19684,33 +19684,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 12/14
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19718,12 +19718,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19733,7 +19733,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19743,7 +19743,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -19753,7 +19753,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19763,7 +19763,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19773,7 +19773,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -19783,7 +19783,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -19793,7 +19793,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19803,7 +19803,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19813,7 +19813,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19823,7 +19823,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19833,7 +19833,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19841,33 +19841,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/10
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f'16
         % AFTER:
         % ARTICULATIONS:
@@ -19875,12 +19875,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19890,7 +19890,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19900,7 +19900,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19910,7 +19910,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19920,7 +19920,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19930,7 +19930,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -19940,7 +19940,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -19950,7 +19950,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -19958,35 +19958,35 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 12/13
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 32]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -19994,12 +19994,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20009,7 +20009,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20019,7 +20019,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20029,7 +20029,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20039,7 +20039,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20049,7 +20049,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20059,7 +20059,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20069,7 +20069,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -20079,7 +20079,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20089,7 +20089,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -20099,7 +20099,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20107,31 +20107,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 12/15
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g'16
         % AFTER:
         % ARTICULATIONS:
@@ -20139,12 +20139,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -20154,7 +20154,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20164,7 +20164,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -20174,7 +20174,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20184,7 +20184,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20194,7 +20194,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20204,7 +20204,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20214,7 +20214,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -20224,7 +20224,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20234,7 +20234,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20244,7 +20244,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20254,7 +20254,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20264,7 +20264,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20286,33 +20286,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.hairpin()
         \pp
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 12/18
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 33]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20320,12 +20320,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20335,7 +20335,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20345,7 +20345,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20355,7 +20355,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20365,7 +20365,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20375,7 +20375,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20385,7 +20385,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a'16
         % AFTER:
         % ARTICULATIONS:
@@ -20395,7 +20395,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20405,7 +20405,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf'!16
         % AFTER:
         % ARTICULATIONS:
@@ -20415,7 +20415,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20425,7 +20425,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20435,7 +20435,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20445,7 +20445,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20455,7 +20455,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20465,7 +20465,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20475,7 +20475,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20483,31 +20483,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20515,12 +20515,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20530,7 +20530,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20540,7 +20540,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -20550,7 +20550,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -20560,7 +20560,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20570,7 +20570,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -20580,7 +20580,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20588,31 +20588,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 10/15
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20620,12 +20620,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20635,7 +20635,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20645,7 +20645,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b'16
         % AFTER:
         % ARTICULATIONS:
@@ -20655,7 +20655,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20665,7 +20665,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c''16
         % AFTER:
         % ARTICULATIONS:
@@ -20675,7 +20675,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20685,7 +20685,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20697,7 +20697,7 @@ segment.06.Cello.Music.Voice = {
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 34]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -20707,7 +20707,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20717,7 +20717,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20727,7 +20727,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20737,7 +20737,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20747,7 +20747,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -20755,31 +20755,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -20787,12 +20787,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -20802,7 +20802,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20812,7 +20812,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -20822,7 +20822,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -20832,7 +20832,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20842,7 +20842,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20852,7 +20852,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -20862,7 +20862,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20872,7 +20872,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20882,7 +20882,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20890,31 +20890,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20922,12 +20922,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         d''16
         % AFTER:
         % ARTICULATIONS:
@@ -20937,7 +20937,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20947,7 +20947,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -20957,7 +20957,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -20965,33 +20965,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 12/15
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 35]
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -20999,12 +20999,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -21014,7 +21014,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21024,7 +21024,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -21034,7 +21034,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21044,7 +21044,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21054,7 +21054,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21064,7 +21064,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21074,7 +21074,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -21084,7 +21084,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21094,7 +21094,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21104,7 +21104,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -21114,7 +21114,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21124,7 +21124,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -21132,33 +21132,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/11
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -21166,12 +21166,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ef''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21181,7 +21181,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -21191,7 +21191,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         e''16
         % AFTER:
         % ARTICULATIONS:
@@ -21201,7 +21201,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -21211,7 +21211,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21221,7 +21221,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21231,7 +21231,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21241,7 +21241,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21251,7 +21251,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -21259,33 +21259,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 10/14
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21293,12 +21293,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21308,7 +21308,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -21318,7 +21318,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21328,7 +21328,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21338,7 +21338,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -21348,7 +21348,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -21358,7 +21358,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21368,7 +21368,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21378,7 +21378,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21388,7 +21388,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21398,7 +21398,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21408,7 +21408,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         f''16
         % AFTER:
         % ARTICULATIONS:
@@ -21416,31 +21416,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21448,12 +21448,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         fs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21463,7 +21463,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21473,7 +21473,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21483,7 +21483,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21493,7 +21493,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -21503,7 +21503,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         af''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21513,7 +21513,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         g''16
         % AFTER:
         % ARTICULATIONS:
@@ -21523,7 +21523,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -21533,7 +21533,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21543,7 +21543,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -21553,7 +21553,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21563,7 +21563,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -21571,31 +21571,31 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         cs'''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21603,12 +21603,12 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         b''16
         % AFTER:
         % ARTICULATIONS:
@@ -21618,7 +21618,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -21628,7 +21628,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -21638,7 +21638,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         bf''!16
         % AFTER:
         % ARTICULATIONS:
@@ -21648,7 +21648,7 @@ segment.06.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -21656,33 +21656,33 @@ segment.06.Cello.Music.Voice = {
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.dense_getato_rhythm()
+          %! akasha.make_dense_getato_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.dense_getato_rhythm()
+      %! akasha.make_dense_getato_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
