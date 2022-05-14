@@ -115,12 +115,11 @@ commands(
     ),
 )
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 5)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -209,51 +208,13 @@ commands(
 commands(
     ("v1", (18, 20)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v1", (6, 7)),
-    baca.pitches("E4 F4 E+4", exact=True),
-    library.material("B"),
-)
-
-commands(
-    ("v1", 9),
-    library.material("A"),
-)
-
-commands(
-    ("v1", (11, 13)),
-    library.material("C"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
-)
-
-commands(
-    ("v1", 15),
-    library.material("C"),
-)
-
-commands(
-    ("v1", 17),
-    library.material("C"),
-)
-
-commands(
-    ("v1", (11, 19)),
-    baca.pitches(
-        "D5 E5",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# v2
+# V2
 
 commands(
     ("v2", (1, 3)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -374,62 +335,13 @@ commands(
 commands(
     ("v2", 20),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v2", 4),
-    library.material("A"),
-)
-
-commands(
-    ("v2", (6, 7)),
-    library.material("B"),
-    baca.pitches("D4 D~4 C4", exact=True),
-)
-
-commands(
-    ("v2", 9),
-    library.material("B"),
-    baca.pitches("C#4 C#+4", exact=True),
-)
-
-commands(
-    ("v2", (11, 13)),
-    library.material("C"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
-)
-
-commands(
-    ("v2", 15),
-    library.material("C"),
-)
-
-commands(
-    ("v2", 17),
-    library.material("C"),
-)
-
-commands(
-    ("v2", 19),
-    library.material("C"),
-)
-
-commands(
-    ("v2", (11, 19)),
-    baca.pitches(
-        "Bb4 C5",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# va
+# VA
 
 commands(
     ("va", (1, 3)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -493,49 +405,13 @@ commands(
 commands(
     ("va", (16, 20)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("va", (1, 3)),
-    baca.staff_lines(5),
-)
-
-commands(
-    ("va", 4),
-    library.material("A"),
-)
-
-commands(
-    ("va", (6, 7)),
-    library.material("B"),
-    baca.pitches("Eb4 D4 E4", exact=True),
-)
-
-commands(
-    ("va", 9),
-    library.material("B"),
-    baca.pitches("C4", exact=True),
-)
-
-commands(
-    ("va", (11, 13)),
-    library.material("B"),
-    baca.pitches("D4 D+4 D#4 E4 F#4 F4", exact=True),
-)
-
-commands(
-    ("va", 15),
-    library.material("B"),
-    baca.pitches("Eb4 D4", exact=True),
-)
-
-# vc
+# VC
 
 commands(
     ("vc", (1, 2)),
     library.cello_solo_rhythm(rotation=0),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -599,8 +475,148 @@ commands(
 commands(
     ("vc", 20),
     baca.make_mmrests(),
+)
+
+# phantom
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
     baca.append_phantom_measure(),
 )
+
+# reapply
+
+commands(
+    all_voices,
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
+commands(
+    ("v1", (6, 7)),
+    baca.pitches("E4 F4 E+4", exact=True),
+    library.material("B"),
+)
+
+commands(
+    ("v1", 9),
+    library.material("A"),
+)
+
+commands(
+    ("v1", (11, 13)),
+    library.material("C"),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
+)
+
+commands(
+    ("v1", 15),
+    library.material("C"),
+)
+
+commands(
+    ("v1", 17),
+    library.material("C"),
+)
+
+commands(
+    ("v1", (11, 19)),
+    baca.pitches(
+        "D5 E5",
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+# v2
+
+commands(
+    ("v2", 4),
+    library.material("A"),
+)
+
+commands(
+    ("v2", (6, 7)),
+    library.material("B"),
+    baca.pitches("D4 D~4 C4", exact=True),
+)
+
+commands(
+    ("v2", 9),
+    library.material("B"),
+    baca.pitches("C#4 C#+4", exact=True),
+)
+
+commands(
+    ("v2", (11, 13)),
+    library.material("C"),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
+)
+
+commands(
+    ("v2", 15),
+    library.material("C"),
+)
+
+commands(
+    ("v2", 17),
+    library.material("C"),
+)
+
+commands(
+    ("v2", 19),
+    library.material("C"),
+)
+
+commands(
+    ("v2", (11, 19)),
+    baca.pitches(
+        "Bb4 C5",
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+# va
+
+commands(
+    ("va", (1, 3)),
+    baca.staff_lines(5),
+)
+
+commands(
+    ("va", 4),
+    library.material("A"),
+)
+
+commands(
+    ("va", (6, 7)),
+    library.material("B"),
+    baca.pitches("Eb4 D4 E4", exact=True),
+)
+
+commands(
+    ("va", 9),
+    library.material("B"),
+    baca.pitches("C4", exact=True),
+)
+
+commands(
+    ("va", (11, 13)),
+    library.material("B"),
+    baca.pitches("D4 D+4 D#4 E4 F#4 F4", exact=True),
+)
+
+commands(
+    ("va", 15),
+    library.material("B"),
+    baca.pitches("Eb4 D4", exact=True),
+)
+
+# vc
 
 commands(
     ("vc", (1, 2)),

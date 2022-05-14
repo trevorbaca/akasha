@@ -87,7 +87,7 @@ def accelerando_rhythm(*commands, fuse_counts=None, preprocessor=None):
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         preprocessor=preprocessor,
-        tag=abjad.Tag("akasha.accelerando_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -106,7 +106,7 @@ def cello_solo_rhythm(rotation=None):
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.force_repeat_tie(),
-        tag=abjad.Tag("akasha.cello_solo_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -130,7 +130,7 @@ def dense_getato_rhythm(fuse_counts, extra_counts, *commands):
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("akasha.dense_getato_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -153,7 +153,7 @@ def glissando_rhythm():
         rmakers.tuplet([(8, 1)]),
         rmakers.beam(),
         preprocessor=lambda _: baca.sequence.fuse(_),
-        tag=abjad.Tag("akasha.glissando_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -197,7 +197,7 @@ def growth(first_silence, division_ratio, extra_counts=None):
             rmakers.assign(talea),
         ),
         preprocessor=preprocessor,
-        tag=abjad.Tag("akasha.growth()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -243,7 +243,7 @@ def manifest(these_counts):
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie((1, 4)),
         preprocessor=preprocessor,
-        tag=abjad.Tag("akasha.manifest()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -318,7 +318,7 @@ def polyphony_rhythm(*commands, rotation=0):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie((1, 4)),
-        tag=abjad.Tag("akasha.polyphony_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -337,7 +337,7 @@ def ritardando_rhythm(*commands, preprocessor=None):
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.duration_bracket(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("akasha.ritardando_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -346,7 +346,7 @@ def scratch_rhythm(denominators, *commands, extra_counts=None):
         rmakers.even_division(denominators, extra_counts=extra_counts),
         *commands,
         rmakers.beam(),
-        tag=abjad.Tag("akasha.scratch_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -366,7 +366,7 @@ def sparse_getato_rhythm(*commands, degree=1, extra_counts=[1], rotation=None):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("akasha.sparse_getato_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -388,7 +388,7 @@ def untied_notes():
         rmakers.rewrite_meter(),
         rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.untie(),
-        tag=abjad.Tag("akasha.untied_notes()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -412,7 +412,7 @@ def viola_ob_rhythm(*, rotation=None):
         rmakers.split_measures(),
         rmakers.force_repeat_tie((1, 4)),
         preprocessor=preprocessor,
-        tag=abjad.Tag("akasha.viola_ob_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 

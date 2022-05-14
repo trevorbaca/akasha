@@ -42,43 +42,21 @@ commands(
     baca.global_fermata("very_long"),
 )
 
-# v1
+# V1
 
 commands(
     "v1",
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    "v1",
-    baca.attach_first_segment_default_indicators(),
-    baca.staff_lines(5),
-    baca.suite(
-        library.margin_markup("Vn. I"),
-        baca.start_markup("Violin I", hcenter_in=14),
-    ),
-)
-
-# v2
+# V2
 
 commands(
     "v2",
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    "v2",
-    baca.attach_first_segment_default_indicators(),
-    baca.staff_lines(5),
-    baca.suite(
-        library.margin_markup("Vn. II"),
-        baca.start_markup("Violin II", hcenter_in=14),
-    ),
-)
-
-# va
+# VA
 
 commands(
     ("va", (1, 2)),
@@ -88,16 +66,56 @@ commands(
 commands(
     ("va", 3),
     baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    "vc",
+    baca.make_mmrests(),
+)
+
+# phantom
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
     baca.append_phantom_measure(),
 )
 
+# reapply
+
+commands(
+    all_voices,
+    baca.attach_first_segment_default_indicators(),
+)
+
+# v1
+
+commands(
+    "v1",
+    baca.staff_lines(5),
+    library.margin_markup("Vn. I"),
+    baca.start_markup("Violin I", hcenter_in=14),
+)
+
+# v2
+
+commands(
+    "v2",
+    baca.staff_lines(5),
+    library.margin_markup("Vn. II"),
+    baca.start_markup("Violin II", hcenter_in=14),
+)
+
+# va
+
+
 commands(
     ("va", (1, 2)),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Va."),
-        baca.start_markup("Viola", hcenter_in=14),
-    ),
+    library.margin_markup("Va."),
+    baca.start_markup("Viola", hcenter_in=14),
     library.material("E", lambda _: baca.select.rleaves(_)),
     baca.staff_lines(1),
     baca.down_bow(),
@@ -110,18 +128,9 @@ commands(
 
 commands(
     "vc",
-    baca.make_mmrests(),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    "vc",
-    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
-    baca.suite(
-        library.margin_markup("Vc."),
-        baca.start_markup("Cello", hcenter_in=14),
-    ),
+    library.margin_markup("Vc."),
+    baca.start_markup("Cello", hcenter_in=14),
 )
 
 if __name__ == "__main__":
