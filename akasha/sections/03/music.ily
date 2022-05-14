@@ -1106,7 +1106,7 @@ segment.03.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1143,7 +1143,7 @@ segment.03.Violin.I.Music.Voice = {
       %! MEASURE_28
       %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/8
     % AFTER:
     % MARKUP:
@@ -1163,7 +1163,7 @@ segment.03.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1200,7 +1200,7 @@ segment.03.Violin.I.Music.Voice = {
       %! MEASURE_30
       %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -1220,7 +1220,7 @@ segment.03.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1257,7 +1257,7 @@ segment.03.Violin.I.Music.Voice = {
       %! MEASURE_32
       %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 7/8
     % AFTER:
     % MARKUP:
@@ -1269,7 +1269,7 @@ segment.03.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 7/8
     % AFTER:
     % MARKUP:
@@ -1694,7 +1694,7 @@ segment.03.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1714,7 +1714,7 @@ segment.03.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/8
     % AFTER:
     % MARKUP:
@@ -1734,7 +1734,7 @@ segment.03.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1754,7 +1754,7 @@ segment.03.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -1774,7 +1774,7 @@ segment.03.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2412,7 +2412,7 @@ segment.03.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2432,7 +2432,7 @@ segment.03.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/8
     % AFTER:
     % MARKUP:
@@ -2452,7 +2452,7 @@ segment.03.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2472,7 +2472,7 @@ segment.03.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -2492,7 +2492,7 @@ segment.03.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2512,7 +2512,7 @@ segment.03.Viola.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 7/8
     % AFTER:
     % MARKUP:
@@ -3972,7 +3972,7 @@ segment.03.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 7/8
     % AFTER:
     % MARKUP:
