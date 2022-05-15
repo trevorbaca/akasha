@@ -61,7 +61,7 @@ commands(
     ),
 )
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 3)),
@@ -72,27 +72,18 @@ commands(
         rmakers.force_rest(lambda _: baca.select.lt(_, 1)),
         fuse_counts=[1],
     ),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("v1", (4, 11)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v1", (1, 3)),
-    library.material("C"),
-    baca.pitches("E5 D5"),
-)
-
-# v2
+# V2
 
 commands(
     ("v2", (1, 3)),
     library.make_polyphony_rhythm(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -106,26 +97,9 @@ commands(
         rmakers.force_rest(lambda _: baca.select.lt(_, 3)),
         fuse_counts=[2, 1],
     ),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v2", (1, 3)),
-    library.material("B"),
-    baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-)
-
-commands(
-    ("v2", (10, 11)),
-    library.material("C"),
-    baca.pitches("C5 Bb4"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
-)
-
-# va
+# VA
 
 commands(
     ("va", (1, 3)),
@@ -135,9 +109,6 @@ commands(
         ),
         rotation=-2,
     ),
-    baca.reapply_persistent_indicators(),
-    library.material("B"),
-    baca.pitches("Db4 Db~4 C4", exact=True),
 )
 
 commands(
@@ -148,20 +119,9 @@ commands(
 commands(
     ("va", 11),
     baca.make_repeat_tied_notes(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("va", 11),
-    library.material(
-        "D",
-        selector=lambda _: baca.rleaves(_),
-    ),
-    baca.pitch("D#3"),
-    baca.markup(r"\baca-tasto-markup"),
-)
-
-# vc
+# VC
 
 
 def get_tuplets(argument, pattern):
@@ -179,7 +139,6 @@ commands(
         degree=0,
         extra_counts=[1, 1, 0, 2],
     ),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -218,8 +177,70 @@ commands(
 commands(
     ("vc", 11),
     baca.make_repeat_tied_notes(),
+)
+
+# phantom
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
     baca.append_phantom_measure(),
 )
+
+# reapply
+
+commands(
+    all_voices,
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
+commands(
+    ("v1", (1, 3)),
+    library.material("C"),
+    baca.pitches("E5 D5"),
+)
+
+# v2
+
+commands(
+    ("v2", (1, 3)),
+    library.material("B"),
+    baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+)
+
+commands(
+    ("v2", (10, 11)),
+    library.material("C"),
+    baca.pitches("C5 Bb4"),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-tasto-plus-xfb-markup"),
+)
+
+# va
+
+commands(
+    ("va", (1, 3)),
+    library.material("B"),
+    baca.pitches("Db4 Db~4 C4", exact=True),
+)
+
+commands(
+    ("va", 11),
+    library.material(
+        "D",
+        selector=lambda _: baca.rleaves(_),
+    ),
+    baca.pitch("D#3"),
+    baca.markup(r"\baca-tasto-markup"),
+)
+
+# vc
+
 
 commands(
     ("vc", (1, 4)),

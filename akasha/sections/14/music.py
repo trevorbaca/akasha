@@ -65,12 +65,11 @@ commands(
     baca.global_fermata("fermata"),
 )
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 6)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -81,15 +80,13 @@ commands(
 commands(
     ("v1", 29),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-# v2
+# V2
 
 commands(
     ("v2", (1, 6)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -100,15 +97,13 @@ commands(
 commands(
     ("v2", 29),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-# va
+# VA
 
 commands(
     ("va", (1, 6)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -119,15 +114,52 @@ commands(
 commands(
     ("va", 29),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
+
+# VC
+
+commands(
+    ("vc", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (11, 12)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (13, 24)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (25, 29)),
+    baca.make_mmrests(),
+)
+
+# phantom & reapply
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
+# v2
+
+# va
 
 commands(
     "va",
     baca.staff_lines(5),
 )
 
-# v1, v2, va composites
+# v1, v2, va
 
 commands(
     (["v1", "v2", "va"], (7, 28)),
@@ -208,28 +240,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 10)),
-    baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", (11, 12)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", (13, 24)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc", (25, 29)),
-    baca.make_mmrests(),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vc", (1, 10)),

@@ -144,7 +144,7 @@ commands(
     ),
 )
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 2)),
@@ -215,53 +215,9 @@ commands(
 commands(
     ("v1", 37),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v1", (8, 20)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
-    baca.alternate_bow_strokes(),
-)
-
-commands(
-    ("v1", (11, 12)),
-    baca.text_spanner("trans. => 3/4OB"),
-)
-
-commands(
-    ("v1", (15, 16)),
-    baca.text_spanner("trans. => 1/2OB"),
-)
-
-commands(
-    ("v1", (8, 22)),
-    baca.dynamic("ppp"),
-    baca.markup(r"\baca-ob-markup"),
-    baca.pitch(
-        "B4",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("v1", (23, 24)),
-    library.material("A", lambda _: baca.select.rleaves(_)),
-    library.getato_pitches(31, [2]),
-    baca.dynamic("ppp"),
-    baca.markup(r"\akasha-leggieriss-plus-po-markup"),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    ("v1", (25, 26)),
-    baca.pitch(
-        "B4",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# v2
+# V2
 
 commands(
     ("v2", (1, 2)),
@@ -336,31 +292,9 @@ commands(
 commands(
     ("v2", 37),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v2", (13, 20)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
-    baca.alternate_bow_strokes(downbow_first=False),
-)
-
-commands(
-    ("v2", (15, 16)),
-    baca.text_spanner("trans. => 3/4OB"),
-)
-
-commands(
-    ("v2", (13, 27)),
-    baca.dynamic("ppp"),
-    baca.markup(r"\baca-ob-markup"),
-    baca.pitch(
-        "B3",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# va
+# VA
 
 commands(
     ("va", (1, 2)),
@@ -418,45 +352,9 @@ commands(
 commands(
     ("va", 37),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("va", (4, 20)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("va", (4, 20)),
-    baca.alternate_bow_strokes(),
-)
-
-commands(
-    ("va", (6, 7)),
-    baca.text_spanner("trans. => 3/4OB"),
-)
-
-commands(
-    ("va", (11, 12)),
-    baca.text_spanner("trans. => 1/2OB"),
-)
-
-commands(
-    ("va", (15, 16)),
-    baca.text_spanner("trans. => 1/4OB"),
-)
-
-commands(
-    ("va", (4, 27)),
-    baca.dynamic("ppp"),
-    baca.markup(r"\baca-ob-markup"),
-    baca.pitch(
-        "B2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# vc
+# VC
 
 commands(
     ("vc", (1, 2)),
@@ -543,8 +441,124 @@ commands(
 commands(
     ("vc", 37),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
+
+# phantom & reapply
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
+commands(
+    ("v1", (8, 20)),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+    baca.alternate_bow_strokes(),
+)
+
+commands(
+    ("v1", (11, 12)),
+    baca.text_spanner("trans. => 3/4OB"),
+)
+
+commands(
+    ("v1", (15, 16)),
+    baca.text_spanner("trans. => 1/2OB"),
+)
+
+commands(
+    ("v1", (8, 22)),
+    baca.dynamic("ppp"),
+    baca.markup(r"\baca-ob-markup"),
+    baca.pitch(
+        "B4",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+commands(
+    ("v1", (23, 24)),
+    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.getato_pitches(31, [2]),
+    baca.dynamic("ppp"),
+    baca.markup(r"\akasha-leggieriss-plus-po-markup"),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v1", (25, 26)),
+    baca.pitch(
+        "B4",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+# v2
+
+commands(
+    ("v2", (13, 20)),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+    baca.alternate_bow_strokes(downbow_first=False),
+)
+
+commands(
+    ("v2", (15, 16)),
+    baca.text_spanner("trans. => 3/4OB"),
+)
+
+commands(
+    ("v2", (13, 27)),
+    baca.dynamic("ppp"),
+    baca.markup(r"\baca-ob-markup"),
+    baca.pitch(
+        "B3",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+# va
+
+commands(
+    ("va", (4, 20)),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("va", (4, 20)),
+    baca.alternate_bow_strokes(),
+)
+
+commands(
+    ("va", (6, 7)),
+    baca.text_spanner("trans. => 3/4OB"),
+)
+
+commands(
+    ("va", (11, 12)),
+    baca.text_spanner("trans. => 1/2OB"),
+)
+
+commands(
+    ("va", (15, 16)),
+    baca.text_spanner("trans. => 1/4OB"),
+)
+
+commands(
+    ("va", (4, 27)),
+    baca.dynamic("ppp"),
+    baca.markup(r"\baca-ob-markup"),
+    baca.pitch(
+        "B2",
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+# vc
 
 commands(
     ("vc", (13, 14)),
@@ -575,7 +589,6 @@ commands(
 commands(
     (["v1", "v2", "va", "vc"], (1, 2)),
     library.material("D", lambda _: baca.select.rleaves(_)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin("sfp < f"),
     baca.text_spanner("PO + senza vib. => vib. moltiss."),
     baca.new(

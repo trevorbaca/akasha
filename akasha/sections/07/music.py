@@ -145,12 +145,11 @@ commands(
     ),
 )
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 2)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -229,70 +228,13 @@ commands(
 commands(
     ("v1", (46, 48)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v1", (3, 4)),
-    library.material("A"),
-    library.getato_pitches(27, [2]),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    ("v1", (8, 9)),
-    library.material("C"),
-)
-
-commands(
-    ("v1", (11, 22)),
-    library.material("C"),
-    baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
-    baca.new(
-        baca.hairpin("pp < p", remove_length_1_spanner_start=True),
-        map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
-    ),
-    baca.new(
-        baca.hairpin("p > pp", remove_length_1_spanner_start=True),
-        map=lambda _: abjad.select.get(baca.select.runs(_), [1], 2),
-    ),
-)
-
-commands(
-    ("v1", (23, 26)),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-    baca.pitch("E5"),
-)
-
-commands(
-    ("v1", (36, 41)),
-    library.material("A"),
-    library.getato_pitches(29, [2]),
-    baca.hairpin(
-        "ff < fff",
-        selector=lambda _: baca.select.tleaves(
-            _,
-        ),
-    ),
-    baca.markup(r"\baca-pos-ord-markup"),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    ("v1", 45),
-    library.getato_pitches(29, [2]),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-# v2
+# V2
 
 commands(
     ("v2", (1, 2)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -369,70 +311,13 @@ commands(
 commands(
     ("v2", (46, 48)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v2", (3, 4)),
-    library.material("A"),
-    library.getato_pitches(24, [2]),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    ("v2", (8, 9)),
-    library.material("C"),
-)
-
-commands(
-    ("v2", (11, 22)),
-    library.material("C"),
-    baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
-    baca.new(
-        baca.hairpin("pp < p", remove_length_1_spanner_start=True),
-        map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
-    ),
-    baca.new(
-        baca.hairpin("p > pp", remove_length_1_spanner_start=True),
-        map=lambda _: abjad.select.get(baca.select.runs(_), [1], 2),
-    ),
-)
-
-commands(
-    ("v2", (23, 26)),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-    baca.pitch("F#4"),
-)
-
-commands(
-    ("v2", (36, 41)),
-    library.material("A"),
-    library.getato_pitches(26, [2]),
-    baca.hairpin(
-        "ff < fff",
-        selector=lambda _: baca.select.tleaves(
-            _,
-        ),
-    ),
-    baca.markup(r"\baca-pos-ord-markup"),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    ("v2", 45),
-    library.getato_pitches(26, [2]),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-# va
+# VA
 
 commands(
     ("va", (1, 5)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -504,8 +389,194 @@ commands(
 commands(
     ("va", 48),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
+
+# VC
+
+commands(
+    ("vc", (1, 2)),
+    library.make_cello_solo_rhythm(),
+)
+
+commands(
+    ("vc", (3, 4)),
+    library.make_dense_getato_rhythm(
+        [2, 1, 2, 2, 1],
+        [6, 3, 5, 4],
+    ),
+)
+
+commands(
+    ("vc", (5, 10)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (11, 26)),
+    library.make_manifest_rhythm([1, 3, 4, 1, 2, 3, 6]),
+)
+
+commands(
+    ("vc", (27, 34)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 35),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (36, 41)),
+    library.make_dense_getato_rhythm(
+        [1, 2, 1, 2, 2],
+        [6, 3, 6, 4],
+    ),
+)
+
+commands(
+    ("vc", (42, 44)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 45),
+    library.make_dense_getato_rhythm(
+        [1, 2, 1, 2, 2],
+        [6, 3, 6, 4],
+    ),
+)
+
+commands(
+    ("vc", (46, 48)),
+    baca.make_mmrests(),
+)
+
+# phantom & reapply
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
+commands(
+    ("v1", (3, 4)),
+    library.material("A"),
+    library.getato_pitches(27, [2]),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v1", (8, 9)),
+    library.material("C"),
+)
+
+commands(
+    ("v1", (11, 22)),
+    library.material("C"),
+    baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
+    baca.new(
+        baca.hairpin("pp < p", remove_length_1_spanner_start=True),
+        map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
+    ),
+    baca.new(
+        baca.hairpin("p > pp", remove_length_1_spanner_start=True),
+        map=lambda _: abjad.select.get(baca.select.runs(_), [1], 2),
+    ),
+)
+
+commands(
+    ("v1", (23, 26)),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    baca.pitch("E5"),
+)
+
+commands(
+    ("v1", (36, 41)),
+    library.material("A"),
+    library.getato_pitches(29, [2]),
+    baca.hairpin(
+        "ff < fff",
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
+    ),
+    baca.markup(r"\baca-pos-ord-markup"),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v1", 45),
+    library.getato_pitches(29, [2]),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-leggieriss-markup"),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+# v2
+
+commands(
+    ("v2", (3, 4)),
+    library.material("A"),
+    library.getato_pitches(24, [2]),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v2", (8, 9)),
+    library.material("C"),
+)
+
+commands(
+    ("v2", (11, 22)),
+    library.material("C"),
+    baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
+    baca.new(
+        baca.hairpin("pp < p", remove_length_1_spanner_start=True),
+        map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
+    ),
+    baca.new(
+        baca.hairpin("p > pp", remove_length_1_spanner_start=True),
+        map=lambda _: abjad.select.get(baca.select.runs(_), [1], 2),
+    ),
+)
+
+commands(
+    ("v2", (23, 26)),
+    baca.dynamic("mp"),
+    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    baca.pitch("F#4"),
+)
+
+commands(
+    ("v2", (36, 41)),
+    library.material("A"),
+    library.getato_pitches(26, [2]),
+    baca.hairpin(
+        "ff < fff",
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
+    ),
+    baca.markup(r"\baca-pos-ord-markup"),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    ("v2", 45),
+    library.getato_pitches(26, [2]),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-leggieriss-markup"),
+    baca.staccato(selector=lambda _: baca.select.pheads(_)),
+)
+
+# va
 
 commands(
     "va",
@@ -572,67 +643,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 2)),
-    library.make_cello_solo_rhythm(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", (3, 4)),
-    library.make_dense_getato_rhythm(
-        [2, 1, 2, 2, 1],
-        [6, 3, 5, 4],
-    ),
-)
-
-commands(
-    ("vc", (5, 10)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", (11, 26)),
-    library.make_manifest_rhythm([1, 3, 4, 1, 2, 3, 6]),
-)
-
-commands(
-    ("vc", (27, 34)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc", 35),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", (36, 41)),
-    library.make_dense_getato_rhythm(
-        [1, 2, 1, 2, 2],
-        [6, 3, 6, 4],
-    ),
-)
-
-commands(
-    ("vc", (42, 44)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", 45),
-    library.make_dense_getato_rhythm(
-        [1, 2, 1, 2, 2],
-        [6, 3, 6, 4],
-    ),
-)
-
-commands(
-    ("vc", (46, 48)),
-    baca.make_mmrests(),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vc", (1, 2)),

@@ -65,14 +65,13 @@ commands(
     ),
 )
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 2)),
     library.make_accelerando_rhythm(
         fuse_counts=[1, 2],
     ),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -83,21 +82,13 @@ commands(
 commands(
     ("v1", (4, 7)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v1", 3),
-    baca.dynamic("ppp"),
-    baca.pitch("F#5"),
-)
-
-# v2
+# V2
 
 commands(
     ("v2", (1, 2)),
     library.make_ritardando_rhythm(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -108,21 +99,13 @@ commands(
 commands(
     ("v2", (4, 7)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v2", 3),
-    baca.dynamic("ppp"),
-    baca.pitch("Ab4"),
-)
-
-# va
+# VA
 
 commands(
     ("va", (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -138,32 +121,15 @@ commands(
 commands(
     ("va", 7),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("va", (1, 3)),
-    baca.staff_position(0),
-    library.material("E", lambda _: baca.select.rleaves(_)),
-)
-
-commands(
-    ("va", (5, 6)),
-    baca.pitches("D#3 C+3", exact=True),
-    baca.glissando(),
-    baca.hairpin("mp > pp"),
-    baca.markup(r"\baca-tasto-markup"),
-    baca.staff_lines(5),
-)
-
-# vc
+# VC
 
 commands(
     ("vc", (1, 2)),
     library.make_ritardando_rhythm(
         preprocessor=lambda _: baca.sequence.fuse(_),
     ),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -184,8 +150,52 @@ commands(
 commands(
     ("vc", 7),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
+
+# phantom & reapply
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
+commands(
+    ("v1", 3),
+    baca.dynamic("ppp"),
+    baca.pitch("F#5"),
+)
+
+# v2
+
+commands(
+    ("v2", 3),
+    baca.dynamic("ppp"),
+    baca.pitch("Ab4"),
+)
+
+# va
+
+commands(
+    ("va", (1, 3)),
+    baca.staff_position(0),
+    library.material("E", lambda _: baca.select.rleaves(_)),
+)
+
+commands(
+    ("va", (5, 6)),
+    baca.pitches("D#3 C+3", exact=True),
+    baca.glissando(),
+    baca.hairpin("mp > pp"),
+    baca.markup(r"\baca-tasto-markup"),
+    baca.staff_lines(5),
+)
+
+# vc
 
 commands(
     ("vc", 3),
