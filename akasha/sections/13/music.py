@@ -50,21 +50,18 @@ commands(
     ),
 )
 
-# v1, v2
+# V1, V2
 
 commands(
     ["v1", "v2"],
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
 )
 
-# va
+# VA
 
 commands(
     ("va", 1),
     baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -80,8 +77,31 @@ commands(
 commands(
     ("va", (4, 6)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
+
+# VC
+
+commands(
+    ("vc", (1, 4)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (5, 6)),
+    baca.make_repeat_tied_notes(),
+)
+
+# phantom & reapply
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# va
 
 commands(
     ("va", (1, 3)),
@@ -96,18 +116,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 4)),
-    baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", (5, 6)),
-    baca.make_repeat_tied_notes(),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vc", (5, 6)),

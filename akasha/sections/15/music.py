@@ -53,7 +53,7 @@ commands(
     ),
 )
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 16)),
@@ -63,21 +63,18 @@ commands(
         ),
         repeat_ties=True,
     ),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("v1", (17, 25)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-# v2
+# V2
 
 commands(
     ("v2", (1, 8)),
     baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -90,21 +87,14 @@ commands(
             ),
         ),
     ),
-    library.getato_pitches(29, direction=abjad.DOWN),
-    baca.dynamic("pp-ancora"),
-    baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
 )
 
 commands(
     ("v2", 25),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-# va
+# VA
 
 commands(
     ("va", (1, 16)),
@@ -114,16 +104,14 @@ commands(
         ),
         repeat_ties=True,
     ),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("va", (17, 25)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-# vc
+# VC
 
 commands(
     ("vc", (1, 16)),
@@ -133,14 +121,40 @@ commands(
         ),
         repeat_ties=True,
     ),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("vc", (17, 25)),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
+
+# phantom & reapply
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
+# v2
+
+commands(
+    ("v2", (9, 24)),
+    library.getato_pitches(29, direction=abjad.DOWN),
+    baca.dynamic("pp-ancora"),
+    baca.markup(r"\baca-leggieriss-markup"),
+    baca.staccato(
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+    ),
+)
+
+# va
+
+# vc
 
 commands(
     ("vc", 25),
@@ -153,7 +167,7 @@ commands(
     ),
 )
 
-# v1, va, vc composites
+# v1, va, vc
 
 commands(
     (["v1", "va", "vc"], (1, 24)),

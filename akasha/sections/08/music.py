@@ -82,7 +82,7 @@ commands(
     ),
 )
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 4)),
@@ -119,45 +119,13 @@ commands(
 commands(
     ("v1", 17),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v1", (1, 4)),
-    library.material("A"),
-    baca.reapply_persistent_indicators(),
-    library.getato_pitches(31, [2]),
-    baca.hairpin(
-        "pp >o niente",
-        selector=lambda _: baca.select.tleaves(
-            _,
-        ),
-    ),
-)
-
-commands(
-    ("v1", (5, 7)),
-    baca.text_spanner("tasto + 1/4 scratch => tasto"),
-)
-
-commands(
-    ("v1", (5, 13)),
-    baca.loop([17, 19, 17, 15, 18, 16], [1]),
-    baca.glissando(),
-)
-
-commands(
-    ("v1", (15, 16)),
-    baca.dynamic("ppp"),
-    baca.pitch("F#5"),
-)
-
-# v2
+# V2
 
 commands(
     ("v2", (1, 4)),
     baca.make_notes(repeat_ties=True),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -188,27 +156,13 @@ commands(
 commands(
     ("v2", 17),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    ("v2", (1, 13)),
-    baca.loop([6, 3, 5, 3, 1, 4], [1]),
-    baca.glissando(),
-)
-
-commands(
-    ("v2", (15, 16)),
-    baca.dynamic("ppp"),
-    baca.pitch("Ab4"),
-)
-
-# va
+# VA
 
 commands(
     ("va", (1, 4)),
     baca.make_notes(repeat_ties=True),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -234,36 +188,13 @@ commands(
 commands(
     ("va", (15, 17)),
     baca.make_repeat_tied_notes(),
-    baca.append_phantom_measure(),
 )
 
-commands(
-    "va",
-    baca.clef("alto"),
-    baca.staff_lines(5),
-)
-
-commands(
-    ("va", (1, 13)),
-    baca.loop([3, 5, 2, 4, 2, 0], [1]),
-    baca.glissando(),
-)
-
-commands(
-    ("va", (15, 16)),
-    baca.down_bow(),
-    baca.dynamic('"mf"'),
-    baca.markup(r"\baca-ob-markup"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-)
-
-# vc
+# VC
 
 commands(
     ("vc", (1, 4)),
     baca.make_notes(repeat_ties=True),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -294,8 +225,87 @@ commands(
 commands(
     ("vc", 17),
     baca.make_mmrests(),
-    baca.append_phantom_measure(),
 )
+
+# phantom & reapply
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
+commands(
+    ("v1", (1, 4)),
+    library.material("A"),
+    library.getato_pitches(31, [2]),
+    baca.hairpin(
+        "pp >o niente",
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
+    ),
+)
+
+commands(
+    ("v1", (5, 7)),
+    baca.text_spanner("tasto + 1/4 scratch => tasto"),
+)
+
+commands(
+    ("v1", (5, 13)),
+    baca.loop([17, 19, 17, 15, 18, 16], [1]),
+    baca.glissando(),
+)
+
+commands(
+    ("v1", (15, 16)),
+    baca.dynamic("ppp"),
+    baca.pitch("F#5"),
+)
+
+# v2
+
+commands(
+    ("v2", (1, 13)),
+    baca.loop([6, 3, 5, 3, 1, 4], [1]),
+    baca.glissando(),
+)
+
+commands(
+    ("v2", (15, 16)),
+    baca.dynamic("ppp"),
+    baca.pitch("Ab4"),
+)
+
+# va
+
+commands(
+    "va",
+    baca.clef("alto"),
+    baca.staff_lines(5),
+)
+
+commands(
+    ("va", (1, 13)),
+    baca.loop([3, 5, 2, 4, 2, 0], [1]),
+    baca.glissando(),
+)
+
+commands(
+    ("va", (15, 16)),
+    baca.down_bow(),
+    baca.dynamic('"mf"'),
+    baca.markup(r"\baca-ob-markup"),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+)
+
+# vc
 
 commands(
     ("vc", (1, 13)),
