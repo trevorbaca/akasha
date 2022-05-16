@@ -371,10 +371,10 @@ commands(
 
 # phantom & reapply
 
-all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+music_voices = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )

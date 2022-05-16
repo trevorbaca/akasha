@@ -75,19 +75,13 @@ commands(
     baca.make_mmrests(),
 )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+music_voices = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.attach_first_segment_default_indicators(),
 )
 
