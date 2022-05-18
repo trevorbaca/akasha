@@ -443,7 +443,8 @@ def material_annotation_spanner(letter, selector=lambda _: baca.select.leaves(_)
     literal = dataclasses.replace(literal, tags=tags)
     slur = baca.slur(
         phrasing_slur=True,
-        selector=selector,
+        # selector=selector,
+        selector=lambda _: baca.select.rleaves(_),
     )
     tag = baca.tags.COLORED_PHRASING_SLUR
     tags = slur.tags

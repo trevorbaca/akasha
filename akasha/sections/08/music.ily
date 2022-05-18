@@ -1783,12 +1783,6 @@ segment.08.Violin.I.Music.Voice = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-        % SPANNER_STOPS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_STOP
-          %! baca.SpannerIndicatorCommand._call(4)
-          %! baca.slur()
-        \)
         % STOP_BEAM:
           %! akasha.make_dense_getato_rhythm()
         ]
@@ -1834,6 +1828,12 @@ segment.08.Violin.I.Music.Voice = {
                 \circle
                 { \combine \halign #0 B \halign #0 \transparent "O" }
 
+    % SPANNER_STOPS:
+      %! COLORED_PHRASING_SLUR
+      %! SPANNER_STOP
+      %! baca.SpannerIndicatorCommand._call(4)
+      %! baca.slur()
+    \)
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
