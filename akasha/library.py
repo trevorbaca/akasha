@@ -426,7 +426,7 @@ def margin_markup(
     return baca.not_parts(command)
 
 
-def material_annotation_spanner(letter, selector=lambda _: baca.select.leaves(_)):
+def material_annotation_spanner(letter):
     markup = baca.markup(
         rf"""\markup
             \override #'(circle-padding . 0.75)
@@ -443,7 +443,6 @@ def material_annotation_spanner(letter, selector=lambda _: baca.select.leaves(_)
     literal = dataclasses.replace(literal, tags=tags)
     slur = baca.slur(
         phrasing_slur=True,
-        # selector=selector,
         selector=lambda _: baca.select.rleaves(_),
     )
     tag = baca.tags.COLORED_PHRASING_SLUR

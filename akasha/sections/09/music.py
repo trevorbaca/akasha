@@ -183,7 +183,7 @@ commands(
 commands(
     ("va", (1, 3)),
     baca.staff_position(0),
-    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E"),
 )
 
 commands(
@@ -234,7 +234,7 @@ commands(
 
 commands(
     (["v1", "v2", "vc"], 3),
-    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B"),
 )
 
 commands(

@@ -225,10 +225,7 @@ commands(
 
 commands(
     ("va", 11),
-    library.material_annotation_spanner(
-        "D",
-        selector=lambda _: baca.rleaves(_),
-    ),
+    library.material_annotation_spanner("D"),
     baca.pitch("D#3"),
     baca.markup(r"\baca-tasto-markup"),
 )
@@ -263,10 +260,7 @@ commands(
 
 commands(
     ("vc", 11),
-    library.material_annotation_spanner(
-        "D",
-        selector=lambda _: baca.rleaves(_),
-    ),
+    library.material_annotation_spanner("D"),
     baca.pitch("C#2"),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-markup"),

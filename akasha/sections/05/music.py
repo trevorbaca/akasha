@@ -503,7 +503,7 @@ commands(
 
 commands(
     ("v2", [(38, 39), (43, 44)]),
-    library.material_annotation_spanner("C", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("C"),
 )
 
 commands(
