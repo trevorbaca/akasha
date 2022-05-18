@@ -46,14 +46,14 @@ commands(
 
 commands(
     "v1",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # V2
 
 commands(
     "v2",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # VA
@@ -72,7 +72,7 @@ commands(
 
 commands(
     "vc",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # phantom & reapply
@@ -105,7 +105,6 @@ commands(
 
 # va
 
-
 commands(
     ("va", (1, 2)),
     library.margin_markup("Va."),
@@ -122,9 +121,9 @@ commands(
 
 commands(
     "vc",
-    baca.staff_lines(5),
     library.margin_markup("Vc."),
     baca.start_markup("Cello", hcenter_in=14),
+    baca.staff_lines(5),
 )
 
 if __name__ == "__main__":

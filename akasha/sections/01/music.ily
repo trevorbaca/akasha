@@ -282,168 +282,97 @@ segment.01.Violin.I.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Violin_I_Music_Voice"
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Violin_I_Music_Voice measure 1]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(3)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(2)
-            \abjad-invisible-music-coloring
-              %! -PARTS
-              %! EXPLICIT_BAR_EXTENT
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-            \override Staff.BarLine.bar-extent = #'(-2 . 2)
-              %! -PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.start_markup()
-            \set Staff.instrumentName = \markup \hcenter-in #14 "Violin I"
-              %! -PARTS
-              %! EXPLICIT_MARGIN_MARKUP
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.margin_markup()
-            \set Staff.shortInstrumentName = \akasha-vn-i-markup
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \stopStaff
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \once \override Staff.StaffSymbol.line-count = 5
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \startStaff
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-            % OPENING:
-            % COMMANDS:
-              %! DEFAULT_CLEF
-              %! baca._attach_default_indicators(3)
-              %! baca._set_status_tag()
-            \clef "treble"
-              %! DEFAULT_CLEF_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
-              %! EXPLICIT_MARGIN_MARKUP_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-              %! EXPLICIT_STAFF_LINES_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-              %! DEFAULT_CLEF_COLOR_CANCELLATION
-              %! baca._attach_color_literal(1)
-            %@% \override Staff.Clef.color = ##f
-              %! DEFAULT_CLEF
-              %! baca._attach_default_indicators(3)
-              %! baca._set_status_tag()
-              %! baca.treat_persistent_wrapper(2)
-            \set Staff.forceClef = ##t
-              %! HIDDEN
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(1)
-            b'1 * 3/8
-            % AFTER:
-            % MARKUP:
-              %! DEFAULT_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-default-indicator-markup "(“ViolinI”)"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
-              %! EXPLICIT_MARGIN_MARKUP_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-explicit-indicator-markup "[“Vn. I”]"
-            % ABSOLUTE_AFTER:
-            % COMMANDS:
-              %! DEFAULT_CLEF_REDRAW_COLOR
-              %! baca._attach_color_literal(2)
-            \override Staff.Clef.color = #(x11-color 'violet)
-              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-              %! baca._attach_color_literal(2)
-            \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
-              %! -PARTS
-              %! REDRAWN_EXPLICIT_MARGIN_MARKUP
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.margin_markup()
-              %! baca.treat_persistent_wrapper(3)
-            \set Staff.shortInstrumentName = \akasha-vn-i-markup
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Violin_I_Rest_Voice"
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Violin_I_Rest_Voice measure 1]
-              %! MULTIMEASURE_REST
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 3/8
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._comment_measure_numbers()
+    % [Violin_I_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! -PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.start_markup()
+    \set Staff.instrumentName = \markup \hcenter-in #14 "Violin I"
+      %! -PARTS
+      %! EXPLICIT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.margin_markup()
+    \set Staff.shortInstrumentName = \akasha-vn-i-markup
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \stopStaff
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \startStaff
+    % OPENING:
+    % COMMANDS:
+      %! DEFAULT_CLEF
+      %! baca._attach_default_indicators(3)
+      %! baca._set_status_tag()
+    \clef "treble"
+      %! DEFAULT_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
+      %! EXPLICIT_MARGIN_MARKUP_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! DEFAULT_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! DEFAULT_CLEF
+      %! baca._attach_default_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
+      %! baca._make_mmrests_flat()
+    R1 * 3/8
+    % AFTER:
+    % MARKUP:
+      %! DEFAULT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    %@% ^ \baca-default-indicator-markup "(“ViolinI”)"
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    %@% ^ \baca-explicit-indicator-markup "[“Vn. I”]"
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
+      %! DEFAULT_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'violet)
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+      %! -PARTS
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.margin_markup()
+      %! baca.treat_persistent_wrapper(3)
+    \set Staff.shortInstrumentName = \akasha-vn-i-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 2]
-      %! baca._make_mmrests()
+      %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -463,7 +392,7 @@ segment.01.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_mmrests()
+      %! baca._make_mmrests_flat()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -652,163 +581,92 @@ segment.01.Violin.II.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Violin_II_Music_Voice"
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Violin_II_Music_Voice measure 1]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(3)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(2)
-            \abjad-invisible-music-coloring
-              %! -PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.start_markup()
-            \set Staff.instrumentName = \markup \hcenter-in #14 "Violin II"
-              %! -PARTS
-              %! EXPLICIT_MARGIN_MARKUP
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.margin_markup()
-            \set Staff.shortInstrumentName = \akasha-vn-ii-markup
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \stopStaff
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \once \override Staff.StaffSymbol.line-count = 5
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \startStaff
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-            % OPENING:
-            % COMMANDS:
-              %! DEFAULT_CLEF
-              %! baca._attach_default_indicators(3)
-              %! baca._set_status_tag()
-            \clef "treble"
-              %! DEFAULT_CLEF_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
-              %! EXPLICIT_MARGIN_MARKUP_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-              %! EXPLICIT_STAFF_LINES_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-              %! DEFAULT_CLEF_COLOR_CANCELLATION
-              %! baca._attach_color_literal(1)
-            %@% \override Staff.Clef.color = ##f
-              %! DEFAULT_CLEF
-              %! baca._attach_default_indicators(3)
-              %! baca._set_status_tag()
-              %! baca.treat_persistent_wrapper(2)
-            \set Staff.forceClef = ##t
-              %! HIDDEN
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(1)
-            b'1 * 3/8
-            % AFTER:
-            % MARKUP:
-              %! DEFAULT_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-default-indicator-markup "(“ViolinI”)"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
-              %! EXPLICIT_MARGIN_MARKUP_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-explicit-indicator-markup "[“Vn. II”]"
-            % ABSOLUTE_AFTER:
-            % COMMANDS:
-              %! DEFAULT_CLEF_REDRAW_COLOR
-              %! baca._attach_color_literal(2)
-            \override Staff.Clef.color = #(x11-color 'violet)
-              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-              %! baca._attach_color_literal(2)
-            \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
-              %! -PARTS
-              %! REDRAWN_EXPLICIT_MARGIN_MARKUP
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.margin_markup()
-              %! baca.treat_persistent_wrapper(3)
-            \set Staff.shortInstrumentName = \akasha-vn-ii-markup
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Violin_II_Rest_Voice"
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Violin_II_Rest_Voice measure 1]
-              %! MULTIMEASURE_REST
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 3/8
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._comment_measure_numbers()
+    % [Violin_II_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
+      %! -PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.start_markup()
+    \set Staff.instrumentName = \markup \hcenter-in #14 "Violin II"
+      %! -PARTS
+      %! EXPLICIT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.margin_markup()
+    \set Staff.shortInstrumentName = \akasha-vn-ii-markup
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \stopStaff
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \startStaff
+    % OPENING:
+    % COMMANDS:
+      %! DEFAULT_CLEF
+      %! baca._attach_default_indicators(3)
+      %! baca._set_status_tag()
+    \clef "treble"
+      %! DEFAULT_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
+      %! EXPLICIT_MARGIN_MARKUP_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! DEFAULT_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! DEFAULT_CLEF
+      %! baca._attach_default_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
+      %! baca._make_mmrests_flat()
+    R1 * 3/8
+    % AFTER:
+    % MARKUP:
+      %! DEFAULT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    %@% ^ \baca-default-indicator-markup "(“ViolinI”)"
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    %@% ^ \baca-explicit-indicator-markup "[“Vn. II”]"
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
+      %! DEFAULT_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'violet)
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+      %! -PARTS
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.margin_markup()
+      %! baca.treat_persistent_wrapper(3)
+    \set Staff.shortInstrumentName = \akasha-vn-ii-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 2]
-      %! baca._make_mmrests()
+      %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -828,7 +686,7 @@ segment.01.Violin.II.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_mmrests()
+      %! baca._make_mmrests_flat()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1392,168 +1250,97 @@ segment.01.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Cello_Music_Voice"
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Cello_Music_Voice measure 1]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(3)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(2)
-            \abjad-invisible-music-coloring
-              %! -PARTS
-              %! EXPLICIT_BAR_EXTENT
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-            \override Staff.BarLine.bar-extent = #'(-2 . 2)
-              %! -PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.start_markup()
-            \set Staff.instrumentName = \markup \hcenter-in #14 "Cello"
-              %! -PARTS
-              %! EXPLICIT_MARGIN_MARKUP
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.margin_markup()
-            \set Staff.shortInstrumentName = \akasha-vc-markup
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \stopStaff
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \once \override Staff.StaffSymbol.line-count = 5
-              %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.staff_lines()
-            \startStaff
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-            % OPENING:
-            % COMMANDS:
-              %! DEFAULT_CLEF
-              %! baca._attach_default_indicators(3)
-              %! baca._set_status_tag()
-            \clef "bass"
-              %! DEFAULT_CLEF_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
-              %! EXPLICIT_MARGIN_MARKUP_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-              %! EXPLICIT_STAFF_LINES_COLOR
-              %! baca._attach_color_literal(2)
-            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-              %! DEFAULT_CLEF_COLOR_CANCELLATION
-              %! baca._attach_color_literal(1)
-            %@% \override Staff.Clef.color = ##f
-              %! DEFAULT_CLEF
-              %! baca._attach_default_indicators(3)
-              %! baca._set_status_tag()
-              %! baca.treat_persistent_wrapper(2)
-            \set Staff.forceClef = ##t
-              %! HIDDEN
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(1)
-            d1 * 3/8
-            % AFTER:
-            % MARKUP:
-              %! DEFAULT_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-default-indicator-markup "(“Cello”)"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
-              %! EXPLICIT_MARGIN_MARKUP_ALERT
-              %! baca._attach_latent_indicator_alert()
-            %@% ^ \baca-explicit-indicator-markup "[“Vc.”]"
-            % ABSOLUTE_AFTER:
-            % COMMANDS:
-              %! DEFAULT_CLEF_REDRAW_COLOR
-              %! baca._attach_color_literal(2)
-            \override Staff.Clef.color = #(x11-color 'violet)
-              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-              %! baca._attach_color_literal(2)
-            \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
-              %! -PARTS
-              %! REDRAWN_EXPLICIT_MARGIN_MARKUP
-              %! baca.IndicatorCommand._call()
-              %! baca._set_status_tag()
-              %! baca.margin_markup()
-              %! baca.treat_persistent_wrapper(3)
-            \set Staff.shortInstrumentName = \akasha-vc-markup
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Cello_Rest_Voice"
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Cello_Rest_Voice measure 1]
-              %! MULTIMEASURE_REST
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 3/8
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._comment_measure_numbers()
+    % [Cello_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! -PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.start_markup()
+    \set Staff.instrumentName = \markup \hcenter-in #14 "Cello"
+      %! -PARTS
+      %! EXPLICIT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.margin_markup()
+    \set Staff.shortInstrumentName = \akasha-vc-markup
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \stopStaff
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.staff_lines()
+    \startStaff
+    % OPENING:
+    % COMMANDS:
+      %! DEFAULT_CLEF
+      %! baca._attach_default_indicators(3)
+      %! baca._set_status_tag()
+    \clef "bass"
+      %! DEFAULT_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
+      %! EXPLICIT_MARGIN_MARKUP_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! DEFAULT_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! DEFAULT_CLEF
+      %! baca._attach_default_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
+      %! baca._make_mmrests_flat()
+    R1 * 3/8
+    % AFTER:
+    % MARKUP:
+      %! DEFAULT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    %@% ^ \baca-default-indicator-markup "(“Cello”)"
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    %@% ^ \baca-explicit-indicator-markup "[“Vc.”]"
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
+      %! DEFAULT_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'violet)
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+      %! -PARTS
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
+      %! baca._set_status_tag()
+      %! baca.margin_markup()
+      %! baca.treat_persistent_wrapper(3)
+    \set Staff.shortInstrumentName = \akasha-vc-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 2]
-      %! baca._make_mmrests()
+      %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1573,7 +1360,7 @@ segment.01.Cello.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_mmrests()
+      %! baca._make_mmrests_flat()
     R1 * 1/4
     % AFTER:
     % MARKUP:

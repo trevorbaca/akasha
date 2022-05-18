@@ -119,7 +119,7 @@ commands(
 
 commands(
     ("v1", (1, 5)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
