@@ -2307,12 +2307,6 @@ segment.04.Violin.I.Music.Voice = {
 
     b'2
     % AFTER:
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
     \repeatTie
     % ABSOLUTE_BEFORE:
@@ -2364,6 +2358,12 @@ segment.04.Violin.I.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
@@ -3814,12 +3814,6 @@ segment.04.Violin.II.Music.Voice = {
 
     b'2
     % AFTER:
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
     \repeatTie
     % ABSOLUTE_BEFORE:
@@ -3871,6 +3865,12 @@ segment.04.Violin.II.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % CLOSING:
             % COMMANDS:
 
@@ -4946,13 +4946,6 @@ segment.04.Viola.Music.Voice = {
 
           %! akasha.make_glissando_rhythm()
         cqs!4
-        % AFTER:
-        % SPANNER_STOPS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_STOP
-          %! baca.SpannerIndicatorCommand._call(4)
-          %! baca.slur()
-        \)
         % CLOSING:
         % COMMANDS:
 
@@ -5008,6 +5001,12 @@ segment.04.Viola.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % CLOSING:
             % COMMANDS:
 
@@ -5100,13 +5099,6 @@ segment.04.Viola.Music.Voice = {
 
           %! akasha.make_glissando_rhythm()
         cqs!8
-        % AFTER:
-        % SPANNER_STOPS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_STOP
-          %! baca.SpannerIndicatorCommand._call(4)
-          %! baca.slur()
-        \)
         % CLOSING:
         % COMMANDS:
 
@@ -5162,6 +5154,12 @@ segment.04.Viola.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % CLOSING:
             % COMMANDS:
 
@@ -5254,13 +5252,6 @@ segment.04.Viola.Music.Voice = {
 
           %! akasha.make_glissando_rhythm()
         cqs!4
-        % AFTER:
-        % SPANNER_STOPS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_STOP
-          %! baca.SpannerIndicatorCommand._call(4)
-          %! baca.slur()
-        \)
         % CLOSING:
         % COMMANDS:
 
@@ -5316,6 +5307,12 @@ segment.04.Viola.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % CLOSING:
             % COMMANDS:
 
@@ -5408,13 +5405,6 @@ segment.04.Viola.Music.Voice = {
 
           %! akasha.make_glissando_rhythm()
         cqs!4
-        % AFTER:
-        % SPANNER_STOPS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_STOP
-          %! baca.SpannerIndicatorCommand._call(4)
-          %! baca.slur()
-        \)
         % CLOSING:
         % COMMANDS:
 
@@ -5470,6 +5460,12 @@ segment.04.Viola.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % CLOSING:
             % COMMANDS:
 
@@ -5625,12 +5621,6 @@ segment.04.Viola.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.slur()
-    \)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5674,6 +5664,12 @@ segment.04.Viola.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"5" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % CLOSING:
             % COMMANDS:
 
@@ -7268,12 +7264,6 @@ segment.04.Cello.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
@@ -7320,6 +7310,12 @@ segment.04.Cello.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"5" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % CLOSING:
             % COMMANDS:
 
@@ -7587,13 +7583,6 @@ segment.04.Cello.Music.Voice = {
 
       %! akasha.make_sparse_getato_rhythm()
     r4
-    % AFTER:
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.slur()
-    \)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7637,6 +7626,12 @@ segment.04.Cello.Music.Voice = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+            % SPANNER_STOPS:
+              %! COLORED_PHRASING_SLUR
+              %! SPANNER_STOP
+              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca.slur()
+            \)
             % CLOSING:
             % COMMANDS:
 
