@@ -466,19 +466,19 @@ commands(
 
 commands(
     ("v1", (3, 4)),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches(27, [2]),
     baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
     ("v1", (8, 9)),
-    library.material("C"),
+    library.material_annotation_spanner("C"),
 )
 
 commands(
     ("v1", (11, 22)),
-    library.material("C"),
+    library.material_annotation_spanner("C"),
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.new(
         baca.hairpin("pp < p", remove_length_1_spanner_start=True),
@@ -499,7 +499,7 @@ commands(
 
 commands(
     ("v1", (36, 41)),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches(29, [2]),
     baca.hairpin(
         "ff < fff",
@@ -523,19 +523,19 @@ commands(
 
 commands(
     ("v2", (3, 4)),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches(24, [2]),
     baca.staccato(selector=lambda _: baca.select.pheads(_)),
 )
 
 commands(
     ("v2", (8, 9)),
-    library.material("C"),
+    library.material_annotation_spanner("C"),
 )
 
 commands(
     ("v2", (11, 22)),
-    library.material("C"),
+    library.material_annotation_spanner("C"),
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.new(
         baca.hairpin("pp < p", remove_length_1_spanner_start=True),
@@ -556,7 +556,7 @@ commands(
 
 commands(
     ("v2", (36, 41)),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches(26, [2]),
     baca.hairpin(
         "ff < fff",
@@ -585,7 +585,7 @@ commands(
 
 commands(
     ("va", 6),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
     baca.dynamic("ff"),
     baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
     baca.pitch("F#3"),
@@ -600,7 +600,7 @@ commands(
 
 commands(
     ("va", (36, 41)),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches(23, [2]),
     baca.clef("treble"),
     baca.hairpin(
@@ -615,7 +615,7 @@ commands(
 
 commands(
     ("va", 43),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
@@ -634,7 +634,7 @@ commands(
 
 commands(
     ("va", 47),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
@@ -650,13 +650,13 @@ commands(
     library.cello_solo_pitches(transposition="m2"),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-    library.material("B"),
+    library.material_annotation_spanner("B"),
 )
 
 commands(
     ("vc", (3, 4)),
     baca.clef("treble"),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches(21, [2]),
     baca.markup(r"\baca-leggieriss-markup"),
     baca.dynamic("pp"),
@@ -673,7 +673,7 @@ commands(
 
 commands(
     ("vc", (36, 41)),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches(20, [2]),
     baca.clef("treble"),
     baca.hairpin(
@@ -712,12 +712,12 @@ commands(
 
 commands(
     (["va", "vc"], (11, 34)),
-    library.material("B"),
+    library.material_annotation_spanner("B"),
 )
 
 commands(
     (["v1", "v2"], (23, 34)),
-    library.material("B"),
+    library.material_annotation_spanner("B"),
 )
 
 commands(
@@ -744,7 +744,7 @@ commands(
 
 commands(
     (["v1", "v2", "va", "vc"], 45),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
 )
 
 

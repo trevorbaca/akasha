@@ -450,12 +450,12 @@ commands(
 
 commands(
     ("v1", 5),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("v1", 7),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -500,17 +500,17 @@ commands(
 
 commands(
     ("v2", 3),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("v2", 5),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("v2", 7),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -564,27 +564,27 @@ commands(
 
 commands(
     ("va", 1),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", 3),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", 5),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", 7),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", (9, 38)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -602,12 +602,12 @@ commands(
 
 commands(
     ("vc", 3),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("vc", 7),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -666,7 +666,7 @@ commands(
 
 commands(
     (["v1", "v2", "vc"], (9, 38)),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
 )
 
 

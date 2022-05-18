@@ -241,7 +241,7 @@ commands(
 
 commands(
     ("v1", (1, 4)),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches(31, [2]),
     baca.hairpin(
         "pp >o niente",
@@ -352,22 +352,22 @@ commands(
 
 commands(
     ("v1", [(5, 13), (15, 17)]),
-    library.material("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     (["v2", "vc"], [(1, 13), (15, 17)]),
-    library.material("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", (1, 13)),
-    library.material("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     ("va", (15, 17)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
 )
 
 if __name__ == "__main__":

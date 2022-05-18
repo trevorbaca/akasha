@@ -426,7 +426,7 @@ def margin_markup(
     return baca.not_parts(command)
 
 
-def material(letter, selector=lambda _: baca.select.leaves(_)):
+def material_annotation_spanner(letter, selector=lambda _: baca.select.leaves(_)):
     markup = baca.markup(
         rf"""\markup
             \override #'(circle-padding . 0.75)

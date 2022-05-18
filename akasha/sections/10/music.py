@@ -457,7 +457,7 @@ commands(
 
 commands(
     ("v1", (8, 20)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
     baca.alternate_bow_strokes(),
 )
 
@@ -483,7 +483,7 @@ commands(
 
 commands(
     ("v1", (23, 24)),
-    library.material("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
     library.getato_pitches(31, [2]),
     baca.dynamic("ppp"),
     baca.markup(r"\akasha-leggieriss-plus-po-markup"),
@@ -502,7 +502,7 @@ commands(
 
 commands(
     ("v2", (13, 20)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
     baca.alternate_bow_strokes(downbow_first=False),
 )
 
@@ -525,7 +525,7 @@ commands(
 
 commands(
     ("va", (4, 20)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -562,7 +562,7 @@ commands(
 
 commands(
     ("vc", (13, 14)),
-    library.material("D", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("D", lambda _: baca.select.rleaves(_)),
     baca.pitch("B1"),
     baca.hairpin("sfp < f"),
     baca.text_spanner("senza vib. => vib. moltiss."),
@@ -570,7 +570,7 @@ commands(
 
 commands(
     ("vc", (17, 20)),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
     baca.alternate_bow_strokes(),
     baca.dynamic("ppp"),
     baca.text_spanner("OB => XP"),
@@ -588,7 +588,7 @@ commands(
 
 commands(
     (["v1", "v2", "va", "vc"], (1, 2)),
-    library.material("D", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("D", lambda _: baca.select.rleaves(_)),
     baca.hairpin("sfp < f"),
     baca.text_spanner("PO + senza vib. => vib. moltiss."),
     baca.new(
@@ -613,7 +613,7 @@ commands(
     (["v1", "v2", "vc"], (4, 5)),
     baca.hairpin("sfp < f"),
     baca.text_spanner("senza vib. => vib. moltiss."),
-    library.material("D", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("D", lambda _: baca.select.rleaves(_)),
     baca.new(
         baca.pitch("B5"),
         match=0,
@@ -632,7 +632,7 @@ commands(
     (["v2", "vc"], (8, 10)),
     baca.hairpin("sfp < f"),
     baca.text_spanner("senza vib. => vib. moltiss."),
-    library.material("D", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("D", lambda _: baca.select.rleaves(_)),
     baca.new(
         baca.pitch("A#+3"),
         match=0,
@@ -654,21 +654,21 @@ commands(
 
 commands(
     (["v1", "v2", "va", "vc"], (21, 22)),
-    library.material("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
     baca.hairpin("ppp < mp"),
     baca.markup(r"\akasha-xp-plus-fb-markup"),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (25, 26)),
-    library.material("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
     baca.hairpin("ppp < mp"),
     baca.text_spanner("XP+FB => tasto+FB"),
 )
 
 commands(
     (["v1", "v2", "va", "vc"], (28, 29)),
-    library.material("C", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("C", lambda _: baca.select.rleaves(_)),
     baca.dynamic("p"),
     baca.new(
         baca.pitches("D#4 E#4"),
@@ -690,7 +690,7 @@ commands(
 
 commands(
     (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
-    library.material("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
