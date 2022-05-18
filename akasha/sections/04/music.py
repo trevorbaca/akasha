@@ -441,10 +441,7 @@ commands(
 
 commands(
     ("v2", 26),
-    library.material_annotation_spanner(
-        "C",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    library.material_annotation_spanner("C"),
 )
 
 # va
@@ -458,10 +455,7 @@ commands(
 
 commands(
     ("va", 16),
-    library.material_annotation_spanner(
-        "A",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    library.material_annotation_spanner("A"),
 )
 
 commands(
@@ -473,10 +467,7 @@ commands(
 
 commands(
     ("va", 23),
-    library.material_annotation_spanner(
-        "B",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    library.material_annotation_spanner("B"),
 )
 
 commands(
@@ -504,20 +495,14 @@ commands(
 
 commands(
     ("va", (25, 26)),
-    library.material_annotation_spanner(
-        "D",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    library.material_annotation_spanner("D"),
 )
 
 # vc
 
 commands(
     ("vc", [1, 3, 5, 7]),
-    library.material_annotation_spanner(
-        "D",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    library.material_annotation_spanner("D"),
 )
 
 commands(
@@ -548,10 +533,7 @@ commands(
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitch("C4"),
-    library.material_annotation_spanner(
-        "B",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    library.material_annotation_spanner("B"),
 )
 
 commands(
@@ -559,10 +541,7 @@ commands(
     baca.hairpin("mp > pp"),
     baca.markup(r"\baca-tasto-markup"),
     baca.pitch("C#2"),
-    library.material_annotation_spanner(
-        "D",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    library.material_annotation_spanner("D"),
 )
 
 # composites
@@ -572,10 +551,7 @@ commands(
         ("v1", [(16, 17), 19, 21, 23, (25, 26)]),
         ("v2", [(16, 17), 19, 21, 23]),
     ],
-    library.material_annotation_spanner(
-        "E",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
+    library.material_annotation_spanner("E"),
 )
 
 commands(

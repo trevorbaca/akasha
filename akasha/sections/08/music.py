@@ -352,22 +352,22 @@ commands(
 
 commands(
     ("v1", [(5, 13), (15, 17)]),
-    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B"),
 )
 
 commands(
     (["v2", "vc"], [(1, 13), (15, 17)]),
-    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B"),
 )
 
 commands(
     ("va", (1, 13)),
-    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B"),
 )
 
 commands(
     ("va", (15, 17)),
-    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E"),
 )
 
 if __name__ == "__main__":

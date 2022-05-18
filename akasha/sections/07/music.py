@@ -585,7 +585,7 @@ commands(
 
 commands(
     ("va", 6),
-    library.material_annotation_spanner("A", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("A"),
     baca.dynamic("ff"),
     baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
     baca.pitch("F#3"),
@@ -615,7 +615,7 @@ commands(
 
 commands(
     ("va", 43),
-    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E"),
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
@@ -634,7 +634,7 @@ commands(
 
 commands(
     ("va", 47),
-    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E"),
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),

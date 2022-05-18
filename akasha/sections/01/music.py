@@ -109,7 +109,7 @@ commands(
     ("va", (1, 2)),
     library.margin_markup("Va."),
     baca.start_markup("Viola", hcenter_in=14),
-    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E"),
     baca.staff_lines(1),
     baca.down_bow(),
     baca.dynamic('"mf"'),
