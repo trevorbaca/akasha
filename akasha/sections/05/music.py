@@ -503,7 +503,7 @@ commands(
 
 commands(
     ("v2", [(38, 39), (43, 44)]),
-    library.material("C", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("C", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -540,7 +540,7 @@ commands(
 
 commands(
     ("va", (33, 36)),
-    library.material("D"),
+    library.material_annotation_spanner("D"),
     baca.clef("alto"),
     baca.pitches("Fb3 E3 D#3 C#3 B#2", exact=True),
     baca.glissando(),
@@ -615,7 +615,7 @@ commands(
 
 commands(
     ("vc", (43, 50)),
-    library.material("D"),
+    library.material_annotation_spanner("D"),
     baca.pitches("Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True),
     baca.glissando(),
     baca.hairpin("sf > ppp"),
@@ -631,7 +631,7 @@ commands(
         ("va", (24, 31)),
         ("vc", (33, 36)),
     ],
-    library.material("D"),
+    library.material_annotation_spanner("D"),
 )
 
 commands(
@@ -643,7 +643,7 @@ commands(
         (["v1", "va", "vc"], (38, 41)),
         (["v1", "va"], (43, 46)),
     ],
-    library.material("E"),
+    library.material_annotation_spanner("E"),
 )
 
 commands(

@@ -193,7 +193,7 @@ commands(
 
 commands(
     ("v1", (1, 3)),
-    library.material("C"),
+    library.material_annotation_spanner("C"),
     baca.pitches("E5 D5"),
 )
 
@@ -201,7 +201,7 @@ commands(
 
 commands(
     ("v2", (1, 3)),
-    library.material("B"),
+    library.material_annotation_spanner("B"),
     baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
@@ -209,7 +209,7 @@ commands(
 
 commands(
     ("v2", (10, 11)),
-    library.material("C"),
+    library.material_annotation_spanner("C"),
     baca.pitches("C5 Bb4"),
     baca.dynamic("pp"),
     baca.markup(r"\baca-tasto-plus-xfb-markup"),
@@ -219,13 +219,13 @@ commands(
 
 commands(
     ("va", (1, 3)),
-    library.material("B"),
+    library.material_annotation_spanner("B"),
     baca.pitches("Db4 Db~4 C4", exact=True),
 )
 
 commands(
     ("va", 11),
-    library.material(
+    library.material_annotation_spanner(
         "D",
         selector=lambda _: baca.rleaves(_),
     ),
@@ -238,17 +238,17 @@ commands(
 
 commands(
     ("vc", (1, 4)),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
 )
 
 commands(
     ("vc", 6),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
 )
 
 commands(
     ("vc", 8),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
 )
 
 commands(
@@ -263,7 +263,7 @@ commands(
 
 commands(
     ("vc", 11),
-    library.material(
+    library.material_annotation_spanner(
         "D",
         selector=lambda _: baca.rleaves(_),
     ),

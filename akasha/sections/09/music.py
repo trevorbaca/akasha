@@ -183,7 +183,7 @@ commands(
 commands(
     ("va", (1, 3)),
     baca.staff_position(0),
-    library.material("E", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("E", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
@@ -217,7 +217,7 @@ commands(
     (["v1", "v2", "vc"], (1, 2)),
     baca.dynamic("p"),
     baca.markup(r"\baca-xfb-markup"),
-    library.material("C"),
+    library.material_annotation_spanner("C"),
     baca.new(
         baca.pitches("D4 E4"),
         match=0,
@@ -234,12 +234,12 @@ commands(
 
 commands(
     (["v1", "v2", "vc"], 3),
-    library.material("B", lambda _: baca.select.rleaves(_)),
+    library.material_annotation_spanner("B", lambda _: baca.select.rleaves(_)),
 )
 
 commands(
     (["va", "vc"], (5, 6)),
-    library.material("D"),
+    library.material_annotation_spanner("D"),
 )
 
 

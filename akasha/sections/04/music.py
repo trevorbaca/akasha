@@ -420,14 +420,14 @@ commands(
 
 commands(
     ("v1", (9, 13)),
-    library.material("E"),
+    library.material_annotation_spanner("E"),
 )
 
 # v2
 
 commands(
     ("v2", (9, 13)),
-    library.material("E"),
+    library.material_annotation_spanner("E"),
 )
 
 commands(
@@ -441,7 +441,7 @@ commands(
 
 commands(
     ("v2", 26),
-    library.material(
+    library.material_annotation_spanner(
         "C",
         selector=lambda _: baca.select.rleaves(_),
     ),
@@ -458,7 +458,7 @@ commands(
 
 commands(
     ("va", 16),
-    library.material(
+    library.material_annotation_spanner(
         "A",
         selector=lambda _: baca.select.rleaves(_),
     ),
@@ -473,7 +473,7 @@ commands(
 
 commands(
     ("va", 23),
-    library.material(
+    library.material_annotation_spanner(
         "B",
         selector=lambda _: baca.select.rleaves(_),
     ),
@@ -492,19 +492,19 @@ commands(
     baca.pitches("Eb3 D3 C#3 B#2", exact=True),
     baca.glissando(),
     baca.hairpin("mp > pp"),
-    library.material("D"),
+    library.material_annotation_spanner("D"),
 )
 
 commands(
     ("va", [1, 3, 5, 7]),
     baca.pitches("D#3 C+3", exact=True),
     baca.glissando(),
-    library.material("D"),
+    library.material_annotation_spanner("D"),
 )
 
 commands(
     ("va", (25, 26)),
-    library.material(
+    library.material_annotation_spanner(
         "D",
         selector=lambda _: baca.select.rleaves(_),
     ),
@@ -514,7 +514,7 @@ commands(
 
 commands(
     ("vc", [1, 3, 5, 7]),
-    library.material(
+    library.material_annotation_spanner(
         "D",
         selector=lambda _: baca.select.rleaves(_),
     ),
@@ -523,7 +523,7 @@ commands(
 commands(
     ("vc", (9, 12)),
     baca.hairpin("mp > pp"),
-    library.material("D"),
+    library.material_annotation_spanner("D"),
 )
 
 commands(
@@ -536,7 +536,7 @@ commands(
 
 commands(
     ("vc", 15),
-    library.material("A"),
+    library.material_annotation_spanner("A"),
     library.getato_pitches("C#3", direction=abjad.DOWN),
     baca.dynamic("p"),
     baca.markup(r"\baca-leggieriss-markup"),
@@ -548,7 +548,7 @@ commands(
     baca.dynamic("mp"),
     baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
     baca.pitch("C4"),
-    library.material(
+    library.material_annotation_spanner(
         "B",
         selector=lambda _: baca.select.rleaves(_),
     ),
@@ -559,7 +559,7 @@ commands(
     baca.hairpin("mp > pp"),
     baca.markup(r"\baca-tasto-markup"),
     baca.pitch("C#2"),
-    library.material(
+    library.material_annotation_spanner(
         "D",
         selector=lambda _: baca.select.rleaves(_),
     ),
@@ -572,7 +572,7 @@ commands(
         ("v1", [(16, 17), 19, 21, 23, (25, 26)]),
         ("v2", [(16, 17), 19, 21, 23]),
     ],
-    library.material(
+    library.material_annotation_spanner(
         "E",
         selector=lambda _: baca.select.rleaves(_),
     ),
