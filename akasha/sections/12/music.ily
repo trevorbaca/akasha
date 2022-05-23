@@ -3964,12 +3964,12 @@ segment.12.Global_Rests = {
 
 
   %! baca.path.extern()
-segment.12.Violin_I_Music_Voice = {
+segment.12.Violin.1.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 1]
+    % [Violin.1.Music_Voice measure 1]
     % BEFORE:
     % COMMANDS:
       %! EXPLICIT_BAR_EXTENT
@@ -4074,7 +4074,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 2]
+    % [Violin.1.Music_Voice measure 2]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -4089,7 +4089,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 3]
+    % [Violin.1.Music_Voice measure 3]
     a''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -4113,7 +4113,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 4]
+    % [Violin.1.Music_Voice measure 4]
     a''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -4137,7 +4137,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 5]
+    % [Violin.1.Music_Voice measure 5]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -4176,7 +4176,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 6]
+    % [Violin.1.Music_Voice measure 6]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -4191,7 +4191,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 7]
+    % [Violin.1.Music_Voice measure 7]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -4211,7 +4211,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 8]
+    % [Violin.1.Music_Voice measure 8]
       %! baca.make_repeat_tied_notes()
     a''2.
     % AFTER:
@@ -4226,7 +4226,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 9]
+    % [Violin.1.Music_Voice measure 9]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -4265,7 +4265,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 10]
+    % [Violin.1.Music_Voice measure 10]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -4280,7 +4280,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 11]
+    % [Violin.1.Music_Voice measure 11]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -4300,7 +4300,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 12]
+    % [Violin.1.Music_Voice measure 12]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -4315,7 +4315,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 13]
+    % [Violin.1.Music_Voice measure 13]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -4354,7 +4354,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 14]
+    % [Violin.1.Music_Voice measure 14]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -4369,7 +4369,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 15]
+    % [Violin.1.Music_Voice measure 15]
       %! baca.make_repeat_tied_notes()
     a''2.
     % AFTER:
@@ -4402,7 +4402,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 16]
+    % [Violin.1.Music_Voice measure 16]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -4417,7 +4417,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 17]
+    % [Violin.1.Music_Voice measure 17]
     a''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -4465,7 +4465,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 18]
+    % [Violin.1.Music_Voice measure 18]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -4480,7 +4480,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 19]
+    % [Violin.1.Music_Voice measure 19]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -4495,7 +4495,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 20]
+    % [Violin.1.Music_Voice measure 20]
     a''2.
     % AFTER:
     % SPANNER_STOPS:
@@ -4524,7 +4524,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 21]
+    % [Violin.1.Music_Voice measure 21]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -4563,7 +4563,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 22]
+    % [Violin.1.Music_Voice measure 22]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -4578,7 +4578,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 23]
+    % [Violin.1.Music_Voice measure 23]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -4598,7 +4598,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 24]
+    % [Violin.1.Music_Voice measure 24]
       %! baca.make_repeat_tied_notes()
     a''2.
     % AFTER:
@@ -4613,7 +4613,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 25]
+    % [Violin.1.Music_Voice measure 25]
     a''2.
     % AFTER:
     % ARTICULATIONS:
@@ -4690,7 +4690,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 26]
+    % [Violin.1.Music_Voice measure 26]
     a''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -4714,7 +4714,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 27]
+    % [Violin.1.Music_Voice measure 27]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -4749,7 +4749,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 28]
+    % [Violin.1.Music_Voice measure 28]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -4760,7 +4760,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 29]
+    % [Violin.1.Music_Voice measure 29]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -4784,7 +4784,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 30]
+    % [Violin.1.Music_Voice measure 30]
     % BEFORE:
     % COMMANDS:
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -4871,7 +4871,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 31]
+    % [Violin.1.Music_Voice measure 31]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -4886,7 +4886,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 32]
+    % [Violin.1.Music_Voice measure 32]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -4921,7 +4921,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 33]
+    % [Violin.1.Music_Voice measure 33]
     a''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -4945,7 +4945,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 34]
+    % [Violin.1.Music_Voice measure 34]
     a''2.
     % AFTER:
     % ARTICULATIONS:
@@ -5038,7 +5038,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 35]
+    % [Violin.1.Music_Voice measure 35]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -5104,7 +5104,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 36]
+    % [Violin.1.Music_Voice measure 36]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -5139,7 +5139,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 37]
+    % [Violin.1.Music_Voice measure 37]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -5154,7 +5154,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 38]
+    % [Violin.1.Music_Voice measure 38]
       %! baca.make_repeat_tied_notes()
     a''2.
     % AFTER:
@@ -5222,7 +5222,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 39]
+    % [Violin.1.Music_Voice measure 39]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -5253,7 +5253,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 40]
+    % [Violin.1.Music_Voice measure 40]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -5277,7 +5277,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 41]
+    % [Violin.1.Music_Voice measure 41]
     % BEFORE:
     % COMMANDS:
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -5364,7 +5364,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 42]
+    % [Violin.1.Music_Voice measure 42]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -5379,7 +5379,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 43]
+    % [Violin.1.Music_Voice measure 43]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -5394,7 +5394,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 44]
+    % [Violin.1.Music_Voice measure 44]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -5429,7 +5429,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 45]
+    % [Violin.1.Music_Voice measure 45]
       %! baca.make_repeat_tied_notes()
     a''4.
     % AFTER:
@@ -5440,7 +5440,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 46]
+    % [Violin.1.Music_Voice measure 46]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -5467,7 +5467,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 47]
+    % [Violin.1.Music_Voice measure 47]
     % BEFORE:
     % COMMANDS:
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -5501,7 +5501,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 48]
+    % [Violin.1.Music_Voice measure 48]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -5516,7 +5516,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 49]
+    % [Violin.1.Music_Voice measure 49]
       %! baca.make_repeat_tied_notes()
     a''2..
     % AFTER:
@@ -5531,7 +5531,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 50]
+    % [Violin.1.Music_Voice measure 50]
       %! baca.make_repeat_tied_notes()
     a''2
     % AFTER:
@@ -5546,7 +5546,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 51]
+    % [Violin.1.Music_Voice measure 51]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -5561,7 +5561,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 52]
+    % [Violin.1.Music_Voice measure 52]
     a''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -5581,7 +5581,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 53]
+    % [Violin.1.Music_Voice measure 53]
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
@@ -5651,7 +5651,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 54]
+    % [Violin.1.Music_Voice measure 54]
       %! baca.make_repeat_tied_notes()
     b''''2..
     % AFTER:
@@ -5682,7 +5682,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 55]
+    % [Violin.1.Music_Voice measure 55]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -5711,7 +5711,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 56]
+    % [Violin.1.Music_Voice measure 56]
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
@@ -5813,7 +5813,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 57]
+    % [Violin.1.Music_Voice measure 57]
       %! baca.make_repeat_tied_notes()
     b''''2.
     % AFTER:
@@ -5828,7 +5828,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 58]
+    % [Violin.1.Music_Voice measure 58]
       %! baca.make_repeat_tied_notes()
     b''''2..
     % AFTER:
@@ -5863,7 +5863,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 59]
+    % [Violin.1.Music_Voice measure 59]
     b''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -5940,7 +5940,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 60]
+    % [Violin.1.Music_Voice measure 60]
       %! baca.make_repeat_tied_notes()
     b''''2
     % AFTER:
@@ -5971,7 +5971,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 61]
+    % [Violin.1.Music_Voice measure 61]
       %! baca.make_repeat_tied_notes()
     b''''1
     % AFTER:
@@ -6047,7 +6047,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 62]
+    % [Violin.1.Music_Voice measure 62]
     b''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -6071,7 +6071,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 63]
+    % [Violin.1.Music_Voice measure 63]
       %! baca.make_repeat_tied_notes()
     b''''2
     % AFTER:
@@ -6106,7 +6106,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 64]
+    % [Violin.1.Music_Voice measure 64]
       %! baca.make_repeat_tied_notes()
     b''''4.
     % AFTER:
@@ -6121,7 +6121,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 65]
+    % [Violin.1.Music_Voice measure 65]
     b''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -6145,7 +6145,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 66]
+    % [Violin.1.Music_Voice measure 66]
     b''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -6169,7 +6169,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 67]
+    % [Violin.1.Music_Voice measure 67]
       %! baca.make_repeat_tied_notes()
     b''''2
     % AFTER:
@@ -6184,7 +6184,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 68]
+    % [Violin.1.Music_Voice measure 68]
       %! baca.make_repeat_tied_notes()
     b''''1
     % AFTER:
@@ -6206,7 +6206,7 @@ segment.12.Violin_I_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_I_Music_Voice measure 69]
+    % [Violin.1.Music_Voice measure 69]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -6247,7 +6247,7 @@ segment.12.Violin_I_Music_Voice = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Violin_I_Music_Voice"
+        \context Voice = "Violin.1.Music_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -6257,7 +6257,7 @@ segment.12.Violin_I_Music_Voice = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Violin_I_Music_Voice measure 70]
+            % [Violin.1.Music_Voice measure 70]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -6313,7 +6313,7 @@ segment.12.Violin_I_Music_Voice = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Violin_I_Rest_Voice"
+        \context Voice = "Violin.1.Rest_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -6323,7 +6323,7 @@ segment.12.Violin_I_Music_Voice = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Violin_I_Rest_Voice measure 70]
+            % [Violin.1.Rest_Voice measure 70]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -6379,7 +6379,7 @@ segment.12.Violin_I_Music_Voice = {
 
 
   %! baca.path.extern()
-segment.12.Violin.I.Music.Staff = <<
+segment.12.Violin.1.Music.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6394,10 +6394,10 @@ segment.12.Violin.I.Music.Staff = <<
 
     % OPEN_BRACKETS:
       %! akasha.make_empty_score()
-    \context Voice = "Violin_I_Music_Voice"
+    \context Voice = "Violin.1.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \segment.12.Violin_I_Music_Voice }
+    { \segment.12.Violin.1.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -6408,12 +6408,12 @@ segment.12.Violin.I.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.12.Violin_II_Music_Voice = {
+segment.12.Violin.2.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 1]
+    % [Violin.2.Music_Voice measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
@@ -6513,7 +6513,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 2]
+    % [Violin.2.Music_Voice measure 2]
       %! baca.make_repeat_tied_notes()
     gtqs'1
     % AFTER:
@@ -6528,7 +6528,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 3]
+    % [Violin.2.Music_Voice measure 3]
     gtqs'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -6552,7 +6552,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 4]
+    % [Violin.2.Music_Voice measure 4]
     gtqs'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -6576,7 +6576,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 5]
+    % [Violin.2.Music_Voice measure 5]
       %! baca.make_repeat_tied_notes()
     gtqs'4.
     % AFTER:
@@ -6615,7 +6615,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 6]
+    % [Violin.2.Music_Voice measure 6]
       %! baca.make_repeat_tied_notes()
     gtqs'2
     % AFTER:
@@ -6630,7 +6630,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 7]
+    % [Violin.2.Music_Voice measure 7]
       %! baca.make_repeat_tied_notes()
     gtqs'4.
     % AFTER:
@@ -6650,7 +6650,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 8]
+    % [Violin.2.Music_Voice measure 8]
       %! baca.make_repeat_tied_notes()
     gtqs'2.
     % AFTER:
@@ -6665,7 +6665,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 9]
+    % [Violin.2.Music_Voice measure 9]
       %! baca.make_repeat_tied_notes()
     gtqs'2..
     % AFTER:
@@ -6704,7 +6704,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 10]
+    % [Violin.2.Music_Voice measure 10]
       %! baca.make_repeat_tied_notes()
     gtqs'2..
     % AFTER:
@@ -6719,7 +6719,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 11]
+    % [Violin.2.Music_Voice measure 11]
       %! baca.make_repeat_tied_notes()
     gtqs'2
     % AFTER:
@@ -6739,7 +6739,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 12]
+    % [Violin.2.Music_Voice measure 12]
       %! baca.make_repeat_tied_notes()
     gtqs'4.
     % AFTER:
@@ -6754,7 +6754,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 13]
+    % [Violin.2.Music_Voice measure 13]
       %! baca.make_repeat_tied_notes()
     gtqs'2..
     % AFTER:
@@ -6793,7 +6793,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 14]
+    % [Violin.2.Music_Voice measure 14]
       %! baca.make_repeat_tied_notes()
     gtqs'4.
     % AFTER:
@@ -6808,7 +6808,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 15]
+    % [Violin.2.Music_Voice measure 15]
       %! baca.make_repeat_tied_notes()
     gtqs'2.
     % AFTER:
@@ -6841,7 +6841,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 16]
+    % [Violin.2.Music_Voice measure 16]
       %! baca.make_repeat_tied_notes()
     gtqs'2..
     % AFTER:
@@ -6856,7 +6856,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 17]
+    % [Violin.2.Music_Voice measure 17]
     gtqs'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -6904,7 +6904,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 18]
+    % [Violin.2.Music_Voice measure 18]
       %! baca.make_repeat_tied_notes()
     gtqs'2
     % AFTER:
@@ -6919,7 +6919,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 19]
+    % [Violin.2.Music_Voice measure 19]
       %! baca.make_repeat_tied_notes()
     gtqs'1
     % AFTER:
@@ -6934,7 +6934,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 20]
+    % [Violin.2.Music_Voice measure 20]
     gtqs'2.
     % AFTER:
     % SPANNER_STOPS:
@@ -6963,7 +6963,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 21]
+    % [Violin.2.Music_Voice measure 21]
       %! baca.make_repeat_tied_notes()
     gtqs'2..
     % AFTER:
@@ -7002,7 +7002,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 22]
+    % [Violin.2.Music_Voice measure 22]
       %! baca.make_repeat_tied_notes()
     gtqs'2..
     % AFTER:
@@ -7017,7 +7017,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 23]
+    % [Violin.2.Music_Voice measure 23]
       %! baca.make_repeat_tied_notes()
     gtqs'4.
     % AFTER:
@@ -7037,7 +7037,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 24]
+    % [Violin.2.Music_Voice measure 24]
       %! baca.make_repeat_tied_notes()
     gtqs'2.
     % AFTER:
@@ -7052,7 +7052,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 25]
+    % [Violin.2.Music_Voice measure 25]
     gtqs'2.
     % AFTER:
     % ARTICULATIONS:
@@ -7129,7 +7129,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 26]
+    % [Violin.2.Music_Voice measure 26]
     gtqs'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7153,7 +7153,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 27]
+    % [Violin.2.Music_Voice measure 27]
       %! baca.make_repeat_tied_notes()
     gtqs'2
     % AFTER:
@@ -7188,7 +7188,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 28]
+    % [Violin.2.Music_Voice measure 28]
       %! baca.make_repeat_tied_notes()
     gtqs'1
     % AFTER:
@@ -7199,7 +7199,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 29]
+    % [Violin.2.Music_Voice measure 29]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -7219,7 +7219,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 30]
+    % [Violin.2.Music_Voice measure 30]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(3)
@@ -7293,7 +7293,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 31]
+    % [Violin.2.Music_Voice measure 31]
       %! baca.make_repeat_tied_notes()
     a'2
     % AFTER:
@@ -7308,7 +7308,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 32]
+    % [Violin.2.Music_Voice measure 32]
       %! baca.make_repeat_tied_notes()
     a'1
     % AFTER:
@@ -7343,7 +7343,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 33]
+    % [Violin.2.Music_Voice measure 33]
     a'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7367,7 +7367,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 34]
+    % [Violin.2.Music_Voice measure 34]
     a'2.
     % AFTER:
     % ARTICULATIONS:
@@ -7460,7 +7460,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 35]
+    % [Violin.2.Music_Voice measure 35]
       %! baca.make_repeat_tied_notes()
     gtqs'!2
     % AFTER:
@@ -7526,7 +7526,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 36]
+    % [Violin.2.Music_Voice measure 36]
       %! baca.make_repeat_tied_notes()
     gtqs'2
     % AFTER:
@@ -7561,7 +7561,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 37]
+    % [Violin.2.Music_Voice measure 37]
       %! baca.make_repeat_tied_notes()
     gtqs'4.
     % AFTER:
@@ -7576,7 +7576,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 38]
+    % [Violin.2.Music_Voice measure 38]
       %! baca.make_repeat_tied_notes()
     gtqs'2.
     % AFTER:
@@ -7644,7 +7644,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 39]
+    % [Violin.2.Music_Voice measure 39]
       %! baca.make_repeat_tied_notes()
     gtqs'2..
     % AFTER:
@@ -7675,7 +7675,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 40]
+    % [Violin.2.Music_Voice measure 40]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -7695,7 +7695,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 41]
+    % [Violin.2.Music_Voice measure 41]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(3)
@@ -7769,7 +7769,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 42]
+    % [Violin.2.Music_Voice measure 42]
       %! baca.make_repeat_tied_notes()
     a'4.
     % AFTER:
@@ -7784,7 +7784,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 43]
+    % [Violin.2.Music_Voice measure 43]
       %! baca.make_repeat_tied_notes()
     a'4.
     % AFTER:
@@ -7799,7 +7799,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 44]
+    % [Violin.2.Music_Voice measure 44]
       %! baca.make_repeat_tied_notes()
     a'2
     % AFTER:
@@ -7834,7 +7834,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 45]
+    % [Violin.2.Music_Voice measure 45]
       %! baca.make_repeat_tied_notes()
     a'4.
     % AFTER:
@@ -7845,7 +7845,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 46]
+    % [Violin.2.Music_Voice measure 46]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -7869,7 +7869,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 47]
+    % [Violin.2.Music_Voice measure 47]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(3)
@@ -7890,7 +7890,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 48]
+    % [Violin.2.Music_Voice measure 48]
       %! baca.make_repeat_tied_notes()
     a'2..
     % AFTER:
@@ -7905,7 +7905,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 49]
+    % [Violin.2.Music_Voice measure 49]
       %! baca.make_repeat_tied_notes()
     a'2..
     % AFTER:
@@ -7920,7 +7920,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 50]
+    % [Violin.2.Music_Voice measure 50]
       %! baca.make_repeat_tied_notes()
     a'2
     % AFTER:
@@ -7931,7 +7931,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 51]
+    % [Violin.2.Music_Voice measure 51]
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
@@ -7991,7 +7991,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 52]
+    % [Violin.2.Music_Voice measure 52]
     cs''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8015,7 +8015,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 53]
+    % [Violin.2.Music_Voice measure 53]
     cs''''2.
     % AFTER:
     % ARTICULATIONS:
@@ -8054,7 +8054,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 54]
+    % [Violin.2.Music_Voice measure 54]
       %! baca.make_repeat_tied_notes()
     cs''''2..
     % AFTER:
@@ -8070,7 +8070,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 55]
+    % [Violin.2.Music_Voice measure 55]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -8095,7 +8095,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 56]
+    % [Violin.2.Music_Voice measure 56]
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
@@ -8184,7 +8184,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 57]
+    % [Violin.2.Music_Voice measure 57]
       %! baca.make_repeat_tied_notes()
     cs''''2.
     % AFTER:
@@ -8199,7 +8199,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 58]
+    % [Violin.2.Music_Voice measure 58]
       %! baca.make_repeat_tied_notes()
     cs''''2..
     % AFTER:
@@ -8234,7 +8234,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 59]
+    % [Violin.2.Music_Voice measure 59]
     cs''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8311,7 +8311,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 60]
+    % [Violin.2.Music_Voice measure 60]
       %! baca.make_repeat_tied_notes()
     cs''''2
     % AFTER:
@@ -8342,7 +8342,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 61]
+    % [Violin.2.Music_Voice measure 61]
       %! baca.make_repeat_tied_notes()
     cs''''!1
     % AFTER:
@@ -8418,7 +8418,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 62]
+    % [Violin.2.Music_Voice measure 62]
     cs''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8442,7 +8442,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 63]
+    % [Violin.2.Music_Voice measure 63]
       %! baca.make_repeat_tied_notes()
     cs''''2
     % AFTER:
@@ -8477,7 +8477,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 64]
+    % [Violin.2.Music_Voice measure 64]
       %! baca.make_repeat_tied_notes()
     cs''''4.
     % AFTER:
@@ -8492,7 +8492,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 65]
+    % [Violin.2.Music_Voice measure 65]
     cs''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8516,7 +8516,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 66]
+    % [Violin.2.Music_Voice measure 66]
     cs''''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8540,7 +8540,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 67]
+    % [Violin.2.Music_Voice measure 67]
       %! baca.make_repeat_tied_notes()
     cs''''2
     % AFTER:
@@ -8555,7 +8555,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 68]
+    % [Violin.2.Music_Voice measure 68]
       %! baca.make_repeat_tied_notes()
     cs''''1
     % AFTER:
@@ -8577,7 +8577,7 @@ segment.12.Violin_II_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin_II_Music_Voice measure 69]
+    % [Violin.2.Music_Voice measure 69]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -8615,7 +8615,7 @@ segment.12.Violin_II_Music_Voice = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Violin_II_Music_Voice"
+        \context Voice = "Violin.2.Music_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -8625,7 +8625,7 @@ segment.12.Violin_II_Music_Voice = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Violin_II_Music_Voice measure 70]
+            % [Violin.2.Music_Voice measure 70]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -8667,7 +8667,7 @@ segment.12.Violin_II_Music_Voice = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Violin_II_Rest_Voice"
+        \context Voice = "Violin.2.Rest_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -8677,7 +8677,7 @@ segment.12.Violin_II_Music_Voice = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Violin_II_Rest_Voice measure 70]
+            % [Violin.2.Rest_Voice measure 70]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -8733,7 +8733,7 @@ segment.12.Violin_II_Music_Voice = {
 
 
   %! baca.path.extern()
-segment.12.Violin.II.Music.Staff = <<
+segment.12.Violin.2.Music.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8750,10 +8750,10 @@ segment.12.Violin.II.Music.Staff = <<
 
     % OPEN_BRACKETS:
       %! akasha.make_empty_score()
-    \context Voice = "Violin_II_Music_Voice"
+    \context Voice = "Violin.2.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \segment.12.Violin_II_Music_Voice }
+    { \segment.12.Violin.2.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -8764,12 +8764,12 @@ segment.12.Violin.II.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.12.Viola_Music_Voice = {
+segment.12.Viola.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 1]
+    % [Viola.Music_Voice measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
@@ -8869,7 +8869,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 2]
+    % [Viola.Music_Voice measure 2]
       %! baca.make_repeat_tied_notes()
     aqs,1
     % AFTER:
@@ -8884,7 +8884,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 3]
+    % [Viola.Music_Voice measure 3]
     aqs,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8908,7 +8908,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 4]
+    % [Viola.Music_Voice measure 4]
     aqs,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8932,7 +8932,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 5]
+    % [Viola.Music_Voice measure 5]
       %! baca.make_repeat_tied_notes()
     aqs,4.
     % AFTER:
@@ -8971,7 +8971,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 6]
+    % [Viola.Music_Voice measure 6]
       %! baca.make_repeat_tied_notes()
     aqs,2
     % AFTER:
@@ -8986,7 +8986,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 7]
+    % [Viola.Music_Voice measure 7]
       %! baca.make_repeat_tied_notes()
     aqs,4.
     % AFTER:
@@ -9006,7 +9006,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 8]
+    % [Viola.Music_Voice measure 8]
       %! baca.make_repeat_tied_notes()
     aqs,2.
     % AFTER:
@@ -9021,7 +9021,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 9]
+    % [Viola.Music_Voice measure 9]
       %! baca.make_repeat_tied_notes()
     aqs,2..
     % AFTER:
@@ -9060,7 +9060,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 10]
+    % [Viola.Music_Voice measure 10]
       %! baca.make_repeat_tied_notes()
     aqs,2..
     % AFTER:
@@ -9075,7 +9075,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 11]
+    % [Viola.Music_Voice measure 11]
       %! baca.make_repeat_tied_notes()
     aqs,2
     % AFTER:
@@ -9095,7 +9095,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 12]
+    % [Viola.Music_Voice measure 12]
       %! baca.make_repeat_tied_notes()
     aqs,4.
     % AFTER:
@@ -9110,7 +9110,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 13]
+    % [Viola.Music_Voice measure 13]
       %! baca.make_repeat_tied_notes()
     aqs,2..
     % AFTER:
@@ -9149,7 +9149,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 14]
+    % [Viola.Music_Voice measure 14]
       %! baca.make_repeat_tied_notes()
     aqs,4.
     % AFTER:
@@ -9164,7 +9164,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 15]
+    % [Viola.Music_Voice measure 15]
       %! baca.make_repeat_tied_notes()
     aqs,2.
     % AFTER:
@@ -9197,7 +9197,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 16]
+    % [Viola.Music_Voice measure 16]
       %! baca.make_repeat_tied_notes()
     aqs,2..
     % AFTER:
@@ -9212,7 +9212,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 17]
+    % [Viola.Music_Voice measure 17]
     aqs,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -9260,7 +9260,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 18]
+    % [Viola.Music_Voice measure 18]
       %! baca.make_repeat_tied_notes()
     aqs,2
     % AFTER:
@@ -9275,7 +9275,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 19]
+    % [Viola.Music_Voice measure 19]
       %! baca.make_repeat_tied_notes()
     aqs,1
     % AFTER:
@@ -9290,7 +9290,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 20]
+    % [Viola.Music_Voice measure 20]
     aqs,2.
     % AFTER:
     % SPANNER_STOPS:
@@ -9319,7 +9319,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 21]
+    % [Viola.Music_Voice measure 21]
       %! baca.make_repeat_tied_notes()
     aqs,2..
     % AFTER:
@@ -9358,7 +9358,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 22]
+    % [Viola.Music_Voice measure 22]
       %! baca.make_repeat_tied_notes()
     aqs,2..
     % AFTER:
@@ -9373,7 +9373,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 23]
+    % [Viola.Music_Voice measure 23]
       %! baca.make_repeat_tied_notes()
     aqs,4.
     % AFTER:
@@ -9393,7 +9393,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 24]
+    % [Viola.Music_Voice measure 24]
       %! baca.make_repeat_tied_notes()
     aqs,2.
     % AFTER:
@@ -9408,7 +9408,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 25]
+    % [Viola.Music_Voice measure 25]
     aqs,2.
     % AFTER:
     % ARTICULATIONS:
@@ -9485,7 +9485,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 26]
+    % [Viola.Music_Voice measure 26]
     aqs,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -9509,7 +9509,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 27]
+    % [Viola.Music_Voice measure 27]
       %! baca.make_repeat_tied_notes()
     aqs,2
     % AFTER:
@@ -9544,7 +9544,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 28]
+    % [Viola.Music_Voice measure 28]
       %! baca.make_repeat_tied_notes()
     aqs,1
     % AFTER:
@@ -9555,7 +9555,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 29]
+    % [Viola.Music_Voice measure 29]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -9575,7 +9575,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 30]
+    % [Viola.Music_Voice measure 30]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(3)
@@ -9649,7 +9649,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 31]
+    % [Viola.Music_Voice measure 31]
       %! baca.make_repeat_tied_notes()
     a,2
     % AFTER:
@@ -9664,7 +9664,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 32]
+    % [Viola.Music_Voice measure 32]
       %! baca.make_repeat_tied_notes()
     a,1
     % AFTER:
@@ -9699,7 +9699,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 33]
+    % [Viola.Music_Voice measure 33]
     a,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -9723,7 +9723,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 34]
+    % [Viola.Music_Voice measure 34]
     a,2.
     % AFTER:
     % ARTICULATIONS:
@@ -9816,7 +9816,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 35]
+    % [Viola.Music_Voice measure 35]
       %! baca.make_repeat_tied_notes()
     aqs,!2
     % AFTER:
@@ -9882,7 +9882,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 36]
+    % [Viola.Music_Voice measure 36]
       %! baca.make_repeat_tied_notes()
     aqs,2
     % AFTER:
@@ -9917,7 +9917,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 37]
+    % [Viola.Music_Voice measure 37]
       %! baca.make_repeat_tied_notes()
     aqs,4.
     % AFTER:
@@ -9932,7 +9932,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 38]
+    % [Viola.Music_Voice measure 38]
       %! baca.make_repeat_tied_notes()
     aqs,2.
     % AFTER:
@@ -10000,7 +10000,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 39]
+    % [Viola.Music_Voice measure 39]
       %! baca.make_repeat_tied_notes()
     aqs,2..
     % AFTER:
@@ -10031,7 +10031,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 40]
+    % [Viola.Music_Voice measure 40]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -10051,7 +10051,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 41]
+    % [Viola.Music_Voice measure 41]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(3)
@@ -10125,7 +10125,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 42]
+    % [Viola.Music_Voice measure 42]
       %! baca.make_repeat_tied_notes()
     a,4.
     % AFTER:
@@ -10140,7 +10140,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 43]
+    % [Viola.Music_Voice measure 43]
       %! baca.make_repeat_tied_notes()
     a,4.
     % AFTER:
@@ -10155,7 +10155,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 44]
+    % [Viola.Music_Voice measure 44]
       %! baca.make_repeat_tied_notes()
     a,2
     % AFTER:
@@ -10190,7 +10190,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 45]
+    % [Viola.Music_Voice measure 45]
       %! baca.make_repeat_tied_notes()
     a,4.
     % AFTER:
@@ -10201,7 +10201,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 46]
+    % [Viola.Music_Voice measure 46]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -10225,7 +10225,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 47]
+    % [Viola.Music_Voice measure 47]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(3)
@@ -10246,7 +10246,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 48]
+    % [Viola.Music_Voice measure 48]
       %! baca.make_repeat_tied_notes()
     a,2..
     % AFTER:
@@ -10257,7 +10257,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 49]
+    % [Viola.Music_Voice measure 49]
     % BEFORE:
     % COMMANDS:
       %! MEASURE_313
@@ -10349,7 +10349,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 50]
+    % [Viola.Music_Voice measure 50]
       %! baca.make_repeat_tied_notes()
     gqf''2
     % AFTER:
@@ -10364,7 +10364,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 51]
+    % [Viola.Music_Voice measure 51]
       %! baca.make_repeat_tied_notes()
     gqf''1
     % AFTER:
@@ -10379,7 +10379,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 52]
+    % [Viola.Music_Voice measure 52]
     gqf''2.
     % AFTER:
     % ARTICULATIONS:
@@ -10418,7 +10418,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 53]
+    % [Viola.Music_Voice measure 53]
     gqf''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -10442,7 +10442,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 54]
+    % [Viola.Music_Voice measure 54]
       %! baca.make_repeat_tied_notes()
     gqf''2..
     % AFTER:
@@ -10453,7 +10453,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 55]
+    % [Viola.Music_Voice measure 55]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -10478,7 +10478,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 56]
+    % [Viola.Music_Voice measure 56]
     % BEFORE:
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
@@ -10560,7 +10560,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 57]
+    % [Viola.Music_Voice measure 57]
       %! baca.make_repeat_tied_notes()
     gqf''2.
     % AFTER:
@@ -10575,7 +10575,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 58]
+    % [Viola.Music_Voice measure 58]
       %! baca.make_repeat_tied_notes()
     gqf''2..
     % AFTER:
@@ -10610,7 +10610,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 59]
+    % [Viola.Music_Voice measure 59]
     gqf''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -10687,7 +10687,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 60]
+    % [Viola.Music_Voice measure 60]
       %! baca.make_repeat_tied_notes()
     gqf''2
     % AFTER:
@@ -10718,7 +10718,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 61]
+    % [Viola.Music_Voice measure 61]
       %! baca.make_repeat_tied_notes()
     gqf''!1
     % AFTER:
@@ -10794,7 +10794,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 62]
+    % [Viola.Music_Voice measure 62]
     gqf''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -10818,7 +10818,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 63]
+    % [Viola.Music_Voice measure 63]
       %! baca.make_repeat_tied_notes()
     gqf''2
     % AFTER:
@@ -10853,7 +10853,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 64]
+    % [Viola.Music_Voice measure 64]
       %! baca.make_repeat_tied_notes()
     gqf''4.
     % AFTER:
@@ -10868,7 +10868,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 65]
+    % [Viola.Music_Voice measure 65]
     gqf''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -10892,7 +10892,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 66]
+    % [Viola.Music_Voice measure 66]
     gqf''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -10916,7 +10916,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 67]
+    % [Viola.Music_Voice measure 67]
       %! baca.make_repeat_tied_notes()
     gqf''2
     % AFTER:
@@ -10931,7 +10931,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 68]
+    % [Viola.Music_Voice measure 68]
       %! baca.make_repeat_tied_notes()
     gqf''1
     % AFTER:
@@ -10946,7 +10946,7 @@ segment.12.Viola_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola_Music_Voice measure 69]
+    % [Viola.Music_Voice measure 69]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -10984,7 +10984,7 @@ segment.12.Viola_Music_Voice = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Viola_Music_Voice"
+        \context Voice = "Viola.Music_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -10994,7 +10994,7 @@ segment.12.Viola_Music_Voice = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Viola_Music_Voice measure 70]
+            % [Viola.Music_Voice measure 70]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -11036,7 +11036,7 @@ segment.12.Viola_Music_Voice = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Viola_Rest_Voice"
+        \context Voice = "Viola.Rest_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -11046,7 +11046,7 @@ segment.12.Viola_Music_Voice = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Viola_Rest_Voice measure 70]
+            % [Viola.Rest_Voice measure 70]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -11119,10 +11119,10 @@ segment.12.Viola.Music.Staff = <<
 
     % OPEN_BRACKETS:
       %! akasha.make_empty_score()
-    \context Voice = "Viola_Music_Voice"
+    \context Voice = "Viola.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \segment.12.Viola_Music_Voice }
+    { \segment.12.Viola.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -11133,12 +11133,12 @@ segment.12.Viola.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.12.Cello_Music_Voice = {
+segment.12.Cello.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 1]
+    % [Cello.Music_Voice measure 1]
     % BEFORE:
     % COMMANDS:
       %! EXPLICIT_BAR_EXTENT
@@ -11243,7 +11243,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 2]
+    % [Cello.Music_Voice measure 2]
       %! baca.make_repeat_tied_notes()
     a,,1
     % AFTER:
@@ -11258,7 +11258,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 3]
+    % [Cello.Music_Voice measure 3]
     a,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -11282,7 +11282,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 4]
+    % [Cello.Music_Voice measure 4]
     a,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -11306,7 +11306,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 5]
+    % [Cello.Music_Voice measure 5]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -11345,7 +11345,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 6]
+    % [Cello.Music_Voice measure 6]
       %! baca.make_repeat_tied_notes()
     a,,2
     % AFTER:
@@ -11360,7 +11360,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 7]
+    % [Cello.Music_Voice measure 7]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -11380,7 +11380,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 8]
+    % [Cello.Music_Voice measure 8]
       %! baca.make_repeat_tied_notes()
     a,,2.
     % AFTER:
@@ -11395,7 +11395,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 9]
+    % [Cello.Music_Voice measure 9]
       %! baca.make_repeat_tied_notes()
     a,,2..
     % AFTER:
@@ -11434,7 +11434,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 10]
+    % [Cello.Music_Voice measure 10]
       %! baca.make_repeat_tied_notes()
     a,,2..
     % AFTER:
@@ -11449,7 +11449,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 11]
+    % [Cello.Music_Voice measure 11]
       %! baca.make_repeat_tied_notes()
     a,,2
     % AFTER:
@@ -11469,7 +11469,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 12]
+    % [Cello.Music_Voice measure 12]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -11484,7 +11484,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 13]
+    % [Cello.Music_Voice measure 13]
       %! baca.make_repeat_tied_notes()
     a,,2..
     % AFTER:
@@ -11523,7 +11523,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 14]
+    % [Cello.Music_Voice measure 14]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -11538,7 +11538,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 15]
+    % [Cello.Music_Voice measure 15]
       %! baca.make_repeat_tied_notes()
     a,,2.
     % AFTER:
@@ -11571,7 +11571,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 16]
+    % [Cello.Music_Voice measure 16]
       %! baca.make_repeat_tied_notes()
     a,,2..
     % AFTER:
@@ -11586,7 +11586,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 17]
+    % [Cello.Music_Voice measure 17]
     a,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -11634,7 +11634,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 18]
+    % [Cello.Music_Voice measure 18]
       %! baca.make_repeat_tied_notes()
     a,,2
     % AFTER:
@@ -11649,7 +11649,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 19]
+    % [Cello.Music_Voice measure 19]
       %! baca.make_repeat_tied_notes()
     a,,1
     % AFTER:
@@ -11664,7 +11664,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 20]
+    % [Cello.Music_Voice measure 20]
     a,,2.
     % AFTER:
     % SPANNER_STOPS:
@@ -11693,7 +11693,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 21]
+    % [Cello.Music_Voice measure 21]
       %! baca.make_repeat_tied_notes()
     a,,2..
     % AFTER:
@@ -11732,7 +11732,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 22]
+    % [Cello.Music_Voice measure 22]
       %! baca.make_repeat_tied_notes()
     a,,2..
     % AFTER:
@@ -11747,7 +11747,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 23]
+    % [Cello.Music_Voice measure 23]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -11767,7 +11767,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 24]
+    % [Cello.Music_Voice measure 24]
       %! baca.make_repeat_tied_notes()
     a,,2.
     % AFTER:
@@ -11782,7 +11782,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 25]
+    % [Cello.Music_Voice measure 25]
     a,,2.
     % AFTER:
     % ARTICULATIONS:
@@ -11859,7 +11859,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 26]
+    % [Cello.Music_Voice measure 26]
     a,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -11883,7 +11883,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 27]
+    % [Cello.Music_Voice measure 27]
       %! baca.make_repeat_tied_notes()
     a,,2
     % AFTER:
@@ -11918,7 +11918,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 28]
+    % [Cello.Music_Voice measure 28]
       %! baca.make_repeat_tied_notes()
     a,,1
     % AFTER:
@@ -11929,7 +11929,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 29]
+    % [Cello.Music_Voice measure 29]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -11953,7 +11953,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 30]
+    % [Cello.Music_Voice measure 30]
     % BEFORE:
     % COMMANDS:
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -12030,7 +12030,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 31]
+    % [Cello.Music_Voice measure 31]
       %! baca.make_repeat_tied_notes()
     a,,2
     % AFTER:
@@ -12045,7 +12045,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 32]
+    % [Cello.Music_Voice measure 32]
       %! baca.make_repeat_tied_notes()
     a,,1
     % AFTER:
@@ -12080,7 +12080,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 33]
+    % [Cello.Music_Voice measure 33]
     a,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -12104,7 +12104,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 34]
+    % [Cello.Music_Voice measure 34]
     a,,2.
     % AFTER:
     % ARTICULATIONS:
@@ -12197,7 +12197,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 35]
+    % [Cello.Music_Voice measure 35]
       %! baca.make_repeat_tied_notes()
     a,,2
     % AFTER:
@@ -12263,7 +12263,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 36]
+    % [Cello.Music_Voice measure 36]
       %! baca.make_repeat_tied_notes()
     a,,2
     % AFTER:
@@ -12298,7 +12298,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 37]
+    % [Cello.Music_Voice measure 37]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -12313,7 +12313,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 38]
+    % [Cello.Music_Voice measure 38]
       %! baca.make_repeat_tied_notes()
     a,,2.
     % AFTER:
@@ -12381,7 +12381,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 39]
+    % [Cello.Music_Voice measure 39]
       %! baca.make_repeat_tied_notes()
     a,,2..
     % AFTER:
@@ -12412,7 +12412,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 40]
+    % [Cello.Music_Voice measure 40]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -12436,7 +12436,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 41]
+    % [Cello.Music_Voice measure 41]
     % BEFORE:
     % COMMANDS:
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -12513,7 +12513,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 42]
+    % [Cello.Music_Voice measure 42]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -12528,7 +12528,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 43]
+    % [Cello.Music_Voice measure 43]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -12543,7 +12543,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 44]
+    % [Cello.Music_Voice measure 44]
       %! baca.make_repeat_tied_notes()
     a,,2
     % AFTER:
@@ -12578,7 +12578,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 45]
+    % [Cello.Music_Voice measure 45]
       %! baca.make_repeat_tied_notes()
     a,,4.
     % AFTER:
@@ -12589,7 +12589,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 46]
+    % [Cello.Music_Voice measure 46]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -12616,7 +12616,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 47]
+    % [Cello.Music_Voice measure 47]
     % BEFORE:
     % COMMANDS:
       %! MEASURE_311
@@ -12717,7 +12717,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 48]
+    % [Cello.Music_Voice measure 48]
       %! baca.make_repeat_tied_notes()
     d''2..
     % AFTER:
@@ -12732,7 +12732,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 49]
+    % [Cello.Music_Voice measure 49]
       %! baca.make_repeat_tied_notes()
     d''2..
     % AFTER:
@@ -12747,7 +12747,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 50]
+    % [Cello.Music_Voice measure 50]
       %! baca.make_repeat_tied_notes()
     d''2
     % AFTER:
@@ -12777,7 +12777,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 51]
+    % [Cello.Music_Voice measure 51]
       %! baca.make_repeat_tied_notes()
     d''1
     % AFTER:
@@ -12792,7 +12792,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 52]
+    % [Cello.Music_Voice measure 52]
     d''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -12816,7 +12816,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 53]
+    % [Cello.Music_Voice measure 53]
     d''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -12840,7 +12840,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 54]
+    % [Cello.Music_Voice measure 54]
       %! baca.make_repeat_tied_notes()
     d''2..
     % AFTER:
@@ -12851,7 +12851,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 55]
+    % [Cello.Music_Voice measure 55]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -12880,7 +12880,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 56]
+    % [Cello.Music_Voice measure 56]
     % BEFORE:
     % COMMANDS:
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -12965,7 +12965,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 57]
+    % [Cello.Music_Voice measure 57]
       %! baca.make_repeat_tied_notes()
     d''2.
     % AFTER:
@@ -12980,7 +12980,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 58]
+    % [Cello.Music_Voice measure 58]
       %! baca.make_repeat_tied_notes()
     d''2..
     % AFTER:
@@ -13015,7 +13015,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 59]
+    % [Cello.Music_Voice measure 59]
     d''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -13092,7 +13092,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 60]
+    % [Cello.Music_Voice measure 60]
       %! baca.make_repeat_tied_notes()
     d''2
     % AFTER:
@@ -13123,7 +13123,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 61]
+    % [Cello.Music_Voice measure 61]
       %! baca.make_repeat_tied_notes()
     d''1
     % AFTER:
@@ -13199,7 +13199,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 62]
+    % [Cello.Music_Voice measure 62]
     d''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -13223,7 +13223,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 63]
+    % [Cello.Music_Voice measure 63]
       %! baca.make_repeat_tied_notes()
     d''2
     % AFTER:
@@ -13258,7 +13258,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 64]
+    % [Cello.Music_Voice measure 64]
       %! baca.make_repeat_tied_notes()
     d''4.
     % AFTER:
@@ -13273,7 +13273,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 65]
+    % [Cello.Music_Voice measure 65]
     d''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -13297,7 +13297,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 66]
+    % [Cello.Music_Voice measure 66]
     d''2.
     % AFTER:
     % SPANNER_STARTS:
@@ -13321,7 +13321,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 67]
+    % [Cello.Music_Voice measure 67]
       %! baca.make_repeat_tied_notes()
     d''2
     % AFTER:
@@ -13336,7 +13336,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 68]
+    % [Cello.Music_Voice measure 68]
       %! baca.make_repeat_tied_notes()
     d''1
     % AFTER:
@@ -13351,7 +13351,7 @@ segment.12.Cello_Music_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello_Music_Voice measure 69]
+    % [Cello.Music_Voice measure 69]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -13392,7 +13392,7 @@ segment.12.Cello_Music_Voice = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Cello_Music_Voice"
+        \context Voice = "Cello.Music_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -13402,7 +13402,7 @@ segment.12.Cello_Music_Voice = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Cello_Music_Voice measure 70]
+            % [Cello.Music_Voice measure 70]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -13444,7 +13444,7 @@ segment.12.Cello_Music_Voice = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Cello_Rest_Voice"
+        \context Voice = "Cello.Rest_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -13454,7 +13454,7 @@ segment.12.Cello_Music_Voice = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Cello_Rest_Voice measure 70]
+            % [Cello.Rest_Voice measure 70]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -13527,10 +13527,10 @@ segment.12.Cello.Music.Staff = <<
 
     % OPEN_BRACKETS:
       %! akasha.make_empty_score()
-    \context Voice = "Cello_Music_Voice"
+    \context Voice = "Cello.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \segment.12.Cello_Music_Voice }
+    { \segment.12.Cello.Music_Voice }
     % CLOSING:
     % COMMANDS:
 

@@ -75,7 +75,7 @@
 
                 % OPEN_BRACKETS:
                   %! akasha.make_empty_score()
-                \context StringQuartetStaffGroup = "String_Quartet_Staff_Group"
+                \context StringQuartetStaffGroup = "String_Quartet.Staff_Group"
                   %! akasha.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -87,10 +87,10 @@
                     \tag ViolinI
                     % OPEN_BRACKETS:
                       %! akasha.make_empty_score()
-                    \context Staff = "Violin_I_Music_Staff"
+                    \context Staff = "Violin.1.Music_Staff"
                       %! akasha.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.01.Violin.I.Music.Staff }
+                    { \segment.01.Violin.1.Music.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -100,10 +100,10 @@
                     \tag ViolinII
                     % OPEN_BRACKETS:
                       %! akasha.make_empty_score()
-                    \context Staff = "Violin_II_Music_Staff"
+                    \context Staff = "Violin.2.Music_Staff"
                       %! akasha.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.01.Violin.II.Music.Staff }
+                    { \segment.01.Violin.2.Music.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -113,7 +113,7 @@
                     \tag viola
                     % OPEN_BRACKETS:
                       %! akasha.make_empty_score()
-                    \context Staff = "Viola_Music_Staff"
+                    \context Staff = "Viola.Music_Staff"
                       %! akasha.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.Viola.Music.Staff }
@@ -126,7 +126,7 @@
                     \tag cello
                     % OPEN_BRACKETS:
                       %! akasha.make_empty_score()
-                    \context Staff = "Cello_Music_Staff"
+                    \context Staff = "Cello.Music_Staff"
                       %! akasha.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.Cello.Music.Staff }
