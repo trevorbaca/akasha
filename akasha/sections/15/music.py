@@ -195,7 +195,7 @@ if __name__ == "__main__":
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_every_staff=True,
-        final_segment=True,
+        final_section=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(
