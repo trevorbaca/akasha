@@ -1437,7 +1437,7 @@ section_number.15.Violin.1.Music_Voice = {
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vn-i-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -1968,7 +1968,7 @@ section_number.15.Violin.2.Music_Voice = {
     % [Violin.2.Music_Voice measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vn-ii-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -2644,7 +2644,7 @@ section_number.15.Viola.Music_Voice = {
       %! baca.clef_extra_offset()
       %! baca.clef_shift()
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-va-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -3194,7 +3194,7 @@ section_number.15.Cello.Music_Voice = {
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(0 . 2)
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vc-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
