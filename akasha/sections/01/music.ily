@@ -1,5 +1,5 @@
   %! baca.path.extern()
-segment.01.Global_Skips = {
+section_number.01.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -225,7 +225,7 @@ segment.01.Global_Skips = {
 
 
   %! baca.path.extern()
-segment.01.Global_Rests = {
+section_number.01.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -278,7 +278,7 @@ segment.01.Global_Rests = {
 
 
   %! baca.path.extern()
-segment.01.Violin.1.Music_Voice = {
+section_number.01.Violin.1.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -548,7 +548,7 @@ segment.01.Violin.1.Music_Voice = {
 
 
   %! baca.path.extern()
-segment.01.Violin.1.Music.Staff = <<
+section_number.01.Violin.1.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -557,7 +557,7 @@ segment.01.Violin.1.Music.Staff = <<
     \context GlobalRests = "Global_Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
-    { \segment.01.Global_Rests }
+    { \section_number.01.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -566,7 +566,7 @@ segment.01.Violin.1.Music.Staff = <<
     \context Voice = "Violin.1.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \segment.01.Violin.1.Music_Voice }
+    { \section_number.01.Violin.1.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -577,7 +577,7 @@ segment.01.Violin.1.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.01.Violin.2.Music_Voice = {
+section_number.01.Violin.2.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -824,7 +824,7 @@ segment.01.Violin.2.Music_Voice = {
 
 
   %! baca.path.extern()
-segment.01.Violin.2.Music.Staff = <<
+section_number.01.Violin.2.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -835,7 +835,7 @@ segment.01.Violin.2.Music.Staff = <<
       %! NOT_TOPMOST
       %! baca.make_global_context()
       %! baca.path.extern()
-%%% { \segment.01.Global_Rests }
+%%% { \section_number.01.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -844,7 +844,7 @@ segment.01.Violin.2.Music.Staff = <<
     \context Voice = "Violin.2.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \segment.01.Violin.2.Music_Voice }
+    { \section_number.01.Violin.2.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -855,7 +855,7 @@ segment.01.Violin.2.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.01.Viola.Music_Voice = {
+section_number.01.Viola.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1215,7 +1215,7 @@ segment.01.Viola.Music_Voice = {
 
 
   %! baca.path.extern()
-segment.01.Viola.Music.Staff = <<
+section_number.01.Viola.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1226,7 +1226,7 @@ segment.01.Viola.Music.Staff = <<
       %! NOT_TOPMOST
       %! baca.make_global_context()
       %! baca.path.extern()
-%%% { \segment.01.Global_Rests }
+%%% { \section_number.01.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1235,7 +1235,7 @@ segment.01.Viola.Music.Staff = <<
     \context Voice = "Viola.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \segment.01.Viola.Music_Voice }
+    { \section_number.01.Viola.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -1246,7 +1246,7 @@ segment.01.Viola.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.01.Cello.Music_Voice = {
+section_number.01.Cello.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1502,7 +1502,7 @@ segment.01.Cello.Music_Voice = {
 
 
   %! baca.path.extern()
-segment.01.Cello.Music.Staff = <<
+section_number.01.Cello.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1513,7 +1513,7 @@ segment.01.Cello.Music.Staff = <<
       %! NOT_TOPMOST
       %! baca.make_global_context()
       %! baca.path.extern()
-%%% { \segment.01.Global_Rests }
+%%% { \section_number.01.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1522,7 +1522,7 @@ segment.01.Cello.Music.Staff = <<
     \context Voice = "Cello.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \segment.01.Cello.Music_Voice }
+    { \section_number.01.Cello.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
