@@ -2459,7 +2459,7 @@ section_number.10.Violin.1.Music_Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.text_spanner_staff_padding()
     \override TextSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vn-i-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -5643,7 +5643,7 @@ section_number.10.Violin.2.Music_Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.text_spanner_staff_padding()
     \override TextSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vn-ii-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -8215,7 +8215,7 @@ section_number.10.Viola.Music_Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.text_spanner_staff_padding()
     \override TextSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-va-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -10733,7 +10733,7 @@ section_number.10.Cello.Music_Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.text_spanner_staff_padding()
     \override TextSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vc-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
