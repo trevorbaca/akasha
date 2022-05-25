@@ -498,12 +498,12 @@ def perforated_counts(*, degree=0, rotation=None):
     return abjad.sequence.rotate(counts, n=rotation)
 
 
-def stage_markup(segment_number, stage_tokens):
+def stage_markup(section_number, stage_tokens):
     stage_markup = []
     start_measure = 1
     for stage_number, measure_count in stage_tokens:
         stage_markup_ = (
-            f"[{segment_number}.{stage_number}]",
+            f"[{section_number}.{stage_number}]",
             start_measure,
             "#darkcyan",
         )
