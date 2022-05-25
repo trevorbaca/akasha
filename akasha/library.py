@@ -5,68 +5,32 @@ import abjad
 import baca
 from abjadext import rmakers
 
-# getato intervals
 
-pitches = [5, 6, 5, 4, 3, 5, 4, 5, 6, 8, 7, 6, 5, 7, 8, 9, 8, 10, 11, 9, 10]
-intervals = [_ - 5 for _ in pitches]
-getato_intervals = intervals
-
-# instruments
-
-instruments = dict(
-    [
-        ("ViolinI", abjad.Violin(pitch_range="[G3, +inf]")),
-        ("ViolinII", abjad.Violin(pitch_range="[G3, +inf]")),
-        ("Viola", abjad.Viola(pitch_range="[A2, +inf]")),
-        ("Cello", abjad.Cello(pitch_range="[A1, +inf]")),
-    ]
-)
-
-# margin markups
+def _getato_intervals():
+    pitches = [5, 6, 5, 4, 3, 5, 4, 5, 6, 8, 7, 6, 5, 7, 8, 9, 8, 10, 11, 9, 10]
+    getato_intervals = [_ - 5 for _ in pitches]
+    return getato_intervals
 
 
-margin_markups = dict(
-    [
-        ("Va.", abjad.MarginMarkup(markup=r"\akasha-va-markup")),
-        ("Vc.", abjad.MarginMarkup(markup=r"\akasha-vc-markup")),
-        ("Vn. I", abjad.MarginMarkup(markup=r"\akasha-vn-i-markup")),
-        ("Vn. II", abjad.MarginMarkup(markup=r"\akasha-vn-ii-markup")),
-    ]
-)
-
-# metronome marks
-
-metronome_marks = dict(
-    [
-        ("38", abjad.MetronomeMark((1, 4), 38)),
-        ("44", abjad.MetronomeMark((1, 4), 44)),
-        ("55", abjad.MetronomeMark((1, 4), 55)),
-        ("89", abjad.MetronomeMark((1, 4), 89)),
-        ("126", abjad.MetronomeMark((1, 4), 126)),
-    ]
-)
-
-# time signature series
-
-time_signature_series = dict()
-
-numerators = [[3, 3, 4, 5], [4, 6, 6]]
-groups = baca.sequence.helianthate(numerators, -1, 1)
-assert len(groups) == 24
-lengths = [len(_) for _ in groups]
-numerators = abjad.sequence.flatten(groups, depth=-1)
-_time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
-groups = abjad.sequence.partition_by_counts(_time_signatures, lengths)
-time_signature_series["A"] = groups
-
-numerators = [[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]]
-groups = baca.sequence.helianthate(numerators, -1, 1)
-assert len(groups) == 36
-lengths = [len(_) for _ in groups]
-numerators = abjad.sequence.flatten(groups, depth=-1)
-_time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
-groups = abjad.sequence.partition_by_counts(_time_signatures, lengths)
-time_signature_series["B"] = groups
+def _time_signature_series():
+    time_signature_series = dict()
+    numerators = [[3, 3, 4, 5], [4, 6, 6]]
+    groups = baca.sequence.helianthate(numerators, -1, 1)
+    assert len(groups) == 24
+    lengths = [len(_) for _ in groups]
+    numerators = abjad.sequence.flatten(groups, depth=-1)
+    _time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
+    groups = abjad.sequence.partition_by_counts(_time_signatures, lengths)
+    time_signature_series["A"] = groups
+    numerators = [[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]]
+    groups = baca.sequence.helianthate(numerators, -1, 1)
+    assert len(groups) == 36
+    lengths = [len(_) for _ in groups]
+    numerators = abjad.sequence.flatten(groups, depth=-1)
+    _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
+    groups = abjad.sequence.partition_by_counts(_time_signatures, lengths)
+    time_signature_series["B"] = groups
+    return time_signature_series
 
 
 def cello_solo_pitches(transposition=None):
@@ -80,7 +44,7 @@ def cello_solo_pitches(transposition=None):
 def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP):
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
-    pitch_numbers = getato_intervals
+    pitch_numbers = _getato_intervals()
     if direction == abjad.DOWN:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
@@ -94,7 +58,7 @@ def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP):
 def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None):
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
-    pitch_numbers = getato_intervals
+    pitch_numbers = _getato_intervals()
     pitch_numbers = [3 * _ for _ in pitch_numbers]
     if direction == abjad.DOWN:
         pitch_numbers = [-_ for _ in pitch_numbers]
@@ -103,6 +67,17 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None
     return baca.pitches(
         pitch_numbers,
         selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    )
+
+
+def instruments():
+    return dict(
+        [
+            ("ViolinI", abjad.Violin(pitch_range="[G3, +inf]")),
+            ("ViolinII", abjad.Violin(pitch_range="[G3, +inf]")),
+            ("Viola", abjad.Viola(pitch_range="[A2, +inf]")),
+            ("Cello", abjad.Cello(pitch_range="[A1, +inf]")),
+        ]
     )
 
 
@@ -163,6 +138,7 @@ def make_dense_getato_rhythm(fuse_counts, extra_counts, *commands):
 
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
+    _instruments = instruments()
     global_context = baca.score.make_global_context()
     violin_i_music_voice = abjad.Voice(name="Violin.1.Music_Voice", tag=tag)
     violin_one_music_staff = abjad.Staff(
@@ -171,7 +147,7 @@ def make_empty_score():
     abjad.annotate(
         violin_one_music_staff,
         "default_instrument",
-        instruments["ViolinI"],
+        _instruments["ViolinI"],
     )
     abjad.annotate(violin_one_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("ViolinI", violin_one_music_staff)
@@ -182,7 +158,7 @@ def make_empty_score():
     abjad.annotate(
         violin_two_music_staff,
         "default_instrument",
-        instruments["ViolinII"],
+        _instruments["ViolinII"],
     )
     abjad.annotate(violin_two_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("ViolinII", violin_two_music_staff)
@@ -193,7 +169,7 @@ def make_empty_score():
     abjad.annotate(
         viola_music_staff,
         "default_instrument",
-        instruments["Viola"],
+        _instruments["Viola"],
     )
     abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
     baca.score.attach_lilypond_tag("viola", viola_music_staff)
@@ -204,7 +180,7 @@ def make_empty_score():
     abjad.annotate(
         cello_music_staff,
         "default_instrument",
-        instruments["Cello"],
+        _instruments["Cello"],
     )
     abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("cello", cello_music_staff)
@@ -416,7 +392,7 @@ def make_viola_ob_rhythm(*, rotation=None):
 def margin_markup(
     key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
 ):
-    margin_markup = margin_markups[key]
+    margin_markup = margin_markups()[key]
     command = baca.margin_markup(
         margin_markup,
         alert=alert,
@@ -424,6 +400,17 @@ def margin_markup(
         selector=selector,
     )
     return baca.not_parts(command)
+
+
+def margin_markups():
+    return dict(
+        [
+            ("Va.", abjad.MarginMarkup(markup=r"\akasha-va-markup")),
+            ("Vc.", abjad.MarginMarkup(markup=r"\akasha-vc-markup")),
+            ("Vn. I", abjad.MarginMarkup(markup=r"\akasha-vn-i-markup")),
+            ("Vn. II", abjad.MarginMarkup(markup=r"\akasha-vn-ii-markup")),
+        ]
+    )
 
 
 def material_annotation_spanner(letter):
@@ -435,6 +422,13 @@ def material_annotation_spanner(letter):
             """,
         selector=lambda _: abjad.select.leaf(_, 0),
     )
+    material_to_color = {
+        "A": "0.984 0.945 0.492",
+        "B": "0.980 0.769 0.984",
+        "C": "0.335 0.937 0.597",
+        "D": "0.710 0.878 0.976",
+        "E": "0.865 0.877 0.896",
+    }
     color = material_to_color[letter]
     literal = baca.literal(rf"\colorSpan #-4 #4 #(rgb-color {color})")
     tag = baca.tags.COLORED_PHRASING_SLUR
@@ -456,13 +450,16 @@ def material_annotation_spanner(letter):
     )
 
 
-material_to_color = {
-    "A": "0.984 0.945 0.492",
-    "B": "0.980 0.769 0.984",
-    "C": "0.335 0.937 0.597",
-    "D": "0.710 0.878 0.976",
-    "E": "0.865 0.877 0.896",
-}
+def metronome_marks():
+    return dict(
+        [
+            ("38", abjad.MetronomeMark((1, 4), 38)),
+            ("44", abjad.MetronomeMark((1, 4), 44)),
+            ("55", abjad.MetronomeMark((1, 4), 55)),
+            ("89", abjad.MetronomeMark((1, 4), 89)),
+            ("126", abjad.MetronomeMark((1, 4), 126)),
+        ]
+    )
 
 
 def moment_markup(moment_tokens):
@@ -513,7 +510,7 @@ def stage_markup(section_number, stage_tokens):
 
 
 def time_signatures(series, *, count=None, fermata_measures=None, rotation=None):
-    series = time_signature_series[series]
+    series = _time_signature_series()[series]
     maker = baca.TimeSignatureMaker(
         series,
         count=count,
@@ -524,9 +521,10 @@ def time_signatures(series, *, count=None, fermata_measures=None, rotation=None)
     return time_signatures
 
 
-voice_abbreviations = {
-    "v1": "Violin.1.Music_Voice",
-    "v2": "Violin.2.Music_Voice",
-    "va": "Viola.Music_Voice",
-    "vc": "Cello.Music_Voice",
-}
+def voice_abbreviations():
+    return {
+        "v1": "Violin.1.Music_Voice",
+        "v2": "Violin.2.Music_Voice",
+        "va": "Viola.Music_Voice",
+        "vc": "Cello.Music_Voice",
+    }
