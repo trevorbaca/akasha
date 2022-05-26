@@ -1,5 +1,5 @@
   %! baca.path.extern()
-section_number.12.Global_Skips = {
+number.12.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3397,7 +3397,7 @@ section_number.12.Global_Skips = {
 
 
   %! baca.path.extern()
-section_number.12.Global_Rests = {
+number.12.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3964,7 +3964,7 @@ section_number.12.Global_Rests = {
 
 
   %! baca.path.extern()
-section_number.12.Violin.1.Music_Voice = {
+number.12.Violin.1.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6379,7 +6379,7 @@ section_number.12.Violin.1.Music_Voice = {
 
 
   %! baca.path.extern()
-section_number.12.Violin.1.Music_Staff = <<
+number.12.Violin.1.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6388,7 +6388,7 @@ section_number.12.Violin.1.Music_Staff = <<
     \context GlobalRests = "Global_Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
-    { \section_number.12.Global_Rests }
+    { \number.12.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6397,7 +6397,7 @@ section_number.12.Violin.1.Music_Staff = <<
     \context Voice = "Violin.1.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \section_number.12.Violin.1.Music_Voice }
+    { \number.12.Violin.1.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -6408,7 +6408,7 @@ section_number.12.Violin.1.Music_Staff = <<
 
 
   %! baca.path.extern()
-section_number.12.Violin.2.Music_Voice = {
+number.12.Violin.2.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8733,7 +8733,7 @@ section_number.12.Violin.2.Music_Voice = {
 
 
   %! baca.path.extern()
-section_number.12.Violin.2.Music_Staff = <<
+number.12.Violin.2.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8744,7 +8744,7 @@ section_number.12.Violin.2.Music_Staff = <<
       %! NOT_TOPMOST
       %! baca.make_global_context()
       %! baca.path.extern()
-%%% { \section_number.12.Global_Rests }
+%%% { \number.12.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8753,7 +8753,7 @@ section_number.12.Violin.2.Music_Staff = <<
     \context Voice = "Violin.2.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \section_number.12.Violin.2.Music_Voice }
+    { \number.12.Violin.2.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -8764,7 +8764,7 @@ section_number.12.Violin.2.Music_Staff = <<
 
 
   %! baca.path.extern()
-section_number.12.Viola.Music_Voice = {
+number.12.Viola.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11102,7 +11102,7 @@ section_number.12.Viola.Music_Voice = {
 
 
   %! baca.path.extern()
-section_number.12.Viola.Music_Staff = <<
+number.12.Viola.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11113,7 +11113,7 @@ section_number.12.Viola.Music_Staff = <<
       %! NOT_TOPMOST
       %! baca.make_global_context()
       %! baca.path.extern()
-%%% { \section_number.12.Global_Rests }
+%%% { \number.12.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11122,7 +11122,7 @@ section_number.12.Viola.Music_Staff = <<
     \context Voice = "Viola.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \section_number.12.Viola.Music_Voice }
+    { \number.12.Viola.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -11133,7 +11133,7 @@ section_number.12.Viola.Music_Staff = <<
 
 
   %! baca.path.extern()
-section_number.12.Cello.Music_Voice = {
+number.12.Cello.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -13510,7 +13510,7 @@ section_number.12.Cello.Music_Voice = {
 
 
   %! baca.path.extern()
-section_number.12.Cello.Music_Staff = <<
+number.12.Cello.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -13521,7 +13521,7 @@ section_number.12.Cello.Music_Staff = <<
       %! NOT_TOPMOST
       %! baca.make_global_context()
       %! baca.path.extern()
-%%% { \section_number.12.Global_Rests }
+%%% { \number.12.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -13530,7 +13530,7 @@ section_number.12.Cello.Music_Staff = <<
     \context Voice = "Cello.Music_Voice"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \section_number.12.Cello.Music_Voice }
+    { \number.12.Cello.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
