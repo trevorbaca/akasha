@@ -3162,7 +3162,7 @@ number.2.Violin.1.Music_Voice = {
 
 
   %! baca.path.extern()
-number.2.Violin.1.Music_Staff = <<
+number.2.Violin.1.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5069,7 +5069,7 @@ number.2.Violin.2.Music_Voice = {
 
 
   %! baca.path.extern()
-number.2.Violin.2.Music_Staff = <<
+number.2.Violin.2.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6313,7 +6313,7 @@ number.2.Viola.Music_Voice = {
 
 
   %! baca.path.extern()
-number.2.Viola.Music_Staff = <<
+number.2.Viola.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7621,7 +7621,7 @@ number.2.Cello.Music_Voice = {
 
 
   %! baca.path.extern()
-number.2.Cello.Music_Staff = <<
+number.2.Cello.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
