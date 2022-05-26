@@ -54,7 +54,7 @@
                 \context GlobalSkips = "Global_Skips"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \section_number.03.Global_Skips }
+                { \section_number.3.Global_Skips }
                 % CLOSING:
                 % COMMANDS:
 
@@ -89,7 +89,7 @@
                     \context Staff = "Violin.1.Music_Staff"
                       %! akasha.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Violin.1.Music_Staff }
+                    { \section_number.3.Violin.1.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -102,7 +102,7 @@
                     \context Staff = "Violin.2.Music_Staff"
                       %! akasha.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Violin.2.Music_Staff }
+                    { \section_number.3.Violin.2.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -115,7 +115,7 @@
                     \context Staff = "Viola.Music_Staff"
                       %! akasha.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Viola.Music_Staff }
+                    { \section_number.3.Viola.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -128,7 +128,7 @@
                     \context Staff = "Cello.Music_Staff"
                       %! akasha.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Cello.Music_Staff }
+                    { \section_number.3.Cello.Music_Staff }
                     % CLOSING:
                     % COMMANDS:
 
