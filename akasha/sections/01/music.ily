@@ -345,7 +345,7 @@ number.1.Violin.1.Music_Voice = {
     % MARKUP:
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    %@% ^ \baca-default-indicator-markup "(“ViolinI”)"
+    %@% ^ \baca-default-indicator-markup "(“Violin.1”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
@@ -639,7 +639,7 @@ number.1.Violin.2.Music_Voice = {
     % MARKUP:
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    %@% ^ \baca-default-indicator-markup "(“ViolinI”)"
+    %@% ^ \baca-default-indicator-markup "(“Violin.1”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"

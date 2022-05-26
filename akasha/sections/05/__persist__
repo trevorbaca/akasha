@@ -149,7 +149,7 @@
                 manifest="instruments",
                 prototype=None,
                 synthetic_offset=None,
-                value="ViolinI",
+                value="Violin.1",
             ),
             baca.Memento(
                 context="Violin.1.Music_Voice",
@@ -201,7 +201,7 @@
                 manifest="instruments",
                 prototype=None,
                 synthetic_offset=None,
-                value="ViolinI",
+                value="Violin.1",
             ),
             baca.Memento(
                 context="Violin.2.Music_Voice",

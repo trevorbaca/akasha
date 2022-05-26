@@ -5,7 +5,7 @@
 \include "../parts.ily"
 
 \score {
-    \keepWithTag viola {
+    \keepWithTag #'Viola {
         \include "01.ly"
         \include "02.ly"
         \include "03.ly"
