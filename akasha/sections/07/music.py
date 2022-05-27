@@ -55,7 +55,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.metronome_mark(
         "44",
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -95,7 +95,7 @@ commands(
 )
 
 commands(
-    ("Global_Skips", (45, 46)),
+    ("GlobalSkips", (45, 46)),
     baca.markup(
         r"\akasha-repeat-six-markup",
         selector=lambda _: baca.select.skip(_, 0),
@@ -104,13 +104,13 @@ commands(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.open_volta(lambda _: baca.select.skip(_, 45 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 47 - 1)),
 )
 
 commands(
-    "Global_Rests",
+    "GlobalRests",
     baca.global_fermata(
         "long",
         selector=lambda _: abjad.select.leaf(_, 4),

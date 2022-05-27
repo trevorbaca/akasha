@@ -33,12 +33,12 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.metronome_mark("44"),
 )
 
 commands(
-    ("Global_Rests", -1),
+    ("GlobalRests", -1),
     baca.global_fermata("very_long"),
 )
 
