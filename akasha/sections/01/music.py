@@ -47,6 +47,7 @@ commands(
 commands(
     "v1",
     baca.make_mmrests_flat(),
+    baca.instrument(library.instruments()["Violin.1"]),
 )
 
 # V2
@@ -54,6 +55,7 @@ commands(
 commands(
     "v2",
     baca.make_mmrests_flat(),
+    baca.instrument(library.instruments()["Violin.2"]),
 )
 
 # VA
@@ -61,6 +63,7 @@ commands(
 commands(
     ("va", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.instrument(library.instruments()["Viola"]),
 )
 
 commands(
@@ -73,6 +76,7 @@ commands(
 commands(
     "vc",
     baca.make_mmrests_flat(),
+    baca.instrument(library.instruments()["Cello"]),
 )
 
 # phantom & reapply
@@ -82,7 +86,9 @@ music_voices = [_ for _ in voice_names if "MusicVoice" in _]
 commands(
     music_voices,
     baca.append_phantom_measure(),
-    baca.attach_first_section_default_indicators(),
+    baca.attach_first_section_default_indicators(
+        attach_instruments_by_hand=True,
+    ),
 )
 
 # v1
