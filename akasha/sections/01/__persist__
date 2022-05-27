@@ -7,22 +7,22 @@
         "String_Quartet.Staff_Group",
         "Violin.1.Staff",
         "GlobalRests",
-        "Violin.1.Music_Voice",
+        "Violin.1.MusicVoice",
         "Violin.1.RestVoice",
         "Violin.2.Staff",
-        "Violin.2.Music_Voice",
+        "Violin.2.MusicVoice",
         "Violin.2.RestVoice",
         "Viola.Staff",
-        "Viola.Music_Voice",
+        "Viola.MusicVoice",
         "Viola.RestVoice",
         "Cello.Staff",
-        "Cello.Music_Voice",
+        "Cello.MusicVoice",
         "Cello.RestVoice",
     ],
     "persistent_indicators": {
         "Cello.Staff": [
             baca.Memento(
-                context="Cello.Music_Voice",
+                context="Cello.MusicVoice",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -30,7 +30,7 @@
                 value="Cello",
             ),
             baca.Memento(
-                context="Cello.Music_Voice",
+                context="Cello.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -38,7 +38,7 @@
                 value="bass",
             ),
             baca.Memento(
-                context="Cello.Music_Voice",
+                context="Cello.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -46,7 +46,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="Cello.Music_Voice",
+                context="Cello.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -54,7 +54,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="Cello.Music_Voice",
+                context="Cello.MusicVoice",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -80,9 +80,9 @@
                 value="1/4",
             ),
         ],
-        "Viola.Music_Voice": [
+        "Viola.MusicVoice": [
             baca.Memento(
-                context="Viola.Music_Voice",
+                context="Viola.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -92,7 +92,7 @@
         ],
         "Viola.Staff": [
             baca.Memento(
-                context="Viola.Music_Voice",
+                context="Viola.MusicVoice",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -100,7 +100,7 @@
                 value="Viola",
             ),
             baca.Memento(
-                context="Viola.Music_Voice",
+                context="Viola.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -108,7 +108,7 @@
                 value="alto",
             ),
             baca.Memento(
-                context="Viola.Music_Voice",
+                context="Viola.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -116,7 +116,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.Music_Voice",
+                context="Viola.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -124,7 +124,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.Music_Voice",
+                context="Viola.MusicVoice",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -134,7 +134,7 @@
         ],
         "Violin.1.Staff": [
             baca.Memento(
-                context="Violin.1.Music_Voice",
+                context="Violin.1.MusicVoice",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -142,7 +142,7 @@
                 value="Violin.1",
             ),
             baca.Memento(
-                context="Violin.1.Music_Voice",
+                context="Violin.1.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -150,7 +150,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="Violin.1.Music_Voice",
+                context="Violin.1.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -158,7 +158,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="Violin.1.Music_Voice",
+                context="Violin.1.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -166,7 +166,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="Violin.1.Music_Voice",
+                context="Violin.1.MusicVoice",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -176,7 +176,7 @@
         ],
         "Violin.2.Staff": [
             baca.Memento(
-                context="Violin.2.Music_Voice",
+                context="Violin.2.MusicVoice",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -184,7 +184,7 @@
                 value="Violin.1",
             ),
             baca.Memento(
-                context="Violin.2.Music_Voice",
+                context="Violin.2.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -192,7 +192,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="Violin.2.Music_Voice",
+                context="Violin.2.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -200,7 +200,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="Violin.2.Music_Voice",
+                context="Violin.2.MusicVoice",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -208,7 +208,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="Violin.2.Music_Voice",
+                context="Violin.2.MusicVoice",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
