@@ -74,7 +74,7 @@
 
                 % OPEN_BRACKETS:
                   %! akasha.make_empty_score()
-                \context StringQuartetStaffGroup = "String_Quartet.Staff_Group"
+                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
                   %! akasha.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
