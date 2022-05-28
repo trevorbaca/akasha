@@ -138,7 +138,6 @@ def make_dense_getato_rhythm(fuse_counts, extra_counts, *commands):
 
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
-    _instruments = instruments()
     global_context = baca.score.make_global_context()
     violin_i_music_voice = abjad.Voice(name="Violin.1.MusicVoice", tag=tag)
     violin_one_music_staff = abjad.Staff(
