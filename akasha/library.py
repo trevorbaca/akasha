@@ -167,7 +167,7 @@ def make_empty_score():
             cello_music_staff,
         ],
         lilypond_type="StringQuartetStaffGroup",
-        name="String_Quartet.Staff_Group",
+        name="StringQuartetStaffGroup",
         tag=tag,
     )
     music_context = abjad.Context(

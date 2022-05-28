@@ -47,7 +47,6 @@ commands(
 commands(
     "v1",
     baca.make_mmrests_flat(),
-    baca.instrument(library.instruments()["Violin.1"]),
 )
 
 # V2
@@ -55,7 +54,6 @@ commands(
 commands(
     "v2",
     baca.make_mmrests_flat(),
-    baca.instrument(library.instruments()["Violin.2"]),
 )
 
 # VA
@@ -63,7 +61,6 @@ commands(
 commands(
     ("va", (1, 2)),
     baca.make_repeat_tied_notes(),
-    baca.instrument(library.instruments()["Viola"]),
 )
 
 commands(
@@ -76,7 +73,6 @@ commands(
 commands(
     "vc",
     baca.make_mmrests_flat(),
-    baca.instrument(library.instruments()["Cello"]),
 )
 
 # phantom & reapply
@@ -95,6 +91,8 @@ commands(
 
 commands(
     "v1",
+    baca.instrument(commands.instruments["Violin.1"]),
+    # baca.clef("treble"),
     baca.staff_lines(5),
     library.margin_markup("Vn. I"),
     baca.start_markup("Violin I", hcenter_in=14),
@@ -104,6 +102,8 @@ commands(
 
 commands(
     "v2",
+    baca.instrument(commands.instruments["Violin.2"]),
+    # baca.clef("treble"),
     baca.staff_lines(5),
     library.margin_markup("Vn. II"),
     baca.start_markup("Violin II", hcenter_in=14),
@@ -113,6 +113,8 @@ commands(
 
 commands(
     ("va", (1, 2)),
+    baca.instrument(commands.instruments["Viola"]),
+    # baca.clef("alto"),
     library.margin_markup("Va."),
     baca.start_markup("Viola", hcenter_in=14),
     library.material_annotation_spanner("E"),
@@ -127,6 +129,8 @@ commands(
 
 commands(
     "vc",
+    baca.instrument(commands.instruments["Cello"]),
+    # baca.clef("bass"),
     library.margin_markup("Vc."),
     baca.start_markup("Cello", hcenter_in=14),
     baca.staff_lines(5),
