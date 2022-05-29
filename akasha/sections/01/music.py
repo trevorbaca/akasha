@@ -145,7 +145,6 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         deactivate=(
-            baca.tags.DEFAULT_INSTRUMENT_ALERT,
             baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),

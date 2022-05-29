@@ -761,7 +761,6 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         color_octaves=False,
         deactivate=(
-            baca.tags.DEFAULT_INSTRUMENT_ALERT,
             baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
             baca.tags.REAPPLIED_INSTRUMENT_ALERT,
             baca.tags.REAPPLIED_MARGIN_MARKUP_ALERT,
