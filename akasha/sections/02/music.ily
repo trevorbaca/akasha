@@ -1542,6 +1542,14 @@ number.2.Violin.1.MusicVoice = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_6
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_6
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
       %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1561,16 +1569,6 @@ number.2.Violin.1.MusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-    % OPENING:
-    % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_6
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_6
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1599,6 +1597,14 @@ number.2.Violin.1.MusicVoice = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_8
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_8
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
       %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1622,16 +1628,6 @@ number.2.Violin.1.MusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-    % OPENING:
-    % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_8
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_8
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! akasha.make_polyphony_rhythm()
     e'4
     % AFTER:
@@ -1758,6 +1754,14 @@ number.2.Violin.1.MusicVoice = {
               %! baca.slur()
             \)
             % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_11
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_11
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1823,16 +1827,6 @@ number.2.Violin.1.MusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-    % OPENING:
-    % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_11
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_11
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! akasha.make_sparse_getato_rhythm()
     r1
     % AFTER:
@@ -2023,6 +2017,14 @@ number.2.Violin.1.MusicVoice = {
               %! baca.slur()
             \)
             % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_13
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_13
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -2088,16 +2090,6 @@ number.2.Violin.1.MusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-    % OPENING:
-    % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_13
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_13
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! akasha.make_accelerando_rhythm()
     r1.
     % AFTER:
@@ -2373,6 +2365,14 @@ number.2.Violin.1.MusicVoice = {
               %! baca.slur()
             \)
             % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_17
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_17
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -2488,14 +2488,6 @@ number.2.Violin.1.MusicVoice = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! FERMATA_MEASURE
-          %! MEASURE_17
-          %! baca._style_fermata_measures(7)
-    %%% \once \override Score.BarLine.transparent = ##t
-          %! FERMATA_MEASURE
-          %! MEASURE_17
-          %! baca._style_fermata_measures(7)
-    %%% \once \override Score.SpanBar.transparent = ##t
           %! akasha.make_accelerando_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! akasha.make_accelerando_rhythm()
@@ -2643,6 +2635,14 @@ number.2.Violin.1.MusicVoice = {
               %! baca.slur()
             \)
             % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_19
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_19
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -2760,14 +2760,6 @@ number.2.Violin.1.MusicVoice = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! FERMATA_MEASURE
-          %! MEASURE_19
-          %! baca._style_fermata_measures(7)
-    %%% \once \override Score.BarLine.transparent = ##t
-          %! FERMATA_MEASURE
-          %! MEASURE_19
-          %! baca._style_fermata_measures(7)
-    %%% \once \override Score.SpanBar.transparent = ##t
           %! akasha.make_ritardando_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! akasha.make_ritardando_rhythm()
@@ -2915,6 +2907,14 @@ number.2.Violin.1.MusicVoice = {
               %! baca.slur()
             \)
             % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_21
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_21
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -2976,16 +2976,6 @@ number.2.Violin.1.MusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-    % OPENING:
-    % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_21
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_21
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
@@ -3014,6 +3004,14 @@ number.2.Violin.1.MusicVoice = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_23
+      %! baca._style_fermata_measures(7)
+    \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_23
+      %! baca._style_fermata_measures(7)
+    \once \override Score.SpanBar.transparent = ##t
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
       %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -3055,20 +3053,6 @@ number.2.Violin.1.MusicVoice = {
               %! baca._make_multimeasure_rest_container(2)
               %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
-            % OPENING:
-            % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_23
-              %! PHANTOM
-              %! baca._style_fermata_measures(7)
-              %! baca._style_phantom_measures(5)
-            \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_23
-              %! PHANTOM
-              %! baca._style_fermata_measures(7)
-              %! baca._style_phantom_measures(5)
-            \once \override Score.SpanBar.transparent = ##t
               %! HIDDEN
               %! MULTIMEASURE_REST
               %! PHANTOM
