@@ -227,11 +227,11 @@ commands(
     baca.make_mmrests(),
 )
 
-# phantom & reapply
+# anchor notes & reapply
 
 commands(
     "va",
-    baca.append_phantom_measure(),
+    baca.append_anchor_note(),
 )
 
 music_voices = [_ for _ in voice_names if "MusicVoice" in _]
