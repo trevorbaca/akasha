@@ -8,16 +8,13 @@
         "Violin.1.Staff",
         "GlobalRests",
         "Violin.1.MusicVoice",
-        "Violin.1.RestVoice",
         "Violin.2.Staff",
         "Violin.2.MusicVoice",
-        "Violin.2.RestVoice",
         "Viola.Staff",
         "Viola.MusicVoice",
         "Viola.RestVoice",
         "Cello.Staff",
         "Cello.MusicVoice",
-        "Cello.RestVoice",
     ],
     "persistent_indicators": {
         "Cello.Staff": [
