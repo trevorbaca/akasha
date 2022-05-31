@@ -20,7 +20,7 @@ stage_markup = (
     ("[M.10]", 27),
 )
 
-fermata_measures = [-1]
+fermata_measures = [29]
 
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
