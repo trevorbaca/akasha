@@ -35,7 +35,7 @@ stage_tokens = (
 )
 stage_markup = library.stage_markup("04", stage_tokens)
 
-fermata_measures = [2, 4, 6, 8, 14, 18, 20, 22, 24, -1]
+fermata_measures = [2, 4, 6, 8, 14, 18, 20, 22, 24, 27]
 
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)

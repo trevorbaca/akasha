@@ -12,7 +12,7 @@ moment_markup = library.moment_markup(moment_tokens)
 stage_tokens = ((1, 2 + 1),)
 stage_markup = library.stage_markup("01", stage_tokens)
 
-fermata_measures = [-1]
+fermata_measures = [3]
 
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
