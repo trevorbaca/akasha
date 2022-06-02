@@ -360,12 +360,12 @@ def make_viola_ob_rhythm(*, rotation=None):
     )
 
 
-def margin_markup(
+def short_instrument_name(
     key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
 ):
-    margin_markup = margin_markups()[key]
-    command = baca.margin_markup(
-        margin_markup,
+    short_instrument_name = short_instrument_names()[key]
+    command = baca.short_instrument_name(
+        short_instrument_name,
         alert=alert,
         context=context,
         selector=selector,
@@ -373,13 +373,13 @@ def margin_markup(
     return baca.not_parts(command)
 
 
-def margin_markups():
+def short_instrument_names():
     return dict(
         [
-            ("Va.", abjad.MarginMarkup(markup=r"\akasha-va-markup")),
-            ("Vc.", abjad.MarginMarkup(markup=r"\akasha-vc-markup")),
-            ("Vn. I", abjad.MarginMarkup(markup=r"\akasha-vn-i-markup")),
-            ("Vn. II", abjad.MarginMarkup(markup=r"\akasha-vn-ii-markup")),
+            ("Va.", abjad.ShortInstrumentName(r"\akasha-va-markup")),
+            ("Vc.", abjad.ShortInstrumentName(r"\akasha-vc-markup")),
+            ("Vn. I", abjad.ShortInstrumentName(r"\akasha-vn-i-markup")),
+            ("Vn. II", abjad.ShortInstrumentName(r"\akasha-vn-ii-markup")),
         ]
     )
 
