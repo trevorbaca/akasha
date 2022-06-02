@@ -73,10 +73,10 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None
 def instruments():
     return dict(
         [
-            ("Violin.1", abjad.Violin(pitch_range="[G3, +inf]")),
-            ("Violin.2", abjad.Violin(pitch_range="[G3, +inf]")),
-            ("Viola", abjad.Viola(pitch_range="[A2, +inf]")),
-            ("Cello", abjad.Cello(pitch_range="[A1, +inf]")),
+            ("Violin.1", abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]"))),
+            ("Violin.2", abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]"))),
+            ("Viola", abjad.Viola(pitch_range=abjad.PitchRange("[A2, +inf]"))),
+            ("Cello", abjad.Cello(pitch_range=abjad.PitchRange("[A1, +inf]"))),
         ]
     )
 
