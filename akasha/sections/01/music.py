@@ -19,7 +19,7 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures(
         "B",
@@ -81,8 +81,8 @@ commands(
     baca.instrument(commands.instruments["Violin.1"]),
     baca.clef("treble"),
     baca.staff_lines(5),
-    library.margin_markup("Vn. I"),
-    baca.start_markup("Violin I", hcenter_in=14),
+    library.short_instrument_name("Vn. I"),
+    baca.instrument_name("Violin I", hcenter_in=14),
 )
 
 # v2
@@ -92,8 +92,8 @@ commands(
     baca.instrument(commands.instruments["Violin.2"]),
     baca.clef("treble"),
     baca.staff_lines(5),
-    library.margin_markup("Vn. II"),
-    baca.start_markup("Violin II", hcenter_in=14),
+    library.short_instrument_name("Vn. II"),
+    baca.instrument_name("Violin II", hcenter_in=14),
 )
 
 # va
@@ -102,8 +102,8 @@ commands(
     ("va", (1, 2)),
     baca.instrument(commands.instruments["Viola"]),
     baca.clef("alto"),
-    library.margin_markup("Va."),
-    baca.start_markup("Viola", hcenter_in=14),
+    library.short_instrument_name("Va."),
+    baca.instrument_name("Viola", hcenter_in=14),
     library.material_annotation_spanner("E"),
     baca.staff_lines(1),
     baca.down_bow(),
@@ -118,8 +118,8 @@ commands(
     "vc",
     baca.instrument(commands.instruments["Cello"]),
     baca.clef("bass"),
-    library.margin_markup("Vc."),
-    baca.start_markup("Cello", hcenter_in=14),
+    library.short_instrument_name("Vc."),
+    baca.instrument_name("Cello", hcenter_in=14),
     baca.staff_lines(5),
 )
 
@@ -135,7 +135,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         deactivate=(
-            baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
+            baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
         error_on_not_yet_pitched=True,

@@ -38,7 +38,7 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures(
         "B",
@@ -668,9 +668,9 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         deactivate=(
-            baca.tags.EXPLICIT_MARGIN_MARKUP_ALERT,
+            baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.REAPPLIED_INSTRUMENT_ALERT,
-            baca.tags.REAPPLIED_MARGIN_MARKUP_ALERT,
+            baca.tags.REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
         color_octaves=False,

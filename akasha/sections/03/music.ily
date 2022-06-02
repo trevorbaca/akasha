@@ -827,7 +827,7 @@ number.3.Violin.1.MusicVoice = {
           %! baca._clone_section_initial_short_instrument_name()
         \set Staff.instrumentName = \akasha-vn-i-markup
           %! -PARTS
-          %! REAPPLIED_MARGIN_MARKUP
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \set Staff.shortInstrumentName = \akasha-vn-i-markup
@@ -857,7 +857,7 @@ number.3.Violin.1.MusicVoice = {
           %! REAPPLIED_CLEF_COLOR
           %! baca._attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)
-          %! REAPPLIED_MARGIN_MARKUP_COLOR
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
           %! baca._attach_color_literal(2)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)
           %! REAPPLIED_STAFF_LINES_COLOR
@@ -894,7 +894,7 @@ number.3.Violin.1.MusicVoice = {
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“Violin.1”)"
-          %! REAPPLIED_MARGIN_MARKUP_ALERT
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
           %! baca.IndicatorCommand._call()
@@ -918,11 +918,11 @@ number.3.Violin.1.MusicVoice = {
           %! REAPPLIED_CLEF_REDRAW_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
-          %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+          %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
           %! -PARTS
-          %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+          %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(3)
@@ -1314,7 +1314,7 @@ number.3.Violin.2.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vn-ii-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
@@ -1342,7 +1342,7 @@ number.3.Violin.2.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -1376,7 +1376,7 @@ number.3.Violin.2.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin.1”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
       %! baca.IndicatorCommand._call()
@@ -1400,11 +1400,11 @@ number.3.Violin.2.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
@@ -1952,7 +1952,7 @@ number.3.Viola.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-va-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-va-markup
@@ -1980,7 +1980,7 @@ number.3.Viola.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -2012,7 +2012,7 @@ number.3.Viola.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Va.”]"
       %! baca.IndicatorCommand._call()
@@ -2033,11 +2033,11 @@ number.3.Viola.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
@@ -2486,7 +2486,7 @@ number.3.Cello.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vc-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vc-markup
@@ -2514,7 +2514,7 @@ number.3.Cello.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -2546,7 +2546,7 @@ number.3.Cello.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
       %! baca.IndicatorCommand._call()
@@ -2567,11 +2567,11 @@ number.3.Cello.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
