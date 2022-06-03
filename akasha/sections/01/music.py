@@ -32,12 +32,13 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.metronome_mark("44"),
 )
 
 commands(
-    ("GlobalRests", -1),
+    # TODO: forbid negative measure numbers
+    ("Rests", -1),
     baca.global_fermata("very_long"),
 )
 
