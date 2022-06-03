@@ -3,7 +3,7 @@
         "Score",
         "GlobalContext",
         "GlobalSkips",
-        "Music_Context",
+        "MusicContext",
         "StringQuartetStaffGroup",
         "Violin.1.Staff",
         "GlobalRests",
