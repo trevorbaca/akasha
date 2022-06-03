@@ -63,9 +63,11 @@ number.1.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     - \baca-start-xnm-colored-left-only "1-E" #magenta
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -204,6 +206,7 @@ number.1.GlobalSkips = {
       %! baca._style_anchor_skip(1)
     \bacaStopTextSpanSNM
       %! ANCHOR_SKIP
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
       %! baca._style_anchor_skip(1)

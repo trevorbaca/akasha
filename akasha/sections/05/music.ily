@@ -67,9 +67,11 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     - \baca-start-xnm-colored-left-only "14-D" #magenta
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -462,6 +464,7 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStopTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStopTextSpanXNM
@@ -490,9 +493,11 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     - \baca-start-xnm-colored-left-only "15-DE" #magenta
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -1531,6 +1536,7 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStopTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStopTextSpanXNM
@@ -1580,9 +1586,11 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     - \baca-start-xnm-colored-left-only "16-E[d]" #magenta
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -1811,6 +1819,7 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStopTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStopTextSpanXNM
@@ -1860,9 +1869,11 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     - \baca-start-xnm-colored-left-only "17-CE" #magenta
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -2071,6 +2082,7 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStopTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStopTextSpanXNM
@@ -2099,9 +2111,11 @@ number.5.GlobalSkips = {
       %! STAGE_NUMBER
       %! baca._label_stage_numbers()
     \bacaStartTextSpanSNM
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     - \baca-start-xnm-colored-left-only "18-CDE" #magenta
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
     \bacaStartTextSpanXNM
@@ -2539,6 +2553,7 @@ number.5.GlobalSkips = {
       %! baca._style_anchor_skip(1)
     \bacaStopTextSpanSNM
       %! ANCHOR_SKIP
+      %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
       %! baca._label_moment_numbers()
       %! baca._style_anchor_skip(1)
