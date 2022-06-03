@@ -139,20 +139,20 @@ def make_dense_getato_rhythm(fuse_counts, extra_counts, *commands):
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
-    violin_i_music_voice = abjad.Voice(name="Violin.1.MusicVoice", tag=tag)
+    violin_i_music_voice = abjad.Voice(name="Violin.1.Music", tag=tag)
     violin_one_music_staff = abjad.Staff(
         [violin_i_music_voice], name="Violin.1.Staff", tag=tag
     )
     baca.score.attach_lilypond_tag("Violin.1", violin_one_music_staff)
-    violin_ii_music_voice = abjad.Voice(name="Violin.2.MusicVoice", tag=tag)
+    violin_ii_music_voice = abjad.Voice(name="Violin.2.Music", tag=tag)
     violin_two_music_staff = abjad.Staff(
         [violin_ii_music_voice], name="Violin.2.Staff", tag=tag
     )
     baca.score.attach_lilypond_tag("Violin.2", violin_two_music_staff)
-    viola_music_voice = abjad.Voice(name="Viola.MusicVoice", tag=tag)
+    viola_music_voice = abjad.Voice(name="Viola.Music", tag=tag)
     viola_music_staff = abjad.Staff([viola_music_voice], name="Viola.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
-    cello_music_voice = abjad.Voice(name="Cello.MusicVoice", tag=tag)
+    cello_music_voice = abjad.Voice(name="Cello.Music", tag=tag)
     cello_music_staff = abjad.Staff([cello_music_voice], name="Cello.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Cello", cello_music_staff)
     string_quartet_staff_group = abjad.StaffGroup(
@@ -494,8 +494,8 @@ def time_signatures(series, *, count=None, fermata_measures=None, rotation=None)
 
 def voice_abbreviations():
     return {
-        "v1": "Violin.1.MusicVoice",
-        "v2": "Violin.2.MusicVoice",
-        "va": "Viola.MusicVoice",
-        "vc": "Cello.MusicVoice",
+        "v1": "Violin.1.Music",
+        "v2": "Violin.2.Music",
+        "va": "Viola.Music",
+        "vc": "Cello.Music",
     }

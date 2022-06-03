@@ -310,12 +310,12 @@ number.11.GlobalRests = {
 
 
   %! baca.path.extern()
-number.11.Violin.1.MusicVoice = {
+number.11.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin.1.MusicVoice measure 1]
+    % [Violin.1.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! EXPLICIT_BAR_EXTENT
@@ -420,7 +420,7 @@ number.11.Violin.1.MusicVoice = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Violin.1.MusicVoice measure 2]
+        % [Violin.1.Music measure 2]
           %! akasha.make_scratch_rhythm()
         f'4
         % AFTER:
@@ -476,7 +476,7 @@ number.11.Violin.1.MusicVoice = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Violin.1.MusicVoice measure 3]
+        % [Violin.1.Music measure 3]
           %! akasha.make_scratch_rhythm()
         fs'!4
         % ABSOLUTE_BEFORE:
@@ -504,7 +504,7 @@ number.11.Violin.1.MusicVoice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin.1.MusicVoice measure 4]
+    % [Violin.1.Music measure 4]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -557,10 +557,10 @@ number.11.Violin.1.Staff = <<
 
     % OPEN_BRACKETS:
       %! akasha.make_empty_score()
-    \context Voice = "Violin.1.MusicVoice"
+    \context Voice = "Violin.1.Music"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \number.11.Violin.1.MusicVoice }
+    { \number.11.Violin.1.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -571,7 +571,7 @@ number.11.Violin.1.Staff = <<
 
 
   %! baca.path.extern()
-number.11.Violin.2.MusicVoice = {
+number.11.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -586,7 +586,7 @@ number.11.Violin.2.MusicVoice = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Violin.2.MusicVoice measure 1]
+        % [Violin.2.Music measure 1]
         % BEFORE:
         % COMMANDS:
           %! baca._clone_section_initial_short_instrument_name()
@@ -722,7 +722,7 @@ number.11.Violin.2.MusicVoice = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Violin.2.MusicVoice measure 2]
+        % [Violin.2.Music measure 2]
           %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
@@ -765,7 +765,7 @@ number.11.Violin.2.MusicVoice = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Violin.2.MusicVoice measure 3]
+        % [Violin.2.Music measure 3]
           %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
@@ -808,7 +808,7 @@ number.11.Violin.2.MusicVoice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Violin.2.MusicVoice measure 4]
+    % [Violin.2.Music measure 4]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -851,10 +851,10 @@ number.11.Violin.2.Staff = <<
 
     % OPEN_BRACKETS:
       %! akasha.make_empty_score()
-    \context Voice = "Violin.2.MusicVoice"
+    \context Voice = "Violin.2.Music"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \number.11.Violin.2.MusicVoice }
+    { \number.11.Violin.2.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -865,12 +865,12 @@ number.11.Violin.2.Staff = <<
 
 
   %! baca.path.extern()
-number.11.Viola.MusicVoice = {
+number.11.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice measure 1]
+    % [Viola.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -960,7 +960,7 @@ number.11.Viola.MusicVoice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice measure 2]
+    % [Viola.Music measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/2
     % AFTER:
@@ -972,7 +972,7 @@ number.11.Viola.MusicVoice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice measure 3]
+    % [Viola.Music measure 3]
       %! baca._make_mmrests_flat()
     R1 * 3/2
     % AFTER:
@@ -984,7 +984,7 @@ number.11.Viola.MusicVoice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice measure 4]
+    % [Viola.Music measure 4]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -1027,10 +1027,10 @@ number.11.Viola.Staff = <<
 
     % OPEN_BRACKETS:
       %! akasha.make_empty_score()
-    \context Voice = "Viola.MusicVoice"
+    \context Voice = "Viola.Music"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \number.11.Viola.MusicVoice }
+    { \number.11.Viola.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -1041,7 +1041,7 @@ number.11.Viola.Staff = <<
 
 
   %! baca.path.extern()
-number.11.Cello.MusicVoice = {
+number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1056,7 +1056,7 @@ number.11.Cello.MusicVoice = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Cello.MusicVoice measure 1]
+        % [Cello.Music measure 1]
         % BEFORE:
         % COMMANDS:
           %! EXPLICIT_BAR_EXTENT
@@ -1182,7 +1182,7 @@ number.11.Cello.MusicVoice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.MusicVoice measure 2]
+    % [Cello.Music measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/2
     % AFTER:
@@ -1204,7 +1204,7 @@ number.11.Cello.MusicVoice = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Cello.MusicVoice measure 3]
+        % [Cello.Music measure 3]
           %! akasha.make_scratch_rhythm()
         r4
         % ABSOLUTE_BEFORE:
@@ -1237,7 +1237,7 @@ number.11.Cello.MusicVoice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.MusicVoice measure 4]
+    % [Cello.Music measure 4]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -1284,10 +1284,10 @@ number.11.Cello.Staff = <<
 
     % OPEN_BRACKETS:
       %! akasha.make_empty_score()
-    \context Voice = "Cello.MusicVoice"
+    \context Voice = "Cello.Music"
       %! akasha.make_empty_score()
       %! baca.path.extern()
-    { \number.11.Cello.MusicVoice }
+    { \number.11.Cello.Music }
     % CLOSING:
     % COMMANDS:
 
