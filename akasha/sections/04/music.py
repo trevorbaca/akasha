@@ -581,7 +581,7 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
-        global_rests_in_every_staff=True,
+        global_rests_in_topmost_staff=True,
         moment_markup=moment_markup,
         stage_markup=stage_markup,
     )
