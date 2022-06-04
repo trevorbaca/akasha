@@ -3271,18 +3271,7 @@ number.14.Violin.2.Music = {
 
 
   %! baca.path.extern()
-number.14.Violin.2.Staff = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-    % OPEN_BRACKETS:
-      %! NOT_TOPMOST
-      %! baca.make_global_context()
-%%% \context GlobalRests = "Rests"
-      %! NOT_TOPMOST
-      %! baca.make_global_context()
-      %! baca.path.extern()
-%%% { \number.14.Rests }
+number.14.Violin.2.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3298,7 +3287,7 @@ number.14.Violin.2.Staff = <<
 % CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
->>
+}
 
 
   %! baca.path.extern()
@@ -4042,18 +4031,7 @@ number.14.Viola.Music = {
 
 
   %! baca.path.extern()
-number.14.Viola.Staff = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-    % OPEN_BRACKETS:
-      %! NOT_TOPMOST
-      %! baca.make_global_context()
-%%% \context GlobalRests = "Rests"
-      %! NOT_TOPMOST
-      %! baca.make_global_context()
-      %! baca.path.extern()
-%%% { \number.14.Rests }
+number.14.Viola.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4069,7 +4047,7 @@ number.14.Viola.Staff = <<
 % CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
->>
+}
 
 
   %! baca.path.extern()
@@ -4748,18 +4726,7 @@ number.14.Cello.Music = {
 
 
   %! baca.path.extern()
-number.14.Cello.Staff = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-    % OPEN_BRACKETS:
-      %! NOT_TOPMOST
-      %! baca.make_global_context()
-%%% \context GlobalRests = "Rests"
-      %! NOT_TOPMOST
-      %! baca.make_global_context()
-      %! baca.path.extern()
-%%% { \number.14.Rests }
+number.14.Cello.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4775,4 +4742,4 @@ number.14.Cello.Staff = <<
 % CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
->>
+}
