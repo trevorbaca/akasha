@@ -76,7 +76,7 @@
     ragged-right = ##t
 }
 
-%%% CONTEXTS %%%%
+% CONTEXTS
 
 \layout {
 
@@ -242,9 +242,9 @@
     }
 }
 
-%%% MARKUP
+% MARKUP
 
-%%% COLOPHON %%%
+% COLOPHON
 
 akasha-colophon-markup = \markup {
     \override #'(font-name . "Palatino")
@@ -260,7 +260,7 @@ akasha-colophon-markup = \markup {
         }
     }
 
-%%% DIRECTIVES %%%
+% DIRECTIVES
 
 akasha-eleventh-degree-of-a-one-plus-vib-mod-markup = \markup
     "11°/A1(IV) + vib. mod."
@@ -331,7 +331,7 @@ akasha-xp-plus-full-bow-strokes-markup = \markup "XP + full bow strokes"
 akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup = \markup
     "XP + senza vib. + full bow strokes"
 
-%%% INSTRUMENT NAMES %%%
+% INSTRUMENT NAMES
 
 akasha-violin-i-markup = \markup \hcenter-in #14 "Violin I"
 akasha-vn-i-markup = \markup \hcenter-in #12 "Vn. I"
@@ -345,7 +345,7 @@ akasha-va-markup = \markup \hcenter-in #12 "Va."
 akasha-cello-markup = \markup \hcenter-in #14 "Cello"
 akasha-vc-markup = \markup \hcenter-in #12 "Vc."
 
-%%% SCHEME FUNCTIONS %%%
+% SCHEME FUNCTIONS
 
 colorSpan =
 #(define-music-function (parser location y-lower y-upper color)
@@ -365,3 +365,30 @@ colorSpan =
       \once\override PhrasingSlur.Y-offset = #0
       \once\override PhrasingSlur.shorten-pair = #'(-.95 . -1.65)
     #})
+
+% MATERIAL ANNOTATION
+
+akasha-material-a = \markup
+  \override #'(circle-padding . 0.75)
+  \circle
+  { \combine \halign #0 A \halign #0 \transparent "O" }
+
+akasha-material-b = \markup
+  \override #'(circle-padding . 0.75)
+  \circle
+  { \combine \halign #0 B \halign #0 \transparent "O" }
+
+akasha-material-c = \markup
+  \override #'(circle-padding . 0.75)
+  \circle
+  { \combine \halign #0 C \halign #0 \transparent "O" }
+
+akasha-material-d = \markup
+  \override #'(circle-padding . 0.75)
+  \circle
+  { \combine \halign #0 D \halign #0 \transparent "O" }
+
+akasha-material-e = \markup
+  \override #'(circle-padding . 0.75)
+  \circle
+  { \combine \halign #0 E \halign #0 \transparent "O" }

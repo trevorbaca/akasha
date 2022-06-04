@@ -2558,16 +2558,12 @@ number.10.Violin.1.Music = {
       %! baca.hairpin()
     \sfp
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -2803,11 +2799,7 @@ number.10.Violin.1.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
+    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -3023,14 +3015,10 @@ number.10.Violin.1.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \baca-ob-markup
+    ^ \akasha-material-e
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 E \halign #0 \transparent "O" }
-
+    ^ \baca-ob-markup
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
@@ -3733,14 +3721,10 @@ number.10.Violin.1.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \akasha-xp-plus-fb-markup
+    ^ \akasha-material-b
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-xp-plus-fb-markup
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -3822,11 +3806,7 @@ number.10.Violin.1.Music = {
         % MARKUP:
           %! baca.IndicatorCommand._call()
           %! baca.markup()
-        ^ \markup
-                    \override #'(circle-padding . 0.75)
-                    \circle
-                    { \combine \halign #0 A \halign #0 \transparent "O" }
-
+        ^ \akasha-material-a
         % SPANNER_STOPS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_STOP
@@ -4482,11 +4462,7 @@ number.10.Violin.1.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -4762,16 +4738,12 @@ number.10.Violin.1.Music = {
           %! baca.dynamic()
         \p
         % MARKUP:
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
+        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"227" #"32"
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \markup
-                    \override #'(circle-padding . 0.75)
-                    \circle
-                    { \combine \halign #0 C \halign #0 \transparent "O" }
-
         % START_BEAM:
           %! akasha.make_accelerando_rhythm()
         [
@@ -5082,11 +5054,7 @@ number.10.Violin.1.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -5211,11 +5179,7 @@ number.10.Violin.1.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -5320,11 +5284,7 @@ number.10.Violin.1.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -5576,16 +5536,12 @@ number.10.Violin.2.Music = {
       %! baca.hairpin()
     \sfp
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -5814,11 +5770,7 @@ number.10.Violin.2.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
+    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -6032,11 +5984,7 @@ number.10.Violin.2.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
+    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -6278,14 +6226,10 @@ number.10.Violin.2.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \baca-ob-markup
+    ^ \akasha-material-e
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 E \halign #0 \transparent "O" }
-
+    ^ \baca-ob-markup
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
@@ -6758,14 +6702,10 @@ number.10.Violin.2.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \akasha-xp-plus-fb-markup
+    ^ \akasha-material-b
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-xp-plus-fb-markup
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -6957,11 +6897,7 @@ number.10.Violin.2.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -7224,16 +7160,12 @@ number.10.Violin.2.Music = {
           %! baca.dynamic()
         \p
         % MARKUP:
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
+        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \markup
-                    \override #'(circle-padding . 0.75)
-                    \circle
-                    { \combine \halign #0 C \halign #0 \transparent "O" }
-
         % START_BEAM:
           %! akasha.make_ritardando_rhythm()
         [
@@ -7537,11 +7469,7 @@ number.10.Violin.2.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -7664,11 +7592,7 @@ number.10.Violin.2.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -7771,11 +7695,7 @@ number.10.Violin.2.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -8024,16 +7944,12 @@ number.10.Viola.Music = {
       %! baca.hairpin()
     \sfp
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -8263,14 +8179,10 @@ number.10.Viola.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \baca-ob-markup
+    ^ \akasha-material-e
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 E \halign #0 \transparent "O" }
-
+    ^ \baca-ob-markup
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
@@ -9231,14 +9143,10 @@ number.10.Viola.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \akasha-xp-plus-fb-markup
+    ^ \akasha-material-b
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-xp-plus-fb-markup
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -9430,11 +9338,7 @@ number.10.Viola.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -9697,16 +9601,12 @@ number.10.Viola.Music = {
           %! baca.dynamic()
         \p
         % MARKUP:
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
+        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"487" #"64"
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \markup
-                    \override #'(circle-padding . 0.75)
-                    \circle
-                    { \combine \halign #0 C \halign #0 \transparent "O" }
-
         % START_BEAM:
           %! akasha.make_accelerando_rhythm()
         [
@@ -9926,11 +9826,7 @@ number.10.Viola.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -10053,11 +9949,7 @@ number.10.Viola.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -10160,11 +10052,7 @@ number.10.Viola.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -10418,16 +10306,12 @@ number.10.Cello.Music = {
       %! baca.hairpin()
     \sfp
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -10663,11 +10547,7 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
+    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -10881,11 +10761,7 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
+    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -11125,11 +11001,7 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 D \halign #0 \transparent "O" }
-
+    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -11356,11 +11228,7 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 E \halign #0 \transparent "O" }
-
+    ^ \akasha-material-e
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -11644,14 +11512,10 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \akasha-xp-plus-fb-markup
+    ^ \akasha-material-b
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-xp-plus-fb-markup
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -11843,11 +11707,7 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -12117,16 +11977,12 @@ number.10.Cello.Music = {
           %! baca.dynamic()
         \p
         % MARKUP:
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
+        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"117" #"64"
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \markup
-                    \override #'(circle-padding . 0.75)
-                    \circle
-                    { \combine \halign #0 C \halign #0 \transparent "O" }
-
         % START_BEAM:
           %! akasha.make_ritardando_rhythm()
         [
@@ -12363,11 +12219,7 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -12490,11 +12342,7 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
@@ -12597,11 +12445,7 @@ number.10.Cello.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 B \halign #0 \transparent "O" }
-
+    ^ \akasha-material-b
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP

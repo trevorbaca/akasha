@@ -716,17 +716,13 @@ number.1.Viola.Music = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
+    ^ \akasha-material-e
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
     ^ \akasha-ob-plus-terminate-abruptly-markup
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Viola”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \markup
-                \override #'(circle-padding . 0.75)
-                \circle
-                { \combine \halign #0 E \halign #0 \transparent "O" }
-
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
