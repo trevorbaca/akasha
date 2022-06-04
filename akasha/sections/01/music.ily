@@ -357,10 +357,10 @@ number.1.Violin.1.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin.1”)"
+    ^ \baca-explicit-instrument-markup "(“Violin.1”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    %@% ^ \baca-explicit-indicator-markup "[“Vn. I”]"
+    %@% ^ \baca-explicit-short-instrument-name-markup "[“Vn. I”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -538,10 +538,10 @@ number.1.Violin.2.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin.1”)"
+    ^ \baca-explicit-instrument-markup "(“Violin.1”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    %@% ^ \baca-explicit-indicator-markup "[“Vn. II”]"
+    %@% ^ \baca-explicit-short-instrument-name-markup "[“Vn. II”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -729,10 +729,10 @@ number.1.Viola.Music = {
     ^ \akasha-ob-plus-terminate-abruptly-markup
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Viola”)"
+    ^ \baca-explicit-instrument-markup "(“Viola”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    %@% ^ \baca-explicit-indicator-markup "[“Va.”]"
+    %@% ^ \baca-explicit-short-instrument-name-markup "[“Va.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \markup
@@ -998,10 +998,10 @@ number.1.Cello.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Cello”)"
+    ^ \baca-explicit-instrument-markup "(“Cello”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    %@% ^ \baca-explicit-indicator-markup "[“Vc.”]"
+    %@% ^ \baca-explicit-short-instrument-name-markup "[“Vc.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
