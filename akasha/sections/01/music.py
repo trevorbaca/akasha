@@ -80,10 +80,10 @@ commands(
 commands(
     "v1",
     baca.instrument(commands.instruments["Violin.1"]),
+    baca.instrument_name(r"\akasha-violin-i-markup"),
+    library.short_instrument_name("Vn. I"),
     baca.clef("treble"),
     baca.staff_lines(5),
-    library.short_instrument_name("Vn. I"),
-    baca.instrument_name("Violin I", hcenter_in=14),
 )
 
 # v2
@@ -91,10 +91,10 @@ commands(
 commands(
     "v2",
     baca.instrument(commands.instruments["Violin.2"]),
+    baca.instrument_name(r"\akasha-violin-ii-markup"),
+    library.short_instrument_name("Vn. II"),
     baca.clef("treble"),
     baca.staff_lines(5),
-    library.short_instrument_name("Vn. II"),
-    baca.instrument_name("Violin II", hcenter_in=14),
 )
 
 # va
@@ -102,15 +102,15 @@ commands(
 commands(
     ("va", (1, 2)),
     baca.instrument(commands.instruments["Viola"]),
-    baca.clef("alto"),
+    baca.instrument_name(r"\akasha-viola-markup"),
     library.short_instrument_name("Va."),
-    baca.instrument_name("Viola", hcenter_in=14),
-    library.material_annotation_spanner("E"),
+    baca.clef("alto"),
     baca.staff_lines(1),
+    baca.staff_position(0),
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
-    baca.staff_position(0),
+    library.material_annotation_spanner("E"),
 )
 
 # vc
@@ -118,9 +118,9 @@ commands(
 commands(
     "vc",
     baca.instrument(commands.instruments["Cello"]),
-    baca.clef("bass"),
+    baca.instrument_name(r"\akasha-cello-markup"),
     library.short_instrument_name("Vc."),
-    baca.instrument_name("Cello", hcenter_in=14),
+    baca.clef("bass"),
     baca.staff_lines(5),
 )
 

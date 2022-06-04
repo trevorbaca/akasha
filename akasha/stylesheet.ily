@@ -331,7 +331,7 @@ akasha-xp-plus-full-bow-strokes-markup = \markup "XP + full bow strokes"
 akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup = \markup
     "XP + senza vib. + full bow strokes"
 
-%%% MARGIN MARKUP %%%
+%%% INSTRUMENT NAMES %%%
 
 akasha-violin-i-markup = \markup \hcenter-in #14 "Violin I"
 akasha-vn-i-markup = \markup \hcenter-in #12 "Vn. I"

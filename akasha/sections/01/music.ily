@@ -301,7 +301,7 @@ number.1.Violin.1.Music = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #14 "Violin I"
+    \set Staff.instrumentName = \akasha-violin-i-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
@@ -482,7 +482,7 @@ number.1.Violin.2.Music = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #14 "Violin II"
+    \set Staff.instrumentName = \akasha-violin-ii-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
@@ -657,7 +657,7 @@ number.1.Viola.Music = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #14 "Viola"
+    \set Staff.instrumentName = \akasha-viola-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
@@ -942,7 +942,7 @@ number.1.Cello.Music = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #14 "Cello"
+    \set Staff.instrumentName = \akasha-cello-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
