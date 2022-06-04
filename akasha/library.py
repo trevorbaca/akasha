@@ -386,11 +386,7 @@ def short_instrument_names():
 
 def material_annotation_spanner(letter):
     markup = baca.markup(
-        rf"""\markup
-            \override #'(circle-padding . 0.75)
-            \circle
-            {{ \combine \halign #0 {letter} \halign #0 \transparent "O" }}
-            """,
+        rf"\akasha-material-{letter.lower()}",
         selector=lambda _: abjad.select.leaf(_, 0),
     )
     material_to_color = {
