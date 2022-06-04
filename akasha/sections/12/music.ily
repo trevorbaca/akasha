@@ -19,7 +19,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
@@ -85,7 +85,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 8/8
       %! baca._make_global_skips(1)
-    s1 * 1
+    s1 * 8/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -269,7 +269,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -361,7 +361,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 6/8
       %! baca._make_global_skips(1)
-    s1 * 3/4
+    s1 * 6/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -499,7 +499,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -692,7 +692,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 6/8
       %! baca._make_global_skips(1)
-    s1 * 3/4
+    s1 * 6/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -839,7 +839,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -885,7 +885,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 8/8
       %! baca._make_global_skips(1)
-    s1 * 1
+    s1 * 8/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1115,7 +1115,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 6/8
       %! baca._make_global_skips(1)
-    s1 * 3/4
+    s1 * 6/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1253,7 +1253,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1299,7 +1299,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 8/8
       %! baca._make_global_skips(1)
-    s1 * 1
+    s1 * 8/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1450,7 +1450,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1496,7 +1496,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 8/8
       %! baca._make_global_skips(1)
-    s1 * 1
+    s1 * 8/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1625,7 +1625,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1671,7 +1671,7 @@ number.12.Skips = {
       %! baca._comment_measure_numbers()
     % [Skips measure 36]
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1763,7 +1763,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 6/8
       %! baca._make_global_skips(1)
-    s1 * 3/4
+    s1 * 6/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2039,7 +2039,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2177,7 +2177,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 6/8
       %! baca._make_global_skips(1)
-    s1 * 3/4
+    s1 * 6/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2324,7 +2324,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2370,7 +2370,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 8/8
       %! baca._make_global_skips(1)
-    s1 * 1
+    s1 * 8/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2732,7 +2732,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 6/8
       %! baca._make_global_skips(1)
-    s1 * 3/4
+    s1 * 6/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2870,7 +2870,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2930,7 +2930,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 8/8
       %! baca._make_global_skips(1)
-    s1 * 1
+    s1 * 8/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -3031,7 +3031,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -3215,7 +3215,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 4/8
       %! baca._make_global_skips(1)
-    s1 * 1/2
+    s1 * 4/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -3261,7 +3261,7 @@ number.12.Skips = {
       %! baca._set_status_tag()
     \time 8/8
       %! baca._make_global_skips(1)
-    s1 * 1
+    s1 * 8/8
     % AFTER:
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -3344,7 +3344,7 @@ number.12.Skips = {
       %! ANCHOR_SKIP
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_skip(1)
-    % [Skips measure 70]
+    % [anchor skip]
     % OPENING:
     % COMMANDS:
       %! ANCHOR_SKIP
@@ -3404,14 +3404,14 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 1]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 2]
       %! baca._make_global_rests(1)
-    R1 * 1
+    R1 * 8/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3439,7 +3439,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 6]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3453,7 +3453,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 8]
       %! baca._make_global_rests(1)
-    R1 * 3/4
+    R1 * 6/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3474,7 +3474,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 11]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3502,7 +3502,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 15]
       %! baca._make_global_rests(1)
-    R1 * 3/4
+    R1 * 6/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3523,14 +3523,14 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 18]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 19]
       %! baca._make_global_rests(1)
-    R1 * 1
+    R1 * 8/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3565,7 +3565,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 24]
       %! baca._make_global_rests(1)
-    R1 * 3/4
+    R1 * 6/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3586,14 +3586,14 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 27]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 28]
       %! baca._make_global_rests(1)
-    R1 * 1
+    R1 * 8/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3627,14 +3627,14 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 31]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 32]
       %! baca._make_global_rests(1)
-    R1 * 1
+    R1 * 8/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3655,14 +3655,14 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 35]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 36]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3676,7 +3676,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 38]
       %! baca._make_global_rests(1)
-    R1 * 3/4
+    R1 * 6/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3731,7 +3731,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 44]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3765,7 +3765,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 47]
       %! baca._make_global_rests(1)
-    R1 * 3/4
+    R1 * 6/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3786,14 +3786,14 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 50]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 51]
       %! baca._make_global_rests(1)
-    R1 * 1
+    R1 * 8/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3848,7 +3848,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 57]
       %! baca._make_global_rests(1)
-    R1 * 3/4
+    R1 * 6/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3869,14 +3869,14 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 60]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 61]
       %! baca._make_global_rests(1)
-    R1 * 1
+    R1 * 8/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3890,7 +3890,7 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 63]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3918,14 +3918,14 @@ number.12.Rests = {
       %! baca._comment_measure_numbers()
     % [Rests measure 67]
       %! baca._make_global_rests(1)
-    R1 * 1/2
+    R1 * 4/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 68]
       %! baca._make_global_rests(1)
-    R1 * 1
+    R1 * 8/8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
