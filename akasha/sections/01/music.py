@@ -19,8 +19,8 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
+    short_instrument_names=library.short_instrument_names(),
     time_signatures=library.time_signatures(
         "B",
         count=3,
@@ -29,6 +29,17 @@ commands = baca.CommandAccumulator(
     ),
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
+)
+
+baca.interpret.set_up_score(
+    score,
+    commands.manifests(),
+    commands.time_signatures,
+    append_anchor_skip=True,
+    always_make_global_rests=True,
+    attach_nonfirst_empty_start_bar=True,
+    moment_markup=moment_markup,
+    stage_markup=stage_markup,
 )
 
 commands(
@@ -141,10 +152,8 @@ if __name__ == "__main__":
         ),
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
-        global_rests_in_topmost_staff=True,
         fermata_measure_empty_overrides=fermata_measures,
-        moment_markup=moment_markup,
-        stage_markup=stage_markup,
+        global_rests_in_topmost_staff=True,
     )
     lilypond_file = baca.make_lilypond_file(
         score,
