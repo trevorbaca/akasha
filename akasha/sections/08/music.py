@@ -62,27 +62,21 @@ commands(
         lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 5)"),
     ),
-    baca.metronome_mark(
-        "126",
-        selector=lambda _: abjad.select.leaf(_, 0),
-    ),
-    baca.metronome_mark(
-        baca.Ritardando(),
-        selector=lambda _: abjad.select.leaf(_, 0),
-    ),
-    baca.metronome_mark(
-        "44",
-        selector=lambda _: abjad.select.leaf(_, 4),
-    ),
-    baca.metronome_mark(
-        baca.Accelerando(),
-        selector=lambda _: abjad.select.leaf(_, 14),
-    ),
-    baca.metronome_mark(
-        "89",
-        selector=lambda _: abjad.select.leaf(_, 16),
-    ),
 )
+
+skips = score["Skips"]
+manifests = commands.manifests()
+
+for index, item in (
+    (1 - 1, "126"),
+    (1 - 1, baca.Ritardando()),
+    (5 - 1, "44"),
+    (15 - 1, baca.Accelerando()),
+    (17 - 1, "89"),
+):
+    skip = skips[index]
+    indicator = commands.metronome_marks.get(item, item)
+    baca.commands._metronome_mark(skip, indicator, manifests)
 
 commands(
     "Rests",

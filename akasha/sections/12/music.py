@@ -73,17 +73,16 @@ commands(
     baca.text_script_extra_offset((1.5, 6)),
 )
 
-commands(
-    "Skips",
-    baca.metronome_mark(
-        baca.Ritardando(),
-        selector=lambda _: abjad.select.leaf(_, 52),
-    ),
-    baca.metronome_mark(
-        "38",
-        selector=lambda _: abjad.select.leaf(_, 55),
-    ),
-)
+skips = score["Skips"]
+manifests = commands.manifests()
+
+for index, item in (
+    (53 - 1, baca.Ritardando()),
+    (56 - 1, "38"),
+):
+    skip = skips[index]
+    indicator = commands.metronome_marks.get(item, item)
+    baca.commands._metronome_mark(skip, indicator, manifests)
 
 commands(
     "Skips",
