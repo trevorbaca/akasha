@@ -64,45 +64,23 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.metronome_mark(
-        "44",
-        selector=lambda _: abjad.select.leaf(_, 0),
-    ),
-    baca.metronome_mark(
-        "126",
-        selector=lambda _: abjad.select.leaf(_, 2),
-    ),
-    baca.metronome_mark(
-        "55",
-        selector=lambda _: abjad.select.leaf(_, 5),
-    ),
-    baca.metronome_mark(
-        "89",
-        selector=lambda _: abjad.select.leaf(_, 7),
-    ),
-    baca.metronome_mark(
-        baca.Accelerando(),
-        selector=lambda _: abjad.select.leaf(_, 30),
-    ),
-    baca.metronome_mark(
-        "126",
-        selector=lambda _: abjad.select.leaf(_, 34),
-    ),
-    baca.metronome_mark(
-        "55",
-        selector=lambda _: abjad.select.leaf(_, 42),
-    ),
-    baca.metronome_mark(
-        "126",
-        selector=lambda _: abjad.select.leaf(_, 44),
-    ),
-    baca.metronome_mark(
-        "55",
-        selector=lambda _: abjad.select.leaf(_, 46),
-    ),
-)
+skips = score["Skips"]
+manifests = commands.manifests()
+
+for index, item in (
+    (1 - 1, "44"),
+    (3 - 1, "126"),
+    (6 - 1, "55"),
+    (8 - 1, "89"),
+    (31 - 1, baca.Accelerando()),
+    (35 - 1, "126"),
+    (43 - 1, "55"),
+    (45 - 1, "126"),
+    (47 - 1, "55"),
+):
+    skip = skips[index]
+    indicator = commands.metronome_marks.get(item, item)
+    baca.commands._metronome_mark(skip, indicator, manifests)
 
 commands(
     ("Skips", (45, 46)),
