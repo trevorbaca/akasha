@@ -53,7 +53,7 @@ commands(
     ),
 )
 
-baca.commands._bar_line(score["Skips"][25 - 1], "|.")
+baca.bar_line(score["Skips"][25 - 1], "|.")
 
 skips = score["Skips"]
 manifests = commands.manifests()
