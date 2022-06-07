@@ -35,6 +35,7 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
+    commands,
     commands.manifests(),
     commands.time_signatures,
     append_anchor_skip=True,
@@ -50,8 +51,9 @@ commands(
         lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
     ),
-    baca.bar_line("|.", lambda _: baca.select.skip(_, -1)),
 )
+
+baca.commands._bar_line(score["Skips"][25 - 1], "|.")
 
 skips = score["Skips"]
 manifests = commands.manifests()
