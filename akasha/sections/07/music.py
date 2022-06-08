@@ -95,41 +95,18 @@ commands(
 baca.open_volta(skips[45 - 1], commands.first_measure_number)
 baca.close_volta(skips[47 - 1], commands.first_measure_number)
 
-commands(
-    "Rests",
-    baca.global_fermata(
-        "long",
-        selector=lambda _: abjad.select.leaf(_, 4),
-    ),
-    baca.global_fermata(
-        "long",
-        selector=lambda _: abjad.select.leaf(_, 6),
-    ),
-    baca.global_fermata(
-        "long",
-        selector=lambda _: abjad.select.leaf(_, 9),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 34),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 41),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 43),
-    ),
-    baca.global_fermata(
-        "short",
-        selector=lambda _: abjad.select.leaf(_, 45),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 47),
-    ),
-)
+rests = score["Rests"]
+for index, string in (
+    (5 - 1, "long"),
+    (7 - 1, "long"),
+    (10 - 1, "long"),
+    (35 - 1, "fermata"),
+    (42 - 1, "fermata"),
+    (44 - 1, "fermata"),
+    (46 - 1, "short"),
+    (48 - 1, "fermata"),
+):
+    baca.global_fermata(rests[index], string)
 
 # V1
 

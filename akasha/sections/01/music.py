@@ -48,7 +48,7 @@ manifests = commands.manifests()
 
 baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["44"], manifests)
 
-baca.commands.global_fermata_function(score["Rests"][3 - 1], "very_long")
+baca.commands.global_fermata(score["Rests"][3 - 1], "very_long")
 
 # V1
 
