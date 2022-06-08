@@ -41,9 +41,7 @@ baca.interpret.set_up_score(
 )
 
 rests = score["Rests"]
-for index, string in (
-    (4 - 1, "very_long"),
-):
+for index, string in ((4 - 1, "very_long"),):
     baca.global_fermata(rests[index], string)
 
 # V1
