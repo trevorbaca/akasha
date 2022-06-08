@@ -75,29 +75,15 @@ for index, item in (
     indicator = commands.metronome_marks.get(item, item)
     baca.commands._metronome_mark(skip, indicator, manifests)
 
-commands(
-    "Rests",
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 1),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 3),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 5),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 7),
-    ),
-    baca.global_fermata(
-        "long",
-        selector=lambda _: abjad.select.leaf(_, -1),
-    ),
-)
+rests = score["Rests"]
+for index, string in (
+    (2 - 1, "fermata"),
+    (4 - 1, "fermata"),
+    (6 - 1, "fermata"),
+    (8 - 1, "fermata"),
+    (39 - 1, "long"),
+):
+    baca.global_fermata(rests[index], string)
 
 # V1
 
