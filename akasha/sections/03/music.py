@@ -56,21 +56,10 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Rests",
-    baca.global_fermata(
-        "long",
-        selector=lambda _: abjad.select.leaf(_, 4),
-    ),
-    baca.global_fermata(
-        "short",
-        selector=lambda _: abjad.select.leaf(_, 6),
-    ),
-    baca.global_fermata(
-        "short",
-        selector=lambda _: abjad.select.leaf(_, 8),
-    ),
-)
+rests = score["Rests"]
+baca.commands.global_fermata_function(rests[5 - 1], "long")
+baca.commands.global_fermata_function(rests[7 - 1], "short")
+baca.commands.global_fermata_function(rests[9 - 1], "short")
 
 # V1
 

@@ -66,49 +66,17 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Rests",
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 1),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 3),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 5),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 7),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 13),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 17),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 19),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 21),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 23),
-    ),
-    baca.global_fermata(
-        "long",
-        selector=lambda _: abjad.select.leaf(_, -1),
-    ),
-)
+rests = score["Rests"]
+baca.commands.global_fermata_function(rests[2 - 1], "fermata")
+baca.commands.global_fermata_function(rests[4 - 1], "fermata")
+baca.commands.global_fermata_function(rests[6 - 1], "fermata")
+baca.commands.global_fermata_function(rests[8 - 1], "fermata")
+baca.commands.global_fermata_function(rests[14 - 1], "fermata")
+baca.commands.global_fermata_function(rests[18 - 1], "fermata")
+baca.commands.global_fermata_function(rests[20 - 1], "fermata")
+baca.commands.global_fermata_function(rests[22 - 1], "fermata")
+baca.commands.global_fermata_function(rests[24 - 1], "fermata")
+baca.commands.global_fermata_function(rests[27 - 1], "long")
 
 # V1
 
