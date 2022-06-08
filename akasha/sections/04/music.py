@@ -82,7 +82,7 @@ baca.global_fermata(rests[27 - 1], "long")
 
 commands(
     ("v1", (1, 8)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -92,7 +92,7 @@ commands(
 
 commands(
     ("v1", (14, 15)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -102,7 +102,7 @@ commands(
 
 commands(
     ("v1", 18),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -112,7 +112,7 @@ commands(
 
 commands(
     ("v1", 20),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -122,7 +122,7 @@ commands(
 
 commands(
     ("v1", 22),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -132,7 +132,7 @@ commands(
 
 commands(
     ("v1", 24),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -142,14 +142,14 @@ commands(
 
 commands(
     ("v1", 27),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # V2
 
 commands(
     ("v2", (1, 8)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -159,7 +159,7 @@ commands(
 
 commands(
     ("v2", (14, 15)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -169,7 +169,7 @@ commands(
 
 commands(
     ("v2", 18),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -179,7 +179,7 @@ commands(
 
 commands(
     ("v2", 20),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -189,7 +189,7 @@ commands(
 
 commands(
     ("v2", 22),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -199,7 +199,7 @@ commands(
 
 commands(
     ("v2", (24, 25)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -209,7 +209,7 @@ commands(
 
 commands(
     ("v2", 27),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VA
@@ -221,7 +221,7 @@ commands(
 
 commands(
     ("va", 2),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -231,7 +231,7 @@ commands(
 
 commands(
     ("va", 4),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -241,7 +241,7 @@ commands(
 
 commands(
     ("va", 6),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -251,7 +251,7 @@ commands(
 
 commands(
     ("va", 8),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -261,7 +261,7 @@ commands(
 
 commands(
     ("va", (13, 15)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -271,7 +271,7 @@ commands(
 
 commands(
     ("va", (17, 22)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -281,7 +281,7 @@ commands(
 
 commands(
     ("va", 24),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -296,7 +296,7 @@ commands(
 
 commands(
     ("va", 27),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VC
@@ -308,7 +308,7 @@ commands(
 
 commands(
     ("vc", 2),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -318,7 +318,7 @@ commands(
 
 commands(
     ("vc", 4),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -328,7 +328,7 @@ commands(
 
 commands(
     ("vc", 6),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -338,7 +338,7 @@ commands(
 
 commands(
     ("vc", 8),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -348,7 +348,7 @@ commands(
 
 commands(
     ("vc", (13, 14)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -362,7 +362,7 @@ commands(
 
 commands(
     ("vc", (16, 22)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -372,7 +372,7 @@ commands(
 
 commands(
     ("vc", 24),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -382,7 +382,7 @@ commands(
 
 commands(
     ("vc", 27),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # reapply

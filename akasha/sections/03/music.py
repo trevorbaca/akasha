@@ -76,7 +76,7 @@ commands(
 
 commands(
     ("v1", (4, 11)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # V2
@@ -88,7 +88,7 @@ commands(
 
 commands(
     ("v2", (4, 9)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -113,7 +113,7 @@ commands(
 
 commands(
     ("va", (4, 10)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -143,7 +143,7 @@ commands(
 
 commands(
     ("vc", 5),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -157,7 +157,7 @@ commands(
 
 commands(
     ("vc", 7),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -171,7 +171,7 @@ commands(
 
 commands(
     ("vc", (9, 10)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(

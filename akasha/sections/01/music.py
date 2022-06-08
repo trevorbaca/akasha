@@ -54,14 +54,14 @@ baca.commands.global_fermata(score["Rests"][3 - 1], "very_long")
 
 commands(
     "v1",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # V2
 
 commands(
     "v2",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # VA
@@ -73,14 +73,14 @@ commands(
 
 commands(
     ("va", 3),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VC
 
 commands(
     "vc",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # v1

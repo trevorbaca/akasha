@@ -48,7 +48,7 @@ for index, string in ((4 - 1, "very_long"),):
 
 commands(
     ("v1", 1),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -75,7 +75,7 @@ commands(
 
 commands(
     ("v1", 4),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # V2
@@ -115,14 +115,14 @@ commands(
 
 commands(
     ("v2", 4),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # VA
 
 commands(
     "va",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # VC
@@ -140,7 +140,7 @@ commands(
 
 commands(
     ("vc", 2),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -156,7 +156,7 @@ commands(
 
 commands(
     ("vc", 4),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # reapply
