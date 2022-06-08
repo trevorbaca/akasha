@@ -57,23 +57,6 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    ("Skips", (30, 39)),
-    baca.markup(
-        r"\akasha-repeat-six-markup",
-        selector=lambda _: baca.select.skip(_, 0),
-    ),
-)
-
-commands(
-    ("Skips", (56, 60)),
-    baca.markup(
-        r"\akasha-repeat-six-markup",
-        selector=lambda _: baca.select.skip(_, 0),
-    ),
-    baca.text_script_extra_offset((1.5, 6)),
-)
-
 skips = score["Skips"]
 manifests = commands.manifests()
 
@@ -84,6 +67,10 @@ for index, item in (
     skip = skips[index]
     indicator = commands.metronome_marks.get(item, item)
     baca.commands._metronome_mark(skip, indicator, manifests)
+
+baca.markup_function(skips[30 - 1], r"\akasha-repeat-six-markup")
+baca.markup_function(skips[56 - 1], r"\akasha-repeat-six-markup")
+baca.text_script_extra_offset_function(skips[56 - 1 : 61 - 1], (1.5, 6))
 
 baca.open_volta(skips[56 - 1], commands.first_measure_number)
 baca.close_volta(skips[61 - 1], commands.first_measure_number)

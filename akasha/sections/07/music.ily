@@ -2237,8 +2237,7 @@ number.7.Skips = {
       %! baca.bar_line_x_extent(1)
       %! baca.open_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
-      %! baca.OverrideCommand._call(1)
-      %! baca.text_script_extra_offset()
+      %! baca.text_script_extra_offset_function(1)
     \override TextScript.extra-offset = #'(1.5 . 6)
     % OPENING:
     % COMMANDS:
@@ -2253,8 +2252,7 @@ number.7.Skips = {
     s1 * 6/4
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \akasha-repeat-six-markup
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2376,8 +2374,7 @@ number.7.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.text_script_extra_offset()
+      %! baca.text_script_extra_offset_function(2)
     \revert TextScript.extra-offset
     % ABSOLUTE_BEFORE:
     % COMMANDS:

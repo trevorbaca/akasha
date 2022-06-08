@@ -44,29 +44,24 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.rehearsal_mark(
-        "N",
-        lambda _: abjad.select.leaf(_, 0),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
-    ),
-)
-
-baca.bar_line(score["Skips"][25 - 1], "|.")
-
 skips = score["Skips"]
 manifests = commands.manifests()
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "N",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
+)
 
 for index, item in ((1 - 1, "89"),):
     skip = skips[index]
     indicator = commands.metronome_marks.get(item, item)
     baca.commands._metronome_mark(skip, indicator, manifests)
 
+baca.bar_line(skips[25 - 1], "|.")
+
 rests = score["Rests"]
-for index, string in (
-    (25 - 1, "very_long"),
-):
+for index, string in ((25 - 1, "very_long"),):
     baca.global_fermata(rests[index], string)
 
 # V1
