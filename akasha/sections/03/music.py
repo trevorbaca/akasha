@@ -61,67 +61,69 @@ baca.global_fermata(rests[5 - 1], "long")
 baca.global_fermata(rests[7 - 1], "short")
 baca.global_fermata(rests[9 - 1], "short")
 
+v1 = score["Violin.1.Music"]
+v2 = score["Violin.2.Music"]
+va = score["Viola.Music"]
+vc = score["Cello.Music"]
+
 # V1
 
-commands(
-    ("v1", (1, 3)),
-    library.make_accelerando_rhythm(
-        rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
-        rmakers.rewrite_rest_filled(),
-        rmakers.extract_trivial(),
-        rmakers.force_rest(lambda _: baca.select.lt(_, 1)),
-        fuse_counts=[1],
-    ),
-)
+voice = score["Violin.1.Music"]
 
-commands(
-    ("v1", (4, 11)),
-    baca.make_mmrests(head=True),
+music = library.make_accelerando_rhythm(
+    rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
+    rmakers.rewrite_rest_filled(),
+    rmakers.extract_trivial(),
+    rmakers.force_rest(lambda _: baca.select.lt(_, 1)),
+    fuse_counts=[1],
+    function=commands.get(1, 3),
 )
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(4, 11), head=v1.name)
+voice.extend(music)
 
 # V2
 
-commands(
-    ("v2", (1, 3)),
-    library.make_polyphony_rhythm(),
-)
+voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", (4, 9)),
-    baca.make_mmrests(head=True),
+music = library.make_polyphony_rhythm(
+    function=commands.get(1, 3),
 )
+voice.extend(music)
 
-commands(
-    ("v2", (10, 11)),
-    library.make_accelerando_rhythm(
-        rmakers.force_rest(lambda _: baca.select.lt(_, 3)),
-        fuse_counts=[2, 1],
-    ),
+music = baca.make_mmrests_function(commands.get(4, 9), head=v2.name)
+voice.extend(music)
+
+music = library.make_accelerando_rhythm(
+    rmakers.force_rest(lambda _: baca.select.lt(_, 3)),
+    fuse_counts=[2, 1],
+    function=commands.get(10, 11),
 )
+voice.extend(music)
 
 # VA
 
-commands(
-    ("va", (1, 3)),
-    library.make_polyphony_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[:2],
-        ),
-        rotation=-2,
+voice = score["Viola.Music"]
+
+music = library.make_polyphony_rhythm(
+    rmakers.force_rest(
+        lambda _: baca.select.lts(_)[:2],
     ),
+    rotation=-2,
+    function=commands.get(1, 3),
 )
+voice.extend(music)
 
-commands(
-    ("va", (4, 10)),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(4, 10), head=va.name)
+voice.extend(music)
 
-commands(
-    ("va", 11),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(11))
+voice.extend(music)
 
 # VC
+
+voice = score["Cello.Music"]
 
 
 def get_tuplets(argument, pattern):
@@ -130,54 +132,43 @@ def get_tuplets(argument, pattern):
     return tuplets
 
 
-commands(
-    ("vc", (1, 4)),
-    library.make_sparse_getato_rhythm(
-        rmakers.force_rest(
-            lambda _: get_tuplets(_, ~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
-        ),
-        degree=0,
-        extra_counts=[1, 1, 0, 2],
+music = library.make_sparse_getato_rhythm(
+    rmakers.force_rest(
+        lambda _: get_tuplets(_, ~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
     ),
+    degree=0,
+    extra_counts=[1, 1, 0, 2],
+    function=commands.get(1, 4),
 )
+voice.extend(music)
 
-commands(
-    ("vc", 5),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(5), head=vc.name)
+voice.extend(music)
 
-commands(
-    ("vc", 6),
-    library.make_sparse_getato_rhythm(
-        degree=0,
-        extra_counts=[1, 1, 0, 2],
-        rotation=-4,
-    ),
+music = library.make_sparse_getato_rhythm(
+    degree=0,
+    extra_counts=[1, 1, 0, 2],
+    rotation=-4,
+    function=commands.get(6),
 )
+voice.extend(music)
 
-commands(
-    ("vc", 7),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(7), head=vc.name)
+voice.extend(music)
 
-commands(
-    ("vc", 8),
-    library.make_sparse_getato_rhythm(
-        degree=0,
-        extra_counts=[1, 1, 0, 2],
-        rotation=-8,
-    ),
+music = library.make_sparse_getato_rhythm(
+    degree=0,
+    extra_counts=[1, 1, 0, 2],
+    rotation=-8,
+    function=commands.get(8),
 )
+voice.extend(music)
 
-commands(
-    ("vc", (9, 10)),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(9, 10), head=vc.name)
+voice.extend(music)
 
-commands(
-    ("vc", 11),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(11))
+voice.extend(music)
 
 # phantom & reapply
 

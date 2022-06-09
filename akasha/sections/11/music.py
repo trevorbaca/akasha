@@ -44,120 +44,114 @@ rests = score["Rests"]
 for index, string in ((4 - 1, "very_long"),):
     baca.global_fermata(rests[index], string)
 
+v1 = score["Violin.1.Music"]
+v2 = score["Violin.2.Music"]
+va = score["Viola.Music"]
+vc = score["Cello.Music"]
+
 # V1
 
-commands(
-    ("v1", 1),
-    baca.make_mmrests(),
-)
+voice = score["Violin.1.Music"]
 
-commands(
-    ("v1", 2),
-    library.make_scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[1:],
-        ),
-        extra_counts=[-2],
+music = baca.make_mmrests_function(commands.get(1))
+voice.extend(music)
+
+music = library.make_scratch_rhythm(
+    [4],
+    rmakers.force_rest(
+        lambda _: baca.select.lts(_)[1:],
     ),
+    extra_counts=[-2],
+    function=commands.get(2),
 )
+voice.extend(music)
 
-commands(
-    ("v1", 3),
-    library.make_scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[1:],
-        ),
-        extra_counts=[-2],
+music = library.make_scratch_rhythm(
+    [4],
+    rmakers.force_rest(
+        lambda _: baca.select.lts(_)[1:],
     ),
+    extra_counts=[-2],
+    function=commands.get(3),
 )
+voice.extend(music)
 
-commands(
-    ("v1", 4),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(4))
+voice.extend(music)
 
 # V2
 
-commands(
-    ("v2", 1),
-    library.make_scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[:-1],
-        ),
-        extra_counts=[-2],
-    ),
-)
+voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", 2),
-    library.make_scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
-        ),
-        extra_counts=[-1],
+music = library.make_scratch_rhythm(
+    [4],
+    rmakers.force_rest(
+        lambda _: baca.select.lts(_)[:-1],
     ),
+    extra_counts=[-2],
+    function=commands.get(1),
 )
+voice.extend(music)
 
-commands(
-    ("v2", 3),
-    library.make_scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[:-1],
-        ),
-        extra_counts=[1],
+music = library.make_scratch_rhythm(
+    [4],
+    rmakers.force_rest(
+        lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
     ),
+    extra_counts=[-1],
+    function=commands.get(2),
 )
+voice.extend(music)
 
-commands(
-    ("v2", 4),
-    baca.make_mmrests(),
+music = library.make_scratch_rhythm(
+    [4],
+    rmakers.force_rest(
+        lambda _: baca.select.lts(_)[:-1],
+    ),
+    extra_counts=[1],
+    function=commands.get(3),
 )
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(4))
+voice.extend(music)
 
 # VA
 
-commands(
-    "va",
-    baca.make_mmrests(),
-)
+voice = score["Viola.Music"]
+
+music = baca.make_mmrests_function(commands.time_signatures)
+voice.extend(music)
 
 # VC
 
-commands(
-    ("vc", 1),
-    library.make_scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
-        ),
-        extra_counts=[-1],
+voice = score["Cello.Music"]
+
+music = library.make_scratch_rhythm(
+    [4],
+    rmakers.force_rest(
+        lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
     ),
+    extra_counts=[-1],
+    function=commands.get(1),
 )
+voice.extend(music)
 
-commands(
-    ("vc", 2),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(2))
+voice.extend(music)
 
-commands(
-    ("vc", 3),
-    library.make_scratch_rhythm(
-        [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
-        ),
-        extra_counts=[-1],
+music = library.make_scratch_rhythm(
+    [4],
+    rmakers.force_rest(
+        lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
     ),
+    extra_counts=[-1],
+    function=commands.get(3),
 )
+voice.extend(music)
 
-commands(
-    ("vc", 4),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(4))
+voice.extend(music)
 
 # reapply
 

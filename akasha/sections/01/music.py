@@ -50,38 +50,41 @@ baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["44"], mani
 
 baca.commands.global_fermata(score["Rests"][3 - 1], "very_long")
 
+v1 = score["Violin.1.Music"]
+v2 = score["Violin.2.Music"]
+va = score["Viola.Music"]
+vc = score["Cello.Music"]
+
 # V1
 
-commands(
-    "v1",
-    baca.make_mmrests(),
-)
+voice = score["Violin.1.Music"]
+
+music = baca.make_mmrests_function(commands.time_signatures)
+voice.extend(music)
 
 # V2
 
-commands(
-    "v2",
-    baca.make_mmrests(),
-)
+voice = score["Violin.2.Music"]
+
+music = baca.make_mmrests_function(commands.time_signatures)
+voice.extend(music)
 
 # VA
 
-commands(
-    ("va", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Viola.Music"]
 
-commands(
-    ("va", 3),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(3), head=va.name)
+voice.extend(music)
 
 # VC
 
-commands(
-    "vc",
-    baca.make_mmrests(),
-)
+voice = score["Cello.Music"]
+
+music = baca.make_mmrests_function(commands.time_signatures)
+voice.extend(music)
 
 # v1
 
