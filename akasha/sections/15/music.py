@@ -64,80 +64,79 @@ rests = score["Rests"]
 for index, string in ((25 - 1, "very_long"),):
     baca.global_fermata(rests[index], string)
 
+v1 = score["Violin.1.Music"]
+v2 = score["Violin.2.Music"]
+va = score["Viola.Music"]
+vc = score["Cello.Music"]
+
 # V1
 
-commands(
-    ("v1", (1, 16)),
-    baca.make_notes(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
-        ),
-        repeat_ties=True,
-    ),
-)
+voice = score["Violin.1.Music"]
 
-commands(
-    ("v1", (17, 25)),
-    baca.make_mmrests(),
+music = baca.make_notes_function(
+    commands.get(1, 16),
+    rmakers.force_rest(
+        lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
+    ),
+    repeat_ties=True,
 )
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(17, 25))
+voice.extend(music)
 
 # V2
 
-commands(
-    ("v2", (1, 8)),
-    baca.make_mmrests(),
-)
+voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", (9, 24)),
-    library.make_sparse_getato_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                ~abjad.Pattern([3, 36, 37]),
-            ),
+music = baca.make_mmrests_function(commands.get(1, 8))
+voice.extend(music)
+
+music = library.make_sparse_getato_rhythm(
+    rmakers.force_rest(
+        lambda _: abjad.select.get(
+            abjad.select.tuplets(_),
+            ~abjad.Pattern([3, 36, 37]),
         ),
     ),
+    function=commands.get(9, 24),
 )
+voice.extend(music)
 
-commands(
-    ("v2", 25),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(25))
+voice.extend(music)
 
 # VA
 
-commands(
-    ("va", (1, 16)),
-    baca.make_notes(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
-        ),
-        repeat_ties=True,
-    ),
-)
+voice = score["Viola.Music"]
 
-commands(
-    ("va", (17, 25)),
-    baca.make_mmrests(),
+music = baca.make_notes_function(
+    commands.get(1, 16),
+    rmakers.force_rest(
+        lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
+    ),
+    repeat_ties=True,
 )
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(17, 25))
+voice.extend(music)
 
 # VC
 
-commands(
-    ("vc", (1, 16)),
-    baca.make_notes(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
-        ),
-        repeat_ties=True,
-    ),
-)
+voice = score["Cello.Music"]
 
-commands(
-    ("vc", (17, 25)),
-    baca.make_mmrests(),
+music = baca.make_notes_function(
+    commands.get(1, 16),
+    rmakers.force_rest(
+        lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
+    ),
+    repeat_ties=True,
 )
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(17, 25))
+voice.extend(music)
 
 # reapply
 
