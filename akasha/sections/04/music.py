@@ -205,10 +205,6 @@ voice.extend(music)
 music = baca.make_mmrests_function(commands.get(8), head=va.name)
 voice.extend(music)
 
-# commands(
-#    ("va", (9, 12)),
-#    baca.make_notes(repeat_ties=True),
-# )
 music = baca.make_notes_function(commands.get(9, 12), repeat_ties=True)
 voice.extend(music)
 
@@ -230,10 +226,6 @@ voice.extend(music)
 music = baca.make_mmrests_function(commands.get(24), head=va.name)
 voice.extend(music)
 
-# commands(
-#    ("va", 25),
-#    baca.make_notes(repeat_ties=True),
-# )
 music = baca.make_notes_function(commands.get(25), repeat_ties=True)
 voice.extend(music)
 
