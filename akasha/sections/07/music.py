@@ -111,7 +111,7 @@ vc = score["Cello.Music"]
 
 voice = score["Violin.1.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -121,7 +121,7 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(5, 7), head=v1.name)
+music = baca.make_mmrests(commands.get(5, 7), head=v1.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
@@ -133,7 +133,7 @@ music = library.make_accelerando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(10), head=v1.name)
+music = baca.make_mmrests(commands.get(10), head=v1.name)
 voice.extend(music)
 
 music = library.make_growth_rhythm(
@@ -150,7 +150,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(27, 34))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(35), head=v1.name)
+music = baca.make_mmrests(commands.get(35), head=v1.name)
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -160,7 +160,7 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(42, 44), head=v1.name)
+music = baca.make_mmrests(commands.get(42, 44), head=v1.name)
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -170,14 +170,14 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(46, 48), head=v1.name)
+music = baca.make_mmrests(commands.get(46, 48), head=v1.name)
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -187,7 +187,7 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(5, 7), head=v2.name)
+music = baca.make_mmrests(commands.get(5, 7), head=v2.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
@@ -198,7 +198,7 @@ music = library.make_ritardando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(10), head=v2.name)
+music = baca.make_mmrests(commands.get(10), head=v2.name)
 voice.extend(music)
 
 music = library.make_growth_rhythm(
@@ -214,7 +214,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(27, 34))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(35), head=v2.name)
+music = baca.make_mmrests(commands.get(35), head=v2.name)
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -224,7 +224,7 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(42, 44), head=v2.name)
+music = baca.make_mmrests(commands.get(42, 44), head=v2.name)
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -234,20 +234,20 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(46, 48), head=v2.name)
+music = baca.make_mmrests(commands.get(46, 48), head=v2.name)
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 5))
+music = baca.make_mmrests(commands.get(1, 5))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(6))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7, 10), head=va.name)
+music = baca.make_mmrests(commands.get(7, 10), head=va.name)
 voice.extend(music)
 
 music = library.make_manifest_rhythm(
@@ -259,7 +259,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(27, 34))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(35), head=va.name)
+music = baca.make_mmrests(commands.get(35), head=va.name)
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -269,13 +269,13 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(42), head=va.name)
+music = baca.make_mmrests(commands.get(42), head=va.name)
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(43))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(44), head=va.name)
+music = baca.make_mmrests(commands.get(44), head=va.name)
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -285,13 +285,13 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(46), head=va.name)
+music = baca.make_mmrests(commands.get(46), head=va.name)
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(47))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(48), head=va.name)
+music = baca.make_mmrests(commands.get(48), head=va.name)
 voice.extend(music)
 
 # VC
@@ -310,7 +310,7 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(5, 10), head=vc.name)
+music = baca.make_mmrests(commands.get(5, 10), head=vc.name)
 voice.extend(music)
 
 music = library.make_manifest_rhythm(
@@ -322,7 +322,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(27, 34))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(35), head=vc.name)
+music = baca.make_mmrests(commands.get(35), head=vc.name)
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -332,7 +332,7 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(42, 44), head=vc.name)
+music = baca.make_mmrests(commands.get(42, 44), head=vc.name)
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
@@ -342,7 +342,7 @@ music = library.make_dense_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(46, 48), head=vc.name)
+music = baca.make_mmrests(commands.get(46, 48), head=vc.name)
 voice.extend(music)
 
 # reapply

@@ -53,7 +53,7 @@ vc = score["Cello.Music"]
 
 voice = score["Violin.1.Music"]
 
-music = baca.make_mmrests_function(commands.get(1))
+music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
@@ -76,7 +76,7 @@ music = library.make_scratch_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(4))
+music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 # V2
@@ -113,14 +113,14 @@ music = library.make_scratch_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(4))
+music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-music = baca.make_mmrests_function(commands.time_signatures)
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # VC
@@ -137,7 +137,7 @@ music = library.make_scratch_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(2))
+music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
@@ -150,7 +150,7 @@ music = library.make_scratch_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(4))
+music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 # reapply

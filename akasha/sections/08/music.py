@@ -105,13 +105,13 @@ voice.extend(music)
 music = baca.make_notes_function(commands.get(11, 13), repeat_ties=True)
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14), head=v1.name)
+music = baca.make_mmrests(commands.get(14), head=v1.name)
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(15, 16))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(17), head=v1.name)
+music = baca.make_mmrests(commands.get(17), head=v1.name)
 voice.extend(music)
 
 # V2
@@ -130,13 +130,13 @@ voice.extend(music)
 music = baca.make_notes_function(commands.get(11, 13), repeat_ties=True)
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14), head=v2.name)
+music = baca.make_mmrests(commands.get(14), head=v2.name)
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(15, 16))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(17), head=v2.name)
+music = baca.make_mmrests(commands.get(17), head=v2.name)
 voice.extend(music)
 
 # VA
@@ -155,7 +155,7 @@ voice.extend(music)
 music = baca.make_notes_function(commands.get(11, 13), repeat_ties=True)
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14), head=va.name)
+music = baca.make_mmrests(commands.get(14), head=va.name)
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(15, 17))
@@ -177,13 +177,13 @@ voice.extend(music)
 music = baca.make_notes_function(commands.get(11, 13), repeat_ties=True)
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14), head=vc.name)
+music = baca.make_mmrests(commands.get(14), head=vc.name)
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(15, 16))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(17), head=vc.name)
+music = baca.make_mmrests(commands.get(17), head=vc.name)
 voice.extend(music)
 
 # anchor notes & reapply

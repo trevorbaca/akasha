@@ -66,14 +66,14 @@ vc = score["Cello.Music"]
 
 voice = score["Violin.1.Music"]
 
-music = baca.make_mmrests_function(commands.time_signatures)
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-music = baca.make_mmrests_function(commands.time_signatures)
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # VA
@@ -83,20 +83,20 @@ voice = score["Viola.Music"]
 music = baca.make_repeat_tied_notes_function(commands.get(1))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(2))
+music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(3))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(4, 6))
+music = baca.make_mmrests(commands.get(4, 6))
 voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 4))
+music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(5, 6))

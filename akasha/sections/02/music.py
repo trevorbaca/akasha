@@ -99,7 +99,7 @@ vc = score["Cello.Music"]
 
 voice = score["Violin.1.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 5))
+music = baca.make_mmrests(commands.get(1, 5))
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -110,7 +110,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8), head=v1.name)
+music = baca.make_mmrests(commands.get(8), head=v1.name)
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
@@ -121,7 +121,7 @@ music = library.make_sparse_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(10), head=v1.name)
+music = baca.make_mmrests(commands.get(10), head=v1.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
@@ -141,7 +141,7 @@ music = library.make_accelerando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14), head=v1.name)
+music = baca.make_mmrests(commands.get(14), head=v1.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
@@ -157,7 +157,7 @@ music = library.make_accelerando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16), head=v1.name)
+music = baca.make_mmrests(commands.get(16), head=v1.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
@@ -172,14 +172,14 @@ music = library.make_ritardando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(18, 20), head=v1.name)
+music = baca.make_mmrests(commands.get(18, 20), head=v1.name)
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 3))
+music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
@@ -190,7 +190,7 @@ music = library.make_sparse_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(5), head=v2.name)
+music = baca.make_mmrests(commands.get(5), head=v2.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -201,7 +201,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8), head=v2.name)
+music = baca.make_mmrests(commands.get(8), head=v2.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -213,7 +213,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(10), head=v2.name)
+music = baca.make_mmrests(commands.get(10), head=v2.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
@@ -232,7 +232,7 @@ music = library.make_ritardando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14), head=v2.name)
+music = baca.make_mmrests(commands.get(14), head=v2.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
@@ -247,7 +247,7 @@ music = library.make_ritardando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16), head=v2.name)
+music = baca.make_mmrests(commands.get(16), head=v2.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
@@ -263,7 +263,7 @@ music = library.make_accelerando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(18), head=v2.name)
+music = baca.make_mmrests(commands.get(18), head=v2.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
@@ -278,14 +278,14 @@ music = library.make_ritardando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(20), head=v2.name)
+music = baca.make_mmrests(commands.get(20), head=v2.name)
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 3))
+music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
@@ -296,7 +296,7 @@ music = library.make_sparse_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(5), head=va.name)
+music = baca.make_mmrests(commands.get(5), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -307,7 +307,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8), head=va.name)
+music = baca.make_mmrests(commands.get(8), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -319,7 +319,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(10), head=va.name)
+music = baca.make_mmrests(commands.get(10), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -328,7 +328,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14), head=va.name)
+music = baca.make_mmrests(commands.get(14), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -337,7 +337,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20), head=va.name)
+music = baca.make_mmrests(commands.get(16, 20), head=va.name)
 voice.extend(music)
 
 # VC
@@ -350,7 +350,7 @@ music = library.make_cello_solo_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3, 8), head=vc.name)
+music = baca.make_mmrests(commands.get(3, 8), head=vc.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -362,7 +362,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(10), head=vc.name)
+music = baca.make_mmrests(commands.get(10), head=vc.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -372,7 +372,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14), head=vc.name)
+music = baca.make_mmrests(commands.get(14), head=vc.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
@@ -382,7 +382,7 @@ music = library.make_polyphony_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 18), head=vc.name)
+music = baca.make_mmrests(commands.get(16, 18), head=vc.name)
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
@@ -396,7 +396,7 @@ music = library.make_sparse_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(20), head=vc.name)
+music = baca.make_mmrests(commands.get(20), head=vc.name)
 voice.extend(music)
 
 # reapply
