@@ -82,14 +82,14 @@ music = baca.make_notes_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(17, 25))
+music = baca.make_mmrests(commands.get(17, 25))
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 8))
+music = baca.make_mmrests(commands.get(1, 8))
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
@@ -103,7 +103,7 @@ music = library.make_sparse_getato_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(25))
+music = baca.make_mmrests(commands.get(25))
 voice.extend(music)
 
 # VA
@@ -119,7 +119,7 @@ music = baca.make_notes_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(17, 25))
+music = baca.make_mmrests(commands.get(17, 25))
 voice.extend(music)
 
 # VC
@@ -135,7 +135,7 @@ music = baca.make_notes_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(17, 25))
+music = baca.make_mmrests(commands.get(17, 25))
 voice.extend(music)
 
 # reapply

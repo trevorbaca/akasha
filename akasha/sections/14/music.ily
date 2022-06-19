@@ -1784,7 +1784,7 @@ number.14.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 5/4
     % AFTER:
     % ARTICULATIONS:
@@ -1824,7 +1824,7 @@ number.14.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1836,7 +1836,7 @@ number.14.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1848,7 +1848,7 @@ number.14.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1860,7 +1860,7 @@ number.14.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1872,7 +1872,7 @@ number.14.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 5/4
     % AFTER:
     % MARKUP:
@@ -2482,7 +2482,7 @@ number.14.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2582,7 +2582,7 @@ number.14.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 5/4
     % AFTER:
     % ARTICULATIONS:
@@ -2622,7 +2622,7 @@ number.14.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2634,7 +2634,7 @@ number.14.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2646,7 +2646,7 @@ number.14.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2658,7 +2658,7 @@ number.14.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2670,7 +2670,7 @@ number.14.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 5/4
     % AFTER:
     % MARKUP:
@@ -3252,7 +3252,7 @@ number.14.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3342,7 +3342,7 @@ number.14.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 5/4
     % AFTER:
     % ARTICULATIONS:
@@ -3382,7 +3382,7 @@ number.14.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3394,7 +3394,7 @@ number.14.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3406,7 +3406,7 @@ number.14.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3418,7 +3418,7 @@ number.14.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3430,7 +3430,7 @@ number.14.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 5/4
     % AFTER:
     % MARKUP:
@@ -4012,7 +4012,7 @@ number.14.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -4358,7 +4358,7 @@ number.14.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 11]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -4370,7 +4370,7 @@ number.14.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 12]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -4632,7 +4632,7 @@ number.14.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 25]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 6/4
     % AFTER:
     % ARTICULATIONS:
@@ -4659,7 +4659,7 @@ number.14.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 6/4
     % AFTER:
     % MARKUP:
@@ -4671,7 +4671,7 @@ number.14.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 27]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 6/4
     % AFTER:
     % MARKUP:
@@ -4683,7 +4683,7 @@ number.14.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 28]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -4703,7 +4703,7 @@ number.14.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
