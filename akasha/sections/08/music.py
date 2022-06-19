@@ -90,9 +90,9 @@ vc = score["Cello.Music"]
 voice = score["Violin.1.Music"]
 
 music = library.make_dense_getato_rhythm(
+    commands.get(1, 4),
     [2, 2, 1, 2, 1],
     [6, 4, 6, 3],
-    function=commands.get(1, 4),
 )
 voice.extend(music)
 

@@ -109,7 +109,7 @@ music = baca.make_mmrests(commands.get(18), head=v1.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(19, 22),
+    commands.get(19, 22),
 )
 voice.extend(music)
 
@@ -117,7 +117,7 @@ music = baca.make_mmrests(commands.get(23), head=v1.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(24, 31),
+    commands.get(24, 31),
 )
 voice.extend(music)
 
@@ -125,7 +125,7 @@ music = baca.make_mmrests(commands.get(32), head=v1.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(33, 36),
+    commands.get(33, 36),
 )
 voice.extend(music)
 
@@ -133,7 +133,7 @@ music = baca.make_mmrests(commands.get(37), head=v1.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(38, 41),
+    commands.get(38, 41),
 )
 voice.extend(music)
 
@@ -141,7 +141,7 @@ music = baca.make_mmrests(commands.get(42), head=v1.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(43, 46),
+    commands.get(43, 46),
 )
 voice.extend(music)
 
@@ -156,7 +156,7 @@ music = baca.make_mmrests(commands.get(1, 9))
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(10, 17),
+    commands.get(10, 17),
 )
 voice.extend(music)
 
@@ -164,7 +164,7 @@ music = baca.make_mmrests(commands.get(18), head=v2.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(19, 22),
+    commands.get(19, 22),
 )
 voice.extend(music)
 
@@ -172,7 +172,7 @@ music = baca.make_mmrests(commands.get(23), head=v2.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(24, 31),
+    commands.get(24, 31),
 )
 voice.extend(music)
 
@@ -180,7 +180,7 @@ music = baca.make_mmrests(commands.get(32), head=v2.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(33, 36),
+    commands.get(33, 36),
 )
 voice.extend(music)
 
@@ -228,12 +228,12 @@ music = baca.make_mmrests(commands.get(32), head=va.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(33, 35),
+    commands.get(33, 35),
 )
 voice.extend(music)
 
 music = library.make_glissando_rhythm(
-    function=commands.get(36),
+    commands.get(36),
 )
 voice.extend(music)
 
@@ -241,7 +241,7 @@ music = baca.make_mmrests(commands.get(37), head=va.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(38, 41),
+    commands.get(38, 41),
 )
 voice.extend(music)
 
@@ -249,7 +249,7 @@ music = baca.make_mmrests(commands.get(42), head=va.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(43, 46),
+    commands.get(43, 46),
 )
 voice.extend(music)
 
@@ -279,7 +279,7 @@ music = baca.make_mmrests(commands.get(23), head=vc.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(24, 31),
+    commands.get(24, 31),
 )
 voice.extend(music)
 
@@ -293,7 +293,7 @@ music = baca.make_mmrests(commands.get(37), head=vc.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(38, 41),
+    commands.get(38, 41),
 )
 voice.extend(music)
 
@@ -301,12 +301,12 @@ music = baca.make_mmrests(commands.get(42), head=vc.name)
 voice.extend(music)
 
 music = library.make_untied_notes(
-    function=commands.get(43, 49),
+    commands.get(43, 49),
 )
 voice.extend(music)
 
 music = library.make_glissando_rhythm(
-    function=commands.get(50),
+    commands.get(50),
 )
 voice.extend(music)
 

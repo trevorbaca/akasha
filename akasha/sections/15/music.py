@@ -93,13 +93,13 @@ music = baca.make_mmrests(commands.get(1, 8))
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(9, 24),
     rmakers.force_rest(
         lambda _: abjad.select.get(
             abjad.select.tuplets(_),
             ~abjad.Pattern([3, 36, 37]),
         ),
     ),
-    function=commands.get(9, 24),
 )
 voice.extend(music)
 
