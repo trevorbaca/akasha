@@ -85,7 +85,7 @@ music = library.make_accelerando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(3))
+music = baca.make_repeat_tied_notes(commands.get(3))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(4, 7), head=v1.name)
@@ -100,7 +100,7 @@ music = library.make_ritardando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(3))
+music = baca.make_repeat_tied_notes(commands.get(3))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(4, 7), head=v2.name)
@@ -110,7 +110,7 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+music = baca.make_repeat_tied_notes(commands.get(1, 3))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(4), head=va.name)
@@ -134,7 +134,7 @@ music = library.make_ritardando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(3))
+music = baca.make_repeat_tied_notes(commands.get(3))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(4), head=vc.name)

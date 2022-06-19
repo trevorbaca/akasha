@@ -118,7 +118,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(4, 10), head=va.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(11))
+music = baca.make_repeat_tied_notes(commands.get(11))
 voice.extend(music)
 
 # VC
@@ -167,7 +167,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(9, 10), head=vc.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(11))
+music = baca.make_repeat_tied_notes(commands.get(11))
 voice.extend(music)
 
 # phantom & reapply
