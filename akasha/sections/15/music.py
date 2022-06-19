@@ -73,7 +73,7 @@ vc = score["Cello.Music"]
 
 voice = score["Violin.1.Music"]
 
-music = baca.make_notes_function(
+music = baca.make_notes(
     commands.get(1, 16),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
@@ -110,7 +110,7 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_notes_function(
+music = baca.make_notes(
     commands.get(1, 16),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
@@ -126,7 +126,7 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = baca.make_notes_function(
+music = baca.make_notes(
     commands.get(1, 16),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
