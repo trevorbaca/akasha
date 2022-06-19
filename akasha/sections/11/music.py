@@ -57,22 +57,22 @@ music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(2),
     [4],
     rmakers.force_rest(
         lambda _: baca.select.lts(_)[1:],
     ),
     extra_counts=[-2],
-    function=commands.get(2),
 )
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(3),
     [4],
     rmakers.force_rest(
         lambda _: baca.select.lts(_)[1:],
     ),
     extra_counts=[-2],
-    function=commands.get(3),
 )
 voice.extend(music)
 
@@ -84,32 +84,32 @@ voice.extend(music)
 voice = score["Violin.2.Music"]
 
 music = library.make_scratch_rhythm(
+    commands.get(1),
     [4],
     rmakers.force_rest(
         lambda _: baca.select.lts(_)[:-1],
     ),
     extra_counts=[-2],
-    function=commands.get(1),
 )
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(2),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
     ),
     extra_counts=[-1],
-    function=commands.get(2),
 )
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(3),
     [4],
     rmakers.force_rest(
         lambda _: baca.select.lts(_)[:-1],
     ),
     extra_counts=[1],
-    function=commands.get(3),
 )
 voice.extend(music)
 
@@ -128,12 +128,12 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_scratch_rhythm(
+    commands.get(1),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
     ),
     extra_counts=[-1],
-    function=commands.get(1),
 )
 voice.extend(music)
 
@@ -141,12 +141,12 @@ music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(3),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
     ),
     extra_counts=[-1],
-    function=commands.get(3),
 )
 voice.extend(music)
 

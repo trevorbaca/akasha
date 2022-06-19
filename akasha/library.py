@@ -82,7 +82,7 @@ def instruments():
 
 
 def make_accelerando_rhythm(
-    *commands, function=None, fuse_counts=None, preprocessor=None
+    time_signatures, *commands, fuse_counts=None, preprocessor=None
 ):
     fuse_counts = fuse_counts or []
     if preprocessor is None:
@@ -101,11 +101,11 @@ def make_accelerando_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_cello_solo_rhythm(*, function=None, rotation=None):
+def make_cello_solo_rhythm(time_signatures, *, rotation=None):
     counts = abjad.sequence.rotate([7, 1, 10, 2], n=rotation)
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16),
@@ -114,11 +114,11 @@ def make_cello_solo_rhythm(*, function=None, rotation=None):
         rmakers.force_repeat_tie(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_dense_getato_rhythm(fuse_counts, extra_counts, *commands, function=None):
+def make_dense_getato_rhythm(time_signatures, fuse_counts, extra_counts, *commands):
     def preprocessor(divisions):
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         divisions = abjad.sequence.flatten(divisions, depth=-1)
@@ -140,7 +140,7 @@ def make_dense_getato_rhythm(fuse_counts, extra_counts, *commands, function=None
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
@@ -187,19 +187,19 @@ def make_empty_score():
     return score
 
 
-def make_glissando_rhythm(*, function=None):
+def make_glissando_rhythm(time_signatures):
     rhythm_maker = rmakers.stack(
         rmakers.tuplet([(8, 1)]),
         rmakers.beam(),
         preprocessor=lambda _: baca.sequence.fuse(_),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
 def make_growth_rhythm(
-    first_silence, division_ratio, *, extra_counts=None, function=None
+    time_signatures, first_silence, division_ratio, *, extra_counts=None
 ):
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
@@ -242,11 +242,11 @@ def make_growth_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_manifest_rhythm(these_counts, *, function=None):
+def make_manifest_rhythm(time_signatures, these_counts):
     counts_ = [7, 4, 11, 8]
     counts_ += [14, 8, 11, 8]
     counts_ += [14, 8, 22, 16]
@@ -275,11 +275,11 @@ def make_manifest_rhythm(these_counts, *, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_polyphony_rhythm(*commands, function=None, rotation=0):
+def make_polyphony_rhythm(time_signatures, *commands, rotation=0):
     counts = [4, 14, 4, 6, 18]
     counts = abjad.sequence.rotate(counts, n=rotation)
     rhythm_maker = rmakers.stack(
@@ -292,11 +292,11 @@ def make_polyphony_rhythm(*commands, function=None, rotation=0):
         rmakers.force_repeat_tie((1, 4)),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_ritardando_rhythm(*commands, function=None, preprocessor=None):
+def make_ritardando_rhythm(time_signatures, *commands, preprocessor=None):
     if preprocessor is None:
 
         def preprocessor(divisions):
@@ -313,23 +313,23 @@ def make_ritardando_rhythm(*commands, function=None, preprocessor=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_scratch_rhythm(denominators, *commands, extra_counts=None, function=None):
+def make_scratch_rhythm(time_signatures, denominators, *commands, extra_counts=None):
     rhythm_maker = rmakers.stack(
         rmakers.even_division(denominators, extra_counts=extra_counts),
         *commands,
         rmakers.beam(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
 def make_sparse_getato_rhythm(
-    *commands, degree=1, function=None, extra_counts=[1], rotation=None
+    time_signatures, *commands, degree=1, extra_counts=[1], rotation=None
 ):
     def preprocessor(divisions):
         return [baca.sequence.quarters([_]) for _ in divisions]
@@ -348,11 +348,11 @@ def make_sparse_getato_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_untied_notes(*, function=None):
+def make_untied_notes(time_signatures):
     rhythm_maker = rmakers.stack(
         rmakers.note(),
         rmakers.rewrite_meter(),
@@ -360,11 +360,11 @@ def make_untied_notes(*, function=None):
         rmakers.untie(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_viola_ob_rhythm(*, function=None, rotation=None):
+def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     def preprocessor(divisions):
         fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
         fractions = abjad.sequence.rotate(fractions, n=rotation)
@@ -386,7 +386,7 @@ def make_viola_ob_rhythm(*, function=None, rotation=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 

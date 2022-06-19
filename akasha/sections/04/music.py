@@ -174,7 +174,7 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_glissando_rhythm(
-    function=commands.get(1),
+    commands.get(1),
 )
 voice.extend(music)
 
@@ -182,7 +182,7 @@ music = baca.make_mmrests(commands.get(2), head=va.name)
 voice.extend(music)
 
 music = library.make_glissando_rhythm(
-    function=commands.get(3),
+    commands.get(3),
 )
 voice.extend(music)
 
@@ -190,7 +190,7 @@ music = baca.make_mmrests(commands.get(4), head=va.name)
 voice.extend(music)
 
 music = library.make_glissando_rhythm(
-    function=commands.get(5),
+    commands.get(5),
 )
 voice.extend(music)
 
@@ -198,7 +198,7 @@ music = baca.make_mmrests(commands.get(6), head=va.name)
 voice.extend(music)
 
 music = library.make_glissando_rhythm(
-    function=commands.get(7),
+    commands.get(7),
 )
 voice.extend(music)
 
@@ -218,8 +218,8 @@ music = baca.make_mmrests(commands.get(17, 22), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(23),
     rotation=-2,
-    function=commands.get(23),
 )
 voice.extend(music)
 
@@ -230,7 +230,7 @@ music = baca.make_notes(commands.get(25), repeat_ties=True)
 voice.extend(music)
 
 music = library.make_glissando_rhythm(
-    function=commands.get(26),
+    commands.get(26),
 )
 voice.extend(music)
 
@@ -272,10 +272,10 @@ music = baca.make_mmrests(commands.get(13, 14), head=vc.name)
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(15),
     degree=0,
     extra_counts=[1, 1, 0, 2],
     rotation=-12,
-    function=commands.get(15),
 )
 voice.extend(music)
 
@@ -283,8 +283,8 @@ music = baca.make_mmrests(commands.get(16, 22), head=vc.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(23),
     rotation=-4,
-    function=commands.get(23),
 )
 voice.extend(music)
 

@@ -80,8 +80,8 @@ vc = score["Cello.Music"]
 voice = score["Violin.1.Music"]
 
 music = library.make_accelerando_rhythm(
+    commands.get(1, 2),
     fuse_counts=[1, 2],
-    function=commands.get(1, 2),
 )
 voice.extend(music)
 
@@ -96,7 +96,7 @@ voice.extend(music)
 voice = score["Violin.2.Music"]
 
 music = library.make_ritardando_rhythm(
-    function=commands.get(1, 2),
+    commands.get(1, 2),
 )
 voice.extend(music)
 
@@ -117,7 +117,7 @@ music = baca.make_mmrests(commands.get(4), head=va.name)
 voice.extend(music)
 
 music = library.make_glissando_rhythm(
-    function=commands.get(5, 6),
+    commands.get(5, 6),
 )
 voice.extend(music)
 
@@ -129,8 +129,8 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_ritardando_rhythm(
+    commands.get(1, 2),
     preprocessor=lambda _: baca.sequence.fuse(_),
-    function=commands.get(1, 2),
 )
 voice.extend(music)
 
@@ -141,7 +141,7 @@ music = baca.make_mmrests(commands.get(4), head=vc.name)
 voice.extend(music)
 
 music = library.make_glissando_rhythm(
-    function=commands.get(5, 6),
+    commands.get(5, 6),
 )
 voice.extend(music)
 

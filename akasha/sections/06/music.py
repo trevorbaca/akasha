@@ -98,12 +98,12 @@ music = baca.make_mmrests(commands.get(1, 4))
 v1.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(5),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [0], invert=True),
     ),
     extra_counts=[-2],
-    function=commands.get(5),
 )
 v1.extend(music)
 
@@ -111,12 +111,12 @@ music = baca.make_mmrests(commands.get(6), head=v1.name)
 v1.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(7),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [0], invert=True),
     ),
     extra_counts=[-2],
-    function=commands.get(7),
 )
 v1.extend(music)
 
@@ -124,26 +124,27 @@ music = baca.make_mmrests(commands.get(8), head=v1.name)
 v1.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(9, 10),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [1, -3], invert=True),
     ),
     extra_counts=[1],
-    function=commands.get(9, 10),
 )
 v1.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(11, 22),
     [8],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ([0, 3], 8), invert=True),
     ),
     extra_counts=[1],
-    function=commands.get(11, 22),
 )
 v1.extend(music)
 
 music = library.make_dense_getato_rhythm(
+    commands.get(23, 38),
     [1],
     [3, 0, 2, 1],
     rmakers.force_rest(
@@ -152,7 +153,6 @@ music = library.make_dense_getato_rhythm(
             [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1],
         ),
     ),
-    function=commands.get(23, 38),
 )
 v1.extend(music)
 
@@ -167,12 +167,12 @@ music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(3),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [-1], invert=True),
     ),
     extra_counts=[-2],
-    function=commands.get(3),
 )
 voice.extend(music)
 
@@ -180,12 +180,12 @@ music = baca.make_mmrests(commands.get(4), head=v2.name)
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(5),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
     ),
     extra_counts=[-1],
-    function=commands.get(5),
 )
 voice.extend(music)
 
@@ -193,12 +193,12 @@ music = baca.make_mmrests(commands.get(6), head=v2.name)
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(7),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [-1], invert=True),
     ),
     extra_counts=[1],
-    function=commands.get(7),
 )
 voice.extend(music)
 
@@ -206,26 +206,27 @@ music = baca.make_mmrests(commands.get(8), head=v2.name)
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(9, 10),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [2, -1], invert=True),
     ),
     extra_counts=[0],
-    function=commands.get(9, 10),
 )
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(11, 20),
     [8],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ([1, 4], 9), invert=True),
     ),
     extra_counts=[-1],
-    function=commands.get(11, 20),
 )
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
+    commands.get(21, 32),
     [1],
     [2, 1, 3, 0],
     rmakers.force_rest(
@@ -234,17 +235,16 @@ music = library.make_dense_getato_rhythm(
             [0, 2, 3, 4, 5, 6, 10, 14, 22],
         ),
     ),
-    function=commands.get(21, 32),
 )
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
+    commands.get(33, 38),
     [1, 2, 1, 2, 2],
     [6, 3, 5, 4],
     rmakers.force_rest(
         lambda _: abjad.select.tuplets(_)[-5:],
     ),
-    function=commands.get(33, 38),
 )
 voice.extend(music)
 
@@ -256,8 +256,8 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_viola_ob_rhythm(
+    commands.get(1),
     rotation=0,
-    function=commands.get(1),
 )
 voice.extend(music)
 
@@ -265,8 +265,8 @@ music = baca.make_mmrests(commands.get(2), head=va.name)
 voice.extend(music)
 
 music = library.make_viola_ob_rhythm(
+    commands.get(3),
     rotation=-2,
-    function=commands.get(3),
 )
 voice.extend(music)
 
@@ -274,8 +274,8 @@ music = baca.make_mmrests(commands.get(4), head=va.name)
 voice.extend(music)
 
 music = library.make_viola_ob_rhythm(
+    commands.get(5),
     rotation=-4,
-    function=commands.get(5),
 )
 voice.extend(music)
 
@@ -283,8 +283,8 @@ music = baca.make_mmrests(commands.get(6), head=va.name)
 voice.extend(music)
 
 music = library.make_viola_ob_rhythm(
+    commands.get(7),
     rotation=-6,
-    function=commands.get(7),
 )
 voice.extend(music)
 
@@ -292,8 +292,8 @@ music = baca.make_mmrests(commands.get(8), head=va.name)
 voice.extend(music)
 
 music = library.make_viola_ob_rhythm(
+    commands.get(9, 38),
     rotation=-8,
-    function=commands.get(9, 38),
 )
 voice.extend(music)
 
@@ -308,12 +308,12 @@ music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(3),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
     ),
     extra_counts=[-1],
-    function=commands.get(3),
 )
 voice.extend(music)
 
@@ -321,12 +321,12 @@ music = baca.make_mmrests(commands.get(4, 6), head=vc.name)
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(7),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
     ),
     extra_counts=[-1],
-    function=commands.get(7),
 )
 voice.extend(music)
 
@@ -334,26 +334,27 @@ music = baca.make_mmrests(commands.get(8), head=vc.name)
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(9, 10),
     [4],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [2, -2], invert=True),
     ),
     extra_counts=[2],
-    function=commands.get(9, 10),
 )
 voice.extend(music)
 
 music = library.make_scratch_rhythm(
+    commands.get(11, 18),
     [8],
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ([2, 5], 9), invert=True),
     ),
     extra_counts=[2],
-    function=commands.get(11, 18),
 )
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
+    commands.get(19, 26),
     [1],
     [3, 0, 2, 1],
     rmakers.force_rest(
@@ -362,24 +363,23 @@ music = library.make_dense_getato_rhythm(
             [0, 2, 3, 4, 5, 6, 10, 14, 22],
         ),
     ),
-    function=commands.get(19, 26),
 )
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
+    commands.get(27, 32),
     [1, 2, 1, 2, 2],
     [4, 1, 3, 2],
-    function=commands.get(27, 32),
 )
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
+    commands.get(33, 38),
     [2, 1, 2, 2, 1],
     [6, 3, 5, 4],
     rmakers.force_rest(
         lambda _: abjad.select.tuplets(_)[-4:],
     ),
-    function=commands.get(33, 38),
 )
 voice.extend(music)
 

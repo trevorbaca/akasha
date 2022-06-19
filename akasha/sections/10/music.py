@@ -128,9 +128,9 @@ music = baca.make_repeat_tied_notes(commands.get(21, 22))
 voice.extend(music)
 
 music = library.make_dense_getato_rhythm(
+    commands.get(23, 24),
     [2, 2, 1, 2, 1],
     [6, 4, 6, 3],
-    function=commands.get(23, 24),
 )
 voice.extend(music)
 
@@ -141,8 +141,8 @@ music = baca.make_mmrests(commands.get(27), head=v1.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
+    commands.get(28, 29),
     fuse_counts=[1, 2],
-    function=commands.get(28, 29),
 )
 voice.extend(music)
 
@@ -199,7 +199,7 @@ music = baca.make_mmrests(commands.get(27), head=v2.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
-    function=commands.get(28, 29),
+    commands.get(28, 29),
 )
 voice.extend(music)
 
@@ -244,9 +244,9 @@ music = baca.make_mmrests(commands.get(27), head=va.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
+    commands.get(28, 29),
     fuse_counts=[1, 2],
     preprocessor=lambda _: baca.sequence.fuse(_),
-    function=commands.get(28, 29),
 )
 voice.extend(music)
 
@@ -309,8 +309,8 @@ music = baca.make_mmrests(commands.get(27), head=vc.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
+    commands.get(28, 29),
     preprocessor=lambda _: baca.sequence.fuse(_),
-    function=commands.get(28, 29),
 )
 voice.extend(music)
 

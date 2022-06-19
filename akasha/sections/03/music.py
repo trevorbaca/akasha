@@ -71,12 +71,12 @@ vc = score["Cello.Music"]
 voice = score["Violin.1.Music"]
 
 music = library.make_accelerando_rhythm(
+    commands.get(1, 3),
     rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
     rmakers.rewrite_rest_filled(),
     rmakers.extract_trivial(),
     rmakers.force_rest(lambda _: baca.select.lt(_, 1)),
     fuse_counts=[1],
-    function=commands.get(1, 3),
 )
 voice.extend(music)
 
@@ -88,7 +88,7 @@ voice.extend(music)
 voice = score["Violin.2.Music"]
 
 music = library.make_polyphony_rhythm(
-    function=commands.get(1, 3),
+    commands.get(1, 3),
 )
 voice.extend(music)
 
@@ -96,9 +96,9 @@ music = baca.make_mmrests(commands.get(4, 9), head=v2.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
+    commands.get(10, 11),
     rmakers.force_rest(lambda _: baca.select.lt(_, 3)),
     fuse_counts=[2, 1],
-    function=commands.get(10, 11),
 )
 voice.extend(music)
 
@@ -107,11 +107,11 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_polyphony_rhythm(
+    commands.get(1, 3),
     rmakers.force_rest(
         lambda _: baca.select.lts(_)[:2],
     ),
     rotation=-2,
-    function=commands.get(1, 3),
 )
 voice.extend(music)
 
@@ -133,12 +133,12 @@ def get_tuplets(argument, pattern):
 
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(1, 4),
     rmakers.force_rest(
         lambda _: get_tuplets(_, ~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
     ),
     degree=0,
     extra_counts=[1, 1, 0, 2],
-    function=commands.get(1, 4),
 )
 voice.extend(music)
 
@@ -146,10 +146,10 @@ music = baca.make_mmrests(commands.get(5), head=vc.name)
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(6),
     degree=0,
     extra_counts=[1, 1, 0, 2],
     rotation=-4,
-    function=commands.get(6),
 )
 voice.extend(music)
 
@@ -157,10 +157,10 @@ music = baca.make_mmrests(commands.get(7), head=vc.name)
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(8),
     degree=0,
     extra_counts=[1, 1, 0, 2],
     rotation=-8,
-    function=commands.get(8),
 )
 voice.extend(music)
 

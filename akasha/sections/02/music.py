@@ -103,10 +103,10 @@ music = baca.make_mmrests(commands.get(1, 5))
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(6, 7),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
     ),
-    function=commands.get(6, 7),
 )
 voice.extend(music)
 
@@ -114,10 +114,10 @@ music = baca.make_mmrests(commands.get(8), head=v1.name)
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(9),
     rmakers.force_rest(
         lambda _: abjad.select.tuplets(_)[:-2],
     ),
-    function=commands.get(9),
 )
 voice.extend(music)
 
@@ -125,6 +125,7 @@ music = baca.make_mmrests(commands.get(10), head=v1.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
+    commands.get(11, 13),
     rmakers.force_rest(
         lambda _: baca.select.tuplet(_, 0),
     ),
@@ -137,7 +138,6 @@ music = library.make_accelerando_rhythm(
         ),
     ),
     fuse_counts=[1, 2],
-    function=commands.get(11, 13),
 )
 voice.extend(music)
 
@@ -145,6 +145,7 @@ music = baca.make_mmrests(commands.get(14), head=v1.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
+    commands.get(15),
     rmakers.force_rest(
         lambda _: abjad.select.get(
             baca.select.lts(_),
@@ -153,7 +154,6 @@ music = library.make_accelerando_rhythm(
         ),
     ),
     fuse_counts=[1, 2],
-    function=commands.get(15),
 )
 voice.extend(music)
 
@@ -161,6 +161,7 @@ music = baca.make_mmrests(commands.get(16), head=v1.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
+    commands.get(17),
     rmakers.force_rest(
         lambda _: abjad.select.get(
             baca.select.lts(_),
@@ -168,7 +169,6 @@ music = library.make_ritardando_rhythm(
             invert=True,
         ),
     ),
-    function=commands.get(17),
 )
 voice.extend(music)
 
@@ -183,10 +183,10 @@ music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(4),
     rmakers.force_rest(
         lambda _: abjad.select.tuplets(_)[2:],
     ),
-    function=commands.get(4),
 )
 voice.extend(music)
 
@@ -194,10 +194,10 @@ music = baca.make_mmrests(commands.get(5), head=v2.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(6, 7),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
     ),
-    function=commands.get(6, 7),
 )
 voice.extend(music)
 
@@ -205,11 +205,11 @@ music = baca.make_mmrests(commands.get(8), head=v2.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(9),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
     ),
     rotation=-2,
-    function=commands.get(9),
 )
 voice.extend(music)
 
@@ -217,6 +217,7 @@ music = baca.make_mmrests(commands.get(10), head=v2.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
+    commands.get(11, 13),
     rmakers.force_rest(
         lambda _: baca.select.tuplet(_, 0),
     ),
@@ -228,7 +229,6 @@ music = library.make_ritardando_rhythm(
             [2, 5, 7],
         ),
     ),
-    function=commands.get(11, 13),
 )
 voice.extend(music)
 
@@ -236,6 +236,7 @@ music = baca.make_mmrests(commands.get(14), head=v2.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
+    commands.get(15),
     rmakers.force_rest(
         lambda _: abjad.select.get(
             baca.select.lts(_),
@@ -243,7 +244,6 @@ music = library.make_ritardando_rhythm(
             invert=True,
         ),
     ),
-    function=commands.get(15),
 )
 voice.extend(music)
 
@@ -251,6 +251,7 @@ music = baca.make_mmrests(commands.get(16), head=v2.name)
 voice.extend(music)
 
 music = library.make_accelerando_rhythm(
+    commands.get(17),
     rmakers.force_rest(
         lambda _: abjad.select.get(
             baca.select.lts(_),
@@ -259,7 +260,6 @@ music = library.make_accelerando_rhythm(
         ),
     ),
     fuse_counts=[1, 2],
-    function=commands.get(17),
 )
 voice.extend(music)
 
@@ -267,6 +267,7 @@ music = baca.make_mmrests(commands.get(18), head=v2.name)
 voice.extend(music)
 
 music = library.make_ritardando_rhythm(
+    commands.get(19),
     rmakers.force_rest(
         lambda _: abjad.select.get(
             baca.select.lts(_),
@@ -274,7 +275,6 @@ music = library.make_ritardando_rhythm(
             invert=True,
         ),
     ),
-    function=commands.get(19),
 )
 voice.extend(music)
 
@@ -289,10 +289,10 @@ music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(4),
     rmakers.force_rest(
         lambda _: abjad.select.tuplets(_)[:-1],
     ),
-    function=commands.get(4),
 )
 voice.extend(music)
 
@@ -300,10 +300,10 @@ music = baca.make_mmrests(commands.get(5), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(6, 7),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
     ),
-    function=commands.get(6, 7),
 )
 voice.extend(music)
 
@@ -311,11 +311,11 @@ music = baca.make_mmrests(commands.get(8), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(9),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
     ),
     rotation=-2,
-    function=commands.get(9),
 )
 voice.extend(music)
 
@@ -323,8 +323,8 @@ music = baca.make_mmrests(commands.get(10), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(11, 13),
     rotation=-4,
-    function=commands.get(11, 13),
 )
 voice.extend(music)
 
@@ -332,8 +332,8 @@ music = baca.make_mmrests(commands.get(14), head=va.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(15),
     rotation=-8,
-    function=commands.get(15),
 )
 voice.extend(music)
 
@@ -345,8 +345,8 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_cello_solo_rhythm(
+    commands.get(1, 2),
     rotation=0,
-    function=commands.get(1, 2),
 )
 voice.extend(music)
 
@@ -354,11 +354,11 @@ music = baca.make_mmrests(commands.get(3, 8), head=vc.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(9),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
     ),
     rotation=-2,
-    function=commands.get(9),
 )
 voice.extend(music)
 
@@ -366,9 +366,9 @@ music = baca.make_mmrests(commands.get(10), head=vc.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(11, 13),
     rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     rotation=-6,
-    function=commands.get(11, 13),
 )
 voice.extend(music)
 
@@ -376,9 +376,9 @@ music = baca.make_mmrests(commands.get(14), head=vc.name)
 voice.extend(music)
 
 music = library.make_polyphony_rhythm(
+    commands.get(15),
     rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     rotation=-10,
-    function=commands.get(15),
 )
 voice.extend(music)
 
@@ -386,13 +386,13 @@ music = baca.make_mmrests(commands.get(16, 18), head=vc.name)
 voice.extend(music)
 
 music = library.make_sparse_getato_rhythm(
+    commands.get(19),
     rmakers.force_rest(
         lambda _: abjad.select.get(
             abjad.select.tuplets(_),
             ~abjad.Pattern([1]),
         )
     ),
-    function=commands.get(19),
 )
 voice.extend(music)
 
