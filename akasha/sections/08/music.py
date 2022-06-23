@@ -80,14 +80,9 @@ rests = score["Rests"]
 for index, string in ((14 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
-v1 = score["Violin.1.Music"]
-v2 = score["Violin.2.Music"]
-va = score["Viola.Music"]
-vc = score["Cello.Music"]
-
 
 def V1():
-    voice = score["Violin.1.Music"]
+    voice = commands.voice("v1")
     music = library.make_dense_getato_rhythm(
         commands.get(1, 4),
         [2, 2, 1, 2, 1],
@@ -100,16 +95,16 @@ def V1():
     voice.extend(music)
     music = baca.make_notes(commands.get(11, 13), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(14), head=v1.name)
+    music = baca.make_mmrests(commands.get(14), head=voice.name)
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(15, 16))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(17), head=v1.name)
+    music = baca.make_mmrests(commands.get(17), head=voice.name)
     voice.extend(music)
 
 
 def V2():
-    voice = score["Violin.2.Music"]
+    voice = commands.voice("v2")
     music = baca.make_notes(commands.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(commands.get(5, 7), repeat_ties=True)
@@ -118,16 +113,16 @@ def V2():
     voice.extend(music)
     music = baca.make_notes(commands.get(11, 13), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(14), head=v2.name)
+    music = baca.make_mmrests(commands.get(14), head=voice.name)
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(15, 16))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(17), head=v2.name)
+    music = baca.make_mmrests(commands.get(17), head=voice.name)
     voice.extend(music)
 
 
 def VA():
-    voice = score["Viola.Music"]
+    voice = commands.voice("va")
     music = baca.make_notes(commands.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(commands.get(5, 7), repeat_ties=True)
@@ -136,14 +131,14 @@ def VA():
     voice.extend(music)
     music = baca.make_notes(commands.get(11, 13), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(14), head=va.name)
+    music = baca.make_mmrests(commands.get(14), head=voice.name)
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(15, 17))
     voice.extend(music)
 
 
 def VC():
-    voice = score["Cello.Music"]
+    voice = commands.voice("vc")
     music = baca.make_notes(commands.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(commands.get(5, 7), repeat_ties=True)
@@ -152,11 +147,11 @@ def VC():
     voice.extend(music)
     music = baca.make_notes(commands.get(11, 13), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(14), head=vc.name)
+    music = baca.make_mmrests(commands.get(14), head=voice.name)
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(15, 16))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(17), head=vc.name)
+    music = baca.make_mmrests(commands.get(17), head=voice.name)
     voice.extend(music)
 
 

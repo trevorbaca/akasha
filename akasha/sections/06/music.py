@@ -85,14 +85,9 @@ for index, string in (
 ):
     baca.global_fermata(rests[index], string)
 
-v1 = score["Violin.1.Music"]
-v2 = score["Violin.2.Music"]
-va = score["Viola.Music"]
-vc = score["Cello.Music"]
-
 
 def V1():
-    voice = score["Violin.1.Music"]
+    voice = commands.voice("v1")
     music = baca.make_mmrests(commands.get(1, 4))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -152,7 +147,7 @@ def V1():
 
 
 def V2():
-    voice = score["Violin.2.Music"]
+    voice = commands.voice("v2")
     music = baca.make_mmrests(commands.get(1, 2))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -164,7 +159,7 @@ def V2():
         extra_counts=[-2],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(4), head=v2.name)
+    music = baca.make_mmrests(commands.get(4), head=voice.name)
     voice.extend(music)
     music = library.make_scratch_rhythm(
         commands.get(5),
@@ -175,7 +170,7 @@ def V2():
         extra_counts=[-1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(6), head=v2.name)
+    music = baca.make_mmrests(commands.get(6), head=voice.name)
     voice.extend(music)
     music = library.make_scratch_rhythm(
         commands.get(7),
@@ -186,7 +181,7 @@ def V2():
         extra_counts=[1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(8), head=v2.name)
+    music = baca.make_mmrests(commands.get(8), head=voice.name)
     voice.extend(music)
     music = library.make_scratch_rhythm(
         commands.get(9, 10),
@@ -227,51 +222,51 @@ def V2():
         ),
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(39), head=v2.name)
+    music = baca.make_mmrests(commands.get(39), head=voice.name)
     voice.extend(music)
 
 
 def VA():
-    voice = score["Viola.Music"]
+    voice = commands.voice("va")
     music = library.make_viola_ob_rhythm(
         commands.get(1),
         rotation=0,
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(2), head=va.name)
+    music = baca.make_mmrests(commands.get(2), head=voice.name)
     voice.extend(music)
     music = library.make_viola_ob_rhythm(
         commands.get(3),
         rotation=-2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(4), head=va.name)
+    music = baca.make_mmrests(commands.get(4), head=voice.name)
     voice.extend(music)
     music = library.make_viola_ob_rhythm(
         commands.get(5),
         rotation=-4,
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(6), head=va.name)
+    music = baca.make_mmrests(commands.get(6), head=voice.name)
     voice.extend(music)
     music = library.make_viola_ob_rhythm(
         commands.get(7),
         rotation=-6,
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(8), head=va.name)
+    music = baca.make_mmrests(commands.get(8), head=voice.name)
     voice.extend(music)
     music = library.make_viola_ob_rhythm(
         commands.get(9, 38),
         rotation=-8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(39), head=va.name)
+    music = baca.make_mmrests(commands.get(39), head=voice.name)
     voice.extend(music)
 
 
 def VC():
-    voice = score["Cello.Music"]
+    voice = commands.voice("vc")
     music = baca.make_mmrests(commands.get(1, 2))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -283,7 +278,7 @@ def VC():
         extra_counts=[-1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(4, 6), head=vc.name)
+    music = baca.make_mmrests(commands.get(4, 6), head=voice.name)
     voice.extend(music)
     music = library.make_scratch_rhythm(
         commands.get(7),
@@ -294,7 +289,7 @@ def VC():
         extra_counts=[-1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(8), head=vc.name)
+    music = baca.make_mmrests(commands.get(8), head=voice.name)
     voice.extend(music)
     music = library.make_scratch_rhythm(
         commands.get(9, 10),
@@ -341,7 +336,7 @@ def VC():
         ),
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(39), head=vc.name)
+    music = baca.make_mmrests(commands.get(39), head=voice.name)
     voice.extend(music)
 
 
