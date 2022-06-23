@@ -52,19 +52,19 @@ baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["44"], mani
 baca.commands.global_fermata(score["Rests"][3 - 1], "very_long")
 
 
-def v1r():
+def V1():
     voice = commands.voice("v1")
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
-def v2r():
+def V2():
     voice = commands.voice("v2")
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
-def var():
+def VA():
     voice = commands.voice("va")
     music = baca.make_repeat_tied_notes(commands.get(1, 2))
     voice.extend(music)
@@ -72,7 +72,7 @@ def var():
     voice.extend(music)
 
 
-def vcr():
+def VC():
     voice = commands.voice("vc")
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
@@ -125,10 +125,10 @@ def vc():
 
 
 def main():
-    v1r()
-    v2r()
-    var()
-    vcr()
+    V1()
+    V2()
+    VA()
+    VC()
     v1()
     v2()
     va()
