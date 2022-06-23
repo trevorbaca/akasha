@@ -447,16 +447,39 @@ def material_annotation_spanner(letter):
     )
 
 
-def metronome_marks():
-    return dict(
-        [
-            ("38", abjad.MetronomeMark((1, 4), 38)),
-            ("44", abjad.MetronomeMark((1, 4), 44)),
-            ("55", abjad.MetronomeMark((1, 4), 55)),
-            ("89", abjad.MetronomeMark((1, 4), 89)),
-            ("126", abjad.MetronomeMark((1, 4), 126)),
-        ]
+def material_annotation_spanner_function(leaves, letter):
+    baca.markup_function(
+        leaves[0],
+        rf"\akasha-material-{letter.lower()}",
     )
+    material_to_color = {
+        "A": "0.984 0.945 0.492",
+        "B": "0.980 0.769 0.984",
+        "C": "0.335 0.937 0.597",
+        "D": "0.710 0.878 0.976",
+        "E": "0.865 0.877 0.896",
+    }
+    color = material_to_color[letter]
+    baca.literal_function(
+        leaves[0],
+        rf"\colorSpan #-4 #4 #(rgb-color {color})",
+        tags=[baca.tags.COLORED_PHRASING_SLUR],
+    )
+    baca.slur_function(
+        leaves,
+        phrasing_slur=True,
+        tags=[baca.tags.COLORED_PHRASING_SLUR],
+    )
+
+
+def metronome_marks():
+    return {
+        "38": abjad.MetronomeMark((1, 4), 38),
+        "44": abjad.MetronomeMark((1, 4), 44),
+        "55": abjad.MetronomeMark((1, 4), 55),
+        "89": abjad.MetronomeMark((1, 4), 89),
+        "126": abjad.MetronomeMark((1, 4), 126),
+    }
 
 
 def moment_markup(moment_tokens):
