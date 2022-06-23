@@ -51,79 +51,92 @@ baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["44"], mani
 
 baca.commands.global_fermata(score["Rests"][3 - 1], "very_long")
 
-# V1
 
-voice = commands.voice("v1")
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+def v1r():
+    voice = commands.voice("v1")
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-# V2
 
-voice = commands.voice("v2")
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+def v2r():
+    voice = commands.voice("v2")
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-# VA
 
-voice = commands.voice("va")
-music = baca.make_repeat_tied_notes(commands.get(1, 2))
-voice.extend(music)
-music = baca.make_mmrests(commands.get(3), head=voice.name)
-voice.extend(music)
+def var():
+    voice = commands.voice("va")
+    music = baca.make_repeat_tied_notes(commands.get(1, 2))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(3), head=voice.name)
+    voice.extend(music)
 
-# VC
 
-voice = commands.voice("vc")
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+def vcr():
+    voice = commands.voice("vc")
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-# v1
 
-voice = commands.voice("v1")
-leaf = abjad.select.leaf(voice, 0)
-baca.instrument_function(leaf, commands.instruments["Violin.1"])
-baca.instrument_name_function(leaf, r"\akasha-violin-i-markup")
-baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vn. I"])
-baca.clef_function(leaf, "treble")
-baca.staff_lines_function(leaf, 5)
+def v1():
+    voice = commands.voice("v1")
+    leaf = abjad.select.leaf(voice, 0)
+    baca.instrument_function(leaf, commands.instruments["Violin.1"])
+    baca.instrument_name_function(leaf, r"\akasha-violin-i-markup")
+    baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vn. I"])
+    baca.clef_function(leaf, "treble")
+    baca.staff_lines_function(leaf, 5)
 
-# v2
 
-voice = commands.voice("v2")
-leaf = abjad.select.leaf(voice, 0)
-baca.instrument_function(leaf, commands.instruments["Violin.2"])
-baca.instrument_name_function(leaf, r"\akasha-violin-ii-markup")
-baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vn. II"])
-baca.clef_function(leaf, "treble")
-baca.staff_lines_function(leaf, 5)
+def v2():
+    voice = commands.voice("v2")
+    leaf = abjad.select.leaf(voice, 0)
+    baca.instrument_function(leaf, commands.instruments["Violin.2"])
+    baca.instrument_name_function(leaf, r"\akasha-violin-ii-markup")
+    baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vn. II"])
+    baca.clef_function(leaf, "treble")
+    baca.staff_lines_function(leaf, 5)
 
-# va
 
-voice = commands.voice("va")
-leaf = abjad.select.leaf(voice, 0)
-baca.instrument_function(leaf, commands.instruments["Viola"])
-baca.instrument_name_function(leaf, r"\akasha-viola-markup")
-baca.short_instrument_name_function(leaf, commands.short_instrument_names["Va."])
-baca.clef_function(leaf, "alto")
-baca.staff_lines_function(leaf, 1)
-pleaves = baca.select.pleaves(voice)
-baca.staff_position_function(pleaves, 0)
-baca.down_bow_function(pleaves[0])
-baca.markup_function(pleaves[0], r"\akasha-ob-plus-terminate-abruptly-markup")
-baca.dynamic_function(pleaves[0], '"mf"')
-library.material_annotation_spanner_function(pleaves, "E")
+def va():
+    voice = commands.voice("va")
+    leaf = abjad.select.leaf(voice, 0)
+    baca.instrument_function(leaf, commands.instruments["Viola"])
+    baca.instrument_name_function(leaf, r"\akasha-viola-markup")
+    baca.short_instrument_name_function(leaf, commands.short_instrument_names["Va."])
+    baca.clef_function(leaf, "alto")
+    baca.staff_lines_function(leaf, 1)
+    pleaves = baca.select.pleaves(voice)
+    baca.staff_position_function(pleaves, 0)
+    baca.down_bow_function(pleaves[0])
+    baca.markup_function(pleaves[0], r"\akasha-ob-plus-terminate-abruptly-markup")
+    baca.dynamic_function(pleaves[0], '"mf"')
+    library.material_annotation_spanner_function(pleaves, "E")
 
-# vc
 
-voice = commands.voice("vc")
-leaf = abjad.select.leaf(voice, 0)
-baca.instrument_function(leaf, commands.instruments["Cello"])
-baca.instrument_name_function(leaf, r"\akasha-cello-markup")
-baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vc."])
-baca.clef_function(leaf, "bass")
-baca.staff_lines_function(leaf, 5)
+def vc():
+    voice = commands.voice("vc")
+    leaf = abjad.select.leaf(voice, 0)
+    baca.instrument_function(leaf, commands.instruments["Cello"])
+    baca.instrument_name_function(leaf, r"\akasha-cello-markup")
+    baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vc."])
+    baca.clef_function(leaf, "bass")
+    baca.staff_lines_function(leaf, 5)
+
+
+def main():
+    v1r()
+    v2r()
+    var()
+    vcr()
+    v1()
+    v2()
+    va()
+    vc()
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,
