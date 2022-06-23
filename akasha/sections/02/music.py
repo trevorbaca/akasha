@@ -348,187 +348,184 @@ def VC():
     voice.extend(music)
 
 
-music_voices = [_ for _ in voice_names if "Music" in _]
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
+def v1():
+
+    commands(
+        ("v1", (6, 7)),
+        baca.pitches("E4 F4 E+4", exact=True),
+        library.material_annotation_spanner("B"),
+    )
+
+    commands(
+        ("v1", 9),
+        library.material_annotation_spanner("A"),
+    )
+
+    commands(
+        ("v1", (11, 13)),
+        library.material_annotation_spanner("C"),
+        baca.dynamic("pp"),
+        baca.markup(r"\baca-tasto-plus-xfb-markup"),
+    )
+
+    commands(
+        ("v1", 15),
+        library.material_annotation_spanner("C"),
+    )
+
+    commands(
+        ("v1", 17),
+        library.material_annotation_spanner("C"),
+    )
+
+    commands(
+        ("v1", (11, 19)),
+        baca.pitches(
+            "D5 E5",
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
 
 
-# v1
+def v2():
 
-commands(
-    ("v1", (6, 7)),
-    baca.pitches("E4 F4 E+4", exact=True),
-    library.material_annotation_spanner("B"),
-)
+    commands(
+        ("v2", 4),
+        library.material_annotation_spanner("A"),
+    )
 
-commands(
-    ("v1", 9),
-    library.material_annotation_spanner("A"),
-)
+    commands(
+        ("v2", (6, 7)),
+        library.material_annotation_spanner("B"),
+        baca.pitches("D4 D~4 C4", exact=True),
+    )
 
-commands(
-    ("v1", (11, 13)),
-    library.material_annotation_spanner("C"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
-)
+    commands(
+        ("v2", 9),
+        library.material_annotation_spanner("B"),
+        baca.pitches("C#4 C#+4", exact=True),
+    )
 
-commands(
-    ("v1", 15),
-    library.material_annotation_spanner("C"),
-)
+    commands(
+        ("v2", (11, 13)),
+        library.material_annotation_spanner("C"),
+        baca.dynamic("pp"),
+        baca.markup(r"\baca-tasto-plus-xfb-markup"),
+    )
 
-commands(
-    ("v1", 17),
-    library.material_annotation_spanner("C"),
-)
+    commands(
+        ("v2", 15),
+        library.material_annotation_spanner("C"),
+    )
 
-commands(
-    ("v1", (11, 19)),
-    baca.pitches(
-        "D5 E5",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
+    commands(
+        ("v2", 17),
+        library.material_annotation_spanner("C"),
+    )
 
-# v2
+    commands(
+        ("v2", 19),
+        library.material_annotation_spanner("C"),
+    )
 
-commands(
-    ("v2", 4),
-    library.material_annotation_spanner("A"),
-)
+    commands(
+        ("v2", (11, 19)),
+        baca.pitches(
+            "Bb4 C5",
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
 
-commands(
-    ("v2", (6, 7)),
-    library.material_annotation_spanner("B"),
-    baca.pitches("D4 D~4 C4", exact=True),
-)
 
-commands(
-    ("v2", 9),
-    library.material_annotation_spanner("B"),
-    baca.pitches("C#4 C#+4", exact=True),
-)
+def va():
 
-commands(
-    ("v2", (11, 13)),
-    library.material_annotation_spanner("C"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
-)
+    commands(
+        ("va", (1, 3)),
+        baca.staff_lines(5),
+    )
 
-commands(
-    ("v2", 15),
-    library.material_annotation_spanner("C"),
-)
+    commands(
+        ("va", 4),
+        library.material_annotation_spanner("A"),
+    )
 
-commands(
-    ("v2", 17),
-    library.material_annotation_spanner("C"),
-)
+    commands(
+        ("va", (6, 7)),
+        library.material_annotation_spanner("B"),
+        baca.pitches("Eb4 D4 E4", exact=True),
+    )
 
-commands(
-    ("v2", 19),
-    library.material_annotation_spanner("C"),
-)
+    commands(
+        ("va", 9),
+        library.material_annotation_spanner("B"),
+        baca.pitches("C4", exact=True),
+    )
 
-commands(
-    ("v2", (11, 19)),
-    baca.pitches(
-        "Bb4 C5",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
+    commands(
+        ("va", (11, 13)),
+        library.material_annotation_spanner("B"),
+        baca.pitches("D4 D+4 D#4 E4 F#4 F4", exact=True),
+    )
 
-# va
+    commands(
+        ("va", 15),
+        library.material_annotation_spanner("B"),
+        baca.pitches("Eb4 D4", exact=True),
+    )
 
-commands(
-    ("va", (1, 3)),
-    baca.staff_lines(5),
-)
 
-commands(
-    ("va", 4),
-    library.material_annotation_spanner("A"),
-)
+def vc():
 
-commands(
-    ("va", (6, 7)),
-    library.material_annotation_spanner("B"),
-    baca.pitches("Eb4 D4 E4", exact=True),
-)
+    commands(
+        ("vc", (1, 2)),
+        library.material_annotation_spanner("B"),
+        library.cello_solo_pitches(),
+        baca.dynamic("mp"),
+        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    )
 
-commands(
-    ("va", 9),
-    library.material_annotation_spanner("B"),
-    baca.pitches("C4", exact=True),
-)
+    commands(
+        ("vc", 9),
+        library.material_annotation_spanner("B"),
+        baca.pitches("C4 C~4 B3", exact=True),
+    )
 
-commands(
-    ("va", (11, 13)),
-    library.material_annotation_spanner("B"),
-    baca.pitches("D4 D+4 D#4 E4 F#4 F4", exact=True),
-)
+    commands(
+        ("vc", (11, 13)),
+        library.material_annotation_spanner("B"),
+        baca.pitches("Bb3 Bb~3 A3 Ab3 G3 A3", exact=True),
+    )
 
-commands(
-    ("va", 15),
-    library.material_annotation_spanner("B"),
-    baca.pitches("Eb4 D4", exact=True),
-)
+    commands(
+        ("vc", 15),
+        library.material_annotation_spanner("B"),
+        baca.pitches("A3 A#3 B3", exact=True),
+    )
 
-# vc
+    commands(
+        ("vc", 19),
+        library.material_annotation_spanner("A"),
+    )
 
-commands(
-    ("vc", (1, 2)),
-    library.material_annotation_spanner("B"),
-    library.cello_solo_pitches(),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-)
 
-commands(
-    ("vc", 9),
-    library.material_annotation_spanner("B"),
-    baca.pitches("C4 C~4 B3", exact=True),
-)
+def composites():
 
-commands(
-    ("vc", (11, 13)),
-    library.material_annotation_spanner("B"),
-    baca.pitches("Bb3 Bb~3 A3 Ab3 G3 A3", exact=True),
-)
+    commands(
+        baca.timeline([("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)]),
+        library.getato_pitches(-2, [0]),
+        baca.staccato(selector=lambda _: baca.select.pheads(_)),
+    )
 
-commands(
-    ("vc", 15),
-    library.material_annotation_spanner("B"),
-    baca.pitches("A3 A#3 B3", exact=True),
-)
+    commands(
+        [("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)],
+        baca.dynamic("p"),
+    )
 
-commands(
-    ("vc", 19),
-    library.material_annotation_spanner("A"),
-)
-
-# composites
-
-commands(
-    baca.timeline([("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)]),
-    library.getato_pitches(-2, [0]),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    [("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)],
-    baca.dynamic("p"),
-)
-
-commands(
-    (["v1", "v2", "va"], (6, 7)),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-)
+    commands(
+        (["v1", "v2", "va"], (6, 7)),
+        baca.dynamic("mp"),
+        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    )
 
 
 def main():
@@ -536,6 +533,13 @@ def main():
     V2()
     VA()
     VC()
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    v1()
+    v2()
+    va()
+    vc()
+    composites()
 
 
 if __name__ == "__main__":
