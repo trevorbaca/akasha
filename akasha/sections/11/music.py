@@ -44,14 +44,9 @@ rests = score["Rests"]
 for index, string in ((4 - 1, "very_long"),):
     baca.global_fermata(rests[index], string)
 
-v1 = score["Violin.1.Music"]
-v2 = score["Violin.2.Music"]
-va = score["Viola.Music"]
-vc = score["Cello.Music"]
-
 
 def V1():
-    voice = score["Violin.1.Music"]
+    voice = commands.voice("v1")
     music = baca.make_mmrests(commands.get(1))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -77,7 +72,7 @@ def V1():
 
 
 def V2():
-    voice = score["Violin.2.Music"]
+    voice = commands.voice("v2")
     music = library.make_scratch_rhythm(
         commands.get(1),
         [4],
@@ -110,13 +105,13 @@ def V2():
 
 
 def VA():
-    voice = score["Viola.Music"]
+    voice = commands.voice("va")
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
 def VC():
-    voice = score["Cello.Music"]
+    voice = commands.voice("vc")
     music = library.make_scratch_rhythm(
         commands.get(1),
         [4],

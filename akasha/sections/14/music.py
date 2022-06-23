@@ -66,14 +66,9 @@ rests = score["Rests"]
 for index, string in ((29 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
-v1 = score["Violin.1.Music"]
-v2 = score["Violin.2.Music"]
-va = score["Viola.Music"]
-vc = score["Cello.Music"]
-
 
 def V1():
-    voice = score["Violin.1.Music"]
+    voice = commands.voice("v1")
     music = baca.make_mmrests(commands.get(1, 6))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(7, 28))
@@ -84,7 +79,7 @@ def V1():
 
 
 def V2():
-    voice = score["Violin.2.Music"]
+    voice = commands.voice("v2")
     music = baca.make_mmrests(commands.get(1, 6))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(7, 28))
@@ -94,7 +89,7 @@ def V2():
 
 
 def VA():
-    voice = score["Viola.Music"]
+    voice = commands.voice("va")
     music = baca.make_mmrests(commands.get(1, 6))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(7, 28))
@@ -104,7 +99,7 @@ def VA():
 
 
 def VC():
-    voice = score["Cello.Music"]
+    voice = commands.voice("vc")
     music = baca.make_repeat_tied_notes(commands.get(1, 10))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(11, 12))

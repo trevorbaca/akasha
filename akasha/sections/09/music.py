@@ -70,14 +70,9 @@ for index, string in (
 ):
     baca.global_fermata(rests[index], string)
 
-v1 = score["Violin.1.Music"]
-v2 = score["Violin.2.Music"]
-va = score["Viola.Music"]
-vc = score["Cello.Music"]
-
 
 def V1():
-    voice = score["Violin.1.Music"]
+    voice = commands.voice("v1")
     music = library.make_accelerando_rhythm(
         commands.get(1, 2),
         fuse_counts=[1, 2],
@@ -85,38 +80,38 @@ def V1():
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(3))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(4, 7), head=v1.name)
+    music = baca.make_mmrests(commands.get(4, 7), head=voice.name)
     voice.extend(music)
 
 
 def V2():
-    voice = score["Violin.2.Music"]
+    voice = commands.voice("v2")
     music = library.make_ritardando_rhythm(
         commands.get(1, 2),
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(3))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(4, 7), head=v2.name)
+    music = baca.make_mmrests(commands.get(4, 7), head=voice.name)
     voice.extend(music)
 
 
 def VA():
-    voice = score["Viola.Music"]
+    voice = commands.voice("va")
     music = baca.make_repeat_tied_notes(commands.get(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(4), head=va.name)
+    music = baca.make_mmrests(commands.get(4), head=voice.name)
     voice.extend(music)
     music = library.make_glissando_rhythm(
         commands.get(5, 6),
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(7), head=va.name)
+    music = baca.make_mmrests(commands.get(7), head=voice.name)
     voice.extend(music)
 
 
 def VC():
-    voice = score["Cello.Music"]
+    voice = commands.voice("vc")
     music = library.make_ritardando_rhythm(
         commands.get(1, 2),
         preprocessor=lambda _: baca.sequence.fuse(_),
@@ -124,13 +119,13 @@ def VC():
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(3))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(4), head=vc.name)
+    music = baca.make_mmrests(commands.get(4), head=voice.name)
     voice.extend(music)
     music = library.make_glissando_rhythm(
         commands.get(5, 6),
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(7), head=vc.name)
+    music = baca.make_mmrests(commands.get(7), head=voice.name)
     voice.extend(music)
 
 
