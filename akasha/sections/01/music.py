@@ -106,15 +106,12 @@ baca.instrument_name_function(leaf, r"\akasha-viola-markup")
 baca.short_instrument_name_function(leaf, commands.short_instrument_names["Va."])
 baca.clef_function(leaf, "alto")
 baca.staff_lines_function(leaf, 1)
-
-commands(
-    ("va", (1, 2)),
-    baca.staff_position(0),
-    baca.down_bow(),
-    baca.dynamic('"mf"'),
-    baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
-    library.material_annotation_spanner("E"),
-)
+pleaves = baca.select.pleaves(voice)
+baca.staff_position_function(pleaves, 0)
+baca.down_bow_function(pleaves[0])
+baca.markup_function(pleaves[0], r"\akasha-ob-plus-terminate-abruptly-markup")
+baca.dynamic_function(pleaves[0], '"mf"')
+library.material_annotation_spanner_function(pleaves, "E")
 
 # vc
 
