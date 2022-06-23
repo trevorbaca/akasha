@@ -90,174 +90,124 @@ v2 = score["Violin.2.Music"]
 va = score["Viola.Music"]
 vc = score["Cello.Music"]
 
-# V1
 
-voice = score["Violin.1.Music"]
+def V1():
+    voice = score["Violin.1.Music"]
+    music = baca.make_repeat_tied_notes(commands.get(1, 28))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(29))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(30, 34))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(35, 39))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(40))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(41, 45))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(46))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(47, 52))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(53, 54))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(55))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(56, 60))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(61, 68))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(69))
+    voice.extend(music)
 
-music = baca.make_repeat_tied_notes(commands.get(1, 28))
-voice.extend(music)
 
-music = baca.make_mmrests(commands.get(29))
-voice.extend(music)
+def V2():
+    voice = score["Violin.2.Music"]
+    music = baca.make_repeat_tied_notes(commands.get(1, 28))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(29))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(30, 34))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(35, 39))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(40))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(41, 45))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(46))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(47, 50))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(51, 54))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(55))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(56, 60))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(61, 68))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(69))
+    voice.extend(music)
 
-music = baca.make_repeat_tied_notes(commands.get(30, 34))
-voice.extend(music)
 
-music = baca.make_repeat_tied_notes(commands.get(35, 39))
-voice.extend(music)
+def VA():
+    voice = score["Viola.Music"]
+    music = baca.make_repeat_tied_notes(commands.get(1, 28))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(29))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(30, 34))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(35, 39))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(40))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(41, 45))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(46))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(47, 48))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(49, 54))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(55))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(56, 60))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(61, 68))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(69))
+    voice.extend(music)
 
-music = baca.make_mmrests(commands.get(40))
-voice.extend(music)
 
-music = baca.make_repeat_tied_notes(commands.get(41, 45))
-voice.extend(music)
+def VC():
+    voice = score["Cello.Music"]
+    music = baca.make_repeat_tied_notes(commands.get(1, 28))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(29))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(30, 34))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(35, 39))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(40))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(41, 45))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(46))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(47, 54))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(55))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(56, 60))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(61, 68))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(69))
+    voice.extend(music)
 
-music = baca.make_mmrests(commands.get(46))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(47, 52))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(53, 54))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(55))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(56, 60))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(61, 68))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(69))
-voice.extend(music)
-
-# V2
-
-voice = score["Violin.2.Music"]
-
-music = baca.make_repeat_tied_notes(commands.get(1, 28))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(29))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(30, 34))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(35, 39))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(40))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(41, 45))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(46))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(47, 50))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(51, 54))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(55))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(56, 60))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(61, 68))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(69))
-voice.extend(music)
-
-# VA
-
-voice = score["Viola.Music"]
-
-music = baca.make_repeat_tied_notes(commands.get(1, 28))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(29))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(30, 34))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(35, 39))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(40))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(41, 45))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(46))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(47, 48))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(49, 54))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(55))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(56, 60))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(61, 68))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(69))
-voice.extend(music)
-
-# VC
-
-voice = score["Cello.Music"]
-
-music = baca.make_repeat_tied_notes(commands.get(1, 28))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(29))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(30, 34))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(35, 39))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(40))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(41, 45))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(46))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(47, 54))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(55))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(56, 60))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(commands.get(61, 68))
-voice.extend(music)
-
-music = baca.make_mmrests(commands.get(69))
-voice.extend(music)
 
 # reapply
 
@@ -621,7 +571,16 @@ commands(
     ),
 )
 
+
+def main():
+    V1()
+    V2()
+    VA()
+    VC()
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,
