@@ -79,7 +79,7 @@ def v1(measures):
     baca.instrument_name_function(leaf, r"\akasha-violin-i-markup")
     baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vn. I"])
     baca.clef_function(leaf, "treble")
-    baca.staff_lines_function(leaf, 5)
+    baca.staff_lines_function(leaf, 5, commands.manifests())
 
 
 def v2(measures):
@@ -88,7 +88,7 @@ def v2(measures):
     baca.instrument_name_function(leaf, r"\akasha-violin-ii-markup")
     baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vn. II"])
     baca.clef_function(leaf, "treble")
-    baca.staff_lines_function(leaf, 5)
+    baca.staff_lines_function(leaf, 5, commands.manifests())
 
 
 def va(measures):
@@ -97,7 +97,7 @@ def va(measures):
     baca.instrument_name_function(leaf, r"\akasha-viola-markup")
     baca.short_instrument_name_function(leaf, commands.short_instrument_names["Va."])
     baca.clef_function(leaf, "alto")
-    baca.staff_lines_function(leaf, 1)
+    baca.staff_lines_function(leaf, 1, commands.manifests())
     leaves = baca.getter(measures, (1, 3))
     pleaves = baca.select.pleaves(leaves)
     baca.staff_position_function(pleaves, 0)
@@ -113,7 +113,7 @@ def vc(measures):
     baca.instrument_name_function(leaf, r"\akasha-cello-markup")
     baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vc."])
     baca.clef_function(leaf, "bass")
-    baca.staff_lines_function(leaf, 5)
+    baca.staff_lines_function(leaf, 5, commands.manifests())
 
 
 def main():

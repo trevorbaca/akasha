@@ -293,7 +293,9 @@ number.1.Violin.1.Music = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(n=1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! -PARTS
       %! baca.instrument_name()
@@ -304,16 +306,19 @@ number.1.Violin.1.Music = {
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \akasha-vn-i-markup
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -462,16 +467,19 @@ number.1.Violin.2.Music = {
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -610,16 +618,19 @@ number.1.Viola.Music = {
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \akasha-va-markup
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -848,7 +859,9 @@ number.1.Cello.Music = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(n=1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! -PARTS
       %! baca.instrument_name()
@@ -859,16 +872,19 @@ number.1.Cello.Music = {
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \akasha-vc-markup
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(n=2)
     \startStaff
     % OPENING:
     % COMMANDS:
