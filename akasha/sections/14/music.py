@@ -67,8 +67,7 @@ for index, string in ((29 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = baca.make_mmrests(commands.get(1, 6))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(7, 28))
@@ -78,8 +77,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = baca.make_mmrests(commands.get(1, 6))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(7, 28))
@@ -88,8 +86,7 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = baca.make_mmrests(commands.get(1, 6))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(7, 28))
@@ -98,8 +95,7 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 10))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(11, 12))
@@ -110,148 +106,129 @@ def VC():
     voice.extend(music)
 
 
-# reapply
+def va(measures):
+    commands(
+        "va",
+        baca.staff_lines(5),
+    )
 
-music_voices = [_ for _ in voice_names if "Music" in _]
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
+def composites():
+    commands(
+        (["v1", "v2", "va"], (7, 28)),
+        baca.new(
+            baca.pitch("Bb4"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitch("Bb3"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitch("Bb2"),
+            match=2,
+        ),
+    )
+    commands(
+        (["v1", "v2", "va"], (7, 10)),
+        baca.dynamic("pp"),
+        baca.markup(r"\baca-tasto-plus-xfb-markup"),
+    )
+    commands(
+        (["v1", "v2", "va"], (13, 14)),
+        baca.text_spanner(
+            "trans. => pos. ord. XFB",
+            selector=lambda _: baca.select.leaves(_)[:2],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va"], (15, 16)),
+        baca.text_spanner(
+            "trans. => pont. XFB",
+            selector=lambda _: baca.select.leaves(_)[:2],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va"], (17, 18)),
+        baca.text_spanner(
+            "trans. => XP+XFB",
+            selector=lambda _: baca.select.leaves(_)[:3],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va"], (19, 22)),
+        baca.text_spanner(
+            "trans. => XP",
+            selector=lambda _: baca.select.leaves(_)[:4],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va"], (23, 24)),
+        baca.text_spanner(
+            "trans. => 1/3OB",
+            selector=lambda _: baca.select.leaves(_)[:2],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va"], (25, 26)),
+        baca.text_spanner(
+            "trans. => 2/3OB",
+            selector=lambda _: baca.select.leaves(_)[:2],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va"], (27, 28)),
+        baca.text_spanner(
+            "trans. => OB (no pitch)",
+            selector=lambda _: baca.select.leaves(_)[:2],
+        ),
+    )
 
-# v1
 
-# v2
-
-# va
-
-commands(
-    "va",
-    baca.staff_lines(5),
-)
-
-# v1, v2, va
-
-commands(
-    (["v1", "v2", "va"], (7, 28)),
-    baca.new(
-        baca.pitch("Bb4"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitch("Bb3"),
-        match=1,
-    ),
-    baca.new(
-        baca.pitch("Bb2"),
-        match=2,
-    ),
-)
-
-commands(
-    (["v1", "v2", "va"], (7, 10)),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
-)
-
-commands(
-    (["v1", "v2", "va"], (13, 14)),
-    baca.text_spanner(
-        "trans. => pos. ord. XFB",
-        selector=lambda _: baca.select.leaves(_)[:2],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va"], (15, 16)),
-    baca.text_spanner(
-        "trans. => pont. XFB",
-        selector=lambda _: baca.select.leaves(_)[:2],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va"], (17, 18)),
-    baca.text_spanner(
-        "trans. => XP+XFB",
-        selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va"], (19, 22)),
-    baca.text_spanner(
-        "trans. => XP",
-        selector=lambda _: baca.select.leaves(_)[:4],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va"], (23, 24)),
-    baca.text_spanner(
-        "trans. => 1/3OB",
-        selector=lambda _: baca.select.leaves(_)[:2],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va"], (25, 26)),
-    baca.text_spanner(
-        "trans. => 2/3OB",
-        selector=lambda _: baca.select.leaves(_)[:2],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va"], (27, 28)),
-    baca.text_spanner(
-        "trans. => OB (no pitch)",
-        selector=lambda _: baca.select.leaves(_)[:2],
-    ),
-)
-
-# vc
-
-commands(
-    ("vc", (1, 10)),
-    baca.hairpin(
-        "ppp < ff",
-        selector=lambda _: baca.select.leaves(_)[:9],
-    ),
-    baca.text_spanner(
-        "trans. => vib. moltiss.",
-        selector=lambda _: baca.select.leaves(_)[:9],
-    ),
-)
-
-commands(
-    ("vc", (13, 18)),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-vib-poco-markup"),
-)
-
-commands(
-    ("vc", (1, 24)),
-    baca.pitch(
-        "Bb1",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("vc", (19, 24)),
-    baca.hairpin(
-        "pp >o niente",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+def vc(measures):
+    commands(
+        ("vc", (1, 10)),
+        baca.hairpin(
+            "ppp < ff",
+            selector=lambda _: baca.select.leaves(_)[:9],
+        ),
+        baca.text_spanner(
+            "trans. => vib. moltiss.",
+            selector=lambda _: baca.select.leaves(_)[:9],
+        ),
+    )
+    commands(
+        ("vc", (13, 18)),
+        baca.dynamic("pp"),
+        baca.markup(r"\baca-vib-poco-markup"),
+    )
+    commands(
+        ("vc", (1, 24)),
+        baca.pitch(
+            "Bb1",
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("vc", (19, 24)),
+        baca.hairpin(
+            "pp >o niente",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret._cache_leaves(score, len(commands.time_signatures))
+    va(cache["Viola.Music"])
+    composites()
+    vc(cache["Cello.Music"])
 
 
 if __name__ == "__main__":

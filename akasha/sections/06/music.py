@@ -86,8 +86,7 @@ for index, string in (
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = baca.make_mmrests(commands.get(1, 4))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -146,8 +145,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = baca.make_mmrests(commands.get(1, 2))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -226,8 +224,7 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = library.make_viola_ob_rhythm(
         commands.get(1),
         rotation=0,
@@ -265,8 +262,7 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = baca.make_mmrests(commands.get(1, 2))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -340,244 +336,215 @@ def VC():
     voice.extend(music)
 
 
-# reapply
-
-music_voices = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-commands(
-    ("v1", 5),
-    library.material_annotation_spanner("A"),
-)
-
-commands(
-    ("v1", 7),
-    library.material_annotation_spanner("A"),
-)
-
-commands(
-    ("v1", (1, 14)),
-    baca.new(
-        baca.dynamic("ff"),
-        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("v1", (15, 22)),
-    baca.dynamic("f"),
-    baca.markup(r"\akasha-po-meno-scratch-markup"),
-)
-
-commands(
-    ("v1", (23, 32)),
-    baca.hairpin(
-        "mf > pp",
-        selector=lambda _: baca.select.tleaves(
-            _,
+def v1(measures):
+    commands(
+        ("v1", 5),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("v1", 7),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("v1", (1, 14)),
+        baca.new(
+            baca.dynamic("ff"),
+            baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
+            selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
         ),
-    ),
-    baca.markup(r"\akasha-leggieriss-senza-scratch-markup"),
-)
-
-commands(
-    ("v1", (23, 39)),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    "v1",
-    library.getato_pitches(5, [2]),
-)
-
-# v2
-
-commands(
-    ("v2", 3),
-    library.material_annotation_spanner("A"),
-)
-
-commands(
-    ("v2", 5),
-    library.material_annotation_spanner("A"),
-)
-
-commands(
-    ("v2", 7),
-    library.material_annotation_spanner("A"),
-)
-
-commands(
-    ("v2", (1, 10)),
-    baca.new(
-        baca.dynamic("ff"),
-        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("v2", (11, 18)),
-    baca.dynamic("f"),
-    baca.markup(r"\akasha-po-meno-scratch-markup"),
-)
-
-commands(
-    ("v2", (19, 20)),
-    baca.dynamic("mf"),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.markup(r"\akasha-senza-scratch-markup"),
-)
-
-commands(
-    ("v2", (23, 32)),
-    baca.hairpin(
-        "mf > pp",
-        selector=lambda _: baca.select.tleaves(
-            _,
+    )
+    commands(
+        ("v1", (15, 22)),
+        baca.dynamic("f"),
+        baca.markup(r"\akasha-po-meno-scratch-markup"),
+    )
+    commands(
+        ("v1", (23, 32)),
+        baca.hairpin(
+            "mf > pp",
+            selector=lambda _: baca.select.tleaves(
+                _,
+            ),
         ),
-    ),
-)
-
-commands(
-    ("v2", (21, 39)),
-    baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    "v2",
-    library.getato_pitches(-3, [2]),
-)
-
-# va
-
-commands(
-    ("va", 1),
-    library.material_annotation_spanner("E"),
-)
-
-commands(
-    ("va", 3),
-    library.material_annotation_spanner("E"),
-)
-
-commands(
-    ("va", 5),
-    library.material_annotation_spanner("E"),
-)
-
-commands(
-    ("va", 7),
-    library.material_annotation_spanner("E"),
-)
-
-commands(
-    ("va", (9, 38)),
-    library.material_annotation_spanner("E"),
-)
-
-commands(
-    "va",
-    baca.alternate_bow_strokes(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.dynamic('"mf"'),
-    baca.markup(r"\baca-ob-markup"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-)
-
-# vc
-
-commands(
-    ("vc", 3),
-    library.material_annotation_spanner("A"),
-)
-
-commands(
-    ("vc", 7),
-    library.material_annotation_spanner("A"),
-)
-
-commands(
-    ("vc", (1, 8)),
-    baca.new(
-        baca.dynamic("ff"),
-        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("vc", (9, 14)),
-    baca.dynamic("f"),
-    baca.markup(r"\akasha-po-meno-scratch-markup"),
-)
-
-commands(
-    ("vc", (15, 18)),
-    baca.dynamic("mf"),
-    baca.markup(r"\akasha-senza-scratch-markup"),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("vc", 27),
-    baca.clef("treble"),
-)
-
-commands(
-    ("vc", (23, 32)),
-    baca.hairpin(
-        "mf > pp",
-        selector=lambda _: baca.select.tleaves(
-            _,
+        baca.markup(r"\akasha-leggieriss-senza-scratch-markup"),
+    )
+    commands(
+        ("v1", (23, 39)),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
         ),
-    ),
-)
+    )
+    commands(
+        "v1",
+        library.getato_pitches(5, [2]),
+    )
 
-commands(
-    ("vc", (19, 39)),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.markup(r"\baca-leggieriss-markup"),
-)
 
-commands(
-    "vc",
-    library.getato_pitches(-13, [2]),
-)
+def v2(measures):
+    commands(
+        ("v2", 3),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("v2", 5),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("v2", 7),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("v2", (1, 10)),
+        baca.new(
+            baca.dynamic("ff"),
+            baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
+            selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("v2", (11, 18)),
+        baca.dynamic("f"),
+        baca.markup(r"\akasha-po-meno-scratch-markup"),
+    )
+    commands(
+        ("v2", (19, 20)),
+        baca.dynamic("mf"),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.markup(r"\akasha-senza-scratch-markup"),
+    )
+    commands(
+        ("v2", (23, 32)),
+        baca.hairpin(
+            "mf > pp",
+            selector=lambda _: baca.select.tleaves(
+                _,
+            ),
+        ),
+    )
+    commands(
+        ("v2", (21, 39)),
+        baca.markup(r"\baca-leggieriss-markup"),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        "v2",
+        library.getato_pitches(-3, [2]),
+    )
 
-# composites
 
-commands(
-    (["v1", "v2", "vc"], (9, 38)),
-    library.material_annotation_spanner("A"),
-)
+def va(measures):
+    commands(
+        ("va", 1),
+        library.material_annotation_spanner("E"),
+    )
+    commands(
+        ("va", 3),
+        library.material_annotation_spanner("E"),
+    )
+    commands(
+        ("va", 5),
+        library.material_annotation_spanner("E"),
+    )
+    commands(
+        ("va", 7),
+        library.material_annotation_spanner("E"),
+    )
+    commands(
+        ("va", (9, 38)),
+        library.material_annotation_spanner("E"),
+    )
+    commands(
+        "va",
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.dynamic('"mf"'),
+        baca.markup(r"\baca-ob-markup"),
+        baca.staff_lines(1),
+        baca.staff_position(0),
+    )
+
+
+def vc(measures):
+    commands(
+        ("vc", 3),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("vc", 7),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("vc", (1, 8)),
+        baca.new(
+            baca.dynamic("ff"),
+            baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
+            selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("vc", (9, 14)),
+        baca.dynamic("f"),
+        baca.markup(r"\akasha-po-meno-scratch-markup"),
+    )
+    commands(
+        ("vc", (15, 18)),
+        baca.dynamic("mf"),
+        baca.markup(r"\akasha-senza-scratch-markup"),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("vc", 27),
+        baca.clef("treble"),
+    )
+    commands(
+        ("vc", (23, 32)),
+        baca.hairpin(
+            "mf > pp",
+            selector=lambda _: baca.select.tleaves(
+                _,
+            ),
+        ),
+    )
+    commands(
+        ("vc", (19, 39)),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.markup(r"\baca-leggieriss-markup"),
+    )
+    commands(
+        "vc",
+        library.getato_pitches(-13, [2]),
+    )
+
+
+def composites():
+    commands(
+        (["v1", "v2", "vc"], (9, 38)),
+        library.material_annotation_spanner("A"),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret._cache_leaves(score, len(commands.time_signatures))
+    v1(cache["Violin.1.Music"])
+    v2(cache["Violin.2.Music"])
+    va(cache["Viola.Music"])
+    vc(cache["Cello.Music"])
+    composites()
 
 
 if __name__ == "__main__":

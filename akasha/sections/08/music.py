@@ -81,8 +81,7 @@ for index, string in ((14 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = library.make_dense_getato_rhythm(
         commands.get(1, 4),
         [2, 2, 1, 2, 1],
@@ -103,8 +102,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = baca.make_notes(commands.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(commands.get(5, 7), repeat_ties=True)
@@ -121,8 +119,7 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = baca.make_notes(commands.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(commands.get(5, 7), repeat_ties=True)
@@ -137,8 +134,7 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = baca.make_notes(commands.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(commands.get(5, 7), repeat_ties=True)
@@ -155,159 +151,140 @@ def VC():
     voice.extend(music)
 
 
-# anchor notes & reapply
-
-commands(
-    "va",
-    baca.append_anchor_note(),
-)
-
-music_voices = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-commands(
-    ("v1", (1, 4)),
-    library.material_annotation_spanner("A"),
-    library.getato_pitches(31, [2]),
-    baca.hairpin(
-        "pp >o niente",
-        selector=lambda _: baca.select.tleaves(
-            _,
+def v1(measures):
+    commands(
+        ("v1", (1, 4)),
+        library.material_annotation_spanner("A"),
+        library.getato_pitches(31, [2]),
+        baca.hairpin(
+            "pp >o niente",
+            selector=lambda _: baca.select.tleaves(
+                _,
+            ),
         ),
-    ),
-)
+    )
+    commands(
+        ("v1", (5, 7)),
+        baca.text_spanner("tasto + 1/4 scratch => tasto"),
+    )
+    commands(
+        ("v1", (5, 13)),
+        baca.loop([17, 19, 17, 15, 18, 16], [1]),
+        baca.glissando(),
+    )
+    commands(
+        ("v1", (15, 16)),
+        baca.dynamic("ppp"),
+        baca.pitch("F#5"),
+    )
 
-commands(
-    ("v1", (5, 7)),
-    baca.text_spanner("tasto + 1/4 scratch => tasto"),
-)
 
-commands(
-    ("v1", (5, 13)),
-    baca.loop([17, 19, 17, 15, 18, 16], [1]),
-    baca.glissando(),
-)
+def v2(measures):
+    commands(
+        ("v2", (1, 13)),
+        baca.loop([6, 3, 5, 3, 1, 4], [1]),
+        baca.glissando(),
+    )
+    commands(
+        ("v2", (15, 16)),
+        baca.dynamic("ppp"),
+        baca.pitch("Ab4"),
+    )
 
-commands(
-    ("v1", (15, 16)),
-    baca.dynamic("ppp"),
-    baca.pitch("F#5"),
-)
 
-# v2
+def va(measures):
+    commands(
+        "va",
+        baca.clef("alto"),
+        baca.staff_lines(5),
+    )
+    commands(
+        ("va", (1, 13)),
+        baca.loop([3, 5, 2, 4, 2, 0], [1]),
+        baca.glissando(),
+    )
+    commands(
+        ("va", (15, 16)),
+        baca.down_bow(),
+        baca.dynamic('"mf"'),
+        baca.markup(r"\baca-ob-markup"),
+        baca.staff_lines(1),
+        baca.staff_position(0),
+    )
 
-commands(
-    ("v2", (1, 13)),
-    baca.loop([6, 3, 5, 3, 1, 4], [1]),
-    baca.glissando(),
-)
 
-commands(
-    ("v2", (15, 16)),
-    baca.dynamic("ppp"),
-    baca.pitch("Ab4"),
-)
+def vc(measures):
+    commands(
+        ("vc", (1, 13)),
+        baca.clef("bass"),
+        baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
+        baca.glissando(),
+    )
+    commands(
+        ("vc", (15, 16)),
+        baca.dynamic("ppp"),
+        baca.pitch("C#2"),
+    )
 
-# va
 
-commands(
-    "va",
-    baca.clef("alto"),
-    baca.staff_lines(5),
-)
-
-commands(
-    ("va", (1, 13)),
-    baca.loop([3, 5, 2, 4, 2, 0], [1]),
-    baca.glissando(),
-)
-
-commands(
-    ("va", (15, 16)),
-    baca.down_bow(),
-    baca.dynamic('"mf"'),
-    baca.markup(r"\baca-ob-markup"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-)
-
-# vc
-
-commands(
-    ("vc", (1, 13)),
-    baca.clef("bass"),
-    baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
-    baca.glissando(),
-)
-
-commands(
-    ("vc", (15, 16)),
-    baca.dynamic("ppp"),
-    baca.pitch("C#2"),
-)
-
-# composites
-
-commands(
-    (["v2", "va", "vc"], (1, 4)),
-    baca.hairpin("ff > f"),
-    baca.text_spanner("tasto + scratch moltiss. => tasto + 1/4 scratch"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (5, 7)),
-    baca.hairpin("f > mf"),
-)
-
-commands(
-    (["v2", "va", "vc"], (5, 7)),
-    baca.text_spanner("trans. => tasto"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (8, 10)),
-    baca.hairpin("mf > p"),
-    baca.text_spanner("trans. => FB"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (11, 13)),
-    baca.hairpin("p > pp"),
-    baca.text_spanner("trans. => XFB"),
-)
-
-commands(
-    ("v1", [(5, 13), (15, 17)]),
-    library.material_annotation_spanner("B"),
-)
-
-commands(
-    (["v2", "vc"], [(1, 13), (15, 17)]),
-    library.material_annotation_spanner("B"),
-)
-
-commands(
-    ("va", (1, 13)),
-    library.material_annotation_spanner("B"),
-)
-
-commands(
-    ("va", (15, 17)),
-    library.material_annotation_spanner("E"),
-)
+def composites():
+    commands(
+        (["v2", "va", "vc"], (1, 4)),
+        baca.hairpin("ff > f"),
+        baca.text_spanner("tasto + scratch moltiss. => tasto + 1/4 scratch"),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (5, 7)),
+        baca.hairpin("f > mf"),
+    )
+    commands(
+        (["v2", "va", "vc"], (5, 7)),
+        baca.text_spanner("trans. => tasto"),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (8, 10)),
+        baca.hairpin("mf > p"),
+        baca.text_spanner("trans. => FB"),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (11, 13)),
+        baca.hairpin("p > pp"),
+        baca.text_spanner("trans. => XFB"),
+    )
+    commands(
+        ("v1", [(5, 13), (15, 17)]),
+        library.material_annotation_spanner("B"),
+    )
+    commands(
+        (["v2", "vc"], [(1, 13), (15, 17)]),
+        library.material_annotation_spanner("B"),
+    )
+    commands(
+        ("va", (1, 13)),
+        library.material_annotation_spanner("B"),
+    )
+    commands(
+        ("va", (15, 17)),
+        library.material_annotation_spanner("E"),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    for abbreviation in ["va"]:
+        voice = commands.voice(abbreviation)
+        baca.append_anchor_note_function(voice)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret._cache_leaves(score, len(commands.time_signatures))
+    v1(cache["Violin.1.Music"])
+    v2(cache["Violin.2.Music"])
+    va(cache["Viola.Music"])
+    vc(cache["Cello.Music"])
+    composites()
 
 
 if __name__ == "__main__":

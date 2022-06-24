@@ -661,9 +661,9 @@ number.1.Viola.Music = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \akasha-material-e
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \akasha-ob-plus-terminate-abruptly-markup
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()

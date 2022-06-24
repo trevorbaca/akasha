@@ -1394,7 +1394,7 @@ number.12.Skips = {
     s1 * 3/8
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \akasha-repeat-six-markup
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2650,7 +2650,7 @@ number.12.Skips = {
     s1 * 3/8
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \akasha-repeat-six-markup
     % SPANNER_STOPS:
       %! CLOCK_TIME

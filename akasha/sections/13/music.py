@@ -58,20 +58,17 @@ for index, string in (
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = baca.make_repeat_tied_notes(commands.get(1))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(2))
@@ -82,53 +79,47 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = baca.make_mmrests(commands.get(1, 4))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(5, 6))
     voice.extend(music)
 
 
-# reapply
+def va(measures):
+    commands(
+        ("va", (1, 3)),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.clef("alto"),
+        baca.dynamic('"mf"'),
+        baca.markup(r"\akasha-ob-plus-terminate-each-note-abruptly-markup"),
+        baca.staff_lines(1),
+        baca.staff_position(0),
+    )
 
-music_voices = [_ for _ in voice_names if "Music" in _]
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# va
-
-commands(
-    ("va", (1, 3)),
-    baca.alternate_bow_strokes(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.clef("alto"),
-    baca.dynamic('"mf"'),
-    baca.markup(r"\akasha-ob-plus-terminate-each-note-abruptly-markup"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-)
-
-# vc
-
-commands(
-    ("vc", (5, 6)),
-    baca.clef("bass"),
-    baca.dynamic("pp"),
-    baca.markup(r"\akasha-pos-ord-plus-vib-poco-markup"),
-    baca.pitch("Bb1"),
-)
+def vc(measures):
+    commands(
+        ("vc", (5, 6)),
+        baca.clef("bass"),
+        baca.dynamic("pp"),
+        baca.markup(r"\akasha-pos-ord-plus-vib-poco-markup"),
+        baca.pitch("Bb1"),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret._cache_leaves(score, len(commands.time_signatures))
+    va(cache["Viola.Music"])
+    vc(cache["Cello.Music"])
 
 
 if __name__ == "__main__":
