@@ -2252,7 +2252,7 @@ number.7.Skips = {
     s1 * 6/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \akasha-repeat-six-markup
     % SPANNER_STOPS:
       %! CLOCK_TIME

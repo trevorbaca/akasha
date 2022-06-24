@@ -71,8 +71,7 @@ for index, string in (
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = library.make_accelerando_rhythm(
         commands.get(1, 2),
         fuse_counts=[1, 2],
@@ -84,8 +83,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = library.make_ritardando_rhythm(
         commands.get(1, 2),
     )
@@ -96,8 +94,7 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(4), head=voice.name)
@@ -110,8 +107,7 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = library.make_ritardando_rhythm(
         commands.get(1, 2),
         preprocessor=lambda _: baca.sequence.fuse(_),
@@ -129,101 +125,95 @@ def VC():
     voice.extend(music)
 
 
-# reapply
+def v1(measures):
+    commands(
+        ("v1", 3),
+        baca.dynamic("ppp"),
+        baca.pitch("F#5"),
+    )
 
-music_voices = [_ for _ in voice_names if "Music" in _]
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
+def v2(measures):
+    commands(
+        ("v2", 3),
+        baca.dynamic("ppp"),
+        baca.pitch("Ab4"),
+    )
 
-# v1
 
-commands(
-    ("v1", 3),
-    baca.dynamic("ppp"),
-    baca.pitch("F#5"),
-)
+def va(measures):
+    commands(
+        ("va", (1, 3)),
+        baca.staff_position(0),
+        library.material_annotation_spanner("E"),
+    )
+    commands(
+        ("va", (5, 6)),
+        baca.pitches("D#3 C+3", exact=True),
+        baca.glissando(),
+        baca.hairpin("mp > pp"),
+        baca.markup(r"\baca-tasto-markup"),
+        baca.staff_lines(5),
+    )
 
-# v2
 
-commands(
-    ("v2", 3),
-    baca.dynamic("ppp"),
-    baca.pitch("Ab4"),
-)
+def vc(measures):
+    commands(
+        ("vc", 3),
+        baca.dynamic("ppp"),
+        baca.pitch("C#2"),
+    )
+    commands(
+        ("vc", (5, 6)),
+        baca.pitches("C#2 Bb1", exact=True),
+        baca.glissando(),
+        baca.hairpin("mp > pp"),
+        baca.markup(r"\baca-tasto-markup"),
+    )
 
-# va
 
-commands(
-    ("va", (1, 3)),
-    baca.staff_position(0),
-    library.material_annotation_spanner("E"),
-)
-
-commands(
-    ("va", (5, 6)),
-    baca.pitches("D#3 C+3", exact=True),
-    baca.glissando(),
-    baca.hairpin("mp > pp"),
-    baca.markup(r"\baca-tasto-markup"),
-    baca.staff_lines(5),
-)
-
-# vc
-
-commands(
-    ("vc", 3),
-    baca.dynamic("ppp"),
-    baca.pitch("C#2"),
-)
-
-commands(
-    ("vc", (5, 6)),
-    baca.pitches("C#2 Bb1", exact=True),
-    baca.glissando(),
-    baca.hairpin("mp > pp"),
-    baca.markup(r"\baca-tasto-markup"),
-)
-
-# composites
-
-commands(
-    (["v1", "v2", "vc"], (1, 2)),
-    baca.dynamic("p"),
-    baca.markup(r"\baca-xfb-markup"),
-    library.material_annotation_spanner("C"),
-    baca.new(
-        baca.pitches("D4 E4"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitches("C#4 D#4"),
-        match=1,
-    ),
-    baca.new(
-        baca.pitches("C4 D4"),
-        match=2,
-    ),
-)
-
-commands(
-    (["v1", "v2", "vc"], 3),
-    library.material_annotation_spanner("B"),
-)
-
-commands(
-    (["va", "vc"], (5, 6)),
-    library.material_annotation_spanner("D"),
-)
+def composites():
+    commands(
+        (["v1", "v2", "vc"], (1, 2)),
+        baca.dynamic("p"),
+        baca.markup(r"\baca-xfb-markup"),
+        library.material_annotation_spanner("C"),
+        baca.new(
+            baca.pitches("D4 E4"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitches("C#4 D#4"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitches("C4 D4"),
+            match=2,
+        ),
+    )
+    commands(
+        (["v1", "v2", "vc"], 3),
+        library.material_annotation_spanner("B"),
+    )
+    commands(
+        (["va", "vc"], (5, 6)),
+        library.material_annotation_spanner("D"),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret._cache_leaves(score, len(commands.time_signatures))
+    v1(cache["Violin.1.Music"])
+    v2(cache["Violin.2.Music"])
+    va(cache["Viola.Music"])
+    vc(cache["Cello.Music"])
+    composites()
 
 
 if __name__ == "__main__":

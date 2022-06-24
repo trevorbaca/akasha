@@ -33,12 +33,15 @@ def _time_signature_series():
     return time_signature_series
 
 
-def cello_solo_pitches(transposition=None):
+def cello_solo_pitches(*, function=None, transposition=None):
     string = "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3 E3 E-3 Eb3 Db3 C3 D3 F#3"
     pitches = [abjad.NamedPitch(_) for _ in string.split()]
     if transposition:
         pitches = [_.transpose(n=transposition) for _ in pitches]
-    return baca.pitches(pitches)
+    if function:
+        baca.pitches_function(function, pitches)
+    else:
+        return baca.pitches(pitches)
 
 
 def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP):

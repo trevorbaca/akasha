@@ -65,8 +65,7 @@ for index, string in ((25 - 1, "very_long"),):
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = baca.make_notes(
         commands.get(1, 16),
         rmakers.force_rest(
@@ -79,8 +78,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = baca.make_mmrests(commands.get(1, 8))
     voice.extend(music)
     music = library.make_sparse_getato_rhythm(
@@ -97,8 +95,7 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = baca.make_notes(
         commands.get(1, 16),
         rmakers.force_rest(
@@ -111,8 +108,7 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = baca.make_notes(
         commands.get(1, 16),
         rmakers.force_rest(
@@ -125,67 +121,59 @@ def VC():
     voice.extend(music)
 
 
-# reapply
+def v2(measures):
+    commands(
+        ("v2", (9, 24)),
+        library.getato_pitches(29, direction=abjad.DOWN),
+        baca.dynamic("pp-ancora"),
+        baca.markup(r"\baca-leggieriss-markup"),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
 
-music_voices = [_ for _ in voice_names if "Music" in _]
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
+def vc(measures):
+    commands(
+        ("vc", 25),
+        baca.chunk(
+            baca.mark(r"\akasha-colophon-markup"),
+            baca.rehearsal_mark_down(),
+            baca.rehearsal_mark_padding(6),
+            baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
+            selector=lambda _: baca.select.rleaf(_, -1),
+        ),
+    )
 
-# v1
 
-# v2
-
-commands(
-    ("v2", (9, 24)),
-    library.getato_pitches(29, direction=abjad.DOWN),
-    baca.dynamic("pp-ancora"),
-    baca.markup(r"\baca-leggieriss-markup"),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# va
-
-# vc
-
-commands(
-    ("vc", 25),
-    baca.chunk(
-        baca.mark(r"\akasha-colophon-markup"),
-        baca.rehearsal_mark_down(),
-        baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: baca.select.rleaf(_, -1),
-    ),
-)
-
-# v1, va, vc
-
-commands(
-    (["v1", "va", "vc"], (1, 24)),
-    baca.alternate_bow_strokes(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.clef("percussion"),
-    baca.dynamic('"mf"'),
-    baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
-    baca.staff_position(
-        0,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.staff_lines(1),
-)
+def composites():
+    commands(
+        (["v1", "va", "vc"], (1, 24)),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.clef("percussion"),
+        baca.dynamic('"mf"'),
+        baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
+        baca.staff_position(
+            0,
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.staff_lines(1),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret._cache_leaves(score, len(commands.time_signatures))
+    v2(cache["Violin.2.Music"])
+    vc(cache["Cello.Music"])
+    composites()
 
 
 if __name__ == "__main__":

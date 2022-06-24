@@ -45,8 +45,7 @@ for index, string in ((4 - 1, "very_long"),):
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = baca.make_mmrests(commands.get(1))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -71,8 +70,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = library.make_scratch_rhythm(
         commands.get(1),
         [4],
@@ -104,14 +102,12 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = library.make_scratch_rhythm(
         commands.get(1),
         [4],
@@ -136,41 +132,34 @@ def VC():
     voice.extend(music)
 
 
-# reapply
-
-music_voices = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1, v2, vc
-
-commands(
-    (["v1", "v2", "vc"], (1, 3)),
-    baca.new(
-        library.getato_pitches(5, [2]),
-        match=0,
-    ),
-    baca.new(
-        library.getato_pitches(-3, [2]),
-        match=1,
-    ),
-    baca.new(
-        library.getato_pitches(-13, [2]),
-        match=2,
-    ),
-    baca.dynamic("ff"),
-    baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-)
+def composites():
+    commands(
+        (["v1", "v2", "vc"], (1, 3)),
+        baca.new(
+            library.getato_pitches(5, [2]),
+            match=0,
+        ),
+        baca.new(
+            library.getato_pitches(-3, [2]),
+            match=1,
+        ),
+        baca.new(
+            library.getato_pitches(-13, [2]),
+            match=2,
+        ),
+        baca.dynamic("ff"),
+        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    composites()
 
 
 if __name__ == "__main__":

@@ -62,8 +62,7 @@ baca.global_fermata(rests[7 - 1], "short")
 baca.global_fermata(rests[9 - 1], "short")
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = library.make_accelerando_rhythm(
         commands.get(1, 3),
         rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
@@ -77,8 +76,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = library.make_polyphony_rhythm(
         commands.get(1, 3),
     )
@@ -93,8 +91,7 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = library.make_polyphony_rhythm(
         commands.get(1, 3),
         rmakers.force_rest(
@@ -109,10 +106,7 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-
-    voice = commands.voice("vc")
-
+def VC(voice):
     def get_tuplets(argument, pattern):
         tuplets = abjad.select.tuplets(argument)
         tuplets = abjad.select.get(tuplets, pattern)
@@ -151,103 +145,91 @@ def VC():
     voice.extend(music)
 
 
-# reapply
-
-commands(
-    ["v2", "va", "vc"],
-    baca.append_anchor_note(),
-)
-
-music_voices = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-commands(
-    ("v1", (1, 3)),
-    library.material_annotation_spanner("C"),
-    baca.pitches("E5 D5"),
-)
-
-# v2
-
-commands(
-    ("v2", (1, 3)),
-    library.material_annotation_spanner("B"),
-    baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-)
-
-commands(
-    ("v2", (10, 11)),
-    library.material_annotation_spanner("C"),
-    baca.pitches("C5 Bb4"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-tasto-plus-xfb-markup"),
-)
-
-# va
-
-commands(
-    ("va", (1, 3)),
-    library.material_annotation_spanner("B"),
-    baca.pitches("Db4 Db~4 C4", exact=True),
-)
-
-commands(
-    ("va", 11),
-    library.material_annotation_spanner("D"),
-    baca.pitch("D#3"),
-    baca.markup(r"\baca-tasto-markup"),
-)
-
-# vc
+def v1(measures):
+    commands(
+        ("v1", (1, 3)),
+        library.material_annotation_spanner("C"),
+        baca.pitches("E5 D5"),
+    )
 
 
-commands(
-    ("vc", (1, 4)),
-    library.material_annotation_spanner("A"),
-)
+def v2(measures):
+    commands(
+        ("v2", (1, 3)),
+        library.material_annotation_spanner("B"),
+        baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
+        baca.dynamic("mp"),
+        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    )
+    commands(
+        ("v2", (10, 11)),
+        library.material_annotation_spanner("C"),
+        baca.pitches("C5 Bb4"),
+        baca.dynamic("pp"),
+        baca.markup(r"\baca-tasto-plus-xfb-markup"),
+    )
 
-commands(
-    ("vc", 6),
-    library.material_annotation_spanner("A"),
-)
 
-commands(
-    ("vc", 8),
-    library.material_annotation_spanner("A"),
-)
+def va(measures):
+    commands(
+        ("va", (1, 3)),
+        library.material_annotation_spanner("B"),
+        baca.pitches("Db4 Db~4 C4", exact=True),
+    )
+    commands(
+        ("va", 11),
+        library.material_annotation_spanner("D"),
+        baca.pitch("D#3"),
+        baca.markup(r"\baca-tasto-markup"),
+    )
 
-commands(
-    ("vc", (1, 8)),
-    library.getato_pitches(-2, [-3], direction=abjad.DOWN),
-    baca.beam_positions(-4),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.tuplet_bracket_staff_padding(2),
-)
 
-commands(
-    ("vc", 11),
-    library.material_annotation_spanner("D"),
-    baca.pitch("C#2"),
-    baca.dynamic("mp"),
-    baca.markup(r"\baca-tasto-markup"),
-)
+def vc(measures):
+    commands(
+        ("vc", (1, 4)),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("vc", 6),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("vc", 8),
+        library.material_annotation_spanner("A"),
+    )
+    commands(
+        ("vc", (1, 8)),
+        library.getato_pitches(-2, [-3], direction=abjad.DOWN),
+        baca.beam_positions(-4),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.tuplet_bracket_staff_padding(2),
+    )
+    commands(
+        ("vc", 11),
+        library.material_annotation_spanner("D"),
+        baca.pitch("C#2"),
+        baca.dynamic("mp"),
+        baca.markup(r"\baca-tasto-markup"),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    for abbreviation in ["v2", "va", "vc"]:
+        voice = commands.voice(abbreviation)
+        baca.append_anchor_note_function(voice)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret._cache_leaves(score, len(commands.time_signatures))
+    v1(cache["Violin.1.Music"])
+    v2(cache["Violin.2.Music"])
+    va(cache["Viola.Music"])
+    vc(cache["Cello.Music"])
 
 
 if __name__ == "__main__":

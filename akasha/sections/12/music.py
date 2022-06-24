@@ -86,8 +86,7 @@ for index, string in (
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 28))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(29))
@@ -116,8 +115,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 28))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(29))
@@ -146,8 +144,7 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 28))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(29))
@@ -176,8 +173,7 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 28))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(29))
@@ -204,374 +200,335 @@ def VC():
     voice.extend(music)
 
 
-# reapply
-
-music_voices = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1, v2, va, vc
-
-commands(
-    (["v1", "v2", "va", "vc"], (1, 28)),
-    baca.dynamic('"ff"'),
-    baca.markup(r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"),
-    baca.new(
-        baca.pitch("A5"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitch("G#+4"),
-        match=1,
-    ),
-    baca.new(
-        baca.pitch("A+2"),
-        match=2,
-    ),
-    baca.new(
-        baca.pitch("A1"),
-        match=3,
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (5, 8)),
-    baca.text_spanner(
-        "trans. => 1 click/1-2 sec.",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (9, 12)),
-    baca.text_spanner(
-        "trans. => 1-2 clicks/sec.",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (13, 16)),
-    baca.dynamic(
-        "ff",
-        selector=lambda _: abjad.select.note(_, 2),
-    ),
-    baca.text_spanner(
-        "trans. => scratch moltiss.",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (17, 20)),
-    baca.text_spanner(
-        "trans. => 1/2 scratch",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (21, 24)),
-    baca.text_spanner(
-        "trans. => PO",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (25, 28)),
-    baca.text_spanner(
-        "trans. => vib. moltiss.",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-    baca.hairpin(
-        "ff < fff",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (30, 39)),
-    baca.new(
-        baca.pitch("A5"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitches("A4 G#+4"),
-        match=1,
-    ),
-    baca.new(
-        baca.pitches("A2 A+2"),
-        match=2,
-    ),
-    baca.new(
-        baca.pitch("A1"),
-        match=3,
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (30, 34)),
-    baca.hairpin(
-        "sffp < fff",
-        selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-    baca.hairpin(
-        "fff > p",
-        selector=lambda _: baca.select.leaves(_)[-2:],
-    ),
-    baca.text_spanner(
-        "PO senza vib. => XP",
-        selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-    baca.text_spanner(
-        "XP => PO",
-        selector=lambda _: baca.select.leaves(_)[-2:],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (35, 39)),
-    baca.hairpin(
-        "sffp < fff",
-        selector=lambda _: baca.select.leaves(_)[:2],
-    ),
-    baca.hairpin(
-        "fff > p",
-        selector=lambda _: baca.select.leaves(_)[-2:],
-    ),
-    baca.text_spanner(
-        "PO => XP",
-        selector=lambda _: baca.select.leaves(_)[:2],
-    ),
-    baca.text_spanner(
-        "XP => pos. ord.",
-        selector=lambda _: baca.select.leaves(_)[-2:],
-    ),
-)
-
-commands(
-    ("v1", (41, 52)),
-    baca.pitch(
-        "A5",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("v1", (53, 68)),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        baca.pitch("B7"),
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("v2", (41, 50)),
-    baca.pitch(
-        "A4",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("v2", (51, 68)),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        baca.pitch("C#7"),
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("va", (41, 48)),
-    baca.pitch(
-        "A2",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("va", (49, 68)),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        baca.pitch("G~5"),
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("vc", (41, 45)),
-    baca.new(
-        baca.pitch("A1"),
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("vc", (47, 68)),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        baca.pitch("D5"),
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (41, 45)),
-    baca.hairpin(
-        "sffp > pp",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-    baca.text_spanner(
-        "pos. ord. => XT",
-        selector=lambda _: baca.select.leaves(_)[:-1],
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (1, 46)),
-    baca.text_spanner_staff_padding(4),
-)
-
-commands(
-    ("vc", (47, 54)),
-    baca.markup(r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup"),
-    baca.trill_spanner(),
-    baca.clef("treble"),
-)
-
-commands(
-    ("vc", (47, 50)),
-    baca.hairpin(
-        "sffp < f",
-        selector=lambda _: baca.select.leaves(_)[:4],
-    ),
-)
-
-commands(
-    ("va", (49, 54)),
-    baca.markup(r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup"),
-    baca.trill_spanner(),
-    baca.clef("treble"),
-)
-
-commands(
-    ("va", (49, 52)),
-    baca.hairpin(
-        "sffp < f",
-        selector=lambda _: baca.select.leaves(_)[:4],
-    ),
-)
-
-commands(
-    ("v2", (51, 54)),
-    baca.ottava(),
-)
-
-commands(
-    ("v2", (51, 54)),
-    baca.markup(r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup"),
-    baca.trill_spanner(),
-)
-
-commands(
-    ("v2", (51, 54)),
-    baca.hairpin(
-        "sffp < f",
-        selector=lambda _: baca.select.leaves(_)[:4],
-    ),
-)
-
-commands(
-    ("v1", (53, 54)),
-    baca.ottava(),
-)
-
-commands(
-    ("v1", (53, 54)),
-    baca.markup(r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup"),
-    baca.trill_spanner(),
-    baca.hairpin("sffp < f"),
-)
-
-commands(
-    (["v1", "v2"], (56, 68)),
-    baca.new(
-        baca.ottava_bracket_staff_padding(12),
-        match=0,
-    ),
-    baca.new(
-        baca.ottava_bracket_staff_padding(10),
-        match=1,
-    ),
-    baca.ottava(),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (56, 60)),
-    baca.hairpin(
-        "sf < fff",
-        selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-    baca.hairpin(
-        "fff > f",
-        selector=lambda _: baca.select.leaves(_)[-2:],
-    ),
-    baca.text_spanner(
-        "pos. ord. => XP",
-        selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-    baca.text_spanner(
-        "XP => pos. ord.",
-        selector=lambda _: baca.select.leaves(_)[-2:],
-    ),
-    baca.trill_spanner(),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (61, 68)),
-    baca.hairpin(
-        "sffp < fff",
-        selector=lambda _: baca.select.leaves(_)[:4],
-    ),
-    baca.text_spanner(
-        "pos. ord. => XP",
-        selector=lambda _: baca.select.leaves(_)[:4],
-    ),
-    baca.trill_spanner(),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (56, -1)),
-    baca.new(
-        baca.text_spanner_staff_padding(9.5),
-        match=0,
-    ),
-    baca.new(
-        baca.text_spanner_staff_padding(7.5),
-        match=1,
-    ),
-    baca.new(
-        baca.text_spanner_staff_padding(7),
-        match=2,
-    ),
-    baca.new(
-        baca.text_spanner_staff_padding(5),
-        match=3,
-    ),
-)
+def composites():
+    commands(
+        (["v1", "v2", "va", "vc"], (1, 28)),
+        baca.dynamic('"ff"'),
+        baca.markup(r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"),
+        baca.new(
+            baca.pitch("A5"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitch("G#+4"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitch("A+2"),
+            match=2,
+        ),
+        baca.new(
+            baca.pitch("A1"),
+            match=3,
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (5, 8)),
+        baca.text_spanner(
+            "trans. => 1 click/1-2 sec.",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (9, 12)),
+        baca.text_spanner(
+            "trans. => 1-2 clicks/sec.",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (13, 16)),
+        baca.dynamic(
+            "ff",
+            selector=lambda _: abjad.select.note(_, 2),
+        ),
+        baca.text_spanner(
+            "trans. => scratch moltiss.",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (17, 20)),
+        baca.text_spanner(
+            "trans. => 1/2 scratch",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (21, 24)),
+        baca.text_spanner(
+            "trans. => PO",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (25, 28)),
+        baca.text_spanner(
+            "trans. => vib. moltiss.",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+        baca.hairpin(
+            "ff < fff",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (30, 39)),
+        baca.new(
+            baca.pitch("A5"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitches("A4 G#+4"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitches("A2 A+2"),
+            match=2,
+        ),
+        baca.new(
+            baca.pitch("A1"),
+            match=3,
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (30, 34)),
+        baca.hairpin(
+            "sffp < fff",
+            selector=lambda _: baca.select.leaves(_)[:3],
+        ),
+        baca.hairpin(
+            "fff > p",
+            selector=lambda _: baca.select.leaves(_)[-2:],
+        ),
+        baca.text_spanner(
+            "PO senza vib. => XP",
+            selector=lambda _: baca.select.leaves(_)[:3],
+        ),
+        baca.text_spanner(
+            "XP => PO",
+            selector=lambda _: baca.select.leaves(_)[-2:],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (35, 39)),
+        baca.hairpin(
+            "sffp < fff",
+            selector=lambda _: baca.select.leaves(_)[:2],
+        ),
+        baca.hairpin(
+            "fff > p",
+            selector=lambda _: baca.select.leaves(_)[-2:],
+        ),
+        baca.text_spanner(
+            "PO => XP",
+            selector=lambda _: baca.select.leaves(_)[:2],
+        ),
+        baca.text_spanner(
+            "XP => pos. ord.",
+            selector=lambda _: baca.select.leaves(_)[-2:],
+        ),
+    )
+    commands(
+        ("v1", (41, 52)),
+        baca.pitch(
+            "A5",
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("v1", (53, 68)),
+        baca.new(
+            baca.note_head_style_harmonic(),
+            baca.pitch("B7"),
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("v2", (41, 50)),
+        baca.pitch(
+            "A4",
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("v2", (51, 68)),
+        baca.new(
+            baca.note_head_style_harmonic(),
+            baca.pitch("C#7"),
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("va", (41, 48)),
+        baca.pitch(
+            "A2",
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("va", (49, 68)),
+        baca.new(
+            baca.note_head_style_harmonic(),
+            baca.pitch("G~5"),
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("vc", (41, 45)),
+        baca.new(
+            baca.pitch("A1"),
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("vc", (47, 68)),
+        baca.new(
+            baca.note_head_style_harmonic(),
+            baca.pitch("D5"),
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (41, 45)),
+        baca.hairpin(
+            "sffp > pp",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+        baca.text_spanner(
+            "pos. ord. => XT",
+            selector=lambda _: baca.select.leaves(_)[:-1],
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (1, 46)),
+        baca.text_spanner_staff_padding(4),
+    )
+    commands(
+        ("vc", (47, 54)),
+        baca.markup(r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup"),
+        baca.trill_spanner(),
+        baca.clef("treble"),
+    )
+    commands(
+        ("vc", (47, 50)),
+        baca.hairpin(
+            "sffp < f",
+            selector=lambda _: baca.select.leaves(_)[:4],
+        ),
+    )
+    commands(
+        ("va", (49, 54)),
+        baca.markup(r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup"),
+        baca.trill_spanner(),
+        baca.clef("treble"),
+    )
+    commands(
+        ("va", (49, 52)),
+        baca.hairpin(
+            "sffp < f",
+            selector=lambda _: baca.select.leaves(_)[:4],
+        ),
+    )
+    commands(
+        ("v2", (51, 54)),
+        baca.ottava(),
+    )
+    commands(
+        ("v2", (51, 54)),
+        baca.markup(r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup"),
+        baca.trill_spanner(),
+    )
+    commands(
+        ("v2", (51, 54)),
+        baca.hairpin(
+            "sffp < f",
+            selector=lambda _: baca.select.leaves(_)[:4],
+        ),
+    )
+    commands(
+        ("v1", (53, 54)),
+        baca.ottava(),
+    )
+    commands(
+        ("v1", (53, 54)),
+        baca.markup(r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup"),
+        baca.trill_spanner(),
+        baca.hairpin("sffp < f"),
+    )
+    commands(
+        (["v1", "v2"], (56, 68)),
+        baca.new(
+            baca.ottava_bracket_staff_padding(12),
+            match=0,
+        ),
+        baca.new(
+            baca.ottava_bracket_staff_padding(10),
+            match=1,
+        ),
+        baca.ottava(),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (56, 60)),
+        baca.hairpin(
+            "sf < fff",
+            selector=lambda _: baca.select.leaves(_)[:3],
+        ),
+        baca.hairpin(
+            "fff > f",
+            selector=lambda _: baca.select.leaves(_)[-2:],
+        ),
+        baca.text_spanner(
+            "pos. ord. => XP",
+            selector=lambda _: baca.select.leaves(_)[:3],
+        ),
+        baca.text_spanner(
+            "XP => pos. ord.",
+            selector=lambda _: baca.select.leaves(_)[-2:],
+        ),
+        baca.trill_spanner(),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (61, 68)),
+        baca.hairpin(
+            "sffp < fff",
+            selector=lambda _: baca.select.leaves(_)[:4],
+        ),
+        baca.text_spanner(
+            "pos. ord. => XP",
+            selector=lambda _: baca.select.leaves(_)[:4],
+        ),
+        baca.trill_spanner(),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (56, -1)),
+        baca.new(
+            baca.text_spanner_staff_padding(9.5),
+            match=0,
+        ),
+        baca.new(
+            baca.text_spanner_staff_padding(7.5),
+            match=1,
+        ),
+        baca.new(
+            baca.text_spanner_staff_padding(7),
+            match=2,
+        ),
+        baca.new(
+            baca.text_spanner_staff_padding(5),
+            match=3,
+        ),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    composites()
 
 
 if __name__ == "__main__":

@@ -101,8 +101,7 @@ for index, string in (
     baca.global_fermata(rests[index], string)
 
 
-def V1():
-    voice = commands.voice("v1")
+def V1(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(3), head=voice.name)
@@ -142,8 +141,7 @@ def V1():
     voice.extend(music)
 
 
-def V2():
-    voice = commands.voice("v2")
+def V2(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(3), head=voice.name)
@@ -182,8 +180,7 @@ def V2():
     voice.extend(music)
 
 
-def VA():
-    voice = commands.voice("va")
+def VA(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(3), head=voice.name)
@@ -216,8 +213,7 @@ def VA():
     voice.extend(music)
 
 
-def VC():
-    voice = commands.voice("vc")
+def VC(voice):
     music = baca.make_repeat_tied_notes(commands.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(3), head=voice.name)
@@ -261,298 +257,271 @@ def VC():
     voice.extend(music)
 
 
-# reapply
+def v1(measures):
+    commands(
+        ("v1", (8, 20)),
+        library.material_annotation_spanner("E"),
+        baca.alternate_bow_strokes(),
+    )
+    commands(
+        ("v1", (11, 12)),
+        baca.text_spanner("trans. => 3/4OB"),
+    )
+    commands(
+        ("v1", (15, 16)),
+        baca.text_spanner("trans. => 1/2OB"),
+    )
+    commands(
+        ("v1", (8, 22)),
+        baca.dynamic("ppp"),
+        baca.markup(r"\baca-ob-markup"),
+        baca.pitch(
+            "B4",
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("v1", (23, 24)),
+        library.material_annotation_spanner("A"),
+        library.getato_pitches(31, [2]),
+        baca.dynamic("ppp"),
+        baca.markup(r"\akasha-leggieriss-plus-po-markup"),
+        baca.staccato(selector=lambda _: baca.select.pheads(_)),
+    )
+    commands(
+        ("v1", (25, 26)),
+        baca.pitch(
+            "B4",
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
 
-music_voices = [_ for _ in voice_names if "Music" in _]
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
+def v2(measures):
+    commands(
+        ("v2", (13, 20)),
+        library.material_annotation_spanner("E"),
+        baca.alternate_bow_strokes(downbow_first=False),
+    )
+    commands(
+        ("v2", (15, 16)),
+        baca.text_spanner("trans. => 3/4OB"),
+    )
+    commands(
+        ("v2", (13, 27)),
+        baca.dynamic("ppp"),
+        baca.markup(r"\baca-ob-markup"),
+        baca.pitch(
+            "B3",
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
 
-# v1
 
-commands(
-    ("v1", (8, 20)),
-    library.material_annotation_spanner("E"),
-    baca.alternate_bow_strokes(),
-)
+def va(measures):
+    commands(
+        ("va", (4, 20)),
+        library.material_annotation_spanner("E"),
+    )
+    commands(
+        ("va", (4, 20)),
+        baca.alternate_bow_strokes(),
+    )
+    commands(
+        ("va", (6, 7)),
+        baca.text_spanner("trans. => 3/4OB"),
+    )
+    commands(
+        ("va", (11, 12)),
+        baca.text_spanner("trans. => 1/2OB"),
+    )
+    commands(
+        ("va", (15, 16)),
+        baca.text_spanner("trans. => 1/4OB"),
+    )
+    commands(
+        ("va", (4, 27)),
+        baca.dynamic("ppp"),
+        baca.markup(r"\baca-ob-markup"),
+        baca.pitch(
+            "B2",
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
 
-commands(
-    ("v1", (11, 12)),
-    baca.text_spanner("trans. => 3/4OB"),
-)
 
-commands(
-    ("v1", (15, 16)),
-    baca.text_spanner("trans. => 1/2OB"),
-)
-
-commands(
-    ("v1", (8, 22)),
-    baca.dynamic("ppp"),
-    baca.markup(r"\baca-ob-markup"),
-    baca.pitch(
-        "B4",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-commands(
-    ("v1", (23, 24)),
-    library.material_annotation_spanner("A"),
-    library.getato_pitches(31, [2]),
-    baca.dynamic("ppp"),
-    baca.markup(r"\akasha-leggieriss-plus-po-markup"),
-    baca.staccato(selector=lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    ("v1", (25, 26)),
-    baca.pitch(
-        "B4",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# v2
-
-commands(
-    ("v2", (13, 20)),
-    library.material_annotation_spanner("E"),
-    baca.alternate_bow_strokes(downbow_first=False),
-)
-
-commands(
-    ("v2", (15, 16)),
-    baca.text_spanner("trans. => 3/4OB"),
-)
-
-commands(
-    ("v2", (13, 27)),
-    baca.dynamic("ppp"),
-    baca.markup(r"\baca-ob-markup"),
-    baca.pitch(
-        "B3",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# va
-
-commands(
-    ("va", (4, 20)),
-    library.material_annotation_spanner("E"),
-)
-
-commands(
-    ("va", (4, 20)),
-    baca.alternate_bow_strokes(),
-)
-
-commands(
-    ("va", (6, 7)),
-    baca.text_spanner("trans. => 3/4OB"),
-)
-
-commands(
-    ("va", (11, 12)),
-    baca.text_spanner("trans. => 1/2OB"),
-)
-
-commands(
-    ("va", (15, 16)),
-    baca.text_spanner("trans. => 1/4OB"),
-)
-
-commands(
-    ("va", (4, 27)),
-    baca.dynamic("ppp"),
-    baca.markup(r"\baca-ob-markup"),
-    baca.pitch(
-        "B2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# vc
-
-commands(
-    ("vc", (13, 14)),
-    library.material_annotation_spanner("D"),
-    baca.pitch("B1"),
-    baca.hairpin("sfp < f"),
-    baca.text_spanner("senza vib. => vib. moltiss."),
-)
-
-commands(
-    ("vc", (17, 20)),
-    library.material_annotation_spanner("E"),
-    baca.alternate_bow_strokes(),
-    baca.dynamic("ppp"),
-    baca.text_spanner("OB => XP"),
-)
-
-commands(
-    ("vc", (17, 27)),
-    baca.pitch(
-        "B1",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# composites
-
-commands(
-    (["v1", "v2", "va", "vc"], (1, 2)),
-    library.material_annotation_spanner("D"),
-    baca.hairpin("sfp < f"),
-    baca.text_spanner("PO + senza vib. => vib. moltiss."),
-    baca.new(
-        baca.pitch("B5"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitch("A#+3"),
-        match=1,
-    ),
-    baca.new(
-        baca.pitch("B+2"),
-        match=2,
-    ),
-    baca.new(
+def vc(measures):
+    commands(
+        ("vc", (13, 14)),
+        library.material_annotation_spanner("D"),
         baca.pitch("B1"),
-        match=3,
-    ),
-)
+        baca.hairpin("sfp < f"),
+        baca.text_spanner("senza vib. => vib. moltiss."),
+    )
+    commands(
+        ("vc", (17, 20)),
+        library.material_annotation_spanner("E"),
+        baca.alternate_bow_strokes(),
+        baca.dynamic("ppp"),
+        baca.text_spanner("OB => XP"),
+    )
+    commands(
+        ("vc", (17, 27)),
+        baca.pitch(
+            "B1",
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
 
-commands(
-    (["v1", "v2", "vc"], (4, 5)),
-    baca.hairpin("sfp < f"),
-    baca.text_spanner("senza vib. => vib. moltiss."),
-    library.material_annotation_spanner("D"),
-    baca.new(
-        baca.pitch("B5"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitch("B3"),
-        match=1,
-    ),
-    baca.new(
-        baca.pitch("B1"),
-        match=2,
-    ),
-)
 
-commands(
-    (["v2", "vc"], (8, 10)),
-    baca.hairpin("sfp < f"),
-    baca.text_spanner("senza vib. => vib. moltiss."),
-    library.material_annotation_spanner("D"),
-    baca.new(
-        baca.pitch("A#+3"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitch("B1"),
-        match=1,
-    ),
-)
-
-commands(
-    [
-        ("v1", (17, 20)),
-        ("v2", (17, 20)),
-        ("va", (17, 20)),
-    ],
-    baca.text_spanner("trans. => XP"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (21, 22)),
-    library.material_annotation_spanner("B"),
-    baca.hairpin("ppp < mp"),
-    baca.markup(r"\akasha-xp-plus-fb-markup"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (25, 26)),
-    library.material_annotation_spanner("B"),
-    baca.hairpin("ppp < mp"),
-    baca.text_spanner("XP+FB => tasto+FB"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (28, 29)),
-    library.material_annotation_spanner("C"),
-    baca.dynamic("p"),
-    baca.new(
-        baca.pitches("D#4 E#4"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitches("D4 E4"),
-        match=1,
-    ),
-    baca.new(
-        baca.pitches("C#4 D#4"),
-        match=2,
-    ),
-    baca.new(
-        baca.pitches("C4 D4"),
-        match=3,
-    ),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
-    library.material_annotation_spanner("B"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (31, 32)),
-    baca.hairpin("ppp < mp"),
-    baca.text_spanner("trans. => tasto + 1/2 scratch"),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (33, 34)),
-    baca.hairpin("mp < mf"),
-    baca.text_spanner("trans. => scratch moltiss."),
-)
-
-commands(
-    (["v1", "v2", "va", "vc"], (31, 36)),
-    baca.new(
-        baca.pitch("B4"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitch("B3"),
-        match=1,
-    ),
-    baca.new(
-        baca.pitch("B2"),
-        match=2,
-    ),
-    baca.new(
-        baca.pitch("B1"),
-        match=3,
-    ),
-)
-
-commands(
-    ["v1", "v2", "va", "vc"],
-    baca.text_spanner_staff_padding(4),
-)
+def composites():
+    commands(
+        (["v1", "v2", "va", "vc"], (1, 2)),
+        library.material_annotation_spanner("D"),
+        baca.hairpin("sfp < f"),
+        baca.text_spanner("PO + senza vib. => vib. moltiss."),
+        baca.new(
+            baca.pitch("B5"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitch("A#+3"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitch("B+2"),
+            match=2,
+        ),
+        baca.new(
+            baca.pitch("B1"),
+            match=3,
+        ),
+    )
+    commands(
+        (["v1", "v2", "vc"], (4, 5)),
+        baca.hairpin("sfp < f"),
+        baca.text_spanner("senza vib. => vib. moltiss."),
+        library.material_annotation_spanner("D"),
+        baca.new(
+            baca.pitch("B5"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitch("B3"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitch("B1"),
+            match=2,
+        ),
+    )
+    commands(
+        (["v2", "vc"], (8, 10)),
+        baca.hairpin("sfp < f"),
+        baca.text_spanner("senza vib. => vib. moltiss."),
+        library.material_annotation_spanner("D"),
+        baca.new(
+            baca.pitch("A#+3"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitch("B1"),
+            match=1,
+        ),
+    )
+    commands(
+        [
+            ("v1", (17, 20)),
+            ("v2", (17, 20)),
+            ("va", (17, 20)),
+        ],
+        baca.text_spanner("trans. => XP"),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (21, 22)),
+        library.material_annotation_spanner("B"),
+        baca.hairpin("ppp < mp"),
+        baca.markup(r"\akasha-xp-plus-fb-markup"),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (25, 26)),
+        library.material_annotation_spanner("B"),
+        baca.hairpin("ppp < mp"),
+        baca.text_spanner("XP+FB => tasto+FB"),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (28, 29)),
+        library.material_annotation_spanner("C"),
+        baca.dynamic("p"),
+        baca.new(
+            baca.pitches("D#4 E#4"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitches("D4 E4"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitches("C#4 D#4"),
+            match=2,
+        ),
+        baca.new(
+            baca.pitches("C4 D4"),
+            match=3,
+        ),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
+        library.material_annotation_spanner("B"),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (31, 32)),
+        baca.hairpin("ppp < mp"),
+        baca.text_spanner("trans. => tasto + 1/2 scratch"),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (33, 34)),
+        baca.hairpin("mp < mf"),
+        baca.text_spanner("trans. => scratch moltiss."),
+    )
+    commands(
+        (["v1", "v2", "va", "vc"], (31, 36)),
+        baca.new(
+            baca.pitch("B4"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitch("B3"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitch("B2"),
+            match=2,
+        ),
+        baca.new(
+            baca.pitch("B1"),
+            match=3,
+        ),
+    )
+    commands(
+        ["v1", "v2", "va", "vc"],
+        baca.text_spanner_staff_padding(4),
+    )
 
 
 def main():
-    V1()
-    V2()
-    VA()
-    VC()
+    V1(commands.voice("v1"))
+    V2(commands.voice("v2"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret._cache_leaves(score, len(commands.time_signatures))
+    v1(cache["Violin.1.Music"])
+    v2(cache["Violin.2.Music"])
+    va(cache["Viola.Music"])
+    vc(cache["Cello.Music"])
+    composites()
 
 
 if __name__ == "__main__":
