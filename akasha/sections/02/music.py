@@ -446,10 +446,8 @@ def v2(measures):
 
 
 def va(measures):
-    commands(
-        ("va", (1, 3)),
-        baca.staff_lines(5),
-    )
+    leaves = baca.getter(measures, (1, 3))
+    baca.staff_lines_function(leaves[0], 5, commands.manifests())
     library.material_annotation_spanner_function(baca.select.rleaves(measures[4]), "A")
     leaves = baca.getter(measures, (6, 7))
     library.material_annotation_spanner_function(
