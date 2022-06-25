@@ -56,7 +56,7 @@ baca.rehearsal_mark_function(
 for index, item in ((1 - 1, "89"),):
     skip = skips[index]
     indicator = commands.metronome_marks.get(item, item)
-    baca.commands._metronome_mark(skip, indicator, manifests)
+    baca.metronome_mark(skip, indicator, manifests)
 
 baca.bar_line(skips[25 - 1], "|.")
 
