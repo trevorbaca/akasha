@@ -44,11 +44,10 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = commands.manifests()
 
-baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["44"], manifests)
+baca.metronome_mark(skips[1 - 1], commands.metronome_marks["44"], commands.manifests())
 
-baca.commands.global_fermata(score["Rests"][3 - 1], "very_long")
+baca.global_fermata(score["Rests"][3 - 1], "very_long")
 
 
 def V1(voice):
@@ -144,6 +143,7 @@ if __name__ == "__main__":
             baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
