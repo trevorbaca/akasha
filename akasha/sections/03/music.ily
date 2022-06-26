@@ -3014,9 +3014,6 @@ number.3.Cello.Music = {
               %! baca.make_mmrests(2)
             d1 * 1/4
             % AFTER:
-            % ARTICULATIONS:
-              %! baca.staccato()
-            - \staccato
             % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
@@ -3274,9 +3271,6 @@ number.3.Cello.Music = {
               %! baca.make_mmrests(2)
             d1 * 1/4
             % AFTER:
-            % ARTICULATIONS:
-              %! baca.staccato()
-            - \staccato
             % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN

@@ -230,7 +230,7 @@ def vc(measures):
     library.getato_pitches(-2, [-3], direction=abjad.DOWN, function=leaves)
     baca.beam_positions_function(leaves, -4)
     baca.staccato_function(
-        baca.select.pheads(leaves),
+        baca.select.pheads(leaves, exclude=baca.enums.HIDDEN),
     )
     baca.tuplet_bracket_staff_padding_function(
         leaves,
