@@ -74,45 +74,121 @@ def VC(voice):
 
 def v1(measures):
     leaf = measures[1][0]
-    baca.instrument_function(leaf, commands.instruments["Violin.1"])
-    baca.instrument_name_function(leaf, r"\akasha-violin-i-markup")
-    baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vn. I"])
-    baca.clef_function(leaf, "treble")
-    baca.staff_lines_function(leaf, 5, commands.manifests())
+    baca.instrument_function(
+        leaf,
+        commands.instruments["Violin.1"],
+    )
+    baca.instrument_name_function(
+        leaf,
+        r"\akasha-violin-i-markup",
+    )
+    baca.short_instrument_name_function(
+        leaf,
+        commands.short_instrument_names["Vn. I"],
+    )
+    baca.clef_function(
+        leaf,
+        "treble",
+    )
+    baca.staff_lines_function(
+        leaf,
+        5,
+        commands.manifests(),
+    )
 
 
 def v2(measures):
     leaf = measures[1][0]
-    baca.instrument_function(leaf, commands.instruments["Violin.2"])
-    baca.instrument_name_function(leaf, r"\akasha-violin-ii-markup")
-    baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vn. II"])
-    baca.clef_function(leaf, "treble")
-    baca.staff_lines_function(leaf, 5, commands.manifests())
+    baca.instrument_function(
+        leaf,
+        commands.instruments["Violin.2"],
+    )
+    baca.instrument_name_function(
+        leaf,
+        r"\akasha-violin-ii-markup",
+    )
+    baca.short_instrument_name_function(
+        leaf,
+        commands.short_instrument_names["Vn. II"],
+    )
+    baca.clef_function(
+        leaf,
+        "treble",
+    )
+    baca.staff_lines_function(
+        leaf,
+        5,
+        commands.manifests(),
+    )
 
 
 def va(measures):
     leaf = measures[1][0]
-    baca.instrument_function(leaf, commands.instruments["Viola"])
-    baca.instrument_name_function(leaf, r"\akasha-viola-markup")
-    baca.short_instrument_name_function(leaf, commands.short_instrument_names["Va."])
-    baca.clef_function(leaf, "alto")
-    baca.staff_lines_function(leaf, 1, commands.manifests())
+    baca.instrument_function(
+        leaf,
+        commands.instruments["Viola"],
+    )
+    baca.instrument_name_function(
+        leaf,
+        r"\akasha-viola-markup",
+    )
+    baca.short_instrument_name_function(
+        leaf,
+        commands.short_instrument_names["Va."],
+    )
+    baca.clef_function(
+        leaf,
+        "alto",
+    )
+    baca.staff_lines_function(
+        leaf,
+        1,
+        commands.manifests(),
+    )
     leaves = baca.getter(measures, (1, 3))
     pleaves = baca.select.pleaves(leaves)
-    baca.staff_position_function(pleaves, 0)
+    baca.staff_position_function(
+        pleaves,
+        0,
+    )
     baca.down_bow_function(pleaves[0])
-    baca.markup_function(pleaves[0], r"\akasha-ob-plus-terminate-abruptly-markup")
-    baca.dynamic_function(pleaves[0], '"mf"')
-    library.material_annotation_spanner_function(pleaves, "E")
+    baca.markup_function(
+        pleaves[0],
+        r"\akasha-ob-plus-terminate-abruptly-markup",
+    )
+    baca.dynamic_function(
+        pleaves[0],
+        '"mf"',
+    )
+    library.material_annotation_spanner_function(
+        pleaves,
+        "E",
+    )
 
 
 def vc(measures):
     leaf = measures[1][0]
-    baca.instrument_function(leaf, commands.instruments["Cello"])
-    baca.instrument_name_function(leaf, r"\akasha-cello-markup")
-    baca.short_instrument_name_function(leaf, commands.short_instrument_names["Vc."])
-    baca.clef_function(leaf, "bass")
-    baca.staff_lines_function(leaf, 5, commands.manifests())
+    baca.instrument_function(
+        leaf,
+        commands.instruments["Cello"],
+    )
+    baca.instrument_name_function(
+        leaf,
+        r"\akasha-cello-markup",
+    )
+    baca.short_instrument_name_function(
+        leaf,
+        commands.short_instrument_names["Vc."],
+    )
+    baca.clef_function(
+        leaf,
+        "bass",
+    )
+    baca.staff_lines_function(
+        leaf,
+        5,
+        commands.manifests(),
+    )
 
 
 def main():
