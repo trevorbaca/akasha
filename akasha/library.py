@@ -44,18 +44,25 @@ def cello_solo_pitches(*, function=None, transposition=None):
         return baca.pitches(pitches)
 
 
-def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP):
+def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP, function=None):
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     pitch_numbers = _getato_intervals()
     if direction == abjad.DOWN:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
-    return baca.loop(
-        pitch_numbers,
-        intervals,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    )
+    if function:
+        loop = baca.Loop(items=pitch_numbers, intervals=intervals)
+        baca.pitches_function(
+            baca.select.plts(function, exclude=baca.enums.HIDDEN),
+            loop,
+        )
+    else:
+        return baca.loop(
+            pitch_numbers,
+            intervals,
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        )
 
 
 def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None):

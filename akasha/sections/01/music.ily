@@ -664,10 +664,12 @@ number.1.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-mf

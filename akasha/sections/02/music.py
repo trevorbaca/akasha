@@ -539,21 +539,41 @@ def vc(measures):
     )
 
 
-def composites():
-    commands(
-        baca.timeline([("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)]),
-        library.getato_pitches(-2, [0]),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
+def composites(cache):
+    measures = (
+        cache["Violin.2.Music"][4],
+        cache["Viola.Music"][4],
+        cache["Violin.1.Music"][9],
+        cache["Cello.Music"][19],
     )
-    commands(
-        [("v2", 4), ("va", 4), ("v1", 9), ("vc", 19)],
-        baca.dynamic("p"),
+    baca.staccato_function(
+        baca.select.pheads(measures),
     )
-    commands(
-        (["v1", "v2", "va"], (6, 7)),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    library.getato_pitches(
+        -2,
+        [0],
+        function=measures,
     )
+    for measure in measures:
+        baca.dynamic_function(
+            baca.select.pleaf(measure, 0),
+            "p",
+        )
+    for voice_name in (
+        "Violin.1.Music",
+        "Violin.2.Music",
+        "Viola.Music",
+    ):
+        measure = cache[voice_name][6]
+        pleaf = baca.select.pleaf(measure, 0)
+        baca.dynamic_function(
+            pleaf,
+            "mp",
+        )
+        baca.markup_function(
+            pleaf,
+            r"\baca-tasto-plus-half-scratch-markup",
+        )
 
 
 def main():
@@ -568,7 +588,7 @@ def main():
     v2(cache["Violin.2.Music"])
     va(cache["Viola.Music"])
     vc(cache["Cello.Music"])
-    composites()
+    composites(cache)
 
 
 if __name__ == "__main__":
@@ -583,6 +603,7 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,

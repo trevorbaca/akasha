@@ -1685,7 +1685,6 @@ number.2.Violin.1.Music = {
     % MARKUP:
       %! baca.markup()
     ^ \akasha-material-b
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-plus-half-scratch-markup
     % SPANNER_STARTS:
@@ -1878,7 +1877,6 @@ number.2.Violin.1.Music = {
         b32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1903,7 +1901,6 @@ number.2.Violin.1.Music = {
         cs'!32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -1913,7 +1910,6 @@ number.2.Violin.1.Music = {
         c'32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
@@ -1950,7 +1946,6 @@ number.2.Violin.1.Music = {
         b32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % START_BEAM:
@@ -1963,7 +1958,6 @@ number.2.Violin.1.Music = {
         bf!32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
@@ -2179,10 +2173,12 @@ number.2.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
+          %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
+          %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \pp
@@ -3149,7 +3145,6 @@ number.2.Violin.2.Music = {
         bf!32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3183,7 +3178,6 @@ number.2.Violin.2.Music = {
         b32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -3193,7 +3187,6 @@ number.2.Violin.2.Music = {
         bf!32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
@@ -3230,7 +3223,6 @@ number.2.Violin.2.Music = {
         a32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % START_BEAM:
@@ -3243,7 +3235,6 @@ number.2.Violin.2.Music = {
         af!32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
@@ -3414,7 +3405,6 @@ number.2.Violin.2.Music = {
       %! baca.dynamic()
     \mp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-plus-half-scratch-markup
     % SPANNER_STARTS:
@@ -3763,10 +3753,12 @@ number.2.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
+          %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
+          %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \pp
@@ -4909,7 +4901,6 @@ number.2.Viola.Music = {
         bf!32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
@@ -4934,7 +4925,6 @@ number.2.Viola.Music = {
         a32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -4944,7 +4934,6 @@ number.2.Viola.Music = {
         bf!32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
@@ -5105,7 +5094,6 @@ number.2.Viola.Music = {
       %! baca.dynamic()
     \mp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-plus-half-scratch-markup
     % SPANNER_STARTS:
@@ -5888,10 +5876,12 @@ number.2.Cello.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \mp
@@ -6782,7 +6772,6 @@ number.2.Cello.Music = {
         c'32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
@@ -6807,7 +6796,6 @@ number.2.Cello.Music = {
         cs'!32
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:

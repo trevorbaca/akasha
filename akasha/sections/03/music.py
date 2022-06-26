@@ -24,7 +24,6 @@ stage_tokens = (
 )
 stage_markup = library.stage_markup("03", stage_tokens)
 
-
 fermata_measures = [5, 7, 9]
 
 score = library.make_empty_score()
@@ -146,72 +145,112 @@ def VC(voice):
 
 
 def v1(measures):
-    commands(
-        ("v1", (1, 3)),
-        library.material_annotation_spanner("C"),
-        baca.pitches("E5 D5"),
+    leaves = baca.getter(measures, (1, 3))
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(leaves),
+        "C",
+    )
+    baca.pitches_function(
+        leaves,
+        "E5 D5",
     )
 
 
 def v2(measures):
-    commands(
-        ("v2", (1, 3)),
-        library.material_annotation_spanner("B"),
-        baca.pitches("D#4 E4 F4 F~4 E4", exact=True),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
+    leaves = baca.getter(measures, (1, 3))
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(leaves),
+        "B",
     )
-    commands(
-        ("v2", (10, 11)),
-        library.material_annotation_spanner("C"),
-        baca.pitches("C5 Bb4"),
-        baca.dynamic("pp"),
-        baca.markup(r"\baca-tasto-plus-xfb-markup"),
+    baca.pitches_function(
+        leaves,
+        "D#4 E4 F4 F~4 E4",
+        exact=True,
+    )
+    baca.dynamic_function(
+        leaves[0],
+        "mp",
+    )
+    baca.markup_function(
+        leaves[0],
+        r"\baca-tasto-plus-half-scratch-markup",
+    ),
+    leaves = baca.getter(measures, (10, 11))
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(leaves),
+        "C",
+    )
+    baca.pitches_function(
+        leaves,
+        "C5 Bb4",
+    )
+    baca.dynamic_function(
+        leaves[0],
+        "pp",
+    )
+    baca.markup_function(
+        leaves[0],
+        r"\baca-tasto-plus-xfb-markup",
     )
 
 
 def va(measures):
-    commands(
-        ("va", (1, 3)),
-        library.material_annotation_spanner("B"),
-        baca.pitches("Db4 Db~4 C4", exact=True),
+    leaves = baca.getter(measures, (1, 3))
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(leaves),
+        "B",
     )
-    commands(
-        ("va", 11),
-        library.material_annotation_spanner("D"),
-        baca.pitch("D#3"),
-        baca.markup(r"\baca-tasto-markup"),
+    baca.pitches_function(
+        leaves,
+        "Db4 Db~4 C4",
+        exact=True,
+    )
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(measures[11]),
+        "D",
+    )
+    baca.pitches_function(
+        measures[11],
+        "D#3",
+    )
+    baca.markup_function(
+        measures[11][0],
+        r"\baca-tasto-markup",
     )
 
 
 def vc(measures):
-    commands(
-        ("vc", (1, 4)),
-        library.material_annotation_spanner("A"),
+    for item in [(1, 4), 6, 8]:
+        leaves = baca.getter(measures, item)
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(leaves),
+            "A",
+        )
+    leaves = baca.getter(measures, (1, 8))
+    library.getato_pitches(-2, [-3], direction=abjad.DOWN, function=leaves)
+    baca.beam_positions_function(leaves, -4)
+    baca.staccato_function(
+        baca.select.pheads(leaves),
     )
-    commands(
-        ("vc", 6),
-        library.material_annotation_spanner("A"),
+    baca.tuplet_bracket_staff_padding_function(
+        leaves,
+        2,
     )
-    commands(
-        ("vc", 8),
-        library.material_annotation_spanner("A"),
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(measures[11]),
+        "D",
     )
-    commands(
-        ("vc", (1, 8)),
-        library.getato_pitches(-2, [-3], direction=abjad.DOWN),
-        baca.beam_positions(-4),
-        baca.staccato(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.tuplet_bracket_staff_padding(2),
+    baca.pitches_function(
+        measures[11],
+        "C#2",
     )
-    commands(
-        ("vc", 11),
-        library.material_annotation_spanner("D"),
-        baca.pitch("C#2"),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-markup"),
+    baca.dynamic_function(
+        measures[11][0],
+        "mp",
+    )
+    baca.markup_function(
+        measures[11][0],
+        r"\baca-tasto-markup",
     )
 
 
@@ -245,6 +284,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         color_octaves=False,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
