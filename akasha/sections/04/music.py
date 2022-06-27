@@ -231,58 +231,94 @@ def VC(voice):
 
 
 def v1(measures):
-    commands(
-        ("v1", (9, 13)),
-        library.material_annotation_spanner("E"),
+    leaves = baca.getter(measures, (9, 13))
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(leaves),
+        "E",
     )
 
 
 def v2(measures):
-    commands(
-        ("v2", (9, 13)),
-        library.material_annotation_spanner("E"),
+    leaves = baca.getter(measures, (9, 13))
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(leaves),
+        "E",
     )
-    commands(
-        ("v2", (25, 26)),
-        baca.dynamic("pp"),
-        baca.markup(r"\baca-tasto-markup"),
-        baca.pitch("G5"),
-        baca.staff_lines(5),
-        baca.trill_spanner(alteration="A5"),
+    baca.staff_lines_function(
+        measures[25],
+        5,
+        {},
     )
-    commands(
-        ("v2", 26),
-        library.material_annotation_spanner("C"),
+    baca.pitch_function(
+        measures[26],
+        "G5",
+    )
+    leaf = measures[26][0]
+    baca.dynamic_function(
+        leaf,
+        "pp",
+    )
+    baca.markup_function(
+        leaf,
+        r"\baca-tasto-markup",
+    )
+    baca.trill_spanner_function(
+        baca.select.rleak(measures[26]),
+        alteration="A5",
+    )
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(measures[26]),
+        "C",
     )
 
 
 def va(measures):
-    commands(
-        ("va", 16),
-        baca.dynamic("ff"),
-        baca.markup(r"\baca-tasto-plus-scratch-moltiss-markup"),
-        baca.pitch("C4"),
+    baca.pitch_function(
+        measures[16],
+        "C4",
     )
-    commands(
-        ("va", 16),
-        library.material_annotation_spanner("A"),
+    baca.dynamic_function(
+        measures[16][0],
+        "ff",
     )
-    commands(
-        ("va", 23),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-        baca.pitches("D#4 D#+4 E4", exact=True),
+    baca.markup_function(
+        measures[16][0],
+        r"\baca-tasto-plus-scratch-moltiss-markup",
     )
-    commands(
-        ("va", 23),
-        library.material_annotation_spanner("B"),
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(measures[16]),
+        "A",
+    )
+    baca.pitches_function(
+        measures[23],
+        "D#4 D#+4 E4",
+        exact=True,
+    )
+    baca.dynamic_function(
+        measures[23][0],
+        "mp",
+    )
+    baca.markup_function(
+        measures[23][0],
+        r"\baca-tasto-plus-half-scratch-markup",
+    )
+    library.material_annotation_spanner_function(
+        baca.select.rleaves(measures[23]),
+        "B",
     )
     commands(
         ("va", (25, 26)),
-        baca.pitches("E3 D#3 C+3", exact=True),
         baca.glissando(),
         baca.hairpin("mp > pp"),
-        baca.markup(r"\baca-tasto-markup"),
+    )
+    baca.pitches_function(
+        baca.getter(measures, (25, 26)),
+        "E3 D#3 C+3",
+        exact=True,
+    )
+    baca.markup_function(
+        measures[25][0],
+        r"\baca-tasto-markup",
     )
     commands(
         ("va", (9, 12)),
