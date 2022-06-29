@@ -3,6 +3,18 @@ import baca
 
 from akasha import library
 
+
+class get:
+    def __init__(self, leaves):
+        self.leaves = leaves
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        del self.leaves
+
+
 #########################################################################################
 ########################################### 04 ##########################################
 #########################################################################################
@@ -231,45 +243,41 @@ def VC(voice):
 
 
 def v1(measures):
-    leaves = baca.getter(measures, (9, 13))
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "E",
-    )
+    with get(baca.getter(measures, (9, 13))) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "E",
+        )
 
 
 def v2(measures):
-    leaves = baca.getter(measures, (9, 13))
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "E",
-    )
-    baca.staff_lines_function(
-        measures[25],
-        5,
-        {},
-    )
-    baca.pitch_function(
-        measures[26],
-        "G5",
-    )
-    leaf = measures[26][0]
-    baca.dynamic_function(
-        leaf,
-        "pp",
-    )
-    baca.markup_function(
-        leaf,
-        r"\baca-tasto-markup",
-    )
-    baca.trill_spanner_function(
-        baca.select.rleak(measures[26]),
-        alteration="A5",
-    )
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(measures[26]),
-        "C",
-    )
+    with get(baca.getter(measures, (9, 13))) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "E",
+        )
+    with get(baca.getter(measures, (25, 26))) as foo:
+        baca.staff_lines_function(foo.leaves[0], 5)
+        baca.pitch_function(
+            foo.leaves,
+            "G5",
+        )
+        baca.dynamic_function(
+            baca.select.pleaf(foo.leaves, 0),
+            "pp",
+        )
+        baca.markup_function(
+            baca.select.pleaf(foo.leaves, 0),
+            r"\baca-tasto-markup",
+        )
+        baca.trill_spanner_function(
+            baca.select.rleak(baca.select.pleaves(foo.leaves)),
+            alteration="A5",
+        )
+        library.material_annotation_spanner_function(
+            baca.select.rleak(baca.select.pleaves(foo.leaves)),
+            "C",
+        )
 
 
 def va(measures):
@@ -286,88 +294,85 @@ def va(measures):
             baca.select.rleaves(measures[n]),
             "D",
         )
-    if True:
-        leaves = baca.getter(measures, (9, 12))
+    with get(baca.getter(measures, (9, 12))) as foo:
         baca.pitches_function(
-            leaves,
+            foo.leaves,
             "Eb3 D3 C#3 B#2",
             exact=True,
         )
         baca.glissando_function(
-            leaves,
+            foo.leaves,
         )
         baca.hairpin_function(
-            leaves,
+            foo.leaves,
             "mp > pp",
         )
         library.material_annotation_spanner_function(
-            baca.select.rleaves(leaves),
+            baca.select.rleaves(foo.leaves),
             "D",
         )
-    if True:
+    with get(measures[16]) as foo:
         baca.pitch_function(
-            measures[16],
+            foo.leaves,
             "C4",
         )
         baca.dynamic_function(
-            measures[16][0],
+            foo.leaves[0],
             "ff",
         )
         baca.markup_function(
-            measures[16][0],
+            foo.leaves[0],
             r"\baca-tasto-plus-scratch-moltiss-markup",
         )
         library.material_annotation_spanner_function(
-            baca.select.rleaves(measures[16]),
+            baca.select.rleaves(foo.leaves),
             "A",
         )
-    if True:
+    with get(measures[23]) as foo:
         baca.pitches_function(
-            measures[23],
+            foo.leaves,
             "D#4 D#+4 E4",
             exact=True,
         )
         baca.dynamic_function(
-            measures[23][0],
+            foo.leaves[0],
             "mp",
         )
         baca.markup_function(
-            measures[23][0],
+            foo.leaves[0],
             r"\baca-tasto-plus-half-scratch-markup",
         )
         library.material_annotation_spanner_function(
-            baca.select.rleaves(measures[23]),
+            baca.select.rleaves(foo.leaves),
             "B",
         )
-    if True:
+    with get(baca.getter(measures, (25, 26))) as foo:
         baca.pitches_function(
-            baca.getter(measures, (25, 26)),
+            foo.leaves,
             "E3 D#3 C+3",
             exact=True,
         )
-        leaves = baca.getter(measures, (25, 26))
         baca.hairpin_function(
-            leaves,
+            foo.leaves,
             "mp > pp",
         )
         baca.glissando_function(
-            leaves,
+            foo.leaves,
         )
         baca.markup_function(
-            measures[25][0],
+            foo.leaves[0],
             r"\baca-tasto-markup",
         )
         library.material_annotation_spanner_function(
-            baca.select.rleaves(leaves),
+            baca.select.rleaves(foo.leaves),
             "D",
         )
 
 
 def vc(measures):
-    if True:
-        leaves = baca.getter(measures, (1, 12))
+    with get(baca.getter(measures, (1, 12))) as foo:
         baca.pitches_function(
-            baca.select.plts(leaves, exclude=baca.enums.HIDDEN),
+            baca.select.plts(foo.leaves, exclude=baca.enums.HIDDEN),
             "C#2",
         )
     for n in [1, 3, 5, 7]:
@@ -375,72 +380,68 @@ def vc(measures):
             baca.select.rleaves(measures[n]),
             "D",
         )
-    if True:
-        leaves = baca.getter(measures, (9, 12))
+    with get(baca.getter(measures, (9, 12))) as foo:
         baca.hairpin_function(
-            leaves,
+            foo.leaves,
             "mp > pp",
         )
         library.material_annotation_spanner_function(
-            baca.select.rleaves(leaves),
+            baca.select.rleaves(foo.leaves),
             "D",
         )
-    if True:
-        leaves = measures[15]
+    with get(measures[15]) as foo:
         library.getato_pitches(
             "C#3",
             direction=abjad.DOWN,
-            function=leaves,
+            function=foo.leaves,
         )
         baca.staccato_function(
-            baca.select.pheads(leaves),
+            baca.select.pheads(foo.leaves),
         )
         baca.dynamic_function(
-            leaves[0],
+            foo.leaves[0],
             "p",
         )
         baca.markup_function(
-            leaves[0],
+            foo.leaves[0],
             r"\baca-leggieriss-markup",
         )
         library.material_annotation_spanner_function(
-            baca.select.rleaves(leaves),
+            baca.select.rleaves(foo.leaves),
             "A",
         )
-    if True:
-        leaves = measures[23]
+    with get(measures[23]) as foo:
         baca.pitch_function(
-            leaves,
+            foo.leaves,
             "C4",
         )
         baca.dynamic_function(
-            leaves[0],
+            foo.leaves[0],
             "mp",
         )
         baca.markup_function(
-            leaves[0],
+            foo.leaves[0],
             r"\baca-tasto-plus-half-scratch-markup",
         )
         library.material_annotation_spanner_function(
-            baca.select.rleaves(leaves),
+            baca.select.rleaves(foo.leaves),
             "B",
         )
-    if True:
-        leaves = baca.getter(measures, (25, 26))
+    with get(baca.getter(measures, (25, 26))) as foo:
         baca.pitch_function(
-            leaves,
+            foo.leaves,
             "C#2",
         )
         baca.hairpin_function(
-            leaves,
+            foo.leaves,
             "mp > pp",
         )
         baca.markup_function(
-            leaves[0],
+            foo.leaves[0],
             r"\baca-tasto-markup",
         )
         library.material_annotation_spanner_function(
-            baca.select.rleaves(leaves),
+            baca.select.rleaves(foo.leaves),
             "D",
         )
 
@@ -461,28 +462,18 @@ def composites(cache):
                 baca.select.rleaves(leaves),
                 "E",
             )
-    if True:
-        for leaves in (
-            baca.getter(cache["Violin.1.Music"], (9, 26)),
-            baca.getter(cache["Violin.2.Music"], (9, 24)),
-        ):
-            baca.staff_lines_function(
-                leaves[0],
-                1,
-                {},
-            )
+    for _ in (
+        baca.getter(cache["Violin.1.Music"], (9, 26)),
+        baca.getter(cache["Violin.2.Music"], (9, 24)),
+    ):
+        with get(_) as foo:
+            baca.staff_lines_function(foo.leaves[0], 1)
             baca.staff_position_function(
-                baca.select.plts(leaves, exclude=baca.enums.HIDDEN),
+                baca.select.plts(foo.leaves, exclude=baca.enums.HIDDEN),
                 0,
             )
-            baca.dynamic_function(
-                leaves[0],
-                '"mf"',
-            )
-            baca.markup_function(
-                leaves[0],
-                r"\baca-ob-markup",
-            )
+            baca.dynamic_function(foo.leaves[0], '"mf"')
+            baca.markup_function(foo.leaves[0], r"\baca-ob-markup")
 
 
 def main():
