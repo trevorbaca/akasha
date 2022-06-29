@@ -2,6 +2,18 @@ import baca
 
 from akasha import library
 
+
+class get:
+    def __init__(self, leaves):
+        self.leaves = leaves
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        del self.leaves
+
+
 #########################################################################################
 ########################################### 01 ##########################################
 #########################################################################################
@@ -73,122 +85,59 @@ def VC(voice):
 
 
 def v1(measures):
-    leaf = measures[1][0]
-    baca.instrument_function(
-        leaf,
-        commands.instruments["Violin.1"],
-    )
-    baca.instrument_name_function(
-        leaf,
-        r"\akasha-violin-i-markup",
-    )
-    baca.short_instrument_name_function(
-        leaf,
-        commands.short_instrument_names["Vn. I"],
-    )
-    baca.clef_function(
-        leaf,
-        "treble",
-    )
-    baca.staff_lines_function(
-        leaf,
-        5,
-        commands.manifests(),
-    )
+    with get(measures[1]) as foo:
+        baca.instrument_function(foo.leaves[0], commands.instruments["Violin.1"])
+        baca.instrument_name_function(foo.leaves[0], r"\akasha-violin-i-markup")
+        baca.short_instrument_name_function(
+            foo.leaves[0],
+            commands.short_instrument_names["Vn. I"],
+        )
+        baca.clef_function(foo.leaves[0], "treble")
+        baca.staff_lines_function(foo.leaves[0], 5)
 
 
 def v2(measures):
-    leaf = measures[1][0]
-    baca.instrument_function(
-        leaf,
-        commands.instruments["Violin.2"],
-    )
-    baca.instrument_name_function(
-        leaf,
-        r"\akasha-violin-ii-markup",
-    )
-    baca.short_instrument_name_function(
-        leaf,
-        commands.short_instrument_names["Vn. II"],
-    )
-    baca.clef_function(
-        leaf,
-        "treble",
-    )
-    baca.staff_lines_function(
-        leaf,
-        5,
-        commands.manifests(),
-    )
+    with get(measures[1]) as foo:
+        baca.instrument_function(foo.leaves[0], commands.instruments["Violin.2"])
+        baca.instrument_name_function(foo.leaves[0], r"\akasha-violin-ii-markup")
+        baca.short_instrument_name_function(
+            foo.leaves[0],
+            commands.short_instrument_names["Vn. II"],
+        )
+        baca.clef_function(foo.leaves[0], "treble")
+        baca.staff_lines_function(foo.leaves[0], 5)
 
 
 def va(measures):
-    leaf = measures[1][0]
-    baca.instrument_function(
-        leaf,
-        commands.instruments["Viola"],
-    )
-    baca.instrument_name_function(
-        leaf,
-        r"\akasha-viola-markup",
-    )
-    baca.short_instrument_name_function(
-        leaf,
-        commands.short_instrument_names["Va."],
-    )
-    baca.clef_function(
-        leaf,
-        "alto",
-    )
-    baca.staff_lines_function(
-        leaf,
-        1,
-        commands.manifests(),
-    )
-    leaves = baca.getter(measures, (1, 3))
-    pleaves = baca.select.pleaves(leaves)
-    baca.staff_position_function(
-        pleaves,
-        0,
-    )
-    baca.down_bow_function(pleaves[0])
-    baca.markup_function(
-        pleaves[0],
-        r"\akasha-ob-plus-terminate-abruptly-markup",
-    )
-    baca.dynamic_function(
-        pleaves[0],
-        '"mf"',
-    )
-    library.material_annotation_spanner_function(
-        pleaves,
-        "E",
-    )
+    with get(measures[1]) as foo:
+        baca.instrument_function(foo.leaves[0], commands.instruments["Viola"])
+        baca.instrument_name_function(foo.leaves[0], r"\akasha-viola-markup")
+        baca.short_instrument_name_function(
+            foo.leaves[0],
+            commands.short_instrument_names["Va."],
+        )
+        baca.clef_function(foo.leaves[0], "alto")
+        baca.staff_lines_function(foo.leaves[0], 1)
+    with get(baca.select.pleaves(baca.getter(measures, (1, 3)))) as foo:
+        baca.staff_position_function(foo.leaves, 0)
+        baca.down_bow_function(foo.leaves[0])
+        baca.markup_function(
+            foo.leaves[0], r"\akasha-ob-plus-terminate-abruptly-markup"
+        )
+        baca.dynamic_function(foo.leaves[0], '"mf"')
+        library.material_annotation_spanner_function(foo.leaves, "E")
 
 
 def vc(measures):
-    leaf = measures[1][0]
-    baca.instrument_function(
-        leaf,
-        commands.instruments["Cello"],
-    )
-    baca.instrument_name_function(
-        leaf,
-        r"\akasha-cello-markup",
-    )
-    baca.short_instrument_name_function(
-        leaf,
-        commands.short_instrument_names["Vc."],
-    )
-    baca.clef_function(
-        leaf,
-        "bass",
-    )
-    baca.staff_lines_function(
-        leaf,
-        5,
-        commands.manifests(),
-    )
+    with get(measures[1]) as foo:
+        baca.instrument_function(foo.leaves[0], commands.instruments["Cello"])
+        baca.instrument_name_function(foo.leaves[0], r"\akasha-cello-markup")
+        baca.short_instrument_name_function(
+            foo.leaves[0],
+            commands.short_instrument_names["Vc."],
+        )
+        baca.clef_function(foo.leaves[0], "bass")
+        baca.staff_lines_function(foo.leaves[0], 5)
 
 
 def main():

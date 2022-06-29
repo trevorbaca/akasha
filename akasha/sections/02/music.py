@@ -4,6 +4,18 @@ from abjadext import rmakers
 
 from akasha import library
 
+
+class get:
+    def __init__(self, leaves):
+        self.leaves = leaves
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        del self.leaves
+
+
 #########################################################################################
 ########################################### 02 ##########################################
 #########################################################################################
@@ -345,34 +357,28 @@ def VC(voice):
 
 
 def v1(measures):
-    leaves = baca.getter(measures, (6, 7))
-    baca.pitches_function(
-        leaves,
-        "E4 F4 E+4",
-        exact=True,
-    ),
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "B",
-    )
+    with get(baca.getter(measures, (6, 7))) as foo:
+        baca.pitches_function(
+            foo.leaves,
+            "E4 F4 E+4",
+            exact=True,
+        ),
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
     library.material_annotation_spanner_function(
         baca.select.rleaves(measures[9]),
         "A",
     )
-    leaves = baca.getter(measures, (11, 13))
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "C",
-    )
-    pleaf = baca.select.pleaf(leaves, 0)
-    baca.dynamic_function(
-        pleaf,
-        "pp",
-    )
-    baca.markup_function(
-        pleaf,
-        r"\baca-tasto-plus-xfb-markup",
-    )
+    with get(baca.getter(measures, (11, 13))) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "C",
+        )
+        with get(baca.select.pleaf(foo.leaves, 0)) as bar:
+            baca.dynamic_function(bar.leaves, "pp")
+            baca.markup_function(bar.leaves, r"\baca-tasto-plus-xfb-markup")
     library.material_annotation_spanner_function(
         baca.select.rleaves(measures[15]),
         "C",
@@ -381,11 +387,11 @@ def v1(measures):
         baca.select.rleaves(measures[17]),
         "C",
     )
-    leaves = baca.getter(measures, (11, 19))
-    baca.pitches_function(
-        baca.select.shown(leaves),
-        "D5 E5",
-    )
+    with get(baca.getter(measures, (11, 19))) as foo:
+        baca.pitches_function(
+            baca.select.shown(foo.leaves),
+            "D5 E5",
+        )
 
 
 def v2(measures):
@@ -393,39 +399,26 @@ def v2(measures):
         baca.select.rleaves(measures[4]),
         "A",
     )
-    leaves = baca.getter(measures, (6, 7))
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "B",
-    )
-    baca.pitches_function(
-        leaves,
-        "D4 D~4 C4",
-        exact=True,
-    )
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(measures[9]),
-        "B",
-    )
-    baca.pitches_function(
-        measures[9],
-        "C#4 C#+4",
-        exact=True,
-    )
-    leaves = baca.getter(measures, (11, 13))
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "C",
-    )
-    pleaf = baca.select.pleaf(leaves, 0)
-    baca.dynamic_function(
-        pleaf,
-        "pp",
-    )
-    baca.markup_function(
-        pleaf,
-        r"\baca-tasto-plus-xfb-markup",
-    )
+    with get(baca.getter(measures, (6, 7))) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
+        baca.pitches_function(foo.leaves, "D4 D~4 C4", exact=True)
+    with get(measures[9]) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
+        baca.pitches_function(foo.leaves, "C#4 C#+4", exact=True)
+    with get(baca.getter(measures, (11, 13))) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "C",
+        )
+        with get(baca.select.pleaf(foo.leaves, 0)) as bar:
+            baca.dynamic_function(bar.leaves, "pp")
+            baca.markup_function(bar.leaves, r"\baca-tasto-plus-xfb-markup")
     library.material_annotation_spanner_function(
         baca.select.rleaves(measures[15]),
         "C",
@@ -438,101 +431,73 @@ def v2(measures):
         baca.select.rleaves(measures[19]),
         "C",
     )
-    leaves = baca.getter(measures, (11, 19))
-    baca.pitches_function(
-        baca.select.shown(leaves),
-        "Bb4 C5",
-    )
+    with get(baca.getter(measures, (11, 19))) as foo:
+        baca.pitches_function(
+            baca.select.shown(foo.leaves),
+            "Bb4 C5",
+        )
 
 
 def va(measures):
-    leaves = baca.getter(measures, (1, 3))
-    baca.staff_lines_function(leaves[0], 5, commands.manifests())
+    with get(baca.getter(measures, (1, 3))) as foo:
+        baca.staff_lines_function(foo.leaves[0], 5)
     library.material_annotation_spanner_function(baca.select.rleaves(measures[4]), "A")
-    leaves = baca.getter(measures, (6, 7))
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "B",
-    )
-    baca.pitches_function(
-        leaves,
-        "Eb4 D4 E4",
-        exact=True,
-    )
+    with get(baca.getter(measures, (6, 7))) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
+        baca.pitches_function(foo.leaves, "Eb4 D4 E4", exact=True)
     library.material_annotation_spanner_function(
         baca.select.rleaves(measures[9]),
         "B",
     )
-    baca.pitches_function(
-        measures[9],
-        "C4",
-        exact=True,
-    )
-    leaves = baca.getter(measures, (11, 13))
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "B",
-    )
-    baca.pitches_function(
-        leaves,
-        "D4 D+4 D#4 E4 F#4 F4",
-        exact=True,
-    )
+    baca.pitches_function(measures[9], "C4", exact=True)
+    with get(baca.getter(measures, (11, 13))) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
+        baca.pitches_function(foo.leaves, "D4 D+4 D#4 E4 F#4 F4", exact=True)
     library.material_annotation_spanner_function(
         baca.select.rleaves(measures[15]),
         "B",
     )
-    baca.pitches_function(
-        measures[15],
-        "Eb4 D4",
-        exact=True,
-    )
+    baca.pitches_function(measures[15], "Eb4 D4", exact=True)
 
 
 def vc(measures):
-    leaves = baca.getter(measures, (1, 2))
-    library.cello_solo_pitches(function=leaves)
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "B",
-    )
-    pleaf = baca.select.pleaf(leaves, 0)
-    baca.dynamic_function(
-        pleaf,
-        "mp",
-    )
-    baca.markup_function(
-        pleaf,
-        r"\baca-tasto-plus-half-scratch-markup",
-    )
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(measures[9]),
-        "B",
-    )
-    baca.pitches_function(
-        measures[9],
-        "C4 C~4 B3",
-        exact=True,
-    )
-    leaves = baca.getter(measures, (11, 13))
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(leaves),
-        "B",
-    )
-    baca.pitches_function(
-        leaves,
-        "Bb3 Bb~3 A3 Ab3 G3 A3",
-        exact=True,
-    )
-    library.material_annotation_spanner_function(
-        baca.select.rleaves(measures[15]),
-        "B",
-    )
-    baca.pitches_function(
-        measures[15],
-        "A3 A#3 B3",
-        exact=True,
-    )
+    with get(baca.getter(measures, (1, 2))) as foo:
+        library.cello_solo_pitches(function=foo.leaves)
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
+        with get(baca.select.pleaf(foo.leaves, 0)) as bar:
+            baca.dynamic_function(bar.leaves, "mp")
+            baca.markup_function(bar.leaves, r"\baca-tasto-plus-half-scratch-markup")
+    with get(measures[9]) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
+        baca.pitches_function(foo.leaves, "C4 C~4 B3", exact=True)
+    with get(baca.getter(measures, (11, 13))) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
+        baca.pitches_function(
+            foo.leaves,
+            "Bb3 Bb~3 A3 Ab3 G3 A3",
+            exact=True,
+        )
+    with get(measures[15]) as foo:
+        library.material_annotation_spanner_function(
+            baca.select.rleaves(foo.leaves),
+            "B",
+        )
+        baca.pitches_function(foo.leaves, "A3 A#3 B3", exact=True)
     library.material_annotation_spanner_function(
         baca.select.rleaves(measures[19]),
         "A",
@@ -565,15 +530,9 @@ def composites(cache):
         "Viola.Music",
     ):
         measure = cache[voice_name][6]
-        pleaf = baca.select.pleaf(measure, 0)
-        baca.dynamic_function(
-            pleaf,
-            "mp",
-        )
-        baca.markup_function(
-            pleaf,
-            r"\baca-tasto-plus-half-scratch-markup",
-        )
+        with get(baca.select.pleaf(measure, 0)) as foo:
+            baca.dynamic_function(foo.leaves, "mp")
+            baca.markup_function(foo.leaves, r"\baca-tasto-plus-half-scratch-markup")
 
 
 def main():
