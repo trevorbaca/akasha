@@ -73,7 +73,7 @@ def VC(voice):
 
 
 def v1(m):
-    with baca.get(m[1][0]) as o:
+    with baca.scope(m[1][0]) as o:
         baca.instrument_function(o.leaf, commands.instruments["Violin.1"])
         baca.instrument_name_function(o.leaf, r"\akasha-violin-i-markup")
         baca.short_instrument_name_function(
@@ -85,7 +85,7 @@ def v1(m):
 
 
 def v2(m):
-    with baca.get(m[1][0]) as o:
+    with baca.scope(m[1][0]) as o:
         baca.instrument_function(o.leaf, commands.instruments["Violin.2"])
         baca.instrument_name_function(o.leaf, r"\akasha-violin-ii-markup")
         baca.short_instrument_name_function(
@@ -97,7 +97,7 @@ def v2(m):
 
 
 def va(m):
-    with baca.get(m[1][0]) as o:
+    with baca.scope(m[1][0]) as o:
         baca.instrument_function(o.leaf, commands.instruments["Viola"])
         baca.instrument_name_function(o.leaf, r"\akasha-viola-markup")
         baca.short_instrument_name_function(
@@ -106,9 +106,9 @@ def va(m):
         )
         baca.clef_function(o.leaf, "alto")
         baca.staff_lines_function(o.leaf, 1)
-    with baca.get(m[(1, 3)]) as o:
+    with baca.scope(m[(1, 3)]) as o:
         baca.staff_position_function(o.leaves, 0)
-        with baca.get(o.leaves[0]) as u:
+        with baca.scope(o.leaves[0]) as u:
             baca.down_bow_function(u.leaf)
             baca.markup_function(u.leaf, r"\akasha-ob-plus-terminate-abruptly-markup")
             baca.dynamic_function(u.leaf, '"mf"')
@@ -116,7 +116,7 @@ def va(m):
 
 
 def vc(m):
-    with baca.get(m[1][0]) as o:
+    with baca.scope(m[1][0]) as o:
         baca.instrument_function(o.leaf, commands.instruments["Cello"])
         baca.instrument_name_function(o.leaf, r"\akasha-cello-markup")
         baca.short_instrument_name_function(
