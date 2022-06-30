@@ -526,11 +526,15 @@ def main():
     VC(commands.voice("vc"))
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
     baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
-    cache = baca.interpret.cache_leaves(score, len(commands.time_signatures))
-    v1(baca.Cache(cache["Violin.1.Music"]))
-    v2(baca.Cache(cache["Violin.2.Music"]))
-    va(baca.Cache(cache["Viola.Music"]))
-    vc(baca.Cache(cache["Cello.Music"]))
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    v1(baca.Cache(cache["v1"]))
+    v2(baca.Cache(cache["v2"]))
+    va(baca.Cache(cache["va"]))
+    vc(baca.Cache(cache["vc"]))
     composites(cache)
 
 

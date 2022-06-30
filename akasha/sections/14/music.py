@@ -225,10 +225,14 @@ def main():
     VC(commands.voice("vc"))
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
     baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
-    cache = baca.interpret.cache_leaves(score, len(commands.time_signatures))
-    va(cache["Viola.Music"])
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    va(baca.Cache(cache["va"]))
     composites()
-    vc(cache["Cello.Music"])
+    vc(baca.Cache(cache["vc"]))
 
 
 if __name__ == "__main__":
