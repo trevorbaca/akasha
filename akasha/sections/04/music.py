@@ -359,29 +359,25 @@ def vc(m):
 
 
 def composites(cache):
-    if True:
-        m = baca.Cache(cache["Violin.1.Music"])
-        for n in [(16, 17), 19, 21, 23, (25, 26)]:
+    with baca.get([cache["v1"][_] for _ in [(16, 17), 19, 21, 23, (25, 26)]]) as o:
+        for group in o.groups:
             library.material_annotation_spanner_function(
-                baca.select.rleaves(m[n]),
+                baca.select.rleaves(group),
                 "E",
             )
-        m = baca.Cache(cache["Violin.2.Music"])
-        for n in [(16, 17), 19, 21, 23]:
+    with baca.get([cache["v2"][_] for _ in [(16, 17), 19, 21, 23]]) as o:
+        for group in o.groups:
             library.material_annotation_spanner_function(
-                baca.select.rleaves(m[n]),
+                baca.select.rleaves(group),
                 "E",
             )
-    for item in (
-        baca.Cache(cache["Violin.1.Music"])[9, 26],
-        baca.Cache(cache["Violin.2.Music"])[9, 24],
-    ):
-        with baca.get(item) as o:
+    with baca.get([cache["v1"][9, 26], cache["v2"][9, 24]]) as o:
+        for group in o.groups:
             baca.staff_position_function(
-                baca.select.shown(o.leaves),
+                baca.select.shown(group),
                 0,
             )
-            with baca.get(o.leaves[0]) as u:
+            with baca.get(group[0]) as u:
                 baca.staff_lines_function(u.leaf, 1)
                 baca.dynamic_function(u.leaf, '"mf"')
                 baca.markup_function(u.leaf, r"\baca-ob-markup")

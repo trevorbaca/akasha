@@ -489,34 +489,27 @@ def vc(m):
 
 
 def composites(cache):
-    m = (
-        cache["Violin.2.Music"][4],
-        cache["Viola.Music"][4],
-        cache["Violin.1.Music"][9],
-        cache["Cello.Music"][19],
-    )
-    baca.staccato_function(
-        baca.select.pheads(m),
-    )
-    library.getato_pitches(
-        -2,
-        [0],
-        function=m,
-    )
-    for measure in m:
-        baca.dynamic_function(
-            baca.select.pleaf(measure, 0),
-            "p",
+    with baca.get(
+        [cache["v2"][4], cache["va"][4], cache["v1"][9], cache["vc"][19]]
+    ) as o:
+        baca.staccato_function(
+            baca.select.pheads(o.groups),
         )
-    for voice_name in (
-        "Violin.1.Music",
-        "Violin.2.Music",
-        "Viola.Music",
-    ):
-        measure = cache[voice_name][6]
-        with baca.get(baca.select.pleaf(measure, 0)) as o:
-            baca.dynamic_function(o.leaf, "mp")
-            baca.markup_function(o.leaf, r"\baca-tasto-plus-half-scratch-markup")
+        library.getato_pitches(
+            -2,
+            [0],
+            function=o.groups,
+        )
+        for group in o.groups:
+            baca.dynamic_function(
+                baca.select.pleaf(group, 0),
+                "p",
+            )
+    with baca.get([cache["v1"][6], cache["v2"][6], cache["va"][6]]) as o:
+        for group in o.groups:
+            with baca.get(baca.select.pleaf(group, 0)) as u:
+                baca.dynamic_function(u.leaf, "mp")
+                baca.markup_function(u.leaf, r"\baca-tasto-plus-half-scratch-markup")
 
 
 def main():
