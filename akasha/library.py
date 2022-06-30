@@ -476,7 +476,7 @@ def material_annotation_spanner_function(leaves, letter):
         tags=[baca.tags.COLORED_PHRASING_SLUR],
     )
     baca.slur_function(
-        leaves,
+        baca.select.rleaves(leaves),
         phrasing_slur=True,
         tags=[baca.tags.COLORED_PHRASING_SLUR],
     )

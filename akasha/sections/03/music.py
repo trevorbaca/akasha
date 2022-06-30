@@ -146,28 +146,19 @@ def VC(voice):
 
 def v1(m):
     with baca.scope(m[1, 3]) as o:
-        library.material_annotation_spanner_function(
-            baca.select.rleaves(o.leaves),
-            "C",
-        )
+        library.material_annotation_spanner_function(o.leaves, "C")
         baca.pitches_function(o.leaves, "E5 D5")
 
 
 def v2(m):
     with baca.scope(m[1, 3]) as o:
-        library.material_annotation_spanner_function(
-            baca.select.rleaves(o.leaves),
-            "B",
-        )
+        library.material_annotation_spanner_function(o.leaves, "B")
         baca.pitches_function(o.leaves, "D#4 E4 F4 F~4 E4", exact=True)
         with baca.scope(o.leaves[0]) as u:
             baca.dynamic_function(u.leaf, "mp")
             baca.markup_function(u.leaf, r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[10, 11]) as o:
-        library.material_annotation_spanner_function(
-            baca.select.rleaves(o.leaves),
-            "C",
-        )
+        library.material_annotation_spanner_function(o.leaves, "C")
         baca.pitches_function(o.leaves, "C5 Bb4")
         with baca.scope(o.leaves[0]) as u:
             baca.dynamic_function(u.leaf, "pp")
@@ -176,16 +167,10 @@ def v2(m):
 
 def va(m):
     with baca.scope(m[1, 3]) as o:
-        library.material_annotation_spanner_function(
-            baca.select.rleaves(o.leaves),
-            "B",
-        )
+        library.material_annotation_spanner_function(o.leaves, "B")
         baca.pitches_function(o.leaves, "Db4 Db~4 C4", exact=True)
     with baca.scope(m[11]) as o:
-        library.material_annotation_spanner_function(
-            baca.select.rleaves(o.leaves),
-            "D",
-        )
+        library.material_annotation_spanner_function(o.leaves, "D")
         baca.pitches_function(o.leaves, "D#3")
         baca.markup_function(o.leaves[0], r"\baca-tasto-markup")
 
@@ -193,10 +178,7 @@ def va(m):
 def vc(m):
     for n in [(1, 4), 6, 8]:
         with baca.scope(m[n]) as o:
-            library.material_annotation_spanner_function(
-                baca.select.rleaves(o.leaves),
-                "A",
-            )
+            library.material_annotation_spanner_function(o.leaves, "A")
     with baca.scope(m[1, 8]) as o:
         library.getato_pitches(-2, [-3], direction=abjad.DOWN, function=o.leaves)
         baca.beam_positions_function(o.leaves, -4)
@@ -205,10 +187,7 @@ def vc(m):
         )
         baca.tuplet_bracket_staff_padding_function(o.leaves, 2)
     with baca.scope(m[11]) as o:
-        library.material_annotation_spanner_function(
-            baca.select.rleaves(o.leaves),
-            "D",
-        )
+        library.material_annotation_spanner_function(o.leaves, "D")
         baca.pitches_function(o.leaves, "C#2")
         with baca.scope(o.leaves[0]) as u:
             baca.dynamic_function(u.leaf, "mp")
