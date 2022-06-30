@@ -122,8 +122,8 @@ def main():
         len(commands.time_signatures),
         commands.voice_abbreviations,
     )
-    va(baca.Cache(cache["va"]))
-    vc(baca.Cache(cache["vc"]))
+    va(cache["va"])
+    vc(cache["vc"])
 
 
 if __name__ == "__main__":

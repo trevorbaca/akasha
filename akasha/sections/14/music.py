@@ -230,9 +230,9 @@ def main():
         len(commands.time_signatures),
         commands.voice_abbreviations,
     )
-    va(baca.Cache(cache["va"]))
+    va(cache["va"])
     composites()
-    vc(baca.Cache(cache["vc"]))
+    vc(cache["vc"])
 
 
 if __name__ == "__main__":
