@@ -106,7 +106,7 @@ def va(m):
         )
         baca.clef_function(o.leaf, "alto")
         baca.staff_lines_function(o.leaf, 1)
-    with baca.scope(m[(1, 3)]) as o:
+    with baca.scope(m[(1, 2)]) as o:
         baca.staff_position_function(o.leaves, 0)
         with baca.scope(o.leaves[0]) as u:
             baca.down_bow_function(u.leaf)
