@@ -531,10 +531,10 @@ def main():
         len(commands.time_signatures),
         commands.voice_abbreviations,
     )
-    v1(baca.Cache(cache["v1"]))
-    v2(baca.Cache(cache["v2"]))
-    va(baca.Cache(cache["va"]))
-    vc(baca.Cache(cache["vc"]))
+    v1(cache["v1"])
+    v2(cache["v2"])
+    va(cache["va"])
+    vc(cache["vc"])
     composites(cache)
 
 

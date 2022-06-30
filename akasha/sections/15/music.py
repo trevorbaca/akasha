@@ -175,8 +175,8 @@ def main():
         len(commands.time_signatures),
         commands.voice_abbreviations,
     )
-    v2(baca.Cache(cache["v2"]))
-    vc(baca.Cache(cache["vc"]))
+    v2(cache["v2"])
+    vc(cache["vc"])
     composites()
 
 
