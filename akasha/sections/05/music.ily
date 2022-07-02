@@ -5972,7 +5972,6 @@ number.5.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
       %! baca._style_fermata_measures(3)
@@ -5984,7 +5983,7 @@ number.5.Violin.2.Music = {
     % OPENING:
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.trill_spanner()
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
@@ -6004,10 +6003,8 @@ number.5.Violin.2.Music = {
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-c
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-markup
     % SPANNER_STARTS:
@@ -6017,12 +6014,12 @@ number.5.Violin.2.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.trill_spanner()
     \startTrillSpan a''
     % ABSOLUTE_BEFORE:
@@ -6050,7 +6047,7 @@ number.5.Violin.2.Music = {
     %@% ^ \baca-duration-multiplier-markup #"7" #"8"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
+      %! baca._attach_start_stop_indicators(4)
       %! baca.trill_spanner()
     \stopTrillSpan
     % ABSOLUTE_BEFORE:
@@ -6117,7 +6114,7 @@ number.5.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -6170,7 +6167,6 @@ number.5.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
       %! baca._style_fermata_measures(3)
@@ -6182,14 +6178,13 @@ number.5.Violin.2.Music = {
     % OPENING:
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.trill_spanner()
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     g''1
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-c
     % SPANNER_STARTS:
@@ -6199,12 +6194,12 @@ number.5.Violin.2.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.trill_spanner()
     \startTrillSpan a''
     % ABSOLUTE_BEFORE:
@@ -6241,7 +6236,7 @@ number.5.Violin.2.Music = {
     %@% ^ \baca-duration-multiplier-markup #"9" #"8"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
+      %! baca._attach_start_stop_indicators(4)
       %! baca.trill_spanner()
     \stopTrillSpan
     % ABSOLUTE_BEFORE:
@@ -6302,7 +6297,7 @@ number.5.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -6453,8 +6448,7 @@ number.5.Viola.Music = {
       %! SHIFTED_CLEF
       %! baca.clef_extra_offset_function(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
-      %! baca.OverrideCommand._call(1)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-va-markup
@@ -6523,7 +6517,6 @@ number.5.Viola.Music = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-seventh-degree-of-a-two-plus-vib-mod-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -7347,8 +7340,7 @@ number.5.Viola.Music = {
       %! baca.make_repeat_tied_notes()
     \repeatTie
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
     % ABSOLUTE_BEFORE:
     % COMMANDS:
