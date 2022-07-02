@@ -385,6 +385,7 @@ def composites(cache):
         (["v1", "va"], (43, 46)),
     ):
         baca.alternate_bow_strokes_function(leaves)
+        library.material_annotation_spanner_function(leaves, "E")
     for leaves in cache.get(
         (["v1", "va", "vc"], [(1, 8), (10, 17)]),
         (["va", "vc"], (19, 22)),
@@ -392,15 +393,6 @@ def composites(cache):
         ("vc", (33, 36)),
     ):
         library.material_annotation_spanner_function(leaves, "D")
-    for leaves in cache.get(
-        ("v1", (19, 22)),
-        ("v2", [(10, 17), (19, 22)]),
-        (["v1", "v2", "vc"], (24, 31)),
-        (["v1", "v2"], (33, 36)),
-        (["v1", "va", "vc"], (38, 41)),
-        (["v1", "va"], (43, 46)),
-    ):
-        library.material_annotation_spanner_function(leaves, "E")
 
 
 def main():
@@ -441,6 +433,7 @@ if __name__ == "__main__":
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
         color_octaves=False,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
