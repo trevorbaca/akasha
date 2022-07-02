@@ -336,7 +336,7 @@ def VC(voice):
     voice.extend(music)
 
 
-def v1(measures):
+def v1(m):
     commands(
         ("v1", 5),
         library.material_annotation_spanner("A"),
@@ -380,7 +380,7 @@ def v1(measures):
     )
 
 
-def v2(measures):
+def v2(m):
     commands(
         ("v2", 3),
         library.material_annotation_spanner("A"),
@@ -436,7 +436,7 @@ def v2(measures):
     )
 
 
-def va(measures):
+def va(m):
     commands(
         ("va", 1),
         library.material_annotation_spanner("E"),
@@ -469,7 +469,7 @@ def va(measures):
     )
 
 
-def vc(measures):
+def vc(m):
     commands(
         ("vc", 3),
         library.material_annotation_spanner("A"),

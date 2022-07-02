@@ -158,11 +158,15 @@ def V2(voice):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(38, 39))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(40, 42), head=voice.name)
+    music = baca.make_mmrests(commands.get(40, 41))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(42), head=voice.name)
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(43, 44))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(45, 51), head=voice.name)
+    music = baca.make_mmrests(commands.get(45, 46))
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(47, 51), head=voice.name)
     voice.extend(music)
 
 
@@ -248,45 +252,26 @@ def VC(voice):
     voice.extend(music)
 
 
-def v1(measures):
-    commands(
-        ("v1", [(1, 8), (10, 17)]),
-        baca.ottava(),
-        baca.new(
-            baca.staff_lines(5),
-            match=0,
-        ),
-    )
-    commands(
-        ("v1", (1, 17)),
-        baca.dynamic("mp"),
-        baca.markup(r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup"),
-        baca.note_head_style_harmonic(),
-        baca.pitch(
+def v1(m):
+    baca.staff_lines_function(m[1][0], 5)
+    baca.ottava_function(m[1, 8])
+    baca.ottava_function(m[10, 17])
+    with baca.scope(m[1, 17]) as o:
+        baca.pitch_function(
+            baca.select.shown(o.leaves),
             "C#7",
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
-    commands(
-        ("v1", (19, 22)),
-        library.harmonic_glissando_pitches("A4"),
-    )
-    commands(
-        ("v1", (24, 31)),
-        library.harmonic_glissando_pitches("A4", rotation=-6),
-    )
-    commands(
-        ("v1", (33, 36)),
-        library.harmonic_glissando_pitches("A4", rotation=-12),
-    )
-    commands(
-        ("v1", (38, 41)),
-        library.harmonic_glissando_pitches("A4", rotation=-18),
-    )
-    commands(
-        ("v1", (43, 46)),
-        library.harmonic_glissando_pitches("A4", rotation=-24),
-    )
+        )
+        baca.note_head_style_harmonic_function(o.leaves)
+        with baca.scope(o.leaves[0]) as u:
+            baca.dynamic_function(u.leaf, "mp")
+            baca.markup_function(
+                u.leaf, r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup"
+            )
+    library.harmonic_glissando_pitches("A4", function=m[19, 22])
+    library.harmonic_glissando_pitches("A4", function=m[24, 31], rotation=-6)
+    library.harmonic_glissando_pitches("A4", function=m[33, 36], rotation=-12)
+    library.harmonic_glissando_pitches("A4", function=m[38, 41], rotation=-18)
+    library.harmonic_glissando_pitches("A4", function=m[43, 46], rotation=-24)
     commands(
         ("v1", (19, 46)),
         baca.dynamic("ppp"),
@@ -299,35 +284,19 @@ def v1(measures):
     )
 
 
-def v2(measures):
+def v2(m):
+    with baca.scope(m[10, 36]) as o:
+        runs = baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN)
+        for i, run in enumerate(runs):
+            rotation = -6 * i
+            library.harmonic_glissando_pitches("A4", function=run, rotation=rotation)
+            baca.glissando_function(run)
+        baca.note_head_style_harmonic_function(o.leaves)
+        with baca.scope(o.leaves[0]) as u:
+            baca.dynamic_function(u.leaf, "ppp")
+            baca.markup_function(u.leaf, r"\akasha-xp-plus-full-bow-strokes-markup")
     commands(
-        ("v2", (10, 17)),
-        library.harmonic_glissando_pitches("A4"),
-    )
-    commands(
-        ("v2", (19, 22)),
-        library.harmonic_glissando_pitches("A4", rotation=-6),
-    )
-    commands(
-        ("v2", (24, 31)),
-        library.harmonic_glissando_pitches("A4", rotation=-12),
-    )
-    commands(
-        ("v2", (33, 36)),
-        library.harmonic_glissando_pitches("A4", rotation=-18),
-    )
-    commands(
-        ("v2", (10, 36)),
-        baca.dynamic("ppp"),
-        baca.new(
-            baca.glissando(),
-            map=lambda _: baca.select.runs(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
-        baca.note_head_style_harmonic(),
-    )
-    commands(
-        ("v2", [(38, 39), (43, 44)]),
+        ("v2", [(38, 41), (43, 46)]),
         library.material_annotation_spanner("C"),
     )
     commands(
@@ -345,7 +314,7 @@ def v2(measures):
     )
 
 
-def va(measures):
+def va(m):
     commands(
         ("va", (1, 8)),
         baca.clef("treble"),
@@ -389,7 +358,7 @@ def va(measures):
     )
 
 
-def vc(measures):
+def vc(m):
     commands(
         ("vc", (1, 8)),
         baca.clef("treble"),

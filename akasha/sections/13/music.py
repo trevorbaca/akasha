@@ -86,7 +86,7 @@ def VC(voice):
     voice.extend(music)
 
 
-def va(measures):
+def va(m):
     commands(
         ("va", (1, 3)),
         baca.alternate_bow_strokes(
@@ -100,7 +100,7 @@ def va(measures):
     )
 
 
-def vc(measures):
+def vc(m):
     commands(
         ("vc", (5, 6)),
         baca.clef("bass"),
