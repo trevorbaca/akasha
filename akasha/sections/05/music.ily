@@ -3087,7 +3087,6 @@ number.5.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! SPANNER_START
@@ -3166,7 +3165,6 @@ number.5.Violin.1.Music = {
     % MARKUP:
       %! baca.markup()
     ^ \akasha-fifth-degree-of-a-four-plus-vib-mod-markup
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -3179,7 +3177,7 @@ number.5.Violin.1.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_AFTER:
@@ -3354,7 +3352,7 @@ number.5.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -3411,7 +3409,6 @@ number.5.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! SPANNER_START
@@ -3430,7 +3427,6 @@ number.5.Violin.1.Music = {
     cs''''!2.
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
     % SPANNER_STARTS:
@@ -3440,7 +3436,7 @@ number.5.Violin.1.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_BEFORE:
@@ -3632,7 +3628,7 @@ number.5.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -3689,11 +3685,9 @@ number.5.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-      %! baca.OverrideCommand._call(1)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
@@ -3708,7 +3702,6 @@ number.5.Violin.1.Music = {
     a'1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3724,16 +3717,14 @@ number.5.Violin.1.Music = {
       %! baca.dynamic()
     \ppp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -3747,7 +3738,6 @@ number.5.Violin.1.Music = {
     c''2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -3760,7 +3750,6 @@ number.5.Violin.1.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -3776,7 +3765,6 @@ number.5.Violin.1.Music = {
     fs'!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -3792,7 +3780,6 @@ number.5.Violin.1.Music = {
     ef'!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -3847,7 +3834,7 @@ number.5.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -3904,7 +3891,6 @@ number.5.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -3919,17 +3905,15 @@ number.5.Violin.1.Music = {
     fs'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -3941,7 +3925,6 @@ number.5.Violin.1.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -3956,7 +3939,6 @@ number.5.Violin.1.Music = {
     c''2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -3969,7 +3951,6 @@ number.5.Violin.1.Music = {
     fs''!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -3985,7 +3966,6 @@ number.5.Violin.1.Music = {
     ef''!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -4001,7 +3981,6 @@ number.5.Violin.1.Music = {
     c''1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -4017,7 +3996,6 @@ number.5.Violin.1.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -4033,7 +4011,6 @@ number.5.Violin.1.Music = {
     ef''!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -4049,7 +4026,6 @@ number.5.Violin.1.Music = {
     fs''!2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -4065,7 +4041,6 @@ number.5.Violin.1.Music = {
     a''2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -4120,7 +4095,7 @@ number.5.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -4177,7 +4152,6 @@ number.5.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -4193,17 +4167,15 @@ number.5.Violin.1.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -4218,7 +4190,6 @@ number.5.Violin.1.Music = {
     ef''!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -4234,7 +4205,6 @@ number.5.Violin.1.Music = {
     fs''!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -4250,7 +4220,6 @@ number.5.Violin.1.Music = {
     a''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -4305,7 +4274,7 @@ number.5.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -4362,7 +4331,6 @@ number.5.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -4378,17 +4346,15 @@ number.5.Violin.1.Music = {
     ef'''!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -4403,7 +4369,6 @@ number.5.Violin.1.Music = {
     a''2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -4419,7 +4384,6 @@ number.5.Violin.1.Music = {
     c'''2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -4435,7 +4399,6 @@ number.5.Violin.1.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -4490,7 +4453,7 @@ number.5.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -4547,7 +4510,6 @@ number.5.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -4563,17 +4525,15 @@ number.5.Violin.1.Music = {
     fs'!1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -4587,7 +4547,6 @@ number.5.Violin.1.Music = {
     ef'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -4600,7 +4559,6 @@ number.5.Violin.1.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -4615,7 +4573,6 @@ number.5.Violin.1.Music = {
     fs'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -4628,7 +4585,6 @@ number.5.Violin.1.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -4644,12 +4600,10 @@ number.5.Violin.1.Music = {
     c''2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4697,7 +4651,7 @@ number.5.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -5041,7 +4995,6 @@ number.5.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca.note_head_style_harmonic_function(1)
@@ -5055,7 +5008,6 @@ number.5.Violin.2.Music = {
     a'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5071,7 +5023,6 @@ number.5.Violin.2.Music = {
       %! baca.dynamic()
     \ppp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
       %! baca.markup()
@@ -5079,7 +5030,7 @@ number.5.Violin.2.Music = {
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -5091,7 +5042,6 @@ number.5.Violin.2.Music = {
     c''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5106,7 +5056,6 @@ number.5.Violin.2.Music = {
     a'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5119,7 +5068,6 @@ number.5.Violin.2.Music = {
     fs'!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5135,7 +5083,6 @@ number.5.Violin.2.Music = {
     ef'!2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5151,7 +5098,6 @@ number.5.Violin.2.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5167,7 +5113,6 @@ number.5.Violin.2.Music = {
     fs'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5183,7 +5128,6 @@ number.5.Violin.2.Music = {
     a'2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5198,7 +5142,6 @@ number.5.Violin.2.Music = {
     c''2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5211,7 +5154,6 @@ number.5.Violin.2.Music = {
     fs''!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5227,7 +5169,6 @@ number.5.Violin.2.Music = {
     ef''!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -5282,7 +5223,7 @@ number.5.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -5335,7 +5276,6 @@ number.5.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca._style_fermata_measures(3)
@@ -5348,17 +5288,15 @@ number.5.Violin.2.Music = {
     fs'!1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -5372,7 +5310,6 @@ number.5.Violin.2.Music = {
     a'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5385,7 +5322,6 @@ number.5.Violin.2.Music = {
     c''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5401,7 +5337,6 @@ number.5.Violin.2.Music = {
     fs''!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5417,7 +5352,6 @@ number.5.Violin.2.Music = {
     ef''!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -5472,7 +5406,7 @@ number.5.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -5525,7 +5459,6 @@ number.5.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca._style_fermata_measures(3)
@@ -5537,17 +5470,15 @@ number.5.Violin.2.Music = {
     a'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -5559,7 +5490,6 @@ number.5.Violin.2.Music = {
     ef''!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5574,7 +5504,6 @@ number.5.Violin.2.Music = {
     fs''!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5587,7 +5516,6 @@ number.5.Violin.2.Music = {
     a''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5603,7 +5531,6 @@ number.5.Violin.2.Music = {
     fs''!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5619,7 +5546,6 @@ number.5.Violin.2.Music = {
     c'''1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5635,7 +5561,6 @@ number.5.Violin.2.Music = {
     ef'''!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5651,7 +5576,6 @@ number.5.Violin.2.Music = {
     a''2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5667,7 +5591,6 @@ number.5.Violin.2.Music = {
     c'''2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5683,7 +5606,6 @@ number.5.Violin.2.Music = {
     a'2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -5738,7 +5660,7 @@ number.5.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -5791,7 +5713,6 @@ number.5.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca._style_fermata_measures(3)
@@ -5804,17 +5725,15 @@ number.5.Violin.2.Music = {
     ef'''!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -5829,7 +5748,6 @@ number.5.Violin.2.Music = {
     a''2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -5845,7 +5763,6 @@ number.5.Violin.2.Music = {
     c'''2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -5861,7 +5778,6 @@ number.5.Violin.2.Music = {
     a'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % COMMANDS:
@@ -5919,7 +5835,7 @@ number.5.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -6437,7 +6353,6 @@ number.5.Viola.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! MEASURE_62
@@ -6514,7 +6429,6 @@ number.5.Viola.Music = {
       %! baca.dynamic()
     \mp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
       %! baca.markup()
@@ -6529,7 +6443,7 @@ number.5.Viola.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_AFTER:
@@ -6699,7 +6613,7 @@ number.5.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -6752,7 +6666,6 @@ number.5.Viola.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! baca._style_fermata_measures(3)
@@ -6764,7 +6677,6 @@ number.5.Viola.Music = {
     gqf''!2.
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
     % SPANNER_STARTS:
@@ -6774,7 +6686,7 @@ number.5.Viola.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_BEFORE:
@@ -6959,7 +6871,7 @@ number.5.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -7012,7 +6924,6 @@ number.5.Viola.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! baca._style_fermata_measures(3)
@@ -7025,7 +6936,6 @@ number.5.Viola.Music = {
     gqf''!1
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
     % SPANNER_STARTS:
@@ -7035,7 +6945,7 @@ number.5.Viola.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_BEFORE:
@@ -7140,7 +7050,7 @@ number.5.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -7193,7 +7103,6 @@ number.5.Viola.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! baca._style_fermata_measures(3)
@@ -7205,7 +7114,6 @@ number.5.Viola.Music = {
     gqf''!2.
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
     % SPANNER_STARTS:
@@ -7215,7 +7123,7 @@ number.5.Viola.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_BEFORE:
@@ -7394,7 +7302,7 @@ number.5.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -7447,7 +7355,6 @@ number.5.Viola.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! MEASURE_94
@@ -7502,10 +7409,8 @@ number.5.Viola.Music = {
       %! baca.hairpin()
     \sf
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-tasto-plus-senza-vib-markup
     % SPANNER_STARTS:
@@ -7525,7 +7430,7 @@ number.5.Viola.Music = {
     \>
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -7659,7 +7564,7 @@ number.5.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -7712,11 +7617,9 @@ number.5.Viola.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-      %! baca.OverrideCommand._call(1)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
       %! baca._style_fermata_measures(3)
     \stopStaff
@@ -7728,7 +7631,6 @@ number.5.Viola.Music = {
     af!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7744,16 +7646,14 @@ number.5.Viola.Music = {
       %! baca.dynamic()
     \baca-ppp-ancora
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-xp-plus-full-bow-strokes-markup
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -7768,7 +7668,6 @@ number.5.Viola.Music = {
     b2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -7784,7 +7683,6 @@ number.5.Viola.Music = {
     af!2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -7800,7 +7698,6 @@ number.5.Viola.Music = {
     f4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -7855,7 +7752,7 @@ number.5.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -7908,7 +7805,6 @@ number.5.Viola.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca._style_fermata_measures(3)
@@ -7921,17 +7817,15 @@ number.5.Viola.Music = {
     f1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -7945,7 +7839,6 @@ number.5.Viola.Music = {
     af!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -7958,7 +7851,6 @@ number.5.Viola.Music = {
     b4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -7973,7 +7865,6 @@ number.5.Viola.Music = {
     f'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -7986,7 +7877,6 @@ number.5.Viola.Music = {
     d'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -8002,12 +7892,10 @@ number.5.Viola.Music = {
     b2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8055,7 +7943,7 @@ number.5.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % CLOSING:
@@ -8195,7 +8083,6 @@ number.5.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! MEASURE_62
@@ -8206,8 +8093,7 @@ number.5.Cello.Music = {
       %! SHIFTED_CLEF
       %! baca.clef_extra_offset_function(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
-      %! baca.OverrideCommand._call(1)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
       %! EXPLICIT_BAR_EXTENT
       %! baca._reanalyze_reapplied_synthetic_wrappers()
@@ -8278,10 +8164,8 @@ number.5.Cello.Music = {
       %! baca.dynamic()
     \mp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-eleventh-degree-of-a-one-plus-vib-mod-markup
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -8294,7 +8178,7 @@ number.5.Cello.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_AFTER:
@@ -8464,7 +8348,7 @@ number.5.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -8521,7 +8405,6 @@ number.5.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -8536,7 +8419,6 @@ number.5.Cello.Music = {
     d''2.
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
     % SPANNER_STARTS:
@@ -8546,7 +8428,7 @@ number.5.Cello.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_BEFORE:
@@ -8731,7 +8613,7 @@ number.5.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -8788,7 +8670,6 @@ number.5.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -8804,7 +8685,6 @@ number.5.Cello.Music = {
     d''1
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
     % SPANNER_STARTS:
@@ -8814,7 +8694,7 @@ number.5.Cello.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_BEFORE:
@@ -8868,8 +8748,7 @@ number.5.Cello.Music = {
       %! baca.make_repeat_tied_notes()
     \repeatTie
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8923,7 +8802,7 @@ number.5.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -8980,7 +8859,6 @@ number.5.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! MEASURE_85
@@ -8991,8 +8869,7 @@ number.5.Cello.Music = {
       %! SHIFTED_CLEF
       %! baca.clef_extra_offset_function(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
-      %! baca.OverrideCommand._call(1)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
@@ -9025,7 +8902,6 @@ number.5.Cello.Music = {
     g,2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -9041,16 +8917,14 @@ number.5.Cello.Music = {
       %! baca.dynamic()
     \ppp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -9067,7 +8941,6 @@ number.5.Cello.Music = {
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -9082,7 +8955,6 @@ number.5.Cello.Music = {
     g,2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -9095,7 +8967,6 @@ number.5.Cello.Music = {
     e,4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -9111,7 +8982,6 @@ number.5.Cello.Music = {
     cs,!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -9127,7 +8997,6 @@ number.5.Cello.Music = {
     g,1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -9143,7 +9012,6 @@ number.5.Cello.Music = {
     e,4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -9159,7 +9027,6 @@ number.5.Cello.Music = {
     g,2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -9175,7 +9042,6 @@ number.5.Cello.Music = {
     bf,!2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -9191,12 +9057,10 @@ number.5.Cello.Music = {
     e2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9250,7 +9114,7 @@ number.5.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -9307,7 +9171,6 @@ number.5.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -9338,10 +9201,8 @@ number.5.Cello.Music = {
       %! baca.hairpin()
     \sf
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-markup
     % SPANNER_STARTS:
@@ -9365,7 +9226,7 @@ number.5.Cello.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_BEFORE:
@@ -9476,7 +9337,7 @@ number.5.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -9533,11 +9394,9 @@ number.5.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-      %! baca.OverrideCommand._call(1)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
@@ -9552,7 +9411,6 @@ number.5.Cello.Music = {
     e,2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -9568,16 +9426,14 @@ number.5.Cello.Music = {
       %! baca.dynamic()
     \baca-ppp-ancora
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-e
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-xp-plus-full-bow-strokes-markup
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -9592,7 +9448,6 @@ number.5.Cello.Music = {
     g,2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -9608,7 +9463,6 @@ number.5.Cello.Music = {
     bf,!2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % SPANNER_STARTS:
@@ -9624,12 +9478,10 @@ number.5.Cello.Music = {
     e4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.note_head_style_harmonic()
+      %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9683,7 +9535,7 @@ number.5.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:
@@ -9740,7 +9592,6 @@ number.5.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -9771,10 +9622,8 @@ number.5.Cello.Music = {
       %! baca.hairpin()
     \sf
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-d
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-markup
     % SPANNER_STARTS:
@@ -9794,7 +9643,7 @@ number.5.Cello.Music = {
     \>
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
       %! abjad.glissando(7)
@@ -9987,7 +9836,7 @@ number.5.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
+              %! baca._attach_start_stop_indicators(4)
               %! baca.slur()
             \)
             % COMMANDS:

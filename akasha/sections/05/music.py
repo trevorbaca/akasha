@@ -253,35 +253,32 @@ def VC(voice):
 
 
 def v1(m):
-    baca.staff_lines_function(m[1][0], 5)
-    baca.ottava_function(m[1, 8])
-    baca.ottava_function(m[10, 17])
     with baca.scope(m[1, 17]) as o:
+        baca.staff_lines_function(o.leaves[0], 5)
         baca.pitch_function(
             baca.select.shown(o.leaves),
             "C#7",
         )
+        runs = baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN)
+        for run in runs:
+            baca.ottava_function(run)
         baca.note_head_style_harmonic_function(o.leaves)
         with baca.scope(o.leaves[0]) as u:
             baca.dynamic_function(u.leaf, "mp")
             baca.markup_function(
                 u.leaf, r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup"
             )
-    library.harmonic_glissando_pitches("A4", function=m[19, 22])
-    library.harmonic_glissando_pitches("A4", function=m[24, 31], rotation=-6)
-    library.harmonic_glissando_pitches("A4", function=m[33, 36], rotation=-12)
-    library.harmonic_glissando_pitches("A4", function=m[38, 41], rotation=-18)
-    library.harmonic_glissando_pitches("A4", function=m[43, 46], rotation=-24)
-    commands(
-        ("v1", (19, 46)),
-        baca.dynamic("ppp"),
-        baca.new(
-            baca.glissando(),
-            map=lambda _: baca.select.runs(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
-        baca.note_head_style_harmonic(),
-    )
+    with baca.scope(m[19, 46]) as o:
+        runs = baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN)
+        for i, run in enumerate(runs):
+            rotation = -6 * i
+            library.harmonic_glissando_pitches("A4", function=run, rotation=rotation)
+            baca.glissando_function(run)
+        baca.note_head_style_harmonic_function(o.leaves)
+        baca.dynamic_function(o.leaves[0], "ppp")
+        baca.markup_function(
+            o.leaves[0], r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"
+        )
 
 
 def v2(m):
@@ -319,115 +316,91 @@ def va(m):
             "Gqf5",
         )
         baca.note_head_style_harmonic_function(o.leaves)
-    commands(
-        ("va", (33, 36)),
-        library.material_annotation_spanner("D"),
-        baca.clef("alto"),
-        baca.pitches("Fb3 E3 D#3 C#3 B#2", exact=True),
-        baca.glissando(),
-        baca.hairpin("sf > ppp"),
-        baca.markup(r"\akasha-tasto-plus-senza-vib-markup"),
-    )
-    commands(
-        ("va", (38, 41)),
-        library.harmonic_glissando_pitches("Ab3"),
-    )
-    commands(
-        ("va", (43, 46)),
-        library.harmonic_glissando_pitches("Ab3", rotation=-6),
-    )
-    commands(
-        ("va", (38, 46)),
-        baca.dynamic("ppp-ancora"),
-        baca.new(
-            baca.glissando(),
-            map=lambda _: baca.select.runs(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
-        baca.note_head_style_harmonic(),
-    )
+    with baca.scope(m[33, 36]) as o:
+        baca.clef_function(o.leaves[0], "alto"),
+        baca.pitches_function(o.leaves, "Fb3 E3 D#3 C#3 B#2", exact=True)
+        baca.glissando_function(o.leaves)
+        baca.hairpin_function(o.leaves, "sf > ppp")
+        baca.markup_function(o.leaves[0], r"\akasha-tasto-plus-senza-vib-markup")
+        library.material_annotation_spanner_function(o.leaves, "D")
+    with baca.scope(m[38, 46]) as o:
+        runs = baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN)
+        for i, run in enumerate(runs):
+            rotation = -6 * i
+            library.harmonic_glissando_pitches("Ab3", function=run, rotation=rotation)
+            baca.glissando_function(run)
+        baca.note_head_style_harmonic_function(o.leaves)
+        baca.dynamic_function(o.leaves[0], "ppp-ancora")
+        baca.markup_function(o.leaves[0], r"\akasha-xp-plus-full-bow-strokes-markup")
 
 
 def vc(m):
-    commands(
-        ("vc", (1, 8)),
-        baca.clef("treble"),
-        baca.dynamic("mp"),
-        baca.markup(r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup"),
-    )
-    commands(
-        ("vc", (1, 22)),
-        baca.note_head_style_harmonic(),
-        baca.pitch(
+    with baca.scope(m[1, 22]) as o:
+        baca.clef_function(o.leaves[0], "treble")
+        baca.pitch_function(
+            baca.select.shown(o.leaves),
             "D5",
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
-    commands(
-        ("vc", (24, 31)),
-        library.harmonic_glissando_pitches("G2"),
-        baca.clef("bass"),
-        baca.dynamic("ppp"),
-        baca.glissando(),
-        baca.markup(r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"),
-        baca.note_head_style_harmonic(),
-    )
-    commands(
-        ("vc", (33, 35)),
-        baca.hairpin("sf > ppp"),
-        baca.markup(r"\baca-tasto-markup"),
-        baca.pitch("C#2"),
-    )
-    commands(
-        ("vc", (38, 41)),
-        library.harmonic_glissando_pitches("G2", rotation=-6),
-        baca.dynamic("ppp-ancora"),
-        baca.glissando(),
-        baca.markup(r"\akasha-xp-plus-full-bow-strokes-markup"),
-        baca.note_head_style_harmonic(),
-    )
-    commands(
-        ("vc", (43, 50)),
-        library.material_annotation_spanner("D"),
-        baca.pitches("Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True),
-        baca.glissando(),
-        baca.hairpin("sf > ppp"),
-        baca.markup(r"\baca-tasto-markup"),
-    )
+        )
+        baca.note_head_style_harmonic_function(o.leaves)
+        baca.dynamic_function(o.leaves[0], "mp")
+        baca.markup_function(
+            o.leaves[0], r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup"
+        )
+    with baca.scope(m[24, 31]) as o:
+        baca.clef_function(o.leaves[0], "bass")
+        library.harmonic_glissando_pitches("G2", function=o.leaves)
+        baca.note_head_style_harmonic_function(o.leaves)
+        baca.glissando_function(o.leaves)
+        baca.dynamic_function(o.leaves[0], "ppp")
+        baca.markup_function(
+            o.leaves[0], r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"
+        )
+    with baca.scope(m[33, 35]) as o:
+        baca.pitch_function(o.leaves, "C#2")
+        baca.hairpin_function(o.leaves, "sf > ppp")
+        baca.markup_function(o.leaves[0], r"\baca-tasto-markup")
+    with baca.scope(m[38, 41]) as o:
+        library.harmonic_glissando_pitches("G2", function=o.leaves, rotation=-6)
+        baca.note_head_style_harmonic_function(o.leaves)
+        baca.glissando_function(o.leaves)
+        baca.dynamic_function(o.leaves[0], "ppp-ancora")
+        baca.markup_function(o.leaves[0], r"\akasha-xp-plus-full-bow-strokes-markup")
+    with baca.scope(m[43, 50]) as o:
+        baca.pitches_function(
+            o.leaves, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True
+        )
+        baca.glissando_function(o.leaves)
+        baca.hairpin_function(o.leaves, "sf > ppp")
+        baca.markup_function(o.leaves[0], r"\baca-tasto-markup")
+        library.material_annotation_spanner_function(o.leaves, "D")
 
 
-def composites():
-    commands(
-        [
-            (["v1", "va", "vc"], [(1, 8), (10, 17)]),
-            (["va", "vc"], (19, 22)),
-            ("va", (24, 31)),
-            ("vc", (33, 36)),
-        ],
-        library.material_annotation_spanner("D"),
-    )
-    commands(
-        [
-            ("v1", (19, 22)),
-            ("v2", [(10, 17), (19, 22)]),
-            (["v1", "v2", "vc"], (24, 31)),
-            (["v1", "v2"], (33, 36)),
-            (["v1", "va", "vc"], (38, 41)),
-            (["v1", "va"], (43, 46)),
-        ],
-        library.material_annotation_spanner("E"),
-    )
-    commands(
-        [
-            ("v2", (10, 17)),
-            (["v1", "v2"], (19, 22)),
-            (["v1", "v2", "vc"], (24, 31)),
-            (["v1", "v2"], (33, 36)),
-            (["v1", "va", "vc"], (38, 41)),
-            (["v1", "va"], (43, 46)),
-        ],
-        baca.alternate_bow_strokes(),
-    )
+def composites(cache):
+    for leaves in cache.get(
+        ("v2", (10, 17)),
+        (["v1", "v2"], (19, 22)),
+        (["v1", "v2", "vc"], (24, 31)),
+        (["v1", "v2"], (33, 36)),
+        (["v1", "va", "vc"], (38, 41)),
+        (["v1", "va"], (43, 46)),
+    ):
+        baca.alternate_bow_strokes_function(leaves)
+    for leaves in cache.get(
+        (["v1", "va", "vc"], [(1, 8), (10, 17)]),
+        (["va", "vc"], (19, 22)),
+        ("va", (24, 31)),
+        ("vc", (33, 36)),
+    ):
+        library.material_annotation_spanner_function(leaves, "D")
+    for leaves in cache.get(
+        ("v1", (19, 22)),
+        ("v2", [(10, 17), (19, 22)]),
+        (["v1", "v2", "vc"], (24, 31)),
+        (["v1", "v2"], (33, 36)),
+        (["v1", "va", "vc"], (38, 41)),
+        (["v1", "va"], (43, 46)),
+    ):
+        library.material_annotation_spanner_function(leaves, "E")
 
 
 def main():
@@ -446,7 +419,7 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
-    composites()
+    composites(cache)
 
 
 if __name__ == "__main__":
