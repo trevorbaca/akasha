@@ -323,6 +323,7 @@ number.1.Violin.1.Music = {
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "treble"
@@ -339,6 +340,7 @@ number.1.Violin.1.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -484,6 +486,7 @@ number.1.Violin.2.Music = {
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "treble"
@@ -500,6 +503,7 @@ number.1.Violin.2.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -635,6 +639,7 @@ number.1.Viola.Music = {
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "alto"
@@ -651,6 +656,7 @@ number.1.Viola.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -891,6 +897,7 @@ number.1.Cello.Music = {
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "bass"
@@ -907,6 +914,7 @@ number.1.Cello.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)

@@ -295,40 +295,30 @@ def v2(m):
         with baca.scope(o.leaves[0]) as u:
             baca.dynamic_function(u.leaf, "ppp")
             baca.markup_function(u.leaf, r"\akasha-xp-plus-full-bow-strokes-markup")
-    commands(
-        ("v2", [(38, 41), (43, 46)]),
-        library.material_annotation_spanner("C"),
-    )
-    commands(
-        ("v2", (38, 46)),
-        baca.dynamic("p"),
-        baca.new(
-            baca.trill_spanner(alteration="A5"),
-            map=lambda _: baca.select.qruns(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.markup(r"\baca-tasto-markup"),
-        baca.pitch(
-            "G5",
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
+    with baca.scope(m[38, 46]) as o:
+        baca.pitch_function(baca.select.shown(o.leaves), "G5")
+        for run in baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN):
+            run = baca.select.rleaves(run)
+            baca.trill_spanner_function(run, alteration="A5")
+        baca.dynamic_function(o.leaves[0], "p")
+        baca.markup_function(o.leaves[0], r"\baca-tasto-markup")
+    library.material_annotation_spanner_function(m[38, 41], "C")
+    library.material_annotation_spanner_function(m[43, 46], "C")
 
 
 def va(m):
-    commands(
-        ("va", (1, 8)),
-        baca.clef("treble"),
-        baca.dynamic("mp"),
-        baca.markup(r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"),
-    )
-    commands(
-        ("va", (1, 31)),
-        baca.note_head_style_harmonic(),
-        baca.pitch(
+    with baca.scope(m[1, 8]) as o:
+        baca.clef_function(o.leaves[0], "treble")
+        baca.dynamic_function(o.leaves[0], "mp")
+        baca.markup_function(
+            o.leaves[0], r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"
+        )
+    with baca.scope(m[1, 31]) as o:
+        baca.pitch_function(
+            baca.select.shown(o.leaves),
             "Gqf5",
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
+        )
+        baca.note_head_style_harmonic_function(o.leaves)
     commands(
         ("va", (33, 36)),
         library.material_annotation_spanner("D"),
