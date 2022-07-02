@@ -125,7 +125,7 @@ def VC(voice):
     voice.extend(music)
 
 
-def v1(measures):
+def v1(m):
     commands(
         ("v1", 3),
         baca.dynamic("ppp"),
@@ -133,7 +133,7 @@ def v1(measures):
     )
 
 
-def v2(measures):
+def v2(m):
     commands(
         ("v2", 3),
         baca.dynamic("ppp"),
@@ -141,7 +141,7 @@ def v2(measures):
     )
 
 
-def va(measures):
+def va(m):
     commands(
         ("va", (1, 3)),
         baca.staff_position(0),
@@ -157,7 +157,7 @@ def va(measures):
     )
 
 
-def vc(measures):
+def vc(m):
     commands(
         ("vc", 3),
         baca.dynamic("ppp"),

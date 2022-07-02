@@ -151,7 +151,7 @@ def VC(voice):
     voice.extend(music)
 
 
-def v1(measures):
+def v1(m):
     commands(
         ("v1", (1, 4)),
         library.material_annotation_spanner("A"),
@@ -179,7 +179,7 @@ def v1(measures):
     )
 
 
-def v2(measures):
+def v2(m):
     commands(
         ("v2", (1, 13)),
         baca.loop([6, 3, 5, 3, 1, 4], [1]),
@@ -192,7 +192,7 @@ def v2(measures):
     )
 
 
-def va(measures):
+def va(m):
     commands(
         "va",
         baca.clef("alto"),
@@ -213,7 +213,7 @@ def va(measures):
     )
 
 
-def vc(measures):
+def vc(m):
     commands(
         ("vc", (1, 13)),
         baca.clef("bass"),

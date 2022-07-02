@@ -106,7 +106,7 @@ def VC(voice):
     voice.extend(music)
 
 
-def va(measures):
+def va(m):
     commands(
         "va",
         baca.staff_lines(5),
@@ -185,7 +185,7 @@ def composites():
     )
 
 
-def vc(measures):
+def vc(m):
     commands(
         ("vc", (1, 10)),
         baca.hairpin(

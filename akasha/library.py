@@ -65,7 +65,9 @@ def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP, function=N
         )
 
 
-def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None):
+def harmonic_glissando_pitches(
+    start_pitch, *, direction=abjad.UP, function=None, rotation=None
+):
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     pitch_numbers = _getato_intervals()
@@ -74,10 +76,16 @@ def harmonic_glissando_pitches(start_pitch, *, direction=abjad.UP, rotation=None
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     pitch_numbers = abjad.sequence.rotate(pitch_numbers, n=rotation)
-    return baca.pitches(
-        pitch_numbers,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-    )
+    if function:
+        baca.pitches_function(
+            function,
+            pitch_numbers,
+        )
+    else:
+        return baca.pitches(
+            pitch_numbers,
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        )
 
 
 def instruments():

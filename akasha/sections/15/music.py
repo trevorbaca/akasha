@@ -121,7 +121,7 @@ def VC(voice):
     voice.extend(music)
 
 
-def v2(measures):
+def v2(m):
     commands(
         ("v2", (9, 24)),
         library.getato_pitches(29, direction=abjad.DOWN),
@@ -133,7 +133,7 @@ def v2(measures):
     )
 
 
-def vc(measures):
+def vc(m):
     commands(
         ("vc", 25),
         baca.chunk(
