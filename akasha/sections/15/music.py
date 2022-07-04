@@ -157,7 +157,7 @@ def composites():
         baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
         baca.staff_position(
             0,
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.plts(_),
         ),
         baca.staff_lines(1),
     )

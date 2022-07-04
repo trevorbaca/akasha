@@ -333,7 +333,7 @@ def composites():
         ("v1", (41, 52)),
         baca.pitch(
             "A5",
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.plts(_),
         ),
     )
     commands(
@@ -341,14 +341,14 @@ def composites():
         baca.new(
             baca.note_head_style_harmonic(),
             baca.pitch("B7"),
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.pleaves(_),
         ),
     )
     commands(
         ("v2", (41, 50)),
         baca.pitch(
             "A4",
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.plts(_),
         ),
     )
     commands(
@@ -356,14 +356,14 @@ def composites():
         baca.new(
             baca.note_head_style_harmonic(),
             baca.pitch("C#7"),
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.pleaves(_),
         ),
     )
     commands(
         ("va", (41, 48)),
         baca.pitch(
             "A2",
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.pleaves(_),
         ),
     )
     commands(
@@ -371,14 +371,14 @@ def composites():
         baca.new(
             baca.note_head_style_harmonic(),
             baca.pitch("G~5"),
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.pleaves(_),
         ),
     )
     commands(
         ("vc", (41, 45)),
         baca.new(
             baca.pitch("A1"),
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.plts(_),
         ),
     )
     commands(
@@ -386,7 +386,7 @@ def composites():
         baca.new(
             baca.note_head_style_harmonic(),
             baca.pitch("D5"),
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.pleaves(_),
         ),
     )
     commands(
