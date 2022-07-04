@@ -206,7 +206,7 @@ def vc(m):
         ("vc", (1, 24)),
         baca.pitch(
             "Bb1",
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.plts(_),
         ),
     )
     commands(

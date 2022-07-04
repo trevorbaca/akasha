@@ -350,7 +350,7 @@ def v1(m):
         baca.new(
             baca.dynamic("ff"),
             baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-            selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     commands(
@@ -398,7 +398,7 @@ def v2(m):
         baca.new(
             baca.dynamic("ff"),
             baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-            selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     commands(
@@ -483,7 +483,7 @@ def vc(m):
         baca.new(
             baca.dynamic("ff"),
             baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-            selector=lambda _: baca.select.phead(_, 0, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     commands(
