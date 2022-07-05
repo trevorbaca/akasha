@@ -51,8 +51,9 @@ def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP, function=N
     if direction == abjad.DOWN:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
+    assert all(isinstance(_, int) for _ in pitch_numbers), pitch_numbers
     if function:
-        loop = baca.Loop(items=pitch_numbers, intervals=intervals)
+        loop = baca.Loop(pitch_numbers, intervals)
         baca.pitches_function(
             baca.select.plts(function, exclude=baca.enums.HIDDEN),
             loop,
