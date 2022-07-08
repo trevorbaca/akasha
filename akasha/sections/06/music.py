@@ -382,8 +382,8 @@ def va(m):
     library.material_annotation_spanner_function(m[7], "E")
     library.material_annotation_spanner_function(m[9, 38], "E")
     with baca.scope(m.leaves()) as o:
-        baca.staff_lines_function(o.leaves[0], 1)
-        baca.staff_position_function(o.leaves, 0)
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.staff_position_function(o, 0)
         baca.dynamic_function(o.pleaf(0), '"mf"')
         baca.markup_function(o.pleaf(0), r"\baca-ob-markup")
         baca.alternate_bow_strokes_function(o.pheads())

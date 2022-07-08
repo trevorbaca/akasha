@@ -281,8 +281,8 @@ def v1(m):
         ),
     )
     with baca.scope(m[23, 24]) as o:
-        library.material_annotation_spanner_function(o.leaves, "A")
-        library.getato_pitches(31, [2], function=o.leaves)
+        library.material_annotation_spanner_function(o, "A")
+        library.getato_pitches(31, [2], function=o)
         baca.dynamic_function(o.pleaf(0), "ppp")
         baca.markup_function(o.pleaf(0), r"\akasha-leggieriss-plus-po-markup")
         baca.staccato_function(o.pheads())

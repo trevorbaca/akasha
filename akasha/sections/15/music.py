@@ -123,7 +123,7 @@ def VC(voice):
 
 def v2(m):
     with baca.scope(m[9, 24]) as o:
-        library.getato_pitches(29, direction=abjad.DOWN, function=o.leaves)
+        library.getato_pitches(29, direction=abjad.DOWN, function=o)
         baca.dynamic_function(o.pleaf(0), "pp-ancora")
         baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
         baca.staccato_function(o.pheads())

@@ -454,9 +454,9 @@ def material_annotation_spanner(letter):
     )
 
 
-def material_annotation_spanner_function(leaves, letter):
+def material_annotation_spanner_function(argument, letter):
     baca.markup_function(
-        leaves[0],
+        abjad.select.leaf(argument, 0),
         rf"\akasha-material-{letter.lower()}",
     )
     material_to_color = {
@@ -468,12 +468,12 @@ def material_annotation_spanner_function(leaves, letter):
     }
     color = material_to_color[letter]
     baca.literal_function(
-        leaves[0],
+        abjad.select.leaf(argument, 0),
         rf"\colorSpan #-4 #4 #(rgb-color {color})",
         tags=[baca.tags.COLORED_PHRASING_SLUR],
     )
     baca.slur_function(
-        baca.select.rleaves(leaves),
+        baca.select.rleaves(argument),
         phrasing_slur=True,
         tags=[baca.tags.COLORED_PHRASING_SLUR],
     )

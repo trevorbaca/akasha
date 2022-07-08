@@ -146,18 +146,18 @@ def VC(voice):
 
 def v1(m):
     with baca.scope(m[1, 3]) as o:
-        library.material_annotation_spanner_function(o.leaves, "C")
-        baca.pitches_function(o.leaves, "E5 D5")
+        library.material_annotation_spanner_function(o, "C")
+        baca.pitches_function(o, "E5 D5")
 
 
 def v2(m):
     with baca.scope(m[1, 3]) as o:
-        library.material_annotation_spanner_function(o.leaves, "B")
-        baca.pitches_function(o.leaves, "D#4 E4 F4 F~4 E4", exact=True)
+        library.material_annotation_spanner_function(o, "B")
+        baca.pitches_function(o, "D#4 E4 F4 F~4 E4", exact=True)
         baca.dynamic_function(o.pleaf(0), "mp")
         baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[10, 11]) as o:
-        library.material_annotation_spanner_function(o.leaves, "C")
+        library.material_annotation_spanner_function(o, "C")
         baca.pitches_function(o, "C5 Bb4")
         baca.dynamic_function(o.pleaf(0), "pp")
         baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
@@ -165,28 +165,28 @@ def v2(m):
 
 def va(m):
     with baca.scope(m[1, 3]) as o:
-        library.material_annotation_spanner_function(o.leaves, "B")
-        baca.pitches_function(o.leaves, "Db4 Db~4 C4", exact=True)
+        library.material_annotation_spanner_function(o, "B")
+        baca.pitches_function(o, "Db4 Db~4 C4", exact=True)
     with baca.scope(m[11]) as o:
-        library.material_annotation_spanner_function(o.leaves, "D")
-        baca.pitches_function(o.leaves, "D#3")
-        baca.markup_function(o.leaves[0], r"\baca-tasto-markup")
+        library.material_annotation_spanner_function(o, "D")
+        baca.pitches_function(o, "D#3")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-markup")
 
 
 def vc(m):
     for n in [(1, 4), 6, 8]:
         with baca.scope(m[n]) as o:
-            library.material_annotation_spanner_function(o.leaves, "A")
+            library.material_annotation_spanner_function(o, "A")
     with baca.scope(m[1, 8]) as o:
-        library.getato_pitches(-2, [-3], direction=abjad.DOWN, function=o.leaves)
-        baca.beam_positions_function(o.leaves, -4)
+        library.getato_pitches(-2, [-3], direction=abjad.DOWN, function=o)
+        baca.beam_positions_function(o, -4)
         baca.staccato_function(
-            baca.select.pheads(o.leaves, exclude=baca.enums.HIDDEN),
+            baca.select.pheads(o, exclude=baca.enums.HIDDEN),
         )
-        baca.tuplet_bracket_staff_padding_function(o.leaves, 2)
+        baca.tuplet_bracket_staff_padding_function(o, 2)
     with baca.scope(m[11]) as o:
-        library.material_annotation_spanner_function(o.leaves, "D")
-        baca.pitches_function(o.leaves, "C#2")
+        library.material_annotation_spanner_function(o, "D")
+        baca.pitches_function(o, "C#2")
         baca.dynamic_function(o.pleaf(0), "mp")
         baca.markup_function(o.pleaf(0), r"\baca-tasto-markup")
 
