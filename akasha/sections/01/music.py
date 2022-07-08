@@ -107,11 +107,11 @@ def va(m):
         baca.clef_function(o.leaf(0), "alto")
         baca.staff_lines_function(o.leaf(0), 1)
     with baca.scope(m[(1, 2)]) as o:
-        baca.staff_position_function(o.leaves, 0)
+        baca.staff_position_function(o, 0)
         baca.down_bow_function(o.pleaf(0))
         baca.markup_function(o.pleaf(0), r"\akasha-ob-plus-terminate-abruptly-markup")
         baca.dynamic_function(o.pleaf(0), '"mf"')
-        library.material_annotation_spanner_function(o.leaves, "E")
+        library.material_annotation_spanner_function(o, "E")
 
 
 def vc(m):
