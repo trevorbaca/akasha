@@ -354,82 +354,33 @@ def v1(m):
 
 
 def v2(m):
-    commands(
-        ("v2", 3),
-        library.material_annotation_spanner("A"),
-    )
-    commands(
-        ("v2", 5),
-        library.material_annotation_spanner("A"),
-    )
-    commands(
-        ("v2", 7),
-        library.material_annotation_spanner("A"),
-    )
-    commands(
-        ("v2", (1, 10)),
-        baca.new(
-            baca.dynamic("ff"),
-            baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-            selector=lambda _: baca.select.phead(_, 0),
-        ),
-    )
-    commands(
-        ("v2", (11, 18)),
-        baca.dynamic("f"),
-        baca.markup(r"\akasha-po-meno-scratch-markup"),
-    )
-    commands(
-        ("v2", (19, 20)),
-        baca.dynamic("mf"),
-        baca.staccato(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.markup(r"\akasha-senza-scratch-markup"),
-    )
-    commands(
-        ("v2", (23, 32)),
-        baca.hairpin(
-            "mf > pp",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-    )
-    commands(
-        ("v2", (21, 39)),
-        baca.markup(r"\baca-leggieriss-markup"),
-        baca.staccato(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
-    commands(
-        "v2",
-        library.getato_pitches(-3, [2]),
-    )
+    library.material_annotation_spanner_function(m[3], "A")
+    library.material_annotation_spanner_function(m[5], "A")
+    library.material_annotation_spanner_function(m[7], "A")
+    library.getato_pitches(-3, [2], function=m.leaves())
+    with baca.scope(m[1, 10]) as o:
+        baca.dynamic_function(o.pleaf(0), "ff")
+        baca.markup_function(o.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup")
+    with baca.scope(m[11, 18]) as o:
+        baca.dynamic_function(o.pleaf(0), "f")
+        baca.markup_function(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
+    with baca.scope(m[19, 20]) as o:
+        baca.dynamic_function(o.pleaf(0), "mf")
+        baca.markup_function(o.pleaf(0), r"\akasha-senza-scratch-markup")
+    with baca.scope(m[21, 39]) as o:
+        baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
+    with baca.scope(m[23, 32]) as o:
+        baca.hairpin_function(o.tleaves(), "mf > pp")
+    with baca.scope(m[19, 39]) as o:
+        baca.staccato_function(o.pheads())
 
 
 def va(m):
-    commands(
-        ("va", 1),
-        library.material_annotation_spanner("E"),
-    )
-    commands(
-        ("va", 3),
-        library.material_annotation_spanner("E"),
-    )
-    commands(
-        ("va", 5),
-        library.material_annotation_spanner("E"),
-    )
-    commands(
-        ("va", 7),
-        library.material_annotation_spanner("E"),
-    )
-    commands(
-        ("va", (9, 38)),
-        library.material_annotation_spanner("E"),
-    )
+    library.material_annotation_spanner_function(m[1], "E")
+    library.material_annotation_spanner_function(m[3], "E")
+    library.material_annotation_spanner_function(m[5], "E")
+    library.material_annotation_spanner_function(m[7], "E")
+    library.material_annotation_spanner_function(m[9, 38], "E")
     commands(
         "va",
         baca.alternate_bow_strokes(
@@ -443,14 +394,8 @@ def va(m):
 
 
 def vc(m):
-    commands(
-        ("vc", 3),
-        library.material_annotation_spanner("A"),
-    )
-    commands(
-        ("vc", 7),
-        library.material_annotation_spanner("A"),
-    )
+    library.material_annotation_spanner_function(m[3], "A")
+    library.material_annotation_spanner_function(m[7], "A")
     commands(
         ("vc", (1, 8)),
         baca.new(
@@ -498,11 +443,11 @@ def vc(m):
     )
 
 
-def composites():
-    commands(
+def composites(cache):
+    for leaves in cache.get(
         (["v1", "v2", "vc"], (9, 38)),
-        library.material_annotation_spanner("A"),
-    )
+    ):
+        library.material_annotation_spanner_function(leaves, "A")
 
 
 def main():
@@ -521,7 +466,7 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
-    composites()
+    composites(cache)
 
 
 if __name__ == "__main__":
