@@ -280,14 +280,12 @@ def v1(m):
             selector=lambda _: baca.select.plts(_),
         ),
     )
-    commands(
-        ("v1", (23, 24)),
-        library.material_annotation_spanner("A"),
-        library.getato_pitches(31, [2]),
-        baca.dynamic("ppp"),
-        baca.markup(r"\akasha-leggieriss-plus-po-markup"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
+    with baca.scope(m[23, 24]) as o:
+        library.material_annotation_spanner_function(o.leaves, "A")
+        library.getato_pitches(31, [2], function=o.leaves)
+        baca.dynamic_function(o.pleaf(0), "ppp")
+        baca.markup_function(o.pleaf(0), r"\akasha-leggieriss-plus-po-markup")
+        baca.staccato_function(o.pheads())
     commands(
         ("v1", (25, 26)),
         baca.pitch(

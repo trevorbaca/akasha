@@ -132,24 +132,16 @@ def VC(voice):
     voice.extend(music)
 
 
-def composites():
-    commands(
+def composites(cache):
+    for leaves in cache.get(
         (["v1", "v2", "vc"], (1, 3)),
-        baca.new(
-            library.getato_pitches(5, [2]),
-            match=0,
-        ),
-        baca.new(
-            library.getato_pitches(-3, [2]),
-            match=1,
-        ),
-        baca.new(
-            library.getato_pitches(-13, [2]),
-            match=2,
-        ),
-        baca.dynamic("ff"),
-        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-    )
+    ):
+        with baca.scope(baca.select.pleaf(leaves, 0)) as u:
+            baca.dynamic_function(u.leaf, "ff")
+            baca.markup_function(u.leaf, r"\akasha-scratch-moltiss-explanation-markup")
+    library.getato_pitches(5, [2], function=cache["v1"][1, 3])
+    library.getato_pitches(-3, [2], function=cache["v2"][1, 3])
+    library.getato_pitches(-13, [2], function=cache["vc"][1, 3])
 
 
 def main():
@@ -159,7 +151,12 @@ def main():
     VC(commands.voice("vc"))
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
     baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
-    composites()
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    composites(cache)
 
 
 if __name__ == "__main__":

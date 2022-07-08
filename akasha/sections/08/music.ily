@@ -1155,7 +1155,6 @@ number.8.Violin.1.Music = {
         % BEFORE:
         % COMMANDS:
           %! COLORED_PHRASING_SLUR
-          %! baca.IndicatorCommand._call()
           %! baca.literal()
         \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
           %! EXPLICIT_BAR_EXTENT
@@ -1223,7 +1222,6 @@ number.8.Violin.1.Music = {
           %! baca._set_status_tag()
         \pp
         % MARKUP:
-          %! baca.IndicatorCommand._call()
           %! baca.markup()
         ^ \akasha-material-a
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -1232,7 +1230,7 @@ number.8.Violin.1.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca.SpannerIndicatorCommand._call(2)
+          %! baca._attach_start_stop_indicators(2)
           %! baca.slur()
         \(
         % ABSOLUTE_AFTER:
@@ -1825,7 +1823,7 @@ number.8.Violin.1.Music = {
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
+      %! baca._attach_start_stop_indicators(4)
       %! baca.slur()
     \)
     % SPANNER_STARTS:

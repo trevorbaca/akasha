@@ -9826,7 +9826,6 @@ number.7.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! COLORED_PHRASING_SLUR
-      %! baca.IndicatorCommand._call()
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
       %! baca._style_fermata_measures(3)
@@ -9854,7 +9853,6 @@ number.7.Violin.2.Music = {
       %! baca.hairpin()
     \pp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-material-c
     % SPANNER_STARTS:
@@ -9878,7 +9876,7 @@ number.7.Violin.2.Music = {
     ~
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
+      %! baca._attach_start_stop_indicators(2)
       %! baca.slur()
     \(
     % ABSOLUTE_BEFORE:
@@ -11222,7 +11220,7 @@ number.7.Violin.2.Music = {
     % SPANNER_STOPS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
+      %! baca._attach_start_stop_indicators(4)
       %! baca.slur()
     \)
     % SPANNER_STARTS:

@@ -152,26 +152,18 @@ def VC(voice):
 
 
 def v1(m):
-    commands(
-        ("v1", (1, 4)),
-        library.material_annotation_spanner("A"),
-        library.getato_pitches(31, [2]),
-        baca.hairpin(
-            "pp >o niente",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-    )
+    with baca.scope(m[1, 4]) as o:
+        library.material_annotation_spanner_function(o.leaves, "A")
+        library.getato_pitches(31, [2], function=o.leaves)
+        baca.hairpin_function(o.tleaves(), "pp >o niente")
     commands(
         ("v1", (5, 7)),
         baca.text_spanner("tasto + 1/4 scratch => tasto"),
     )
-    commands(
-        ("v1", (5, 13)),
-        baca.loop([17, 19, 17, 15, 18, 16], [1]),
-        baca.glissando(),
-    )
+    with baca.scope(m[5, 13]) as o:
+        loop = baca.Loop([17, 19, 17, 15, 18, 16], [1])
+        baca.pitches_function(o.leaves, loop)
+        baca.glissando_function(o.leaves)
     commands(
         ("v1", (15, 16)),
         baca.dynamic("ppp"),
@@ -180,11 +172,10 @@ def v1(m):
 
 
 def v2(m):
-    commands(
-        ("v2", (1, 13)),
-        baca.loop([6, 3, 5, 3, 1, 4], [1]),
-        baca.glissando(),
-    )
+    with baca.scope(m[1, 13]) as o:
+        loop = baca.Loop([6, 3, 5, 3, 1, 4], [1])
+        baca.pitches_function(o.leaves, loop)
+        baca.glissando_function(o.leaves)
     commands(
         ("v2", (15, 16)),
         baca.dynamic("ppp"),
@@ -198,11 +189,10 @@ def va(m):
         baca.clef("alto"),
         baca.staff_lines(5),
     )
-    commands(
-        ("va", (1, 13)),
-        baca.loop([3, 5, 2, 4, 2, 0], [1]),
-        baca.glissando(),
-    )
+    with baca.scope(m[1, 13]) as o:
+        loop = baca.Loop([3, 5, 2, 4, 2, 0], [1])
+        baca.pitches_function(o.leaves, loop)
+        baca.glissando_function(o.leaves)
     commands(
         ("va", (15, 16)),
         baca.down_bow(),
@@ -214,12 +204,11 @@ def va(m):
 
 
 def vc(m):
-    commands(
-        ("vc", (1, 13)),
-        baca.clef("bass"),
-        baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
-        baca.glissando(),
-    )
+    with baca.scope(m[1, 13]) as o:
+        baca.clef_function(o.leaves[0], "bass")
+        loop = baca.Loop([-23, -21, -19, -22, -20, -22], [-1])
+        baca.pitches_function(o.leaves, loop)
+        baca.glissando_function(o.leaves)
     commands(
         ("vc", (15, 16)),
         baca.dynamic("ppp"),
