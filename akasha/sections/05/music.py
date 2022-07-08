@@ -260,11 +260,10 @@ def v1(m):
         for run in runs:
             baca.ottava_function(run)
         baca.note_head_style_harmonic_function(o.leaves)
-        with baca.scope(o.leaves[0]) as u:
-            baca.dynamic_function(u.leaf, "mp")
-            baca.markup_function(
-                u.leaf, r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup"
-            )
+        baca.dynamic_function(o.pleaf(0), "mp")
+        baca.markup_function(
+            o.pleaf(0), r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup"
+        )
     with baca.scope(m[19, 46]) as o:
         runs = baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN)
         for i, run in enumerate(runs):
@@ -286,9 +285,8 @@ def v2(m):
             library.harmonic_glissando_pitches("A4", function=run, rotation=rotation)
             baca.glissando_function(run)
         baca.note_head_style_harmonic_function(o.leaves)
-        with baca.scope(o.leaves[0]) as u:
-            baca.dynamic_function(u.leaf, "ppp")
-            baca.markup_function(u.leaf, r"\akasha-xp-plus-full-bow-strokes-markup")
+        baca.dynamic_function(o.pleaf(0), "ppp")
+        baca.markup_function(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
     with baca.scope(m[38, 46]) as o:
         baca.pitch_function(o.leaves, "G5")
         for run in baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN):

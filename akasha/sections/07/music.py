@@ -355,7 +355,7 @@ def v2(m):
 def va(m):
     baca.staff_lines_function(m[1][0], 5)
     with baca.scope(m[6]) as o:
-        baca.pitch_function(o.leaves, "F#3")
+        baca.pitch_function(o, "F#3")
         library.material_annotation_spanner_function(o.leaves, "A")
         baca.dynamic_function(o.phead(0), "ff")
         baca.markup_function(o.phead(0), r"\akasha-scratch-moltiss-explanation-markup")

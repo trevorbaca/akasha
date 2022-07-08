@@ -136,9 +136,11 @@ def composites(cache):
     for leaves in cache.get(
         (["v1", "v2", "vc"], (1, 3)),
     ):
-        with baca.scope(baca.select.pleaf(leaves, 0)) as u:
-            baca.dynamic_function(u.leaf, "ff")
-            baca.markup_function(u.leaf, r"\akasha-scratch-moltiss-explanation-markup")
+        with baca.scope(leaves) as u:
+            baca.dynamic_function(u.pleaf(0), "ff")
+            baca.markup_function(
+                u.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup"
+            )
     library.getato_pitches(5, [2], function=cache["v1"][1, 3])
     library.getato_pitches(-3, [2], function=cache["v2"][1, 3])
     library.getato_pitches(-13, [2], function=cache["vc"][1, 3])
