@@ -437,7 +437,6 @@ number.11.Violin.1.Music = {
           %! baca.dynamic()
         \ff
         % MARKUP:
-          %! baca.IndicatorCommand._call()
           %! baca.markup()
         ^ \akasha-scratch-moltiss-explanation-markup
         % ABSOLUTE_BEFORE:
@@ -687,7 +686,6 @@ number.11.Violin.2.Music = {
           %! baca.dynamic()
         \ff
         % MARKUP:
-          %! baca.IndicatorCommand._call()
           %! baca.markup()
         ^ \akasha-scratch-moltiss-explanation-markup
         % CLOSING:
@@ -1124,7 +1122,6 @@ number.11.Cello.Music = {
           %! baca.dynamic()
         \ff
         % MARKUP:
-          %! baca.IndicatorCommand._call()
           %! baca.markup()
         ^ \akasha-scratch-moltiss-explanation-markup
         % ABSOLUTE_BEFORE:

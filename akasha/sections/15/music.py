@@ -122,15 +122,11 @@ def VC(voice):
 
 
 def v2(m):
-    commands(
-        ("v2", (9, 24)),
-        library.getato_pitches(29, direction=abjad.DOWN),
-        baca.dynamic("pp-ancora"),
-        baca.markup(r"\baca-leggieriss-markup"),
-        baca.staccato(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
+    with baca.scope(m[9, 24]) as o:
+        library.getato_pitches(29, direction=abjad.DOWN, function=o.leaves)
+        baca.dynamic_function(o.pleaf(0), "pp-ancora")
+        baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
+        baca.staccato_function(o.pheads())
 
 
 def vc(m):

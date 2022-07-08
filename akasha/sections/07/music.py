@@ -295,9 +295,10 @@ def v1(m):
     library.material_annotation_spanner_function(m[8, 9], "C")
     with baca.scope(m[11, 22]) as o:
         library.material_annotation_spanner_function(o.leaves, "C")
+        loop = baca.Loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1])
+        baca.pitches_function(o.leaves, loop)
     commands(
         ("v1", (11, 22)),
-        baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
         baca.new(
             baca.hairpin("pp < p", remove_length_1_spanner_start=True),
             map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
@@ -313,10 +314,11 @@ def v1(m):
         baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
         baca.pitch("E5"),
     )
+    with baca.scope(m[36, 41]) as o:
+        library.getato_pitches(29, [2], function=o.leaves)
     commands(
         ("v1", (36, 41)),
         library.material_annotation_spanner("A"),
-        library.getato_pitches(29, [2]),
         baca.hairpin(
             "ff < fff",
             selector=lambda _: baca.select.tleaves(
@@ -326,9 +328,10 @@ def v1(m):
         baca.markup(r"\baca-pos-ord-markup"),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
     )
+    with baca.scope(m[45]) as o:
+        library.getato_pitches(29, [2], function=o.leaves)
     commands(
         ("v1", 45),
-        library.getato_pitches(29, [2]),
         baca.dynamic("pp"),
         baca.markup(r"\baca-leggieriss-markup"),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
@@ -336,20 +339,23 @@ def v1(m):
 
 
 def v2(m):
+    with baca.scope(m[3, 4]) as o:
+        library.getato_pitches(24, [2], function=o.leaves)
     commands(
         ("v2", (3, 4)),
         library.material_annotation_spanner("A"),
-        library.getato_pitches(24, [2]),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
     )
     commands(
         ("v2", (8, 9)),
         library.material_annotation_spanner("C"),
     )
+    with baca.scope(m[11, 22]) as o:
+        library.material_annotation_spanner_function(o.leaves, "C")
+        loop = baca.Loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1])
+        baca.pitches_function(o.leaves, loop)
     commands(
         ("v2", (11, 22)),
-        library.material_annotation_spanner("C"),
-        baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
         baca.new(
             baca.hairpin("pp < p", remove_length_1_spanner_start=True),
             map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
@@ -365,10 +371,11 @@ def v2(m):
         baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
         baca.pitch("F#4"),
     )
+    with baca.scope(m[36, 41]) as o:
+        library.getato_pitches(26, [2], function=o.leaves)
     commands(
         ("v2", (36, 41)),
         library.material_annotation_spanner("A"),
-        library.getato_pitches(26, [2]),
         baca.hairpin(
             "ff < fff",
             selector=lambda _: baca.select.tleaves(
@@ -378,9 +385,10 @@ def v2(m):
         baca.markup(r"\baca-pos-ord-markup"),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
     )
+    with baca.scope(m[45]) as o:
+        library.getato_pitches(26, [2], function=o.leaves)
     commands(
         ("v2", 45),
-        library.getato_pitches(26, [2]),
         baca.dynamic("pp"),
         baca.markup(r"\baca-leggieriss-markup"),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
@@ -405,10 +413,11 @@ def va(m):
         baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
         baca.pitches("G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True),
     )
+    with baca.scope(m[36, 41]) as o:
+        library.getato_pitches(23, [2], function=o.leaves)
     commands(
         ("va", (36, 41)),
         library.material_annotation_spanner("A"),
-        library.getato_pitches(23, [2]),
         baca.clef("treble"),
         baca.hairpin(
             "ff < fff",
@@ -428,9 +437,10 @@ def va(m):
         baca.staff_lines(1),
         baca.staff_position(0),
     )
+    with baca.scope(m[45]) as o:
+        library.getato_pitches(23, [2], function=o.leaves)
     commands(
         ("va", 45),
-        library.getato_pitches(23, [2]),
         baca.dynamic("pp"),
         baca.markup(r"\baca-leggieriss-markup"),
         baca.staff_lines(5),
@@ -456,11 +466,12 @@ def vc(m):
         baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
         library.material_annotation_spanner("B"),
     )
+    with baca.scope(m[3, 4]) as o:
+        library.getato_pitches(21, [2], function=o.leaves)
     commands(
         ("vc", (3, 4)),
         baca.clef("treble"),
         library.material_annotation_spanner("A"),
-        library.getato_pitches(21, [2]),
         baca.markup(r"\baca-leggieriss-markup"),
         baca.dynamic("pp"),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
@@ -472,10 +483,11 @@ def vc(m):
         baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
         baca.pitches("Ab2 G2 F2 F+2 F#2 E2 Eb2", exact=True),
     )
+    with baca.scope(m[36, 41]) as o:
+        library.getato_pitches(20, [2], function=o.leaves)
     commands(
         ("vc", (36, 41)),
         library.material_annotation_spanner("A"),
-        library.getato_pitches(20, [2]),
         baca.clef("treble"),
         baca.hairpin(
             "ff < fff",
@@ -486,9 +498,10 @@ def vc(m):
         baca.markup(r"\baca-pos-ord-markup"),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
     )
+    with baca.scope(m[45]) as o:
+        library.getato_pitches(20, [2], function=o.leaves)
     commands(
         ("vc", 45),
-        library.getato_pitches(20, [2]),
         baca.dynamic("pp"),
         baca.markup(r"\baca-leggieriss-markup"),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
