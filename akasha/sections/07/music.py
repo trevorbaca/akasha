@@ -359,105 +359,70 @@ def va(m):
         library.material_annotation_spanner_function(o, "A")
         baca.dynamic_function(o.phead(0), "ff")
         baca.markup_function(o.phead(0), r"\akasha-scratch-moltiss-explanation-markup")
-    commands(
-        ("va", (11, 26)),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-        baca.pitches("G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True),
-    )
+    with baca.scope(m[11, 26]) as o:
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.markup_function(o.phead(0), r"\baca-tasto-plus-half-scratch-markup")
+        baca.pitches_function(o, "G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True)
     with baca.scope(m[36, 41]) as o:
+        baca.clef_function(o.leaf(0), "treble")
         library.getato_pitches(23, [2], function=o)
-    commands(
-        ("va", (36, 41)),
-        library.material_annotation_spanner("A"),
-        baca.clef("treble"),
-        baca.hairpin(
-            "ff < fff",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-        baca.markup(r"\baca-pos-ord-markup"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
-    commands(
-        ("va", 43),
-        library.material_annotation_spanner("E"),
-        baca.down_bow(),
-        baca.dynamic('"mf"'),
-        baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
-        baca.staff_lines(1),
-        baca.staff_position(0),
-    )
+        library.material_annotation_spanner_function(o, "A")
+        baca.hairpin_function(o.tleaves(), "ff < fff")
+        baca.markup_function(o.pleaf(0), r"\baca-pos-ord-markup")
+        baca.staccato_function(o.pheads())
+    with baca.scope(m[43]) as o:
+        library.material_annotation_spanner_function(o, "E")
+        baca.down_bow_function(o.phead(0))
+        baca.dynamic_function(o.phead(0), '"mf"')
+        baca.markup_function(o.phead(0), r"\akasha-ob-plus-terminate-abruptly-markup")
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.staff_position_function(o, 0)
     with baca.scope(m[45]) as o:
         library.getato_pitches(23, [2], function=o)
-    commands(
-        ("va", 45),
-        baca.dynamic("pp"),
-        baca.markup(r"\baca-leggieriss-markup"),
-        baca.staff_lines(5),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
-    commands(
-        ("va", 47),
-        library.material_annotation_spanner("E"),
-        baca.down_bow(),
-        baca.dynamic('"mf"'),
-        baca.markup(r"\akasha-ob-plus-terminate-abruptly-markup"),
-        baca.staff_lines(1),
-        baca.staff_position(0),
-    )
+        baca.dynamic_function(o.phead(0), "pp")
+        baca.markup_function(o.phead(0), r"\baca-leggieriss-markup")
+        baca.staff_lines_function(o.leaf(0), 5)
+        baca.staccato_function(o.pheads())
+    with baca.scope(m[47]) as o:
+        library.material_annotation_spanner_function(o, "E")
+        baca.down_bow_function(o.phead(0))
+        baca.dynamic_function(o.phead(0), '"mf"')
+        baca.markup_function(o.phead(0), r"\akasha-ob-plus-terminate-abruptly-markup")
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.staff_position_function(o, 0)
 
 
 def vc(m):
-    commands(
-        ("vc", (1, 2)),
-        baca.clef("bass"),
-        library.cello_solo_pitches(transposition="m2"),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-        library.material_annotation_spanner("B"),
-    )
+    with baca.scope(m[1, 2]) as o:
+        baca.clef_function(o.leaf(0), "bass")
+        library.cello_solo_pitches(function=o, transposition="m2")
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.markup_function(o.phead(0), r"\baca-tasto-plus-half-scratch-markup")
+        library.material_annotation_spanner_function(o, "B")
     with baca.scope(m[3, 4]) as o:
         library.getato_pitches(21, [2], function=o)
-    commands(
-        ("vc", (3, 4)),
-        baca.clef("treble"),
-        library.material_annotation_spanner("A"),
-        baca.markup(r"\baca-leggieriss-markup"),
-        baca.dynamic("pp"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
-    commands(
-        ("vc", (11, 26)),
-        baca.clef("bass"),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-        baca.pitches("Ab2 G2 F2 F+2 F#2 E2 Eb2", exact=True),
-    )
+        baca.clef_function(o.leaf(0), "treble")
+        library.material_annotation_spanner_function(o, "A")
+        baca.markup_function(o.phead(0), r"\baca-leggieriss-markup")
+        baca.dynamic_function(o.phead(0), "pp")
+        baca.staccato_function(o.pheads())
+    with baca.scope(m[11, 26]) as o:
+        baca.clef_function(o.leaf(0), "bass")
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.markup_function(o.phead(0), r"\baca-tasto-plus-half-scratch-markup")
+        baca.pitches_function(o, "Ab2 G2 F2 F+2 F#2 E2 Eb2", exact=True)
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(20, [2], function=o)
-    commands(
-        ("vc", (36, 41)),
-        library.material_annotation_spanner("A"),
-        baca.clef("treble"),
-        baca.hairpin(
-            "ff < fff",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-        baca.markup(r"\baca-pos-ord-markup"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
+        library.material_annotation_spanner_function(o, "A")
+        baca.clef_function(o.leaf(0), "treble")
+        baca.hairpin_function(o.tleaves(), "ff < fff")
+        baca.markup_function(o.phead(0), r"\baca-pos-ord-markup")
+        baca.staccato_function(o.pheads())
     with baca.scope(m[45]) as o:
         library.getato_pitches(20, [2], function=o)
-    commands(
-        ("vc", 45),
-        baca.dynamic("pp"),
-        baca.markup(r"\baca-leggieriss-markup"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
+        baca.dynamic_function(o.phead(0), "pp")
+        baca.markup_function(o.phead(0), r"\baca-leggieriss-markup")
+        baca.staccato_function(o.pheads())
 
 
 def composites():
