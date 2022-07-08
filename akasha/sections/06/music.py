@@ -337,47 +337,20 @@ def VC(voice):
 
 
 def v1(m):
-    commands(
-        ("v1", 5),
-        library.material_annotation_spanner("A"),
-    )
-    commands(
-        ("v1", 7),
-        library.material_annotation_spanner("A"),
-    )
-    commands(
-        ("v1", (1, 14)),
-        baca.new(
-            baca.dynamic("ff"),
-            baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-            selector=lambda _: baca.select.phead(_, 0),
-        ),
-    )
-    commands(
-        ("v1", (15, 22)),
-        baca.dynamic("f"),
-        baca.markup(r"\akasha-po-meno-scratch-markup"),
-    )
-    commands(
-        ("v1", (23, 32)),
-        baca.hairpin(
-            "mf > pp",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-        baca.markup(r"\akasha-leggieriss-senza-scratch-markup"),
-    )
-    commands(
-        ("v1", (23, 39)),
-        baca.staccato(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
-    commands(
-        "v1",
-        library.getato_pitches(5, [2]),
-    )
+    library.material_annotation_spanner_function(m[5], "A")
+    library.material_annotation_spanner_function(m[7], "A")
+    library.getato_pitches(5, [2], function=m.leaves())
+    with baca.scope(m[1, 14]) as o:
+        baca.dynamic_function(o.pleaf(0), "ff")
+        baca.markup_function(o.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup")
+    with baca.scope(m[15, 22]) as o:
+        baca.dynamic_function(o.pleaf(0), "f")
+        baca.markup_function(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
+    with baca.scope(m[23, 32]) as o:
+        baca.hairpin_function(o.tleaves(), "mf > pp")
+        baca.markup_function(o.tleaves()[0], r"\akasha-leggieriss-senza-scratch-markup")
+    with baca.scope(m[23, 39]) as o:
+        baca.staccato_function(o.pheads())
 
 
 def v2(m):
