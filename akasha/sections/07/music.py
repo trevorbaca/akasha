@@ -425,53 +425,35 @@ def vc(m):
         baca.staccato_function(o.pheads())
 
 
-def composites():
-    commands(
-        (["v1", "v2"], (8, 9)),
-        baca.dynamic("pp-ancora"),
-        baca.markup(r"\baca-tasto-plus-xfb-markup"),
-        baca.new(
-            baca.pitches("Eb5 F5"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitches("B4 C#5"),
-            match=1,
-        ),
-    )
-    commands(
+def composites(cache):
+    with baca.scope(cache["v1"][8, 9]) as o:
+        baca.pitches_function(o, "Eb5 F5")
+        baca.dynamic_function(o.phead(0), "pp-ancora")
+        baca.markup_function(o.phead(0), r"\baca-tasto-plus-xfb-markup")
+    with baca.scope(cache["v2"][8, 9]) as o:
+        baca.pitches_function(o, "B4 C#5"),
+        baca.dynamic_function(o.phead(0), "pp-ancora")
+        baca.markup_function(o.phead(0), r"\baca-tasto-plus-xfb-markup")
+    for leaves in cache.get(
         (["va", "vc"], (11, 34)),
-        library.material_annotation_spanner("B"),
-    )
-    commands(
         (["v1", "v2"], (23, 34)),
-        library.material_annotation_spanner("B"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (27, 34)),
-        baca.hairpin("mp < f"),
-        baca.text_spanner("trans. => scratch moltiss."),
-        baca.new(
-            baca.pitch("F5"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitch("F#4"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitch("D#4"),
-            match=2,
-        ),
-        baca.new(
-            baca.pitch("Db2"),
-            match=3,
-        ),
-    )
-    commands(
+    ):
+        library.material_annotation_spanner_function(leaves, "B")
+    for abbreviation in ["v1", "v2", "va", "vc"]:
+        with baca.scope(cache[abbreviation][27, 34]) as o:
+            baca.hairpin_function(o, "mp < f")
+        commands(
+            (abbreviation, (27, 34)),
+            baca.text_spanner("trans. => scratch moltiss."),
+        )
+    baca.pitch_function(cache["v1"][27, 34], "F5")
+    baca.pitch_function(cache["v2"][27, 34], "F#4")
+    baca.pitch_function(cache["va"][27, 34], "D#4")
+    baca.pitch_function(cache["vc"][27, 34], "Db2")
+    for leaves in cache.get(
         (["v1", "v2", "va", "vc"], 45),
-        library.material_annotation_spanner("A"),
-    )
+    ):
+        library.material_annotation_spanner_function(leaves, "A")
 
 
 def main():
@@ -490,7 +472,7 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
-    composites()
+    composites(cache)
 
 
 if __name__ == "__main__":
