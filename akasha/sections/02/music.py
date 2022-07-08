@@ -357,10 +357,7 @@ def v1(m):
     library.material_annotation_spanner_function(m[15], "C")
     library.material_annotation_spanner_function(m[17], "C")
     with baca.scope(m[11, 19]) as o:
-        baca.pitches_function(
-            baca.select.shown(o.leaves),
-            "D5 E5",
-        )
+        baca.pitches_function(o.leaves, "D5 E5")
 
 
 def v2(m):
@@ -380,10 +377,7 @@ def v2(m):
     library.material_annotation_spanner_function(m[17], "C")
     library.material_annotation_spanner_function(m[19], "C")
     with baca.scope(m[11, 19]) as o:
-        baca.pitches_function(
-            baca.select.shown(o.leaves),
-            "Bb4 C5",
-        )
+        baca.pitches_function(o.leaves, "Bb4 C5")
 
 
 def va(m):

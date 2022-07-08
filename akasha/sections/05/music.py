@@ -255,10 +255,7 @@ def VC(voice):
 def v1(m):
     with baca.scope(m[1, 17]) as o:
         baca.staff_lines_function(o.leaves[0], 5)
-        baca.pitch_function(
-            baca.select.shown(o.leaves),
-            "C#7",
-        )
+        baca.pitch_function(o.leaves, "C#7")
         runs = baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN)
         for run in runs:
             baca.ottava_function(run)
@@ -293,7 +290,7 @@ def v2(m):
             baca.dynamic_function(u.leaf, "ppp")
             baca.markup_function(u.leaf, r"\akasha-xp-plus-full-bow-strokes-markup")
     with baca.scope(m[38, 46]) as o:
-        baca.pitch_function(baca.select.shown(o.leaves), "G5")
+        baca.pitch_function(o.leaves, "G5")
         for run in baca.select.runs(o.leaves, exclude=baca.enums.HIDDEN):
             run = baca.select.rleaves(run)
             baca.trill_spanner_function(run, alteration="A5")
@@ -311,10 +308,7 @@ def va(m):
             o.leaves[0], r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"
         )
     with baca.scope(m[1, 31]) as o:
-        baca.pitch_function(
-            baca.select.shown(o.leaves),
-            "Gqf5",
-        )
+        baca.pitch_function(o.leaves, "Gqf5")
         baca.note_head_style_harmonic_function(o.leaves)
     with baca.scope(m[33, 36]) as o:
         baca.clef_function(o.leaves[0], "alto"),
@@ -337,10 +331,7 @@ def va(m):
 def vc(m):
     with baca.scope(m[1, 22]) as o:
         baca.clef_function(o.leaves[0], "treble")
-        baca.pitch_function(
-            baca.select.shown(o.leaves),
-            "D5",
-        )
+        baca.pitch_function(o.leaves, "D5")
         baca.note_head_style_harmonic_function(o.leaves)
         baca.dynamic_function(o.leaves[0], "mp")
         baca.markup_function(
