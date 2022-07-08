@@ -297,116 +297,68 @@ def v1(m):
         library.material_annotation_spanner_function(o.leaves, "C")
         loop = baca.Loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1])
         baca.pitches_function(o.leaves, loop)
-    commands(
-        ("v1", (11, 22)),
-        baca.new(
-            baca.hairpin("pp < p", remove_length_1_spanner_start=True),
-            map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
-        ),
-        baca.new(
-            baca.hairpin("p > pp", remove_length_1_spanner_start=True),
-            map=lambda _: abjad.select.get(baca.select.runs(_), [1], 2),
-        ),
-    )
-    commands(
-        ("v1", (23, 26)),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-        baca.pitch("E5"),
-    )
+        for i, run in enumerate(baca.select.runs(o.leaves)):
+            if i % 2 == 0:
+                baca.hairpin_function(run, "pp < p", remove_length_1_spanner_start=True)
+            else:
+                baca.hairpin_function(run, "p > pp", remove_length_1_spanner_start=True)
+    with baca.scope(m[23, 26]) as o:
+        baca.pitch_function(o.leaves, "E5")
+        baca.dynamic_function(o.pleaf(0), "mp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(29, [2], function=o.leaves)
-    commands(
-        ("v1", (36, 41)),
-        library.material_annotation_spanner("A"),
-        baca.hairpin(
-            "ff < fff",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-        baca.markup(r"\baca-pos-ord-markup"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
+        library.material_annotation_spanner_function(o.leaves, "A")
+        baca.hairpin_function(o.tleaves(), "ff < fff")
+        baca.markup_function(o.pleaf(0), r"\baca-pos-ord-markup")
+        baca.staccato_function(o.pheads())
     with baca.scope(m[45]) as o:
         library.getato_pitches(29, [2], function=o.leaves)
-    commands(
-        ("v1", 45),
-        baca.dynamic("pp"),
-        baca.markup(r"\baca-leggieriss-markup"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
+        baca.dynamic_function(o.pleaf(0), "pp")
+        baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
+        baca.staccato_function(o.pheads())
 
 
 def v2(m):
     with baca.scope(m[3, 4]) as o:
         library.getato_pitches(24, [2], function=o.leaves)
-    commands(
-        ("v2", (3, 4)),
-        library.material_annotation_spanner("A"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
-    commands(
-        ("v2", (8, 9)),
-        library.material_annotation_spanner("C"),
-    )
+        library.material_annotation_spanner_function(o.leaves, "A")
+        baca.staccato_function(o.pheads())
+    with baca.scope(m[8, 9]) as o:
+        library.material_annotation_spanner_function(o.leaves, "C")
     with baca.scope(m[11, 22]) as o:
         library.material_annotation_spanner_function(o.leaves, "C")
         loop = baca.Loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1])
         baca.pitches_function(o.leaves, loop)
-    commands(
-        ("v2", (11, 22)),
-        baca.new(
-            baca.hairpin("pp < p", remove_length_1_spanner_start=True),
-            map=lambda _: abjad.select.get(baca.select.runs(_), [0], 2),
-        ),
-        baca.new(
-            baca.hairpin("p > pp", remove_length_1_spanner_start=True),
-            map=lambda _: abjad.select.get(baca.select.runs(_), [1], 2),
-        ),
-    )
-    commands(
-        ("v2", (23, 26)),
-        baca.dynamic("mp"),
-        baca.markup(r"\baca-tasto-plus-half-scratch-markup"),
-        baca.pitch("F#4"),
-    )
+        for i, run in enumerate(baca.select.runs(o.leaves)):
+            if i % 2 == 0:
+                baca.hairpin_function(run, "pp < p", remove_length_1_spanner_start=True)
+            else:
+                baca.hairpin_function(run, "p > pp", remove_length_1_spanner_start=True)
+    with baca.scope(m[23, 26]) as o:
+        baca.pitch_function(o.leaves, "F#4")
+        baca.dynamic_function(o.pleaf(0), "mp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(26, [2], function=o.leaves)
-    commands(
-        ("v2", (36, 41)),
-        library.material_annotation_spanner("A"),
-        baca.hairpin(
-            "ff < fff",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-        baca.markup(r"\baca-pos-ord-markup"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
+        library.material_annotation_spanner_function(o.leaves, "A")
+        baca.hairpin_function(o.tleaves(), "ff < fff")
+        baca.markup_function(o.pleaf(0), r"\baca-pos-ord-markup")
+        baca.staccato_function(o.pheads())
     with baca.scope(m[45]) as o:
         library.getato_pitches(26, [2], function=o.leaves)
-    commands(
-        ("v2", 45),
-        baca.dynamic("pp"),
-        baca.markup(r"\baca-leggieriss-markup"),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
+        baca.dynamic_function(o.phead(0), "pp")
+        baca.markup_function(o.phead(0), r"\baca-leggieriss-markup")
+        baca.staccato_function(o.pheads())
 
 
 def va(m):
-    commands(
-        "va",
-        baca.staff_lines(5),
-    )
-    commands(
-        ("va", 6),
-        library.material_annotation_spanner("A"),
-        baca.dynamic("ff"),
-        baca.markup(r"\akasha-scratch-moltiss-explanation-markup"),
-        baca.pitch("F#3"),
-    )
+    baca.staff_lines_function(m[1][0], 5)
+    with baca.scope(m[6]) as o:
+        baca.pitch_function(o.leaves, "F#3")
+        library.material_annotation_spanner_function(o.leaves, "A")
+        baca.dynamic_function(o.phead(0), "ff")
+        baca.markup_function(o.phead(0), r"\akasha-scratch-moltiss-explanation-markup")
     commands(
         ("va", (11, 26)),
         baca.dynamic("mp"),
