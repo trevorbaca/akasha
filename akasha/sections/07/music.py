@@ -288,19 +288,15 @@ def VC(voice):
 
 
 def v1(m):
-    commands(
-        ("v1", (3, 4)),
-        library.material_annotation_spanner("A"),
-        library.getato_pitches(27, [2]),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    )
-    commands(
-        ("v1", (8, 9)),
-        library.material_annotation_spanner("C"),
-    )
+    with baca.scope(m[3, 4]) as o:
+        library.material_annotation_spanner_function(o.leaves, "A")
+        library.getato_pitches(27, [2], function=o.leaves)
+        baca.staccato_function(o.pheads())
+    library.material_annotation_spanner_function(m[8, 9], "C")
+    with baca.scope(m[11, 22]) as o:
+        library.material_annotation_spanner_function(o.leaves, "C")
     commands(
         ("v1", (11, 22)),
-        library.material_annotation_spanner("C"),
         baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
         baca.new(
             baca.hairpin("pp < p", remove_length_1_spanner_start=True),
