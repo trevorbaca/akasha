@@ -351,9 +351,8 @@ def v1(m):
     library.material_annotation_spanner_function(m[9], "A")
     with baca.scope(m[11, 13]) as o:
         library.material_annotation_spanner_function(o.leaves, "C")
-        with baca.scope(baca.select.pleaf(o.leaves, 0)) as u:
-            baca.dynamic_function(u.leaf, "pp")
-            baca.markup_function(u.leaf, r"\baca-tasto-plus-xfb-markup")
+        baca.dynamic_function(o.pleaf(0), "pp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
     library.material_annotation_spanner_function(m[15], "C")
     library.material_annotation_spanner_function(m[17], "C")
     with baca.scope(m[11, 19]) as o:
@@ -370,9 +369,8 @@ def v2(m):
         baca.pitches_function(o.leaves, "C#4 C#+4", exact=True)
     with baca.scope(m[11, 13]) as o:
         library.material_annotation_spanner_function(o.leaves, "C")
-        with baca.scope(baca.select.pleaf(o.leaves, 0)) as u:
-            baca.dynamic_function(u.leaf, "pp")
-            baca.markup_function(u.leaf, r"\baca-tasto-plus-xfb-markup")
+        baca.dynamic_function(o.pleaf(0), "pp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
     library.material_annotation_spanner_function(m[15], "C")
     library.material_annotation_spanner_function(m[17], "C")
     library.material_annotation_spanner_function(m[19], "C")
@@ -400,9 +398,8 @@ def vc(m):
     with baca.scope(m[1, 2]) as o:
         library.cello_solo_pitches(function=o.leaves)
         library.material_annotation_spanner_function(o.leaves, "B")
-        with baca.scope(baca.select.pleaf(o.leaves, 0)) as u:
-            baca.dynamic_function(u.leaf, "mp")
-            baca.markup_function(u.leaf, r"\baca-tasto-plus-half-scratch-markup")
+        baca.dynamic_function(o.pleaf(0), "mp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[9]) as o:
         library.material_annotation_spanner_function(o.leaves, "B")
         baca.pitches_function(o.leaves, "C4 C~4 B3", exact=True)
@@ -423,24 +420,20 @@ def composites(cache):
     with baca.scope(
         [cache["v2"][4], cache["va"][4], cache["v1"][9], cache["vc"][19]]
     ) as o:
-        baca.staccato_function(
-            baca.select.pheads(o.groups),
-        )
-        library.getato_pitches(
-            -2,
-            [0],
-            function=o.groups,
-        )
-        for group in o.groups:
+        baca.staccato_function(baca.select.pheads(o))
+        library.getato_pitches(-2, [0], function=o)
+        for group in o:
             baca.dynamic_function(
                 baca.select.pleaf(group, 0),
                 "p",
             )
     with baca.scope([cache["v1"][6], cache["v2"][6], cache["va"][6]]) as o:
-        for group in o.groups:
-            with baca.scope(baca.select.pleaf(group, 0)) as u:
-                baca.dynamic_function(u.leaf, "mp")
-                baca.markup_function(u.leaf, r"\baca-tasto-plus-half-scratch-markup")
+        for group in o:
+            with baca.scope(group) as u:
+                baca.dynamic_function(u.pleaf(0), "mp")
+                baca.markup_function(
+                    u.pleaf(0), r"\baca-tasto-plus-half-scratch-markup"
+                )
 
 
 def main():

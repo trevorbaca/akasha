@@ -154,15 +154,13 @@ def v2(m):
     with baca.scope(m[1, 3]) as o:
         library.material_annotation_spanner_function(o.leaves, "B")
         baca.pitches_function(o.leaves, "D#4 E4 F4 F~4 E4", exact=True)
-        with baca.scope(o.leaves[0]) as u:
-            baca.dynamic_function(u.leaf, "mp")
-            baca.markup_function(u.leaf, r"\baca-tasto-plus-half-scratch-markup")
+        baca.dynamic_function(o.pleaf(0), "mp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[10, 11]) as o:
         library.material_annotation_spanner_function(o.leaves, "C")
-        baca.pitches_function(o.leaves, "C5 Bb4")
-        with baca.scope(o.leaves[0]) as u:
-            baca.dynamic_function(u.leaf, "pp")
-            baca.markup_function(u.leaf, r"\baca-tasto-plus-xfb-markup")
+        baca.pitches_function(o, "C5 Bb4")
+        baca.dynamic_function(o.pleaf(0), "pp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
 
 
 def va(m):
@@ -189,9 +187,8 @@ def vc(m):
     with baca.scope(m[11]) as o:
         library.material_annotation_spanner_function(o.leaves, "D")
         baca.pitches_function(o.leaves, "C#2")
-        with baca.scope(o.leaves[0]) as u:
-            baca.dynamic_function(u.leaf, "mp")
-            baca.markup_function(u.leaf, r"\baca-tasto-markup")
+        baca.dynamic_function(o.pleaf(0), "mp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-markup")
 
 
 def main():
