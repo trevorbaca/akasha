@@ -15694,10 +15694,6 @@ number.6.Cello.Music = {
     % [Cello.Music measure 19]
       %! akasha.make_dense_getato_rhythm()
     r4.
-    % AFTER:
-    % MARKUP:
-      %! baca.markup()
-    ^ \baca-leggieriss-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -15712,6 +15708,9 @@ number.6.Cello.Music = {
     % ARTICULATIONS:
       %! baca.staccato()
     - \staccato
+    % MARKUP:
+      %! baca.markup()
+    ^ \baca-leggieriss-markup
     % START_BEAM:
       %! akasha.make_dense_getato_rhythm()
     [

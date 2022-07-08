@@ -402,12 +402,13 @@ def vc(m):
     with baca.scope(m[15, 18]) as o:
         baca.dynamic_function(o.pleaf(0), "mf")
         baca.markup_function(o.pleaf(0), r"\akasha-senza-scratch-markup")
+    with baca.scope(m[19]) as o:
+        baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
     with baca.scope(m[15, 39]) as o:
         baca.staccato_function(o.pheads())
     baca.clef_function(m[27][0], "treble")
     with baca.scope(m[23, 32]) as o:
         baca.hairpin_function(o.tleaves(), "mf > pp")
-    baca.markup_function(m[19][0], r"\baca-leggieriss-markup")
 
 
 def composites(cache):
