@@ -54,15 +54,11 @@ def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP, function=N
     assert all(isinstance(_, int) for _ in pitch_numbers), pitch_numbers
     if function:
         loop = baca.Loop(pitch_numbers, intervals)
-        baca.pitches_function(
-            baca.select.plts(function, exclude=baca.enums.HIDDEN),
-            loop,
-        )
+        baca.pitches_function(function, loop)
     else:
         return baca.loop(
             pitch_numbers,
             intervals,
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
         )
 
 
@@ -83,10 +79,7 @@ def harmonic_glissando_pitches(
             pitch_numbers,
         )
     else:
-        return baca.pitches(
-            pitch_numbers,
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-        )
+        return baca.pitches(pitch_numbers)
 
 
 def instruments():
