@@ -284,10 +284,7 @@ def va(m):
 
 def vc(m):
     with baca.scope(m[1, 12]) as o:
-        baca.pitches_function(
-            baca.select.shown(o.leaves),
-            "C#2",
-        )
+        baca.pitches_function(o.leaves, "C#2")
     for n in [1, 3, 5, 7]:
         library.material_annotation_spanner_function(m[n], "D")
     with baca.scope(m[9, 12]) as o:
@@ -328,10 +325,7 @@ def composites(cache):
             library.material_annotation_spanner_function(group, "E")
     with baca.scope([cache["v1"][9, 26], cache["v2"][9, 24]]) as o:
         for group in o.groups:
-            baca.staff_position_function(
-                baca.select.shown(group),
-                0,
-            )
+            baca.staff_position_function(group, 0)
             with baca.scope(group[0]) as u:
                 baca.staff_lines_function(u.leaf, 1)
                 baca.dynamic_function(u.leaf, '"mf"')
