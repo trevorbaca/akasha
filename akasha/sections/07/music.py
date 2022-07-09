@@ -442,10 +442,7 @@ def composites(cache):
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][27, 34]) as o:
             baca.hairpin_function(o, "mp < f")
-        commands(
-            (abbreviation, (27, 34)),
-            baca.text_spanner("trans. => scratch moltiss."),
-        )
+            baca.text_spanner_function(o, "trans. => scratch moltiss.")
     baca.pitch_function(cache["v1"][27, 34], "F5")
     baca.pitch_function(cache["v2"][27, 34], "F#4")
     baca.pitch_function(cache["va"][27, 34], "D#4")
@@ -495,6 +492,7 @@ if __name__ == "__main__":
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
         error_on_not_yet_pitched=True,
+        empty_accumulator=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_topmost_staff=True,
