@@ -200,6 +200,70 @@ def VC(voice):
     voice.extend(music)
 
 
+def v1(m):
+    baca.pitch_function(m[41, 52], "A5")
+    with baca.scope(m[53, 68]) as o:
+        baca.pitch_function(o, "B7")
+        baca.note_head_style_harmonic_function(o)
+    with baca.scope(m[53, 54]) as o:
+        baca.ottava_function(o)
+        baca.hairpin_function(o, "sffp < f")
+        baca.trill_spanner_function(o.rleak())
+        baca.markup_function(
+            o.pleaf(0), r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup"
+        )
+    with baca.scope(m[56, 68]) as o:
+        baca.ottava_function(o)
+        baca.ottava_bracket_staff_padding_function(o, 12)
+
+
+def v2(m):
+    baca.pitch_function(m[41, 50], "A4")
+    with baca.scope(m[51, 68]) as o:
+        baca.note_head_style_harmonic_function(o)
+        baca.pitch_function(o, "C#7")
+    with baca.scope(m[51, 54]) as o:
+        baca.ottava_function(o)
+        baca.markup_function(
+            o.pleaf(0), r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup"
+        )
+        baca.trill_spanner_function(o.rleak())
+        baca.hairpin_function(o.leaves()[:4], "sffp < f")
+    with baca.scope(m[56, 68]) as o:
+        baca.ottava_function(o)
+        baca.ottava_bracket_staff_padding_function(o, 10)
+
+
+def va(m):
+    baca.pitch_function(m[41, 48], "A2")
+    with baca.scope(m[49, 54]) as o:
+        baca.clef_function(o.leaf(0), "treble")
+        baca.markup_function(
+            o.pleaf(0), r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup"
+        )
+        baca.trill_spanner_function(o.rleak())
+    with baca.scope(m[49, 52]) as o:
+        baca.hairpin_function(o.leaves()[:4], "sffp < f")
+    with baca.scope(m[49, 68]) as o:
+        baca.pitch_function(o, "G~5")
+        baca.note_head_style_harmonic_function(o)
+
+
+def vc(m):
+    baca.pitch_function(m[41, 45], "A1")
+    with baca.scope(m[47, 68]) as o:
+        baca.pitch_function(o, "D5")
+        baca.note_head_style_harmonic_function(o)
+    with baca.scope(m[47, 54]) as o:
+        baca.clef_function(o.leaf(0), "treble")
+        baca.trill_spanner_function(o.rleak())
+        baca.markup_function(
+            o.pleaf(0), r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup"
+        )
+    with baca.scope(m[47, 50]) as o:
+        baca.hairpin_function(o.leaves()[:4], "sffp < f")
+
+
 def composites():
     commands(
         (["v1", "v2", "va", "vc"], (1, 28)),
@@ -330,66 +394,6 @@ def composites():
         ),
     )
     commands(
-        ("v1", (41, 52)),
-        baca.pitch(
-            "A5",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    commands(
-        ("v1", (53, 68)),
-        baca.new(
-            baca.note_head_style_harmonic(),
-            baca.pitch("B7"),
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
-    commands(
-        ("v2", (41, 50)),
-        baca.pitch(
-            "A4",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    commands(
-        ("v2", (51, 68)),
-        baca.new(
-            baca.note_head_style_harmonic(),
-            baca.pitch("C#7"),
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
-    commands(
-        ("va", (41, 48)),
-        baca.pitch(
-            "A2",
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
-    commands(
-        ("va", (49, 68)),
-        baca.new(
-            baca.note_head_style_harmonic(),
-            baca.pitch("G~5"),
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
-    commands(
-        ("vc", (41, 45)),
-        baca.new(
-            baca.pitch("A1"),
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    commands(
-        ("vc", (47, 68)),
-        baca.new(
-            baca.note_head_style_harmonic(),
-            baca.pitch("D5"),
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
-    commands(
         (["v1", "v2", "va", "vc"], (41, 45)),
         baca.hairpin(
             "sffp > pp",
@@ -403,70 +407,6 @@ def composites():
     commands(
         (["v1", "v2", "va", "vc"], (1, 46)),
         baca.text_spanner_staff_padding(4),
-    )
-    commands(
-        ("vc", (47, 54)),
-        baca.markup(r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup"),
-        baca.trill_spanner(),
-        baca.clef("treble"),
-    )
-    commands(
-        ("vc", (47, 50)),
-        baca.hairpin(
-            "sffp < f",
-            selector=lambda _: baca.select.leaves(_)[:4],
-        ),
-    )
-    commands(
-        ("va", (49, 54)),
-        baca.markup(r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup"),
-        baca.trill_spanner(),
-        baca.clef("treble"),
-    )
-    commands(
-        ("va", (49, 52)),
-        baca.hairpin(
-            "sffp < f",
-            selector=lambda _: baca.select.leaves(_)[:4],
-        ),
-    )
-    commands(
-        ("v2", (51, 54)),
-        baca.ottava(),
-    )
-    commands(
-        ("v2", (51, 54)),
-        baca.markup(r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup"),
-        baca.trill_spanner(),
-    )
-    commands(
-        ("v2", (51, 54)),
-        baca.hairpin(
-            "sffp < f",
-            selector=lambda _: baca.select.leaves(_)[:4],
-        ),
-    )
-    commands(
-        ("v1", (53, 54)),
-        baca.ottava(),
-    )
-    commands(
-        ("v1", (53, 54)),
-        baca.markup(r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup"),
-        baca.trill_spanner(),
-        baca.hairpin("sffp < f"),
-    )
-    commands(
-        (["v1", "v2"], (56, 68)),
-        baca.new(
-            baca.ottava_bracket_staff_padding(12),
-            match=0,
-        ),
-        baca.new(
-            baca.ottava_bracket_staff_padding(10),
-            match=1,
-        ),
-        baca.ottava(),
     )
     commands(
         (["v1", "v2", "va", "vc"], (56, 60)),
@@ -501,7 +441,7 @@ def composites():
         baca.trill_spanner(),
     )
     commands(
-        (["v1", "v2", "va", "vc"], (56, -1)),
+        (["v1", "v2", "va", "vc"], (56, 69)),
         baca.new(
             baca.text_spanner_staff_padding(9.5),
             match=0,
@@ -528,6 +468,15 @@ def main():
     VC(commands.voice("vc"))
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
     baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    v1(cache["v1"])
+    v2(cache["v2"])
+    va(cache["va"])
+    vc(cache["vc"])
     composites()
 
 
