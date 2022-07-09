@@ -156,19 +156,15 @@ def v1(m):
         library.material_annotation_spanner_function(o, "A")
         library.getato_pitches(31, [2], function=o)
         baca.hairpin_function(o.tleaves(), "pp >o niente")
-    commands(
-        ("v1", (5, 7)),
-        baca.text_spanner("tasto + 1/4 scratch => tasto"),
-    )
+    with baca.scope(m[5, 7]) as o:
+        baca.text_spanner_function(o, "tasto + 1/4 scratch => tasto")
     with baca.scope(m[5, 13]) as o:
         loop = baca.Loop([17, 19, 17, 15, 18, 16], [1])
         baca.pitches_function(o, loop)
         baca.glissando_function(o)
-    commands(
-        ("v1", (15, 16)),
-        baca.dynamic("ppp"),
-        baca.pitch("F#5"),
-    )
+    with baca.scope(m[15, 16]) as o:
+        baca.pitch_function(o, "F#5")
+        baca.dynamic_function(o.pleaf(0), "ppp")
 
 
 def v2(m):
@@ -176,31 +172,24 @@ def v2(m):
         loop = baca.Loop([6, 3, 5, 3, 1, 4], [1])
         baca.pitches_function(o, loop)
         baca.glissando_function(o)
-    commands(
-        ("v2", (15, 16)),
-        baca.dynamic("ppp"),
-        baca.pitch("Ab4"),
-    )
+    with baca.scope(m[15, 16]) as o:
+        baca.pitch_function(o, "Ab4")
+        baca.dynamic_function(o.pleaf(0), "ppp")
 
 
 def va(m):
-    commands(
-        "va",
-        baca.clef("alto"),
-        baca.staff_lines(5),
-    )
     with baca.scope(m[1, 13]) as o:
+        baca.clef_function(o.leaf(0), "alto")
+        baca.staff_lines_function(o.leaf(0), 5)
         loop = baca.Loop([3, 5, 2, 4, 2, 0], [1])
         baca.pitches_function(o, loop)
         baca.glissando_function(o)
-    commands(
-        ("va", (15, 16)),
-        baca.down_bow(),
-        baca.dynamic('"mf"'),
-        baca.markup(r"\baca-ob-markup"),
-        baca.staff_lines(1),
-        baca.staff_position(0),
-    )
+    with baca.scope(m[15, 16]) as o:
+        baca.down_bow_function(o.pleaf(0))
+        baca.dynamic_function(o.pleaf(0), '"mf"')
+        baca.markup_function(o.pleaf(0), r"\baca-ob-markup")
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.staff_position_function(o, 0)
 
 
 def vc(m):
@@ -209,53 +198,39 @@ def vc(m):
         loop = baca.Loop([-23, -21, -19, -22, -20, -22], [-1])
         baca.pitches_function(o, loop)
         baca.glissando_function(o)
-    commands(
-        ("vc", (15, 16)),
-        baca.dynamic("ppp"),
-        baca.pitch("C#2"),
-    )
+    with baca.scope(m[15, 16]) as o:
+        baca.pitch_function(o, "C#2")
+        baca.dynamic_function(o.pleaf(0), "ppp")
 
 
-def composites():
-    commands(
-        (["v2", "va", "vc"], (1, 4)),
-        baca.hairpin("ff > f"),
-        baca.text_spanner("tasto + scratch moltiss. => tasto + 1/4 scratch"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (5, 7)),
-        baca.hairpin("f > mf"),
-    )
-    commands(
-        (["v2", "va", "vc"], (5, 7)),
-        baca.text_spanner("trans. => tasto"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (8, 10)),
-        baca.hairpin("mf > p"),
-        baca.text_spanner("trans. => FB"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (11, 13)),
-        baca.hairpin("p > pp"),
-        baca.text_spanner("trans. => XFB"),
-    )
-    commands(
+def composites(cache):
+    for abbreviation in ["v2", "va", "vc"]:
+        with baca.scope(cache[abbreviation][1, 4]) as o:
+            baca.hairpin_function(o, "ff > f")
+            baca.text_spanner_function(
+                o, "tasto + scratch moltiss. => tasto + 1/4 scratch"
+            )
+    for abbreviation in ["v1", "v2", "va", "vc"]:
+        with baca.scope(cache[abbreviation][5, 7]) as o:
+            baca.hairpin_function(o, "f > mf")
+    for abbreviation in ["v2", "va", "vc"]:
+        with baca.scope(cache[abbreviation][5, 7]) as o:
+            baca.text_spanner_function(o, "trans. => tasto")
+    for abbreviation in ["v1", "v2", "va", "vc"]:
+        with baca.scope(cache[abbreviation][8, 10]) as o:
+            baca.hairpin_function(o, "mf > p")
+            baca.text_spanner_function(o, "trans. => FB")
+    for abbreviation in ["v1", "v2", "va", "vc"]:
+        with baca.scope(cache[abbreviation][11, 13]) as o:
+            baca.hairpin_function(o, "p > pp")
+            baca.text_spanner_function(o, "trans. => XFB")
+    for leaves in cache.get(
         ("v1", [(5, 13), (15, 17)]),
-        library.material_annotation_spanner("B"),
-    )
-    commands(
         (["v2", "vc"], [(1, 13), (15, 17)]),
-        library.material_annotation_spanner("B"),
-    )
-    commands(
         ("va", (1, 13)),
-        library.material_annotation_spanner("B"),
-    )
-    commands(
-        ("va", (15, 17)),
-        library.material_annotation_spanner("E"),
-    )
+    ):
+        library.material_annotation_spanner_function(leaves, "B")
+    library.material_annotation_spanner_function(cache["va"][15, 17], "E")
 
 
 def main():
@@ -277,7 +252,7 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
-    composites()
+    composites(cache)
 
 
 if __name__ == "__main__":
@@ -293,6 +268,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         color_octaves=False,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,

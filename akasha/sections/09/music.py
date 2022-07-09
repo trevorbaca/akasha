@@ -125,80 +125,57 @@ def VC(voice):
     voice.extend(music)
 
 
+def _1_2(m, pitches):
+    with baca.scope(m[1, 2]) as o:
+        baca.pitches_function(o, pitches)
+        baca.dynamic_function(o.pleaf(0), "p")
+        baca.markup_function(o.pleaf(0), r"\baca-xfb-markup")
+        library.material_annotation_spanner_function(o, "C")
+
+
 def v1(m):
-    commands(
-        ("v1", 3),
-        baca.dynamic("ppp"),
-        baca.pitch("F#5"),
-    )
+    _1_2(m, "D4 E4")
+    with baca.scope(m[3]) as o:
+        baca.pitch_function(o, "F#5")
+        baca.dynamic_function(o.pleaf(0), "ppp")
 
 
 def v2(m):
-    commands(
-        ("v2", 3),
-        baca.dynamic("ppp"),
-        baca.pitch("Ab4"),
-    )
+    _1_2(m, "C#4 D#4")
+    with baca.scope(m[3]) as o:
+        baca.pitch_function(o, "Ab4")
+        baca.dynamic_function(o.pleaf(0), "ppp")
 
 
 def va(m):
-    commands(
-        ("va", (1, 3)),
-        baca.staff_position(0),
-        library.material_annotation_spanner("E"),
-    )
-    commands(
-        ("va", (5, 6)),
-        baca.pitches("D#3 C+3", exact=True),
-        baca.glissando(),
-        baca.hairpin("mp > pp"),
-        baca.markup(r"\baca-tasto-markup"),
-        baca.staff_lines(5),
-    )
+    with baca.scope(m[1, 3]) as o:
+        baca.staff_position_function(o, 0)
+        library.material_annotation_spanner_function(o, "E")
+    with baca.scope(m[5, 6]) as o:
+        baca.pitches_function(o, "D#3 C+3", exact=True)
+        baca.glissando_function(o)
+        baca.hairpin_function(o, "mp > pp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-markup")
+        baca.staff_lines_function(o.leaf(0), 5)
 
 
 def vc(m):
-    commands(
-        ("vc", 3),
-        baca.dynamic("ppp"),
-        baca.pitch("C#2"),
-    )
-    commands(
-        ("vc", (5, 6)),
-        baca.pitches("C#2 Bb1", exact=True),
-        baca.glissando(),
-        baca.hairpin("mp > pp"),
-        baca.markup(r"\baca-tasto-markup"),
-    )
+    _1_2(m, "C4 D4")
+    with baca.scope(m[3]) as o:
+        baca.pitch_function(o, "C#2")
+        baca.dynamic_function(o.pleaf(0), "ppp")
+    with baca.scope(m[5, 6]) as o:
+        baca.pitches_function(o, "C#2 Bb1", exact=True)
+        baca.glissando_function(o)
+        baca.hairpin_function(o, "mp > pp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-markup")
 
 
-def composites():
-    commands(
-        (["v1", "v2", "vc"], (1, 2)),
-        baca.dynamic("p"),
-        baca.markup(r"\baca-xfb-markup"),
-        library.material_annotation_spanner("C"),
-        baca.new(
-            baca.pitches("D4 E4"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitches("C#4 D#4"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitches("C4 D4"),
-            match=2,
-        ),
-    )
-    commands(
-        (["v1", "v2", "vc"], 3),
-        library.material_annotation_spanner("B"),
-    )
-    commands(
-        (["va", "vc"], (5, 6)),
-        library.material_annotation_spanner("D"),
-    )
+def composites(cache):
+    for abbreviation in ["v1", "v2", "vc"]:
+        library.material_annotation_spanner_function(cache[abbreviation][3], "B")
+    for abbreviation in ["va", "vc"]:
+        library.material_annotation_spanner_function(cache[abbreviation][5, 6], "D")
 
 
 def main():
@@ -217,7 +194,7 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
-    composites()
+    composites(cache)
 
 
 if __name__ == "__main__":
@@ -232,6 +209,7 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,

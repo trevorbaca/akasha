@@ -257,254 +257,167 @@ def VC(voice):
     voice.extend(music)
 
 
+def _1_2(m, pitch):
+    with baca.scope(m[1, 2]) as o:
+        baca.pitch_function(o, pitch)
+        baca.hairpin_function(o, "sfp < f")
+        baca.text_spanner_function(o, "PO + senza vib. => vib. moltiss.")
+        library.material_annotation_spanner_function(o, "D")
+
+
+def _4_5(m, pitch):
+    with baca.scope(m[4, 5]) as o:
+        baca.pitch_function(o, pitch)
+        baca.hairpin_function(o, "sfp < f")
+        baca.text_spanner_function(o, "senza vib. => vib. moltiss.")
+        library.material_annotation_spanner_function(o, "D")
+
+
+def _8_10(m, pitch):
+    with baca.scope(m[8, 10]) as o:
+        baca.pitch_function(o, pitch)
+        baca.hairpin_function(o, "sfp < f")
+        baca.text_spanner_function(o, "senza vib. => vib. moltiss.")
+        library.material_annotation_spanner_function(o, "D")
+
+
+def _17_20(m):
+    baca.text_spanner_function(m[17, 20], "trans. => XP")
+
+
+def _21_22(m):
+    with baca.scope(m[21, 22]) as o:
+        library.material_annotation_spanner_function(o, "B")
+        baca.hairpin_function(o, "ppp < mp")
+        baca.markup_function(o.pleaf(0), r"\akasha-xp-plus-fb-markup")
+
+
+def _25_26(m):
+    with baca.scope(m[25, 26]) as o:
+        library.material_annotation_spanner_function(o, "B")
+        baca.hairpin_function(o, "ppp < mp")
+        baca.text_spanner_function(o, "XP+FB => tasto+FB")
+
+
+def _28_29(m, pitch):
+    with baca.scope(m[28, 29]) as o:
+        baca.pitches_function(o, pitch)
+        library.material_annotation_spanner_function(o, "C")
+        baca.dynamic_function(o.pleaf(0), "p")
+
+
+def _31_32(m):
+    with baca.scope(m[31, 32]) as o:
+        baca.hairpin_function(o, "ppp < mp")
+        baca.text_spanner_function(o, "trans. => tasto + 1/2 scratch")
+
+
+def _33_34(m):
+    with baca.scope(m[33, 34]) as o:
+        baca.hairpin_function(o, "mp < mf")
+        baca.text_spanner_function(o, "trans. => scratch moltiss.")
+
+
 def v1(m):
-    commands(
-        ("v1", (8, 20)),
-        library.material_annotation_spanner("E"),
-        baca.alternate_bow_strokes(),
-    )
-    commands(
-        ("v1", (11, 12)),
-        baca.text_spanner("trans. => 3/4OB"),
-    )
-    commands(
-        ("v1", (15, 16)),
-        baca.text_spanner("trans. => 1/2OB"),
-    )
-    commands(
-        ("v1", (8, 22)),
-        baca.dynamic("ppp"),
-        baca.markup(r"\baca-ob-markup"),
-        baca.pitch(
-            "B4",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
+    _1_2(m, "B5")
+    _4_5(m, "B5")
+    with baca.scope(m[8, 20]) as o:
+        library.material_annotation_spanner_function(o, "E")
+        baca.alternate_bow_strokes_function(o)
+    baca.text_spanner_function(m[11, 12], "trans. => 3/4OB")
+    baca.text_spanner_function(m[15, 16], "trans. => 1/2OB")
+    with baca.scope(m[8, 22]) as o:
+        baca.pitch_function(o, "B4")
+        baca.dynamic_function(o.pleaf(0), "ppp")
+        baca.markup_function(o.pleaf(0), r"\baca-ob-markup")
+    _17_20(m)
+    _21_22(m)
     with baca.scope(m[23, 24]) as o:
         library.material_annotation_spanner_function(o, "A")
         library.getato_pitches(31, [2], function=o)
         baca.dynamic_function(o.pleaf(0), "ppp")
         baca.markup_function(o.pleaf(0), r"\akasha-leggieriss-plus-po-markup")
         baca.staccato_function(o.pheads())
-    commands(
-        ("v1", (25, 26)),
-        baca.pitch(
-            "B4",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
+    baca.pitch_function(m[25, 26], "B4")
+    _25_26(m)
+    _28_29(m, "D#4 E#4")
+    _31_32(m)
+    _33_34(m)
+    baca.pitch_function(m[31, 36], "B4")
 
 
 def v2(m):
-    commands(
-        ("v2", (13, 20)),
-        library.material_annotation_spanner("E"),
-        baca.alternate_bow_strokes(downbow_first=False),
-    )
-    commands(
-        ("v2", (15, 16)),
-        baca.text_spanner("trans. => 3/4OB"),
-    )
-    commands(
-        ("v2", (13, 27)),
-        baca.dynamic("ppp"),
-        baca.markup(r"\baca-ob-markup"),
-        baca.pitch(
-            "B3",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
+    _1_2(m, "A#+3")
+    _4_5(m, "B3")
+    _8_10(m, "A#+3")
+    with baca.scope(m[13, 20]) as o:
+        library.material_annotation_spanner_function(o, "E")
+        baca.alternate_bow_strokes_function(o, downbow_first=False)
+    baca.text_spanner_function(m[15, 16], "trans. => 3/4OB")
+    with baca.scope(m[13, 27]) as o:
+        baca.pitch_function(o, "B3")
+        baca.dynamic_function(o.pleaf(0), "ppp")
+        baca.markup_function(o.pleaf(0), r"\baca-ob-markup")
+    _17_20(m)
+    _21_22(m)
+    _25_26(m)
+    _28_29(m, "D4 E4")
+    _31_32(m)
+    _33_34(m)
+    baca.pitch_function(m[31, 36], "B3")
 
 
 def va(m):
-    commands(
-        ("va", (4, 20)),
-        library.material_annotation_spanner("E"),
-    )
-    commands(
-        ("va", (4, 20)),
-        baca.alternate_bow_strokes(),
-    )
-    commands(
-        ("va", (6, 7)),
-        baca.text_spanner("trans. => 3/4OB"),
-    )
-    commands(
-        ("va", (11, 12)),
-        baca.text_spanner("trans. => 1/2OB"),
-    )
-    commands(
-        ("va", (15, 16)),
-        baca.text_spanner("trans. => 1/4OB"),
-    )
-    commands(
-        ("va", (4, 27)),
-        baca.dynamic("ppp"),
-        baca.markup(r"\baca-ob-markup"),
-        baca.pitch(
-            "B2",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
+    _1_2(m, "B+2")
+    with baca.scope(m[4, 20]) as o:
+        library.material_annotation_spanner_function(o, "E")
+        baca.alternate_bow_strokes_function(o)
+    baca.text_spanner_function(m[6, 7], "trans. => 3/4OB")
+    baca.text_spanner_function(m[11, 12], "trans. => 1/2OB")
+    baca.text_spanner_function(m[15, 16], "trans. => 1/4OB")
+    _17_20(m)
+    _21_22(m)
+    _25_26(m)
+    with baca.scope(m[4, 27]) as o:
+        baca.pitch_function(o, "B2")
+        baca.dynamic_function(o.pleaf(0), "ppp")
+        baca.markup_function(o.pleaf(0), r"\baca-ob-markup")
+    _28_29(m, "C#4 D#4")
+    _31_32(m)
+    _33_34(m)
+    baca.pitch_function(m[31, 36], "B2")
 
 
 def vc(m):
-    commands(
-        ("vc", (13, 14)),
-        library.material_annotation_spanner("D"),
-        baca.pitch("B1"),
-        baca.hairpin("sfp < f"),
-        baca.text_spanner("senza vib. => vib. moltiss."),
-    )
-    commands(
-        ("vc", (17, 20)),
-        library.material_annotation_spanner("E"),
-        baca.alternate_bow_strokes(),
-        baca.dynamic("ppp"),
-        baca.text_spanner("OB => XP"),
-    )
-    commands(
-        ("vc", (17, 27)),
-        baca.pitch(
-            "B1",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
+    _1_2(m, "B1")
+    _4_5(m, "B1")
+    _8_10(m, "B1")
+    with baca.scope(m[13, 14]) as o:
+        library.material_annotation_spanner_function(o, "D")
+        baca.pitch_function(o, "B1")
+        baca.hairpin_function(o, "sfp < f")
+        baca.text_spanner_function(o, "senza vib. => vib. moltiss.")
+    with baca.scope(m[17, 20]) as o:
+        library.material_annotation_spanner_function(o, "E")
+        baca.alternate_bow_strokes_function(o)
+        baca.dynamic_function(o.pleaf(0), "ppp")
+        baca.text_spanner_function(o, "OB => XP")
+    _21_22(m)
+    _25_26(m)
+    baca.pitch_function(m[17, 27], "B1")
+    _28_29(m, "C4 D4")
+    _31_32(m)
+    _33_34(m)
+    baca.pitch_function(m[31, 36], "B1")
 
 
-def composites():
-    commands(
-        (["v1", "v2", "va", "vc"], (1, 2)),
-        library.material_annotation_spanner("D"),
-        baca.hairpin("sfp < f"),
-        baca.text_spanner("PO + senza vib. => vib. moltiss."),
-        baca.new(
-            baca.pitch("B5"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitch("A#+3"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitch("B+2"),
-            match=2,
-        ),
-        baca.new(
-            baca.pitch("B1"),
-            match=3,
-        ),
-    )
-    commands(
-        (["v1", "v2", "vc"], (4, 5)),
-        baca.hairpin("sfp < f"),
-        baca.text_spanner("senza vib. => vib. moltiss."),
-        library.material_annotation_spanner("D"),
-        baca.new(
-            baca.pitch("B5"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitch("B3"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitch("B1"),
-            match=2,
-        ),
-    )
-    commands(
-        (["v2", "vc"], (8, 10)),
-        baca.hairpin("sfp < f"),
-        baca.text_spanner("senza vib. => vib. moltiss."),
-        library.material_annotation_spanner("D"),
-        baca.new(
-            baca.pitch("A#+3"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitch("B1"),
-            match=1,
-        ),
-    )
-    commands(
-        [
-            ("v1", (17, 20)),
-            ("v2", (17, 20)),
-            ("va", (17, 20)),
-        ],
-        baca.text_spanner("trans. => XP"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (21, 22)),
-        library.material_annotation_spanner("B"),
-        baca.hairpin("ppp < mp"),
-        baca.markup(r"\akasha-xp-plus-fb-markup"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (25, 26)),
-        library.material_annotation_spanner("B"),
-        baca.hairpin("ppp < mp"),
-        baca.text_spanner("XP+FB => tasto+FB"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (28, 29)),
-        library.material_annotation_spanner("C"),
-        baca.dynamic("p"),
-        baca.new(
-            baca.pitches("D#4 E#4"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitches("D4 E4"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitches("C#4 D#4"),
-            match=2,
-        ),
-        baca.new(
-            baca.pitches("C4 D4"),
-            match=3,
-        ),
-    )
-    commands(
+def composites(cache):
+    for leaves in cache.get(
         (["v1", "v2", "va", "vc"], [(31, 32), (33, 34), (35, 36)]),
-        library.material_annotation_spanner("B"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (31, 32)),
-        baca.hairpin("ppp < mp"),
-        baca.text_spanner("trans. => tasto + 1/2 scratch"),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (33, 34)),
-        baca.hairpin("mp < mf"),
-        baca.text_spanner("trans. => scratch moltiss."),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (31, 36)),
-        baca.new(
-            baca.pitch("B4"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitch("B3"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitch("B2"),
-            match=2,
-        ),
-        baca.new(
-            baca.pitch("B1"),
-            match=3,
-        ),
-    )
-    commands(
-        ["v1", "v2", "va", "vc"],
-        baca.text_spanner_staff_padding(4),
-    )
+    ):
+        library.material_annotation_spanner_function(leaves, "B")
+    for abbreviation in ["v1", "v2", "va", "vc"]:
+        baca.text_spanner_staff_padding_function(cache[abbreviation].leaves(), 4)
 
 
 def main():
@@ -523,7 +436,7 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
-    composites()
+    composites(cache)
 
 
 if __name__ == "__main__":
@@ -539,6 +452,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         color_octaves=False,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
