@@ -3111,14 +3111,11 @@ number.15.Cello.Music = {
     % [Cello.Music measure 25]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.rehearsal_mark_down()
+      %! baca.rehearsal_mark_down_function(1)
     \once \override Score.RehearsalMark.direction = #down
-      %! baca.OverrideCommand._call(1)
-      %! baca.rehearsal_mark_padding()
+      %! baca.rehearsal_mark_padding_function(1)
     \once \override Score.RehearsalMark.padding = 6
-      %! baca.OverrideCommand._call(1)
-      %! baca.rehearsal_mark_self_alignment_x()
+      %! baca.rehearsal_mark_self_alignment_x_function(1)
     \once \override Score.RehearsalMark.self-alignment-X = #right
       %! baca._style_fermata_measures(1)
     \stopStaff
@@ -3128,7 +3125,6 @@ number.15.Cello.Music = {
     \startStaff
     % OPENING:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
       %! baca.mark()
     \mark \akasha-colophon-markup
       %! baca.make_mmrests(1)
