@@ -987,7 +987,6 @@ number.13.Viola.Music = {
     c'1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1003,7 +1002,6 @@ number.13.Viola.Music = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-ob-plus-terminate-each-note-abruptly-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1060,7 +1058,6 @@ number.13.Viola.Music = {
     c'1.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -1369,7 +1366,6 @@ number.13.Cello.Music = {
       %! baca.dynamic()
     \pp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-pos-ord-plus-vib-poco-markup
     % SPANNER_STARTS:

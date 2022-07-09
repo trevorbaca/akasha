@@ -87,27 +87,23 @@ def VC(voice):
 
 
 def va(m):
-    commands(
-        ("va", (1, 3)),
-        baca.alternate_bow_strokes(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.clef("alto"),
-        baca.dynamic('"mf"'),
-        baca.markup(r"\akasha-ob-plus-terminate-each-note-abruptly-markup"),
-        baca.staff_lines(1),
-        baca.staff_position(0),
-    )
+    with baca.scope(m[1, 3]) as o:
+        baca.clef_function(o.leaf(0), "alto")
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.staff_position_function(o, 0)
+        baca.alternate_bow_strokes_function(o.pheads())
+        baca.dynamic_function(o.pleaf(0), '"mf"')
+        baca.markup_function(
+            o.pleaf(0), r"\akasha-ob-plus-terminate-each-note-abruptly-markup"
+        )
 
 
 def vc(m):
-    commands(
-        ("vc", (5, 6)),
-        baca.clef("bass"),
-        baca.dynamic("pp"),
-        baca.markup(r"\akasha-pos-ord-plus-vib-poco-markup"),
-        baca.pitch("Bb1"),
-    )
+    with baca.scope(m[5, 6]) as o:
+        baca.clef_function(o.leaf(0), "bass")
+        baca.pitch_function(o, "Bb1")
+        baca.dynamic_function(o.pleaf(0), "pp")
+        baca.markup_function(o.pleaf(0), r"\akasha-pos-ord-plus-vib-poco-markup")
 
 
 def main():

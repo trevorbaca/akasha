@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from akasha import library
@@ -200,7 +199,56 @@ def VC(voice):
     voice.extend(music)
 
 
+def _1_68(m):
+    with baca.scope(m[1, 28]) as o:
+        baca.dynamic_function(o.pleaf(0), '"ff"')
+        baca.markup_function(
+            o.pleaf(0), r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"
+        )
+    with baca.scope(m[5, 8]) as o:
+        baca.text_spanner_function(o.leaves()[:-1], "trans. => 1 click/1-2 sec.")
+    with baca.scope(m[9, 12]) as o:
+        baca.text_spanner_function(o.leaves()[:-1], "trans. => 1-2 clicks/sec.")
+    with baca.scope(m[13, 16]) as o:
+        baca.dynamic_function(o.leaf(2), "ff"),
+        baca.text_spanner_function(o.leaves()[:-1], "trans. => scratch moltiss.")
+    with baca.scope(m[17, 20]) as o:
+        baca.text_spanner_function(o.leaves()[:-1], "trans. => 1/2 scratch")
+    with baca.scope(m[21, 24]) as o:
+        baca.text_spanner_function(o.leaves()[:-1], "trans. => PO")
+    with baca.scope(m[25, 28]) as o:
+        baca.hairpin_function(o.leaves()[:-1], "ff < fff")
+        baca.text_spanner_function(o.leaves()[:-1], "trans. => vib. moltiss.")
+    with baca.scope(m[30, 34]) as o:
+        baca.hairpin_function(o.leaves()[:3], "sffp < fff")
+        baca.hairpin_function(o.leaves()[-2:], "fff > p")
+        baca.text_spanner_function(o.leaves()[:3], "PO senza vib. => XP")
+        baca.text_spanner_function(o.leaves()[-2:], "XP => PO")
+    with baca.scope(m[35, 39]) as o:
+        baca.hairpin_function(o.leaves()[:2], "sffp < fff")
+        baca.hairpin_function(o.leaves()[-2:], "fff > p")
+        baca.text_spanner_function(o.leaves()[:2], "PO => XP")
+        baca.text_spanner_function(o.leaves()[-2:], "XP => pos. ord.")
+    with baca.scope(m[41, 45]) as o:
+        baca.hairpin_function(o.leaves()[:-1], "sffp > pp")
+        baca.text_spanner_function(o.leaves()[:-1], "pos. ord. => XT")
+    with baca.scope(m[1, 46]) as o:
+        baca.text_spanner_staff_padding_function(o, 4)
+    with baca.scope(m[56, 60]) as o:
+        baca.hairpin_function(o.leaves()[:3], "sf < fff")
+        baca.hairpin_function(o.leaves()[-2:], "fff > f")
+        baca.text_spanner_function(o.leaves()[:3], "pos. ord. => XP")
+        baca.text_spanner_function(o.leaves()[-2:], "XP => pos. ord.")
+        baca.trill_spanner_function(o.rleak()),
+    with baca.scope(m[61, 68]) as o:
+        baca.hairpin_function(o.leaves()[:4], "sffp < fff")
+        baca.text_spanner_function(o.leaves()[:4], "pos. ord. => XP")
+        baca.trill_spanner_function(o.rleak())
+
+
 def v1(m):
+    baca.pitch_function(m[1, 28], "A5")
+    baca.pitch_function(m[30, 39], "A5")
     baca.pitch_function(m[41, 52], "A5")
     with baca.scope(m[53, 68]) as o:
         baca.pitch_function(o, "B7")
@@ -215,9 +263,12 @@ def v1(m):
     with baca.scope(m[56, 68]) as o:
         baca.ottava_function(o)
         baca.ottava_bracket_staff_padding_function(o, 12)
+    baca.text_spanner_staff_padding_function(m[56, 69], 9.5)
 
 
 def v2(m):
+    baca.pitch_function(m[1, 28], "G#+4")
+    baca.pitches_function(m[30, 39], "A4 G#+4")
     baca.pitch_function(m[41, 50], "A4")
     with baca.scope(m[51, 68]) as o:
         baca.note_head_style_harmonic_function(o)
@@ -232,9 +283,12 @@ def v2(m):
     with baca.scope(m[56, 68]) as o:
         baca.ottava_function(o)
         baca.ottava_bracket_staff_padding_function(o, 10)
+    baca.text_spanner_staff_padding_function(m[56, 69], 7.5)
 
 
 def va(m):
+    baca.pitch_function(m[1, 28], "A+2")
+    baca.pitches_function(m[30, 39], "A2 A+2")
     baca.pitch_function(m[41, 48], "A2")
     with baca.scope(m[49, 54]) as o:
         baca.clef_function(o.leaf(0), "treble")
@@ -247,9 +301,12 @@ def va(m):
     with baca.scope(m[49, 68]) as o:
         baca.pitch_function(o, "G~5")
         baca.note_head_style_harmonic_function(o)
+    baca.text_spanner_staff_padding_function(m[56, 69], 7)
 
 
 def vc(m):
+    baca.pitch_function(m[1, 28], "A1")
+    baca.pitch_function(m[30, 39], "A1")
     baca.pitch_function(m[41, 45], "A1")
     with baca.scope(m[47, 68]) as o:
         baca.pitch_function(o, "D5")
@@ -262,203 +319,7 @@ def vc(m):
         )
     with baca.scope(m[47, 50]) as o:
         baca.hairpin_function(o.leaves()[:4], "sffp < f")
-
-
-def composites():
-    commands(
-        (["v1", "v2", "va", "vc"], (1, 28)),
-        baca.dynamic('"ff"'),
-        baca.markup(r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"),
-        baca.new(
-            baca.pitch("A5"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitch("G#+4"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitch("A+2"),
-            match=2,
-        ),
-        baca.new(
-            baca.pitch("A1"),
-            match=3,
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (5, 8)),
-        baca.text_spanner(
-            "trans. => 1 click/1-2 sec.",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (9, 12)),
-        baca.text_spanner(
-            "trans. => 1-2 clicks/sec.",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (13, 16)),
-        baca.dynamic(
-            "ff",
-            selector=lambda _: abjad.select.note(_, 2),
-        ),
-        baca.text_spanner(
-            "trans. => scratch moltiss.",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (17, 20)),
-        baca.text_spanner(
-            "trans. => 1/2 scratch",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (21, 24)),
-        baca.text_spanner(
-            "trans. => PO",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (25, 28)),
-        baca.text_spanner(
-            "trans. => vib. moltiss.",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-        baca.hairpin(
-            "ff < fff",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (30, 39)),
-        baca.new(
-            baca.pitch("A5"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitches("A4 G#+4"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitches("A2 A+2"),
-            match=2,
-        ),
-        baca.new(
-            baca.pitch("A1"),
-            match=3,
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (30, 34)),
-        baca.hairpin(
-            "sffp < fff",
-            selector=lambda _: baca.select.leaves(_)[:3],
-        ),
-        baca.hairpin(
-            "fff > p",
-            selector=lambda _: baca.select.leaves(_)[-2:],
-        ),
-        baca.text_spanner(
-            "PO senza vib. => XP",
-            selector=lambda _: baca.select.leaves(_)[:3],
-        ),
-        baca.text_spanner(
-            "XP => PO",
-            selector=lambda _: baca.select.leaves(_)[-2:],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (35, 39)),
-        baca.hairpin(
-            "sffp < fff",
-            selector=lambda _: baca.select.leaves(_)[:2],
-        ),
-        baca.hairpin(
-            "fff > p",
-            selector=lambda _: baca.select.leaves(_)[-2:],
-        ),
-        baca.text_spanner(
-            "PO => XP",
-            selector=lambda _: baca.select.leaves(_)[:2],
-        ),
-        baca.text_spanner(
-            "XP => pos. ord.",
-            selector=lambda _: baca.select.leaves(_)[-2:],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (41, 45)),
-        baca.hairpin(
-            "sffp > pp",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-        baca.text_spanner(
-            "pos. ord. => XT",
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (1, 46)),
-        baca.text_spanner_staff_padding(4),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (56, 60)),
-        baca.hairpin(
-            "sf < fff",
-            selector=lambda _: baca.select.leaves(_)[:3],
-        ),
-        baca.hairpin(
-            "fff > f",
-            selector=lambda _: baca.select.leaves(_)[-2:],
-        ),
-        baca.text_spanner(
-            "pos. ord. => XP",
-            selector=lambda _: baca.select.leaves(_)[:3],
-        ),
-        baca.text_spanner(
-            "XP => pos. ord.",
-            selector=lambda _: baca.select.leaves(_)[-2:],
-        ),
-        baca.trill_spanner(),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (61, 68)),
-        baca.hairpin(
-            "sffp < fff",
-            selector=lambda _: baca.select.leaves(_)[:4],
-        ),
-        baca.text_spanner(
-            "pos. ord. => XP",
-            selector=lambda _: baca.select.leaves(_)[:4],
-        ),
-        baca.trill_spanner(),
-    )
-    commands(
-        (["v1", "v2", "va", "vc"], (56, 69)),
-        baca.new(
-            baca.text_spanner_staff_padding(9.5),
-            match=0,
-        ),
-        baca.new(
-            baca.text_spanner_staff_padding(7.5),
-            match=1,
-        ),
-        baca.new(
-            baca.text_spanner_staff_padding(7),
-            match=2,
-        ),
-        baca.new(
-            baca.text_spanner_staff_padding(5),
-            match=3,
-        ),
-    )
+    baca.text_spanner_staff_padding_function(m[56, 69], 5)
 
 
 def main():
@@ -477,7 +338,8 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
-    composites()
+    for abbreviation in ["v1", "v2", "va", "vc"]:
+        _1_68(cache[abbreviation])
 
 
 if __name__ == "__main__":
@@ -489,6 +351,7 @@ if __name__ == "__main__":
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
         color_octaves=False,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,

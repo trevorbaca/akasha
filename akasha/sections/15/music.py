@@ -130,16 +130,11 @@ def v2(m):
 
 
 def vc(m):
-    commands(
-        ("vc", 25),
-        baca.chunk(
-            baca.mark(r"\akasha-colophon-markup"),
-            baca.rehearsal_mark_down(),
-            baca.rehearsal_mark_padding(6),
-            baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-            selector=lambda _: baca.select.rleaf(_, -1),
-        ),
-    )
+    with baca.scope(baca.select.rleaf(m[25], -1)) as o:
+        baca.mark_function(o.leaf(0), r"\akasha-colophon-markup")
+        baca.rehearsal_mark_down_function(o.leaf(0))
+        baca.rehearsal_mark_padding_function(o.leaf(0), 6)
+        baca.rehearsal_mark_self_alignment_x_function(o.leaf(0), abjad.RIGHT)
 
 
 def composites():
