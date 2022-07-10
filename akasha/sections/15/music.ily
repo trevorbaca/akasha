@@ -1467,7 +1467,6 @@ number.15.Violin.1.Music = {
     c'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1483,7 +1482,6 @@ number.15.Violin.1.Music = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-full-bow-strokes-terminate-each-note-abruptly-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1519,7 +1517,6 @@ number.15.Violin.1.Music = {
     c'2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -1538,7 +1535,6 @@ number.15.Violin.1.Music = {
     c'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -1556,7 +1552,6 @@ number.15.Violin.1.Music = {
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -1590,7 +1585,6 @@ number.15.Violin.1.Music = {
     c'2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -1609,7 +1603,6 @@ number.15.Violin.1.Music = {
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -1628,7 +1621,6 @@ number.15.Violin.1.Music = {
     c'2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -1647,7 +1639,6 @@ number.15.Violin.1.Music = {
     c'1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -2403,7 +2394,6 @@ number.15.Viola.Music = {
     c'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2419,7 +2409,6 @@ number.15.Viola.Music = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-full-bow-strokes-terminate-each-note-abruptly-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2455,7 +2444,6 @@ number.15.Viola.Music = {
     c'2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -2474,7 +2462,6 @@ number.15.Viola.Music = {
     c'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -2492,7 +2479,6 @@ number.15.Viola.Music = {
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -2526,7 +2512,6 @@ number.15.Viola.Music = {
     c'2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -2545,7 +2530,6 @@ number.15.Viola.Music = {
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -2564,7 +2548,6 @@ number.15.Viola.Music = {
     c'2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -2583,7 +2566,6 @@ number.15.Viola.Music = {
     c'1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -2815,7 +2797,6 @@ number.15.Cello.Music = {
     c'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2831,7 +2812,6 @@ number.15.Cello.Music = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \akasha-full-bow-strokes-terminate-each-note-abruptly-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2867,7 +2847,6 @@ number.15.Cello.Music = {
     c'2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -2886,7 +2865,6 @@ number.15.Cello.Music = {
     c'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -2904,7 +2882,6 @@ number.15.Cello.Music = {
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % SPANNER_STARTS:
@@ -2938,7 +2915,6 @@ number.15.Cello.Music = {
     c'2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -2957,7 +2933,6 @@ number.15.Cello.Music = {
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:
@@ -2976,7 +2951,6 @@ number.15.Cello.Music = {
     c'2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \downbow
     % ABSOLUTE_BEFORE:
@@ -2995,7 +2969,6 @@ number.15.Cello.Music = {
     c'1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.alternate_bow_strokes()
     - \upbow
     % ABSOLUTE_BEFORE:

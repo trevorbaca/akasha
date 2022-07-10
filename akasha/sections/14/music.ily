@@ -1901,7 +1901,6 @@ number.14.Violin.1.Music = {
       %! baca.dynamic()
     \pp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-plus-xfb-markup
     % SPANNER_STARTS:
@@ -2699,7 +2698,6 @@ number.14.Violin.2.Music = {
       %! baca.dynamic()
     \pp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-plus-xfb-markup
     % SPANNER_STARTS:
@@ -3459,7 +3457,6 @@ number.14.Viola.Music = {
       %! baca.dynamic()
     \pp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-tasto-plus-xfb-markup
     % SPANNER_STARTS:
@@ -4399,7 +4396,6 @@ number.14.Cello.Music = {
       %! baca.dynamic()
     \pp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-vib-poco-markup
     % SPANNER_STARTS:
