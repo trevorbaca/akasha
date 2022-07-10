@@ -106,116 +106,50 @@ def VC(voice):
     voice.extend(music)
 
 
+def _7_28(m, pitch):
+    baca.pitch_function(m[7, 28], pitch)
+    with baca.scope(m[7, 10]) as o:
+        baca.dynamic_function(o.pleaf(0), "pp")
+        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
+    with baca.scope(m[13, 14]) as o:
+        baca.text_spanner_function(o.leaves()[:2], "trans. => pos. ord. XFB")
+    with baca.scope(m[15, 16]) as o:
+        baca.text_spanner_function(o.leaves()[:2], "trans. => pont. XFB")
+    with baca.scope(m[17, 18]) as o:
+        baca.text_spanner_function(o.leaves()[:3], "trans. => XP+XFB")
+    with baca.scope(m[19, 22]) as o:
+        baca.text_spanner_function(o.leaves()[:4], "trans. => XP")
+    with baca.scope(m[23, 24]) as o:
+        baca.text_spanner_function(o.leaves()[:2], "trans. => 1/3OB")
+    with baca.scope(m[25, 26]) as o:
+        baca.text_spanner_function(o.leaves()[:2], "trans. => 2/3OB")
+    with baca.scope(m[27, 28]) as o:
+        baca.text_spanner_function(o.leaves()[:2], "trans. => OB (no pitch)")
+
+
+def v1(m):
+    _7_28(m, "Bb4")
+
+
+def v2(m):
+    _7_28(m, "Bb3")
+
+
 def va(m):
-    commands(
-        "va",
-        baca.staff_lines(5),
-    )
-
-
-def composites():
-    commands(
-        (["v1", "v2", "va"], (7, 28)),
-        baca.new(
-            baca.pitch("Bb4"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitch("Bb3"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitch("Bb2"),
-            match=2,
-        ),
-    )
-    commands(
-        (["v1", "v2", "va"], (7, 10)),
-        baca.dynamic("pp"),
-        baca.markup(r"\baca-tasto-plus-xfb-markup"),
-    )
-    commands(
-        (["v1", "v2", "va"], (13, 14)),
-        baca.text_spanner(
-            "trans. => pos. ord. XFB",
-            selector=lambda _: baca.select.leaves(_)[:2],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va"], (15, 16)),
-        baca.text_spanner(
-            "trans. => pont. XFB",
-            selector=lambda _: baca.select.leaves(_)[:2],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va"], (17, 18)),
-        baca.text_spanner(
-            "trans. => XP+XFB",
-            selector=lambda _: baca.select.leaves(_)[:3],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va"], (19, 22)),
-        baca.text_spanner(
-            "trans. => XP",
-            selector=lambda _: baca.select.leaves(_)[:4],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va"], (23, 24)),
-        baca.text_spanner(
-            "trans. => 1/3OB",
-            selector=lambda _: baca.select.leaves(_)[:2],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va"], (25, 26)),
-        baca.text_spanner(
-            "trans. => 2/3OB",
-            selector=lambda _: baca.select.leaves(_)[:2],
-        ),
-    )
-    commands(
-        (["v1", "v2", "va"], (27, 28)),
-        baca.text_spanner(
-            "trans. => OB (no pitch)",
-            selector=lambda _: baca.select.leaves(_)[:2],
-        ),
-    )
+    baca.staff_lines_function(m[1][0], 5)
+    _7_28(m, "Bb2")
 
 
 def vc(m):
-    commands(
-        ("vc", (1, 10)),
-        baca.hairpin(
-            "ppp < ff",
-            selector=lambda _: baca.select.leaves(_)[:9],
-        ),
-        baca.text_spanner(
-            "trans. => vib. moltiss.",
-            selector=lambda _: baca.select.leaves(_)[:9],
-        ),
-    )
-    commands(
-        ("vc", (13, 18)),
-        baca.dynamic("pp"),
-        baca.markup(r"\baca-vib-poco-markup"),
-    )
-    commands(
-        ("vc", (1, 24)),
-        baca.pitch(
-            "Bb1",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    commands(
-        ("vc", (19, 24)),
-        baca.hairpin(
-            "pp >o niente",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
+    baca.pitch_function(m[1, 24], "Bb1")
+    with baca.scope(m[1, 10]) as o:
+        baca.hairpin_function(o.leaves()[:9], "ppp < ff")
+        baca.text_spanner_function(o.leaves()[:9], "trans. => vib. moltiss.")
+    with baca.scope(m[13, 18]) as o:
+        baca.dynamic_function(o.pleaf(0), "pp")
+        baca.markup_function(o.pleaf(0), r"\baca-vib-poco-markup")
+    with baca.scope(m[19, 24]) as o:
+        baca.hairpin_function(o.rleak(), "pp >o niente")
 
 
 def main():
@@ -230,8 +164,9 @@ def main():
         len(commands.time_signatures),
         commands.voice_abbreviations,
     )
+    v1(cache["v1"])
+    v2(cache["v2"])
     va(cache["va"])
-    composites()
     vc(cache["vc"])
 
 
@@ -244,6 +179,7 @@ if __name__ == "__main__":
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
         color_octaves=False,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,

@@ -121,15 +121,24 @@ def VC(voice):
     voice.extend(music)
 
 
+def v1(m):
+    _1_24(m)
+
+
 def v2(m):
     with baca.scope(m[9, 24]) as o:
         library.getato_pitches(29, direction=abjad.DOWN, function=o)
+        baca.staccato_function(o.pheads())
         baca.dynamic_function(o.pleaf(0), "pp-ancora")
         baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
-        baca.staccato_function(o.pheads())
+
+
+def va(m):
+    _1_24(m)
 
 
 def vc(m):
+    _1_24(m)
     with baca.scope(baca.select.rleaf(m[25], -1)) as o:
         baca.mark_function(o.leaf(0), r"\akasha-colophon-markup")
         baca.rehearsal_mark_down_function(o.leaf(0))
@@ -137,21 +146,16 @@ def vc(m):
         baca.rehearsal_mark_self_alignment_x_function(o.leaf(0), abjad.RIGHT)
 
 
-def composites():
-    commands(
-        (["v1", "va", "vc"], (1, 24)),
-        baca.alternate_bow_strokes(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.clef("percussion"),
-        baca.dynamic('"mf"'),
-        baca.markup(r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"),
-        baca.staff_position(
-            0,
-            selector=lambda _: baca.select.plts(_),
-        ),
-        baca.staff_lines(1),
-    )
+def _1_24(m):
+    with baca.scope(m[1, 24]) as o:
+        baca.clef_function(o.leaf(0), "percussion"),
+        baca.staff_lines_function(o.leaf(0), 1),
+        baca.staff_position_function(o, 0)
+        baca.alternate_bow_strokes_function(o.pheads())
+        baca.dynamic_function(o.pleaf(0), '"mf"'),
+        baca.markup_function(
+            o.pleaf(0), r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"
+        )
 
 
 def main():
@@ -166,9 +170,10 @@ def main():
         len(commands.time_signatures),
         commands.voice_abbreviations,
     )
+    v1(cache["v1"])
     v2(cache["v2"])
+    va(cache["va"])
     vc(cache["vc"])
-    composites()
 
 
 if __name__ == "__main__":
@@ -179,6 +184,7 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
