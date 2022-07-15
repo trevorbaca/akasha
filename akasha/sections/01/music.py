@@ -146,7 +146,8 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
-        commands,
+        commands.manifests(),
+        commands.time_signatures,
         **baca.score_interpretation_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -154,6 +155,7 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        commands=commands,
         deactivate=(
             baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
