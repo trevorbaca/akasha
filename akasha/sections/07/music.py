@@ -39,7 +39,7 @@ fermata_measures = [5, 7, 10, 35, 42, 44, 46, 48]
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -55,9 +55,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -66,7 +66,7 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = commands.manifests()
+manifests = accumulator.manifests()
 
 for index, item in (
     (1 - 1, "44"),
@@ -80,14 +80,14 @@ for index, item in (
     (47 - 1, "55"),
 ):
     skip = skips[index]
-    indicator = commands.metronome_marks.get(item, item)
+    indicator = accumulator.metronome_marks.get(item, item)
     baca.metronome_mark(skip, indicator, manifests)
 
 baca.markup_function(skips[45 - 1], r"\akasha-repeat-six-markup")
 baca.text_script_extra_offset_function(skips[45 - 1 : 47 - 1], (1.5, 6))
 
-baca.open_volta(skips[45 - 1], commands.first_measure_number)
-baca.close_volta(skips[47 - 1], commands.first_measure_number)
+baca.open_volta(skips[45 - 1], accumulator.first_measure_number)
+baca.close_volta(skips[47 - 1], accumulator.first_measure_number)
 
 rests = score["Rests"]
 for index, string in (
@@ -104,186 +104,186 @@ for index, string in (
 
 
 def V1(voice):
-    music = baca.make_mmrests(commands.get(1, 2))
+    music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(3, 4),
+        accumulator.get(3, 4),
         [1],
         [3, 0, 2, 1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(5, 7), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(5, 7), head=voice.name)
     voice.extend(music)
     music = library.make_accelerando_rhythm(
-        commands.get(8, 9),
+        accumulator.get(8, 9),
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [1, 6]),
         ),
         fuse_counts=[1, 2],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(10), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
     music = library.make_growth_rhythm(
-        commands.get(11, 22),
+        accumulator.get(11, 22),
         division_ratio=(2, 1, 2, 2, 1, 2),
         extra_counts=[1],
         first_silence=1,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(23, 26))
+    music = baca.make_repeat_tied_notes(accumulator.get(23, 26))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(27, 34))
+    music = baca.make_repeat_tied_notes(accumulator.get(27, 34))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(35), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(36, 41),
+        accumulator.get(36, 41),
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(42, 44), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(42, 44), head=voice.name)
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(45),
+        accumulator.get(45),
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(46, 48), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(46, 48), head=voice.name)
     voice.extend(music)
 
 
 def V2(voice):
-    music = baca.make_mmrests(commands.get(1, 2))
+    music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(3, 4),
+        accumulator.get(3, 4),
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(5, 7), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(5, 7), head=voice.name)
     voice.extend(music)
     music = library.make_ritardando_rhythm(
-        commands.get(8, 9),
+        accumulator.get(8, 9),
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [2, 5]),
         ),
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(10), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
     music = library.make_growth_rhythm(
-        commands.get(11, 22),
+        accumulator.get(11, 22),
         division_ratio=(1, 1, 2, 2, 1, 2),
         first_silence=2,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(23, 26))
+    music = baca.make_repeat_tied_notes(accumulator.get(23, 26))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(27, 34))
+    music = baca.make_repeat_tied_notes(accumulator.get(27, 34))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(35), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(36, 41),
+        accumulator.get(36, 41),
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(42, 44), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(42, 44), head=voice.name)
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(45),
+        accumulator.get(45),
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(46, 48), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(46, 48), head=voice.name)
     voice.extend(music)
 
 
 def VA(voice):
-    music = baca.make_mmrests(commands.get(1, 5))
+    music = baca.make_mmrests(accumulator.get(1, 5))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(6))
+    music = baca.make_repeat_tied_notes(accumulator.get(6))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(7, 10), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(7, 10), head=voice.name)
     voice.extend(music)
     music = library.make_manifest_rhythm(
-        commands.get(11, 26),
+        accumulator.get(11, 26),
         [2, 1, 2, 1, 1, 3, 2, 1, 7],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(27, 34))
+    music = baca.make_repeat_tied_notes(accumulator.get(27, 34))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(35), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(36, 41),
+        accumulator.get(36, 41),
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(42), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(42), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(43))
+    music = baca.make_repeat_tied_notes(accumulator.get(43))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(44), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(44), head=voice.name)
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(45),
+        accumulator.get(45),
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(46), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(46), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(47))
+    music = baca.make_repeat_tied_notes(accumulator.get(47))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(48), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(48), head=voice.name)
     voice.extend(music)
 
 
 def VC(voice):
     music = library.make_cello_solo_rhythm(
-        commands.get(1, 2),
+        accumulator.get(1, 2),
     )
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(3, 4),
+        accumulator.get(3, 4),
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(5, 10), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(5, 10), head=voice.name)
     voice.extend(music)
     music = library.make_manifest_rhythm(
-        commands.get(11, 26),
+        accumulator.get(11, 26),
         [1, 3, 4, 1, 2, 3, 6],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(27, 34))
+    music = baca.make_repeat_tied_notes(accumulator.get(27, 34))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(35), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(36, 41),
+        accumulator.get(36, 41),
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(42, 44), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(42, 44), head=voice.name)
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
-        commands.get(45),
+        accumulator.get(45),
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
     )
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(46, 48), head=voice.name)
+    music = baca.make_mmrests(accumulator.get(46, 48), head=voice.name)
     voice.extend(music)
 
 
@@ -454,16 +454,16 @@ def composites(cache):
 
 
 def main():
-    V1(commands.voice("v1"))
-    V2(commands.voice("v2"))
-    VA(commands.voice("va"))
-    VC(commands.voice("vc"))
+    V1(accumulator.voice("v1"))
+    V2(accumulator.voice("v2"))
+    VA(accumulator.voice("va"))
+    VC(accumulator.voice("vc"))
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
-    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
-        len(commands.time_signatures),
-        commands.voice_abbreviations,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
     )
     v1(cache["v1"])
     v2(cache["v2"])
@@ -474,11 +474,11 @@ def main():
 
 if __name__ == "__main__":
     main()
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.MOMENT_NUMBER,
@@ -486,7 +486,6 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         color_octaves=False,
-        commands=commands,
         deactivate=(
             baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.REAPPLIED_INSTRUMENT_ALERT,
@@ -494,12 +493,11 @@ if __name__ == "__main__":
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
         error_on_not_yet_pitched=True,
-        empty_accumulator=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_topmost_staff=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
