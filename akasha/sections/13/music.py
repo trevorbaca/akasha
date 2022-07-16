@@ -17,7 +17,7 @@ fermata_measures = [2, 4]
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -33,9 +33,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -43,11 +43,11 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = commands.manifests()
+manifests = accumulator.manifests()
 
 for index, item in ((1 - 1, "55"),):
     skip = skips[index]
-    indicator = commands.metronome_marks.get(item, item)
+    indicator = accumulator.metronome_marks.get(item, item)
     baca.metronome_mark(skip, indicator, manifests)
 
 rests = score["Rests"]
@@ -59,30 +59,30 @@ for index, string in (
 
 
 def V1(voice):
-    music = baca.make_mmrests(commands.get())
+    music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
 def V2(voice):
-    music = baca.make_mmrests(commands.get())
+    music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
 def VA(voice):
-    music = baca.make_repeat_tied_notes(commands.get(1))
+    music = baca.make_repeat_tied_notes(accumulator.get(1))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(2))
+    music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(3))
+    music = baca.make_repeat_tied_notes(accumulator.get(3))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(4, 6))
+    music = baca.make_mmrests(accumulator.get(4, 6))
     voice.extend(music)
 
 
 def VC(voice):
-    music = baca.make_mmrests(commands.get(1, 4))
+    music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(commands.get(5, 6))
+    music = baca.make_repeat_tied_notes(accumulator.get(5, 6))
     voice.extend(music)
 
 
@@ -107,16 +107,16 @@ def vc(m):
 
 
 def main():
-    V1(commands.voice("v1"))
-    V2(commands.voice("v2"))
-    VA(commands.voice("va"))
-    VC(commands.voice("vc"))
+    V1(accumulator.voice("v1"))
+    V2(accumulator.voice("v2"))
+    VA(accumulator.voice("va"))
+    VC(accumulator.voice("vc"))
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
-    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
-        len(commands.time_signatures),
-        commands.voice_abbreviations,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
     )
     va(cache["va"])
     vc(cache["vc"])
@@ -124,21 +124,19 @@ def main():
 
 if __name__ == "__main__":
     main()
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=commands,
-        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_topmost_staff=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
