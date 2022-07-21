@@ -83,7 +83,7 @@ for index, item in (
     indicator = accumulator.metronome_marks.get(item, item)
     baca.metronome_mark(skip, indicator, manifests)
 
-baca.markup_function(skips[45 - 1], r"\akasha-repeat-six-markup")
+baca.markup_function(skips[45 - 1], r"\akasha-repeat-six-markup", allow_rests=True)
 baca.text_script_extra_offset_function(skips[45 - 1 : 47 - 1], (1.5, 6))
 
 baca.open_volta(skips[45 - 1], accumulator.first_measure_number)

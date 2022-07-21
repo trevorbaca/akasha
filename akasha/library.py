@@ -458,6 +458,7 @@ def material_annotation_spanner_function(argument, letter):
     baca.markup_function(
         abjad.select.leaf(argument, 0),
         rf"\akasha-material-{letter.lower()}",
+        allow_rests=True,
     )
     material_to_color = {
         "A": "0.984 0.945 0.492",
