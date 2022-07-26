@@ -252,7 +252,7 @@ def v1(m):
     baca.pitch_function(m[41, 52], "A5")
     with baca.scope(m[53, 68]) as o:
         baca.pitch_function(o, "B7")
-        baca.note_head_style_harmonic_function(o)
+        baca.note_head_style_harmonic_function(o.pleaves())
     with baca.scope(m[53, 54]) as o:
         baca.ottava_function(o)
         baca.hairpin_function(o, "sffp < f")
@@ -271,7 +271,7 @@ def v2(m):
     baca.pitches_function(m[30, 39], "A4 G#+4")
     baca.pitch_function(m[41, 50], "A4")
     with baca.scope(m[51, 68]) as o:
-        baca.note_head_style_harmonic_function(o)
+        baca.note_head_style_harmonic_function(o.pleaves())
         baca.pitch_function(o, "C#7")
     with baca.scope(m[51, 54]) as o:
         baca.ottava_function(o)
@@ -300,7 +300,7 @@ def va(m):
         baca.hairpin_function(o.leaves()[:4], "sffp < f")
     with baca.scope(m[49, 68]) as o:
         baca.pitch_function(o, "G~5")
-        baca.note_head_style_harmonic_function(o)
+        baca.note_head_style_harmonic_function(o.pleaves())
     baca.text_spanner_staff_padding_function(m[56, 69], 7)
 
 
@@ -310,7 +310,7 @@ def vc(m):
     baca.pitch_function(m[41, 45], "A1")
     with baca.scope(m[47, 68]) as o:
         baca.pitch_function(o, "D5")
-        baca.note_head_style_harmonic_function(o)
+        baca.note_head_style_harmonic_function(o.pleaves())
     with baca.scope(m[47, 54]) as o:
         baca.clef_function(o.leaf(0), "treble")
         baca.trill_spanner_function(o.rleak())
