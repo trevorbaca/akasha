@@ -318,7 +318,7 @@ def composites(cache):
             baca.staff_position_function(group, 0)
             baca.staff_lines_function(abjad.select.leaf(group[0], 0), 1)
             baca.dynamic_function(group[0], '"mf"')
-            baca.markup_function(group[0], r"\baca-ob-markup")
+            baca.markup_function(baca.select.pleaf(group[0], 0), r"\baca-ob-markup")
 
 
 def main():
