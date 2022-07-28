@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from akasha import library
@@ -136,7 +137,7 @@ def v2(m):
 
 
 def va(m):
-    baca.staff_lines_function(m[1][0], 5)
+    baca.staff_lines_function(abjad.select.leaf(m[1][0], 0), 5)
     _7_28(m, "Bb2")
 
 
