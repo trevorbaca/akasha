@@ -316,7 +316,7 @@ def composites(cache):
     with baca.scope([cache["v1"][9, 26], cache["v2"][9, 24]]) as o:
         for group in o:
             baca.staff_position_function(group, 0)
-            baca.staff_lines_function(group[0], 1)
+            baca.staff_lines_function(abjad.select.leaf(group[0], 0), 1)
             baca.dynamic_function(group[0], '"mf"')
             baca.markup_function(group[0], r"\baca-ob-markup")
 

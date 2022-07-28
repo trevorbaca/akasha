@@ -353,7 +353,7 @@ def v2(m):
 
 
 def va(m):
-    baca.staff_lines_function(m[1][0], 5)
+    baca.staff_lines_function(abjad.select.leaf(m[1][0], 0), 5)
     with baca.scope(m[6]) as o:
         baca.pitch_function(o, "F#3")
         library.material_annotation_spanner_function(o, "A")
