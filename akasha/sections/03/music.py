@@ -56,9 +56,9 @@ baca.interpret.set_up_score(
 )
 
 rests = score["Rests"]
-baca.global_fermata(rests[5 - 1], "long")
-baca.global_fermata(rests[7 - 1], "short")
-baca.global_fermata(rests[9 - 1], "short")
+baca.global_fermata_function(rests[5 - 1], "long")
+baca.global_fermata_function(rests[7 - 1], "short")
+baca.global_fermata_function(rests[9 - 1], "short")
 
 
 def V1(voice):
