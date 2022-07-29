@@ -56,13 +56,13 @@ baca.rehearsal_mark_function(
 for index, item in ((1 - 1, "89"),):
     skip = skips[index]
     indicator = accumulator.metronome_marks.get(item, item)
-    baca.metronome_mark(skip, indicator, manifests)
+    baca.metronome_mark_function(skip, indicator, manifests)
 
-baca.bar_line(skips[25 - 1], "|.")
+baca.bar_line_function(skips[25 - 1], "|.")
 
 rests = score["Rests"]
 for index, string in ((25 - 1, "very_long"),):
-    baca.global_fermata(rests[index], string)
+    baca.global_fermata_function(rests[index], string)
 
 
 def V1(voice):

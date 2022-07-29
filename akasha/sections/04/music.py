@@ -67,16 +67,16 @@ baca.interpret.set_up_score(
 )
 
 rests = score["Rests"]
-baca.global_fermata(rests[2 - 1], "fermata")
-baca.global_fermata(rests[4 - 1], "fermata")
-baca.global_fermata(rests[6 - 1], "fermata")
-baca.global_fermata(rests[8 - 1], "fermata")
-baca.global_fermata(rests[14 - 1], "fermata")
-baca.global_fermata(rests[18 - 1], "fermata")
-baca.global_fermata(rests[20 - 1], "fermata")
-baca.global_fermata(rests[22 - 1], "fermata")
-baca.global_fermata(rests[24 - 1], "fermata")
-baca.global_fermata(rests[27 - 1], "long")
+baca.global_fermata_function(rests[2 - 1], "fermata")
+baca.global_fermata_function(rests[4 - 1], "fermata")
+baca.global_fermata_function(rests[6 - 1], "fermata")
+baca.global_fermata_function(rests[8 - 1], "fermata")
+baca.global_fermata_function(rests[14 - 1], "fermata")
+baca.global_fermata_function(rests[18 - 1], "fermata")
+baca.global_fermata_function(rests[20 - 1], "fermata")
+baca.global_fermata_function(rests[22 - 1], "fermata")
+baca.global_fermata_function(rests[24 - 1], "fermata")
+baca.global_fermata_function(rests[27 - 1], "long")
 
 
 def V1(voice):

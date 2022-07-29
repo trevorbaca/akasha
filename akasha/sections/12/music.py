@@ -65,14 +65,14 @@ for index, item in (
 ):
     skip = skips[index]
     indicator = accumulator.metronome_marks.get(item, item)
-    baca.metronome_mark(skip, indicator, manifests)
+    baca.metronome_mark_function(skip, indicator, manifests)
 
 baca.markup_function(skips[30 - 1], r"\akasha-repeat-six-markup")
 baca.markup_function(skips[56 - 1], r"\akasha-repeat-six-markup")
 baca.text_script_extra_offset_function(skips[56 - 1 : 61 - 1], (1.5, 6))
 
-baca.open_volta(skips[56 - 1], accumulator.first_measure_number)
-baca.close_volta(skips[61 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[56 - 1], accumulator.first_measure_number)
+baca.close_volta_function(skips[61 - 1], accumulator.first_measure_number)
 
 rests = score["Rests"]
 for index, string in (
@@ -82,7 +82,7 @@ for index, string in (
     (55 - 1, "short"),
     (69 - 1, "very_long"),
 ):
-    baca.global_fermata(rests[index], string)
+    baca.global_fermata_function(rests[index], string)
 
 
 def V1(voice):

@@ -45,11 +45,11 @@ baca.interpret.set_up_score(
 
 skips = score["Skips"]
 
-baca.metronome_mark(
+baca.metronome_mark_function(
     skips[1 - 1], accumulator.metronome_marks["44"], accumulator.manifests()
 )
 
-baca.global_fermata(score["Rests"][3 - 1], "very_long")
+baca.global_fermata_function(score["Rests"][3 - 1], "very_long")
 
 
 def V1(voice):

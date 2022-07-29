@@ -42,7 +42,7 @@ baca.interpret.set_up_score(
 
 rests = score["Rests"]
 for index, string in ((4 - 1, "very_long"),):
-    baca.global_fermata(rests[index], string)
+    baca.global_fermata_function(rests[index], string)
 
 
 def V1(voice):
