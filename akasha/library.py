@@ -466,16 +466,18 @@ def material_annotation_spanner_function(argument, letter):
         "E": "0.865 0.877 0.896",
     }
     color = material_to_color[letter]
-    baca.literal_function(
+    wrappers = baca.literal_function(
         abjad.select.leaf(argument, 0),
         rf"\colorSpan #-4 #4 #(rgb-color {color})",
-        tags=[baca.tags.COLORED_PHRASING_SLUR],
     )
-    baca.slur_function(
+    for wrapper in wrappers:
+        wrapper.tag = wrapper.tag.append(baca.tags.COLORED_PHRASING_SLUR)
+    wrappers = baca.slur_function(
         baca.select.rleaves(argument),
         phrasing_slur=True,
-        tags=[baca.tags.COLORED_PHRASING_SLUR],
     )
+    for wrapper in wrappers:
+        wrapper.tag = wrapper.tag.append(baca.tags.COLORED_PHRASING_SLUR)
 
 
 def metronome_marks():
