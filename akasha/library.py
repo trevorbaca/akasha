@@ -470,14 +470,12 @@ def material_annotation_spanner_function(argument, letter):
         abjad.select.leaf(argument, 0),
         rf"\colorSpan #-4 #4 #(rgb-color {color})",
     )
-    for wrapper in wrappers:
-        wrapper.tag = wrapper.tag.append(baca.tags.COLORED_PHRASING_SLUR)
+    baca.tags.wrappers(wrappers, baca.tags.COLORED_PHRASING_SLUR)
     wrappers = baca.slur_function(
         baca.select.rleaves(argument),
         phrasing_slur=True,
     )
-    for wrapper in wrappers:
-        wrapper.tag = wrapper.tag.append(baca.tags.COLORED_PHRASING_SLUR)
+    baca.tags.wrappers(wrappers, baca.tags.COLORED_PHRASING_SLUR)
 
 
 def metronome_marks():
