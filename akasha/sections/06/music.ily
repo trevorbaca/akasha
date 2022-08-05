@@ -2650,7 +2650,7 @@ number.6.Violin.1.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -2726,7 +2726,7 @@ number.6.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % COMMANDS:
@@ -2813,7 +2813,7 @@ number.6.Violin.1.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -2884,7 +2884,7 @@ number.6.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % COMMANDS:
@@ -2971,7 +2971,7 @@ number.6.Violin.1.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -7176,7 +7176,7 @@ number.6.Violin.1.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % COMMANDS:
@@ -7407,7 +7407,7 @@ number.6.Violin.2.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -7500,7 +7500,7 @@ number.6.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -7580,7 +7580,7 @@ number.6.Violin.2.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -7661,7 +7661,7 @@ number.6.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -7741,7 +7741,7 @@ number.6.Violin.2.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -7827,7 +7827,7 @@ number.6.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -7907,7 +7907,7 @@ number.6.Violin.2.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -12415,7 +12415,7 @@ number.6.Violin.2.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -12569,7 +12569,7 @@ number.6.Viola.Music = {
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.slur_function()
     \(
     % ABSOLUTE_AFTER:
@@ -12676,7 +12676,7 @@ number.6.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -12746,7 +12746,7 @@ number.6.Viola.Music = {
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.slur_function()
     \(
     % ABSOLUTE_BEFORE:
@@ -12833,7 +12833,7 @@ number.6.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -12903,7 +12903,7 @@ number.6.Viola.Music = {
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.slur_function()
     \(
     % ABSOLUTE_BEFORE:
@@ -12990,7 +12990,7 @@ number.6.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -13060,7 +13060,7 @@ number.6.Viola.Music = {
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.slur_function()
     \(
     % ABSOLUTE_BEFORE:
@@ -13138,7 +13138,7 @@ number.6.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -13208,7 +13208,7 @@ number.6.Viola.Music = {
     % SPANNER_STARTS:
       %! COLORED_PHRASING_SLUR
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.slur_function()
     \(
     % ABSOLUTE_BEFORE:
@@ -14380,7 +14380,7 @@ number.6.Viola.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % CLOSING:
@@ -14610,7 +14610,7 @@ number.6.Cello.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -14708,7 +14708,7 @@ number.6.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % COMMANDS:
@@ -14842,7 +14842,7 @@ number.6.Cello.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -14918,7 +14918,7 @@ number.6.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % COMMANDS:
@@ -15005,7 +15005,7 @@ number.6.Cello.Music = {
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.slur_function()
         \(
         % ABSOLUTE_BEFORE:
@@ -20031,7 +20031,7 @@ number.6.Cello.Music = {
             % SPANNER_STOPS:
               %! COLORED_PHRASING_SLUR
               %! SPANNER_STOP
-              %! baca._attach_start_stop_indicators(4)
+              %! baca._do_spanner_indicator_command(4)
               %! baca.slur_function()
             \)
             % COMMANDS:
