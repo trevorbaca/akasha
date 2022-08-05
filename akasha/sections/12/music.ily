@@ -5577,8 +5577,7 @@ number.12.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(2)
     \ottava 1
       %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
@@ -5665,8 +5664,7 @@ number.12.Violin.1.Music = {
     \repeatTie
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._attach_start_stop_indicators(4)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(4)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5705,8 +5703,7 @@ number.12.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(2)
     \ottava 1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
@@ -6171,8 +6168,7 @@ number.12.Violin.1.Music = {
     \repeatTie
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._attach_start_stop_indicators(4)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(4)
     \ottava 0
       %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
@@ -7769,8 +7765,7 @@ number.12.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(2)
     \ottava 1
       %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
@@ -7895,8 +7890,7 @@ number.12.Violin.2.Music = {
     \repeatTie
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._attach_start_stop_indicators(4)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(4)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7931,8 +7925,7 @@ number.12.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(2)
     \ottava 1
       %! baca.ottava_bracket_staff_padding_function(1)
     \override Staff.OttavaBracket.staff-padding = 10
@@ -8394,8 +8387,7 @@ number.12.Violin.2.Music = {
     \repeatTie
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._attach_start_stop_indicators(4)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(4)
     \ottava 0
       %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
