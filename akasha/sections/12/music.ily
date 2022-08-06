@@ -5577,7 +5577,7 @@ number.12.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava 1
       %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
@@ -5622,7 +5622,7 @@ number.12.Violin.1.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -5664,7 +5664,7 @@ number.12.Violin.1.Music = {
     \repeatTie
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5688,7 +5688,7 @@ number.12.Violin.1.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % COMMANDS:
@@ -5703,7 +5703,7 @@ number.12.Violin.1.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava 1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
@@ -5781,7 +5781,7 @@ number.12.Violin.1.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -5967,7 +5967,7 @@ number.12.Violin.1.Music = {
     \baca-sffp
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
@@ -6015,7 +6015,7 @@ number.12.Violin.1.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -6168,7 +6168,7 @@ number.12.Violin.1.Music = {
     \repeatTie
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
       %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
@@ -6196,7 +6196,7 @@ number.12.Violin.1.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % COMMANDS:
@@ -7765,7 +7765,7 @@ number.12.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava 1
       %! baca.note_head_style_harmonic_function(1)
     \override NoteHead.style = #'harmonic
@@ -7811,7 +7811,7 @@ number.12.Violin.2.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -7890,7 +7890,7 @@ number.12.Violin.2.Music = {
     \repeatTie
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7914,7 +7914,7 @@ number.12.Violin.2.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % ABSOLUTE_BEFORE:
@@ -7925,7 +7925,7 @@ number.12.Violin.2.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava 1
       %! baca.ottava_bracket_staff_padding_function(1)
     \override Staff.OttavaBracket.staff-padding = 10
@@ -8000,7 +8000,7 @@ number.12.Violin.2.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -8186,7 +8186,7 @@ number.12.Violin.2.Music = {
     \baca-sffp
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
@@ -8234,7 +8234,7 @@ number.12.Violin.2.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -8387,7 +8387,7 @@ number.12.Violin.2.Music = {
     \repeatTie
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
       %! baca.note_head_style_harmonic_function(2)
     \revert NoteHead.style
@@ -8415,7 +8415,7 @@ number.12.Violin.2.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % COMMANDS:
@@ -10012,7 +10012,7 @@ number.12.Viola.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_AFTER:
@@ -10146,7 +10146,7 @@ number.12.Viola.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % ABSOLUTE_BEFORE:
@@ -10227,7 +10227,7 @@ number.12.Viola.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -10413,7 +10413,7 @@ number.12.Viola.Music = {
     \baca-sffp
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
@@ -10461,7 +10461,7 @@ number.12.Viola.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -10637,7 +10637,7 @@ number.12.Viola.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % COMMANDS:
@@ -12233,7 +12233,7 @@ number.12.Cello.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_AFTER:
@@ -12397,7 +12397,7 @@ number.12.Cello.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % COMMANDS:
@@ -12485,7 +12485,7 @@ number.12.Cello.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -12671,7 +12671,7 @@ number.12.Cello.Music = {
     \baca-sffp
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
@@ -12719,7 +12719,7 @@ number.12.Cello.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -12895,7 +12895,7 @@ number.12.Cello.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % COMMANDS:
