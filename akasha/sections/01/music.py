@@ -76,11 +76,14 @@ def VC(voice):
 
 def v1(m):
     with baca.scope(m[1]) as o:
-        baca.instrument_function(o.leaf(0), accumulator.instruments["Violin.1"])
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Violin.1"], accumulator.manifests()
+        )
         baca.instrument_name_function(o.leaf(0), r"\akasha-violin-i-markup")
         baca.short_instrument_name_function(
             o.leaf(0),
             accumulator.short_instrument_names["Vn. I"],
+            accumulator.manifests(),
         )
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
@@ -88,11 +91,14 @@ def v1(m):
 
 def v2(m):
     with baca.scope(m[1]) as o:
-        baca.instrument_function(o.leaf(0), accumulator.instruments["Violin.2"])
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Violin.2"], accumulator.manifests()
+        )
         baca.instrument_name_function(o.leaf(0), r"\akasha-violin-ii-markup")
         baca.short_instrument_name_function(
             o.leaf(0),
             accumulator.short_instrument_names["Vn. II"],
+            accumulator.manifests(),
         )
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
@@ -100,11 +106,14 @@ def v2(m):
 
 def va(m):
     with baca.scope(m[1]) as o:
-        baca.instrument_function(o.leaf(0), accumulator.instruments["Viola"])
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Viola"], accumulator.manifests()
+        )
         baca.instrument_name_function(o.leaf(0), r"\akasha-viola-markup")
         baca.short_instrument_name_function(
             o.leaf(0),
             accumulator.short_instrument_names["Va."],
+            accumulator.manifests(),
         )
         baca.clef_function(o.leaf(0), "alto")
         baca.staff_lines_function(o.leaf(0), 1)
@@ -118,11 +127,14 @@ def va(m):
 
 def vc(m):
     with baca.scope(m[1]) as o:
-        baca.instrument_function(o.leaf(0), accumulator.instruments["Cello"])
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Cello"], accumulator.manifests()
+        )
         baca.instrument_name_function(o.leaf(0), r"\akasha-cello-markup")
         baca.short_instrument_name_function(
             o.leaf(0),
             accumulator.short_instrument_names["Vc."],
+            accumulator.manifests(),
         )
         baca.clef_function(o.leaf(0), "bass")
         baca.staff_lines_function(o.leaf(0), 5)
