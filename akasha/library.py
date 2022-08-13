@@ -1,4 +1,3 @@
-import dataclasses
 import inspect
 
 import abjad
@@ -78,14 +77,12 @@ def harmonic_glissando_pitches(
 
 
 def instruments():
-    return dict(
-        [
-            ("Violin.1", abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]"))),
-            ("Violin.2", abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]"))),
-            ("Viola", abjad.Viola(pitch_range=abjad.PitchRange("[A2, +inf]"))),
-            ("Cello", abjad.Cello(pitch_range=abjad.PitchRange("[A1, +inf]"))),
-        ]
-    )
+    return {
+        "Violin.1": abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]")),
+        "Violin.2": abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]")),
+        "Viola": abjad.Viola(pitch_range=abjad.PitchRange("[A2, +inf]")),
+        "Cello": abjad.Cello(pitch_range=abjad.PitchRange("[A1, +inf]")),
+    }
 
 
 def make_accelerando_rhythm(
@@ -396,61 +393,13 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     return music
 
 
-def short_instrument_name(
-    key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
-):
-    short_instrument_name = short_instrument_names()[key]
-    command = baca.short_instrument_name(
-        short_instrument_name,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    return baca.not_parts(command)
-
-
 def short_instrument_names():
-    return dict(
-        [
-            ("Va.", abjad.ShortInstrumentName(r"\akasha-va-markup")),
-            ("Vc.", abjad.ShortInstrumentName(r"\akasha-vc-markup")),
-            ("Vn. I", abjad.ShortInstrumentName(r"\akasha-vn-i-markup")),
-            ("Vn. II", abjad.ShortInstrumentName(r"\akasha-vn-ii-markup")),
-        ]
-    )
-
-
-def material_annotation_spanner(letter):
-    markup = baca.markup(
-        rf"\akasha-material-{letter.lower()}",
-        selector=lambda _: abjad.select.leaf(_, 0),
-    )
-    material_to_color = {
-        "A": "0.984 0.945 0.492",
-        "B": "0.980 0.769 0.984",
-        "C": "0.335 0.937 0.597",
-        "D": "0.710 0.878 0.976",
-        "E": "0.865 0.877 0.896",
+    return {
+        "Va.": abjad.ShortInstrumentName(r"\akasha-va-markup"),
+        "Vc.": abjad.ShortInstrumentName(r"\akasha-vc-markup"),
+        "Vn. I": abjad.ShortInstrumentName(r"\akasha-vn-i-markup"),
+        "Vn. II": abjad.ShortInstrumentName(r"\akasha-vn-ii-markup"),
     }
-    color = material_to_color[letter]
-    literal = baca.literal(rf"\colorSpan #-4 #4 #(rgb-color {color})")
-    tag = baca.tags.COLORED_PHRASING_SLUR
-    tags = literal.tags
-    tags.append(tag)
-    literal = dataclasses.replace(literal, tags=tags)
-    slur = baca.slur(
-        phrasing_slur=True,
-        selector=lambda _: baca.select.rleaves(_),
-    )
-    tag = baca.tags.COLORED_PHRASING_SLUR
-    tags = slur.tags
-    tags.append(tag)
-    slur = dataclasses.replace(slur, tags=tags)
-    return baca.suite(
-        literal,
-        slur,
-        markup,
-    )
 
 
 def material_annotation_spanner_function(argument, letter):
