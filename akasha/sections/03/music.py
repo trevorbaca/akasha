@@ -199,7 +199,7 @@ def main():
     for abbreviation in ["v2", "va", "vc"]:
         voice = accumulator.voice(abbreviation)
         baca.append_anchor_note_function(voice)
-    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
