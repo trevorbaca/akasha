@@ -437,7 +437,7 @@ def main(previous_persistent_indicators):
     V2(accumulator.voice("v2"))
     VA(accumulator.voice("va"))
     VC(accumulator.voice("vc"))
-    baca.reapply_new(
+    baca.reapply(
         accumulator.voices(),
         accumulator.manifests(),
         previous_persistent_indicators,
