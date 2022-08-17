@@ -432,13 +432,16 @@ def composites(cache):
                 )
 
 
-def main():
+def main(previous_persistent_indicators):
     V1(accumulator.voice("v1"))
     V2(accumulator.voice("v2"))
     VA(accumulator.voice("va"))
     VC(accumulator.voice("vc"))
-    previous_persist = baca.previous_persist(__file__)
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    baca.reapply_new(
+        accumulator.voices(),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
@@ -452,7 +455,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    previous_persist = baca.previous_persist(__file__)
+    previous_persistent_indicators = previous_persist.get("persistent_indicators", {})
+    main(previous_persistent_indicators)
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),
