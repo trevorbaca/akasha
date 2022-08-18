@@ -32,9 +32,9 @@ def make_empty_score(fermata_measures):
     score = library.make_empty_score()
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
-        instruments=library.instruments(),
-        short_instrument_names=library.short_instrument_names(),
-        metronome_marks=library.metronome_marks(),
+        instruments=library.instruments,
+        short_instrument_names=library.short_instrument_names,
+        metronome_marks=library.metronome_marks,
         time_signatures=library.time_signatures(
             "B",
             count=51,
@@ -68,7 +68,7 @@ def GLOBALS(score, accumulator):
         (47 - 1, "44"),
     ):
         skip = skips[index]
-        indicator = library.metronome_marks().get(item, item)
+        indicator = library.metronome_marks.get(item, item)
         baca.metronome_mark_function(skip, item, library.manifests)
     rests = score["Rests"]
     for index, string in (

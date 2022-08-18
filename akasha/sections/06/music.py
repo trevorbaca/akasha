@@ -31,9 +31,9 @@ def make_empty_score(fermata_measures):
     score = library.make_empty_score()
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
-        instruments=library.instruments(),
-        short_instrument_names=library.short_instrument_names(),
-        metronome_marks=library.metronome_marks(),
+        instruments=library.instruments,
+        short_instrument_names=library.short_instrument_names,
+        metronome_marks=library.metronome_marks,
         time_signatures=library.time_signatures(
             "A",
             count=39,

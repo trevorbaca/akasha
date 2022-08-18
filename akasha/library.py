@@ -76,15 +76,6 @@ def harmonic_glissando_pitches(
         return baca.pitches(pitch_numbers)
 
 
-def instruments():
-    return {
-        "Violin.1": abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]")),
-        "Violin.2": abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]")),
-        "Viola": abjad.Viola(pitch_range=abjad.PitchRange("[A2, +inf]")),
-        "Cello": abjad.Cello(pitch_range=abjad.PitchRange("[A1, +inf]")),
-    }
-
-
 def make_accelerando_rhythm(
     time_signatures, *commands, fuse_counts=None, preprocessor=None
 ):
@@ -418,16 +409,6 @@ def material_annotation_spanner_function(argument, letter):
     baca.tags.wrappers(wrappers, baca.tags.COLORED_PHRASING_SLUR)
 
 
-def metronome_marks():
-    return {
-        "38": abjad.MetronomeMark((1, 4), 38),
-        "44": abjad.MetronomeMark((1, 4), 44),
-        "55": abjad.MetronomeMark((1, 4), 55),
-        "89": abjad.MetronomeMark((1, 4), 89),
-        "126": abjad.MetronomeMark((1, 4), 126),
-    }
-
-
 def moment_markup(moment_tokens):
     moment_markup = []
     start_measure = 1
@@ -459,15 +440,6 @@ def perforated_counts(*, degree=0, rotation=None):
         else:
             raise ValueError(part)
     return abjad.sequence.rotate(counts, n=rotation)
-
-
-def short_instrument_names():
-    return {
-        "Va.": abjad.ShortInstrumentName(r"\akasha-va-markup"),
-        "Vc.": abjad.ShortInstrumentName(r"\akasha-vc-markup"),
-        "Vn. I": abjad.ShortInstrumentName(r"\akasha-vn-i-markup"),
-        "Vn. II": abjad.ShortInstrumentName(r"\akasha-vn-ii-markup"),
-    }
 
 
 def stage_markup(section_number, stage_tokens):
@@ -505,8 +477,33 @@ def voice_abbreviations():
     }
 
 
+instruments = {
+    "Violin.1": abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]")),
+    "Violin.2": abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]")),
+    "Viola": abjad.Viola(pitch_range=abjad.PitchRange("[A2, +inf]")),
+    "Cello": abjad.Cello(pitch_range=abjad.PitchRange("[A1, +inf]")),
+}
+
+
+metronome_marks = {
+    "38": abjad.MetronomeMark((1, 4), 38),
+    "44": abjad.MetronomeMark((1, 4), 44),
+    "55": abjad.MetronomeMark((1, 4), 55),
+    "89": abjad.MetronomeMark((1, 4), 89),
+    "126": abjad.MetronomeMark((1, 4), 126),
+}
+
+
+short_instrument_names = {
+    "Va.": abjad.ShortInstrumentName(r"\akasha-va-markup"),
+    "Vc.": abjad.ShortInstrumentName(r"\akasha-vc-markup"),
+    "Vn. I": abjad.ShortInstrumentName(r"\akasha-vn-i-markup"),
+    "Vn. II": abjad.ShortInstrumentName(r"\akasha-vn-ii-markup"),
+}
+
+
 manifests = {
-    "abjad.Instrument": instruments(),
-    "abjad.MetronomeMark": metronome_marks(),
-    "abjad.ShortInstrumentName": short_instrument_names(),
+    "abjad.Instrument": instruments,
+    "abjad.MetronomeMark": metronome_marks,
+    "abjad.ShortInstrumentName": short_instrument_names,
 }
