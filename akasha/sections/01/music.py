@@ -43,9 +43,7 @@ def make_empty_score(fermata_measures):
 
 def GLOBALS(score):
     skips = score["Skips"]
-    baca.metronome_mark_function(
-        skips[1 - 1], library.manifests["abjad.MetronomeMark"]["44"], library.manifests
-    )
+    baca.metronome_mark_function(skips[1 - 1], "44", library.manifests)
     rests = score["Rests"]
     baca.global_fermata_function(rests[3 - 1], "very_long")
 

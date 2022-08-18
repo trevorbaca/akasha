@@ -69,8 +69,7 @@ def GLOBALS(score):
         (10 - 1, "55"),
     ):
         skip = skips[index]
-        indicator = library.metronome_marks().get(item, item)
-        baca.metronome_mark_function(skip, indicator, library.manifests)
+        baca.metronome_mark_function(skip, item, library.manifests)
     rests = score["Rests"]
     for index, string in (
         (3 - 1, "long"),

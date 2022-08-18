@@ -80,8 +80,7 @@ for index, item in (
     (47 - 1, "55"),
 ):
     skip = skips[index]
-    indicator = accumulator.metronome_marks.get(item, item)
-    baca.metronome_mark_function(skip, indicator, manifests)
+    baca.metronome_mark_function(skip, item, manifests)
 
 baca.markup_function(skips[45 - 1], r"\akasha-repeat-six-markup")
 baca.text_script_extra_offset_function(skips[45 - 1 : 47 - 1], (1.5, 6))

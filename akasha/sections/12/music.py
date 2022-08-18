@@ -64,8 +64,7 @@ for index, item in (
     (56 - 1, "38"),
 ):
     skip = skips[index]
-    indicator = accumulator.metronome_marks.get(item, item)
-    baca.metronome_mark_function(skip, indicator, manifests)
+    baca.metronome_mark_function(skip, item, library.manifests)
 
 baca.markup_function(skips[30 - 1], r"\akasha-repeat-six-markup")
 baca.markup_function(skips[56 - 1], r"\akasha-repeat-six-markup")
