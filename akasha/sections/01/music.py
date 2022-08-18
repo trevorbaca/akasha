@@ -6,99 +6,95 @@ from akasha import library
 ########################################### 01 ##########################################
 #########################################################################################
 
-moment_tokens = ((1, 2 + 1, "E"),)
-moment_markup = library.moment_markup(moment_tokens)
 
-stage_tokens = ((1, 2 + 1),)
-stage_markup = library.stage_markup("01", stage_tokens)
-
-fermata_measures = [3]
-
-score = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
-
-accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    metronome_marks=library.metronome_marks(),
-    short_instrument_names=library.short_instrument_names(),
-    time_signatures=library.time_signatures(
-        "B",
-        count=3,
-        fermata_measures=fermata_measures,
-        rotation=0,
-    ),
-    voice_abbreviations=library.voice_abbreviations(),
-    voice_names=voice_names,
-)
-
-baca.interpret.set_up_score(
-    score,
-    accumulator,
-    accumulator.manifests(),
-    accumulator.time_signatures,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-    attach_nonfirst_empty_start_bar=True,
-    moment_markup=moment_markup,
-    stage_markup=stage_markup,
-)
-
-skips = score["Skips"]
-
-baca.metronome_mark_function(
-    skips[1 - 1], accumulator.metronome_marks["44"], accumulator.manifests()
-)
-
-baca.global_fermata_function(score["Rests"][3 - 1], "very_long")
+def make_empty_score(fermata_measures):
+    moment_tokens = ((1, 2 + 1, "E"),)
+    moment_markup = library.moment_markup(moment_tokens)
+    stage_tokens = ((1, 2 + 1),)
+    stage_markup = library.stage_markup("01", stage_tokens)
+    score = library.make_empty_score()
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        instruments=library.instruments(),
+        metronome_marks=library.metronome_marks(),
+        short_instrument_names=library.short_instrument_names(),
+        time_signatures=library.time_signatures(
+            "B",
+            count=3,
+            fermata_measures=fermata_measures,
+            rotation=0,
+        ),
+        voice_abbreviations=library.voice_abbreviations(),
+        voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator,
+        library.manifests,
+        accumulator.time_signatures,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        attach_nonfirst_empty_start_bar=True,
+        moment_markup=moment_markup,
+        stage_markup=stage_markup,
+    )
+    return score, accumulator
 
 
-def V1(voice):
+def GLOBALS(score):
+    skips = score["Skips"]
+    baca.metronome_mark_function(
+        skips[1 - 1], library.manifests["abjad.MetronomeMark"]["44"], library.manifests
+    )
+    rests = score["Rests"]
+    baca.global_fermata_function(rests[3 - 1], "very_long")
+
+
+def V1(voice, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
-def V2(voice):
+def V2(voice, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
     voice.extend(music)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
 def v1(m):
     with baca.scope(m[1]) as o:
-        baca.instrument_function(o.leaf(0), "Violin.1", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Violin.1", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\akasha-violin-i-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Vn. I", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Vn. I", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
 
 
 def v2(m):
     with baca.scope(m[1]) as o:
-        baca.instrument_function(o.leaf(0), "Violin.2", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Violin.2", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\akasha-violin-ii-markup")
-        baca.short_instrument_name_function(
-            o.leaf(0), "Vn. II", accumulator.manifests()
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Vn. II", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
 
 
 def va(m):
     with baca.scope(m[1]) as o:
-        baca.instrument_function(o.leaf(0), "Viola", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Viola", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\akasha-viola-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Va.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Va.", library.manifests)
         baca.clef_function(o.leaf(0), "alto")
         baca.staff_lines_function(o.leaf(0), 1)
     with baca.scope(m[(1, 2)]) as o:
@@ -111,18 +107,20 @@ def va(m):
 
 def vc(m):
     with baca.scope(m[1]) as o:
-        baca.instrument_function(o.leaf(0), "Cello", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Cello", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\akasha-cello-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Vc.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Vc.", library.manifests)
         baca.clef_function(o.leaf(0), "bass")
         baca.staff_lines_function(o.leaf(0), 5)
 
 
-def main():
-    V1(accumulator.voice("v1"))
-    V2(accumulator.voice("v2"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+def main(fermata_measures):
+    score, accumulator = make_empty_score(fermata_measures)
+    GLOBALS(score)
+    V1(accumulator.voice("v1"), accumulator)
+    V2(accumulator.voice("v2"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
@@ -132,13 +130,15 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
+    return score, accumulator
 
 
 if __name__ == "__main__":
-    main()
+    fermata_measures = [3]
+    score, accumulator = main(fermata_measures)
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(

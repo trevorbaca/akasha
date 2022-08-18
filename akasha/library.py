@@ -393,15 +393,6 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     return music
 
 
-def short_instrument_names():
-    return {
-        "Va.": abjad.ShortInstrumentName(r"\akasha-va-markup"),
-        "Vc.": abjad.ShortInstrumentName(r"\akasha-vc-markup"),
-        "Vn. I": abjad.ShortInstrumentName(r"\akasha-vn-i-markup"),
-        "Vn. II": abjad.ShortInstrumentName(r"\akasha-vn-ii-markup"),
-    }
-
-
 def material_annotation_spanner_function(argument, letter):
     baca.markup_function(
         abjad.select.leaf(argument, 0),
@@ -470,6 +461,15 @@ def perforated_counts(*, degree=0, rotation=None):
     return abjad.sequence.rotate(counts, n=rotation)
 
 
+def short_instrument_names():
+    return {
+        "Va.": abjad.ShortInstrumentName(r"\akasha-va-markup"),
+        "Vc.": abjad.ShortInstrumentName(r"\akasha-vc-markup"),
+        "Vn. I": abjad.ShortInstrumentName(r"\akasha-vn-i-markup"),
+        "Vn. II": abjad.ShortInstrumentName(r"\akasha-vn-ii-markup"),
+    }
+
+
 def stage_markup(section_number, stage_tokens):
     stage_markup = []
     start_measure = 1
@@ -503,3 +503,10 @@ def voice_abbreviations():
         "va": "Viola.Music",
         "vc": "Cello.Music",
     }
+
+
+manifests = {
+    "abjad.Instrument": instruments(),
+    "abjad.MetronomeMark": metronome_marks(),
+    "abjad.ShortInstrumentName": short_instrument_names(),
+}
