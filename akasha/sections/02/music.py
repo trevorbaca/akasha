@@ -41,7 +41,7 @@ def make_empty_score(fermata_measures):
             fermata_measures=fermata_measures,
             rotation=0,
         ),
-        voice_abbreviations=library.voice_abbreviations(),
+        voice_abbreviations=library.voice_abbreviations,
         voice_names=voice_names,
     )
     baca.interpret.set_up_score(
@@ -455,7 +455,7 @@ if __name__ == "__main__":
     previous_persistent_indicators = previous_persist.get("persistent_indicators", {})
     fermata_measures = [3, 5, 8, 10, 14, 16, 18, 20]
     score, accumulator = main(previous_persistent_indicators, fermata_measures)
-    metadata, persist, score, timing = baca.build.section(
+    metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,

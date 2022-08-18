@@ -468,15 +468,6 @@ def time_signatures(series, *, count=None, fermata_measures=None, rotation=None)
     return time_signatures
 
 
-def voice_abbreviations():
-    return {
-        "v1": "Violin.1.Music",
-        "v2": "Violin.2.Music",
-        "va": "Viola.Music",
-        "vc": "Cello.Music",
-    }
-
-
 instruments = {
     "Violin.1": abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]")),
     "Violin.2": abjad.Violin(pitch_range=abjad.PitchRange("[G3, +inf]")),
@@ -506,4 +497,12 @@ manifests = {
     "abjad.Instrument": instruments,
     "abjad.MetronomeMark": metronome_marks,
     "abjad.ShortInstrumentName": short_instrument_names,
+}
+
+
+voice_abbreviations = {
+    "v1": "Violin.1.Music",
+    "v2": "Violin.2.Music",
+    "va": "Viola.Music",
+    "vc": "Cello.Music",
 }
