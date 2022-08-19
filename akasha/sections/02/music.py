@@ -440,7 +440,7 @@ def main(previous_persistent_indicators):
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     v1(cache["v1"])
     v2(cache["v2"])
@@ -452,7 +452,7 @@ def main(previous_persistent_indicators):
 
 if __name__ == "__main__":
     previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist.get("persistent_indicators", {})
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
     score, accumulator = main(previous_persistent_indicators)
     metadata, persist, timing = baca.build.section(
         score,
