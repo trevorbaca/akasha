@@ -149,9 +149,9 @@ if __name__ == "__main__":
             baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ),
+        empty_fermata_measures=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
-        fermata_measure_empty_overrides=fermata_measures,
         global_rests_in_topmost_staff=True,
     )
     lilypond_file = baca.lilypond.file(
