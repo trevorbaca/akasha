@@ -9,27 +9,24 @@ from akasha import library
 
 def make_empty_score():
     score = library.make_empty_score()
-    voice_names = baca.accumulator.get_voice_names(score)
-    accumulator = baca.CommandAccumulator(
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
-        time_signatures=library.time_signatures(
-            "B",
-            count=3,
-            fermata_measures=[3],
-            rotation=0,
-        ),
+    time_signatures = library.time_signatures(
+        "B",
+        count=3,
+        fermata_measures=[3],
+        rotation=0,
     )
-    baca.interpret.set_up_score(
+    measures = baca.accumulator.TimeSignatureGetter(time_signatures)
+    accumulator = baca.CommandAccumulator()
+    first_measure_number = baca.interpret.set_up_score(
         score,
         accumulator,
         library.manifests,
-        accumulator.time_signatures,
+        time_signatures,
         append_anchor_skip=True,
         always_make_global_rests=True,
         attach_nonfirst_empty_start_bar=True,
     )
-    return score, accumulator.measures()
+    return score, measures
 
 
 def GLOBALS(score):
