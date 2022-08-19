@@ -10,8 +10,6 @@ from akasha import library
 
 stage_markup = (("[J.1]", 1),)
 
-fermata_measures = [4]
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -22,7 +20,7 @@ accumulator = baca.CommandAccumulator(
     time_signatures=library.time_signatures(
         "A",
         count=4,
-        fermata_measures=fermata_measures,
+        fermata_measures=[4],
         rotation=6,
     ),
     voice_abbreviations=library.voice_abbreviations,

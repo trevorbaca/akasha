@@ -9,7 +9,7 @@ from akasha import library
 #########################################################################################
 
 
-def make_empty_score(fermata_measures):
+def make_empty_score():
     moment_tokens = (
         (7, 9, "ABC"),
         (8, 2, "CD"),
@@ -32,7 +32,7 @@ def make_empty_score(fermata_measures):
         time_signatures=library.time_signatures(
             "B",
             count=11,
-            fermata_measures=fermata_measures,
+            fermata_measures=[5, 7, 9],
             rotation=6,
         ),
         voice_abbreviations=library.voice_abbreviations,
@@ -189,8 +189,8 @@ def vc(m):
         baca.markup_function(o.pleaf(0), r"\baca-tasto-markup")
 
 
-def main(fermata_measures):
-    score, accumulator = make_empty_score(fermata_measures)
+def main():
+    score, accumulator = make_empty_score()
     GLOBALS(score)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
@@ -219,8 +219,7 @@ def main(fermata_measures):
 
 
 if __name__ == "__main__":
-    fermata_measures = [5, 7, 9]
-    score, accumulator = main(fermata_measures)
+    score, accumulator = main()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,

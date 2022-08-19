@@ -7,7 +7,7 @@ from akasha import library
 #########################################################################################
 
 
-def make_empty_score(fermata_measures):
+def make_empty_score():
     moment_tokens = (
         (14, 9, "D"),
         (15, 23, "DE"),
@@ -38,7 +38,7 @@ def make_empty_score(fermata_measures):
         time_signatures=library.time_signatures(
             "B",
             count=51,
-            fermata_measures=fermata_measures,
+            fermata_measures=[9, 18, 23, 32, 37, 42, 51],
             rotation=12,
         ),
         voice_abbreviations=library.voice_abbreviations,
@@ -376,8 +376,8 @@ def composites(cache):
         library.material_annotation_spanner_function(leaves, "D")
 
 
-def main(fermata_measures):
-    score, accumulator = make_empty_score(fermata_measures)
+def main():
+    score, accumulator = make_empty_score()
     GLOBALS(score, accumulator)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
@@ -404,8 +404,7 @@ def main(fermata_measures):
 
 
 if __name__ == "__main__":
-    fermata_measures = [9, 18, 23, 32, 37, 42, 51]
-    score, accumulator = main(fermata_measures)
+    score, accumulator = main()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
