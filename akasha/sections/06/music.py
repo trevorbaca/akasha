@@ -428,7 +428,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     v1(cache["v1"])
     v2(cache["v2"])
