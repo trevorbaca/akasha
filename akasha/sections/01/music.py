@@ -16,9 +16,7 @@ def make_empty_score():
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
         _voice_abbreviations=library.voice_abbreviations,
-        instruments=library.instruments,
-        metronome_marks=library.metronome_marks,
-        short_instrument_names=library.short_instrument_names,
+        manifests=library.manifests,
         time_signatures=library.time_signatures(
             "B",
             count=3,
