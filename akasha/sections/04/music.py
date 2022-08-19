@@ -21,7 +21,7 @@ def make_empty_score():
         _voice_abbreviations=library.voice_abbreviations,
         _voice_names=voice_names,
     )
-    first_measure_number = baca.interpret.set_up_score(
+    baca.interpret.set_up_score(
         score,
         accumulator,
         library.manifests,

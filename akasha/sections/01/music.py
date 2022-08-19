@@ -17,7 +17,7 @@ def make_empty_score():
     )
     measures = baca.accumulator.TimeSignatureGetter(time_signatures)
     accumulator = baca.CommandAccumulator()
-    first_measure_number = baca.interpret.set_up_score(
+    baca.interpret.set_up_score(
         score,
         accumulator,
         library.manifests,
