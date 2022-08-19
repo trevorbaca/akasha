@@ -8,32 +8,6 @@ from akasha import library
 ########################################### 07 ##########################################
 #########################################################################################
 
-moment_tokens = (
-    (21, 10, "CAB"),
-    (22, 12, "CB"),
-    (23, 13, "B"),
-    (24, 9, "EA"),
-    (25, 4, "A[E]"),
-)
-
-moment_markup = library.moment_markup(moment_tokens)
-
-stage_tokens = (
-    (1, 2),
-    (2, 2 + 1),
-    (4, 1 + 1),
-    (6, 2 + 1),
-    (8, 12),
-    (9, 4),
-    (10, 4),
-    (11, 4 + 1),
-    (13, 6 + 1),
-    (15, 1 + 1),
-    (17, 1 + 1),
-    (19, 1 + 1),
-)
-stage_markup = library.stage_markup("07", stage_tokens)
-
 
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
@@ -57,8 +31,6 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    moment_markup=moment_markup,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
@@ -83,6 +55,33 @@ baca.text_script_extra_offset_function(skips[45 - 1 : 47 - 1], (1.5, 6))
 
 baca.open_volta_function(skips[45 - 1], accumulator.first_measure_number)
 baca.close_volta_function(skips[47 - 1], accumulator.first_measure_number)
+
+moment_tokens = (
+    (21, 10, "CAB"),
+    (22, 12, "CB"),
+    (23, 13, "B"),
+    (24, 9, "EA"),
+    (25, 4, "A[E]"),
+)
+moment_markup = library.moment_markup(moment_tokens)
+baca.label_moment_numbers(skips, moment_markup)
+
+stage_tokens = (
+    (1, 2),
+    (2, 2 + 1),
+    (4, 1 + 1),
+    (6, 2 + 1),
+    (8, 12),
+    (9, 4),
+    (10, 4),
+    (11, 4 + 1),
+    (13, 6 + 1),
+    (15, 1 + 1),
+    (17, 1 + 1),
+    (19, 1 + 1),
+)
+stage_markup = library.stage_markup("07", stage_tokens)
+baca.label_stage_numbers(skips, stage_markup)
 
 rests = score["Rests"]
 for index, string in (

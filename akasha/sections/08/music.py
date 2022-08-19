@@ -7,24 +7,6 @@ from akasha import library
 ########################################### 08 ##########################################
 #########################################################################################
 
-moment_tokens = (
-    (26, 4, "AB"),
-    (27, 9 + 1, "B"),
-    (28, 3, "EB"),
-)
-
-moment_markup = library.moment_markup(moment_tokens)
-
-stage_tokens = (
-    (1, 4),
-    (2, 3),
-    (3, 3),
-    (4, 3 + 1),
-    (6, 2),
-    (7, 1),
-)
-stage_markup = library.stage_markup("08", stage_tokens)
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -47,8 +29,6 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    moment_markup=moment_markup,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
@@ -69,6 +49,25 @@ for index, item in (
 ):
     skip = skips[index]
     baca.metronome_mark_function(skip, item, manifests)
+
+moment_tokens = (
+    (26, 4, "AB"),
+    (27, 9 + 1, "B"),
+    (28, 3, "EB"),
+)
+moment_markup = library.moment_markup(moment_tokens)
+baca.label_moment_numbers(skips, moment_markup)
+
+stage_tokens = (
+    (1, 4),
+    (2, 3),
+    (3, 3),
+    (4, 3 + 1),
+    (6, 2),
+    (7, 1),
+)
+stage_markup = library.stage_markup("08", stage_tokens)
+baca.label_stage_numbers(skips, stage_markup)
 
 rests = score["Rests"]
 for index, string in ((14 - 1, "fermata"),):
