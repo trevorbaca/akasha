@@ -20,10 +20,6 @@ def make_empty_score():
             rotation=0,
         ),
     )
-    moment_tokens = ((1, 2 + 1, "E"),)
-    moment_markup = library.moment_markup(moment_tokens)
-    stage_tokens = ((1, 2 + 1),)
-    stage_markup = library.stage_markup("01", stage_tokens)
     baca.interpret.set_up_score(
         score,
         accumulator,
@@ -32,8 +28,6 @@ def make_empty_score():
         append_anchor_skip=True,
         always_make_global_rests=True,
         attach_nonfirst_empty_start_bar=True,
-        moment_markup=moment_markup,
-        stage_markup=stage_markup,
     )
     return score, accumulator.measures()
 
@@ -41,6 +35,12 @@ def make_empty_score():
 def GLOBALS(score):
     skips = score["Skips"]
     baca.metronome_mark_function(skips[1 - 1], "44", library.manifests)
+    moment_tokens = ((1, 2 + 1, "E"),)
+    moment_markup = library.moment_markup(moment_tokens)
+    baca.label_moment_numbers(skips, moment_markup)
+    stage_tokens = ((1, 2 + 1),)
+    stage_markup = library.stage_markup("01", stage_tokens)
+    baca.label_stage_numbers(skips, stage_markup)
     rests = score["Rests"]
     baca.global_fermata_function(rests[3 - 1], "very_long")
 

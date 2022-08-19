@@ -8,27 +8,6 @@ from akasha import library
 
 
 def make_empty_score():
-    moment_tokens = (
-        (14, 9, "D"),
-        (15, 23, "DE"),
-        (16, 5, "E[d]"),
-        (17, 5, "CE"),
-        (18, 9, "CDE"),
-    )
-    moment_markup = library.moment_markup(moment_tokens)
-    stage_tokens = (
-        (1, 8 + 1),
-        (3, 8 + 1),
-        (5, 4 + 1),
-        (7, 8 + 1),
-        (9, 2),
-        (10, 2 + 1),
-        (12, 4 + 1),
-        (14, 4),
-        (15, 3),
-        (16, 1 + 1),
-    )
-    stage_markup = library.stage_markup("05", stage_tokens)
     score = library.make_empty_score()
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
@@ -49,8 +28,6 @@ def make_empty_score():
         append_anchor_skip=True,
         always_make_global_rests=True,
         attach_nonfirst_empty_start_bar=True,
-        moment_markup=moment_markup,
-        stage_markup=stage_markup,
     )
     return score, accumulator
 
@@ -66,6 +43,29 @@ def GLOBALS(score, accumulator):
     ):
         skip = skips[index]
         baca.metronome_mark_function(skip, item, library.manifests)
+    moment_tokens = (
+        (14, 9, "D"),
+        (15, 23, "DE"),
+        (16, 5, "E[d]"),
+        (17, 5, "CE"),
+        (18, 9, "CDE"),
+    )
+    moment_markup = library.moment_markup(moment_tokens)
+    baca.label_moment_numbers(skips, moment_markup)
+    stage_tokens = (
+        (1, 8 + 1),
+        (3, 8 + 1),
+        (5, 4 + 1),
+        (7, 8 + 1),
+        (9, 2),
+        (10, 2 + 1),
+        (12, 4 + 1),
+        (14, 4),
+        (15, 3),
+        (16, 1 + 1),
+    )
+    stage_markup = library.stage_markup("05", stage_tokens)
+    baca.label_stage_numbers(skips, stage_markup)
     rests = score["Rests"]
     for index, string in (
         (9 - 1, "short"),

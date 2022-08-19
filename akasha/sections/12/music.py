@@ -6,27 +6,6 @@ from akasha import library
 ########################################### 12 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[K.1]", 1),
-    ("[K.2]", 5),
-    ("[K.3]", 9),
-    ("[K.4]", 13),
-    ("[K.5]", 17),
-    ("[K.6]", 21),
-    ("[K.7]", 25),
-    ("[K.9]", 30),
-    ("[K.10]", 35),
-    ("[K.12]", 41),
-    ("[K.14]", 47),
-    ("[K.15]", 49),
-    ("[K.16]", 51),
-    ("[K.17]", 53),
-    ("[K.19]", 56),
-    ("[K.20]", 61),
-    ("[K.21]", 63),
-)
-
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -49,7 +28,6 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
@@ -68,6 +46,27 @@ baca.text_script_extra_offset_function(skips[56 - 1 : 61 - 1], (1.5, 6))
 
 baca.open_volta_function(skips[56 - 1], accumulator.first_measure_number)
 baca.close_volta_function(skips[61 - 1], accumulator.first_measure_number)
+
+stage_markup = (
+    ("[K.1]", 1),
+    ("[K.2]", 5),
+    ("[K.3]", 9),
+    ("[K.4]", 13),
+    ("[K.5]", 17),
+    ("[K.6]", 21),
+    ("[K.7]", 25),
+    ("[K.9]", 30),
+    ("[K.10]", 35),
+    ("[K.12]", 41),
+    ("[K.14]", 47),
+    ("[K.15]", 49),
+    ("[K.16]", 51),
+    ("[K.17]", 53),
+    ("[K.19]", 56),
+    ("[K.20]", 61),
+    ("[K.21]", 63),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 rests = score["Rests"]
 for index, string in (

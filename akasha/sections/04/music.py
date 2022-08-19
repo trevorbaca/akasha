@@ -9,31 +9,6 @@ from akasha import library
 
 
 def make_empty_score():
-    moment_tokens = (
-        (9, 8, "D"),
-        (10, 7, "ADE"),
-        (11, 1, "AE"),
-        (12, 8, "E[b]"),
-        (13, 3, "CD(E)"),
-    )
-    moment_markup = library.moment_markup(moment_tokens)
-    stage_tokens = (
-        (1, 1 + 1),
-        (3, 1 + 1),
-        (5, 1 + 1),
-        (7, 1 + 1),
-        (9, 4),
-        (10, 1 + 1),
-        (12, 1),
-        (13, 1),
-        (14, 1 + 1),
-        (16, 1 + 1),
-        (18, 1 + 1),
-        (20, 1 + 1),
-        (22, 1),
-        (23, 1 + 1),
-    )
-    stage_markup = library.stage_markup("04", stage_tokens)
     score = library.make_empty_score()
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
@@ -54,13 +29,39 @@ def make_empty_score():
         append_anchor_skip=True,
         always_make_global_rests=True,
         attach_nonfirst_empty_start_bar=True,
-        moment_markup=moment_markup,
-        stage_markup=stage_markup,
     )
     return score, accumulator
 
 
 def GLOBALS(score):
+    skips = score["Skips"]
+    moment_tokens = (
+        (9, 8, "D"),
+        (10, 7, "ADE"),
+        (11, 1, "AE"),
+        (12, 8, "E[b]"),
+        (13, 3, "CD(E)"),
+    )
+    moment_markup = library.moment_markup(moment_tokens)
+    baca.label_moment_numbers(skips, moment_markup)
+    stage_tokens = (
+        (1, 1 + 1),
+        (3, 1 + 1),
+        (5, 1 + 1),
+        (7, 1 + 1),
+        (9, 4),
+        (10, 1 + 1),
+        (12, 1),
+        (13, 1),
+        (14, 1 + 1),
+        (16, 1 + 1),
+        (18, 1 + 1),
+        (20, 1 + 1),
+        (22, 1),
+        (23, 1 + 1),
+    )
+    stage_markup = library.stage_markup("04", stage_tokens)
+    baca.label_stage_numbers(skips, stage_markup)
     rests = score["Rests"]
     baca.global_fermata_function(rests[2 - 1], "fermata")
     baca.global_fermata_function(rests[4 - 1], "fermata")

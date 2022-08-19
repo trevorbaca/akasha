@@ -8,12 +8,6 @@ from akasha import library
 ########################################### 15 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[N.1]", 1),
-    ("[N.2]", 9),
-    ("[N.3]", 17),
-)
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -36,7 +30,6 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
@@ -53,6 +46,13 @@ for index, item in ((1 - 1, "89"),):
     baca.metronome_mark_function(skip, item, library.manifests)
 
 baca.bar_line_function(skips[25 - 1], "|.")
+
+stage_markup = (
+    ("[N.1]", 1),
+    ("[N.2]", 9),
+    ("[N.3]", 17),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 rests = score["Rests"]
 for index, string in ((25 - 1, "very_long"),):

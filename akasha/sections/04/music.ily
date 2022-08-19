@@ -65,18 +65,18 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.1]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "9-D" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -152,7 +152,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -174,10 +174,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.3]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -253,7 +253,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -275,10 +275,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.5]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -354,7 +354,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -376,10 +376,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.7]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -455,11 +455,11 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -481,18 +481,18 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.9]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "10-ADE" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -660,7 +660,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -682,10 +682,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.10]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -761,7 +761,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -783,10 +783,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.12]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -807,11 +807,11 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -833,18 +833,18 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.13]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "11-AE" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -865,11 +865,11 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -891,18 +891,18 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.14]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "12-E[b]" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -978,7 +978,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -1000,10 +1000,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.16]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1079,7 +1079,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -1101,10 +1101,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.18]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1180,7 +1180,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -1202,10 +1202,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.20]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1281,11 +1281,11 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -1307,18 +1307,18 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.22]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "13-CD(E)" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
+      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1339,7 +1339,7 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
     % SPANNER_STARTS:
       %! CLOCK_TIME
@@ -1361,10 +1361,10 @@ number.4.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[04.23]" #darkcyan
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
+      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1446,14 +1446,14 @@ number.4.Skips = {
     %@% \bacaStopTextSpanMN
       %! ANCHOR_SKIP
       %! STAGE_NUMBER
-      %! baca._label_stage_numbers()
       %! baca._style_anchor_skip(1)
+      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! ANCHOR_SKIP
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca._label_moment_numbers()
       %! baca._style_anchor_skip(1)
+      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
     % COMMANDS:
       %! ANCHOR_SKIP
