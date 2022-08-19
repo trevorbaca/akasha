@@ -8,23 +8,22 @@ from akasha import library
 
 
 def make_empty_score():
-    moment_tokens = ((1, 2 + 1, "E"),)
-    moment_markup = library.moment_markup(moment_tokens)
-    stage_tokens = ((1, 2 + 1),)
-    stage_markup = library.stage_markup("01", stage_tokens)
     score = library.make_empty_score()
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
         _voice_abbreviations=library.voice_abbreviations,
-        manifests=library.manifests,
+        _voice_names=voice_names,
         time_signatures=library.time_signatures(
             "B",
             count=3,
             fermata_measures=[3],
             rotation=0,
         ),
-        voice_names=voice_names,
     )
+    moment_tokens = ((1, 2 + 1, "E"),)
+    moment_markup = library.moment_markup(moment_tokens)
+    stage_tokens = ((1, 2 + 1),)
+    stage_markup = library.stage_markup("01", stage_tokens)
     baca.interpret.set_up_score(
         score,
         accumulator,
