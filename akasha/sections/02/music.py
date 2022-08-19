@@ -9,7 +9,7 @@ from akasha import library
 #########################################################################################
 
 
-def make_empty_score(fermata_measures):
+def make_empty_score():
     moment_tokens = (
         (2, 5, "AB"),
         (3, 5, "B(A)"),
@@ -38,7 +38,7 @@ def make_empty_score(fermata_measures):
         time_signatures=library.time_signatures(
             "A",
             count=20,
-            fermata_measures=fermata_measures,
+            fermata_measures=[3, 5, 8, 10, 14, 16, 18, 20],
             rotation=0,
         ),
         voice_abbreviations=library.voice_abbreviations,
@@ -425,8 +425,8 @@ def composites(cache):
                 )
 
 
-def main(previous_persistent_indicators, fermata_measures):
-    score, accumulator = make_empty_score(fermata_measures)
+def main(previous_persistent_indicators):
+    score, accumulator = make_empty_score()
     GLOBALS(score)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
@@ -453,8 +453,7 @@ def main(previous_persistent_indicators, fermata_measures):
 if __name__ == "__main__":
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist.get("persistent_indicators", {})
-    fermata_measures = [3, 5, 8, 10, 14, 16, 18, 20]
-    score, accumulator = main(previous_persistent_indicators, fermata_measures)
+    score, accumulator = main(previous_persistent_indicators)
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,

@@ -25,8 +25,6 @@ stage_tokens = (
 )
 stage_markup = library.stage_markup("08", stage_tokens)
 
-fermata_measures = [14]
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -37,7 +35,7 @@ accumulator = baca.CommandAccumulator(
     time_signatures=library.time_signatures(
         "B",
         count=17,
-        fermata_measures=fermata_measures,
+        fermata_measures=[14],
         rotation=18,
     ),
     voice_abbreviations=library.voice_abbreviations,
