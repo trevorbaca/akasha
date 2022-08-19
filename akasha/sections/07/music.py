@@ -48,7 +48,7 @@ accumulator = baca.CommandAccumulator(
         fermata_measures=[5, 7, 10, 35, 42, 44, 46, 48],
         rotation=9,
     ),
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
