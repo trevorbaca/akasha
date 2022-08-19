@@ -40,7 +40,7 @@ def make_empty_score():
             fermata_measures=[2, 4, 6, 8, 39],
             rotation=6,
         ),
-        voice_abbreviations=library.voice_abbreviations,
+        _voice_abbreviations=library.voice_abbreviations,
         voice_names=voice_names,
     )
     baca.interpret.set_up_score(

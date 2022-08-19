@@ -15,6 +15,7 @@ def make_empty_score():
     score = library.make_empty_score()
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
+        _voice_abbreviations=library.voice_abbreviations,
         instruments=library.instruments,
         metronome_marks=library.metronome_marks,
         short_instrument_names=library.short_instrument_names,
@@ -24,7 +25,6 @@ def make_empty_score():
             fermata_measures=[3],
             rotation=0,
         ),
-        voice_abbreviations=library.voice_abbreviations,
         voice_names=voice_names,
     )
     baca.interpret.set_up_score(
