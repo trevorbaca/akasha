@@ -16,18 +16,10 @@ def make_empty_score():
         rotation=0,
     )
     measures = baca.accumulator.MeasureServer(time_signatures)
-    baca.interpret.set_up_score(
-        score,
-        time_signatures,
-        manifests=library.manifests,
-        append_anchor_skip=True,
-        always_make_global_rests=True,
-        first_section=True,
-    )
     return score, measures
 
 
-def GLOBALS(score):
+def SKIPS(score):
     skips = score["Skips"]
     baca.metronome_mark_function(skips[1 - 1], "44", library.manifests)
     moment_tokens = ((1, 2 + 1, "E"),)
@@ -36,6 +28,9 @@ def GLOBALS(score):
     stage_tokens = ((1, 2 + 1),)
     stage_markup = library.stage_markup("01", stage_tokens)
     baca.label_stage_numbers(skips, stage_markup)
+
+
+def RESTS(score):
     rests = score["Rests"]
     baca.global_fermata_function(rests[3 - 1], "very_long")
 
@@ -106,7 +101,16 @@ def vc(m):
 
 def main():
     score, measures = make_empty_score()
-    GLOBALS(score)
+    baca.interpret.set_up_score(
+        score,
+        measures(),
+        manifests=library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        first_section=True,
+    )
+    SKIPS(score)
+    RESTS(score)
     V1(score[library.voice_abbreviations["v1"]], measures)
     V2(score[library.voice_abbreviations["v2"]], measures)
     VA(score[library.voice_abbreviations["va"]], measures)
