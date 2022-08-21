@@ -30,14 +30,13 @@ first_measure_number = baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
 for index, item in (
     (3 - 1, "44"),
     (5 - 1, "55"),
 ):
     skip = skips[index]
-    baca.metronome_mark_function(skip, item, manifests)
+    baca.metronome_mark_function(skip, item, library.manifests)
 
 baca.open_volta_function(skips[1 - 1], first_measure_number)
 baca.close_volta_function(skips[7 - 1], first_measure_number, site="after")
@@ -62,7 +61,7 @@ for index, string in (
     baca.global_fermata_function(rests[index], string)
 
 
-def V1(voice):
+def V1(voice, accumulator):
     music = library.make_accelerando_rhythm(
         accumulator.get(1, 2),
         fuse_counts=[1, 2],
@@ -74,7 +73,7 @@ def V1(voice):
     voice.extend(music)
 
 
-def V2(voice):
+def V2(voice, accumulator):
     music = library.make_ritardando_rhythm(
         accumulator.get(1, 2),
     )
@@ -85,7 +84,7 @@ def V2(voice):
     voice.extend(music)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
@@ -98,7 +97,7 @@ def VA(voice):
     voice.extend(music)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = library.make_ritardando_rhythm(
         accumulator.get(1, 2),
         preprocessor=lambda _: baca.sequence.fuse(_),
@@ -170,10 +169,10 @@ def composites(cache):
 
 
 def main():
-    V1(accumulator.voice("v1"))
-    V2(accumulator.voice("v2"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+    V1(accumulator.voice("v1"), accumulator)
+    V2(accumulator.voice("v2"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(

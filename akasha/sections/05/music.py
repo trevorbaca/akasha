@@ -20,18 +20,10 @@ def make_empty_score():
         _voice_abbreviations=library.voice_abbreviations,
         _voice_names=voice_names,
     )
-    baca.interpret.set_up_score(
-        score,
-        accumulator.time_signatures,
-        accumulator,
-        library.manifests,
-        append_anchor_skip=True,
-        always_make_global_rests=True,
-    )
     return score, accumulator
 
 
-def GLOBALS(score, accumulator):
+def SKIPS(score, accumulator):
     skips = score["Skips"]
     for index, item in (
         (1 - 1, "126"),
@@ -65,6 +57,9 @@ def GLOBALS(score, accumulator):
     )
     stage_markup = library.stage_markup("05", stage_tokens)
     baca.label_stage_numbers(skips, stage_markup)
+
+
+def RESTS(score):
     rests = score["Rests"]
     for index, string in (
         (9 - 1, "short"),
@@ -374,7 +369,16 @@ def composites(cache):
 
 def main():
     score, accumulator = make_empty_score()
-    GLOBALS(score, accumulator)
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    SKIPS(score, accumulator)
+    RESTS(score)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)

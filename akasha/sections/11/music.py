@@ -40,7 +40,7 @@ for index, string in ((4 - 1, "very_long"),):
     baca.global_fermata_function(rests[index], string)
 
 
-def V1(voice):
+def V1(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1))
     voice.extend(music)
     music = library.make_scratch_rhythm(
@@ -65,7 +65,7 @@ def V1(voice):
     voice.extend(music)
 
 
-def V2(voice):
+def V2(voice, accumulator):
     music = library.make_scratch_rhythm(
         accumulator.get(1),
         [4],
@@ -97,12 +97,12 @@ def V2(voice):
     voice.extend(music)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = library.make_scratch_rhythm(
         accumulator.get(1),
         [4],
@@ -142,10 +142,10 @@ def composites(cache):
 
 
 def main():
-    V1(accumulator.voice("v1"))
-    V2(accumulator.voice("v2"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+    V1(accumulator.voice("v1"), accumulator)
+    V2(accumulator.voice("v2"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(

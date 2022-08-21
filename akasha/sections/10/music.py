@@ -30,7 +30,6 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
 for index, item in (
     (1 - 1, "89"),
@@ -51,7 +50,7 @@ for index, item in (
     (35 - 1, "44"),
 ):
     skip = skips[index]
-    baca.metronome_mark_function(skip, item, manifests)
+    baca.metronome_mark_function(skip, item, library.manifests)
 
 moment_tokens = (
     (30, 16, "DE"),
@@ -92,7 +91,7 @@ for index, string in (
     baca.global_fermata_function(rests[index], string)
 
 
-def V1(voice):
+def V1(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
@@ -132,7 +131,7 @@ def V1(voice):
     voice.extend(music)
 
 
-def V2(voice):
+def V2(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
@@ -171,7 +170,7 @@ def V2(voice):
     voice.extend(music)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
@@ -204,7 +203,7 @@ def VA(voice):
     voice.extend(music)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
@@ -412,10 +411,10 @@ def composites(cache):
 
 
 def main():
-    V1(accumulator.voice("v1"))
-    V2(accumulator.voice("v2"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+    V1(accumulator.voice("v1"), accumulator)
+    V2(accumulator.voice("v2"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(

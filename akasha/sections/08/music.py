@@ -31,7 +31,6 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -47,7 +46,7 @@ for index, item in (
     (17 - 1, "89"),
 ):
     skip = skips[index]
-    baca.metronome_mark_function(skip, item, manifests)
+    baca.metronome_mark_function(skip, item, library.manifests)
 
 moment_tokens = (
     (26, 4, "AB"),
@@ -73,7 +72,7 @@ for index, string in ((14 - 1, "fermata"),):
     baca.global_fermata_function(rests[index], string)
 
 
-def V1(voice):
+def V1(voice, accumulator):
     music = library.make_dense_getato_rhythm(
         accumulator.get(1, 4),
         [2, 2, 1, 2, 1],
@@ -94,7 +93,7 @@ def V1(voice):
     voice.extend(music)
 
 
-def V2(voice):
+def V2(voice, accumulator):
     music = baca.make_notes(accumulator.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(accumulator.get(5, 7), repeat_ties=True)
@@ -111,7 +110,7 @@ def V2(voice):
     voice.extend(music)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = baca.make_notes(accumulator.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(accumulator.get(5, 7), repeat_ties=True)
@@ -126,7 +125,7 @@ def VA(voice):
     voice.extend(music)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = baca.make_notes(accumulator.get(1, 4), repeat_ties=True)
     voice.extend(music)
     music = baca.make_notes(accumulator.get(5, 7), repeat_ties=True)
@@ -226,10 +225,10 @@ def composites(cache):
 
 
 def main():
-    V1(accumulator.voice("v1"))
-    V2(accumulator.voice("v2"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+    V1(accumulator.voice("v1"), accumulator)
+    V2(accumulator.voice("v2"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     for abbreviation in ["va"]:
         voice = accumulator.voice(abbreviation)
         baca.append_anchor_note_function(voice)
