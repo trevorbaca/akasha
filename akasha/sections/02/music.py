@@ -22,15 +22,6 @@ def make_empty_score():
         _voice_abbreviations=library.voice_abbreviations,
         _voice_names=voice_names,
     )
-    baca.interpret.set_up_score(
-        score,
-        accumulator.time_signatures,
-        accumulator,
-        library.manifests,
-        append_anchor_skip=True,
-        always_make_global_rests=True,
-        attach_nonfirst_empty_start_bar=True,
-    )
     return score, accumulator
 
 
@@ -422,17 +413,28 @@ def composites(cache):
                 )
 
 
-def main(previous_persistent_indicators):
+def main(previous_metadata, previous_persist):
     score, accumulator = make_empty_score()
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        manifests=library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        previous_metadata=previous_metadata,
+        previous_persist=previous_persist,
+    )
     GLOBALS(score)
-    V1(accumulator.voice("v1"), accumulator)
-    V2(accumulator.voice("v2"), accumulator)
-    VA(accumulator.voice("va"), accumulator)
-    VC(accumulator.voice("vc"), accumulator)
+    V1(score[library.voice_abbreviations["v1"]], accumulator)
+    V2(score[library.voice_abbreviations["v2"]], accumulator)
+    VA(score[library.voice_abbreviations["va"]], accumulator)
+    VC(score[library.voice_abbreviations["vc"]], accumulator)
+    voice_names = baca.accumulator.get_voice_names(score)
     baca.reapply(
         accumulator.voices(),
         library.manifests,
-        previous_persistent_indicators,
+        previous_persist["persistent_indicators"],
     )
     cache = baca.interpret.cache_leaves(
         score,
@@ -448,9 +450,9 @@ def main(previous_persistent_indicators):
 
 
 if __name__ == "__main__":
+    previous_metadata = baca.previous_metadata(__file__)
     previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
-    score, accumulator = main(previous_persistent_indicators)
+    score, accumulator = main(previous_metadata, previous_persist)
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
