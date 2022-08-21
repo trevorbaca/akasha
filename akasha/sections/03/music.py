@@ -22,15 +22,6 @@ def make_empty_score():
         _voice_abbreviations=library.voice_abbreviations,
         _voice_names=voice_names,
     )
-    baca.interpret.set_up_score(
-        score,
-        accumulator.time_signatures,
-        accumulator,
-        library.manifests,
-        append_anchor_skip=True,
-        always_make_global_rests=True,
-        attach_nonfirst_empty_start_bar=True,
-    )
     return score, accumulator
 
 
@@ -187,8 +178,18 @@ def vc(m):
         baca.markup_function(o.pleaf(0), r"\baca-tasto-markup")
 
 
-def main():
+def main(previous_metadata, previous_persist):
     score, accumulator = make_empty_score()
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        previous_metadata=previous_metadata,
+        previous_persist=previous_persist,
+    )
     GLOBALS(score)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
@@ -217,7 +218,9 @@ def main():
 
 
 if __name__ == "__main__":
-    score, accumulator = main()
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_persist = baca.previous_persist(__file__)
+    score, accumulator = main(previous_metadata, previous_persist)
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,

@@ -22,7 +22,7 @@ def make_empty_score():
         manifests=library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
-        attach_nonfirst_empty_start_bar=True,
+        first_section=True,
     )
     return score, measures
 
