@@ -311,7 +311,7 @@ def composites(cache):
             baca.markup_function(baca.select.pleaf(group[0], 0), r"\baca-ob-markup")
 
 
-def main():
+def make_score():
     score, accumulator = make_empty_score()
     baca.interpret.set_up_score(
         score,
@@ -347,8 +347,8 @@ def main():
     return score, accumulator
 
 
-if __name__ == "__main__":
-    score, accumulator = main()
+def main():
+    score, accumulator = make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -372,3 +372,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()

@@ -416,7 +416,7 @@ def composites(cache):
                 )
 
 
-def main(previous_metadata, previous_persist):
+def make_score(previous_metadata, previous_persist):
     score, accumulator = make_empty_score()
     baca.interpret.set_up_score(
         score,
@@ -452,10 +452,10 @@ def main(previous_metadata, previous_persist):
     return score, accumulator
 
 
-if __name__ == "__main__":
+def main():
     previous_metadata = baca.previous_metadata(__file__)
     previous_persist = baca.previous_persist(__file__)
-    score, accumulator = main(previous_metadata, previous_persist)
+    score, accumulator = make_score(previous_metadata, previous_persist)
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -478,3 +478,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()
