@@ -99,7 +99,7 @@ def vc(m):
         baca.staff_lines_function(o.leaf(0), 5)
 
 
-def main():
+def make_score():
     score, measures = make_empty_score()
     baca.interpret.set_up_score(
         score,
@@ -127,8 +127,8 @@ def main():
     return score, measures
 
 
-if __name__ == "__main__":
-    score, measures = main()
+def main():
+    score, measures = make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -155,3 +155,7 @@ if __name__ == "__main__":
         includes=["header.ily", "../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()
