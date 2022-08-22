@@ -6,89 +6,93 @@ from akasha import library
 ########################################### 10 ##########################################
 #########################################################################################
 
-score = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures(
-        "A",
-        count=37,
-        fermata_measures=[3, 27, 30, 37],
-        rotation=15,
-    ),
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+def make_empty_score():
+    score = library.make_empty_score()
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures(
+            "A",
+            count=37,
+            fermata_measures=[3, 27, 30, 37],
+            rotation=15,
+        ),
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    return score, accumulator
 
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
 
-skips = score["Skips"]
+def SKIPS(score):
+    skips = score["Skips"]
+    for index, item in (
+        (1 - 1, "89"),
+        (4 - 1, "55"),
+        (4 - 1, baca.Accelerando()),
+        (8 - 1, "89"),
+        (8 - 1, baca.Ritardando()),
+        (13 - 1, "55"),
+        (13 - 1, baca.Accelerando()),
+        (17 - 1, "89"),
+        (17 - 1, baca.Ritardando()),
+        (21 - 1, "55"),
+        (23 - 1, "126"),
+        (25 - 1, "55"),
+        (28 - 1, "89"),
+        (31 - 1, "55"),
+        (33 - 1, baca.Ritardando()),
+        (35 - 1, "44"),
+    ):
+        skip = skips[index]
+        baca.metronome_mark_function(skip, item, library.manifests)
 
-for index, item in (
-    (1 - 1, "89"),
-    (4 - 1, "55"),
-    (4 - 1, baca.Accelerando()),
-    (8 - 1, "89"),
-    (8 - 1, baca.Ritardando()),
-    (13 - 1, "55"),
-    (13 - 1, baca.Accelerando()),
-    (17 - 1, "89"),
-    (17 - 1, baca.Ritardando()),
-    (21 - 1, "55"),
-    (23 - 1, "126"),
-    (25 - 1, "55"),
-    (28 - 1, "89"),
-    (31 - 1, "55"),
-    (33 - 1, baca.Ritardando()),
-    (35 - 1, "44"),
-):
-    skip = skips[index]
-    baca.metronome_mark_function(skip, item, library.manifests)
+    moment_tokens = (
+        (30, 16, "DE"),
+        (31, 4, "E"),
+        (32, 10, "B(E)A[C]"),
+        (33, 7, "B(A)"),
+    )
+    moment_markup = library.moment_markup(moment_tokens)
+    baca.label_moment_numbers(skips, moment_markup)
 
-moment_tokens = (
-    (30, 16, "DE"),
-    (31, 4, "E"),
-    (32, 10, "B(E)A[C]"),
-    (33, 7, "B(A)"),
-)
-moment_markup = library.moment_markup(moment_tokens)
-baca.label_moment_numbers(skips, moment_markup)
+    stage_tokens = (
+        (1, 2 + 1),
+        (3, 2),
+        (4, 2),
+        (5, 3),
+        (6, 2),
+        (7, 2),
+        (8, 2),
+        (9, 4),
+        (10, 2),
+        (11, 2),
+        (12, 2 + 1),
+        (14, 2 + 1),
+        (16, 2),
+        (17, 2),
+        (18, 2 + 1),
+    )
+    stage_markup = library.stage_markup("09", stage_tokens)
+    baca.label_stage_numbers(skips, stage_markup)
 
-stage_tokens = (
-    (1, 2 + 1),
-    (3, 2),
-    (4, 2),
-    (5, 3),
-    (6, 2),
-    (7, 2),
-    (8, 2),
-    (9, 4),
-    (10, 2),
-    (11, 2),
-    (12, 2 + 1),
-    (14, 2 + 1),
-    (16, 2),
-    (17, 2),
-    (18, 2 + 1),
-)
-stage_markup = library.stage_markup("09", stage_tokens)
-baca.label_stage_numbers(skips, stage_markup)
 
-rests = score["Rests"]
-for index, string in (
-    (3 - 1, "fermata"),
-    (27 - 1, "short"),
-    (30 - 1, "short"),
-    (37 - 1, "very_long"),
-):
-    baca.global_fermata_function(rests[index], string)
+def RESTS(score):
+    rests = score["Rests"]
+    for index, string in (
+        (3 - 1, "fermata"),
+        (27 - 1, "short"),
+        (30 - 1, "short"),
+        (37 - 1, "very_long"),
+    ):
+        baca.global_fermata_function(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -411,6 +415,9 @@ def composites(cache):
 
 
 def main():
+    score, accumulator = make_empty_score()
+    SKIPS(score)
+    RESTS(score)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -432,10 +439,11 @@ def main():
     va(cache["va"])
     vc(cache["vc"])
     composites(cache)
+    return score, accumulator
 
 
 if __name__ == "__main__":
-    main()
+    score, accumulator = main()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,

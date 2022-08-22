@@ -8,36 +8,43 @@ from akasha import library
 ########################################### 11 ##########################################
 #########################################################################################
 
-score = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures(
-        "A",
-        count=4,
-        fermata_measures=[4],
-        rotation=6,
-    ),
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+def make_empty_score():
+    score = library.make_empty_score()
+    voice_names = baca.accumulator.get_voice_names(score)
 
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures(
+            "A",
+            count=4,
+            fermata_measures=[4],
+            rotation=6,
+        ),
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
 
-skips = score["Skips"]
-stage_markup = (("[J.1]", 1),)
-baca.label_stage_numbers(skips, stage_markup)
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    return score, accumulator
 
-rests = score["Rests"]
-for index, string in ((4 - 1, "very_long"),):
-    baca.global_fermata_function(rests[index], string)
+
+def SKIPS(score):
+    skips = score["Skips"]
+    stage_markup = (("[J.1]", 1),)
+    baca.label_stage_numbers(skips, stage_markup)
+
+
+def RESTS(score):
+    rests = score["Rests"]
+    for index, string in ((4 - 1, "very_long"),):
+        baca.global_fermata_function(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -142,6 +149,9 @@ def composites(cache):
 
 
 def main():
+    score, accumulator = make_empty_score()
+    SKIPS(score)
+    RESTS(score)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -159,10 +169,11 @@ def main():
         library.voice_abbreviations,
     )
     composites(cache)
+    return score, accumulator
 
 
 if __name__ == "__main__":
-    main()
+    score, accumulator = main()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,

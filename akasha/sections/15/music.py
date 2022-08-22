@@ -8,53 +8,60 @@ from akasha import library
 ########################################### 15 ##########################################
 #########################################################################################
 
-score = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures(
-        "B",
-        count=25,
-        fermata_measures=[25],
-        rotation=30,
-    ),
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+def make_empty_score():
+    score = library.make_empty_score()
+    voice_names = baca.accumulator.get_voice_names(score)
 
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures(
+            "B",
+            count=25,
+            fermata_measures=[25],
+            rotation=30,
+        ),
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
 
-skips = score["Skips"]
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    return score, accumulator
 
-baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "N",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
-)
 
-for index, item in ((1 - 1, "89"),):
-    skip = skips[index]
-    baca.metronome_mark_function(skip, item, library.manifests)
+def SKIPS(score):
+    skips = score["Skips"]
 
-baca.bar_line_function(skips[25 - 1], "|.")
+    baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "N",
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
+    )
 
-stage_markup = (
-    ("[N.1]", 1),
-    ("[N.2]", 9),
-    ("[N.3]", 17),
-)
-baca.label_stage_numbers(skips, stage_markup)
+    for index, item in ((1 - 1, "89"),):
+        skip = skips[index]
+        baca.metronome_mark_function(skip, item, library.manifests)
 
-rests = score["Rests"]
-for index, string in ((25 - 1, "very_long"),):
-    baca.global_fermata_function(rests[index], string)
+    baca.bar_line_function(skips[25 - 1], "|.")
+
+    stage_markup = (
+        ("[N.1]", 1),
+        ("[N.2]", 9),
+        ("[N.3]", 17),
+    )
+    baca.label_stage_numbers(skips, stage_markup)
+
+
+def RESTS(score):
+    rests = score["Rests"]
+    for index, string in ((25 - 1, "very_long"),):
+        baca.global_fermata_function(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -151,6 +158,9 @@ def _1_24(m):
 
 
 def main():
+    score, accumulator = make_empty_score()
+    SKIPS(score)
+    RESTS(score)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -171,10 +181,11 @@ def main():
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
+    return score, accumulator
 
 
 if __name__ == "__main__":
-    main()
+    score, accumulator = main()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
