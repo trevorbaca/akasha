@@ -6,59 +6,52 @@ from akasha import library
 ########################################### 09 ##########################################
 #########################################################################################
 
-score = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures(
-        "A",
-        count=7,
-        fermata_measures=[4, 7],
-        rotation=12,
-    ),
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+def make_empty_score():
+    score = library.make_empty_score()
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures(
+            "A",
+            count=7,
+            fermata_measures=[4, 7],
+            rotation=12,
+        ),
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    return score, accumulator
 
-first_measure_number = baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
 
-skips = score["Skips"]
+def SKIPS(score, first_measure_number):
+    skips = score["Skips"]
+    for index, item in (
+        (3 - 1, "44"),
+        (5 - 1, "55"),
+    ):
+        skip = skips[index]
+        baca.metronome_mark_function(skip, item, library.manifests)
+    baca.open_volta_function(skips[1 - 1], first_measure_number)
+    baca.close_volta_function(skips[7 - 1], first_measure_number, site="after")
+    moment_tokens = ((29, 7, "BCD[E]"),)
+    moment_markup = library.moment_markup(moment_tokens)
+    baca.label_moment_numbers(skips, moment_markup)
+    stage_tokens = (
+        (1, 2),
+        (2, 1 + 1),
+        (4, 2 + 1),
+    )
+    stage_markup = library.stage_markup("09", stage_tokens)
+    baca.label_stage_numbers(skips, stage_markup)
 
-for index, item in (
-    (3 - 1, "44"),
-    (5 - 1, "55"),
-):
-    skip = skips[index]
-    baca.metronome_mark_function(skip, item, library.manifests)
 
-baca.open_volta_function(skips[1 - 1], first_measure_number)
-baca.close_volta_function(skips[7 - 1], first_measure_number, site="after")
-
-moment_tokens = ((29, 7, "BCD[E]"),)
-moment_markup = library.moment_markup(moment_tokens)
-baca.label_moment_numbers(skips, moment_markup)
-
-stage_tokens = (
-    (1, 2),
-    (2, 1 + 1),
-    (4, 2 + 1),
-)
-stage_markup = library.stage_markup("09", stage_tokens)
-baca.label_stage_numbers(skips, stage_markup)
-
-rests = score["Rests"]
-for index, string in (
-    (4 - 1, "fermata"),
-    (7 - 1, "fermata"),
-):
-    baca.global_fermata_function(rests[index], string)
+def RESTS(score):
+    rests = score["Rests"]
+    for index, string in (
+        (4 - 1, "fermata"),
+        (7 - 1, "fermata"),
+    ):
+        baca.global_fermata_function(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -169,6 +162,17 @@ def composites(cache):
 
 
 def main():
+    score, accumulator = make_empty_score()
+    first_measure_number = baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    SKIPS(score, first_measure_number)
+    RESTS(score)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -190,10 +194,11 @@ def main():
     va(cache["va"])
     vc(cache["vc"])
     composites(cache)
+    return score, accumulator
 
 
 if __name__ == "__main__":
-    main()
+    score, accumulator = main()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
