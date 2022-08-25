@@ -181,7 +181,7 @@ def vc(m):
         baca.markup_function(o.pleaf(0), r"\baca-tasto-markup")
 
 
-def make_score(previous_metadata, previous_persist):
+def make_score(first_measure_number, previous_persistent_indicators):
     score, accumulator = make_empty_score()
     baca.interpret.set_up_score(
         score,
@@ -190,8 +190,8 @@ def make_score(previous_metadata, previous_persist):
         library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
-        previous_metadata=previous_metadata,
-        previous_persist=previous_persist,
+        first_measure_number=first_measure_number,
+        previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
     RESTS(score)
@@ -202,8 +202,6 @@ def make_score(previous_metadata, previous_persist):
     for abbreviation in ["v2", "va", "vc"]:
         voice = accumulator.voice(abbreviation)
         baca.append_anchor_note_function(voice)
-    previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -223,8 +221,12 @@ def make_score(previous_metadata, previous_persist):
 
 def main():
     previous_metadata = baca.previous_metadata(__file__)
+    first_measure_number = previous_metadata["final_measure_number"] + 1
     previous_persist = baca.previous_persist(__file__)
-    score, accumulator = make_score(previous_metadata, previous_persist)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    score, accumulator = make_score(
+        first_measure_number, previous_persistent_indicators
+    )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -240,6 +242,7 @@ def main():
         empty_fermata_measures=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
+        first_measure_number=first_measure_number,
         global_rests_in_topmost_staff=True,
     )
     lilypond_file = baca.lilypond.file(
