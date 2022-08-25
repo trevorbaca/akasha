@@ -456,9 +456,8 @@ def main():
     previous_metadata = baca.previous_metadata(__file__)
     first_measure_number = previous_metadata["final_measure_number"] + 1
     previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
     score, accumulator = make_score(
-        first_measure_number, previous_persistent_indicators
+        first_measure_number, previous_persist["persistent_indicators"]
     )
     metadata, persist, timing = baca.build.section(
         score,
