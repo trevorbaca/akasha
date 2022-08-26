@@ -19,8 +19,7 @@ def make_empty_score():
     return score, measures
 
 
-def SKIPS(score):
-    skips = score["Skips"]
+def GLOBALS(skips, rests):
     baca.metronome_mark_function(skips[1 - 1], "44", library.manifests)
     moment_tokens = ((1, 2 + 1, "E"),)
     moment_markup = library.moment_markup(moment_tokens)
@@ -28,10 +27,6 @@ def SKIPS(score):
     stage_tokens = ((1, 2 + 1),)
     stage_markup = library.stage_markup("01", stage_tokens)
     baca.label_stage_numbers(skips, stage_markup)
-
-
-def RESTS(score):
-    rests = score["Rests"]
     baca.global_fermata_function(rests[3 - 1], "very_long")
 
 
@@ -109,8 +104,7 @@ def make_score():
         always_make_global_rests=True,
         first_section=True,
     )
-    SKIPS(score)
-    RESTS(score)
+    GLOBALS(score["Skips"], score["Rests"])
     V1(score[library.voice_abbreviations["v1"]], measures)
     V2(score[library.voice_abbreviations["v2"]], measures)
     VA(score[library.voice_abbreviations["va"]], measures)
@@ -134,16 +128,16 @@ def main():
         library.manifests,
         measures(),
         **baca.interpret.section_defaults(),
-        activate=(
+        activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.MOMENT_NUMBER,
             baca.tags.STAGE_NUMBER,
-        ),
+        ],
         always_make_global_rests=True,
-        deactivate=(
+        deactivate=[
             baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
-        ),
+        ],
         empty_fermata_measures=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
