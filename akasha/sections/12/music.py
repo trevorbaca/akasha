@@ -23,23 +23,18 @@ def make_empty_score():
     return score, accumulator
 
 
-def SKIPS(score, first_measure_number):
-    skips = score["Skips"]
-
+def GLOBALS(skips, rests, first_measure_number):
     for index, item in (
         (53 - 1, baca.Ritardando()),
         (56 - 1, "38"),
     ):
         skip = skips[index]
         baca.metronome_mark_function(skip, item, library.manifests)
-
     baca.markup_function(skips[30 - 1], r"\akasha-repeat-six-markup")
     baca.markup_function(skips[56 - 1], r"\akasha-repeat-six-markup")
     baca.text_script_extra_offset_function(skips[56 - 1 : 61 - 1], (1.5, 6))
-
     baca.open_volta_function(skips[56 - 1], first_measure_number)
     baca.close_volta_function(skips[61 - 1], first_measure_number)
-
     stage_markup = (
         ("[K.1]", 1),
         ("[K.2]", 5),
@@ -60,10 +55,6 @@ def SKIPS(score, first_measure_number):
         ("[K.21]", 63),
     )
     baca.label_stage_numbers(skips, stage_markup)
-
-
-def RESTS(score):
-    rests = score["Rests"]
     for index, string in (
         (29 - 1, "short"),
         (40 - 1, "short"),
@@ -323,8 +314,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         first_measure_number=first_measure_number,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    SKIPS(score, first_measure_number)
-    RESTS(score)
+    GLOBALS(score["Skips"], score["Rests"], first_measure_number)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -360,7 +350,7 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
+        activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
         color_octaves=False,
         empty_fermata_measures=True,

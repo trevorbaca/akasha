@@ -23,8 +23,7 @@ def make_empty_score():
     return score, accumulator
 
 
-def SKIPS(score, accumulator):
-    skips = score["Skips"]
+def GLOBALS(skips, rests):
     for index, item in (
         (1 - 1, "126"),
         (33 - 1, "55"),
@@ -57,10 +56,6 @@ def SKIPS(score, accumulator):
     )
     stage_markup = library.stage_markup("05", stage_tokens)
     baca.label_stage_numbers(skips, stage_markup)
-
-
-def RESTS(score):
-    rests = score["Rests"]
     for index, string in (
         (9 - 1, "short"),
         (18 - 1, "short"),
@@ -379,8 +374,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         first_measure_number=first_measure_number,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    SKIPS(score, accumulator)
-    RESTS(score)
+    GLOBALS(score["Skips"], score["Rests"])
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -415,18 +409,18 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(
+        activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.MOMENT_NUMBER,
             baca.tags.STAGE_NUMBER,
-        ),
+        ],
         always_make_global_rests=True,
-        deactivate=(
+        deactivate=[
             baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.REAPPLIED_INSTRUMENT_ALERT,
             baca.tags.REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT,
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
-        ),
+        ],
         color_octaves=False,
         empty_fermata_measures=True,
         error_on_not_yet_pitched=True,

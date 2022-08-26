@@ -25,8 +25,7 @@ def make_empty_score():
     return score, accumulator
 
 
-def SKIPS(score):
-    skips = score["Skips"]
+def GLOBALS(skips, rests):
     moment_tokens = (
         (7, 9, "ABC"),
         (8, 2, "CD"),
@@ -42,10 +41,6 @@ def SKIPS(score):
     )
     stage_markup = library.stage_markup("03", stage_tokens)
     baca.label_stage_numbers(skips, stage_markup)
-
-
-def RESTS(score):
-    rests = score["Rests"]
     baca.global_fermata_function(rests[5 - 1], "long")
     baca.global_fermata_function(rests[7 - 1], "short")
     baca.global_fermata_function(rests[9 - 1], "short")
@@ -193,8 +188,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         first_measure_number=first_measure_number,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    SKIPS(score)
-    RESTS(score)
+    GLOBALS(score["Skips"], score["Rests"])
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
