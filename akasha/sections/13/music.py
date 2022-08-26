@@ -23,23 +23,16 @@ def make_empty_score():
     return score, accumulator
 
 
-def SKIPS(score):
-    skips = score["Skips"]
-
+def GLOBALS(skips, rests):
     for index, item in ((1 - 1, "55"),):
         skip = skips[index]
         baca.metronome_mark_function(skip, item, library.manifests)
-
     stage_markup = (
         ("[L.1]", 1),
         ("[L.3]", 3),
         ("[L.5]", 5),
     )
     baca.label_stage_numbers(skips, stage_markup)
-
-
-def RESTS(score):
-    rests = score["Rests"]
     for index, string in (
         (2 - 1, "very_long"),
         (4 - 1, "very_long"),
@@ -107,8 +100,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         first_measure_number=first_measure_number,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    SKIPS(score)
-    RESTS(score)
+    GLOBALS(score["Skips"], score["Rests"])
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -140,7 +132,7 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
+        activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
         empty_fermata_measures=True,
         error_on_not_yet_pitched=True,

@@ -25,8 +25,7 @@ def make_empty_score():
     return score, accumulator
 
 
-def SKIPS(score):
-    skips = score["Skips"]
+def GLOBALS(skips, rests):
     for index, item in (
         (1 - 1, "44"),
         (1 - 1, baca.Accelerando()),
@@ -58,10 +57,6 @@ def SKIPS(score):
     )
     stage_markup = library.stage_markup("02", stage_tokens)
     baca.label_stage_numbers(skips, stage_markup)
-
-
-def RESTS(score):
-    rests = score["Rests"]
     for index, string in (
         (3 - 1, "long"),
         (5 - 1, "long"),
@@ -428,8 +423,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         first_measure_number=first_measure_number,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    SKIPS(score)
-    RESTS(score)
+    GLOBALS(score["Skips"], score["Rests"])
     V1(score[library.voice_abbreviations["v1"]], accumulator)
     V2(score[library.voice_abbreviations["v2"]], accumulator)
     VA(score[library.voice_abbreviations["va"]], accumulator)

@@ -23,8 +23,7 @@ def make_empty_score():
     return score, accumulator
 
 
-def SKIPS(score):
-    skips = score["Skips"]
+def GLOBALS(skips, rests):
     for index, item in (
         (1 - 1, "89"),
         (4 - 1, "55"),
@@ -45,7 +44,6 @@ def SKIPS(score):
     ):
         skip = skips[index]
         baca.metronome_mark_function(skip, item, library.manifests)
-
     moment_tokens = (
         (30, 16, "DE"),
         (31, 4, "E"),
@@ -54,7 +52,6 @@ def SKIPS(score):
     )
     moment_markup = library.moment_markup(moment_tokens)
     baca.label_moment_numbers(skips, moment_markup)
-
     stage_tokens = (
         (1, 2 + 1),
         (3, 2),
@@ -74,10 +71,6 @@ def SKIPS(score):
     )
     stage_markup = library.stage_markup("09", stage_tokens)
     baca.label_stage_numbers(skips, stage_markup)
-
-
-def RESTS(score):
-    rests = score["Rests"]
     for index, string in (
         (3 - 1, "fermata"),
         (27 - 1, "short"),
@@ -418,8 +411,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         first_measure_number=first_measure_number,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    SKIPS(score)
-    RESTS(score)
+    GLOBALS(score["Skips"], score["Rests"])
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -454,11 +446,11 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(
+        activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.MOMENT_NUMBER,
             baca.tags.STAGE_NUMBER,
-        ),
+        ],
         always_make_global_rests=True,
         color_octaves=False,
         empty_fermata_measures=True,
