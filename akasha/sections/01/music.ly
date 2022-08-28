@@ -1,6 +1,6 @@
   %! abjad.LilyPondFile._get_format_pieces()
   %! baca._make_lilypond_file()
-\version "2.23.11"
+\version "2.23.12"
 \include "header.ily"
 \include "../stylesheet.ily"
   %! baca.path.extern()
