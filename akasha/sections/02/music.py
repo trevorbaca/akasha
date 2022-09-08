@@ -406,9 +406,7 @@ def composites(cache):
         for group in o:
             with baca.scope(group) as u:
                 baca.dynamic(u.pleaf(0), "mp")
-                baca.markup(
-                    u.pleaf(0), r"\baca-tasto-plus-half-scratch-markup"
-                )
+                baca.markup(u.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
