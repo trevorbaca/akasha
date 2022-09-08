@@ -962,7 +962,7 @@ number.9.Violin.1.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     fs''!2.
     % AFTER:
     % ARTICULATIONS:
@@ -1537,7 +1537,7 @@ number.9.Violin.2.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     af'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -1800,7 +1800,7 @@ number.9.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -1873,11 +1873,11 @@ number.9.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     c'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2490,7 +2490,7 @@ number.9.Cello.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs,!2.
     % AFTER:
     % ARTICULATIONS:
