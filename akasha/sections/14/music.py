@@ -32,7 +32,7 @@ def GLOBALS(skips, rests):
         (27 - 1, "44"),
     ):
         skip = skips[index]
-        baca.metronome_mark_function(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, library.manifests)
     stage_markup = (
         ("[M.1]", 1),
         ("[M.2]", 7),
@@ -47,7 +47,7 @@ def GLOBALS(skips, rests):
     )
     baca.label_stage_numbers(skips, stage_markup)
     for index, string in ((29 - 1, "fermata"),):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -90,24 +90,24 @@ def VC(voice, accumulator):
 
 
 def _7_28(m, pitch):
-    baca.pitch_function(m[7, 28], pitch)
+    baca.pitch(m[7, 28], pitch)
     with baca.scope(m[7, 10]) as o:
-        baca.dynamic_function(o.pleaf(0), "pp")
-        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
+        baca.dynamic(o.pleaf(0), "pp")
+        baca.markup(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
     with baca.scope(m[13, 14]) as o:
-        baca.text_spanner_function(o.leaves()[:2], "trans. => pos. ord. XFB")
+        baca.text_spanner(o.leaves()[:2], "trans. => pos. ord. XFB")
     with baca.scope(m[15, 16]) as o:
-        baca.text_spanner_function(o.leaves()[:2], "trans. => pont. XFB")
+        baca.text_spanner(o.leaves()[:2], "trans. => pont. XFB")
     with baca.scope(m[17, 18]) as o:
-        baca.text_spanner_function(o.leaves()[:3], "trans. => XP+XFB")
+        baca.text_spanner(o.leaves()[:3], "trans. => XP+XFB")
     with baca.scope(m[19, 22]) as o:
-        baca.text_spanner_function(o.leaves()[:4], "trans. => XP")
+        baca.text_spanner(o.leaves()[:4], "trans. => XP")
     with baca.scope(m[23, 24]) as o:
-        baca.text_spanner_function(o.leaves()[:2], "trans. => 1/3OB")
+        baca.text_spanner(o.leaves()[:2], "trans. => 1/3OB")
     with baca.scope(m[25, 26]) as o:
-        baca.text_spanner_function(o.leaves()[:2], "trans. => 2/3OB")
+        baca.text_spanner(o.leaves()[:2], "trans. => 2/3OB")
     with baca.scope(m[27, 28]) as o:
-        baca.text_spanner_function(o.leaves()[:2], "trans. => OB (no pitch)")
+        baca.text_spanner(o.leaves()[:2], "trans. => OB (no pitch)")
 
 
 def v1(m):
@@ -119,20 +119,20 @@ def v2(m):
 
 
 def va(m):
-    baca.staff_lines_function(abjad.select.leaf(m[1][0], 0), 5)
+    baca.staff_lines(abjad.select.leaf(m[1][0], 0), 5)
     _7_28(m, "Bb2")
 
 
 def vc(m):
-    baca.pitch_function(m[1, 24], "Bb1")
+    baca.pitch(m[1, 24], "Bb1")
     with baca.scope(m[1, 10]) as o:
-        baca.hairpin_function(o.leaves()[:9], "ppp < ff")
-        baca.text_spanner_function(o.leaves()[:9], "trans. => vib. moltiss.")
+        baca.hairpin(o.leaves()[:9], "ppp < ff")
+        baca.text_spanner(o.leaves()[:9], "trans. => vib. moltiss.")
     with baca.scope(m[13, 18]) as o:
-        baca.dynamic_function(o.pleaf(0), "pp")
-        baca.markup_function(o.pleaf(0), r"\baca-vib-poco-markup")
+        baca.dynamic(o.pleaf(0), "pp")
+        baca.markup(o.pleaf(0), r"\baca-vib-poco-markup")
     with baca.scope(m[19, 24]) as o:
-        baca.hairpin_function(o.rleak(), "pp >o niente")
+        baca.hairpin(o.rleak(), "pp >o niente")
 
 
 def make_score(first_measure_number, previous_persistent_indicators):

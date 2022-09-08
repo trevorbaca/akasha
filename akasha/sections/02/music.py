@@ -35,7 +35,7 @@ def GLOBALS(skips, rests):
         (10 - 1, "55"),
     ):
         skip = skips[index]
-        baca.metronome_mark_function(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, library.manifests)
     moment_tokens = (
         (2, 5, "AB"),
         (3, 5, "B(A)"),
@@ -67,7 +67,7 @@ def GLOBALS(skips, rests):
         (18 - 1, "long"),
         (20 - 1, "short"),
     ):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -325,88 +325,88 @@ def VC(voice, accumulator):
 
 def v1(m):
     with baca.scope(m[6, 7]) as o:
-        baca.pitches_function(o, "E4 F4 E+4", exact=True)
-        library.material_annotation_spanner_function(o, "B")
-    library.material_annotation_spanner_function(m[9], "A")
+        baca.pitches(o, "E4 F4 E+4", exact=True)
+        library.material_annotation_spanner(o, "B")
+    library.material_annotation_spanner(m[9], "A")
     with baca.scope(m[11, 13]) as o:
-        library.material_annotation_spanner_function(o, "C")
-        baca.dynamic_function(o.pleaf(0), "pp")
-        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
-    library.material_annotation_spanner_function(m[15], "C")
-    library.material_annotation_spanner_function(m[17], "C")
+        library.material_annotation_spanner(o, "C")
+        baca.dynamic(o.pleaf(0), "pp")
+        baca.markup(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
+    library.material_annotation_spanner(m[15], "C")
+    library.material_annotation_spanner(m[17], "C")
     with baca.scope(m[11, 19]) as o:
-        baca.pitches_function(o, "D5 E5")
+        baca.pitches(o, "D5 E5")
 
 
 def v2(m):
-    library.material_annotation_spanner_function(m[4], "A")
+    library.material_annotation_spanner(m[4], "A")
     with baca.scope(m[6, 7]) as o:
-        library.material_annotation_spanner_function(o, "B")
-        baca.pitches_function(o, "D4 D~4 C4", exact=True)
+        library.material_annotation_spanner(o, "B")
+        baca.pitches(o, "D4 D~4 C4", exact=True)
     with baca.scope(m[9]) as o:
-        library.material_annotation_spanner_function(o, "B")
-        baca.pitches_function(o, "C#4 C#+4", exact=True)
+        library.material_annotation_spanner(o, "B")
+        baca.pitches(o, "C#4 C#+4", exact=True)
     with baca.scope(m[11, 13]) as o:
-        library.material_annotation_spanner_function(o, "C")
-        baca.dynamic_function(o.pleaf(0), "pp")
-        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
-    library.material_annotation_spanner_function(m[15], "C")
-    library.material_annotation_spanner_function(m[17], "C")
-    library.material_annotation_spanner_function(m[19], "C")
+        library.material_annotation_spanner(o, "C")
+        baca.dynamic(o.pleaf(0), "pp")
+        baca.markup(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
+    library.material_annotation_spanner(m[15], "C")
+    library.material_annotation_spanner(m[17], "C")
+    library.material_annotation_spanner(m[19], "C")
     with baca.scope(m[11, 19]) as o:
-        baca.pitches_function(o, "Bb4 C5")
+        baca.pitches(o, "Bb4 C5")
 
 
 def va(m):
     with baca.scope(m[1, 3]) as o:
-        baca.staff_lines_function(o.leaf(0), 5)
-    library.material_annotation_spanner_function(m[4], "A")
+        baca.staff_lines(o.leaf(0), 5)
+    library.material_annotation_spanner(m[4], "A")
     with baca.scope(m[6, 7]) as o:
-        library.material_annotation_spanner_function(o, "B")
-        baca.pitches_function(o, "Eb4 D4 E4", exact=True)
-    library.material_annotation_spanner_function(m[9], "B")
-    baca.pitches_function(m[9], "C4", exact=True)
+        library.material_annotation_spanner(o, "B")
+        baca.pitches(o, "Eb4 D4 E4", exact=True)
+    library.material_annotation_spanner(m[9], "B")
+    baca.pitches(m[9], "C4", exact=True)
     with baca.scope(m[11, 13]) as o:
-        library.material_annotation_spanner_function(o, "B")
-        baca.pitches_function(o, "D4 D+4 D#4 E4 F#4 F4", exact=True)
-    library.material_annotation_spanner_function(m[15], "B")
-    baca.pitches_function(m[15], "Eb4 D4", exact=True)
+        library.material_annotation_spanner(o, "B")
+        baca.pitches(o, "D4 D+4 D#4 E4 F#4 F4", exact=True)
+    library.material_annotation_spanner(m[15], "B")
+    baca.pitches(m[15], "Eb4 D4", exact=True)
 
 
 def vc(m):
     with baca.scope(m[1, 2]) as o:
         library.cello_solo_pitches(function=o)
-        library.material_annotation_spanner_function(o, "B")
-        baca.dynamic_function(o.pleaf(0), "mp")
-        baca.markup_function(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
+        library.material_annotation_spanner(o, "B")
+        baca.dynamic(o.pleaf(0), "mp")
+        baca.markup(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[9]) as o:
-        library.material_annotation_spanner_function(o, "B")
-        baca.pitches_function(o, "C4 C~4 B3", exact=True)
+        library.material_annotation_spanner(o, "B")
+        baca.pitches(o, "C4 C~4 B3", exact=True)
     with baca.scope(m[11, 13]) as o:
-        library.material_annotation_spanner_function(o, "B")
-        baca.pitches_function(o, "Bb3 Bb~3 A3 Ab3 G3 A3", exact=True)
+        library.material_annotation_spanner(o, "B")
+        baca.pitches(o, "Bb3 Bb~3 A3 Ab3 G3 A3", exact=True)
     with baca.scope(m[15]) as o:
-        library.material_annotation_spanner_function(o, "B")
-        baca.pitches_function(o, "A3 A#3 B3", exact=True)
-    library.material_annotation_spanner_function(m[19], "A")
+        library.material_annotation_spanner(o, "B")
+        baca.pitches(o, "A3 A#3 B3", exact=True)
+    library.material_annotation_spanner(m[19], "A")
 
 
 def composites(cache):
     with baca.scope(
         [cache["v2"][4], cache["va"][4], cache["v1"][9], cache["vc"][19]]
     ) as o:
-        baca.staccato_function(baca.select.pheads(o))
+        baca.staccato(baca.select.pheads(o))
         library.getato_pitches(-2, [0], function=o)
         for group in o:
-            baca.dynamic_function(
+            baca.dynamic(
                 baca.select.pleaf(group, 0),
                 "p",
             )
     with baca.scope([cache["v1"][6], cache["v2"][6], cache["va"][6]]) as o:
         for group in o:
             with baca.scope(group) as u:
-                baca.dynamic_function(u.pleaf(0), "mp")
-                baca.markup_function(
+                baca.dynamic(u.pleaf(0), "mp")
+                baca.markup(
                     u.pleaf(0), r"\baca-tasto-plus-half-scratch-markup"
                 )
 
