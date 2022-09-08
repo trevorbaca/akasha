@@ -55,7 +55,7 @@ def V1(voice, accumulator):
         fuse_counts=[1, 2],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 7), head=voice.name)
     voice.extend(music)
@@ -66,14 +66,14 @@ def V2(voice, accumulator):
         accumulator.get(1, 2),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 7), head=voice.name)
     voice.extend(music)
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
@@ -91,7 +91,7 @@ def VC(voice, accumulator):
         preprocessor=lambda _: baca.sequence.fuse(_),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)

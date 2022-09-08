@@ -2287,7 +2287,7 @@ number.3.Viola.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     ds!2..
     % AFTER:
     % MARKUP:
@@ -3591,7 +3591,7 @@ number.3.Cello.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs,!2..
     % AFTER:
     % ARTICULATIONS:
