@@ -241,9 +241,7 @@ def v1(m):
             baca.ottava(run)
         baca.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "mp")
-        baca.markup(
-            o.pleaf(0), r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup"
-        )
+        baca.markup(o.pleaf(0), r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup")
     with baca.scope(m[19, 46]) as o:
         runs = baca.select.runs(o, exclude=baca.enums.HIDDEN)
         for i, run in enumerate(runs):
@@ -282,9 +280,7 @@ def va(m):
     with baca.scope(m[1, 8]) as o:
         baca.clef(o.leaf(0), "treble")
         baca.dynamic(o.pleaf(0), "mp")
-        baca.markup(
-            o.pleaf(0), r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup"
-        )
+        baca.markup(o.pleaf(0), r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup")
     with baca.scope(m[1, 31]) as o:
         baca.pitch(o, "Gqf5")
         baca.note_head_style_harmonic(o.pleaves())
@@ -312,9 +308,7 @@ def vc(m):
         baca.pitch(o, "D5")
         baca.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "mp")
-        baca.markup(
-            o.pleaf(0), r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup"
-        )
+        baca.markup(o.pleaf(0), r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup")
     with baca.scope(m[24, 31]) as o:
         baca.clef(o.leaf(0), "bass")
         library.harmonic_glissando_pitches("G2", function=o)

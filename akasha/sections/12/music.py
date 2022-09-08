@@ -237,9 +237,7 @@ def v1(m):
         baca.ottava(o.tleaves())
         baca.hairpin(o, "sffp < f")
         baca.trill_spanner(o.rleak())
-        baca.markup(
-            o.pleaf(0), r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup"
-        )
+        baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup")
     with baca.scope(m[56, 68]) as o:
         baca.ottava(o.tleaves())
         baca.ottava_bracket_staff_padding(o, 12)
@@ -255,9 +253,7 @@ def v2(m):
         baca.pitch(o, "C#7")
     with baca.scope(m[51, 54]) as o:
         baca.ottava(o.tleaves())
-        baca.markup(
-            o.pleaf(0), r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup"
-        )
+        baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup")
         baca.trill_spanner(o.rleak())
         baca.hairpin(o.leaves()[:4], "sffp < f")
     with baca.scope(m[56, 68]) as o:
@@ -272,9 +268,7 @@ def va(m):
     baca.pitch(m[41, 48], "A2")
     with baca.scope(m[49, 54]) as o:
         baca.clef(o.leaf(0), "treble")
-        baca.markup(
-            o.pleaf(0), r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup"
-        )
+        baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup")
         baca.trill_spanner(o.rleak())
     with baca.scope(m[49, 52]) as o:
         baca.hairpin(o.leaves()[:4], "sffp < f")
@@ -294,9 +288,7 @@ def vc(m):
     with baca.scope(m[47, 54]) as o:
         baca.clef(o.leaf(0), "treble")
         baca.trill_spanner(o.rleak())
-        baca.markup(
-            o.pleaf(0), r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup"
-        )
+        baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup")
     with baca.scope(m[47, 50]) as o:
         baca.hairpin(o.leaves()[:4], "sffp < f")
     baca.text_spanner_staff_padding(m[56, 69], 5)

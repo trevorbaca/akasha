@@ -186,9 +186,7 @@ def composites(cache):
     for abbreviation in ["v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][1, 4]) as o:
             baca.hairpin(o, "ff > f")
-            baca.text_spanner(
-                o, "tasto + scratch moltiss. => tasto + 1/4 scratch"
-            )
+            baca.text_spanner(o, "tasto + scratch moltiss. => tasto + 1/4 scratch")
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][5, 7]) as o:
             baca.hairpin(o, "f > mf")

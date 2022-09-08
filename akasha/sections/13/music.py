@@ -75,9 +75,7 @@ def va(m):
         baca.staff_position(o, 0)
         baca.alternate_bow_strokes(o.pheads())
         baca.dynamic(o.pleaf(0), '"mf"')
-        baca.markup(
-            o.pleaf(0), r"\akasha-ob-plus-terminate-each-note-abruptly-markup"
-        )
+        baca.markup(o.pleaf(0), r"\akasha-ob-plus-terminate-each-note-abruptly-markup")
 
 
 def vc(m):
