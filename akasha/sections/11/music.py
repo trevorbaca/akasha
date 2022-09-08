@@ -29,7 +29,7 @@ def GLOBALS(skips, rests):
     stage_markup = (("[J.1]", 1),)
     baca.label_stage_numbers(skips, stage_markup)
     for index, string in ((4 - 1, "very_long"),):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -124,8 +124,8 @@ def composites(cache):
         (["v1", "v2", "vc"], (1, 3)),
     ):
         with baca.scope(leaves) as u:
-            baca.dynamic_function(u.pleaf(0), "ff")
-            baca.markup_function(
+            baca.dynamic(u.pleaf(0), "ff")
+            baca.markup(
                 u.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup"
             )
     library.getato_pitches(5, [2], function=cache["v1"][1, 3])

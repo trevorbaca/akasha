@@ -29,12 +29,12 @@ def GLOBALS(skips, rests, first_measure_number):
         (56 - 1, "38"),
     ):
         skip = skips[index]
-        baca.metronome_mark_function(skip, item, library.manifests)
-    baca.markup_function(skips[30 - 1], r"\akasha-repeat-six-markup")
-    baca.markup_function(skips[56 - 1], r"\akasha-repeat-six-markup")
-    baca.text_script_extra_offset_function(skips[56 - 1 : 61 - 1], (1.5, 6))
-    baca.open_volta_function(skips[56 - 1], first_measure_number)
-    baca.close_volta_function(skips[61 - 1], first_measure_number)
+        baca.metronome_mark(skip, item, library.manifests)
+    baca.markup(skips[30 - 1], r"\akasha-repeat-six-markup")
+    baca.markup(skips[56 - 1], r"\akasha-repeat-six-markup")
+    baca.text_script_extra_offset(skips[56 - 1 : 61 - 1], (1.5, 6))
+    baca.open_volta(skips[56 - 1], first_measure_number)
+    baca.close_volta(skips[61 - 1], first_measure_number)
     stage_markup = (
         ("[K.1]", 1),
         ("[K.2]", 5),
@@ -62,7 +62,7 @@ def GLOBALS(skips, rests, first_measure_number):
         (55 - 1, "short"),
         (69 - 1, "very_long"),
     ):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -181,125 +181,125 @@ def VC(voice, accumulator):
 
 def _1_68(m):
     with baca.scope(m[1, 28]) as o:
-        baca.dynamic_function(o.pleaf(0), '"ff"')
-        baca.markup_function(
+        baca.dynamic(o.pleaf(0), '"ff"')
+        baca.markup(
             o.pleaf(0), r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"
         )
     with baca.scope(m[5, 8]) as o:
-        baca.text_spanner_function(o.leaves()[:-1], "trans. => 1 click/1-2 sec.")
+        baca.text_spanner(o.leaves()[:-1], "trans. => 1 click/1-2 sec.")
     with baca.scope(m[9, 12]) as o:
-        baca.text_spanner_function(o.leaves()[:-1], "trans. => 1-2 clicks/sec.")
+        baca.text_spanner(o.leaves()[:-1], "trans. => 1-2 clicks/sec.")
     with baca.scope(m[13, 16]) as o:
-        baca.dynamic_function(o.leaf(2), "ff"),
-        baca.text_spanner_function(o.leaves()[:-1], "trans. => scratch moltiss.")
+        baca.dynamic(o.leaf(2), "ff"),
+        baca.text_spanner(o.leaves()[:-1], "trans. => scratch moltiss.")
     with baca.scope(m[17, 20]) as o:
-        baca.text_spanner_function(o.leaves()[:-1], "trans. => 1/2 scratch")
+        baca.text_spanner(o.leaves()[:-1], "trans. => 1/2 scratch")
     with baca.scope(m[21, 24]) as o:
-        baca.text_spanner_function(o.leaves()[:-1], "trans. => PO")
+        baca.text_spanner(o.leaves()[:-1], "trans. => PO")
     with baca.scope(m[25, 28]) as o:
-        baca.hairpin_function(o.leaves()[:-1], "ff < fff")
-        baca.text_spanner_function(o.leaves()[:-1], "trans. => vib. moltiss.")
+        baca.hairpin(o.leaves()[:-1], "ff < fff")
+        baca.text_spanner(o.leaves()[:-1], "trans. => vib. moltiss.")
     with baca.scope(m[30, 34]) as o:
-        baca.hairpin_function(o.leaves()[:3], "sffp < fff")
-        baca.hairpin_function(o.leaves()[-2:], "fff > p")
-        baca.text_spanner_function(o.leaves()[:3], "PO senza vib. => XP")
-        baca.text_spanner_function(o.leaves()[-2:], "XP => PO")
+        baca.hairpin(o.leaves()[:3], "sffp < fff")
+        baca.hairpin(o.leaves()[-2:], "fff > p")
+        baca.text_spanner(o.leaves()[:3], "PO senza vib. => XP")
+        baca.text_spanner(o.leaves()[-2:], "XP => PO")
     with baca.scope(m[35, 39]) as o:
-        baca.hairpin_function(o.leaves()[:2], "sffp < fff")
-        baca.hairpin_function(o.leaves()[-2:], "fff > p")
-        baca.text_spanner_function(o.leaves()[:2], "PO => XP")
-        baca.text_spanner_function(o.leaves()[-2:], "XP => pos. ord.")
+        baca.hairpin(o.leaves()[:2], "sffp < fff")
+        baca.hairpin(o.leaves()[-2:], "fff > p")
+        baca.text_spanner(o.leaves()[:2], "PO => XP")
+        baca.text_spanner(o.leaves()[-2:], "XP => pos. ord.")
     with baca.scope(m[41, 45]) as o:
-        baca.hairpin_function(o.leaves()[:-1], "sffp > pp")
-        baca.text_spanner_function(o.leaves()[:-1], "pos. ord. => XT")
+        baca.hairpin(o.leaves()[:-1], "sffp > pp")
+        baca.text_spanner(o.leaves()[:-1], "pos. ord. => XT")
     with baca.scope(m[1, 46]) as o:
-        baca.text_spanner_staff_padding_function(o, 4)
+        baca.text_spanner_staff_padding(o, 4)
     with baca.scope(m[56, 60]) as o:
-        baca.hairpin_function(o.leaves()[:3], "sf < fff")
-        baca.hairpin_function(o.leaves()[-2:], "fff > f")
-        baca.text_spanner_function(o.leaves()[:3], "pos. ord. => XP")
-        baca.text_spanner_function(o.leaves()[-2:], "XP => pos. ord.")
-        baca.trill_spanner_function(o.rleak()),
+        baca.hairpin(o.leaves()[:3], "sf < fff")
+        baca.hairpin(o.leaves()[-2:], "fff > f")
+        baca.text_spanner(o.leaves()[:3], "pos. ord. => XP")
+        baca.text_spanner(o.leaves()[-2:], "XP => pos. ord.")
+        baca.trill_spanner(o.rleak()),
     with baca.scope(m[61, 68]) as o:
-        baca.hairpin_function(o.leaves()[:4], "sffp < fff")
-        baca.text_spanner_function(o.leaves()[:4], "pos. ord. => XP")
-        baca.trill_spanner_function(o.rleak())
+        baca.hairpin(o.leaves()[:4], "sffp < fff")
+        baca.text_spanner(o.leaves()[:4], "pos. ord. => XP")
+        baca.trill_spanner(o.rleak())
 
 
 def v1(m):
-    baca.pitch_function(m[1, 28], "A5")
-    baca.pitch_function(m[30, 39], "A5")
-    baca.pitch_function(m[41, 52], "A5")
+    baca.pitch(m[1, 28], "A5")
+    baca.pitch(m[30, 39], "A5")
+    baca.pitch(m[41, 52], "A5")
     with baca.scope(m[53, 68]) as o:
-        baca.pitch_function(o, "B7")
-        baca.note_head_style_harmonic_function(o.pleaves())
+        baca.pitch(o, "B7")
+        baca.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[53, 54]) as o:
-        baca.ottava_function(o.tleaves())
-        baca.hairpin_function(o, "sffp < f")
-        baca.trill_spanner_function(o.rleak())
-        baca.markup_function(
+        baca.ottava(o.tleaves())
+        baca.hairpin(o, "sffp < f")
+        baca.trill_spanner(o.rleak())
+        baca.markup(
             o.pleaf(0), r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup"
         )
     with baca.scope(m[56, 68]) as o:
-        baca.ottava_function(o.tleaves())
-        baca.ottava_bracket_staff_padding_function(o, 12)
-    baca.text_spanner_staff_padding_function(m[56, 69], 9.5)
+        baca.ottava(o.tleaves())
+        baca.ottava_bracket_staff_padding(o, 12)
+    baca.text_spanner_staff_padding(m[56, 69], 9.5)
 
 
 def v2(m):
-    baca.pitch_function(m[1, 28], "G#+4")
-    baca.pitches_function(m[30, 39], "A4 G#+4")
-    baca.pitch_function(m[41, 50], "A4")
+    baca.pitch(m[1, 28], "G#+4")
+    baca.pitches(m[30, 39], "A4 G#+4")
+    baca.pitch(m[41, 50], "A4")
     with baca.scope(m[51, 68]) as o:
-        baca.note_head_style_harmonic_function(o.pleaves())
-        baca.pitch_function(o, "C#7")
+        baca.note_head_style_harmonic(o.pleaves())
+        baca.pitch(o, "C#7")
     with baca.scope(m[51, 54]) as o:
-        baca.ottava_function(o.tleaves())
-        baca.markup_function(
+        baca.ottava(o.tleaves())
+        baca.markup(
             o.pleaf(0), r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup"
         )
-        baca.trill_spanner_function(o.rleak())
-        baca.hairpin_function(o.leaves()[:4], "sffp < f")
+        baca.trill_spanner(o.rleak())
+        baca.hairpin(o.leaves()[:4], "sffp < f")
     with baca.scope(m[56, 68]) as o:
-        baca.ottava_function(o.tleaves())
-        baca.ottava_bracket_staff_padding_function(o, 10)
-    baca.text_spanner_staff_padding_function(m[56, 69], 7.5)
+        baca.ottava(o.tleaves())
+        baca.ottava_bracket_staff_padding(o, 10)
+    baca.text_spanner_staff_padding(m[56, 69], 7.5)
 
 
 def va(m):
-    baca.pitch_function(m[1, 28], "A+2")
-    baca.pitches_function(m[30, 39], "A2 A+2")
-    baca.pitch_function(m[41, 48], "A2")
+    baca.pitch(m[1, 28], "A+2")
+    baca.pitches(m[30, 39], "A2 A+2")
+    baca.pitch(m[41, 48], "A2")
     with baca.scope(m[49, 54]) as o:
-        baca.clef_function(o.leaf(0), "treble")
-        baca.markup_function(
+        baca.clef(o.leaf(0), "treble")
+        baca.markup(
             o.pleaf(0), r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup"
         )
-        baca.trill_spanner_function(o.rleak())
+        baca.trill_spanner(o.rleak())
     with baca.scope(m[49, 52]) as o:
-        baca.hairpin_function(o.leaves()[:4], "sffp < f")
+        baca.hairpin(o.leaves()[:4], "sffp < f")
     with baca.scope(m[49, 68]) as o:
-        baca.pitch_function(o, "G~5")
-        baca.note_head_style_harmonic_function(o.pleaves())
-    baca.text_spanner_staff_padding_function(m[56, 69], 7)
+        baca.pitch(o, "G~5")
+        baca.note_head_style_harmonic(o.pleaves())
+    baca.text_spanner_staff_padding(m[56, 69], 7)
 
 
 def vc(m):
-    baca.pitch_function(m[1, 28], "A1")
-    baca.pitch_function(m[30, 39], "A1")
-    baca.pitch_function(m[41, 45], "A1")
+    baca.pitch(m[1, 28], "A1")
+    baca.pitch(m[30, 39], "A1")
+    baca.pitch(m[41, 45], "A1")
     with baca.scope(m[47, 68]) as o:
-        baca.pitch_function(o, "D5")
-        baca.note_head_style_harmonic_function(o.pleaves())
+        baca.pitch(o, "D5")
+        baca.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[47, 54]) as o:
-        baca.clef_function(o.leaf(0), "treble")
-        baca.trill_spanner_function(o.rleak())
-        baca.markup_function(
+        baca.clef(o.leaf(0), "treble")
+        baca.trill_spanner(o.rleak())
+        baca.markup(
             o.pleaf(0), r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup"
         )
     with baca.scope(m[47, 50]) as o:
-        baca.hairpin_function(o.leaves()[:4], "sffp < f")
-    baca.text_spanner_staff_padding_function(m[56, 69], 5)
+        baca.hairpin(o.leaves()[:4], "sffp < f")
+    baca.text_spanner_staff_padding(m[56, 69], 5)
 
 
 def make_score(first_measure_number, previous_persistent_indicators):

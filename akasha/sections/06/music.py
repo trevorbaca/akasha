@@ -34,7 +34,7 @@ def GLOBALS(skips, rests):
         (27 - 1, "126"),
     ):
         skip = skips[index]
-        baca.metronome_mark_function(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, library.manifests)
     moment_tokens = (("19+20", 39, "AE+A"),)
     moment_markup = library.moment_markup(moment_tokens)
     baca.label_moment_numbers(skips, moment_markup)
@@ -62,7 +62,7 @@ def GLOBALS(skips, rests):
         (8 - 1, "fermata"),
         (39 - 1, "long"),
     ):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -316,85 +316,85 @@ def VC(voice, accumulator):
 
 
 def v1(m):
-    library.material_annotation_spanner_function(m[5], "A")
-    library.material_annotation_spanner_function(m[7], "A")
+    library.material_annotation_spanner(m[5], "A")
+    library.material_annotation_spanner(m[7], "A")
     library.getato_pitches(5, [2], function=m.leaves())
     with baca.scope(m[1, 14]) as o:
-        baca.dynamic_function(o.pleaf(0), "ff")
-        baca.markup_function(o.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup")
+        baca.dynamic(o.pleaf(0), "ff")
+        baca.markup(o.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup")
     with baca.scope(m[15, 22]) as o:
-        baca.dynamic_function(o.pleaf(0), "f")
-        baca.markup_function(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
+        baca.dynamic(o.pleaf(0), "f")
+        baca.markup(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
     with baca.scope(m[23, 32]) as o:
-        baca.hairpin_function(o.tleaves(), "mf > pp")
-        baca.markup_function(o.tleaves()[0], r"\akasha-leggieriss-senza-scratch-markup")
+        baca.hairpin(o.tleaves(), "mf > pp")
+        baca.markup(o.tleaves()[0], r"\akasha-leggieriss-senza-scratch-markup")
     with baca.scope(m[23, 39]) as o:
-        baca.staccato_function(o.pheads())
+        baca.staccato(o.pheads())
 
 
 def v2(m):
-    library.material_annotation_spanner_function(m[3], "A")
-    library.material_annotation_spanner_function(m[5], "A")
-    library.material_annotation_spanner_function(m[7], "A")
+    library.material_annotation_spanner(m[3], "A")
+    library.material_annotation_spanner(m[5], "A")
+    library.material_annotation_spanner(m[7], "A")
     library.getato_pitches(-3, [2], function=m.leaves())
     with baca.scope(m[1, 10]) as o:
-        baca.dynamic_function(o.pleaf(0), "ff")
-        baca.markup_function(o.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup")
+        baca.dynamic(o.pleaf(0), "ff")
+        baca.markup(o.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup")
     with baca.scope(m[11, 18]) as o:
-        baca.dynamic_function(o.pleaf(0), "f")
-        baca.markup_function(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
+        baca.dynamic(o.pleaf(0), "f")
+        baca.markup(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
     with baca.scope(m[19, 20]) as o:
-        baca.dynamic_function(o.pleaf(0), "mf")
-        baca.markup_function(o.pleaf(0), r"\akasha-senza-scratch-markup")
+        baca.dynamic(o.pleaf(0), "mf")
+        baca.markup(o.pleaf(0), r"\akasha-senza-scratch-markup")
     with baca.scope(m[21, 39]) as o:
-        baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
+        baca.markup(o.pleaf(0), r"\baca-leggieriss-markup")
     with baca.scope(m[23, 32]) as o:
-        baca.hairpin_function(o.tleaves(), "mf > pp")
+        baca.hairpin(o.tleaves(), "mf > pp")
     with baca.scope(m[19, 39]) as o:
-        baca.staccato_function(o.pheads())
+        baca.staccato(o.pheads())
 
 
 def va(m):
-    library.material_annotation_spanner_function(m[1], "E")
-    library.material_annotation_spanner_function(m[3], "E")
-    library.material_annotation_spanner_function(m[5], "E")
-    library.material_annotation_spanner_function(m[7], "E")
-    library.material_annotation_spanner_function(m[9, 38], "E")
+    library.material_annotation_spanner(m[1], "E")
+    library.material_annotation_spanner(m[3], "E")
+    library.material_annotation_spanner(m[5], "E")
+    library.material_annotation_spanner(m[7], "E")
+    library.material_annotation_spanner(m[9, 38], "E")
     with baca.scope(m.leaves()) as o:
-        baca.staff_lines_function(o.leaf(0), 1)
-        baca.staff_position_function(o, 0)
-        baca.dynamic_function(o.pleaf(0), '"mf"')
-        baca.markup_function(o.pleaf(0), r"\baca-ob-markup")
-        baca.alternate_bow_strokes_function(o.pheads())
+        baca.staff_lines(o.leaf(0), 1)
+        baca.staff_position(o, 0)
+        baca.dynamic(o.pleaf(0), '"mf"')
+        baca.markup(o.pleaf(0), r"\baca-ob-markup")
+        baca.alternate_bow_strokes(o.pheads())
 
 
 def vc(m):
-    library.material_annotation_spanner_function(m[3], "A")
-    library.material_annotation_spanner_function(m[7], "A")
+    library.material_annotation_spanner(m[3], "A")
+    library.material_annotation_spanner(m[7], "A")
     library.getato_pitches(-13, [2], function=m.leaves())
     with baca.scope(m[1, 8]) as o:
-        baca.dynamic_function(o.pleaf(0), "ff")
-        baca.markup_function(o.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup")
+        baca.dynamic(o.pleaf(0), "ff")
+        baca.markup(o.pleaf(0), r"\akasha-scratch-moltiss-explanation-markup")
     with baca.scope(m[9, 14]) as o:
-        baca.dynamic_function(o.pleaf(0), "f")
-        baca.markup_function(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
+        baca.dynamic(o.pleaf(0), "f")
+        baca.markup(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
     with baca.scope(m[15, 18]) as o:
-        baca.dynamic_function(o.pleaf(0), "mf")
-        baca.markup_function(o.pleaf(0), r"\akasha-senza-scratch-markup")
+        baca.dynamic(o.pleaf(0), "mf")
+        baca.markup(o.pleaf(0), r"\akasha-senza-scratch-markup")
     with baca.scope(m[19]) as o:
-        baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
+        baca.markup(o.pleaf(0), r"\baca-leggieriss-markup")
     with baca.scope(m[15, 39]) as o:
-        baca.staccato_function(o.pheads())
-    baca.clef_function(m[27][0], "treble")
+        baca.staccato(o.pheads())
+    baca.clef(m[27][0], "treble")
     with baca.scope(m[23, 32]) as o:
-        baca.hairpin_function(o.tleaves(), "mf > pp")
+        baca.hairpin(o.tleaves(), "mf > pp")
 
 
 def composites(cache):
     for leaves in cache.get(
         (["v1", "v2", "vc"], (9, 38)),
     ):
-        library.material_annotation_spanner_function(leaves, "A")
+        library.material_annotation_spanner(leaves, "A")
 
 
 def make_score(first_measure_number, previous_persistent_indicators):

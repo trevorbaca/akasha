@@ -26,7 +26,7 @@ def make_empty_score():
 def GLOBALS(skips, rests):
     for index, item in ((1 - 1, "55"),):
         skip = skips[index]
-        baca.metronome_mark_function(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, library.manifests)
     stage_markup = (
         ("[L.1]", 1),
         ("[L.3]", 3),
@@ -37,7 +37,7 @@ def GLOBALS(skips, rests):
         (2 - 1, "very_long"),
         (4 - 1, "very_long"),
     ):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -70,22 +70,22 @@ def VC(voice, accumulator):
 
 def va(m):
     with baca.scope(m[1, 3]) as o:
-        baca.clef_function(o.leaf(0), "alto")
-        baca.staff_lines_function(o.leaf(0), 1)
-        baca.staff_position_function(o, 0)
-        baca.alternate_bow_strokes_function(o.pheads())
-        baca.dynamic_function(o.pleaf(0), '"mf"')
-        baca.markup_function(
+        baca.clef(o.leaf(0), "alto")
+        baca.staff_lines(o.leaf(0), 1)
+        baca.staff_position(o, 0)
+        baca.alternate_bow_strokes(o.pheads())
+        baca.dynamic(o.pleaf(0), '"mf"')
+        baca.markup(
             o.pleaf(0), r"\akasha-ob-plus-terminate-each-note-abruptly-markup"
         )
 
 
 def vc(m):
     with baca.scope(m[5, 6]) as o:
-        baca.clef_function(o.leaf(0), "bass")
-        baca.pitch_function(o, "Bb1")
-        baca.dynamic_function(o.pleaf(0), "pp")
-        baca.markup_function(o.pleaf(0), r"\akasha-pos-ord-plus-vib-poco-markup")
+        baca.clef(o.leaf(0), "bass")
+        baca.pitch(o, "Bb1")
+        baca.dynamic(o.pleaf(0), "pp")
+        baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-vib-poco-markup")
 
 
 def make_score(first_measure_number, previous_persistent_indicators):

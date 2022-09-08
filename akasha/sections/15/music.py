@@ -26,15 +26,15 @@ def make_empty_score():
 
 
 def GLOBALS(skips, rests):
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "N",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
     )
     for index, item in ((1 - 1, "89"),):
         skip = skips[index]
-        baca.metronome_mark_function(skip, item, library.manifests)
-    baca.bar_line_function(skips[25 - 1], "|.")
+        baca.metronome_mark(skip, item, library.manifests)
+    baca.bar_line(skips[25 - 1], "|.")
     stage_markup = (
         ("[N.1]", 1),
         ("[N.2]", 9),
@@ -42,7 +42,7 @@ def GLOBALS(skips, rests):
     )
     baca.label_stage_numbers(skips, stage_markup)
     for index, string in ((25 - 1, "very_long"),):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def V1(voice, accumulator):
@@ -108,9 +108,9 @@ def v1(m):
 def v2(m):
     with baca.scope(m[9, 24]) as o:
         library.getato_pitches(29, direction=abjad.DOWN, function=o)
-        baca.staccato_function(o.pheads())
-        baca.dynamic_function(o.pleaf(0), "pp-ancora")
-        baca.markup_function(o.pleaf(0), r"\baca-leggieriss-markup")
+        baca.staccato(o.pheads())
+        baca.dynamic(o.pleaf(0), "pp-ancora")
+        baca.markup(o.pleaf(0), r"\baca-leggieriss-markup")
 
 
 def va(m):
@@ -120,20 +120,20 @@ def va(m):
 def vc(m):
     _1_24(m)
     with baca.scope(baca.select.rleaf(m[25], -1)) as o:
-        baca.mark_function(o.leaf(0), r"\akasha-colophon-markup")
-        baca.rehearsal_mark_down_function(o.leaf(0))
-        baca.rehearsal_mark_padding_function(o.leaf(0), 6)
-        baca.rehearsal_mark_self_alignment_x_function(o.leaf(0), abjad.RIGHT)
+        baca.mark(o.leaf(0), r"\akasha-colophon-markup")
+        baca.rehearsal_mark_down(o.leaf(0))
+        baca.rehearsal_mark_padding(o.leaf(0), 6)
+        baca.rehearsal_mark_self_alignment_x(o.leaf(0), abjad.RIGHT)
 
 
 def _1_24(m):
     with baca.scope(m[1, 24]) as o:
-        baca.clef_function(o.leaf(0), "percussion"),
-        baca.staff_lines_function(o.leaf(0), 1),
-        baca.staff_position_function(o, 0)
-        baca.alternate_bow_strokes_function(o.pheads())
-        baca.dynamic_function(o.pleaf(0), '"mf"'),
-        baca.markup_function(
+        baca.clef(o.leaf(0), "percussion"),
+        baca.staff_lines(o.leaf(0), 1),
+        baca.staff_position(o, 0)
+        baca.alternate_bow_strokes(o.pheads())
+        baca.dynamic(o.pleaf(0), '"mf"'),
+        baca.markup(
             o.pleaf(0), r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"
         )
 

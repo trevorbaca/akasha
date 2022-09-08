@@ -20,14 +20,14 @@ def make_empty_score():
 
 
 def GLOBALS(skips, rests):
-    baca.metronome_mark_function(skips[1 - 1], "44", library.manifests)
+    baca.metronome_mark(skips[1 - 1], "44", library.manifests)
     moment_tokens = ((1, 2 + 1, "E"),)
     moment_markup = library.moment_markup(moment_tokens)
     baca.label_moment_numbers(skips, moment_markup)
     stage_tokens = ((1, 2 + 1),)
     stage_markup = library.stage_markup("01", stage_tokens)
     baca.label_stage_numbers(skips, stage_markup)
-    baca.global_fermata_function(rests[3 - 1], "very_long")
+    baca.global_fermata(rests[3 - 1], "very_long")
 
 
 def V1(voice, measures):
@@ -54,44 +54,44 @@ def VC(voice, measures):
 
 def v1(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Violin.1", library.manifests)
-        baca.instrument_name_function(o.leaf(0), r"\akasha-violin-i-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Vn. I", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
-        baca.staff_lines_function(o.leaf(0), 5)
+        baca.instrument(o.leaf(0), "Violin.1", library.manifests)
+        baca.instrument_name(o.leaf(0), r"\akasha-violin-i-markup")
+        baca.short_instrument_name(o.leaf(0), "Vn. I", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.staff_lines(o.leaf(0), 5)
 
 
 def v2(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Violin.2", library.manifests)
-        baca.instrument_name_function(o.leaf(0), r"\akasha-violin-ii-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Vn. II", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
-        baca.staff_lines_function(o.leaf(0), 5)
+        baca.instrument(o.leaf(0), "Violin.2", library.manifests)
+        baca.instrument_name(o.leaf(0), r"\akasha-violin-ii-markup")
+        baca.short_instrument_name(o.leaf(0), "Vn. II", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.staff_lines(o.leaf(0), 5)
 
 
 def va(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Viola", library.manifests)
-        baca.instrument_name_function(o.leaf(0), r"\akasha-viola-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Va.", library.manifests)
-        baca.clef_function(o.leaf(0), "alto")
-        baca.staff_lines_function(o.leaf(0), 1)
+        baca.instrument(o.leaf(0), "Viola", library.manifests)
+        baca.instrument_name(o.leaf(0), r"\akasha-viola-markup")
+        baca.short_instrument_name(o.leaf(0), "Va.", library.manifests)
+        baca.clef(o.leaf(0), "alto")
+        baca.staff_lines(o.leaf(0), 1)
     with baca.scope(m.get(1, 2)) as o:
-        baca.staff_position_function(o, 0)
-        baca.down_bow_function(o.pleaf(0))
-        baca.markup_function(o.pleaf(0), r"\akasha-ob-plus-terminate-abruptly-markup")
-        baca.dynamic_function(o.pleaf(0), '"mf"')
-        library.material_annotation_spanner_function(o, "E")
+        baca.staff_position(o, 0)
+        baca.down_bow(o.pleaf(0))
+        baca.markup(o.pleaf(0), r"\akasha-ob-plus-terminate-abruptly-markup")
+        baca.dynamic(o.pleaf(0), '"mf"')
+        library.material_annotation_spanner(o, "E")
 
 
 def vc(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Cello", library.manifests)
-        baca.instrument_name_function(o.leaf(0), r"\akasha-cello-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Vc.", library.manifests)
-        baca.clef_function(o.leaf(0), "bass")
-        baca.staff_lines_function(o.leaf(0), 5)
+        baca.instrument(o.leaf(0), "Cello", library.manifests)
+        baca.instrument_name(o.leaf(0), r"\akasha-cello-markup")
+        baca.short_instrument_name(o.leaf(0), "Vc.", library.manifests)
+        baca.clef(o.leaf(0), "bass")
+        baca.staff_lines(o.leaf(0), 5)
 
 
 def make_score():

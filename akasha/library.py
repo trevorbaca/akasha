@@ -38,7 +38,7 @@ def cello_solo_pitches(*, function=None, transposition=None):
     if transposition:
         pitches = [_.transpose(n=transposition) for _ in pitches]
     if function:
-        baca.pitches_function(function, pitches)
+        baca.pitches(function, pitches)
     else:
         return baca.pitches(pitches)
 
@@ -53,7 +53,7 @@ def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP, function=N
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     assert all(isinstance(_, int) for _ in pitch_numbers), pitch_numbers
     loop = baca.Loop(pitch_numbers, intervals)
-    baca.pitches_function(function, loop)
+    baca.pitches(function, loop)
 
 
 def harmonic_glissando_pitches(
@@ -68,7 +68,7 @@ def harmonic_glissando_pitches(
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     pitch_numbers = abjad.sequence.rotate(pitch_numbers, n=rotation)
     if function:
-        baca.pitches_function(
+        baca.pitches(
             function,
             pitch_numbers,
         )
@@ -384,8 +384,8 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     return music
 
 
-def material_annotation_spanner_function(argument, letter):
-    baca.markup_function(
+def material_annotation_spanner(argument, letter):
+    baca.markup(
         abjad.select.leaf(argument, 0),
         rf"\akasha-material-{letter.lower()}",
     )
@@ -397,12 +397,12 @@ def material_annotation_spanner_function(argument, letter):
         "E": "0.865 0.877 0.896",
     }
     color = material_to_color[letter]
-    wrappers = baca.literal_function(
+    wrappers = baca.literal(
         abjad.select.leaf(argument, 0),
         rf"\colorSpan #-4 #4 #(rgb-color {color})",
     )
     baca.tags.wrappers(wrappers, baca.tags.COLORED_PHRASING_SLUR)
-    wrappers = baca.slur_function(
+    wrappers = baca.slur(
         baca.select.rleaves(argument),
         phrasing_slur=True,
     )
