@@ -41,7 +41,7 @@ def V2(voice, measures):
 
 
 def VA(voice, measures):
-    music = baca.make_repeat_tied_notes(measures(1, 2))
+    music = baca.make_repeat_tied_notes_function(measures(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(measures(3), head=voice.name)
     voice.extend(music)
