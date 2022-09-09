@@ -79,6 +79,10 @@ def V1(voice, accumulator):
             lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
         ),
     )
+    #    music = library.make_polyphony_rhythm_function(
+    #        accumulator.get(6, 7),
+    #        force_rest=~abjad.Pattern([0, 1, 2]),
+    #    )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
