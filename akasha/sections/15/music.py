@@ -61,14 +61,9 @@ def V1(voice, accumulator):
 def V2(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 8))
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(9, 24),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                ~abjad.Pattern([3, 36, 37]),
-            ),
-        ),
+        force_rest=~abjad.Pattern([3, 36, 37]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(25))

@@ -6662,9 +6662,9 @@ number.4.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6685,7 +6685,7 @@ number.4.Cello.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         cs!32
         % AFTER:
         % ARTICULATIONS:
@@ -6720,7 +6720,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         c32
         % AFTER:
         % ARTICULATIONS:
@@ -6732,31 +6732,31 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r8..
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         cs!32
         % AFTER:
         % ARTICULATIONS:
@@ -6768,7 +6768,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         d32
         % AFTER:
         % ARTICULATIONS:
@@ -6777,7 +6777,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         ef!32
         % AFTER:
         % ARTICULATIONS:
@@ -6786,7 +6786,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         cs!32
         % AFTER:
         % ARTICULATIONS:
@@ -6795,7 +6795,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         d32
         % AFTER:
         % ARTICULATIONS:
@@ -6804,7 +6804,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         cs!32
         % AFTER:
         % ARTICULATIONS:
@@ -6813,7 +6813,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         c32
         % AFTER:
         % ARTICULATIONS:
@@ -6822,7 +6822,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         bf,!32
         % AFTER:
         % ARTICULATIONS:
@@ -6835,12 +6835,12 @@ number.4.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:

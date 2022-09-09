@@ -92,18 +92,16 @@ def VC(voice, accumulator):
         tuplets = abjad.select.get(tuplets, pattern)
         return tuplets
 
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(1, 4),
-        rmakers.force_rest(
-            lambda _: get_tuplets(_, ~abjad.Pattern([5, -6, -5, -4, -3, -2, -1])),
-        ),
         degree=0,
         extra_counts=[1, 1, 0, 2],
+        force_rest=~abjad.Pattern([5, -6, -5, -4, -3, -2, -1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(6),
         degree=0,
         extra_counts=[1, 1, 0, 2],
@@ -112,7 +110,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7), head=voice.name)
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(8),
         degree=0,
         extra_counts=[1, 1, 0, 2],

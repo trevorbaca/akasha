@@ -1874,7 +1874,7 @@ number.2.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     r1
     % AFTER:
     % MARKUP:
@@ -1890,14 +1890,14 @@ number.2.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         b32
         % AFTER:
         % ARTICULATIONS:
@@ -1916,12 +1916,12 @@ number.2.Violin.1.Music = {
           %! baca.dynamic()
         \p
         % START_BEAM:
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         cs'!32
         % AFTER:
         % ARTICULATIONS:
@@ -1930,73 +1930,73 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         c'32
         % AFTER:
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r8.
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         b32
         % AFTER:
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
         % START_BEAM:
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         bf!32
         % AFTER:
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3145,9 +3145,9 @@ number.2.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3165,7 +3165,7 @@ number.2.Violin.2.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         bf!32
         % AFTER:
         % ARTICULATIONS:
@@ -3198,7 +3198,7 @@ number.2.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         b32
         % AFTER:
         % ARTICULATIONS:
@@ -3207,7 +3207,7 @@ number.2.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         bf!32
         % AFTER:
         % ARTICULATIONS:
@@ -3219,31 +3219,31 @@ number.2.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r8.
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         a32
         % AFTER:
         % ARTICULATIONS:
@@ -3255,7 +3255,7 @@ number.2.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         af!32
         % AFTER:
         % ARTICULATIONS:
@@ -3267,18 +3267,18 @@ number.2.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4893,7 +4893,7 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     r2.
     % AFTER:
     % MARKUP:
@@ -4909,19 +4909,19 @@ number.2.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         bf!32
         % AFTER:
         % ARTICULATIONS:
@@ -4945,7 +4945,7 @@ number.2.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         a32
         % AFTER:
         % ARTICULATIONS:
@@ -4954,7 +4954,7 @@ number.2.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         bf!32
         % AFTER:
         % ARTICULATIONS:
@@ -4966,13 +4966,13 @@ number.2.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r16
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6764,7 +6764,7 @@ number.2.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     r4
     % AFTER:
     % MARKUP:
@@ -6780,19 +6780,19 @@ number.2.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         c'32
         % AFTER:
         % ARTICULATIONS:
@@ -6816,7 +6816,7 @@ number.2.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         cs'!32
         % AFTER:
         % ARTICULATIONS:
@@ -6828,18 +6828,18 @@ number.2.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm()
+          %! akasha.make_sparse_getato_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_sparse_getato_rhythm()
+      %! akasha.make_sparse_getato_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
