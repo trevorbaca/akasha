@@ -1349,7 +1349,7 @@ number.3.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     ds'!4
     % AFTER:
     % ARTICULATIONS:
@@ -1396,14 +1396,14 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     e'2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 2]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1419,7 +1419,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -1432,7 +1432,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 3]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -1959,7 +1959,7 @@ number.3.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -2006,7 +2006,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     df'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -2048,7 +2048,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -2061,7 +2061,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     c'2
     % AFTER:
     % SPANNER_STARTS:

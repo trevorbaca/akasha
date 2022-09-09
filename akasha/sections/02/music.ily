@@ -1690,7 +1690,7 @@ number.2.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     e'4
     % AFTER:
     % ARTICULATIONS:
@@ -1737,7 +1737,7 @@ number.2.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     eqs'!8
     % AFTER:
     % SPANNER_STARTS:
@@ -1747,12 +1747,12 @@ number.2.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 7]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     eqs'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3393,7 +3393,7 @@ number.2.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r2.
     % AFTER:
     % MARKUP:
@@ -3412,7 +3412,7 @@ number.2.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     d'8
     % AFTER:
     % ARTICULATIONS:
@@ -3438,17 +3438,17 @@ number.2.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 7]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     d'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     dqf'!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     c'2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3563,7 +3563,7 @@ number.2.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r4
     % AFTER:
     % MARKUP:
@@ -3578,12 +3578,12 @@ number.2.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     cs'!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     ctqs'!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5087,7 +5087,7 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r4
     % AFTER:
     % MARKUP:
@@ -5135,7 +5135,7 @@ number.2.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     d'8
     % AFTER:
     % SPANNER_STARTS:
@@ -5145,17 +5145,17 @@ number.2.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     d'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     e'4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5270,7 +5270,7 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r2
     % AFTER:
     % MARKUP:
@@ -5289,7 +5289,7 @@ number.2.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     c'2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5443,7 +5443,7 @@ number.2.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     ds'!8
     % AFTER:
     % STOP_BEAM:
@@ -5456,22 +5456,22 @@ number.2.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 12]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     ds'2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     e'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     fs'!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     f'8
     % AFTER:
     % SPANNER_STARTS:
@@ -5481,7 +5481,7 @@ number.2.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 13]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     f'1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5596,7 +5596,7 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     ef'!4.
     % AFTER:
     % MARKUP:
@@ -6199,7 +6199,7 @@ number.2.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     c'4
     % AFTER:
     % MARKUP:
@@ -6214,12 +6214,12 @@ number.2.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     cqf'!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     b2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6341,7 +6341,7 @@ number.2.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     bf!2..
     % AFTER:
     % MARKUP:
@@ -6367,7 +6367,7 @@ number.2.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     a4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6405,7 +6405,7 @@ number.2.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     a8
     % AFTER:
     % STOP_BEAM:
@@ -6418,12 +6418,12 @@ number.2.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     a2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6545,7 +6545,7 @@ number.2.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     a4
     % AFTER:
     % MARKUP:
@@ -6595,7 +6595,7 @@ number.2.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
