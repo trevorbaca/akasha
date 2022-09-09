@@ -80,11 +80,9 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(9),
-        rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[:-2],
-        ),
+        force_rest=~abjad.Pattern([-2, -1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
@@ -139,11 +137,9 @@ def V1(voice, accumulator):
 def V2(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 3))
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(4),
-        rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[2:],
-        ),
+        force_rest=~abjad.Pattern([0, 1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
@@ -225,11 +221,9 @@ def V2(voice, accumulator):
 def VA(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 3))
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(4),
-        rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[:-1],
-        ),
+        force_rest=~abjad.Pattern([-1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
@@ -297,14 +291,9 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 18), head=voice.name)
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(19),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                ~abjad.Pattern([1]),
-            )
-        ),
+        force_rest=~abjad.Pattern([1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(20), head=voice.name)

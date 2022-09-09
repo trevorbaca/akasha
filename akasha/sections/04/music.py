@@ -193,7 +193,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(13, 14), head=voice.name)
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm(
+    music = library.make_sparse_getato_rhythm_function(
         accumulator.get(15),
         degree=0,
         extra_counts=[1, 1, 0, 2],
