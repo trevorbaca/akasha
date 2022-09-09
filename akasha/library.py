@@ -193,7 +193,7 @@ def make_glissando_rhythm(time_signatures):
 
 
 def make_growth_rhythm(
-    time_signatures, first_silence, division_ratio, *, extra_counts=None
+    time_signatures, first_silence, division_ratio, *, extra_counts=()
 ):
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
@@ -290,6 +290,27 @@ def make_polyphony_rhythm(time_signatures, *commands, rotation=0):
     return music
 
 
+def make_polyphony_rhythm_function(time_signatures, *, force_rest=None, rotation=0):
+    counts = [4, 14, 4, 6, 18]
+    counts = abjad.sequence.rotate(counts, n=rotation)
+    tag = baca.tags.function_name(inspect.currentframe())
+    nested_music = rmakers.talea_function(time_signatures, counts, 16, tag=tag)
+    music = abjad.sequence.flatten(nested_music, depth=-1)
+    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+    if force_rest is not None:
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.lts(music_voice), force_rest)
+        )
+    rmakers.beam_function(music_voice)
+    rmakers.trivialize_function(music_voice)
+    rmakers.extract_trivial_function(music_voice)
+    rmakers.rewrite_meter_function(music_voice)
+    rmakers.force_repeat_tie_function(music_voice, (1, 4))
+    music = music_voice[:]
+    music_voice[:] = []
+    return music
+
+
 def make_ritardando_rhythm(time_signatures, *commands, preprocessor=None):
     if preprocessor is None:
 
@@ -311,7 +332,7 @@ def make_ritardando_rhythm(time_signatures, *commands, preprocessor=None):
     return music
 
 
-def make_scratch_rhythm(time_signatures, denominators, *commands, extra_counts=None):
+def make_scratch_rhythm(time_signatures, denominators, *commands, extra_counts=()):
     rhythm_maker = rmakers.stack(
         rmakers.even_division(denominators, extra_counts=extra_counts),
         *commands,
