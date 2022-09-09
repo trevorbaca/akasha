@@ -73,16 +73,10 @@ def GLOBALS(skips, rests):
 def V1(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 5))
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(6, 7),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
-        ),
+        force_rest=~abjad.Pattern([0, 1, 2]),
     )
-    #    music = library.make_polyphony_rhythm_function(
-    #        accumulator.get(6, 7),
-    #        force_rest=~abjad.Pattern([0, 1, 2]),
-    #    )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
@@ -154,20 +148,16 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(6, 7),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
-        ),
+        force_rest=~abjad.Pattern([2, 3, 4]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(9),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
-        ),
+        force_rest=~abjad.Pattern([1, 2, 3]),
         rotation=-2,
     )
     voice.extend(music)
@@ -244,33 +234,29 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(6, 7),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([1, 2, 3])),
-        ),
+        force_rest=~abjad.Pattern([1, 2, 3]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(9),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([2, 3, 4])),
-        ),
+        force_rest=~abjad.Pattern([2, 3, 4]),
         rotation=-2,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(11, 13),
         rotation=-4,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(14), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(15),
         rotation=-8,
     )
@@ -287,27 +273,25 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 8), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(9),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 1, 2])),
-        ),
+        force_rest=~abjad.Pattern([0, 1, 2]),
         rotation=-2,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(11, 13),
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+        force_rest=[-1],
         rotation=-6,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(14), head=voice.name)
     voice.extend(music)
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(15),
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+        force_rest=[-1],
         rotation=-10,
     )
     voice.extend(music)

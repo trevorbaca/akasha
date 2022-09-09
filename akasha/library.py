@@ -273,39 +273,23 @@ def make_manifest_rhythm(time_signatures, these_counts):
     return music
 
 
-def make_polyphony_rhythm(time_signatures, *commands, rotation=0):
-    counts = [4, 14, 4, 6, 18]
-    counts = abjad.sequence.rotate(counts, n=rotation)
-    rhythm_maker = rmakers.stack(
-        rmakers.talea(counts, 16),
-        *commands,
-        rmakers.beam(),
-        rmakers.trivialize(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie((1, 4)),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
 def make_polyphony_rhythm_function(time_signatures, *, force_rest=None, rotation=0):
     counts = [4, 14, 4, 6, 18]
     counts = abjad.sequence.rotate(counts, n=rotation)
     tag = baca.tags.function_name(inspect.currentframe())
-    nested_music = rmakers.talea_function(time_signatures, counts, 16, tag=tag)
+    nested_music = rmakers.rmakers.talea_function(time_signatures, counts, 16, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
     if force_rest is not None:
         rmakers.force_rest_function(
-            abjad.select.get(baca.select.lts(music_voice), force_rest)
+            abjad.select.get(baca.select.lts(music_voice), force_rest),
+            tag=tag,
         )
     rmakers.beam_function(music_voice)
     rmakers.trivialize_function(music_voice)
     rmakers.extract_trivial_function(music_voice)
     rmakers.rewrite_meter_function(music_voice)
-    rmakers.force_repeat_tie_function(music_voice, (1, 4))
+    rmakers.force_repeat_tie_function(music_voice, threshold=(1, 4))
     music = music_voice[:]
     music_voice[:] = []
     return music

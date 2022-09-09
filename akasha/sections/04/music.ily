@@ -5458,7 +5458,7 @@ number.4.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     ds'!4
     % AFTER:
     % ARTICULATIONS:
@@ -5488,12 +5488,12 @@ number.4.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     dtqs'!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     e'4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7082,7 +7082,7 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm()
+      %! akasha.make_polyphony_rhythm_function()
     c'1
     % AFTER:
     % ARTICULATIONS:

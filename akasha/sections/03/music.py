@@ -61,9 +61,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_polyphony_rhythm(
-        accumulator.get(1, 3),
-    )
+    music = library.make_polyphony_rhythm_function(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 9), head=voice.name)
     voice.extend(music)
@@ -76,11 +74,9 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_polyphony_rhythm(
+    music = library.make_polyphony_rhythm_function(
         accumulator.get(1, 3),
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[:2],
-        ),
+        force_rest=[0, 1],
         rotation=-2,
     )
     voice.extend(music)
