@@ -94,9 +94,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_accelerando_rhythm(
         accumulator.get(8, 9),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [1, 6]),
-        ),
+        force_rest_lts=[1, 6],
         fuse_counts=[1, 2],
     )
     voice.extend(music)
