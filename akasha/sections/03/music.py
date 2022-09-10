@@ -46,7 +46,7 @@ def GLOBALS(skips, rests):
 
 
 def V1(voice, accumulator):
-    music = library.make_accelerando_rhythm(
+    music = library.make_accelerando_rhythm_function(
         accumulator.get(1, 3),
         force_rest_lts=~abjad.Pattern([0, 2, 3]),
         fuse_counts=[1],
@@ -61,7 +61,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 9), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_rhythm(
+    music = library.make_accelerando_rhythm_function(
         accumulator.get(10, 11),
         force_rest_lts=[3],
         fuse_counts=[2, 1],

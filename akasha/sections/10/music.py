@@ -103,7 +103,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(27), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_rhythm(
+    music = library.make_accelerando_rhythm_function(
         accumulator.get(28, 29),
         fuse_counts=[1, 2],
     )
@@ -174,7 +174,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(27), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_rhythm(
+    music = library.make_accelerando_rhythm_function(
         accumulator.get(28, 29),
         fuse_counts=[1, 2],
         preprocessor=lambda _: baca.sequence.fuse(_),
