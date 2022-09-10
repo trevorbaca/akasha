@@ -90,14 +90,8 @@ def V1(voice, accumulator):
     music = library.make_accelerando_rhythm(
         accumulator.get(11, 13),
         rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.rewrite_rest_filled(),
-        rmakers.extract_trivial(),
-        rmakers.force_rest(
             lambda _: abjad.select.get(
-                baca.select.lts(_),
-                [3, 5, 7, 9],
+                baca.select.lts(_), ~abjad.Pattern([-11, -10, -8, -6, -4, -2, -1])
             ),
         ),
         fuse_counts=[1, 2],
