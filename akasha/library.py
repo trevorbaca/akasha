@@ -77,7 +77,7 @@ def harmonic_glissando_pitches(
 
 
 def make_accelerando_rhythm(
-    time_signatures, *commands, fuse_counts=None, preprocessor=None
+    time_signatures, *, force_rest_lts=None, fuse_counts=None, preprocessor=None
 ):
     fuse_counts = fuse_counts or []
     if preprocessor is None:
@@ -87,6 +87,13 @@ def make_accelerando_rhythm(
                 divisions, fuse_counts, cyclic=True, overhang=True
             )
             return [sum(_) for _ in divisions]
+
+    commands = []
+    if force_rest_lts is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), force_rest_lts),
+        )
+        commands.append(command)
 
     rhythm_maker = rmakers.stack(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),

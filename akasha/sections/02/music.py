@@ -89,11 +89,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_accelerando_rhythm(
         accumulator.get(11, 13),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                baca.select.lts(_), ~abjad.Pattern([-11, -10, -8, -6, -4, -2, -1])
-            ),
-        ),
+        force_rest_lts=~abjad.Pattern([-11, -10, -8, -6, -4, -2, -1]),
         fuse_counts=[1, 2],
     )
     voice.extend(music)
@@ -101,13 +97,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_accelerando_rhythm(
         accumulator.get(15),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                baca.select.lts(_),
-                [0, 2, 3, -1],
-                invert=True,
-            ),
-        ),
+        force_rest_lts=~abjad.Pattern([0, 2, 3, -1]),
         fuse_counts=[1, 2],
     )
     voice.extend(music)
@@ -185,13 +175,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_accelerando_rhythm(
         accumulator.get(17),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                baca.select.lts(_),
-                [0, 2, -1],
-                invert=True,
-            ),
-        ),
+        force_rest_lts=~abjad.Pattern([0, 2, -1]),
         fuse_counts=[1, 2],
     )
     voice.extend(music)
