@@ -310,7 +310,7 @@ def make_polyphony_rhythm_function(time_signatures, *, force_rest=None, rotation
     return music
 
 
-def make_ritardando_rhythm(time_signatures, *commands, preprocessor=None):
+def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, preprocessor=None):
     if preprocessor is None:
 
         def preprocessor(divisions):
@@ -319,9 +319,25 @@ def make_ritardando_rhythm(time_signatures, *commands, preprocessor=None):
             )
             return [baca.sequence.fuse(_) for _ in divisions]
 
+    commands = []
+    if force_rest_lts is not None:
+        #        rmakers.force_rest_function(
+        #            abjad.select.get(baca.select.lts(music_voice), force_rest_lts),
+        #            tag=tag,
+        #        )
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(
+                baca.select.lts(_),
+                force_rest_lts,
+            )
+        )
+        commands.append(command)
+
     rhythm_maker = rmakers.stack(
         rmakers.accelerando([(1, 8), (1, 2), (1, 16)], [(1, 2), (1, 8), (1, 16)]),
         *commands,
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.duration_bracket(),
         preprocessor=preprocessor,

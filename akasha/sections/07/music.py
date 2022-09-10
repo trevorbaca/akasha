@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from akasha import library
 
@@ -144,9 +143,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_ritardando_rhythm(
         accumulator.get(8, 9),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [2, 5]),
-        ),
+        force_rest_lts=[2, 5],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
