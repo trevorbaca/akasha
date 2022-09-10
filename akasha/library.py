@@ -115,16 +115,17 @@ def make_accelerando_rhythm_function(
     return music
 
 
-def make_cello_solo_rhythm(time_signatures, *, rotation=None):
+def make_cello_solo_rhythm_function(time_signatures, *, rotation=None):
+    tag = baca.tags.function_name(inspect.currentframe())
     counts = abjad.sequence.rotate([7, 1, 10, 2], n=rotation)
-    rhythm_maker = rmakers.stack(
-        rmakers.talea(counts, 16),
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        rmakers.force_repeat_tie(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
+    nested_music = rmakers.rmakers.talea_function(time_signatures, counts, 16, tag=tag)
+    music = abjad.sequence.flatten(nested_music, depth=-1)
+    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+    rmakers.beam_function(music_voice)
+    rmakers.extract_trivial_function(music_voice)
+    rmakers.force_repeat_tie_function(music_voice)
+    music = music_voice[:]
+    music_voice[:] = []
     return music
 
 

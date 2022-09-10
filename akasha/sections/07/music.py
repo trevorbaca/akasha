@@ -221,9 +221,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_cello_solo_rhythm(
-        accumulator.get(1, 2),
-    )
+    music = library.make_cello_solo_rhythm_function(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         accumulator.get(3, 4),
