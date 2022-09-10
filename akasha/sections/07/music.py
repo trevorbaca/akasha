@@ -141,7 +141,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5, 7), head=voice.name)
     voice.extend(music)
-    music = library.make_ritardando_rhythm(
+    music = library.make_ritardando_rhythm_function(
         accumulator.get(8, 9),
         force_rest_lts=[2, 5],
     )

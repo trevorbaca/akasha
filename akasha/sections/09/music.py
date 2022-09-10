@@ -62,7 +62,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_ritardando_rhythm(
+    music = library.make_ritardando_rhythm_function(
         accumulator.get(1, 2),
     )
     voice.extend(music)
@@ -86,7 +86,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_ritardando_rhythm(
+    music = library.make_ritardando_rhythm_function(
         accumulator.get(1, 2),
         preprocessor=lambda _: baca.sequence.fuse(_),
     )

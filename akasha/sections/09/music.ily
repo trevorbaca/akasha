@@ -1235,9 +1235,9 @@ number.9.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     \times 1/1
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1288,14 +1288,14 @@ number.9.Violin.2.Music = {
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
           %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         \override Staff.Stem.stemlet-length = 0.75
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         cs'!16 * 109/64
         % AFTER:
         % ARTICULATIONS:
@@ -1323,7 +1323,7 @@ number.9.Violin.2.Music = {
           %! baca.markup()
         ^ \baca-xfb-markup
         % START_BEAM:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         [
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
@@ -1348,7 +1348,7 @@ number.9.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         ds'!16 * 61/32
         % AFTER:
         % MARKUP:
@@ -1358,7 +1358,7 @@ number.9.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         cs'!16 * 163/64
         % AFTER:
         % MARKUP:
@@ -1368,7 +1368,7 @@ number.9.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         ds'!16 * 31/8
         % AFTER:
         % MARKUP:
@@ -1380,9 +1380,9 @@ number.9.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         cs'!16 * 191/32
         % AFTER:
         % MARKUP:
@@ -1390,13 +1390,13 @@ number.9.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"191" #"32"
         % STOP_BEAM:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -1445,9 +1445,9 @@ number.9.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     \times 1/1
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1459,9 +1459,9 @@ number.9.Violin.2.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         ds'!16 * 477/64
         % AFTER:
         % MARKUP:
@@ -1469,12 +1469,12 @@ number.9.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"477" #"64"
         % START_BEAM:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         cs'!16 * 353/64
         % AFTER:
         % MARKUP:
@@ -1484,7 +1484,7 @@ number.9.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         ds'!16 * 97/32
         % AFTER:
         % MARKUP:
@@ -1494,7 +1494,7 @@ number.9.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         cs'!16 * 17/8
         % AFTER:
         % MARKUP:
@@ -1506,9 +1506,9 @@ number.9.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         ds'!16 * 15/8
         % AFTER:
         % MARKUP:
@@ -1516,13 +1516,13 @@ number.9.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"15" #"8"
         % STOP_BEAM:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -2259,9 +2259,9 @@ number.9.Cello.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     \times 1/1
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2317,14 +2317,14 @@ number.9.Cello.Music = {
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
           %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         \override Staff.Stem.stemlet-length = 0.75
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         c'16 * 119/64
         % AFTER:
         % ARTICULATIONS:
@@ -2352,7 +2352,7 @@ number.9.Cello.Music = {
           %! baca.markup()
         ^ \baca-xfb-markup
         % START_BEAM:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         [
         % SPANNER_STARTS:
           %! COLORED_PHRASING_SLUR
@@ -2377,7 +2377,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         d'16 * 61/32
         % AFTER:
         % MARKUP:
@@ -2387,7 +2387,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         c'16 * 65/32
         % AFTER:
         % MARKUP:
@@ -2397,7 +2397,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         d'16 * 145/64
         % AFTER:
         % MARKUP:
@@ -2407,7 +2407,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         c'16 * 21/8
         % AFTER:
         % MARKUP:
@@ -2417,7 +2417,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         d'16 * 101/32
         % AFTER:
         % MARKUP:
@@ -2427,7 +2427,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         c'16 * 125/32
         % AFTER:
         % MARKUP:
@@ -2437,7 +2437,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         d'16 * 315/64
         % AFTER:
         % MARKUP:
@@ -2447,7 +2447,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         c'16 * 49/8
         % AFTER:
         % MARKUP:
@@ -2459,9 +2459,9 @@ number.9.Cello.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         d'16 * 461/64
         % AFTER:
         % MARKUP:
@@ -2469,13 +2469,13 @@ number.9.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"461" #"64"
         % STOP_BEAM:
-          %! akasha.make_ritardando_rhythm()
+          %! akasha.make_ritardando_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_ritardando_rhythm()
+      %! akasha.make_ritardando_rhythm_function()
     }
     % AFTER:
     % GROB_REVERTS:

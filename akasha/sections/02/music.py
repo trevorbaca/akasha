@@ -102,7 +102,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16), head=voice.name)
     voice.extend(music)
-    music = library.make_ritardando_rhythm(
+    music = library.make_ritardando_rhythm_function(
         accumulator.get(17),
         force_rest_lts=~abjad.Pattern([0, 2, -1]),
     )
@@ -136,14 +136,14 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_ritardando_rhythm(
+    music = library.make_ritardando_rhythm_function(
         accumulator.get(11, 13),
         force_rest_lts=~abjad.Pattern([-10, -8, -7, -5, -3, -2, -1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(14), head=voice.name)
     voice.extend(music)
-    music = library.make_ritardando_rhythm(
+    music = library.make_ritardando_rhythm_function(
         accumulator.get(15),
         force_rest_lts=~abjad.Pattern([0, 1, 4, -1]),
     )
@@ -158,7 +158,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(18), head=voice.name)
     voice.extend(music)
-    music = library.make_ritardando_rhythm(
+    music = library.make_ritardando_rhythm_function(
         accumulator.get(19),
         force_rest_lts=~abjad.Pattern([0, 1, -1]),
     )
