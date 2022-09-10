@@ -209,7 +209,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_cello_solo_rhythm(
+    music = library.make_cello_solo_rhythm_function(
         accumulator.get(1, 2),
         rotation=0,
     )

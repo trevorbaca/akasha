@@ -5893,7 +5893,7 @@ number.2.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.make_cello_solo_rhythm()
+      %! akasha.make_cello_solo_rhythm_function()
     e4..
     % AFTER:
     % ARTICULATIONS:
@@ -5940,12 +5940,12 @@ number.2.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_cello_solo_rhythm()
+      %! akasha.make_cello_solo_rhythm_function()
     f16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_cello_solo_rhythm()
+      %! akasha.make_cello_solo_rhythm_function()
     fqs!4
     % AFTER:
     % SPANNER_STARTS:
@@ -5958,7 +5958,7 @@ number.2.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! akasha.make_cello_solo_rhythm()
+      %! akasha.make_cello_solo_rhythm_function()
     fqs4.
     % AFTER:
     % SPANNER_STARTS:
@@ -5966,12 +5966,12 @@ number.2.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_cello_solo_rhythm()
+      %! akasha.make_cello_solo_rhythm_function()
     fs!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_cello_solo_rhythm()
+      %! akasha.make_cello_solo_rhythm_function()
     c4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
