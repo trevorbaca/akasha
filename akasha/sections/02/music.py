@@ -87,7 +87,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_rhythm(
+    music = library.make_accelerando_rhythm_function(
         accumulator.get(11, 13),
         force_rest_lts=~abjad.Pattern([-11, -10, -8, -6, -4, -2, -1]),
         fuse_counts=[1, 2],

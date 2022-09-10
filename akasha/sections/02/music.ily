@@ -2118,7 +2118,7 @@ number.2.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_accelerando_rhythm()
+      %! akasha.make_accelerando_rhythm_function()
     r1.
     % AFTER:
     % MARKUP:
@@ -2174,9 +2174,9 @@ number.2.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! akasha.make_accelerando_rhythm()
+      %! akasha.make_accelerando_rhythm_function()
     \times 1/1
-      %! akasha.make_accelerando_rhythm()
+      %! akasha.make_accelerando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2188,9 +2188,9 @@ number.2.Violin.1.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         d''16 * 15/8
         % AFTER:
         % ARTICULATIONS:
@@ -2213,12 +2213,12 @@ number.2.Violin.1.Music = {
           %! baca.markup()
         ^ \baca-tasto-plus-xfb-markup
         % START_BEAM:
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         e''16 * 61/32
         % AFTER:
         % MARKUP:
@@ -2228,7 +2228,7 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         r16 * 129/64
         % AFTER:
         % MARKUP:
@@ -2238,7 +2238,7 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         d''16 * 141/64
         % AFTER:
         % MARKUP:
@@ -2248,7 +2248,7 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         r16 * 159/64
         % AFTER:
         % MARKUP:
@@ -2258,7 +2258,7 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         e''16 * 185/64
         % AFTER:
         % MARKUP:
@@ -2268,7 +2268,7 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         r16 * 111/32
         % AFTER:
         % MARKUP:
@@ -2278,7 +2278,7 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         d''16 * 17/4
         % AFTER:
         % MARKUP:
@@ -2288,7 +2288,7 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         r16 * 335/64
         % AFTER:
         % MARKUP:
@@ -2298,7 +2298,7 @@ number.2.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         e''16 * 407/64
         % AFTER:
         % MARKUP:
@@ -2310,9 +2310,9 @@ number.2.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         d''16 * 117/16
         % AFTER:
         % MARKUP:
@@ -2320,13 +2320,13 @@ number.2.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"117" #"16"
         % STOP_BEAM:
-          %! akasha.make_accelerando_rhythm()
+          %! akasha.make_accelerando_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_accelerando_rhythm()
+      %! akasha.make_accelerando_rhythm_function()
     }
     % AFTER:
     % GROB_REVERTS:

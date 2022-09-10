@@ -110,8 +110,9 @@ def make_accelerando_rhythm(
 
 
 def make_accelerando_rhythm_function(
-    time_signatures, *commands, fuse_counts=None, preprocessor=None
+    time_signatures, *, force_rest_lts=None, fuse_counts=None, preprocessor=None
 ):
+    tag = baca.tags.function_name(inspect.currentframe())
     fuse_counts = fuse_counts or []
     if preprocessor is None:
 
@@ -121,17 +122,29 @@ def make_accelerando_rhythm_function(
             )
             return [sum(_) for _ in divisions]
 
-    rhythm_maker = rmakers.stack(
-        rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
-        *commands,
-        rmakers.rewrite_rest_filled(),
-        rmakers.extract_trivial(),
-        rmakers.duration_bracket(),
-        rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = preprocessor(divisions)
+    nested_music = rmakers.accelerando_function(
+        divisions,
+        [(1, 2), (1, 8), (1, 16)],
+        [(1, 8), (1, 2), (1, 16)],
+        tag=tag,
     )
-    music = rhythm_maker(time_signatures)
+    music = abjad.sequence.flatten(nested_music, depth=-1)
+    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+    if force_rest_lts is not None:
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.lts(music_voice), force_rest_lts),
+            tag=tag,
+        )
+    rmakers.rewrite_rest_filled_function(music_voice, tag=tag)
+    rmakers.extract_trivial_function(music_voice)
+    rmakers.duration_bracket_function(music_voice)
+    rmakers.feather_beam_function(
+        music_voice, beam_rests=True, stemlet_length=0.75, tag=tag
+    )
+    music = music_voice[:]
+    music_voice[:] = []
     return music
 
 
