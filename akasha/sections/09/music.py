@@ -50,7 +50,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_accelerando_rhythm(
+    music = library.make_accelerando_rhythm_function(
         accumulator.get(1, 2),
         fuse_counts=[1, 2],
     )
