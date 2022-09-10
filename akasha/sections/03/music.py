@@ -49,10 +49,9 @@ def GLOBALS(skips, rests):
 def V1(voice, accumulator):
     music = library.make_accelerando_rhythm(
         accumulator.get(1, 3),
-        rmakers.force_rest(lambda _: abjad.select.tuplets(_)[-2:]),
-        rmakers.rewrite_rest_filled(),
-        rmakers.extract_trivial(),
-        rmakers.force_rest(lambda _: baca.select.lt(_, 1)),
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), ~abjad.Pattern([0, 2, 3]))
+        ),
         fuse_counts=[1],
     )
     voice.extend(music)

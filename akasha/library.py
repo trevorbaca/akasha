@@ -91,6 +91,34 @@ def make_accelerando_rhythm(
     rhythm_maker = rmakers.stack(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
         *commands,
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
+        rmakers.duration_bracket(),
+        rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
+        preprocessor=preprocessor,
+        tag=baca.tags.function_name(inspect.currentframe()),
+    )
+    music = rhythm_maker(time_signatures)
+    return music
+
+
+def make_accelerando_rhythm_function(
+    time_signatures, *commands, fuse_counts=None, preprocessor=None
+):
+    fuse_counts = fuse_counts or []
+    if preprocessor is None:
+
+        def preprocessor(divisions):
+            divisions = abjad.sequence.partition_by_counts(
+                divisions, fuse_counts, cyclic=True, overhang=True
+            )
+            return [sum(_) for _ in divisions]
+
+    rhythm_maker = rmakers.stack(
+        rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
+        *commands,
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         preprocessor=preprocessor,
