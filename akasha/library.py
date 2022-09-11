@@ -110,8 +110,7 @@ def make_accelerando_rhythm_function(
     rmakers.feather_beam_function(
         music_voice, beam_rests=True, stemlet_length=0.75, tag=tag
     )
-    music = music_voice[:]
-    music_voice[:] = []
+    music = abjad.mutate.eject_contents(music_voice)
     return music
 
 
@@ -124,8 +123,7 @@ def make_cello_solo_rhythm_function(time_signatures, *, rotation=None):
     rmakers.beam_function(music_voice)
     rmakers.extract_trivial_function(music_voice)
     rmakers.force_repeat_tie_function(music_voice)
-    music = music_voice[:]
-    music_voice[:] = []
+    music = abjad.mutate.eject_contents(music_voice)
     return music
 
 
@@ -197,14 +195,13 @@ def make_empty_score():
     return score
 
 
-def make_glissando_rhythm(time_signatures):
-    rhythm_maker = rmakers.stack(
-        rmakers.tuplet([(8, 1)]),
-        rmakers.beam(),
-        preprocessor=lambda _: baca.sequence.fuse(_),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
+def make_glissando_rhythm_function(time_signatures):
+    tag = baca.tags.function_name(inspect.currentframe())
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = baca.sequence.fuse(divisions)
+    nested_music = rmakers.rmakers.tuplet_function(divisions, [(8, 1)], tag=tag)
+    music = abjad.sequence.flatten(nested_music, depth=-1)
+    rmakers.beam_function(music)
     return music
 
 
@@ -306,8 +303,7 @@ def make_polyphony_rhythm_function(time_signatures, *, force_rest=None, rotation
     rmakers.extract_trivial_function(music_voice)
     rmakers.rewrite_meter_function(music_voice)
     rmakers.force_repeat_tie_function(music_voice, threshold=(1, 4))
-    music = music_voice[:]
-    music_voice[:] = []
+    music = abjad.mutate.eject_contents(music_voice)
     return music
 
 
@@ -344,8 +340,7 @@ def make_ritardando_rhythm_function(
     rmakers.feather_beam_function(
         music_voice, beam_rests=True, stemlet_length=0.75, tag=tag
     )
-    music = music_voice[:]
-    music_voice[:] = []
+    music = abjad.mutate.eject_contents(music_voice)
     return music
 
 
@@ -389,8 +384,7 @@ def make_sparse_getato_rhythm_function(
     rmakers.rewrite_rest_filled_function(music_voice, tag=tag)
     rmakers.extract_trivial_function(music_voice)
     rmakers.rewrite_meter_function(music_voice)
-    music = music_voice[:]
-    music_voice[:] = []
+    music = abjad.mutate.eject_contents(music_voice)
     return music
 
 

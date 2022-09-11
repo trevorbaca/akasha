@@ -1933,7 +1933,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 7]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     f''2
     % AFTER:
     % ARTICULATIONS:
@@ -1965,7 +1965,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef''!1
     % AFTER:
     % ARTICULATIONS:
@@ -2030,7 +2030,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 9]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     fs''!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -2042,7 +2042,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 10]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e''2
     % AFTER:
     % ARTICULATIONS:
@@ -2074,7 +2074,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 11]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     fs''!1
     % AFTER:
     % ARTICULATIONS:
@@ -2541,7 +2541,7 @@ number.8.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     fs'!2..
     % AFTER:
     % ARTICULATIONS:
@@ -2631,7 +2631,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 2]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef'!2..
     % AFTER:
     % SPANNER_STARTS:
@@ -2643,7 +2643,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 3]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     f'4.
     % AFTER:
     % SPANNER_STARTS:
@@ -2655,7 +2655,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 4]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -2784,7 +2784,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 7]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -2816,7 +2816,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e'1
     % AFTER:
     % ARTICULATIONS:
@@ -2881,7 +2881,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 9]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     fs'!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -2893,7 +2893,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 10]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e'2
     % AFTER:
     % ARTICULATIONS:
@@ -2925,7 +2925,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 11]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     d'1
     % AFTER:
     % ARTICULATIONS:
@@ -3386,7 +3386,7 @@ number.8.Viola.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef'!2..
     % AFTER:
     % ARTICULATIONS:
@@ -3476,7 +3476,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     f'2..
     % AFTER:
     % SPANNER_STARTS:
@@ -3488,7 +3488,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     d'4.
     % AFTER:
     % SPANNER_STARTS:
@@ -3500,7 +3500,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e'2.
     % AFTER:
     % ARTICULATIONS:
@@ -3629,7 +3629,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e'2
     % AFTER:
     % ARTICULATIONS:
@@ -3661,7 +3661,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     fs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -3726,7 +3726,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 9]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef'!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -3738,7 +3738,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 10]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     f'2
     % AFTER:
     % ARTICULATIONS:
@@ -3770,7 +3770,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef'!1
     % AFTER:
     % ARTICULATIONS:
@@ -4246,7 +4246,7 @@ number.8.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs,!2..
     % AFTER:
     % ARTICULATIONS:
@@ -4336,7 +4336,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef,!2..
     % AFTER:
     % SPANNER_STARTS:
@@ -4348,7 +4348,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     f,4.
     % AFTER:
     % SPANNER_STARTS:
@@ -4360,7 +4360,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     d,2.
     % AFTER:
     % ARTICULATIONS:
@@ -4489,7 +4489,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     c,2
     % AFTER:
     % ARTICULATIONS:
@@ -4521,7 +4521,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     d,1
     % AFTER:
     % ARTICULATIONS:
@@ -4586,7 +4586,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 9]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e,4.
     % AFTER:
     % SPANNER_STARTS:
@@ -4598,7 +4598,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 10]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs,!2
     % AFTER:
     % ARTICULATIONS:
@@ -4630,7 +4630,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 11]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef,!1
     % AFTER:
     % ARTICULATIONS:

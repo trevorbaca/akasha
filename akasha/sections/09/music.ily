@@ -1980,9 +1980,9 @@ number.9.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 8/9
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2014,7 +2014,7 @@ number.9.Viola.Music = {
           %! EXPLICIT_STAFF_LINES_COLOR
           %! baca._attach_color_literal(2)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         ds!1..
         % AFTER:
         % ARTICULATIONS:
@@ -2063,7 +2063,7 @@ number.9.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         cqs!8..
         % AFTER:
         % ARTICULATIONS:
@@ -2085,7 +2085,7 @@ number.9.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2626,9 +2626,9 @@ number.9.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 8/9
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2649,7 +2649,7 @@ number.9.Cello.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         cs,!1..
         % AFTER:
         % ARTICULATIONS:
@@ -2698,7 +2698,7 @@ number.9.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         bf,,!8..
         % AFTER:
         % ARTICULATIONS:
@@ -2720,7 +2720,7 @@ number.9.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

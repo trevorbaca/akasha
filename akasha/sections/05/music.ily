@@ -7489,16 +7489,16 @@ number.5.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 2/3
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 36]
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         cs!2
         % AFTER:
         % SPANNER_STARTS:
@@ -7508,7 +7508,7 @@ number.5.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         bs,!16
         % AFTER:
         % ARTICULATIONS:
@@ -7530,7 +7530,7 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9761,16 +9761,16 @@ number.5.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 8/9
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 50]
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         bf,,!2..
         % AFTER:
         % SPANNER_STARTS:
@@ -9780,7 +9780,7 @@ number.5.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         a,,16..
         % AFTER:
         % ARTICULATIONS:
@@ -9802,7 +9802,7 @@ number.5.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

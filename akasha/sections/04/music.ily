@@ -4328,9 +4328,9 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 2/3
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4384,7 +4384,7 @@ number.4.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         ds!\breve
         % AFTER:
         % ARTICULATIONS:
@@ -4430,13 +4430,13 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         cqs!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4539,9 +4539,9 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 8/9
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4559,7 +4559,7 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         ds!1
         % AFTER:
         % MARKUP:
@@ -4577,13 +4577,13 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         cqs!8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4686,9 +4686,9 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 2/3
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4706,7 +4706,7 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         ds!\breve
         % AFTER:
         % MARKUP:
@@ -4724,13 +4724,13 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         cqs!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4833,9 +4833,9 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 2/3
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4853,7 +4853,7 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         ds!\breve
         % AFTER:
         % MARKUP:
@@ -4871,13 +4871,13 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         cqs!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4992,7 +4992,7 @@ number.4.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     ef!1.
     % AFTER:
     % ARTICULATIONS:
@@ -5041,7 +5041,7 @@ number.4.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 10]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     d1
     % AFTER:
     % SPANNER_STARTS:
@@ -5053,7 +5053,7 @@ number.4.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -5065,7 +5065,7 @@ number.4.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 12]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     bs,!1
     % AFTER:
     % ARTICULATIONS:
@@ -5608,7 +5608,7 @@ number.4.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e1.
     % AFTER:
     % ARTICULATIONS:
@@ -5658,16 +5658,16 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     \times 2/3
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 26]
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         ds!\breve
         % AFTER:
         % SPANNER_STARTS:
@@ -5677,7 +5677,7 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm()
+          %! akasha.make_glissando_rhythm_function()
         cqs!4
         % AFTER:
         % ARTICULATIONS:
@@ -5699,7 +5699,7 @@ number.4.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm()
+      %! akasha.make_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

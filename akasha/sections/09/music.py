@@ -77,7 +77,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(5, 6),
     )
     voice.extend(music)
@@ -95,7 +95,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(5, 6),
     )
     voice.extend(music)
