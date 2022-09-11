@@ -185,7 +185,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7, 10), head=voice.name)
     voice.extend(music)
-    music = library.make_manifest_rhythm(
+    music = library.make_manifest_rhythm_function(
         accumulator.get(11, 26),
         [2, 1, 2, 1, 1, 3, 2, 1, 7],
     )
@@ -231,7 +231,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5, 10), head=voice.name)
     voice.extend(music)
-    music = library.make_manifest_rhythm(
+    music = library.make_manifest_rhythm_function(
         accumulator.get(11, 26),
         [1, 3, 4, 1, 2, 3, 6],
     )
