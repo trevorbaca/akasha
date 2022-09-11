@@ -13931,7 +13931,7 @@ number.7.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     gs!2
     % AFTER:
     % ARTICULATIONS:
@@ -13965,10 +13965,11 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     gs8.
     % AFTER:
     % START_BEAM:
+      %! akasha.make_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -13976,10 +13977,10 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     a16
     % AFTER:
     % STOP_BEAM:
+      %! akasha.make_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -13987,7 +13988,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     a2
     % AFTER:
     % SPANNER_STARTS:
@@ -14000,10 +14000,11 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 12]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     a8
     % AFTER:
     % START_BEAM:
+      %! akasha.make_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -14011,10 +14012,10 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     b8
     % AFTER:
     % STOP_BEAM:
+      %! akasha.make_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -14022,7 +14023,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     b2
     % AFTER:
     % SPANNER_STARTS:
@@ -14033,7 +14033,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     b2.
     % AFTER:
     % SPANNER_STARTS:
@@ -14043,12 +14042,11 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 13]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     bf!4
     % AFTER:
     % SPANNER_STARTS:
@@ -14059,7 +14057,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     bf4..
     % AFTER:
     % SPANNER_STARTS:
@@ -14067,7 +14064,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     c'16
     % AFTER:
     % SPANNER_STARTS:
@@ -14075,7 +14071,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -14088,7 +14083,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 14]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     c'1
     % AFTER:
     % SPANNER_STARTS:
@@ -14103,7 +14098,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 15]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -14115,7 +14110,7 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     c'16
     % AFTER:
     % SPANNER_STARTS:
@@ -14123,7 +14118,7 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     cs'!4..
     % AFTER:
     % SPANNER_STARTS:
@@ -14136,7 +14131,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 16]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     cs'1.
     % AFTER:
     % SPANNER_STARTS:
@@ -14151,7 +14146,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 17]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     cs'4..
     % AFTER:
     % SPANNER_STARTS:
@@ -14159,7 +14154,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     cqs'!16
     % AFTER:
     % SPANNER_STARTS:
@@ -14167,7 +14161,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     cqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -14178,7 +14171,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     cqs'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -14192,7 +14184,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 18]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     cqs'2
     % AFTER:
     % SPANNER_STARTS:
@@ -14204,10 +14196,11 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     cqs'8.
     % AFTER:
     % START_BEAM:
+      %! akasha.make_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -14215,10 +14208,10 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! akasha.make_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -14226,7 +14219,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     d'2
     % AFTER:
     % SPANNER_STARTS:
@@ -14239,7 +14231,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 19]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -14253,7 +14245,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 20]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -14267,7 +14259,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 21]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     d'1
     % AFTER:
     % SPANNER_STARTS:
@@ -14281,7 +14273,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 22]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     d'1
     % AFTER:
     % SPANNER_STARTS:
@@ -14295,7 +14287,6 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 23]
-      %! akasha.make_manifest_rhythm()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -14307,7 +14298,6 @@ number.7.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     d'2
     % AFTER:
     % SPANNER_STARTS:
@@ -14321,7 +14311,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 24]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -14335,7 +14325,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 25]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -14349,7 +14339,7 @@ number.7.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 26]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     d'1.
     % AFTER:
     % SPANNER_STARTS:
@@ -18106,7 +18096,7 @@ number.7.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     af,!4..
     % AFTER:
     % ARTICULATIONS:
@@ -18141,7 +18131,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     g,16
     % AFTER:
     % SPANNER_STARTS:
@@ -18149,7 +18138,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     g,4
     % AFTER:
     % SPANNER_STARTS:
@@ -18160,7 +18148,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     g,2
     % AFTER:
     % SPANNER_STARTS:
@@ -18174,7 +18161,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 12]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     g,2
     % AFTER:
     % SPANNER_STARTS:
@@ -18186,7 +18173,7 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     g,8
     % AFTER:
     % SPANNER_STARTS:
@@ -18194,7 +18181,7 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     f,2..
     % AFTER:
     % SPANNER_STARTS:
@@ -18207,7 +18194,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     f,1.
     % AFTER:
     % SPANNER_STARTS:
@@ -18221,10 +18208,11 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 14]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     f,8.
     % AFTER:
     % START_BEAM:
+      %! akasha.make_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -18232,10 +18220,10 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     fqs,!16
     % AFTER:
     % STOP_BEAM:
+      %! akasha.make_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -18243,7 +18231,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     fqs,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -18256,7 +18243,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 15]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     fqs,16
     % AFTER:
     % SPANNER_STARTS:
@@ -18264,7 +18251,7 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     fs,!2...
     % AFTER:
     % SPANNER_STARTS:
@@ -18277,7 +18264,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 16]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     fs,2...
     % AFTER:
     % SPANNER_STARTS:
@@ -18285,7 +18272,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     e,16
     % AFTER:
     % SPANNER_STARTS:
@@ -18293,7 +18279,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     e,2
     % AFTER:
     % SPANNER_STARTS:
@@ -18306,7 +18291,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 17]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     e,1.
     % AFTER:
     % SPANNER_STARTS:
@@ -18320,7 +18305,6 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 18]
-      %! akasha.make_manifest_rhythm()
     e,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -18332,7 +18316,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     e,2
     % AFTER:
     % SPANNER_STARTS:
@@ -18346,7 +18329,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 19]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     e,4..
     % AFTER:
     % SPANNER_STARTS:
@@ -18354,7 +18337,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     ef,!16
     % AFTER:
     % SPANNER_STARTS:
@@ -18362,7 +18344,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     ef,4
     % AFTER:
     % SPANNER_STARTS:
@@ -18375,7 +18356,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     ef,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -18389,7 +18370,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 21]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     ef,1
     % AFTER:
     % SPANNER_STARTS:
@@ -18403,7 +18384,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 22]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     ef,1
     % AFTER:
     % SPANNER_STARTS:
@@ -18417,7 +18398,6 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 23]
-      %! akasha.make_manifest_rhythm()
     ef,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -18429,7 +18409,6 @@ number.7.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_manifest_rhythm()
     ef,2
     % AFTER:
     % SPANNER_STARTS:
@@ -18443,7 +18422,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 24]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     ef,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -18457,7 +18436,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 25]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     ef,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -18471,7 +18450,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! akasha.make_manifest_rhythm()
+      %! akasha.make_manifest_rhythm_function()
     ef,1.
     % AFTER:
     % SPANNER_STARTS:
