@@ -409,18 +409,18 @@ number.11.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \times 6/4
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 2]
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         f'4
         % AFTER:
         % ARTICULATIONS:
@@ -442,61 +442,61 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \times 6/4
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 3]
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         fs'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -566,11 +566,11 @@ number.11.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \times 4/4
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -624,7 +624,7 @@ number.11.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % AFTER:
         % ARTICULATIONS:
@@ -659,17 +659,17 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         a4
         % AFTER:
         % ARTICULATIONS:
@@ -692,103 +692,103 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \times 6/5
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 2]
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         bf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \times 6/7
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 3]
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         a4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1007,11 +1007,11 @@ number.11.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \times 4/3
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1070,7 +1070,7 @@ number.11.Cello.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % AFTER:
         % ARTICULATIONS:
@@ -1105,7 +1105,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         b,4
         % AFTER:
         % ARTICULATIONS:
@@ -1127,13 +1127,13 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1151,44 +1151,44 @@ number.11.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     \times 6/5
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 3]
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         c4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_scratch_rhythm()
+          %! akasha.make_scratch_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_scratch_rhythm()
+      %! akasha.make_scratch_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

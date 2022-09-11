@@ -68,43 +68,35 @@ def GLOBALS(skips, rests):
 def V1(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(5),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [0], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([0]),
         extra_counts=[-2],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(7),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [0], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([0]),
         extra_counts=[-2],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(9, 10),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [1, -3], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([1, -3]),
         extra_counts=[1],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(11, 22),
         [8],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ([0, 3], 8), invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([0, 3], period=8),
         extra_counts=[1],
     )
     voice.extend(music)
@@ -127,54 +119,44 @@ def V1(voice, accumulator):
 def V2(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(3),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [-1], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([-1]),
         extra_counts=[-2],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(5),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [2], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([2]),
         extra_counts=[-1],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(7),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [-1], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([-1]),
         extra_counts=[1],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(9, 10),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [2, -1], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([2, -1]),
         extra_counts=[0],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(11, 20),
         [8],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ([1, 4], 9), invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([1, 4], period=9),
         extra_counts=[-1],
     )
     voice.extend(music)
@@ -244,43 +226,35 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(3),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([1]),
         extra_counts=[-1],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 6), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(7),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [1], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([1]),
         extra_counts=[-1],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(9, 10),
         [4],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [2, -2], invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([2, -2]),
         extra_counts=[2],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm(
+    music = library.make_scratch_rhythm_function(
         accumulator.get(11, 18),
         [8],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ([2, 5], 9), invert=True),
-        ),
+        force_rest_lts=~abjad.Pattern([2, 5], period=9),
         extra_counts=[2],
     )
     voice.extend(music)
