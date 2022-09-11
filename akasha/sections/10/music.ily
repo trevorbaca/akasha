@@ -3051,7 +3051,7 @@ number.10.Violin.1.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3083,7 +3083,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3092,7 +3092,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3101,7 +3101,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3110,7 +3110,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3121,7 +3121,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 9]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3130,7 +3130,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3139,7 +3139,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3150,7 +3150,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 10]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3159,7 +3159,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3168,7 +3168,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3179,7 +3179,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 11]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3213,7 +3213,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3222,7 +3222,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3231,7 +3231,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3242,7 +3242,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 12]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3251,7 +3251,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3260,7 +3260,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3269,7 +3269,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3285,7 +3285,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 13]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3294,7 +3294,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3303,7 +3303,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3312,7 +3312,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3321,7 +3321,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3332,7 +3332,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 14]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3341,7 +3341,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3350,7 +3350,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3361,7 +3361,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 15]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3395,7 +3395,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3404,7 +3404,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3415,7 +3415,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 16]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3424,7 +3424,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3433,7 +3433,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3442,7 +3442,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3458,7 +3458,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 17]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3492,7 +3492,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3501,7 +3501,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3510,7 +3510,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3519,7 +3519,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3528,7 +3528,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3539,7 +3539,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 18]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3548,7 +3548,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3557,7 +3557,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3566,7 +3566,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3575,7 +3575,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3584,7 +3584,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3595,7 +3595,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 19]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3604,7 +3604,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3613,7 +3613,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3622,7 +3622,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3631,7 +3631,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3640,7 +3640,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3651,7 +3651,7 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 20]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3660,7 +3660,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3669,7 +3669,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -3678,7 +3678,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -6132,7 +6132,7 @@ number.10.Violin.2.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6164,7 +6164,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6173,7 +6173,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6182,7 +6182,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6191,7 +6191,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6202,7 +6202,7 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 14]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6211,7 +6211,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6220,7 +6220,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6231,7 +6231,7 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 15]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6265,7 +6265,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6274,7 +6274,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6285,7 +6285,7 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 16]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6294,7 +6294,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6303,7 +6303,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6312,7 +6312,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6328,7 +6328,7 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 17]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6362,7 +6362,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6371,7 +6371,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6380,7 +6380,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6389,7 +6389,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6398,7 +6398,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6409,7 +6409,7 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 18]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6418,7 +6418,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6427,7 +6427,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6436,7 +6436,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6445,7 +6445,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6454,7 +6454,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6465,7 +6465,7 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 19]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6474,7 +6474,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6483,7 +6483,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6492,7 +6492,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6501,7 +6501,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6510,7 +6510,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6521,7 +6521,7 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 20]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6530,7 +6530,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6539,7 +6539,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -6548,7 +6548,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -8017,7 +8017,7 @@ number.10.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8049,7 +8049,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8058,7 +8058,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8067,7 +8067,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8076,7 +8076,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8085,7 +8085,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8096,7 +8096,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 5]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8105,7 +8105,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8114,7 +8114,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8123,7 +8123,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8132,7 +8132,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8141,7 +8141,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8152,7 +8152,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 6]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8186,7 +8186,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8195,7 +8195,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8204,7 +8204,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8213,7 +8213,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8222,7 +8222,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8233,7 +8233,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8242,7 +8242,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8251,7 +8251,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8260,7 +8260,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8276,7 +8276,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 8]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8285,7 +8285,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8294,7 +8294,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8303,7 +8303,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8312,7 +8312,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8323,7 +8323,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 9]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8332,7 +8332,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8341,7 +8341,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8352,7 +8352,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 10]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8361,7 +8361,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8370,7 +8370,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8381,7 +8381,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8415,7 +8415,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8424,7 +8424,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8433,7 +8433,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8444,7 +8444,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 12]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8453,7 +8453,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8462,7 +8462,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8471,7 +8471,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8487,7 +8487,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 13]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8496,7 +8496,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8505,7 +8505,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8514,7 +8514,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8523,7 +8523,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8534,7 +8534,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 14]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8543,7 +8543,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8552,7 +8552,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8563,7 +8563,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 15]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8597,7 +8597,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8606,7 +8606,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8617,7 +8617,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 16]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8626,7 +8626,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8635,7 +8635,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8644,7 +8644,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8660,7 +8660,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 17]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8694,7 +8694,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8703,7 +8703,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8712,7 +8712,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8721,7 +8721,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8730,7 +8730,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8741,7 +8741,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 18]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8750,7 +8750,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8759,7 +8759,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8768,7 +8768,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8777,7 +8777,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8786,7 +8786,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8797,7 +8797,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 19]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8806,7 +8806,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8815,7 +8815,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8824,7 +8824,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8833,7 +8833,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8842,7 +8842,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8853,7 +8853,7 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 20]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8862,7 +8862,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8871,7 +8871,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -8880,7 +8880,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % ARTICULATIONS:
@@ -10951,7 +10951,7 @@ number.10.Cello.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11005,7 +11005,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11014,7 +11014,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11023,7 +11023,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11032,7 +11032,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11041,7 +11041,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11052,7 +11052,7 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 18]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11061,7 +11061,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11070,7 +11070,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11079,7 +11079,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11088,7 +11088,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11097,7 +11097,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11108,7 +11108,7 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 19]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11117,7 +11117,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11126,7 +11126,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11135,7 +11135,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11144,7 +11144,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11153,7 +11153,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11164,7 +11164,7 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11173,7 +11173,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11182,7 +11182,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -11191,7 +11191,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,,4
     % AFTER:
     % ARTICULATIONS:
