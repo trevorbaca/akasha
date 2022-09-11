@@ -99,7 +99,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_growth_rhythm(
+    music = library.make_growth_rhythm_function(
         accumulator.get(11, 22),
         division_ratio=(2, 1, 2, 2, 1, 2),
         extra_counts=[1],
@@ -148,7 +148,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_growth_rhythm(
+    music = library.make_growth_rhythm_function(
         accumulator.get(11, 22),
         division_ratio=(1, 1, 2, 2, 1, 2),
         first_silence=2,
