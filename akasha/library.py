@@ -388,15 +388,15 @@ def make_sparse_getato_rhythm_function(
     return music
 
 
-def make_untied_notes(time_signatures):
-    rhythm_maker = rmakers.stack(
-        rmakers.note(),
-        rmakers.rewrite_meter(),
-        rmakers.beam(lambda _: baca.select.plts(_)),
-        rmakers.untie(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
+def make_untied_notes_function(time_signatures):
+    tag = baca.tags.function_name(inspect.currentframe())
+    nested_music = rmakers.note_function(time_signatures, tag=tag)
+    music = abjad.sequence.flatten(nested_music, depth=-1)
+    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+    rmakers.rewrite_meter_function(music_voice)
+    rmakers.beam_function(baca.select.plts(music_voice))
+    rmakers.untie_function(music_voice)
+    music = abjad.mutate.eject_contents(music_voice)
     return music
 
 

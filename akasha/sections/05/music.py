@@ -77,31 +77,31 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(18), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(19, 22),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(23), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(24, 31),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(32), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(33, 36),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(38, 41),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(42), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(43, 46),
     )
     voice.extend(music)
@@ -112,25 +112,25 @@ def V1(voice, accumulator):
 def V2(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 9))
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(10, 17),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(18), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(19, 22),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(23), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(24, 31),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(32), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(33, 36),
     )
     voice.extend(music)
@@ -167,7 +167,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(32), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(33, 35),
     )
     voice.extend(music)
@@ -177,13 +177,13 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(38, 41),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(42), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(43, 46),
     )
     voice.extend(music)
@@ -204,7 +204,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(23), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(24, 31),
     )
     voice.extend(music)
@@ -214,13 +214,13 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(38, 41),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(42), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
+    music = library.make_untied_notes_function(
         accumulator.get(43, 49),
     )
     voice.extend(music)

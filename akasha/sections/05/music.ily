@@ -3718,7 +3718,7 @@ number.5.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a'1
     % AFTER:
     % ARTICULATIONS:
@@ -3781,7 +3781,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 21]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     fs'!2
     % AFTER:
     % ARTICULATIONS:
@@ -3796,7 +3796,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 22]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -3982,7 +3982,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 26]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef''!2
     % AFTER:
     % ARTICULATIONS:
@@ -3997,7 +3997,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 27]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     c''1
     % AFTER:
     % ARTICULATIONS:
@@ -4012,7 +4012,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 28]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -4027,7 +4027,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 29]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef''!2
     % AFTER:
     % ARTICULATIONS:
@@ -4042,7 +4042,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 30]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     fs''!2..
     % AFTER:
     % ARTICULATIONS:
@@ -4057,7 +4057,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 31]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a''2..
     % AFTER:
     % ARTICULATIONS:
@@ -4183,7 +4183,7 @@ number.5.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -4206,7 +4206,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 34]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef''!2.
     % AFTER:
     % ARTICULATIONS:
@@ -4221,7 +4221,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 35]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     fs''!2
     % AFTER:
     % ARTICULATIONS:
@@ -4236,7 +4236,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 36]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a''4.
     % AFTER:
     % ARTICULATIONS:
@@ -4362,7 +4362,7 @@ number.5.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef'''!2.
     % AFTER:
     % ARTICULATIONS:
@@ -4385,7 +4385,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 39]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a''2..
     % AFTER:
     % ARTICULATIONS:
@@ -4400,7 +4400,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 40]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     c'''2..
     % AFTER:
     % ARTICULATIONS:
@@ -4415,7 +4415,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 41]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -4541,7 +4541,7 @@ number.5.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     fs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -4616,7 +4616,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 46]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     c''2
     % AFTER:
     % ARTICULATIONS:
@@ -5099,7 +5099,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 12]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef'!2..
     % AFTER:
     % ARTICULATIONS:
@@ -5114,7 +5114,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 13]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -5129,7 +5129,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 14]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     fs'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -5144,7 +5144,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 15]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a'2..
     % AFTER:
     % ARTICULATIONS:
@@ -5185,7 +5185,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 17]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef''!2
     % AFTER:
     % ARTICULATIONS:
@@ -5304,7 +5304,7 @@ number.5.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     fs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -5353,7 +5353,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 21]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     fs''!2
     % AFTER:
     % ARTICULATIONS:
@@ -5368,7 +5368,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 22]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -5547,7 +5547,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 26]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     fs''!2
     % AFTER:
     % ARTICULATIONS:
@@ -5562,7 +5562,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 27]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     c'''1
     % AFTER:
     % ARTICULATIONS:
@@ -5577,7 +5577,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 28]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef'''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -5592,7 +5592,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 29]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a''2
     % AFTER:
     % ARTICULATIONS:
@@ -5607,7 +5607,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 30]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     c'''2..
     % AFTER:
     % ARTICULATIONS:
@@ -5622,7 +5622,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 31]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a'2..
     % AFTER:
     % ARTICULATIONS:
@@ -5741,7 +5741,7 @@ number.5.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef'''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -5764,7 +5764,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 34]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a''2.
     % AFTER:
     % ARTICULATIONS:
@@ -5779,7 +5779,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 35]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     c'''2
     % AFTER:
     % ARTICULATIONS:
@@ -5794,7 +5794,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 36]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     a'4.
     % AFTER:
     % ARTICULATIONS:
@@ -7410,7 +7410,7 @@ number.5.Viola.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ff!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7466,7 +7466,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 34]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     e2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7478,7 +7478,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 35]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ds!2
     % AFTER:
     % SPANNER_STARTS:
@@ -7647,7 +7647,7 @@ number.5.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     af!2.
     % AFTER:
     % ARTICULATIONS:
@@ -7684,7 +7684,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 39]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     b2..
     % AFTER:
     % ARTICULATIONS:
@@ -7699,7 +7699,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 40]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     af!2..
     % AFTER:
     % ARTICULATIONS:
@@ -7714,7 +7714,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 41]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     f4.
     % AFTER:
     % ARTICULATIONS:
@@ -7833,7 +7833,7 @@ number.5.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     f1
     % AFTER:
     % ARTICULATIONS:
@@ -7908,7 +7908,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 46]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     b2
     % AFTER:
     % ARTICULATIONS:
@@ -8998,7 +8998,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     cs,!2
     % AFTER:
     % ARTICULATIONS:
@@ -9013,7 +9013,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 27]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     g,1
     % AFTER:
     % ARTICULATIONS:
@@ -9028,7 +9028,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 28]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     e,4.
     % AFTER:
     % ARTICULATIONS:
@@ -9043,7 +9043,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 29]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     g,2
     % AFTER:
     % ARTICULATIONS:
@@ -9058,7 +9058,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 30]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     bf,!2..
     % AFTER:
     % ARTICULATIONS:
@@ -9073,7 +9073,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 31]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     e2..
     % AFTER:
     % ARTICULATIONS:
@@ -9427,7 +9427,7 @@ number.5.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     e,2.
     % AFTER:
     % ARTICULATIONS:
@@ -9464,7 +9464,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 39]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     g,2..
     % AFTER:
     % ARTICULATIONS:
@@ -9479,7 +9479,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 40]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     bf,!2..
     % AFTER:
     % ARTICULATIONS:
@@ -9494,7 +9494,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 41]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     e4.
     % AFTER:
     % ARTICULATIONS:
@@ -9623,7 +9623,7 @@ number.5.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     df!1
     % AFTER:
     % ARTICULATIONS:
@@ -9714,7 +9714,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 46]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     f,2
     % AFTER:
     % SPANNER_STARTS:
@@ -9726,7 +9726,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 47]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     ef,!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -9738,7 +9738,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 48]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     d,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -9750,7 +9750,7 @@ number.5.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 49]
-      %! akasha.make_untied_notes()
+      %! akasha.make_untied_notes_function()
     c,2..
     % AFTER:
     % SPANNER_STARTS:
