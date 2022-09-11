@@ -123,31 +123,31 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(1),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(3),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(5),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6), head=voice.name)
     voice.extend(music)
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(7),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(9, 12), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(9, 12), repeat_ties=True)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(13, 15), head=voice.name)
     voice.extend(music)
@@ -162,9 +162,9 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(24), head=voice.name)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(25), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(25), repeat_ties=True)
     voice.extend(music)
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(26),
     )
     voice.extend(music)

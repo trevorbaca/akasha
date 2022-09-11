@@ -41,7 +41,7 @@ def GLOBALS(skips, rests):
         ("[N.3]", 17),
     )
     baca.label_stage_numbers(skips, stage_markup)
-    for index, string in ((25 - 1, "very_long"),):
+    for index, string in [(25 - 1, "very_long")]:
         baca.global_fermata(rests[index], string)
 
 

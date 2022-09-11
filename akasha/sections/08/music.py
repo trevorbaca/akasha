@@ -67,11 +67,11 @@ def V1(voice, accumulator):
         [6, 4, 6, 3],
     )
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(5, 7), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(5, 7), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(8, 10), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(8, 10), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(11, 13), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(11, 13), repeat_ties=True)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(14), head=voice.name)
     voice.extend(music)
@@ -82,13 +82,13 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = baca.make_notes(accumulator.get(1, 4), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(1, 4), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(5, 7), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(5, 7), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(8, 10), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(8, 10), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(11, 13), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(11, 13), repeat_ties=True)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(14), head=voice.name)
     voice.extend(music)
@@ -99,13 +99,13 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_notes(accumulator.get(1, 4), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(1, 4), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(5, 7), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(5, 7), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(8, 10), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(8, 10), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(11, 13), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(11, 13), repeat_ties=True)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(14), head=voice.name)
     voice.extend(music)
@@ -114,13 +114,13 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = baca.make_notes(accumulator.get(1, 4), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(1, 4), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(5, 7), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(5, 7), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(8, 10), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(8, 10), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(11, 13), repeat_ties=True)
+    music = baca.make_notes_function(accumulator.get(11, 13), repeat_ties=True)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(14), head=voice.name)
     voice.extend(music)

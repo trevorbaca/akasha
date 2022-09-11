@@ -171,7 +171,7 @@ def VA(voice, accumulator):
         accumulator.get(33, 35),
     )
     voice.extend(music)
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(36),
     )
     voice.extend(music)
@@ -224,7 +224,7 @@ def VC(voice, accumulator):
         accumulator.get(43, 49),
     )
     voice.extend(music)
-    music = library.make_glissando_rhythm(
+    music = library.make_glissando_rhythm_function(
         accumulator.get(50),
     )
     voice.extend(music)
