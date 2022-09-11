@@ -527,15 +527,15 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     return music
 
 
-# TODO
 def make_viola_ob_rhythm_function(time_signatures, *, rotation=None):
-    # tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.tags.function_name(inspect.currentframe())
 
     def preprocessor(divisions):
         fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
         fractions = abjad.sequence.rotate(fractions, n=rotation)
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(divisions, fractions, cyclic=True)
+        divisions = abjad.sequence.flatten(divisions)
         return divisions
 
     def selector(argument):
@@ -543,14 +543,16 @@ def make_viola_ob_rhythm_function(time_signatures, *, rotation=None):
         result = abjad.select.get(result, [0, -1])
         return result
 
-    rmakers.note()
-    rmakers.force_rest(selector)
-    rmakers.beam(lambda _: baca.select.plts(_))
-    rmakers.split_measures()
-    rmakers.force_repeat_tie((1, 4))
-    # preprocessor=preprocessor
-
-    # return music
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = preprocessor(divisions)
+    nested_music = rmakers.note_function(divisions, tag=tag)
+    voice = rmakers._wrap_music_in_time_signature_staff(nested_music, time_signatures)
+    rmakers.force_rest_function(selector(voice), tag=tag)
+    rmakers.beam_function(baca.select.plts(voice))
+    rmakers.split_measures_function(voice, tag=tag)
+    rmakers.force_repeat_tie_function(voice, threshold=(1, 4))
+    music = abjad.mutate.eject_contents(voice)
+    return music
 
 
 def material_annotation_spanner(argument, letter):

@@ -11109,64 +11109,64 @@ number.6.Violin.2.Music = {
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 33]
       %! akasha.make_dense_getato_rhythm_function()
-    r4.
+    r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! akasha.make_dense_getato_rhythm_function()
-    r2.
+    e''16
+    % AFTER:
+    % ARTICULATIONS:
+      %! baca.staccato()
+    - \staccato
+    % START_BEAM:
+      %! rmakers.beam()
+    [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! akasha.make_dense_getato_rhythm_function()
-    r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Violin.2.Music measure 34]
-      %! akasha.make_dense_getato_rhythm_function()
-    r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Violin.2.Music measure 35]
-      %! akasha.make_dense_getato_rhythm_function()
-    r4.
+    ef''!16
+    % AFTER:
+    % ARTICULATIONS:
+      %! baca.staccato()
+    - \staccato
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! akasha.make_dense_getato_rhythm_function()
-    r2.
+    f''16
+    % AFTER:
+    % ARTICULATIONS:
+      %! baca.staccato()
+    - \staccato
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! akasha.make_dense_getato_rhythm_function()
-    r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Violin.2.Music measure 36]
-      %! akasha.make_dense_getato_rhythm_function()
-    r2
+    fs''!16
+    % AFTER:
+    % ARTICULATIONS:
+      %! baca.staccato()
+    - \staccato
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! akasha.make_dense_getato_rhythm_function()
-    r2
+    g''16
+    % AFTER:
+    % ARTICULATIONS:
+      %! baca.staccato()
+    - \staccato
+    % STOP_BEAM:
+      %! rmakers.beam()
+    ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! akasha.make_dense_getato_rhythm_function()
-    \times 4/5
+    \times 12/15
       %! akasha.make_dense_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
@@ -11178,7 +11178,7 @@ number.6.Violin.2.Music = {
         % COMMANDS:
 
           %! akasha.make_dense_getato_rhythm_function()
-        e''16
+        fs''!16
         % AFTER:
         % ARTICULATIONS:
           %! baca.staccato()
@@ -11186,78 +11186,6 @@ number.6.Violin.2.Music = {
         % START_BEAM:
           %! rmakers.beam()
         [
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        ef''!16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        f''16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        fs''!16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
-        % STOP_BEAM:
-          %! rmakers.beam()
-        ]
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
-    }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-    % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
-    \times 8/12
-      %! akasha.make_dense_getato_rhythm_function()
-    {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! baca._comment_measure_numbers()
-        % [Violin.2.Music measure 37]
-          %! akasha.make_dense_getato_rhythm_function()
-        r16
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        g''16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
-        % START_BEAM:
-          %! rmakers.beam()
-        [
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        fs''!16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11339,28 +11267,6 @@ number.6.Violin.2.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % STOP_BEAM:
-          %! rmakers.beam()
-        ]
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
-    }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-    % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
-    \times 4/6
-      %! akasha.make_dense_getato_rhythm_function()
-    {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11370,9 +11276,6 @@ number.6.Violin.2.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % START_BEAM:
-          %! rmakers.beam()
-        [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11400,15 +11303,6 @@ number.6.Violin.2.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        af''!16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
         % STOP_BEAM:
           %! rmakers.beam()
         ]
@@ -11423,16 +11317,28 @@ number.6.Violin.2.Music = {
 
     % OPEN_BRACKETS:
       %! akasha.make_dense_getato_rhythm_function()
-    \times 8/11
+    \tweak text #tuplet-number::calc-fraction-text
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 6/11
       %! akasha.make_dense_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca._comment_measure_numbers()
-        % [Violin.2.Music measure 38]
           %! akasha.make_dense_getato_rhythm_function()
         r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11442,9 +11348,6 @@ number.6.Violin.2.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % START_BEAM:
-          %! rmakers.beam()
-        [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11517,15 +11420,6 @@ number.6.Violin.2.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        a''16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
         % STOP_BEAM:
           %! rmakers.beam()
         ]
@@ -11540,14 +11434,28 @@ number.6.Violin.2.Music = {
 
     % OPEN_BRACKETS:
       %! akasha.make_dense_getato_rhythm_function()
-    \times 4/5
+    \times 8/12
       %! akasha.make_dense_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! baca._comment_measure_numbers()
+        % [Violin.2.Music measure 34]
           %! akasha.make_dense_getato_rhythm_function()
         r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11557,9 +11465,6 @@ number.6.Violin.2.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % START_BEAM:
-          %! rmakers.beam()
-        [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11587,6 +11492,60 @@ number.6.Violin.2.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
         % STOP_BEAM:
           %! rmakers.beam()
         ]
@@ -11596,6 +11555,814 @@ number.6.Violin.2.Music = {
     % CLOSE_BRACKETS:
       %! akasha.make_dense_getato_rhythm_function()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 8/14
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 6/9
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! baca._comment_measure_numbers()
+        % [Violin.2.Music measure 35]
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \tweak text #tuplet-number::calc-fraction-text
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 12/17
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \tweak text #tuplet-number::calc-fraction-text
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 6/10
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 8/14
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! baca._comment_measure_numbers()
+        % [Violin.2.Music measure 36]
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 8/11
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! akasha.make_dense_getato_rhythm_function()
+    r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! baca._comment_measure_numbers()
+    % [Violin.2.Music measure 37]
+      %! akasha.make_dense_getato_rhythm_function()
+    r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! akasha.make_dense_getato_rhythm_function()
+    r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! baca._comment_measure_numbers()
+    % [Violin.2.Music measure 38]
+      %! akasha.make_dense_getato_rhythm_function()
+    r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! akasha.make_dense_getato_rhythm_function()
+    r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -17936,78 +18703,16 @@ number.6.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca._comment_measure_numbers()
-    % [Cello.Music measure 33]
-      %! akasha.make_dense_getato_rhythm_function()
-    r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Cello.Music measure 35]
-      %! akasha.make_dense_getato_rhythm_function()
-    r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
     % OPEN_BRACKETS:
       %! akasha.make_dense_getato_rhythm_function()
-    \times 8/13
+    \times 12/18
       %! akasha.make_dense_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! baca._comment_measure_numbers()
+        % [Cello.Music measure 33]
           %! akasha.make_dense_getato_rhythm_function()
         r16
         % ABSOLUTE_BEFORE:
@@ -18121,78 +18826,15 @@ number.6.Cello.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % STOP_BEAM:
-          %! rmakers.beam()
-        ]
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
-    }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    d''16
-    % AFTER:
-    % ARTICULATIONS:
-      %! baca.staccato()
-    - \staccato
-    % START_BEAM:
-      %! rmakers.beam()
-    [
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    cs''!16
-    % AFTER:
-    % ARTICULATIONS:
-      %! baca.staccato()
-    - \staccato
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! akasha.make_dense_getato_rhythm_function()
-    c''16
-    % AFTER:
-    % ARTICULATIONS:
-      %! baca.staccato()
-    - \staccato
-    % STOP_BEAM:
-      %! rmakers.beam()
-    ]
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-    % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
-    \times 8/14
-      %! akasha.make_dense_getato_rhythm_function()
-    {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! akasha.make_dense_getato_rhythm_function()
-        r16
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        b'16
+        d''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % START_BEAM:
-          %! rmakers.beam()
-        [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -18206,11 +18848,63 @@ number.6.Cello.Music = {
         % COMMANDS:
 
           %! akasha.make_dense_getato_rhythm_function()
+        c''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b'16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 6/9
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
         d''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -18241,8 +18935,6 @@ number.6.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca._comment_measure_numbers()
-        % [Cello.Music measure 38]
           %! akasha.make_dense_getato_rhythm_function()
         f''16
         % AFTER:
@@ -18276,33 +18968,6 @@ number.6.Cello.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        d''16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        cs''!16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-          %! akasha.make_dense_getato_rhythm_function()
-        c''16
-        % AFTER:
-        % ARTICULATIONS:
-          %! baca.staccato()
-        - \staccato
         % STOP_BEAM:
           %! rmakers.beam()
         ]
@@ -18317,7 +18982,7 @@ number.6.Cello.Music = {
 
     % OPEN_BRACKETS:
       %! akasha.make_dense_getato_rhythm_function()
-    \times 8/11
+    \times 10/15
       %! akasha.make_dense_getato_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
@@ -18329,7 +18994,7 @@ number.6.Cello.Music = {
         % COMMANDS:
 
           %! akasha.make_dense_getato_rhythm_function()
-        b'16
+        d''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.staccato()
@@ -18359,6 +19024,33 @@ number.6.Cello.Music = {
         % COMMANDS:
 
           %! akasha.make_dense_getato_rhythm_function()
+        b'16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
         cs''!16
         % AFTER:
         % ARTICULATIONS:
@@ -18376,6 +19068,8 @@ number.6.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! baca._comment_measure_numbers()
+        % [Cello.Music measure 34]
           %! akasha.make_dense_getato_rhythm_function()
         e''16
         % AFTER:
@@ -18418,6 +19112,15 @@ number.6.Cello.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
         % STOP_BEAM:
           %! rmakers.beam()
         ]
@@ -18427,6 +19130,855 @@ number.6.Cello.Music = {
     % CLOSE_BRACKETS:
       %! akasha.make_dense_getato_rhythm_function()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 8/12
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 4/6
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        d''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 12/15
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! baca._comment_measure_numbers()
+        % [Cello.Music measure 35]
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \tweak text #tuplet-number::calc-fraction-text
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 6/11
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        ef''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        e''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \tweak text #tuplet-number::calc-fraction-text
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 10/14
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        f''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 8/14
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        fs''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        af''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        g''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+    % OPEN_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    \times 4/7
+      %! akasha.make_dense_getato_rhythm_function()
+    {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        r16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        cs'''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % START_BEAM:
+          %! rmakers.beam()
+        [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        b''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        c'''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        bf''!16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
+
+          %! akasha.make_dense_getato_rhythm_function()
+        a''16
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.staccato()
+        - \staccato
+        % STOP_BEAM:
+          %! rmakers.beam()
+        ]
+        % CLOSING:
+        % COMMANDS:
+
+    % CLOSE_BRACKETS:
+      %! akasha.make_dense_getato_rhythm_function()
+    }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! akasha.make_dense_getato_rhythm_function()
+    r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! akasha.make_dense_getato_rhythm_function()
+    r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! akasha.make_dense_getato_rhythm_function()
+    r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! akasha.make_dense_getato_rhythm_function()
+    r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

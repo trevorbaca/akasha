@@ -166,7 +166,7 @@ def V2(voice, accumulator):
         accumulator.get(33, 38),
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
-        force_rest_tuplets=~abjad.Pattern([-5, -4, -3, -2, -1]),
+        force_rest_tuplets=abjad.Pattern([-5, -4, -3, -2, -1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
@@ -263,7 +263,7 @@ def VC(voice, accumulator):
         accumulator.get(33, 38),
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
-        force_rest_tuplets=~abjad.Pattern([-4, -3, -2, -1]),
+        force_rest_tuplets=abjad.Pattern([-4, -3, -2, -1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
