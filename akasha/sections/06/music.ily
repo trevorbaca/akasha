@@ -12546,7 +12546,7 @@ number.6.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -12589,7 +12589,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -12613,7 +12613,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -12622,7 +12622,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12737,7 +12737,7 @@ number.6.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r4.
     % AFTER:
     % MARKUP:
@@ -12752,7 +12752,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -12761,7 +12761,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -12770,7 +12770,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -12779,7 +12779,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12894,7 +12894,7 @@ number.6.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r4.
     % AFTER:
     % MARKUP:
@@ -12909,7 +12909,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -12918,7 +12918,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -12927,7 +12927,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -12936,7 +12936,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13051,7 +13051,7 @@ number.6.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r4
     % AFTER:
     % MARKUP:
@@ -13066,7 +13066,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13075,7 +13075,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13084,7 +13084,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13199,7 +13199,7 @@ number.6.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r4
     % AFTER:
     % MARKUP:
@@ -13214,7 +13214,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13239,7 +13239,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13248,7 +13248,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13259,7 +13259,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13268,7 +13268,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13277,7 +13277,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13302,7 +13302,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13311,7 +13311,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13342,7 +13342,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13351,7 +13351,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13360,7 +13360,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13369,7 +13369,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13380,7 +13380,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 14]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13389,7 +13389,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13414,7 +13414,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13423,7 +13423,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13434,7 +13434,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 16]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13443,7 +13443,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13452,7 +13452,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13461,7 +13461,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13470,7 +13470,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13481,7 +13481,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 17]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13490,7 +13490,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13499,7 +13499,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13524,7 +13524,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13533,7 +13533,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13542,7 +13542,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13551,7 +13551,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13576,7 +13576,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13585,7 +13585,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13594,7 +13594,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13603,7 +13603,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13628,7 +13628,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13637,7 +13637,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13646,7 +13646,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13655,7 +13655,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13680,7 +13680,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13689,7 +13689,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13714,7 +13714,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13723,7 +13723,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13734,7 +13734,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 23]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13743,7 +13743,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13752,7 +13752,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13777,7 +13777,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13786,7 +13786,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13795,7 +13795,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13820,7 +13820,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13829,7 +13829,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13840,7 +13840,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 26]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13849,7 +13849,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13874,7 +13874,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13883,7 +13883,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13894,7 +13894,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 28]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13903,7 +13903,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13912,7 +13912,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13937,7 +13937,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13946,7 +13946,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13955,7 +13955,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13980,7 +13980,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -13989,7 +13989,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13998,7 +13998,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14009,7 +14009,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 31]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14018,7 +14018,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14027,7 +14027,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14036,7 +14036,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14045,7 +14045,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14056,7 +14056,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 32]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14065,7 +14065,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14074,7 +14074,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14083,7 +14083,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14092,7 +14092,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14103,7 +14103,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 33]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14112,7 +14112,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14121,7 +14121,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14130,7 +14130,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14139,7 +14139,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14150,7 +14150,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 34]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14159,7 +14159,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14168,7 +14168,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14193,7 +14193,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14202,7 +14202,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14211,7 +14211,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14220,7 +14220,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14245,7 +14245,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14254,7 +14254,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14263,7 +14263,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14288,7 +14288,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14297,7 +14297,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14308,7 +14308,7 @@ number.6.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 38]
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -14317,7 +14317,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -14326,7 +14326,7 @@ number.6.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_viola_ob_rhythm()
+      %! akasha.make_viola_ob_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:

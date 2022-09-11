@@ -501,32 +501,6 @@ def make_untied_notes_function(time_signatures):
     return music
 
 
-def make_viola_ob_rhythm(time_signatures, *, rotation=None):
-    def preprocessor(divisions):
-        fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
-        fractions = abjad.sequence.rotate(fractions, n=rotation)
-        divisions = baca.sequence.fuse(divisions)
-        divisions = baca.sequence.split_divisions(divisions, fractions, cyclic=True)
-        return divisions
-
-    def selector(argument):
-        result = abjad.select.leaves(argument)
-        result = abjad.select.get(result, [0, -1])
-        return result
-
-    rhythm_maker = rmakers.stack(
-        rmakers.note(),
-        rmakers.force_rest(selector),
-        rmakers.beam(lambda _: baca.select.plts(_)),
-        rmakers.split_measures(),
-        rmakers.force_repeat_tie((1, 4)),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
 def make_viola_ob_rhythm_function(time_signatures, *, rotation=None):
     tag = baca.tags.function_name(inspect.currentframe())
 

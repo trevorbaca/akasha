@@ -174,35 +174,35 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_viola_ob_rhythm(
+    music = library.make_viola_ob_rhythm_function(
         accumulator.get(1),
         rotation=0,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_viola_ob_rhythm(
+    music = library.make_viola_ob_rhythm_function(
         accumulator.get(3),
         rotation=-2,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_viola_ob_rhythm(
+    music = library.make_viola_ob_rhythm_function(
         accumulator.get(5),
         rotation=-4,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6), head=voice.name)
     voice.extend(music)
-    music = library.make_viola_ob_rhythm(
+    music = library.make_viola_ob_rhythm_function(
         accumulator.get(7),
         rotation=-6,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_viola_ob_rhythm(
+    music = library.make_viola_ob_rhythm_function(
         accumulator.get(9, 38),
         rotation=-8,
     )
