@@ -127,37 +127,11 @@ def make_cello_solo_rhythm_function(time_signatures, *, rotation=None):
     return music
 
 
-def make_dense_getato_rhythm(time_signatures, fuse_counts, extra_counts, *commands):
-    def preprocessor(divisions):
-        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
-        divisions = abjad.sequence.flatten(divisions, depth=-1)
-        divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
-        return divisions
-
-    def selector(argument):
-        selection = abjad.select.tuplets(argument)
-        items = [abjad.select.leaf(_, 0) for _ in selection]
-        return items
-
-    rhythm_maker = rmakers.stack(
-        rmakers.even_division([16], extra_counts=extra_counts),
-        rmakers.force_rest(selector),
-        *commands,
-        rmakers.beam(),
-        rmakers.rewrite_rest_filled(),
-        rmakers.extract_trivial(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_dense_getato_rhythm_function(
-    time_signatures, fuse_counts, extra_counts, *commands
+    time_signatures, fuse_counts, extra_counts, *, force_rest_tuplets=None
 ):
-    # tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.tags.function_name(inspect.currentframe())
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
 
     def preprocessor(divisions):
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
@@ -165,20 +139,29 @@ def make_dense_getato_rhythm_function(
         divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
         return divisions
 
+    divisions = preprocessor(divisions)
+    nested_music = rmakers.even_division_function(
+        divisions, [16], extra_counts=extra_counts, tag=tag
+    )
+    music = abjad.sequence.flatten(nested_music, depth=-1)
+    voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+
     def selector(argument):
         selection = abjad.select.tuplets(argument)
         items = [abjad.select.leaf(_, 0) for _ in selection]
         return items
 
-    rmakers.even_division([16], extra_counts=extra_counts)
-    rmakers.force_rest(selector)
-    # *commands
-    rmakers.beam()
-    rmakers.rewrite_rest_filled()
-    rmakers.extract_trivial()
-    # preprocessor=preprocessor
-
-    # return music
+    rmakers.force_rest_function(selector(voice), tag=tag)
+    if force_rest_tuplets is not None:
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets),
+            tag=tag,
+        )
+    rmakers.beam_function(voice)
+    rmakers.rewrite_rest_filled_function(voice, tag=tag)
+    rmakers.extract_trivial_function(voice)
+    music = abjad.mutate.eject_contents(voice)
+    return music
 
 
 def make_empty_score():

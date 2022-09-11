@@ -61,7 +61,7 @@ def GLOBALS(skips, rests):
 
 
 def V1(voice, accumulator):
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(1, 4),
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
