@@ -153,6 +153,34 @@ def make_dense_getato_rhythm(time_signatures, fuse_counts, extra_counts, *comman
     return music
 
 
+# TODO
+def make_dense_getato_rhythm_function(
+    time_signatures, fuse_counts, extra_counts, *commands
+):
+    # tag = baca.tags.function_name(inspect.currentframe())
+
+    def preprocessor(divisions):
+        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
+        divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
+        return divisions
+
+    def selector(argument):
+        selection = abjad.select.tuplets(argument)
+        items = [abjad.select.leaf(_, 0) for _ in selection]
+        return items
+
+    rmakers.even_division([16], extra_counts=extra_counts)
+    rmakers.force_rest(selector)
+    # *commands
+    rmakers.beam()
+    rmakers.rewrite_rest_filled()
+    rmakers.extract_trivial()
+    # preprocessor=preprocessor
+
+    # return music
+
+
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
@@ -253,6 +281,56 @@ def make_growth_rhythm(
     return music
 
 
+# TODO
+def make_growth_rhythm_function(
+    time_signatures, first_silence, division_ratio, *, extra_counts=()
+):
+    # tag = baca.tags.function_name(inspect.currentframe())
+    pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
+    pattern = pattern & abjad.index([0, -1], inverted=True)
+
+    def preprocessor(divisions):
+        ratio = abjad.Ratio(division_ratio)
+        divisions = baca.sequence.fuse(divisions)
+        divisions = baca.sequence.split_divisions(divisions, [(1, 4)], cyclic=True)
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
+        divisions = abjad.sequence.partition_by_ratio_of_lengths(divisions, ratio)
+        divisions = baca.sequence.fuse(divisions, indices=[1, 3, 5])
+        return divisions
+
+    accelerando_ = rmakers.stack(
+        rmakers.accelerando([(1, 2), (1, 8), (1, 16)]),
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), pattern),
+        ),
+        rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
+        rmakers.duration_bracket(),
+    )
+
+    talea = rmakers.stack(
+        rmakers.talea([9, 4, 8, 7], 16, extra_counts=extra_counts),
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), pattern),
+        ),
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.rewrite_sustained(),
+        rmakers.extract_trivial(),
+        rmakers.force_repeat_tie(threshold=(1, 4)),
+    )
+
+    rhythm_maker = rmakers.stack(
+        rmakers.bind(
+            rmakers.assign(accelerando_, lambda _: _ > abjad.Duration((1, 4))),
+            rmakers.assign(talea),
+        ),
+        preprocessor=preprocessor,
+        tag=baca.tags.function_name(inspect.currentframe()),
+    )
+    music = rhythm_maker(time_signatures)
+    return music
+
+
 def make_manifest_rhythm(time_signatures, these_counts):
     counts_ = [7, 4, 11, 8]
     counts_ += [14, 8, 11, 8]
@@ -284,6 +362,38 @@ def make_manifest_rhythm(time_signatures, these_counts):
     )
     music = rhythm_maker(time_signatures)
     return music
+
+
+# TODO
+def make_manifest_rhythm_function(time_signatures, these_counts):
+    # tag = baca.tags.function_name(inspect.currentframe())
+    counts_ = [7, 4, 11, 8]
+    counts_ += [14, 8, 11, 8]
+    counts_ += [14, 8, 22, 16]
+    counts_ += [28, 16, 22, 16]
+    counts_ += [46, 32, 22, 16]
+    counts = counts_
+    assert len(counts) == 20
+    assert sum(these_counts) == len(counts)
+    these_counts = abjad.sequence.partition_by_counts(
+        counts, these_counts, overhang=abjad.EXACT
+    )
+    these_counts = [sum(_) for _ in these_counts]
+
+    def preprocessor(divisions):
+        result = baca.sequence.fuse(divisions)
+        result = baca.sequence.quarters(result)
+        result = abjad.sequence.flatten(result, depth=-1)
+        return result
+
+    rmakers.talea(these_counts, 16, read_talea_once_only=True)
+    rmakers.beam()
+    rmakers.extract_trivial()
+    rmakers.rewrite_meter()
+    rmakers.force_repeat_tie((1, 4))
+    # preprocessor=preprocessor
+
+    # return music
 
 
 def make_polyphony_rhythm_function(time_signatures, *, force_rest=None, rotation=0):
@@ -344,14 +454,22 @@ def make_ritardando_rhythm_function(
     return music
 
 
-def make_scratch_rhythm(time_signatures, denominators, *commands, extra_counts=()):
-    rhythm_maker = rmakers.stack(
-        rmakers.even_division(denominators, extra_counts=extra_counts),
-        *commands,
-        rmakers.beam(),
-        tag=baca.tags.function_name(inspect.currentframe()),
+def make_scratch_rhythm_function(
+    time_signatures, denominators, extra_counts=(), force_rest_lts=None
+):
+    tag = baca.tags.function_name(inspect.currentframe())
+    nested_music = rmakers.even_division_function(
+        time_signatures, denominators, extra_counts=extra_counts, tag=tag
     )
-    music = rhythm_maker(time_signatures)
+    music = abjad.sequence.flatten(nested_music, depth=-1)
+    voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+    if force_rest_lts is not None:
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.lts(voice), force_rest_lts),
+            tag=tag,
+        )
+    rmakers.beam_function(voice)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
@@ -424,6 +542,32 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     )
     music = rhythm_maker(time_signatures)
     return music
+
+
+# TODO
+def make_viola_ob_rhythm_function(time_signatures, *, rotation=None):
+    # tag = baca.tags.function_name(inspect.currentframe())
+
+    def preprocessor(divisions):
+        fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
+        fractions = abjad.sequence.rotate(fractions, n=rotation)
+        divisions = baca.sequence.fuse(divisions)
+        divisions = baca.sequence.split_divisions(divisions, fractions, cyclic=True)
+        return divisions
+
+    def selector(argument):
+        result = abjad.select.leaves(argument)
+        result = abjad.select.get(result, [0, -1])
+        return result
+
+    rmakers.note()
+    rmakers.force_rest(selector)
+    rmakers.beam(lambda _: baca.select.plts(_))
+    rmakers.split_measures()
+    rmakers.force_repeat_tie((1, 4))
+    # preprocessor=preprocessor
+
+    # return music
 
 
 def material_annotation_spanner(argument, letter):
