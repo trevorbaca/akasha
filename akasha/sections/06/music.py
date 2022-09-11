@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from akasha import library
 
@@ -100,16 +99,12 @@ def V1(voice, accumulator):
         extra_counts=[1],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(23, 38),
         [1],
         [3, 0, 2, 1],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1],
-            ),
-        ),
+        force_rest_tuplets=[0, 2, 3, 4, 5, 6, 10, 14, 22]
+        + [-7, -6, -5, -4, -3, -2, -1],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
@@ -160,25 +155,18 @@ def V2(voice, accumulator):
         extra_counts=[-1],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(21, 32),
         [1],
         [2, 1, 3, 0],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                [0, 2, 3, 4, 5, 6, 10, 14, 22],
-            ),
-        ),
+        force_rest_tuplets=[0, 2, 3, 4, 5, 6, 10, 14, 22],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(33, 38),
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
-        rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[-5:],
-        ),
+        force_rest_tuplets=~abjad.Pattern([-5, -4, -3, -2, -1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
@@ -258,31 +246,24 @@ def VC(voice, accumulator):
         extra_counts=[2],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(19, 26),
         [1],
         [3, 0, 2, 1],
-        rmakers.force_rest(
-            lambda _: abjad.select.get(
-                abjad.select.tuplets(_),
-                [0, 2, 3, 4, 5, 6, 10, 14, 22],
-            ),
-        ),
+        force_rest_tuplets=[0, 2, 3, 4, 5, 6, 10, 14, 22],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(27, 32),
         [1, 2, 1, 2, 2],
         [4, 1, 3, 2],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(33, 38),
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
-        rmakers.force_rest(
-            lambda _: abjad.select.tuplets(_)[-4:],
-        ),
+        force_rest_tuplets=~abjad.Pattern([-4, -3, -2, -1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)

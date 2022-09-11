@@ -83,7 +83,7 @@ def GLOBALS(skips, rests, first_measure_number):
 def V1(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(3, 4),
         [1],
         [3, 0, 2, 1],
@@ -112,7 +112,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(36, 41),
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -120,7 +120,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(42, 44), head=voice.name)
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(45),
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -133,7 +133,7 @@ def V1(voice, accumulator):
 def V2(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(3, 4),
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
@@ -160,7 +160,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(36, 41),
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
@@ -168,7 +168,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(42, 44), head=voice.name)
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(45),
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
@@ -194,7 +194,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(36, 41),
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
@@ -206,7 +206,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(44), head=voice.name)
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(45),
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
@@ -223,7 +223,7 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = library.make_cello_solo_rhythm_function(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(3, 4),
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
@@ -240,7 +240,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(36, 41),
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
@@ -248,7 +248,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(42, 44), head=voice.name)
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(45),
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],

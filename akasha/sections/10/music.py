@@ -93,7 +93,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(21, 22))
     voice.extend(music)
-    music = library.make_dense_getato_rhythm(
+    music = library.make_dense_getato_rhythm_function(
         accumulator.get(23, 24),
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
