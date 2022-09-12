@@ -98,19 +98,16 @@ def make_accelerando_rhythm_function(
         tag=tag,
     )
     music = abjad.sequence.flatten(nested_music, depth=-1)
-    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     if force_rest_lts is not None:
-        rmakers.force_rest_function(
-            abjad.select.get(baca.select.lts(music_voice), force_rest_lts),
-            tag=tag,
-        )
-    rmakers.rewrite_rest_filled_function(music_voice, tag=tag)
-    rmakers.extract_trivial_function(music_voice)
-    rmakers.duration_bracket_function(music_voice)
-    rmakers.feather_beam_function(
-        music_voice, beam_rests=True, stemlet_length=0.75, tag=tag
-    )
-    music = abjad.mutate.eject_contents(music_voice)
+        lts = baca.select.lts(voice)
+        lts = abjad.select.get(lts, force_rest_lts)
+        rmakers.force_rest_function(lts, tag=tag)
+    rmakers.rewrite_rest_filled_function(voice, tag=tag)
+    rmakers.extract_trivial_function(voice)
+    rmakers.duration_bracket_function(voice)
+    rmakers.feather_beam_function(voice, beam_rests=True, stemlet_length=0.75, tag=tag)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
@@ -119,11 +116,11 @@ def make_cello_solo_rhythm_function(time_signatures, *, rotation=None):
     counts = abjad.sequence.rotate([7, 1, 10, 2], n=rotation)
     nested_music = rmakers.talea_function(time_signatures, counts, 16, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
-    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
-    rmakers.beam_function(music_voice)
-    rmakers.extract_trivial_function(music_voice)
-    rmakers.force_repeat_tie_function(music_voice)
-    music = abjad.mutate.eject_contents(music_voice)
+    voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
+    rmakers.beam_function(voice)
+    rmakers.extract_trivial_function(voice)
+    rmakers.force_repeat_tie_function(voice)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
@@ -132,31 +129,20 @@ def make_dense_getato_rhythm_function(
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-
-    def preprocessor(divisions):
-        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
-        divisions = abjad.sequence.flatten(divisions, depth=-1)
-        divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
-        return divisions
-
-    divisions = preprocessor(divisions)
+    divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+    divisions = abjad.sequence.flatten(divisions, depth=-1)
+    divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
     nested_music = rmakers.even_division_function(
         divisions, [16], extra_counts=extra_counts, tag=tag
     )
     music = abjad.sequence.flatten(nested_music, depth=-1)
-    voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
-
-    def selector(argument):
-        selection = abjad.select.tuplets(argument)
-        items = [abjad.select.leaf(_, 0) for _ in selection]
-        return items
-
-    rmakers.force_rest_function(selector(voice), tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
+    tuplets = abjad.select.tuplets(voice)
+    leaves = [abjad.select.leaf(_, 0) for _ in tuplets]
+    rmakers.force_rest_function(leaves, tag=tag)
     if force_rest_tuplets is not None:
-        rmakers.force_rest_function(
-            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets),
-            tag=tag,
-        )
+        tuplets = abjad.select.get(tuplets, force_rest_tuplets)
+        rmakers.force_rest_function(tuplets, tag=tag)
     rmakers.beam_function(voice)
     rmakers.rewrite_rest_filled_function(voice, tag=tag)
     rmakers.extract_trivial_function(voice)
@@ -227,7 +213,7 @@ def make_growth_rhythm_function(
         nested_music = rmakers.accelerando_function(
             [division], [(1, 2), (1, 8), (1, 16)], tag=tag
         )
-        voice = rmakers._wrap_music_in_time_signature_staff(nested_music, [division])
+        voice = rmakers.wrap_in_time_signature_staff(nested_music, [division])
         rmakers.force_rest_function(
             abjad.select.get(baca.select.lts(voice), pattern),
             tag=tag,
@@ -243,7 +229,7 @@ def make_growth_rhythm_function(
         nested_music = rmakers.talea_function(
             divisions, [9, 4, 8, 7], 16, extra_counts=extra_counts, tag=tag
         )
-        voice = rmakers._wrap_music_in_time_signature_staff(nested_music, divisions)
+        voice = rmakers.wrap_in_time_signature_staff(nested_music, divisions)
         rmakers.force_rest_function(
             abjad.select.get(baca.select.lts(voice), pattern),
             tag=tag,
@@ -298,7 +284,7 @@ def make_manifest_rhythm_function(time_signatures, these_counts):
     nested_music = rmakers.talea_function(
         divisions, these_counts, 16, read_talea_once_only=True, tag=tag
     )
-    voice = rmakers._wrap_music_in_time_signature_staff(nested_music, time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam_function(voice)
     rmakers.extract_trivial_function(voice)
     rmakers.rewrite_meter_function(voice, tag=tag)
@@ -307,24 +293,23 @@ def make_manifest_rhythm_function(time_signatures, these_counts):
     return music
 
 
-def make_polyphony_rhythm_function(time_signatures, *, force_rest=None, rotation=0):
+def make_polyphony_rhythm_function(time_signatures, *, force_rest_lts=None, rotation=0):
     counts = [4, 14, 4, 6, 18]
     counts = abjad.sequence.rotate(counts, n=rotation)
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.talea_function(time_signatures, counts, 16, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
-    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
-    if force_rest is not None:
-        rmakers.force_rest_function(
-            abjad.select.get(baca.select.lts(music_voice), force_rest),
-            tag=tag,
-        )
-    rmakers.beam_function(music_voice)
-    rmakers.trivialize_function(music_voice)
-    rmakers.extract_trivial_function(music_voice)
-    rmakers.rewrite_meter_function(music_voice)
-    rmakers.force_repeat_tie_function(music_voice, threshold=(1, 4))
-    music = abjad.mutate.eject_contents(music_voice)
+    voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
+    if force_rest_lts is not None:
+        lts = baca.select.lts(voice)
+        lts = abjad.select.get(lts, force_rest_lts)
+        rmakers.force_rest_function(lts, tag=tag)
+    rmakers.beam_function(voice)
+    rmakers.trivialize_function(voice)
+    rmakers.extract_trivial_function(voice)
+    rmakers.rewrite_meter_function(voice)
+    rmakers.force_repeat_tie_function(voice, threshold=(1, 4))
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
@@ -349,19 +334,16 @@ def make_ritardando_rhythm_function(
         tag=tag,
     )
     music = abjad.sequence.flatten(nested_music, depth=-1)
-    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     if force_rest_lts is not None:
-        rmakers.force_rest_function(
-            abjad.select.get(baca.select.lts(music_voice), force_rest_lts),
-            tag=tag,
-        )
-    rmakers.rewrite_rest_filled_function(music_voice, tag=tag)
-    rmakers.extract_trivial_function(music_voice)
-    rmakers.duration_bracket_function(music_voice)
-    rmakers.feather_beam_function(
-        music_voice, beam_rests=True, stemlet_length=0.75, tag=tag
-    )
-    music = abjad.mutate.eject_contents(music_voice)
+        lts = baca.select.lts(voice)
+        lts = abjad.select.get(lts, force_rest_lts)
+        rmakers.force_rest_function(lts, tag=tag)
+    rmakers.rewrite_rest_filled_function(voice, tag=tag)
+    rmakers.extract_trivial_function(voice)
+    rmakers.duration_bracket_function(voice)
+    rmakers.feather_beam_function(voice, beam_rests=True, stemlet_length=0.75, tag=tag)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
@@ -373,19 +355,23 @@ def make_scratch_rhythm_function(
         time_signatures, denominators, extra_counts=extra_counts, tag=tag
     )
     music = abjad.sequence.flatten(nested_music, depth=-1)
-    voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     if force_rest_lts is not None:
-        rmakers.force_rest_function(
-            abjad.select.get(baca.select.lts(voice), force_rest_lts),
-            tag=tag,
-        )
+        lts = baca.select.lts(voice)
+        lts = abjad.select.get(lts, force_rest_lts)
+        rmakers.force_rest_function(lts, tag=tag)
     rmakers.beam_function(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
 
 
 def make_sparse_getato_rhythm_function(
-    time_signatures, *, degree=1, extra_counts=[1], force_rest=None, rotation=None
+    time_signatures,
+    *,
+    degree=1,
+    extra_counts=[1],
+    force_rest_tuplets=None,
+    rotation=None,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
 
@@ -403,17 +389,16 @@ def make_sparse_getato_rhythm_function(
         tag=tag,
     )
     music = abjad.sequence.flatten(nested_music, depth=-1)
-    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
-    if force_rest is not None:
-        rmakers.force_rest_function(
-            abjad.select.get(baca.select.tuplets(music_voice), force_rest),
-            tag=tag,
-        )
-    rmakers.beam_function(music_voice, tag=tag)
-    rmakers.rewrite_rest_filled_function(music_voice, tag=tag)
-    rmakers.extract_trivial_function(music_voice)
-    rmakers.rewrite_meter_function(music_voice)
-    music = abjad.mutate.eject_contents(music_voice)
+    voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
+    if force_rest_tuplets is not None:
+        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.get(tuplets, force_rest_tuplets)
+        rmakers.force_rest_function(tuplets, tag=tag)
+    rmakers.beam_function(voice, tag=tag)
+    rmakers.rewrite_rest_filled_function(voice, tag=tag)
+    rmakers.extract_trivial_function(voice)
+    rmakers.rewrite_meter_function(voice)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
@@ -421,11 +406,11 @@ def make_untied_notes_function(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.note_function(time_signatures, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
-    music_voice = rmakers._wrap_music_in_time_signature_staff(music, time_signatures)
-    rmakers.rewrite_meter_function(music_voice)
-    rmakers.beam_function(baca.select.plts(music_voice))
-    rmakers.untie_function(music_voice)
-    music = abjad.mutate.eject_contents(music_voice)
+    voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
+    rmakers.rewrite_meter_function(voice)
+    rmakers.beam_function(baca.select.plts(voice))
+    rmakers.untie_function(voice)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
@@ -448,7 +433,7 @@ def make_viola_ob_rhythm_function(time_signatures, *, rotation=None):
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
     divisions = preprocessor(divisions)
     nested_music = rmakers.note_function(divisions, tag=tag)
-    voice = rmakers._wrap_music_in_time_signature_staff(nested_music, time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.force_rest_function(selector(voice), tag=tag)
     rmakers.beam_function(baca.select.plts(voice))
     rmakers.split_measures_function(voice, tag=tag)

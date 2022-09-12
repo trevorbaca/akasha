@@ -72,7 +72,7 @@ def V2(voice, accumulator):
 def VA(voice, accumulator):
     music = library.make_polyphony_rhythm_function(
         accumulator.get(1, 3),
-        force_rest=[0, 1],
+        force_rest_lts=[0, 1],
         rotation=-2,
     )
     voice.extend(music)
@@ -92,7 +92,7 @@ def VC(voice, accumulator):
         accumulator.get(1, 4),
         degree=0,
         extra_counts=[1, 1, 0, 2],
-        force_rest=~abjad.Pattern([5, -6, -5, -4, -3, -2, -1]),
+        force_rest_tuplets=~abjad.Pattern([5, -6, -5, -4, -3, -2, -1]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
