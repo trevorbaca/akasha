@@ -122,11 +122,13 @@ def make_score():
 
 
 def main():
+    arguments = baca.build.arguments()
     score, measures = make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         measures(),
+        baca.path.dictionaries(__file__),
         **baca.interpret.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -148,7 +150,7 @@ def main():
         include_layout_ly=True,
         includes=["header.ily", "../stylesheet.ily"],
     )
-    baca.build.persist(lilypond_file, metadata, persist, timing)
+    baca.build.persist(lilypond_file, metadata, persist, timing, arguments)
 
 
 if __name__ == "__main__":
