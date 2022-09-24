@@ -672,7 +672,7 @@ number.1.Viola.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -728,11 +728,11 @@ number.1.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:

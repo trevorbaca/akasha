@@ -46,12 +46,12 @@ def GLOBALS(skips, rests):
 
 
 def V1(voice, accumulator):
-    music = baca.make_notes_function(
+    music = baca.make_notes(
         accumulator.get(1, 16),
         repeat_ties=True,
     )
     voice.extend(music)
-    rmakers.force_rest_function(
+    rmakers.force_rest(
         abjad.select.get(baca.select.lts(music), ([1], 2)),
         tag=abjad.Tag("akasha.V1()"),
     )
@@ -62,7 +62,7 @@ def V1(voice, accumulator):
 def V2(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 8))
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm_function(
+    music = library.make_sparse_getato_rhythm(
         accumulator.get(9, 24),
         force_rest_tuplets=~abjad.Pattern([3, 36, 37]),
     )
@@ -72,12 +72,12 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_notes_function(
+    music = baca.make_notes(
         accumulator.get(1, 16),
         repeat_ties=True,
     )
     voice.extend(music)
-    rmakers.force_rest_function(
+    rmakers.force_rest(
         abjad.select.get(baca.select.lts(music), ([1], 2)),
         tag=abjad.Tag("akasha.VA()"),
     )
@@ -86,12 +86,12 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = baca.make_notes_function(
+    music = baca.make_notes(
         accumulator.get(1, 16),
         repeat_ties=True,
     )
     voice.extend(music)
-    rmakers.force_rest_function(
+    rmakers.force_rest(
         abjad.select.get(baca.select.lts(music), ([1], 2)),
         tag=abjad.Tag("akasha.VC()"),
     )

@@ -2163,7 +2163,7 @@ number.4.Violin.1.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1.
     % AFTER:
     % ARTICULATIONS:
@@ -2199,13 +2199,13 @@ number.4.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 10]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -2216,7 +2216,7 @@ number.4.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 11]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2224,20 +2224,20 @@ number.4.Violin.1.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 12]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -2397,7 +2397,7 @@ number.4.Violin.1.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % MARKUP:
@@ -2418,11 +2418,11 @@ number.4.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 17]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2544,7 +2544,7 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % MARKUP:
@@ -2818,7 +2818,7 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % MARKUP:
@@ -2950,7 +2950,7 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1.
     % AFTER:
     % MARKUP:
@@ -2971,13 +2971,13 @@ number.4.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 26]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3374,7 +3374,7 @@ number.4.Violin.2.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1.
     % AFTER:
     % ARTICULATIONS:
@@ -3410,13 +3410,13 @@ number.4.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 10]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3427,7 +3427,7 @@ number.4.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 11]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -3435,20 +3435,20 @@ number.4.Violin.2.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 12]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3601,7 +3601,7 @@ number.4.Violin.2.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % MARKUP:
@@ -3622,11 +3622,11 @@ number.4.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 17]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3741,7 +3741,7 @@ number.4.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % MARKUP:
@@ -4001,7 +4001,7 @@ number.4.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % MARKUP:
@@ -4160,7 +4160,7 @@ number.4.Violin.2.Music = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g''1.
     % AFTER:
     % ARTICULATIONS:
@@ -4328,9 +4328,9 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     \times 2/3
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4384,7 +4384,7 @@ number.4.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         ds!\breve
         % AFTER:
         % ARTICULATIONS:
@@ -4430,13 +4430,13 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         cqs!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4539,9 +4539,9 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     \times 8/9
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4559,7 +4559,7 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         ds!1
         % AFTER:
         % MARKUP:
@@ -4577,13 +4577,13 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         cqs!8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4686,9 +4686,9 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     \times 2/3
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4706,7 +4706,7 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         ds!\breve
         % AFTER:
         % MARKUP:
@@ -4724,13 +4724,13 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         cqs!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4833,9 +4833,9 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     \times 2/3
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4853,7 +4853,7 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         ds!\breve
         % AFTER:
         % MARKUP:
@@ -4871,13 +4871,13 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         cqs!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4992,7 +4992,7 @@ number.4.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef!1.
     % AFTER:
     % ARTICULATIONS:
@@ -5041,7 +5041,7 @@ number.4.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 10]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     d1
     % AFTER:
     % SPANNER_STARTS:
@@ -5053,7 +5053,7 @@ number.4.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     cs!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -5065,7 +5065,7 @@ number.4.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 12]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bs,!1
     % AFTER:
     % ARTICULATIONS:
@@ -5224,7 +5224,7 @@ number.4.Viola.Music = {
       %! COLORED_PHRASING_SLUR
       %! baca.literal()
     \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'2.
     % AFTER:
     % ARTICULATIONS:
@@ -5458,7 +5458,7 @@ number.4.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm_function()
+      %! akasha.make_polyphony_rhythm()
     ds'!4
     % AFTER:
     % ARTICULATIONS:
@@ -5488,12 +5488,12 @@ number.4.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm_function()
+      %! akasha.make_polyphony_rhythm()
     dtqs'!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_polyphony_rhythm_function()
+      %! akasha.make_polyphony_rhythm()
     e'4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5608,7 +5608,7 @@ number.4.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     e1.
     % AFTER:
     % ARTICULATIONS:
@@ -5658,16 +5658,16 @@ number.4.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     \times 2/3
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 26]
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         ds!\breve
         % AFTER:
         % SPANNER_STARTS:
@@ -5677,7 +5677,7 @@ number.4.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_glissando_rhythm_function()
+          %! akasha.make_glissando_rhythm()
         cqs!4
         % AFTER:
         % ARTICULATIONS:
@@ -5699,7 +5699,7 @@ number.4.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_glissando_rhythm_function()
+      %! akasha.make_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5886,7 +5886,7 @@ number.4.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,!1.
     % AFTER:
     % ARTICULATIONS:
@@ -6046,7 +6046,7 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,!1
     % AFTER:
     % MARKUP:
@@ -6178,7 +6178,7 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,!1.
     % AFTER:
     % MARKUP:
@@ -6310,7 +6310,7 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,!1.
     % AFTER:
     % MARKUP:
@@ -6442,7 +6442,7 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,!1.
     % AFTER:
     % ARTICULATIONS:
@@ -6492,7 +6492,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 10]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,1
     % AFTER:
     % SPANNER_STARTS:
@@ -6500,14 +6500,14 @@ number.4.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 11]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -6515,14 +6515,14 @@ number.4.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 12]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,1
     % AFTER:
     % ARTICULATIONS:
@@ -6541,7 +6541,7 @@ number.4.Cello.Music = {
       %! baca.hairpin()
     \pp
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6662,9 +6662,9 @@ number.4.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm_function()
+      %! akasha.make_sparse_getato_rhythm()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm_function()
+      %! akasha.make_sparse_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6685,7 +6685,7 @@ number.4.Cello.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         cs!32
         % AFTER:
         % ARTICULATIONS:
@@ -6720,7 +6720,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         c32
         % AFTER:
         % ARTICULATIONS:
@@ -6732,31 +6732,31 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         r8..
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm_function()
+      %! akasha.make_sparse_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm_function()
+      %! akasha.make_sparse_getato_rhythm()
     \times 8/9
-      %! akasha.make_sparse_getato_rhythm_function()
+      %! akasha.make_sparse_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         r32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         cs!32
         % AFTER:
         % ARTICULATIONS:
@@ -6768,7 +6768,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         d32
         % AFTER:
         % ARTICULATIONS:
@@ -6777,7 +6777,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         ef!32
         % AFTER:
         % ARTICULATIONS:
@@ -6786,7 +6786,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         cs!32
         % AFTER:
         % ARTICULATIONS:
@@ -6795,7 +6795,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         d32
         % AFTER:
         % ARTICULATIONS:
@@ -6804,7 +6804,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         cs!32
         % AFTER:
         % ARTICULATIONS:
@@ -6813,7 +6813,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         c32
         % AFTER:
         % ARTICULATIONS:
@@ -6822,7 +6822,7 @@ number.4.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_sparse_getato_rhythm_function()
+          %! akasha.make_sparse_getato_rhythm()
         bf,!32
         % AFTER:
         % ARTICULATIONS:
@@ -6835,12 +6835,12 @@ number.4.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_sparse_getato_rhythm_function()
+      %! akasha.make_sparse_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_sparse_getato_rhythm_function()
+      %! akasha.make_sparse_getato_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7082,7 +7082,7 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_polyphony_rhythm_function()
+      %! akasha.make_polyphony_rhythm()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -7229,7 +7229,7 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,!1.
     % AFTER:
     % ARTICULATIONS:
@@ -7281,7 +7281,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,1.
     % AFTER:
     % ARTICULATIONS:
@@ -7300,7 +7300,7 @@ number.4.Cello.Music = {
       %! baca.hairpin()
     \pp
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
