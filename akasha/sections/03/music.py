@@ -46,7 +46,7 @@ def GLOBALS(skips, rests):
 
 
 def V1(voice, accumulator):
-    music = library.make_accelerando_rhythm_function(
+    music = library.make_accelerando_rhythm(
         accumulator.get(1, 3),
         force_rest_lts=~abjad.Pattern([0, 2, 3]),
         fuse_counts=[1],
@@ -57,11 +57,11 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_polyphony_rhythm_function(accumulator.get(1, 3))
+    music = library.make_polyphony_rhythm(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 9), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_rhythm_function(
+    music = library.make_accelerando_rhythm(
         accumulator.get(10, 11),
         force_rest_lts=[3],
         fuse_counts=[2, 1],
@@ -70,7 +70,7 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_polyphony_rhythm_function(
+    music = library.make_polyphony_rhythm(
         accumulator.get(1, 3),
         force_rest_lts=[0, 1],
         rotation=-2,
@@ -78,7 +78,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 10), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(11))
+    music = baca.make_repeat_tied_notes(accumulator.get(11))
     voice.extend(music)
 
 
@@ -88,7 +88,7 @@ def VC(voice, accumulator):
         tuplets = abjad.select.get(tuplets, pattern)
         return tuplets
 
-    music = library.make_sparse_getato_rhythm_function(
+    music = library.make_sparse_getato_rhythm(
         accumulator.get(1, 4),
         degree=0,
         extra_counts=[1, 1, 0, 2],
@@ -97,7 +97,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm_function(
+    music = library.make_sparse_getato_rhythm(
         accumulator.get(6),
         degree=0,
         extra_counts=[1, 1, 0, 2],
@@ -106,7 +106,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7), head=voice.name)
     voice.extend(music)
-    music = library.make_sparse_getato_rhythm_function(
+    music = library.make_sparse_getato_rhythm(
         accumulator.get(8),
         degree=0,
         extra_counts=[1, 1, 0, 2],
@@ -115,7 +115,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 10), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(11))
+    music = baca.make_repeat_tied_notes(accumulator.get(11))
     voice.extend(music)
 
 

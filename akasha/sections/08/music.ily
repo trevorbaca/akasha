@@ -1167,9 +1167,9 @@ number.8.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1231,7 +1231,7 @@ number.8.Violin.1.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % AFTER:
         % ARTICULATIONS:
@@ -1274,7 +1274,7 @@ number.8.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % AFTER:
         % ARTICULATIONS:
@@ -1325,62 +1325,62 @@ number.8.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
@@ -1390,27 +1390,27 @@ number.8.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/10
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % AFTER:
         % START_BEAM:
@@ -1419,42 +1419,42 @@ number.8.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         cs''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % AFTER:
         % STOP_BEAM:
@@ -1464,27 +1464,27 @@ number.8.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 2]
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % AFTER:
         % START_BEAM:
@@ -1493,22 +1493,22 @@ number.8.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % AFTER:
         % STOP_BEAM:
@@ -1518,25 +1518,25 @@ number.8.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         af'''!16
         % AFTER:
         % START_BEAM:
@@ -1545,47 +1545,47 @@ number.8.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         cs''''!16
         % AFTER:
         % STOP_BEAM:
@@ -1595,39 +1595,39 @@ number.8.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     c''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     \times 6/10
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 3]
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         d''''16
         % AFTER:
         % START_BEAM:
@@ -1636,42 +1636,42 @@ number.8.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         ef''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         cs''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         d''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         a'''16
         % AFTER:
         % STOP_BEAM:
@@ -1681,27 +1681,27 @@ number.8.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     \times 12/18
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 4]
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         r16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % AFTER:
         % START_BEAM:
@@ -1710,82 +1710,82 @@ number.8.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         d''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         cs''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         cs''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         d''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         ef''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         d''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         f''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         ef''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! akasha.make_dense_getato_rhythm_function()
+          %! akasha.make_dense_getato_rhythm()
         cs''''!16
         % AFTER:
         % ARTICULATIONS:
@@ -1810,7 +1810,7 @@ number.8.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! akasha.make_dense_getato_rhythm_function()
+      %! akasha.make_dense_getato_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1933,7 +1933,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 7]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     f''2
     % AFTER:
     % ARTICULATIONS:
@@ -1965,7 +1965,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 8]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef''!1
     % AFTER:
     % ARTICULATIONS:
@@ -2030,7 +2030,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 9]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     fs''!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -2042,7 +2042,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 10]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     e''2
     % AFTER:
     % ARTICULATIONS:
@@ -2074,7 +2074,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 11]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     fs''!1
     % AFTER:
     % ARTICULATIONS:
@@ -2315,7 +2315,7 @@ number.8.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fs''!2
     % AFTER:
     % ARTICULATIONS:
@@ -2349,11 +2349,11 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fs''2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2541,7 +2541,7 @@ number.8.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     fs'!2..
     % AFTER:
     % ARTICULATIONS:
@@ -2631,7 +2631,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 2]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef'!2..
     % AFTER:
     % SPANNER_STARTS:
@@ -2643,7 +2643,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 3]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     f'4.
     % AFTER:
     % SPANNER_STARTS:
@@ -2655,7 +2655,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 4]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -2784,7 +2784,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 7]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -2816,7 +2816,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 8]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     e'1
     % AFTER:
     % ARTICULATIONS:
@@ -2881,7 +2881,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 9]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     fs'!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -2893,7 +2893,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 10]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     e'2
     % AFTER:
     % ARTICULATIONS:
@@ -2925,7 +2925,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 11]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     d'1
     % AFTER:
     % ARTICULATIONS:
@@ -3159,7 +3159,7 @@ number.8.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af'!2
     % AFTER:
     % ARTICULATIONS:
@@ -3193,11 +3193,11 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af'2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3386,7 +3386,7 @@ number.8.Viola.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef'!2..
     % AFTER:
     % ARTICULATIONS:
@@ -3476,7 +3476,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     f'2..
     % AFTER:
     % SPANNER_STARTS:
@@ -3488,7 +3488,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     d'4.
     % AFTER:
     % SPANNER_STARTS:
@@ -3500,7 +3500,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     e'2.
     % AFTER:
     % ARTICULATIONS:
@@ -3629,7 +3629,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     e'2
     % AFTER:
     % ARTICULATIONS:
@@ -3661,7 +3661,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 8]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     fs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -3726,7 +3726,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 9]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef'!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -3738,7 +3738,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 10]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     f'2
     % AFTER:
     % ARTICULATIONS:
@@ -3770,7 +3770,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef'!1
     % AFTER:
     % ARTICULATIONS:
@@ -4018,7 +4018,7 @@ number.8.Viola.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'2
     % AFTER:
     % ARTICULATIONS:
@@ -4056,7 +4056,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4064,18 +4064,18 @@ number.8.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 17]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'4.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4246,7 +4246,7 @@ number.8.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     cs,!2..
     % AFTER:
     % ARTICULATIONS:
@@ -4336,7 +4336,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef,!2..
     % AFTER:
     % SPANNER_STARTS:
@@ -4348,7 +4348,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     f,4.
     % AFTER:
     % SPANNER_STARTS:
@@ -4360,7 +4360,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     d,2.
     % AFTER:
     % ARTICULATIONS:
@@ -4489,7 +4489,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     c,2
     % AFTER:
     % ARTICULATIONS:
@@ -4521,7 +4521,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     d,1
     % AFTER:
     % ARTICULATIONS:
@@ -4586,7 +4586,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 9]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     e,4.
     % AFTER:
     % SPANNER_STARTS:
@@ -4598,7 +4598,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 10]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     cs,!2
     % AFTER:
     % ARTICULATIONS:
@@ -4630,7 +4630,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 11]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     ef,!1
     % AFTER:
     % ARTICULATIONS:
@@ -4871,7 +4871,7 @@ number.8.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,!2
     % AFTER:
     % ARTICULATIONS:
@@ -4905,11 +4905,11 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     cs,2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:

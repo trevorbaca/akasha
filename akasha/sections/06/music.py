@@ -67,7 +67,7 @@ def GLOBALS(skips, rests):
 def V1(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(5),
         [4],
         force_rest_lts=~abjad.Pattern([0]),
@@ -76,7 +76,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(7),
         [4],
         force_rest_lts=~abjad.Pattern([0]),
@@ -85,21 +85,21 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(9, 10),
         [4],
         force_rest_lts=~abjad.Pattern([1, -3]),
         extra_counts=[1],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(11, 22),
         [8],
         force_rest_lts=~abjad.Pattern([0, 3], period=8),
         extra_counts=[1],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm_function(
+    music = library.make_dense_getato_rhythm(
         accumulator.get(23, 38),
         [1],
         [3, 0, 2, 1],
@@ -114,7 +114,7 @@ def V1(voice, accumulator):
 def V2(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(3),
         [4],
         force_rest_lts=~abjad.Pattern([-1]),
@@ -123,7 +123,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(5),
         [4],
         force_rest_lts=~abjad.Pattern([2]),
@@ -132,7 +132,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(7),
         [4],
         force_rest_lts=~abjad.Pattern([-1]),
@@ -141,28 +141,28 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(9, 10),
         [4],
         force_rest_lts=~abjad.Pattern([2, -1]),
         extra_counts=[0],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(11, 20),
         [8],
         force_rest_lts=~abjad.Pattern([1, 4], period=9),
         extra_counts=[-1],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm_function(
+    music = library.make_dense_getato_rhythm(
         accumulator.get(21, 32),
         [1],
         [2, 1, 3, 0],
         force_rest_tuplets=[0, 2, 3, 4, 5, 6, 10, 14, 22],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm_function(
+    music = library.make_dense_getato_rhythm(
         accumulator.get(33, 38),
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
@@ -174,35 +174,35 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_viola_ob_rhythm_function(
+    music = library.make_viola_ob_rhythm(
         accumulator.get(1),
         rotation=0,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_viola_ob_rhythm_function(
+    music = library.make_viola_ob_rhythm(
         accumulator.get(3),
         rotation=-2,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_viola_ob_rhythm_function(
+    music = library.make_viola_ob_rhythm(
         accumulator.get(5),
         rotation=-4,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6), head=voice.name)
     voice.extend(music)
-    music = library.make_viola_ob_rhythm_function(
+    music = library.make_viola_ob_rhythm(
         accumulator.get(7),
         rotation=-6,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_viola_ob_rhythm_function(
+    music = library.make_viola_ob_rhythm(
         accumulator.get(9, 38),
         rotation=-8,
     )
@@ -214,7 +214,7 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(3),
         [4],
         force_rest_lts=~abjad.Pattern([1]),
@@ -223,7 +223,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 6), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(7),
         [4],
         force_rest_lts=~abjad.Pattern([1]),
@@ -232,34 +232,34 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(9, 10),
         [4],
         force_rest_lts=~abjad.Pattern([2, -2]),
         extra_counts=[2],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(11, 18),
         [8],
         force_rest_lts=~abjad.Pattern([2, 5], period=9),
         extra_counts=[2],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm_function(
+    music = library.make_dense_getato_rhythm(
         accumulator.get(19, 26),
         [1],
         [3, 0, 2, 1],
         force_rest_tuplets=[0, 2, 3, 4, 5, 6, 10, 14, 22],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm_function(
+    music = library.make_dense_getato_rhythm(
         accumulator.get(27, 32),
         [1, 2, 1, 2, 2],
         [4, 1, 3, 2],
     )
     voice.extend(music)
-    music = library.make_dense_getato_rhythm_function(
+    music = library.make_dense_getato_rhythm(
         accumulator.get(33, 38),
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],

@@ -34,14 +34,14 @@ def GLOBALS(skips, rests):
 def V1(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1))
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(2),
         [4],
         force_rest_lts=~abjad.Pattern([0]),
         extra_counts=[-2],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(3),
         [4],
         force_rest_lts=~abjad.Pattern([0]),
@@ -53,21 +53,21 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(1),
         [4],
         force_rest_lts=~abjad.Pattern([-1]),
         extra_counts=[-2],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(2),
         [4],
         force_rest_lts=~abjad.Pattern([2]),
         extra_counts=[-1],
     )
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(3),
         [4],
         force_rest_lts=~abjad.Pattern([-1]),
@@ -84,7 +84,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(1),
         [4],
         force_rest_lts=~abjad.Pattern([1]),
@@ -93,7 +93,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = library.make_scratch_rhythm_function(
+    music = library.make_scratch_rhythm(
         accumulator.get(3),
         [4],
         force_rest_lts=~abjad.Pattern([1]),
