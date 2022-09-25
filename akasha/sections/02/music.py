@@ -376,11 +376,16 @@ def main():
         environment.first_measure_number,
         environment.previous_persist["persistent_indicators"],
     )
-    metadata, persist, timing = baca.build.section(
+    metadata, persist, timing = baca.section.postprocess_score(
         score,
         library.manifests,
         accumulator.time_signatures,
-        environment,
+        first_measure_number=environment.first_measure_number,
+        metadata=environment.metadata,
+        persist=environment.persist,
+        previous_metadata=environment.previous_metadata,
+        previous_persist=environment.previous_persist,
+        section_number=environment.section_number,
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -398,7 +403,7 @@ def main():
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
     )
-    baca.build.persist(
+    baca.build.persist_lilypond_file(
         lilypond_file,
         environment.metadata,
         environment.persist,

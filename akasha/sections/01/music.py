@@ -126,7 +126,7 @@ def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     with abjad.Timer() as timer:
         score, measures = make_score()
-    metadata, persist, timing = baca.build.section(
+    metadata, persist, timing = baca.build.postprocess_score(
         score,
         library.manifests,
         measures(),
@@ -153,7 +153,7 @@ def main():
         include_layout_ly=True,
         includes=["header.ily", "../stylesheet.ily"],
     )
-    baca.build.persist(
+    baca.build.persist_lilypond_file(
         lilypond_file,
         environment.metadata,
         environment.persist,
