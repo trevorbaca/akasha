@@ -97,7 +97,7 @@ def vc(m):
 
 def make_score():
     score, measures = make_empty_score()
-    baca.interpret.set_up_score(
+    baca.section.set_up_score(
         score,
         measures(),
         manifests=library.manifests,
@@ -110,7 +110,7 @@ def make_score():
     V2(score[library.voice_abbreviations["v2"]], measures)
     VA(score[library.voice_abbreviations["va"]], measures)
     VC(score[library.voice_abbreviations["vc"]], measures)
-    cache = baca.interpret.cache_leaves(
+    cache = baca.section.cache_leaves(
         score,
         len(measures()),
         library.voice_abbreviations,
@@ -131,7 +131,7 @@ def main():
         library.manifests,
         measures(),
         environment,
-        **baca.interpret.section_defaults(),
+        **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.MOMENT_NUMBER,
