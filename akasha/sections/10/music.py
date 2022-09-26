@@ -51,7 +51,7 @@ def GLOBALS(skips, rests):
         (33, 7, "B(A)"),
     )
     moment_markup = library.moment_markup(moment_tokens)
-    baca.label_moment_numbers(skips, moment_markup)
+    baca.section.label_moment_numbers(skips, moment_markup)
     stage_tokens = (
         (1, 2 + 1),
         (3, 2),
@@ -70,7 +70,7 @@ def GLOBALS(skips, rests):
         (18, 2 + 1),
     )
     stage_markup = library.stage_markup("09", stage_tokens)
-    baca.label_stage_numbers(skips, stage_markup)
+    baca.section.label_stage_numbers(skips, stage_markup)
     for index, string in (
         (3 - 1, "fermata"),
         (27 - 1, "short"),
@@ -406,10 +406,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
+        manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"])
@@ -417,7 +417,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
     VC(accumulator.voice("vc"), accumulator)
-    baca.reapply(
+    baca.section.reapply(
         accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
@@ -443,11 +443,9 @@ def main():
         environment.previous_persist["persistent_indicators"],
         timing,
     )
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -456,10 +454,13 @@ def main():
         ],
         always_make_global_rests=True,
         color_octaves=False,
+        environment=environment,
         empty_fermata_measures=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
     )
     lilypond_file = baca.lilypond.file(
         score,
