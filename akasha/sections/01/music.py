@@ -23,10 +23,10 @@ def GLOBALS(skips, rests):
     baca.metronome_mark(skips[1 - 1], "44", library.manifests)
     moment_tokens = ((1, 2 + 1, "E"),)
     moment_markup = library.moment_markup(moment_tokens)
-    baca.label_moment_numbers(skips, moment_markup)
+    baca.section.label_moment_numbers(skips, moment_markup)
     stage_tokens = ((1, 2 + 1),)
     stage_markup = library.stage_markup("01", stage_tokens)
-    baca.label_stage_numbers(skips, stage_markup)
+    baca.section.label_stage_numbers(skips, stage_markup)
     baca.global_fermata(rests[3 - 1], "very_long")
 
 
@@ -100,10 +100,10 @@ def make_score():
     baca.section.set_up_score(
         score,
         measures(),
-        manifests=library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
+        manifests=library.manifests,
     )
     GLOBALS(score["Skips"], score["Rests"])
     V1(score[library.voice_abbreviations["v1"]], measures)
@@ -126,11 +126,9 @@ def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
     score, measures = make_score(timing)
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         measures(),
-        environment,
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -143,9 +141,12 @@ def main():
             baca.tags.RHYTHM_ANNOTATION_SPANNER,
         ],
         empty_fermata_measures=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
     )
     lilypond_file = baca.lilypond.file(
         score,
