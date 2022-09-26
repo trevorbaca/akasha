@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from akasha import library
@@ -95,6 +94,7 @@ def vc(m):
         baca.staff_lines(o.leaf(0), 5)
 
 
+@baca.build.timed
 def make_score():
     score, measures = make_empty_score()
     baca.section.set_up_score(
@@ -124,8 +124,8 @@ def make_score():
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
-    with abjad.Timer() as timer:
-        score, measures = make_score()
+    timing = baca.build.Timing()
+    score, measures = make_score(timing)
     metadata, persist, timing = baca.build.postprocess_score(
         score,
         library.manifests,
@@ -147,7 +147,6 @@ def main():
         fermata_extra_offset_y=4.5,
         global_rests_in_topmost_staff=True,
     )
-    timing.make_score = int(timer.elapsed_time)
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
