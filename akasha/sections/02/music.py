@@ -382,12 +382,7 @@ def main():
     metadata, persist = baca.section.postprocess_score(
         score,
         accumulator.time_signatures,
-        first_measure_number=environment.first_measure_number,
-        metadata=environment.metadata,
-        persist=environment.persist,
-        previous_metadata=environment.previous_metadata,
-        previous_persist=environment.previous_persist,
-        section_number=environment.section_number,
+        environment=environment,
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
