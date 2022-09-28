@@ -11,19 +11,15 @@ from akasha import library
 
 def make_empty_score():
     score = library.make_empty_score()
-    voices = baca.select.voices(score)
-    voice_names = baca.accumulator.get_voice_names(score)
-    accumulator = baca.CommandAccumulator(
-        time_signatures=library.time_signatures(
-            "B",
-            count=25,
-            fermata_measures=[25],
-            rotation=30,
-        ),
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
+    time_signatures = library.time_signatures(
+        "B",
+        count=25,
+        fermata_measures=[25],
+        rotation=30,
     )
-    return score, voices, accumulator
+    measures = baca.measures(time_signatures)
+    return score, voices, measures
 
 
 def GLOBALS(skips, rests):
@@ -46,9 +42,9 @@ def GLOBALS(skips, rests):
         baca.global_fermata(rests[index], string)
 
 
-def V1(voice, accumulator):
+def V1(voice, measures):
     music = baca.make_notes(
-        accumulator.get(1, 16),
+        measures(1, 16),
         repeat_ties=True,
     )
     voice.extend(music)
@@ -56,25 +52,25 @@ def V1(voice, accumulator):
         abjad.select.get(baca.select.lts(music), ([1], 2)),
         tag=abjad.Tag("akasha.V1()"),
     )
-    music = baca.make_mmrests(accumulator.get(17, 25))
+    music = baca.make_mmrests(measures(17, 25))
     voice.extend(music)
 
 
-def V2(voice, accumulator):
-    music = baca.make_mmrests(accumulator.get(1, 8))
+def V2(voice, measures):
+    music = baca.make_mmrests(measures(1, 8))
     voice.extend(music)
     music = library.make_sparse_getato_rhythm(
-        accumulator.get(9, 24),
+        measures(9, 24),
         force_rest_tuplets=~abjad.Pattern([3, 36, 37]),
     )
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(25))
+    music = baca.make_mmrests(measures(25))
     voice.extend(music)
 
 
-def VA(voice, accumulator):
+def VA(voice, measures):
     music = baca.make_notes(
-        accumulator.get(1, 16),
+        measures(1, 16),
         repeat_ties=True,
     )
     voice.extend(music)
@@ -82,13 +78,13 @@ def VA(voice, accumulator):
         abjad.select.get(baca.select.lts(music), ([1], 2)),
         tag=abjad.Tag("akasha.VA()"),
     )
-    music = baca.make_mmrests(accumulator.get(17, 25))
+    music = baca.make_mmrests(measures(17, 25))
     voice.extend(music)
 
 
-def VC(voice, accumulator):
+def VC(voice, measures):
     music = baca.make_notes(
-        accumulator.get(1, 16),
+        measures(1, 16),
         repeat_ties=True,
     )
     voice.extend(music)
@@ -96,7 +92,7 @@ def VC(voice, accumulator):
         abjad.select.get(baca.select.lts(music), ([1], 2)),
         tag=abjad.Tag("akasha.VC()"),
     )
-    music = baca.make_mmrests(accumulator.get(17, 25))
+    music = baca.make_mmrests(measures(17, 25))
     voice.extend(music)
 
 
@@ -139,11 +135,10 @@ def _1_24(m):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, voices, accumulator = make_empty_score()
+    score, voices, measures = make_empty_score()
     baca.section.set_up_score(
         score,
-        accumulator.time_signatures,
-        accumulator,
+        measures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -151,10 +146,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"])
-    V1(accumulator.voice("v1"), accumulator)
-    V2(accumulator.voice("v2"), accumulator)
-    VA(accumulator.voice("va"), accumulator)
-    VC(accumulator.voice("vc"), accumulator)
+    V1(voices.v1, measures)
+    V2(voices.v2, measures)
+    VA(voices.va, measures)
+    VC(voices.vc, measures)
     baca.section.reapply(
         voices,
         library.manifests,
@@ -162,27 +157,27 @@ def make_score(first_measure_number, previous_persistent_indicators):
     )
     cache = baca.section.cache_leaves(
         score,
-        len(accumulator.time_signatures),
+        len(measures()),
         library.voice_abbreviations,
     )
     v1(cache["v1"])
     v2(cache["v2"])
     va(cache["va"])
     vc(cache["vc"])
-    return score, accumulator
+    return score, measures
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
-    score, accumulator = make_score(
+    score, measures = make_score(
         environment.first_measure_number,
         environment.previous_persist["persistent_indicators"],
         timing,
     )
     metadata, persist = baca.section.postprocess_score(
         score,
-        accumulator.time_signatures,
+        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
