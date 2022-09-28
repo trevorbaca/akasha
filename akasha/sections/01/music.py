@@ -15,7 +15,7 @@ def make_empty_score():
         fermata_measures=[3],
         rotation=0,
     )
-    measures = baca.accumulator.MeasureServer(time_signatures)
+    measures = baca.measures(time_signatures)
     return score, measures
 
 
@@ -94,7 +94,7 @@ def vc(m):
         baca.staff_lines(o.leaf(0), 5)
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score():
     score, measures = make_empty_score()
     baca.section.set_up_score(
