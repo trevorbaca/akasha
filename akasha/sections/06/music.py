@@ -10,6 +10,7 @@ from akasha import library
 
 def make_empty_score():
     score = library.make_empty_score()
+    voices = baca.select.voices(score)
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
         time_signatures=library.time_signatures(
@@ -21,7 +22,7 @@ def make_empty_score():
         _voice_abbreviations=library.voice_abbreviations,
         _voice_names=voice_names,
     )
-    return score, accumulator
+    return score, voices, accumulator
 
 
 def GLOBALS(skips, rests):
@@ -354,7 +355,7 @@ def composites(cache):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, accumulator = make_empty_score()
+    score, voices, accumulator = make_empty_score()
     baca.section.set_up_score(
         score,
         accumulator.time_signatures,
@@ -371,7 +372,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     VA(accumulator.voice("va"), accumulator)
     VC(accumulator.voice("vc"), accumulator)
     baca.section.reapply(
-        accumulator.voices(),
+        voices,
         library.manifests,
         previous_persistent_indicators,
     )

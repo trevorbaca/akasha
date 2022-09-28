@@ -9,6 +9,7 @@ from akasha import library
 
 def make_empty_score():
     score = library.make_empty_score()
+    voices = baca.select.voices(score)
     time_signatures = library.time_signatures(
         "B",
         count=3,
@@ -16,7 +17,7 @@ def make_empty_score():
         rotation=0,
     )
     measures = baca.measures(time_signatures)
-    return score, measures
+    return score, voices, measures
 
 
 def GLOBALS(skips, rests):
@@ -96,7 +97,7 @@ def vc(m):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, measures = make_empty_score()
+    score, voices, measures = make_empty_score()
     baca.section.set_up_score(
         score,
         measures(),
