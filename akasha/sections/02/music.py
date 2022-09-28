@@ -10,7 +10,7 @@ from akasha import library
 
 def make_empty_score():
     score = library.make_empty_score()
-    voices = baca.select.voices(score)
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures(
         "A",
         count=20,
@@ -345,10 +345,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"])
-    V1(score[library.voice_abbreviations["v1"]], measures)
-    V2(score[library.voice_abbreviations["v2"]], measures)
-    VA(score[library.voice_abbreviations["va"]], measures)
-    VC(score[library.voice_abbreviations["vc"]], measures)
+    V1(voices.v1, measures)
+    V2(voices.v2, measures)
+    VA(voices.va, measures)
+    VC(voices.vc, measures)
     baca.section.reapply(
         voices,
         library.manifests,

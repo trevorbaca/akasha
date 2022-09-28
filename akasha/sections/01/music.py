@@ -9,7 +9,7 @@ from akasha import library
 
 def make_empty_score():
     score = library.make_empty_score()
-    voices = baca.select.voices(score)
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures(
         "B",
         count=3,
