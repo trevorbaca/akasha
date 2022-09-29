@@ -16,7 +16,7 @@ def make_empty_score():
         fermata_measures=[9, 18, 23, 32, 37, 42, 51],
         rotation=12,
     )
-    measures = baca.measures(time_signatures)
+    measures = baca.section.measures(time_signatures)
     return score, voices, measures
 
 
