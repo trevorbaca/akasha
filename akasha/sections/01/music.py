@@ -153,10 +153,11 @@ def main():
         includes=["header.ily", "../stylesheet.ily"],
     )
     baca.build.persist_lilypond_file(
+        environment.arguments,
+        environment.section_directory,
+        environment.timing,
         lilypond_file,
         metadata,
-        environment.timing,
-        environment.arguments,
     )
 
 
