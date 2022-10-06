@@ -356,13 +356,12 @@ def main():
         fermata_extra_offset_y=4.5,
         global_rests_in_topmost_staff=True,
         manifests=library.manifests,
-        tags=baca.tags.Tags(
-            activate=[
-                baca.tags.LOCAL_MEASURE_NUMBER,
-                baca.tags.MOMENT_NUMBER,
-                baca.tags.STAGE_NUMBER,
-            ],
-        ),
+    )
+    baca.tags.activate(
+        score,
+        baca.tags.LOCAL_MEASURE_NUMBER,
+        baca.tags.MOMENT_NUMBER,
+        baca.tags.STAGE_NUMBER,
     )
     lilypond_file = baca.lilypond.file(
         score,
