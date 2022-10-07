@@ -376,13 +376,13 @@ def main():
     )
     metadata = baca.section.postprocess_score(
         score,
-        environment=environment,
+        environment,
+        library.manifests,
         always_make_global_rests=True,
         empty_fermata_measures=True,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         global_rests_in_topmost_staff=True,
-        manifests=library.manifests,
     )
     baca.tags.activate(
         score,
