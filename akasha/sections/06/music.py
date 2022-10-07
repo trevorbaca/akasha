@@ -393,14 +393,14 @@ def main():
     )
     metadata = baca.section.postprocess_score(
         score,
+        environment,
+        library.manifests,
         always_make_global_rests=True,
         color_octaves=False,
         empty_fermata_measures=True,
-        environment=environment,
         error_on_not_yet_pitched=True,
         fermata_extra_offset_y=4.5,
         global_rests_in_topmost_staff=True,
-        manifests=library.manifests,
     )
     baca.tags.deactivate(
         score,
