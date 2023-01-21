@@ -114,7 +114,8 @@ def make_accelerando_rhythm(
 def make_cello_solo_rhythm(time_signatures, *, rotation=None):
     tag = baca.tags.function_name(inspect.currentframe())
     counts = abjad.sequence.rotate([7, 1, 10, 2], n=rotation)
-    nested_music = rmakers.talea(time_signatures, counts, 16, tag=tag)
+    divisions = [_.pair for _ in time_signatures]
+    nested_music = rmakers.talea(divisions, counts, 16, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     rmakers.beam(voice)
@@ -295,7 +296,8 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     counts = [4, 14, 4, 6, 18]
     counts = abjad.sequence.rotate(counts, n=rotation)
     tag = baca.tags.function_name(inspect.currentframe())
-    nested_music = rmakers.talea(time_signatures, counts, 16, tag=tag)
+    divisions = [_.pair for _ in time_signatures]
+    nested_music = rmakers.talea(divisions, counts, 16, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     if force_rest_lts is not None:
@@ -347,8 +349,9 @@ def make_scratch_rhythm(
     time_signatures, denominators, extra_counts=(), force_rest_lts=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
+    divisions = [_.pair for _ in time_signatures]
     nested_music = rmakers.even_division(
-        time_signatures, denominators, extra_counts=extra_counts, tag=tag
+        divisions, denominators, extra_counts=extra_counts, tag=tag
     )
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
@@ -400,7 +403,8 @@ def make_sparse_getato_rhythm(
 
 def make_untied_notes(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
-    nested_music = rmakers.note(time_signatures, tag=tag)
+    divisions = [_.pair for _ in time_signatures]
+    nested_music = rmakers.note(divisions, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     rmakers.rewrite_meter(voice)
