@@ -2546,9 +2546,6 @@ number.10.Violin.1.Music = {
     % [Violin.1.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! EXPLICIT_BAR_EXTENT
       %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
@@ -2620,8 +2617,6 @@ number.10.Violin.1.Music = {
       %! baca.hairpin()
     \sfp
     % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
@@ -2668,11 +2663,6 @@ number.10.Violin.1.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2767,12 +2757,6 @@ number.10.Violin.1.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
@@ -2826,9 +2810,6 @@ number.10.Violin.1.Music = {
     % [Violin.1.Music measure 4]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -2856,9 +2837,6 @@ number.10.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \sfp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -2902,11 +2880,6 @@ number.10.Violin.1.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2981,12 +2954,6 @@ number.10.Violin.1.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"6" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -3046,11 +3013,6 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 8]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
@@ -3071,15 +3033,7 @@ number.10.Violin.1.Music = {
     \ppp
     % MARKUP:
       %! baca.markup()
-    ^ \akasha-material-e
-      %! baca.markup()
     ^ \baca-ob-markup
-    % SPANNER_STARTS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3694,11 +3648,6 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 21]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b'1.
     % AFTER:
@@ -3719,15 +3668,7 @@ number.10.Violin.1.Music = {
     \ppp
     % MARKUP:
       %! baca.markup()
-    ^ \akasha-material-b
-      %! baca.markup()
     ^ \akasha-xp-plus-fb-markup
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -3747,11 +3688,6 @@ number.10.Violin.1.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3791,29 +3727,8 @@ number.10.Violin.1.Music = {
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 23]
-        % BEFORE:
-        % COMMANDS:
-          %! COLORED_PHRASING_SLUR
-          %! baca.literal()
-        \colorSpan #-4 #4 #(rgb-color 0.984 0.945 0.492)
           %! akasha.make_dense_getato_rhythm()
         r16
-        % AFTER:
-        % MARKUP:
-          %! baca.markup()
-        ^ \akasha-material-a
-        % SPANNER_STOPS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(2)
-          %! baca.slur()
-        \)
-        % SPANNER_STARTS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_START
-          %! baca._do_spanner_indicator_command(1)
-          %! baca.slur()
-        \(
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -4382,11 +4297,6 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 25]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
@@ -4405,15 +4315,6 @@ number.10.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -4457,11 +4358,6 @@ number.10.Violin.1.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4542,12 +4438,6 @@ number.10.Violin.1.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
@@ -4647,9 +4537,6 @@ number.10.Violin.1.Music = {
         % [Violin.1.Music measure 28]
         % BEFORE:
         % COMMANDS:
-          %! COLORED_PHRASING_SLUR
-          %! baca.literal()
-        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
           %! baca._style_fermata_measures(4)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -4682,20 +4569,12 @@ number.10.Violin.1.Music = {
           %! baca.dynamic()
         \p
         % MARKUP:
-          %! baca.markup()
-        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"227" #"32"
         % START_BEAM:
           %! akasha.make_accelerando_rhythm()
         [
-        % SPANNER_STARTS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_START
-          %! baca._do_spanner_indicator_command(1)
-          %! baca.slur()
-        \(
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -4905,12 +4784,6 @@ number.10.Violin.1.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
@@ -4964,9 +4837,6 @@ number.10.Violin.1.Music = {
     % [Violin.1.Music measure 31]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -4993,9 +4863,6 @@ number.10.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -5039,11 +4906,6 @@ number.10.Violin.1.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5093,11 +4955,6 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 33]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b'1.
     % AFTER:
@@ -5116,15 +4973,6 @@ number.10.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \mp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -5168,11 +5016,6 @@ number.10.Violin.1.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5211,33 +5054,14 @@ number.10.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 35]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5300,12 +5124,6 @@ number.10.Violin.1.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
@@ -5401,9 +5219,6 @@ number.10.Violin.2.Music = {
     % [Violin.2.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
@@ -5470,8 +5285,6 @@ number.10.Violin.2.Music = {
       %! baca.hairpin()
     \sfp
     % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
@@ -5518,11 +5331,6 @@ number.10.Violin.2.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -5617,12 +5425,6 @@ number.10.Violin.2.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -5672,9 +5474,6 @@ number.10.Violin.2.Music = {
     % [Violin.2.Music measure 4]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! baca._style_fermata_measures(3)
     \stopStaff
       %! baca._style_fermata_measures(3)
@@ -5699,9 +5498,6 @@ number.10.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \sfp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -5745,11 +5541,6 @@ number.10.Violin.2.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5824,12 +5615,6 @@ number.10.Violin.2.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"6" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -5889,11 +5674,6 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 8]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     atqs!2.
     % AFTER:
     % ARTICULATIONS:
@@ -5911,9 +5691,6 @@ number.10.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \sfp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -5957,11 +5734,6 @@ number.10.Violin.2.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6062,12 +5834,6 @@ number.10.Violin.2.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -6127,11 +5893,6 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 13]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca.make_repeated_duration_notes()
     b4
     % AFTER:
@@ -6152,15 +5913,7 @@ number.10.Violin.2.Music = {
     - \upbow
     % MARKUP:
       %! baca.markup()
-    ^ \akasha-material-e
-      %! baca.markup()
     ^ \baca-ob-markup
-    % SPANNER_STARTS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6564,11 +6317,6 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 21]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b1.
     % AFTER:
@@ -6589,15 +6337,7 @@ number.10.Violin.2.Music = {
     \ppp
     % MARKUP:
       %! baca.markup()
-    ^ \akasha-material-b
-      %! baca.markup()
     ^ \akasha-xp-plus-fb-markup
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -6617,11 +6357,6 @@ number.10.Violin.2.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6691,12 +6426,6 @@ number.10.Violin.2.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -6756,11 +6485,6 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 25]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b2.
     % AFTER:
@@ -6779,9 +6503,6 @@ number.10.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -6825,11 +6546,6 @@ number.10.Violin.2.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6910,12 +6626,6 @@ number.10.Violin.2.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -7011,9 +6721,6 @@ number.10.Violin.2.Music = {
         % [Violin.2.Music measure 28]
         % BEFORE:
         % COMMANDS:
-          %! COLORED_PHRASING_SLUR
-          %! baca.literal()
-        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
           %! baca._style_fermata_measures(3)
         \stopStaff
           %! baca._style_fermata_measures(3)
@@ -7043,20 +6750,12 @@ number.10.Violin.2.Music = {
           %! baca.dynamic()
         \p
         % MARKUP:
-          %! baca.markup()
-        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
         % START_BEAM:
           %! akasha.make_ritardando_rhythm()
         [
-        % SPANNER_STARTS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_START
-          %! baca._do_spanner_indicator_command(1)
-          %! baca.slur()
-        \(
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -7266,12 +6965,6 @@ number.10.Violin.2.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -7321,9 +7014,6 @@ number.10.Violin.2.Music = {
     % [Violin.2.Music measure 31]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca._style_fermata_measures(3)
     \stopStaff
       %! baca._style_fermata_measures(3)
@@ -7347,9 +7037,6 @@ number.10.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -7393,11 +7080,6 @@ number.10.Violin.2.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7445,11 +7127,6 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 33]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b1.
     % AFTER:
@@ -7468,15 +7145,6 @@ number.10.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \mp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -7520,11 +7188,6 @@ number.10.Violin.2.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7561,33 +7224,14 @@ number.10.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 35]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b1
     % AFTER:
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7648,12 +7292,6 @@ number.10.Violin.2.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! baca.text_spanner_staff_padding(2)
             \revert TextSpanner.staff-padding
@@ -7737,9 +7375,6 @@ number.10.Viola.Music = {
     % [Viola.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
@@ -7806,8 +7441,6 @@ number.10.Viola.Music = {
       %! baca.hairpin()
     \sfp
     % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -7854,11 +7487,6 @@ number.10.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -7953,12 +7581,6 @@ number.10.Viola.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -8008,9 +7630,6 @@ number.10.Viola.Music = {
     % [Viola.Music measure 4]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca._style_fermata_measures(3)
     \stopStaff
       %! baca._style_fermata_measures(3)
@@ -8037,15 +7656,7 @@ number.10.Viola.Music = {
     \ppp
     % MARKUP:
       %! baca.markup()
-    ^ \akasha-material-e
-      %! baca.markup()
     ^ \baca-ob-markup
-    % SPANNER_STARTS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8896,11 +8507,6 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 21]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b,1.
     % AFTER:
@@ -8921,15 +8527,7 @@ number.10.Viola.Music = {
     \ppp
     % MARKUP:
       %! baca.markup()
-    ^ \akasha-material-b
-      %! baca.markup()
     ^ \akasha-xp-plus-fb-markup
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -8949,11 +8547,6 @@ number.10.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9023,12 +8616,6 @@ number.10.Viola.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -9088,11 +8675,6 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 25]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b,2.
     % AFTER:
@@ -9111,9 +8693,6 @@ number.10.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -9157,11 +8736,6 @@ number.10.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9242,12 +8816,6 @@ number.10.Viola.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -9343,9 +8911,6 @@ number.10.Viola.Music = {
         % [Viola.Music measure 28]
         % BEFORE:
         % COMMANDS:
-          %! COLORED_PHRASING_SLUR
-          %! baca.literal()
-        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
           %! baca._style_fermata_measures(3)
         \stopStaff
           %! baca._style_fermata_measures(3)
@@ -9375,20 +8940,12 @@ number.10.Viola.Music = {
           %! baca.dynamic()
         \p
         % MARKUP:
-          %! baca.markup()
-        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"487" #"64"
         % START_BEAM:
           %! akasha.make_accelerando_rhythm()
         [
-        % SPANNER_STARTS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_START
-          %! baca._do_spanner_indicator_command(1)
-          %! baca.slur()
-        \(
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -9514,12 +9071,6 @@ number.10.Viola.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -9569,9 +9120,6 @@ number.10.Viola.Music = {
     % [Viola.Music measure 31]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca._style_fermata_measures(3)
     \stopStaff
       %! baca._style_fermata_measures(3)
@@ -9595,9 +9143,6 @@ number.10.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -9641,11 +9186,6 @@ number.10.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9693,11 +9233,6 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 33]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b,1.
     % AFTER:
@@ -9716,15 +9251,6 @@ number.10.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \mp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -9768,11 +9294,6 @@ number.10.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9809,33 +9330,14 @@ number.10.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 35]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b,1
     % AFTER:
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9896,12 +9398,6 @@ number.10.Viola.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! baca.text_spanner_staff_padding(2)
             \revert TextSpanner.staff-padding
@@ -9985,9 +9481,6 @@ number.10.Cello.Music = {
     % [Cello.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! EXPLICIT_BAR_EXTENT
       %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
@@ -10059,8 +9552,6 @@ number.10.Cello.Music = {
       %! baca.hairpin()
     \sfp
     % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -10107,11 +9598,6 @@ number.10.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -10206,12 +9692,6 @@ number.10.Cello.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
@@ -10265,9 +9745,6 @@ number.10.Cello.Music = {
     % [Cello.Music measure 4]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -10295,9 +9772,6 @@ number.10.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \sfp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -10341,11 +9815,6 @@ number.10.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10420,12 +9889,6 @@ number.10.Cello.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"6" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -10485,11 +9948,6 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     b,,2.
     % AFTER:
     % ARTICULATIONS:
@@ -10507,9 +9965,6 @@ number.10.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \sfp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -10553,11 +10008,6 @@ number.10.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10658,12 +10108,6 @@ number.10.Cello.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -10723,11 +10167,6 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.710 0.878 0.976)
     b,,2.
     % AFTER:
     % ARTICULATIONS:
@@ -10745,9 +10184,6 @@ number.10.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \sfp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-d
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -10791,11 +10227,6 @@ number.10.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10881,12 +10312,6 @@ number.10.Cello.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -10946,11 +10371,6 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 17]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! baca.make_repeated_duration_notes()
     b,,4
     % AFTER:
@@ -10969,9 +10389,6 @@ number.10.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-e
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -10997,11 +10414,6 @@ number.10.Cello.Music = {
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
     \startTextSpan
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11207,11 +10619,6 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 21]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b,,1.
     % AFTER:
@@ -11232,15 +10639,7 @@ number.10.Cello.Music = {
     \ppp
     % MARKUP:
       %! baca.markup()
-    ^ \akasha-material-b
-      %! baca.markup()
     ^ \akasha-xp-plus-fb-markup
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -11260,11 +10659,6 @@ number.10.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11334,12 +10728,6 @@ number.10.Cello.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
@@ -11399,11 +10787,6 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 25]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b,,2.
     % AFTER:
@@ -11422,9 +10805,6 @@ number.10.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -11468,11 +10848,6 @@ number.10.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11553,12 +10928,6 @@ number.10.Cello.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
@@ -11658,9 +11027,6 @@ number.10.Cello.Music = {
         % [Cello.Music measure 28]
         % BEFORE:
         % COMMANDS:
-          %! COLORED_PHRASING_SLUR
-          %! baca.literal()
-        \colorSpan #-4 #4 #(rgb-color 0.335 0.937 0.597)
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
           %! baca._style_fermata_measures(4)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -11693,20 +11059,12 @@ number.10.Cello.Music = {
           %! baca.dynamic()
         \p
         % MARKUP:
-          %! baca.markup()
-        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"117" #"64"
         % START_BEAM:
           %! akasha.make_ritardando_rhythm()
         [
-        % SPANNER_STARTS:
-          %! COLORED_PHRASING_SLUR
-          %! SPANNER_START
-          %! baca._do_spanner_indicator_command(1)
-          %! baca.slur()
-        \(
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11842,12 +11200,6 @@ number.10.Cello.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
@@ -11901,9 +11253,6 @@ number.10.Cello.Music = {
     % [Cello.Music measure 31]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -11930,9 +11279,6 @@ number.10.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ppp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -11976,11 +11322,6 @@ number.10.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -12028,11 +11369,6 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 33]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b,,1.
     % AFTER:
@@ -12051,15 +11387,6 @@ number.10.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \mp
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -12103,11 +11430,6 @@ number.10.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -12144,33 +11466,14 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 35]
-    % BEFORE:
-    % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.980 0.769 0.984)
       %! baca.make_repeat_tied_notes()
     b,,1
     % AFTER:
-    % MARKUP:
-      %! baca.markup()
-    ^ \akasha-material-b
-    % SPANNER_STOPS:
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(2)
-      %! baca.slur()
-    \)
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -12231,12 +11534,6 @@ number.10.Cello.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % COMMANDS:
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
