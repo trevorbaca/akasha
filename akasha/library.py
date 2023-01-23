@@ -443,6 +443,7 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
 
 
 def material_annotation_spanner(argument, letter):
+    return
     baca.markup(
         abjad.select.leaf(argument, 0),
         rf"\akasha-material-{letter.lower()}",

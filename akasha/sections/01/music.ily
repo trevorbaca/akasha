@@ -612,9 +612,6 @@ number.1.Viola.Music = {
     % [Viola.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! COLORED_PHRASING_SLUR
-      %! baca.literal()
-    \colorSpan #-4 #4 #(rgb-color 0.865 0.877 0.896)
       %! MEASURE_1
       %! SHIFTED_CLEF
       %! baca.clef_x_extent_false(1)
@@ -692,8 +689,6 @@ number.1.Viola.Music = {
     \baca-effort-mf
     % MARKUP:
       %! baca.markup()
-    ^ \akasha-material-e
-      %! baca.markup()
     ^ \akasha-ob-plus-terminate-abruptly-markup
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -703,11 +698,6 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! COLORED_PHRASING_SLUR
-      %! SPANNER_START
-      %! baca._do_spanner_indicator_command(1)
-      %! baca.slur()
-    \(
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -783,12 +773,6 @@ number.1.Viola.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! COLORED_PHRASING_SLUR
-              %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(2)
-              %! baca.slur()
-            \)
             % CLOSING:
             % COMMANDS:
 
