@@ -129,7 +129,7 @@ def make_dense_getato_rhythm(
     time_signatures, fuse_counts, extra_counts, *, force_rest_tuplets=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.pair for _ in time_signatures]
     divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
