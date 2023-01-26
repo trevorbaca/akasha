@@ -130,7 +130,7 @@ def make_dense_getato_rhythm(
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [_.pair for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
     nested_music = rmakers.even_division(
