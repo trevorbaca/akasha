@@ -215,7 +215,7 @@ def make_growth_rhythm(
     music = []
     for i, part in enumerate(parts):
         if i in (1, 3, 5):
-            division = abjad.sequence.sum(part)
+            division = sum(part)
             nested_music = rmakers.accelerando(
                 [division], [(1, 2), (1, 8), (1, 16)], tag=tag
             )
