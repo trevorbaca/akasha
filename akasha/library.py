@@ -392,7 +392,7 @@ def make_untied_notes(time_signatures):
 def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [_.duration for _ in time_signatures]
-    fractions = baca.fractions([(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)])
+    fractions = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     fractions = abjad.sequence.rotate(fractions, n=rotation)
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.split_divisions(divisions, fractions, cyclic=True)
