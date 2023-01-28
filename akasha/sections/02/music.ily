@@ -3711,7 +3711,7 @@ number.2.Violin.2.Music = {
         % COMMANDS:
 
           %! akasha.make_ritardando_rhythm()
-        c''16 * 2
+        c''16 * 2/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER
