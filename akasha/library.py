@@ -200,26 +200,23 @@ def make_glissando_rhythm(time_signatures):
     return music
 
 
-def make_growth_rhythm(
-    time_signatures, first_silence, division_ratio, *, extra_counts=()
-):
+def make_growth_rhythm(time_signatures, first_silence, ratio, *, extra_counts=()):
     tag = baca.tags.function_name(inspect.currentframe())
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
-    divisions = [_.duration for _ in time_signatures]
-    ratio = abjad.Ratio(division_ratio)
-    divisions = baca.sequence.fuse(divisions)
-    divisions = baca.sequence.split_divisions(divisions, [(1, 4)], cyclic=True)
-    divisions = abjad.sequence.flatten(divisions, depth=-1)
-    parts = abjad.sequence.partition_by_ratio_of_lengths(divisions, ratio)
+    durations = [_.duration for _ in time_signatures]
+    durations = baca.sequence.fuse(durations)
+    durations = baca.sequence.split_divisions(durations, [(1, 4)], cyclic=True)
+    durations = abjad.sequence.flatten(durations, depth=-1)
+    duration_lists = abjad.sequence.partition_by_ratio_of_lengths(durations, ratio)
     music = []
-    for i, part in enumerate(parts):
+    for i, duration_list in enumerate(duration_lists):
         if i in (1, 3, 5):
-            division = sum(part)
+            duration = sum(duration_list)
             nested_music = rmakers.accelerando(
-                [division], [(1, 2), (1, 8), (1, 16)], tag=tag
+                [duration], [(1, 2), (1, 8), (1, 16)], tag=tag
             )
-            voice = rmakers.wrap_in_time_signature_staff(nested_music, [division])
+            voice = rmakers.wrap_in_time_signature_staff(nested_music, [duration])
             rmakers.force_rest(
                 abjad.select.get(baca.select.lts(voice), pattern),
                 tag=tag,
@@ -229,9 +226,9 @@ def make_growth_rhythm(
             music_ = abjad.mutate.eject_contents(voice)
         else:
             nested_music = rmakers.talea(
-                part, [9, 4, 8, 7], 16, extra_counts=extra_counts, tag=tag
+                duration_list, [9, 4, 8, 7], 16, extra_counts=extra_counts, tag=tag
             )
-            voice = rmakers.wrap_in_time_signature_staff(nested_music, divisions)
+            voice = rmakers.wrap_in_time_signature_staff(nested_music, duration_list)
             rmakers.force_rest(
                 abjad.select.get(baca.select.lts(voice), pattern),
                 tag=tag,
