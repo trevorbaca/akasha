@@ -98,9 +98,9 @@ def V1(voice, measures):
     voice.extend(music)
     music = library.make_growth_rhythm(
         measures(11, 22),
-        division_ratio=(2, 1, 2, 2, 1, 2),
-        extra_counts=[1],
         first_silence=1,
+        ratio=(2, 1, 2, 2, 1, 2),
+        extra_counts=[1],
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes(measures(23, 26))
@@ -147,8 +147,8 @@ def V2(voice, measures):
     voice.extend(music)
     music = library.make_growth_rhythm(
         measures(11, 22),
-        division_ratio=(1, 1, 2, 2, 1, 2),
         first_silence=2,
+        ratio=(1, 1, 2, 2, 1, 2),
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes(measures(23, 26))
