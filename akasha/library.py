@@ -206,7 +206,7 @@ def make_growth_rhythm(time_signatures, first_silence, ratio, *, extra_counts=()
     pattern = pattern & abjad.index([0, -1], inverted=True)
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(durations, [(1, 4)], cyclic=True)
+    durations = baca.sequence.split(durations, [(1, 4)], cyclic=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
     duration_lists = abjad.sequence.partition_by_ratio_of_lengths(durations, ratio)
     music = []
@@ -392,7 +392,7 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     fractions = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     fractions = abjad.sequence.rotate(fractions, n=rotation)
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(durations, fractions, cyclic=True)
+    durations = baca.sequence.split(durations, fractions, cyclic=True)
     durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
