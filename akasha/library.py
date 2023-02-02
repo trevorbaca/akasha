@@ -81,16 +81,16 @@ def make_accelerando_rhythm(
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     fuse_counts = fuse_counts or []
-    divisions = [_.duration for _ in time_signatures]
+    durations = [_.duration for _ in time_signatures]
     if preprocessor is not None:
-        divisions = preprocessor(divisions)
+        durations = preprocessor(durations)
     else:
-        divisions = abjad.sequence.partition_by_counts(
-            divisions, fuse_counts, cyclic=True, overhang=True
+        durations = abjad.sequence.partition_by_counts(
+            durations, fuse_counts, cyclic=True, overhang=True
         )
-        divisions = [sum(_) for _ in divisions]
+        durations = [sum(_) for _ in durations]
     nested_music = rmakers.accelerando(
-        divisions,
+        durations,
         [(1, 2), (1, 8), (1, 16)],
         [(1, 8), (1, 2), (1, 16)],
         tag=tag,
@@ -112,8 +112,8 @@ def make_accelerando_rhythm(
 def make_cello_solo_rhythm(time_signatures, *, rotation=None):
     tag = baca.tags.function_name(inspect.currentframe())
     counts = abjad.sequence.rotate([7, 1, 10, 2], n=rotation)
-    divisions = [_.duration for _ in time_signatures]
-    nested_music = rmakers.talea(divisions, counts, 16, tag=tag)
+    durations = [_.duration for _ in time_signatures]
+    nested_music = rmakers.talea(durations, counts, 16, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     rmakers.beam(voice)
@@ -127,11 +127,11 @@ def make_dense_getato_rhythm(
     time_signatures, fuse_counts, extra_counts, *, force_rest_tuplets=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
-    divisions = abjad.sequence.flatten(divisions, depth=-1)
-    divisions = baca.sequence.fuse(divisions, fuse_counts, cyclic=True)
+    durations = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
+    durations = abjad.sequence.flatten(durations, depth=-1)
+    durations = baca.sequence.fuse(durations, fuse_counts, cyclic=True)
     nested_music = rmakers.even_division(
-        divisions, [16], extra_counts=extra_counts, tag=tag
+        durations, [16], extra_counts=extra_counts, tag=tag
     )
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
@@ -192,9 +192,9 @@ def make_empty_score():
 
 def make_glissando_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [_.duration for _ in time_signatures]
-    divisions = baca.sequence.fuse(divisions)
-    nested_music = rmakers.tuplet(divisions, [(8, 1)], tag=tag)
+    durations = [_.duration for _ in time_signatures]
+    durations = baca.sequence.fuse(durations)
+    nested_music = rmakers.tuplet(durations, [(8, 1)], tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     rmakers.beam(music)
     return music
@@ -257,9 +257,9 @@ def make_manifest_rhythm(time_signatures, these_counts):
         counts, these_counts, overhang=abjad.EXACT
     )
     these_counts = [sum(_) for _ in these_counts]
-    divisions = [_.duration for _ in time_signatures]
+    durations = [_.duration for _ in time_signatures]
     nested_music = rmakers.talea(
-        divisions, these_counts, 16, read_talea_once_only=True, tag=tag
+        durations, these_counts, 16, read_talea_once_only=True, tag=tag
     )
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam(voice)
@@ -274,8 +274,8 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     counts = [4, 14, 4, 6, 18]
     counts = abjad.sequence.rotate(counts, n=rotation)
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [_.duration for _ in time_signatures]
-    nested_music = rmakers.talea(divisions, counts, 16, tag=tag)
+    durations = [_.duration for _ in time_signatures]
+    nested_music = rmakers.talea(durations, counts, 16, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     if force_rest_lts is not None:
@@ -293,16 +293,16 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
 
 def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, preprocessor=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [_.duration for _ in time_signatures]
+    durations = [_.duration for _ in time_signatures]
     if preprocessor is not None:
-        divisions = preprocessor(divisions)
+        durations = preprocessor(durations)
     else:
-        divisions = abjad.sequence.partition_by_counts(
-            divisions, [1, 2], cyclic=True, overhang=True
+        durations = abjad.sequence.partition_by_counts(
+            durations, [1, 2], cyclic=True, overhang=True
         )
-        divisions = [baca.sequence.fuse(_) for _ in divisions]
+        durations = [baca.sequence.fuse(_) for _ in durations]
     nested_music = rmakers.accelerando(
-        divisions,
+        durations,
         [(1, 8), (1, 2), (1, 16)],
         [(1, 2), (1, 8), (1, 16)],
         tag=tag,
@@ -325,9 +325,9 @@ def make_scratch_rhythm(
     time_signatures, denominators, extra_counts=(), force_rest_lts=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [_.duration for _ in time_signatures]
+    durations = [_.duration for _ in time_signatures]
     nested_music = rmakers.even_division(
-        divisions, denominators, extra_counts=extra_counts, tag=tag
+        durations, denominators, extra_counts=extra_counts, tag=tag
     )
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
@@ -349,11 +349,11 @@ def make_sparse_getato_rhythm(
     rotation=None,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [_.duration for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_]) for _ in divisions]
-    divisions = abjad.sequence.flatten(divisions)
+    durations = [_.duration for _ in time_signatures]
+    durations = [baca.sequence.quarters([_]) for _ in durations]
+    durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.talea(
-        divisions,
+        durations,
         perforated_counts(degree=degree, rotation=rotation),
         32,
         extra_counts=extra_counts,
@@ -375,8 +375,8 @@ def make_sparse_getato_rhythm(
 
 def make_untied_notes(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [_.duration for _ in time_signatures]
-    nested_music = rmakers.note(divisions, tag=tag)
+    durations = [_.duration for _ in time_signatures]
+    nested_music = rmakers.note(durations, tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     voice = rmakers.wrap_in_time_signature_staff(music, time_signatures)
     rmakers.rewrite_meter(voice)
@@ -388,13 +388,13 @@ def make_untied_notes(time_signatures):
 
 def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [_.duration for _ in time_signatures]
+    durations = [_.duration for _ in time_signatures]
     fractions = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     fractions = abjad.sequence.rotate(fractions, n=rotation)
-    divisions = baca.sequence.fuse(divisions)
-    divisions = baca.sequence.split_divisions(divisions, fractions, cyclic=True)
-    divisions = abjad.sequence.flatten(divisions)
-    nested_music = rmakers.note(divisions, tag=tag)
+    durations = baca.sequence.fuse(durations)
+    durations = baca.sequence.split_divisions(durations, fractions, cyclic=True)
+    durations = abjad.sequence.flatten(durations)
+    nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     leaves = abjad.select.leaves(voice)
     leaves = abjad.select.get(leaves, [0, -1])
