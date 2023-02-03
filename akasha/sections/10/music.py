@@ -173,8 +173,7 @@ def VA(voice, measures):
     voice.extend(music)
     music = library.make_accelerando_rhythm(
         measures(28, 29),
-        fuse_counts=[1, 2],
-        preprocessor=lambda _: baca.sequence.fuse(_),
+        fuse=True,
     )
     voice.extend(music)
     music = baca.make_mmrests(measures(30), head=voice.name)
@@ -218,7 +217,7 @@ def VC(voice, measures):
     voice.extend(music)
     music = library.make_ritardando_rhythm(
         measures(28, 29),
-        preprocessor=lambda _: baca.sequence.fuse(_),
+        fuse=True,
     )
     voice.extend(music)
     music = baca.make_mmrests(measures(30), head=voice.name)

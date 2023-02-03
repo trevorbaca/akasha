@@ -77,13 +77,13 @@ def harmonic_glissando_pitches(
 
 
 def make_accelerando_rhythm(
-    time_signatures, *, force_rest_lts=None, fuse_counts=None, preprocessor=None
+    time_signatures, *, force_rest_lts=None, fuse=False, fuse_counts=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     fuse_counts = fuse_counts or []
     durations = [_.duration for _ in time_signatures]
-    if preprocessor is not None:
-        durations = preprocessor(durations)
+    if fuse is True:
+        durations = baca.sequence.fuse(durations)
     else:
         durations = abjad.sequence.partition_by_counts(
             durations, fuse_counts, cyclic=True, overhang=True
@@ -291,11 +291,11 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     return music
 
 
-def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, preprocessor=None):
+def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, fuse=False):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    if preprocessor is not None:
-        durations = preprocessor(durations)
+    if fuse is True:
+        durations = baca.sequence.fuse(durations)
     else:
         durations = abjad.sequence.partition_by_counts(
             durations, [1, 2], cyclic=True, overhang=True
