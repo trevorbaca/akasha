@@ -85,7 +85,7 @@ def VA(voice, measures):
 def VC(voice, measures):
     music = library.make_ritardando_rhythm(
         measures(1, 2),
-        preprocessor=lambda _: baca.sequence.fuse(_),
+        fuse=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes(measures(3))
