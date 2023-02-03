@@ -83,7 +83,7 @@ def make_accelerando_rhythm(
     fuse_counts = fuse_counts or []
     durations = [_.duration for _ in time_signatures]
     if fuse is True:
-        durations = baca.sequence.fuse(durations)
+        durations = [sum(durations)]
     else:
         durations = abjad.sequence.partition_by_counts(
             durations, fuse_counts, cyclic=True, overhang=True
@@ -129,7 +129,10 @@ def make_dense_getato_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
     durations = abjad.sequence.flatten(durations, depth=-1)
-    durations = baca.sequence.fuse(durations, fuse_counts, cyclic=True)
+    lists = abjad.sequence.partition_by_counts(
+        durations, fuse_counts, cyclic=True, overhang=True
+    )
+    durations = [sum(_) for _ in lists]
     nested_music = rmakers.even_division(
         durations, [16], extra_counts=extra_counts, tag=tag
     )
