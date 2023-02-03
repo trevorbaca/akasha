@@ -16,8 +16,8 @@ def make_empty_score():
         fermata_measures=[3],
         rotation=0,
     )
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def GLOBALS(skips, rests):
@@ -31,25 +31,25 @@ def GLOBALS(skips, rests):
     baca.global_fermata(rests[3 - 1], "very_long")
 
 
-def V1(voice, measures):
-    music = baca.make_mmrests(measures())
+def V1(voice, signatures):
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
-def V2(voice, measures):
-    music = baca.make_mmrests(measures())
+def V2(voice, signatures):
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
-def VA(voice, measures):
-    music = baca.make_repeat_tied_notes(measures(1, 2))
+def VA(voice, signatures):
+    music = baca.make_repeat_tied_notes(signatures(1, 2))
     voice.extend(music)
-    music = baca.make_mmrests(measures(3), head=voice.name)
+    music = baca.make_mmrests(signatures(3), head=voice.name)
     voice.extend(music)
 
 
-def VC(voice, measures):
-    music = baca.make_mmrests(measures())
+def VC(voice, signatures):
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
@@ -97,23 +97,23 @@ def vc(m):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, voices, measures = make_empty_score()
+    score, voices, signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
         manifests=library.manifests,
     )
     GLOBALS(score["Skips"], score["Rests"])
-    V1(score[library.voice_abbreviations["v1"]], measures)
-    V2(score[library.voice_abbreviations["v2"]], measures)
-    VA(score[library.voice_abbreviations["va"]], measures)
-    VC(score[library.voice_abbreviations["vc"]], measures)
+    V1(score[library.voice_abbreviations["v1"]], signatures)
+    V2(score[library.voice_abbreviations["v2"]], signatures)
+    VA(score[library.voice_abbreviations["va"]], signatures)
+    VC(score[library.voice_abbreviations["vc"]], signatures)
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     v1(cache["v1"])
