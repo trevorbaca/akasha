@@ -17,8 +17,8 @@ def make_empty_score():
         fermata_measures=[5, 7, 9],
         rotation=6,
     )
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def GLOBALS(skips, rests):
@@ -42,77 +42,77 @@ def GLOBALS(skips, rests):
     baca.global_fermata(rests[9 - 1], "short")
 
 
-def V1(voice, measures):
+def V1(voice, signatures):
     music = library.make_accelerando_rhythm(
-        measures(1, 3),
+        signatures(1, 3),
         force_rest_lts=~abjad.Pattern([0, 2, 3]),
         fuse_counts=[1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(4, 11), head=voice.name)
+    music = baca.make_mmrests(signatures(4, 11), head=voice.name)
     voice.extend(music)
 
 
-def V2(voice, measures):
-    music = library.make_polyphony_rhythm(measures(1, 3))
+def V2(voice, signatures):
+    music = library.make_polyphony_rhythm(signatures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(measures(4, 9), head=voice.name)
+    music = baca.make_mmrests(signatures(4, 9), head=voice.name)
     voice.extend(music)
     music = library.make_accelerando_rhythm(
-        measures(10, 11),
+        signatures(10, 11),
         force_rest_lts=[3],
         fuse_counts=[2, 1],
     )
     voice.extend(music)
 
 
-def VA(voice, measures):
+def VA(voice, signatures):
     music = library.make_polyphony_rhythm(
-        measures(1, 3),
+        signatures(1, 3),
         force_rest_lts=[0, 1],
         rotation=-2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(4, 10), head=voice.name)
+    music = baca.make_mmrests(signatures(4, 10), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(measures(11))
+    music = baca.make_repeat_tied_notes(signatures(11))
     voice.extend(music)
 
 
-def VC(voice, measures):
+def VC(voice, signatures):
     def get_tuplets(argument, pattern):
         tuplets = abjad.select.tuplets(argument)
         tuplets = abjad.select.get(tuplets, pattern)
         return tuplets
 
     music = library.make_sparse_getato_rhythm(
-        measures(1, 4),
+        signatures(1, 4),
         degree=0,
         extra_counts=[1, 1, 0, 2],
         force_rest_tuplets=~abjad.Pattern([5, -6, -5, -4, -3, -2, -1]),
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(5), head=voice.name)
+    music = baca.make_mmrests(signatures(5), head=voice.name)
     voice.extend(music)
     music = library.make_sparse_getato_rhythm(
-        measures(6),
+        signatures(6),
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-4,
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(7), head=voice.name)
+    music = baca.make_mmrests(signatures(7), head=voice.name)
     voice.extend(music)
     music = library.make_sparse_getato_rhythm(
-        measures(8),
+        signatures(8),
         degree=0,
         extra_counts=[1, 1, 0, 2],
         rotation=-8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(9, 10), head=voice.name)
+    music = baca.make_mmrests(signatures(9, 10), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(measures(11))
+    music = baca.make_repeat_tied_notes(signatures(11))
     voice.extend(music)
 
 
@@ -165,10 +165,10 @@ def vc(m):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, voices, measures = make_empty_score()
+    score, voices, signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -176,10 +176,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"])
-    V1(voices.v1, measures)
-    V2(voices.v2, measures)
-    VA(voices.va, measures)
-    VC(voices.vc, measures)
+    V1(voices.v1, signatures)
+    V2(voices.v2, signatures)
+    VA(voices.va, signatures)
+    VC(voices.vc, signatures)
     for abbreviation in ["v2", "va", "vc"]:
         voice = voices(abbreviation)
         baca.section.append_anchor_note(voice)
@@ -190,7 +190,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     v1(cache["v1"])
