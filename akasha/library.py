@@ -196,7 +196,7 @@ def make_empty_score():
 def make_glissando_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     nested_music = rmakers.tuplet(durations, [(8, 1)], tag=tag)
     music = abjad.sequence.flatten(nested_music, depth=-1)
     rmakers.beam(music)
@@ -208,7 +208,7 @@ def make_growth_rhythm(time_signatures, first_silence, ratio, *, extra_counts=()
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(durations, [(1, 4)], cyclic=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
     duration_lists = abjad.sequence.partition_by_ratio_of_lengths(durations, ratio)
@@ -298,12 +298,12 @@ def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, fuse=False):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     if fuse is True:
-        durations = baca.sequence.fuse(durations)
+        durations = [sum(durations)]
     else:
         durations = abjad.sequence.partition_by_counts(
             durations, [1, 2], cyclic=True, overhang=True
         )
-        durations = [baca.sequence.fuse(_) for _ in durations]
+        durations = [[sum(_)] for _ in durations]
     nested_music = rmakers.accelerando(
         durations,
         [(1, 8), (1, 2), (1, 16)],
@@ -394,7 +394,7 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     durations = [_.duration for _ in time_signatures]
     fractions = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     fractions = abjad.sequence.rotate(fractions, n=rotation)
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(durations, fractions, cyclic=True)
     durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.note(durations, tag=tag)
