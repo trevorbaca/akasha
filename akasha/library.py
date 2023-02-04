@@ -127,7 +127,10 @@ def make_dense_getato_rhythm(
     time_signatures, fuse_counts, extra_counts, *, force_rest_tuplets=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    durations = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
+    durations = [
+        baca.sequence.split([_], [(1, 4)], compound=True, cyclic=True)
+        for _ in time_signatures
+    ]
     durations = abjad.sequence.flatten(durations, depth=-1)
     lists = abjad.sequence.partition_by_counts(
         durations, fuse_counts, cyclic=True, overhang=True
