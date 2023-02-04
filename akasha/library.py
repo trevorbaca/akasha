@@ -43,6 +43,21 @@ def cello_solo_pitches(*, function=None, transposition=None):
         return baca.pitches(pitches)
 
 
+def compound_quarters(time_signatures):
+    durations = []
+    for time_signature in time_signatures:
+        if time_signature.numerator == 6:
+            weights = [(3, 8)]
+        else:
+            weights = [(1, 4)]
+        durations_ = baca.sequence.split(
+            [time_signature.duration], weights, cyclic=True
+        )
+        durations.extend(durations_)
+    durations = abjad.sequence.flatten(durations)
+    return durations
+
+
 def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP, function=None):
     assert function is not None
     start_pitch = abjad.NumberedPitch(start_pitch)
@@ -127,17 +142,7 @@ def make_dense_getato_rhythm(
     time_signatures, fuse_counts, extra_counts, *, force_rest_tuplets=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    durations = []
-    for time_signature in time_signatures:
-        if time_signature.numerator == 6:
-            weights = [(3, 8)]
-        else:
-            weights = [(1, 4)]
-        durations_ = baca.sequence.split(
-            [time_signature.duration], weights, cyclic=True
-        )
-        durations.extend(durations_)
-    durations = abjad.sequence.flatten(durations, depth=-1)
+    durations = compound_quarters(time_signatures)
     lists = abjad.sequence.partition_by_counts(
         durations, fuse_counts, cyclic=True, overhang=True
     )
