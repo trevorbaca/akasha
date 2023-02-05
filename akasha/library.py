@@ -50,8 +50,9 @@ def compound_quarters(time_signatures):
             weights = [(3, 8)]
         else:
             weights = [(1, 4)]
-        durations_ = baca.sequence.split(
-            [time_signature.duration], weights, cyclic=True
+        weights = [abjad.Duration(_) for _ in weights]
+        durations_ = abjad.sequence.split(
+            [time_signature.duration], weights, cyclic=True, overhang=True
         )
         durations.extend(durations_)
     durations = abjad.sequence.flatten(durations)
@@ -223,7 +224,8 @@ def make_growth_rhythm(time_signatures, first_silence, ratio, *, extra_counts=()
     pattern = pattern & abjad.index([0, -1], inverted=True)
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
-    durations = baca.sequence.split(durations, [(1, 4)], cyclic=True)
+    weights = [abjad.Duration(1, 4)]
+    durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
     duration_lists = abjad.sequence.partition_by_ratio_of_lengths(durations, ratio)
     music = []
@@ -406,10 +408,11 @@ def make_untied_notes(time_signatures):
 def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    fractions = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
-    fractions = abjad.sequence.rotate(fractions, n=rotation)
+    pairs = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
+    weights = [abjad.Duration(_) for _ in pairs]
+    weights = abjad.sequence.rotate(weights, n=rotation)
     durations = [sum(durations)]
-    durations = baca.sequence.split(durations, fractions, cyclic=True)
+    durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
