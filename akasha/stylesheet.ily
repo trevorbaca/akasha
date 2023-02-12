@@ -345,27 +345,6 @@ akasha-va-markup = \markup \hcenter-in #12 "Va."
 akasha-cello-markup = \markup \hcenter-in #14 "Cello"
 akasha-vc-markup = \markup \hcenter-in #12 "Vc."
 
-% SCHEME FUNCTIONS
-
-colorSpan =
-#(define-music-function (parser location y-lower y-upper color)
-     (number? number? color?)
-    #{
-      \once\override PhrasingSlur.stencil =
-        $(lambda (grob)
-          (let* (
-            (area (ly:slur::print grob))
-              (X-ext (ly:stencil-extent area X))
-              (Y-ext (ly:stencil-extent area Y)))
-            (set! Y-ext (cons y-lower y-upper))
-            (ly:grob-set-property! grob 'layer -10)
-            (ly:make-stencil (list 'color color
-              (ly:stencil-expr (ly:round-filled-box X-ext Y-ext 0))
-              X-ext Y-ext))))
-      \once\override PhrasingSlur.Y-offset = #0
-      \once\override PhrasingSlur.shorten-pair = #'(-.95 . -1.65)
-    #})
-
 % MATERIAL ANNOTATION
 
 akasha-material-a = \markup
