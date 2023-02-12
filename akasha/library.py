@@ -427,29 +427,28 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
 
 
 def material_annotation_spanner(argument, letter):
-    return
     baca.markup(
         abjad.select.leaf(argument, 0),
         rf"\akasha-material-{letter.lower()}",
     )
     material_to_color = {
-        "A": "0.984 0.945 0.492",
-        "B": "0.980 0.769 0.984",
-        "C": "0.335 0.937 0.597",
-        "D": "0.710 0.878 0.976",
-        "E": "0.865 0.877 0.896",
+        "A": "lightgrey",
+        "B": "lightblue",
+        "C": "lightgreen",
+        "D": "lightpink",
+        "E": "lightskyblue",
     }
     color = material_to_color[letter]
     wrappers = baca.literal(
         abjad.select.leaf(argument, 0),
-        rf"\colorSpan #-4 #4 #(rgb-color {color})",
+        rf"\staffHighlight {color}",
     )
-    baca.tags.wrappers(wrappers, baca.tags.COLORED_PHRASING_SLUR)
-    wrappers = baca.slur(
-        baca.select.rleaves(argument),
-        phrasing_slur=True,
+    baca.tags.wrappers(wrappers, baca.tags.STAFF_HIGHLIGHT)
+    wrappers = baca.literal(
+        baca.select.rleaf(argument, -1),
+        r"\stopStaffHighlight",
     )
-    baca.tags.wrappers(wrappers, baca.tags.COLORED_PHRASING_SLUR)
+    baca.tags.wrappers(wrappers, baca.tags.STAFF_HIGHLIGHT)
 
 
 def moment_markup(moment_tokens):

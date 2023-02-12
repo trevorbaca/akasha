@@ -629,6 +629,9 @@ number.1.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \akasha-va-markup
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightskyblue
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
@@ -688,6 +691,8 @@ number.1.Viola.Music = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-e
       %! baca.markup()
     ^ \akasha-ob-plus-terminate-abruptly-markup
       %! EXPLICIT_INSTRUMENT_ALERT
@@ -759,6 +764,9 @@ number.1.Viola.Music = {
             \once \override Staff.StaffSymbol.line-count = 0
               %! baca._style_fermata_measures(1)
             \startStaff
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
