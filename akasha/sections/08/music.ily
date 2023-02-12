@@ -1190,6 +1190,9 @@ number.8.Violin.1.Music = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \set Staff.shortInstrumentName = \akasha-vn-i-markup
+          %! STAFF_HIGHLIGHT
+          %! baca.literal()
+        \staffHighlight lightgrey
           %! EXPLICIT_STAFF_LINES
           %! baca._reanalyze_reapplied_synthetic_wrappers()
           %! baca._reapply_persistent_indicators(3)
@@ -1243,6 +1246,8 @@ number.8.Violin.1.Music = {
           %! baca._set_status_tag()
         \pp
         % MARKUP:
+          %! baca.markup()
+        ^ \akasha-material-a
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
@@ -1806,6 +1811,14 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 5]
+    % BEFORE:
+    % COMMANDS:
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \stopStaffHighlight
     f''2.
     % AFTER:
     % ARTICULATIONS:
@@ -1823,6 +1836,9 @@ number.8.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \f
+    % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -2200,6 +2216,9 @@ number.8.Violin.1.Music = {
             \once \override Staff.StaffSymbol.line-count = 0
               %! baca._style_fermata_measures(1)
             \startStaff
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -2270,6 +2289,9 @@ number.8.Violin.1.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
       %! baca._style_fermata_measures(3)
     \stopStaff
       %! baca._style_fermata_measures(3)
@@ -2292,6 +2314,9 @@ number.8.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \ppp
+    % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -2337,6 +2362,9 @@ number.8.Violin.1.Music = {
               %! NOTE
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -2447,6 +2475,9 @@ number.8.Violin.2.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
       %! EXPLICIT_STAFF_LINES
       %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
@@ -2504,6 +2535,8 @@ number.8.Violin.2.Music = {
       %! baca.hairpin()
     \ff
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
@@ -3018,6 +3051,9 @@ number.8.Violin.2.Music = {
             \once \override Staff.StaffSymbol.line-count = 0
               %! baca._style_fermata_measures(1)
             \startStaff
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -3081,6 +3117,9 @@ number.8.Violin.2.Music = {
     % [Violin.2.Music measure 15]
     % BEFORE:
     % COMMANDS:
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
       %! baca._style_fermata_measures(3)
     \stopStaff
       %! baca._style_fermata_measures(3)
@@ -3103,6 +3142,9 @@ number.8.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \ppp
+    % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3148,6 +3190,9 @@ number.8.Violin.2.Music = {
               %! NOTE
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -3257,6 +3302,9 @@ number.8.Viola.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-va-markup
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
@@ -3316,6 +3364,8 @@ number.8.Viola.Music = {
       %! baca.hairpin()
     \ff
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -3830,6 +3880,9 @@ number.8.Viola.Music = {
             \once \override Staff.StaffSymbol.line-count = 0
               %! baca._style_fermata_measures(1)
             \startStaff
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -3893,6 +3946,9 @@ number.8.Viola.Music = {
     % [Viola.Music measure 15]
     % BEFORE:
     % COMMANDS:
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightskyblue
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
@@ -3932,6 +3988,8 @@ number.8.Viola.Music = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-e
       %! baca.markup()
     ^ \baca-ob-markup
     % SPANNER_STARTS:
@@ -3993,6 +4051,11 @@ number.8.Viola.Music = {
       %! baca._color_not_yet_pitched()
       %! baca._style_anchor_notes()
     \baca-not-yet-pitched-coloring
+      %! ANCHOR_NOTE
+      %! STAFF_HIGHLIGHT
+      %! baca._style_anchor_notes()
+      %! baca.literal()
+    \stopStaffHighlight
     % OPENING:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -4083,6 +4146,9 @@ number.8.Cello.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vc-markup
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
       %! EXPLICIT_STAFF_LINES
       %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
@@ -4142,6 +4208,8 @@ number.8.Cello.Music = {
       %! baca.hairpin()
     \ff
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -4656,6 +4724,9 @@ number.8.Cello.Music = {
             \once \override Staff.StaffSymbol.line-count = 0
               %! baca._style_fermata_measures(1)
             \startStaff
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -4726,6 +4797,9 @@ number.8.Cello.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
       %! baca._style_fermata_measures(3)
     \stopStaff
       %! baca._style_fermata_measures(3)
@@ -4748,6 +4822,9 @@ number.8.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \ppp
+    % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -4793,6 +4870,9 @@ number.8.Cello.Music = {
               %! NOTE
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t

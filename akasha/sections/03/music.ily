@@ -854,6 +854,9 @@ number.3.Violin.1.Music = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \set Staff.shortInstrumentName = \akasha-vn-i-markup
+          %! STAFF_HIGHLIGHT
+          %! baca.literal()
+        \staffHighlight lightgreen
           %! EXPLICIT_STAFF_LINES
           %! baca._reanalyze_reapplied_synthetic_wrappers()
           %! baca._reapply_persistent_indicators(3)
@@ -911,6 +914,8 @@ number.3.Violin.1.Music = {
           %! baca._set_status_tag()
         \pp
         % MARKUP:
+          %! baca.markup()
+        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"249" #"32"
@@ -1028,6 +1033,9 @@ number.3.Violin.1.Music = {
               %! NOTE
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -1291,6 +1299,9 @@ number.3.Violin.2.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
       %! EXPLICIT_STAFF_LINES
       %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
@@ -1346,6 +1357,8 @@ number.3.Violin.2.Music = {
       %! baca.dynamic()
     \mp
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
@@ -1438,6 +1451,9 @@ number.3.Violin.2.Music = {
               %! NOTE
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -1647,6 +1663,9 @@ number.3.Violin.2.Music = {
         % [Violin.2.Music measure 10]
         % BEFORE:
         % COMMANDS:
+          %! STAFF_HIGHLIGHT
+          %! baca.literal()
+        \staffHighlight lightgreen
           %! baca._style_fermata_measures(3)
         \stopStaff
           %! baca._style_fermata_measures(3)
@@ -1676,6 +1695,8 @@ number.3.Violin.2.Music = {
           %! baca.dynamic()
         \pp
         % MARKUP:
+          %! baca.markup()
+        ^ \akasha-material-c
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"487" #"64"
@@ -1788,6 +1809,11 @@ number.3.Violin.2.Music = {
       %! baca._color_not_yet_pitched()
       %! baca._style_anchor_notes()
     \baca-not-yet-pitched-coloring
+      %! ANCHOR_NOTE
+      %! STAFF_HIGHLIGHT
+      %! baca._style_anchor_notes()
+      %! baca.literal()
+    \stopStaffHighlight
     % OPENING:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -1865,6 +1891,9 @@ number.3.Viola.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-va-markup
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightblue
       %! EXPLICIT_STAFF_LINES
       %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
@@ -1918,6 +1947,8 @@ number.3.Viola.Music = {
       %! baca._set_status_tag()
     \mp
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -2031,6 +2062,9 @@ number.3.Viola.Music = {
               %! NOTE
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -2212,10 +2246,17 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
+    % BEFORE:
+    % COMMANDS:
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightpink
       %! baca.make_repeat_tied_notes()
     ds!2..
     % AFTER:
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-d
       %! baca.markup()
     ^ \baca-tasto-markup
     % ABSOLUTE_BEFORE:
@@ -2246,6 +2287,11 @@ number.3.Viola.Music = {
       %! baca._color_not_yet_pitched()
       %! baca._style_anchor_notes()
     \baca-not-yet-pitched-coloring
+      %! ANCHOR_NOTE
+      %! STAFF_HIGHLIGHT
+      %! baca._style_anchor_notes()
+      %! baca.literal()
+    \stopStaffHighlight
     % OPENING:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -2332,6 +2378,9 @@ number.3.Cello.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vc-markup
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightgrey
       %! EXPLICIT_STAFF_LINES
       %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
@@ -2385,6 +2434,8 @@ number.3.Cello.Music = {
       %! baca._set_status_tag()
     \p
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-a
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -2904,6 +2955,9 @@ number.3.Cello.Music = {
             \once \override Staff.StaffSymbol.line-count = 0
               %! baca._style_fermata_measures(1)
             \startStaff
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -2982,6 +3036,9 @@ number.3.Cello.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
           %! baca._style_fermata_measures(4)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+          %! STAFF_HIGHLIGHT
+          %! baca.literal()
+        \staffHighlight lightgrey
           %! baca._style_fermata_measures(3)
         \stopStaff
           %! baca._style_fermata_measures(3)
@@ -2994,6 +3051,9 @@ number.3.Cello.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
+        % MARKUP:
+          %! baca.markup()
+        ^ \akasha-material-a
         % START_BEAM:
           %! akasha.make_sparse_getato_rhythm()
         [
@@ -3143,6 +3203,9 @@ number.3.Cello.Music = {
             \once \override Staff.StaffSymbol.line-count = 0
               %! baca._style_fermata_measures(1)
             \startStaff
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -3221,6 +3284,9 @@ number.3.Cello.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
           %! baca._style_fermata_measures(4)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+          %! STAFF_HIGHLIGHT
+          %! baca.literal()
+        \staffHighlight lightgrey
           %! baca._style_fermata_measures(3)
         \stopStaff
           %! baca._style_fermata_measures(3)
@@ -3233,6 +3299,9 @@ number.3.Cello.Music = {
         % ARTICULATIONS:
           %! baca.staccato()
         - \staccato
+        % MARKUP:
+          %! baca.markup()
+        ^ \akasha-material-a
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -3354,6 +3423,9 @@ number.3.Cello.Music = {
             \once \override Staff.StaffSymbol.line-count = 0
               %! baca._style_fermata_measures(1)
             \startStaff
+              %! STAFF_HIGHLIGHT
+              %! baca.literal()
+            \stopStaffHighlight
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -3442,6 +3514,11 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 11]
+    % BEFORE:
+    % COMMANDS:
+      %! STAFF_HIGHLIGHT
+      %! baca.literal()
+    \staffHighlight lightpink
       %! baca.make_repeat_tied_notes()
     cs,!2..
     % AFTER:
@@ -3459,6 +3536,8 @@ number.3.Cello.Music = {
       %! baca.dynamic()
     \mp
     % MARKUP:
+      %! baca.markup()
+    ^ \akasha-material-d
       %! baca.markup()
     ^ \baca-tasto-markup
     % ABSOLUTE_BEFORE:
@@ -3489,6 +3568,11 @@ number.3.Cello.Music = {
       %! baca._color_not_yet_pitched()
       %! baca._style_anchor_notes()
     \baca-not-yet-pitched-coloring
+      %! ANCHOR_NOTE
+      %! STAFF_HIGHLIGHT
+      %! baca._style_anchor_notes()
+      %! baca.literal()
+    \stopStaffHighlight
     % OPENING:
     % COMMANDS:
       %! ANCHOR_NOTE
