@@ -1,3135 +1,1946 @@
-  %! baca.path.extern()
 number.7.Skips = {
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! +SECTION
       %! EMPTY_START_BAR
-      %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 3/4
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "44"
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'45'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "1"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "152"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.1]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "21-CAB" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 2]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'49'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "2"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "153"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 3]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 5/4
-      %! baca._make_global_skips(1)
     s1 * 5/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
-      %! baca.span_metronome_marks(1)
     \bacaStopTextSpanMM
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "126"
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'54'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "3"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "154"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.2]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 4]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 3/4
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'56'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "4"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "155"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 5]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 1/4
-      %! baca._make_global_skips(1)
     s1 * 1/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only-fermata "4''"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "5"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "156"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 6]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 3/4
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
-      %! baca.span_metronome_marks(1)
     \bacaStopTextSpanMM
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "55"
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'02'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "6"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "157"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.4]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 7]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 1/4
-      %! baca._make_global_skips(1)
     s1 * 1/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only-fermata "4''"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "7"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "158"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 8]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 3/4
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
-      %! baca.span_metronome_marks(1)
     \bacaStopTextSpanMM
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "89" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "89"
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'09'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "8"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "159"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.6]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 9]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'11'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "9"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "160"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 10]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 1/4
-      %! baca._make_global_skips(1)
     s1 * 1/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only-fermata "4''"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "10"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "161"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 11]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 5/4
-      %! baca._make_global_skips(1)
     s1 * 5/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'18'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "11"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "162"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.8]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "22-CB" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 12]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 6/4
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'21'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "12"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "163"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 13]
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'25'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "13"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "164"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 14]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'29'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "14"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "165"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 15]
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'32'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "15"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "166"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 16]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 6/4
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'35'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "16"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "167"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 17]
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'39'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "17"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "168"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 18]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 5/4
-      %! baca._make_global_skips(1)
     s1 * 5/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'43'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "18"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "169"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 19]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 3/4
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'46'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "19"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "170"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 20]
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'48'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "20"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "171"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 21]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'50'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "21"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "172"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 22]
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'53'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "22"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "173"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 23]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 5/4
-      %! baca._make_global_skips(1)
     s1 * 5/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'56'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "23"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "174"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.9]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "23-B" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 24]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 3/4
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[8'59'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "24"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "175"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 25]
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'01'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "25"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "176"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 26]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 6/4
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'03'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "26"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "177"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 27]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'07'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "27"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "178"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.10]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 28]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 6/4
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'10'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "28"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "179"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 29]
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'14'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "29"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "180"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 30]
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'18'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "30"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "181"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 31]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
-      %! baca.span_metronome_marks(1)
     \bacaStopTextSpanMM
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \tweak bound-details.left.text \markup \concat { \large \upright accel. \hspace #0.5 }
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \tweak bound-details.left.text \markup \concat { \with-color #(x11-color 'blue) \large \upright accel. \hspace #0.5 }
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'22'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "31"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "182"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.11]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 32]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 3/4
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'25'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "32"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "183"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 33]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'27'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "33"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "184"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 34]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 5/4
-      %! baca._make_global_skips(1)
     s1 * 5/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'29'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "34"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "185"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 35]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 1/4
-      %! baca._make_global_skips(1)
     s1 * 1/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
-      %! baca.span_metronome_marks(1)
     \bacaStopTextSpanMM
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "126"
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only-fermata "2''"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "35"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "186"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 36]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 3/4
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'35'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "36"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "187"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.13]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "24-EA" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 37]
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'36'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "37"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "188"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 38]
-      %! baca._make_global_skips(1)
     s1 * 3/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'38'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "38"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "189"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 39]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'39'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "39"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "190"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 40]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 5/4
-      %! baca._make_global_skips(1)
     s1 * 5/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'41'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "40"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "191"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 41]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 4/4
-      %! baca._make_global_skips(1)
     s1 * 4/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'43'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "41"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "192"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 42]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 1/4
-      %! baca._make_global_skips(1)
     s1 * 1/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only-fermata "2''"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "42"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "193"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 43]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 6/4
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
-      %! baca.span_metronome_marks(1)
     \bacaStopTextSpanMM
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "55"
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'47'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "43"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "194"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.15]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 44]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 1/4
-      %! baca._make_global_skips(1)
     s1 * 1/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only-fermata "2''"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "44"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "195"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 45]
-      %! baca.bar_line()
     \bar ".|:"
       %! MEASURE_196
       %! NOT_MOL
-      %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_196
       %! ONLY_MOL
-      %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
-      %! baca.text_script_extra_offset(1)
     \override TextScript.extra-offset = #'(1.5 . 6)
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 6/4
-      %! baca._make_global_skips(1)
     s1 * 6/4
-      %! baca.markup()
     ^ \akasha-repeat-six-markup
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
-      %! baca.span_metronome_marks(1)
     \bacaStopTextSpanMM
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStopTextSpanXNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "126"
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[9'56'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "45"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "196"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.17]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     - \baca-start-xnm-colored-left-only "25-A[E]" #magenta
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
     \bacaStartTextSpanXNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 46]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 1/4
-      %! baca._make_global_skips(1)
     s1 * 1/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only-fermata "1''"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "46"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "197"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-      %! baca.text_script_extra_offset(2)
     \revert TextScript.extra-offset
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 47]
-      %! baca.bar_line()
     \bar ":|."
       %! MEASURE_198
       %! ONLY_MOL
-      %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 6/4
-      %! baca._make_global_skips(1)
     s1 * 6/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
-      %! baca.span_metronome_marks(1)
     \bacaStopTextSpanMM
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-      %! baca.span_metronome_marks(3)
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "55"
       %! EXPLICIT_METRONOME_MARK
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.metronome_mark()
-      %! baca.span_metronome_marks(2)
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[10'00'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "47"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "198"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     - \baca-start-snm-colored-left-only "[07.19]" #darkcyan
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
     \bacaStartTextSpanSNM
 
-      %! baca._comment_measure_numbers()
     % [Skips measure 48]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-      %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
-      %! baca._make_global_skips(2)
-      %! baca._set_status_tag()
     \time 1/4
-      %! baca._make_global_skips(1)
     s1 * 1/4
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% - \baca-start-ct-both-left-fermata "2''" "[10'08'']"
       %! CLOCK_TIME
-      %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "48"
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     \bacaStartTextSpanLMN
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% - \baca-start-mn-left-only "199"
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
 
       %! ANCHOR_SKIP
-      %! baca._comment_measure_numbers()
-      %! baca.style_anchor_skip(1)
     % [anchor skip]
       %! ANCHOR_SKIP
-      %! baca._make_global_skips(3)
     s1 * 1/4
       %! ANCHOR_SKIP
       %! CLOCK_TIME
-      %! baca._label_clock_time()
-      %! baca.style_anchor_skip(1)
     %@% \bacaStopTextSpanCT
       %! ANCHOR_SKIP
       %! LOCAL_MEASURE_NUMBER
-      %! baca._label_measure_numbers()
-      %! baca.style_anchor_skip(1)
     \bacaStopTextSpanLMN
       %! ANCHOR_SKIP
       %! EOS_STOP_MM_SPANNER
-      %! baca.span_metronome_marks(4)
-      %! baca.style_anchor_skip(1)
     \bacaStopTextSpanMM
       %! ANCHOR_SKIP
       %! MEASURE_NUMBER
-      %! baca._label_measure_numbers()
-      %! baca.style_anchor_skip(1)
     %@% \bacaStopTextSpanMN
       %! ANCHOR_SKIP
       %! STAGE_NUMBER
-      %! baca.label_stage_numbers()
-      %! baca.style_anchor_skip(1)
     \bacaStopTextSpanSNM
       %! ANCHOR_SKIP
       %! MOMENT_ANNOTATION_SPANNER
       %! MOMENT_NUMBER
-      %! baca.label_moment_numbers()
-      %! baca.style_anchor_skip(1)
     \bacaStopTextSpanXNM
       %! ANCHOR_SKIP
-      %! baca.style_anchor_skip(3)
     \once \override Score.BarLine.transparent = ##t
       %! ANCHOR_SKIP
-      %! baca.style_anchor_skip(3)
     \once \override Score.SpanBar.transparent = ##t
 
-  %! baca.make_global_context()
-  %! baca.path.extern()
 }
 
 
-  %! baca.path.extern()
 number.7.Rests = {
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 1]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 2]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 3]
-      %! baca._make_global_rests(1)
     R1 * 5/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 4]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 5]
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-      %! baca.global_fermata(2)
     \baca-fermata-measure
-      %! baca._make_global_rests(1)
     R1 * 1/4
-      %! baca.global_fermata(1)
     ^ \baca-long-fermata-markup
       %! FERMATA_MEASURE
       %! MEASURE_156
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.BarLine.transparent = ##t
       %! FERMATA_MEASURE
       %! MEASURE_156
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 6]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 7]
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-      %! baca.global_fermata(2)
     \baca-fermata-measure
-      %! baca._make_global_rests(1)
     R1 * 1/4
-      %! baca.global_fermata(1)
     ^ \baca-long-fermata-markup
       %! FERMATA_MEASURE
       %! MEASURE_158
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.BarLine.transparent = ##t
       %! FERMATA_MEASURE
       %! MEASURE_158
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 8]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 9]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 10]
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-      %! baca.global_fermata(2)
     \baca-fermata-measure
-      %! baca._make_global_rests(1)
     R1 * 1/4
-      %! baca.global_fermata(1)
     ^ \baca-long-fermata-markup
       %! FERMATA_MEASURE
       %! MEASURE_161
-      %! baca._style_fermata_measures(7)
     \once \override Score.BarLine.transparent = ##t
       %! FERMATA_MEASURE
       %! MEASURE_161
-      %! baca._style_fermata_measures(7)
     \once \override Score.SpanBar.transparent = ##t
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 11]
-      %! baca._make_global_rests(1)
     R1 * 5/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 12]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 13]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 14]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 15]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 16]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 17]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 18]
-      %! baca._make_global_rests(1)
     R1 * 5/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 19]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 20]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 21]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 22]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 23]
-      %! baca._make_global_rests(1)
     R1 * 5/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 24]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 25]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 26]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 27]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 28]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 29]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 30]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 31]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 32]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 33]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 34]
-      %! baca._make_global_rests(1)
     R1 * 5/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 35]
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-      %! baca.global_fermata(2)
     \baca-fermata-measure
-      %! baca._make_global_rests(1)
     R1 * 1/4
-      %! baca.global_fermata(1)
     ^ \baca-fermata-markup
       %! FERMATA_MEASURE
       %! MEASURE_186
-      %! baca._style_fermata_measures(7)
     \once \override Score.BarLine.transparent = ##t
       %! FERMATA_MEASURE
       %! MEASURE_186
-      %! baca._style_fermata_measures(7)
     \once \override Score.SpanBar.transparent = ##t
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 36]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 37]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 38]
-      %! baca._make_global_rests(1)
     R1 * 3/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 39]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 40]
-      %! baca._make_global_rests(1)
     R1 * 5/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 41]
-      %! baca._make_global_rests(1)
     R1 * 4/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 42]
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-      %! baca.global_fermata(2)
     \baca-fermata-measure
-      %! baca._make_global_rests(1)
     R1 * 1/4
-      %! baca.global_fermata(1)
     ^ \baca-fermata-markup
       %! FERMATA_MEASURE
       %! MEASURE_193
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.BarLine.transparent = ##t
       %! FERMATA_MEASURE
       %! MEASURE_193
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 43]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 44]
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-      %! baca.global_fermata(2)
     \baca-fermata-measure
-      %! baca._make_global_rests(1)
     R1 * 1/4
-      %! baca.global_fermata(1)
     ^ \baca-fermata-markup
       %! FERMATA_MEASURE
       %! MEASURE_195
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.BarLine.transparent = ##t
       %! FERMATA_MEASURE
       %! MEASURE_195
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 45]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 46]
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-      %! baca.global_fermata(2)
     \baca-fermata-measure
-      %! baca._make_global_rests(1)
     R1 * 1/4
-      %! baca.global_fermata(1)
     ^ \baca-short-fermata-markup
       %! FERMATA_MEASURE
       %! MEASURE_197
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.BarLine.transparent = ##t
       %! FERMATA_MEASURE
       %! MEASURE_197
-      %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 47]
-      %! baca._make_global_rests(1)
     R1 * 6/4
 
-      %! baca._comment_measure_numbers()
     % [Rests measure 48]
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-      %! baca.global_fermata(2)
     \baca-fermata-measure
-      %! baca._make_global_rests(1)
     R1 * 1/4
-      %! baca.global_fermata(1)
     ^ \baca-fermata-markup
       %! FERMATA_MEASURE
       %! MEASURE_199
-      %! baca._style_fermata_measures(7)
     \once \override Score.BarLine.transparent = ##t
       %! FERMATA_MEASURE
       %! MEASURE_199
-      %! baca._style_fermata_measures(7)
     \once \override Score.SpanBar.transparent = ##t
 
-  %! baca.make_global_context()
-  %! baca.path.extern()
 }
 
 
-  %! baca.path.extern()
 number.7.Violin.1.Music = {
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 1]
       %! EXPLICIT_BAR_EXTENT
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vn-i-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vn-i-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \startStaff
       %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests(1)
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     - \tweak color #(x11-color 'green4)
       %! REAPPLIED_DYNAMIC
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \pp
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
     %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \akasha-vn-i-markup
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 2]
-      %! baca.make_mmrests(1)
     R1 * 4/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 3]
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     d'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     ef'''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     e'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 4]
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     e'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     ef'''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     f'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.1.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Music measure 5]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.1.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Rests measure 5]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 6]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 3/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 7]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-      %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -3168,69 +1979,41 @@ number.7.Violin.1.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_accelerando_rhythm()
     \times 1/1
-      %! akasha.make_accelerando_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 8]
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-          %! baca._style_fermata_measures(4)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgreen
-          %! baca._style_fermata_measures(3)
         \stopStaff
-          %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
-          %! baca._style_fermata_measures(3)
         \startStaff
         \once \override Beam.grow-direction = #right
-          %! akasha.make_accelerando_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_accelerando_rhythm()
         ef''!16 * 227/32
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         \baca-pp-ancora
-          %! baca.markup()
         ^ \akasha-material-c
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"227" #"32"
-          %! baca.markup()
         ^ \baca-tasto-plus-xfb-markup
-          %! akasha.make_accelerando_rhythm()
         [
 
-          %! akasha.make_accelerando_rhythm()
         r16 * 199/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"199" #"64"
 
-          %! akasha.make_accelerando_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_accelerando_rhythm()
         f''16 * 115/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"115" #"64"
-          %! akasha.make_accelerando_rhythm()
         ]
 
-      %! akasha.make_accelerando_rhythm()
     }
     \revert TupletNumber.text
 
@@ -3270,365 +2053,223 @@ number.7.Violin.1.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_accelerando_rhythm()
     \times 1/1
-      %! akasha.make_accelerando_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 9]
         \once \override Beam.grow-direction = #left
-          %! akasha.make_accelerando_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_accelerando_rhythm()
         ef''!16 * 109/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"109" #"64"
-          %! akasha.make_accelerando_rhythm()
         [
 
-          %! akasha.make_accelerando_rhythm()
         f''16 * 61/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"61" #"32"
 
-          %! akasha.make_accelerando_rhythm()
         ef''!16 * 163/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"163" #"64"
 
-          %! akasha.make_accelerando_rhythm()
         r16 * 31/8
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"31" #"8"
 
-          %! akasha.make_accelerando_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_accelerando_rhythm()
         f''16 * 191/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"191" #"32"
-          %! akasha.make_accelerando_rhythm()
         ]
 
-      %! akasha.make_accelerando_rhythm()
     }
     \revert TupletNumber.text
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.1.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Music measure 10]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.1.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Rests measure 10]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 11]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightgreen
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_growth_rhythm()
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \pp
-      %! baca.markup()
     ^ \akasha-material-c
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \<
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         ef''4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
         \repeatTie
 
-          %! akasha.make_growth_rhythm()
         r16
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         r8.
 
-          %! akasha.make_growth_rhythm()
         f''8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \>
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     f''4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         f''16
         \repeatTie
 
-          %! akasha.make_growth_rhythm()
         ef''!4
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 12]
-          %! akasha.make_growth_rhythm()
         ef''8.
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
 
-          %! akasha.make_growth_rhythm()
         r8
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         r16
 
-          %! akasha.make_growth_rhythm()
         f''4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         f''4
 
-          %! akasha.make_growth_rhythm()
         ef''!16
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     ef''4
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -3667,347 +2308,201 @@ number.7.Violin.1.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_growth_rhythm()
     \times 1/1
-      %! akasha.make_growth_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 13]
         \once \override Beam.grow-direction = #right
-          %! akasha.make_growth_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_growth_rhythm()
         f''16 * 241/32
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"241" #"32"
-          %! akasha.make_growth_rhythm()
         [
 
-          %! akasha.make_growth_rhythm()
         r16 * 49/8
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"49" #"8"
 
-          %! akasha.make_growth_rhythm()
         ef''!16 * 243/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"243" #"64"
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \>
 
-          %! akasha.make_growth_rhythm()
         f''16 * 165/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"165" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 33/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"33" #"16"
 
-          %! akasha.make_growth_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_growth_rhythm()
         ef''!16 * 61/32
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"61" #"32"
-          %! akasha.make_growth_rhythm()
         ]
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-      %! akasha.make_growth_rhythm()
     }
     \revert TupletNumber.text
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 14]
-      %! akasha.make_growth_rhythm()
     fs''!4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         fs''4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
         \repeatTie
 
-          %! akasha.make_growth_rhythm()
         r16
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         r8.
 
-          %! akasha.make_growth_rhythm()
         ef''!8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \>
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     ef''4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 15]
-          %! akasha.make_growth_rhythm()
         ef''16
         \repeatTie
 
-          %! akasha.make_growth_rhythm()
         fs''!4
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         fs''8.
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
 
-          %! akasha.make_growth_rhythm()
         r8
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 16]
-          %! akasha.make_growth_rhythm()
         r16
 
-          %! akasha.make_growth_rhythm()
         ef''!4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         ef''4
 
-          %! akasha.make_growth_rhythm()
         fs''!16
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     fs''4
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -4048,336 +2543,194 @@ number.7.Violin.1.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_growth_rhythm()
     \times 1/1
-      %! akasha.make_growth_rhythm()
     {
 
         \once \override Beam.grow-direction = #right
-          %! akasha.make_growth_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_growth_rhythm()
         e''16 * 31/4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"31" #"4"
-          %! akasha.make_growth_rhythm()
         [
 
-          %! akasha.make_growth_rhythm()
         r16 * 233/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"233" #"32"
 
-          %! akasha.make_growth_rhythm()
         fs''!16 * 393/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"393" #"64"
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \>
 
-          %! akasha.make_growth_rhythm()
         e''16 * 39/8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"39" #"8"
 
-          %! akasha.make_growth_rhythm()
         r16 * 123/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"123" #"32"
 
-          %! akasha.make_growth_rhythm()
         r16 * 25/8
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"25" #"8"
 
-          %! akasha.make_growth_rhythm()
         fs''!16 * 169/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"169" #"64"
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-          %! akasha.make_growth_rhythm()
         e''16 * 37/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"37" #"16"
 
-          %! akasha.make_growth_rhythm()
         fs''!16 * 135/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"135" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 127/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"127" #"64"
 
-          %! akasha.make_growth_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_growth_rhythm()
         e''16 * 31/16
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"31" #"16"
-          %! akasha.make_growth_rhythm()
         ]
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \>
 
-      %! akasha.make_growth_rhythm()
     }
     \revert TupletNumber.text
 
-      %! akasha.make_growth_rhythm()
     fs''!4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         fs''4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
         \repeatTie
 
-          %! akasha.make_growth_rhythm()
         r16
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         r8.
 
-          %! akasha.make_growth_rhythm()
         e''8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 19]
-      %! akasha.make_growth_rhythm()
     e''4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         e''16
         \repeatTie
 
-          %! akasha.make_growth_rhythm()
         g''4
         ~
 
-      %! akasha.make_growth_rhythm()
     }
 
-      %! akasha.make_growth_rhythm()
     \times 4/5
-      %! akasha.make_growth_rhythm()
     {
 
-          %! akasha.make_growth_rhythm()
         g''8.
-          %! rmakers.beam()
         [
 
-          %! akasha.make_growth_rhythm()
         e''8
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_growth_rhythm()
     }
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -4418,2290 +2771,1365 @@ number.7.Violin.1.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_growth_rhythm()
     \times 1/1
-      %! akasha.make_growth_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 20]
         \once \override Beam.grow-direction = #right
-          %! akasha.make_growth_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_growth_rhythm()
         g''16 * 31/4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"31" #"4"
-          %! akasha.make_growth_rhythm()
         [
 
-          %! akasha.make_growth_rhythm()
         r16 * 233/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"233" #"32"
 
-          %! akasha.make_growth_rhythm()
         e''16 * 393/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"393" #"64"
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \>
 
-          %! akasha.make_growth_rhythm()
         g''16 * 39/8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"39" #"8"
 
-          %! akasha.make_growth_rhythm()
         r16 * 123/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"123" #"32"
 
-          %! akasha.make_growth_rhythm()
         r16 * 25/8
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"25" #"8"
 
-          %! akasha.make_growth_rhythm()
         f''16 * 169/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"169" #"64"
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-          %! akasha.make_growth_rhythm()
         g''16 * 37/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"37" #"16"
 
-          %! akasha.make_growth_rhythm()
         f''16 * 135/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"135" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 127/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"127" #"64"
 
-          %! akasha.make_growth_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_growth_rhythm()
         g''16 * 31/16
           %! REDUNDANT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"31" #"16"
-          %! akasha.make_growth_rhythm()
         ]
 
-      %! akasha.make_growth_rhythm()
     }
     \revert TupletNumber.text
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 23]
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightblue
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \stopStaffHighlight
     e''2.
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \mp
-      %! baca.markup()
     ^ \akasha-material-b
-      %! baca.markup()
     ^ \baca-tasto-plus-half-scratch-markup
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
     e''2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 24]
-      %! baca.make_repeat_tied_notes()
     e''2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 25]
-      %! baca.make_repeat_tied_notes()
     e''2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 26]
-      %! baca.make_repeat_tied_notes()
     e''1.
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 27]
-      %! baca.make_repeat_tied_notes()
     f''1
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \mp
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \abjad-dashed-line-with-arrow
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \baca-text-spanner-right-text "scratch moltiss."
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \<
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 28]
-      %! baca.make_repeat_tied_notes()
     f''1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 29]
-      %! baca.make_repeat_tied_notes()
     f''1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 30]
-      %! baca.make_repeat_tied_notes()
     f''1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 31]
-      %! baca.make_repeat_tied_notes()
     f''1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 32]
-      %! baca.make_repeat_tied_notes()
     f''2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 33]
-      %! baca.make_repeat_tied_notes()
     f''1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 34]
     f''2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
     f''2
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \f
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca.text_spanner()
     \stopTextSpan
     \repeatTie
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.1.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Music measure 35]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.1.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Rests measure 35]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 36]
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-          %! baca._style_fermata_measures(4)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
-          %! baca._style_fermata_measures(3)
         \stopStaff
-          %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
-          %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \ff
-          %! baca.markup()
         ^ \baca-pos-ord-markup
-          %! rmakers.beam()
         [
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 37]
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 39]
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 40]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     c''''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     b'''16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     cs''''!16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 41]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         f''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         fs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         fs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     f''''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     fs''''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     g''''16
-      %! baca.staccato()
     - \staccato
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \fff
-      %! rmakers.beam()
     ]
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.1.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Music measure 42]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.1.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Rests measure 42]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 43]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 6/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 44]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-      %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
-      %! akasha.make_dense_getato_rhythm()
     \times 12/18
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 45]
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-          %! baca._style_fermata_measures(4)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
-          %! baca._style_fermata_measures(3)
         \stopStaff
-          %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
-          %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         \pp
-          %! baca.markup()
         ^ \baca-leggieriss-markup
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_dense_getato_rhythm()
     \times 12/16
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.1.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Music measure 46]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.1.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.1.Rests measure 46]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 47]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 6/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 48]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-      %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
-  %! akasha.make_empty_score()
-  %! baca.path.extern()
 }
 
 
-  %! baca.path.extern()
 number.7.Violin.1.Staff = <<
 
-      %! baca.make_global_context()
     \context GlobalRests = "Rests"
-      %! baca.make_global_context()
-      %! baca.path.extern()
     { \number.7.Rests }
 
-      %! akasha.make_empty_score()
     \context Voice = "Violin.1.Music"
-      %! akasha.make_empty_score()
-      %! baca.path.extern()
     { \number.7.Violin.1.Music }
 
-  %! akasha.make_empty_score()
-  %! baca.path.extern()
 >>
 
 
-  %! baca.path.extern()
 number.7.Violin.2.Music = {
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 1]
-      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vn-ii-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \startStaff
       %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests(1)
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     - \tweak color #(x11-color 'green4)
       %! REAPPLIED_DYNAMIC
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \pp
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
     %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \akasha-vn-ii-markup
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 2]
-      %! baca.make_mmrests(1)
     R1 * 4/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 3]
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/5
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 4]
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.2.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Music measure 5]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.2.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Rests measure 5]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 6]
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 3/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 7]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -6740,72 +4168,43 @@ number.7.Violin.2.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_ritardando_rhythm()
     \times 1/1
-      %! akasha.make_ritardando_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 8]
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgreen
-          %! baca._style_fermata_measures(3)
         \stopStaff
-          %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
-          %! baca._style_fermata_measures(3)
         \startStaff
         \once \override Beam.grow-direction = #left
-          %! akasha.make_ritardando_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_ritardando_rhythm()
         b'16 * 13/8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         \baca-pp-ancora
-          %! baca.markup()
         ^ \akasha-material-c
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
-          %! baca.markup()
         ^ \baca-tasto-plus-xfb-markup
-          %! akasha.make_ritardando_rhythm()
         [
 
-          %! akasha.make_ritardando_rhythm()
         cs''!16 * 125/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"125" #"64"
 
-          %! akasha.make_ritardando_rhythm()
         r16 * 49/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"49" #"16"
 
-          %! akasha.make_ritardando_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_ritardando_rhythm()
         b'16 * 343/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"343" #"64"
-          %! akasha.make_ritardando_rhythm()
         ]
 
-      %! akasha.make_ritardando_rhythm()
     }
     \revert TupletNumber.text
 
@@ -6845,240 +4244,147 @@ number.7.Violin.2.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_ritardando_rhythm()
     \times 1/1
-      %! akasha.make_ritardando_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 9]
         \once \override Beam.grow-direction = #right
-          %! akasha.make_ritardando_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_ritardando_rhythm()
         cs''!16 * 117/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"117" #"16"
-          %! akasha.make_ritardando_rhythm()
         [
 
-          %! akasha.make_ritardando_rhythm()
         r16 * 73/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"73" #"16"
 
-          %! akasha.make_ritardando_rhythm()
         b'16 * 73/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"73" #"32"
 
-          %! akasha.make_ritardando_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_ritardando_rhythm()
         cs''!16 * 59/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"59" #"32"
-          %! akasha.make_ritardando_rhythm()
         ]
 
-      %! akasha.make_ritardando_rhythm()
     }
     \revert TupletNumber.text
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.2.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Music measure 10]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.2.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Rests measure 10]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 11]
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightgreen
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_growth_rhythm()
     b'4
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \pp
-      %! baca.markup()
     ^ \akasha-material-c
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \<
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     b'4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! akasha.make_growth_rhythm()
     b'16
-      %! rmakers.beam()
     [
     \repeatTie
 
-      %! akasha.make_growth_rhythm()
     cs''!8.
-      %! rmakers.beam()
     ]
     ~
 
-      %! akasha.make_growth_rhythm()
     cs''16
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \p
 
-      %! akasha.make_growth_rhythm()
     r8.
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 12]
-      %! akasha.make_growth_rhythm()
     r16
 
-      %! akasha.make_growth_rhythm()
     b'8.
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \p
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -7117,318 +4423,181 @@ number.7.Violin.2.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_growth_rhythm()
     \times 1/1
-      %! akasha.make_growth_rhythm()
     {
 
         \once \override Beam.grow-direction = #right
-          %! akasha.make_growth_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_growth_rhythm()
         cs''!16 * 241/32
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"241" #"32"
-          %! akasha.make_growth_rhythm()
         [
 
-          %! akasha.make_growth_rhythm()
         b'16 * 49/8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"49" #"8"
 
-          %! akasha.make_growth_rhythm()
         r16 * 243/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"243" #"64"
 
-          %! akasha.make_growth_rhythm()
         cs''!16 * 165/64
           %! REDUNDANT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"165" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 33/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"33" #"16"
 
-          %! akasha.make_growth_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_growth_rhythm()
         b'16 * 61/32
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"61" #"32"
-          %! akasha.make_growth_rhythm()
         ]
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \>
 
-      %! akasha.make_growth_rhythm()
     }
     \revert TupletNumber.text
 
-      %! akasha.make_growth_rhythm()
     cs''!4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     cs''4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! akasha.make_growth_rhythm()
     cs''16
-      %! rmakers.beam()
     [
     \repeatTie
 
-      %! akasha.make_growth_rhythm()
     b'8.
-      %! rmakers.beam()
     ]
     ~
 
-      %! akasha.make_growth_rhythm()
     b'16
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \pp
 
-      %! akasha.make_growth_rhythm()
     r8.
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 14]
-      %! akasha.make_growth_rhythm()
     r16
 
-      %! akasha.make_growth_rhythm()
     d''8.
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \pp
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \<
     ~
 
-      %! akasha.make_growth_rhythm()
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \p
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 15]
-      %! akasha.make_growth_rhythm()
     r16
 
-      %! akasha.make_growth_rhythm()
     b'8.
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \p
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \>
     ~
 
-      %! akasha.make_growth_rhythm()
     b'16
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \pp
 
-      %! akasha.make_growth_rhythm()
     r8.
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! akasha.make_growth_rhythm()
     r16
 
-      %! akasha.make_growth_rhythm()
     d''8.
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \pp
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \<
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -7467,300 +4636,173 @@ number.7.Violin.2.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_growth_rhythm()
     \times 1/1
-      %! akasha.make_growth_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 16]
         \once \override Beam.grow-direction = #right
-          %! akasha.make_growth_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_growth_rhythm()
         b'16 * 497/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"497" #"64"
-          %! akasha.make_growth_rhythm()
         [
 
-          %! akasha.make_growth_rhythm()
         d''16 * 59/8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"59" #"8"
 
-          %! akasha.make_growth_rhythm()
         r16 * 51/8
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"51" #"8"
 
-          %! akasha.make_growth_rhythm()
         c''16 * 333/64
           %! REDUNDANT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"333" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 67/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"67" #"16"
 
-          %! akasha.make_growth_rhythm()
         d''16 * 219/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"219" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 185/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"185" #"64"
 
-          %! akasha.make_growth_rhythm()
         c''16 * 5/2
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"5" #"2"
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \>
 
-          %! akasha.make_growth_rhythm()
         d''16 * 9/4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"9" #"4"
 
-          %! akasha.make_growth_rhythm()
         r16 * 133/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"133" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 127/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"127" #"64"
 
-          %! akasha.make_growth_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_growth_rhythm()
         c''16 * 63/32
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"63" #"32"
-          %! akasha.make_growth_rhythm()
         ]
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-      %! akasha.make_growth_rhythm()
     }
     \revert TupletNumber.text
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 18]
-      %! akasha.make_growth_rhythm()
     d''4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_growth_rhythm()
     d''4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! akasha.make_growth_rhythm()
     d''16
-      %! rmakers.beam()
     [
     \repeatTie
 
-      %! akasha.make_growth_rhythm()
     c''8.
-      %! rmakers.beam()
     ]
     ~
 
-      %! akasha.make_growth_rhythm()
     c''16
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \p
 
-      %! akasha.make_growth_rhythm()
     r8.
 
-      %! akasha.make_growth_rhythm()
     r4
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 19]
-      %! akasha.make_growth_rhythm()
     r16
 
-      %! akasha.make_growth_rhythm()
     d''8.
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \p
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \>
     ~
 
-      %! akasha.make_growth_rhythm()
     d''4
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
@@ -7799,2101 +4841,1253 @@ number.7.Violin.2.Music = {
                 ragged-right = ##t
             }
         }
-      %! akasha.make_growth_rhythm()
     \times 1/1
-      %! akasha.make_growth_rhythm()
     {
 
         \once \override Beam.grow-direction = #right
-          %! akasha.make_growth_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! akasha.make_growth_rhythm()
         c''16 * 497/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"497" #"64"
-          %! akasha.make_growth_rhythm()
         [
 
-          %! akasha.make_growth_rhythm()
         ef''!16 * 59/8
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"59" #"8"
 
-          %! akasha.make_growth_rhythm()
         r16 * 51/8
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"51" #"8"
 
-          %! akasha.make_growth_rhythm()
         c''16 * 333/64
           %! REDUNDANT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"333" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 67/16
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"67" #"16"
 
-          %! akasha.make_growth_rhythm()
         ef''!16 * 219/64
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"219" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 185/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"185" #"64"
 
-          %! akasha.make_growth_rhythm()
         c''16 * 5/2
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \pp
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"5" #"2"
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-          %! akasha.make_growth_rhythm()
         ef''!16 * 9/4
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"9" #"4"
 
-          %! akasha.make_growth_rhythm()
         r16 * 133/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"133" #"64"
 
-          %! akasha.make_growth_rhythm()
         r16 * 127/64
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"127" #"64"
 
-          %! akasha.make_growth_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! akasha.make_growth_rhythm()
         cs''!16 * 63/32
           %! REDUNDANT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \p
           %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"63" #"32"
-          %! akasha.make_growth_rhythm()
         ]
 
-      %! akasha.make_growth_rhythm()
     }
     \revert TupletNumber.text
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 23]
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightblue
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \stopStaffHighlight
     fs'!2.
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \mp
-      %! baca.markup()
     ^ \akasha-material-b
-      %! baca.markup()
     ^ \baca-tasto-plus-half-scratch-markup
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
     fs'2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 24]
-      %! baca.make_repeat_tied_notes()
     fs'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 25]
-      %! baca.make_repeat_tied_notes()
     fs'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 26]
-      %! baca.make_repeat_tied_notes()
     fs'1.
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 27]
-      %! baca.make_repeat_tied_notes()
     fs'!1
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \mp
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \abjad-dashed-line-with-arrow
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \baca-text-spanner-right-text "scratch moltiss."
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \<
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 28]
-      %! baca.make_repeat_tied_notes()
     fs'1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 29]
-      %! baca.make_repeat_tied_notes()
     fs'1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 30]
-      %! baca.make_repeat_tied_notes()
     fs'1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 31]
-      %! baca.make_repeat_tied_notes()
     fs'1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 32]
-      %! baca.make_repeat_tied_notes()
     fs'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 33]
-      %! baca.make_repeat_tied_notes()
     fs'1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 34]
     fs'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
     fs'2
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \f
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca.text_spanner()
     \stopTextSpan
     \repeatTie
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.2.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Music measure 35]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.2.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Rests measure 35]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 36]
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
-          %! baca._style_fermata_measures(3)
         \stopStaff
-          %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
-          %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \ff
-          %! baca.markup()
         ^ \baca-pos-ord-markup
-          %! rmakers.beam()
         [
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 37]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 38]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 39]
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 40]
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     a'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     af'''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     bf'''!16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 41]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e''''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \fff
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.2.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Music measure 42]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.2.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Rests measure 42]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 43]
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 6/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 44]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_dense_getato_rhythm()
     \times 12/16
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 45]
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
-          %! baca._style_fermata_measures(3)
         \stopStaff
-          %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
-          %! baca._style_fermata_measures(3)
         \startStaff
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         \pp
-          %! baca.markup()
         ^ \baca-leggieriss-markup
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     fs'''!16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     f'''16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     g'''16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     af'''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     fs'''!16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \times 6/9
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Violin.2.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Music measure 46]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Violin.2.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Violin.2.Rests measure 46]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 47]
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 6/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 48]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-  %! akasha.make_empty_score()
-  %! baca.path.extern()
 }
 
 
-  %! baca.path.extern()
 number.7.Violin.2.Staff = {
 
-      %! akasha.make_empty_score()
     \context Voice = "Violin.2.Music"
-      %! akasha.make_empty_score()
-      %! baca.path.extern()
     { \number.7.Violin.2.Music }
 
-  %! akasha.make_empty_score()
-  %! baca.path.extern()
 }
 
 
-  %! baca.path.extern()
 number.7.Viola.Music = {
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 1]
-      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-va-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-va-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \startStaff
       %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \clef "alto"
       %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! EXPLICIT_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests(1)
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     - \tweak color #(x11-color 'green4)
       %! REAPPLIED_DYNAMIC
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \baca-effort-mf
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
     %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \akasha-va-markup
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
-      %! baca.make_mmrests(1)
     R1 * 4/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! baca.make_mmrests(1)
     R1 * 5/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"5" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! baca.make_mmrests(1)
     R1 * 3/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 5]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(1)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 6]
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightgrey
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes()
     fs!2.
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \ff
-      %! baca.markup()
     ^ \akasha-material-a
-      %! baca.markup()
     ^ \akasha-scratch-moltiss-explanation-markup
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Viola.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Music measure 7]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             c'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Viola.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Rests measure 7]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 8]
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 3/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 9]
-      %! baca.make_mmrests(8)
     R1 * 4/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 10]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightblue
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_manifest_rhythm()
     gs!2
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \mp
-      %! baca.markup()
     ^ \akasha-material-b
-      %! baca.markup()
     ^ \baca-tasto-plus-half-scratch-markup
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! akasha.make_manifest_rhythm()
     gs8.
-      %! akasha.make_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     a16
-      %! akasha.make_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
     a2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 12]
-      %! akasha.make_manifest_rhythm()
     a8
-      %! akasha.make_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     b8
-      %! akasha.make_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
     b2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
     b2.
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 13]
-      %! akasha.make_manifest_rhythm()
     bqf!2
 
     bf!4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
     bf4..
@@ -9903,57 +6097,37 @@ number.7.Viola.Music = {
     ~
 
     c'4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 14]
-      %! akasha.make_manifest_rhythm()
     c'1
     - \tweak direction #up
     \repeatTie
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 15]
-      %! akasha.make_manifest_rhythm()
     c'2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! akasha.make_manifest_rhythm()
     c'16
     \repeatTie
 
-      %! akasha.make_manifest_rhythm()
     cs'!4..
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 16]
-      %! akasha.make_manifest_rhythm()
     cs'1.
     - \tweak direction #up
     \repeatTie
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 17]
-      %! akasha.make_manifest_rhythm()
     cs'4..
     \repeatTie
 
@@ -9961,2611 +6135,1568 @@ number.7.Viola.Music = {
     ~
 
     cqs'4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
     cqs'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 18]
-      %! akasha.make_manifest_rhythm()
     cqs'2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! akasha.make_manifest_rhythm()
     cqs'8.
-      %! akasha.make_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     d'16
-      %! akasha.make_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
     d'2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 19]
-      %! akasha.make_manifest_rhythm()
     d'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 20]
-      %! akasha.make_manifest_rhythm()
     d'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 21]
-      %! akasha.make_manifest_rhythm()
     d'1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 22]
-      %! akasha.make_manifest_rhythm()
     d'1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 23]
     d'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
     d'2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 24]
-      %! akasha.make_manifest_rhythm()
     d'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 25]
-      %! akasha.make_manifest_rhythm()
     d'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 26]
-      %! akasha.make_manifest_rhythm()
     d'1.
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 27]
-      %! baca.make_repeat_tied_notes()
     ds'!1
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \mp
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \abjad-dashed-line-with-arrow
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \baca-text-spanner-right-text "scratch moltiss."
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \<
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 28]
-      %! baca.make_repeat_tied_notes()
     ds'1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 29]
-      %! baca.make_repeat_tied_notes()
     ds'1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 30]
-      %! baca.make_repeat_tied_notes()
     ds'1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 31]
-      %! baca.make_repeat_tied_notes()
     ds'1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 32]
-      %! baca.make_repeat_tied_notes()
     ds'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 33]
-      %! baca.make_repeat_tied_notes()
     ds'1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 34]
     ds'2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
     ds'2
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \f
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca.text_spanner()
     \stopTextSpan
     \repeatTie
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Viola.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Music measure 35]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             c'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Viola.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Rests measure 35]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Viola.Music measure 36]
           %! MEASURE_187
           %! SHIFTED_CLEF
-          %! baca.clef_x_extent_false(1)
     %%% \once \override Staff.Clef.X-extent = ##f
           %! MEASURE_187
           %! SHIFTED_CLEF
-          %! baca.clef_extra_offset(1)
     %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
-          %! baca._style_fermata_measures(3)
         \stopStaff
-          %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
-          %! baca._style_fermata_measures(3)
         \startStaff
           %! EXPLICIT_CLEF
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.clef()
         \clef "treble"
           %! EXPLICIT_CLEF_COLOR
-          %! baca._attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'blue)
           %! EXPLICIT_CLEF_COLOR_CANCELLATION
-          %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.clef()
-          %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
           %! EXPLICIT_CLEF_REDRAW_COLOR
-          %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \ff
-          %! baca.markup()
         ^ \baca-pos-ord-markup
-          %! rmakers.beam()
         [
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Viola.Music measure 37]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! baca._comment_measure_numbers()
         % [Viola.Music measure 38]
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! baca._comment_measure_numbers()
         % [Viola.Music measure 39]
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     fs'''!16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     af'''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     a'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Viola.Music measure 40]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Viola.Music measure 41]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs''''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c''''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \fff
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Viola.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Music measure 42]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Viola.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Rests measure 42]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 43]
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightskyblue
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \startStaff
       %! EXPLICIT_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes()
     b'1.
-      %! baca.down_bow()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \baca-effort-mf
-      %! baca.markup()
     ^ \akasha-material-e
-      %! baca.markup()
     ^ \akasha-ob-plus-terminate-abruptly-markup
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Viola.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Music measure 44]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Viola.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Rests measure 44]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! akasha.make_dense_getato_rhythm()
     \times 12/15
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Viola.Music measure 45]
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
           %! EXPLICIT_STAFF_LINES
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 5
           %! EXPLICIT_STAFF_LINES
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.staff_lines(2)
         \startStaff
           %! EXPLICIT_STAFF_LINES_COLOR
-          %! baca._attach_color_literal(2)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         \pp
-          %! baca.markup()
         ^ \baca-leggieriss-markup
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     d'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     ef'''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     d'''16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     e'''16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     f'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! akasha.make_dense_getato_rhythm()
     \times 6/10
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Viola.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Music measure 46]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Viola.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Rests measure 46]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Viola.Music measure 47]
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightskyblue
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.staff_lines(2)
     \startStaff
       %! EXPLICIT_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes()
     b'1.
-      %! baca.down_bow()
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \baca-effort-mf
-      %! baca.markup()
     ^ \akasha-material-e
-      %! baca.markup()
     ^ \akasha-ob-plus-terminate-abruptly-markup
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Viola.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Music measure 48]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Viola.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Viola.Rests measure 48]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-  %! akasha.make_empty_score()
-  %! baca.path.extern()
 }
 
 
-  %! baca.path.extern()
 number.7.Viola.Staff = {
 
-      %! akasha.make_empty_score()
     \context Voice = "Viola.Music"
-      %! akasha.make_empty_score()
-      %! baca.path.extern()
     { \number.7.Viola.Music }
 
-  %! akasha.make_empty_score()
-  %! baca.path.extern()
 }
 
 
-  %! baca.path.extern()
 number.7.Cello.Music = {
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 1]
       %! MEASURE_152
       %! SHIFTED_CLEF
-      %! baca.clef_x_extent_false(1)
 %%% \once \override Staff.Clef.X-extent = ##f
       %! MEASURE_152
       %! SHIFTED_CLEF
-      %! baca.clef_extra_offset(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! EXPLICIT_BAR_EXTENT
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-vc-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \akasha-vc-markup
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightblue
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca._reanalyze_reapplied_synthetic_wrappers()
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
     \startStaff
       %! EXPLICIT_CLEF
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.clef()
     \clef "bass"
       %! EXPLICIT_CLEF_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.clef()
-      %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.make_cello_solo_rhythm()
     f4..
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \mp
-      %! baca.markup()
     ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
     %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! baca.markup()
     ^ \baca-tasto-plus-half-scratch-markup
       %! EXPLICIT_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \akasha-vc-markup
 
-      %! akasha.make_cello_solo_rhythm()
     gf!16
 
-      %! akasha.make_cello_solo_rhythm()
     gqf!4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! akasha.make_cello_solo_rhythm()
     gqf4.
     \repeatTie
 
-      %! akasha.make_cello_solo_rhythm()
     g8
 
-      %! akasha.make_cello_solo_rhythm()
     df!4..
 
-      %! akasha.make_cello_solo_rhythm()
     c16
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Cello.Music measure 3]
           %! MEASURE_154
           %! SHIFTED_CLEF
-          %! baca.clef_x_extent_false(1)
         \once \override Staff.Clef.X-extent = ##f
           %! MEASURE_154
           %! SHIFTED_CLEF
-          %! baca.clef_extra_offset(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \stopStaffHighlight
           %! EXPLICIT_CLEF
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.clef()
         \clef "treble"
           %! EXPLICIT_CLEF_COLOR
-          %! baca._attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'blue)
           %! EXPLICIT_CLEF_COLOR_CANCELLATION
-          %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.clef()
-          %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
           %! EXPLICIT_CLEF_REDRAW_COLOR
-          %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.dynamic()
         \pp
-          %! baca.markup()
         ^ \baca-leggieriss-markup
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/13
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Cello.Music measure 4]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Cello.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Cello.Music measure 5]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Cello.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Cello.Rests measure 5]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 6]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 3/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-      %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 3/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 9]
-      %! baca.make_mmrests(8)
     R1 * 4/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 10]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-      %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 11]
       %! MEASURE_162
       %! SHIFTED_CLEF
-      %! baca.clef_x_extent_false(1)
 %%% \once \override Staff.Clef.X-extent = ##f
       %! MEASURE_162
       %! SHIFTED_CLEF
-      %! baca.clef_extra_offset(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightblue
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
       %! EXPLICIT_CLEF
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.clef()
     \clef "bass"
       %! EXPLICIT_CLEF_COLOR
-      %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.clef()
-      %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! akasha.make_manifest_rhythm()
     af,!4..
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \mp
-      %! baca.markup()
     ^ \akasha-material-b
-      %! baca.markup()
     ^ \baca-tasto-plus-half-scratch-markup
       %! EXPLICIT_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     g,16
     ~
 
     g,4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
     g,2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 12]
-      %! akasha.make_manifest_rhythm()
     g,2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! akasha.make_manifest_rhythm()
     g,8
     \repeatTie
 
-      %! akasha.make_manifest_rhythm()
     f,2..
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-      %! akasha.make_manifest_rhythm()
     f,1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 14]
-      %! akasha.make_manifest_rhythm()
     f,8.
-      %! akasha.make_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     fqs,!16
-      %! akasha.make_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
     fqs,2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 15]
-      %! akasha.make_manifest_rhythm()
     fqs,16
     \repeatTie
 
-      %! akasha.make_manifest_rhythm()
     fs,!2...
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 16]
-      %! akasha.make_manifest_rhythm()
     fs,2...
     \repeatTie
 
@@ -12573,40 +7704,27 @@ number.7.Cello.Music = {
     ~
 
     e,2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 17]
-      %! akasha.make_manifest_rhythm()
     e,1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 18]
     e,2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
     e,2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 19]
-      %! akasha.make_manifest_rhythm()
     e,4..
     \repeatTie
 
@@ -12614,1605 +7732,963 @@ number.7.Cello.Music = {
     ~
 
     ef,4
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! akasha.make_manifest_rhythm()
     ef,2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 21]
-      %! akasha.make_manifest_rhythm()
     ef,1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 22]
-      %! akasha.make_manifest_rhythm()
     ef,1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 23]
     ef,2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
     ef,2
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 24]
-      %! akasha.make_manifest_rhythm()
     ef,2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 25]
-      %! akasha.make_manifest_rhythm()
     ef,2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! akasha.make_manifest_rhythm()
     ef,1.
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 27]
-      %! baca.make_repeat_tied_notes()
     df,!1
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \mp
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \abjad-dashed-line-with-arrow
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     - \baca-text-spanner-right-text "scratch moltiss."
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! baca.PiecewiseCommand._call(2)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \<
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 28]
-      %! baca.make_repeat_tied_notes()
     df,1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 29]
-      %! baca.make_repeat_tied_notes()
     df,1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 30]
-      %! baca.make_repeat_tied_notes()
     df,1.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 31]
-      %! baca.make_repeat_tied_notes()
     df,1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 32]
-      %! baca.make_repeat_tied_notes()
     df,2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 33]
-      %! baca.make_repeat_tied_notes()
     df,1
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
     \repeatTie
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 34]
     df,2.
-      %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
     ~
     \repeatTie
 
     df,2
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca._set_status_tag()
-      %! baca.hairpin()
     \f
       %! SPANNER_STOP
-      %! baca.PiecewiseCommand._call(3)
-      %! baca.text_spanner()
     \stopTextSpan
     \repeatTie
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Cello.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Cello.Music measure 35]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             d1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Cello.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Cello.Rests measure 35]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Cello.Music measure 36]
           %! MEASURE_187
           %! SHIFTED_CLEF
-          %! baca.clef_x_extent_false(1)
     %%% \once \override Staff.Clef.X-extent = ##f
           %! MEASURE_187
           %! SHIFTED_CLEF
-          %! baca.clef_extra_offset(1)
     %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-          %! baca._style_fermata_measures(4)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-          %! baca.literal()
         \staffHighlight lightgrey
-          %! baca._style_fermata_measures(3)
         \stopStaff
-          %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
-          %! baca._style_fermata_measures(3)
         \startStaff
           %! EXPLICIT_CLEF
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.clef()
         \clef "treble"
           %! EXPLICIT_CLEF_COLOR
-          %! baca._attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'blue)
           %! EXPLICIT_CLEF_COLOR_CANCELLATION
-          %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
-          %! baca._attach_persistent_indicator()
-          %! baca._set_status_tag()
-          %! baca.clef()
-          %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! akasha.make_dense_getato_rhythm()
         r16
-          %! baca.markup()
         ^ \akasha-material-a
           %! EXPLICIT_CLEF_REDRAW_COLOR
-          %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \ff
-          %! baca.markup()
         ^ \baca-pos-ord-markup
-          %! rmakers.beam()
         [
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \<
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         g''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Cello.Music measure 37]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Cello.Music measure 38]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/7
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! baca._comment_measure_numbers()
         % [Cello.Music measure 39]
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     d'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     ef'''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     d'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/14
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! baca._comment_measure_numbers()
         % [Cello.Music measure 40]
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         ef'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/12
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! baca._comment_measure_numbers()
         % [Cello.Music measure 41]
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 4/6
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         e'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     \times 8/11
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         f'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         g'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         fs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a'''16
-          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
-          %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(3)
-          %! baca._set_status_tag()
-          %! baca.hairpin()
         \fff
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Cello.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Cello.Music measure 42]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Cello.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Cello.Rests measure 42]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 43]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 6/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 44]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-      %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 45]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
-      %! baca.literal()
     \staffHighlight lightgrey
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! akasha.make_dense_getato_rhythm()
     r16
-      %! baca.markup()
     ^ \akasha-material-a
 
-      %! akasha.make_dense_getato_rhythm()
     af''!16
-      %! baca.staccato()
     - \staccato
       %! EXPLICIT_DYNAMIC_COLOR
-      %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca._attach_persistent_indicator()
-      %! baca._set_status_tag()
-      %! baca.dynamic()
     \pp
-      %! baca.markup()
     ^ \baca-leggieriss-markup
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     a''16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     af''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     g''16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     fs''!16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! akasha.make_dense_getato_rhythm()
     \times 12/15
-      %! akasha.make_dense_getato_rhythm()
     {
 
-          %! akasha.make_dense_getato_rhythm()
         r16
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         [
 
-          %! akasha.make_dense_getato_rhythm()
         g''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         a''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         af''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         bf''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         c'''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         b''16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         cs'''!16
-          %! baca.staccato()
         - \staccato
 
-          %! akasha.make_dense_getato_rhythm()
         d'''16
-          %! baca.staccato()
         - \staccato
-          %! rmakers.beam()
         ]
 
-      %! akasha.make_dense_getato_rhythm()
     }
 
-      %! akasha.make_dense_getato_rhythm()
     r16
 
-      %! akasha.make_dense_getato_rhythm()
     c'''16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     [
 
-      %! akasha.make_dense_getato_rhythm()
     cs'''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     bf''!16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     b''16
-      %! baca.staccato()
     - \staccato
 
-      %! akasha.make_dense_getato_rhythm()
     bf''!16
-      %! baca.staccato()
     - \staccato
-      %! rmakers.beam()
     ]
 
-      %! baca.make_mmrests(8)
     <<
 
-          %! baca.make_mmrests(5)
         \context Voice = "Cello.Music"
-          %! baca.make_mmrests(5)
         {
 
-              %! baca._comment_measure_numbers()
             % [Cello.Music measure 46]
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
-              %! baca.make_mmrests(4)
             %@% \abjad-invisible-music
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
-              %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
-              %! baca._style_fermata_measures(1)
             \stopStaff
-              %! baca._style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
             \startStaff
               %! STAFF_HIGHLIGHT
-              %! baca.literal()
             \stopStaffHighlight
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
-              %! baca.make_mmrests(2)
             b'1 * 1/4
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-          %! baca.make_mmrests(5)
         }
 
-          %! baca.make_mmrests(7)
         \context Voice = "Cello.Rests"
-          %! baca.make_mmrests(7)
         {
 
-              %! baca._comment_measure_numbers()
             % [Cello.Rests measure 46]
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca.make_mmrests(6)
             R1 * 1/4
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
-              %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-          %! baca.make_mmrests(7)
         }
 
-      %! baca.make_mmrests(8)
     >>
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 47]
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-      %! baca._style_fermata_measures(4)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! baca._style_fermata_measures(3)
     \stopStaff
-      %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
-      %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 6/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
-      %! baca._comment_measure_numbers()
     % [Cello.Music measure 48]
-      %! baca._style_fermata_measures(1)
     \stopStaff
-      %! baca._style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0
-      %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_mmrests(8)
     R1 * 1/4
       %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-      %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-  %! akasha.make_empty_score()
-  %! baca.path.extern()
 }
 
 
-  %! baca.path.extern()
 number.7.Cello.Staff = {
 
-      %! akasha.make_empty_score()
     \context Voice = "Cello.Music"
-      %! akasha.make_empty_score()
-      %! baca.path.extern()
     { \number.7.Cello.Music }
 
-  %! akasha.make_empty_score()
-  %! baca.path.extern()
 }
