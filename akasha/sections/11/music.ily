@@ -1,12 +1,8 @@
   %! baca.path.extern()
 number.11.Skips = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 1]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -20,8 +16,6 @@ number.11.Skips = {
     \time 4/4
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
       %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
@@ -70,13 +64,9 @@ number.11.Skips = {
       %! STAGE_NUMBER
       %! baca.label_stage_numbers()
     %@% \bacaStartTextSpanSNM
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 2]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -86,8 +76,6 @@ number.11.Skips = {
     \time 6/4
       %! baca._make_global_skips(1)
     s1 * 6/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -97,7 +85,6 @@ number.11.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[14'03'']"
@@ -116,15 +103,11 @@ number.11.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 3]
       %! baca._make_global_skips(1)
     s1 * 6/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -134,7 +117,6 @@ number.11.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[14'11'']"
@@ -153,13 +135,9 @@ number.11.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 4]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -169,8 +147,6 @@ number.11.Skips = {
     \time 1/4
       %! baca._make_global_skips(1)
     s1 * 1/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -180,7 +156,6 @@ number.11.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-both-left-fermata "8''" "[14'27'']"
@@ -199,8 +174,6 @@ number.11.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! ANCHOR_SKIP
       %! baca._comment_measure_numbers()
@@ -209,8 +182,6 @@ number.11.Skips = {
       %! ANCHOR_SKIP
       %! baca._make_global_skips(3)
     s1 * 1/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! ANCHOR_SKIP
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -236,17 +207,13 @@ number.11.Skips = {
       %! baca.label_stage_numbers()
       %! baca.style_anchor_skip(1)
     %@% \bacaStopTextSpanSNM
-    % COMMANDS:
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.BarLine.transparent = ##t
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.SpanBar.transparent = ##t
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -254,46 +221,31 @@ number.11.Skips = {
 
   %! baca.path.extern()
 number.11.Rests = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 1]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 2]
       %! baca._make_global_rests(1)
     R1 * 6/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 3]
       %! baca._make_global_rests(1)
     R1 * 6/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 4]
-    % BEFORE:
-    % GROB_OVERRIDES:
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
-    % OPENING:
-    % COMMANDS:
       %! baca.global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
-    % AFTER:
-    % MARKUP:
       %! baca.global_fermata(1)
     ^ \baca-very-long-fermata-markup
-    % COMMANDS:
       %! FERMATA_MEASURE
       %! MEASURE_264
       %! baca._style_fermata_measures(7)
@@ -302,10 +254,7 @@ number.11.Rests = {
       %! MEASURE_264
       %! baca._style_fermata_measures(7)
     \once \override Score.SpanBar.transparent = ##t
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -313,13 +262,9 @@ number.11.Rests = {
 
   %! baca.path.extern()
 number.11.Violin.1.Music = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! EXPLICIT_BAR_EXTENT
       %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
@@ -347,8 +292,6 @@ number.11.Violin.1.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -372,8 +315,6 @@ number.11.Violin.1.Music = {
     \set Staff.forceClef = ##t
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -384,15 +325,12 @@ number.11.Violin.1.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \mf
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -405,25 +343,18 @@ number.11.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \akasha-vn-i-markup
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
       %! akasha.make_scratch_rhythm()
     \times 6/4
       %! akasha.make_scratch_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 2]
           %! akasha.make_scratch_rhythm()
         f'4
-        % AFTER:
-        % ARTICULATIONS:
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
@@ -436,75 +367,47 @@ number.11.Violin.1.Music = {
           %! baca._set_status_tag()
           %! baca.dynamic()
         \ff
-        % MARKUP:
           %! baca.markup()
         ^ \akasha-scratch-moltiss-explanation-markup
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! akasha.make_scratch_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
       %! akasha.make_scratch_rhythm()
     \times 6/4
       %! akasha.make_scratch_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 3]
           %! akasha.make_scratch_rhythm()
         fs'!4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! akasha.make_scratch_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 4]
-    % BEFORE:
-    % COMMANDS:
       %! baca._style_fermata_measures(1)
     \stopStaff
       %! baca._style_fermata_measures(1)
@@ -513,19 +416,13 @@ number.11.Violin.1.Music = {
     \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-    % COMMANDS:
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
       %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
 }
@@ -533,28 +430,19 @@ number.11.Violin.1.Music = {
 
   %! baca.path.extern()
 number.11.Violin.1.Staff = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_global_context()
     \context GlobalRests = "Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
     { \number.11.Rests }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_empty_score()
     \context Voice = "Violin.1.Music"
       %! akasha.make_empty_score()
       %! baca.path.extern()
     { \number.11.Violin.1.Music }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
 >>
@@ -562,23 +450,16 @@ number.11.Violin.1.Staff = <<
 
   %! baca.path.extern()
 number.11.Violin.2.Music = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
       %! akasha.make_scratch_rhythm()
     \times 4/4
       %! akasha.make_scratch_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 1]
-        % BEFORE:
-        % COMMANDS:
           %! baca._clone_section_initial_short_instrument_name()
         \set Staff.instrumentName = \akasha-vn-ii-markup
           %! -PARTS
@@ -601,8 +482,6 @@ number.11.Violin.2.Music = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \startStaff
-        % OPENING:
-        % COMMANDS:
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
@@ -626,8 +505,6 @@ number.11.Violin.2.Music = {
         \set Staff.forceClef = ##t
           %! akasha.make_scratch_rhythm()
         r4
-        % AFTER:
-        % ARTICULATIONS:
           %! REAPPLIED_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! REAPPLIED_DYNAMIC
@@ -638,12 +515,9 @@ number.11.Violin.2.Music = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \mf
-        % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
-        % ABSOLUTE_AFTER:
-        % COMMANDS:
           %! REAPPLIED_CLEF_REDRAW_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -656,23 +530,15 @@ number.11.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(3)
         \set Staff.shortInstrumentName = \akasha-vn-ii-markup
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         a4
-        % AFTER:
-        % ARTICULATIONS:
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
@@ -685,118 +551,74 @@ number.11.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.dynamic()
         \ff
-        % MARKUP:
           %! baca.markup()
         ^ \akasha-scratch-moltiss-explanation-markup
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! akasha.make_scratch_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
       %! akasha.make_scratch_rhythm()
     \times 6/5
       %! akasha.make_scratch_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 2]
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         bf!4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! akasha.make_scratch_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
       %! akasha.make_scratch_rhythm()
     \times 6/7
       %! akasha.make_scratch_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 3]
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         a4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! akasha.make_scratch_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 4]
-    % BEFORE:
-    % COMMANDS:
       %! baca._style_fermata_measures(1)
     \stopStaff
       %! baca._style_fermata_measures(1)
@@ -805,15 +627,10 @@ number.11.Violin.2.Music = {
     \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
 }
@@ -821,19 +638,13 @@ number.11.Violin.2.Music = {
 
   %! baca.path.extern()
 number.11.Violin.2.Staff = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_empty_score()
     \context Voice = "Violin.2.Music"
       %! akasha.make_empty_score()
       %! baca.path.extern()
     { \number.11.Violin.2.Music }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
 }
@@ -841,13 +652,9 @@ number.11.Violin.2.Staff = {
 
   %! baca.path.extern()
 number.11.Viola.Music = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \akasha-va-markup
       %! -PARTS
@@ -870,8 +677,6 @@ number.11.Viola.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -895,8 +700,6 @@ number.11.Viola.Music = {
     \set Staff.forceClef = ##t
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -907,15 +710,12 @@ number.11.Viola.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \mf
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -928,37 +728,25 @@ number.11.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \akasha-va-markup
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
       %! baca.make_mmrests(1)
     R1 * 6/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
       %! baca.make_mmrests(1)
     R1 * 6/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-    % BEFORE:
-    % COMMANDS:
       %! baca._style_fermata_measures(1)
     \stopStaff
       %! baca._style_fermata_measures(1)
@@ -967,15 +755,10 @@ number.11.Viola.Music = {
     \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
 }
@@ -983,19 +766,13 @@ number.11.Viola.Music = {
 
   %! baca.path.extern()
 number.11.Viola.Staff = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_empty_score()
     \context Voice = "Viola.Music"
       %! akasha.make_empty_score()
       %! baca.path.extern()
     { \number.11.Viola.Music }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
 }
@@ -1003,23 +780,16 @@ number.11.Viola.Staff = {
 
   %! baca.path.extern()
 number.11.Cello.Music = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
       %! akasha.make_scratch_rhythm()
     \times 4/3
       %! akasha.make_scratch_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 1]
-        % BEFORE:
-        % COMMANDS:
           %! EXPLICIT_BAR_EXTENT
           %! baca._reanalyze_reapplied_synthetic_wrappers()
           %! baca._reapply_persistent_indicators(3)
@@ -1047,8 +817,6 @@ number.11.Cello.Music = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \startStaff
-        % OPENING:
-        % COMMANDS:
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
@@ -1072,8 +840,6 @@ number.11.Cello.Music = {
         \set Staff.forceClef = ##t
           %! akasha.make_scratch_rhythm()
         r4
-        % AFTER:
-        % ARTICULATIONS:
           %! REAPPLIED_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! REAPPLIED_DYNAMIC
@@ -1084,12 +850,9 @@ number.11.Cello.Music = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \mf
-        % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Cello”)"
-        % ABSOLUTE_AFTER:
-        % COMMANDS:
           %! REAPPLIED_CLEF_REDRAW_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1102,13 +865,9 @@ number.11.Cello.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(3)
         \set Staff.shortInstrumentName = \akasha-vc-markup
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         b,4
-        % AFTER:
-        % ARTICULATIONS:
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
@@ -1121,82 +880,52 @@ number.11.Cello.Music = {
           %! baca._set_status_tag()
           %! baca.dynamic()
         \ff
-        % MARKUP:
           %! baca.markup()
         ^ \akasha-scratch-moltiss-explanation-markup
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! akasha.make_scratch_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
       %! baca.make_mmrests(1)
     R1 * 6/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_scratch_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
       %! akasha.make_scratch_rhythm()
     \times 6/5
       %! akasha.make_scratch_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 3]
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         c4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! akasha.make_scratch_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! akasha.make_scratch_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
-    % BEFORE:
-    % COMMANDS:
       %! baca._style_fermata_measures(1)
     \stopStaff
       %! baca._style_fermata_measures(1)
@@ -1205,19 +934,13 @@ number.11.Cello.Music = {
     \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-    % COMMANDS:
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
       %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
 }
@@ -1225,19 +948,13 @@ number.11.Cello.Music = {
 
   %! baca.path.extern()
 number.11.Cello.Staff = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! akasha.make_empty_score()
     \context Voice = "Cello.Music"
       %! akasha.make_empty_score()
       %! baca.path.extern()
     { \number.11.Cello.Music }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! akasha.make_empty_score()
   %! baca.path.extern()
 }
