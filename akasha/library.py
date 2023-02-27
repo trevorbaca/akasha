@@ -229,7 +229,8 @@ def make_growth_rhythm(time_signatures, first_silence, ratio, *, extra_counts=()
             tuplets = rmakers.accelerando(
                 [duration], [(1, 2), (1, 8), (1, 16)], tag=tag
             )
-            voice = rmakers.wrap_in_time_signature_staff(tuplets, [duration])
+            time_signatures = [abjad.TimeSignature(duration)]
+            voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
             rmakers.force_rest(
                 abjad.select.get(baca.select.lts(voice), pattern),
                 tag=tag,
@@ -241,7 +242,8 @@ def make_growth_rhythm(time_signatures, first_silence, ratio, *, extra_counts=()
             tuplets = rmakers.talea(
                 duration_list, [9, 4, 8, 7], 16, extra_counts=extra_counts, tag=tag
             )
-            voice = rmakers.wrap_in_time_signature_staff(tuplets, duration_list)
+            time_signatures = [abjad.TimeSignature(_) for _ in duration_list]
+            voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
             rmakers.force_rest(
                 abjad.select.get(baca.select.lts(voice), pattern),
                 tag=tag,
@@ -405,7 +407,8 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations)
     lists = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
+    components = abjad.sequence.flatten(lists)
+    voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     leaves = abjad.select.leaves(voice)
     leaves = abjad.select.get(leaves, [0, -1])
     rmakers.force_rest(leaves, tag=tag)
