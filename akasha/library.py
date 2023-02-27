@@ -299,7 +299,7 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     rmakers.beam(voice)
     rmakers.trivialize(voice)
     rmakers.extract_trivial(voice)
-    rmakers.rewrite_meter(voice)
+    rmakers.rewrite_meter(voice, tag=tag)
     rmakers.force_repeat_tie(voice, threshold=(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
@@ -379,7 +379,7 @@ def make_sparse_getato_rhythm(
     rmakers.beam(voice, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.extract_trivial(voice)
-    rmakers.rewrite_meter(voice)
+    rmakers.rewrite_meter(voice, tag=tag)
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -389,7 +389,7 @@ def make_untied_notes(time_signatures):
     durations = [_.duration for _ in time_signatures]
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
-    rmakers.rewrite_meter(voice)
+    rmakers.rewrite_meter(voice, tag=tag)
     rmakers.beam(baca.select.plts(voice))
     rmakers.untie(voice)
     components = abjad.mutate.eject_contents(voice)
