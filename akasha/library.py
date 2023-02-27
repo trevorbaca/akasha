@@ -387,8 +387,7 @@ def make_sparse_getato_rhythm(
 def make_untied_notes(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    lists = rmakers.note(durations, tag=tag)
-    components = abjad.sequence.flatten(lists, depth=-1)
+    components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.rewrite_meter(voice)
     rmakers.beam(baca.select.plts(voice))
@@ -406,8 +405,7 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     durations = [sum(durations)]
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations)
-    lists = rmakers.note(durations, tag=tag)
-    components = abjad.sequence.flatten(lists)
+    components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     leaves = abjad.select.leaves(voice)
     leaves = abjad.select.get(leaves, [0, -1])
