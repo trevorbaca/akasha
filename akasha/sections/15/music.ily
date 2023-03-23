@@ -1011,7 +1011,6 @@ number.15.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-pp-ancora
         ^ \baca-leggieriss-markup
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         e'''32
@@ -1019,7 +1018,6 @@ number.15.Violin.2.Music = {
 
         f'''32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r16

@@ -5698,12 +5698,10 @@ number.7.Viola.Music = {
     ~
 
     gs8.
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     a16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -5713,12 +5711,10 @@ number.7.Viola.Music = {
 
     % [Viola.Music measure 12]
     a8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     b8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -5796,12 +5792,10 @@ number.7.Viola.Music = {
     \repeatTie
 
     cqs'8.
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -7321,12 +7315,10 @@ number.7.Cello.Music = {
 
     % [Cello.Music measure 14]
     f,8.
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     fqs,!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
