@@ -491,13 +491,12 @@ def stage_markup(section_number, stage_tokens):
 
 def time_signatures(series, *, count=None, fermata_measures=None, rotation=None):
     series = _time_signature_series()[series]
-    maker = baca.TimeSignatureMaker(
+    time_signatures = baca.make_time_signatures(
         series,
-        count=count,
+        count,
         fermata_measures=fermata_measures,
         rotation=rotation,
     )
-    time_signatures = maker.run()
     return time_signatures
 
 
