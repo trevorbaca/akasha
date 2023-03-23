@@ -1455,7 +1455,6 @@ number.2.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
         \p
         ^ \akasha-material-a
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b32
@@ -1463,7 +1462,6 @@ number.2.Violin.2.Music = {
 
         bf!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8.
@@ -1477,12 +1475,10 @@ number.2.Violin.2.Music = {
 
         a32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         af!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -2123,7 +2119,6 @@ number.2.Viola.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \p
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         a32
@@ -2131,7 +2126,6 @@ number.2.Viola.Music = {
 
         bf!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r16
@@ -2333,14 +2327,12 @@ number.2.Viola.Music = {
     \repeatTie
 
     dqs'!8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     ~
 
     dqs'8
 
     ds'!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2748,14 +2740,12 @@ number.2.Cello.Music = {
     \repeatTie
 
     g8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     ~
 
     g8
 
     a8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2830,12 +2820,10 @@ number.2.Cello.Music = {
     \repeatTie
 
     b8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     ~
 
     b8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -2930,12 +2918,10 @@ number.2.Cello.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \p
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         cs'!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8

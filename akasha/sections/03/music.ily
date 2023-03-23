@@ -1172,7 +1172,6 @@ number.3.Cello.Music = {
 
         b32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         bf!32
@@ -1186,7 +1185,6 @@ number.3.Cello.Music = {
 
         af!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         a32
@@ -1205,7 +1203,6 @@ number.3.Cello.Music = {
 
         bf!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         af!32
@@ -1216,7 +1213,6 @@ number.3.Cello.Music = {
 
         fs!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r32
@@ -1230,7 +1226,6 @@ number.3.Cello.Music = {
 
         g32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f32
@@ -1247,19 +1242,16 @@ number.3.Cello.Music = {
 
         g32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     fs!32
     - \staccato
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g32
     - \staccato
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -1268,12 +1260,10 @@ number.3.Cello.Music = {
 
     af!32
     - \staccato
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a32
     - \staccato
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -1281,7 +1271,6 @@ number.3.Cello.Music = {
 
         g32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         af!32
@@ -1298,7 +1287,6 @@ number.3.Cello.Music = {
 
         f32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -1390,7 +1378,6 @@ number.3.Cello.Music = {
 
         e32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d32
@@ -1401,7 +1388,6 @@ number.3.Cello.Music = {
 
         ef!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r32

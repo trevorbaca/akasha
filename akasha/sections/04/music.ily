@@ -3091,12 +3091,10 @@ number.4.Cello.Music = {
         \p
         ^ \akasha-material-a
         ^ \baca-leggieriss-markup
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         c32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8..
@@ -3110,7 +3108,6 @@ number.4.Cello.Music = {
 
         cs!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d32
@@ -3133,7 +3130,6 @@ number.4.Cello.Music = {
 
         bf,!32
         - \staccato
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
