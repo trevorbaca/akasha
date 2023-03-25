@@ -376,10 +376,11 @@ def make_sparse_getato_rhythm(
         tuplets = baca.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         rmakers.force_rest(tuplets, tag=tag)
-    rmakers.beam(voice, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
-    rmakers.extract_trivial(voice)
+    rmakers.extract_rest_filled(voice)
     rmakers.rewrite_meter(voice, tag=tag)
+    rmakers.beam(voice, tag=tag)
+    rmakers.extract_trivial(voice)
     components = abjad.mutate.eject_contents(voice)
     return components
 

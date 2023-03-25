@@ -1163,9 +1163,11 @@ number.3.Cello.Music = {
 
     c'32
     - \staccato
+    [
 
     bf!32
     - \staccato
+    ]
 
     \times 4/5
     {
@@ -1185,7 +1187,6 @@ number.3.Cello.Music = {
 
         af!32
         - \staccato
-        ]
 
         a32
         - \staccato
@@ -1254,9 +1255,7 @@ number.3.Cello.Music = {
     - \staccato
     ]
 
-    r16
-
-    r16
+    r8
 
     af!32
     - \staccato
