@@ -490,10 +490,10 @@ def stage_markup(section_number, stage_tokens):
     return stage_markup
 
 
-def time_signatures(series, *, count=None, fermata_measures=None, rotation=None):
-    series = _time_signature_series()[series]
+def time_signatures(series, *, count=0, fermata_measures=None, rotation=0):
+    lists = _time_signature_series()[series]
     time_signatures = baca.make_time_signatures(
-        series,
+        lists,
         count,
         fermata_measures=fermata_measures,
         rotation=rotation,
