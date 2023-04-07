@@ -1198,8 +1198,8 @@ number.10.Rests = {
     R1 * 4/4
 
     % [Rests measure 3]
-    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     R1 * 1/4
     ^ \baca-fermata-markup
       %! FERMATA_MEASURE
@@ -1279,8 +1279,8 @@ number.10.Rests = {
     R1 * 3/4
 
     % [Rests measure 27]
-    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     R1 * 1/4
     ^ \baca-short-fermata-markup
       %! FERMATA_MEASURE
@@ -1297,8 +1297,8 @@ number.10.Rests = {
     R1 * 4/4
 
     % [Rests measure 30]
-    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     R1 * 1/4
     ^ \baca-short-fermata-markup
       %! FERMATA_MEASURE
@@ -1327,8 +1327,8 @@ number.10.Rests = {
     R1 * 6/4
 
     % [Rests measure 37]
-    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     \baca-fermata-measure
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 4.5)
     R1 * 1/4
     ^ \baca-very-long-fermata-markup
       %! FERMATA_MEASURE
@@ -1344,9 +1344,19 @@ number.10.Rests = {
 number.10.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
     \override TextSpanner.staff-padding = 4
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \akasha-vn-i-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -1361,16 +1371,6 @@ number.10.Violin.1.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     b''1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2144,13 +2144,13 @@ number.10.Violin.1.Music = {
         % [Violin.1.Music measure 28]
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        \override Staff.Stem.stemlet-length = 0.75
           %! STAFF_HIGHLIGHT
         \staffHighlight lightgreen
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
         ds'!16 * 227/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2180,8 +2180,8 @@ number.10.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 29]
-        \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
         es'!16 * 109/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"109" #"64"
@@ -2443,7 +2443,17 @@ number.10.Violin.1.Staff = <<
 number.10.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
     \override TextSpanner.staff-padding = 4
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \akasha-vn-ii-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -2458,16 +2468,6 @@ number.10.Violin.2.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     atqs!1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3104,13 +3104,13 @@ number.10.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 28]
+        \override Staff.Stem.stemlet-length = 0.75
           %! STAFF_HIGHLIGHT
         \staffHighlight lightgreen
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
         d'16 * 13/8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3144,8 +3144,8 @@ number.10.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 29]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
         d'16 * 117/16
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"117" #"16"
@@ -3391,7 +3391,17 @@ number.10.Violin.2.Staff = {
 number.10.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
     \override TextSpanner.staff-padding = 4
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \akasha-va-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -3406,16 +3416,6 @@ number.10.Viola.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "alto"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     bqs,!1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -4013,13 +4013,13 @@ number.10.Viola.Music = {
     {
 
         % [Viola.Music measure 28]
+        \override Staff.Stem.stemlet-length = 0.75
           %! STAFF_HIGHLIGHT
         \staffHighlight lightgreen
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
         cs'!16 * 487/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4283,9 +4283,19 @@ number.10.Viola.Staff = {
 number.10.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
     \override TextSpanner.staff-padding = 4
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \akasha-vc-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -4300,16 +4310,6 @@ number.10.Cello.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "bass"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     b,,1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -4989,13 +4989,13 @@ number.10.Cello.Music = {
         % [Cello.Music measure 28]
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        \override Staff.Stem.stemlet-length = 0.75
           %! STAFF_HIGHLIGHT
         \staffHighlight lightgreen
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
         c'16 * 117/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
