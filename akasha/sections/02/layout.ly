@@ -24,8 +24,6 @@
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #16
               %! BREAK
-            \noBreak
-              %! BREAK
             \pageBreak
             s1 * 3/4
               %! SPACING
@@ -170,8 +168,6 @@
             \baca-new-spacing-section #1 #16
               %! BREAK
             \break
-              %! BREAK
-            \noBreak
             s1 * 6/4
               %! SPACING
             %@% \bacaStopTextSpanSPM
