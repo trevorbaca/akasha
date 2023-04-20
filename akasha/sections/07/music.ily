@@ -1973,11 +1973,11 @@ number.7.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"199" #"64"
 
-        \revert Staff.Stem.stemlet-length
         f''16 * 115/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"115" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -2006,11 +2006,11 @@ number.7.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"31" #"8"
 
-        \revert Staff.Stem.stemlet-length
         f''16 * 191/32
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"191" #"32"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -2258,7 +2258,6 @@ number.7.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"33" #"16"
 
-        \revert Staff.Stem.stemlet-length
         ef''!16 * 61/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2277,6 +2276,7 @@ number.7.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -2496,7 +2496,6 @@ number.7.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"127" #"64"
 
-        \revert Staff.Stem.stemlet-length
         e''16 * 31/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2515,6 +2514,7 @@ number.7.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -2688,7 +2688,6 @@ number.7.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"127" #"64"
 
-        \revert Staff.Stem.stemlet-length
         g''16 * 31/16
           %! REDUNDANT_DYNAMIC_COLOR
           %! REDUNDANT_DYNAMIC
@@ -2700,6 +2699,7 @@ number.7.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"31" #"16"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -3985,11 +3985,11 @@ number.7.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"49" #"16"
 
-        \revert Staff.Stem.stemlet-length
         b'16 * 343/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"343" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -4014,11 +4014,11 @@ number.7.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"73" #"32"
 
-        \revert Staff.Stem.stemlet-length
         cs''!16 * 59/32
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"59" #"32"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -4179,7 +4179,6 @@ number.7.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"33" #"16"
 
-        \revert Staff.Stem.stemlet-length
         b'16 * 61/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4198,6 +4197,7 @@ number.7.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -4410,7 +4410,6 @@ number.7.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"127" #"64"
 
-        \revert Staff.Stem.stemlet-length
         c''16 * 63/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4429,6 +4428,7 @@ number.7.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -4579,7 +4579,6 @@ number.7.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"127" #"64"
 
-        \revert Staff.Stem.stemlet-length
         cs''!16 * 63/32
           %! REDUNDANT_DYNAMIC_COLOR
           %! REDUNDANT_DYNAMIC
@@ -4591,6 +4590,7 @@ number.7.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"63" #"32"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text

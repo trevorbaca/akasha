@@ -483,11 +483,11 @@ number.3.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"179" #"64"
 
-        \revert Staff.Stem.stemlet-length
         e''16 * 131/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"131" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -810,11 +810,11 @@ number.3.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"65" #"32"
 
-        \revert Staff.Stem.stemlet-length
         bf'!16 * 61/32
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"61" #"32"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
