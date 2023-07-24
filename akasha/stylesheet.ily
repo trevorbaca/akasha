@@ -131,7 +131,9 @@
     % causes programming error: cyclic dependency: calculation-in-progress
     % encountered for VerticalAxisGroup.adjacent-pure-heights:
     % \consists Bar_number_engraver
-    \consists Mark_engraver
+    % causes programming error: cyclic dependency: calculation-in-progress
+    % encountered for VerticalAxisGroup.adjacent-pure-heights:
+    % \consists Mark_engraver
     % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
     \consists Staff_collecting_engraver
     \consists Time_signature_engraver
