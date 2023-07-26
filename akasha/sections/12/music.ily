@@ -10,13 +10,13 @@ number.12.Skips = {
     \time 4/8
     s1 * 4/8
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'green4
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "44"
       %! REAPPLIED_METRONOME_MARK
@@ -1366,13 +1366,13 @@ number.12.Skips = {
       %! STAGE_NUMBER
     %@% \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \tweak bound-details.left.text \markup \concat { \large \upright rit. \hspace #0.5 }
       %! EXPLICIT_METRONOME_MARK
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \tweak bound-details.left.text \markup \concat { \with-color #(x11-color 'blue) \large \upright rit. \hspace #0.5 }
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1469,13 +1469,13 @@ number.12.Skips = {
       %! STAGE_NUMBER
     %@% \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "38" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "38"
       %! EXPLICIT_METRONOME_MARK
@@ -2197,7 +2197,7 @@ number.12.Violin.1.Music = {
     % [Violin.1.Music measure 5]
     a''4.
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -2235,7 +2235,7 @@ number.12.Violin.1.Music = {
     % [Violin.1.Music measure 9]
     a''2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -2273,7 +2273,7 @@ number.12.Violin.1.Music = {
     % [Violin.1.Music measure 13]
     a''2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -2316,7 +2316,7 @@ number.12.Violin.1.Music = {
     % [Violin.1.Music measure 17]
     a''2.
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -2364,7 +2364,7 @@ number.12.Violin.1.Music = {
     % [Violin.1.Music measure 21]
     a''2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -2409,7 +2409,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \ff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -2491,7 +2491,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO senza vib."
       %! SPANNER_START
@@ -2554,7 +2554,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -2598,7 +2598,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO"
       %! SPANNER_START
@@ -2650,7 +2650,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -2710,7 +2710,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -2890,7 +2890,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \sf
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -2949,7 +2949,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -2996,7 +2996,7 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \stopTrillSpan
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -3190,7 +3190,7 @@ number.12.Violin.2.Music = {
     % [Violin.2.Music measure 5]
     gtqs'4.
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -3228,7 +3228,7 @@ number.12.Violin.2.Music = {
     % [Violin.2.Music measure 9]
     gtqs'2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -3266,7 +3266,7 @@ number.12.Violin.2.Music = {
     % [Violin.2.Music measure 13]
     gtqs'2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -3309,7 +3309,7 @@ number.12.Violin.2.Music = {
     % [Violin.2.Music measure 17]
     gtqs'2.
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -3357,7 +3357,7 @@ number.12.Violin.2.Music = {
     % [Violin.2.Music measure 21]
     gtqs'2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -3402,7 +3402,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \ff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -3480,7 +3480,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO senza vib."
       %! SPANNER_START
@@ -3543,7 +3543,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -3587,7 +3587,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO"
       %! SPANNER_START
@@ -3639,7 +3639,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -3695,7 +3695,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -3867,7 +3867,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \sf
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -3926,7 +3926,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -3973,7 +3973,7 @@ number.12.Violin.2.Music = {
       %! SPANNER_STOP
     \stopTrillSpan
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -4162,7 +4162,7 @@ number.12.Viola.Music = {
     % [Viola.Music measure 5]
     aqs,4.
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -4200,7 +4200,7 @@ number.12.Viola.Music = {
     % [Viola.Music measure 9]
     aqs,2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -4238,7 +4238,7 @@ number.12.Viola.Music = {
     % [Viola.Music measure 13]
     aqs,2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -4281,7 +4281,7 @@ number.12.Viola.Music = {
     % [Viola.Music measure 17]
     aqs,2.
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -4329,7 +4329,7 @@ number.12.Viola.Music = {
     % [Viola.Music measure 21]
     aqs,2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -4374,7 +4374,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \ff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -4452,7 +4452,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO senza vib."
       %! SPANNER_START
@@ -4515,7 +4515,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -4559,7 +4559,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO"
       %! SPANNER_START
@@ -4611,7 +4611,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -4667,7 +4667,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -4848,7 +4848,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \sf
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -4907,7 +4907,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -4954,7 +4954,7 @@ number.12.Viola.Music = {
       %! SPANNER_STOP
     \stopTrillSpan
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -5142,7 +5142,7 @@ number.12.Cello.Music = {
     % [Cello.Music measure 5]
     a,,4.
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -5180,7 +5180,7 @@ number.12.Cello.Music = {
     % [Cello.Music measure 9]
     a,,2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -5218,7 +5218,7 @@ number.12.Cello.Music = {
     % [Cello.Music measure 13]
     a,,2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -5261,7 +5261,7 @@ number.12.Cello.Music = {
     % [Cello.Music measure 17]
     a,,2.
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -5309,7 +5309,7 @@ number.12.Cello.Music = {
     % [Cello.Music measure 21]
     a,,2..
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -5354,7 +5354,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \ff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "trans."
       %! SPANNER_START
@@ -5436,7 +5436,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO senza vib."
       %! SPANNER_START
@@ -5499,7 +5499,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -5543,7 +5543,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO"
       %! SPANNER_START
@@ -5595,7 +5595,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -5655,7 +5655,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \baca-sffp
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -5847,7 +5847,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \sf
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
@@ -5906,7 +5906,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \fff
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "XP"
       %! SPANNER_START
@@ -5953,7 +5953,7 @@ number.12.Cello.Music = {
       %! SPANNER_STOP
     \stopTrillSpan
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "pos. ord."
       %! SPANNER_START
