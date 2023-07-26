@@ -21,7 +21,7 @@ def make_empty_score():
 
 
 def GLOBALS(skips, rests):
-    baca.metronome_mark(skips[1 - 1], "44", library.manifests)
+    baca.metronome_mark(skips[1 - 1], "44", manifests=library.manifests)
     moment_tokens = ((1, 2 + 1, "E"),)
     moment_markup = library.moment_markup(moment_tokens)
     baca.section.label_moment_numbers(skips, moment_markup)

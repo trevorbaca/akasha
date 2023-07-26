@@ -30,7 +30,7 @@ def GLOBALS(skips, rests):
     )
     for index, item in ((1 - 1, "89"),):
         skip = skips[index]
-        baca.metronome_mark(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, manifests=library.manifests)
     baca.bar_line(skips[25 - 1], "|.")
     stage_markup = (
         ("[N.1]", 1),

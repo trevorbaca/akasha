@@ -29,7 +29,7 @@ def GLOBALS(skips, rests):
         (27 - 1, "44"),
     ):
         skip = skips[index]
-        baca.metronome_mark(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, manifests=library.manifests)
     stage_markup = (
         ("[M.1]", 1),
         ("[M.2]", 7),

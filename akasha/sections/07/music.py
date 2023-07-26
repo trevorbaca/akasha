@@ -59,7 +59,7 @@ def GLOBALS(skips, rests, first_measure_number):
         (47 - 1, "55"),
     ):
         skip = skips[index]
-        baca.metronome_mark(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, manifests=library.manifests)
     baca.markup(skips[45 - 1], r"\akasha-repeat-six-markup")
     baca.text_script_extra_offset(skips[45 - 1 : 47 - 1], (1.5, 6))
     baca.open_volta(skips[45 - 1], first_measure_number)
