@@ -23,7 +23,7 @@ def make_empty_score():
 def GLOBALS(skips, rests):
     for index, item in ((1 - 1, "55"),):
         skip = skips[index]
-        baca.metronome_mark(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, manifests=library.manifests)
     stage_markup = (
         ("[L.1]", 1),
         ("[L.3]", 3),

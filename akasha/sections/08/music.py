@@ -35,7 +35,7 @@ def GLOBALS(skips, rests):
         (17 - 1, "89"),
     ):
         skip = skips[index]
-        baca.metronome_mark(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, manifests=library.manifests)
     moment_tokens = (
         (26, 4, "AB"),
         (27, 9 + 1, "B"),
