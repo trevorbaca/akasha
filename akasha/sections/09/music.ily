@@ -24,7 +24,7 @@ number.9.Skips = {
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "89" #'green4
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "89" #(x11-color 'green4)
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
@@ -99,7 +99,7 @@ number.9.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -168,7 +168,7 @@ number.9.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'blue
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -362,7 +362,7 @@ number.9.Violin.1.Music = {
         d'16 * 117/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
         ^ \akasha-material-c
@@ -442,7 +442,7 @@ number.9.Violin.1.Music = {
     fs''!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
     ^ \akasha-material-b
@@ -569,7 +569,7 @@ number.9.Violin.2.Music = {
         cs'!16 * 109/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
         ^ \akasha-material-c
@@ -649,7 +649,7 @@ number.9.Violin.2.Music = {
     af'!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
     ^ \akasha-material-b
@@ -842,7 +842,7 @@ number.9.Viola.Music = {
 
         % [Viola.Music measure 5]
           %! EXPLICIT_STAFF_LINES_COLOR
-        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+        \once \override Staff.StaffSymbol.color = #blue
           %! STAFF_HIGHLIGHT
         \staffHighlight lightpink
           %! EXPLICIT_STAFF_LINES
@@ -855,7 +855,7 @@ number.9.Viola.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
@@ -864,7 +864,7 @@ number.9.Viola.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -874,7 +874,7 @@ number.9.Viola.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \pp
@@ -976,7 +976,7 @@ number.9.Cello.Music = {
         c'16 * 119/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
         ^ \akasha-material-c
@@ -1043,7 +1043,7 @@ number.9.Cello.Music = {
     cs,!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
     ^ \akasha-material-b
@@ -1110,7 +1110,7 @@ number.9.Cello.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
@@ -1119,7 +1119,7 @@ number.9.Cello.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1129,7 +1129,7 @@ number.9.Cello.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \pp

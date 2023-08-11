@@ -17,7 +17,7 @@ number.5.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -856,7 +856,7 @@ number.5.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'blue
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -1015,7 +1015,7 @@ number.5.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -1272,7 +1272,7 @@ number.5.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'blue
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -1660,7 +1660,7 @@ number.5.Violin.1.Music = {
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! SPANNER_START
     \ottava 1
     \override NoteHead.style = #'harmonic
@@ -1688,7 +1688,7 @@ number.5.Violin.1.Music = {
     cs''''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
     ^ \akasha-fifth-degree-of-a-four-plus-vib-mod-markup
@@ -1927,7 +1927,7 @@ number.5.Violin.1.Music = {
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
     ^ \akasha-material-e
@@ -2463,7 +2463,7 @@ number.5.Violin.2.Music = {
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
     ^ \akasha-material-e
@@ -2815,7 +2815,7 @@ number.5.Violin.2.Music = {
     g''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
     ^ \akasha-material-c
@@ -3005,7 +3005,7 @@ number.5.Viola.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_62
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
@@ -3035,7 +3035,7 @@ number.5.Viola.Music = {
     gqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
     ^ \akasha-material-d
@@ -3437,7 +3437,7 @@ number.5.Viola.Music = {
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_94
       %! SHIFTED_CLEF
     \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
@@ -3456,7 +3456,7 @@ number.5.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \sf
@@ -3465,7 +3465,7 @@ number.5.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -3492,7 +3492,7 @@ number.5.Viola.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \ppp
@@ -3555,7 +3555,7 @@ number.5.Viola.Music = {
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-ppp-ancora
     ^ \akasha-material-e
@@ -3738,7 +3738,7 @@ number.5.Cello.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_62
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
@@ -3770,7 +3770,7 @@ number.5.Cello.Music = {
     d''4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
     ^ \akasha-eleventh-degree-of-a-one-plus-vib-mod-markup
@@ -4076,7 +4076,7 @@ number.5.Cello.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_85
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
@@ -4098,7 +4098,7 @@ number.5.Cello.Music = {
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
     ^ \akasha-material-e
@@ -4209,7 +4209,7 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \sf
@@ -4218,7 +4218,7 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4236,7 +4236,7 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ppp
@@ -4308,7 +4308,7 @@ number.5.Cello.Music = {
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-ppp-ancora
     ^ \akasha-material-e
@@ -4389,7 +4389,7 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \sf
@@ -4398,7 +4398,7 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4445,7 +4445,7 @@ number.5.Cello.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \ppp

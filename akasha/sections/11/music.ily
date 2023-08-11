@@ -17,7 +17,7 @@ number.11.Skips = {
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #'green4
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "44" #(x11-color 'green4)
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
@@ -220,7 +220,7 @@ number.11.Violin.1.Music = {
         f'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \ff
         ^ \akasha-scratch-moltiss-explanation-markup
@@ -324,7 +324,7 @@ number.11.Violin.2.Music = {
         a4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \ff
         ^ \akasha-scratch-moltiss-explanation-markup
@@ -510,7 +510,7 @@ number.11.Cello.Music = {
         b,4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \ff
         ^ \akasha-scratch-moltiss-explanation-markup

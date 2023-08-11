@@ -17,7 +17,7 @@ number.3.Skips = {
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #'green4
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "55" #(x11-color 'green4)
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
@@ -656,7 +656,7 @@ number.3.Violin.2.Music = {
     ds'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
     ^ \akasha-material-b
@@ -786,7 +786,7 @@ number.3.Violin.2.Music = {
         c''16 * 487/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
         ^ \akasha-material-c
@@ -1553,7 +1553,7 @@ number.3.Cello.Music = {
     cs,!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
     ^ \akasha-material-d
