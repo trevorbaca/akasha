@@ -4,7 +4,7 @@ number.12.Skips = {
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
       %! RED_START_BAR
@@ -45,7 +45,7 @@ number.12.Skips = {
 
     % [Skips measure 2]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 8/8
     s1 * 8/8
@@ -70,7 +70,7 @@ number.12.Skips = {
 
     % [Skips measure 3]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -116,7 +116,7 @@ number.12.Skips = {
 
     % [Skips measure 5]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -147,7 +147,7 @@ number.12.Skips = {
 
     % [Skips measure 6]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -172,7 +172,7 @@ number.12.Skips = {
 
     % [Skips measure 7]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -197,7 +197,7 @@ number.12.Skips = {
 
     % [Skips measure 8]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/8
     s1 * 6/8
@@ -222,7 +222,7 @@ number.12.Skips = {
 
     % [Skips measure 9]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -274,7 +274,7 @@ number.12.Skips = {
 
     % [Skips measure 11]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -299,7 +299,7 @@ number.12.Skips = {
 
     % [Skips measure 12]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -324,7 +324,7 @@ number.12.Skips = {
 
     % [Skips measure 13]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -355,7 +355,7 @@ number.12.Skips = {
 
     % [Skips measure 14]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -380,7 +380,7 @@ number.12.Skips = {
 
     % [Skips measure 15]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/8
     s1 * 6/8
@@ -405,7 +405,7 @@ number.12.Skips = {
 
     % [Skips measure 16]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -430,7 +430,7 @@ number.12.Skips = {
 
     % [Skips measure 17]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -461,7 +461,7 @@ number.12.Skips = {
 
     % [Skips measure 18]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -486,7 +486,7 @@ number.12.Skips = {
 
     % [Skips measure 19]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 8/8
     s1 * 8/8
@@ -511,7 +511,7 @@ number.12.Skips = {
 
     % [Skips measure 20]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -536,7 +536,7 @@ number.12.Skips = {
 
     % [Skips measure 21]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -588,7 +588,7 @@ number.12.Skips = {
 
     % [Skips measure 23]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -613,7 +613,7 @@ number.12.Skips = {
 
     % [Skips measure 24]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/8
     s1 * 6/8
@@ -638,7 +638,7 @@ number.12.Skips = {
 
     % [Skips measure 25]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -690,7 +690,7 @@ number.12.Skips = {
 
     % [Skips measure 27]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -715,7 +715,7 @@ number.12.Skips = {
 
     % [Skips measure 28]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 8/8
     s1 * 8/8
@@ -740,7 +740,7 @@ number.12.Skips = {
 
     % [Skips measure 29]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
     s1 * 1/4
@@ -765,7 +765,7 @@ number.12.Skips = {
 
     % [Skips measure 30]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -797,7 +797,7 @@ number.12.Skips = {
 
     % [Skips measure 31]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -822,7 +822,7 @@ number.12.Skips = {
 
     % [Skips measure 32]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 8/8
     s1 * 8/8
@@ -847,7 +847,7 @@ number.12.Skips = {
 
     % [Skips measure 33]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -893,7 +893,7 @@ number.12.Skips = {
 
     % [Skips measure 35]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -945,7 +945,7 @@ number.12.Skips = {
 
     % [Skips measure 37]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -970,7 +970,7 @@ number.12.Skips = {
 
     % [Skips measure 38]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/8
     s1 * 6/8
@@ -995,7 +995,7 @@ number.12.Skips = {
 
     % [Skips measure 39]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -1020,7 +1020,7 @@ number.12.Skips = {
 
     % [Skips measure 40]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
     s1 * 1/4
@@ -1045,7 +1045,7 @@ number.12.Skips = {
 
     % [Skips measure 41]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -1076,7 +1076,7 @@ number.12.Skips = {
 
     % [Skips measure 42]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -1122,7 +1122,7 @@ number.12.Skips = {
 
     % [Skips measure 44]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -1147,7 +1147,7 @@ number.12.Skips = {
 
     % [Skips measure 45]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -1172,7 +1172,7 @@ number.12.Skips = {
 
     % [Skips measure 46]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
     s1 * 1/4
@@ -1197,7 +1197,7 @@ number.12.Skips = {
 
     % [Skips measure 47]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/8
     s1 * 6/8
@@ -1228,7 +1228,7 @@ number.12.Skips = {
 
     % [Skips measure 48]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -1280,7 +1280,7 @@ number.12.Skips = {
 
     % [Skips measure 50]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -1305,7 +1305,7 @@ number.12.Skips = {
 
     % [Skips measure 51]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 8/8
     s1 * 8/8
@@ -1336,7 +1336,7 @@ number.12.Skips = {
 
     % [Skips measure 52]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -1401,7 +1401,7 @@ number.12.Skips = {
 
     % [Skips measure 54]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -1426,7 +1426,7 @@ number.12.Skips = {
 
     % [Skips measure 55]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
     s1 * 1/4
@@ -1451,7 +1451,7 @@ number.12.Skips = {
 
     % [Skips measure 56]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
     \bar ".|:"
       %! MEASURE_320
       %! NOT_MOL
@@ -1504,7 +1504,7 @@ number.12.Skips = {
 
     % [Skips measure 57]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/8
     s1 * 6/8
@@ -1529,7 +1529,7 @@ number.12.Skips = {
 
     % [Skips measure 58]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 7/8
     s1 * 7/8
@@ -1554,7 +1554,7 @@ number.12.Skips = {
 
     % [Skips measure 59]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -1579,7 +1579,7 @@ number.12.Skips = {
 
     % [Skips measure 60]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -1605,7 +1605,7 @@ number.12.Skips = {
 
     % [Skips measure 61]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
     \bar ":|."
       %! MEASURE_325
       %! ONLY_MOL
@@ -1640,7 +1640,7 @@ number.12.Skips = {
 
     % [Skips measure 62]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -1665,7 +1665,7 @@ number.12.Skips = {
 
     % [Skips measure 63]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -1696,7 +1696,7 @@ number.12.Skips = {
 
     % [Skips measure 64]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/8
     s1 * 3/8
@@ -1721,7 +1721,7 @@ number.12.Skips = {
 
     % [Skips measure 65]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 9/8
     s1 * 9/8
@@ -1767,7 +1767,7 @@ number.12.Skips = {
 
     % [Skips measure 67]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/8
     s1 * 4/8
@@ -1792,7 +1792,7 @@ number.12.Skips = {
 
     % [Skips measure 68]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 8/8
     s1 * 8/8
@@ -1817,7 +1817,7 @@ number.12.Skips = {
 
     % [Skips measure 69]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
+    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
     s1 * 1/4
