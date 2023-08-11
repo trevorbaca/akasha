@@ -23,3 +23,5 @@
   oddFooterMarkup = \evenFooterMarkup
   print-first-page-number = ##t
 }
+
+\layout { \context { \Score barNumberVisibility = #all-bar-numbers-visible } }
