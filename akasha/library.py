@@ -373,7 +373,7 @@ def make_sparse_getato_rhythm(
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
-        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         rmakers.force_rest(tuplets, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
