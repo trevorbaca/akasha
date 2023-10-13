@@ -29,7 +29,7 @@ def GLOBALS(skips, rests, first_measure_number):
         baca.metronome_mark(skip, item, manifests=library.manifests)
     baca.markup(skips[30 - 1], r"\akasha-repeat-six-markup")
     baca.markup(skips[56 - 1], r"\akasha-repeat-six-markup")
-    baca.text_script_extra_offset(skips[56 - 1 : 61 - 1], (1.5, 6))
+    baca.override.text_script_extra_offset(skips[56 - 1 : 61 - 1], (1.5, 6))
     baca.open_volta(skips[56 - 1], first_measure_number)
     baca.close_volta(skips[61 - 1], first_measure_number)
     stage_markup = (
@@ -210,7 +210,7 @@ def _1_68(m):
         baca.hairpin(o.leaves()[:-1], "sffp > pp")
         baca.text_spanner(o.leaves()[:-1], "pos. ord. => XT")
     with baca.scope(m[1, 46]) as o:
-        baca.text_spanner_staff_padding(o, 4)
+        baca.override.text_spanner_staff_padding(o, 4)
     with baca.scope(m[56, 60]) as o:
         baca.hairpin(o.leaves()[:3], "sf < fff")
         baca.hairpin(o.leaves()[-2:], "fff > f")
@@ -229,7 +229,7 @@ def v1(m):
     baca.pitch(m[41, 52], "A5")
     with baca.scope(m[53, 68]) as o:
         baca.pitch(o, "B7")
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[53, 54]) as o:
         baca.ottava(o.tleaves())
         baca.hairpin(o, "sffp < f")
@@ -237,8 +237,8 @@ def v1(m):
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup")
     with baca.scope(m[56, 68]) as o:
         baca.ottava(o.tleaves())
-        baca.ottava_bracket_staff_padding(o, 12)
-    baca.text_spanner_staff_padding(m[56, 69], 9.5)
+        baca.override.ottava_bracket_staff_padding(o, 12)
+    baca.override.text_spanner_staff_padding(m[56, 69], 9.5)
 
 
 def v2(m):
@@ -246,7 +246,7 @@ def v2(m):
     baca.pitches(m[30, 39], "A4 G#+4")
     baca.pitch(m[41, 50], "A4")
     with baca.scope(m[51, 68]) as o:
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitch(o, "C#7")
     with baca.scope(m[51, 54]) as o:
         baca.ottava(o.tleaves())
@@ -255,8 +255,8 @@ def v2(m):
         baca.hairpin(o.leaves()[:4], "sffp < f")
     with baca.scope(m[56, 68]) as o:
         baca.ottava(o.tleaves())
-        baca.ottava_bracket_staff_padding(o, 10)
-    baca.text_spanner_staff_padding(m[56, 69], 7.5)
+        baca.override.ottava_bracket_staff_padding(o, 10)
+    baca.override.text_spanner_staff_padding(m[56, 69], 7.5)
 
 
 def va(m):
@@ -271,8 +271,8 @@ def va(m):
         baca.hairpin(o.leaves()[:4], "sffp < f")
     with baca.scope(m[49, 68]) as o:
         baca.pitch(o, "G~5")
-        baca.note_head_style_harmonic(o.pleaves())
-    baca.text_spanner_staff_padding(m[56, 69], 7)
+        baca.override.note_head_style_harmonic(o.pleaves())
+    baca.override.text_spanner_staff_padding(m[56, 69], 7)
 
 
 def vc(m):
@@ -281,14 +281,14 @@ def vc(m):
     baca.pitch(m[41, 45], "A1")
     with baca.scope(m[47, 68]) as o:
         baca.pitch(o, "D5")
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[47, 54]) as o:
         baca.clef(o.leaf(0), "treble")
         baca.trill_spanner(o.rleak())
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup")
     with baca.scope(m[47, 50]) as o:
         baca.hairpin(o.leaves()[:4], "sffp < f")
-    baca.text_spanner_staff_padding(m[56, 69], 5)
+    baca.override.text_spanner_staff_padding(m[56, 69], 5)
 
 
 @baca.build.timed("make_score")

@@ -392,7 +392,7 @@ def composites(cache):
     ):
         library.material_annotation_spanner(leaves, "B")
     for abbreviation in ["v1", "v2", "va", "vc"]:
-        baca.text_spanner_staff_padding(cache[abbreviation].leaves(), 4)
+        baca.override.text_spanner_staff_padding(cache[abbreviation].leaves(), 4)
 
 
 @baca.build.timed("make_score")
