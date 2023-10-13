@@ -151,7 +151,7 @@ def vc(m):
             library.material_annotation_spanner(o, "A")
     with baca.scope(m[1, 8]) as o:
         library.getato_pitches(-2, [-3], direction=abjad.DOWN, function=o)
-        baca.beam_positions(o, -4)
+        baca.override.beam_positions(o, -4)
         baca.staccato(
             baca.select.pheads(o, exclude=baca.enums.HIDDEN),
         )
