@@ -236,7 +236,7 @@ def v1(m):
         runs = baca.select.runs(o, exclude=baca.enums.HIDDEN)
         for run in runs:
             baca.ottava(run)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "mp")
         baca.markup(o.pleaf(0), r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup")
     with baca.scope(m[19, 46]) as o:
@@ -245,7 +245,7 @@ def v1(m):
             rotation = -6 * i
             library.harmonic_glissando_pitches("A4", function=run, rotation=rotation)
             baca.glissando(run)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "ppp")
         baca.markup(
             o.pleaf(0), r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"
@@ -259,7 +259,7 @@ def v2(m):
             rotation = -6 * i
             library.harmonic_glissando_pitches("A4", function=run, rotation=rotation)
             baca.glissando(run)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "ppp")
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
     with baca.scope(m[38, 46]) as o:
@@ -280,7 +280,7 @@ def va(m):
         baca.markup(o.pleaf(0), r"\akasha-seventh-degree-of-a-two-plus-vib-mod-markup")
     with baca.scope(m[1, 31]) as o:
         baca.pitch(o, "Gqf5")
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[33, 36]) as o:
         baca.clef(o.leaf(0), "alto"),
         baca.pitches(o, "Fb3 E3 D#3 C#3 B#2", exact=True)
@@ -294,7 +294,7 @@ def va(m):
             rotation = -6 * i
             library.harmonic_glissando_pitches("Ab3", function=run, rotation=rotation)
             baca.glissando(run)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "ppp-ancora")
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
 
@@ -303,13 +303,13 @@ def vc(m):
     with baca.scope(m[1, 22]) as o:
         baca.clef(o.leaf(0), "treble")
         baca.pitch(o, "D5")
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "mp")
         baca.markup(o.pleaf(0), r"\akasha-eleventh-degree-of-a-one-plus-vib-mod-markup")
     with baca.scope(m[24, 31]) as o:
         baca.clef(o.leaf(0), "bass")
         library.harmonic_glissando_pitches("G2", function=o)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.glissando(o)
         baca.dynamic(o.pleaf(0), "ppp")
         baca.markup(
@@ -321,7 +321,7 @@ def vc(m):
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
     with baca.scope(m[38, 41]) as o:
         library.harmonic_glissando_pitches("G2", function=o, rotation=-6)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.glissando(o)
         baca.dynamic(o.pleaf(0), "ppp-ancora")
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")

@@ -155,7 +155,7 @@ def vc(m):
         baca.staccato(
             baca.select.pheads(o, exclude=baca.enums.HIDDEN),
         )
-        baca.tuplet_bracket_staff_padding(o, 2)
+        baca.override.tuplet_bracket_staff_padding(o, 2)
     with baca.scope(m[11]) as o:
         library.material_annotation_spanner(o, "D")
         baca.pitches(o, "C#2")
