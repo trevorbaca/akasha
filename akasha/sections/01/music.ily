@@ -148,6 +148,8 @@ number.1.Rests = {
 number.1.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -178,8 +180,6 @@ number.1.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "treble"
     R1 * 3/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
@@ -225,6 +225,8 @@ number.1.Violin.1.Staff = <<
 number.1.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -252,8 +254,6 @@ number.1.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "treble"
     R1 * 3/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
@@ -294,6 +294,8 @@ number.1.Violin.2.Staff = {
 number.1.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -323,8 +325,6 @@ number.1.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "alto"
     c'4.
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -409,6 +409,8 @@ number.1.Viola.Staff = {
 number.1.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -439,8 +441,6 @@ number.1.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "bass"
     R1 * 3/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"

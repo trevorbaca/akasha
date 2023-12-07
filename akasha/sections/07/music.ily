@@ -1659,6 +1659,8 @@ number.7.Rests = {
 number.7.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1681,8 +1683,6 @@ number.7.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3673,6 +3673,8 @@ number.7.Violin.1.Staff = <<
 number.7.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3693,8 +3695,6 @@ number.7.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -5541,6 +5541,8 @@ number.7.Violin.2.Staff = {
 number.7.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "alto"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -5561,8 +5563,6 @@ number.7.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "alto"
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -5993,6 +5993,8 @@ number.7.Viola.Music = {
     {
 
         % [Viola.Music measure 36]
+          %! EXPLICIT_CLEF
+        \clef "treble"
           %! MEASURE_187
           %! SHIFTED_CLEF
     %%% \once \override Staff.Clef.X-extent = ##f
@@ -6010,8 +6012,6 @@ number.7.Viola.Music = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-          %! EXPLICIT_CLEF
-        \clef "treble"
         r16
         ^ \akasha-material-a
           %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -6881,6 +6881,8 @@ number.7.Viola.Staff = {
 number.7.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_152
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -6911,8 +6913,6 @@ number.7.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "bass"
     f4..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -6951,6 +6951,8 @@ number.7.Cello.Music = {
     {
 
         % [Cello.Music measure 3]
+          %! EXPLICIT_CLEF
+        \clef "treble"
           %! MEASURE_154
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -6967,8 +6969,6 @@ number.7.Cello.Music = {
         \staffHighlight lightgrey
           %! STAFF_HIGHLIGHT
         \stopStaffHighlight
-          %! EXPLICIT_CLEF
-        \clef "treble"
         r16
         ^ \akasha-material-a
           %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -7255,6 +7255,8 @@ number.7.Cello.Music = {
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     % [Cello.Music measure 11]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_162
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -7274,8 +7276,6 @@ number.7.Cello.Music = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "bass"
     af,!4..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -7559,6 +7559,8 @@ number.7.Cello.Music = {
     {
 
         % [Cello.Music measure 36]
+          %! EXPLICIT_CLEF
+        \clef "treble"
           %! MEASURE_187
           %! SHIFTED_CLEF
     %%% \once \override Staff.Clef.X-extent = ##f
@@ -7578,8 +7580,6 @@ number.7.Cello.Music = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-          %! EXPLICIT_CLEF
-        \clef "treble"
         r16
         ^ \akasha-material-a
           %! EXPLICIT_CLEF_REDRAW_COLOR

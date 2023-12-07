@@ -330,6 +330,8 @@ number.9.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -357,8 +359,6 @@ number.9.Violin.1.Music = {
           %! REAPPLIED_STAFF_LINES
         \startStaff
         \once \override Beam.grow-direction = #right
-          %! REAPPLIED_CLEF
-        \clef "treble"
         d'16 * 117/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -540,6 +540,8 @@ number.9.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -564,8 +566,6 @@ number.9.Violin.2.Music = {
           %! REAPPLIED_STAFF_LINES
         \startStaff
         \once \override Beam.grow-direction = #left
-          %! REAPPLIED_CLEF
-        \clef "treble"
         cs'!16 * 109/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -734,6 +734,8 @@ number.9.Violin.2.Staff = {
 number.9.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "alto"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -756,8 +758,6 @@ number.9.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "alto"
     c'1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -944,6 +944,8 @@ number.9.Cello.Music = {
     {
 
         % [Cello.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "bass"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -971,8 +973,6 @@ number.9.Cello.Music = {
           %! REAPPLIED_STAFF_LINES
         \startStaff
         \once \override Beam.grow-direction = #left
-          %! REAPPLIED_CLEF
-        \clef "bass"
         c'16 * 119/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
