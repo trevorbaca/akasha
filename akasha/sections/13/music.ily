@@ -256,6 +256,8 @@ number.13.Rests = {
 number.13.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -278,8 +280,6 @@ number.13.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -360,6 +360,8 @@ number.13.Violin.1.Staff = <<
 number.13.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -380,8 +382,6 @@ number.13.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -451,6 +451,8 @@ number.13.Violin.2.Staff = {
 number.13.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_334
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -477,8 +479,6 @@ number.13.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "alto"
     c'1
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -547,6 +547,8 @@ number.13.Viola.Staff = {
 number.13.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -569,8 +571,6 @@ number.13.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -620,6 +620,8 @@ number.13.Cello.Music = {
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     % [Cello.Music measure 5]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_338
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -637,8 +639,6 @@ number.13.Cello.Music = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "bass"
     bf,,!1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC

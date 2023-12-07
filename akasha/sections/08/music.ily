@@ -629,6 +629,8 @@ number.8.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -653,8 +655,6 @@ number.8.Violin.1.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! EXPLICIT_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "treble"
         r16
           %! REAPPLIED_DYNAMIC_COLOR
           %! REAPPLIED_DYNAMIC
@@ -1176,6 +1176,8 @@ number.8.Violin.1.Staff = <<
 number.8.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1198,8 +1200,6 @@ number.8.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     fs'!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1541,6 +1541,8 @@ number.8.Violin.2.Staff = {
 number.8.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_200
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1569,8 +1571,6 @@ number.8.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "alto"
     ef'!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1919,6 +1919,8 @@ number.8.Viola.Staff = {
 number.8.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_200
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1949,8 +1951,6 @@ number.8.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "bass"
     cs,!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC

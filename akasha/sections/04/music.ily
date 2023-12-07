@@ -1011,6 +1011,8 @@ number.4.Rests = {
 number.4.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1034,8 +1036,6 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 6/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1555,6 +1555,8 @@ number.4.Violin.1.Staff = <<
 number.4.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1575,8 +1577,6 @@ number.4.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 6/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2072,6 +2072,8 @@ number.4.Viola.Music = {
     {
 
         % [Viola.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "alto"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2094,8 +2096,6 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! REAPPLIED_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "alto"
         ds!\breve
           %! REAPPLIED_DYNAMIC_COLOR
           %! REAPPLIED_DYNAMIC
@@ -2709,6 +2709,8 @@ number.4.Viola.Staff = {
 number.4.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "bass"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2734,8 +2736,6 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "bass"
     cs,!1.
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
