@@ -25,3 +25,7 @@
 }
 
 \layout { \context { \Score barNumberVisibility = #all-bar-numbers-visible } }
+
+local-measure-number-extra-offset = #'(0 . 7)
+moment-number-extra-offset = #'(0 . 19)
+stage-number-extra-offset = #'(0 . 13)
