@@ -6569,7 +6569,7 @@ number.7.Viola.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -6805,7 +6805,7 @@ number.7.Viola.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES

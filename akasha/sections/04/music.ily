@@ -1131,7 +1131,7 @@ number.4.Violin.1.Music = {
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1237,7 +1237,7 @@ number.4.Violin.1.Music = {
 
     % [Violin.1.Music measure 16]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     b'2.
     ^ \akasha-material-e
     - \tweak stencil ##f
@@ -1298,7 +1298,7 @@ number.4.Violin.1.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -1356,7 +1356,7 @@ number.4.Violin.1.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -1419,7 +1419,7 @@ number.4.Violin.1.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -1477,7 +1477,7 @@ number.4.Violin.1.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -1655,7 +1655,7 @@ number.4.Violin.2.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1757,7 +1757,7 @@ number.4.Violin.2.Music = {
 
     % [Violin.2.Music measure 16]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     b'2.
     ^ \akasha-material-e
     - \tweak stencil ##f
@@ -1814,7 +1814,7 @@ number.4.Violin.2.Music = {
 
     % [Violin.2.Music measure 19]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -1868,7 +1868,7 @@ number.4.Violin.2.Music = {
 
     % [Violin.2.Music measure 21]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -1927,7 +1927,7 @@ number.4.Violin.2.Music = {
 
     % [Violin.2.Music measure 23]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff

@@ -4995,7 +4995,7 @@ number.6.Viola.Music = {
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \akasha-va-markup
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -5080,7 +5080,7 @@ number.6.Viola.Music = {
 
     % [Viola.Music measure 3]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -5145,7 +5145,7 @@ number.6.Viola.Music = {
 
     % [Viola.Music measure 5]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -5210,7 +5210,7 @@ number.6.Viola.Music = {
 
     % [Viola.Music measure 7]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -5272,7 +5272,7 @@ number.6.Viola.Music = {
 
     % [Viola.Music measure 9]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff

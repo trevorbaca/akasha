@@ -1577,7 +1577,7 @@ number.10.Violin.1.Music = {
 
     % [Violin.1.Music measure 8]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     b'4
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2775,7 +2775,7 @@ number.10.Violin.2.Music = {
 
     % [Violin.2.Music measure 13]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     b4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3521,7 +3521,7 @@ number.10.Viola.Music = {
 
     % [Viola.Music measure 4]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -4720,7 +4720,7 @@ number.10.Cello.Music = {
 
     % [Cello.Music measure 17]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
     b,,4
     - \downbow
       %! EXPLICIT_DYNAMIC_COLOR

@@ -428,7 +428,7 @@ def material_annotation_spanner(argument, letter):
         "B": "lightblue",
         "C": "lightgreen",
         "D": "lightpink",
-        "E": "lightskyblue",
+        "E": "tan",
     }
     color = material_to_color[letter]
     wrappers = baca.literal(
