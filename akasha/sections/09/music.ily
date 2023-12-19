@@ -751,7 +751,7 @@ number.9.Viola.Music = {
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \akasha-va-markup
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightskyblue
+    \staffHighlight tan
       %! REAPPLIED_STAFF_LINES
     \stopStaff
       %! REAPPLIED_STAFF_LINES
