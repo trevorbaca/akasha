@@ -1848,7 +1848,7 @@ number.10.Violin.1.Music = {
 
         % [Violin.1.Music measure 23]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
           %! STAFF_HIGHLIGHT
         \stopStaffHighlight
         r16

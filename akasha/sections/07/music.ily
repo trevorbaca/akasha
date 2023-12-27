@@ -1711,7 +1711,7 @@ number.7.Violin.1.Music = {
 
         % [Violin.1.Music measure 3]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         r16
         ^ \akasha-material-a
 
@@ -2885,7 +2885,7 @@ number.7.Violin.1.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -3466,7 +3466,7 @@ number.7.Violin.1.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -3723,7 +3723,7 @@ number.7.Violin.2.Music = {
 
         % [Violin.2.Music measure 3]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         r16
         ^ \akasha-material-a
 
@@ -4772,7 +4772,7 @@ number.7.Violin.2.Music = {
 
         % [Violin.2.Music measure 36]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -5352,7 +5352,7 @@ number.7.Violin.2.Music = {
 
         % [Violin.2.Music measure 45]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -5606,7 +5606,7 @@ number.7.Viola.Music = {
 
     % [Viola.Music measure 6]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightgrey
+    \staffHighlight antiquewhite
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -6008,7 +6008,7 @@ number.7.Viola.Music = {
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -6638,7 +6638,7 @@ number.7.Viola.Music = {
           %! EXPLICIT_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #blue
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
           %! EXPLICIT_STAFF_LINES
         \stopStaff
           %! EXPLICIT_STAFF_LINES
@@ -6966,7 +6966,7 @@ number.7.Cello.Music = {
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
           %! STAFF_HIGHLIGHT
         \stopStaffHighlight
         r16
@@ -7576,7 +7576,7 @@ number.7.Cello.Music = {
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -8159,7 +8159,7 @@ number.7.Cello.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightgrey
+    \staffHighlight antiquewhite
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
