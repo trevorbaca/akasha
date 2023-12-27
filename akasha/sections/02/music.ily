@@ -959,7 +959,7 @@ number.2.Violin.1.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightgrey
+    \staffHighlight antiquewhite
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -1448,7 +1448,7 @@ number.2.Violin.2.Music = {
 
         % [Violin.2.Music measure 4]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -2105,7 +2105,7 @@ number.2.Viola.Music = {
 
     % [Viola.Music measure 4]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightgrey
+    \staffHighlight antiquewhite
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -2904,7 +2904,7 @@ number.2.Cello.Music = {
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightgrey
+    \staffHighlight antiquewhite
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff

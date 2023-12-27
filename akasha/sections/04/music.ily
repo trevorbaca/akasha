@@ -2451,7 +2451,7 @@ number.4.Viola.Music = {
 
     % [Viola.Music measure 16]
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightgrey
+    \staffHighlight antiquewhite
     c'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3083,7 +3083,7 @@ number.4.Cello.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff

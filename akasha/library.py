@@ -424,7 +424,7 @@ def material_annotation_spanner(argument, letter):
         rf"\akasha-material-{letter.lower()}",
     )
     material_to_color = {
-        "A": "lightgrey",
+        "A": "antiquewhite",
         "B": "lightblue",
         "C": "lightgreen",
         "D": "lightpink",

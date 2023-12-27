@@ -1377,7 +1377,7 @@ number.6.Violin.1.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -1453,7 +1453,7 @@ number.6.Violin.1.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -1521,7 +1521,7 @@ number.6.Violin.1.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -3130,7 +3130,7 @@ number.6.Violin.2.Music = {
 
         % [Violin.2.Music measure 3]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -3202,7 +3202,7 @@ number.6.Violin.2.Music = {
 
         % [Violin.2.Music measure 5]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -3270,7 +3270,7 @@ number.6.Violin.2.Music = {
 
         % [Violin.2.Music measure 7]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -3340,7 +3340,7 @@ number.6.Violin.2.Music = {
 
         % [Violin.2.Music measure 9]
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -5803,7 +5803,7 @@ number.6.Cello.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -5901,7 +5901,7 @@ number.6.Cello.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -5971,7 +5971,7 @@ number.6.Cello.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff

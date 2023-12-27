@@ -1111,7 +1111,7 @@ number.3.Cello.Music = {
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \akasha-vc-markup
       %! STAFF_HIGHLIGHT
-    \staffHighlight lightgrey
+    \staffHighlight antiquewhite
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1351,7 +1351,7 @@ number.3.Cello.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
@@ -1452,7 +1452,7 @@ number.3.Cello.Music = {
           %! FERMATA_MEASURE_NEXT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! STAFF_HIGHLIGHT
-        \staffHighlight lightgrey
+        \staffHighlight antiquewhite
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
