@@ -283,7 +283,7 @@ def va(m):
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[33, 36]) as o:
         baca.clef(o.leaf(0), "alto"),
-        baca.pitches(o, "Fb3 E3 D#3 C#3 B#2", exact=True)
+        baca.pitches(o, "Fb3 E3 D#3 C#3 B#2", noncyclic=True)
         baca.glissando(o)
         baca.hairpin(o, "sf > ppp")
         baca.markup(o.pleaf(0), r"\akasha-tasto-plus-senza-vib-markup")
@@ -326,7 +326,7 @@ def vc(m):
         baca.dynamic(o.pleaf(0), "ppp-ancora")
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
     with baca.scope(m[43, 50]) as o:
-        baca.pitches(o, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True)
+        baca.pitches(o, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", noncyclic=True)
         baca.glissando(o)
         baca.hairpin(o, "sf > ppp")
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")

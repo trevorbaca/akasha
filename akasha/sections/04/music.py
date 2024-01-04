@@ -232,11 +232,11 @@ def v2(m):
 
 def va(m):
     for n in [1, 3, 5, 7]:
-        baca.pitches(m[n], "D#3 C+3", exact=True)
+        baca.pitches(m[n], "D#3 C+3", noncyclic=True)
         baca.glissando(m[n])
         library.material_annotation_spanner(m[n], "D")
     with baca.scope(m[9, 12]) as o:
-        baca.pitches(o, "Eb3 D3 C#3 B#2", exact=True)
+        baca.pitches(o, "Eb3 D3 C#3 B#2", noncyclic=True)
         baca.glissando(o)
         baca.hairpin(o, "mp > pp")
         library.material_annotation_spanner(o, "D")
@@ -246,12 +246,12 @@ def va(m):
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-scratch-moltiss-markup")
         library.material_annotation_spanner(o, "A")
     with baca.scope(m[23]) as o:
-        baca.pitches(o, "D#4 D#+4 E4", exact=True)
+        baca.pitches(o, "D#4 D#+4 E4", noncyclic=True)
         baca.dynamic(o.pleaf(0), "mp")
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
         library.material_annotation_spanner(o, "B")
     with baca.scope(m[25, 26]) as o:
-        baca.pitches(o, "E3 D#3 C+3", exact=True)
+        baca.pitches(o, "E3 D#3 C+3", noncyclic=True)
         baca.hairpin(o, "mp > pp")
         baca.glissando(o)
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
