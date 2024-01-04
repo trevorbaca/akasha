@@ -330,7 +330,7 @@ def va(m):
     with baca.scope(m[11, 26]) as o:
         baca.dynamic(o.phead(0), "mp")
         baca.markup(o.phead(0), r"\baca-tasto-plus-half-scratch-markup")
-        baca.pitches(o, "G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", exact=True)
+        baca.pitches(o, "G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4", noncyclic=True)
     with baca.scope(m[36, 41]) as o:
         baca.clef(o.leaf(0), "treble")
         library.getato_pitches(23, [2], function=o)
@@ -378,7 +378,7 @@ def vc(m):
         baca.clef(o.leaf(0), "bass")
         baca.dynamic(o.phead(0), "mp")
         baca.markup(o.phead(0), r"\baca-tasto-plus-half-scratch-markup")
-        baca.pitches(o, "Ab2 G2 F2 F+2 F#2 E2 Eb2", exact=True)
+        baca.pitches(o, "Ab2 G2 F2 F+2 F#2 E2 Eb2", noncyclic=True)
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(20, [2], function=o)
         library.material_annotation_spanner(o, "A")

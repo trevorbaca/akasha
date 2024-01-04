@@ -127,7 +127,7 @@ def va(m):
         baca.staff_position(o, 0)
         library.material_annotation_spanner(o, "E")
     with baca.scope(m[5, 6]) as o:
-        baca.pitches(o, "D#3 C+3", exact=True)
+        baca.pitches(o, "D#3 C+3", noncyclic=True)
         baca.glissando(o)
         baca.hairpin(o, "mp > pp")
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
@@ -140,7 +140,7 @@ def vc(m):
         baca.pitch(o, "C#2")
         baca.dynamic(o.pleaf(0), "ppp")
     with baca.scope(m[5, 6]) as o:
-        baca.pitches(o, "C#2 Bb1", exact=True)
+        baca.pitches(o, "C#2 Bb1", noncyclic=True)
         baca.glissando(o)
         baca.hairpin(o, "mp > pp")
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
