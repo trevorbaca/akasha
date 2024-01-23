@@ -92,19 +92,47 @@ def _7_28(m, pitch):
         baca.dynamic(o.pleaf(0), "pp")
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
     with baca.scope(m[13, 14]) as o:
-        baca.text_spanner(o.leaves()[:2], "trans. => pos. ord. XFB")
+        baca.text_spanner(
+            (),
+            "trans. => pos. ord. XFB",
+            pieces=[o.leaves()[:2]],
+        )
     with baca.scope(m[15, 16]) as o:
-        baca.text_spanner(o.leaves()[:2], "trans. => pont. XFB")
+        baca.text_spanner(
+            (),
+            "trans. => pont. XFB",
+            pieces=[o.leaves()[:2]],
+        )
     with baca.scope(m[17, 18]) as o:
-        baca.text_spanner(o.leaves()[:3], "trans. => XP+XFB")
+        baca.text_spanner(
+            (),
+            "trans. => XP+XFB",
+            pieces=[o.leaves()[:3]],
+        )
     with baca.scope(m[19, 22]) as o:
-        baca.text_spanner(o.leaves()[:4], "trans. => XP")
+        baca.text_spanner(
+            (),
+            "trans. => XP",
+            pieces=[o.leaves()[:4]],
+        )
     with baca.scope(m[23, 24]) as o:
-        baca.text_spanner(o.leaves()[:2], "trans. => 1/3OB")
+        baca.text_spanner(
+            (),
+            "trans. => 1/3OB",
+            pieces=[o.leaves()[:2]],
+        )
     with baca.scope(m[25, 26]) as o:
-        baca.text_spanner(o.leaves()[:2], "trans. => 2/3OB")
+        baca.text_spanner(
+            (),
+            "trans. => 2/3OB",
+            pieces=[o.leaves()[:2]],
+        )
     with baca.scope(m[27, 28]) as o:
-        baca.text_spanner(o.leaves()[:2], "trans. => OB (no pitch)")
+        baca.text_spanner(
+            (),
+            "trans. => OB (no pitch)",
+            pieces=[o.leaves()[:2]],
+        )
 
 
 def v1(m):
@@ -123,13 +151,25 @@ def va(m):
 def vc(m):
     baca.pitch(m[1, 24], "Bb1")
     with baca.scope(m[1, 10]) as o:
-        baca.hairpin(o.leaves()[:9], "ppp < ff")
-        baca.text_spanner(o.leaves()[:9], "trans. => vib. moltiss.")
+        baca.hairpin(
+            (),
+            "ppp < ff",
+            pieces=[o.leaves()[:9]],
+        )
+        baca.text_spanner(
+            (),
+            "trans. => vib. moltiss.",
+            pieces=[o.leaves()[:9]],
+        )
     with baca.scope(m[13, 18]) as o:
         baca.dynamic(o.pleaf(0), "pp")
         baca.markup(o.pleaf(0), r"\baca-vib-poco-markup")
     with baca.scope(m[19, 24]) as o:
-        baca.hairpin(o.rleak(), "pp >o niente")
+        baca.hairpin(
+            (),
+            "pp >o niente",
+            pieces=[o.rleak()],
+        )
 
 
 @baca.build.timed("make_score")
