@@ -131,9 +131,17 @@ def v1(m):
     with baca.scope(m[1, 4]) as o:
         library.material_annotation_spanner(o, "A")
         library.getato_pitches(31, [2], function=o)
-        baca.hairpin(o.tleaves(), "pp >o niente")
+        baca.hairpin(
+            (),
+            "pp >o niente",
+            pieces=[o.tleaves()],
+        )
     with baca.scope(m[5, 7]) as o:
-        baca.text_spanner(o, "tasto + 1/4 scratch => tasto")
+        baca.text_spanner(
+            (),
+            "tasto + 1/4 scratch => tasto",
+            pieces=[o],
+        )
     with baca.scope(m[5, 13]) as o:
         loop = baca.Loop([17, 19, 17, 15, 18, 16], [1])
         baca.pitches(o, loop)
@@ -182,22 +190,54 @@ def vc(m):
 def composites(cache):
     for abbreviation in ["v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][1, 4]) as o:
-            baca.hairpin(o, "ff > f")
-            baca.text_spanner(o, "tasto + scratch moltiss. => tasto + 1/4 scratch")
+            baca.hairpin(
+                (),
+                "ff > f",
+                pieces=[o],
+            )
+            baca.text_spanner(
+                (),
+                "tasto + scratch moltiss. => tasto + 1/4 scratch",
+                pieces=[o],
+            )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][5, 7]) as o:
-            baca.hairpin(o, "f > mf")
+            baca.hairpin(
+                (),
+                "f > mf",
+                pieces=[o],
+            )
     for abbreviation in ["v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][5, 7]) as o:
-            baca.text_spanner(o, "trans. => tasto")
+            baca.text_spanner(
+                (),
+                "trans. => tasto",
+                pieces=[o],
+            )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][8, 10]) as o:
-            baca.hairpin(o, "mf > p")
-            baca.text_spanner(o, "trans. => FB")
+            baca.hairpin(
+                (),
+                "mf > p",
+                pieces=[o],
+            )
+            baca.text_spanner(
+                (),
+                "trans. => FB",
+                pieces=[o],
+            )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][11, 13]) as o:
-            baca.hairpin(o, "p > pp")
-            baca.text_spanner(o, "trans. => XFB")
+            baca.hairpin(
+                (),
+                "p > pp",
+                pieces=[o],
+            )
+            baca.text_spanner(
+                (),
+                "trans. => XFB",
+                pieces=[o],
+            )
     for leaves in cache.get(
         ("v1", [(5, 13), (15, 17)]),
         (["v2", "vc"], [(1, 13), (15, 17)]),

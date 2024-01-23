@@ -285,7 +285,11 @@ def va(m):
         baca.clef(o.leaf(0), "alto"),
         baca.pitches(o, "Fb3 E3 D#3 C#3 B#2", exact=True)
         baca.glissando(o)
-        baca.hairpin(o, "sf > ppp")
+        baca.hairpin(
+            (),
+            "sf > ppp",
+            pieces=[o],
+        )
         baca.markup(o.pleaf(0), r"\akasha-tasto-plus-senza-vib-markup")
         library.material_annotation_spanner(o, "D")
     with baca.scope(m[38, 46]) as o:
@@ -317,7 +321,11 @@ def vc(m):
         )
     with baca.scope(m[33, 35]) as o:
         baca.pitch(o, "C#2")
-        baca.hairpin(o, "sf > ppp")
+        baca.hairpin(
+            (),
+            "sf > ppp",
+            pieces=[o],
+        )
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
     with baca.scope(m[38, 41]) as o:
         library.harmonic_glissando_pitches("G2", function=o, rotation=-6)
@@ -328,7 +336,11 @@ def vc(m):
     with baca.scope(m[43, 50]) as o:
         baca.pitches(o, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True)
         baca.glissando(o)
-        baca.hairpin(o, "sf > ppp")
+        baca.hairpin(
+            (),
+            "sf > ppp",
+            pieces=[o],
+        )
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
         library.material_annotation_spanner(o, "D")
 

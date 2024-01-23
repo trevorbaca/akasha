@@ -235,43 +235,83 @@ def VC(voice, time_signatures):
 def _1_2(m, pitch):
     with baca.scope(m[1, 2]) as o:
         baca.pitch(o, pitch)
-        baca.hairpin(o, "sfp < f")
-        baca.text_spanner(o, "PO + senza vib. => vib. moltiss.")
+        baca.hairpin(
+            (),
+            "sfp < f",
+            pieces=[o],
+        )
+        baca.text_spanner(
+            (),
+            "PO + senza vib. => vib. moltiss.",
+            pieces=[o],
+        )
         library.material_annotation_spanner(o, "D")
 
 
 def _4_5(m, pitch):
     with baca.scope(m[4, 5]) as o:
         baca.pitch(o, pitch)
-        baca.hairpin(o, "sfp < f")
-        baca.text_spanner(o, "senza vib. => vib. moltiss.")
+        baca.hairpin(
+            (),
+            "sfp < f",
+            pieces=[o],
+        )
+        baca.text_spanner(
+            (),
+            "senza vib. => vib. moltiss.",
+            pieces=[o],
+        )
         library.material_annotation_spanner(o, "D")
 
 
 def _8_10(m, pitch):
     with baca.scope(m[8, 10]) as o:
         baca.pitch(o, pitch)
-        baca.hairpin(o, "sfp < f")
-        baca.text_spanner(o, "senza vib. => vib. moltiss.")
+        baca.hairpin(
+            (),
+            "sfp < f",
+            pieces=[o],
+        )
+        baca.text_spanner(
+            (),
+            "senza vib. => vib. moltiss.",
+            pieces=[o],
+        )
         library.material_annotation_spanner(o, "D")
 
 
 def _17_20(m):
-    baca.text_spanner(m[17, 20], "trans. => XP")
+    baca.text_spanner(
+        (),
+        "trans. => XP",
+        pieces=[m[17, 20]],
+    )
 
 
 def _21_22(m):
     with baca.scope(m[21, 22]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.hairpin(o, "ppp < mp")
+        baca.hairpin(
+            (),
+            "ppp < mp",
+            pieces=[o],
+        )
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-fb-markup")
 
 
 def _25_26(m):
     with baca.scope(m[25, 26]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.hairpin(o, "ppp < mp")
-        baca.text_spanner(o, "XP+FB => tasto+FB")
+        baca.hairpin(
+            (),
+            "ppp < mp",
+            pieces=[o],
+        )
+        baca.text_spanner(
+            (),
+            "XP+FB => tasto+FB",
+            pieces=[o],
+        )
 
 
 def _28_29(m, pitch):
@@ -283,14 +323,30 @@ def _28_29(m, pitch):
 
 def _31_32(m):
     with baca.scope(m[31, 32]) as o:
-        baca.hairpin(o, "ppp < mp")
-        baca.text_spanner(o, "trans. => tasto + 1/2 scratch")
+        baca.hairpin(
+            (),
+            "ppp < mp",
+            pieces=[o],
+        )
+        baca.text_spanner(
+            (),
+            "trans. => tasto + 1/2 scratch",
+            pieces=[o],
+        )
 
 
 def _33_34(m):
     with baca.scope(m[33, 34]) as o:
-        baca.hairpin(o, "mp < mf")
-        baca.text_spanner(o, "trans. => scratch moltiss.")
+        baca.hairpin(
+            (),
+            "mp < mf",
+            pieces=[o],
+        )
+        baca.text_spanner(
+            (),
+            "trans. => scratch moltiss.",
+            pieces=[o],
+        )
 
 
 def v1(m):
@@ -299,8 +355,16 @@ def v1(m):
     with baca.scope(m[8, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o)
-    baca.text_spanner(m[11, 12], "trans. => 3/4OB")
-    baca.text_spanner(m[15, 16], "trans. => 1/2OB")
+    baca.text_spanner(
+        (),
+        "trans. => 3/4OB",
+        pieces=[m[11, 12]],
+    )
+    baca.text_spanner(
+        (),
+        "trans. => 1/2OB",
+        pieces=[m[15, 16]],
+    )
     with baca.scope(m[8, 22]) as o:
         baca.pitch(o, "B4")
         baca.dynamic(o.pleaf(0), "ppp")
@@ -328,7 +392,11 @@ def v2(m):
     with baca.scope(m[13, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o, downbow_first=False)
-    baca.text_spanner(m[15, 16], "trans. => 3/4OB")
+    baca.text_spanner(
+        (),
+        "trans. => 3/4OB",
+        pieces=[m[15, 16]],
+    )
     with baca.scope(m[13, 27]) as o:
         baca.pitch(o, "B3")
         baca.dynamic(o.pleaf(0), "ppp")
@@ -347,9 +415,21 @@ def va(m):
     with baca.scope(m[4, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o)
-    baca.text_spanner(m[6, 7], "trans. => 3/4OB")
-    baca.text_spanner(m[11, 12], "trans. => 1/2OB")
-    baca.text_spanner(m[15, 16], "trans. => 1/4OB")
+    baca.text_spanner(
+        (),
+        "trans. => 3/4OB",
+        pieces=[m[6, 7]],
+    )
+    baca.text_spanner(
+        (),
+        "trans. => 1/2OB",
+        pieces=[m[11, 12]],
+    )
+    baca.text_spanner(
+        (),
+        "trans. => 1/4OB",
+        pieces=[m[15, 16]],
+    )
     _17_20(m)
     _21_22(m)
     _25_26(m)
@@ -370,13 +450,25 @@ def vc(m):
     with baca.scope(m[13, 14]) as o:
         library.material_annotation_spanner(o, "D")
         baca.pitch(o, "B1")
-        baca.hairpin(o, "sfp < f")
-        baca.text_spanner(o, "senza vib. => vib. moltiss.")
+        baca.hairpin(
+            (),
+            "sfp < f",
+            pieces=[o],
+        )
+        baca.text_spanner(
+            (),
+            "senza vib. => vib. moltiss.",
+            pieces=[o],
+        )
     with baca.scope(m[17, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o)
         baca.dynamic(o.pleaf(0), "ppp")
-        baca.text_spanner(o, "OB => XP")
+        baca.text_spanner(
+            (),
+            "OB => XP",
+            pieces=[o],
+        )
     _21_22(m)
     _25_26(m)
     baca.pitch(m[17, 27], "B1")
