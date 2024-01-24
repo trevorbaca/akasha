@@ -267,19 +267,31 @@ def v1(m):
         baca.pitches(o, loop)
         for i, run in enumerate(baca.select.runs(o)):
             if i % 2 == 0:
-                baca.hairpin(
-                    (),
-                    "pp < p",
-                    pieces=[run],
-                    remove_length_1_spanner_start=True,
-                )
+                if len(run) == 1:
+                    baca.hairpin(
+                        (),
+                        "pp",
+                        pieces=[run],
+                    )
+                else:
+                    baca.hairpin(
+                        (),
+                        "pp < p",
+                        pieces=[run],
+                    )
             else:
-                baca.hairpin(
-                    (),
-                    "p > pp",
-                    pieces=[run],
-                    remove_length_1_spanner_start=True,
-                )
+                if len(run) == 1:
+                    baca.hairpin(
+                        (),
+                        "p",
+                        pieces=[run],
+                    )
+                else:
+                    baca.hairpin(
+                        (),
+                        "p > pp",
+                        pieces=[run],
+                    )
     with baca.scope(m[23, 26]) as o:
         baca.pitch(o, "E5")
         baca.dynamic(o.pleaf(0), "mp")
@@ -314,19 +326,31 @@ def v2(m):
         baca.pitches(o, loop)
         for i, run in enumerate(baca.select.runs(o)):
             if i % 2 == 0:
-                baca.hairpin(
-                    (),
-                    "pp < p",
-                    pieces=[run],
-                    remove_length_1_spanner_start=True,
-                )
+                if len(run) == 1:
+                    baca.hairpin(
+                        (),
+                        "pp",
+                        pieces=[run],
+                    )
+                else:
+                    baca.hairpin(
+                        (),
+                        "pp < p",
+                        pieces=[run],
+                    )
             else:
-                baca.hairpin(
-                    (),
-                    "p > pp",
-                    pieces=[run],
-                    remove_length_1_spanner_start=True,
-                )
+                if len(run) == 1:
+                    baca.hairpin(
+                        (),
+                        "p",
+                        pieces=[run],
+                    )
+                else:
+                    baca.hairpin(
+                        (),
+                        "p > pp",
+                        pieces=[run],
+                    )
     with baca.scope(m[23, 26]) as o:
         baca.pitch(o, "F#4")
         baca.dynamic(o.pleaf(0), "mp")
