@@ -235,7 +235,7 @@ def v1(m):
         baca.pitch(o, "C#7")
         runs = baca.select.runs(o, exclude=baca.enums.HIDDEN)
         for run in runs:
-            baca.ottava(run)
+            baca.spanners.ottava(run)
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "mp")
         baca.markup(o.pleaf(0), r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup")
@@ -266,7 +266,7 @@ def v2(m):
         baca.pitch(o, "G5")
         for run in baca.select.runs(o, exclude=baca.enums.HIDDEN):
             run = baca.select.rleaves(run)
-            baca.trill_spanner(run, alteration="A5")
+            baca.spanners.trill(run, alteration="A5")
         baca.dynamic(o.pleaf(0), "p")
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
     library.material_annotation_spanner(m[38, 41], "C")
