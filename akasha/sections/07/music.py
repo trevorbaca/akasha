@@ -268,29 +268,25 @@ def v1(m):
         for i, run in enumerate(baca.select.runs(o)):
             if i % 2 == 0:
                 if len(run) == 1:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "pp",
-                        pieces=[run],
                     )
                 else:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "pp < p",
-                        pieces=[run],
                     )
             else:
                 if len(run) == 1:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "p",
-                        pieces=[run],
                     )
                 else:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "p > pp",
-                        pieces=[run],
                     )
     with baca.scope(m[23, 26]) as o:
         baca.pitch(o, "E5")
@@ -299,10 +295,9 @@ def v1(m):
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(29, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.tleaves(),
             "ff < fff",
-            pieces=[o.tleaves()],
         )
         baca.markup(o.pleaf(0), r"\baca-pos-ord-markup")
         baca.staccato(o.pheads())
@@ -327,29 +322,25 @@ def v2(m):
         for i, run in enumerate(baca.select.runs(o)):
             if i % 2 == 0:
                 if len(run) == 1:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "pp",
-                        pieces=[run],
                     )
                 else:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "pp < p",
-                        pieces=[run],
                     )
             else:
                 if len(run) == 1:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "p",
-                        pieces=[run],
                     )
                 else:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "p > pp",
-                        pieces=[run],
                     )
     with baca.scope(m[23, 26]) as o:
         baca.pitch(o, "F#4")
@@ -358,10 +349,9 @@ def v2(m):
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(26, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.tleaves(),
             "ff < fff",
-            pieces=[o.tleaves()],
         )
         baca.markup(o.pleaf(0), r"\baca-pos-ord-markup")
         baca.staccato(o.pheads())
@@ -387,10 +377,9 @@ def va(m):
         baca.clef(o.leaf(0), "treble")
         library.getato_pitches(23, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.tleaves(),
             "ff < fff",
-            pieces=[o.tleaves()],
         )
         baca.markup(o.pleaf(0), r"\baca-pos-ord-markup")
         baca.staccato(o.pheads())
@@ -439,10 +428,9 @@ def vc(m):
         library.getato_pitches(20, [2], function=o)
         library.material_annotation_spanner(o, "A")
         baca.clef(o.leaf(0), "treble")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.tleaves(),
             "ff < fff",
-            pieces=[o.tleaves()],
         )
         baca.markup(o.phead(0), r"\baca-pos-ord-markup")
         baca.staccato(o.pheads())
@@ -469,10 +457,9 @@ def composites(cache):
         library.material_annotation_spanner(leaves, "B")
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][27, 34]) as o:
-            baca.hairpin(
-                (),
+            baca.spanners.hairpin(
+                o,
                 "mp < f",
-                pieces=[o],
             )
             baca.text_spanner(
                 (),
