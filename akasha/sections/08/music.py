@@ -136,7 +136,7 @@ def v1(m):
             "pp >o niente",
         )
     with baca.scope(m[5, 7]) as o:
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "tasto + 1/4 scratch => tasto",
             pieces=[o],
@@ -193,7 +193,7 @@ def composites(cache):
                 o,
                 "ff > f",
             )
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 "tasto + scratch moltiss. => tasto + 1/4 scratch",
                 pieces=[o],
@@ -206,7 +206,7 @@ def composites(cache):
             )
     for abbreviation in ["v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][5, 7]) as o:
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 "trans. => tasto",
                 pieces=[o],
@@ -217,7 +217,7 @@ def composites(cache):
                 o,
                 "mf > p",
             )
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 "trans. => FB",
                 pieces=[o],
@@ -228,7 +228,7 @@ def composites(cache):
                 o,
                 "p > pp",
             )
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 "trans. => XFB",
                 pieces=[o],
