@@ -226,7 +226,7 @@ def v2(m):
         baca.pitch(o, "G5")
         baca.dynamic(o.pleaf(0), "pp")
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
-        baca.spanners.trill(o.rleak(), alteration="A5")
+        baca.spanners.trill(o, alteration="A5", with_next_leaf=True)
         library.material_annotation_spanner(o, "C")
 
 
