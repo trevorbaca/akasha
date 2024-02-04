@@ -292,7 +292,7 @@ def _1_68(m):
             "XP => pos. ord.",
             pieces=[o.leaves()[-2:]],
         )
-        baca.spanners.trill(o.rleak()),
+        baca.spanners.trill(o, with_next_leaf=True)
     with baca.scope(m[61, 68]) as o:
         baca.spanners.hairpin(
             o.leaves()[:4],
@@ -303,7 +303,7 @@ def _1_68(m):
             "pos. ord. => XP",
             pieces=[o.leaves()[:4]],
         )
-        baca.spanners.trill(o.rleak())
+        baca.spanners.trill(o, with_next_leaf=True)
 
 
 def v1(m):
@@ -319,7 +319,7 @@ def v1(m):
             o,
             "sffp < f",
         )
-        baca.spanners.trill(o.rleak())
+        baca.spanners.trill(o, with_next_leaf=True)
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup")
     with baca.scope(m[56, 68]) as o:
         baca.spanners.ottava(o.tleaves())
@@ -337,7 +337,7 @@ def v2(m):
     with baca.scope(m[51, 54]) as o:
         baca.spanners.ottava(o.tleaves())
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup")
-        baca.spanners.trill(o.rleak())
+        baca.spanners.trill(o, with_next_leaf=True)
         baca.spanners.hairpin(
             o.leaves()[:4],
             "sffp < f",
@@ -355,7 +355,7 @@ def va(m):
     with baca.scope(m[49, 54]) as o:
         baca.clef(o.leaf(0), "treble")
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup")
-        baca.spanners.trill(o.rleak())
+        baca.spanners.trill(o, with_next_leaf=True)
     with baca.scope(m[49, 52]) as o:
         baca.spanners.hairpin(
             o.leaves()[:4],
@@ -376,7 +376,7 @@ def vc(m):
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[47, 54]) as o:
         baca.clef(o.leaf(0), "treble")
-        baca.spanners.trill(o.rleak())
+        baca.spanners.trill(o, with_next_leaf=True)
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup")
     with baca.scope(m[47, 50]) as o:
         baca.spanners.hairpin(
