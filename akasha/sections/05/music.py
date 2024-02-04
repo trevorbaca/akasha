@@ -265,7 +265,7 @@ def v2(m):
     with baca.scope(m[38, 46]) as o:
         baca.pitch(o, "G5")
         for run in baca.select.runs(o, exclude=baca.enums.HIDDEN):
-            baca.spanners.trill(run, alteration="A5", with_next_leaf=True)
+            baca.spanners.trill(run, alteration="A5")
         baca.dynamic(o.pleaf(0), "p")
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
     library.material_annotation_spanner(m[38, 41], "C")
