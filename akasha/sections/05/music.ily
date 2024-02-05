@@ -1744,8 +1744,6 @@ number.5.Violin.1.Music = {
     % [Violin.1.Music measure 8]
     cs''''1
     \repeatTie
-      %! SPANNER_STOP
-    \ottava 0
 
     <<
 
@@ -1759,6 +1757,8 @@ number.5.Violin.1.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! SPANNER_STOP
+            \ottava 0
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 0
             \startStaff
@@ -1863,8 +1863,6 @@ number.5.Violin.1.Music = {
     % [Violin.1.Music measure 17]
     cs''''2
     \repeatTie
-      %! SPANNER_STOP
-    \ottava 0
     \revert NoteHead.style
 
     <<
@@ -1879,6 +1877,8 @@ number.5.Violin.1.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! SPANNER_STOP
+            \ottava 0
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 0
             \startStaff
