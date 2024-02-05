@@ -235,7 +235,7 @@ def v1(m):
         baca.pitch(o, "C#7")
         runs = baca.select.runs(o, exclude=baca.enums.HIDDEN)
         for run in runs:
-            baca.spanners.ottava(run)
+            baca.rspanners.ottava(run)
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "mp")
         baca.markup(o.pleaf(0), r"\akasha-fifth-degree-of-a-four-plus-vib-mod-markup")

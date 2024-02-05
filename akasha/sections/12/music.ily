@@ -2861,10 +2861,10 @@ number.12.Violin.1.Music = {
       %! SPANNER_STOP
     \f
     \repeatTie
-      %! SPANNER_STOP
-    \ottava 0
 
     % [Violin.1.Music measure 55]
+      %! SPANNER_STOP
+    \ottava 0
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 0
     \startStaff
@@ -3087,12 +3087,12 @@ number.12.Violin.1.Music = {
     % [Violin.1.Music measure 68]
     b''''1
     \repeatTie
-      %! SPANNER_STOP
-    \ottava 0
     \revert NoteHead.style
     \revert Staff.OttavaBracket.staff-padding
 
     % [Violin.1.Music measure 69]
+      %! SPANNER_STOP
+    \ottava 0
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 0
     \startStaff
@@ -3842,10 +3842,10 @@ number.12.Violin.2.Music = {
     % [Violin.2.Music measure 54]
     cs''''2..
     \repeatTie
-      %! SPANNER_STOP
-    \ottava 0
 
     % [Violin.2.Music measure 55]
+      %! SPANNER_STOP
+    \ottava 0
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 0
     \startStaff
@@ -4064,12 +4064,12 @@ number.12.Violin.2.Music = {
     % [Violin.2.Music measure 68]
     cs''''1
     \repeatTie
-      %! SPANNER_STOP
-    \ottava 0
     \revert NoteHead.style
     \revert Staff.OttavaBracket.staff-padding
 
     % [Violin.2.Music measure 69]
+      %! SPANNER_STOP
+    \ottava 0
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 0
     \startStaff
