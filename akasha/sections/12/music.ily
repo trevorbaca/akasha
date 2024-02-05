@@ -2822,6 +2822,9 @@ number.12.Violin.1.Music = {
     \repeatTie
 
     % [Violin.1.Music measure 53]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava 1
     \override NoteHead.style = #'harmonic
@@ -2863,6 +2866,9 @@ number.12.Violin.1.Music = {
     \repeatTie
 
     % [Violin.1.Music measure 55]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_STOP
     \ottava 0
     \stopStaff
@@ -2877,6 +2883,9 @@ number.12.Violin.1.Music = {
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     % [Violin.1.Music measure 56]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava 1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -3091,6 +3100,9 @@ number.12.Violin.1.Music = {
     \revert Staff.OttavaBracket.staff-padding
 
     % [Violin.1.Music measure 69]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_STOP
     \ottava 0
     \stopStaff
@@ -3786,6 +3798,9 @@ number.12.Violin.2.Music = {
     \repeatTie
 
     % [Violin.2.Music measure 51]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava 1
     \override NoteHead.style = #'harmonic
@@ -3844,6 +3859,9 @@ number.12.Violin.2.Music = {
     \repeatTie
 
     % [Violin.2.Music measure 55]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_STOP
     \ottava 0
     \stopStaff
@@ -3856,6 +3874,9 @@ number.12.Violin.2.Music = {
     \stopTrillSpan
 
     % [Violin.2.Music measure 56]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava 1
     \override Staff.OttavaBracket.staff-padding = 10
@@ -4068,6 +4089,9 @@ number.12.Violin.2.Music = {
     \revert Staff.OttavaBracket.staff-padding
 
     % [Violin.2.Music measure 69]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_STOP
     \ottava 0
     \stopStaff
