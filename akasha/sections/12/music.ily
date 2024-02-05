@@ -2825,7 +2825,6 @@ number.12.Violin.1.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava 1
     \override NoteHead.style = #'harmonic
     b''''2.
@@ -2869,7 +2868,6 @@ number.12.Violin.1.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_STOP
     \ottava 0
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 0
@@ -2886,7 +2884,6 @@ number.12.Violin.1.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava 1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -3103,7 +3100,6 @@ number.12.Violin.1.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_STOP
     \ottava 0
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 0
@@ -3801,7 +3797,6 @@ number.12.Violin.2.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava 1
     \override NoteHead.style = #'harmonic
     cs''''!1
@@ -3862,7 +3857,6 @@ number.12.Violin.2.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_STOP
     \ottava 0
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 0
@@ -3877,7 +3871,6 @@ number.12.Violin.2.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava 1
     \override Staff.OttavaBracket.staff-padding = 10
     \override TextSpanner.staff-padding = 7.5
@@ -4092,7 +4085,6 @@ number.12.Violin.2.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_STOP
     \ottava 0
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 0

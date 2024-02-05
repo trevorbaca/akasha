@@ -1666,7 +1666,6 @@ number.5.Violin.1.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava 1
     \override NoteHead.style = #'harmonic
       %! -PARTS
@@ -1763,7 +1762,6 @@ number.5.Violin.1.Music = {
               %! EXPLICIT_OTTAVA_COLOR
             \once \override Staff.OttavaBracket.color = #blue
               %! EXPLICIT_OTTAVA
-              %! SPANNER_STOP
             \ottava 0
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 0
@@ -1804,7 +1802,6 @@ number.5.Violin.1.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava 1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -1889,7 +1886,6 @@ number.5.Violin.1.Music = {
               %! EXPLICIT_OTTAVA_COLOR
             \once \override Staff.OttavaBracket.color = #blue
               %! EXPLICIT_OTTAVA
-              %! SPANNER_STOP
             \ottava 0
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 0
