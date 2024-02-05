@@ -1661,8 +1661,11 @@ number.5.Violin.1.Music = {
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava 1
     \override NoteHead.style = #'harmonic
@@ -1757,6 +1760,9 @@ number.5.Violin.1.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_OTTAVA_COLOR
+            \once \override Staff.OttavaBracket.color = #blue
+              %! EXPLICIT_OTTAVA
               %! SPANNER_STOP
             \ottava 0
             \stopStaff
@@ -1795,6 +1801,9 @@ number.5.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 10]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava 1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -1877,6 +1886,9 @@ number.5.Violin.1.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_OTTAVA_COLOR
+            \once \override Staff.OttavaBracket.color = #blue
+              %! EXPLICIT_OTTAVA
               %! SPANNER_STOP
             \ottava 0
             \stopStaff
