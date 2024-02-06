@@ -3463,10 +3463,8 @@ number.5.Viola.Music = {
     ff!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sf
     ^ \akasha-material-d
     ^ \akasha-tasto-plus-senza-vib-markup
@@ -4216,10 +4214,8 @@ number.5.Cello.Music = {
     cs,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sf
     ^ \akasha-material-d
     ^ \baca-tasto-markup
@@ -4396,10 +4392,8 @@ number.5.Cello.Music = {
     df!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sf
     ^ \akasha-material-d
     ^ \baca-tasto-markup

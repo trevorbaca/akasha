@@ -675,10 +675,8 @@ number.8.Violin.1.Music = {
         g'''16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
         [
           %! EXPLICIT_DYNAMIC
@@ -891,10 +889,8 @@ number.8.Violin.1.Music = {
     f''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     ^ \akasha-material-b
       %! SPANNER_START
@@ -949,10 +945,8 @@ number.8.Violin.1.Music = {
     ef''!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -996,10 +990,8 @@ number.8.Violin.1.Music = {
     fs''!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -1203,10 +1195,8 @@ number.8.Violin.2.Music = {
     fs'!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1264,10 +1254,8 @@ number.8.Violin.2.Music = {
     cs'!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -1321,10 +1309,8 @@ number.8.Violin.2.Music = {
     e'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -1368,10 +1354,8 @@ number.8.Violin.2.Music = {
     d'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -1574,10 +1558,8 @@ number.8.Viola.Music = {
     ef'!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1635,10 +1617,8 @@ number.8.Viola.Music = {
     d'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -1692,10 +1672,8 @@ number.8.Viola.Music = {
     fs'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -1739,10 +1717,8 @@ number.8.Viola.Music = {
     ef'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -1954,10 +1930,8 @@ number.8.Cello.Music = {
     cs,!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2015,10 +1989,8 @@ number.8.Cello.Music = {
     e,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -2072,10 +2044,8 @@ number.8.Cello.Music = {
     d,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
@@ -2119,10 +2089,8 @@ number.8.Cello.Music = {
     ef,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
