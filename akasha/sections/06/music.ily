@@ -1886,10 +1886,8 @@ number.6.Violin.1.Music = {
     - \staccato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     ^ \akasha-leggieriss-senza-scratch-markup
     [
@@ -3664,10 +3662,8 @@ number.6.Violin.2.Music = {
     - \staccato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     [
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6431,10 +6427,8 @@ number.6.Cello.Music = {
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
         [
           %! EXPLICIT_DYNAMIC_COLOR

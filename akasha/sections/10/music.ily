@@ -1379,10 +1379,8 @@ number.10.Violin.1.Music = {
     b''1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1487,10 +1485,8 @@ number.10.Violin.1.Music = {
     b''1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! SPANNER_START
@@ -1815,10 +1811,8 @@ number.10.Violin.1.Music = {
     b'1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
     ^ \akasha-xp-plus-fb-markup
@@ -2054,10 +2048,8 @@ number.10.Violin.1.Music = {
     b'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -2271,10 +2263,8 @@ number.10.Violin.1.Music = {
     b'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -2326,10 +2316,8 @@ number.10.Violin.1.Music = {
     b'1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -2476,10 +2464,8 @@ number.10.Violin.2.Music = {
     atqs!1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2580,10 +2566,8 @@ number.10.Violin.2.Music = {
     b1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! SPANNER_START
@@ -2674,10 +2658,8 @@ number.10.Violin.2.Music = {
     atqs!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! SPANNER_START
@@ -2937,10 +2919,8 @@ number.10.Violin.2.Music = {
     b1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
     ^ \akasha-xp-plus-fb-markup
@@ -3018,10 +2998,8 @@ number.10.Violin.2.Music = {
     b2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -3227,10 +3205,8 @@ number.10.Violin.2.Music = {
     b2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -3281,10 +3257,8 @@ number.10.Violin.2.Music = {
     b1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -3424,10 +3398,8 @@ number.10.Viola.Music = {
     bqs,!1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -3846,10 +3818,8 @@ number.10.Viola.Music = {
     b,1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
     ^ \akasha-xp-plus-fb-markup
@@ -3927,10 +3897,8 @@ number.10.Viola.Music = {
     b,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -4119,10 +4087,8 @@ number.10.Viola.Music = {
     b,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -4173,10 +4139,8 @@ number.10.Viola.Music = {
     b,1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -4318,10 +4282,8 @@ number.10.Cello.Music = {
     b,,1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -4426,10 +4388,8 @@ number.10.Cello.Music = {
     b,,1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! SPANNER_START
@@ -4520,10 +4480,8 @@ number.10.Cello.Music = {
     b,,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! SPANNER_START
@@ -4625,10 +4583,8 @@ number.10.Cello.Music = {
     b,,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \sfp
     ^ \akasha-material-d
       %! SPANNER_START
@@ -4818,10 +4774,8 @@ number.10.Cello.Music = {
     b,,1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
     ^ \akasha-xp-plus-fb-markup
@@ -4899,10 +4853,8 @@ number.10.Cello.Music = {
     b,,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -5103,10 +5055,8 @@ number.10.Cello.Music = {
     b,,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     ^ \akasha-material-b
       %! SPANNER_START
@@ -5157,10 +5107,8 @@ number.10.Cello.Music = {
     b,,1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ^ \akasha-material-b
       %! SPANNER_START
