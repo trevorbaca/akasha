@@ -2589,10 +2589,8 @@ number.6.Violin.1.Music = {
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
         ]
 
@@ -4475,10 +4473,8 @@ number.6.Violin.2.Music = {
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
         ]
 
@@ -7273,10 +7269,8 @@ number.6.Cello.Music = {
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
         ]
 
