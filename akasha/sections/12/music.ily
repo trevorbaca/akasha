@@ -2454,10 +2454,8 @@ number.12.Violin.1.Music = {
     a''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -2523,10 +2521,8 @@ number.12.Violin.1.Music = {
     a''1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -2578,10 +2574,8 @@ number.12.Violin.1.Music = {
     a''4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -2620,10 +2614,8 @@ number.12.Violin.1.Music = {
     a''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -2671,10 +2663,8 @@ number.12.Violin.1.Music = {
     a''2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -2740,10 +2730,8 @@ number.12.Violin.1.Music = {
     a''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -2843,10 +2831,8 @@ number.12.Violin.1.Music = {
     b''''2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     \repeatTie
 
@@ -2918,10 +2904,8 @@ number.12.Violin.1.Music = {
     b''''2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -2968,10 +2952,8 @@ number.12.Violin.1.Music = {
     b''''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_STOP
     \stopTextSpan
@@ -3025,10 +3007,8 @@ number.12.Violin.1.Music = {
     b''''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -3435,10 +3415,8 @@ number.12.Violin.2.Music = {
     gtqs'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -3500,10 +3478,8 @@ number.12.Violin.2.Music = {
     a'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -3555,10 +3531,8 @@ number.12.Violin.2.Music = {
     a'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -3597,10 +3571,8 @@ number.12.Violin.2.Music = {
     gtqs'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -3648,10 +3620,8 @@ number.12.Violin.2.Music = {
     gtqs'2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -3713,10 +3683,8 @@ number.12.Violin.2.Music = {
     a'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -3801,10 +3769,8 @@ number.12.Violin.2.Music = {
     cs''''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     - \tweak stencil ##f
     ~
@@ -3883,10 +3849,8 @@ number.12.Violin.2.Music = {
     cs''''2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -3933,10 +3897,8 @@ number.12.Violin.2.Music = {
     cs''''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_STOP
     \stopTextSpan
@@ -3990,10 +3952,8 @@ number.12.Violin.2.Music = {
     cs''''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -4395,10 +4355,8 @@ number.12.Viola.Music = {
     aqs,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -4460,10 +4418,8 @@ number.12.Viola.Music = {
     a,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -4515,10 +4471,8 @@ number.12.Viola.Music = {
     a,4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -4557,10 +4511,8 @@ number.12.Viola.Music = {
     aqs,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -4608,10 +4560,8 @@ number.12.Viola.Music = {
     aqs,2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -4673,10 +4623,8 @@ number.12.Viola.Music = {
     a,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -4762,10 +4710,8 @@ number.12.Viola.Music = {
     gqf''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     - \tweak stencil ##f
     ~
@@ -4846,10 +4792,8 @@ number.12.Viola.Music = {
     gqf''2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -4896,10 +4840,8 @@ number.12.Viola.Music = {
     gqf''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_STOP
     \stopTextSpan
@@ -4953,10 +4895,8 @@ number.12.Viola.Music = {
     gqf''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -5355,10 +5295,8 @@ number.12.Cello.Music = {
     a,,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -5424,10 +5362,8 @@ number.12.Cello.Music = {
     a,,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -5479,10 +5415,8 @@ number.12.Cello.Music = {
     a,,4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -5521,10 +5455,8 @@ number.12.Cello.Music = {
     a,,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -5572,10 +5504,8 @@ number.12.Cello.Music = {
     a,,2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -5641,10 +5571,8 @@ number.12.Cello.Music = {
     a,,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -5725,10 +5653,8 @@ number.12.Cello.Music = {
     d''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     - \tweak stencil ##f
     ~
@@ -5825,10 +5751,8 @@ number.12.Cello.Music = {
     d''2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan
@@ -5875,10 +5799,8 @@ number.12.Cello.Music = {
     d''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_STOP
     \stopTextSpan
@@ -5932,10 +5854,8 @@ number.12.Cello.Music = {
     d''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SPANNER_STOP
     \stopTextSpan

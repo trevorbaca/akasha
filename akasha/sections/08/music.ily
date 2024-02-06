@@ -872,10 +872,8 @@ number.8.Violin.1.Music = {
         cs''''!16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
         ]
 
@@ -932,10 +930,8 @@ number.8.Violin.1.Music = {
     f''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \stopTextSpan
@@ -977,10 +973,8 @@ number.8.Violin.1.Music = {
     e''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -1031,10 +1025,8 @@ number.8.Violin.1.Music = {
     fs''4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -1241,10 +1233,8 @@ number.8.Violin.2.Music = {
     ef'!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_STOP
     \stopTextSpan
@@ -1296,10 +1286,8 @@ number.8.Violin.2.Music = {
     g'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \stopTextSpan
@@ -1341,10 +1329,8 @@ number.8.Violin.2.Music = {
     e'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -1395,10 +1381,8 @@ number.8.Violin.2.Music = {
     af'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -1604,10 +1588,8 @@ number.8.Viola.Music = {
     e'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_STOP
     \stopTextSpan
@@ -1659,10 +1641,8 @@ number.8.Viola.Music = {
     e'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \stopTextSpan
@@ -1704,10 +1684,8 @@ number.8.Viola.Music = {
     f'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -1758,10 +1736,8 @@ number.8.Viola.Music = {
     f'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -1976,10 +1952,8 @@ number.8.Cello.Music = {
     d,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_STOP
     \stopTextSpan
@@ -2031,10 +2005,8 @@ number.8.Cello.Music = {
     c,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \stopTextSpan
@@ -2076,10 +2048,8 @@ number.8.Cello.Music = {
     cs,!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_STOP
     \stopTextSpan
@@ -2130,10 +2100,8 @@ number.8.Cello.Music = {
     b,,4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
