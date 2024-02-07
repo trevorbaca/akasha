@@ -870,10 +870,7 @@ number.8.Violin.1.Music = {
         e''''16
 
         cs''''!16
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
         ]
 
