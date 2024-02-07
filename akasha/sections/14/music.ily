@@ -2198,13 +2198,10 @@ number.14.Cello.Music = {
 
     % [Cello.Music measure 25]
     R1 * 6/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
+      %! SPANNER_STOP
+    \!
 
     % [Cello.Music measure 26]
     R1 * 6/4

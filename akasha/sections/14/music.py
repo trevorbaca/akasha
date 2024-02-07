@@ -166,7 +166,7 @@ def vc(m):
     with baca.scope(m[19, 24]) as o:
         baca.spanners.hairpin(
             o.rleak(),
-            "pp >o niente",
+            "pp >o !",
         )
 
 

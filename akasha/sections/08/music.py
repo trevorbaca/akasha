@@ -133,7 +133,7 @@ def v1(m):
         library.getato_pitches(31, [2], function=o)
         baca.spanners.hairpin(
             o.tleaves(),
-            "pp >o niente",
+            "pp >o !",
         )
     with baca.scope(m[5, 7]) as o:
         baca.piecewise.text(
