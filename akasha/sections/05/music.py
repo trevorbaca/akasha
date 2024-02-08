@@ -8,8 +8,10 @@ from akasha import library
 #########################################################################################
 
 
-AG = baca.rhythm.AG
+IAG = baca.rhythm.IAG
+h = baca.rhythm.h
 frame = library.frame
+t = baca.rhythm.t
 
 
 def make_empty_score():
@@ -173,10 +175,7 @@ def VA(voice, time_signatures):
         time_signatures(33, 35),
     )
     voice.extend(music)
-    music = library.make_glissando_rhythm(
-        time_signatures(36),
-    )
-    voice.extend(music)
+    library.rhythm(voice, time_signatures(36), [IAG([1], 6)])
     music = baca.make_mmrests(time_signatures(37), head=voice.name)
     voice.extend(music)
     music = library.make_untied_notes(
@@ -212,7 +211,8 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(32), head=voice.name)
     voice.extend(music)
-    library.rhythm(voice, time_signatures(33, 36), "+")
+    library.rhythm(voice, time_signatures(33, 35), "+")
+    library.rhythm(voice, time_signatures(36), [IAG([1], 6)])
     music = baca.make_mmrests(time_signatures(37), head=voice.name)
     voice.extend(music)
     music = library.make_untied_notes(
@@ -221,14 +221,8 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(42), head=voice.name)
     voice.extend(music)
-    music = library.make_untied_notes(
-        time_signatures(43, 49),
-    )
-    voice.extend(music)
-    music = library.make_glissando_rhythm(
-        time_signatures(50),
-    )
-    voice.extend(music)
+    library.rhythm(voice, time_signatures(43, 49), "+")
+    library.rhythm(voice, time_signatures(50), [IAG([1], 14)])
     music = baca.make_mmrests(time_signatures(51), head=voice.name)
     voice.extend(music)
 
@@ -286,11 +280,11 @@ def va(m):
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[33, 36]) as o:
         baca.clef(o.leaf(0), "alto"),
-        baca.pitches(o, "Fb3 E3 D#3 C#3 B#2", exact=True)
-        baca.glissando(o)
+        baca.flat_glissando(o, "Fb3", hide_middle_stems=True, stop_pitch="B#2")
         baca.spanners.hairpin(
             o,
-            "sf > ppp",
+            "sf >o !",
+            with_next_leaf=True,
         )
         baca.markup(o.pleaf(0), r"\akasha-tasto-plus-senza-vib-markup")
         library.material_annotation_spanner(o, "D")
@@ -301,7 +295,12 @@ def va(m):
             library.harmonic_glissando_pitches("Ab3", function=run, rotation=rotation)
             baca.glissando(run)
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.dynamic(o.pleaf(0), "ppp-ancora")
+        baca.dynamic(
+            o[0],
+            "ppp-ancora",
+            parent_alignment_x=-1,
+            self_alignment_x=-1,
+        )
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
 
 
@@ -322,24 +321,32 @@ def vc(m):
             o.pleaf(0), r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"
         )
     with baca.scope(m[33, 36]) as o:
-        baca.pitch(o, "C#2")
+        baca.flat_glissando(o, "C#2", hide_middle_stems=True)
         baca.spanners.hairpin(
             o,
-            "sf > ppp",
+            "sf >o !",
+            with_next_leaf=True,
         )
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
     with baca.scope(m[38, 41]) as o:
         library.harmonic_glissando_pitches("G2", function=o, rotation=-6)
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.glissando(o)
-        baca.dynamic(o.pleaf(0), "ppp-ancora")
+        baca.dynamic(
+            o[0],
+            "ppp-ancora",
+            parent_alignment_x=-1,
+            self_alignment_x=-1,
+        )
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
     with baca.scope(m[43, 50]) as o:
-        baca.pitches(o, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True)
-        baca.glissando(o)
+        # baca.pitches(o, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True)
+        # baca.glissando(o)
+        baca.flat_glissando(o, "Db3", hide_middle_stems=True, stop_pitch="A1")
         baca.spanners.hairpin(
             o,
-            "sf > ppp",
+            "sf >o !",
+            with_next_leaf=True,
         )
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
         library.material_annotation_spanner(o, "D")
@@ -363,6 +370,13 @@ def composites(cache):
         ("vc", (33, 36)),
     ):
         library.material_annotation_spanner(leaves, "D")
+
+
+def align_spanners(cache):
+    baca.override.dls_staff_padding(cache["va"][33, 36], 4)
+    baca.override.dls_staff_padding(cache["vc"][33, 36], 5)
+    baca.override.dls_staff_padding(cache["vc"][38, 41], 4)
+    baca.override.dls_staff_padding(cache["vc"][43, 50], 5.5)
 
 
 @baca.build.timed("make_score")
@@ -399,6 +413,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     va(cache["va"])
     vc(cache["vc"])
     composites(cache)
+    align_spanners(cache)
     return score
 
 

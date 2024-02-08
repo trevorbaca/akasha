@@ -3451,6 +3451,7 @@ number.5.Viola.Music = {
       %! MEASURE_94
       %! SHIFTED_CLEF
     \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
+    \override DynamicLineSpanner.staff-padding = 4
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
@@ -3468,10 +3469,16 @@ number.5.Viola.Music = {
     \sf
     ^ \akasha-material-d
     ^ \akasha-tasto-plus-senza-vib-markup
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -3480,26 +3487,31 @@ number.5.Viola.Music = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     % [Viola.Music measure 34]
+    \hide NoteHead
+    \override Accidental.stencil = ##f
+    \override NoteColumn.glissando-skip = ##t
+    \override NoteHead.no-ledgers = ##t
+    \override Dots.transparent = ##t
+    \override Stem.transparent = ##t
     e2.
-    \glissando
 
     % [Viola.Music measure 35]
-    ds!2
-    \glissando
+    d2
 
-    \times 2/3
+    % [Viola.Music measure 36]
+    \afterGrace
+    c4.
+
     {
 
-        % [Viola.Music measure 36]
-        cs!2
-        \glissando
-
+        \revert Accidental.stencil
+        \revert NoteColumn.glissando-skip
+        \revert NoteHead.no-ledgers
+        \undo \hide NoteHead
+        \revert Dots.transparent
+        \revert Stem.transparent
         bs,!16
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \ppp
+        \revert DynamicLineSpanner.staff-padding
 
     }
 
@@ -3529,6 +3541,8 @@ number.5.Viola.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
 
         }
 
@@ -3560,6 +3574,10 @@ number.5.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+    - \tweak parent-alignment-X -1
+      %! EXPLICIT_DYNAMIC
+    - \tweak self-alignment-X -1
       %! EXPLICIT_DYNAMIC
     \baca-ppp-ancora
     ^ \akasha-material-e
@@ -4202,6 +4220,7 @@ number.5.Cello.Music = {
     >>
 
     % [Cello.Music measure 33]
+    \override DynamicLineSpanner.staff-padding = 5
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
@@ -4217,36 +4236,49 @@ number.5.Cello.Music = {
     \sf
     ^ \akasha-material-d
     ^ \baca-tasto-markup
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
-    - \tweak stencil ##f
-    ~
+    \glissando
 
     % [Cello.Music measure 34]
-    cs,2.
-    - \tweak stencil ##f
-    ~
-    \repeatTie
+    \hide NoteHead
+    \override Accidental.stencil = ##f
+    \override NoteColumn.glissando-skip = ##t
+    \override NoteHead.no-ledgers = ##t
+    \override Dots.transparent = ##t
+    \override Stem.transparent = ##t
+    cs,!2.
 
     % [Cello.Music measure 35]
-    cs,2
-    - \tweak stencil ##f
-    ~
-    \repeatTie
+    cs,!2
 
     % [Cello.Music measure 36]
-    cs,4.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \ppp
-    \repeatTie
+    \afterGrace
+    cs,!4.
+
+    {
+
+        \revert Accidental.stencil
+        \revert NoteColumn.glissando-skip
+        \revert NoteHead.no-ledgers
+        \undo \hide NoteHead
+        \revert Dots.transparent
+        \revert Stem.transparent
+        cs,!16
+        \revert DynamicLineSpanner.staff-padding
+
+    }
 
     <<
 
@@ -4274,6 +4306,8 @@ number.5.Cello.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
@@ -4296,6 +4330,7 @@ number.5.Cello.Music = {
     >>
 
     % [Cello.Music measure 38]
+    \override DynamicLineSpanner.staff-padding = 4
     \override NoteHead.style = #'harmonic
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -4309,6 +4344,10 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+    - \tweak parent-alignment-X -1
+      %! EXPLICIT_DYNAMIC
+    - \tweak self-alignment-X -1
       %! EXPLICIT_DYNAMIC
     \baca-ppp-ancora
     ^ \akasha-material-e
@@ -4328,6 +4367,7 @@ number.5.Cello.Music = {
     % [Cello.Music measure 41]
     e4.
     - \upbow
+    \revert DynamicLineSpanner.staff-padding
     \revert NoteHead.style
 
     <<
@@ -4378,6 +4418,7 @@ number.5.Cello.Music = {
     >>
 
     % [Cello.Music measure 43]
+    \override DynamicLineSpanner.staff-padding = 5.5
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
@@ -4393,58 +4434,63 @@ number.5.Cello.Music = {
     \sf
     ^ \akasha-material-d
     ^ \baca-tasto-markup
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
     \>
     \glissando
 
     % [Cello.Music measure 44]
+    \hide NoteHead
+    \override Accidental.stencil = ##f
+    \override NoteColumn.glissando-skip = ##t
+    \override NoteHead.no-ledgers = ##t
+    \override Dots.transparent = ##t
+    \override Stem.transparent = ##t
     c2.
-    \glissando
 
-    bf,!4.
-    \glissando
+    b,4.
 
     % [Cello.Music measure 45]
-    af,!2.
-    \glissando
+    a,2.
 
     g,4.
-    \glissando
 
     % [Cello.Music measure 46]
     f,2
-    \glissando
 
     % [Cello.Music measure 47]
-    ef,!4.
-    \glissando
+    e,4.
 
     % [Cello.Music measure 48]
     d,2.
-    \glissando
 
     % [Cello.Music measure 49]
     c,2..
-    \glissando
 
-    \times 8/9
+    % [Cello.Music measure 50]
+    \afterGrace
+    b,,2..
+
     {
 
-        % [Cello.Music measure 50]
-        bf,,!2..
-        \glissando
-
-        a,,16..
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \ppp
+        \revert Accidental.stencil
+        \revert NoteColumn.glissando-skip
+        \revert NoteHead.no-ledgers
+        \undo \hide NoteHead
+        \revert Dots.transparent
+        \revert Stem.transparent
+        a,,16
+        \revert DynamicLineSpanner.staff-padding
 
     }
 
@@ -4474,6 +4520,8 @@ number.5.Cello.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(0 . 2)
 
