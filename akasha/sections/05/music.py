@@ -207,8 +207,9 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(32), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(time_signatures(33, 36))
-    voice.extend(music)
+    #
+    library.rhythm(voice, time_signatures(33, 36), "+")
+    #
     music = baca.make_mmrests(time_signatures(37), head=voice.name)
     voice.extend(music)
     music = library.make_untied_notes(
@@ -317,7 +318,7 @@ def vc(m):
         baca.markup(
             o.pleaf(0), r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"
         )
-    with baca.scope(m[33, 35]) as o:
+    with baca.scope(m[33, 36]) as o:
         baca.pitch(o, "C#2")
         baca.spanners.hairpin(
             o,
