@@ -476,6 +476,38 @@ def perforated_counts(*, degree=0, rotation=None):
     return abjad.sequence.rotate(counts, n=rotation)
 
 
+def rhythm(
+    voice,
+    time_signatures,
+    items,
+    *,
+    denominator=16,
+    do_not_rewrite_meter=False,
+):
+    assert time_signatures is not None, repr(time_signatures)
+    tag = baca.helpers.function_name(inspect.currentframe())
+    if isinstance(items, list):
+        items = abjad.sequence.flatten(items)
+    else:
+        items = [items]
+    if time_signatures is None:
+        do_not_rewrite_meter = True
+    voice_ = baca.make_rhythm(
+        items,
+        denominator,
+        time_signatures,
+        boundary_depth=1,
+        do_not_rewrite_meter=do_not_rewrite_meter,
+        tag=tag,
+        voice_name=voice.name,
+    )
+    rmakers.force_fraction(voice_)
+    rmakers.force_repeat_tie(voice_)
+    components = abjad.mutate.eject_contents(voice_)
+    voice.extend(components)
+    return components
+
+
 def stage_markup(section_number, stage_tokens):
     stage_markup = []
     start_measure = 1

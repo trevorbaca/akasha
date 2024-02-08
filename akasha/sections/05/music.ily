@@ -4235,17 +4235,17 @@ number.5.Cello.Music = {
 
     % [Cello.Music measure 35]
     cs,2
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \ppp
     - \tweak stencil ##f
     ~
     \repeatTie
 
     % [Cello.Music measure 36]
     cs,4.
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+    \ppp
     \repeatTie
 
     <<
