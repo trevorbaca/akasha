@@ -32,6 +32,15 @@ def _time_signature_series():
     return time_signature_series
 
 
+def X(argument):
+    if isinstance(argument, list):
+        list_ = argument
+    else:
+        list_ = [argument]
+    assert isinstance(list_, list), repr(list_)
+    return baca.rhythm.T(list_, "1:1")
+
+
 def cello_solo_pitches(*, function=None, transposition=None):
     string = "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3 E3 E-3 Eb3 Db3 C3 D3 F#3"
     pitches = [abjad.NamedPitch(_) for _ in string.split()]
@@ -57,6 +66,18 @@ def compound_quarters(time_signatures):
         durations.extend(durations_)
     durations = abjad.sequence.flatten(durations)
     return durations
+
+
+def frame(written_n, framed_n):
+    assert framed_n < written_n, repr((written_n, framed_n))
+    actual_n = written_n - framed_n
+    left_multiplier = (actual_n, written_n)
+    left = baca.rhythm.m(written_n, left_multiplier)
+    right_multiplier = (written_n - actual_n, written_n)
+    right = baca.rhythm.m(written_n, right_multiplier)
+    right_ = baca.rhythm.h(right)
+    framed_right = baca.rhythm.FramedNote(right_)
+    return X([left, framed_right])
 
 
 def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP, function=None):

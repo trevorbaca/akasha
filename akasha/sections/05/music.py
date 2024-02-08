@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from akasha import library
@@ -5,6 +6,10 @@ from akasha import library
 #########################################################################################
 ########################################### 05 ##########################################
 #########################################################################################
+
+
+AG = baca.rhythm.AG
+frame = library.frame
 
 
 def make_empty_score():
@@ -207,9 +212,7 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(32), head=voice.name)
     voice.extend(music)
-    #
     library.rhythm(voice, time_signatures(33, 36), "+")
-    #
     music = baca.make_mmrests(time_signatures(37), head=voice.name)
     voice.extend(music)
     music = library.make_untied_notes(
@@ -378,6 +381,9 @@ def make_score(first_measure_number, previous_persistent_indicators):
     V2(voices.v2, time_signatures)
     VA(voices.va, time_signatures)
     VC(voices.vc, time_signatures)
+    for tuplet in abjad.select.tuplets(score):
+        if tuplet.multiplier == (1, 1):
+            abjad.mutate.extract(tuplet)
     baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
