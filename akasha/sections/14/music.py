@@ -152,7 +152,7 @@ def vc(m):
     baca.pitch(m[1, 24], "Bb1")
     with baca.scope(m[1, 10]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:9],
+            o[:9],
             "ppp < ff",
         )
         baca.piecewise.text(
@@ -165,8 +165,9 @@ def vc(m):
         baca.markup(o.pleaf(0), r"\baca-vib-poco-markup")
     with baca.scope(m[19, 24]) as o:
         baca.spanners.hairpin(
-            o.rleak(),
+            o,
             "pp >o !",
+            with_next_leaf=True,
         )
 
 
