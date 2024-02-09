@@ -779,13 +779,19 @@ number.15.Violin.1.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     c'4.
-    - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
-    ^ \akasha-full-bow-strokes-terminate-each-note-abruptly-markup
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -801,21 +807,42 @@ number.15.Violin.1.Music = {
 
     % [Violin.1.Music measure 3]
     c'2..
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Violin.1.Music measure 4]
     r2..
 
     % [Violin.1.Music measure 5]
     c'4.
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Violin.1.Music measure 6]
     r2.
 
     % [Violin.1.Music measure 7]
     c'2.
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
     - \tweak stencil ##f
     ~
 
@@ -829,28 +856,56 @@ number.15.Violin.1.Music = {
 
     % [Violin.1.Music measure 9]
     c'2
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Violin.1.Music measure 10]
     r1
 
     % [Violin.1.Music measure 11]
     c'2.
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Violin.1.Music measure 12]
     r2..
 
     % [Violin.1.Music measure 13]
     c'2..
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Violin.1.Music measure 14]
     r4.
 
     % [Violin.1.Music measure 15]
     c'1
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Violin.1.Music measure 16]
     r2.
@@ -1014,6 +1069,10 @@ number.15.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
+        - \tweak parent-alignment-X -1
+          %! EXPLICIT_DYNAMIC
+        - \tweak self-alignment-X -1
+          %! EXPLICIT_DYNAMIC
         \baca-pp-ancora
         ^ \baca-leggieriss-markup
         [
@@ -1164,13 +1223,19 @@ number.15.Viola.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     c'4.
-    - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
-    ^ \akasha-full-bow-strokes-terminate-each-note-abruptly-markup
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -1186,21 +1251,42 @@ number.15.Viola.Music = {
 
     % [Viola.Music measure 3]
     c'2..
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Viola.Music measure 4]
     r2..
 
     % [Viola.Music measure 5]
     c'4.
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Viola.Music measure 6]
     r2.
 
     % [Viola.Music measure 7]
     c'2.
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
     - \tweak stencil ##f
     ~
 
@@ -1214,28 +1300,56 @@ number.15.Viola.Music = {
 
     % [Viola.Music measure 9]
     c'2
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Viola.Music measure 10]
     r1
 
     % [Viola.Music measure 11]
     c'2.
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Viola.Music measure 12]
     r2..
 
     % [Viola.Music measure 13]
     c'2..
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Viola.Music measure 14]
     r4.
 
     % [Viola.Music measure 15]
     c'1
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Viola.Music measure 16]
     r2.
@@ -1336,13 +1450,19 @@ number.15.Cello.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     c'4.
-    - \downbow
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
-    ^ \akasha-full-bow-strokes-terminate-each-note-abruptly-markup
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -1358,21 +1478,42 @@ number.15.Cello.Music = {
 
     % [Cello.Music measure 3]
     c'2..
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Cello.Music measure 4]
     r2..
 
     % [Cello.Music measure 5]
     c'4.
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Cello.Music measure 6]
     r2.
 
     % [Cello.Music measure 7]
     c'2.
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
     - \tweak stencil ##f
     ~
 
@@ -1386,28 +1527,56 @@ number.15.Cello.Music = {
 
     % [Cello.Music measure 9]
     c'2
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Cello.Music measure 10]
     r1
 
     % [Cello.Music measure 11]
     c'2.
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Cello.Music measure 12]
     r2..
 
     % [Cello.Music measure 13]
     c'2..
-    - \downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-downbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Cello.Music measure 14]
     r4.
 
     % [Cello.Music measure 15]
     c'1
-    - \upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 1.5
+    - \baca-full-upbow
+    - \tweak parent-alignment-X -1
+    - \tweak self-alignment-X -1
+    - \tweak staff-padding 5
+    - \baca-stop-on-string
 
     % [Cello.Music measure 16]
     r2.

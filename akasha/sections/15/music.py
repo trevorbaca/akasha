@@ -104,7 +104,12 @@ def v2(m):
     with baca.scope(m[9, 24]) as o:
         library.getato_pitches(29, direction=abjad.DOWN, function=o)
         baca.staccato(o.pheads())
-        baca.dynamic(o.pleaf(0), "pp-ancora")
+        baca.dynamic(
+            o.pleaf(0),
+            "pp-ancora",
+            parent_alignment_x=-1,
+            self_alignment_x=-1,
+        )
         baca.markup(o.pleaf(0), r"\baca-leggieriss-markup")
 
 
@@ -126,11 +131,20 @@ def _1_24(m):
         baca.clef(o.leaf(0), "percussion"),
         baca.staff_lines(o.leaf(0), 1),
         baca.staff_position(o, 0)
-        baca.alternate_bow_strokes(o.pheads())
-        baca.dynamic(o.pleaf(0), '"mf"'),
-        baca.markup(
-            o.pleaf(0), r"\akasha-full-bow-strokes-terminate-each-note-abruptly-markup"
+        baca.alternate_bow_strokes(
+            o.pheads(),
+            abjad.Tweak(r"- \tweak parent-alignment-X -1"),
+            abjad.Tweak(r"- \tweak self-alignment-X -1"),
+            abjad.Tweak(r"- \tweak staff-padding 1.5"),
+            full=True,
         )
+        baca.stop_on_string(
+            o.pheads(),
+            abjad.Tweak(r"- \tweak parent-alignment-X -1"),
+            abjad.Tweak(r"- \tweak self-alignment-X -1"),
+            abjad.Tweak(r"- \tweak staff-padding 5"),
+        )
+        baca.dynamic(o.pleaf(0), '"mf"'),
 
 
 @baca.build.timed("make_score")
