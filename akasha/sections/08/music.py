@@ -25,7 +25,8 @@ def GLOBALS(skips, rests):
     baca.rehearsal_mark(
         skips[1 - 1],
         "G",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 5)"),
+        extra_offset=(0, 5),
+        font_size=6,
     )
     for index, item in (
         (1 - 1, "126"),
@@ -317,8 +318,8 @@ def make_layout():
     spacing = baca.make_layout(
         baca.page(
             1,
-            baca.system(measure=1, y_offset=20, distances=(20, 20)),
-            baca.system(measure=8, y_offset=140, distances=(20, 20)),
+            baca.system(measure=1, y_offset=20, distances=(12, 20)),
+            baca.system(measure=8, y_offset=140, distances=(12, 20)),
         ),
         spacing=(1, 32),
     )

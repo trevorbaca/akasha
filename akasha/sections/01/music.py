@@ -136,7 +136,6 @@ def persist_score(score, environment):
         score,
         baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
         baca.tags.MATERIAL_ANNOTATION_MARKUP,
-        baca.tags.RHYTHM_ANNOTATION_SPANNER,
     )
     baca.tags.activate(
         score,
