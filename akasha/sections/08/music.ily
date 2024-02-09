@@ -664,7 +664,7 @@ number.8.Violin.1.Music = {
           %! MATERIAL_ANNOTATION_MARKUP
         %@% ^ \akasha-material-a
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -871,8 +871,6 @@ number.8.Violin.1.Music = {
         e''''16
 
         cs''''!16
-          %! SPANNER_STOP
-        \!
         ]
 
     }
@@ -890,18 +888,37 @@ number.8.Violin.1.Music = {
     \f
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-b
+      %! SPANNER_STOP
+    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
-    - \baca-text-spanner-left-text "tasto + 1/4 scratch"
+    - \baca-text-spanner-left-text "1/4 scratch"
       %! SPANNER_START
-    - \baca-text-spanner-right-text "tasto"
+    - \baca-text-spanner-right-text "ord."
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+      %! TASTO_SPANNER
+    - \baca-dashed-line-with-hook
+      %! SPANNER_START
+      %! TASTO_SPANNER
+    - \baca-text-spanner-left-text "T"
+      %! SPANNER_START
+      %! TASTO_SPANNER
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
+      %! SPANNER_START
+      %! TASTO_SPANNER
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+      %! TASTO_SPANNER
+    \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -954,6 +971,8 @@ number.8.Violin.1.Music = {
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -996,6 +1015,8 @@ number.8.Violin.1.Music = {
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
+      %! SPANNER_START
+    - \tweak staff-padding 3
       %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1057,6 +1078,9 @@ number.8.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+              %! TASTO_SPANNER
+            \bacaStopTextSpanSCP
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
@@ -1193,7 +1217,7 @@ number.8.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -1204,6 +1228,8 @@ number.8.Violin.2.Music = {
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
+      %! SPANNER_START
+    - \tweak staff-padding 3
       %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1259,6 +1285,8 @@ number.8.Violin.2.Music = {
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1312,6 +1340,8 @@ number.8.Violin.2.Music = {
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1354,6 +1384,8 @@ number.8.Violin.2.Music = {
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
+      %! SPANNER_START
+    - \tweak staff-padding 3
       %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1550,7 +1582,7 @@ number.8.Viola.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -1561,6 +1593,8 @@ number.8.Viola.Music = {
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
+      %! SPANNER_START
+    - \tweak staff-padding 3
       %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1616,6 +1650,8 @@ number.8.Viola.Music = {
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1669,6 +1705,8 @@ number.8.Viola.Music = {
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1711,6 +1749,8 @@ number.8.Viola.Music = {
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
+      %! SPANNER_START
+    - \tweak staff-padding 3
       %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1916,7 +1956,7 @@ number.8.Cello.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Cello”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -1927,6 +1967,8 @@ number.8.Cello.Music = {
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
+      %! SPANNER_START
+    - \tweak staff-padding 3
       %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1982,6 +2024,8 @@ number.8.Cello.Music = {
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2035,6 +2079,8 @@ number.8.Cello.Music = {
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2077,6 +2123,8 @@ number.8.Cello.Music = {
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
+      %! SPANNER_START
+    - \tweak staff-padding 3
       %! SPANNER_START
     \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR

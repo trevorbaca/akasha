@@ -180,7 +180,10 @@ def persist_score(score, environment):
     baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
     baca.tags.deactivate(
         score,
+        baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
         baca.tags.MATERIAL_ANNOTATION_MARKUP,
+        baca.tags.REAPPLIED_INSTRUMENT_ALERT,
+        baca.tags.REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT,
     )
     lilypond_file = baca.lilypond.file(
         score,

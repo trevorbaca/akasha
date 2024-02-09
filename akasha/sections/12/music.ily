@@ -2160,7 +2160,7 @@ number.12.Violin.1.Music = {
     \baca-effort-ff
     ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -3121,7 +3121,7 @@ number.12.Violin.2.Music = {
     \baca-effort-ff
     ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -4061,7 +4061,7 @@ number.12.Viola.Music = {
     \baca-effort-ff
     ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -5001,7 +5001,7 @@ number.12.Cello.Music = {
     \baca-effort-ff
     ^ \akasha-tasto-plus-one-click-per-three-to-four-sec-markup
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Cello”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
