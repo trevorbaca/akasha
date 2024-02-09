@@ -358,6 +358,12 @@ def composites(cache):
         library.material_annotation_spanner(leaves, "A")
 
 
+def align_spanners(cache):
+    baca.override.dls_staff_padding(cache["v1"][23, 32], 7.5)
+    baca.override.dls_staff_padding(cache["v2"][23, 32], 7)
+    baca.override.dls_staff_padding(cache["vc"][23, 32], 7)
+
+
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
     score, voices, time_signatures = make_empty_score()
@@ -389,6 +395,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     va(cache["va"])
     vc(cache["vc"])
     composites(cache)
+    align_spanners(cache)
     return score
 
 

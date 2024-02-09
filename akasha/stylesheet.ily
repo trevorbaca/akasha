@@ -243,7 +243,6 @@
 
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
-    \override TupletBracket.staff-padding = 1.5
 
     \override TupletNumber.font-size = 1
     \override TupletNumber.text = #tuplet-number::calc-fraction-text
