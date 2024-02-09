@@ -370,7 +370,7 @@ number.9.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"117" #"16"
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
         ^ \baca-xfb-markup
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -579,7 +579,7 @@ number.9.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"109" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
         ^ \baca-xfb-markup
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -771,7 +771,7 @@ number.9.Viola.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-e
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -986,7 +986,7 @@ number.9.Cello.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"119" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Cello”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
         ^ \baca-xfb-markup
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR

@@ -1385,7 +1385,7 @@ number.10.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2468,7 +2468,7 @@ number.10.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3398,7 +3398,7 @@ number.10.Viola.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4280,7 +4280,7 @@ number.10.Cello.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Cello”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START

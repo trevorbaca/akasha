@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from akasha import library
@@ -135,17 +134,23 @@ def v1(m):
         baca.spanners.hairpin(
             o.tleaves(),
             "pp >o !",
+            with_next_leaf=True,
         )
     with baca.scope(m[5, 7]) as o:
         baca.piecewise.text(
             (),
-            "tasto + 1/4 scratch => tasto",
+            "1/4 scratch => ord.",
             pieces=[o],
+            staff_padding=3,
         )
     with baca.scope(m[5, 13]) as o:
         loop = baca.Loop([17, 19, 17, 15, 18, 16], [1])
         baca.pitches(o, loop)
         baca.glissando(o)
+        baca.rspanners.tasto(
+            o,
+            staff_padding=5.5,
+        )
     with baca.scope(m[15, 16]) as o:
         baca.pitch(o, "F#5")
         baca.dynamic(o.pleaf(0), "ppp")
@@ -198,6 +203,7 @@ def composites(cache):
                 (),
                 "tasto + scratch moltiss. => tasto + 1/4 scratch",
                 pieces=[o],
+                staff_padding=3,
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][5, 7]) as o:
@@ -211,6 +217,7 @@ def composites(cache):
                 (),
                 "trans. => tasto",
                 pieces=[o],
+                staff_padding=3,
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][8, 10]) as o:
@@ -222,6 +229,7 @@ def composites(cache):
                 (),
                 "trans. => FB",
                 pieces=[o],
+                staff_padding=3,
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][11, 13]) as o:
@@ -233,6 +241,7 @@ def composites(cache):
                 (),
                 "trans. => XFB",
                 pieces=[o],
+                staff_padding=3,
             )
     for leaves in cache.get(
         ("v1", [(5, 13), (15, 17)]),
@@ -298,7 +307,10 @@ def persist_score(score, environment):
     )
     baca.tags.deactivate(
         score,
+        baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
         baca.tags.MATERIAL_ANNOTATION_MARKUP,
+        baca.tags.REAPPLIED_INSTRUMENT_ALERT,
+        baca.tags.REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT,
     )
     lilypond_file = baca.lilypond.file(
         score,
