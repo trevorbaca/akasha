@@ -1878,6 +1878,7 @@ number.6.Violin.1.Music = {
     }
 
     % [Violin.1.Music measure 23]
+    \override DynamicLineSpanner.staff-padding = 7.5
     r4
 
     r16
@@ -2593,6 +2594,7 @@ number.6.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC
         \pp
         ]
+        \revert DynamicLineSpanner.staff-padding
 
     }
 
@@ -3654,6 +3656,7 @@ number.6.Violin.2.Music = {
     r4
 
     % [Violin.2.Music measure 23]
+    \override DynamicLineSpanner.staff-padding = 7
     r16
 
     b16
@@ -4477,6 +4480,7 @@ number.6.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
         \pp
         ]
+        \revert DynamicLineSpanner.staff-padding
 
     }
 
@@ -6412,6 +6416,7 @@ number.6.Cello.Music = {
     {
 
         % [Cello.Music measure 23]
+        \override DynamicLineSpanner.staff-padding = 7
         r16
 
         fs!16
@@ -7268,6 +7273,7 @@ number.6.Cello.Music = {
           %! EXPLICIT_DYNAMIC
         \pp
         ]
+        \revert DynamicLineSpanner.staff-padding
 
     }
 

@@ -1967,6 +1967,10 @@ number.7.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
+        - \tweak parent-alignment-X -1
+          %! EXPLICIT_DYNAMIC
+        - \tweak self-alignment-X -1
+          %! EXPLICIT_DYNAMIC
         \baca-pp-ancora
         ^ \akasha-material-c
           %! DURATION_MULTIPLIER
@@ -2068,6 +2072,7 @@ number.7.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 11]
+    \override DynamicLineSpanner.staff-padding = 6
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! STAFF_HIGHLIGHT
@@ -2650,12 +2655,14 @@ number.7.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"31" #"16"
         ]
+        \revert DynamicLineSpanner.staff-padding
         \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
 
     % [Violin.1.Music measure 23]
+    \override DynamicLineSpanner.staff-padding = 4
       %! STAFF_HIGHLIGHT
     \staffHighlight lightblue
       %! STAFF_HIGHLIGHT
@@ -2772,6 +2779,7 @@ number.7.Violin.1.Music = {
       %! SPANNER_STOP
     \stopTextSpan
     \repeatTie
+    \revert DynamicLineSpanner.staff-padding
 
     <<
 
@@ -3913,6 +3921,10 @@ number.7.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
+        - \tweak parent-alignment-X -1
+          %! EXPLICIT_DYNAMIC
+        - \tweak self-alignment-X -1
+          %! EXPLICIT_DYNAMIC
         \baca-pp-ancora
         ^ \akasha-material-c
           %! DURATION_MULTIPLIER
@@ -4012,6 +4024,7 @@ number.7.Violin.2.Music = {
     >>
 
     % [Violin.2.Music measure 11]
+    \override DynamicLineSpanner.staff-padding = 6
       %! STAFF_HIGHLIGHT
     \staffHighlight lightgreen
     \stopStaff
@@ -4481,12 +4494,14 @@ number.7.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"63" #"32"
         ]
+        \revert DynamicLineSpanner.staff-padding
         \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
 
     % [Violin.2.Music measure 23]
+    \override DynamicLineSpanner.staff-padding = 4
       %! STAFF_HIGHLIGHT
     \staffHighlight lightblue
       %! STAFF_HIGHLIGHT
@@ -4603,6 +4618,7 @@ number.7.Violin.2.Music = {
       %! SPANNER_STOP
     \stopTextSpan
     \repeatTie
+    \revert DynamicLineSpanner.staff-padding
 
     <<
 

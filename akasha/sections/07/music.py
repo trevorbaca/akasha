@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from akasha import library
+from akasha import library, strings
 
 #########################################################################################
 ########################################### 07 ##########################################
@@ -255,6 +255,33 @@ def VC(voice, time_signatures):
     voice.extend(music)
 
 
+def dynamics_7a(leaves):
+    runs = baca.select.runs(leaves)
+    for i, run in enumerate(runs):
+        if i % 2 == 0:
+            if len(run) == 1:
+                baca.spanners.hairpin(
+                    run,
+                    "pp",
+                )
+            else:
+                baca.spanners.hairpin(
+                    run,
+                    "pp < p",
+                )
+        else:
+            if len(run) == 1:
+                baca.spanners.hairpin(
+                    run,
+                    "p",
+                )
+            else:
+                baca.spanners.hairpin(
+                    run,
+                    "p > pp",
+                )
+
+
 def v1(m):
     with baca.scope(m[3, 4]) as o:
         library.material_annotation_spanner(o, "A")
@@ -265,29 +292,7 @@ def v1(m):
         library.material_annotation_spanner(o, "C")
         loop = baca.Loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1])
         baca.pitches(o, loop)
-        for i, run in enumerate(baca.select.runs(o)):
-            if i % 2 == 0:
-                if len(run) == 1:
-                    baca.spanners.hairpin(
-                        run,
-                        "pp",
-                    )
-                else:
-                    baca.spanners.hairpin(
-                        run,
-                        "pp < p",
-                    )
-            else:
-                if len(run) == 1:
-                    baca.spanners.hairpin(
-                        run,
-                        "p",
-                    )
-                else:
-                    baca.spanners.hairpin(
-                        run,
-                        "p > pp",
-                    )
+        dynamics_7a(o)
     with baca.scope(m[23, 26]) as o:
         baca.pitch(o, "E5")
         baca.dynamic(o.pleaf(0), "mp")
@@ -319,29 +324,7 @@ def v2(m):
         library.material_annotation_spanner(o, "C")
         loop = baca.Loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1])
         baca.pitches(o, loop)
-        for i, run in enumerate(baca.select.runs(o)):
-            if i % 2 == 0:
-                if len(run) == 1:
-                    baca.spanners.hairpin(
-                        run,
-                        "pp",
-                    )
-                else:
-                    baca.spanners.hairpin(
-                        run,
-                        "pp < p",
-                    )
-            else:
-                if len(run) == 1:
-                    baca.spanners.hairpin(
-                        run,
-                        "p",
-                    )
-                else:
-                    baca.spanners.hairpin(
-                        run,
-                        "p > pp",
-                    )
+        dynamics_7a(o)
     with baca.scope(m[23, 26]) as o:
         baca.pitch(o, "F#4")
         baca.dynamic(o.pleaf(0), "mp")
@@ -386,8 +369,8 @@ def va(m):
     with baca.scope(m[43]) as o:
         library.material_annotation_spanner(o, "E")
         baca.down_bow(o.phead(0))
-        baca.dynamic(o.phead(0), '"mf"')
-        baca.markup(o.phead(0), r"\akasha-ob-plus-terminate-abruptly-markup")
+        baca.dynamic(o[0], '"mf"')
+        baca.markup(o.phead(0), strings.ob_plus_terminate_abruptly)
         baca.staff_lines(o.leaf(0), 1)
         baca.staff_position(o, 0)
     with baca.scope(m[45]) as o:
@@ -400,7 +383,7 @@ def va(m):
         library.material_annotation_spanner(o, "E")
         baca.down_bow(o.phead(0))
         baca.dynamic(o.phead(0), '"mf"')
-        baca.markup(o.phead(0), r"\akasha-ob-plus-terminate-abruptly-markup")
+        baca.markup(o.phead(0), strings.ob_plus_terminate_abruptly)
         baca.staff_lines(o.leaf(0), 1)
         baca.staff_position(o, 0)
 
@@ -444,11 +427,21 @@ def vc(m):
 def composites(cache):
     with baca.scope(cache["v1"][8, 9]) as o:
         baca.pitches(o, "Eb5 F5")
-        baca.dynamic(o.phead(0), "pp-ancora")
+        baca.dynamic(
+            o[0],
+            "pp-ancora",
+            parent_alignment_x=-1,
+            self_alignment_x=-1,
+        )
         baca.markup(o.phead(0), r"\baca-tasto-plus-xfb-markup")
     with baca.scope(cache["v2"][8, 9]) as o:
         baca.pitches(o, "B4 C#5"),
-        baca.dynamic(o.phead(0), "pp-ancora")
+        baca.dynamic(
+            o[0],
+            "pp-ancora",
+            parent_alignment_x=-1,
+            self_alignment_x=-1,
+        )
         baca.markup(o.phead(0), r"\baca-tasto-plus-xfb-markup")
     for leaves in cache.get(
         (["va", "vc"], (11, 34)),
@@ -474,6 +467,13 @@ def composites(cache):
         (["v1", "v2", "va", "vc"], 45),
     ):
         library.material_annotation_spanner(leaves, "A")
+
+
+def align_spanners(cache):
+    baca.override.dls_staff_padding(cache["v1"][11, 22], 6)
+    baca.override.dls_staff_padding(cache["v1"][23, 34], 4)
+    baca.override.dls_staff_padding(cache["v2"][11, 22], 6)
+    baca.override.dls_staff_padding(cache["v2"][23, 34], 4)
 
 
 @baca.build.timed("make_score")
@@ -507,6 +507,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     va(cache["va"])
     vc(cache["vc"])
     composites(cache)
+    align_spanners(cache)
     return score
 
 
