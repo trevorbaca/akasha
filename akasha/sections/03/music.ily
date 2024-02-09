@@ -466,7 +466,8 @@ number.3.Violin.1.Music = {
         - \tweak color #(x11-color 'green4)
           %! REAPPLIED_DYNAMIC
         \pp
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"249" #"32"
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -659,7 +660,8 @@ number.3.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
     ^ \baca-tasto-plus-half-scratch-markup
@@ -789,7 +791,8 @@ number.3.Violin.2.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"487" #"64"
         ^ \baca-tasto-plus-xfb-markup
@@ -904,7 +907,8 @@ number.3.Viola.Music = {
     - \tweak color #(x11-color 'green4)
       %! REAPPLIED_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1037,7 +1041,8 @@ number.3.Viola.Music = {
       %! STAFF_HIGHLIGHT
     \staffHighlight lightpink
     ds!2..
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
     ^ \baca-tasto-markup
 
       %! ANCHOR_NOTE
@@ -1124,7 +1129,8 @@ number.3.Cello.Music = {
     - \tweak color #(x11-color 'green4)
       %! REAPPLIED_DYNAMIC
     \p
-    ^ \akasha-material-a
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-a
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1357,7 +1363,8 @@ number.3.Cello.Music = {
         \startStaff
         fs!32
         - \staccato
-        ^ \akasha-material-a
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-a
         [
 
         g32
@@ -1458,7 +1465,8 @@ number.3.Cello.Music = {
         \startStaff
         d32
         - \staccato
-        ^ \akasha-material-a
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-a
 
         r8
 
@@ -1556,7 +1564,8 @@ number.3.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
     ^ \baca-tasto-markup
 
       %! ANCHOR_NOTE

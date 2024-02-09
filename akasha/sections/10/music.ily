@@ -1382,7 +1382,8 @@ number.10.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! SPANNER_START
@@ -1486,7 +1487,8 @@ number.10.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -1577,7 +1579,8 @@ number.10.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     ^ \baca-ob-markup
 
     b'4
@@ -1810,7 +1813,8 @@ number.10.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     ^ \akasha-xp-plus-fb-markup
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1840,7 +1844,8 @@ number.10.Violin.1.Music = {
           %! STAFF_HIGHLIGHT
         \stopStaffHighlight
         r16
-        ^ \akasha-material-a
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-a
 
         g'''16
         - \staccato
@@ -2045,7 +2050,8 @@ number.10.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2146,7 +2152,8 @@ number.10.Violin.1.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"227" #"32"
         [
@@ -2258,7 +2265,8 @@ number.10.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2309,7 +2317,8 @@ number.10.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2350,7 +2359,8 @@ number.10.Violin.1.Music = {
       %! STAFF_HIGHLIGHT
     \stopStaffHighlight
     b'1
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     - \tweak stencil ##f
     ~
 
@@ -2455,7 +2465,8 @@ number.10.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! SPANNER_START
@@ -2555,7 +2566,8 @@ number.10.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2645,7 +2657,8 @@ number.10.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2747,7 +2760,8 @@ number.10.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
     \ppp
     - \upbow
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     ^ \baca-ob-markup
 
     b4
@@ -2904,7 +2918,8 @@ number.10.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     ^ \akasha-xp-plus-fb-markup
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2981,7 +2996,8 @@ number.10.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3078,7 +3094,8 @@ number.10.Violin.2.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
         [
@@ -3186,7 +3203,8 @@ number.10.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3236,7 +3254,8 @@ number.10.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3276,7 +3295,8 @@ number.10.Violin.2.Music = {
       %! STAFF_HIGHLIGHT
     \stopStaffHighlight
     b1
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     - \tweak stencil ##f
     ~
 
@@ -3375,7 +3395,8 @@ number.10.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! SPANNER_START
@@ -3476,7 +3497,8 @@ number.10.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     ^ \baca-ob-markup
 
     b,4
@@ -3793,7 +3815,8 @@ number.10.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     ^ \akasha-xp-plus-fb-markup
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3870,7 +3893,8 @@ number.10.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3967,7 +3991,8 @@ number.10.Viola.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"487" #"64"
         [
@@ -4058,7 +4083,8 @@ number.10.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4108,7 +4134,8 @@ number.10.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4148,7 +4175,8 @@ number.10.Viola.Music = {
       %! STAFF_HIGHLIGHT
     \stopStaffHighlight
     b,1
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     - \tweak stencil ##f
     ~
 
@@ -4249,7 +4277,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! SPANNER_START
@@ -4353,7 +4382,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4443,7 +4473,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4544,7 +4575,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4640,7 +4672,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4733,7 +4766,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     ^ \akasha-xp-plus-fb-markup
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -4810,7 +4844,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4911,7 +4946,8 @@ number.10.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"117" #"64"
         [
@@ -5010,7 +5046,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -5060,7 +5097,8 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -5100,7 +5138,8 @@ number.10.Cello.Music = {
       %! STAFF_HIGHLIGHT
     \stopStaffHighlight
     b,,1
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     - \tweak stencil ##f
     ~
 

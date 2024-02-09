@@ -332,7 +332,8 @@ number.1.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     ^ \akasha-ob-plus-terminate-abruptly-markup
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Viola”)"

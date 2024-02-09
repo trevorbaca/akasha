@@ -1144,7 +1144,8 @@ number.4.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     ^ \baca-ob-markup
     - \tweak stencil ##f
     ~
@@ -1239,7 +1240,8 @@ number.4.Violin.1.Music = {
       %! STAFF_HIGHLIGHT
     \staffHighlight tan
     b'2.
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     - \tweak stencil ##f
     ~
 
@@ -1303,7 +1305,8 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
     b'1
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
 
     <<
 
@@ -1361,7 +1364,8 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
     b'2.
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     - \tweak stencil ##f
     ~
 
@@ -1424,7 +1428,8 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
     b'1
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
 
     <<
 
@@ -1482,7 +1487,8 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
     b'1.
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     - \tweak stencil ##f
     ~
 
@@ -1668,7 +1674,8 @@ number.4.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     ^ \baca-ob-markup
     - \tweak stencil ##f
     ~
@@ -1759,7 +1766,8 @@ number.4.Violin.2.Music = {
       %! STAFF_HIGHLIGHT
     \staffHighlight tan
     b'2.
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     - \tweak stencil ##f
     ~
 
@@ -1819,7 +1827,8 @@ number.4.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
     b'1
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
 
     <<
 
@@ -1873,7 +1882,8 @@ number.4.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
     b'2.
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     - \tweak stencil ##f
     ~
 
@@ -1932,7 +1942,8 @@ number.4.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
     b'1
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
 
     <<
 
@@ -2003,7 +2014,8 @@ number.4.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \pp
-    ^ \akasha-material-c
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-c
     ^ \baca-tasto-markup
       %! SPANNER_START
     \startTrillSpan a''
@@ -2102,7 +2114,8 @@ number.4.Viola.Music = {
         - \tweak color #(x11-color 'green4)
           %! REAPPLIED_DYNAMIC
         \mp
-        ^ \akasha-material-d
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-d
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
         \glissando
@@ -2173,7 +2186,8 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         ds!1
-        ^ \akasha-material-d
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-d
         \glissando
 
         cqs!8
@@ -2235,7 +2249,8 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         ds!\breve
-        ^ \akasha-material-d
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-d
         \glissando
 
         cqs!4
@@ -2297,7 +2312,8 @@ number.4.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
         ds!\breve
-        ^ \akasha-material-d
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-d
         \glissando
 
         cqs!4
@@ -2361,7 +2377,8 @@ number.4.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2454,7 +2471,8 @@ number.4.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ff
-    ^ \akasha-material-a
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-a
     ^ \baca-tasto-plus-scratch-moltiss-markup
 
     <<
@@ -2551,7 +2569,8 @@ number.4.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     ^ \baca-tasto-plus-half-scratch-markup
 
     dtqs'!4.
@@ -2615,7 +2634,8 @@ number.4.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
     ^ \baca-tasto-markup
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2734,7 +2754,8 @@ number.4.Cello.Music = {
     - \tweak color #(x11-color 'green4)
       %! REAPPLIED_DYNAMIC
     \mp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2801,7 +2822,8 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     cs,!1
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
 
     <<
 
@@ -2859,7 +2881,8 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     cs,!1.
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
 
     <<
 
@@ -2917,7 +2940,8 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     cs,!1.
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
 
     <<
 
@@ -2980,7 +3004,8 @@ number.4.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3082,7 +3107,8 @@ number.4.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-a
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-a
         ^ \baca-leggieriss-markup
         [
 
@@ -3240,7 +3266,8 @@ number.4.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     ^ \baca-tasto-plus-half-scratch-markup
 
     <<
@@ -3304,7 +3331,8 @@ number.4.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-d
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-d
     ^ \baca-tasto-markup
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
