@@ -215,6 +215,10 @@ def persist_score(score, environment):
         baca.tags.MOMENT_NUMBER,
         baca.tags.STAGE_NUMBER,
     )
+    baca.tags.deactivate(
+        score,
+        baca.tags.MATERIAL_ANNOTATION_MARKUP,
+    )
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,

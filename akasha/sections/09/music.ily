@@ -365,7 +365,8 @@ number.9.Violin.1.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"117" #"16"
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -445,7 +446,8 @@ number.9.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     <<
 
@@ -572,7 +574,8 @@ number.9.Violin.2.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"109" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -652,7 +655,8 @@ number.9.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     <<
 
@@ -764,7 +768,8 @@ number.9.Viola.Music = {
     - \tweak color #(x11-color 'green4)
       %! REAPPLIED_DYNAMIC
     \baca-effort-mf
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
     - \tweak stencil ##f
@@ -857,7 +862,8 @@ number.9.Viola.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \mp
-        ^ \akasha-material-d
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-d
         ^ \baca-tasto-markup
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -975,7 +981,8 @@ number.9.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"119" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -1042,7 +1049,8 @@ number.9.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     <<
 
@@ -1108,7 +1116,8 @@ number.9.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \mp
-        ^ \akasha-material-d
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-d
         ^ \baca-tasto-markup
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC

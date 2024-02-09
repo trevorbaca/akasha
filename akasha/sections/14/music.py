@@ -214,6 +214,10 @@ def persist_score(score, environment):
         global_rests_in_topmost_staff=True,
     )
     baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
+    baca.tags.deactivate(
+        score,
+        baca.tags.MATERIAL_ANNOTATION_MARKUP,
+    )
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,

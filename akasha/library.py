@@ -440,10 +440,11 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
 
 
 def material_annotation_spanner(argument, letter):
-    baca.markup(
+    wrappers = baca.markup(
         abjad.select.leaf(argument, 0),
         rf"\akasha-material-{letter.lower()}",
     )
+    baca.tags.wrappers(wrappers, baca.tags.MATERIAL_ANNOTATION_MARKUP)
     material_to_color = {
         "A": "antiquewhite",
         "B": "lightblue",

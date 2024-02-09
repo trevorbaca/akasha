@@ -661,7 +661,8 @@ number.8.Violin.1.Music = {
         - \tweak color #(x11-color 'green4)
           %! REAPPLIED_DYNAMIC
         \pp
-        ^ \akasha-material-a
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-a
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
           %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -887,7 +888,8 @@ number.8.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \f
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -1090,7 +1092,8 @@ number.8.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     - \tweak stencil ##f
     ~
 
@@ -1187,7 +1190,8 @@ number.8.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ff
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
       %! SPANNER_START
@@ -1442,7 +1446,8 @@ number.8.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     - \tweak stencil ##f
     ~
 
@@ -1542,7 +1547,8 @@ number.8.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ff
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! SPANNER_START
@@ -1803,7 +1809,8 @@ number.8.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
-    ^ \akasha-material-e
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-e
     ^ \baca-ob-markup
     - \tweak stencil ##f
     ~
@@ -1906,7 +1913,8 @@ number.8.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ff
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! SPANNER_START
@@ -2165,7 +2173,8 @@ number.8.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     - \tweak stencil ##f
     ~
 

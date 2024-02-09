@@ -890,7 +890,8 @@ number.2.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     ^ \baca-tasto-plus-half-scratch-markup
 
     f'2
@@ -964,7 +965,8 @@ number.2.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r1
-    ^ \akasha-material-a
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-a
 
     \times 8/9
     {
@@ -1062,7 +1064,8 @@ number.2.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r1.
-    ^ \akasha-material-c
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-c
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 2 }
     \times 1/1
@@ -1189,7 +1192,8 @@ number.2.Violin.1.Music = {
         \startStaff
         \once \override Beam.grow-direction = #right
         e''16 * 241/32
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"241" #"32"
         [
@@ -1281,7 +1285,8 @@ number.2.Violin.1.Music = {
         \startStaff
         \once \override Beam.grow-direction = #left
         e''16 * 113/64
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"113" #"64"
         [
@@ -1459,7 +1464,8 @@ number.2.Violin.2.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-        ^ \akasha-material-a
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-a
         [
 
         b32
@@ -1544,7 +1550,8 @@ number.2.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r2.
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     r4.
 
@@ -1616,7 +1623,8 @@ number.2.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r4
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     cs'!4.
 
@@ -1674,7 +1682,8 @@ number.2.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r1.
-    ^ \akasha-material-c
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-c
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 2 }
     \times 1/1
@@ -1793,7 +1802,8 @@ number.2.Violin.2.Music = {
         \startStaff
         \once \override Beam.grow-direction = #left
         c''16 * 115/64
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"115" #"64"
         [
@@ -1885,7 +1895,8 @@ number.2.Violin.2.Music = {
         \startStaff
         \once \override Beam.grow-direction = #right
         c''16 * 477/64
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"477" #"64"
         [
@@ -1969,7 +1980,8 @@ number.2.Violin.2.Music = {
         \startStaff
         \once \override Beam.grow-direction = #left
         bf'!16 * 13/8
-        ^ \akasha-material-c
+          %! MATERIAL_ANNOTATION_MARKUP
+        %@% ^ \akasha-material-c
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
         [
@@ -2110,7 +2122,8 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r2.
-    ^ \akasha-material-a
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-a
 
     \times 8/9
     {
@@ -2189,7 +2202,8 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r4
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     ef'!2
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2266,7 +2280,8 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r2
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     r8
 
@@ -2324,7 +2339,8 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     d'2.
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
     - \tweak stencil ##f
     ~
 
@@ -2406,7 +2422,8 @@ number.2.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     ef'!4.
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     d'4.
     - \tweak stencil ##f
@@ -2538,7 +2555,8 @@ number.2.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
     ^ \baca-tasto-plus-half-scratch-markup
@@ -2665,7 +2683,8 @@ number.2.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     c'4
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     cqf'!4.
 
@@ -2727,7 +2746,8 @@ number.2.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     bf!2..
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     btqf!8
     ~
@@ -2815,7 +2835,8 @@ number.2.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     a4
-    ^ \akasha-material-b
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-b
 
     as!2
     - \tweak stencil ##f
@@ -2909,7 +2930,8 @@ number.2.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     r4
-    ^ \akasha-material-a
+      %! MATERIAL_ANNOTATION_MARKUP
+    %@% ^ \akasha-material-a
 
     \times 8/9
     {
