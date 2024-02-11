@@ -455,9 +455,8 @@ def composites(cache):
                 "mp < f",
             )
             baca.mspanners.text(
-                (),
+                [o],
                 "trans. => scratch moltiss.",
-                pieces=[o],
             )
     baca.pitch(cache["v1"][27, 34], "F5")
     baca.pitch(cache["v2"][27, 34], "F#4")
