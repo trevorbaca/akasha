@@ -239,7 +239,7 @@ def _1_2(m, pitch):
             o,
             "sfp < f",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "PO + senza vib. => vib. moltiss.",
             pieces=[o],
@@ -254,7 +254,7 @@ def _4_5(m, pitch):
             o,
             "sfp < f",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "senza vib. => vib. moltiss.",
             pieces=[o],
@@ -269,7 +269,7 @@ def _8_10(m, pitch):
             o,
             "sfp < f",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "senza vib. => vib. moltiss.",
             pieces=[o],
@@ -278,7 +278,7 @@ def _8_10(m, pitch):
 
 
 def _17_20(m):
-    baca.piecewise.text(
+    baca.mspanners.text(
         (),
         "trans. => XP",
         pieces=[m[17, 20]],
@@ -302,7 +302,7 @@ def _25_26(m):
             o,
             "ppp < mp",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "XP+FB => tasto+FB",
             pieces=[o],
@@ -322,7 +322,7 @@ def _31_32(m):
             o,
             "ppp < mp",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => tasto + 1/2 scratch",
             pieces=[o],
@@ -335,7 +335,7 @@ def _33_34(m):
             o,
             "mp < mf",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => scratch moltiss.",
             pieces=[o],
@@ -348,12 +348,12 @@ def v1(m):
     with baca.scope(m[8, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o)
-    baca.piecewise.text(
+    baca.mspanners.text(
         (),
         "trans. => 3/4OB",
         pieces=[m[11, 12]],
     )
-    baca.piecewise.text(
+    baca.mspanners.text(
         (),
         "trans. => 1/2OB",
         pieces=[m[15, 16]],
@@ -385,7 +385,7 @@ def v2(m):
     with baca.scope(m[13, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o, downbow_first=False)
-    baca.piecewise.text(
+    baca.mspanners.text(
         (),
         "trans. => 3/4OB",
         pieces=[m[15, 16]],
@@ -408,17 +408,17 @@ def va(m):
     with baca.scope(m[4, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o)
-    baca.piecewise.text(
+    baca.mspanners.text(
         (),
         "trans. => 3/4OB",
         pieces=[m[6, 7]],
     )
-    baca.piecewise.text(
+    baca.mspanners.text(
         (),
         "trans. => 1/2OB",
         pieces=[m[11, 12]],
     )
-    baca.piecewise.text(
+    baca.mspanners.text(
         (),
         "trans. => 1/4OB",
         pieces=[m[15, 16]],
@@ -447,7 +447,7 @@ def vc(m):
             o,
             "sfp < f",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "senza vib. => vib. moltiss.",
             pieces=[o],
@@ -456,7 +456,7 @@ def vc(m):
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o)
         baca.dynamic(o.pleaf(0), "ppp")
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "OB => XP",
             pieces=[o],

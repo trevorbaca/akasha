@@ -183,32 +183,32 @@ def _1_68(m):
             o.pleaf(0), r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"
         )
     with baca.scope(m[5, 8]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => 1 click/1-2 sec.",
             pieces=[o.leaves()[:-1]],
         )
     with baca.scope(m[9, 12]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => 1-2 clicks/sec.",
             pieces=[o.leaves()[:-1]],
         )
     with baca.scope(m[13, 16]) as o:
         baca.dynamic(o.leaf(2), "ff"),
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => scratch moltiss.",
             pieces=[o.leaves()[:-1]],
         )
     with baca.scope(m[17, 20]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => 1/2 scratch",
             pieces=[o.leaves()[:-1]],
         )
     with baca.scope(m[21, 24]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => PO",
             pieces=[o.leaves()[:-1]],
@@ -218,7 +218,7 @@ def _1_68(m):
             o.leaves()[:-1],
             "ff < fff",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => vib. moltiss.",
             pieces=[o.leaves()[:-1]],
@@ -232,12 +232,12 @@ def _1_68(m):
             o.leaves()[-2:],
             "fff > p",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "PO senza vib. => XP",
             pieces=[o.leaves()[:3]],
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "XP => PO",
             pieces=[o.leaves()[-2:]],
@@ -251,12 +251,12 @@ def _1_68(m):
             o.leaves()[-2:],
             "fff > p",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "PO => XP",
             pieces=[o.leaves()[:2]],
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "XP => pos. ord.",
             pieces=[o.leaves()[-2:]],
@@ -266,7 +266,7 @@ def _1_68(m):
             o.leaves()[:-1],
             "sffp > pp",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "pos. ord. => XT",
             pieces=[o.leaves()[:-1]],
@@ -282,12 +282,12 @@ def _1_68(m):
             o.leaves()[-2:],
             "fff > f",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "pos. ord. => XP",
             pieces=[o.leaves()[:3]],
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "XP => pos. ord.",
             pieces=[o.leaves()[-2:]],
@@ -298,7 +298,7 @@ def _1_68(m):
             o.leaves()[:4],
             "sffp < fff",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "pos. ord. => XP",
             pieces=[o.leaves()[:4]],
