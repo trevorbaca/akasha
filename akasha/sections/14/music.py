@@ -92,43 +92,43 @@ def _7_28(m, pitch):
         baca.dynamic(o.pleaf(0), "pp")
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
     with baca.scope(m[13, 14]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => pos. ord. XFB",
             pieces=[o.leaves()[:2]],
         )
     with baca.scope(m[15, 16]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => pont. XFB",
             pieces=[o.leaves()[:2]],
         )
     with baca.scope(m[17, 18]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => XP+XFB",
             pieces=[o.leaves()[:3]],
         )
     with baca.scope(m[19, 22]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => XP",
             pieces=[o.leaves()[:4]],
         )
     with baca.scope(m[23, 24]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => 1/3OB",
             pieces=[o.leaves()[:2]],
         )
     with baca.scope(m[25, 26]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => 2/3OB",
             pieces=[o.leaves()[:2]],
         )
     with baca.scope(m[27, 28]) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => OB (no pitch)",
             pieces=[o.leaves()[:2]],
@@ -155,7 +155,7 @@ def vc(m):
             o[:9],
             "ppp < ff",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trans. => vib. moltiss.",
             pieces=[o.leaves()[:9]],
