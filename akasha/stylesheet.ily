@@ -211,6 +211,8 @@
 
     \override Glissando.thickness = 3
 
+    \override Hairpin.to-barline = ##f
+
     \override NoteCollision.merge-differently-dotted = ##t
 
     \override NoteColumn.ignore-collision = ##t
