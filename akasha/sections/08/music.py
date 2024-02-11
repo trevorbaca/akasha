@@ -138,9 +138,8 @@ def v1(m):
         )
     with baca.scope(m[5, 7]) as o:
         baca.mspanners.text(
-            (),
+            [o],
             "1/4 scratch => ord.",
-            pieces=[o],
             staff_padding=3,
         )
     with baca.scope(m[5, 13]) as o:
@@ -200,9 +199,8 @@ def composites(cache):
                 "ff > f",
             )
             baca.mspanners.text(
-                (),
+                [o],
                 "tasto + scratch moltiss. => tasto + 1/4 scratch",
-                pieces=[o],
                 staff_padding=3,
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
@@ -214,9 +212,8 @@ def composites(cache):
     for abbreviation in ["v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][5, 7]) as o:
             baca.mspanners.text(
-                (),
+                [o],
                 "trans. => tasto",
-                pieces=[o],
                 staff_padding=3,
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
@@ -226,9 +223,8 @@ def composites(cache):
                 "mf > p",
             )
             baca.mspanners.text(
-                (),
+                [o],
                 "trans. => FB",
-                pieces=[o],
                 staff_padding=3,
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
@@ -238,9 +234,8 @@ def composites(cache):
                 "p > pp",
             )
             baca.mspanners.text(
-                (),
+                [o],
                 "trans. => XFB",
-                pieces=[o],
                 staff_padding=3,
             )
     for leaves in cache.get(
