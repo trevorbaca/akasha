@@ -240,8 +240,9 @@ def _1_2(m, pitch):
             "sfp < f",
         )
         baca.mspanners.text(
-            [o],
+            o,
             "PO + senza vib. => vib. moltiss.",
+            do_not_rleak=True,
         )
         library.material_annotation_spanner(o, "D")
 
@@ -254,8 +255,9 @@ def _4_5(m, pitch):
             "sfp < f",
         )
         baca.mspanners.text(
-            [o],
+            o,
             "senza vib. => vib. moltiss.",
+            do_not_rleak=True,
         )
         library.material_annotation_spanner(o, "D")
 
@@ -270,6 +272,7 @@ def _8_10(m, pitch):
         baca.mspanners.text(
             [o],
             "senza vib. => vib. moltiss.",
+            do_not_rleak=True,
         )
         library.material_annotation_spanner(o, "D")
 
@@ -301,6 +304,7 @@ def _25_26(m):
         baca.mspanners.text(
             [o],
             "XP+FB => tasto+FB",
+            do_not_rleak=True,
         )
 
 
@@ -320,6 +324,7 @@ def _31_32(m):
         baca.mspanners.text(
             [o],
             "trans. => tasto + 1/2 scratch",
+            do_not_rleak=True,
         )
 
 
@@ -332,6 +337,7 @@ def _33_34(m):
         baca.mspanners.text(
             [o],
             "trans. => scratch moltiss.",
+            do_not_rleak=True,
         )
 
 
@@ -344,10 +350,12 @@ def v1(m):
     baca.mspanners.text(
         [m[11, 12]],
         "trans. => 3/4OB",
+        do_not_rleak=True,
     )
     baca.mspanners.text(
         [m[15, 16]],
         "trans. => 1/2OB",
+        do_not_rleak=True,
     )
     with baca.scope(m[8, 22]) as o:
         baca.pitch(o, "B4")
@@ -379,6 +387,7 @@ def v2(m):
     baca.mspanners.text(
         [m[15, 16]],
         "trans. => 3/4OB",
+        do_not_rleak=True,
     )
     with baca.scope(m[13, 27]) as o:
         baca.pitch(o, "B3")
@@ -401,14 +410,17 @@ def va(m):
     baca.mspanners.text(
         [m[6, 7]],
         "trans. => 3/4OB",
+        do_not_rleak=True,
     )
     baca.mspanners.text(
         [m[11, 12]],
         "trans. => 1/2OB",
+        do_not_rleak=True,
     )
     baca.mspanners.text(
         [m[15, 16]],
         "trans. => 1/4OB",
+        do_not_rleak=True,
     )
     _17_20(m)
     _21_22(m)
@@ -437,6 +449,7 @@ def vc(m):
         baca.mspanners.text(
             [o],
             "senza vib. => vib. moltiss.",
+            do_not_rleak=True,
         )
     with baca.scope(m[17, 20]) as o:
         library.material_annotation_spanner(o, "E")
@@ -445,6 +458,7 @@ def vc(m):
         baca.mspanners.text(
             [o],
             "OB => XP",
+            do_not_rleak=True,
         )
     _21_22(m)
     _25_26(m)
