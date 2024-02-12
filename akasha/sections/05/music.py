@@ -284,7 +284,7 @@ def va(m):
         baca.spanners.hairpin(
             o,
             "sf >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
         baca.markup(o.pleaf(0), r"\akasha-tasto-plus-senza-vib-markup")
         library.material_annotation_spanner(o, "D")
@@ -325,7 +325,7 @@ def vc(m):
         baca.spanners.hairpin(
             o,
             "sf >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
     with baca.scope(m[38, 41]) as o:
@@ -346,7 +346,7 @@ def vc(m):
         baca.spanners.hairpin(
             o,
             "sf >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
         library.material_annotation_spanner(o, "D")

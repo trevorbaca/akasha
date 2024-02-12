@@ -134,7 +134,7 @@ def v1(m):
         baca.spanners.hairpin(
             o.tleaves(),
             "pp >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
     with baca.scope(m[5, 7]) as o:
         baca.mspanners.text(

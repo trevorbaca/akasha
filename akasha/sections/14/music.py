@@ -159,7 +159,7 @@ def vc(m):
         baca.spanners.hairpin(
             o,
             "pp >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
 
 
