@@ -281,6 +281,7 @@ def _17_20(m):
     baca.mspanners.text(
         [m[17, 20]],
         "trans. => XP",
+        do_not_rleak=True,
     )
 
 
