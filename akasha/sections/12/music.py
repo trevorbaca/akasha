@@ -215,7 +215,7 @@ def _1_68(m):
         )
     with baca.scope(m[25, 28]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:-1],
+            o[:-1],
             "ff < fff",
         )
         baca.mspanners.text(
@@ -225,11 +225,11 @@ def _1_68(m):
         )
     with baca.scope(m[30, 34]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:3],
+            o[:3],
             "sffp < fff",
         )
         baca.spanners.hairpin(
-            o.leaves()[-2:],
+            o[-2:],
             "fff > p",
         )
         baca.mspanners.text(
@@ -244,11 +244,11 @@ def _1_68(m):
         )
     with baca.scope(m[35, 39]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:2],
+            o[:2],
             "sffp < fff",
         )
         baca.spanners.hairpin(
-            o.leaves()[-2:],
+            o[-2:],
             "fff > p",
         )
         baca.mspanners.text(
@@ -263,7 +263,7 @@ def _1_68(m):
         )
     with baca.scope(m[41, 45]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:-1],
+            o[:-1],
             "sffp > pp",
         )
         baca.mspanners.text(
@@ -275,11 +275,11 @@ def _1_68(m):
         baca.override.text_spanner_staff_padding(o, 4)
     with baca.scope(m[56, 60]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:3],
+            o[:3],
             "sf < fff",
         )
         baca.spanners.hairpin(
-            o.leaves()[-2:],
+            o[-2:],
             "fff > f",
         )
         baca.mspanners.text(
@@ -295,7 +295,7 @@ def _1_68(m):
         baca.rspanners.trill(o)
     with baca.scope(m[61, 68]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:4],
+            o[:4],
             "sffp < fff",
         )
         baca.mspanners.text(
@@ -339,7 +339,7 @@ def v2(m):
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup")
         baca.rspanners.trill(o)
         baca.spanners.hairpin(
-            o.leaves()[:4],
+            o[:4],
             "sffp < f",
         )
     with baca.scope(m[56, 68]) as o:
@@ -358,7 +358,7 @@ def va(m):
         baca.rspanners.trill(o)
     with baca.scope(m[49, 52]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:4],
+            o[:4],
             "sffp < f",
         )
     with baca.scope(m[49, 68]) as o:
@@ -380,7 +380,7 @@ def vc(m):
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup")
     with baca.scope(m[47, 50]) as o:
         baca.spanners.hairpin(
-            o.leaves()[:4],
+            o[:4],
             "sffp < f",
         )
     baca.override.text_spanner_staff_padding(m[56, 69], 5)
