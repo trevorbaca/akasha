@@ -238,7 +238,7 @@ def va(m):
     with baca.scope(m[9, 12]) as o:
         baca.pitches(o, "Eb3 D3 C#3 B#2", exact=True)
         baca.glissando(o)
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp>pp",
         )
@@ -255,7 +255,7 @@ def va(m):
         library.material_annotation_spanner(o, "B")
     with baca.scope(m[25, 26]) as o:
         baca.pitches(o, "E3 D#3 C+3", exact=True)
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp>pp",
         )
@@ -270,7 +270,7 @@ def vc(m):
     for n in [1, 3, 5, 7]:
         library.material_annotation_spanner(m[n], "D")
     with baca.scope(m[9, 12]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp>pp",
         )
@@ -292,7 +292,7 @@ def vc(m):
         library.material_annotation_spanner(o, "B")
     with baca.scope(m[25, 26]) as o:
         baca.pitch(o, "C#2")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp>pp",
         )
