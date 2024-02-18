@@ -214,7 +214,7 @@ def _1_68(m):
             do_not_rleak=True,
         )
     with baca.scope(m[25, 28]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:-1],
             "ff<fff",
         )
@@ -224,11 +224,11 @@ def _1_68(m):
             do_not_rleak=True,
         )
     with baca.scope(m[30, 34]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:3],
             "sffp<fff",
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[-2:],
             "fff>p",
         )
@@ -243,11 +243,11 @@ def _1_68(m):
             do_not_rleak=True,
         )
     with baca.scope(m[35, 39]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:2],
             "sffp<fff",
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[-2:],
             "fff>p",
         )
@@ -262,7 +262,7 @@ def _1_68(m):
             do_not_rleak=True,
         )
     with baca.scope(m[41, 45]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:-1],
             "sffp>pp",
         )
@@ -274,11 +274,11 @@ def _1_68(m):
     with baca.scope(m[1, 46]) as o:
         baca.override.text_spanner_staff_padding(o, 4)
     with baca.scope(m[56, 60]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:3],
             "sf<fff",
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[-2:],
             "fff>f",
         )
@@ -294,7 +294,7 @@ def _1_68(m):
         )
         baca.rspanners.trill(o)
     with baca.scope(m[61, 68]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:4],
             "sffp<fff",
         )
@@ -315,7 +315,7 @@ def v1(m):
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[53, 54]) as o:
         baca.rspanners.ottava(o.tleaves())
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "sffp<f",
         )
@@ -338,7 +338,7 @@ def v2(m):
         baca.rspanners.ottava(o.tleaves())
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup")
         baca.rspanners.trill(o)
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:4],
             "sffp<f",
         )
@@ -357,7 +357,7 @@ def va(m):
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-seventh-degree-of-a-two-markup")
         baca.rspanners.trill(o)
     with baca.scope(m[49, 52]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:4],
             "sffp<f",
         )
@@ -379,7 +379,7 @@ def vc(m):
         baca.rspanners.trill(o)
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-eleventh-degree-of-a-one-markup")
     with baca.scope(m[47, 50]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:4],
             "sffp<f",
         )

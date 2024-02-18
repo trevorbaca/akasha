@@ -260,23 +260,23 @@ def dynamics_7a(leaves):
     for i, run in enumerate(runs):
         if i % 2 == 0:
             if len(run) == 1:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     run,
                     "pp",
                 )
             else:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     run,
                     "pp<p",
                 )
         else:
             if len(run) == 1:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     run,
                     "p",
                 )
             else:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     run,
                     "p>pp",
                 )
@@ -300,7 +300,7 @@ def v1(m):
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(29, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.tleaves(),
             "ff<fff",
         )
@@ -332,7 +332,7 @@ def v2(m):
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(26, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.tleaves(),
             "ff<fff",
         )
@@ -360,7 +360,7 @@ def va(m):
         baca.clef(o.leaf(0), "treble")
         library.getato_pitches(23, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.tleaves(),
             "ff<fff",
         )
@@ -411,7 +411,7 @@ def vc(m):
         library.getato_pitches(20, [2], function=o)
         library.material_annotation_spanner(o, "A")
         baca.clef(o.leaf(0), "treble")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.tleaves(),
             "ff<fff",
         )
@@ -450,7 +450,7 @@ def composites(cache):
         library.material_annotation_spanner(leaves, "B")
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][27, 34]) as o:
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "mp<f",
             )
