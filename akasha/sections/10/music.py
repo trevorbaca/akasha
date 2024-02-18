@@ -235,9 +235,9 @@ def VC(voice, time_signatures):
 def _1_2(m, pitch):
     with baca.scope(m[1, 2]) as o:
         baca.pitch(o, pitch)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "sfp < f",
+            "sfp<f",
         )
         baca.mspanners.text(
             o,
@@ -250,9 +250,9 @@ def _1_2(m, pitch):
 def _4_5(m, pitch):
     with baca.scope(m[4, 5]) as o:
         baca.pitch(o, pitch)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "sfp < f",
+            "sfp<f",
         )
         baca.mspanners.text(
             o,
@@ -265,9 +265,9 @@ def _4_5(m, pitch):
 def _8_10(m, pitch):
     with baca.scope(m[8, 10]) as o:
         baca.pitch(o, pitch)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "sfp < f",
+            "sfp<f",
         )
         baca.mspanners.text(
             [o],
@@ -288,9 +288,9 @@ def _17_20(m):
 def _21_22(m):
     with baca.scope(m[21, 22]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "ppp < mp",
+            "ppp<mp",
         )
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-fb-markup")
 
@@ -298,9 +298,9 @@ def _21_22(m):
 def _25_26(m):
     with baca.scope(m[25, 26]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "ppp < mp",
+            "ppp<mp",
         )
         baca.mspanners.text(
             [o],
@@ -318,9 +318,9 @@ def _28_29(m, pitch):
 
 def _31_32(m):
     with baca.scope(m[31, 32]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "ppp < mp",
+            "ppp<mp",
         )
         baca.mspanners.text(
             [o],
@@ -331,9 +331,9 @@ def _31_32(m):
 
 def _33_34(m):
     with baca.scope(m[33, 34]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp < mf",
+            "mp<mf",
         )
         baca.mspanners.text(
             [o],
@@ -443,9 +443,9 @@ def vc(m):
     with baca.scope(m[13, 14]) as o:
         library.material_annotation_spanner(o, "D")
         baca.pitch(o, "B1")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "sfp < f",
+            "sfp<f",
         )
         baca.mspanners.text(
             [o],

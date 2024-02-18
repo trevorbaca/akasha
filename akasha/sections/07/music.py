@@ -260,25 +260,25 @@ def dynamics_7a(leaves):
     for i, run in enumerate(runs):
         if i % 2 == 0:
             if len(run) == 1:
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     run,
                     "pp",
                 )
             else:
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     run,
-                    "pp < p",
+                    "pp<p",
                 )
         else:
             if len(run) == 1:
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     run,
                     "p",
                 )
             else:
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     run,
-                    "p > pp",
+                    "p>pp",
                 )
 
 
@@ -300,9 +300,9 @@ def v1(m):
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(29, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            "ff < fff",
+            "ff<fff",
         )
         baca.markup(o.pleaf(0), r"\baca-pos-ord-markup")
         baca.staccato(o.pheads())
@@ -332,9 +332,9 @@ def v2(m):
     with baca.scope(m[36, 41]) as o:
         library.getato_pitches(26, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            "ff < fff",
+            "ff<fff",
         )
         baca.markup(o.pleaf(0), r"\baca-pos-ord-markup")
         baca.staccato(o.pheads())
@@ -360,9 +360,9 @@ def va(m):
         baca.clef(o.leaf(0), "treble")
         library.getato_pitches(23, [2], function=o)
         library.material_annotation_spanner(o, "A")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            "ff < fff",
+            "ff<fff",
         )
         baca.markup(o.pleaf(0), r"\baca-pos-ord-markup")
         baca.staccato(o.pheads())
@@ -411,9 +411,9 @@ def vc(m):
         library.getato_pitches(20, [2], function=o)
         library.material_annotation_spanner(o, "A")
         baca.clef(o.leaf(0), "treble")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            "ff < fff",
+            "ff<fff",
         )
         baca.markup(o.phead(0), r"\baca-pos-ord-markup")
         baca.staccato(o.pheads())
@@ -450,9 +450,9 @@ def composites(cache):
         library.material_annotation_spanner(leaves, "B")
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][27, 34]) as o:
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                "mp < f",
+                "mp<f",
             )
             baca.mspanners.text(
                 [o],

@@ -151,9 +151,9 @@ def va(m):
 def vc(m):
     baca.pitch(m[1, 24], "Bb1")
     with baca.scope(m[1, 10]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o[:9],
-            "ppp < ff",
+            "ppp<ff",
         )
         baca.mspanners.text(
             [o[:9]],
@@ -164,9 +164,9 @@ def vc(m):
         baca.dynamic(o.pleaf(0), "pp")
         baca.markup(o.pleaf(0), r"\baca-vib-poco-markup")
     with baca.scope(m[19, 24]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "pp >o !",
+            "pp>o!",
             rleak=True,
         )
 

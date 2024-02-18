@@ -238,9 +238,9 @@ def va(m):
     with baca.scope(m[9, 12]) as o:
         baca.pitches(o, "Eb3 D3 C#3 B#2", exact=True)
         baca.glissando(o)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp > pp",
+            "mp>pp",
         )
         library.material_annotation_spanner(o, "D")
     with baca.scope(m[16]) as o:
@@ -255,9 +255,9 @@ def va(m):
         library.material_annotation_spanner(o, "B")
     with baca.scope(m[25, 26]) as o:
         baca.pitches(o, "E3 D#3 C+3", exact=True)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp > pp",
+            "mp>pp",
         )
         baca.glissando(o)
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
@@ -270,9 +270,9 @@ def vc(m):
     for n in [1, 3, 5, 7]:
         library.material_annotation_spanner(m[n], "D")
     with baca.scope(m[9, 12]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp > pp",
+            "mp>pp",
         )
         library.material_annotation_spanner(o, "D")
     with baca.scope(m[15]) as o:
@@ -292,9 +292,9 @@ def vc(m):
         library.material_annotation_spanner(o, "B")
     with baca.scope(m[25, 26]) as o:
         baca.pitch(o, "C#2")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp > pp",
+            "mp>pp",
         )
         baca.markup(o.pleaf(0), r"\baca-tasto-markup")
         library.material_annotation_spanner(o, "D")
