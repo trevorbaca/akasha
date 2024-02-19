@@ -281,7 +281,7 @@ def va(m):
     with baca.scope(m[33, 36]) as o:
         baca.clef(o.leaf(0), "alto"),
         baca.flat_glissando(o, "Fb3", hide_middle_stems=True, stop_pitch="B#2")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "sf>o!",
             rleak=True,
@@ -322,7 +322,7 @@ def vc(m):
         )
     with baca.scope(m[33, 36]) as o:
         baca.flat_glissando(o, "C#2", hide_middle_stems=True)
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "sf>o!",
             rleak=True,
@@ -343,7 +343,7 @@ def vc(m):
         # baca.pitches(o, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True)
         # baca.glissando(o)
         baca.flat_glissando(o, "Db3", hide_middle_stems=True, stop_pitch="A1")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "sf>o!",
             rleak=True,

@@ -278,7 +278,7 @@ def v1(m):
         baca.dynamic(o.pleaf(0), "f")
         baca.markup(o.pleaf(0), r"\akasha-po-meno-scratch-markup")
     with baca.scope(m[23, 32]) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves(),
             "mf>pp",
         )
@@ -304,7 +304,7 @@ def v2(m):
     with baca.scope(m[21, 39]) as o:
         baca.markup(o.pleaf(0), r"\baca-leggieriss-markup")
     with baca.scope(m[23, 32]) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves(),
             "mf>pp",
         )
@@ -345,7 +345,7 @@ def vc(m):
         baca.staccato(o.pheads())
     baca.clef(m[27][0], "treble")
     with baca.scope(m[23, 32]) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves(),
             "mf>pp",
         )
