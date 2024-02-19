@@ -131,7 +131,7 @@ def v1(m):
     with baca.scope(m[1, 4]) as o:
         library.material_annotation_spanner(o, "A")
         library.getato_pitches(31, [2], function=o)
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves(),
             "pp>o!",
             rleak=True,
@@ -195,7 +195,7 @@ def vc(m):
 def composites(cache):
     for abbreviation in ["v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][1, 4]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "ff>f",
             )
@@ -207,7 +207,7 @@ def composites(cache):
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][5, 7]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "f>mf",
             )
@@ -221,7 +221,7 @@ def composites(cache):
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][8, 10]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "mf>p",
             )
@@ -233,7 +233,7 @@ def composites(cache):
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][11, 13]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "p>pp",
             )
