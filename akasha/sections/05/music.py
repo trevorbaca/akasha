@@ -280,7 +280,7 @@ def va(m):
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[33, 36]) as o:
         baca.clef(o.leaf(0), "alto"),
-        baca.flat_glissando(o, "Fb3", hide_middle_stems=True, stop_pitch="B#2")
+        baca.flat_glissando(o, "Fb3 B#2", hide_middle_stems=True)
         baca.hairpin(
             o,
             "sf>o!",
@@ -342,7 +342,7 @@ def vc(m):
     with baca.scope(m[43, 50]) as o:
         # baca.pitches(o, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True)
         # baca.glissando(o)
-        baca.flat_glissando(o, "Db3", hide_middle_stems=True, stop_pitch="A1")
+        baca.flat_glissando(o, "Db3 A1", hide_middle_stems=True)
         baca.hairpin(
             o,
             "sf>o!",
