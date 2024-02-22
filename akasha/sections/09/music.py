@@ -128,7 +128,7 @@ def va(m):
         library.material_annotation_spanner(o, "E")
     with baca.scope(m[5, 6]) as o:
         baca.pitches(o, "D#3 C+3", exact=True)
-        baca.glissando(o)
+        baca.basic_glissando(o)
         baca.hairpin(
             o,
             "mp>pp",
@@ -144,7 +144,7 @@ def vc(m):
         baca.dynamic(o.pleaf(0), "ppp")
     with baca.scope(m[5, 6]) as o:
         baca.pitches(o, "C#2 Bb1", exact=True)
-        baca.glissando(o)
+        baca.basic_glissando(o)
         baca.hairpin(
             o,
             "mp>pp",

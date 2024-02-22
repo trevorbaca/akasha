@@ -242,7 +242,7 @@ def v1(m):
         for i, run in enumerate(runs):
             rotation = -6 * i
             library.harmonic_glissando_pitches("A4", function=run, rotation=rotation)
-            baca.glissando(run)
+            baca.basic_glissando(run)
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "ppp")
         baca.markup(
@@ -256,7 +256,7 @@ def v2(m):
         for i, run in enumerate(runs):
             rotation = -6 * i
             library.harmonic_glissando_pitches("A4", function=run, rotation=rotation)
-            baca.glissando(run)
+            baca.basic_glissando(run)
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(o.pleaf(0), "ppp")
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
@@ -293,7 +293,7 @@ def va(m):
         for i, run in enumerate(runs):
             rotation = -6 * i
             library.harmonic_glissando_pitches("Ab3", function=run, rotation=rotation)
-            baca.glissando(run)
+            baca.basic_glissando(run)
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.dynamic(
             o[0],
@@ -315,7 +315,7 @@ def vc(m):
         baca.clef(o.leaf(0), "bass")
         library.harmonic_glissando_pitches("G2", function=o)
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.glissando(o)
+        baca.basic_glissando(o)
         baca.dynamic(o.pleaf(0), "ppp")
         baca.markup(
             o.pleaf(0), r"\akasha-xp-plus-senza-vib-plus-full-bow-strokes-markup"
@@ -331,7 +331,7 @@ def vc(m):
     with baca.scope(m[38, 41]) as o:
         library.harmonic_glissando_pitches("G2", function=o, rotation=-6)
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.glissando(o)
+        baca.basic_glissando(o)
         baca.dynamic(
             o[0],
             "ppp-ancora",
@@ -341,7 +341,7 @@ def vc(m):
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
     with baca.scope(m[43, 50]) as o:
         # baca.pitches(o, "Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1", exact=True)
-        # baca.glissando(o)
+        # baca.basic_glissando(o)
         baca.flat_glissando(o, "Db3 A1", hide_middle_stems=True)
         baca.hairpin(
             o,
