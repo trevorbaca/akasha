@@ -146,7 +146,7 @@ def v1(m):
     with baca.scope(m[5, 13]) as o:
         loop = baca.Loop([17, 19, 17, 15, 18, 16], [1])
         baca.pitches(o, loop)
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             do_not_hide_middle_note_heads=True,
         )
@@ -163,7 +163,7 @@ def v2(m):
     with baca.scope(m[1, 13]) as o:
         loop = baca.Loop([6, 3, 5, 3, 1, 4], [1])
         baca.pitches(o, loop)
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             do_not_hide_middle_note_heads=True,
         )
@@ -178,7 +178,7 @@ def va(m):
         baca.staff_lines(o.leaf(0), 5)
         loop = baca.Loop([3, 5, 2, 4, 2, 0], [1])
         baca.pitches(o, loop)
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             do_not_hide_middle_note_heads=True,
         )
@@ -195,7 +195,7 @@ def vc(m):
         baca.clef(o.leaf(0), "bass")
         loop = baca.Loop([-23, -21, -19, -22, -20, -22], [-1])
         baca.pitches(o, loop)
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             do_not_hide_middle_note_heads=True,
         )
