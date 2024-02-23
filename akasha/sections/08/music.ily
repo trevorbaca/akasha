@@ -873,6 +873,8 @@ number.8.Violin.1.Music = {
     }
 
     % [Violin.1.Music measure 5]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
       %! STAFF_HIGHLIGHT
     \staffHighlight lightblue
       %! STAFF_HIGHLIGHT
@@ -918,21 +920,23 @@ number.8.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     f''4.
     \glissando
-    \repeatTie
 
     % [Violin.1.Music measure 6]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     g''2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     g''4.
     \glissando
-    \repeatTie
 
     % [Violin.1.Music measure 7]
     f''2
@@ -1021,20 +1025,25 @@ number.8.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 12]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     af''!2.
-    - \tweak stencil ##f
-    ~
-
-    af''4.
     \glissando
-    \repeatTie
+
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
+    af''!4.
+    \glissando
 
     % [Violin.1.Music measure 13]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     fs''!2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
-    fs''4.
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
+    fs''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
@@ -1042,7 +1051,6 @@ number.8.Violin.1.Music = {
     \pp
       %! SPANNER_STOP
     \stopTextSpan
-    \repeatTie
 
     <<
 
@@ -1259,6 +1267,8 @@ number.8.Violin.2.Music = {
     \glissando
 
     % [Violin.2.Music measure 5]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     cs'!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1286,21 +1296,23 @@ number.8.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
-    - \tweak stencil ##f
-    ~
-
-    cs'4.
     \glissando
-    \repeatTie
+
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
+    cs'!4.
+    \glissando
 
     % [Violin.2.Music measure 6]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     e'2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     e'4.
     \glissando
-    \repeatTie
 
     % [Violin.2.Music measure 7]
     g'2
@@ -1389,20 +1401,25 @@ number.8.Violin.2.Music = {
     \glissando
 
     % [Violin.2.Music measure 12]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     f'2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     f'4.
     \glissando
-    \repeatTie
 
     % [Violin.2.Music measure 13]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     af'!2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
-    af'4.
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
+    af'!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
@@ -1410,7 +1427,6 @@ number.8.Violin.2.Music = {
     \pp
       %! SPANNER_STOP
     \stopTextSpan
-    \repeatTie
 
     <<
 
@@ -1624,6 +1640,8 @@ number.8.Viola.Music = {
     \glissando
 
     % [Viola.Music measure 5]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     d'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1651,21 +1669,23 @@ number.8.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     d'4.
     \glissando
-    \repeatTie
 
     % [Viola.Music measure 6]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     c'2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     c'4.
     \glissando
-    \repeatTie
 
     % [Viola.Music measure 7]
     e'2
@@ -1754,19 +1774,24 @@ number.8.Viola.Music = {
     \glissando
 
     % [Viola.Music measure 12]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     cs'!2.
-    - \tweak stencil ##f
-    ~
-
-    cs'4.
     \glissando
-    \repeatTie
+
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
+    cs'!4.
+    \glissando
 
     % [Viola.Music measure 13]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     f'2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     f'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1775,7 +1800,6 @@ number.8.Viola.Music = {
     \pp
       %! SPANNER_STOP
     \stopTextSpan
-    \repeatTie
 
     <<
 
@@ -1998,6 +2022,8 @@ number.8.Cello.Music = {
     \glissando
 
     % [Cello.Music measure 5]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     e,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2025,21 +2051,23 @@ number.8.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     e,4.
     \glissando
-    \repeatTie
 
     % [Cello.Music measure 6]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     d,2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     d,4.
     \glissando
-    \repeatTie
 
     % [Cello.Music measure 7]
     c,2
@@ -2128,19 +2156,24 @@ number.8.Cello.Music = {
     \glissando
 
     % [Cello.Music measure 12]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     cs,!2.
-    - \tweak stencil ##f
-    ~
-
-    cs,4.
     \glissando
-    \repeatTie
+
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
+    cs,!4.
+    \glissando
 
     % [Cello.Music measure 13]
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     b,,2.
-    - \tweak stencil ##f
-    ~
+    \glissando
 
+      %! REPEAT_PITCH_CLASS_COLORING
+    \baca-repeat-pitch-class-coloring
     b,,4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2149,7 +2182,6 @@ number.8.Cello.Music = {
     \pp
       %! SPANNER_STOP
     \stopTextSpan
-    \repeatTie
 
     <<
 
