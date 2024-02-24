@@ -5030,7 +5030,7 @@ number.6.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
 
     c'4.
     - \upbow

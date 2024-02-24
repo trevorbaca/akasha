@@ -1866,7 +1866,7 @@ number.8.Viola.Music = {
     \baca-effort-mf
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-e
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
     - \tweak stencil ##f
     ~
 

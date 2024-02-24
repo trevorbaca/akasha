@@ -185,7 +185,7 @@ def va(m):
     with baca.scope(m[15, 16]) as o:
         baca.down_bow(o.pleaf(0))
         baca.dynamic(o.pleaf(0), '"mf"')
-        baca.markup(o.pleaf(0), r"\baca-ob-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-ob-markup")
         baca.staff_lines(o.leaf(0), 1)
         baca.staff_position(o, 0)
 

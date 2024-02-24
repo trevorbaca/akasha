@@ -367,11 +367,11 @@ number.9.Violin.1.Music = {
         \p
           %! MATERIAL_ANNOTATION_MARKUP
         %@% ^ \akasha-material-c
+        ^ \baca-boxed-xfb-markup
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"117" #"16"
           %! REAPPLIED_INSTRUMENT_ALERT
         %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
-        ^ \baca-xfb-markup
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -576,11 +576,11 @@ number.9.Violin.2.Music = {
         \p
           %! MATERIAL_ANNOTATION_MARKUP
         %@% ^ \akasha-material-c
+        ^ \baca-boxed-xfb-markup
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"109" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
         %@% ^ \baca-reapplied-instrument-markup "(“Violin.1”)"
-        ^ \baca-xfb-markup
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -983,11 +983,11 @@ number.9.Cello.Music = {
         \p
           %! MATERIAL_ANNOTATION_MARKUP
         %@% ^ \akasha-material-c
+        ^ \baca-boxed-xfb-markup
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"119" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
         %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
-        ^ \baca-xfb-markup
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)

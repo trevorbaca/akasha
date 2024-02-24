@@ -1146,7 +1146,7 @@ number.4.Violin.1.Music = {
     \baca-effort-mf
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-e
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
     - \tweak stencil ##f
     ~
 
@@ -1676,7 +1676,7 @@ number.4.Violin.2.Music = {
     \baca-effort-mf
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-e
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
     - \tweak stencil ##f
     ~
 

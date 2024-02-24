@@ -104,7 +104,7 @@ def _1_2(m, pitches):
     with baca.scope(m[1, 2]) as o:
         baca.pitches(o, pitches)
         baca.dynamic(o.pleaf(0), "p")
-        baca.markup(o.pleaf(0), r"\baca-xfb-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-xfb-markup")
         library.material_annotation_spanner(o, "C")
 
 

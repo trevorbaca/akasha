@@ -361,7 +361,7 @@ def v1(m):
     with baca.scope(m[8, 22]) as o:
         baca.pitch(o, "B4")
         baca.dynamic(o.pleaf(0), "ppp")
-        baca.markup(o.pleaf(0), r"\baca-ob-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-ob-markup")
     _17_20(m)
     _21_22(m)
     with baca.scope(m[23, 24]) as o:
@@ -393,7 +393,7 @@ def v2(m):
     with baca.scope(m[13, 27]) as o:
         baca.pitch(o, "B3")
         baca.dynamic(o.pleaf(0), "ppp")
-        baca.markup(o.pleaf(0), r"\baca-ob-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-ob-markup")
     _17_20(m)
     _21_22(m)
     _25_26(m)
@@ -429,7 +429,7 @@ def va(m):
     with baca.scope(m[4, 27]) as o:
         baca.pitch(o, "B2")
         baca.dynamic(o.pleaf(0), "ppp")
-        baca.markup(o.pleaf(0), r"\baca-ob-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-ob-markup")
     _28_29(m, "C#4 D#4")
     _31_32(m)
     _33_34(m)
