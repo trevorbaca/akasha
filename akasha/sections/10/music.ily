@@ -1581,7 +1581,7 @@ number.10.Violin.1.Music = {
     \ppp
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-e
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
 
     b'4
     - \upbow
@@ -2762,7 +2762,7 @@ number.10.Violin.2.Music = {
     - \upbow
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-e
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
 
     b4
     - \downbow
@@ -3499,7 +3499,7 @@ number.10.Viola.Music = {
     \ppp
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-e
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
 
     b,4
     - \upbow

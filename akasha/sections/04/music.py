@@ -309,7 +309,7 @@ def composites(cache):
             baca.staff_position(group, 0)
             baca.staff_lines(abjad.select.leaf(group[0], 0), 1)
             baca.dynamic(group[0], '"mf"')
-            baca.markup(baca.select.pleaf(group[0], 0), r"\baca-ob-markup")
+            baca.markup(baca.select.pleaf(group[0], 0), r"\baca-boxed-ob-markup")
 
 
 @baca.build.timed("make_score")

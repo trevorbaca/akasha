@@ -322,7 +322,7 @@ def va(m):
         baca.staff_lines(o.leaf(0), 1)
         baca.staff_position(o, 0)
         baca.dynamic(o.pleaf(0), '"mf"')
-        baca.markup(o.pleaf(0), r"\baca-ob-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-ob-markup")
         baca.alternate_bow_strokes(o.pheads())
 
 
