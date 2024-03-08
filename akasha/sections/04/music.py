@@ -247,7 +247,7 @@ def va(m):
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-scratch-moltiss-markup")
         library.material_annotation_spanner(o, "A")
     with baca.scope(m[23]) as o:
-        baca.pitches(o, "D#4 D#+4 E4", exact=True)
+        baca.pitches(o, "D#4 D#+4 E4", strict=True)
         baca.dynamic(o.pleaf(0), "mp")
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
         library.material_annotation_spanner(o, "B")
