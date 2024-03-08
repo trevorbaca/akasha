@@ -298,7 +298,7 @@ def va(m):
 
 def vc(m):
     with baca.scope(m[1, 2]) as o:
-        library.cello_solo_pitches(function=o)
+        baca.pitches(o, library.cello_solo_pitches())
         library.material_annotation_spanner(o, "B")
         baca.dynamic(o.pleaf(0), "mp")
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
