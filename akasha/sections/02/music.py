@@ -248,7 +248,7 @@ def VC(voice, time_signatures):
 
 def v1(m):
     with baca.scope(m[6, 7]) as o:
-        baca.pitches(o, "E4 F4 E+4", exact=True)
+        baca.pitches(o, "E4 F4 E+4", strict=True)
         library.material_annotation_spanner(o, "B")
     library.material_annotation_spanner(m[9], "A")
     with baca.scope(m[11, 13]) as o:
@@ -265,10 +265,10 @@ def v2(m):
     library.material_annotation_spanner(m[4], "A")
     with baca.scope(m[6, 7]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "D4 D~4 C4", exact=True)
+        baca.pitches(o, "D4 D~4 C4", strict=True)
     with baca.scope(m[9]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "C#4 C#+4", exact=True)
+        baca.pitches(o, "C#4 C#+4", strict=True)
     with baca.scope(m[11, 13]) as o:
         library.material_annotation_spanner(o, "C")
         baca.dynamic(o.pleaf(0), "pp")
@@ -286,14 +286,14 @@ def va(m):
     library.material_annotation_spanner(m[4], "A")
     with baca.scope(m[6, 7]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "Eb4 D4 E4", exact=True)
+        baca.pitches(o, "Eb4 D4 E4", strict=True)
     library.material_annotation_spanner(m[9], "B")
-    baca.pitches(m[9], "C4", exact=True)
+    baca.pitches(m[9], "C4", strict=True)
     with baca.scope(m[11, 13]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "D4 D+4 D#4 E4 F#4 F4", exact=True)
+        baca.pitches(o, "D4 D+4 D#4 E4 F#4 F4", strict=True)
     library.material_annotation_spanner(m[15], "B")
-    baca.pitches(m[15], "Eb4 D4", exact=True)
+    baca.pitches(m[15], "Eb4 D4", strict=True)
 
 
 def vc(m):
@@ -304,13 +304,13 @@ def vc(m):
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[9]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "C4 C~4 B3", exact=True)
+        baca.pitches(o, "C4 C~4 B3", strict=True)
     with baca.scope(m[11, 13]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "Bb3 Bb~3 A3 Ab3 G3 A3", exact=True)
+        baca.pitches(o, "Bb3 Bb~3 A3 Ab3 G3 A3", strict=True)
     with baca.scope(m[15]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "A3 A#3 B3", exact=True)
+        baca.pitches(o, "A3 A#3 B3", strict=True)
     library.material_annotation_spanner(m[19], "A")
 
 
