@@ -41,15 +41,13 @@ def X(argument):
     return baca.rhythm.T(list_, "1:1")
 
 
-def cello_solo_pitches(*, function=None, transposition=None):
-    string = "E3 F3 F+3 F#3 C3 B2 B-2 Bb2 Ab2 A2 B2 C#3 C3 E3 E-3 Eb3 Db3 C3 D3 F#3"
+def cello_solo_pitches(*, transposition=None):
+    string = "E3 F3 Fqs3 F#3 C3 B2 Bqf2 Bb2 Ab2 A2 B2 C#3 C3 E3 E-3 Eb3 Db3 C3 D3 F#3"
     pitches = [abjad.NamedPitch(_) for _ in string.split()]
     if transposition:
         pitches = [_.transpose(n=transposition) for _ in pitches]
-    if function:
-        baca.pitches(function, pitches)
-    else:
-        return baca.pitches(pitches)
+    pitches = [_.get_name(locale="us") for _ in pitches]
+    return pitches
 
 
 def compound_quarters(time_signatures):
