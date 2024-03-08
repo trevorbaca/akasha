@@ -125,7 +125,7 @@ def v1(m):
 def v2(m):
     with baca.scope(m[1, 3]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "D#4 E4 F4 F~4 E4", strict=True)
+        baca.pitches(o, "D#4 E4 F4 Fqf4 E4", strict=True)
         baca.dynamic(o.pleaf(0), "mp")
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-half-scratch-markup")
     with baca.scope(m[10, 11]) as o:
@@ -138,7 +138,7 @@ def v2(m):
 def va(m):
     with baca.scope(m[1, 3]) as o:
         library.material_annotation_spanner(o, "B")
-        baca.pitches(o, "Db4 Db~4 C4", strict=True)
+        baca.pitches(o, "Db4 Dtqf4 C4", strict=True)
     with baca.scope(m[11]) as o:
         library.material_annotation_spanner(o, "D")
         baca.pitches(o, "D#3")

@@ -328,8 +328,8 @@ def v1(m):
 
 
 def v2(m):
-    baca.pitch(m[1, 28], "G#+4")
-    baca.pitches(m[30, 39], "A4 G#+4")
+    baca.pitch(m[1, 28], "Gtqs4")
+    baca.pitches(m[30, 39], "A4 Gtqs4")
     baca.pitch(m[41, 50], "A4")
     with baca.scope(m[51, 68]) as o:
         baca.override.note_head_style_harmonic(o.pleaves())
@@ -349,8 +349,8 @@ def v2(m):
 
 
 def va(m):
-    baca.pitch(m[1, 28], "A+2")
-    baca.pitches(m[30, 39], "A2 A+2")
+    baca.pitch(m[1, 28], "Aqs2")
+    baca.pitches(m[30, 39], "A2 Aqs2")
     baca.pitch(m[41, 48], "A2")
     with baca.scope(m[49, 54]) as o:
         baca.clef(o.leaf(0), "treble")
@@ -362,7 +362,7 @@ def va(m):
             "sffp<f",
         )
     with baca.scope(m[49, 68]) as o:
-        baca.pitch(o, "G~5")
+        baca.pitch(o, "Gqf5")
         baca.override.note_head_style_harmonic(o.pleaves())
     baca.override.text_spanner_staff_padding(m[56, 69], 7)
 

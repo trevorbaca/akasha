@@ -379,9 +379,9 @@ def v1(m):
 
 
 def v2(m):
-    _1_2(m, "A#+3")
+    _1_2(m, "Atqs3")
     _4_5(m, "B3")
-    _8_10(m, "A#+3")
+    _8_10(m, "Atqs3")
     with baca.scope(m[13, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o, downbow_first=False)
@@ -404,7 +404,7 @@ def v2(m):
 
 
 def va(m):
-    _1_2(m, "B+2")
+    _1_2(m, "Bqs2")
     with baca.scope(m[4, 20]) as o:
         library.material_annotation_spanner(o, "E")
         baca.alternate_bow_strokes(o)
