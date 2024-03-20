@@ -1067,7 +1067,7 @@ number.2.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-c
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 2 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2 } }
     \times 1/1
     {
 
@@ -1270,7 +1270,7 @@ number.2.Violin.1.Music = {
 
     >>
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -1685,7 +1685,7 @@ number.2.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-c
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 2 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2 } }
     \times 1/1
     {
 
@@ -1882,7 +1882,7 @@ number.2.Violin.2.Music = {
 
     >>
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
