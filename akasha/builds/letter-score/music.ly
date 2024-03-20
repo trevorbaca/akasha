@@ -1,6 +1,6 @@
 % Akasha (2015) for string quartet
 
-\version "2.20.0"
+\version "2.25.10"
 
 \include "stylesheet.ily"
 \include "_sections/01.ily"
@@ -23,7 +23,7 @@
 \score {
     <<
         {
-        % \include "layout.ly"
+        \include "layout.ly"
         }
         {
         \include "_sections/01.ly"
