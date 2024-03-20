@@ -398,7 +398,7 @@ number.9.Violin.1.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -611,7 +611,7 @@ number.9.Violin.2.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -941,7 +941,7 @@ number.9.Viola.Staff = {
 
 number.9.Cello.Music = {
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 4 } }
     \times 1/1
     {
 

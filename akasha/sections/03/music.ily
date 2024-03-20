@@ -427,7 +427,7 @@ number.3.Rests = {
 
 number.3.Violin.1.Music = {
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 8 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 8 } }
     \times 1/1
     {
 

@@ -2387,7 +2387,7 @@ number.7.Violin.1.Music = {
 
     fs''4
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 2. }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2. } }
     \times 1/1
     {
 
@@ -2562,7 +2562,7 @@ number.7.Violin.1.Music = {
 
     }
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 2. }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2. } }
     \times 1/1
     {
 
