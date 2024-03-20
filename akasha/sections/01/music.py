@@ -134,6 +134,7 @@ def persist_score(score, environment):
     )
     baca.tags.deactivate(
         score,
+        baca.tags.EXPLICIT_INSTRUMENT_ALERT,
         baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
         baca.tags.MATERIAL_ANNOTATION_MARKUP,
         baca.tags.REAPPLIED_INSTRUMENT_ALERT,
