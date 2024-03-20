@@ -184,7 +184,7 @@ number.1.Violin.1.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
       %! EXPLICIT_INSTRUMENT_ALERT
-    ^ \baca-explicit-instrument-markup "(“Violin.1”)"
+    %@% ^ \baca-explicit-instrument-markup "(“Violin.1”)"
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
@@ -258,7 +258,7 @@ number.1.Violin.2.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
       %! EXPLICIT_INSTRUMENT_ALERT
-    ^ \baca-explicit-instrument-markup "(“Violin.1”)"
+    %@% ^ \baca-explicit-instrument-markup "(“Violin.1”)"
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
@@ -336,7 +336,7 @@ number.1.Viola.Music = {
     %@% ^ \akasha-material-e
     ^ \akasha-ob-plus-terminate-abruptly-markup
       %! EXPLICIT_INSTRUMENT_ALERT
-    ^ \baca-explicit-instrument-markup "(“Viola”)"
+    %@% ^ \baca-explicit-instrument-markup "(“Viola”)"
     - \tweak stencil ##f
     ~
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -446,7 +446,7 @@ number.1.Cello.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"8"
       %! EXPLICIT_INSTRUMENT_ALERT
-    ^ \baca-explicit-instrument-markup "(“Cello”)"
+    %@% ^ \baca-explicit-instrument-markup "(“Cello”)"
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
