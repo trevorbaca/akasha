@@ -24,7 +24,14 @@
   print-first-page-number = ##t
 }
 
-\layout { \context { \Score barNumberVisibility = #all-bar-numbers-visible } }
+\layout
+{
+  \context
+  {
+    \Score
+    \remove Bar_number_engraver
+  }
+}
 
 local-measure-number-extra-offset = #'(0 . 7)
 moment-number-extra-offset = #'(0 . 19)

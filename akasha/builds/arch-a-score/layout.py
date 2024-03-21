@@ -7,9 +7,9 @@ def main():
     spacing = baca.make_layout(
         baca.page(
             1,
-            baca.system(measure=1, y_offset=first, distances=distances),
-            baca.system(measure=7, y_offset=second, distances=distances),
-            baca.system(measure=11, y_offset=third, distances=distances),
+            baca.system(measure=1, y_offset=80, distances=distances),
+            baca.system(measure=9, y_offset=165, distances=distances),
+            baca.system(measure=12, y_offset=250, distances=distances),
         ),
         baca.page(
             2,
@@ -158,6 +158,7 @@ def main():
             baca.system(measure=382, y_offset=second, distances=distances),
             baca.system(measure=388, y_offset=third, distances=distances),
         ),
+        spacing=(1, 32),
     )
     baca.section.make_layout_ly(spacing)
 

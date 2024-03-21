@@ -141,10 +141,6 @@
     \accepts GlobalSkips
     \accepts PageLayout
 
-    \override BarNumber.X-offset = -7
-    \override BarNumber.Y-offset = -0.75
-    \override BarNumber.font-size = 1
-
     \override TextSpanner.to-barline = ##t
 
     % prevents StaffSymbol from starting too early after cut-away measures:
@@ -198,7 +194,6 @@
     \Score
     \accepts GlobalContext
     \accepts MusicContext
-    \remove Bar_number_engraver
     \remove Metronome_mark_engraver
     \remove System_start_delimiter_engraver
 
@@ -250,7 +245,6 @@
     \override TupletNumber.text = #tuplet-number::calc-fraction-text
 
     autoBeaming = ##f
-    barNumberFormatter = #baca-oval-bar-numbers
     explicitClefVisibility = #end-of-line-invisible
     forceClef = ##t
     rehearsalMarkFormatter = #format-mark-box-alphabet
