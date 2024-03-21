@@ -1,6 +1,6 @@
 \include "../../stylesheet.ily"
 
-#(set-default-paper-size "letter")
+#(set-default-paper-size "arch a")
 #(set-global-staff-size 11)
 
 \paper {
