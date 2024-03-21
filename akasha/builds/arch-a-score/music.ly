@@ -3,6 +3,7 @@
 \version "2.25.10"
 
 \include "stylesheet.ily"
+\include "header.ily"
 \include "_sections/01.ily"
 \include "_sections/02.ily"
 \include "_sections/03.ily"
