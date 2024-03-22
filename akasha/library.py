@@ -442,7 +442,7 @@ def material_annotation_spanner(argument, letter):
         abjad.select.leaf(argument, 0),
         rf"\akasha-material-{letter.lower()}",
     )
-    baca.tags.wrappers(wrappers, baca.tags.MATERIAL_ANNOTATION_MARKUP)
+    baca.tags.tag(wrappers, baca.tags.MATERIAL_ANNOTATION_MARKUP)
     material_to_color = {
         "A": "antiquewhite",
         "B": "lightblue",
@@ -455,12 +455,12 @@ def material_annotation_spanner(argument, letter):
         abjad.select.leaf(argument, 0),
         rf"\staffHighlight {color}",
     )
-    baca.tags.wrappers(wrappers, baca.tags.STAFF_HIGHLIGHT)
+    baca.tags.tag(wrappers, baca.tags.STAFF_HIGHLIGHT)
     wrappers = baca.literal(
         baca.select.rleaf(argument, -1),
         r"\stopStaffHighlight",
     )
-    baca.tags.wrappers(wrappers, baca.tags.STAFF_HIGHLIGHT)
+    baca.tags.tag(wrappers, baca.tags.STAFF_HIGHLIGHT)
 
 
 def moment_markup(moment_tokens):
