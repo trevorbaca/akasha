@@ -431,8 +431,8 @@ def persist_score(score, environment):
         fermata_extra_offset_y=4.5,
         global_rests_in_topmost_staff=True,
     )
-    baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
-    baca.tags.deactivate(
+    baca.section.activate_tags(score, baca.tags.LOCAL_MEASURE_NUMBER)
+    baca.section.deactivate_tags(
         score,
         baca.tags.EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT,
         baca.tags.MATERIAL_ANNOTATION_MARKUP,
