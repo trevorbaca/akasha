@@ -20,6 +20,7 @@
 
 \layout
 {
+  ragged-right = ##f
   \context
   {
     \Score
