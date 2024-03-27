@@ -838,11 +838,6 @@ number.3.Violin.2.Music = {
       %! NOTE
     \abjad-invisible-music-coloring
       %! ANCHOR_NOTE
-      %! HIDDEN
-      %! NOTE
-      %! NOT_YET_PITCHED_COLORING
-    \baca-not-yet-pitched-coloring
-      %! ANCHOR_NOTE
     \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
     \stopStaff
@@ -1055,11 +1050,6 @@ number.3.Viola.Music = {
       %! INVISIBLE_MUSIC_COLORING
       %! NOTE
     \abjad-invisible-music-coloring
-      %! ANCHOR_NOTE
-      %! HIDDEN
-      %! NOTE
-      %! NOT_YET_PITCHED_COLORING
-    \baca-not-yet-pitched-coloring
       %! ANCHOR_NOTE
     \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
@@ -1578,11 +1568,6 @@ number.3.Cello.Music = {
       %! INVISIBLE_MUSIC_COLORING
       %! NOTE
     \abjad-invisible-music-coloring
-      %! ANCHOR_NOTE
-      %! HIDDEN
-      %! NOTE
-      %! NOT_YET_PITCHED_COLORING
-    \baca-not-yet-pitched-coloring
       %! ANCHOR_NOTE
     \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
