@@ -16,12 +16,12 @@
         "Cello.Music",
     ],
     "bol_measure_numbers": [369, 382],
-    "duration": "0'59''",
+    "duration": "0'58''",
     "fermata_measure_numbers": [393],
     "final_measure_is_fermata": True,
     "final_measure_number": 393,
     "first_measure_number": 369,
-    "has_anchor_skip": True,
+    "has_anchor_skip": False,
     "persistent_indicators": {
         "Cello.Music": [
             baca.Memento(
@@ -251,7 +251,7 @@
         ],
     },
     "start_clock_time": "21'46''",
-    "stop_clock_time": "22'45''",
+    "stop_clock_time": "22'44''",
     "time_signatures": [
         "3/8",
         "4/8",

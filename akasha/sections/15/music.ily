@@ -596,7 +596,7 @@ number.15.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! CLOCK_TIME
-    %@% - \baca-start-ct-left-only "[22'33'']"
+    %@% - \baca-start-ct-both-right-fermata "[22'33'']" "8''"
       %! CLOCK_TIME
     %@% \bacaStartTextSpanCT
       %! LOCAL_MEASURE_NUMBER
@@ -618,45 +618,13 @@ number.15.Skips = {
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER
     \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! CLOCK_TIME
-    %@% - \baca-start-ct-both-left-fermata "8''" "[22'44'']"
-      %! CLOCK_TIME
-    %@% \bacaStartTextSpanCT
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "25"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "393"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
-    \bar "|."
-
-      %! ANCHOR_SKIP
-    % [anchor skip]
-      %! ANCHOR_SKIP
-    s1 * 1/4
-      %! ANCHOR_SKIP
-      %! CLOCK_TIME
-    %@% \bacaStopTextSpanCT
-      %! ANCHOR_SKIP
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! ANCHOR_SKIP
       %! EOS_STOP_MM_SPANNER
     \bacaStopTextSpanMM
-      %! ANCHOR_SKIP
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
-      %! ANCHOR_SKIP
       %! STAGE_NUMBER
     %@% \bacaStopTextSpanSNM
-      %! ANCHOR_SKIP
-    \once \override Score.BarLine.transparent = ##t
-      %! ANCHOR_SKIP
-    \once \override Score.SpanBar.transparent = ##t
+    \bar "|."
 
 }
 
