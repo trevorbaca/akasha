@@ -153,7 +153,6 @@ def make_score(first_measure_number, previous_persistent_indicators):
     baca.section.set_up_score(
         score,
         time_signatures(),
-        append_anchor_skip=True,
         first_measure_number=first_measure_number,
         manifests=library.manifests,
         score_persistent_indicators=previous_persistent_indicators["Score"],
