@@ -2,6 +2,7 @@
 
 #(set-default-paper-size "arch a")
 #(set-global-staff-size 10)
+% showFirstLength = R1*2654/8
 
 \paper {
     ragged-bottom = ##f
