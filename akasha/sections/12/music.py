@@ -314,7 +314,7 @@ def v1(m):
         baca.pitch(o, "B7")
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m[53, 54]) as o:
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.hairpin(
             o,
             "sffp<f",
@@ -322,7 +322,7 @@ def v1(m):
         baca.spanners.trill(o, rleak=True)
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-ninth-degree-of-a-four-markup")
     with baca.scope(m[56, 68]) as o:
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.override.ottava_bracket_staff_padding(o, 12)
     baca.override.text_spanner_staff_padding(m[56, 69], 9.5)
 
@@ -335,7 +335,7 @@ def v2(m):
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitch(o, "C#7")
     with baca.scope(m[51, 54]) as o:
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.markup(o.pleaf(0), r"\akasha-pos-ord-plus-fifth-degree-of-a-four-markup")
         baca.spanners.trill(o, rleak=True)
         baca.hairpin(
@@ -343,7 +343,7 @@ def v2(m):
             "sffp<f",
         )
     with baca.scope(m[56, 68]) as o:
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.override.ottava_bracket_staff_padding(o, 10)
     baca.override.text_spanner_staff_padding(m[56, 69], 7.5)
 

@@ -1,6 +1,6 @@
 % first_page_number = 24
 % page_count = 1
-% measure_count = 25 + 1
+% measure_count = 25
 % time_signatures = [
 % '3/8', '4/8', '7/8', '7/8', '3/8', '6/8', '9/8', '9/8', '4/8', '8/8', '6/8',
 %  '7/8', '7/8', '3/8', '8/8', '9/8', '9/8', '4/8', '4/8', '3/8', '4/8', '8/8',
@@ -335,34 +335,12 @@
 
             % [PageLayout measure 25]
               %! SPACING_COMMAND
-            \baca-new-spacing-section #1 #4
+            \baca-new-spacing-section #35 #96
               %! BREAK
             \noBreak
             s1 * 1/4
               %! SPACING
             %@% \bacaStopTextSpanSPM
-              %! SPACING
-            %@% - \baca-start-spm-left-only "[1/4]"
-              %! SPACING
-            %@% \bacaStartTextSpanSPM
-
-              %! ANCHOR_SKIP
-            % [anchor skip]
-              %! ANCHOR_SKIP
-              %! SPACING_COMMAND
-            \baca-new-spacing-section #1 #4
-              %! ANCHOR_SKIP
-              %! BREAK
-            \noBreak
-              %! ANCHOR_SKIP
-            s1 * 1/4
-              %! ANCHOR_SKIP
-              %! SPACING
-            %@% \bacaStopTextSpanSPM
-              %! ANCHOR_SKIP
-            \once \override Score.BarLine.transparent = ##t
-              %! ANCHOR_SKIP
-            \once \override Score.SpanBar.transparent = ##t
 
         }   %*% PageLayout
 
