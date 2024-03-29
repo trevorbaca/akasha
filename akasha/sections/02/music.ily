@@ -1063,9 +1063,11 @@ number.2.Violin.1.Music = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    r1.
+    R1 * 6/4
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-c
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2 } }
     \times 1/1
@@ -1681,9 +1683,11 @@ number.2.Violin.2.Music = {
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
-    r1.
+    R1 * 6/4
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-c
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2 } }
     \times 1/1
