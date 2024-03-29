@@ -150,8 +150,9 @@ def v1(m):
             o,
             do_not_hide_middle_note_heads=True,
         )
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m[15, 16]) as o:
