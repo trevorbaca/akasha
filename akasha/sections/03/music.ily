@@ -499,12 +499,14 @@ number.3.Violin.1.Music = {
     \revert TupletNumber.text
 
     % [Violin.1.Music measure 2]
-    r1
-
-    r8
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Violin.1.Music measure 3]
-    r2
+    R1 * 4/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"8"
 
     <<
 
@@ -1113,7 +1115,7 @@ number.3.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-    r2.
+    R1 * 9/8
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
@@ -1121,6 +1123,8 @@ number.3.Cello.Music = {
     \p
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-a
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1130,8 +1134,6 @@ number.3.Cello.Music = {
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \akasha-vc-markup %@%
-
-    r4.
 
     \times 8/9
     {

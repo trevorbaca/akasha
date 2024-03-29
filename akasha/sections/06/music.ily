@@ -3000,18 +3000,14 @@ number.6.Violin.1.Music = {
     r4
 
     % [Violin.1.Music measure 37]
-    r4
-
-    r4
-
-    r4
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Violin.1.Music measure 38]
-    r4
-
-    r4
-
-    r4
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     <<
 
@@ -3656,11 +3652,9 @@ number.6.Violin.2.Music = {
     r4
 
     % [Violin.2.Music measure 22]
-    r4
-
-    r4
-
-    r4
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Violin.2.Music measure 23]
     \override DynamicLineSpanner.staff-padding = 7
@@ -4913,14 +4907,14 @@ number.6.Violin.2.Music = {
     r4
 
     % [Violin.2.Music measure 37]
-    r2
-
-    r4
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Violin.2.Music measure 38]
-    r2
-
-    r4
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     <<
 

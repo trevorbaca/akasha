@@ -771,7 +771,9 @@ number.15.Violin.1.Music = {
     \set Staff.shortInstrumentName = \akasha-vn-i-markup %@%
 
     % [Violin.1.Music measure 2]
-    r2
+    R1 * 4/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"8"
 
     % [Violin.1.Music measure 3]
     c'2..
@@ -785,7 +787,9 @@ number.15.Violin.1.Music = {
     - \baca-stop-on-string
 
     % [Violin.1.Music measure 4]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
 
     % [Violin.1.Music measure 5]
     c'4.
@@ -799,7 +803,9 @@ number.15.Violin.1.Music = {
     - \baca-stop-on-string
 
     % [Violin.1.Music measure 6]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Violin.1.Music measure 7]
     c'2.
@@ -818,9 +824,9 @@ number.15.Violin.1.Music = {
     \repeatTie
 
     % [Violin.1.Music measure 8]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Violin.1.Music measure 9]
     c'2
@@ -834,7 +840,9 @@ number.15.Violin.1.Music = {
     - \baca-stop-on-string
 
     % [Violin.1.Music measure 10]
-    r1
+    R1 * 8/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"8"
 
     % [Violin.1.Music measure 11]
     c'2.
@@ -848,7 +856,9 @@ number.15.Violin.1.Music = {
     - \baca-stop-on-string
 
     % [Violin.1.Music measure 12]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
 
     % [Violin.1.Music measure 13]
     c'2..
@@ -862,7 +872,9 @@ number.15.Violin.1.Music = {
     - \baca-stop-on-string
 
     % [Violin.1.Music measure 14]
-    r4.
+    R1 * 3/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"8"
 
     % [Violin.1.Music measure 15]
     c'1
@@ -876,9 +888,9 @@ number.15.Violin.1.Music = {
     - \baca-stop-on-string
 
     % [Violin.1.Music measure 16]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Violin.1.Music measure 17]
     R1 * 9/8
@@ -1021,7 +1033,9 @@ number.15.Violin.2.Music = {
     %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Violin.2.Music measure 9]
-    r2
+    R1 * 4/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"8"
 
     % [Violin.2.Music measure 10]
     r4
@@ -1059,32 +1073,44 @@ number.15.Violin.2.Music = {
     r2
 
     % [Violin.2.Music measure 11]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Violin.2.Music measure 12]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
 
     % [Violin.2.Music measure 13]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
 
     % [Violin.2.Music measure 14]
-    r4.
+    R1 * 3/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"8"
 
     % [Violin.2.Music measure 15]
-    r1
+    R1 * 8/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"8"
 
     % [Violin.2.Music measure 16]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Violin.2.Music measure 17]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Violin.2.Music measure 18]
-    r2
+    R1 * 4/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"8"
 
     % [Violin.2.Music measure 19]
     r4
@@ -1125,20 +1151,24 @@ number.15.Violin.2.Music = {
     r8
 
     % [Violin.2.Music measure 21]
-    r2
+    R1 * 4/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"8"
 
     % [Violin.2.Music measure 22]
-    r1
+    R1 * 8/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"8"
 
     % [Violin.2.Music measure 23]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Violin.2.Music measure 24]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Violin.2.Music measure 25]
     \stopStaff
@@ -1215,7 +1245,9 @@ number.15.Viola.Music = {
     \set Staff.shortInstrumentName = \akasha-va-markup %@%
 
     % [Viola.Music measure 2]
-    r2
+    R1 * 4/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"8"
 
     % [Viola.Music measure 3]
     c'2..
@@ -1229,7 +1261,9 @@ number.15.Viola.Music = {
     - \baca-stop-on-string
 
     % [Viola.Music measure 4]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
 
     % [Viola.Music measure 5]
     c'4.
@@ -1243,7 +1277,9 @@ number.15.Viola.Music = {
     - \baca-stop-on-string
 
     % [Viola.Music measure 6]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Viola.Music measure 7]
     c'2.
@@ -1262,9 +1298,9 @@ number.15.Viola.Music = {
     \repeatTie
 
     % [Viola.Music measure 8]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Viola.Music measure 9]
     c'2
@@ -1278,7 +1314,9 @@ number.15.Viola.Music = {
     - \baca-stop-on-string
 
     % [Viola.Music measure 10]
-    r1
+    R1 * 8/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"8"
 
     % [Viola.Music measure 11]
     c'2.
@@ -1292,7 +1330,9 @@ number.15.Viola.Music = {
     - \baca-stop-on-string
 
     % [Viola.Music measure 12]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
 
     % [Viola.Music measure 13]
     c'2..
@@ -1306,7 +1346,9 @@ number.15.Viola.Music = {
     - \baca-stop-on-string
 
     % [Viola.Music measure 14]
-    r4.
+    R1 * 3/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"8"
 
     % [Viola.Music measure 15]
     c'1
@@ -1320,9 +1362,9 @@ number.15.Viola.Music = {
     - \baca-stop-on-string
 
     % [Viola.Music measure 16]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Viola.Music measure 17]
     R1 * 9/8
@@ -1442,7 +1484,9 @@ number.15.Cello.Music = {
     \set Staff.shortInstrumentName = \akasha-vc-markup %@%
 
     % [Cello.Music measure 2]
-    r2
+    R1 * 4/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"8"
 
     % [Cello.Music measure 3]
     c'2..
@@ -1456,7 +1500,9 @@ number.15.Cello.Music = {
     - \baca-stop-on-string
 
     % [Cello.Music measure 4]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
 
     % [Cello.Music measure 5]
     c'4.
@@ -1470,7 +1516,9 @@ number.15.Cello.Music = {
     - \baca-stop-on-string
 
     % [Cello.Music measure 6]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Cello.Music measure 7]
     c'2.
@@ -1489,9 +1537,9 @@ number.15.Cello.Music = {
     \repeatTie
 
     % [Cello.Music measure 8]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Cello.Music measure 9]
     c'2
@@ -1505,7 +1553,9 @@ number.15.Cello.Music = {
     - \baca-stop-on-string
 
     % [Cello.Music measure 10]
-    r1
+    R1 * 8/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"8"
 
     % [Cello.Music measure 11]
     c'2.
@@ -1519,7 +1569,9 @@ number.15.Cello.Music = {
     - \baca-stop-on-string
 
     % [Cello.Music measure 12]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
 
     % [Cello.Music measure 13]
     c'2..
@@ -1533,7 +1585,9 @@ number.15.Cello.Music = {
     - \baca-stop-on-string
 
     % [Cello.Music measure 14]
-    r4.
+    R1 * 3/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"8"
 
     % [Cello.Music measure 15]
     c'1
@@ -1547,9 +1601,9 @@ number.15.Cello.Music = {
     - \baca-stop-on-string
 
     % [Cello.Music measure 16]
-    r2.
-
-    r4.
+    R1 * 9/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"9" #"8"
 
     % [Cello.Music measure 17]
     R1 * 9/8
