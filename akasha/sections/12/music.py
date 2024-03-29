@@ -183,45 +183,39 @@ def _1_68(m):
             o.pleaf(0), r"\akasha-tasto-plus-one-click-per-three-to-four-sec-markup"
         )
     with baca.scope(m[5, 8]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:-1]],
             "trans. => 1 click/1-2 sec.",
-            do_not_rleak=True,
         )
     with baca.scope(m[9, 12]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:-1]],
             "trans. => 1-2 clicks/sec.",
-            do_not_rleak=True,
         )
     with baca.scope(m[13, 16]) as o:
         baca.dynamic(o.leaf(2), "ff"),
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:-1]],
             "trans. => scratch moltiss.",
-            do_not_rleak=True,
         )
     with baca.scope(m[17, 20]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:-1]],
             "trans. => 1/2 scratch",
-            do_not_rleak=True,
         )
     with baca.scope(m[21, 24]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:-1]],
             "trans. => PO",
-            do_not_rleak=True,
         )
     with baca.scope(m[25, 28]) as o:
         baca.hairpin(
             o[:-1],
             "ff<fff",
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:-1]],
             "trans. => vib. moltiss.",
-            do_not_rleak=True,
         )
     with baca.scope(m[30, 34]) as o:
         baca.hairpin(
@@ -232,15 +226,13 @@ def _1_68(m):
             o[-2:],
             "fff>p",
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:3]],
             "PO senza vib. => XP",
-            do_not_rleak=True,
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[-2:]],
             "XP => PO",
-            do_not_rleak=True,
         )
     with baca.scope(m[35, 39]) as o:
         baca.hairpin(
@@ -251,25 +243,22 @@ def _1_68(m):
             o[-2:],
             "fff>p",
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:2]],
             "PO => XP",
-            do_not_rleak=True,
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[-2:]],
             "XP => pos. ord.",
-            do_not_rleak=True,
         )
     with baca.scope(m[41, 45]) as o:
         baca.hairpin(
             o[:-1],
             "sffp>pp",
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:-1]],
             "pos. ord. => XT",
-            do_not_rleak=True,
         )
     with baca.scope(m[1, 46]) as o:
         baca.override.text_spanner_staff_padding(o, 4)
@@ -282,15 +271,13 @@ def _1_68(m):
             o[-2:],
             "fff>f",
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:3]],
             "pos. ord. => XP",
-            do_not_rleak=True,
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[-2:]],
             "XP => pos. ord.",
-            do_not_rleak=True,
         )
         baca.spanners.trill(o, rleak=True)
     with baca.scope(m[61, 68]) as o:
@@ -298,10 +285,9 @@ def _1_68(m):
             o[:4],
             "sffp<fff",
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:4]],
             "pos. ord. => XP",
-            do_not_rleak=True,
         )
         baca.spanners.trill(o, rleak=True)
 

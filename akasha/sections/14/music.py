@@ -92,46 +92,39 @@ def _7_28(m, pitch):
         baca.dynamic(o.pleaf(0), "pp")
         baca.markup(o.pleaf(0), r"\baca-tasto-plus-xfb-markup")
     with baca.scope(m[13, 14]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:2]],
             "trans. => pos. ord. XFB",
-            do_not_rleak=True,
         )
     with baca.scope(m[15, 16]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:2]],
             "trans. => pont. XFB",
-            do_not_rleak=True,
         )
     with baca.scope(m[17, 18]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:3]],
             "trans. => XP+XFB",
-            do_not_rleak=True,
         )
     with baca.scope(m[19, 22]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:4]],
             "trans. => XP",
-            do_not_rleak=True,
         )
     with baca.scope(m[23, 24]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:2]],
             "trans. => 1/3OB",
-            do_not_rleak=True,
         )
     with baca.scope(m[25, 26]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:2]],
             "trans. => 2/3OB",
-            do_not_rleak=True,
         )
     with baca.scope(m[27, 28]) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:2]],
             "trans. => OB (no pitch)",
-            do_not_rleak=True,
         )
 
 
@@ -155,10 +148,9 @@ def vc(m):
             o[:9],
             "ppp<ff",
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             [o[:9]],
             "trans. => vib. moltiss.",
-            do_not_rleak=True,
         )
     with baca.scope(m[13, 18]) as o:
         baca.dynamic(o.pleaf(0), "pp")
