@@ -437,30 +437,30 @@ def persist_score(score, environment):
 
 
 def make_layout():
-    layout = baca.make_layout(
-        baca.page(
+    layout = baca.layout.layout(
+        baca.layout.page(
             1,
-            baca.system(measure=1, y_offset=30, distances=(20, 22)),
-            baca.system(measure=9, y_offset=155, distances=(20, 22)),
+            baca.layout.System(1, y_offset=30, distances=(20, 22)),
+            baca.layout.System(9, y_offset=155, distances=(20, 22)),
         ),
-        baca.page(
+        baca.layout.page(
             2,
-            baca.system(measure=15, y_offset=30, distances=(20, 22)),
-            baca.system(measure=19, y_offset=155, distances=(20, 22)),
+            baca.layout.System(15, y_offset=30, distances=(20, 22)),
+            baca.layout.System(19, y_offset=155, distances=(20, 22)),
         ),
-        baca.page(
+        baca.layout.page(
             3,
-            baca.system(measure=23, y_offset=30, distances=(20, 22)),
-            baca.system(measure=28, y_offset=155, distances=(20, 22)),
+            baca.layout.System(23, y_offset=30, distances=(20, 22)),
+            baca.layout.System(28, y_offset=155, distances=(20, 22)),
         ),
-        baca.page(
+        baca.layout.page(
             4,
-            baca.system(measure=32, y_offset=30, distances=(20, 22)),
-            baca.system(measure=35, y_offset=155, distances=(20, 22)),
+            baca.layout.System(32, y_offset=30, distances=(20, 22)),
+            baca.layout.System(35, y_offset=155, distances=(20, 22)),
         ),
-        spacing=(1, 48),
+        default_spacing=(1, 48),
     )
-    baca.section.make_layout_ly(layout)
+    baca.section.write_layout_ly(layout)
 
 
 def main():
