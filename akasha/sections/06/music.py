@@ -437,23 +437,23 @@ def persist_score(score, environment):
 
 
 def make_layout():
-    layout = baca.layout.layout(
-        baca.layout.page(
+    layout = baca.layout.Layout(
+        baca.layout.Page(
             1,
             baca.layout.System(1, y_offset=30, distances=(20, 22)),
             baca.layout.System(9, y_offset=155, distances=(20, 22)),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             2,
             baca.layout.System(15, y_offset=30, distances=(20, 22)),
             baca.layout.System(19, y_offset=155, distances=(20, 22)),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             3,
             baca.layout.System(23, y_offset=30, distances=(20, 22)),
             baca.layout.System(28, y_offset=155, distances=(20, 22)),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             4,
             baca.layout.System(32, y_offset=30, distances=(20, 22)),
             baca.layout.System(35, y_offset=155, distances=(20, 22)),
