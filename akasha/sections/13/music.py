@@ -115,7 +115,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
 
 
 def persist_score(score, environment):
-    metadata = baca.section.postprocess_score(
+    metadata = baca.section.postprocess(
         score,
         environment,
         library.manifests,
