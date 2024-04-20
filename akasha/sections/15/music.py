@@ -26,7 +26,7 @@ def GLOBALS(skips, rests):
     baca.rehearsal_mark(
         skips[1 - 1],
         "N",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 13)"),
+        extra_offset=(0, 13),
     )
     for index, item in ((1 - 1, "89"),):
         skip = skips[index]
@@ -133,16 +133,16 @@ def _1_24(m):
         baca.staff_position(o, 0)
         baca.alternate_bow_strokes(
             o.pheads(),
-            abjad.Tweak(r"- \tweak parent-alignment-X -1"),
-            abjad.Tweak(r"- \tweak self-alignment-X -1"),
-            abjad.Tweak(r"- \tweak staff-padding 1.5"),
+            baca.postevent.parent_alignment_x(-1),
+            baca.postevent.self_alignment_x(-1),
+            baca.postevent.staff_padding(1.5),
             full=True,
         )
         baca.stop_on_string(
             o.pheads(),
-            abjad.Tweak(r"- \tweak parent-alignment-X -1"),
-            abjad.Tweak(r"- \tweak self-alignment-X -1"),
-            abjad.Tweak(r"- \tweak staff-padding 5"),
+            baca.postevent.parent_alignment_x(-1),
+            baca.postevent.self_alignment_x(-1),
+            baca.postevent.staff_padding(5),
         )
         baca.dynamic(o.pleaf(0), '"mf"'),
 
