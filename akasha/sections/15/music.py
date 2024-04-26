@@ -133,16 +133,16 @@ def _1_24(m):
         baca.staff_position(o, 0)
         baca.alternate_bow_strokes(
             o.pheads(),
-            baca.postevent.parent_alignment_x(-1),
-            baca.postevent.self_alignment_x(-1),
-            baca.postevent.staff_padding(1.5),
+            baca.tweak.parent_alignment_x(-1),
+            baca.tweak.self_alignment_x(-1),
+            baca.tweak.staff_padding(1.5),
             full=True,
         )
         baca.stop_on_string(
             o.pheads(),
-            baca.postevent.parent_alignment_x(-1),
-            baca.postevent.self_alignment_x(-1),
-            baca.postevent.staff_padding(5),
+            baca.tweak.parent_alignment_x(-1),
+            baca.tweak.self_alignment_x(-1),
+            baca.tweak.staff_padding(5),
         )
         baca.dynamic(o.pleaf(0), '"mf"'),
 
