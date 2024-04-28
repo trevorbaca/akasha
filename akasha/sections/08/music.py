@@ -140,7 +140,7 @@ def v1(m):
         baca.spanners.text(
             [o],
             "1/4 scratch => ord.",
-            staff_padding=3,
+            baca.tweak.staff_padding(3),
         )
     with baca.scope(m[5, 13]) as o:
         loop = baca.Loop([17, 19, 17, 15, 18, 16], [1])
@@ -151,8 +151,8 @@ def v1(m):
         )
         baca.spanners.tasto(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m[15, 16]) as o:
         baca.pitch(o, "F#5")
@@ -214,7 +214,7 @@ def composites(cache):
             baca.spanners.text(
                 [o],
                 "tasto + scratch moltiss. => tasto + 1/4 scratch",
-                staff_padding=3,
+                baca.tweak.staff_padding(3),
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][5, 7]) as o:
@@ -227,7 +227,7 @@ def composites(cache):
             baca.spanners.text(
                 [o],
                 "trans. => tasto",
-                staff_padding=3,
+                baca.tweak.staff_padding(3),
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][8, 10]) as o:
@@ -238,7 +238,7 @@ def composites(cache):
             baca.spanners.text(
                 [o],
                 "trans. => FB",
-                staff_padding=3,
+                baca.tweak.staff_padding(3),
             )
     for abbreviation in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[abbreviation][11, 13]) as o:
@@ -249,7 +249,7 @@ def composites(cache):
             baca.spanners.text(
                 [o],
                 "trans. => XFB",
-                staff_padding=3,
+                baca.tweak.staff_padding(3),
             )
     for leaves in cache.get(
         ("v1", [(5, 13), (15, 17)]),
