@@ -24,7 +24,7 @@ def GLOBALS(skips, rests):
     baca.rehearsal_mark(
         skips[1 - 1],
         "G",
-        extra_offset=(0, 5),
+        baca.tweak.extra_offset((0, 5)),
         font_size=6,
     )
     for index, item in (

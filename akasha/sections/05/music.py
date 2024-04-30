@@ -298,8 +298,8 @@ def va(m):
         baca.dynamic(
             o[0],
             "ppp-ancora",
-            parent_alignment_x=-1,
-            self_alignment_x=-1,
+            baca.tweak.parent_alignment_x(-1),
+            baca.tweak.self_alignment_x(-1),
         )
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
 
@@ -335,8 +335,8 @@ def vc(m):
         baca.dynamic(
             o[0],
             "ppp-ancora",
-            parent_alignment_x=-1,
-            self_alignment_x=-1,
+            baca.tweak.parent_alignment_x(-1),
+            baca.tweak.self_alignment_x(-1),
         )
         baca.markup(o.pleaf(0), r"\akasha-xp-plus-full-bow-strokes-markup")
     with baca.scope(m[43, 50]) as o:
