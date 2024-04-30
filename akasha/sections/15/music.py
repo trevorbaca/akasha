@@ -26,7 +26,7 @@ def GLOBALS(skips, rests):
     baca.rehearsal_mark(
         skips[1 - 1],
         "N",
-        extra_offset=(0, 13),
+        baca.tweak.extra_offset((0, 13)),
     )
     for index, item in ((1 - 1, "89"),):
         skip = skips[index]
@@ -107,8 +107,8 @@ def v2(m):
         baca.dynamic(
             o.pleaf(0),
             "pp-ancora",
-            parent_alignment_x=-1,
-            self_alignment_x=-1,
+            baca.tweak.parent_alignment_x(-1),
+            baca.tweak.self_alignment_x(-1),
         )
         baca.markup(o.pleaf(0), r"\baca-leggieriss-markup")
 

@@ -430,8 +430,8 @@ def composites(cache):
         baca.dynamic(
             o[0],
             "pp-ancora",
-            parent_alignment_x=-1,
-            self_alignment_x=-1,
+            baca.tweak.parent_alignment_x(-1),
+            baca.tweak.self_alignment_x(-1),
         )
         baca.markup(o.phead(0), r"\baca-tasto-plus-xfb-markup")
     with baca.scope(cache["v2"][8, 9]) as o:
@@ -439,8 +439,8 @@ def composites(cache):
         baca.dynamic(
             o[0],
             "pp-ancora",
-            parent_alignment_x=-1,
-            self_alignment_x=-1,
+            baca.tweak.parent_alignment_x(-1),
+            baca.tweak.self_alignment_x(-1),
         )
         baca.markup(o.phead(0), r"\baca-tasto-plus-xfb-markup")
     for leaves in cache.get(
