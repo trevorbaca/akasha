@@ -2082,7 +2082,7 @@ number.4.Violin.2.Staff = {
 
 number.4.Viola.Music = {
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 1]
@@ -2178,7 +2178,7 @@ number.4.Viola.Music = {
 
     >>
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Viola.Music measure 3]
@@ -2241,7 +2241,7 @@ number.4.Viola.Music = {
 
     >>
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 5]
@@ -2304,7 +2304,7 @@ number.4.Viola.Music = {
 
     >>
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 7]
@@ -2648,7 +2648,7 @@ number.4.Viola.Music = {
     \>
     \glissando
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 26]
@@ -3091,7 +3091,7 @@ number.4.Cello.Music = {
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Cello.Music measure 15]
@@ -3122,7 +3122,7 @@ number.4.Cello.Music = {
 
     }
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r32

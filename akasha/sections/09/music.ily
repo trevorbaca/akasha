@@ -328,7 +328,7 @@ number.9.Rests = {
 number.9.Violin.1.Music = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 1]
@@ -401,7 +401,7 @@ number.9.Violin.1.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 2]
@@ -540,7 +540,7 @@ number.9.Violin.1.Staff = <<
 number.9.Violin.2.Music = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 1]
@@ -614,7 +614,7 @@ number.9.Violin.2.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 2]
@@ -844,7 +844,7 @@ number.9.Viola.Music = {
 
     >>
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Viola.Music measure 5]
@@ -944,7 +944,7 @@ number.9.Viola.Staff = {
 number.9.Cello.Music = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Cello.Music measure 1]
@@ -1101,7 +1101,7 @@ number.9.Cello.Music = {
 
     >>
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Cello.Music measure 5]

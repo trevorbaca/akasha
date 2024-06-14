@@ -1042,7 +1042,7 @@ number.15.Violin.2.Music = {
     % [Violin.2.Music measure 10]
     r4
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r8
@@ -1117,7 +1117,7 @@ number.15.Violin.2.Music = {
     % [Violin.2.Music measure 19]
     r4
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r8
@@ -1131,7 +1131,7 @@ number.15.Violin.2.Music = {
 
     }
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Violin.2.Music measure 20]

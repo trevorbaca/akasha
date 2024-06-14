@@ -430,7 +430,7 @@ number.3.Rests = {
 number.3.Violin.1.Music = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 8 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 1]
@@ -778,7 +778,7 @@ number.3.Violin.2.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 10]
@@ -1137,7 +1137,7 @@ number.3.Cello.Music = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \akasha-vc-markup %@%
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Cello.Music measure 2]
@@ -1174,7 +1174,7 @@ number.3.Cello.Music = {
     - \staccato
     ]
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         b32
@@ -1201,7 +1201,7 @@ number.3.Cello.Music = {
 
     }
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Cello.Music measure 4]
@@ -1225,7 +1225,7 @@ number.3.Cello.Music = {
 
     }
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r16.
@@ -1270,7 +1270,7 @@ number.3.Cello.Music = {
     - \staccato
     ]
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         g32
@@ -1344,7 +1344,7 @@ number.3.Cello.Music = {
 
     >>
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Cello.Music measure 6]
@@ -1378,7 +1378,7 @@ number.3.Cello.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         e32
@@ -1446,7 +1446,7 @@ number.3.Cello.Music = {
 
     >>
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Cello.Music measure 8]
@@ -1480,7 +1480,7 @@ number.3.Cello.Music = {
 
     }
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r4
