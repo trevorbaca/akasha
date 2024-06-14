@@ -970,7 +970,7 @@ number.2.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-a
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         b32
@@ -993,7 +993,7 @@ number.2.Violin.1.Music = {
 
     }
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r16.
@@ -1072,7 +1072,7 @@ number.2.Violin.1.Music = {
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 12]
@@ -1182,7 +1182,7 @@ number.2.Violin.1.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 15]
@@ -1275,7 +1275,7 @@ number.2.Violin.1.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 17]
@@ -1452,7 +1452,7 @@ number.2.Violin.2.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Violin.2.Music measure 4]
@@ -1483,7 +1483,7 @@ number.2.Violin.2.Music = {
 
     }
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r16.
@@ -1692,7 +1692,7 @@ number.2.Violin.2.Music = {
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 12]
@@ -1796,7 +1796,7 @@ number.2.Violin.2.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 15]
@@ -1889,7 +1889,7 @@ number.2.Violin.2.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 17]
@@ -1974,7 +1974,7 @@ number.2.Violin.2.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 19]
@@ -2131,7 +2131,7 @@ number.2.Viola.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-a
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r8
@@ -2939,7 +2939,7 @@ number.2.Cello.Music = {
       %! MATERIAL_ANNOTATION_MARKUP
     %@% ^ \akasha-material-a
 
-    \times 8/9
+    \tuplet 9/8
     {
 
         r16.

@@ -215,7 +215,7 @@ number.11.Violin.1.Music = {
     \set Staff.shortInstrumentName = \akasha-vn-i-markup %@%
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4
+    \tuplet 4/6
     {
 
         % [Violin.1.Music measure 2]
@@ -236,7 +236,7 @@ number.11.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4
+    \tuplet 4/6
     {
 
         % [Violin.1.Music measure 3]
@@ -277,7 +277,7 @@ number.11.Violin.1.Staff = <<
 number.11.Violin.2.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4
+    \tuplet 4/4
     {
 
         % [Violin.2.Music measure 1]
@@ -334,7 +334,7 @@ number.11.Violin.2.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Violin.2.Music measure 2]
@@ -351,7 +351,7 @@ number.11.Violin.2.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.2.Music measure 3]
@@ -465,7 +465,7 @@ number.11.Viola.Staff = {
 number.11.Cello.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 1]
@@ -527,7 +527,7 @@ number.11.Cello.Music = {
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Cello.Music measure 3]

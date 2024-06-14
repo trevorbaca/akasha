@@ -627,7 +627,7 @@ number.8.Rests = {
 
 number.8.Violin.1.Music = {
 
-    \times 8/14
+    \tuplet 14/8
     {
 
         % [Violin.1.Music measure 1]
@@ -721,7 +721,7 @@ number.8.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10
+    \tuplet 10/6
     {
 
         r16
@@ -748,7 +748,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Violin.1.Music measure 2]
@@ -768,7 +768,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 8/11
+    \tuplet 11/8
     {
 
         r16
@@ -802,7 +802,7 @@ number.8.Violin.1.Music = {
     c''''16
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10
+    \tuplet 10/6
     {
 
         % [Violin.1.Music measure 3]
@@ -830,7 +830,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 12/18
+    \tuplet 18/12
     {
 
         % [Violin.1.Music measure 4]

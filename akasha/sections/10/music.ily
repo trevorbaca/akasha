@@ -1837,7 +1837,7 @@ number.10.Violin.1.Music = {
     \mp
     \repeatTie
 
-    \times 8/14
+    \tuplet 14/8
     {
 
         % [Violin.1.Music measure 23]
@@ -1898,7 +1898,7 @@ number.10.Violin.1.Music = {
 
     }
 
-    \times 8/12
+    \tuplet 12/8
     {
 
         r16
@@ -1940,7 +1940,7 @@ number.10.Violin.1.Music = {
 
     }
 
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Violin.1.Music measure 24]
@@ -1965,7 +1965,7 @@ number.10.Violin.1.Music = {
 
     }
 
-    \times 8/11
+    \tuplet 11/8
     {
 
         r16
@@ -2004,7 +2004,7 @@ number.10.Violin.1.Music = {
 
     }
 
-    \times 4/6
+    \tuplet 6/4
     {
 
         r16
@@ -2135,7 +2135,7 @@ number.10.Violin.1.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 28]
@@ -2174,7 +2174,7 @@ number.10.Violin.1.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 29]
@@ -3079,7 +3079,7 @@ number.10.Violin.2.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 28]
@@ -3120,7 +3120,7 @@ number.10.Violin.2.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 29]
@@ -3976,7 +3976,7 @@ number.10.Viola.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Viola.Music measure 28]
@@ -4929,7 +4929,7 @@ number.10.Cello.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Cello.Music measure 28]
