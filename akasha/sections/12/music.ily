@@ -1454,7 +1454,7 @@ number.12.Skips = {
     % [Skips measure 56]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
-    \bar ".|:"
+    \bar ".|:-|"
       %! MEASURE_320
       %! NOT_MOL
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
