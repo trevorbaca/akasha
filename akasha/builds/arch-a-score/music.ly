@@ -4,6 +4,7 @@
 
 \include "stylesheet.ily"
 \include "header.ily"
+\include "layout.ily"
 \include "_sections/01.ily"
 \include "_sections/02.ily"
 \include "_sections/03.ily"
@@ -24,7 +25,7 @@
 \score {
     <<
         {
-        \include "layout.ily"
+        \page-layout-score
         }
         {
         \include "_sections/01.ly"
