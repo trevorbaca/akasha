@@ -4,9 +4,11 @@
 #(set-default-paper-size "ledger")
 #(set-global-staff-size 11)
 
-\paper {
+\paper
+{
 }
 
-\layout {
-    ragged-right = ##f
+\layout
+{
+  ragged-right = ##f
 }

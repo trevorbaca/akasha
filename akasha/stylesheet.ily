@@ -1,12 +1,12 @@
 \version "2.25.16"
+\include "baca.ily"
+
 #(set-default-paper-size "ledger")
 #(set-global-staff-size 12)
 
-\include "baca.ily"
-
 \paper
 {
-  %bottom-margin = 10\mm
+  %bottom-margin = 10
   evenFooterMarkup = \markup
     \if \should-print-page-number
     \fill-line {
@@ -34,14 +34,14 @@
       " "
   }
   evenHeaderMarkup = \markup \fill-line { " " }
-  left-margin = 25\mm
+  left-margin = 25
   oddFooterMarkup = \evenFooterMarkup
   oddHeaderMarkup = \markup \fill-line { " " }
   print-first-page-number = ##f
   print-page-number = ##t
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  right-margin = 15\mm
+  right-margin = 15
   markup-system-spacing = #'(
     (basic-distance . 0)
     (minimum-distance . 60)
@@ -67,7 +67,7 @@
     (padding . 0)
     (stretchability . 0)
   )
-  top-margin = 0\mm
+  top-margin = 0
 }
 
 \layout
@@ -79,12 +79,8 @@
   % ragged-right = ##t
 }
 
-% CONTEXTS
-
 \layout
 {
-
-  % GLOBAL SKIPS
   \context
   {
     \name GlobalSkips
@@ -92,28 +88,20 @@
     \consists Script_engraver
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextScript.font-size = 6
-
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL RESTS
   \context
   {
     \name GlobalRests
     \type Engraver_group
     \consists Multi_measure_rest_engraver
-
     \override MultiMeasureRest.transparent = ##t
-
     \override MultiMeasureRestText.extra-offset = #'(0 . -11)
     \override MultiMeasureRestText.font-size = 3
     \override MultiMeasureRestText.outside-staff-priority = 0
     \override MultiMeasureRestText.padding = 0
   }
-
-  % PAGE LAYOUT
   \context
   {
     \name PageLayout
@@ -121,8 +109,6 @@
     \consists Text_engraver
     \consists Text_spanner_engraver
   }
-
-  % GLOBAL CONTEXT
   \context
   {
     \name GlobalContext
@@ -142,9 +128,7 @@
     \defaultchild GlobalRests
     \accepts GlobalSkips
     \accepts PageLayout
-
     \override TextSpanner.to-barline = ##t
-
     % prevents StaffSymbol from starting too early after cut-away measures:
     \override TimeSignature.X-extent = ##f
     \override TimeSignature.break-align-symbol = #'left-edge
@@ -153,23 +137,17 @@
     \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
     \override TimeSignature.style = #'numbered
   }
-
-  % VOICE
   \context
   {
     \Voice
     \remove Forbid_line_break_engraver
   }
-
-  % STAFF
   \context
   {
     \Staff
     \accepts GlobalRests
     \remove Time_signature_engraver
   }
-
-  % STRING QUARTET STAFF GROUP
   \context
   {
     \StaffGroup
@@ -177,8 +155,6 @@
     \type Engraver_group
     \alias StaffGroup
   }
-
-  % MUSIC CONTEXT
   \context
   {
     \ChoirStaff
@@ -186,11 +162,8 @@
     \type Engraver_group
     \alias ChoirStaff
     \accepts StringQuartetStaffGroup
-
     systemStartDelimiter = #'SystemStartBar
   }
-
-  % SCORE
   \context
   {
     \Score
@@ -198,33 +171,22 @@
     \accepts MusicContext
     \remove Metronome_mark_engraver
     \remove System_start_delimiter_engraver
-
     \override BarLine.X-extent = #'(0 . 0)
     \override BarLine.hair-thickness = 0.5
-
     \override Beam.damping = 99
-
     \override DynamicLineSpanner.padding = #1.5
-
     \override Glissando.thickness = 3
-
     \override Hairpin.to-barline = ##f
-
     \override NoteCollision.merge-differently-dotted = ##t
-
     \override NoteColumn.ignore-collision = ##t
-
     \shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie
     \override RepeatTie.X-extent = ##f
-
     \override SpacingSpanner.strict-grace-spacing = ##t
     \override SpacingSpanner.strict-note-spacing = ##t
     \override SpacingSpanner.uniform-stretching = ##t
-
     \override StemTremolo.beam-width = 1.5
     \override StemTremolo.flag-count = 4
     \override StemTremolo.slope = 0.5
-
     \override TextScript.font-name = #"Palatino"
     \override TextScript.padding = 1
     % DISCOVERY: overriding textscript.x-extent = ##f
@@ -233,19 +195,13 @@
     % NOTE:    may be best to override NO text script properties.
     \override TextScript.X-extent = ##f
     \override TextScript.Y-extent = #'(-1.5 . 1.5)
-
     \override TextSpanner.staff-padding = 2
-
     \override TrillPitchAccidental.avoid-slur = #'ignore
-
     \override TrillSpanner.bound-details.right.padding = 2
-
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
-
     \override TupletNumber.font-size = 1
     \override TupletNumber.text = #tuplet-number::calc-fraction-text
-
     autoBeaming = ##f
     explicitClefVisibility = #end-of-line-invisible
     forceClef = ##t
@@ -254,8 +210,6 @@
     tupletFullLength = ##t
   }
 }
-
-% MARKUP
 
 % COLOPHON
 
