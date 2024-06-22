@@ -3,6 +3,7 @@
         "Score",
         "GlobalContext",
         "Skips",
+        "TimeSignatures",
         "MusicContext",
         "StringQuartetStaffGroup",
         "Violin.1.Staff",
@@ -89,7 +90,7 @@
                 value="126",
             ),
             baca.Memento(
-                context="Skips",
+                context="TimeSignatures",
                 edition=None,
                 manifest=None,
                 prototype="abjad.TimeSignature",
