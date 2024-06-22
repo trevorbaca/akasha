@@ -104,13 +104,6 @@
   }
   \context
   {
-    \name PageLayout
-    \type Engraver_group
-    \consists Text_engraver
-    \consists Text_spanner_engraver
-  }
-  \context
-  {
     \name GlobalContext
     \type Engraver_group
     \consists Axis_group_engraver
@@ -127,7 +120,6 @@
     \accepts GlobalRests
     \defaultchild GlobalRests
     \accepts GlobalSkips
-    \accepts PageLayout
     \override TextSpanner.to-barline = ##t
     % prevents StaffSymbol from starting too early after cut-away measures:
     \override TimeSignature.X-extent = ##f
