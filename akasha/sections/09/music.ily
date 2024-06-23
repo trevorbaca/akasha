@@ -12,7 +12,7 @@ number.9.Skips = {
       %! MEASURE_217
       %! ONLY_MOL
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
-      %! REAPPLIED_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=89
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
@@ -78,7 +78,7 @@ number.9.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 3]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=44
     s1 * 3/4
       %! CLOCK_TIME
@@ -141,7 +141,7 @@ number.9.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 5]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=55
     s1 * 3/4
       %! CLOCK_TIME
