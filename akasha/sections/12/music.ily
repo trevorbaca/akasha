@@ -5,6 +5,8 @@ number.12.Skips = {
     % [Skips measure 1]
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
+      %! REAPPLIED_METRONOME_MARK
+    \tempo 4=44
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
@@ -1276,6 +1278,8 @@ number.12.Skips = {
       %! ONLY_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     \override TextScript.extra-offset = #'(1.5 . 6)
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=38
     s1 * 3/8
     ^ \akasha-repeat-six-markup
       %! CLOCK_TIME
