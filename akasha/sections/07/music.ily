@@ -5,6 +5,8 @@ number.7.Skips = {
     % [Skips measure 1]
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=44
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
@@ -69,6 +71,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 3]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=126
     s1 * 5/4
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -151,6 +155,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 6]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=55
     s1 * 3/4
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -212,6 +218,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 8]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=89
     s1 * 3/4
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -853,6 +861,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 35]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=126
     s1 * 1/4
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -1049,6 +1059,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 43]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=55
     s1 * 6/4
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -1118,6 +1130,8 @@ number.7.Skips = {
       %! ONLY_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     \override TextScript.extra-offset = #'(1.5 . 6)
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=126
     s1 * 6/4
     ^ \akasha-repeat-six-markup
       %! CLOCK_TIME
@@ -1194,6 +1208,8 @@ number.7.Skips = {
       %! MEASURE_198
       %! ONLY_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=55
     s1 * 6/4
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
