@@ -3691,7 +3691,7 @@ number.5.Viola.Music = {
     d2
 
     % [Viola.Music measure 36]
-    \afterGrace
+    \afterGrace 15/16
     c4.
 
     {
@@ -4460,7 +4460,7 @@ number.5.Cello.Music = {
     cs,!2
 
     % [Cello.Music measure 36]
-    \afterGrace
+    \afterGrace 15/16
     cs,!4.
 
     {
@@ -4673,7 +4673,7 @@ number.5.Cello.Music = {
     c,2..
 
     % [Cello.Music measure 50]
-    \afterGrace
+    \afterGrace 15/16
     b,,2..
 
     {
