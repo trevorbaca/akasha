@@ -181,7 +181,6 @@
     \override StemTremolo.slope = 0.5
     \override TextSpanner.staff-padding = 2
     \override TrillPitchAccidental.avoid-slur = #'ignore
-    \override TrillSpanner.Y-extent = ##f
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
     \override TupletNumber.font-size = 1
