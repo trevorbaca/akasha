@@ -1,6 +1,6 @@
 % Akasha (2015) cello part
 
-\version "2.25.19"
+\version "2.25.22"
 
 \include "../stylesheet.ily"
 \include "../_sections/01.ily"
