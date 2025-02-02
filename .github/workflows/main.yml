@@ -70,6 +70,7 @@ jobs:
         python -m pip install /tmp/abjad
 
     - name: Prim parser tables
+      run: |
         echo Priming Abjad parser tables ...
         import="import abjad; from abjad.parsers"
         python -c "${import}.parser import LilyPondParser; LilyPondParser()"
