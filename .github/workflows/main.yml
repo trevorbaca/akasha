@@ -71,11 +71,6 @@ jobs:
 
     - name: Prime parser tables
       run: |
-        echo Priming Abjad parser tables ...
-        # import="import abjad; from abjad.parsers"
-        # python -c "${import}.parser import LilyPondParser; LilyPondParser()"
-        # python -c "${import}.reduced import ReducedLyParser; ReducedLyParser()"
-        # python -c "${import}.scheme import SchemeParser; SchemeParser()"
         /tmp/abjad/scr/prime_parser_tables.py
 
     - name: Install rmakers
