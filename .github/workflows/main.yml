@@ -49,7 +49,6 @@ jobs:
       run: |
         echo "HOME: $HOME"
         echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
-        echo "MYPYPATH: ${MYPYPATH:-not set}"
         echo "PATH: $PATH"
         echo "PYTHONUNBUFFERED: ${PYTHONUNBUFFERED:-not set}"
         echo "PYTHONPATH: ${PYTHONPATH:-not set}"
@@ -67,15 +66,17 @@ jobs:
     - name: Install Abjad trevor/dev branch
       run: |
         git clone -b trevor/dev https://github.com/Abjad/abjad.git /tmp/abjad
-        python -m pip install /tmp/abjad
+        # include -e for access to abjad/scr/prime_parser_tables.py
+        python -m pip install -e /tmp/abjad
 
-    - name: Prim parser tables
+    - name: Prime parser tables
       run: |
         echo Priming Abjad parser tables ...
-        import="import abjad; from abjad.parsers"
-        python -c "${import}.parser import LilyPondParser; LilyPondParser()"
-        python -c "${import}.reduced import ReducedLyParser; ReducedLyParser()"
-        python -c "${import}.scheme import SchemeParser; SchemeParser()"
+        # import="import abjad; from abjad.parsers"
+        # python -c "${import}.parser import LilyPondParser; LilyPondParser()"
+        # python -c "${import}.reduced import ReducedLyParser; ReducedLyParser()"
+        # python -c "${import}.scheme import SchemeParser; SchemeParser()"
+        /tmp/abjad/scr/prime_parser_tables.py
 
     - name: Install rmakers
       run: |
@@ -85,6 +86,7 @@ jobs:
     - name: Install Bača
       run: |
         git clone https://github.com/trevorbaca/baca.git /tmp/baca
+        # include -e for access to baca/scr/doctest, test-sections, ...
         python -m pip install -e /tmp/baca
 
     - name: Install this package
@@ -107,19 +109,14 @@ jobs:
 
     - name: Run doctest
       run: |
-        # export PATH=/home/runner/bin:$PATH
         /tmp/baca/scr/doctest $GITHUB_WORKSPACE
 
     - name: Test sections
       run: |
-        # export PATH=/tmp/lilypond-2.25.23/bin:/tmp/baca/scr:/home/runner/bin:$PATH
-        # export PYTHONUNBUFFERED=TRUE
         /tmp/baca/scr/test-sections
 
     - name: Test score builds
       run: |
-        # export PATH=/tmp/lilypond-2.25.23/bin:/tmp/baca/scr:/home/runner/bin:$PATH
-        # export PYTHONUNBUFFERED=TRUE
         NAME=$(basename $GITHUB_WORKSPACE)
         BUILDS_DIRECTORY=$GITHUB_WORKSPACE/$NAME/builds
         if [ -d $BUILDS_DIRECTORY ]; then
