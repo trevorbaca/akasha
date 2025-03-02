@@ -1,6 +1,6 @@
 % Akasha (2015) for string quartet
 
-\version "2.25.23"
+\version "2.25.24"
 
 \include "stylesheet.ily"
 \include "layout.ily"
