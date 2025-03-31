@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.12.Skips = {
+number.12.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -1637,7 +1638,8 @@ number.12.Skips = {
 }
 
 
-number.12.TimeSignatures = {
+number.12.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2094,7 +2096,8 @@ number.12.TimeSignatures = {
 }
 
 
-number.12.Rests = {
+number.12.Rests =
+{
 
     % [Rests measure 1]
     R1 * 4/8
@@ -2351,7 +2354,8 @@ number.12.Rests = {
 }
 
 
-number.12.Violin.1.Music = {
+number.12.Violin.1.Music =
+{
 
     % [Violin.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -3303,18 +3307,24 @@ number.12.Violin.1.Music = {
 }
 
 
-number.12.Violin.1.Staff = <<
+number.12.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.12.Rests }
+    {
+        \number.12.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.12.Violin.1.Music }
+    {
+        \number.12.Violin.1.Music
+    }
 
 >>
 
 
-number.12.Violin.2.Music = {
+number.12.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -4246,15 +4256,19 @@ number.12.Violin.2.Music = {
 }
 
 
-number.12.Violin.2.Staff = {
+number.12.Violin.2.Staff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.12.Violin.2.Music }
+    {
+        \number.12.Violin.2.Music
+    }
 
 }
 
 
-number.12.Viola.Music = {
+number.12.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
@@ -5184,15 +5198,19 @@ number.12.Viola.Music = {
 }
 
 
-number.12.Viola.Staff = {
+number.12.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.12.Viola.Music }
+    {
+        \number.12.Viola.Music
+    }
 
 }
 
 
-number.12.Cello.Music = {
+number.12.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -6145,9 +6163,12 @@ number.12.Cello.Music = {
 }
 
 
-number.12.Cello.Staff = {
+number.12.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.12.Cello.Music }
+    {
+        \number.12.Cello.Music
+    }
 
 }

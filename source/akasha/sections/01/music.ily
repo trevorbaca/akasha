@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.1.Skips = {
+number.1.Skips =
+{
 
     % [Skips measure 1]
       %! LILYPOND_TEMPO_COMMAND
@@ -114,7 +115,8 @@ number.1.Skips = {
 }
 
 
-number.1.TimeSignatures = {
+number.1.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -149,7 +151,8 @@ number.1.TimeSignatures = {
 }
 
 
-number.1.Rests = {
+number.1.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/8
@@ -172,7 +175,8 @@ number.1.Rests = {
 }
 
 
-number.1.Violin.1.Music = {
+number.1.Violin.1.Music =
+{
 
     % [Violin.1.Music measure 1]
       %! EXPLICIT_CLEF
@@ -238,18 +242,24 @@ number.1.Violin.1.Music = {
 }
 
 
-number.1.Violin.1.Staff = <<
+number.1.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.1.Rests }
+    {
+        \number.1.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.1.Violin.1.Music }
+    {
+        \number.1.Violin.1.Music
+    }
 
 >>
 
 
-number.1.Violin.2.Music = {
+number.1.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! EXPLICIT_CLEF
@@ -310,15 +320,19 @@ number.1.Violin.2.Music = {
 }
 
 
-number.1.Violin.2.Staff = {
+number.1.Violin.2.Staff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.1.Violin.2.Music }
+    {
+        \number.1.Violin.2.Music
+    }
 
 }
 
 
-number.1.Viola.Music = {
+number.1.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! EXPLICIT_CLEF
@@ -426,15 +440,19 @@ number.1.Viola.Music = {
 }
 
 
-number.1.Viola.Staff = {
+number.1.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.1.Viola.Music }
+    {
+        \number.1.Viola.Music
+    }
 
 }
 
 
-number.1.Cello.Music = {
+number.1.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! EXPLICIT_CLEF
@@ -500,9 +518,12 @@ number.1.Cello.Music = {
 }
 
 
-number.1.Cello.Staff = {
+number.1.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.1.Cello.Music }
+    {
+        \number.1.Cello.Music
+    }
 
 }

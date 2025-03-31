@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.5.Skips = {
+number.5.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -1265,7 +1266,8 @@ number.5.Skips = {
 }
 
 
-number.5.TimeSignatures = {
+number.5.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1608,7 +1610,8 @@ number.5.TimeSignatures = {
 }
 
 
-number.5.Rests = {
+number.5.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/8
@@ -1829,7 +1832,8 @@ number.5.Rests = {
 }
 
 
-number.5.Violin.1.Music = {
+number.5.Violin.1.Music =
+{
 
     % [Violin.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -2547,18 +2551,24 @@ number.5.Violin.1.Music = {
 }
 
 
-number.5.Violin.1.Staff = <<
+number.5.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.5.Rests }
+    {
+        \number.5.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.5.Violin.1.Music }
+    {
+        \number.5.Violin.1.Music
+    }
 
 >>
 
 
-number.5.Violin.2.Music = {
+number.5.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -3188,15 +3198,19 @@ number.5.Violin.2.Music = {
 }
 
 
-number.5.Violin.2.Staff = {
+number.5.Violin.2.Staff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.5.Violin.2.Music }
+    {
+        \number.5.Violin.2.Music
+    }
 
 }
 
 
-number.5.Viola.Music = {
+number.5.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! EXPLICIT_CLEF
@@ -3939,15 +3953,19 @@ number.5.Viola.Music = {
 }
 
 
-number.5.Viola.Staff = {
+number.5.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.5.Viola.Music }
+    {
+        \number.5.Viola.Music
+    }
 
 }
 
 
-number.5.Cello.Music = {
+number.5.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! EXPLICIT_CLEF
@@ -4741,9 +4759,12 @@ number.5.Cello.Music = {
 }
 
 
-number.5.Cello.Staff = {
+number.5.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.5.Cello.Music }
+    {
+        \number.5.Cello.Music
+    }
 
 }

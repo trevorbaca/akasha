@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.3.Skips = {
+number.3.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -323,7 +324,8 @@ number.3.Skips = {
 }
 
 
-number.3.TimeSignatures = {
+number.3.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -411,7 +413,8 @@ number.3.TimeSignatures = {
 }
 
 
-number.3.Rests = {
+number.3.Rests =
+{
 
     % [Rests measure 1]
     R1 * 9/8
@@ -476,7 +479,8 @@ number.3.Rests = {
 }
 
 
-number.3.Violin.1.Music = {
+number.3.Violin.1.Music =
+{
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 8 } }
     \tuplet 1/1
@@ -669,18 +673,24 @@ number.3.Violin.1.Music = {
 }
 
 
-number.3.Violin.1.Staff = <<
+number.3.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.3.Rests }
+    {
+        \number.3.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.3.Violin.1.Music }
+    {
+        \number.3.Violin.1.Music
+    }
 
 >>
 
 
-number.3.Violin.2.Music = {
+number.3.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -914,15 +924,19 @@ number.3.Violin.2.Music = {
 }
 
 
-number.3.Violin.2.Staff = {
+number.3.Violin.2.Staff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.3.Violin.2.Music }
+    {
+        \number.3.Violin.2.Music
+    }
 
 }
 
 
-number.3.Viola.Music = {
+number.3.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1127,15 +1141,19 @@ number.3.Viola.Music = {
 }
 
 
-number.3.Viola.Staff = {
+number.3.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.3.Viola.Music }
+    {
+        \number.3.Viola.Music
+    }
 
 }
 
 
-number.3.Cello.Music = {
+number.3.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1645,9 +1663,12 @@ number.3.Cello.Music = {
 }
 
 
-number.3.Cello.Staff = {
+number.3.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.3.Cello.Music }
+    {
+        \number.3.Cello.Music
+    }
 
 }

@@ -18,10 +18,14 @@
             <<
 
                 \context GlobalSkips = "Skips"
-                { \number.13.Skips }
+                {
+                    \number.13.Skips
+                }
 
                 \context GlobalSkips = "TimeSignatures"
-                { \number.13.TimeSignatures }
+                {
+                    \number.13.TimeSignatures
+                }
 
             >>
 
@@ -33,19 +37,27 @@
 
                     \tag #'Violin.1
                     \context Staff = "Violin.1.Staff"
-                    { \number.13.Violin.1.Staff }
+                    {
+                        \number.13.Violin.1.Staff
+                    }
 
                     \tag #'Violin.2
                     \context Staff = "Violin.2.Staff"
-                    { \number.13.Violin.2.Staff }
+                    {
+                        \number.13.Violin.2.Staff
+                    }
 
                     \tag #'Viola
                     \context Staff = "Viola.Staff"
-                    { \number.13.Viola.Staff }
+                    {
+                        \number.13.Viola.Staff
+                    }
 
                     \tag #'Cello
                     \context Staff = "Cello.Staff"
-                    { \number.13.Cello.Staff }
+                    {
+                        \number.13.Cello.Staff
+                    }
 
                 >>
 

@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.14.Skips = {
+number.14.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -768,7 +769,8 @@ number.14.Skips = {
 }
 
 
-number.14.TimeSignatures = {
+number.14.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -945,7 +947,8 @@ number.14.TimeSignatures = {
 }
 
 
-number.14.Rests = {
+number.14.Rests =
+{
 
     % [Rests measure 1]
     R1 * 5/4
@@ -1046,7 +1049,8 @@ number.14.Rests = {
 }
 
 
-number.14.Violin.1.Music = {
+number.14.Violin.1.Music =
+{
 
     % [Violin.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1387,18 +1391,24 @@ number.14.Violin.1.Music = {
 }
 
 
-number.14.Violin.1.Staff = <<
+number.14.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.14.Rests }
+    {
+        \number.14.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.14.Violin.1.Music }
+    {
+        \number.14.Violin.1.Music
+    }
 
 >>
 
 
-number.14.Violin.2.Music = {
+number.14.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1720,15 +1730,19 @@ number.14.Violin.2.Music = {
 }
 
 
-number.14.Violin.2.Staff = {
+number.14.Violin.2.Staff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.14.Violin.2.Music }
+    {
+        \number.14.Violin.2.Music
+    }
 
 }
 
 
-number.14.Viola.Music = {
+number.14.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
@@ -2050,15 +2064,19 @@ number.14.Viola.Music = {
 }
 
 
-number.14.Viola.Staff = {
+number.14.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.14.Viola.Music }
+    {
+        \number.14.Viola.Music
+    }
 
 }
 
 
-number.14.Cello.Music = {
+number.14.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -2337,9 +2355,12 @@ number.14.Cello.Music = {
 }
 
 
-number.14.Cello.Staff = {
+number.14.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.14.Cello.Music }
+    {
+        \number.14.Cello.Music
+    }
 
 }
