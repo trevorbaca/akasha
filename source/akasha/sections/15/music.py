@@ -120,7 +120,7 @@ def va(m):
 def vc(m):
     _1_24(m)
     with baca.scope(baca.select.rleaf(m[25], -1)) as o:
-        baca.mark(o.leaf(0), r"\akasha-colophon-markup")
+        baca.rehearsal_mark(o.leaf(0), r"\akasha-colophon-markup")
         baca.override.rehearsal_mark_direction_down(o.leaf(0))
         baca.override.rehearsal_mark_padding(o.leaf(0), 6)
         baca.override.rehearsal_mark_self_alignment_x(o.leaf(0), abjad.RIGHT)
