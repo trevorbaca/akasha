@@ -16,7 +16,7 @@ number.8.Skips =
     %@% \mark \markup \with-dimensions-from \null "08"
     s1 * 7/8
     - \tweak extra-offset #'(0 . 5)
-    - \baca-rehearsal-mark-markup "G" #6
+    - \baca-dimensionless-boxed-markup "G" #6
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR

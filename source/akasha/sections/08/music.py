@@ -21,7 +21,7 @@ def make_empty_score():
 
 
 def GLOBALS(skips, rests):
-    baca.rehearsal_mark(
+    baca.dimensionless_boxed_markup(
         skips[1 - 1],
         "G",
         baca.tweak.extra_offset((0, 5)),

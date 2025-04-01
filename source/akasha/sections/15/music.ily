@@ -16,7 +16,7 @@ number.15.Skips =
     %@% \mark \markup \with-dimensions-from \null "15"
     s1 * 3/8
     - \tweak extra-offset #'(0 . 13)
-    - \baca-rehearsal-mark-markup "N" #10
+    - \baca-dimensionless-boxed-markup "N" #10
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
