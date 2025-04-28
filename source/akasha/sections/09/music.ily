@@ -899,7 +899,8 @@ number.9.Viola.Music =
 
     >>
 
-    \tuplet 9/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \tuplet 9/7
     {
 
         % [Viola.Music measure 5]
@@ -913,7 +914,7 @@ number.9.Viola.Music =
         \once \override Staff.StaffSymbol.line-count = 5
           %! EXPLICIT_STAFF_LINES
         \startStaff
-        ds!1..
+        ds!\breve
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -931,7 +932,7 @@ number.9.Viola.Music =
         \>
         \glissando
 
-        cqs!8..
+        cqs!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -1160,7 +1161,8 @@ number.9.Cello.Music =
 
     >>
 
-    \tuplet 9/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \tuplet 9/7
     {
 
         % [Cello.Music measure 5]
@@ -1171,7 +1173,7 @@ number.9.Cello.Music =
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-        cs,!1..
+        cs,!\breve
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -1189,7 +1191,7 @@ number.9.Cello.Music =
         \>
         \glissando
 
-        bf,,!8..
+        bf,,!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
