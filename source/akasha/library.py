@@ -384,7 +384,7 @@ def make_sparse_getato_rhythm(
     tag = baca.helpers.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = [baca.sequence.quarters([_]) for _ in durations]
-    durations = abjad.sequence.flatten(durations)
+    durations = abjad.sequence.flatten(durations, depth=-1)
     tuplets = rmakers.talea(
         durations,
         perforated_counts(degree=degree, rotation=rotation),
