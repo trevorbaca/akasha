@@ -523,7 +523,7 @@ def rhythm(
         tag=tag,
         voice_name=voice.name,
     )
-    rmakers.force_fraction(voice_)
+    # rmakers.force_fraction(voice_)
     rmakers.force_repeat_tie(voice_)
     components = abjad.mutate.eject_contents(voice_)
     voice.extend(components)
