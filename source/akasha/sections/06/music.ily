@@ -2545,6 +2545,7 @@ number.6.Violin.1.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -2657,6 +2658,7 @@ number.6.Violin.1.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -2775,6 +2777,7 @@ number.6.Violin.1.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -2973,6 +2976,7 @@ number.6.Violin.1.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -4406,6 +4410,7 @@ number.6.Violin.2.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -4518,6 +4523,7 @@ number.6.Violin.2.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -4656,6 +4662,7 @@ number.6.Violin.2.Music =
     - \staccato
     ]
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 15/12
     {
 
@@ -4838,6 +4845,7 @@ number.6.Violin.2.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -7221,6 +7229,7 @@ number.6.Cello.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -7388,6 +7397,7 @@ number.6.Cello.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 15/12
     {
 
@@ -7445,6 +7455,7 @@ number.6.Cello.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 18/12
     {
 
@@ -7506,6 +7517,7 @@ number.6.Cello.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -7539,6 +7551,7 @@ number.6.Cello.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 15/10
     {
 
@@ -7657,6 +7670,7 @@ number.6.Cello.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 15/12
     {
 

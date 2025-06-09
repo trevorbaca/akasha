@@ -905,6 +905,7 @@ number.8.Violin.1.Music =
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 18/12
     {
 

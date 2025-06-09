@@ -3590,6 +3590,7 @@ number.7.Violin.1.Music =
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 18/12
     {
 
@@ -5525,6 +5526,7 @@ number.7.Violin.2.Music =
     - \staccato
     ]
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 9/6
     {
 
@@ -6723,6 +6725,7 @@ number.7.Viola.Music =
 
     >>
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 15/12
     {
 
@@ -8284,6 +8287,7 @@ number.7.Cello.Music =
     - \staccato
     ]
 
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 15/12
     {
 
