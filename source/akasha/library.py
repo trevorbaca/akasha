@@ -231,7 +231,7 @@ def make_glissando_rhythm(time_signatures):
     return tuplets
 
 
-def make_growth_rhythm(time_signatures, first_silence, ratio, *, extra_counts=()):
+def make_growth_rhythm(time_signatures, first_silence, proportion, *, extra_counts=()):
     tag = baca.helpers.function_name(inspect.currentframe())
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
@@ -240,7 +240,9 @@ def make_growth_rhythm(time_signatures, first_silence, ratio, *, extra_counts=()
     weights = [abjad.Duration(1, 4)]
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
-    duration_lists = abjad.sequence.partition_by_ratio_of_lengths(durations, ratio)
+    duration_lists = abjad.sequence.partition_by_proportion_of_lengths(
+        durations, proportion
+    )
     components = []
     for i, duration_list in enumerate(duration_lists):
         if i in (1, 3, 5):
