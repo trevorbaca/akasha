@@ -231,7 +231,9 @@ def make_glissando_rhythm(time_signatures):
     return tuplets
 
 
-def make_growth_rhythm(time_signatures, first_silence, proportion, *, extra_counts=()):
+def make_growth_rhythm(
+    time_signatures, first_silence, proportion, *, extra_counts=None
+):
     tag = baca.helpers.function_name(inspect.currentframe())
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
@@ -358,7 +360,7 @@ def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, fuse=False):
 
 
 def make_scratch_rhythm(
-    time_signatures, denominators, extra_counts=(), force_rest_lts=None
+    time_signatures, denominators, extra_counts=None, force_rest_lts=None
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
