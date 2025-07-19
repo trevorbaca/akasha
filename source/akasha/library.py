@@ -254,7 +254,7 @@ def make_growth_rhythm(
                 rmakers.durations([(1, 2), (1, 8), (1, 16)]),
                 tag=tag,
             )
-            time_signatures = [abjad.TimeSignature(duration.pair())]
+            time_signatures = [abjad.TimeSignature(duration.get_pair())]
             voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
             rmakers.force_rest(
                 abjad.select.get(baca.select.lts(voice), pattern),
@@ -267,7 +267,7 @@ def make_growth_rhythm(
             tuplets = rmakers.talea(
                 duration_list, [9, 4, 8, 7], 16, extra_counts=extra_counts, tag=tag
             )
-            time_signatures = [abjad.TimeSignature(_.pair()) for _ in duration_list]
+            time_signatures = [abjad.TimeSignature(_.get_pair()) for _ in duration_list]
             voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
             rmakers.force_rest(
                 abjad.select.get(baca.select.lts(voice), pattern),
