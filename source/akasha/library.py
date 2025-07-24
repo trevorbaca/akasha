@@ -81,7 +81,7 @@ def frame(written_n, framed_n):
 def getato_pitches(start_pitch, intervals=[0], *, direction=abjad.UP, function=None):
     assert function is not None
     start_pitch = abjad.NumberedPitch(start_pitch)
-    start_pitch = start_pitch.number
+    start_pitch = start_pitch.get_number()
     pitch_numbers = _getato_intervals()
     if direction == abjad.DOWN:
         pitch_numbers = [-_ for _ in pitch_numbers]
@@ -95,7 +95,7 @@ def harmonic_glissando_pitches(
     start_pitch, *, direction=abjad.UP, function=None, rotation=None
 ):
     start_pitch = abjad.NumberedPitch(start_pitch)
-    start_pitch = start_pitch.number
+    start_pitch = start_pitch.get_number()
     pitch_numbers = _getato_intervals()
     pitch_numbers = [3 * _ for _ in pitch_numbers]
     if direction == abjad.DOWN:
