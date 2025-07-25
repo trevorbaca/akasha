@@ -46,7 +46,7 @@ def cello_solo_pitches(*, transposition=None):
     pitches = [abjad.NamedPitch(_) for _ in string.split()]
     if transposition:
         pitches = [_.transpose(n=transposition) for _ in pitches]
-    pitches = [_.get_name(locale="us") for _ in pitches]
+    pitches = [_.get_name_in_locale(locale="us") for _ in pitches]
     return pitches
 
 
