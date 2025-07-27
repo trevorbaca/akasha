@@ -70,11 +70,11 @@ def V1(voice, time_signatures):
     voice.extend(music)
     music = baca.make_notes(time_signatures(11, 13), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14), head=voice.name)
+    music = baca.make_mmrests(time_signatures(14), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(15, 16))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(17), head=voice.name)
+    music = baca.make_mmrests(time_signatures(17), head=voice.get_name())
     voice.extend(music)
 
 
@@ -87,11 +87,11 @@ def V2(voice, time_signatures):
     voice.extend(music)
     music = baca.make_notes(time_signatures(11, 13), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14), head=voice.name)
+    music = baca.make_mmrests(time_signatures(14), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(15, 16))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(17), head=voice.name)
+    music = baca.make_mmrests(time_signatures(17), head=voice.get_name())
     voice.extend(music)
 
 
@@ -104,7 +104,7 @@ def VA(voice, time_signatures):
     voice.extend(music)
     music = baca.make_notes(time_signatures(11, 13), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14), head=voice.name)
+    music = baca.make_mmrests(time_signatures(14), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(15, 17))
     voice.extend(music)
@@ -119,11 +119,11 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_notes(time_signatures(11, 13), repeat_ties=True)
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14), head=voice.name)
+    music = baca.make_mmrests(time_signatures(14), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(15, 16))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(17), head=voice.name)
+    music = baca.make_mmrests(time_signatures(17), head=voice.get_name())
     voice.extend(music)
 
 

@@ -49,14 +49,14 @@ def V1(voice, time_signatures):
         fuse_counts=[1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4, 11), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4, 11), head=voice.get_name())
     voice.extend(music)
 
 
 def V2(voice, time_signatures):
     music = library.make_polyphony_rhythm(time_signatures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4, 9), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4, 9), head=voice.get_name())
     voice.extend(music)
     music = library.make_accelerando_rhythm(
         time_signatures(10, 11),
@@ -73,7 +73,7 @@ def VA(voice, time_signatures):
         rotation=-2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4, 10), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4, 10), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(11))
     voice.extend(music)
@@ -92,7 +92,7 @@ def VC(voice, time_signatures):
         force_rest_tuplets=~abjad.Pattern([5, -6, -5, -4, -3, -2, -1]),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(5), head=voice.name)
+    music = baca.make_mmrests(time_signatures(5), head=voice.get_name())
     voice.extend(music)
     music = library.make_sparse_getato_rhythm(
         time_signatures(6),
@@ -101,7 +101,7 @@ def VC(voice, time_signatures):
         rotation=-4,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(7), head=voice.name)
+    music = baca.make_mmrests(time_signatures(7), head=voice.get_name())
     voice.extend(music)
     music = library.make_sparse_getato_rhythm(
         time_signatures(8),
@@ -110,7 +110,7 @@ def VC(voice, time_signatures):
         rotation=-8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9, 10), head=voice.name)
+    music = baca.make_mmrests(time_signatures(9, 10), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(11))
     voice.extend(music)

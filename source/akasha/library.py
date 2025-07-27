@@ -525,7 +525,7 @@ def rhythm(
         boundary_depth=1,
         do_not_rewrite_meter=do_not_rewrite_meter,
         tag=tag,
-        voice_name=voice.name,
+        voice_name=voice.get_name(),
     )
     # rmakers.force_fraction(voice_)
     rmakers.force_repeat_tie(voice_)
