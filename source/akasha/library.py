@@ -490,7 +490,7 @@ def perforated_counts(*, degree=0, rotation=None):
         pattern = abjad.index([0, 1, 2, 12, 13, 21, 31, 32, 33], 36)
     else:
         raise ValueError(f"degree must be between 0 and 1: {degree!r}.")
-    vector = pattern.get_boolean_vector()
+    vector = pattern.boolean_vector()
     parts = abjad.sequence.group_by(vector)
     for part in parts:
         if part[0] == 0:
