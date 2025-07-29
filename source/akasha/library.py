@@ -59,7 +59,7 @@ def compound_quarters(time_signatures):
             weights = [(1, 4)]
         weights = [abjad.Duration(_) for _ in weights]
         durations_ = abjad.sequence.split(
-            [time_signature.get_duration()], weights, cyclic=True, overhang=True
+            [time_signature.duration()], weights, cyclic=True, overhang=True
         )
         durations.extend(durations_)
     durations = abjad.sequence.flatten(durations)
@@ -116,7 +116,7 @@ def make_accelerando_rhythm(
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
     fuse_counts = fuse_counts or []
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     if fuse is True:
         durations = [sum(durations)]
     else:
@@ -146,7 +146,7 @@ def make_accelerando_rhythm(
 def make_cello_solo_rhythm(time_signatures, *, rotation=None):
     tag = baca.helpers.function_name(inspect.currentframe())
     counts = abjad.sequence.rotate([7, 1, 10, 2], n=rotation)
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     tuplets = rmakers.talea(durations, counts, 16, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice)
@@ -224,7 +224,7 @@ def make_empty_score():
 
 def make_glissando_rhythm(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
     tuplets = rmakers.tuplet(durations, [(8, 1)], tag=tag)
     rmakers.beam(tuplets)
@@ -237,7 +237,7 @@ def make_growth_rhythm(
     tag = baca.helpers.function_name(inspect.currentframe())
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     pattern = pattern & abjad.index([0, -1], inverted=True)
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
     weights = [abjad.Duration(1, 4)]
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
@@ -297,7 +297,7 @@ def make_manifest_rhythm(time_signatures, these_counts):
         counts, these_counts, overhang=abjad.EXACT
     )
     these_counts = [sum(_) for _ in these_counts]
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     tuplets = rmakers.talea(
         durations, these_counts, 16, read_talea_once_only=True, tag=tag
     )
@@ -314,7 +314,7 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     counts = [4, 14, 4, 6, 18]
     counts = abjad.sequence.rotate(counts, n=rotation)
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     tuplets = rmakers.talea(durations, counts, 16, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_lts is not None:
@@ -332,7 +332,7 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
 
 def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, fuse=False):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     if fuse is True:
         durations = [sum(durations)]
     else:
@@ -363,7 +363,7 @@ def make_scratch_rhythm(
     time_signatures, denominators, extra_counts=None, force_rest_lts=None
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     tuplets = rmakers.even_division(
         durations, denominators, extra_counts=extra_counts, tag=tag
     )
@@ -386,7 +386,7 @@ def make_sparse_getato_rhythm(
     rotation=None,
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     durations = [baca.sequence.quarters([_]) for _ in durations]
     durations = abjad.sequence.flatten(durations, depth=-1)
     tuplets = rmakers.talea(
@@ -412,7 +412,7 @@ def make_sparse_getato_rhythm(
 
 def make_untied_notes(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -424,7 +424,7 @@ def make_untied_notes(time_signatures):
 
 def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     pairs = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     weights = [abjad.Duration(_) for _ in pairs]
     weights = abjad.sequence.rotate(weights, n=rotation)
