@@ -44,7 +44,7 @@ def V2(voice, time_signatures):
 def VA(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(3), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(3), head=voice.name())
     voice.extend(music)
 
 

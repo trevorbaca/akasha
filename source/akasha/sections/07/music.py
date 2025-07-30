@@ -86,7 +86,7 @@ def V1(voice, time_signatures):
         [3, 0, 2, 1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(5, 7), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(5, 7), head=voice.name())
     voice.extend(music)
     music = library.make_accelerando_rhythm(
         time_signatures(8, 9),
@@ -94,7 +94,7 @@ def V1(voice, time_signatures):
         fuse_counts=[1, 2],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(10), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(10), head=voice.name())
     voice.extend(music)
     music = library.make_growth_rhythm(
         time_signatures(11, 22),
@@ -107,7 +107,7 @@ def V1(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(27, 34))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(35), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(35), head=voice.name())
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         time_signatures(36, 41),
@@ -115,7 +115,7 @@ def V1(voice, time_signatures):
         [6, 4, 6, 3],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(42, 44), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(42, 44), head=voice.name())
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         time_signatures(45),
@@ -123,7 +123,7 @@ def V1(voice, time_signatures):
         [6, 4, 6, 3],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(46, 48), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(46, 48), head=voice.name())
     voice.extend(music)
 
 
@@ -136,14 +136,14 @@ def V2(voice, time_signatures):
         [6, 3, 5, 4],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(5, 7), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(5, 7), head=voice.name())
     voice.extend(music)
     music = library.make_ritardando_rhythm(
         time_signatures(8, 9),
         force_rest_lts=[2, 5],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(10), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(10), head=voice.name())
     voice.extend(music)
     music = library.make_growth_rhythm(
         time_signatures(11, 22),
@@ -155,7 +155,7 @@ def V2(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(27, 34))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(35), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(35), head=voice.name())
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         time_signatures(36, 41),
@@ -163,7 +163,7 @@ def V2(voice, time_signatures):
         [4, 6, 3, 6],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(42, 44), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(42, 44), head=voice.name())
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         time_signatures(45),
@@ -171,7 +171,7 @@ def V2(voice, time_signatures):
         [4, 6, 3, 6],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(46, 48), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(46, 48), head=voice.name())
     voice.extend(music)
 
 
@@ -180,7 +180,7 @@ def VA(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(6))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(7, 10), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(7, 10), head=voice.name())
     voice.extend(music)
     music = library.make_manifest_rhythm(
         time_signatures(11, 26),
@@ -189,7 +189,7 @@ def VA(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(27, 34))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(35), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(35), head=voice.name())
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         time_signatures(36, 41),
@@ -197,11 +197,11 @@ def VA(voice, time_signatures):
         [3, 6, 4, 6],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(42), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(42), head=voice.name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(43))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(44), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(44), head=voice.name())
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         time_signatures(45),
@@ -209,11 +209,11 @@ def VA(voice, time_signatures):
         [3, 6, 4, 6],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(46), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(46), head=voice.name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(47))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(48), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(48), head=voice.name())
     voice.extend(music)
 
 
@@ -226,7 +226,7 @@ def VC(voice, time_signatures):
         [6, 3, 5, 4],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(5, 10), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(5, 10), head=voice.name())
     voice.extend(music)
     music = library.make_manifest_rhythm(
         time_signatures(11, 26),
@@ -235,7 +235,7 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(27, 34))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(35), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(35), head=voice.name())
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         time_signatures(36, 41),
@@ -243,7 +243,7 @@ def VC(voice, time_signatures):
         [6, 3, 6, 4],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(42, 44), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(42, 44), head=voice.name())
     voice.extend(music)
     music = library.make_dense_getato_rhythm(
         time_signatures(45),
@@ -251,7 +251,7 @@ def VC(voice, time_signatures):
         [6, 3, 6, 4],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(46, 48), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(46, 48), head=voice.name())
     voice.extend(music)
 
 
