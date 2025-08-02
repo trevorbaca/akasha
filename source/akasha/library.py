@@ -57,7 +57,7 @@ def compound_quarters(time_signatures):
             weights = [(3, 8)]
         else:
             weights = [(1, 4)]
-        weights = [abjad.Duration(_) for _ in weights]
+        weights = abjad.duration.durations(weights)
         durations_ = abjad.sequence.split(
             [time_signature.duration()], weights, cyclic=True, overhang=True
         )
@@ -277,7 +277,7 @@ def make_growth_rhythm(
             rmakers.rewrite_rest_filled(voice, tag=tag)
             rmakers.rewrite_sustained(voice)
             rmakers.extract_trivial(voice)
-            rmakers.force_repeat_tie(voice, threshold=(1, 4))
+            rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
             components_ = abjad.mutate.eject_contents(voice)
         components.extend(components_)
     return components
@@ -305,7 +305,7 @@ def make_manifest_rhythm(time_signatures, these_counts):
     rmakers.beam(voice)
     rmakers.extract_trivial(voice)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=(1, 4))
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -325,7 +325,7 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     rmakers.trivialize(voice)
     rmakers.extract_trivial(voice)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=(1, 4))
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -426,7 +426,7 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     tag = baca.helpers.function_name(inspect.currentframe())
     durations = [_.duration() for _ in time_signatures]
     pairs = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
-    weights = [abjad.Duration(_) for _ in pairs]
+    weights = abjad.duration.durations(pairs)
     weights = abjad.sequence.rotate(weights, n=rotation)
     durations = [sum(durations)]
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
@@ -438,7 +438,7 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     rmakers.force_rest(leaves, tag=tag)
     rmakers.beam(baca.select.plts(voice))
     rmakers.split_measures(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=(1, 4))
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
