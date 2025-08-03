@@ -126,8 +126,8 @@ def make_accelerando_rhythm(
         durations = [sum(_) for _ in durations]
     tuplets = rmakers.accelerando(
         durations,
-        rmakers.durations([(1, 2), (1, 8), (1, 16)]),
-        rmakers.durations([(1, 8), (1, 2), (1, 16)]),
+        abjad.duration.durations([(1, 2), (1, 8), (1, 16)]),
+        abjad.duration.durations([(1, 8), (1, 2), (1, 16)]),
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -251,7 +251,7 @@ def make_growth_rhythm(
             duration = sum(duration_list)
             tuplets = rmakers.accelerando(
                 [duration],
-                rmakers.durations([(1, 2), (1, 8), (1, 16)]),
+                abjad.duration.durations([(1, 2), (1, 8), (1, 16)]),
                 tag=tag,
             )
             time_signatures = [abjad.TimeSignature(duration.pair())]
@@ -342,8 +342,8 @@ def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, fuse=False):
         durations = [sum(_) for _ in durations]
     tuplets = rmakers.accelerando(
         durations,
-        rmakers.durations([(1, 8), (1, 2), (1, 16)]),
-        rmakers.durations([(1, 2), (1, 8), (1, 16)]),
+        abjad.duration.durations([(1, 8), (1, 2), (1, 16)]),
+        abjad.duration.durations([(1, 2), (1, 8), (1, 16)]),
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
