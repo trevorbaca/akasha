@@ -239,7 +239,7 @@ def make_growth_rhythm(
     pattern = pattern & abjad.index([0, -1], inverted=True)
     durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
-    weights = [abjad.ValueDuration(1, 4)]
+    weights = [abjad.Duration(1, 4)]
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
     duration_lists = abjad.sequence.partition_by_proportion_of_lengths(
@@ -277,7 +277,7 @@ def make_growth_rhythm(
             rmakers.rewrite_rest_filled(voice, tag=tag)
             rmakers.rewrite_sustained(voice)
             rmakers.extract_trivial(voice)
-            rmakers.force_repeat_tie(voice, threshold=abjad.ValueDuration(1, 4))
+            rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
             components_ = abjad.mutate.eject_contents(voice)
         components.extend(components_)
     return components
@@ -305,7 +305,7 @@ def make_manifest_rhythm(time_signatures, these_counts):
     rmakers.beam(voice)
     rmakers.extract_trivial(voice)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.ValueDuration(1, 4))
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -325,7 +325,7 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     rmakers.trivialize(voice)
     rmakers.extract_trivial(voice)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.ValueDuration(1, 4))
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -438,7 +438,7 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     rmakers.force_rest(leaves, tag=tag)
     rmakers.beam(baca.select.plts(voice))
     rmakers.split_measures(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.ValueDuration(1, 4))
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -568,11 +568,11 @@ instruments = {
 
 
 metronome_marks = {
-    "38": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 38),
-    "44": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 44),
-    "55": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 55),
-    "89": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 89),
-    "126": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 126),
+    "38": abjad.MetronomeMark(abjad.Duration(1, 4), 38),
+    "44": abjad.MetronomeMark(abjad.Duration(1, 4), 44),
+    "55": abjad.MetronomeMark(abjad.Duration(1, 4), 55),
+    "89": abjad.MetronomeMark(abjad.Duration(1, 4), 89),
+    "126": abjad.MetronomeMark(abjad.Duration(1, 4), 126),
 }
 
 
