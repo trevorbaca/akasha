@@ -139,7 +139,8 @@ def make_accelerando_rhythm(
         lts = abjad.select.get(lts, force_rest_lts)
         rmakers.force_rest(lts, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
-    rmakers.extract_trivial(voice)
+    tuplets = abjad.select.tuplets(voice)
+    rmakers.extract_trivial(tuplets)
     tuplets = abjad.select.tuplets(voice, level=1)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.duration_bracket(tuplets)
@@ -156,7 +157,7 @@ def make_cello_solo_rhythm(time_signatures, *, rotation=None):
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists)
-    rmakers.extract_trivial(voice)
+    rmakers.extract_trivial(tuplets)
     rmakers.force_repeat_tie(voice)
     components = abjad.mutate.eject_contents(voice)
     return components
@@ -183,7 +184,7 @@ def make_dense_getato_rhythm(
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists)
     rmakers.rewrite_rest_filled(voice, tag=tag)
-    rmakers.extract_trivial(voice)
+    rmakers.extract_trivial(tuplets)
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -290,7 +291,8 @@ def make_growth_rhythm(
             rmakers.beam(leaf_lists)
             rmakers.rewrite_rest_filled(voice, tag=tag)
             rmakers.rewrite_sustained(voice)
-            rmakers.extract_trivial(voice)
+            tuplets = abjad.select.tuplets(voice)
+            rmakers.extract_trivial(tuplets)
             rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
             components_ = abjad.mutate.eject_contents(voice)
         components.extend(components_)
@@ -318,7 +320,7 @@ def make_manifest_rhythm(time_signatures, these_counts):
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists)
-    rmakers.extract_trivial(voice)
+    rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
@@ -339,7 +341,7 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists)
     rmakers.trivialize(voice)
-    rmakers.extract_trivial(voice)
+    rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
@@ -370,7 +372,8 @@ def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, fuse=False):
         lts = abjad.select.get(lts, force_rest_lts)
         rmakers.force_rest(lts, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
-    rmakers.extract_trivial(voice)
+    tuplets = abjad.select.tuplets(voice)
+    rmakers.extract_trivial(tuplets)
     tuplets = abjad.select.tuplets(voice, level=1)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.duration_bracket(tuplets)
@@ -423,12 +426,13 @@ def make_sparse_getato_rhythm(
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         rmakers.force_rest(tuplets, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
-    rmakers.extract_rest_filled(voice)
+    tuplets = abjad.select.tuplets(voice)
+    rmakers.extract_rest_filled(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.extract_trivial(voice)
+    rmakers.extract_trivial(tuplets)
     components = abjad.mutate.eject_contents(voice)
     return components
 
