@@ -142,7 +142,7 @@ def make_accelerando_rhythm(
     rmakers.extract_trivial(voice)
     tuplets = abjad.select.tuplets(voice, level=1)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.duration_bracket(voice)
+    rmakers.duration_bracket(tuplets)
     rmakers.feather_beam(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
     components = abjad.mutate.eject_contents(voice)
     return components
@@ -274,7 +274,7 @@ def make_growth_rhythm(
             rmakers.feather_beam(
                 leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag
             )
-            rmakers.duration_bracket(voice)
+            rmakers.duration_bracket(tuplets)
             components_ = abjad.mutate.eject_contents(voice)
         else:
             tuplets = rmakers.talea(
@@ -373,7 +373,7 @@ def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, fuse=False):
     rmakers.extract_trivial(voice)
     tuplets = abjad.select.tuplets(voice, level=1)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.duration_bracket(voice)
+    rmakers.duration_bracket(tuplets)
     rmakers.feather_beam(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
     components = abjad.mutate.eject_contents(voice)
     return components
