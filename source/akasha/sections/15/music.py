@@ -48,8 +48,10 @@ def V1(voice, time_signatures):
         repeat_ties=True,
     )
     voice.extend(music)
+    lts = abjad.select.get(baca.select.lts(music), ([1], 2))
+    leaves = abjad.select.leaves(lts)
     rmakers.force_rest(
-        abjad.select.get(baca.select.lts(music), ([1], 2)),
+        leaves,
         tag=abjad.Tag("akasha.V1()"),
     )
     music = baca.make_mmrests(time_signatures(17, 25))
@@ -74,8 +76,10 @@ def VA(voice, time_signatures):
         repeat_ties=True,
     )
     voice.extend(music)
+    lts = abjad.select.get(baca.select.lts(music), ([1], 2))
+    leaves = abjad.select.leaves(lts)
     rmakers.force_rest(
-        abjad.select.get(baca.select.lts(music), ([1], 2)),
+        leaves,
         tag=abjad.Tag("akasha.VA()"),
     )
     music = baca.make_mmrests(time_signatures(17, 25))
@@ -88,8 +92,10 @@ def VC(voice, time_signatures):
         repeat_ties=True,
     )
     voice.extend(music)
+    lts = abjad.select.get(baca.select.lts(music), ([1], 2))
+    leaves = abjad.select.leaves(lts)
     rmakers.force_rest(
-        abjad.select.get(baca.select.lts(music), ([1], 2)),
+        leaves,
         tag=abjad.Tag("akasha.VC()"),
     )
     music = baca.make_mmrests(time_signatures(17, 25))
