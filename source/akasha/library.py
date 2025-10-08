@@ -159,7 +159,8 @@ def make_cello_solo_rhythm(time_signatures, *, rotation=None):
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists)
     rmakers.extract_trivial(tuplets)
-    rmakers.force_repeat_tie(voice)
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves)
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -293,7 +294,8 @@ def make_growth_rhythm(
             rmakers.rewrite_sustained(voice)
             tuplets = abjad.select.tuplets(voice)
             rmakers.extract_trivial(tuplets)
-            rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
+            leaves = abjad.select.leaves(voice)
+            rmakers.force_repeat_tie(leaves, threshold=abjad.Duration(1, 4))
             components_ = abjad.mutate.eject_contents(voice)
         components.extend(components_)
     return components
@@ -322,7 +324,8 @@ def make_manifest_rhythm(time_signatures, these_counts):
     rmakers.beam(leaf_lists)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -344,7 +347,8 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
     rmakers.trivialize(voice)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -469,7 +473,8 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     rmakers.force_rest(leaves, tag=tag)
     rmakers.beam(baca.select.plts(voice))
     rmakers.split_measures(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4))
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, threshold=abjad.Duration(1, 4))
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -558,8 +563,8 @@ def rhythm(
         tag=tag,
         voice_name=voice.name(),
     )
-    # rmakers.force_fraction(voice_)
-    rmakers.force_repeat_tie(voice_)
+    leaves = abjad.select.leaves(voice_)
+    rmakers.force_repeat_tie(leaves)
     components = abjad.mutate.eject_contents(voice_)
     voice.extend(components)
     return components
