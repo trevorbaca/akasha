@@ -344,7 +344,7 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
         rmakers.force_rest(leaves, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists)
-    rmakers.trivialize(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
