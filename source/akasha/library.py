@@ -451,8 +451,10 @@ def make_untied_notes(time_signatures):
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.beam(baca.select.plts(voice))
-    rmakers.untie(voice)
+    plts = baca.select.plts(voice)
+    rmakers.beam(plts)
+    pleaves = abjad.sequence.flatten(plts)
+    rmakers.untie_leaves(pleaves)
     components = abjad.mutate.eject_contents(voice)
     return components
 
