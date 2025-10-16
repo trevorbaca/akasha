@@ -457,7 +457,7 @@ def make_untied_notes(time_signatures):
     plts = baca.select.plts(voice)
     rmakers.beam_runs(plts)
     pleaves = abjad.sequence.flatten(plts)
-    rmakers.untie_leaves(pleaves)
+    rmakers.detach_ties_from_leaves(pleaves)
     components = abjad.mutate.eject_contents(voice)
     return components
 
