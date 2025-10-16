@@ -145,7 +145,9 @@ def make_accelerando_rhythm(
     tuplets = abjad.select.tuplets(voice, level=1)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.override_tuplet_number_text_duration_markup(tuplets)
-    rmakers.beam_runs(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
+    rmakers.attach_beams_to_runs_by_leaf_list(
+        leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag
+    )
     rmakers.override_beam_grow_direction(leaf_lists, tag=tag)
     components = abjad.mutate.eject_contents(voice)
     return components
@@ -158,7 +160,7 @@ def make_cello_solo_rhythm(time_signatures, *, rotation=None):
     tuplets = rmakers.talea(durations, counts, 16, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam_runs(leaf_lists)
+    rmakers.attach_beams_to_runs_by_leaf_list(leaf_lists)
     rmakers.extract_trivial_tuplets(tuplets)
     leaves = abjad.select.leaves(voice)
     rmakers.replace_ties_with_repeat_ties(leaves)
@@ -186,7 +188,7 @@ def make_dense_getato_rhythm(
         rmakers.replace_leaves_with_rests(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam_runs(leaf_lists)
+    rmakers.attach_beams_to_runs_by_leaf_list(leaf_lists)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.extract_trivial_tuplets(tuplets)
     components = abjad.mutate.eject_contents(voice)
@@ -241,7 +243,7 @@ def make_glissando_rhythm(time_signatures):
     durations = [sum(durations)]
     tuplets = rmakers.tuplet(durations, [(8, 1)], tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam_runs(leaf_lists)
+    rmakers.attach_beams_to_runs_by_leaf_list(leaf_lists)
     return tuplets
 
 
@@ -275,7 +277,9 @@ def make_growth_rhythm(
             rmakers.replace_leaves_with_rests(leaves, tag=tag)
             tuplets = abjad.select.tuplets(voice, level=1)
             leaf_lists = [_[:] for _ in tuplets]
-            rmakers.beam_runs(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
+            rmakers.attach_beams_to_runs_by_leaf_list(
+                leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag
+            )
             rmakers.override_beam_grow_direction(leaf_lists)
             rmakers.override_tuplet_number_text_duration_markup(tuplets)
             components_ = abjad.mutate.eject_contents(voice)
@@ -289,7 +293,7 @@ def make_growth_rhythm(
             leaves = abjad.select.leaves(lts)
             rmakers.replace_leaves_with_rests(leaves, tag=tag)
             leaf_lists = [_[:] for _ in tuplets]
-            rmakers.beam_runs(leaf_lists)
+            rmakers.attach_beams_to_runs_by_leaf_list(leaf_lists)
             rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
             rmakers.rewrite_sustained_tuplets(tuplets)
             tuplets = abjad.select.tuplets(voice)
@@ -323,7 +327,7 @@ def make_manifest_rhythm(time_signatures, these_counts):
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam_runs(leaf_lists)
+    rmakers.attach_beams_to_runs_by_leaf_list(leaf_lists)
     rmakers.extract_trivial_tuplets(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
@@ -345,7 +349,7 @@ def make_polyphony_rhythm(time_signatures, *, force_rest_lts=None, rotation=0):
         leaves = abjad.select.leaves(lts)
         rmakers.replace_leaves_with_rests(leaves, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam_runs(leaf_lists)
+    rmakers.attach_beams_to_runs_by_leaf_list(leaf_lists)
     rmakers.trivialize_tuplets(tuplets)
     rmakers.extract_trivial_tuplets(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -385,7 +389,9 @@ def make_ritardando_rhythm(time_signatures, *, force_rest_lts=None, fuse=False):
     tuplets = abjad.select.tuplets(voice, level=1)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.override_tuplet_number_text_duration_markup(tuplets)
-    rmakers.beam_runs(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
+    rmakers.attach_beams_to_runs_by_leaf_list(
+        leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag
+    )
     rmakers.override_beam_grow_direction(leaf_lists)
     components = abjad.mutate.eject_contents(voice)
     return components
@@ -406,7 +412,7 @@ def make_scratch_rhythm(
         leaves = abjad.select.leaves(lts)
         rmakers.replace_leaves_with_rests(leaves, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam_runs(leaf_lists)
+    rmakers.attach_beams_to_runs_by_leaf_list(leaf_lists)
     components = abjad.mutate.eject_contents(voice)
     return components
 
@@ -442,7 +448,7 @@ def make_sparse_getato_rhythm(
     rmakers.rewrite_meter(voice, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam_runs(leaf_lists, tag=tag)
+    rmakers.attach_beams_to_runs_by_leaf_list(leaf_lists, tag=tag)
     rmakers.extract_trivial_tuplets(tuplets)
     components = abjad.mutate.eject_contents(voice)
     return components
@@ -455,7 +461,7 @@ def make_untied_notes(time_signatures):
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.rewrite_meter(voice, tag=tag)
     plts = baca.select.plts(voice)
-    rmakers.beam_runs(plts)
+    rmakers.attach_beams_to_runs_by_leaf_list(plts)
     pleaves = abjad.sequence.flatten(plts)
     rmakers.detach_ties_from_leaves(pleaves)
     components = abjad.mutate.eject_contents(voice)
@@ -476,7 +482,7 @@ def make_viola_ob_rhythm(time_signatures, *, rotation=None):
     leaves = abjad.select.leaves(voice)
     leaves = abjad.select.get(leaves, [0, -1])
     rmakers.replace_leaves_with_rests(leaves, tag=tag)
-    rmakers.beam_runs(baca.select.plts(voice))
+    rmakers.attach_beams_to_runs_by_leaf_list(baca.select.plts(voice))
     rmakers.split_measures(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
     rmakers.replace_ties_with_repeat_ties(leaves, threshold=abjad.Duration(1, 4))
